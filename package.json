@@ -1,0 +1,22 @@
+{
+  "name": "vue-icons",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.3",
+    "@vueuse/core": "^6.5.3",
+    "vue": "^3.2.13",
+    "vue-component-tailwind": "0.0.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.0",
+    "autoprefixer": "^10.3.5",
+    "postcss": "^8.3.8",
+    "tailwindcss": "^2.2.15",
+    "vite": "^2.5.10"
+  }
+}
