@@ -4,32 +4,46 @@
       <div @mouseover="handleMouseMove">
         <template v-for="(icon, index) in icons">
           <div
-            class="inline cursor-pointer transform hover:translate-y-1"
+            class="icon-browser inline-block cursor-pointer bg-gray-100 rounded-md p-2 m-2"
             :data-icon="index"
             @click="selectIcon(icon)"
           >
-            <component :is="icon" :class="[size, { 'icon--selected': icon.selected.value }, 'hover:text-indigo-500']"></component>
+            <component
+              :is="icon"
+              :class="[
+                size,
+                { 'icon--selected': icon.selected.value },
+              ]"
+            ></component>
           </div>
         </template>
       </div>
     </div>
-    <template v-if="filter">
-      <template v-for="icon in filteredIcons">
-        <div
-          class="inline cursor-pointer"
-          :class="{ 'icon--selected': icon.selected.value }"
-          :data-icon="icon.index"
-          @click="selectIcon(icon)"
-        >
-            <component :is="icon" :class="[size, { 'icon--selected': icon.selected.value }, 'hover:text-indigo-500']"></component>
-        </div>
+      <template v-if="filter">
+    <div @mouseover="handleMouseMove">
+        <template v-for="(icon, index) in filteredIcons">
+          <div
+            class="icon-browser inline-block cursor-pointer bg-gray-100 rounded-md p-2 m-2"
+            :data-icon="index"
+            @click="selectIcon(icon)"
+          >
+            <component
+              :is="icon"
+              class="icon-browser"
+              :class="[
+                size,
+                { 'icon--selected': icon.selected.value },
+              ]"
+            ></component>
+          </div>
+        </template>
+    </div>
       </template>
-    </template>
   </div>
 </template>
 
 <script>
-import { computed, onMounted } from "vue"
+import { computed, inject } from "vue";
 
 export default {
   props: {
@@ -47,26 +61,35 @@ export default {
         tags[tag].push(props.icons[icon]);
       }
     }
-    tags = Object.entries(tags)
+    tags = Object.entries(tags);
+
+    // filter icons
 
     let filteredIcons = computed(() => {
-      let filter = props.filter
-        if (!filter.length) return;
-        let res = {};
-        for (let t of tags) {
-          if (t[0].includes(filter)) {
-            for (let i of t[1]) {
-              res[i.name] = i;
-            }
+      let filter = props.filter;
+      if (!filter.length) return;
+      let res = {};
+      for (let t of tags) {
+        if (t[0].includes(filter)) {
+          for (let i of t[1]) {
+            res[i.name] = i;
           }
         }
-        return res;
-    })
+      }
+      return res;
+    });
+
+    // hover icon
+
+    let hoveredIcon = inject("hovered-icon");
 
     let handleMouseMove = (ev) => {
       let target = ev.target;
-      emit('icon-hover', target.dataset.icon)
+      console.log(target)
+      if (target) hoveredIcon.value = target.dataset.icon;
     };
+
+    // select icon
 
     let selectIcon = (icon) => {
       emit("selected-icon", icon);
@@ -85,6 +108,7 @@ export default {
 <style scoped>
 svg {
   display: inline;
+  pointer-events: none;
 }
 header {
   @apply my-10 text-2xl font-bold;

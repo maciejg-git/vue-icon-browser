@@ -4,18 +4,25 @@
       <div class="w-11/12 mx-auto">
         <div class="flex mt-10">
           <div class="flex gap-x-2">
+
+            <!-- vendor buttons -->
+
             <v-button @click="toggleVendor('bootstrap')">
               <v-spinner
                 v-if="vendors.bootstrap.loading"
                 style-spinner="small gray"
+                class="mr-2"
               ></v-spinner>
+              <v-icon v-if="vendors.bootstrap.active && !vendors.bootstrap.loading" :icon="BCheckLg" class="icon-button mr-2"></v-icon>
               Load Bootstrap Icons
             </v-button>
             <v-button @click="toggleVendor('mdi')"
               ><v-spinner
                 v-if="vendors.mdi.loading"
                 style-spinner="small gray"
+                class="mr-2"
               ></v-spinner>
+              <v-icon v-if="vendors.mdi.active && !vendors.mdi.loading" :icon="BCheckLg" class="icon-button mr-2"></v-icon>
               Load MDI</v-button
             >
             <v-button>Load Font Awesome</v-button>
@@ -56,7 +63,6 @@
             :filter="debounced"
             :size="size"
             @selected-icon="selectIcon"
-            @icon-hover="handleIconHover"
             @bootstrap-loaded="vendors.bootstrap.loading = false"
           ></icons-vendor-bootstrap>
         </transition-group>
@@ -73,7 +79,6 @@
             :filter="debounced"
             :size="size"
             @selected-icon="selectIcon"
-            @icon-hover="handleIconHover"
             @mdi-loaded="vendors.mdi.loading = false"
           ></icons-vendor-mdi>
         </transition>
@@ -99,7 +104,6 @@
         sidebar
         sticky
         flex
-        border-l
         bg-gray-50
         top-0
         max-h-screen
@@ -141,10 +145,11 @@
 </template>
 
 <script>
-import { ref, reactive, computed, inject, defineAsyncComponent } from "vue";
+import { ref, reactive, computed, inject, provide, defineAsyncComponent } from "vue";
 import LoadingProgress from "./LoadingProgress.vue";
 import { useDebounce } from "@vueuse/core";
-import { MdiContentCopy } from "../icons/dist-mdi";
+import { MdiContentCopy, MdiCheckboxOutline } from "../icons/dist-mdi";
+import { BCheckLg } from "../icons/dist-bootstrap";
 
 export default {
   components: {
@@ -163,7 +168,7 @@ export default {
 
     let vendors = reactive({
       bootstrap: {
-        active: true,
+        active: false,
         loading: false,
       },
       mdi: {
@@ -207,11 +212,7 @@ export default {
       vendors[vendor].active = !vendors[vendor].active;
     };
 
-    let handleIconHover = (icon) => {
-      if (icon) {
-        currentIcon.value = icon;
-      }
-    };
+    provide("hovered-icon", currentIcon)
 
     return {
       icons,
@@ -225,8 +226,9 @@ export default {
       sizes,
       vendors,
       toggleVendor,
-      handleIconHover,
       MdiContentCopy,
+      BCheckLg,
+      MdiCheckboxOutline,
     };
   },
 };

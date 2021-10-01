@@ -641,8 +641,7 @@
 .navbar {
   @apply
     w-full
-    bg-gray-100
-    shadow-md
+    bg-indigo-500
 }
     .navbar--bottom {
       @apply
@@ -1263,7 +1262,20 @@
     px-3
 }
 
+.icon-browser {
+  @apply
+    text-gray-700
+}
+
+.icon-button {
+  @apply
+    w-4
+    h-4
+}
+
 .b-icon {
+}
+.b-icon-browser {
   @apply
     text-gray-700
 }
@@ -1312,13 +1324,9 @@
   }
 
 .mdi-icon {
-  @apply
-    text-gray-700
 }
 
 .fa-icon {
-  @apply
-    text-gray-700
 }
 
 .ph-icon {

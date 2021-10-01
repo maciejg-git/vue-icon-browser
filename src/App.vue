@@ -1,6 +1,6 @@
 <template>
-  <v-navbar class="px-4 py-3">
-    <span class="text-xl font-bold">
+  <v-navbar class="px-4 py-3 shadow-none">
+    <span class="text-white text-xl font-bold">
       Vue-icons
     </span>
   </v-navbar>
