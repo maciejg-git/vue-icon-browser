@@ -4,41 +4,58 @@
       <div @mouseover="handleMouseMove">
         <template v-for="(icon, index) in icons">
           <div
-            class="icon-browser inline-block cursor-pointer bg-gray-100 rounded-md p-2 m-2"
-            :data-icon="index"
-            @click="selectIcon(icon)"
-          >
-            <component
-              :is="icon"
-              :class="[
-                size,
-                { 'icon--selected': icon.selected.value },
-              ]"
-            ></component>
-          </div>
-        </template>
-      </div>
-    </div>
-      <template v-if="filter">
-    <div @mouseover="handleMouseMove">
-        <template v-for="(icon, index) in filteredIcons">
-          <div
-            class="icon-browser inline-block cursor-pointer bg-gray-100 rounded-md p-2 m-2"
-            :data-icon="index"
+            class="
+              icon-browser
+              inline-block
+              cursor-pointer
+              bg-gray-100
+              hover:bg-indigo-100
+              rounded-md
+              p-2
+              m-2
+            "
+            :data-icon="icon.vendor + icon.name"
             @click="selectIcon(icon)"
           >
             <component
               :is="icon"
               class="icon-browser"
-              :class="[
-                size,
-                { 'icon--selected': icon.selected.value },
-              ]"
+              :class="[size, { 'icon--selected': icon.selected.value }]"
             ></component>
           </div>
         </template>
+      </div>
     </div>
-      </template>
+    <template v-if="filter">
+      <div v-if="Object.keys(filteredIcons).length == 0" class="flex">
+        <span class="mx-auto text-lg">
+          Nothing found for current filter.
+        </span>
+      </div>
+      <div @mouseover="handleMouseMove">
+        <template v-for="(icon, index) in filteredIcons">
+          <div
+            class="
+              icon-browser
+              inline-block
+              cursor-pointer
+              bg-gray-100
+              rounded-md
+              p-2
+              m-2
+            "
+            :data-icon="icon.vendor + icon.name"
+            @click="selectIcon(icon)"
+          >
+            <component
+              :is="icon"
+              class="icon-browser"
+              :class="[size, { 'icon--selected': icon.selected.value }]"
+            ></component>
+          </div>
+        </template>
+      </div>
+    </template>
   </div>
 </template>
 
@@ -85,7 +102,6 @@ export default {
 
     let handleMouseMove = (ev) => {
       let target = ev.target;
-      console.log(target)
       if (target) hoveredIcon.value = target.dataset.icon;
     };
 

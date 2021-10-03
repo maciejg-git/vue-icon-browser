@@ -1050,19 +1050,23 @@
     h-8
     w-8
 }
-    .spinner--blue {
+    .spinner--primary {
       @apply
-        text-blue-500
+        text-indigo-500
     }
-    .spinner--yellow {
+    .spinner--secondary {
+      @apply
+        text-gray-200
+    }
+    .spinner--warn {
       @apply
         text-yellow-500
     }
-    .spinner--green {
+    .spinner--success {
       @apply
         text-green-500
     }
-    .spinner--gray {
+    .spinner--light {
       @apply
         text-gray-300
     }
@@ -1262,6 +1266,17 @@
     px-3
 }
 
+.v-icon {
+  @apply
+    inline-block
+}
+
+.v-icon--lg {
+  @apply
+    w-10
+    h-10
+}
+
 .icon-browser {
   @apply
     text-gray-700
@@ -1273,66 +1288,10 @@
     h-4
 }
 
-.b-icon {
-}
-.b-icon-browser {
+.icon-standalone {
   @apply
-    text-gray-700
-}
-  .b-icon--sm {
-    @apply
-      h-4
-      w-4
-  }
-  .b-icon--md {
-    @apply
-      h-6
-      w-6
-  }
-  .b-icon--lg {
-    @apply
-      h-8
-      w-8
-  }
- .b-icon--info-type {
-    @apply
-      text-blue-500
-  }
-  .b-icon--danger-type {
-    @apply
-      text-red-500
-  }
-  .b-icon--success-type {
-    @apply
-      text-green-500
-  }
-  .b-icon--warn-type {
-    @apply
-      text-yellow-500
-  }
-  .b-icon--valid-type {
-    @apply
-      text-green-500
-  }
-  .b-icon--invalid-type {
-    @apply
-      text-red-500
-  }
-  .b-icon--light-type {
-    @apply
-      text-gray-500
-  }
-
-.mdi-icon {
-}
-
-.fa-icon {
-}
-
-.ph-icon {
-  @apply
-    h-4
-    w-4
+    w-6
+    h-6
 }
 
 .icon--selected {

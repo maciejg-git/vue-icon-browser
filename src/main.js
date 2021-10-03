@@ -8,8 +8,6 @@ import "vue-component-tailwind/dist/style.css"
 
 let app = createApp(App)
 
-app.component("icon", Icon)
-
 app.use(plugin)
 
 let icons = {
