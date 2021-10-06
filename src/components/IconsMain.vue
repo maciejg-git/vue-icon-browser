@@ -128,7 +128,7 @@ export default {
 
     let vendors = reactive({
       bootstrap: {
-        active: false,
+        active: true,
         loading: false,
       },
       mdi: {
