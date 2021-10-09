@@ -1,41 +1,46 @@
 <template>
   <div
-    class="sidebar sticky flex flex-col border-l top-14 overflow-y-auto pt-4"
+    class="sidebar sticky bg-gray-50 flex flex-col border-l top-12 overflow-y-auto pt-4"
   >
     <div class="sidebar-icons w-full">
       <ul>
-        <li
-          v-for="i in selectedIcons"
-          class="flex justify-between hover:bg-gray-100 px-2 py-1"
-        >
-          <div class="flex items-center">
-            <v-icon
-              :name="i.icon"
-              class="inline-block icon-standalone my-1 mr-1 ml-4"
-            ></v-icon>
-            <div class="font-semibold ml-2">
-              {{ i.icon.vendor + i.icon.name }}
+        <transition-group name="fade">
+          <li
+            v-for="i in selectedIcons"
+            :key="i.icon.name"
+            class="flex justify-between hover:bg-gray-100 px-2 py-1"
+          >
+            <div class="flex items-center">
+              <v-icon
+                :name="i.icon"
+                class="inline-block icon-standalone my-1 mr-1 ml-4"
+              ></v-icon>
+              <div class="font-semibold ml-2">
+                {{ i.icon.vendor + i.icon.name }}
+              </div>
             </div>
-          </div>
-          <div class="flex items-center">
-            <button @click="copyToClipboard(i)">
-              <v-icon
-                v-if="!i.copied.value"
-                :name="MdiContentCopy"
-                class="text-gray-700 mr-2"
-              ></v-icon>
-              <v-icon
-                v-if="i.copied.value"
-                :name="MdiCheckBold"
-                class="text-gray-700 mr-2"
-              ></v-icon>
-            </button>
-            <v-close-button
-              class="mr-2"
-              @click="emit('unselect-icon', i.icon)"
-            ></v-close-button>
-          </div>
-        </li>
+            <div class="flex items-center">
+              <button @click="copyToClipboard(i)">
+                <transition name="fade-icon" mode="out-in">
+                  <v-icon
+                    v-if="!i.copied.value"
+                    :name="MdiContentCopy"
+                    class="text-gray-700 mr-2"
+                  ></v-icon>
+                  <v-icon
+                    v-else
+                    :name="MdiCheckBold"
+                    class="text-gray-700 mr-2"
+                  ></v-icon>
+                </transition>
+              </button>
+              <v-close-button
+                class="mr-2"
+                @click="emit('unselect-icon', i.icon)"
+              ></v-close-button>
+            </div>
+          </li>
+        </transition-group>
       </ul>
     </div>
     <header class="font-bold px-4 my-4">Copy to clipboard</header>
@@ -45,6 +50,12 @@
         rows="6"
         class="w-full"
       ></v-textarea>
+      <div class="flex">
+        <v-icon
+          :name="MdiContentCopy"
+          class="text-gray-700 mr-2 ml-auto"
+        ></v-icon>
+      </div>
     </div>
   </div>
 </template>
@@ -84,7 +95,6 @@ export default {
         return { icon: i, copied: ref(false) };
       });
     });
-    console.log(selectedIcons);
 
     return {
       selectedIcons,
@@ -119,5 +129,22 @@ export default {
 
 .sidebar-icons {
   /* max-height: 75%; */
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-icon-enter-active,
+.fade-icon-leave-active {
+  transition: opacity 0.2s ease;
+}
+.fade-icon-enter-from,
+.fade-icon-leave-to {
+  opacity: 0;
 }
 </style>

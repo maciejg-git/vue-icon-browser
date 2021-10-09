@@ -650,7 +650,7 @@
 .navbar {
   @apply
     w-full
-    bg-indigo-600
+    bg-indigo-500
     shadow-md
 }
     .navbar--bottom {

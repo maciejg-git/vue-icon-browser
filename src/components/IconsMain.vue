@@ -3,18 +3,80 @@
   <div class="flex w-full">
     <div class="flex-1">
       <div class="w-11/12 mx-auto">
-        <div class="flex">
-          <div class="flex items-center ml-auto mt-10">
-            <label for="select-size" class="font-semibold mr-4"
-              >Icons size</label
-            >
-            <v-select id="select-size" v-model="size">
-              <option :value="sizes.sm">Small</option>
-              <option :value="sizes.md">Medium</option>
-              <option :value="sizes.lg">Large</option>
-            </v-select>
-          </div>
-        </div>
+        <!-- <div class="flex"> -->
+        <!--   <div class="flex items-center ml-auto mt-10"> -->
+        <!--     <label for="select-size" class="font-semibold mr-4" -->
+        <!--       >Icons size</label -->
+        <!--     > -->
+        <!--     <v-select id="select-size" v-model="size"> -->
+        <!--       <option :value="sizes.sm">Small</option> -->
+        <!--       <option :value="sizes.md">Medium</option> -->
+        <!--       <option :value="sizes.lg">Large</option> -->
+        <!--     </v-select> -->
+        <!--   </div> -->
+        <!-- </div> -->
+    <div class="flex divide-x max-w-max mt-10 ml-auto">
+      <div class="text-center px-4">
+        <v-button name="button-link" @click="toggleVendor('bootstrap')">
+          <v-spinner
+            v-if="vendors.bootstrap.loading"
+            style-spinner="secondary small"
+            class="mr-2"
+          ></v-spinner>
+          <v-icon
+            v-if="vendors.bootstrap.active && !vendors.bootstrap.loading"
+            :name="BCheckLg"
+            class="mr-2"
+          ></v-icon>
+          <v-icon
+            v-if="!vendors.bootstrap.active && !vendors.bootstrap.loading"
+            :name="BPlusLg"
+            class="mr-2"
+          ></v-icon>
+          Bootstrap Icons
+        </v-button>
+      </div>
+      <div class="text-center px-4">
+        <v-button name="button-link" @click="toggleVendor('mdi')">
+          <v-spinner
+            v-if="vendors.mdi.loading"
+            style-spinner="secondary small"
+            class="mr-2"
+          ></v-spinner>
+          <v-icon
+            v-if="vendors.mdi.active && !vendors.mdi.loading"
+            :name="BCheckLg"
+            class="mr-2"
+          ></v-icon>
+          <v-icon
+            v-if="!vendors.mdi.active && !vendors.mdi.loading"
+            :name="BPlusLg"
+            class="mr-2"
+          ></v-icon>
+          Material Design Icons
+        </v-button>
+      </div>
+      <div class="text-center px-4">
+        <v-button name="button-link" @click="toggleVendor('fontawesome')">
+          <v-spinner
+            v-if="vendors.fontawesome.loading"
+            style-spinner="secondary small"
+            class="mr-2"
+          ></v-spinner>
+          <v-icon
+            v-if="vendors.fontawesome.active && !vendors.fontawesome.loading"
+            :name="BCheckLg"
+            class="mr-2"
+          ></v-icon>
+          <v-icon
+            v-if="!vendors.fontawesome.active && !vendors.fontawesome.loading"
+            :name="BPlusLg"
+            class="mr-2"
+          ></v-icon>
+          Font Awesome Icons
+        </v-button>
+      </div>
+    </div>
         <v-input
           v-if="isAnyVendorLoaded()"
           type="search"
@@ -103,6 +165,7 @@ import {
 import LoadingProgress from "./LoadingProgress.vue";
 import IconsSidepanel from "./IconsSidepanel.vue";
 import IconsNavbar from "./IconsNavbar.vue";
+import { BCheckLg, BX, BXLg, BPlusLg } from "../icons/dist-bootstrap";
 import { useDebounce } from "@vueuse/core";
 
 export default {
@@ -193,6 +256,11 @@ export default {
       );
     };
 
+    let toggleVendor = (vendor) => {
+      if (!vendors[vendor].active) vendors[vendor].loading = true;
+      vendors[vendor].active = !vendors[vendor].active;
+    };
+
     let selectedCopyList = ref("");
 
     provide("hovered-icon", currentIcon);
@@ -212,6 +280,9 @@ export default {
       vendors,
       sidepanel,
       isAnyVendorLoaded,
+      toggleVendor,
+      BCheckLg,
+      BPlusLg,
     };
   },
 };
