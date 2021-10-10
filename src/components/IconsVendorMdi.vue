@@ -1,5 +1,5 @@
 <template>
-  <icons-vendor :icons="icons" :size="size" :filter="filter"></icons-vendor>
+  <icons-vendor :icons="iconsArray" :size="size" :filter="filter"></icons-vendor>
 </template>
 
 <script>
@@ -26,12 +26,15 @@ export default {
       icons[icon].selected = ref(false)
     }
 
+    let iconsArray = Object.values(icons)
+
     onMounted(() => {
       emit(props.vendor + '-loaded')
     })
 
     return {
       icons,
+      iconsArray,
       emit,
       selectIcon,
     };

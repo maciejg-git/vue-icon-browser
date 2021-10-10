@@ -1,61 +1,23 @@
 <template>
   <div>
-    <div v-show="!filter">
-      <div @mouseover="handleMouseMove">
-        <template v-for="(icon, index) in icons">
-          <div
-            class="
-              icon-browser
-              inline-block
-              cursor-pointer
-              bg-gray-100
-              hover:bg-indigo-100
-              rounded-md
-              p-2
-              m-2
-            "
-            :data-icon="icon.vendor + icon.name"
-            @click="selectIcon(icon)"
-          >
-            <component
-              :is="icon"
-              class="icon-browser"
-              :class="[size, { 'icon--selected': icon.selected.value }]"
-            ></component>
-          </div>
-        </template>
-      </div>
+    <div v-if="icons.length == 0" class="flex">
+      <span class="mx-auto text-lg"> Nothing found for current filter. </span>
     </div>
-    <template v-if="filter">
-      <div v-if="Object.keys(filteredIcons).length == 0" class="flex">
-        <span class="mx-auto text-lg">
-          Nothing found for current filter.
-        </span>
-      </div>
-      <div @mouseover="handleMouseMove">
-        <template v-for="(icon, index) in filteredIcons">
-          <div
-            class="
-              icon-browser
-              inline-block
-              cursor-pointer
-              bg-gray-100
-              rounded-md
-              p-2
-              m-2
-            "
-            :data-icon="icon.vendor + icon.name"
-            @click="selectIcon(icon)"
-          >
-            <component
-              :is="icon"
-              class="icon-browser"
-              :class="[size, { 'icon--selected': icon.selected.value }]"
-            ></component>
-          </div>
-        </template>
-      </div>
-    </template>
+    <div @mouseover="handleMouseMove">
+      <template v-for="(icon, index) in icons">
+        <div
+          class="inline-block cursor-pointer bg-gray-100 rounded-md p-2 m-2"
+          :data-icon="icon.vendor + icon.name"
+          @click="selectIcon($event, icon)"
+        >
+          <component
+            :is="icon"
+            class="icon-browser"
+            :class="[size, { 'icon--selected': icon.selected.value }]"
+          ></component>
+        </div>
+      </template>
+    </div>
   </div>
 </template>
 
@@ -70,19 +32,24 @@ export default {
     size: { type: String, default: undefined },
   },
   setup(props, { emit }) {
-    let tags = {};
+    let generateTags = () => {
+      let tags = {}
 
-    for (let icon in props.icons) {
-      for (let tag of props.icons[icon].tags) {
-        if (!tags[tag]) tags[tag] = [];
-        tags[tag].push(props.icons[icon]);
+      for (let icon of props.icons) {
+        for (let tag of icon.tags) {
+          if (!tags[tag]) tags[tag] = [];
+          tags[tag].push(icon);
+        }
       }
-    }
-    tags = Object.entries(tags);
+      return Object.entries(tags);
+    };
+
+    //generate tags
+    let tags = generateTags();
 
     // filter icons
-
-    let filteredIcons = computed(() => {
+    let icons = computed(() => {
+      if (!props.filter) return props.icons;
       let filter = props.filter;
       if (!filter.length) return;
       let res = {};
@@ -93,11 +60,10 @@ export default {
           }
         }
       }
-      return res;
+      return Object.values(res);
     });
 
-    // hover icon
-
+    // move mouse over icon
     let hoveredIcon = inject("hovered-icon");
 
     let handleMouseMove = (ev) => {
@@ -105,16 +71,23 @@ export default {
       if (target) hoveredIcon.value = target.dataset.icon;
     };
 
-    // select icon
+    // click to select icon
+    let lastSelectedIcon = inject("last-selected-icon");
 
-    let selectIcon = (icon) => {
+    let selectIcon = (ev, icon) => {
+      // vendor last vendor
+      if (ev.shiftKey && lastSelectedIcon.value) {
+        let iconsArray = Object.keys(icons.value);
+        console.log(iconsArray);
+      }
+      lastSelectedIcon.value = icon;
       emit("selected-icon", icon);
     };
 
     return {
       emit,
       selectIcon,
-      filteredIcons,
+      icons,
       handleMouseMove,
     };
   },

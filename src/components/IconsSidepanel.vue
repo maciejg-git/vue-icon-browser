@@ -1,6 +1,15 @@
 <template>
   <div
-    class="sidebar sticky bg-gray-50 flex flex-col border-l top-12 overflow-y-auto pt-4"
+    class="
+      sidebar
+      sticky
+      bg-gray-50
+      flex flex-col
+      border-l
+      top-12
+      overflow-y-auto
+      pt-4
+    "
   >
     <div class="sidebar-icons w-full">
       <ul>
@@ -43,18 +52,23 @@
         </transition-group>
       </ul>
     </div>
-    <header class="font-bold px-4 my-4">Copy to clipboard</header>
-    <div class="m-4">
-      <v-textarea
-        v-model="selectedCopyList"
-        rows="6"
-        class="w-full"
-      ></v-textarea>
-      <div class="flex">
-        <v-icon
-          :name="MdiContentCopy"
-          class="text-gray-700 mr-2 ml-auto"
-        ></v-icon>
+
+    <v-divider v-if="selectedIcons.length" class="mx-auto w-11/12 my-4" />
+
+    <div v-if="selectedIcons.length">
+      <header class="font-bold px-4">Copy to clipboard</header>
+      <div class="m-4">
+        <v-textarea
+          v-model="selectedCopyList"
+          rows="6"
+          class="w-full"
+        ></v-textarea>
+        <div class="flex">
+          <v-icon
+            :name="MdiContentCopy"
+            class="text-gray-700 mr-2 ml-auto"
+          ></v-icon>
+        </div>
       </div>
     </div>
   </div>
