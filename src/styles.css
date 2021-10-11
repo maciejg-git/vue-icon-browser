@@ -46,6 +46,7 @@
         border
         border-indigo-500
         hover:bg-indigo-600
+        hover:text-gray-200
         focus:ring-indigo-200
     }
     .button--secondary {

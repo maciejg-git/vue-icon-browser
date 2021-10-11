@@ -26,10 +26,7 @@ export default {
       icons[icon].selected = ref(false)
     }
 
-    let iconsArray = Object.values(icons).map((i, index) => {
-      i.index = index
-      return i
-    })
+    let iconsArray = Object.values(icons)
 
     onMounted(() => {
       emit('bootstrap-loaded')

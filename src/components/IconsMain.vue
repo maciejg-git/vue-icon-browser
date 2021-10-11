@@ -212,8 +212,6 @@ export default {
       },
     });
 
-    let sidepanel = ref(false);
-
     let filter = ref("");
     const debounced = useDebounce(filter, 200);
 
@@ -236,25 +234,36 @@ export default {
         return icon.name === i.name;
       });
       selectedIcons.value.splice(index, 1);
-      updateCopyList(icon);
+      updateCopyList();
       icon.selected.value = false;
+      lastSelectedIcon.value = null;
     };
 
-    let updateCopyList = (i) => {
+    let selectIcon = (icon) => {
+      let isArray = Array.isArray(icon)
+      if (!isArray && icon.selected.value) {
+        unselectIcon(icon);
+        return;
+      }
+      if (isArray) {
+        icon.forEach(i => {
+          selectedIcons.value.push(i)
+          i.selected.value = true
+        })
+      } else {
+        selectedIcons.value.push(icon);
+        icon.selected.value = true;
+      }
+      updateCopyList();
+      lastSelectedIcon.value = icon;
+    };
+
+    // sidepanel
+    let updateCopyList = () => {
       selectedCopyList.value = selectedIcons.value
         .map((i) => i.vendor + i.name)
         .join(",")
         .replace(/,/g, ",\n");
-    };
-
-    let selectIcon = (icon) => {
-      if (icon.selected.value) {
-        unselectIcon(icon);
-        return;
-      }
-      selectedIcons.value.push(icon);
-      updateCopyList(icon);
-      icon.selected.value = true;
     };
 
     let isAnyVendorLoaded = () => {
@@ -288,7 +297,6 @@ export default {
       size,
       sizes,
       vendors,
-      sidepanel,
       isAnyVendorLoaded,
       toggleVendor,
       BCheckLg,

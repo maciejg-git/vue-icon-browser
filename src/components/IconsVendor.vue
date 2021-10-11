@@ -76,12 +76,17 @@ export default {
 
     let selectIcon = (ev, icon) => {
       // vendor last vendor
+      // wywalic index
+      let selectedIcons = icon
       if (ev.shiftKey && lastSelectedIcon.value) {
-        let iconsArray = Object.keys(icons.value);
-        console.log(iconsArray);
+        if (lastSelectedIcon.value) {
+          let from = icons.value.indexOf(lastSelectedIcon.value)
+          let to = icons.value.indexOf(icon)
+          if (to < from) [from, to] = [to, from]
+          selectedIcons = icons.value.slice(from, to + 1)
+        }
       }
-      lastSelectedIcon.value = icon;
-      emit("selected-icon", icon);
+      emit("selected-icon", selectedIcons);
     };
 
     return {

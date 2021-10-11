@@ -4,7 +4,6 @@
       sidebar
       sticky
       bg-gray-50
-      flex flex-col
       border-l
       top-12
       overflow-y-auto
@@ -53,21 +52,27 @@
       </ul>
     </div>
 
-    <v-divider v-if="selectedIcons.length" class="mx-auto w-11/12 my-4" />
-
     <div v-if="selectedIcons.length">
-      <header class="font-bold px-4">Copy to clipboard</header>
-      <div class="m-4">
-        <v-textarea
-          v-model="selectedCopyList"
-          rows="6"
-          class="w-full"
-        ></v-textarea>
-        <div class="flex">
-          <v-icon
-            :name="MdiContentCopy"
-            class="text-gray-700 mr-2 ml-auto"
-          ></v-icon>
+      <div class="flex justify-end">
+        <v-button style-button="primary-outline" class="mt-4 mr-4 text-right">Clear all</v-button>
+      </div>
+      
+      <v-divider class="mx-auto w-11/12 my-4" />
+      
+      <div>
+        <header class="font-bold px-4">Copy to clipboard</header>
+        <div class="m-4">
+          <v-textarea
+            v-model="selectedCopyList"
+            rows="6"
+            class="w-full"
+          ></v-textarea>
+          <div class="flex">
+            <v-icon
+              :name="MdiContentCopy"
+              class="text-gray-700 mr-2 ml-auto"
+            ></v-icon>
+          </div>
         </div>
       </div>
     </div>
