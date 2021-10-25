@@ -59,8 +59,9 @@
       
       <v-divider class="mx-auto w-11/12 my-4" />
       
+      <!-- clipboard -->
+
       <div>
-        <header class="font-bold px-4">Copy to clipboard</header>
         <div class="m-4">
           <v-textarea
             v-model="selectedCopyList"
