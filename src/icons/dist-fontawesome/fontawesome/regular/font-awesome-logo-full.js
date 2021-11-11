@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FontAwesomeLogoFull",
   vendor: "Fa",
+  type: "",
   tags: ["font","awesome","logo","full"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileEaselFill",
   vendor: "B",
+  type: "",
   tags: ["file","easel","fill"],
   render() {
     return h(

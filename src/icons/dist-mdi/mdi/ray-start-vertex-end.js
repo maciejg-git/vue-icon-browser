@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "RayStartVertexEnd",
   vendor: "Mdi",
+  type: "",
   tags: ["ray","start","vertex","end"],
   render() {
     return h(

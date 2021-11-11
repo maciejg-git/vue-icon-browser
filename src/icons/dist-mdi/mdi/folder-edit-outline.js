@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderEditOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","edit","outline"],
   render() {
     return h(

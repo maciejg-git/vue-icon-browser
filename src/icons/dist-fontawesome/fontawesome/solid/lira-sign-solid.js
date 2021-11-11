@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "LiraSignSolid",
+  name: "LiraSign",
   vendor: "Fa",
+  type: "Solid",
   tags: ["lira","sign"],
   render() {
     return h(

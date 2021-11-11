@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FileSignatureSolid",
+  name: "FileSignature",
   vendor: "Fa",
+  type: "Solid",
   tags: ["file","signature"],
   render() {
     return h(

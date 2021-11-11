@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "WindowMinimizeSolid",
+  name: "WindowMinimize",
   vendor: "Fa",
+  type: "Solid",
   tags: ["window","minimize"],
   render() {
     return h(

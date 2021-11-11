@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "IntercomBrand",
+  name: "Intercom",
   vendor: "Fa",
+  type: "Brand",
   tags: ["intercom"],
   render() {
     return h(

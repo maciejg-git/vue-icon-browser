@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BatteryCharging60",
   vendor: "Mdi",
+  type: "",
   tags: ["battery","charging","60"],
   render() {
     return h(

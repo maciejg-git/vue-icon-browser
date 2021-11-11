@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Bash",
   vendor: "Mdi",
+  type: "",
   tags: ["bash"],
   render() {
     return h(

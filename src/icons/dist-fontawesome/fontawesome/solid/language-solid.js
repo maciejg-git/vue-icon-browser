@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "LanguageSolid",
+  name: "Language",
   vendor: "Fa",
+  type: "Solid",
   tags: ["language"],
   render() {
     return h(

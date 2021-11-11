@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DownloadCircleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["download","circle","outline"],
   render() {
     return h(

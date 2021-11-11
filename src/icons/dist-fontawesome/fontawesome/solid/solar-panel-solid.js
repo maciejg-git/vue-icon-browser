@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SolarPanelSolid",
+  name: "SolarPanel",
   vendor: "Fa",
+  type: "Solid",
   tags: ["solar","panel"],
   render() {
     return h(

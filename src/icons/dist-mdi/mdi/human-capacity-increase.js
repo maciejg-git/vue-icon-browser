@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HumanCapacityIncrease",
   vendor: "Mdi",
+  type: "",
   tags: ["human","capacity","increase"],
   render() {
     return h(

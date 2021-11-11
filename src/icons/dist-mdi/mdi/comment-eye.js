@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CommentEye",
   vendor: "Mdi",
+  type: "",
   tags: ["comment","eye"],
   render() {
     return h(

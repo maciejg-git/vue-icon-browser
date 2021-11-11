@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatStrikethrough",
   vendor: "Mdi",
+  type: "",
   tags: ["format","strikethrough"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SkipStartBtn",
   vendor: "B",
+  type: "",
   tags: ["skip","start","btn"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ToyBrickPlusOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["toy","brick","plus","outline"],
   render() {
     return h(

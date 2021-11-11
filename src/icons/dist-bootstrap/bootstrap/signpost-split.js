@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SignpostSplit",
   vendor: "B",
+  type: "",
   tags: ["signpost","split"],
   render() {
     return h(

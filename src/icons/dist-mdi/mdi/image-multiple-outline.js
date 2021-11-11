@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ImageMultipleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["image","multiple","outline"],
   render() {
     return h(

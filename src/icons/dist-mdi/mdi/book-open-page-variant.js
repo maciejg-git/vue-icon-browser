@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BookOpenPageVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["book","open","page","variant"],
   render() {
     return h(

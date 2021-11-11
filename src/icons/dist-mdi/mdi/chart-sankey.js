@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ChartSankey",
   vendor: "Mdi",
+  type: "",
   tags: ["chart","sankey"],
   render() {
     return h(

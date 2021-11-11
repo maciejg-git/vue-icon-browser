@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LanCheck",
   vendor: "Mdi",
+  type: "",
   tags: ["lan","check"],
   render() {
     return h(

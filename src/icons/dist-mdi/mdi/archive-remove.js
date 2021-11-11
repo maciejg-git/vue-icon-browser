@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArchiveRemove",
   vendor: "Mdi",
+  type: "",
   tags: ["archive","remove"],
   render() {
     return h(

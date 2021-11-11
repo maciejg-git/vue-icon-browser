@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FilePresentationBox",
   vendor: "Mdi",
+  type: "",
   tags: ["file","presentation","box"],
   render() {
     return h(

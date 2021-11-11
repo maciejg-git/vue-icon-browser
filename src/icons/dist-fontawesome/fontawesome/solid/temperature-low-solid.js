@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "TemperatureLowSolid",
+  name: "TemperatureLow",
   vendor: "Fa",
+  type: "Solid",
   tags: ["temperature","low"],
   render() {
     return h(

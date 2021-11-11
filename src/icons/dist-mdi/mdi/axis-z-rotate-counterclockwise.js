@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AxisZRotateCounterclockwise",
   vendor: "Mdi",
+  type: "",
   tags: ["axis","z","rotate","counterclockwise"],
   render() {
     return h(

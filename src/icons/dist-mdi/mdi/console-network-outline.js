@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ConsoleNetworkOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["console","network","outline"],
   render() {
     return h(

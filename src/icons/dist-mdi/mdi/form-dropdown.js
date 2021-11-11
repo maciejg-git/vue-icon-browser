@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormDropdown",
   vendor: "Mdi",
+  type: "",
   tags: ["form","dropdown"],
   render() {
     return h(

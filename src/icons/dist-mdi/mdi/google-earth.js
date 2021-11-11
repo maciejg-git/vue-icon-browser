@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GoogleEarth",
   vendor: "Mdi",
+  type: "",
   tags: ["google","earth"],
   render() {
     return h(

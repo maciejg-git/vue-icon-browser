@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CreativeCommons",
   vendor: "Mdi",
+  type: "",
   tags: ["creative","commons"],
   render() {
     return h(

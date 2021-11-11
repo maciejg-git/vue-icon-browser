@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "WindowMaximizeSolid",
+  name: "WindowMaximize",
   vendor: "Fa",
+  type: "Solid",
   tags: ["window","maximize"],
   render() {
     return h(

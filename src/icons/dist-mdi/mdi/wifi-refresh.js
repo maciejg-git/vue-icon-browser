@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WifiRefresh",
   vendor: "Mdi",
+  type: "",
   tags: ["wifi","refresh"],
   render() {
     return h(

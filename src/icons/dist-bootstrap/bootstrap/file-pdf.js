@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FilePdf",
   vendor: "B",
+  type: "",
   tags: ["file","pdf"],
   render() {
     return h(

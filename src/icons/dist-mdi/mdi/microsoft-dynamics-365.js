@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MicrosoftDynamics365",
   vendor: "Mdi",
+  type: "",
   tags: ["microsoft","dynamics","365"],
   render() {
     return h(

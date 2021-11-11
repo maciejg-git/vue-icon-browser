@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileSearch",
   vendor: "Mdi",
+  type: "",
   tags: ["file","search"],
   render() {
     return h(

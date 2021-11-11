@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "IndentSolid",
+  name: "Indent",
   vendor: "Fa",
+  type: "Solid",
   tags: ["indent"],
   render() {
     return h(

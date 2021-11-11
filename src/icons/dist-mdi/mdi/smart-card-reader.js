@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SmartCardReader",
   vendor: "Mdi",
+  type: "",
   tags: ["smart","card","reader"],
   render() {
     return h(

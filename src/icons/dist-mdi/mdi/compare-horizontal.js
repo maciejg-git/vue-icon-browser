@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CompareHorizontal",
   vendor: "Mdi",
+  type: "",
   tags: ["compare","horizontal"],
   render() {
     return h(

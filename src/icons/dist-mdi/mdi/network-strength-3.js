@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "NetworkStrength3",
   vendor: "Mdi",
+  type: "",
   tags: ["network","strength","3"],
   render() {
     return h(

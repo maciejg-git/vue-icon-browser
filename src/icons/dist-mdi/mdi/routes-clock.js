@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "RoutesClock",
   vendor: "Mdi",
+  type: "",
   tags: ["routes","clock"],
   render() {
     return h(

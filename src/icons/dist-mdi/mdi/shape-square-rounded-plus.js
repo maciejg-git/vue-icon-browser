@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ShapeSquareRoundedPlus",
   vendor: "Mdi",
+  type: "",
   tags: ["shape","square","rounded","plus"],
   render() {
     return h(

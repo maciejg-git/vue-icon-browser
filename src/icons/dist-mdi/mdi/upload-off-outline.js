@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "UploadOffOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["upload","off","outline"],
   render() {
     return h(

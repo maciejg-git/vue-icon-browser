@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CursorText",
   vendor: "Mdi",
+  type: "",
   tags: ["cursor","text"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "LocationArrowSolid",
+  name: "LocationArrow",
   vendor: "Fa",
+  type: "Solid",
   tags: ["location","arrow"],
   render() {
     return h(

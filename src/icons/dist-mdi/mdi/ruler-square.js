@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "RulerSquare",
   vendor: "Mdi",
+  type: "",
   tags: ["ruler","square"],
   render() {
     return h(

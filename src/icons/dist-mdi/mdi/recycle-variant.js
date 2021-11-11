@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "RecycleVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["recycle","variant"],
   render() {
     return h(

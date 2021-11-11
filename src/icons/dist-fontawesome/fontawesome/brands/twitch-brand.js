@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "TwitchBrand",
+  name: "Twitch",
   vendor: "Fa",
+  type: "Brand",
   tags: ["twitch"],
   render() {
     return h(

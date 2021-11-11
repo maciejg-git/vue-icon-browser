@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MicrosoftAzureDevops",
   vendor: "Mdi",
+  type: "",
   tags: ["microsoft","azure","devops"],
   render() {
     return h(

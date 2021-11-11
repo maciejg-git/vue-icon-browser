@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PatchExclamation",
   vendor: "B",
+  type: "",
   tags: ["patch","exclamation"],
   render() {
     return h(

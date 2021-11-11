@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MixedReality",
   vendor: "Mdi",
+  type: "",
   tags: ["mixed","reality"],
   render() {
     return h(

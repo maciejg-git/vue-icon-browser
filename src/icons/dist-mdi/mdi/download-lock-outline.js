@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DownloadLockOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["download","lock","outline"],
   render() {
     return h(

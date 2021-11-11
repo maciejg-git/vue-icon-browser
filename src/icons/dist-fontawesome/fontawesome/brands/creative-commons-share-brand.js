@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CreativeCommonsShareBrand",
+  name: "CreativeCommonsShare",
   vendor: "Fa",
+  type: "Brand",
   tags: ["creative","commons","share"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PokemonGo",
   vendor: "Mdi",
+  type: "",
   tags: ["pokemon","go"],
   render() {
     return h(

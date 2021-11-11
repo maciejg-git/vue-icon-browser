@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Layers",
   vendor: "Mdi",
+  type: "",
   tags: ["layers"],
   render() {
     return h(

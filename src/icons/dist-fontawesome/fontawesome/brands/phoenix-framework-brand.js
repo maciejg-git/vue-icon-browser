@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PhoenixFrameworkBrand",
+  name: "PhoenixFramework",
   vendor: "Fa",
+  type: "Brand",
   tags: ["phoenix","framework"],
   render() {
     return h(

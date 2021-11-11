@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Turnstile",
   vendor: "Mdi",
+  type: "",
   tags: ["turnstile"],
   render() {
     return h(

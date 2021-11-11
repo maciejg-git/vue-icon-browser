@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CloudSolid",
+  name: "Cloud",
   vendor: "Fa",
+  type: "Solid",
   tags: ["cloud"],
   render() {
     return h(

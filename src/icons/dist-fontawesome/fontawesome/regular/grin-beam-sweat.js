@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GrinBeamSweat",
   vendor: "Fa",
+  type: "",
   tags: ["grin","beam","sweat"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AlertBox",
   vendor: "Mdi",
+  type: "",
   tags: ["alert","box"],
   render() {
     return h(

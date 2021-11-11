@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SpeedometerSlow",
   vendor: "Mdi",
+  type: "",
   tags: ["speedometer","slow"],
   render() {
     return h(

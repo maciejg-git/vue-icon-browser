@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GasStationOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["gas","station","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GestureSpread",
   vendor: "Mdi",
+  type: "",
   tags: ["gesture","spread"],
   render() {
     return h(

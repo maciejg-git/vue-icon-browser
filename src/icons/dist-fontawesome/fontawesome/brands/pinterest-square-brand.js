@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PinterestSquareBrand",
+  name: "PinterestSquare",
   vendor: "Fa",
+  type: "Brand",
   tags: ["pinterest","square"],
   render() {
     return h(

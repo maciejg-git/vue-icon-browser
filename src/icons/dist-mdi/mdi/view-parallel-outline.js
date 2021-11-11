@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ViewParallelOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["view","parallel","outline"],
   render() {
     return h(

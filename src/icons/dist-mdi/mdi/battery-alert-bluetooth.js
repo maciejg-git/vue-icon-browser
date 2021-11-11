@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BatteryAlertBluetooth",
   vendor: "Mdi",
+  type: "",
   tags: ["battery","alert","bluetooth"],
   render() {
     return h(

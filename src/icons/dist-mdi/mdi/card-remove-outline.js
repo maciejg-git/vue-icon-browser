@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CardRemoveOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["card","remove","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Spellcheck",
   vendor: "Mdi",
+  type: "",
   tags: ["spellcheck"],
   render() {
     return h(

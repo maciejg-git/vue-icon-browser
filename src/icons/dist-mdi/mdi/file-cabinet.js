@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileCabinet",
   vendor: "Mdi",
+  type: "",
   tags: ["file","cabinet"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FreebsdBrand",
+  name: "Freebsd",
   vendor: "Fa",
+  type: "Brand",
   tags: ["freebsd"],
   render() {
     return h(

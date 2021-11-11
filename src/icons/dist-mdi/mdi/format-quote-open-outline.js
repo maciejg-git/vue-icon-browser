@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatQuoteOpenOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["format","quote","open","outline"],
   render() {
     return h(

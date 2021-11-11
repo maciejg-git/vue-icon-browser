@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PanUp",
   vendor: "Mdi",
+  type: "",
   tags: ["pan","up"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatListNumberedRtl",
   vendor: "Mdi",
+  type: "",
   tags: ["format","list","numbered","rtl"],
   render() {
     return h(

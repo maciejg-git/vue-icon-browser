@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ExitRun",
   vendor: "Mdi",
+  type: "",
   tags: ["exit","run"],
   render() {
     return h(

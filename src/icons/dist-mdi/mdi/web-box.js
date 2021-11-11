@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WebBox",
   vendor: "Mdi",
+  type: "",
   tags: ["web","box"],
   render() {
     return h(

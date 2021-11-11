@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PowerStandby",
   vendor: "Mdi",
+  type: "",
   tags: ["power","standby"],
   render() {
     return h(

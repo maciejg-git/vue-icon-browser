@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatClear",
   vendor: "Mdi",
+  type: "",
   tags: ["format","clear"],
   render() {
     return h(

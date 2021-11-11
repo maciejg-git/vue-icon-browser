@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AccessPointRemove",
   vendor: "Mdi",
+  type: "",
   tags: ["access","point","remove"],
   render() {
     return h(

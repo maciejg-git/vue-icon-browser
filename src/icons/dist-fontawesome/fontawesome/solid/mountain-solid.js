@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MountainSolid",
+  name: "Mountain",
   vendor: "Fa",
+  type: "Solid",
   tags: ["mountain"],
   render() {
     return h(

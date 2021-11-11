@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "NetworkStrength3Alert",
   vendor: "Mdi",
+  type: "",
   tags: ["network","strength","3","alert"],
   render() {
     return h(

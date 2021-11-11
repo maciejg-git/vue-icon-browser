@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EarthBoxRemove",
   vendor: "Mdi",
+  type: "",
   tags: ["earth","box","remove"],
   render() {
     return h(

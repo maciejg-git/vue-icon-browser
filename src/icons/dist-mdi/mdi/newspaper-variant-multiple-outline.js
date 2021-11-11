@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "NewspaperVariantMultipleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["newspaper","variant","multiple","outline"],
   render() {
     return h(

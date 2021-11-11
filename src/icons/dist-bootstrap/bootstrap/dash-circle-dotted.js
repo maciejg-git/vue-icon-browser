@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DashCircleDotted",
   vendor: "B",
+  type: "",
   tags: ["dash","circle","dotted"],
   render() {
     return h(

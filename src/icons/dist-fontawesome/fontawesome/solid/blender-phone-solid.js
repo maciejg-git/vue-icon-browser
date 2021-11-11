@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BlenderPhoneSolid",
+  name: "BlenderPhone",
   vendor: "Fa",
+  type: "Solid",
   tags: ["blender","phone"],
   render() {
     return h(

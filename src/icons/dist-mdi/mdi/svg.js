@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Svg",
   vendor: "Mdi",
+  type: "",
   tags: ["svg"],
   render() {
     return h(

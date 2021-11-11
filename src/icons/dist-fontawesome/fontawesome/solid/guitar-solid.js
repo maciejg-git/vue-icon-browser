@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "GuitarSolid",
+  name: "Guitar",
   vendor: "Fa",
+  type: "Solid",
   tags: ["guitar"],
   render() {
     return h(

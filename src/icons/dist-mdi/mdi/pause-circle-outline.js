@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PauseCircleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["pause","circle","outline"],
   render() {
     return h(

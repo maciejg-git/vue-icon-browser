@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GoogleAds",
   vendor: "Mdi",
+  type: "",
   tags: ["google","ads"],
   render() {
     return h(

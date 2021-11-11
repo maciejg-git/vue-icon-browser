@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MarkerSolid",
+  name: "Marker",
   vendor: "Fa",
+  type: "Solid",
   tags: ["marker"],
   render() {
     return h(

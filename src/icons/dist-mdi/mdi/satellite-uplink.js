@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SatelliteUplink",
   vendor: "Mdi",
+  type: "",
   tags: ["satellite","uplink"],
   render() {
     return h(

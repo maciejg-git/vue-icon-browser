@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LanConnect",
   vendor: "Mdi",
+  type: "",
   tags: ["lan","connect"],
   render() {
     return h(

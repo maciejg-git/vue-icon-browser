@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HdrOff",
   vendor: "Mdi",
+  type: "",
   tags: ["hdr","off"],
   render() {
     return h(

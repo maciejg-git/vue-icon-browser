@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ArrowCircleDownSolid",
+  name: "ArrowCircleDown",
   vendor: "Fa",
+  type: "Solid",
   tags: ["arrow","circle","down"],
   render() {
     return h(

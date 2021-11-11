@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ContentSaveEditOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["content","save","edit","outline"],
   render() {
     return h(

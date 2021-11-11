@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MagnifyMinusOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["magnify","minus","outline"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ReactBrand",
+  name: "React",
   vendor: "Fa",
+  type: "Brand",
   tags: ["react"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatIndentIncrease",
   vendor: "Mdi",
+  type: "",
   tags: ["format","indent","increase"],
   render() {
     return h(

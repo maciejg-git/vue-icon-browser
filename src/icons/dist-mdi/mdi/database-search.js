@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DatabaseSearch",
   vendor: "Mdi",
+  type: "",
   tags: ["database","search"],
   render() {
     return h(

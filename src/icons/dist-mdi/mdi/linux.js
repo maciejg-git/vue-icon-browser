@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Linux",
   vendor: "Mdi",
+  type: "",
   tags: ["linux"],
   render() {
     return h(

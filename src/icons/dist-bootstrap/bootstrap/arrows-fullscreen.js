@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArrowsFullscreen",
   vendor: "B",
+  type: "",
   tags: ["arrows","fullscreen"],
   render() {
     return h(

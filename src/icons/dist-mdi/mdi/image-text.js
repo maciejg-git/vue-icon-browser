@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ImageText",
   vendor: "Mdi",
+  type: "",
   tags: ["image","text"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "RecordCircle",
   vendor: "Mdi",
+  type: "",
   tags: ["record","circle"],
   render() {
     return h(

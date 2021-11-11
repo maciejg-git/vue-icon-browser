@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileKey",
   vendor: "Mdi",
+  type: "",
   tags: ["file","key"],
   render() {
     return h(

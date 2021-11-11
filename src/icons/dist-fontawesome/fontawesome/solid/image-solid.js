@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ImageSolid",
+  name: "Image",
   vendor: "Fa",
+  type: "Solid",
   tags: ["image"],
   render() {
     return h(

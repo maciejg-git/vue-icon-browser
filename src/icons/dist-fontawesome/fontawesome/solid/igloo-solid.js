@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "IglooSolid",
+  name: "Igloo",
   vendor: "Fa",
+  type: "Solid",
   tags: ["igloo"],
   render() {
     return h(

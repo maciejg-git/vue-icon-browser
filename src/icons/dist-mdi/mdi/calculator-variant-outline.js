@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CalculatorVariantOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["calculator","variant","outline"],
   render() {
     return h(

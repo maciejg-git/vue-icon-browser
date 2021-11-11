@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MapMarkerCircle",
   vendor: "Mdi",
+  type: "",
   tags: ["map","marker","circle"],
   render() {
     return h(

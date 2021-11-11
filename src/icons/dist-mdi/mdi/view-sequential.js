@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ViewSequential",
   vendor: "Mdi",
+  type: "",
   tags: ["view","sequential"],
   render() {
     return h(

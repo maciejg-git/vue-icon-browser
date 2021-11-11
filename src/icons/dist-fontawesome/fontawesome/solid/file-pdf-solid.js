@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FilePdfSolid",
+  name: "FilePdf",
   vendor: "Fa",
+  type: "Solid",
   tags: ["file","pdf"],
   render() {
     return h(

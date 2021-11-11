@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FreeCodeCampBrand",
+  name: "FreeCodeCamp",
   vendor: "Fa",
+  type: "Brand",
   tags: ["free","code","camp"],
   render() {
     return h(

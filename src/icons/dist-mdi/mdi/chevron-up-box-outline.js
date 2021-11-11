@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ChevronUpBoxOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["chevron","up","box","outline"],
   render() {
     return h(

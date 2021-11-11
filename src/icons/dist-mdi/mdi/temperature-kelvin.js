@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TemperatureKelvin",
   vendor: "Mdi",
+  type: "",
   tags: ["temperature","kelvin"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ViewWeekOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["view","week","outline"],
   render() {
     return h(

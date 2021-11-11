@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Discord",
   vendor: "Mdi",
+  type: "",
   tags: ["discord"],
   render() {
     return h(

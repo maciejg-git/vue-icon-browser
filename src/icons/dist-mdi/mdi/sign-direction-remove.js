@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SignDirectionRemove",
   vendor: "Mdi",
+  type: "",
   tags: ["sign","direction","remove"],
   render() {
     return h(

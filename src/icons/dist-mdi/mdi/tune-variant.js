@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TuneVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["tune","variant"],
   render() {
     return h(

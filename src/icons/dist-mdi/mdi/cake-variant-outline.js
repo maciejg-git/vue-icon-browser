@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CakeVariantOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["cake","variant","outline"],
   render() {
     return h(

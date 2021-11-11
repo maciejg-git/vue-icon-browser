@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "VolumeOffSolid",
+  name: "VolumeOff",
   vendor: "Fa",
+  type: "Solid",
   tags: ["volume","off"],
   render() {
     return h(

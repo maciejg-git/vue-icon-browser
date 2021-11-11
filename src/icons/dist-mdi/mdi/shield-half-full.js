@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ShieldHalfFull",
   vendor: "Mdi",
+  type: "",
   tags: ["shield","half","full"],
   render() {
     return h(

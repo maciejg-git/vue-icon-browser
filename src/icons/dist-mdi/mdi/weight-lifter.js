@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WeightLifter",
   vendor: "Mdi",
+  type: "",
   tags: ["weight","lifter"],
   render() {
     return h(

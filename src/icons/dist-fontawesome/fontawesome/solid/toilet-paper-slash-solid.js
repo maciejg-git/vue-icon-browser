@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ToiletPaperSlashSolid",
+  name: "ToiletPaperSlash",
   vendor: "Fa",
+  type: "Solid",
   tags: ["toilet","paper","slash"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "AutoprefixerBrand",
+  name: "Autoprefixer",
   vendor: "Fa",
+  type: "Brand",
   tags: ["autoprefixer"],
   render() {
     return h(

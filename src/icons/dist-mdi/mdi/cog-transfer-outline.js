@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CogTransferOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["cog","transfer","outline"],
   render() {
     return h(

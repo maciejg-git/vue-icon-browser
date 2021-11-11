@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MicroblogBrand",
+  name: "Microblog",
   vendor: "Fa",
+  type: "Brand",
   tags: ["microblog"],
   render() {
     return h(

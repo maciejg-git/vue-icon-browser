@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SourceBranchRemove",
   vendor: "Mdi",
+  type: "",
   tags: ["source","branch","remove"],
   render() {
     return h(

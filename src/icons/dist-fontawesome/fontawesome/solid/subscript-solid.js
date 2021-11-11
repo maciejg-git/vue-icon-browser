@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SubscriptSolid",
+  name: "Subscript",
   vendor: "Fa",
+  type: "Solid",
   tags: ["subscript"],
   render() {
     return h(

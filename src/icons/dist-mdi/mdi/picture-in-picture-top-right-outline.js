@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PictureInPictureTopRightOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["picture","in","picture","top","right","outline"],
   render() {
     return h(

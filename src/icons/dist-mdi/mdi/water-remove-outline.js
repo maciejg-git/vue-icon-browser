@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WaterRemoveOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["water","remove","outline"],
   render() {
     return h(

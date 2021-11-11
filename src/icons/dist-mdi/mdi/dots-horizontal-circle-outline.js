@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DotsHorizontalCircleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["dots","horizontal","circle","outline"],
   render() {
     return h(

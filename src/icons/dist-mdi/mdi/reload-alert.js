@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ReloadAlert",
   vendor: "Mdi",
+  type: "",
   tags: ["reload","alert"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WaterPercentAlert",
   vendor: "Mdi",
+  type: "",
   tags: ["water","percent","alert"],
   render() {
     return h(

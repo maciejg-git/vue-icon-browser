@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MouseSolid",
+  name: "Mouse",
   vendor: "Fa",
+  type: "Solid",
   tags: ["mouse"],
   render() {
     return h(

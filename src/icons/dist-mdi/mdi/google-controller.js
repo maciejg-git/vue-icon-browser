@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GoogleController",
   vendor: "Mdi",
+  type: "",
   tags: ["google","controller"],
   render() {
     return h(

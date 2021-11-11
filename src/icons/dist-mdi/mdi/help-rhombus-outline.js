@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HelpRhombusOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["help","rhombus","outline"],
   render() {
     return h(

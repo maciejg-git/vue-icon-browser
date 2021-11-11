@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Mirror",
   vendor: "Mdi",
+  type: "",
   tags: ["mirror"],
   render() {
     return h(

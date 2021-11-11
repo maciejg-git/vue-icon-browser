@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SlopeUphill",
   vendor: "Mdi",
+  type: "",
   tags: ["slope","uphill"],
   render() {
     return h(

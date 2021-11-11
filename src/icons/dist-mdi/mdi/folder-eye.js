@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderEye",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","eye"],
   render() {
     return h(

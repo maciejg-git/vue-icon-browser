@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MovieEditOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["movie","edit","outline"],
   render() {
     return h(

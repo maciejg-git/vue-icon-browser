@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WhiteBalanceIncandescent",
   vendor: "Mdi",
+  type: "",
   tags: ["white","balance","incandescent"],
   render() {
     return h(

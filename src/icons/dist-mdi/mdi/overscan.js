@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Overscan",
   vendor: "Mdi",
+  type: "",
   tags: ["overscan"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FlowerOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["flower","outline"],
   render() {
     return h(

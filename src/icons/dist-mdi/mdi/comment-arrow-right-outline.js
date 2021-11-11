@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CommentArrowRightOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["comment","arrow","right","outline"],
   render() {
     return h(

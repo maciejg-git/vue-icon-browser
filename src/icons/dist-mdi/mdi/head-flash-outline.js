@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HeadFlashOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["head","flash","outline"],
   render() {
     return h(

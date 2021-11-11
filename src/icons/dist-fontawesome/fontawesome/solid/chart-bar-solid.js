@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ChartBarSolid",
+  name: "ChartBar",
   vendor: "Fa",
+  type: "Solid",
   tags: ["chart","bar"],
   render() {
     return h(

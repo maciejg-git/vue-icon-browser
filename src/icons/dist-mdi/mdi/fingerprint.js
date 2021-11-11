@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Fingerprint",
   vendor: "Mdi",
+  type: "",
   tags: ["fingerprint"],
   render() {
     return h(

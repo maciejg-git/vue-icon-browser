@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BookOpenSolid",
+  name: "BookOpen",
   vendor: "Fa",
+  type: "Solid",
   tags: ["book","open"],
   render() {
     return h(

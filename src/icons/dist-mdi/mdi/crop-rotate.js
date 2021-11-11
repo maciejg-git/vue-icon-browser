@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CropRotate",
   vendor: "Mdi",
+  type: "",
   tags: ["crop","rotate"],
   render() {
     return h(

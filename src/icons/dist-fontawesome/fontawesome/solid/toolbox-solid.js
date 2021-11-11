@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ToolboxSolid",
+  name: "Toolbox",
   vendor: "Fa",
+  type: "Solid",
   tags: ["toolbox"],
   render() {
     return h(

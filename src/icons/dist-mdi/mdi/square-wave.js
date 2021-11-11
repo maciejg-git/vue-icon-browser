@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SquareWave",
   vendor: "Mdi",
+  type: "",
   tags: ["square","wave"],
   render() {
     return h(

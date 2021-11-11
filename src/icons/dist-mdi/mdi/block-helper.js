@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BlockHelper",
   vendor: "Mdi",
+  type: "",
   tags: ["block","helper"],
   render() {
     return h(

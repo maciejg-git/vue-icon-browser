@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CommentSlashSolid",
+  name: "CommentSlash",
   vendor: "Fa",
+  type: "Solid",
   tags: ["comment","slash"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PineTreeBox",
   vendor: "Mdi",
+  type: "",
   tags: ["pine","tree","box"],
   render() {
     return h(

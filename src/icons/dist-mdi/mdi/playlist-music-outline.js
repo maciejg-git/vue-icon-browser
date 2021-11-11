@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PlaylistMusicOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["playlist","music","outline"],
   render() {
     return h(

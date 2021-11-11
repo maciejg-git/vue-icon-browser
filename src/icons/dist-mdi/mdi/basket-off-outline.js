@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BasketOffOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["basket","off","outline"],
   render() {
     return h(

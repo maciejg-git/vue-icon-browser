@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SpeakerMultiple",
   vendor: "Mdi",
+  type: "",
   tags: ["speaker","multiple"],
   render() {
     return h(

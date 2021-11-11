@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileExcelBox",
   vendor: "Mdi",
+  type: "",
   tags: ["file","excel","box"],
   render() {
     return h(

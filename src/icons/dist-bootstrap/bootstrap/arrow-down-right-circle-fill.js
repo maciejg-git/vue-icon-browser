@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArrowDownRightCircleFill",
   vendor: "B",
+  type: "",
   tags: ["arrow","down","right","circle","fill"],
   render() {
     return h(

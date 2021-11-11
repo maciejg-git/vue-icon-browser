@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "React",
   vendor: "Mdi",
+  type: "",
   tags: ["react"],
   render() {
     return h(

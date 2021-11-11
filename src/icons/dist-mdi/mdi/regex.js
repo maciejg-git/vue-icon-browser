@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Regex",
   vendor: "Mdi",
+  type: "",
   tags: ["regex"],
   render() {
     return h(

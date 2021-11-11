@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CallSplit",
   vendor: "Mdi",
+  type: "",
   tags: ["call","split"],
   render() {
     return h(

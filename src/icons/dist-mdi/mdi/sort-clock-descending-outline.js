@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SortClockDescendingOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["sort","clock","descending","outline"],
   render() {
     return h(

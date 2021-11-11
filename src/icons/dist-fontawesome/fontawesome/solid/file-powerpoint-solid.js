@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FilePowerpointSolid",
+  name: "FilePowerpoint",
   vendor: "Fa",
+  type: "Solid",
   tags: ["file","powerpoint"],
   render() {
     return h(

@@ -155,9 +155,9 @@
 
     <icons-sidepanel
       :selected-icons="selectedIcons"
-      :selected-copy-list="selectedCopyList"
       @unselect-icon="unselectIcon"
-    ></icons-sidepanel>
+      @clear-icon-list="clearSelected"
+    />
   </div>
 </template>
 
@@ -212,19 +212,18 @@ export default {
       },
     });
 
-    let filter = ref("");
-    const debounced = useDebounce(filter, 200);
-
     let sizes = {
       sm: "h-6 w-6 m-2",
       md: "h-10 w-10 m-2",
       lg: "h-14 w-14 m-3",
     };
 
+    let filter = ref("");
+    const debounced = useDebounce(filter, 200);
     let size = ref(sizes.md);
-
     let currentIcon = ref({});
-    let currentVendor = ref("");
+
+    // selection
 
     let selectedIcons = ref([]);
     let lastSelectedIcon = ref({});
@@ -234,37 +233,41 @@ export default {
         return icon.name === i.name;
       });
       selectedIcons.value.splice(index, 1);
-      updateCopyList();
       icon.selected.value = false;
       lastSelectedIcon.value = null;
     };
 
-    let selectIcon = (icon) => {
-      let isArray = Array.isArray(icon)
-      if (!isArray && icon.selected.value) {
-        unselectIcon(icon);
+    let selectIcon = (icons) => {
+      let isArray = Array.isArray(icons)
+
+      if (!isArray && icons.selected.value) {
+        unselectIcon(icons);
         return;
       }
+
       if (isArray) {
-        icon.forEach(i => {
-          selectedIcons.value.push(i)
-          i.selected.value = true
+        icons.forEach(i => {
+          if (!i.selected.value) {
+            selectedIcons.value.push(i)
+            i.selected.value = true
+          }
         })
+        lastSelectedIcon.value = icons[icons.length - 1];
       } else {
-        selectedIcons.value.push(icon);
-        icon.selected.value = true;
+        selectedIcons.value.push(icons);
+        icons.selected.value = true;
+        lastSelectedIcon.value = icons;
       }
-      updateCopyList();
-      lastSelectedIcon.value = icon;
     };
 
-    // sidepanel
-    let updateCopyList = () => {
-      selectedCopyList.value = selectedIcons.value
-        .map((i) => i.vendor + i.name)
-        .join(",")
-        .replace(/,/g, ",\n");
-    };
+    let clearSelected = () => {
+      selectedIcons.value.forEach((i) => {
+        i.selected.value = false
+      })
+      selectedIcons.value = []
+    }
+
+    // vendor
 
     let isAnyVendorLoaded = () => {
       return (
@@ -279,21 +282,20 @@ export default {
       vendors[vendor].active = !vendors[vendor].active;
     };
 
-    let selectedCopyList = ref("");
-
+    // provide for IconsVendor
     provide("hovered-icon", currentIcon);
+    // provide for IconsVendor
     provide("last-selected-icon", lastSelectedIcon);
 
     return {
       icons,
       filter,
       currentIcon,
-      currentVendor,
       selectIcon,
       unselectIcon,
       debounced,
       selectedIcons,
-      selectedCopyList,
+      clearSelected,
       size,
       sizes,
       vendors,

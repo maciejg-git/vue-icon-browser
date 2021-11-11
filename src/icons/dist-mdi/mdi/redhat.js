@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Redhat",
   vendor: "Mdi",
+  type: "",
   tags: ["redhat"],
   render() {
     return h(

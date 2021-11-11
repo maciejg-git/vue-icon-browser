@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArchiveEdit",
   vendor: "Mdi",
+  type: "",
   tags: ["archive","edit"],
   render() {
     return h(

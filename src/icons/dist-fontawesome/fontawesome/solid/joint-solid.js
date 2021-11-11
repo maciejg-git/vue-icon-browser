@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "JointSolid",
+  name: "Joint",
   vendor: "Fa",
+  type: "Solid",
   tags: ["joint"],
   render() {
     return h(

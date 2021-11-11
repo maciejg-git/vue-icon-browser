@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FolderOpenSolid",
+  name: "FolderOpen",
   vendor: "Fa",
+  type: "Solid",
   tags: ["folder","open"],
   render() {
     return h(

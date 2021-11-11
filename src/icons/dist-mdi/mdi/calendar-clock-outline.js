@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CalendarClockOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["calendar","clock","outline"],
   render() {
     return h(

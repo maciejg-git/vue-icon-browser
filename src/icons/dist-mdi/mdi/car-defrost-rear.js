@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CarDefrostRear",
   vendor: "Mdi",
+  type: "",
   tags: ["car","defrost","rear"],
   render() {
     return h(

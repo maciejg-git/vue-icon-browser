@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MenuRightOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["menu","right","outline"],
   render() {
     return h(

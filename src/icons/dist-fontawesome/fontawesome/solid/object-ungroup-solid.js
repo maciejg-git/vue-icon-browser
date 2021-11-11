@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ObjectUngroupSolid",
+  name: "ObjectUngroup",
   vendor: "Fa",
+  type: "Solid",
   tags: ["object","ungroup"],
   render() {
     return h(

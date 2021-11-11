@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "StrikethroughSolid",
+  name: "Strikethrough",
   vendor: "Fa",
+  type: "Solid",
   tags: ["strikethrough"],
   render() {
     return h(

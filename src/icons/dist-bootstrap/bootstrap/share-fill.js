@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ShareFill",
   vendor: "B",
+  type: "",
   tags: ["share","fill"],
   render() {
     return h(

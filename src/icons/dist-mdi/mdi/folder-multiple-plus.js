@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderMultiplePlus",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","multiple","plus"],
   render() {
     return h(

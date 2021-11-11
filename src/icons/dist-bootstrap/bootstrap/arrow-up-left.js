@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArrowUpLeft",
   vendor: "B",
+  type: "",
   tags: ["arrow","up","left"],
   render() {
     return h(

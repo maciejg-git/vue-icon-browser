@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HelpNetworkOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["help","network","outline"],
   render() {
     return h(

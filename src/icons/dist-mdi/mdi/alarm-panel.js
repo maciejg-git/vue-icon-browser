@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AlarmPanel",
   vendor: "Mdi",
+  type: "",
   tags: ["alarm","panel"],
   render() {
     return h(

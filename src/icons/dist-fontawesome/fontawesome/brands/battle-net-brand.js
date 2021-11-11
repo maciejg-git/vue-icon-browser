@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BattleNetBrand",
+  name: "BattleNet",
   vendor: "Fa",
+  type: "Brand",
   tags: ["battle","net"],
   render() {
     return h(

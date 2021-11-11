@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MousePointerSolid",
+  name: "MousePointer",
   vendor: "Fa",
+  type: "Solid",
   tags: ["mouse","pointer"],
   render() {
     return h(

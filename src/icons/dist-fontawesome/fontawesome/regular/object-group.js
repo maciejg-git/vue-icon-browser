@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ObjectGroup",
   vendor: "Fa",
+  type: "",
   tags: ["object","group"],
   render() {
     return h(

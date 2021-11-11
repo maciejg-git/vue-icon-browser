@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "RulerSolid",
+  name: "Ruler",
   vendor: "Fa",
+  type: "Solid",
   tags: ["ruler"],
   render() {
     return h(

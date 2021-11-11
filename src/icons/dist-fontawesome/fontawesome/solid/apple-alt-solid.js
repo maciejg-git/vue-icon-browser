@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "AppleAltSolid",
+  name: "AppleAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["apple","alt"],
   render() {
     return h(

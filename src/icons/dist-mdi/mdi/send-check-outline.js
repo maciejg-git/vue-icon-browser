@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SendCheckOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["send","check","outline"],
   render() {
     return h(

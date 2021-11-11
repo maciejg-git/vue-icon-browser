@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "AmericanSignLanguageInterpretingSolid",
+  name: "AmericanSignLanguageInterpreting",
   vendor: "Fa",
+  type: "Solid",
   tags: ["american","sign","language","interpreting"],
   render() {
     return h(

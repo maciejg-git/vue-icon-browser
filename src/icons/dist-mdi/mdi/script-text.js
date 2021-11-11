@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ScriptText",
   vendor: "Mdi",
+  type: "",
   tags: ["script","text"],
   render() {
     return h(

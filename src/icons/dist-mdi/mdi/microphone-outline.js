@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MicrophoneOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["microphone","outline"],
   render() {
     return h(

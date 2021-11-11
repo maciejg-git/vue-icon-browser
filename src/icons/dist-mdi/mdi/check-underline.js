@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CheckUnderline",
   vendor: "Mdi",
+  type: "",
   tags: ["check","underline"],
   render() {
     return h(

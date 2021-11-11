@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CheckSquareFill",
   vendor: "B",
+  type: "",
   tags: ["check","square","fill"],
   render() {
     return h(

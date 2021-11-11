@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VolumeVariantOff",
   vendor: "Mdi",
+  type: "",
   tags: ["volume","variant","off"],
   render() {
     return h(

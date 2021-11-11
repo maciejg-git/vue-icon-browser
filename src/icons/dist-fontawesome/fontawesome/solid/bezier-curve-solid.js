@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BezierCurveSolid",
+  name: "BezierCurve",
   vendor: "Fa",
+  type: "Solid",
   tags: ["bezier","curve"],
   render() {
     return h(

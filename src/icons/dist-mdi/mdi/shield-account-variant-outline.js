@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ShieldAccountVariantOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["shield","account","variant","outline"],
   render() {
     return h(

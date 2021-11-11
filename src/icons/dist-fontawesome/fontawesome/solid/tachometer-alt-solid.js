@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "TachometerAltSolid",
+  name: "TachometerAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["tachometer","alt"],
   render() {
     return h(

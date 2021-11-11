@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SlashCircle",
   vendor: "B",
+  type: "",
   tags: ["slash","circle"],
   render() {
     return h(

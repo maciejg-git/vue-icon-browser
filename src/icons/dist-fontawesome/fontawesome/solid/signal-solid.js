@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SignalSolid",
+  name: "Signal",
   vendor: "Fa",
+  type: "Solid",
   tags: ["signal"],
   render() {
     return h(

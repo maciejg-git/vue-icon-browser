@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "UmbrellaSolid",
+  name: "Umbrella",
   vendor: "Fa",
+  type: "Solid",
   tags: ["umbrella"],
   render() {
     return h(

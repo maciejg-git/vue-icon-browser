@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SimAlertOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["sim","alert","outline"],
   render() {
     return h(

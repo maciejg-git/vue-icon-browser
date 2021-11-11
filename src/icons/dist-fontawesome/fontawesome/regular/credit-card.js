@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CreditCard",
   vendor: "Fa",
+  type: "",
   tags: ["credit","card"],
   render() {
     return h(

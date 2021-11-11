@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CloudPrintOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["cloud","print","outline"],
   render() {
     return h(

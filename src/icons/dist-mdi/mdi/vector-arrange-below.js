@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VectorArrangeBelow",
   vendor: "Mdi",
+  type: "",
   tags: ["vector","arrange","below"],
   render() {
     return h(

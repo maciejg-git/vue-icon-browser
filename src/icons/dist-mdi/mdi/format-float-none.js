@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatFloatNone",
   vendor: "Mdi",
+  type: "",
   tags: ["format","float","none"],
   render() {
     return h(

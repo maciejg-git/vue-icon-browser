@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "GoogleDriveBrand",
+  name: "GoogleDrive",
   vendor: "Fa",
+  type: "Brand",
   tags: ["google","drive"],
   render() {
     return h(

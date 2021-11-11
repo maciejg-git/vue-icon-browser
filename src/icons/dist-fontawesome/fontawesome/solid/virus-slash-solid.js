@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "VirusSlashSolid",
+  name: "VirusSlash",
   vendor: "Fa",
+  type: "Solid",
   tags: ["virus","slash"],
   render() {
     return h(

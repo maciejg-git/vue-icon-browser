@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "TeamspeakBrand",
+  name: "Teamspeak",
   vendor: "Fa",
+  type: "Brand",
   tags: ["teamspeak"],
   render() {
     return h(

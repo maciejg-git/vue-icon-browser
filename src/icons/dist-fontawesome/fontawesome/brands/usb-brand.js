@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "UsbBrand",
+  name: "Usb",
   vendor: "Fa",
+  type: "Brand",
   tags: ["usb"],
   render() {
     return h(

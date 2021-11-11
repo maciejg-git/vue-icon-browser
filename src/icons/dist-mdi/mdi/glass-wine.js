@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GlassWine",
   vendor: "Mdi",
+  type: "",
   tags: ["glass","wine"],
   render() {
     return h(

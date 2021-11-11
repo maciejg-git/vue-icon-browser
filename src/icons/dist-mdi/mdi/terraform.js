@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Terraform",
   vendor: "Mdi",
+  type: "",
   tags: ["terraform"],
   render() {
     return h(

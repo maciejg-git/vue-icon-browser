@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PailRemove",
   vendor: "Mdi",
+  type: "",
   tags: ["pail","remove"],
   render() {
     return h(

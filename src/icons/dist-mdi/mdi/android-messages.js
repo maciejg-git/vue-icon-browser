@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AndroidMessages",
   vendor: "Mdi",
+  type: "",
   tags: ["android","messages"],
   render() {
     return h(

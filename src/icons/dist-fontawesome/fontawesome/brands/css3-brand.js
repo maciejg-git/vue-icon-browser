@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "Css3Brand",
+  name: "Css3",
   vendor: "Fa",
+  type: "Brand",
   tags: ["css3"],
   render() {
     return h(

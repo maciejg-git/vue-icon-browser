@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Scoreboard",
   vendor: "Mdi",
+  type: "",
   tags: ["scoreboard"],
   render() {
     return h(

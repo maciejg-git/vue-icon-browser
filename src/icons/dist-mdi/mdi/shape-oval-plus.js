@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ShapeOvalPlus",
   vendor: "Mdi",
+  type: "",
   tags: ["shape","oval","plus"],
   render() {
     return h(

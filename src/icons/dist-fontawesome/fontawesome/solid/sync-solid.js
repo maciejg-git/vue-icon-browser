@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SyncSolid",
+  name: "Sync",
   vendor: "Fa",
+  type: "Solid",
   tags: ["sync"],
   render() {
     return h(

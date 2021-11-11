@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EmoticonConfusedOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["emoticon","confused","outline"],
   render() {
     return h(

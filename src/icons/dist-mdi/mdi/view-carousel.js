@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ViewCarousel",
   vendor: "Mdi",
+  type: "",
   tags: ["view","carousel"],
   render() {
     return h(

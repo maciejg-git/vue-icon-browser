@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WifiArrowRight",
   vendor: "Mdi",
+  type: "",
   tags: ["wifi","arrow","right"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "VrCardboardSolid",
+  name: "VrCardboard",
   vendor: "Fa",
+  type: "Solid",
   tags: ["vr","cardboard"],
   render() {
     return h(

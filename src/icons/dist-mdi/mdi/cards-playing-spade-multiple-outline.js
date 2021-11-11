@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CardsPlayingSpadeMultipleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["cards","playing","spade","multiple","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ShieldLinkVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["shield","link","variant"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileTableBoxMultipleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","table","box","multiple","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "IncognitoOff",
   vendor: "Mdi",
+  type: "",
   tags: ["incognito","off"],
   render() {
     return h(

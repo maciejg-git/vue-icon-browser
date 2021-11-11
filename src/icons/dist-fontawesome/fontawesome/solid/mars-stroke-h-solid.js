@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MarsStrokeHSolid",
+  name: "MarsStrokeH",
   vendor: "Fa",
+  type: "Solid",
   tags: ["mars","stroke","h"],
   render() {
     return h(

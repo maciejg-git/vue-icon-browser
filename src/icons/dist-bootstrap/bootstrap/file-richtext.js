@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileRichtext",
   vendor: "B",
+  type: "",
   tags: ["file","richtext"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BimobjectBrand",
+  name: "Bimobject",
   vendor: "Fa",
+  type: "Brand",
   tags: ["bimobject"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TableCheck",
   vendor: "Mdi",
+  type: "",
   tags: ["table","check"],
   render() {
     return h(

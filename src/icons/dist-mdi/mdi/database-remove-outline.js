@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DatabaseRemoveOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["database","remove","outline"],
   render() {
     return h(

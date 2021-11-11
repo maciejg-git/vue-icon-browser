@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PollSolid",
+  name: "Poll",
   vendor: "Fa",
+  type: "Solid",
   tags: ["poll"],
   render() {
     return h(

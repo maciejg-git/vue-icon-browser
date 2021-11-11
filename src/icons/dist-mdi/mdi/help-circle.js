@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HelpCircle",
   vendor: "Mdi",
+  type: "",
   tags: ["help","circle"],
   render() {
     return h(

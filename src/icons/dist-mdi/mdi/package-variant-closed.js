@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PackageVariantClosed",
   vendor: "Mdi",
+  type: "",
   tags: ["package","variant","closed"],
   render() {
     return h(

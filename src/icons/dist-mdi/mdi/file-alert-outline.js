@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileAlertOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","alert","outline"],
   render() {
     return h(

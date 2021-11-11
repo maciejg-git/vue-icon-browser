@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MoneyBillWaveAltSolid",
+  name: "MoneyBillWaveAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["money","bill","wave","alt"],
   render() {
     return h(

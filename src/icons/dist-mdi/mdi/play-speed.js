@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PlaySpeed",
   vendor: "Mdi",
+  type: "",
   tags: ["play","speed"],
   render() {
     return h(

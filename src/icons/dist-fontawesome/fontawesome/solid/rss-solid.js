@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "RssSolid",
+  name: "Rss",
   vendor: "Fa",
+  type: "Solid",
   tags: ["rss"],
   render() {
     return h(

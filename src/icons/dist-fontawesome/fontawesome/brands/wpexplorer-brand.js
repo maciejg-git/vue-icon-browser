@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "WpexplorerBrand",
+  name: "Wpexplorer",
   vendor: "Fa",
+  type: "Brand",
   tags: ["wpexplorer"],
   render() {
     return h(

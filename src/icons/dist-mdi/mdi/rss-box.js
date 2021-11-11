@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "RssBox",
   vendor: "Mdi",
+  type: "",
   tags: ["rss","box"],
   render() {
     return h(

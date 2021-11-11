@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GamepadCircleLeft",
   vendor: "Mdi",
+  type: "",
   tags: ["gamepad","circle","left"],
   render() {
     return h(

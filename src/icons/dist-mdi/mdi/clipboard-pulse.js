@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ClipboardPulse",
   vendor: "Mdi",
+  type: "",
   tags: ["clipboard","pulse"],
   render() {
     return h(

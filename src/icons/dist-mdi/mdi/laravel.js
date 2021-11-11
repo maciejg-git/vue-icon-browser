@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Laravel",
   vendor: "Mdi",
+  type: "",
   tags: ["laravel"],
   render() {
     return h(

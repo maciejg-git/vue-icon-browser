@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SimCardSolid",
+  name: "SimCard",
   vendor: "Fa",
+  type: "Solid",
   tags: ["sim","card"],
   render() {
     return h(

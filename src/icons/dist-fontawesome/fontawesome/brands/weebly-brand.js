@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "WeeblyBrand",
+  name: "Weebly",
   vendor: "Fa",
+  type: "Brand",
   tags: ["weebly"],
   render() {
     return h(

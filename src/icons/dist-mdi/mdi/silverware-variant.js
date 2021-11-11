@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SilverwareVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["silverware","variant"],
   render() {
     return h(

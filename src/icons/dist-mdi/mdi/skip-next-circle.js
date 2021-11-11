@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SkipNextCircle",
   vendor: "Mdi",
+  type: "",
   tags: ["skip","next","circle"],
   render() {
     return h(

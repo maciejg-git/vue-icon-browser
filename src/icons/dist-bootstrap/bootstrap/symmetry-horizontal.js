@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SymmetryHorizontal",
   vendor: "B",
+  type: "",
   tags: ["symmetry","horizontal"],
   render() {
     return h(

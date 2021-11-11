@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LayersHalf",
   vendor: "B",
+  type: "",
   tags: ["layers","half"],
   render() {
     return h(

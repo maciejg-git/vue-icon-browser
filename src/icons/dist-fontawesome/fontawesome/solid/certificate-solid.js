@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CertificateSolid",
+  name: "Certificate",
   vendor: "Fa",
+  type: "Solid",
   tags: ["certificate"],
   render() {
     return h(

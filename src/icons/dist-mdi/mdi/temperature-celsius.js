@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TemperatureCelsius",
   vendor: "Mdi",
+  type: "",
   tags: ["temperature","celsius"],
   render() {
     return h(

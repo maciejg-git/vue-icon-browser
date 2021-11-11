@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Pinterest",
   vendor: "Mdi",
+  type: "",
   tags: ["pinterest"],
   render() {
     return h(

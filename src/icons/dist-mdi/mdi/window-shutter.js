@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WindowShutter",
   vendor: "Mdi",
+  type: "",
   tags: ["window","shutter"],
   render() {
     return h(

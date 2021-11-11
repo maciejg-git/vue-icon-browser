@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CameraGopro",
   vendor: "Mdi",
+  type: "",
   tags: ["camera","gopro"],
   render() {
     return h(

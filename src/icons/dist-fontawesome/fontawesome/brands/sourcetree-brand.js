@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SourcetreeBrand",
+  name: "Sourcetree",
   vendor: "Fa",
+  type: "Brand",
   tags: ["sourcetree"],
   render() {
     return h(

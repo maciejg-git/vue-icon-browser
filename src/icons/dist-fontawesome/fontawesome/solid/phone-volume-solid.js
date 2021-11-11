@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PhoneVolumeSolid",
+  name: "PhoneVolume",
   vendor: "Fa",
+  type: "Solid",
   tags: ["phone","volume"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SyncAltSolid",
+  name: "SyncAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["sync","alt"],
   render() {
     return h(

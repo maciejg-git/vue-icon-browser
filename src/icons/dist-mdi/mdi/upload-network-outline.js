@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "UploadNetworkOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["upload","network","outline"],
   render() {
     return h(

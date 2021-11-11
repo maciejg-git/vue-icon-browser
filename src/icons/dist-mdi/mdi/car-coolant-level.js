@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CarCoolantLevel",
   vendor: "Mdi",
+  type: "",
   tags: ["car","coolant","level"],
   render() {
     return h(

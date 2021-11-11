@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ApplicationEditOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["application","edit","outline"],
   render() {
     return h(

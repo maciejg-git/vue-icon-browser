@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ChessPawnSolid",
+  name: "ChessPawn",
   vendor: "Fa",
+  type: "Solid",
   tags: ["chess","pawn"],
   render() {
     return h(

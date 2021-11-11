@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AccessPointNetworkOff",
   vendor: "Mdi",
+  type: "",
   tags: ["access","point","network","off"],
   render() {
     return h(

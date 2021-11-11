@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SearchLocationSolid",
+  name: "SearchLocation",
   vendor: "Fa",
+  type: "Solid",
   tags: ["search","location"],
   render() {
     return h(

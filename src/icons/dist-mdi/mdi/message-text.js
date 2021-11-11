@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MessageText",
   vendor: "Mdi",
+  type: "",
   tags: ["message","text"],
   render() {
     return h(

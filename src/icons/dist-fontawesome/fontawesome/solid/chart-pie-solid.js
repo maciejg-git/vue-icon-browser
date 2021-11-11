@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ChartPieSolid",
+  name: "ChartPie",
   vendor: "Fa",
+  type: "Solid",
   tags: ["chart","pie"],
   render() {
     return h(

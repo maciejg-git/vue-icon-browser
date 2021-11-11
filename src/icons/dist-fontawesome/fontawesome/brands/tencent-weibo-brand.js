@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "TencentWeiboBrand",
+  name: "TencentWeibo",
   vendor: "Fa",
+  type: "Brand",
   tags: ["tencent","weibo"],
   render() {
     return h(

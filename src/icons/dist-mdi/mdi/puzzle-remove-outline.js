@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PuzzleRemoveOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["puzzle","remove","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DatabaseSyncOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["database","sync","outline"],
   render() {
     return h(

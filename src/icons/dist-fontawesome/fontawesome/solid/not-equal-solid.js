@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "NotEqualSolid",
+  name: "NotEqual",
   vendor: "Fa",
+  type: "Solid",
   tags: ["not","equal"],
   render() {
     return h(

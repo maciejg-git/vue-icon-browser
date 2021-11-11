@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "LongArrowAltLeftSolid",
+  name: "LongArrowAltLeft",
   vendor: "Fa",
+  type: "Solid",
   tags: ["long","arrow","alt","left"],
   render() {
     return h(

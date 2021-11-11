@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FlaskEmptyMinusOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["flask","empty","minus","outline"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PlaystationBrand",
+  name: "Playstation",
   vendor: "Fa",
+  type: "Brand",
   tags: ["playstation"],
   render() {
     return h(

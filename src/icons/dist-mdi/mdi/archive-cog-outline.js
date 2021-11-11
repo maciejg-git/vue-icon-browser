@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArchiveCogOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["archive","cog","outline"],
   render() {
     return h(

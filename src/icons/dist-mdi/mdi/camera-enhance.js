@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CameraEnhance",
   vendor: "Mdi",
+  type: "",
   tags: ["camera","enhance"],
   render() {
     return h(

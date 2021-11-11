@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TransitConnectionHorizontal",
   vendor: "Mdi",
+  type: "",
   tags: ["transit","connection","horizontal"],
   render() {
     return h(

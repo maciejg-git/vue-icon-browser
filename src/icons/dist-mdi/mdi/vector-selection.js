@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VectorSelection",
   vendor: "Mdi",
+  type: "",
   tags: ["vector","selection"],
   render() {
     return h(

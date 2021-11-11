@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SpiderThread",
   vendor: "Mdi",
+  type: "",
   tags: ["spider","thread"],
   render() {
     return h(

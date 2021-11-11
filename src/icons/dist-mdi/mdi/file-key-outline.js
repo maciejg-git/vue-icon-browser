@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileKeyOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","key","outline"],
   render() {
     return h(

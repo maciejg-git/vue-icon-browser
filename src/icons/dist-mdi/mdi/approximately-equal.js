@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ApproximatelyEqual",
   vendor: "Mdi",
+  type: "",
   tags: ["approximately","equal"],
   render() {
     return h(

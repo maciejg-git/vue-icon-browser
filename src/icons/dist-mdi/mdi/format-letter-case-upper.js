@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatLetterCaseUpper",
   vendor: "Mdi",
+  type: "",
   tags: ["format","letter","case","upper"],
   render() {
     return h(

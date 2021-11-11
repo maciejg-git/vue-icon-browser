@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArrangeSendBackward",
   vendor: "Mdi",
+  type: "",
   tags: ["arrange","send","backward"],
   render() {
     return h(

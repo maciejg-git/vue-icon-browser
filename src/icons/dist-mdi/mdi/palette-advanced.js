@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PaletteAdvanced",
   vendor: "Mdi",
+  type: "",
   tags: ["palette","advanced"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GlassFragile",
   vendor: "Mdi",
+  type: "",
   tags: ["glass","fragile"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileCheckOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","check","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "StretchToPage",
   vendor: "Mdi",
+  type: "",
   tags: ["stretch","to","page"],
   render() {
     return h(

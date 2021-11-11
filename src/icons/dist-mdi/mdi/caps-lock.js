@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CapsLock",
   vendor: "Mdi",
+  type: "",
   tags: ["caps","lock"],
   render() {
     return h(

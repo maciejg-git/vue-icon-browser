@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "InfinitySolid",
+  name: "Infinity",
   vendor: "Fa",
+  type: "Solid",
   tags: ["infinity"],
   render() {
     return h(

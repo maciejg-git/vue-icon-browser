@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BorderInner",
   vendor: "B",
+  type: "",
   tags: ["border","inner"],
   render() {
     return h(

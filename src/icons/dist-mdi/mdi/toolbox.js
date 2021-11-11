@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Toolbox",
   vendor: "Mdi",
+  type: "",
   tags: ["toolbox"],
   render() {
     return h(

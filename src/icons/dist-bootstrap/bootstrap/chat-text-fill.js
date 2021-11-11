@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ChatTextFill",
   vendor: "B",
+  type: "",
   tags: ["chat","text","fill"],
   render() {
     return h(

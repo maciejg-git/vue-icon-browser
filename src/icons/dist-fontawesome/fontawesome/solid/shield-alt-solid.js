@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ShieldAltSolid",
+  name: "ShieldAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["shield","alt"],
   render() {
     return h(

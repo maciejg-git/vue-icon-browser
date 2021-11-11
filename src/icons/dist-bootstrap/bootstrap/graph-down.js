@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GraphDown",
   vendor: "B",
+  type: "",
   tags: ["graph","down"],
   render() {
     return h(

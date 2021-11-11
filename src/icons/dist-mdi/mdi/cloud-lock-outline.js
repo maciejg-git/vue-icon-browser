@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CloudLockOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["cloud","lock","outline"],
   render() {
     return h(

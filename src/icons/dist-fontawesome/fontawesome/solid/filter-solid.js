@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FilterSolid",
+  name: "Filter",
   vendor: "Fa",
+  type: "Solid",
   tags: ["filter"],
   render() {
     return h(

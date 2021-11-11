@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BalanceScaleRightSolid",
+  name: "BalanceScaleRight",
   vendor: "Fa",
+  type: "Solid",
   tags: ["balance","scale","right"],
   render() {
     return h(

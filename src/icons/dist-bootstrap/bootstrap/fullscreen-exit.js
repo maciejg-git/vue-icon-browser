@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FullscreenExit",
   vendor: "B",
+  type: "",
   tags: ["fullscreen","exit"],
   render() {
     return h(

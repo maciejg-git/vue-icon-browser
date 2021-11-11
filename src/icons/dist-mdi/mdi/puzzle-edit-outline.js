@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PuzzleEditOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["puzzle","edit","outline"],
   render() {
     return h(

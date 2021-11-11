@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SkipForward",
   vendor: "Mdi",
+  type: "",
   tags: ["skip","forward"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MagnifyScan",
   vendor: "Mdi",
+  type: "",
   tags: ["magnify","scan"],
   render() {
     return h(

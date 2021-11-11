@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CloseBoxMultipleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["close","box","multiple","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FilterRight",
   vendor: "B",
+  type: "",
   tags: ["filter","right"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ScreenRotationLock",
   vendor: "Mdi",
+  type: "",
   tags: ["screen","rotation","lock"],
   render() {
     return h(

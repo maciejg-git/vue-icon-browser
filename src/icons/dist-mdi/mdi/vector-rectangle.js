@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VectorRectangle",
   vendor: "Mdi",
+  type: "",
   tags: ["vector","rectangle"],
   render() {
     return h(

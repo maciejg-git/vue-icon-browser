@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BadgeAccountHorizontal",
   vendor: "Mdi",
+  type: "",
   tags: ["badge","account","horizontal"],
   render() {
     return h(

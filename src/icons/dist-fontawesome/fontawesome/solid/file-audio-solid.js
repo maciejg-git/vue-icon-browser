@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FileAudioSolid",
+  name: "FileAudio",
   vendor: "Fa",
+  type: "Solid",
   tags: ["file","audio"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileBreak",
   vendor: "B",
+  type: "",
   tags: ["file","break"],
   render() {
     return h(

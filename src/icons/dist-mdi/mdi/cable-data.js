@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CableData",
   vendor: "Mdi",
+  type: "",
   tags: ["cable","data"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AccountGroupOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["account","group","outline"],
   render() {
     return h(

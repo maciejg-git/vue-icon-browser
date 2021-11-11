@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MessageBadge",
   vendor: "Mdi",
+  type: "",
   tags: ["message","badge"],
   render() {
     return h(

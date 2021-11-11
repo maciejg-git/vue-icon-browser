@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AirHumidifier",
   vendor: "Mdi",
+  type: "",
   tags: ["air","humidifier"],
   render() {
     return h(

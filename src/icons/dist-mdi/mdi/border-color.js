@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BorderColor",
   vendor: "Mdi",
+  type: "",
   tags: ["border","color"],
   render() {
     return h(

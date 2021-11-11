@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CloudPlus",
   vendor: "B",
+  type: "",
   tags: ["cloud","plus"],
   render() {
     return h(

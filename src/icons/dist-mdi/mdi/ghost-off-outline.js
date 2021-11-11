@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GhostOffOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["ghost","off","outline"],
   render() {
     return h(

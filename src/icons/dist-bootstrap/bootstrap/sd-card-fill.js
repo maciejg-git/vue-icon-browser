@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SdCardFill",
   vendor: "B",
+  type: "",
   tags: ["sd","card","fill"],
   render() {
     return h(

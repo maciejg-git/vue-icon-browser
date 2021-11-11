@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PanHorizontal",
   vendor: "Mdi",
+  type: "",
   tags: ["pan","horizontal"],
   render() {
     return h(

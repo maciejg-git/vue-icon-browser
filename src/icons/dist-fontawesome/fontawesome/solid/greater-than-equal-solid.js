@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "GreaterThanEqualSolid",
+  name: "GreaterThanEqual",
   vendor: "Fa",
+  type: "Solid",
   tags: ["greater","than","equal"],
   render() {
     return h(

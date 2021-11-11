@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FlipboardBrand",
+  name: "Flipboard",
   vendor: "Fa",
+  type: "Brand",
   tags: ["flipboard"],
   render() {
     return h(

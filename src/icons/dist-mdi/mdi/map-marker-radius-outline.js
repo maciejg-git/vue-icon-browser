@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MapMarkerRadiusOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["map","marker","radius","outline"],
   render() {
     return h(

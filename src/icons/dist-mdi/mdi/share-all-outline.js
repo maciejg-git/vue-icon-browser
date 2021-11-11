@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ShareAllOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["share","all","outline"],
   render() {
     return h(

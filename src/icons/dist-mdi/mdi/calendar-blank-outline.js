@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CalendarBlankOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["calendar","blank","outline"],
   render() {
     return h(

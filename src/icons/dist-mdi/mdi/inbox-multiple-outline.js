@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "InboxMultipleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["inbox","multiple","outline"],
   render() {
     return h(

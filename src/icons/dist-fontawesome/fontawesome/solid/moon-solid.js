@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MoonSolid",
+  name: "Moon",
   vendor: "Fa",
+  type: "Solid",
   tags: ["moon"],
   render() {
     return h(

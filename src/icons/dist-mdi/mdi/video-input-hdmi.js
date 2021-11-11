@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VideoInputHdmi",
   vendor: "Mdi",
+  type: "",
   tags: ["video","input","hdmi"],
   render() {
     return h(

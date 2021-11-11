@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BullseyeArrow",
   vendor: "Mdi",
+  type: "",
   tags: ["bullseye","arrow"],
   render() {
     return h(

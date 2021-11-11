@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BoldSolid",
+  name: "Bold",
   vendor: "Fa",
+  type: "Solid",
   tags: ["bold"],
   render() {
     return h(

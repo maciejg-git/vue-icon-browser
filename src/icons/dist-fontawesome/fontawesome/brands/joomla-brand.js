@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "JoomlaBrand",
+  name: "Joomla",
   vendor: "Fa",
+  type: "Brand",
   tags: ["joomla"],
   render() {
     return h(

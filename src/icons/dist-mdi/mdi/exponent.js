@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Exponent",
   vendor: "Mdi",
+  type: "",
   tags: ["exponent"],
   render() {
     return h(

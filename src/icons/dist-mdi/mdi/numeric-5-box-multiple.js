@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Numeric5BoxMultiple",
   vendor: "Mdi",
+  type: "",
   tags: ["numeric","5","box","multiple"],
   render() {
     return h(

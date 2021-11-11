@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MiniSd",
   vendor: "Mdi",
+  type: "",
   tags: ["mini","sd"],
   render() {
     return h(

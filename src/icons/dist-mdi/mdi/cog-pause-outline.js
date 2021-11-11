@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CogPauseOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["cog","pause","outline"],
   render() {
     return h(

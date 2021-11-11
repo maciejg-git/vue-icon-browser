@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FigmaBrand",
+  name: "Figma",
   vendor: "Fa",
+  type: "Brand",
   tags: ["figma"],
   render() {
     return h(

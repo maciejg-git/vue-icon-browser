@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SelectMarker",
   vendor: "Mdi",
+  type: "",
   tags: ["select","marker"],
   render() {
     return h(

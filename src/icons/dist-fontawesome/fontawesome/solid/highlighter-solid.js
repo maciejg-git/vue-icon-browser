@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "HighlighterSolid",
+  name: "Highlighter",
   vendor: "Fa",
+  type: "Solid",
   tags: ["highlighter"],
   render() {
     return h(

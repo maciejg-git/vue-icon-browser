@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatAlignBottom",
   vendor: "Mdi",
+  type: "",
   tags: ["format","align","bottom"],
   render() {
     return h(

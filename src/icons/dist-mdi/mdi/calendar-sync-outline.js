@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CalendarSyncOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["calendar","sync","outline"],
   render() {
     return h(

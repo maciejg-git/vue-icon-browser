@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "TiktokBrand",
+  name: "Tiktok",
   vendor: "Fa",
+  type: "Brand",
   tags: ["tiktok"],
   render() {
     return h(

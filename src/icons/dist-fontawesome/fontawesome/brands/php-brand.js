@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PhpBrand",
+  name: "Php",
   vendor: "Fa",
+  type: "Brand",
   tags: ["php"],
   render() {
     return h(

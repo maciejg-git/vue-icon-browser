@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ShieldKey",
   vendor: "Mdi",
+  type: "",
   tags: ["shield","key"],
   render() {
     return h(

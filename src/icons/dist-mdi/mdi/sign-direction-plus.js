@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SignDirectionPlus",
   vendor: "Mdi",
+  type: "",
   tags: ["sign","direction","plus"],
   render() {
     return h(

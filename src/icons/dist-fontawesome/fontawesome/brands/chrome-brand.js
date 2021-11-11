@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ChromeBrand",
+  name: "Chrome",
   vendor: "Fa",
+  type: "Brand",
   tags: ["chrome"],
   render() {
     return h(

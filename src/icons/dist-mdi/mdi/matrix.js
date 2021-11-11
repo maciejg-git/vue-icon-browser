@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Matrix",
   vendor: "Mdi",
+  type: "",
   tags: ["matrix"],
   render() {
     return h(

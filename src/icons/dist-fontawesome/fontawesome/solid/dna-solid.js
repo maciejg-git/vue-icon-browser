@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "DnaSolid",
+  name: "Dna",
   vendor: "Fa",
+  type: "Solid",
   tags: ["dna"],
   render() {
     return h(

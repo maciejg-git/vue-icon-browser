@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AlphaWCircle",
   vendor: "Mdi",
+  type: "",
   tags: ["alpha","w","circle"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HandPointDown",
   vendor: "Fa",
+  type: "",
   tags: ["hand","point","down"],
   render() {
     return h(

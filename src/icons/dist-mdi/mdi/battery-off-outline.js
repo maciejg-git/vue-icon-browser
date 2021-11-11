@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BatteryOffOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["battery","off","outline"],
   render() {
     return h(

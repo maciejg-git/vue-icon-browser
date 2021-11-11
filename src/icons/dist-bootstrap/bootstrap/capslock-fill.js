@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CapslockFill",
   vendor: "B",
+  type: "",
   tags: ["capslock","fill"],
   render() {
     return h(

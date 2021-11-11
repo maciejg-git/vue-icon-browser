@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BadgeCcFill",
   vendor: "B",
+  type: "",
   tags: ["badge","cc","fill"],
   render() {
     return h(

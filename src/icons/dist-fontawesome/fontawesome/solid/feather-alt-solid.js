@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FeatherAltSolid",
+  name: "FeatherAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["feather","alt"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EggOffOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["egg","off","outline"],
   render() {
     return h(

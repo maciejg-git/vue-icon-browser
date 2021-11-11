@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatPageSplit",
   vendor: "Mdi",
+  type: "",
   tags: ["format","page","split"],
   render() {
     return h(

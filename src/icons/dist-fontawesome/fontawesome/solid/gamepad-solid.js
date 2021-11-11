@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "GamepadSolid",
+  name: "Gamepad",
   vendor: "Fa",
+  type: "Solid",
   tags: ["gamepad"],
   render() {
     return h(

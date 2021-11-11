@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "IncognitoCircle",
   vendor: "Mdi",
+  type: "",
   tags: ["incognito","circle"],
   render() {
     return h(

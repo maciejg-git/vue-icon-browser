@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CloudDownloadFill",
   vendor: "B",
+  type: "",
   tags: ["cloud","download","fill"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "StarBoxMultiple",
   vendor: "Mdi",
+  type: "",
   tags: ["star","box","multiple"],
   render() {
     return h(

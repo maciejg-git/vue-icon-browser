@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Nfc",
   vendor: "Mdi",
+  type: "",
   tags: ["nfc"],
   render() {
     return h(

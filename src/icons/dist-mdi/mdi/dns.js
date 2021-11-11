@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Dns",
   vendor: "Mdi",
+  type: "",
   tags: ["dns"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "StickyNoteSolid",
+  name: "StickyNote",
   vendor: "Fa",
+  type: "Solid",
   tags: ["sticky","note"],
   render() {
     return h(

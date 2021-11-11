@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TypeBold",
   vendor: "B",
+  type: "",
   tags: ["type","bold"],
   render() {
     return h(

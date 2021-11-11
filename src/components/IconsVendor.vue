@@ -7,7 +7,7 @@
       <template v-for="(icon, index) in icons">
         <div
           class="inline-block cursor-pointer bg-gray-100 rounded-md p-2 m-2"
-          :data-icon="icon.vendor + icon.name"
+          :data-icon="icon.name"
           @click="selectIcon($event, icon)"
         >
           <component
@@ -33,7 +33,7 @@ export default {
   },
   setup(props, { emit }) {
     let generateTags = () => {
-      let tags = {}
+      let tags = {};
 
       for (let icon of props.icons) {
         for (let tag of icon.tags) {
@@ -77,13 +77,17 @@ export default {
     let selectIcon = (ev, icon) => {
       // vendor last vendor
       // wywalic index
-      let selectedIcons = icon
-      if (ev.shiftKey && lastSelectedIcon.value) {
+      let selectedIcons = icon;
+      if (
+        ev.shiftKey &&
+        lastSelectedIcon.value &&
+        lastSelectedIcon.value.vendor == icon.vendor
+      ) {
         if (lastSelectedIcon.value) {
-          let from = icons.value.indexOf(lastSelectedIcon.value)
-          let to = icons.value.indexOf(icon)
-          if (to < from) [from, to] = [to, from]
-          selectedIcons = icons.value.slice(from, to + 1)
+          let from = icons.value.indexOf(lastSelectedIcon.value);
+          let to = icons.value.indexOf(icon);
+          if (to < from) [from, to] = [to, from];
+          selectedIcons = icons.value.slice(from, to + 1);
         }
       }
       emit("selected-icon", selectedIcons);

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatSection",
   vendor: "Mdi",
+  type: "",
   tags: ["format","section"],
   render() {
     return h(

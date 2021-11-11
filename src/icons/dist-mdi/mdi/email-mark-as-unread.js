@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EmailMarkAsUnread",
   vendor: "Mdi",
+  type: "",
   tags: ["email","mark","as","unread"],
   render() {
     return h(

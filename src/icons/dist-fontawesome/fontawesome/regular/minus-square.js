@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MinusSquare",
   vendor: "Fa",
+  type: "",
   tags: ["minus","square"],
   render() {
     return h(

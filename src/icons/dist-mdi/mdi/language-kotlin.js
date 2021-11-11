@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LanguageKotlin",
   vendor: "Mdi",
+  type: "",
   tags: ["language","kotlin"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WifiStrength2Lock",
   vendor: "Mdi",
+  type: "",
   tags: ["wifi","strength","2","lock"],
   render() {
     return h(

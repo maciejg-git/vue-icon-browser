@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CursorMove",
   vendor: "Mdi",
+  type: "",
   tags: ["cursor","move"],
   render() {
     return h(

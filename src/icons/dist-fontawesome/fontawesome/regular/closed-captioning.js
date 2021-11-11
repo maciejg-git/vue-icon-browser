@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ClosedCaptioning",
   vendor: "Fa",
+  type: "",
   tags: ["closed","captioning"],
   render() {
     return h(

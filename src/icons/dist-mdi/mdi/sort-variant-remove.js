@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SortVariantRemove",
   vendor: "Mdi",
+  type: "",
   tags: ["sort","variant","remove"],
   render() {
     return h(

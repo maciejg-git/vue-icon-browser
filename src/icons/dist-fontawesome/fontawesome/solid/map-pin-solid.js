@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MapPinSolid",
+  name: "MapPin",
   vendor: "Fa",
+  type: "Solid",
   tags: ["map","pin"],
   render() {
     return h(

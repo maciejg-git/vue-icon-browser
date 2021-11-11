@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ApplicationBracesOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["application","braces","outline"],
   render() {
     return h(

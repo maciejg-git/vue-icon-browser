@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MirrorRectangle",
   vendor: "Mdi",
+  type: "",
   tags: ["mirror","rectangle"],
   render() {
     return h(

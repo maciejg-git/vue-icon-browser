@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LinkOff",
   vendor: "Mdi",
+  type: "",
   tags: ["link","off"],
   render() {
     return h(

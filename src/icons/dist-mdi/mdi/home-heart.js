@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HomeHeart",
   vendor: "Mdi",
+  type: "",
   tags: ["home","heart"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PuzzleStarOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["puzzle","star","outline"],
   render() {
     return h(

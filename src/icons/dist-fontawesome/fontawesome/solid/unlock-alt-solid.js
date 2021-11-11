@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "UnlockAltSolid",
+  name: "UnlockAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["unlock","alt"],
   render() {
     return h(

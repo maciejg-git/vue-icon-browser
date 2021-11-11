@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CloudDownloadAltSolid",
+  name: "CloudDownloadAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["cloud","download","alt"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ToolboxOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["toolbox","outline"],
   render() {
     return h(

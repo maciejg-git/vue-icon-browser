@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WindowShutterOpen",
   vendor: "Mdi",
+  type: "",
   tags: ["window","shutter","open"],
   render() {
     return h(

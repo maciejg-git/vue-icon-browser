@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ClipboardMultipleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["clipboard","multiple","outline"],
   render() {
     return h(

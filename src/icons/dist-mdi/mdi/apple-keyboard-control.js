@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AppleKeyboardControl",
   vendor: "Mdi",
+  type: "",
   tags: ["apple","keyboard","control"],
   render() {
     return h(

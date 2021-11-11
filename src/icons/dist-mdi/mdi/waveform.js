@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Waveform",
   vendor: "Mdi",
+  type: "",
   tags: ["waveform"],
   render() {
     return h(

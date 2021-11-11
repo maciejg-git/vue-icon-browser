@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WashingMachineAlert",
   vendor: "Mdi",
+  type: "",
   tags: ["washing","machine","alert"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LinkVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["link","variant"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SyncOff",
   vendor: "Mdi",
+  type: "",
   tags: ["sync","off"],
   render() {
     return h(

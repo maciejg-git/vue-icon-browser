@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SortUpAlt",
   vendor: "B",
+  type: "",
   tags: ["sort","up","alt"],
   render() {
     return h(

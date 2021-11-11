@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "EthernetSolid",
+  name: "Ethernet",
   vendor: "Fa",
+  type: "Solid",
   tags: ["ethernet"],
   render() {
     return h(

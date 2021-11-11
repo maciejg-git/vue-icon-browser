@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BorderVertical",
   vendor: "Mdi",
+  type: "",
   tags: ["border","vertical"],
   render() {
     return h(

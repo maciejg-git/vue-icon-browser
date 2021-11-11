@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "NeuterSolid",
+  name: "Neuter",
   vendor: "Fa",
+  type: "Solid",
   tags: ["neuter"],
   render() {
     return h(

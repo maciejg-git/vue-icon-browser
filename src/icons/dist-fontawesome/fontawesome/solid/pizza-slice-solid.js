@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PizzaSliceSolid",
+  name: "PizzaSlice",
   vendor: "Fa",
+  type: "Solid",
   tags: ["pizza","slice"],
   render() {
     return h(

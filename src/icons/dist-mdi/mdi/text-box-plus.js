@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TextBoxPlus",
   vendor: "Mdi",
+  type: "",
   tags: ["text","box","plus"],
   render() {
     return h(

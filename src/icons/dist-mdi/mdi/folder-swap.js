@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderSwap",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","swap"],
   render() {
     return h(

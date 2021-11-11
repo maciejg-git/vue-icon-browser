@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderTextOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","text","outline"],
   render() {
     return h(

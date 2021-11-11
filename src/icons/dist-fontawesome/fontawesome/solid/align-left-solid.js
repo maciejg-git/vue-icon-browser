@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "AlignLeftSolid",
+  name: "AlignLeft",
   vendor: "Fa",
+  type: "Solid",
   tags: ["align","left"],
   render() {
     return h(

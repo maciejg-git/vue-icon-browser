@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BarChartFill",
   vendor: "B",
+  type: "",
   tags: ["bar","chart","fill"],
   render() {
     return h(

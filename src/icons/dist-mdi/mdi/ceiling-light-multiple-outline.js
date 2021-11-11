@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CeilingLightMultipleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["ceiling","light","multiple","outline"],
   render() {
     return h(

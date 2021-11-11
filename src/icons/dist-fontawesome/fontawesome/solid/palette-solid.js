@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PaletteSolid",
+  name: "Palette",
   vendor: "Fa",
+  type: "Solid",
   tags: ["palette"],
   render() {
     return h(

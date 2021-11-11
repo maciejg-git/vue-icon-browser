@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "XRaySolid",
+  name: "XRay",
   vendor: "Fa",
+  type: "Solid",
   tags: ["x","ray"],
   render() {
     return h(

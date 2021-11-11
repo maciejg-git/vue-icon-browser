@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "VoicemailSolid",
+  name: "Voicemail",
   vendor: "Fa",
+  type: "Solid",
   tags: ["voicemail"],
   render() {
     return h(

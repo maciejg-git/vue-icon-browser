@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "RulerCombinedSolid",
+  name: "RulerCombined",
   vendor: "Fa",
+  type: "Solid",
   tags: ["ruler","combined"],
   render() {
     return h(

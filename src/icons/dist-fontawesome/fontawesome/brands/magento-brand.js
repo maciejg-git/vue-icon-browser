@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MagentoBrand",
+  name: "Magento",
   vendor: "Fa",
+  type: "Brand",
   tags: ["magento"],
   render() {
     return h(

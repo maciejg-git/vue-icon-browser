@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FilterRemove",
   vendor: "Mdi",
+  type: "",
   tags: ["filter","remove"],
   render() {
     return h(

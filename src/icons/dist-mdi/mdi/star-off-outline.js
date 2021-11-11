@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "StarOffOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["star","off","outline"],
   render() {
     return h(

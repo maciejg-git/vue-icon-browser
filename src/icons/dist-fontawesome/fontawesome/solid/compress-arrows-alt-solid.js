@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CompressArrowsAltSolid",
+  name: "CompressArrowsAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["compress","arrows","alt"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PipeDisconnected",
   vendor: "Mdi",
+  type: "",
   tags: ["pipe","disconnected"],
   render() {
     return h(

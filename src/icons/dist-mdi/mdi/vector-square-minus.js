@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VectorSquareMinus",
   vendor: "Mdi",
+  type: "",
   tags: ["vector","square","minus"],
   render() {
     return h(

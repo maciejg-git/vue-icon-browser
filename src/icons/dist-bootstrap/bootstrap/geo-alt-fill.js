@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GeoAltFill",
   vendor: "B",
+  type: "",
   tags: ["geo","alt","fill"],
   render() {
     return h(

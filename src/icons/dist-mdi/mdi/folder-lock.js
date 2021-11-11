@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderLock",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","lock"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "AtlasSolid",
+  name: "Atlas",
   vendor: "Fa",
+  type: "Solid",
   tags: ["atlas"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CheckboxMarkedCirclePlusOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["checkbox","marked","circle","plus","outline"],
   render() {
     return h(

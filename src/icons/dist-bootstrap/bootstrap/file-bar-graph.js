@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileBarGraph",
   vendor: "B",
+  type: "",
   tags: ["file","bar","graph"],
   render() {
     return h(

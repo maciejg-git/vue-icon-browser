@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ScrewMachineFlatTop",
   vendor: "Mdi",
+  type: "",
   tags: ["screw","machine","flat","top"],
   render() {
     return h(

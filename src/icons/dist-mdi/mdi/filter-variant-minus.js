@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FilterVariantMinus",
   vendor: "Mdi",
+  type: "",
   tags: ["filter","variant","minus"],
   render() {
     return h(

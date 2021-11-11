@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CarTireAlert",
   vendor: "Mdi",
+  type: "",
   tags: ["car","tire","alert"],
   render() {
     return h(

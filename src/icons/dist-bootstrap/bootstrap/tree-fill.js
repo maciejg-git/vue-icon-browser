@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TreeFill",
   vendor: "B",
+  type: "",
   tags: ["tree","fill"],
   render() {
     return h(

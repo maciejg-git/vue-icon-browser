@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "KeySolid",
+  name: "Key",
   vendor: "Fa",
+  type: "Solid",
   tags: ["key"],
   render() {
     return h(

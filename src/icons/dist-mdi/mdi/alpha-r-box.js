@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AlphaRBox",
   vendor: "Mdi",
+  type: "",
   tags: ["alpha","r","box"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "OpenInNew",
   vendor: "Mdi",
+  type: "",
   tags: ["open","in","new"],
   render() {
     return h(

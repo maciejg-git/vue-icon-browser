@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "IdCardSolid",
+  name: "IdCard",
   vendor: "Fa",
+  type: "Solid",
   tags: ["id","card"],
   render() {
     return h(

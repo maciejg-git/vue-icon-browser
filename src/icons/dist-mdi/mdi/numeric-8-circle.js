@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Numeric8Circle",
   vendor: "Mdi",
+  type: "",
   tags: ["numeric","8","circle"],
   render() {
     return h(

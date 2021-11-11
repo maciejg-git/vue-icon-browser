@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "NewspaperSolid",
+  name: "Newspaper",
   vendor: "Fa",
+  type: "Solid",
   tags: ["newspaper"],
   render() {
     return h(

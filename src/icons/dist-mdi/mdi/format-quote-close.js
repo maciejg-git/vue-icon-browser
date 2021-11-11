@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatQuoteClose",
   vendor: "Mdi",
+  type: "",
   tags: ["format","quote","close"],
   render() {
     return h(

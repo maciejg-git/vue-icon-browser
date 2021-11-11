@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LockOpenMinusOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["lock","open","minus","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Stackpath",
   vendor: "Mdi",
+  type: "",
   tags: ["stackpath"],
   render() {
     return h(

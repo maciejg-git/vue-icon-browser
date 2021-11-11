@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LessThanOrEqual",
   vendor: "Mdi",
+  type: "",
   tags: ["less","than","or","equal"],
   render() {
     return h(

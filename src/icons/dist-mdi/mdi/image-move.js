@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ImageMove",
   vendor: "Mdi",
+  type: "",
   tags: ["image","move"],
   render() {
     return h(

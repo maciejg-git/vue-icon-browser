@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "LevelDownAltSolid",
+  name: "LevelDownAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["level","down","alt"],
   render() {
     return h(

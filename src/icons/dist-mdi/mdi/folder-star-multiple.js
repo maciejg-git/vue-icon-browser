@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderStarMultiple",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","star","multiple"],
   render() {
     return h(

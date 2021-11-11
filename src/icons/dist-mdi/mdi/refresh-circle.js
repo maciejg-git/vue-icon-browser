@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "RefreshCircle",
   vendor: "Mdi",
+  type: "",
   tags: ["refresh","circle"],
   render() {
     return h(

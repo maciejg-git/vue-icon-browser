@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ViewGridOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["view","grid","outline"],
   render() {
     return h(

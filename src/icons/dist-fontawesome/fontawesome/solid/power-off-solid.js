@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PowerOffSolid",
+  name: "PowerOff",
   vendor: "Fa",
+  type: "Solid",
   tags: ["power","off"],
   render() {
     return h(

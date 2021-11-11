@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Animation",
   vendor: "Mdi",
+  type: "",
   tags: ["animation"],
   render() {
     return h(

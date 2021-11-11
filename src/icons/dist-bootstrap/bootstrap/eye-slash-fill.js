@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EyeSlashFill",
   vendor: "B",
+  type: "",
   tags: ["eye","slash","fill"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DeleteAlertOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["delete","alert","outline"],
   render() {
     return h(

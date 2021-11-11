@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CloudCheckFill",
   vendor: "B",
+  type: "",
   tags: ["cloud","check","fill"],
   render() {
     return h(

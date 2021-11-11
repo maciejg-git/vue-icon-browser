@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FileVideoSolid",
+  name: "FileVideo",
   vendor: "Fa",
+  type: "Solid",
   tags: ["file","video"],
   render() {
     return h(

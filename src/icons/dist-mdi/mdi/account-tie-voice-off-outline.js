@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AccountTieVoiceOffOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["account","tie","voice","off","outline"],
   render() {
     return h(

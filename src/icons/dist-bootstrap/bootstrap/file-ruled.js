@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileRuled",
   vendor: "B",
+  type: "",
   tags: ["file","ruled"],
   render() {
     return h(

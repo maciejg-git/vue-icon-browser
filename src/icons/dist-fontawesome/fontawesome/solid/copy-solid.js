@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CopySolid",
+  name: "Copy",
   vendor: "Fa",
+  type: "Solid",
   tags: ["copy"],
   render() {
     return h(

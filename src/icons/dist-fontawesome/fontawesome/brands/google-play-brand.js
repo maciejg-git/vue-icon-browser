@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "GooglePlayBrand",
+  name: "GooglePlay",
   vendor: "Fa",
+  type: "Brand",
   tags: ["google","play"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DecimalCommaIncrease",
   vendor: "Mdi",
+  type: "",
   tags: ["decimal","comma","increase"],
   render() {
     return h(

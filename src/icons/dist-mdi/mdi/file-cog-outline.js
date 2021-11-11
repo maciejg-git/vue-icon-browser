@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileCogOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","cog","outline"],
   render() {
     return h(

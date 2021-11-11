@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CalendarRange",
   vendor: "B",
+  type: "",
   tags: ["calendar","range"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EarbudsOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["earbuds","outline"],
   render() {
     return h(

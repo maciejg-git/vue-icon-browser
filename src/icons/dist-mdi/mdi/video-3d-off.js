@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Video3dOff",
   vendor: "Mdi",
+  type: "",
   tags: ["video","3d","off"],
   render() {
     return h(

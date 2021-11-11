@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ThermometerBluetooth",
   vendor: "Mdi",
+  type: "",
   tags: ["thermometer","bluetooth"],
   render() {
     return h(

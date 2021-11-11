@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SetNone",
   vendor: "Mdi",
+  type: "",
   tags: ["set","none"],
   render() {
     return h(

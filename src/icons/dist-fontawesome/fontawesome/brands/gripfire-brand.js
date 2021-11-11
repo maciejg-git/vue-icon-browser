@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "GripfireBrand",
+  name: "Gripfire",
   vendor: "Fa",
+  type: "Brand",
   tags: ["gripfire"],
   render() {
     return h(

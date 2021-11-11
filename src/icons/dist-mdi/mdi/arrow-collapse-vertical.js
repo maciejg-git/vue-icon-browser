@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArrowCollapseVertical",
   vendor: "Mdi",
+  type: "",
   tags: ["arrow","collapse","vertical"],
   render() {
     return h(

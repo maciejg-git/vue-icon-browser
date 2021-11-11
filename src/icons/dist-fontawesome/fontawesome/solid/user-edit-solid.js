@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "UserEditSolid",
+  name: "UserEdit",
   vendor: "Fa",
+  type: "Solid",
   tags: ["user","edit"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "InputCursor",
   vendor: "B",
+  type: "",
   tags: ["input","cursor"],
   render() {
     return h(

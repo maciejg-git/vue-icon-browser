@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AxisXRotateClockwise",
   vendor: "Mdi",
+  type: "",
   tags: ["axis","x","rotate","clockwise"],
   render() {
     return h(

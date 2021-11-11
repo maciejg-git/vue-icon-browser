@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SetTopBox",
   vendor: "Mdi",
+  type: "",
   tags: ["set","top","box"],
   render() {
     return h(

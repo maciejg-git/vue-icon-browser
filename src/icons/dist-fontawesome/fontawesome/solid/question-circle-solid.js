@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "QuestionCircleSolid",
+  name: "QuestionCircle",
   vendor: "Fa",
+  type: "Solid",
   tags: ["question","circle"],
   render() {
     return h(

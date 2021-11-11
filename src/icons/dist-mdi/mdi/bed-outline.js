@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BedOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["bed","outline"],
   render() {
     return h(

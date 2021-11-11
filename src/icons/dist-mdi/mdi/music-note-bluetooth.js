@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MusicNoteBluetooth",
   vendor: "Mdi",
+  type: "",
   tags: ["music","note","bluetooth"],
   render() {
     return h(

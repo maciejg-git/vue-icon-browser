@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "YoutubeStudio",
   vendor: "Mdi",
+  type: "",
   tags: ["youtube","studio"],
   render() {
     return h(

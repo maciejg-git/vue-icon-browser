@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TimesCircle",
   vendor: "Fa",
+  type: "",
   tags: ["times","circle"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FileArchiveSolid",
+  name: "FileArchive",
   vendor: "Fa",
+  type: "Solid",
   tags: ["file","archive"],
   render() {
     return h(

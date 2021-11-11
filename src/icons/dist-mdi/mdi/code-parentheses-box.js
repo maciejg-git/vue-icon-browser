@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CodeParenthesesBox",
   vendor: "Mdi",
+  type: "",
   tags: ["code","parentheses","box"],
   render() {
     return h(

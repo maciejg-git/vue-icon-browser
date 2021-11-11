@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CellphoneNfcOff",
   vendor: "Mdi",
+  type: "",
   tags: ["cellphone","nfc","off"],
   render() {
     return h(

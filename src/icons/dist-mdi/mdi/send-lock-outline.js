@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SendLockOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["send","lock","outline"],
   render() {
     return h(

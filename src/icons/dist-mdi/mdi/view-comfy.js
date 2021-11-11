@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ViewComfy",
   vendor: "Mdi",
+  type: "",
   tags: ["view","comfy"],
   render() {
     return h(

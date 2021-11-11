@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Eslint",
   vendor: "Mdi",
+  type: "",
   tags: ["eslint"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PeriscopeBrand",
+  name: "Periscope",
   vendor: "Fa",
+  type: "Brand",
   tags: ["periscope"],
   render() {
     return h(

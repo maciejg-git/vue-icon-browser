@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "DharmachakraSolid",
+  name: "Dharmachakra",
   vendor: "Fa",
+  type: "Solid",
   tags: ["dharmachakra"],
   render() {
     return h(

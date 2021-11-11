@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "HourglassHalfSolid",
+  name: "HourglassHalf",
   vendor: "Fa",
+  type: "Solid",
   tags: ["hourglass","half"],
   render() {
     return h(

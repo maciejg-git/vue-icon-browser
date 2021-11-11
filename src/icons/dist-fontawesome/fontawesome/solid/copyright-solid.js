@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CopyrightSolid",
+  name: "Copyright",
   vendor: "Fa",
+  type: "Solid",
   tags: ["copyright"],
   render() {
     return h(

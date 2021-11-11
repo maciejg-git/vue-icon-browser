@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VectorIntersection",
   vendor: "Mdi",
+  type: "",
   tags: ["vector","intersection"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ICursorSolid",
+  name: "ICursor",
   vendor: "Fa",
+  type: "Solid",
   tags: ["i","cursor"],
   render() {
     return h(

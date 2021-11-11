@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BrailleSolid",
+  name: "Braille",
   vendor: "Fa",
+  type: "Solid",
   tags: ["braille"],
   render() {
     return h(

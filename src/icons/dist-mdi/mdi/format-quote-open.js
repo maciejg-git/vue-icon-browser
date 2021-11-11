@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatQuoteOpen",
   vendor: "Mdi",
+  type: "",
   tags: ["format","quote","open"],
   render() {
     return h(

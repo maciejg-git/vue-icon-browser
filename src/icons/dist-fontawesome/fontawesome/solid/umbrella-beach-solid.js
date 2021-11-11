@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "UmbrellaBeachSolid",
+  name: "UmbrellaBeach",
   vendor: "Fa",
+  type: "Solid",
   tags: ["umbrella","beach"],
   render() {
     return h(

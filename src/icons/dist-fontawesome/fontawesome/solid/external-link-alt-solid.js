@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ExternalLinkAltSolid",
+  name: "ExternalLinkAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["external","link","alt"],
   render() {
     return h(

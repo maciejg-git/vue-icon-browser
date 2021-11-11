@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "NetworkOffOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["network","off","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CupboardOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["cupboard","outline"],
   render() {
     return h(

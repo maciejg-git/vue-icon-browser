@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "OctagramOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["octagram","outline"],
   render() {
     return h(

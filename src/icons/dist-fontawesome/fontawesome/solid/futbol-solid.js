@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FutbolSolid",
+  name: "Futbol",
   vendor: "Fa",
+  type: "Solid",
   tags: ["futbol"],
   render() {
     return h(

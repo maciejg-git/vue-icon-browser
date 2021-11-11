@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BrushOff",
   vendor: "Mdi",
+  type: "",
   tags: ["brush","off"],
   render() {
     return h(

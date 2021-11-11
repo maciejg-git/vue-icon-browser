@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Printer3dNozzleAlertOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["printer","3d","nozzle","alert","outline"],
   render() {
     return h(

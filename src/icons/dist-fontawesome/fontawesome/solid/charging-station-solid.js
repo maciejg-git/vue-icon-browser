@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ChargingStationSolid",
+  name: "ChargingStation",
   vendor: "Fa",
+  type: "Solid",
   tags: ["charging","station"],
   render() {
     return h(

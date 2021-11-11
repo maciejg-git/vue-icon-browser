@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BlenderSolid",
+  name: "Blender",
   vendor: "Fa",
+  type: "Solid",
   tags: ["blender"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DebugStepOut",
   vendor: "Mdi",
+  type: "",
   tags: ["debug","step","out"],
   render() {
     return h(

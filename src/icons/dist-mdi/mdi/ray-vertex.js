@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "RayVertex",
   vendor: "Mdi",
+  type: "",
   tags: ["ray","vertex"],
   render() {
     return h(

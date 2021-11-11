@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CloudflareBrand",
+  name: "Cloudflare",
   vendor: "Fa",
+  type: "Brand",
   tags: ["cloudflare"],
   render() {
     return h(

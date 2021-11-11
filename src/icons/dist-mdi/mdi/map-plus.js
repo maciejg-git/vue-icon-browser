@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MapPlus",
   vendor: "Mdi",
+  type: "",
   tags: ["map","plus"],
   render() {
     return h(

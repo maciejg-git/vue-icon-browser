@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatListChecks",
   vendor: "Mdi",
+  type: "",
   tags: ["format","list","checks"],
   render() {
     return h(

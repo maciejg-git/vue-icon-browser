@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BootstrapFill",
   vendor: "B",
+  type: "",
   tags: ["bootstrap","fill"],
   render() {
     return h(

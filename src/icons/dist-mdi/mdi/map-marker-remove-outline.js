@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MapMarkerRemoveOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["map","marker","remove","outline"],
   render() {
     return h(

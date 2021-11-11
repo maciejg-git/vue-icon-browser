@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CellphoneSound",
   vendor: "Mdi",
+  type: "",
   tags: ["cellphone","sound"],
   render() {
     return h(

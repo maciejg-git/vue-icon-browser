@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AppleSafari",
   vendor: "Mdi",
+  type: "",
   tags: ["apple","safari"],
   render() {
     return h(

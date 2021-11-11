@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "DraftingCompassSolid",
+  name: "DraftingCompass",
   vendor: "Fa",
+  type: "Solid",
   tags: ["drafting","compass"],
   render() {
     return h(

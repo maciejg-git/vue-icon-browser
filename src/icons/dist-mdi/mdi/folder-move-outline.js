@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderMoveOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","move","outline"],
   render() {
     return h(

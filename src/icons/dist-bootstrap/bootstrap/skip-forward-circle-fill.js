@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SkipForwardCircleFill",
   vendor: "B",
+  type: "",
   tags: ["skip","forward","circle","fill"],
   render() {
     return h(

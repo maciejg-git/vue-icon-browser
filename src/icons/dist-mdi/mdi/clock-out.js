@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ClockOut",
   vendor: "Mdi",
+  type: "",
   tags: ["clock","out"],
   render() {
     return h(

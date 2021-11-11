@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SoapSolid",
+  name: "Soap",
   vendor: "Fa",
+  type: "Solid",
   tags: ["soap"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MathTan",
   vendor: "Mdi",
+  type: "",
   tags: ["math","tan"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CeilingLightMultiple",
   vendor: "Mdi",
+  type: "",
   tags: ["ceiling","light","multiple"],
   render() {
     return h(

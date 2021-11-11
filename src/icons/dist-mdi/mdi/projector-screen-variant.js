@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ProjectorScreenVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["projector","screen","variant"],
   render() {
     return h(

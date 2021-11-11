@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PoundSignSolid",
+  name: "PoundSign",
   vendor: "Fa",
+  type: "Solid",
   tags: ["pound","sign"],
   render() {
     return h(

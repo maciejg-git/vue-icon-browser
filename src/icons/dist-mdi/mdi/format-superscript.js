@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatSuperscript",
   vendor: "Mdi",
+  type: "",
   tags: ["format","superscript"],
   render() {
     return h(

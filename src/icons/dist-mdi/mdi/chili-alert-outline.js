@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ChiliAlertOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["chili","alert","outline"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SpaSolid",
+  name: "Spa",
   vendor: "Fa",
+  type: "Solid",
   tags: ["spa"],
   render() {
     return h(

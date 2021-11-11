@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WaterCheckOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["water","check","outline"],
   render() {
     return h(

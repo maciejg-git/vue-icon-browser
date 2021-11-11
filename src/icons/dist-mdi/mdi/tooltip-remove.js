@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TooltipRemove",
   vendor: "Mdi",
+  type: "",
   tags: ["tooltip","remove"],
   render() {
     return h(

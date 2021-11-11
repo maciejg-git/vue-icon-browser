@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MapMarkedAltSolid",
+  name: "MapMarkedAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["map","marked","alt"],
   render() {
     return h(

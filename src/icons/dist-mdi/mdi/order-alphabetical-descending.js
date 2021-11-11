@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "OrderAlphabeticalDescending",
   vendor: "Mdi",
+  type: "",
   tags: ["order","alphabetical","descending"],
   render() {
     return h(

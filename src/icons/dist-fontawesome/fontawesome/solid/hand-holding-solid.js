@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "HandHoldingSolid",
+  name: "HandHolding",
   vendor: "Fa",
+  type: "Solid",
   tags: ["hand","holding"],
   render() {
     return h(

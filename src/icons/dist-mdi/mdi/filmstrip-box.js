@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FilmstripBox",
   vendor: "Mdi",
+  type: "",
   tags: ["filmstrip","box"],
   render() {
     return h(

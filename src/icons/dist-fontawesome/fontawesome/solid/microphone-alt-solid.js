@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MicrophoneAltSolid",
+  name: "MicrophoneAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["microphone","alt"],
   render() {
     return h(

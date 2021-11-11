@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MovieRemoveOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["movie","remove","outline"],
   render() {
     return h(

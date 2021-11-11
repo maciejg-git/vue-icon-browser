@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BlurRadial",
   vendor: "Mdi",
+  type: "",
   tags: ["blur","radial"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ClipboardTextPlayOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["clipboard","text","play","outline"],
   render() {
     return h(

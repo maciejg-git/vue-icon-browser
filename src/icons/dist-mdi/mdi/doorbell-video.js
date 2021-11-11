@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DoorbellVideo",
   vendor: "Mdi",
+  type: "",
   tags: ["doorbell","video"],
   render() {
     return h(

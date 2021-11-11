@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BaconSolid",
+  name: "Bacon",
   vendor: "Fa",
+  type: "Solid",
   tags: ["bacon"],
   render() {
     return h(

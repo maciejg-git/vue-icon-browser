@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TextRecognition",
   vendor: "Mdi",
+  type: "",
   tags: ["text","recognition"],
   render() {
     return h(

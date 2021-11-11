@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PauseOctagon",
   vendor: "Mdi",
+  type: "",
   tags: ["pause","octagon"],
   render() {
     return h(

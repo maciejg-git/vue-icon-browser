@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ElectronFramework",
   vendor: "Mdi",
+  type: "",
   tags: ["electron","framework"],
   render() {
     return h(

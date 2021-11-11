@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AlarmLightOffOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["alarm","light","off","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ApplicationVariable",
   vendor: "Mdi",
+  type: "",
   tags: ["application","variable"],
   render() {
     return h(

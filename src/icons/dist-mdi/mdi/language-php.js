@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LanguagePhp",
   vendor: "Mdi",
+  type: "",
   tags: ["language","php"],
   render() {
     return h(

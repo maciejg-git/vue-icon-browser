@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MovieSearchOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["movie","search","outline"],
   render() {
     return h(

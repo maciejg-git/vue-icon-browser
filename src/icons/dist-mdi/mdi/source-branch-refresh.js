@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SourceBranchRefresh",
   vendor: "Mdi",
+  type: "",
   tags: ["source","branch","refresh"],
   render() {
     return h(

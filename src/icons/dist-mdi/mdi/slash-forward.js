@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SlashForward",
   vendor: "Mdi",
+  type: "",
   tags: ["slash","forward"],
   render() {
     return h(

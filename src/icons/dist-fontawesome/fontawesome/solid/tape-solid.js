@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "TapeSolid",
+  name: "Tape",
   vendor: "Fa",
+  type: "Solid",
   tags: ["tape"],
   render() {
     return h(

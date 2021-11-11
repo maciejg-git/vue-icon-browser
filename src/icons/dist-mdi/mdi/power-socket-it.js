@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PowerSocketIt",
   vendor: "Mdi",
+  type: "",
   tags: ["power","socket","it"],
   render() {
     return h(

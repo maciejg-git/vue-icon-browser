@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "YoutubeBrand",
+  name: "Youtube",
   vendor: "Fa",
+  type: "Brand",
   tags: ["youtube"],
   render() {
     return h(

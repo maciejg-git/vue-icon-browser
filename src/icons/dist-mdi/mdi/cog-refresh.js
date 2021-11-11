@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CogRefresh",
   vendor: "Mdi",
+  type: "",
   tags: ["cog","refresh"],
   render() {
     return h(

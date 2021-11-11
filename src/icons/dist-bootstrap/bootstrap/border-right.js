@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BorderRight",
   vendor: "B",
+  type: "",
   tags: ["border","right"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "GlobeEuropeSolid",
+  name: "GlobeEurope",
   vendor: "Fa",
+  type: "Solid",
   tags: ["globe","europe"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VirtualReality",
   vendor: "Mdi",
+  type: "",
   tags: ["virtual","reality"],
   render() {
     return h(

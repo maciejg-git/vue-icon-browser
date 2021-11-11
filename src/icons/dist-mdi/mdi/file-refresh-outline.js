@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileRefreshOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","refresh","outline"],
   render() {
     return h(

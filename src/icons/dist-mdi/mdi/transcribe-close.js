@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TranscribeClose",
   vendor: "Mdi",
+  type: "",
   tags: ["transcribe","close"],
   render() {
     return h(

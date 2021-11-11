@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BookSyncOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["book","sync","outline"],
   render() {
     return h(

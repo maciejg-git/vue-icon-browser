@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ExclamationTriangleSolid",
+  name: "ExclamationTriangle",
   vendor: "Fa",
+  type: "Solid",
   tags: ["exclamation","triangle"],
   render() {
     return h(

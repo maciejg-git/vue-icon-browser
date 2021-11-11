@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatBold",
   vendor: "Mdi",
+  type: "",
   tags: ["format","bold"],
   render() {
     return h(

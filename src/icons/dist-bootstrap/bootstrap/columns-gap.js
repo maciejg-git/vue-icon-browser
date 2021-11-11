@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ColumnsGap",
   vendor: "B",
+  type: "",
   tags: ["columns","gap"],
   render() {
     return h(

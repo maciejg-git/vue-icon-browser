@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BookOpenPageVariantOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["book","open","page","variant","outline"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "OpenidBrand",
+  name: "Openid",
   vendor: "Fa",
+  type: "Brand",
   tags: ["openid"],
   render() {
     return h(

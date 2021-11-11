@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LaserPointer",
   vendor: "Mdi",
+  type: "",
   tags: ["laser","pointer"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatTextVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["format","text","variant"],
   render() {
     return h(

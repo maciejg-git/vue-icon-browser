@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CogPlay",
   vendor: "Mdi",
+  type: "",
   tags: ["cog","play"],
   render() {
     return h(

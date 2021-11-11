@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Toslink",
   vendor: "Mdi",
+  type: "",
   tags: ["toslink"],
   render() {
     return h(

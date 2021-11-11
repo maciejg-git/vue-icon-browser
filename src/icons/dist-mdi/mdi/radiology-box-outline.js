@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "RadiologyBoxOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["radiology","box","outline"],
   render() {
     return h(

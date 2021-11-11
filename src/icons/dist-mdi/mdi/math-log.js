@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MathLog",
   vendor: "Mdi",
+  type: "",
   tags: ["math","log"],
   render() {
     return h(

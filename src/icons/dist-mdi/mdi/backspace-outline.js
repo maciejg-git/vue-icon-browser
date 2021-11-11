@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BackspaceOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["backspace","outline"],
   render() {
     return h(

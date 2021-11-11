@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BullseyeSolid",
+  name: "Bullseye",
   vendor: "Fa",
+  type: "Solid",
   tags: ["bullseye"],
   render() {
     return h(

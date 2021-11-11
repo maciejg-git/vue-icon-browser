@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SourceBranchSync",
   vendor: "Mdi",
+  type: "",
   tags: ["source","branch","sync"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MenuSwapOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["menu","swap","outline"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "IconsSolid",
+  name: "Icons",
   vendor: "Fa",
+  type: "Solid",
   tags: ["icons"],
   render() {
     return h(

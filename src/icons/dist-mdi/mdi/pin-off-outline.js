@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PinOffOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["pin","off","outline"],
   render() {
     return h(

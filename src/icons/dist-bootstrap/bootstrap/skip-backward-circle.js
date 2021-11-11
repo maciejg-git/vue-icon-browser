@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SkipBackwardCircle",
   vendor: "B",
+  type: "",
   tags: ["skip","backward","circle"],
   render() {
     return h(

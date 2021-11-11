@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "GripHorizontalSolid",
+  name: "GripHorizontal",
   vendor: "Fa",
+  type: "Solid",
   tags: ["grip","horizontal"],
   render() {
     return h(

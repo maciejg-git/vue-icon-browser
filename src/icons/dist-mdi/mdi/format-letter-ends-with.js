@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatLetterEndsWith",
   vendor: "Mdi",
+  type: "",
   tags: ["format","letter","ends","with"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VideoSwitch",
   vendor: "Mdi",
+  type: "",
   tags: ["video","switch"],
   render() {
     return h(

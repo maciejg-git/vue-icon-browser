@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BadgeArFill",
   vendor: "B",
+  type: "",
   tags: ["badge","ar","fill"],
   render() {
     return h(

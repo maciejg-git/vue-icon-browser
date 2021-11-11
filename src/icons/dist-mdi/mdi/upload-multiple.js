@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "UploadMultiple",
   vendor: "Mdi",
+  type: "",
   tags: ["upload","multiple"],
   render() {
     return h(

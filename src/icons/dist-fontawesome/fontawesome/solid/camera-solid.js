@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CameraSolid",
+  name: "Camera",
   vendor: "Fa",
+  type: "Solid",
   tags: ["camera"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FileAltSolid",
+  name: "FileAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["file","alt"],
   render() {
     return h(

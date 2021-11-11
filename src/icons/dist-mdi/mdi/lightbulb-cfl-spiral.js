@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LightbulbCflSpiral",
   vendor: "Mdi",
+  type: "",
   tags: ["lightbulb","cfl","spiral"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Memory",
   vendor: "Mdi",
+  type: "",
   tags: ["memory"],
   render() {
     return h(

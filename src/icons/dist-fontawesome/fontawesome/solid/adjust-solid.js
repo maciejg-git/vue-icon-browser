@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "AdjustSolid",
+  name: "Adjust",
   vendor: "Fa",
+  type: "Solid",
   tags: ["adjust"],
   render() {
     return h(

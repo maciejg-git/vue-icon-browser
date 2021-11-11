@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Numeric3BoxOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["numeric","3","box","outline"],
   render() {
     return h(

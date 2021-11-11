@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatHeaderPound",
   vendor: "Mdi",
+  type: "",
   tags: ["format","header","pound"],
   render() {
     return h(

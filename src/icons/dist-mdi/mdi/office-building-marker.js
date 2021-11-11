@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "OfficeBuildingMarker",
   vendor: "Mdi",
+  type: "",
   tags: ["office","building","marker"],
   render() {
     return h(

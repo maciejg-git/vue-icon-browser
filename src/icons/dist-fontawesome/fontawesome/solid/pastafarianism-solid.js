@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PastafarianismSolid",
+  name: "Pastafarianism",
   vendor: "Fa",
+  type: "Solid",
   tags: ["pastafarianism"],
   render() {
     return h(

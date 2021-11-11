@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ImageFilterBlackWhite",
   vendor: "Mdi",
+  type: "",
   tags: ["image","filter","black","white"],
   render() {
     return h(

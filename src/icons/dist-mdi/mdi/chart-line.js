@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ChartLine",
   vendor: "Mdi",
+  type: "",
   tags: ["chart","line"],
   render() {
     return h(

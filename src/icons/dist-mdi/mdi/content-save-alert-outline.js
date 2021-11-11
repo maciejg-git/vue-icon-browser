@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ContentSaveAlertOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["content","save","alert","outline"],
   render() {
     return h(

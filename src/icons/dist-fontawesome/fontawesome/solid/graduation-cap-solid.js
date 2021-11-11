@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "GraduationCapSolid",
+  name: "GraduationCap",
   vendor: "Fa",
+  type: "Solid",
   tags: ["graduation","cap"],
   render() {
     return h(

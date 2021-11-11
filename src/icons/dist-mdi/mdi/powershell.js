@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Powershell",
   vendor: "Mdi",
+  type: "",
   tags: ["powershell"],
   render() {
     return h(

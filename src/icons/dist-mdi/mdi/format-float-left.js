@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatFloatLeft",
   vendor: "Mdi",
+  type: "",
   tags: ["format","float","left"],
   render() {
     return h(

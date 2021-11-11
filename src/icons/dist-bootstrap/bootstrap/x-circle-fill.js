@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "XCircleFill",
   vendor: "B",
+  type: "",
   tags: ["x","circle","fill"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "UndoAltSolid",
+  name: "UndoAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["undo","alt"],
   render() {
     return h(

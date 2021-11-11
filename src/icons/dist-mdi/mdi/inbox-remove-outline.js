@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "InboxRemoveOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["inbox","remove","outline"],
   render() {
     return h(

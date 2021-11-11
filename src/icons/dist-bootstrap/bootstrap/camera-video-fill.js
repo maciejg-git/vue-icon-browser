@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CameraVideoFill",
   vendor: "B",
+  type: "",
   tags: ["camera","video","fill"],
   render() {
     return h(

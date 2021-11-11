@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArchiveEditOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["archive","edit","outline"],
   render() {
     return h(

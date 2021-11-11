@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileEarmarkDiff",
   vendor: "B",
+  type: "",
   tags: ["file","earmark","diff"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CursorDefaultGestureOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["cursor","default","gesture","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BatteryPlusOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["battery","plus","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "JellyfishOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["jellyfish","outline"],
   render() {
     return h(

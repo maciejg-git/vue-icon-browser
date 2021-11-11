@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WindowClose",
   vendor: "Fa",
+  type: "",
   tags: ["window","close"],
   render() {
     return h(

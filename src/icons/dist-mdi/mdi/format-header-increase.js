@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatHeaderIncrease",
   vendor: "Mdi",
+  type: "",
   tags: ["format","header","increase"],
   render() {
     return h(

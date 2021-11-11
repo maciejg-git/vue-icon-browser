@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TextBoxSearchOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["text","box","search","outline"],
   render() {
     return h(

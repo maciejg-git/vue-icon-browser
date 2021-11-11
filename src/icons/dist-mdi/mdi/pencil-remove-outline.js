@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PencilRemoveOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["pencil","remove","outline"],
   render() {
     return h(

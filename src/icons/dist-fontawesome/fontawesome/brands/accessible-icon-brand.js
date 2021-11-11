@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "AccessibleIconBrand",
+  name: "AccessibleIcon",
   vendor: "Fa",
+  type: "Brand",
   tags: ["accessible","icon"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VectorLink",
   vendor: "Mdi",
+  type: "",
   tags: ["vector","link"],
   render() {
     return h(

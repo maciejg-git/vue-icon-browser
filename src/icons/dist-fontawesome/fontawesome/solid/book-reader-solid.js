@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BookReaderSolid",
+  name: "BookReader",
   vendor: "Fa",
+  type: "Solid",
   tags: ["book","reader"],
   render() {
     return h(

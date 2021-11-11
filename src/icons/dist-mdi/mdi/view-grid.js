@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ViewGrid",
   vendor: "Mdi",
+  type: "",
   tags: ["view","grid"],
   render() {
     return h(

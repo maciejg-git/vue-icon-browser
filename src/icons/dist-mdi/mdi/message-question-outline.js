@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MessageQuestionOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["message","question","outline"],
   render() {
     return h(

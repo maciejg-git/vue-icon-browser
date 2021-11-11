@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileBinary",
   vendor: "B",
+  type: "",
   tags: ["file","binary"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SeatFlatAngled",
   vendor: "Mdi",
+  type: "",
   tags: ["seat","flat","angled"],
   render() {
     return h(

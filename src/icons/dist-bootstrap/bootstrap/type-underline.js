@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TypeUnderline",
   vendor: "B",
+  type: "",
   tags: ["type","underline"],
   render() {
     return h(

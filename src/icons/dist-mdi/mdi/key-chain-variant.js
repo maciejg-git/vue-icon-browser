@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "KeyChainVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["key","chain","variant"],
   render() {
     return h(

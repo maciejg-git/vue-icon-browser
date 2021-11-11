@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileExcelBoxOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","excel","box","outline"],
   render() {
     return h(

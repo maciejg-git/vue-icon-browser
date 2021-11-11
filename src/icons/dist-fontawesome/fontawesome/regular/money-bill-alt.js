@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MoneyBillAlt",
   vendor: "Fa",
+  type: "",
   tags: ["money","bill","alt"],
   render() {
     return h(

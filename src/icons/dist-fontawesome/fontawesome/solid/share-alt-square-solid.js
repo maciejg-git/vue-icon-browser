@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ShareAltSquareSolid",
+  name: "ShareAltSquare",
   vendor: "Fa",
+  type: "Solid",
   tags: ["share","alt","square"],
   render() {
     return h(

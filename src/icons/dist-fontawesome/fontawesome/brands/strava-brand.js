@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "StravaBrand",
+  name: "Strava",
   vendor: "Fa",
+  type: "Brand",
   tags: ["strava"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HydraulicOilTemperature",
   vendor: "Mdi",
+  type: "",
   tags: ["hydraulic","oil","temperature"],
   render() {
     return h(

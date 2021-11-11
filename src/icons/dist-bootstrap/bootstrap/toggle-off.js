@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ToggleOff",
   vendor: "B",
+  type: "",
   tags: ["toggle","off"],
   render() {
     return h(

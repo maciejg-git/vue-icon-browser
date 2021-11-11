@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SmokeDetectorAlert",
   vendor: "Mdi",
+  type: "",
   tags: ["smoke","detector","alert"],
   render() {
     return h(

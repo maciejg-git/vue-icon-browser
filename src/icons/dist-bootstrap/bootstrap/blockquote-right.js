@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BlockquoteRight",
   vendor: "B",
+  type: "",
   tags: ["blockquote","right"],
   render() {
     return h(

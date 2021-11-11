@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CloudSyncOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["cloud","sync","outline"],
   render() {
     return h(

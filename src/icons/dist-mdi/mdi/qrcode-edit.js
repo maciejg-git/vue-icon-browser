@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "QrcodeEdit",
   vendor: "Mdi",
+  type: "",
   tags: ["qrcode","edit"],
   render() {
     return h(

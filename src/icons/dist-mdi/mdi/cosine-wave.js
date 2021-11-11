@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CosineWave",
   vendor: "Mdi",
+  type: "",
   tags: ["cosine","wave"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BackspaceReverse",
   vendor: "Mdi",
+  type: "",
   tags: ["backspace","reverse"],
   render() {
     return h(

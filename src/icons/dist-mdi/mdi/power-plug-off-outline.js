@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PowerPlugOffOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["power","plug","off","outline"],
   render() {
     return h(

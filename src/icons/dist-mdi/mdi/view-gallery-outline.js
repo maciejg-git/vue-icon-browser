@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ViewGalleryOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["view","gallery","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SortBoolDescendingVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["sort","bool","descending","variant"],
   render() {
     return h(

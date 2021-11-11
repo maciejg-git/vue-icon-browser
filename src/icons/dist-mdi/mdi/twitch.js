@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Twitch",
   vendor: "Mdi",
+  type: "",
   tags: ["twitch"],
   render() {
     return h(

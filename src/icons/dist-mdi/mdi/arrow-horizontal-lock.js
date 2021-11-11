@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArrowHorizontalLock",
   vendor: "Mdi",
+  type: "",
   tags: ["arrow","horizontal","lock"],
   render() {
     return h(

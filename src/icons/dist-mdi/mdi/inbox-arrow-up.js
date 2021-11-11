@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "InboxArrowUp",
   vendor: "Mdi",
+  type: "",
   tags: ["inbox","arrow","up"],
   render() {
     return h(

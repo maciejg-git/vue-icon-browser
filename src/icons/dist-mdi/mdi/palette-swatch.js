@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PaletteSwatch",
   vendor: "Mdi",
+  type: "",
   tags: ["palette","swatch"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DragHorizontal",
   vendor: "Mdi",
+  type: "",
   tags: ["drag","horizontal"],
   render() {
     return h(

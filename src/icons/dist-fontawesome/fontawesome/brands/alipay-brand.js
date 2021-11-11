@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "AlipayBrand",
+  name: "Alipay",
   vendor: "Fa",
+  type: "Brand",
   tags: ["alipay"],
   render() {
     return h(

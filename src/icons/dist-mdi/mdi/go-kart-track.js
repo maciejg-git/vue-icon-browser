@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GoKartTrack",
   vendor: "Mdi",
+  type: "",
   tags: ["go","kart","track"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SunThermometerOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["sun","thermometer","outline"],
   render() {
     return h(

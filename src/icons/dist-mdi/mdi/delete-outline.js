@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DeleteOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["delete","outline"],
   render() {
     return h(

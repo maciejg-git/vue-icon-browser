@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BookRemoveOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["book","remove","outline"],
   render() {
     return h(

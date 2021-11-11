@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ToriiGateSolid",
+  name: "ToriiGate",
   vendor: "Fa",
+  type: "Solid",
   tags: ["torii","gate"],
   render() {
     return h(

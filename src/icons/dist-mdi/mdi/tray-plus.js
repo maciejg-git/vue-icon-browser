@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TrayPlus",
   vendor: "Mdi",
+  type: "",
   tags: ["tray","plus"],
   render() {
     return h(

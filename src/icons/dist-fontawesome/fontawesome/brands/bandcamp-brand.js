@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BandcampBrand",
+  name: "Bandcamp",
   vendor: "Fa",
+  type: "Brand",
   tags: ["bandcamp"],
   render() {
     return h(

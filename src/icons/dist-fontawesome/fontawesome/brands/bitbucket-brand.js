@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BitbucketBrand",
+  name: "Bitbucket",
   vendor: "Fa",
+  type: "Brand",
   tags: ["bitbucket"],
   render() {
     return h(

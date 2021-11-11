@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SourceCommitLocal",
   vendor: "Mdi",
+  type: "",
   tags: ["source","commit","local"],
   render() {
     return h(

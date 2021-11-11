@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DecimalComma",
   vendor: "Mdi",
+  type: "",
   tags: ["decimal","comma"],
   render() {
     return h(

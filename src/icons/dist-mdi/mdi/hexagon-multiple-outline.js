@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HexagonMultipleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["hexagon","multiple","outline"],
   render() {
     return h(

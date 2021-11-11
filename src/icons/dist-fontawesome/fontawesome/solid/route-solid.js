@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "RouteSolid",
+  name: "Route",
   vendor: "Fa",
+  type: "Solid",
   tags: ["route"],
   render() {
     return h(

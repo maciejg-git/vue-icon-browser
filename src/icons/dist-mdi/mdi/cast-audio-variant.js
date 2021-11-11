@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CastAudioVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["cast","audio","variant"],
   render() {
     return h(

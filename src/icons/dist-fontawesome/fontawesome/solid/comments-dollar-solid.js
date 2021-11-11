@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CommentsDollarSolid",
+  name: "CommentsDollar",
   vendor: "Fa",
+  type: "Solid",
   tags: ["comments","dollar"],
   render() {
     return h(

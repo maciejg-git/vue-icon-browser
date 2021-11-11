@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "InternetExplorerBrand",
+  name: "InternetExplorer",
   vendor: "Fa",
+  type: "Brand",
   tags: ["internet","explorer"],
   render() {
     return h(

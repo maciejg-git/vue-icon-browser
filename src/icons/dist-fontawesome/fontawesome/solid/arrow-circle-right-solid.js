@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ArrowCircleRightSolid",
+  name: "ArrowCircleRight",
   vendor: "Fa",
+  type: "Solid",
   tags: ["arrow","circle","right"],
   render() {
     return h(

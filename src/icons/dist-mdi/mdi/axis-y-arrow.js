@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AxisYArrow",
   vendor: "Mdi",
+  type: "",
   tags: ["axis","y","arrow"],
   render() {
     return h(

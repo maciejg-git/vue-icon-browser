@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "UnityBrand",
+  name: "Unity",
   vendor: "Fa",
+  type: "Brand",
   tags: ["unity"],
   render() {
     return h(

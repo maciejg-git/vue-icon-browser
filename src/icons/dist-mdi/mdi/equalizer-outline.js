@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EqualizerOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["equalizer","outline"],
   render() {
     return h(

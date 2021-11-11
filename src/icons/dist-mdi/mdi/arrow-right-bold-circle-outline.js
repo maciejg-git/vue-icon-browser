@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArrowRightBoldCircleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["arrow","right","bold","circle","outline"],
   render() {
     return h(

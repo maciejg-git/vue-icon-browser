@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileTableBoxMultiple",
   vendor: "Mdi",
+  type: "",
   tags: ["file","table","box","multiple"],
   render() {
     return h(

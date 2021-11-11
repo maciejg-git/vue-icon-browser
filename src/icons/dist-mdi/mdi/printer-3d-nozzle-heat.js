@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Printer3dNozzleHeat",
   vendor: "Mdi",
+  type: "",
   tags: ["printer","3d","nozzle","heat"],
   render() {
     return h(

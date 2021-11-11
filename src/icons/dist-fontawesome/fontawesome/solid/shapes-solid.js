@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ShapesSolid",
+  name: "Shapes",
   vendor: "Fa",
+  type: "Solid",
   tags: ["shapes"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ContentSaveCog",
   vendor: "Mdi",
+  type: "",
   tags: ["content","save","cog"],
   render() {
     return h(

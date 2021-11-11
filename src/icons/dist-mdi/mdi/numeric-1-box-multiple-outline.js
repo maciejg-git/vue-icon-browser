@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Numeric1BoxMultipleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["numeric","1","box","multiple","outline"],
   render() {
     return h(

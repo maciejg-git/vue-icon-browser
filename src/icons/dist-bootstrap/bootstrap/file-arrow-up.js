@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileArrowUp",
   vendor: "B",
+  type: "",
   tags: ["file","arrow","up"],
   render() {
     return h(

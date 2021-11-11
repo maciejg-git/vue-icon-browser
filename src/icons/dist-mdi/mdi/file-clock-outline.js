@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileClockOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","clock","outline"],
   render() {
     return h(

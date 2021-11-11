@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileLock2",
   vendor: "B",
+  type: "",
   tags: ["file","lock2"],
   render() {
     return h(

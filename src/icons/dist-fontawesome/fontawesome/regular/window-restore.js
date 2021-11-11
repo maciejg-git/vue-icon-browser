@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WindowRestore",
   vendor: "Fa",
+  type: "",
   tags: ["window","restore"],
   render() {
     return h(

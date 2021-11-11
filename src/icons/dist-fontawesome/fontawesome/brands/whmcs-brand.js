@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "WhmcsBrand",
+  name: "Whmcs",
   vendor: "Fa",
+  type: "Brand",
   tags: ["whmcs"],
   render() {
     return h(

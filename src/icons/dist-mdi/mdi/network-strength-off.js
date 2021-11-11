@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "NetworkStrengthOff",
   vendor: "Mdi",
+  type: "",
   tags: ["network","strength","off"],
   render() {
     return h(

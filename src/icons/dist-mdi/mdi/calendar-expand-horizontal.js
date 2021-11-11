@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CalendarExpandHorizontal",
   vendor: "Mdi",
+  type: "",
   tags: ["calendar","expand","horizontal"],
   render() {
     return h(

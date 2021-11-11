@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileCancel",
   vendor: "Mdi",
+  type: "",
   tags: ["file","cancel"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AlertDecagram",
   vendor: "Mdi",
+  type: "",
   tags: ["alert","decagram"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PauseCircleSolid",
+  name: "PauseCircle",
   vendor: "Fa",
+  type: "Solid",
   tags: ["pause","circle"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ItalicSolid",
+  name: "Italic",
   vendor: "Fa",
+  type: "Solid",
   tags: ["italic"],
   render() {
     return h(

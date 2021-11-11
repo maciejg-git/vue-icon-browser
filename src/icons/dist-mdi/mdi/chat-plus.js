@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ChatPlus",
   vendor: "Mdi",
+  type: "",
   tags: ["chat","plus"],
   render() {
     return h(

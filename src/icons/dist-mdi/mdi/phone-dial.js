@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PhoneDial",
   vendor: "Mdi",
+  type: "",
   tags: ["phone","dial"],
   render() {
     return h(

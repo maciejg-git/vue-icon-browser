@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HomePlusOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["home","plus","outline"],
   render() {
     return h(

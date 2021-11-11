@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AppleKeyboardShift",
   vendor: "Mdi",
+  type: "",
   tags: ["apple","keyboard","shift"],
   render() {
     return h(

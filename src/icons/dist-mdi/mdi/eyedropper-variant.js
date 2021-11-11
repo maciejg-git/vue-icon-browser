@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EyedropperVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["eyedropper","variant"],
   render() {
     return h(

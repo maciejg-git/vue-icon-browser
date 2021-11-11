@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "DigitalTachographSolid",
+  name: "DigitalTachograph",
   vendor: "Fa",
+  type: "Solid",
   tags: ["digital","tachograph"],
   render() {
     return h(

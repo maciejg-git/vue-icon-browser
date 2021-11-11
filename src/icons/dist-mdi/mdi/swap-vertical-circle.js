@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SwapVerticalCircle",
   vendor: "Mdi",
+  type: "",
   tags: ["swap","vertical","circle"],
   render() {
     return h(

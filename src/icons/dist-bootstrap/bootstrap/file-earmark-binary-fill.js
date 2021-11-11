@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileEarmarkBinaryFill",
   vendor: "B",
+  type: "",
   tags: ["file","earmark","binary","fill"],
   render() {
     return h(

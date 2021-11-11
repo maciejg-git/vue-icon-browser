@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ExclamationTriangleFill",
   vendor: "B",
+  type: "",
   tags: ["exclamation","triangle","fill"],
   render() {
     return h(

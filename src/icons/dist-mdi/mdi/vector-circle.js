@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VectorCircle",
   vendor: "Mdi",
+  type: "",
   tags: ["vector","circle"],
   render() {
     return h(

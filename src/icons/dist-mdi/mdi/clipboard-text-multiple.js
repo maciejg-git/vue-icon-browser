@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ClipboardTextMultiple",
   vendor: "Mdi",
+  type: "",
   tags: ["clipboard","text","multiple"],
   render() {
     return h(

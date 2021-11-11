@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatLetterStartsWith",
   vendor: "Mdi",
+  type: "",
   tags: ["format","letter","starts","with"],
   render() {
     return h(

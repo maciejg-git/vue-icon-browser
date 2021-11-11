@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderMarker",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","marker"],
   render() {
     return h(

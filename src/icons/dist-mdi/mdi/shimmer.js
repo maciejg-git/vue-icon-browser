@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Shimmer",
   vendor: "Mdi",
+  type: "",
   tags: ["shimmer"],
   render() {
     return h(

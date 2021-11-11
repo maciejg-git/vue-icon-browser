@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ImageSizeSelectSmall",
   vendor: "Mdi",
+  type: "",
   tags: ["image","size","select","small"],
   render() {
     return h(

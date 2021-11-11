@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ClipboardFlowOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["clipboard","flow","outline"],
   render() {
     return h(

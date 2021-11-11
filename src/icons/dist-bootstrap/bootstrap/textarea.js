@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Textarea",
   vendor: "B",
+  type: "",
   tags: ["textarea"],
   render() {
     return h(

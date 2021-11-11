@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CommentFlashOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["comment","flash","outline"],
   render() {
     return h(

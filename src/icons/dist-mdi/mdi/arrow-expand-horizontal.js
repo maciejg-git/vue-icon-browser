@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArrowExpandHorizontal",
   vendor: "Mdi",
+  type: "",
   tags: ["arrow","expand","horizontal"],
   render() {
     return h(

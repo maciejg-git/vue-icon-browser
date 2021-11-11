@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PaperclipSolid",
+  name: "Paperclip",
   vendor: "Fa",
+  type: "Solid",
   tags: ["paperclip"],
   render() {
     return h(

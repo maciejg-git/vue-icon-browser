@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "HandshakeSolid",
+  name: "Handshake",
   vendor: "Fa",
+  type: "Solid",
   tags: ["handshake"],
   render() {
     return h(

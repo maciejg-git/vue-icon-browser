@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MovieOpenCogOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["movie","open","cog","outline"],
   render() {
     return h(

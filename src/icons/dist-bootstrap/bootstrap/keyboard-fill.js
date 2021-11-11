@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "KeyboardFill",
   vendor: "B",
+  type: "",
   tags: ["keyboard","fill"],
   render() {
     return h(

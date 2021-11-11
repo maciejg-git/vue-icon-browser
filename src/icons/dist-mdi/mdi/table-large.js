@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TableLarge",
   vendor: "Mdi",
+  type: "",
   tags: ["table","large"],
   render() {
     return h(

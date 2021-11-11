@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileMarker",
   vendor: "Mdi",
+  type: "",
   tags: ["file","marker"],
   render() {
     return h(

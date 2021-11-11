@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "RadiationAltSolid",
+  name: "RadiationAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["radiation","alt"],
   render() {
     return h(

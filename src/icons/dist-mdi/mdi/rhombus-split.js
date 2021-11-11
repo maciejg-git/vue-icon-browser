@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "RhombusSplit",
   vendor: "Mdi",
+  type: "",
   tags: ["rhombus","split"],
   render() {
     return h(

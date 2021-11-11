@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Waze",
   vendor: "Mdi",
+  type: "",
   tags: ["waze"],
   render() {
     return h(

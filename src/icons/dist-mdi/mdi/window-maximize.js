@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WindowMaximize",
   vendor: "Mdi",
+  type: "",
   tags: ["window","maximize"],
   render() {
     return h(

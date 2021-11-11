@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ViewStream",
   vendor: "Mdi",
+  type: "",
   tags: ["view","stream"],
   render() {
     return h(

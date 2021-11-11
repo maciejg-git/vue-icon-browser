@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "RayEnd",
   vendor: "Mdi",
+  type: "",
   tags: ["ray","end"],
   render() {
     return h(

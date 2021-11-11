@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderSyncOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","sync","outline"],
   render() {
     return h(

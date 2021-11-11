@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ViewList",
   vendor: "Mdi",
+  type: "",
   tags: ["view","list"],
   render() {
     return h(

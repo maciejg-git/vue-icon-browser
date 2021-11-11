@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FilterCircle",
   vendor: "B",
+  type: "",
   tags: ["filter","circle"],
   render() {
     return h(

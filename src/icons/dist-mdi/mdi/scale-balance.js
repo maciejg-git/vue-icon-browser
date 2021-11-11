@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ScaleBalance",
   vendor: "Mdi",
+  type: "",
   tags: ["scale","balance"],
   render() {
     return h(

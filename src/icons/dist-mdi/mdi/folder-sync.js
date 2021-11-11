@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderSync",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","sync"],
   render() {
     return h(

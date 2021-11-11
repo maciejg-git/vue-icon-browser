@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BarcodeScan",
   vendor: "Mdi",
+  type: "",
   tags: ["barcode","scan"],
   render() {
     return h(

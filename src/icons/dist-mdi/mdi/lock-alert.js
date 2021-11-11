@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LockAlert",
   vendor: "Mdi",
+  type: "",
   tags: ["lock","alert"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LockPattern",
   vendor: "Mdi",
+  type: "",
   tags: ["lock","pattern"],
   render() {
     return h(

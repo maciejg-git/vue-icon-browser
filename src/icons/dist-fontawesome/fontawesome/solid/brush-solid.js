@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BrushSolid",
+  name: "Brush",
   vendor: "Fa",
+  type: "Solid",
   tags: ["brush"],
   render() {
     return h(

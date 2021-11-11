@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TextBoxOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["text","box","outline"],
   render() {
     return h(

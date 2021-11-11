@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SetMerge",
   vendor: "Mdi",
+  type: "",
   tags: ["set","merge"],
   render() {
     return h(

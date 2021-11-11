@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AutoFix",
   vendor: "Mdi",
+  type: "",
   tags: ["auto","fix"],
   render() {
     return h(

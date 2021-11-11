@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SignatureText",
   vendor: "Mdi",
+  type: "",
   tags: ["signature","text"],
   render() {
     return h(

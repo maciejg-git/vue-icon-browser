@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PiHole",
   vendor: "Mdi",
+  type: "",
   tags: ["pi","hole"],
   render() {
     return h(

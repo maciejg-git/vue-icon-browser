@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "KeyChange",
   vendor: "Mdi",
+  type: "",
   tags: ["key","change"],
   render() {
     return h(

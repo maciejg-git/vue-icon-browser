@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CloudscaleBrand",
+  name: "Cloudscale",
   vendor: "Fa",
+  type: "Brand",
   tags: ["cloudscale"],
   render() {
     return h(

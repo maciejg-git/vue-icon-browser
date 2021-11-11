@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Rewind30",
   vendor: "Mdi",
+  type: "",
   tags: ["rewind","30"],
   render() {
     return h(

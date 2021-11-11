@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PowerCycle",
   vendor: "Mdi",
+  type: "",
   tags: ["power","cycle"],
   render() {
     return h(

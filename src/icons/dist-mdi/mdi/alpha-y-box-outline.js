@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AlphaYBoxOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["alpha","y","box","outline"],
   render() {
     return h(

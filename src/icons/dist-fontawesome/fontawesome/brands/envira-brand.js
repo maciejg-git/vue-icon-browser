@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "EnviraBrand",
+  name: "Envira",
   vendor: "Fa",
+  type: "Brand",
   tags: ["envira"],
   render() {
     return h(

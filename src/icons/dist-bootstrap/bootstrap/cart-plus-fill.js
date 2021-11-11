@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CartPlusFill",
   vendor: "B",
+  type: "",
   tags: ["cart","plus","fill"],
   render() {
     return h(

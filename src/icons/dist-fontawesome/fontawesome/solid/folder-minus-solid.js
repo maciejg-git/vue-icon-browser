@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FolderMinusSolid",
+  name: "FolderMinus",
   vendor: "Fa",
+  type: "Solid",
   tags: ["folder","minus"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AudioVideoOff",
   vendor: "Mdi",
+  type: "",
   tags: ["audio","video","off"],
   render() {
     return h(

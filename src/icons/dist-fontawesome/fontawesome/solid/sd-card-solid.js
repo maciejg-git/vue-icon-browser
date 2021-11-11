@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SdCardSolid",
+  name: "SdCard",
   vendor: "Fa",
+  type: "Solid",
   tags: ["sd","card"],
   render() {
     return h(

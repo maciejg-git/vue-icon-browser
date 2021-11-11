@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HarddiskPlus",
   vendor: "Mdi",
+  type: "",
   tags: ["harddisk","plus"],
   render() {
     return h(

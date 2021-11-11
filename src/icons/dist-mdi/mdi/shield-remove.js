@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ShieldRemove",
   vendor: "Mdi",
+  type: "",
   tags: ["shield","remove"],
   render() {
     return h(

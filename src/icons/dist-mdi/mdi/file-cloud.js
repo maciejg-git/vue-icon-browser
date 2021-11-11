@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileCloud",
   vendor: "Mdi",
+  type: "",
   tags: ["file","cloud"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GestureTapBox",
   vendor: "Mdi",
+  type: "",
   tags: ["gesture","tap","box"],
   render() {
     return h(

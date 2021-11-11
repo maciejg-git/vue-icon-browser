@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "RecycleSolid",
+  name: "Recycle",
   vendor: "Fa",
+  type: "Solid",
   tags: ["recycle"],
   render() {
     return h(

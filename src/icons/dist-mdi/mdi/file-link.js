@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileLink",
   vendor: "Mdi",
+  type: "",
   tags: ["file","link"],
   render() {
     return h(

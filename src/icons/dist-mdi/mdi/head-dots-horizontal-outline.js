@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HeadDotsHorizontalOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["head","dots","horizontal","outline"],
   render() {
     return h(

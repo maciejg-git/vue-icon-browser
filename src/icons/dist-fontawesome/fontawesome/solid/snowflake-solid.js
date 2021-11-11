@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SnowflakeSolid",
+  name: "Snowflake",
   vendor: "Fa",
+  type: "Solid",
   tags: ["snowflake"],
   render() {
     return h(

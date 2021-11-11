@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MathCos",
   vendor: "Mdi",
+  type: "",
   tags: ["math","cos"],
   render() {
     return h(

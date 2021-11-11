@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PrinterFill",
   vendor: "B",
+  type: "",
   tags: ["printer","fill"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DeathStarVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["death","star","variant"],
   render() {
     return h(

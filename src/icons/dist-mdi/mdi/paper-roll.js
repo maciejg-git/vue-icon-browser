@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PaperRoll",
   vendor: "Mdi",
+  type: "",
   tags: ["paper","roll"],
   render() {
     return h(

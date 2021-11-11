@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SkipBackward",
   vendor: "B",
+  type: "",
   tags: ["skip","backward"],
   render() {
     return h(

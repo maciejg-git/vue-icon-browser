@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "JavaBrand",
+  name: "Java",
   vendor: "Fa",
+  type: "Brand",
   tags: ["java"],
   render() {
     return h(

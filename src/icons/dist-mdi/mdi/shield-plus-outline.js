@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ShieldPlusOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["shield","plus","outline"],
   render() {
     return h(

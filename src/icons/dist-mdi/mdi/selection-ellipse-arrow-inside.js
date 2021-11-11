@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SelectionEllipseArrowInside",
   vendor: "Mdi",
+  type: "",
   tags: ["selection","ellipse","arrow","inside"],
   render() {
     return h(

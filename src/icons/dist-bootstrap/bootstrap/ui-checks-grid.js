@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "UiChecksGrid",
   vendor: "B",
+  type: "",
   tags: ["ui","checks","grid"],
   render() {
     return h(

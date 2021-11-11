@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArchiveMinusOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["archive","minus","outline"],
   render() {
     return h(

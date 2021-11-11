@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Delete",
   vendor: "Mdi",
+  type: "",
   tags: ["delete"],
   render() {
     return h(

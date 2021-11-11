@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "AnchorSolid",
+  name: "Anchor",
   vendor: "Fa",
+  type: "Solid",
   tags: ["anchor"],
   render() {
     return h(

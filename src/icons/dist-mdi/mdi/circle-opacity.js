@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CircleOpacity",
   vendor: "Mdi",
+  type: "",
   tags: ["circle","opacity"],
   render() {
     return h(

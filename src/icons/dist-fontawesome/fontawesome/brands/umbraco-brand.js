@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "UmbracoBrand",
+  name: "Umbraco",
   vendor: "Fa",
+  type: "Brand",
   tags: ["umbraco"],
   render() {
     return h(

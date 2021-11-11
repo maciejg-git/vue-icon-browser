@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LabelPercentOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["label","percent","outline"],
   render() {
     return h(

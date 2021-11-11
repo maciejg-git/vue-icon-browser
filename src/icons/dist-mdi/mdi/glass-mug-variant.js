@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GlassMugVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["glass","mug","variant"],
   render() {
     return h(

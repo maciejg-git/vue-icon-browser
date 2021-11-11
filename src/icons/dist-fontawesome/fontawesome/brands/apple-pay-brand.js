@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ApplePayBrand",
+  name: "ApplePay",
   vendor: "Fa",
+  type: "Brand",
   tags: ["apple","pay"],
   render() {
     return h(

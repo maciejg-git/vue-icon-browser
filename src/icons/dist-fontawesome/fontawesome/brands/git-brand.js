@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "GitBrand",
+  name: "Git",
   vendor: "Fa",
+  type: "Brand",
   tags: ["git"],
   render() {
     return h(

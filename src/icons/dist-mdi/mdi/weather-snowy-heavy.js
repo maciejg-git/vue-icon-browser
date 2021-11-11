@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WeatherSnowyHeavy",
   vendor: "Mdi",
+  type: "",
   tags: ["weather","snowy","heavy"],
   render() {
     return h(

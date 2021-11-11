@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PlusSquareSolid",
+  name: "PlusSquare",
   vendor: "Fa",
+  type: "Solid",
   tags: ["plus","square"],
   render() {
     return h(

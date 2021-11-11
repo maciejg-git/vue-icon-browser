@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "StepBackward2",
   vendor: "Mdi",
+  type: "",
   tags: ["step","backward","2"],
   render() {
     return h(

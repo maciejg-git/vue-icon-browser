@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PlayProtectedContent",
   vendor: "Mdi",
+  type: "",
   tags: ["play","protected","content"],
   render() {
     return h(

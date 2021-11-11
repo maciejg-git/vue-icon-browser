@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileWordBox",
   vendor: "Mdi",
+  type: "",
   tags: ["file","word","box"],
   render() {
     return h(

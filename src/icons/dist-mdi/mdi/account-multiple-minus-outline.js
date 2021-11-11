@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AccountMultipleMinusOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["account","multiple","minus","outline"],
   render() {
     return h(

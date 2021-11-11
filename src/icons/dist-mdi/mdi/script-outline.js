@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ScriptOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["script","outline"],
   render() {
     return h(

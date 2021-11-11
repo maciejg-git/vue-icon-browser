@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ThermometerFullSolid",
+  name: "ThermometerFull",
   vendor: "Fa",
+  type: "Solid",
   tags: ["thermometer","full"],
   render() {
     return h(

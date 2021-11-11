@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "HubspotBrand",
+  name: "Hubspot",
   vendor: "Fa",
+  type: "Brand",
   tags: ["hubspot"],
   render() {
     return h(

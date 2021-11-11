@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CheckboxBlankBadgeOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["checkbox","blank","badge","outline"],
   render() {
     return h(

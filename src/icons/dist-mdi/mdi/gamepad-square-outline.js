@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GamepadSquareOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["gamepad","square","outline"],
   render() {
     return h(

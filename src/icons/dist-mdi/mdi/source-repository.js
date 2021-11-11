@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SourceRepository",
   vendor: "Mdi",
+  type: "",
   tags: ["source","repository"],
   render() {
     return h(

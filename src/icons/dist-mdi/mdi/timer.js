@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Timer",
   vendor: "Mdi",
+  type: "",
   tags: ["timer"],
   render() {
     return h(

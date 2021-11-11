@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "TripadvisorBrand",
+  name: "Tripadvisor",
   vendor: "Fa",
+  type: "Brand",
   tags: ["tripadvisor"],
   render() {
     return h(

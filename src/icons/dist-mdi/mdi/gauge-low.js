@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GaugeLow",
   vendor: "Mdi",
+  type: "",
   tags: ["gauge","low"],
   render() {
     return h(

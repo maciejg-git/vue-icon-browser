@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CarBrakeFluidLevel",
   vendor: "Mdi",
+  type: "",
   tags: ["car","brake","fluid","level"],
   render() {
     return h(

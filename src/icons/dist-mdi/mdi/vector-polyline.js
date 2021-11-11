@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VectorPolyline",
   vendor: "Mdi",
+  type: "",
   tags: ["vector","polyline"],
   render() {
     return h(

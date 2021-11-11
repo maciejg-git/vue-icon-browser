@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ErlangBrand",
+  name: "Erlang",
   vendor: "Fa",
+  type: "Brand",
   tags: ["erlang"],
   render() {
     return h(

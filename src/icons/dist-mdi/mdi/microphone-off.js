@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MicrophoneOff",
   vendor: "Mdi",
+  type: "",
   tags: ["microphone","off"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ContentSaveCheckOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["content","save","check","outline"],
   render() {
     return h(

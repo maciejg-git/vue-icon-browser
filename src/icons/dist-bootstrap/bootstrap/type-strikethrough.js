@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TypeStrikethrough",
   vendor: "B",
+  type: "",
   tags: ["type","strikethrough"],
   render() {
     return h(

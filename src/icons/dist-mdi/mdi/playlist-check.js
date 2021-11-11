@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PlaylistCheck",
   vendor: "Mdi",
+  type: "",
   tags: ["playlist","check"],
   render() {
     return h(

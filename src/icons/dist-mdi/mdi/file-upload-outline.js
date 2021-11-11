@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileUploadOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","upload","outline"],
   render() {
     return h(

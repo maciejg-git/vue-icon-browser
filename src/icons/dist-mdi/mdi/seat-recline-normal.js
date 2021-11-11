@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SeatReclineNormal",
   vendor: "Mdi",
+  type: "",
   tags: ["seat","recline","normal"],
   render() {
     return h(

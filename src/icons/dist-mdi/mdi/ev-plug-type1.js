@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EvPlugType1",
   vendor: "Mdi",
+  type: "",
   tags: ["ev","plug","type1"],
   render() {
     return h(

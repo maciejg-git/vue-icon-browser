@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FlagOffOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["flag","off","outline"],
   render() {
     return h(

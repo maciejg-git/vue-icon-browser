@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CropAltSolid",
+  name: "CropAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["crop","alt"],
   render() {
     return h(

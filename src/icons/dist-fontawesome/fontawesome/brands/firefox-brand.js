@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FirefoxBrand",
+  name: "Firefox",
   vendor: "Fa",
+  type: "Brand",
   tags: ["firefox"],
   render() {
     return h(

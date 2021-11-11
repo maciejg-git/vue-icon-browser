@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FileCodeSolid",
+  name: "FileCode",
   vendor: "Fa",
+  type: "Solid",
   tags: ["file","code"],
   render() {
     return h(

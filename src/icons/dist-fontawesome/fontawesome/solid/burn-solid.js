@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BurnSolid",
+  name: "Burn",
   vendor: "Fa",
+  type: "Solid",
   tags: ["burn"],
   render() {
     return h(

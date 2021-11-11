@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SyllabaryKatakanaHalfwidth",
   vendor: "Mdi",
+  type: "",
   tags: ["syllabary","katakana","halfwidth"],
   render() {
     return h(

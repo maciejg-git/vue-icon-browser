@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "LifeRingSolid",
+  name: "LifeRing",
   vendor: "Fa",
+  type: "Solid",
   tags: ["life","ring"],
   render() {
     return h(

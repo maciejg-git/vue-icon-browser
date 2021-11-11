@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Certificate",
   vendor: "Mdi",
+  type: "",
   tags: ["certificate"],
   render() {
     return h(

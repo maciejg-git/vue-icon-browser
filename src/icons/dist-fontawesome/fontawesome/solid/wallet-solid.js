@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "WalletSolid",
+  name: "Wallet",
   vendor: "Fa",
+  type: "Solid",
   tags: ["wallet"],
   render() {
     return h(

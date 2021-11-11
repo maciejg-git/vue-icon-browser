@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ConsoleLine",
   vendor: "Mdi",
+  type: "",
   tags: ["console","line"],
   render() {
     return h(

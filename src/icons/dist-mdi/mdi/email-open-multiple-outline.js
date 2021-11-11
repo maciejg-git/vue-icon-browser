@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EmailOpenMultipleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["email","open","multiple","outline"],
   render() {
     return h(

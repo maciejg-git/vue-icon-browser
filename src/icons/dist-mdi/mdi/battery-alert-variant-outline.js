@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BatteryAlertVariantOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["battery","alert","variant","outline"],
   render() {
     return h(

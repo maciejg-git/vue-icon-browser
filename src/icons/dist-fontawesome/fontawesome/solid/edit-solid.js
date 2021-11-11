@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "EditSolid",
+  name: "Edit",
   vendor: "Fa",
+  type: "Solid",
   tags: ["edit"],
   render() {
     return h(

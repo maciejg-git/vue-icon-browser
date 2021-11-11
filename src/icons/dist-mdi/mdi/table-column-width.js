@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TableColumnWidth",
   vendor: "Mdi",
+  type: "",
   tags: ["table","column","width"],
   render() {
     return h(

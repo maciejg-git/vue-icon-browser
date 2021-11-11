@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileCancelOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","cancel","outline"],
   render() {
     return h(

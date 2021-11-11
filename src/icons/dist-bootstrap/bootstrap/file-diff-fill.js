@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileDiffFill",
   vendor: "B",
+  type: "",
   tags: ["file","diff","fill"],
   render() {
     return h(

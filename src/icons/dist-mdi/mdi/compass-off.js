@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CompassOff",
   vendor: "Mdi",
+  type: "",
   tags: ["compass","off"],
   render() {
     return h(

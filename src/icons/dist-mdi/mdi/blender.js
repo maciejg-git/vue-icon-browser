@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Blender",
   vendor: "Mdi",
+  type: "",
   tags: ["blender"],
   render() {
     return h(

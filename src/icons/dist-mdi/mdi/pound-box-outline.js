@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PoundBoxOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["pound","box","outline"],
   render() {
     return h(

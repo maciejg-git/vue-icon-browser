@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CardMultiple",
   vendor: "Mdi",
+  type: "",
   tags: ["card","multiple"],
   render() {
     return h(

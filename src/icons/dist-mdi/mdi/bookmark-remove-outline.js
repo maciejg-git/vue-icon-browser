@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BookmarkRemoveOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["bookmark","remove","outline"],
   render() {
     return h(

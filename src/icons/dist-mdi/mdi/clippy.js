@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Clippy",
   vendor: "Mdi",
+  type: "",
   tags: ["clippy"],
   render() {
     return h(

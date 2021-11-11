@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PigVariantOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["pig","variant","outline"],
   render() {
     return h(

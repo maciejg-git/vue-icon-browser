@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MonitorMultiple",
   vendor: "Mdi",
+  type: "",
   tags: ["monitor","multiple"],
   render() {
     return h(

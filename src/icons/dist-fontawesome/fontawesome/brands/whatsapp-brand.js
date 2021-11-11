@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "WhatsappBrand",
+  name: "Whatsapp",
   vendor: "Fa",
+  type: "Brand",
   tags: ["whatsapp"],
   render() {
     return h(

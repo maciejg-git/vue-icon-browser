@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HospitalBoxOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["hospital","box","outline"],
   render() {
     return h(

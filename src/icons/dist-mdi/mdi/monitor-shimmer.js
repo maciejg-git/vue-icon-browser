@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MonitorShimmer",
   vendor: "Mdi",
+  type: "",
   tags: ["monitor","shimmer"],
   render() {
     return h(

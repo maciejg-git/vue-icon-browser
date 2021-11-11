@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SecurityNetwork",
   vendor: "Mdi",
+  type: "",
   tags: ["security","network"],
   render() {
     return h(

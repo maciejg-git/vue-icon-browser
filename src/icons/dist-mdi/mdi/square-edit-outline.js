@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SquareEditOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["square","edit","outline"],
   render() {
     return h(

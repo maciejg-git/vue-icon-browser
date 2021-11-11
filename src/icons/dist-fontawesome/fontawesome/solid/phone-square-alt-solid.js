@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PhoneSquareAltSolid",
+  name: "PhoneSquareAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["phone","square","alt"],
   render() {
     return h(

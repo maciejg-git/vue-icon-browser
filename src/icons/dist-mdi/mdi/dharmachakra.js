@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Dharmachakra",
   vendor: "Mdi",
+  type: "",
   tags: ["dharmachakra"],
   render() {
     return h(

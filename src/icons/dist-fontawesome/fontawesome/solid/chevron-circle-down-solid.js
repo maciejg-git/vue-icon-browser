@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ChevronCircleDownSolid",
+  name: "ChevronCircleDown",
   vendor: "Fa",
+  type: "Solid",
   tags: ["chevron","circle","down"],
   render() {
     return h(

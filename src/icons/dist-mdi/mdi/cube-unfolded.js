@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CubeUnfolded",
   vendor: "Mdi",
+  type: "",
   tags: ["cube","unfolded"],
   render() {
     return h(

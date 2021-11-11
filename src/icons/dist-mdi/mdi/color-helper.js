@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ColorHelper",
   vendor: "Mdi",
+  type: "",
   tags: ["color","helper"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BriefcaseVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["briefcase","variant"],
   render() {
     return h(

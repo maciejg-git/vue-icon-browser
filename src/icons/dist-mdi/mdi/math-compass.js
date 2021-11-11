@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MathCompass",
   vendor: "Mdi",
+  type: "",
   tags: ["math","compass"],
   render() {
     return h(

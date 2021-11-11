@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PhoneLandscapeFill",
   vendor: "B",
+  type: "",
   tags: ["phone","landscape","fill"],
   render() {
     return h(

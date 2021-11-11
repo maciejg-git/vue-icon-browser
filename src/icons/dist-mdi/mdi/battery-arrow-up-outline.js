@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BatteryArrowUpOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["battery","arrow","up","outline"],
   render() {
     return h(

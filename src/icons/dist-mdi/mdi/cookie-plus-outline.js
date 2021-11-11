@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CookiePlusOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["cookie","plus","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BadgeAccountHorizontalOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["badge","account","horizontal","outline"],
   render() {
     return h(

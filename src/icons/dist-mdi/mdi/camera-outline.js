@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CameraOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["camera","outline"],
   render() {
     return h(

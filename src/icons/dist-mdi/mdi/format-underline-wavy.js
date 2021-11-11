@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatUnderlineWavy",
   vendor: "Mdi",
+  type: "",
   tags: ["format","underline","wavy"],
   render() {
     return h(

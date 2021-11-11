@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatWrapSquare",
   vendor: "Mdi",
+  type: "",
   tags: ["format","wrap","square"],
   render() {
     return h(

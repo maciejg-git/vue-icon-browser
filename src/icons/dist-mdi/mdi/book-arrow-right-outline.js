@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BookArrowRightOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["book","arrow","right","outline"],
   render() {
     return h(

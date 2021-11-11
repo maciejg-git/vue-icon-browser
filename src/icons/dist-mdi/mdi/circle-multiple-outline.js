@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CircleMultipleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["circle","multiple","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DiameterVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["diameter","variant"],
   render() {
     return h(

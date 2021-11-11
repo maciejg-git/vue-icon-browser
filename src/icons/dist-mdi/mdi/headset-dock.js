@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HeadsetDock",
   vendor: "Mdi",
+  type: "",
   tags: ["headset","dock"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ViewQuilt",
   vendor: "Mdi",
+  type: "",
   tags: ["view","quilt"],
   render() {
     return h(

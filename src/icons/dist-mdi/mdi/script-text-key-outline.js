@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ScriptTextKeyOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["script","text","key","outline"],
   render() {
     return h(

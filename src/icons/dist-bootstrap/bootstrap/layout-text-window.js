@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LayoutTextWindow",
   vendor: "B",
+  type: "",
   tags: ["layout","text","window"],
   render() {
     return h(

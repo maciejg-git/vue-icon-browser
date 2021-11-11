@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileClock",
   vendor: "Mdi",
+  type: "",
   tags: ["file","clock"],
   render() {
     return h(

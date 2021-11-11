@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LightbulbGroupOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["lightbulb","group","outline"],
   render() {
     return h(

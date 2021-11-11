@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatAnnotationPlus",
   vendor: "Mdi",
+  type: "",
   tags: ["format","annotation","plus"],
   render() {
     return h(

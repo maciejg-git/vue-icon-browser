@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GoogleHome",
   vendor: "Mdi",
+  type: "",
   tags: ["google","home"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DrawingBox",
   vendor: "Mdi",
+  type: "",
   tags: ["drawing","box"],
   render() {
     return h(

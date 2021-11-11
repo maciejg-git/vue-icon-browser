@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CompassSolid",
+  name: "Compass",
   vendor: "Fa",
+  type: "Solid",
   tags: ["compass"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Pentagram",
   vendor: "Mdi",
+  type: "",
   tags: ["pentagram"],
   render() {
     return h(

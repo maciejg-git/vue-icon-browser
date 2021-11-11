@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AngleAcute",
   vendor: "Mdi",
+  type: "",
   tags: ["angle","acute"],
   render() {
     return h(

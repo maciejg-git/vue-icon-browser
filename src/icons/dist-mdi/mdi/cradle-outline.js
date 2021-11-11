@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CradleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["cradle","outline"],
   render() {
     return h(

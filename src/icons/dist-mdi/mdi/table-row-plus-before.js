@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TableRowPlusBefore",
   vendor: "Mdi",
+  type: "",
   tags: ["table","row","plus","before"],
   render() {
     return h(

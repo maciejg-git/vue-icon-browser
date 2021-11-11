@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DecimalCommaDecrease",
   vendor: "Mdi",
+  type: "",
   tags: ["decimal","comma","decrease"],
   render() {
     return h(

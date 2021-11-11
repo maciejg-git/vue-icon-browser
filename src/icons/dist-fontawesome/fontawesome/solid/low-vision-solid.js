@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "LowVisionSolid",
+  name: "LowVision",
   vendor: "Fa",
+  type: "Solid",
   tags: ["low","vision"],
   render() {
     return h(

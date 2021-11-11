@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SocksSolid",
+  name: "Socks",
   vendor: "Fa",
+  type: "Solid",
   tags: ["socks"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CameraMeteringCenter",
   vendor: "Mdi",
+  type: "",
   tags: ["camera","metering","center"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EyeOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["eye","outline"],
   render() {
     return h(

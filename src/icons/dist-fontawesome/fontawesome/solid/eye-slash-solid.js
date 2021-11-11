@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "EyeSlashSolid",
+  name: "EyeSlash",
   vendor: "Fa",
+  type: "Solid",
   tags: ["eye","slash"],
   render() {
     return h(

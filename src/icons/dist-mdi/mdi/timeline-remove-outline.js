@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TimelineRemoveOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["timeline","remove","outline"],
   render() {
     return h(

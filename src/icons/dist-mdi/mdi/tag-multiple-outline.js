@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TagMultipleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["tag","multiple","outline"],
   render() {
     return h(

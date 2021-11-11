@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TrashCanOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["trash","can","outline"],
   render() {
     return h(

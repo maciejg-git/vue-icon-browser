@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TuneVerticalVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["tune","vertical","variant"],
   render() {
     return h(

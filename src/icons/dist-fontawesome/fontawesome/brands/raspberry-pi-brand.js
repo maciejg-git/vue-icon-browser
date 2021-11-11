@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "RaspberryPiBrand",
+  name: "RaspberryPi",
   vendor: "Fa",
+  type: "Brand",
   tags: ["raspberry","pi"],
   render() {
     return h(

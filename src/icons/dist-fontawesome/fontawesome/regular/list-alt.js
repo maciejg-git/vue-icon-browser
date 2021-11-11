@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ListAlt",
   vendor: "Fa",
+  type: "",
   tags: ["list","alt"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PercentSolid",
+  name: "Percent",
   vendor: "Fa",
+  type: "Solid",
   tags: ["percent"],
   render() {
     return h(

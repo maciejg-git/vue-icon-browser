@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Calendar2Plus",
   vendor: "B",
+  type: "",
   tags: ["calendar2","plus"],
   render() {
     return h(

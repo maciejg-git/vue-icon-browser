@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "TintSolid",
+  name: "Tint",
   vendor: "Fa",
+  type: "Solid",
   tags: ["tint"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BunkBedOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["bunk","bed","outline"],
   render() {
     return h(

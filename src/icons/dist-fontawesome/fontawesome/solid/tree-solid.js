@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "TreeSolid",
+  name: "Tree",
   vendor: "Fa",
+  type: "Solid",
   tags: ["tree"],
   render() {
     return h(

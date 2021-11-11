@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FilePowerpointBoxOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","powerpoint","box","outline"],
   render() {
     return h(

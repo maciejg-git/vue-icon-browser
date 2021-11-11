@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ShapeOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["shape","outline"],
   render() {
     return h(

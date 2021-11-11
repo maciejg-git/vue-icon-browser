@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BorderAllSolid",
+  name: "BorderAll",
   vendor: "Fa",
+  type: "Solid",
   tags: ["border","all"],
   render() {
     return h(

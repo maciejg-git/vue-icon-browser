@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SyncAlert",
   vendor: "Mdi",
+  type: "",
   tags: ["sync","alert"],
   render() {
     return h(

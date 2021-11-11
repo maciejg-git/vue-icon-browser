@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderSwapOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","swap","outline"],
   render() {
     return h(

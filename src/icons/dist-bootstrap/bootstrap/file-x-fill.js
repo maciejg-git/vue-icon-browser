@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileXFill",
   vendor: "B",
+  type: "",
   tags: ["file","x","fill"],
   render() {
     return h(

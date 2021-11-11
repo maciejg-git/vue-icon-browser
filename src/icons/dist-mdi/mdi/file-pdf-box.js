@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FilePdfBox",
   vendor: "Mdi",
+  type: "",
   tags: ["file","pdf","box"],
   render() {
     return h(

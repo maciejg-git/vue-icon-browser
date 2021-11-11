@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MovieEdit",
   vendor: "Mdi",
+  type: "",
   tags: ["movie","edit"],
   render() {
     return h(

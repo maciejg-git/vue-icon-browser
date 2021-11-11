@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PencilAltSolid",
+  name: "PencilAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["pencil","alt"],
   render() {
     return h(

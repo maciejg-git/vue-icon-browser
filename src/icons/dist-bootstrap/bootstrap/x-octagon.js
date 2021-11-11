@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "XOctagon",
   vendor: "B",
+  type: "",
   tags: ["x","octagon"],
   render() {
     return h(

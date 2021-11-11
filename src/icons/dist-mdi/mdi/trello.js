@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Trello",
   vendor: "Mdi",
+  type: "",
   tags: ["trello"],
   render() {
     return h(

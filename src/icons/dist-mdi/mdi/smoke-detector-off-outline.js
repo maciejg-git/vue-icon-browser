@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SmokeDetectorOffOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["smoke","detector","off","outline"],
   render() {
     return h(

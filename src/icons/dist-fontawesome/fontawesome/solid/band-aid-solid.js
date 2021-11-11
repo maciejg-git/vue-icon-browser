@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BandAidSolid",
+  name: "BandAid",
   vendor: "Fa",
+  type: "Solid",
   tags: ["band","aid"],
   render() {
     return h(

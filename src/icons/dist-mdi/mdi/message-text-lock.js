@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MessageTextLock",
   vendor: "Mdi",
+  type: "",
   tags: ["message","text","lock"],
   render() {
     return h(

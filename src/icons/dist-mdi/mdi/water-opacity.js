@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WaterOpacity",
   vendor: "Mdi",
+  type: "",
   tags: ["water","opacity"],
   render() {
     return h(

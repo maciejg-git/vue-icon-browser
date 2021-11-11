@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LinkBoxVariantOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["link","box","variant","outline"],
   render() {
     return h(

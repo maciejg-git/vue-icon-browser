@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "EnvelopeOpenTextSolid",
+  name: "EnvelopeOpenText",
   vendor: "Fa",
+  type: "Solid",
   tags: ["envelope","open","text"],
   render() {
     return h(

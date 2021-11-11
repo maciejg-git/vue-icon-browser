@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Snowflake",
   vendor: "Fa",
+  type: "",
   tags: ["snowflake"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Checkerboard",
   vendor: "Mdi",
+  type: "",
   tags: ["checkerboard"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FileMedicalAltSolid",
+  name: "FileMedicalAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["file","medical","alt"],
   render() {
     return h(

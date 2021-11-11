@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ReflectHorizontal",
   vendor: "Mdi",
+  type: "",
   tags: ["reflect","horizontal"],
   render() {
     return h(

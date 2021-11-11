@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EqualBox",
   vendor: "Mdi",
+  type: "",
   tags: ["equal","box"],
   render() {
     return h(

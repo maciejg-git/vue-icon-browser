@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileDelimited",
   vendor: "Mdi",
+  type: "",
   tags: ["file","delimited"],
   render() {
     return h(

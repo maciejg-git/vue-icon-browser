@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MoneroBrand",
+  name: "Monero",
   vendor: "Fa",
+  type: "Brand",
   tags: ["monero"],
   render() {
     return h(

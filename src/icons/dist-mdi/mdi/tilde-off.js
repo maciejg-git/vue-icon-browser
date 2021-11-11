@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TildeOff",
   vendor: "Mdi",
+  type: "",
   tags: ["tilde","off"],
   render() {
     return h(

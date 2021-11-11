@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "VideoSlashSolid",
+  name: "VideoSlash",
   vendor: "Fa",
+  type: "Solid",
   tags: ["video","slash"],
   render() {
     return h(

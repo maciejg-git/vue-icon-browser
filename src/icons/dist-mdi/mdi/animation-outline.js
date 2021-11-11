@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AnimationOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["animation","outline"],
   render() {
     return h(

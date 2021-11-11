@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatLineStyle",
   vendor: "Mdi",
+  type: "",
   tags: ["format","line","style"],
   render() {
     return h(

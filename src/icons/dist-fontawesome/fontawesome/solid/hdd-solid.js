@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "HddSolid",
+  name: "Hdd",
   vendor: "Fa",
+  type: "Solid",
   tags: ["hdd"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "TintSlashSolid",
+  name: "TintSlash",
   vendor: "Fa",
+  type: "Solid",
   tags: ["tint","slash"],
   render() {
     return h(

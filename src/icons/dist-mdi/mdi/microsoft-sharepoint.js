@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MicrosoftSharepoint",
   vendor: "Mdi",
+  type: "",
   tags: ["microsoft","sharepoint"],
   render() {
     return h(

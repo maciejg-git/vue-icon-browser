@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MenuButtonWide",
   vendor: "B",
+  type: "",
   tags: ["menu","button","wide"],
   render() {
     return h(

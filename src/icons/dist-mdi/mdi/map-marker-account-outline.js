@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MapMarkerAccountOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["map","marker","account","outline"],
   render() {
     return h(

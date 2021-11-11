@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CreditCardRefund",
   vendor: "Mdi",
+  type: "",
   tags: ["credit","card","refund"],
   render() {
     return h(

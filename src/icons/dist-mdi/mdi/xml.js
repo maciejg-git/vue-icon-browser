@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Xml",
   vendor: "Mdi",
+  type: "",
   tags: ["xml"],
   render() {
     return h(

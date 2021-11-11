@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EmailSync",
   vendor: "Mdi",
+  type: "",
   tags: ["email","sync"],
   render() {
     return h(

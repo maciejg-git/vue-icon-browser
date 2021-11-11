@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CreditCardChip",
   vendor: "Mdi",
+  type: "",
   tags: ["credit","card","chip"],
   render() {
     return h(

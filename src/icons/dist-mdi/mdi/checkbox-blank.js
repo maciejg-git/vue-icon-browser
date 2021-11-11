@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CheckboxBlank",
   vendor: "Mdi",
+  type: "",
   tags: ["checkbox","blank"],
   render() {
     return h(

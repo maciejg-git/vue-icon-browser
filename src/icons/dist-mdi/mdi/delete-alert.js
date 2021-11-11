@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DeleteAlert",
   vendor: "Mdi",
+  type: "",
   tags: ["delete","alert"],
   render() {
     return h(

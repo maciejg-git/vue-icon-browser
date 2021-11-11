@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FanSolid",
+  name: "Fan",
   vendor: "Fa",
+  type: "Solid",
   tags: ["fan"],
   render() {
     return h(

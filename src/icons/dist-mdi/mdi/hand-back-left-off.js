@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HandBackLeftOff",
   vendor: "Mdi",
+  type: "",
   tags: ["hand","back","left","off"],
   render() {
     return h(

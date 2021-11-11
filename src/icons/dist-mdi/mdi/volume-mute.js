@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VolumeMute",
   vendor: "Mdi",
+  type: "",
   tags: ["volume","mute"],
   render() {
     return h(

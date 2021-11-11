@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AccessPointPlus",
   vendor: "Mdi",
+  type: "",
   tags: ["access","point","plus"],
   render() {
     return h(

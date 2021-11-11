@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CloudSync",
   vendor: "Mdi",
+  type: "",
   tags: ["cloud","sync"],
   render() {
     return h(

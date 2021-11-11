@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileCad",
   vendor: "Mdi",
+  type: "",
   tags: ["file","cad"],
   render() {
     return h(

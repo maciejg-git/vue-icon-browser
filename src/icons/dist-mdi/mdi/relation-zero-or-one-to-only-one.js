@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "RelationZeroOrOneToOnlyOne",
   vendor: "Mdi",
+  type: "",
   tags: ["relation","zero","or","one","to","only","one"],
   render() {
     return h(

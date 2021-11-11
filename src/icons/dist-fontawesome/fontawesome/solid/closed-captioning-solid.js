@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ClosedCaptioningSolid",
+  name: "ClosedCaptioning",
   vendor: "Fa",
+  type: "Solid",
   tags: ["closed","captioning"],
   render() {
     return h(

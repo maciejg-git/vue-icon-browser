@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SocialDistance6Feet",
   vendor: "Mdi",
+  type: "",
   tags: ["social","distance","6","feet"],
   render() {
     return h(

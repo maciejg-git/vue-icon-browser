@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WindowOpenVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["window","open","variant"],
   render() {
     return h(

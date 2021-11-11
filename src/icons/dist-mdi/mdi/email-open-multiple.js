@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EmailOpenMultiple",
   vendor: "Mdi",
+  type: "",
   tags: ["email","open","multiple"],
   render() {
     return h(

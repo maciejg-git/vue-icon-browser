@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FlagCheckeredSolid",
+  name: "FlagCheckered",
   vendor: "Fa",
+  type: "Solid",
   tags: ["flag","checkered"],
   render() {
     return h(

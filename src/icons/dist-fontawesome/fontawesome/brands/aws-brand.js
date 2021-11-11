@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "AwsBrand",
+  name: "Aws",
   vendor: "Fa",
+  type: "Brand",
   tags: ["aws"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ShieldSync",
   vendor: "Mdi",
+  type: "",
   tags: ["shield","sync"],
   render() {
     return h(

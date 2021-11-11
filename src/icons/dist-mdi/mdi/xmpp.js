@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Xmpp",
   vendor: "Mdi",
+  type: "",
   tags: ["xmpp"],
   render() {
     return h(

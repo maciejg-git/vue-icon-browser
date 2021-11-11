@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LanguageTypescript",
   vendor: "Mdi",
+  type: "",
   tags: ["language","typescript"],
   render() {
     return h(

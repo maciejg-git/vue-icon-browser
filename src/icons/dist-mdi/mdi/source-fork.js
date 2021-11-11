@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SourceFork",
   vendor: "Mdi",
+  type: "",
   tags: ["source","fork"],
   render() {
     return h(

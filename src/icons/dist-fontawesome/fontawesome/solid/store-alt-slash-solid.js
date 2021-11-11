@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "StoreAltSlashSolid",
+  name: "StoreAltSlash",
   vendor: "Fa",
+  type: "Solid",
   tags: ["store","alt","slash"],
   render() {
     return h(

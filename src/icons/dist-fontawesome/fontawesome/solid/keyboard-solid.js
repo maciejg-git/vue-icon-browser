@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "KeyboardSolid",
+  name: "Keyboard",
   vendor: "Fa",
+  type: "Solid",
   tags: ["keyboard"],
   render() {
     return h(

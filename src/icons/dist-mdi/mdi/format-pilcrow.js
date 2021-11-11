@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatPilcrow",
   vendor: "Mdi",
+  type: "",
   tags: ["format","pilcrow"],
   render() {
     return h(

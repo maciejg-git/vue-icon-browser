@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ChartHistogram",
   vendor: "Mdi",
+  type: "",
   tags: ["chart","histogram"],
   render() {
     return h(

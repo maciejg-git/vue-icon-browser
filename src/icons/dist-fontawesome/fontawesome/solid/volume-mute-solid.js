@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "VolumeMuteSolid",
+  name: "VolumeMute",
   vendor: "Fa",
+  type: "Solid",
   tags: ["volume","mute"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CookieRemoveOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["cookie","remove","outline"],
   render() {
     return h(

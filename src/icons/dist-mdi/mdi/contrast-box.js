@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ContrastBox",
   vendor: "Mdi",
+  type: "",
   tags: ["contrast","box"],
   render() {
     return h(

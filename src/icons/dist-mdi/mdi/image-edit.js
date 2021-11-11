@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ImageEdit",
   vendor: "Mdi",
+  type: "",
   tags: ["image","edit"],
   render() {
     return h(

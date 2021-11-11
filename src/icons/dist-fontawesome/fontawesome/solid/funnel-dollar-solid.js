@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FunnelDollarSolid",
+  name: "FunnelDollar",
   vendor: "Fa",
+  type: "Solid",
   tags: ["funnel","dollar"],
   render() {
     return h(

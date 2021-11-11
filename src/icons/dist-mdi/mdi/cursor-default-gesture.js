@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CursorDefaultGesture",
   vendor: "Mdi",
+  type: "",
   tags: ["cursor","default","gesture"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "KeyboardOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["keyboard","outline"],
   render() {
     return h(

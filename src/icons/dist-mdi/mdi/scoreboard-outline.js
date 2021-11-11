@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ScoreboardOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["scoreboard","outline"],
   render() {
     return h(

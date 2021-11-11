@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SortVariantLockOpen",
   vendor: "Mdi",
+  type: "",
   tags: ["sort","variant","lock","open"],
   render() {
     return h(

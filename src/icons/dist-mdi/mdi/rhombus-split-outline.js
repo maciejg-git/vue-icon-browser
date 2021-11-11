@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "RhombusSplitOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["rhombus","split","outline"],
   render() {
     return h(

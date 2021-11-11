@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "GooglePlusGBrand",
+  name: "GooglePlusG",
   vendor: "Fa",
+  type: "Brand",
   tags: ["google","plus","g"],
   render() {
     return h(

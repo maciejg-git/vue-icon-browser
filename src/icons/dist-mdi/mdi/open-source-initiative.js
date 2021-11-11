@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "OpenSourceInitiative",
   vendor: "Mdi",
+  type: "",
   tags: ["open","source","initiative"],
   render() {
     return h(

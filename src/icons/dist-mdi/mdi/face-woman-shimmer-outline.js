@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FaceWomanShimmerOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["face","woman","shimmer","outline"],
   render() {
     return h(

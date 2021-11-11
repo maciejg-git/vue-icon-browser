@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LockOpenAlertOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["lock","open","alert","outline"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MusicSolid",
+  name: "Music",
   vendor: "Fa",
+  type: "Solid",
   tags: ["music"],
   render() {
     return h(

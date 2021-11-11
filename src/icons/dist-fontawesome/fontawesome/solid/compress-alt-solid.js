@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CompressAltSolid",
+  name: "CompressAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["compress","alt"],
   render() {
     return h(

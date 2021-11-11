@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArchiveMarker",
   vendor: "Mdi",
+  type: "",
   tags: ["archive","marker"],
   render() {
     return h(

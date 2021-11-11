@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DipSwitch",
   vendor: "Mdi",
+  type: "",
   tags: ["dip","switch"],
   render() {
     return h(

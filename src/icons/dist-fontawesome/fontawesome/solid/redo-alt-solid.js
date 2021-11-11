@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "RedoAltSolid",
+  name: "RedoAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["redo","alt"],
   render() {
     return h(

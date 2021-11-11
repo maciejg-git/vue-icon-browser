@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TimelinePlus",
   vendor: "Mdi",
+  type: "",
   tags: ["timeline","plus"],
   render() {
     return h(

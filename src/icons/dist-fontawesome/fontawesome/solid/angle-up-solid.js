@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "AngleUpSolid",
+  name: "AngleUp",
   vendor: "Fa",
+  type: "Solid",
   tags: ["angle","up"],
   render() {
     return h(

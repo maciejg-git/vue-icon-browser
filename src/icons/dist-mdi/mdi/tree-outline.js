@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TreeOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["tree","outline"],
   render() {
     return h(

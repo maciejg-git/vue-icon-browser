@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CodeBracesBox",
   vendor: "Mdi",
+  type: "",
   tags: ["code","braces","box"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EmailFastOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["email","fast","outline"],
   render() {
     return h(

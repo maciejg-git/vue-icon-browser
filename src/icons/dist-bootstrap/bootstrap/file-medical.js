@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileMedical",
   vendor: "B",
+  type: "",
   tags: ["file","medical"],
   render() {
     return h(

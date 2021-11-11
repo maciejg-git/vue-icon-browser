@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "TextWidthSolid",
+  name: "TextWidth",
   vendor: "Fa",
+  type: "Solid",
   tags: ["text","width"],
   render() {
     return h(

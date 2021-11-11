@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DoorSlidingLock",
   vendor: "Mdi",
+  type: "",
   tags: ["door","sliding","lock"],
   render() {
     return h(

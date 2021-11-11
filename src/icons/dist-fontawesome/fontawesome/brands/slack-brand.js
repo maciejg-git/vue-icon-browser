@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SlackBrand",
+  name: "Slack",
   vendor: "Fa",
+  type: "Brand",
   tags: ["slack"],
   render() {
     return h(

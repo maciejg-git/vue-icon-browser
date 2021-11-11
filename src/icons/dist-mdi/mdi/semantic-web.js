@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SemanticWeb",
   vendor: "Mdi",
+  type: "",
   tags: ["semantic","web"],
   render() {
     return h(

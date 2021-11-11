@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "UniversalAccessSolid",
+  name: "UniversalAccess",
   vendor: "Fa",
+  type: "Solid",
   tags: ["universal","access"],
   render() {
     return h(

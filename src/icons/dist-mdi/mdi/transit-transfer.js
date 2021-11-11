@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TransitTransfer",
   vendor: "Mdi",
+  type: "",
   tags: ["transit","transfer"],
   render() {
     return h(

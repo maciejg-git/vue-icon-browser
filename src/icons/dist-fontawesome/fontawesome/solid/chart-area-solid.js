@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ChartAreaSolid",
+  name: "ChartArea",
   vendor: "Fa",
+  type: "Solid",
   tags: ["chart","area"],
   render() {
     return h(

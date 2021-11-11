@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FileInvoiceDollarSolid",
+  name: "FileInvoiceDollar",
   vendor: "Fa",
+  type: "Solid",
   tags: ["file","invoice","dollar"],
   render() {
     return h(

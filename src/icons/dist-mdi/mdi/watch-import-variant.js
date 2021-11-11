@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WatchImportVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["watch","import","variant"],
   render() {
     return h(

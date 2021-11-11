@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MovieFilterOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["movie","filter","outline"],
   render() {
     return h(

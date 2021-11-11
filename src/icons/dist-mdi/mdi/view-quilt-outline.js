@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ViewQuiltOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["view","quilt","outline"],
   render() {
     return h(

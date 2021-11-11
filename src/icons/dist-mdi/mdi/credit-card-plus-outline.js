@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CreditCardPlusOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["credit","card","plus","outline"],
   render() {
     return h(

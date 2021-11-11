@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HexagonMultiple",
   vendor: "Mdi",
+  type: "",
   tags: ["hexagon","multiple"],
   render() {
     return h(

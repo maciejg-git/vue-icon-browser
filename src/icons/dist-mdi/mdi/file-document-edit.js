@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileDocumentEdit",
   vendor: "Mdi",
+  type: "",
   tags: ["file","document","edit"],
   render() {
     return h(

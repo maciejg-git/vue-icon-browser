@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Copyright",
   vendor: "Fa",
+  type: "",
   tags: ["copyright"],
   render() {
     return h(

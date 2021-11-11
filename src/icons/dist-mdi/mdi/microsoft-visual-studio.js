@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MicrosoftVisualStudio",
   vendor: "Mdi",
+  type: "",
   tags: ["microsoft","visual","studio"],
   render() {
     return h(

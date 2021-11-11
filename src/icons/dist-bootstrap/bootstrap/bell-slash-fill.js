@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BellSlashFill",
   vendor: "B",
+  type: "",
   tags: ["bell","slash","fill"],
   render() {
     return h(

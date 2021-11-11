@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "UnlinkSolid",
+  name: "Unlink",
   vendor: "Fa",
+  type: "Solid",
   tags: ["unlink"],
   render() {
     return h(

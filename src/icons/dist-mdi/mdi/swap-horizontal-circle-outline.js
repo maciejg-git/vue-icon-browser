@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SwapHorizontalCircleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["swap","horizontal","circle","outline"],
   render() {
     return h(

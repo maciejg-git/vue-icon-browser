@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BorderOutside",
   vendor: "Mdi",
+  type: "",
   tags: ["border","outside"],
   render() {
     return h(

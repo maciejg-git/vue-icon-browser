@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AccountMultiple",
   vendor: "Mdi",
+  type: "",
   tags: ["account","multiple"],
   render() {
     return h(

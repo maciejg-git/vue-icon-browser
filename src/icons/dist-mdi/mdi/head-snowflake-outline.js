@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HeadSnowflakeOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["head","snowflake","outline"],
   render() {
     return h(

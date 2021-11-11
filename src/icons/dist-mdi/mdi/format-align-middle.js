@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatAlignMiddle",
   vendor: "Mdi",
+  type: "",
   tags: ["format","align","middle"],
   render() {
     return h(

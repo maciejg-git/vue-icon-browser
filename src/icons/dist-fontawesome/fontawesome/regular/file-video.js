@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileVideo",
   vendor: "Fa",
+  type: "",
   tags: ["file","video"],
   render() {
     return h(

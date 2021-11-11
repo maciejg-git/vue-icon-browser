@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SlashForwardBox",
   vendor: "Mdi",
+  type: "",
   tags: ["slash","forward","box"],
   render() {
     return h(

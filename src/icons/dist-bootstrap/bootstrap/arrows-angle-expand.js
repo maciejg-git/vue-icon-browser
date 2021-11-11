@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArrowsAngleExpand",
   vendor: "B",
+  type: "",
   tags: ["arrows","angle","expand"],
   render() {
     return h(

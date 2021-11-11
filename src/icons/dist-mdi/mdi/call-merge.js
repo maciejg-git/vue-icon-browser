@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CallMerge",
   vendor: "Mdi",
+  type: "",
   tags: ["call","merge"],
   render() {
     return h(

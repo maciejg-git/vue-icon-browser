@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MessageTextClock",
   vendor: "Mdi",
+  type: "",
   tags: ["message","text","clock"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TrophyVariantOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["trophy","variant","outline"],
   render() {
     return h(

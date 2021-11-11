@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileWordBoxOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","word","box","outline"],
   render() {
     return h(

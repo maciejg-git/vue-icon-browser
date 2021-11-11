@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CloudMeatballSolid",
+  name: "CloudMeatball",
   vendor: "Fa",
+  type: "Solid",
   tags: ["cloud","meatball"],
   render() {
     return h(

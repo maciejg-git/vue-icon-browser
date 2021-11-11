@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WaterPlusOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["water","plus","outline"],
   render() {
     return h(

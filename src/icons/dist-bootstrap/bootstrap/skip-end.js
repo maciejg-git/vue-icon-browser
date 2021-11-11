@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SkipEnd",
   vendor: "B",
+  type: "",
   tags: ["skip","end"],
   render() {
     return h(

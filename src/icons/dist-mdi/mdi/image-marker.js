@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ImageMarker",
   vendor: "Mdi",
+  type: "",
   tags: ["image","marker"],
   render() {
     return h(

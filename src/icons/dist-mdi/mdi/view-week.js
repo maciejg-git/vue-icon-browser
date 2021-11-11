@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ViewWeek",
   vendor: "Mdi",
+  type: "",
   tags: ["view","week"],
   render() {
     return h(

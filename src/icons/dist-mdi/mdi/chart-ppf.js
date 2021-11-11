@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ChartPpf",
   vendor: "Mdi",
+  type: "",
   tags: ["chart","ppf"],
   render() {
     return h(

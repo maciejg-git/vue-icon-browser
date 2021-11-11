@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileFindOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","find","outline"],
   render() {
     return h(

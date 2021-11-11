@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CrosshairsGps",
   vendor: "Mdi",
+  type: "",
   tags: ["crosshairs","gps"],
   render() {
     return h(

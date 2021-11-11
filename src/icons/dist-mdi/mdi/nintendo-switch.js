@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "NintendoSwitch",
   vendor: "Mdi",
+  type: "",
   tags: ["nintendo","switch"],
   render() {
     return h(

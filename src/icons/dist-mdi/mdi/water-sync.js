@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WaterSync",
   vendor: "Mdi",
+  type: "",
   tags: ["water","sync"],
   render() {
     return h(

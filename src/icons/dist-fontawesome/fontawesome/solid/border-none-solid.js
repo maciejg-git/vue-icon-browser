@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BorderNoneSolid",
+  name: "BorderNone",
   vendor: "Fa",
+  type: "Solid",
   tags: ["border","none"],
   render() {
     return h(

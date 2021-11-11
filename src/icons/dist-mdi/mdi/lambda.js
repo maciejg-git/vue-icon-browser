@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Lambda",
   vendor: "Mdi",
+  type: "",
   tags: ["lambda"],
   render() {
     return h(

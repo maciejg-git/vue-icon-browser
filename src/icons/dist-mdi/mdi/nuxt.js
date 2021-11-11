@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Nuxt",
   vendor: "Mdi",
+  type: "",
   tags: ["nuxt"],
   render() {
     return h(

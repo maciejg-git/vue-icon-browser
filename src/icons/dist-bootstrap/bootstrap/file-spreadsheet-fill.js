@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileSpreadsheetFill",
   vendor: "B",
+  type: "",
   tags: ["file","spreadsheet","fill"],
   render() {
     return h(

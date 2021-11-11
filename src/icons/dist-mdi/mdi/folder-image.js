@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderImage",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","image"],
   render() {
     return h(

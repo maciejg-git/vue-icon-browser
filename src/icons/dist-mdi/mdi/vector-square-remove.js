@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VectorSquareRemove",
   vendor: "Mdi",
+  type: "",
   tags: ["vector","square","remove"],
   render() {
     return h(

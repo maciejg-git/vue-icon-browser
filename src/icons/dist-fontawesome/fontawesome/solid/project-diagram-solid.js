@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ProjectDiagramSolid",
+  name: "ProjectDiagram",
   vendor: "Fa",
+  type: "Solid",
   tags: ["project","diagram"],
   render() {
     return h(

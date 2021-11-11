@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Carabiner",
   vendor: "Mdi",
+  type: "",
   tags: ["carabiner"],
   render() {
     return h(

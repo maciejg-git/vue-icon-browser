@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GoogleGlass",
   vendor: "Mdi",
+  type: "",
   tags: ["google","glass"],
   render() {
     return h(

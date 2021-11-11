@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ViewColumnOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["view","column","outline"],
   render() {
     return h(

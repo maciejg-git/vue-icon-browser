@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Induction",
   vendor: "Mdi",
+  type: "",
   tags: ["induction"],
   render() {
     return h(

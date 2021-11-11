@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SortNumericDescendingVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["sort","numeric","descending","variant"],
   render() {
     return h(

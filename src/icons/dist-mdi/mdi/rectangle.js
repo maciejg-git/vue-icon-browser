@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Rectangle",
   vendor: "Mdi",
+  type: "",
   tags: ["rectangle"],
   render() {
     return h(

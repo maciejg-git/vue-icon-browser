@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "RobotOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["robot","outline"],
   render() {
     return h(

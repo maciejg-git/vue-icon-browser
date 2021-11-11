@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileWord",
   vendor: "B",
+  type: "",
   tags: ["file","word"],
   render() {
     return h(

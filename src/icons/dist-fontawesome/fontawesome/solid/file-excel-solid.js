@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FileExcelSolid",
+  name: "FileExcel",
   vendor: "Fa",
+  type: "Solid",
   tags: ["file","excel"],
   render() {
     return h(

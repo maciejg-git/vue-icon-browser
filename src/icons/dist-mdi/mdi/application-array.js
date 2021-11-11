@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ApplicationArray",
   vendor: "Mdi",
+  type: "",
   tags: ["application","array"],
   render() {
     return h(

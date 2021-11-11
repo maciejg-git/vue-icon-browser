@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "KeyboardF6",
   vendor: "Mdi",
+  type: "",
   tags: ["keyboard","f6"],
   render() {
     return h(

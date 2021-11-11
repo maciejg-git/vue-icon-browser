@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "NoteMultipleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["note","multiple","outline"],
   render() {
     return h(

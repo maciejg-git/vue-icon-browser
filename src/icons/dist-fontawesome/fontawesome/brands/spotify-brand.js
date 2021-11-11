@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SpotifyBrand",
+  name: "Spotify",
   vendor: "Fa",
+  type: "Brand",
   tags: ["spotify"],
   render() {
     return h(

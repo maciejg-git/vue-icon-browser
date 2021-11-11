@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CameraRear",
   vendor: "Mdi",
+  type: "",
   tags: ["camera","rear"],
   render() {
     return h(

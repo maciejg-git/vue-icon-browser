@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CityVariantOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["city","variant","outline"],
   render() {
     return h(

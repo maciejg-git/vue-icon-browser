@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MailchimpBrand",
+  name: "Mailchimp",
   vendor: "Fa",
+  type: "Brand",
   tags: ["mailchimp"],
   render() {
     return h(

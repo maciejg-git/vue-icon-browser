@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FilePlusOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","plus","outline"],
   render() {
     return h(

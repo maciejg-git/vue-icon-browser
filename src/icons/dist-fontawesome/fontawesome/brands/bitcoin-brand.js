@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BitcoinBrand",
+  name: "Bitcoin",
   vendor: "Fa",
+  type: "Brand",
   tags: ["bitcoin"],
   render() {
     return h(

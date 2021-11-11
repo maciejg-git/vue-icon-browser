@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ImagePlus",
   vendor: "Mdi",
+  type: "",
   tags: ["image","plus"],
   render() {
     return h(

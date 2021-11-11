@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Cpu32Bit",
   vendor: "Mdi",
+  type: "",
   tags: ["cpu","32","bit"],
   render() {
     return h(

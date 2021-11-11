@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileGifBox",
   vendor: "Mdi",
+  type: "",
   tags: ["file","gif","box"],
   render() {
     return h(

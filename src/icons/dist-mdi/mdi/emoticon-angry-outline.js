@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EmoticonAngryOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["emoticon","angry","outline"],
   render() {
     return h(

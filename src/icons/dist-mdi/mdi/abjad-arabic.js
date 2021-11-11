@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AbjadArabic",
   vendor: "Mdi",
+  type: "",
   tags: ["abjad","arabic"],
   render() {
     return h(

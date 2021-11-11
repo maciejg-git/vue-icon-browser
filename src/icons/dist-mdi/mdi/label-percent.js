@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LabelPercent",
   vendor: "Mdi",
+  type: "",
   tags: ["label","percent"],
   render() {
     return h(

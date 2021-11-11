@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WifiStrength4Alert",
   vendor: "Mdi",
+  type: "",
   tags: ["wifi","strength","4","alert"],
   render() {
     return h(

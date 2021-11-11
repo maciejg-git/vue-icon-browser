@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SetLeft",
   vendor: "Mdi",
+  type: "",
   tags: ["set","left"],
   render() {
     return h(

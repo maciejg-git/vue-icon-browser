@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Bezier",
   vendor: "B",
+  type: "",
   tags: ["bezier"],
   render() {
     return h(

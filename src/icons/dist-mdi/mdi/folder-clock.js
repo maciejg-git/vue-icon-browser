@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderClock",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","clock"],
   render() {
     return h(

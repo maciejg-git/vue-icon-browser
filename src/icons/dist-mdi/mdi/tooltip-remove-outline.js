@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TooltipRemoveOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["tooltip","remove","outline"],
   render() {
     return h(

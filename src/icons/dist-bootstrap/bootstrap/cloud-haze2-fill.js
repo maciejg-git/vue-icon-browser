@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CloudHaze2Fill",
   vendor: "B",
+  type: "",
   tags: ["cloud","haze2","fill"],
   render() {
     return h(

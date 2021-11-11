@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Unity",
   vendor: "Mdi",
+  type: "",
   tags: ["unity"],
   render() {
     return h(

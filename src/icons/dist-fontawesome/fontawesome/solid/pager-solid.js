@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PagerSolid",
+  name: "Pager",
   vendor: "Fa",
+  type: "Solid",
   tags: ["pager"],
   render() {
     return h(

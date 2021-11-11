@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "JournalRichtext",
   vendor: "B",
+  type: "",
   tags: ["journal","richtext"],
   render() {
     return h(

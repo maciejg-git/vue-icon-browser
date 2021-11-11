@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CheckboxOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["checkbox","outline"],
   render() {
     return h(

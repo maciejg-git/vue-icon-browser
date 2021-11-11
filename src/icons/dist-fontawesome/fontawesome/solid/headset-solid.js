@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "HeadsetSolid",
+  name: "Headset",
   vendor: "Fa",
+  type: "Solid",
   tags: ["headset"],
   render() {
     return h(

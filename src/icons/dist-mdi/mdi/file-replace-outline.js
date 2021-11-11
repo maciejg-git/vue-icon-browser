@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileReplaceOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","replace","outline"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SignOutAltSolid",
+  name: "SignOutAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["sign","out","alt"],
   render() {
     return h(

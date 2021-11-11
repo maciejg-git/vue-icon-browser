@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AlignCenter",
   vendor: "B",
+  type: "",
   tags: ["align","center"],
   render() {
     return h(

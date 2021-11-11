@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Mapbox",
   vendor: "Mdi",
+  type: "",
   tags: ["mapbox"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MovieOpenOff",
   vendor: "Mdi",
+  type: "",
   tags: ["movie","open","off"],
   render() {
     return h(

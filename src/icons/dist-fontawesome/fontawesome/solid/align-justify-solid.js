@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "AlignJustifySolid",
+  name: "AlignJustify",
   vendor: "Fa",
+  type: "Solid",
   tags: ["align","justify"],
   render() {
     return h(

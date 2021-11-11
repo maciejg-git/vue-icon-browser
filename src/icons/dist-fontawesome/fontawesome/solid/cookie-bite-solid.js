@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CookieBiteSolid",
+  name: "CookieBite",
   vendor: "Fa",
+  type: "Solid",
   tags: ["cookie","bite"],
   render() {
     return h(

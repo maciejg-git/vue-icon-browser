@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "UnderlineSolid",
+  name: "Underline",
   vendor: "Fa",
+  type: "Solid",
   tags: ["underline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "StateMachine",
   vendor: "Mdi",
+  type: "",
   tags: ["state","machine"],
   render() {
     return h(

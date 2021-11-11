@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PencilRulerSolid",
+  name: "PencilRuler",
   vendor: "Fa",
+  type: "Solid",
   tags: ["pencil","ruler"],
   render() {
     return h(

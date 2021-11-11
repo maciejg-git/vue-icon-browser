@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GestureSwipeVertical",
   vendor: "Mdi",
+  type: "",
   tags: ["gesture","swipe","vertical"],
   render() {
     return h(

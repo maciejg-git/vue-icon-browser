@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileTableBox",
   vendor: "Mdi",
+  type: "",
   tags: ["file","table","box"],
   render() {
     return h(

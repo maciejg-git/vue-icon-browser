@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Backspace",
   vendor: "B",
+  type: "",
   tags: ["backspace"],
   render() {
     return h(

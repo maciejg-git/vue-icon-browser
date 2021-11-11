@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ImageSearchOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["image","search","outline"],
   render() {
     return h(

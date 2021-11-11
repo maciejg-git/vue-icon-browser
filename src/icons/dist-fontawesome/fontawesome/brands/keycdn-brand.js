@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "KeycdnBrand",
+  name: "Keycdn",
   vendor: "Fa",
+  type: "Brand",
   tags: ["keycdn"],
   render() {
     return h(

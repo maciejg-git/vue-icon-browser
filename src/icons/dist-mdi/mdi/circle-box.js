@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CircleBox",
   vendor: "Mdi",
+  type: "",
   tags: ["circle","box"],
   render() {
     return h(

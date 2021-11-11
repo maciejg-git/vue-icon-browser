@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CompressSolid",
+  name: "Compress",
   vendor: "Fa",
+  type: "Solid",
   tags: ["compress"],
   render() {
     return h(

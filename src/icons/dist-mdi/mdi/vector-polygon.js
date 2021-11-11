@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VectorPolygon",
   vendor: "Mdi",
+  type: "",
   tags: ["vector","polygon"],
   render() {
     return h(

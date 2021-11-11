@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BagPersonalOffOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["bag","personal","off","outline"],
   render() {
     return h(

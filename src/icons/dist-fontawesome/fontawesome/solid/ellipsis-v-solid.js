@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "EllipsisVSolid",
+  name: "EllipsisV",
   vendor: "Fa",
+  type: "Solid",
   tags: ["ellipsis","v"],
   render() {
     return h(

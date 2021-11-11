@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "DrawPolygonSolid",
+  name: "DrawPolygon",
   vendor: "Fa",
+  type: "Solid",
   tags: ["draw","polygon"],
   render() {
     return h(

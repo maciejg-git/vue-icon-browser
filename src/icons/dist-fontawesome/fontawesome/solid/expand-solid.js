@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ExpandSolid",
+  name: "Expand",
   vendor: "Fa",
+  type: "Solid",
   tags: ["expand"],
   render() {
     return h(

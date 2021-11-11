@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileChart",
   vendor: "Mdi",
+  type: "",
   tags: ["file","chart"],
   render() {
     return h(

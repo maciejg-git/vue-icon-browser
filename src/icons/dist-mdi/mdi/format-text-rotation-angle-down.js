@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatTextRotationAngleDown",
   vendor: "Mdi",
+  type: "",
   tags: ["format","text","rotation","angle","down"],
   render() {
     return h(

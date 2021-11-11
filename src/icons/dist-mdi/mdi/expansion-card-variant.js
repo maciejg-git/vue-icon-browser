@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ExpansionCardVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["expansion","card","variant"],
   render() {
     return h(

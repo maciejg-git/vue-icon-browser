@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatFontSizeDecrease",
   vendor: "Mdi",
+  type: "",
   tags: ["format","font","size","decrease"],
   render() {
     return h(

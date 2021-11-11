@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "GoogleWalletBrand",
+  name: "GoogleWallet",
   vendor: "Fa",
+  type: "Brand",
   tags: ["google","wallet"],
   render() {
     return h(

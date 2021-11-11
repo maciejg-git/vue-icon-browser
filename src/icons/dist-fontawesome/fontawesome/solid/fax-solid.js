@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FaxSolid",
+  name: "Fax",
   vendor: "Fa",
+  type: "Solid",
   tags: ["fax"],
   render() {
     return h(

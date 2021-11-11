@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SkewMore",
   vendor: "Mdi",
+  type: "",
   tags: ["skew","more"],
   render() {
     return h(

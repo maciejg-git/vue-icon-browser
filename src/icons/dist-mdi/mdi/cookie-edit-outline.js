@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CookieEditOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["cookie","edit","outline"],
   render() {
     return h(

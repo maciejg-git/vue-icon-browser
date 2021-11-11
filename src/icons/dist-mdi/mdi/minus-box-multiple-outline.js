@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MinusBoxMultipleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["minus","box","multiple","outline"],
   render() {
     return h(

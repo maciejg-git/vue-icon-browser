@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AtomVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["atom","variant"],
   render() {
     return h(

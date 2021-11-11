@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PauseCircle",
   vendor: "Fa",
+  type: "",
   tags: ["pause","circle"],
   render() {
     return h(

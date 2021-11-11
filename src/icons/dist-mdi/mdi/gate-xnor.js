@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GateXnor",
   vendor: "Mdi",
+  type: "",
   tags: ["gate","xnor"],
   render() {
     return h(

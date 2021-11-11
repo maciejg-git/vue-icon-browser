@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Rotate3dVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["rotate","3d","variant"],
   render() {
     return h(

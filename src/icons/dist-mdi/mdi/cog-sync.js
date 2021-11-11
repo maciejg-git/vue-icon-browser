@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CogSync",
   vendor: "Mdi",
+  type: "",
   tags: ["cog","sync"],
   render() {
     return h(

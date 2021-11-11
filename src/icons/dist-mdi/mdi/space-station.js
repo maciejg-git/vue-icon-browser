@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SpaceStation",
   vendor: "Mdi",
+  type: "",
   tags: ["space","station"],
   render() {
     return h(

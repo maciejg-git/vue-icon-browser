@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatHorizontalAlignRight",
   vendor: "Mdi",
+  type: "",
   tags: ["format","horizontal","align","right"],
   render() {
     return h(

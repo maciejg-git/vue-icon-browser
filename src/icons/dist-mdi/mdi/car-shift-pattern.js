@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CarShiftPattern",
   vendor: "Mdi",
+  type: "",
   tags: ["car","shift","pattern"],
   render() {
     return h(

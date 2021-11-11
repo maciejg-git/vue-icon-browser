@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ArrowDownSolid",
+  name: "ArrowDown",
   vendor: "Fa",
+  type: "Solid",
   tags: ["arrow","down"],
   render() {
     return h(

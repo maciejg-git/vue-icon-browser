@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ObjectUngroup",
   vendor: "Fa",
+  type: "",
   tags: ["object","ungroup"],
   render() {
     return h(

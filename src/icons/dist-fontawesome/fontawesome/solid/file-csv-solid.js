@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FileCsvSolid",
+  name: "FileCsv",
   vendor: "Fa",
+  type: "Solid",
   tags: ["file","csv"],
   render() {
     return h(

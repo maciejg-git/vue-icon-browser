@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BackwardSolid",
+  name: "Backward",
   vendor: "Fa",
+  type: "Solid",
   tags: ["backward"],
   render() {
     return h(

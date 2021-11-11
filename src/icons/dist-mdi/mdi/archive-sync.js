@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArchiveSync",
   vendor: "Mdi",
+  type: "",
   tags: ["archive","sync"],
   render() {
     return h(

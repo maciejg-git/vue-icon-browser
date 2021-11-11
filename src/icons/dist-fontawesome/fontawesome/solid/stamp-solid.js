@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "StampSolid",
+  name: "Stamp",
   vendor: "Fa",
+  type: "Solid",
   tags: ["stamp"],
   render() {
     return h(

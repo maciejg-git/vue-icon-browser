@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileImageMarkerOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","image","marker","outline"],
   render() {
     return h(

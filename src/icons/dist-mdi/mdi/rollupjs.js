@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Rollupjs",
   vendor: "Mdi",
+  type: "",
   tags: ["rollupjs"],
   render() {
     return h(

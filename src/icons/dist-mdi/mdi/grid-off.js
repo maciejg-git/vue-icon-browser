@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GridOff",
   vendor: "Mdi",
+  type: "",
   tags: ["grid","off"],
   render() {
     return h(

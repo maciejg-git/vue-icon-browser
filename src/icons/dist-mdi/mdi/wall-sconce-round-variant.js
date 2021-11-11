@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WallSconceRoundVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["wall","sconce","round","variant"],
   render() {
     return h(

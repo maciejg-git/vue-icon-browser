@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AlarmNoteOff",
   vendor: "Mdi",
+  type: "",
   tags: ["alarm","note","off"],
   render() {
     return h(

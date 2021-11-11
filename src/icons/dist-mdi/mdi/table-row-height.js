@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TableRowHeight",
   vendor: "Mdi",
+  type: "",
   tags: ["table","row","height"],
   render() {
     return h(

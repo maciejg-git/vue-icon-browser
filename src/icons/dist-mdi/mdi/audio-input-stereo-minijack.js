@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AudioInputStereoMinijack",
   vendor: "Mdi",
+  type: "",
   tags: ["audio","input","stereo","minijack"],
   render() {
     return h(

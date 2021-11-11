@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FireAltSolid",
+  name: "FireAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["fire","alt"],
   render() {
     return h(

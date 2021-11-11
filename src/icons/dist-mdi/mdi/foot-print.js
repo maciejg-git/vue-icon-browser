@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FootPrint",
   vendor: "Mdi",
+  type: "",
   tags: ["foot","print"],
   render() {
     return h(

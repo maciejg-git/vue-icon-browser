@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BinocularsSolid",
+  name: "Binoculars",
   vendor: "Fa",
+  type: "Solid",
   tags: ["binoculars"],
   render() {
     return h(

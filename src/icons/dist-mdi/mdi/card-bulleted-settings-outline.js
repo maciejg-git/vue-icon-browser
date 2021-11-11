@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CardBulletedSettingsOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["card","bulleted","settings","outline"],
   render() {
     return h(

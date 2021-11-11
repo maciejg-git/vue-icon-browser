@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BatteryFullSolid",
+  name: "BatteryFull",
   vendor: "Fa",
+  type: "Solid",
   tags: ["battery","full"],
   render() {
     return h(

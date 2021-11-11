@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MetronomeTick",
   vendor: "Mdi",
+  type: "",
   tags: ["metronome","tick"],
   render() {
     return h(

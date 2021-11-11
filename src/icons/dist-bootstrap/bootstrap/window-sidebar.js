@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WindowSidebar",
   vendor: "B",
+  type: "",
   tags: ["window","sidebar"],
   render() {
     return h(

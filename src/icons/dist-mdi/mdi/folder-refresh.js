@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderRefresh",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","refresh"],
   render() {
     return h(

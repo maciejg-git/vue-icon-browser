@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BriefcaseRemoveOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["briefcase","remove","outline"],
   render() {
     return h(

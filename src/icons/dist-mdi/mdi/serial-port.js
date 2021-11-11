@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SerialPort",
   vendor: "Mdi",
+  type: "",
   tags: ["serial","port"],
   render() {
     return h(

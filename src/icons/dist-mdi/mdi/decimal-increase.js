@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DecimalIncrease",
   vendor: "Mdi",
+  type: "",
   tags: ["decimal","increase"],
   render() {
     return h(

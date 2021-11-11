@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ChalkboardSolid",
+  name: "Chalkboard",
   vendor: "Fa",
+  type: "Solid",
   tags: ["chalkboard"],
   render() {
     return h(

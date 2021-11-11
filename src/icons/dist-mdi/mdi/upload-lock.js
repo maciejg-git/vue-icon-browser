@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "UploadLock",
   vendor: "Mdi",
+  type: "",
   tags: ["upload","lock"],
   render() {
     return h(

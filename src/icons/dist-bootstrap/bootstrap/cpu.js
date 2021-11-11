@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Cpu",
   vendor: "B",
+  type: "",
   tags: ["cpu"],
   render() {
     return h(

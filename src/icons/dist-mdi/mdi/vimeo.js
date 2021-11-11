@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Vimeo",
   vendor: "Mdi",
+  type: "",
   tags: ["vimeo"],
   render() {
     return h(

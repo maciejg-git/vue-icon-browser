@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderMinus",
   vendor: "B",
+  type: "",
   tags: ["folder","minus"],
   render() {
     return h(

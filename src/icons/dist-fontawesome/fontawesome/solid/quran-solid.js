@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "QuranSolid",
+  name: "Quran",
   vendor: "Fa",
+  type: "Solid",
   tags: ["quran"],
   render() {
     return h(

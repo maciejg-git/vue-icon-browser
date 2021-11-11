@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GestureDoubleTap",
   vendor: "Mdi",
+  type: "",
   tags: ["gesture","double","tap"],
   render() {
     return h(

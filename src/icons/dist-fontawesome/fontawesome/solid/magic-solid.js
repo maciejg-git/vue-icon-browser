@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MagicSolid",
+  name: "Magic",
   vendor: "Fa",
+  type: "Solid",
   tags: ["magic"],
   render() {
     return h(

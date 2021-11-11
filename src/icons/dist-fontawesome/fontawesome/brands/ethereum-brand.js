@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "EthereumBrand",
+  name: "Ethereum",
   vendor: "Fa",
+  type: "Brand",
   tags: ["ethereum"],
   render() {
     return h(

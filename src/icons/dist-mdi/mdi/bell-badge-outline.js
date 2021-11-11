@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BellBadgeOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["bell","badge","outline"],
   render() {
     return h(

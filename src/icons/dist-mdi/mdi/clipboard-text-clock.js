@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ClipboardTextClock",
   vendor: "Mdi",
+  type: "",
   tags: ["clipboard","text","clock"],
   render() {
     return h(

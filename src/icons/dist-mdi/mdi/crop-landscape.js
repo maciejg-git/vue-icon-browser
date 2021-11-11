@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CropLandscape",
   vendor: "Mdi",
+  type: "",
   tags: ["crop","landscape"],
   render() {
     return h(

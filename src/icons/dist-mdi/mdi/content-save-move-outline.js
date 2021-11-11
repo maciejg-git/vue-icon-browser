@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ContentSaveMoveOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["content","save","move","outline"],
   render() {
     return h(

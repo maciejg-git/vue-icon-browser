@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SelectDrag",
   vendor: "Mdi",
+  type: "",
   tags: ["select","drag"],
   render() {
     return h(

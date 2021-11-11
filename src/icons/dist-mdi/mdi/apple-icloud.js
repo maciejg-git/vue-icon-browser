@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AppleIcloud",
   vendor: "Mdi",
+  type: "",
   tags: ["apple","icloud"],
   render() {
     return h(

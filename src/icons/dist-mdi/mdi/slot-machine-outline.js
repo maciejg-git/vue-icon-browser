@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SlotMachineOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["slot","machine","outline"],
   render() {
     return h(

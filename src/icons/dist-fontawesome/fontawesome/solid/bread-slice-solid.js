@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BreadSliceSolid",
+  name: "BreadSlice",
   vendor: "Fa",
+  type: "Solid",
   tags: ["bread","slice"],
   render() {
     return h(

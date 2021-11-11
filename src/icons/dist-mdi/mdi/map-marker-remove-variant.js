@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MapMarkerRemoveVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["map","marker","remove","variant"],
   render() {
     return h(

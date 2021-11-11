@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DirectionsFork",
   vendor: "Mdi",
+  type: "",
   tags: ["directions","fork"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SwapVerticalBold",
   vendor: "Mdi",
+  type: "",
   tags: ["swap","vertical","bold"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Xamarin",
   vendor: "Mdi",
+  type: "",
   tags: ["xamarin"],
   render() {
     return h(

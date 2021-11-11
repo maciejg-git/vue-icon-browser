@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PinAngle",
   vendor: "B",
+  type: "",
   tags: ["pin","angle"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "NodeJsBrand",
+  name: "NodeJs",
   vendor: "Fa",
+  type: "Brand",
   tags: ["node","js"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SyllabaryKatakana",
   vendor: "Mdi",
+  type: "",
   tags: ["syllabary","katakana"],
   render() {
     return h(

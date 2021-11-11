@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ClosedCaption",
   vendor: "Mdi",
+  type: "",
   tags: ["closed","caption"],
   render() {
     return h(

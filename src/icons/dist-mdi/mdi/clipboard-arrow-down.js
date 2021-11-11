@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ClipboardArrowDown",
   vendor: "Mdi",
+  type: "",
   tags: ["clipboard","arrow","down"],
   render() {
     return h(

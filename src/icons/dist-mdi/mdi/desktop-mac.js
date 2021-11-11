@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DesktopMac",
   vendor: "Mdi",
+  type: "",
   tags: ["desktop","mac"],
   render() {
     return h(

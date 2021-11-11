@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ClockFill",
   vendor: "B",
+  type: "",
   tags: ["clock","fill"],
   render() {
     return h(

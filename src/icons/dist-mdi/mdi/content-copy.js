@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ContentCopy",
   vendor: "Mdi",
+  type: "",
   tags: ["content","copy"],
   render() {
     return h(

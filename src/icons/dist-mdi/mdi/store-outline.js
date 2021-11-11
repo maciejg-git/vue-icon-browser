@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "StoreOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["store","outline"],
   render() {
     return h(

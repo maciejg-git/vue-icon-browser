@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PaletteOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["palette","outline"],
   render() {
     return h(

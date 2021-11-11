@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "WikipediaWBrand",
+  name: "WikipediaW",
   vendor: "Fa",
+  type: "Brand",
   tags: ["wikipedia","w"],
   render() {
     return h(

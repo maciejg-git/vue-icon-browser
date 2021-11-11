@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CalendarSolid",
+  name: "Calendar",
   vendor: "Fa",
+  type: "Solid",
   tags: ["calendar"],
   render() {
     return h(

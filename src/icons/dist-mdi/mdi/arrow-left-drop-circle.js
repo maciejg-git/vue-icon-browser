@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArrowLeftDropCircle",
   vendor: "Mdi",
+  type: "",
   tags: ["arrow","left","drop","circle"],
   render() {
     return h(

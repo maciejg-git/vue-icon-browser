@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PrintSolid",
+  name: "Print",
   vendor: "Fa",
+  type: "Solid",
   tags: ["print"],
   render() {
     return h(

@@ -1,11 +1,12 @@
 <template>
-  <icons-vendor :icons="iconsArray" :size="size" :filter="filter"></icons-vendor>
+  <icons-vendor :icons="icons" :size="size" :filter="filter"></icons-vendor>
 </template>
 
 <script>
-import { ref, markRaw, onMounted } from "vue"
+import { onMounted } from "vue"
 import IconsVendor from "./IconsVendor.vue"
-import * as icons from "../icons/dist-fontawesome";
+import { loadIcons } from "../icons";
+import * as iconsData from "../icons/dist-fontawesome";
 
 export default {
   props: {
@@ -17,16 +18,7 @@ export default {
     IconsVendor,
   },
   setup(props, { emit }) {
-    let selectIcon = (icon) => {
-      emit('selected-icon', icon)
-    }
-
-    for (let icon in icons) {
-      markRaw(icons[icon])
-      icons[icon].selected = ref(false)
-    }
-
-    let iconsArray = Object.values(icons)
+    let icons = loadIcons(iconsData);
 
     onMounted(() => {
       emit('fontawesome-loaded')
@@ -34,20 +26,10 @@ export default {
 
     return {
       icons,
-      iconsArray,
-      emit,
-      selectIcon,
     };
   },
 };
 </script>
 
 <style scoped>
-svg {
-  display: inline;
-  pointer-events: none;
-}
-header {
-  @apply my-10 text-2xl font-bold;
-}
 </style>

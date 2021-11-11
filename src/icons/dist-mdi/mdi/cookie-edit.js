@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CookieEdit",
   vendor: "Mdi",
+  type: "",
   tags: ["cookie","edit"],
   render() {
     return h(

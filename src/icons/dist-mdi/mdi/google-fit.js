@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GoogleFit",
   vendor: "Mdi",
+  type: "",
   tags: ["google","fit"],
   render() {
     return h(

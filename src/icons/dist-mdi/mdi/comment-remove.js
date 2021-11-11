@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CommentRemove",
   vendor: "Mdi",
+  type: "",
   tags: ["comment","remove"],
   render() {
     return h(

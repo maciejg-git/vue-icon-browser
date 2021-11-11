@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PenNibSolid",
+  name: "PenNib",
   vendor: "Fa",
+  type: "Solid",
   tags: ["pen","nib"],
   render() {
     return h(

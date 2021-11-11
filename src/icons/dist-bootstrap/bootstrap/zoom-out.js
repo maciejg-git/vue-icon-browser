@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ZoomOut",
   vendor: "B",
+  type: "",
   tags: ["zoom","out"],
   render() {
     return h(

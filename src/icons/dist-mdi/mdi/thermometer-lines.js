@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ThermometerLines",
   vendor: "Mdi",
+  type: "",
   tags: ["thermometer","lines"],
   render() {
     return h(

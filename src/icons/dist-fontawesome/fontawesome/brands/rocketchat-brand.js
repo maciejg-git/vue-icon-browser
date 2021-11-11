@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "RocketchatBrand",
+  name: "Rocketchat",
   vendor: "Fa",
+  type: "Brand",
   tags: ["rocketchat"],
   render() {
     return h(

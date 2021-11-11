@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BullhornSolid",
+  name: "Bullhorn",
   vendor: "Fa",
+  type: "Solid",
   tags: ["bullhorn"],
   render() {
     return h(

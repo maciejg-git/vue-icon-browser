@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DataMatrixRemove",
   vendor: "Mdi",
+  type: "",
   tags: ["data","matrix","remove"],
   render() {
     return h(

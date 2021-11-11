@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FilePost",
   vendor: "B",
+  type: "",
   tags: ["file","post"],
   render() {
     return h(

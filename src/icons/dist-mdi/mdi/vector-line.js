@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VectorLine",
   vendor: "Mdi",
+  type: "",
   tags: ["vector","line"],
   render() {
     return h(

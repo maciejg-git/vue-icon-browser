@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "AlignCenterSolid",
+  name: "AlignCenter",
   vendor: "Fa",
+  type: "Solid",
   tags: ["align","center"],
   render() {
     return h(

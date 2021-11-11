@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileCloudOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","cloud","outline"],
   render() {
     return h(

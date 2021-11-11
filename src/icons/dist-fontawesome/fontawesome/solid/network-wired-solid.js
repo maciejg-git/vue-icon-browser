@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "NetworkWiredSolid",
+  name: "NetworkWired",
   vendor: "Fa",
+  type: "Solid",
   tags: ["network","wired"],
   render() {
     return h(

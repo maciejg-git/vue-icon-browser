@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "RepeatOnce",
   vendor: "Mdi",
+  type: "",
   tags: ["repeat","once"],
   render() {
     return h(

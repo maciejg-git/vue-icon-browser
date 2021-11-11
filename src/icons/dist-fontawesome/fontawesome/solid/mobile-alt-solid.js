@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MobileAltSolid",
+  name: "MobileAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["mobile","alt"],
   render() {
     return h(

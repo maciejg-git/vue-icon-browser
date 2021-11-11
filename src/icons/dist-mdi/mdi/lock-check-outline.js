@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LockCheckOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["lock","check","outline"],
   render() {
     return h(

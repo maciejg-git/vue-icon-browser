@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BriefcaseUpload",
   vendor: "Mdi",
+  type: "",
   tags: ["briefcase","upload"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FolderSolid",
+  name: "Folder",
   vendor: "Fa",
+  type: "Solid",
   tags: ["folder"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CommentAltSolid",
+  name: "CommentAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["comment","alt"],
   render() {
     return h(

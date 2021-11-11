@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SinkSolid",
+  name: "Sink",
   vendor: "Fa",
+  type: "Solid",
   tags: ["sink"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "WordpressBrand",
+  name: "Wordpress",
   vendor: "Fa",
+  type: "Brand",
   tags: ["wordpress"],
   render() {
     return h(

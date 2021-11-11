@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "DockerBrand",
+  name: "Docker",
   vendor: "Fa",
+  type: "Brand",
   tags: ["docker"],
   render() {
     return h(

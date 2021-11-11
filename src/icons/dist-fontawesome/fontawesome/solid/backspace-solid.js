@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BackspaceSolid",
+  name: "Backspace",
   vendor: "Fa",
+  type: "Solid",
   tags: ["backspace"],
   render() {
     return h(

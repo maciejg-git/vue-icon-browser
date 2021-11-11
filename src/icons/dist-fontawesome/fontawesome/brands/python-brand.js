@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PythonBrand",
+  name: "Python",
   vendor: "Fa",
+  type: "Brand",
   tags: ["python"],
   render() {
     return h(

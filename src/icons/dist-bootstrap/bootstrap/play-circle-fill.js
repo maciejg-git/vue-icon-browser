@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PlayCircleFill",
   vendor: "B",
+  type: "",
   tags: ["play","circle","fill"],
   render() {
     return h(

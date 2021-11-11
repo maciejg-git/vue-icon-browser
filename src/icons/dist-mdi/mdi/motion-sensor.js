@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MotionSensor",
   vendor: "Mdi",
+  type: "",
   tags: ["motion","sensor"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "StarBoxOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["star","box","outline"],
   render() {
     return h(

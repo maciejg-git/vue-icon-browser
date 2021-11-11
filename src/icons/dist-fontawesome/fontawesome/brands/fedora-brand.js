@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FedoraBrand",
+  name: "Fedora",
   vendor: "Fa",
+  type: "Brand",
   tags: ["fedora"],
   render() {
     return h(

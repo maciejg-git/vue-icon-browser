@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PhoneRotateLandscape",
   vendor: "Mdi",
+  type: "",
   tags: ["phone","rotate","landscape"],
   render() {
     return h(

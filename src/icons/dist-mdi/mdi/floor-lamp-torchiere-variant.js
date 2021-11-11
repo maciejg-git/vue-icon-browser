@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FloorLampTorchiereVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["floor","lamp","torchiere","variant"],
   render() {
     return h(

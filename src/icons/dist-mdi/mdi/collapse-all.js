@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CollapseAll",
   vendor: "Mdi",
+  type: "",
   tags: ["collapse","all"],
   render() {
     return h(

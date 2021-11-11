@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AlertRemoveOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["alert","remove","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EnvelopeOpenFill",
   vendor: "B",
+  type: "",
   tags: ["envelope","open","fill"],
   render() {
     return h(

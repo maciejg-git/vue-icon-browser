@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LightningBoltCircle",
   vendor: "Mdi",
+  type: "",
   tags: ["lightning","bolt","circle"],
   render() {
     return h(

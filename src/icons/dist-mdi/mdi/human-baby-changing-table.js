@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HumanBabyChangingTable",
   vendor: "Mdi",
+  type: "",
   tags: ["human","baby","changing","table"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "WindSolid",
+  name: "Wind",
   vendor: "Fa",
+  type: "Solid",
   tags: ["wind"],
   render() {
     return h(

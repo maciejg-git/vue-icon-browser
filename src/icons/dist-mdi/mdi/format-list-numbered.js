@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatListNumbered",
   vendor: "Mdi",
+  type: "",
   tags: ["format","list","numbered"],
   render() {
     return h(

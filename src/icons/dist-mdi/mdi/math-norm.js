@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MathNorm",
   vendor: "Mdi",
+  type: "",
   tags: ["math","norm"],
   render() {
     return h(

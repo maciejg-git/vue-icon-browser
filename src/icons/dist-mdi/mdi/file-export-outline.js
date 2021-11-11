@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileExportOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","export","outline"],
   render() {
     return h(

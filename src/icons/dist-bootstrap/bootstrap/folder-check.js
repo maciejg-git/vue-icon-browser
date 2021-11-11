@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderCheck",
   vendor: "B",
+  type: "",
   tags: ["folder","check"],
   render() {
     return h(

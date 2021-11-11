@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "UnfoldLessVertical",
   vendor: "Mdi",
+  type: "",
   tags: ["unfold","less","vertical"],
   render() {
     return h(

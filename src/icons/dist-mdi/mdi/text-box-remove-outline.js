@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TextBoxRemoveOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["text","box","remove","outline"],
   render() {
     return h(

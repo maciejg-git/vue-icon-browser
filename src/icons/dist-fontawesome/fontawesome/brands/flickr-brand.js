@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FlickrBrand",
+  name: "Flickr",
   vendor: "Fa",
+  type: "Brand",
   tags: ["flickr"],
   render() {
     return h(

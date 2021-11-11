@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DotsHorizontal",
   vendor: "Mdi",
+  type: "",
   tags: ["dots","horizontal"],
   render() {
     return h(

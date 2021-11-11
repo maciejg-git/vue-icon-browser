@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CalculatorVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["calculator","variant"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BatteryArrowUp",
   vendor: "Mdi",
+  type: "",
   tags: ["battery","arrow","up"],
   render() {
     return h(

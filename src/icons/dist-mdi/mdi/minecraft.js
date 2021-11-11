@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Minecraft",
   vendor: "Mdi",
+  type: "",
   tags: ["minecraft"],
   render() {
     return h(

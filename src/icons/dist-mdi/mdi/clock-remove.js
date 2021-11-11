@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ClockRemove",
   vendor: "Mdi",
+  type: "",
   tags: ["clock","remove"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Comments",
   vendor: "Fa",
+  type: "",
   tags: ["comments"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CommentFlash",
   vendor: "Mdi",
+  type: "",
   tags: ["comment","flash"],
   render() {
     return h(

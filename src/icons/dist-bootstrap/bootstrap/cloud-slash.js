@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CloudSlash",
   vendor: "B",
+  type: "",
   tags: ["cloud","slash"],
   render() {
     return h(

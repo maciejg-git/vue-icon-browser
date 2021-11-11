@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileExcelFill",
   vendor: "B",
+  type: "",
   tags: ["file","excel","fill"],
   render() {
     return h(

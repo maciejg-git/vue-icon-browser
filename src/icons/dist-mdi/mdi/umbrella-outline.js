@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "UmbrellaOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["umbrella","outline"],
   render() {
     return h(

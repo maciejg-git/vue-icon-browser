@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DockBottom",
   vendor: "Mdi",
+  type: "",
   tags: ["dock","bottom"],
   render() {
     return h(

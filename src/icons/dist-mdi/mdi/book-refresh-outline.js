@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BookRefreshOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["book","refresh","outline"],
   render() {
     return h(

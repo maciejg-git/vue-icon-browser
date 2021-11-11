@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EllipseOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["ellipse","outline"],
   render() {
     return h(

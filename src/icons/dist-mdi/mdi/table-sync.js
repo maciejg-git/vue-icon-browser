@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TableSync",
   vendor: "Mdi",
+  type: "",
   tags: ["table","sync"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "EuroSignSolid",
+  name: "EuroSign",
   vendor: "Fa",
+  type: "Solid",
   tags: ["euro","sign"],
   render() {
     return h(

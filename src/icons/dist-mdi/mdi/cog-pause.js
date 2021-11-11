@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CogPause",
   vendor: "Mdi",
+  type: "",
   tags: ["cog","pause"],
   render() {
     return h(

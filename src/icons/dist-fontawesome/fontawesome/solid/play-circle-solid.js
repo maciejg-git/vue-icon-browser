@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PlayCircleSolid",
+  name: "PlayCircle",
   vendor: "Fa",
+  type: "Solid",
   tags: ["play","circle"],
   render() {
     return h(

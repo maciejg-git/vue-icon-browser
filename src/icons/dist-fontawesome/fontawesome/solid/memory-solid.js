@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MemorySolid",
+  name: "Memory",
   vendor: "Fa",
+  type: "Solid",
   tags: ["memory"],
   render() {
     return h(

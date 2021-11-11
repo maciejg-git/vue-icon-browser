@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "HandPointLeftSolid",
+  name: "HandPointLeft",
   vendor: "Fa",
+  type: "Solid",
   tags: ["hand","point","left"],
   render() {
     return h(

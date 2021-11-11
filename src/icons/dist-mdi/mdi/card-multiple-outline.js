@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CardMultipleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["card","multiple","outline"],
   render() {
     return h(

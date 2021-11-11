@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "LinkSolid",
+  name: "Link",
   vendor: "Fa",
+  type: "Solid",
   tags: ["link"],
   render() {
     return h(

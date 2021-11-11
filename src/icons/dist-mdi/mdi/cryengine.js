@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Cryengine",
   vendor: "Mdi",
+  type: "",
   tags: ["cryengine"],
   render() {
     return h(

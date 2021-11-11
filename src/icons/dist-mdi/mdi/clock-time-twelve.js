@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ClockTimeTwelve",
   vendor: "Mdi",
+  type: "",
   tags: ["clock","time","twelve"],
   render() {
     return h(

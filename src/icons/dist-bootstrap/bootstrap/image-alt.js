@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ImageAlt",
   vendor: "B",
+  type: "",
   tags: ["image","alt"],
   render() {
     return h(

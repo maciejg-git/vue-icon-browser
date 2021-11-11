@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SteamSymbolBrand",
+  name: "SteamSymbol",
   vendor: "Fa",
+  type: "Brand",
   tags: ["steam","symbol"],
   render() {
     return h(

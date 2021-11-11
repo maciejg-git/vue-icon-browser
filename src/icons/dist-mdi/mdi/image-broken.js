@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ImageBroken",
   vendor: "Mdi",
+  type: "",
   tags: ["image","broken"],
   render() {
     return h(

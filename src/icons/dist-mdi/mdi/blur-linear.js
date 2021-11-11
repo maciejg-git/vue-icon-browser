@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BlurLinear",
   vendor: "Mdi",
+  type: "",
   tags: ["blur","linear"],
   render() {
     return h(

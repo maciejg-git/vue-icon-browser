@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SquareMediumOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["square","medium","outline"],
   render() {
     return h(

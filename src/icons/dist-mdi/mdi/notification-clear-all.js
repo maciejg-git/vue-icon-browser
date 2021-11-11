@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "NotificationClearAll",
   vendor: "Mdi",
+  type: "",
   tags: ["notification","clear","all"],
   render() {
     return h(

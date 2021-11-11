@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "WpformsBrand",
+  name: "Wpforms",
   vendor: "Fa",
+  type: "Brand",
   tags: ["wpforms"],
   render() {
     return h(

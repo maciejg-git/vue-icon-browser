@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "KissBeamSolid",
+  name: "KissBeam",
   vendor: "Fa",
+  type: "Solid",
   tags: ["kiss","beam"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileEarmarkText",
   vendor: "B",
+  type: "",
   tags: ["file","earmark","text"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SetSquare",
   vendor: "Mdi",
+  type: "",
   tags: ["set","square"],
   render() {
     return h(

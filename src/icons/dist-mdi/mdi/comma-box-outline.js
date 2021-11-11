@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CommaBoxOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["comma","box","outline"],
   render() {
     return h(

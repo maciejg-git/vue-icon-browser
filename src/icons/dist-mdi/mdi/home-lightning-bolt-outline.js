@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HomeLightningBoltOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["home","lightning","bolt","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VectorCombine",
   vendor: "Mdi",
+  type: "",
   tags: ["vector","combine"],
   render() {
     return h(

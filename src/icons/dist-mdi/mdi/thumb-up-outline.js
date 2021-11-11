@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ThumbUpOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["thumb","up","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BellRemoveOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["bell","remove","outline"],
   render() {
     return h(

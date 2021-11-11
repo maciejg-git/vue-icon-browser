@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ElevationDecline",
   vendor: "Mdi",
+  type: "",
   tags: ["elevation","decline"],
   render() {
     return h(

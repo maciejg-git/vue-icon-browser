@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "StreamSolid",
+  name: "Stream",
   vendor: "Fa",
+  type: "Solid",
   tags: ["stream"],
   render() {
     return h(

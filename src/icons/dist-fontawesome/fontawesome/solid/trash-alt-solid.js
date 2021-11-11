@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "TrashAltSolid",
+  name: "TrashAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["trash","alt"],
   render() {
     return h(

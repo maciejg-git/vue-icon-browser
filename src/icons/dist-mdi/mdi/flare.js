@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Flare",
   vendor: "Mdi",
+  type: "",
   tags: ["flare"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SquareOffOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["square","off","outline"],
   render() {
     return h(

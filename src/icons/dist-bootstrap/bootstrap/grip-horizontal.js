@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GripHorizontal",
   vendor: "B",
+  type: "",
   tags: ["grip","horizontal"],
   render() {
     return h(

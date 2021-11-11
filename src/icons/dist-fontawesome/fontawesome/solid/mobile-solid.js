@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MobileSolid",
+  name: "Mobile",
   vendor: "Fa",
+  type: "Solid",
   tags: ["mobile"],
   render() {
     return h(

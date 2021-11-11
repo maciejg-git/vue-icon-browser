@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "GitlabBrand",
+  name: "Gitlab",
   vendor: "Fa",
+  type: "Brand",
   tags: ["gitlab"],
   render() {
     return h(

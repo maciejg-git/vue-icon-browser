@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArrowUpBoldHexagonOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["arrow","up","bold","hexagon","outline"],
   render() {
     return h(

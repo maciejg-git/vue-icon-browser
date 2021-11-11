@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BarcodeSolid",
+  name: "Barcode",
   vendor: "Fa",
+  type: "Solid",
   tags: ["barcode"],
   render() {
     return h(

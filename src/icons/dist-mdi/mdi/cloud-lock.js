@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CloudLock",
   vendor: "Mdi",
+  type: "",
   tags: ["cloud","lock"],
   render() {
     return h(

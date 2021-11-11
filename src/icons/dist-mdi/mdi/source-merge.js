@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SourceMerge",
   vendor: "Mdi",
+  type: "",
   tags: ["source","merge"],
   render() {
     return h(

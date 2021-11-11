@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ParagraphSolid",
+  name: "Paragraph",
   vendor: "Fa",
+  type: "Solid",
   tags: ["paragraph"],
   render() {
     return h(

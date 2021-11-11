@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "GemSolid",
+  name: "Gem",
   vendor: "Fa",
+  type: "Solid",
   tags: ["gem"],
   render() {
     return h(

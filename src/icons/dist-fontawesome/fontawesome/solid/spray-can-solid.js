@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SprayCanSolid",
+  name: "SprayCan",
   vendor: "Fa",
+  type: "Solid",
   tags: ["spray","can"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FastForward15",
   vendor: "Mdi",
+  type: "",
   tags: ["fast","forward","15"],
   render() {
     return h(

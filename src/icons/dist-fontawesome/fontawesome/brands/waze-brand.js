@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "WazeBrand",
+  name: "Waze",
   vendor: "Fa",
+  type: "Brand",
   tags: ["waze"],
   render() {
     return h(

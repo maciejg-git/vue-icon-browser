@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatTextdirectionRToL",
   vendor: "Mdi",
+  type: "",
   tags: ["format","textdirection","r","to","l"],
   render() {
     return h(

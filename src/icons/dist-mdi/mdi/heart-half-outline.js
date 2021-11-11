@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HeartHalfOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["heart","half","outline"],
   render() {
     return h(

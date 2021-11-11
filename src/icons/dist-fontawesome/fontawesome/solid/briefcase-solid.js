@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BriefcaseSolid",
+  name: "Briefcase",
   vendor: "Fa",
+  type: "Solid",
   tags: ["briefcase"],
   render() {
     return h(

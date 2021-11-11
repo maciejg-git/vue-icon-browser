@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Ansible",
   vendor: "Mdi",
+  type: "",
   tags: ["ansible"],
   render() {
     return h(

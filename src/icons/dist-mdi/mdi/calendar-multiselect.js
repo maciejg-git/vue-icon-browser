@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CalendarMultiselect",
   vendor: "Mdi",
+  type: "",
   tags: ["calendar","multiselect"],
   render() {
     return h(

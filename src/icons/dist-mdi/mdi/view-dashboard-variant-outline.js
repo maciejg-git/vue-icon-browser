@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ViewDashboardVariantOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["view","dashboard","variant","outline"],
   render() {
     return h(

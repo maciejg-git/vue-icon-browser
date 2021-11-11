@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ChartMultiple",
   vendor: "Mdi",
+  type: "",
   tags: ["chart","multiple"],
   render() {
     return h(

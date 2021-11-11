@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Altimeter",
   vendor: "Mdi",
+  type: "",
   tags: ["altimeter"],
   render() {
     return h(

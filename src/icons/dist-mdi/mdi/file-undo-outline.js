@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileUndoOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","undo","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FlagOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["flag","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WidgetsOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["widgets","outline"],
   render() {
     return h(

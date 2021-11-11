@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EiffelTower",
   vendor: "Mdi",
+  type: "",
   tags: ["eiffel","tower"],
   render() {
     return h(

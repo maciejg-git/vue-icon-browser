@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AspectRatio",
   vendor: "B",
+  type: "",
   tags: ["aspect","ratio"],
   render() {
     return h(

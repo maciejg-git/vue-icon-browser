@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ZipBox",
   vendor: "Mdi",
+  type: "",
   tags: ["zip","box"],
   render() {
     return h(

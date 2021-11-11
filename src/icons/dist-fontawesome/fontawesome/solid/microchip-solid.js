@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MicrochipSolid",
+  name: "Microchip",
   vendor: "Fa",
+  type: "Solid",
   tags: ["microchip"],
   render() {
     return h(

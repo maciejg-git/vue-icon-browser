@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileArchive",
   vendor: "Fa",
+  type: "",
   tags: ["file","archive"],
   render() {
     return h(

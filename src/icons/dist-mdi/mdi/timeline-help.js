@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TimelineHelp",
   vendor: "Mdi",
+  type: "",
   tags: ["timeline","help"],
   render() {
     return h(

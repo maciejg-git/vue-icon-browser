@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "QuoteLeftSolid",
+  name: "QuoteLeft",
   vendor: "Fa",
+  type: "Solid",
   tags: ["quote","left"],
   render() {
     return h(

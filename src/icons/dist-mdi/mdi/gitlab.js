@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Gitlab",
   vendor: "Mdi",
+  type: "",
   tags: ["gitlab"],
   render() {
     return h(

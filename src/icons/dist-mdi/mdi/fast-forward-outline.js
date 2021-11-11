@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FastForwardOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["fast","forward","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileRefresh",
   vendor: "Mdi",
+  type: "",
   tags: ["file","refresh"],
   render() {
     return h(

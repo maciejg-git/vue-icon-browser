@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileCheck",
   vendor: "Mdi",
+  type: "",
   tags: ["file","check"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SuperscriptSolid",
+  name: "Superscript",
   vendor: "Fa",
+  type: "Solid",
   tags: ["superscript"],
   render() {
     return h(

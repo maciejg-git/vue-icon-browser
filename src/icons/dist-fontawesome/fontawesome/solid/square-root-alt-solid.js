@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SquareRootAltSolid",
+  name: "SquareRootAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["square","root","alt"],
   render() {
     return h(

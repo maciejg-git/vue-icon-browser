@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArrowLeftBoldBox",
   vendor: "Mdi",
+  type: "",
   tags: ["arrow","left","bold","box"],
   render() {
     return h(

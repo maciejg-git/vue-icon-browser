@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PerspectiveLess",
   vendor: "Mdi",
+  type: "",
   tags: ["perspective","less"],
   render() {
     return h(

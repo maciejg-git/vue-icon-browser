@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArrangeBringForward",
   vendor: "Mdi",
+  type: "",
   tags: ["arrange","bring","forward"],
   render() {
     return h(

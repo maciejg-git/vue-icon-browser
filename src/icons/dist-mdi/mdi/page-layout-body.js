@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PageLayoutBody",
   vendor: "Mdi",
+  type: "",
   tags: ["page","layout","body"],
   render() {
     return h(

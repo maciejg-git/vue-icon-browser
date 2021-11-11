@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BusArticulatedFront",
   vendor: "Mdi",
+  type: "",
   tags: ["bus","articulated","front"],
   render() {
     return h(

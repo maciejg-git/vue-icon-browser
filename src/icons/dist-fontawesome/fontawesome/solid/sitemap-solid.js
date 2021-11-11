@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SitemapSolid",
+  name: "Sitemap",
   vendor: "Fa",
+  type: "Solid",
   tags: ["sitemap"],
   render() {
     return h(

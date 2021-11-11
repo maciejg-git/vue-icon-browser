@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MapClock",
   vendor: "Mdi",
+  type: "",
   tags: ["map","clock"],
   render() {
     return h(

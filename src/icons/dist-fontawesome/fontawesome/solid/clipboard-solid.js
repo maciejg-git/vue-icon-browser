@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ClipboardSolid",
+  name: "Clipboard",
   vendor: "Fa",
+  type: "Solid",
   tags: ["clipboard"],
   render() {
     return h(

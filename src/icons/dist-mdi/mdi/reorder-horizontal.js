@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ReorderHorizontal",
   vendor: "Mdi",
+  type: "",
   tags: ["reorder","horizontal"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "WeightHangingSolid",
+  name: "WeightHanging",
   vendor: "Fa",
+  type: "Solid",
   tags: ["weight","hanging"],
   render() {
     return h(

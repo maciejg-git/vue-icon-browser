@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "Html5Brand",
+  name: "Html5",
   vendor: "Fa",
+  type: "Brand",
   tags: ["html5"],
   render() {
     return h(

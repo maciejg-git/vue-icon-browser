@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MapSolid",
+  name: "Map",
   vendor: "Fa",
+  type: "Solid",
   tags: ["map"],
   render() {
     return h(

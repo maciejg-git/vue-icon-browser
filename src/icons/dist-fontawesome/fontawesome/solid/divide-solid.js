@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "DivideSolid",
+  name: "Divide",
   vendor: "Fa",
+  type: "Solid",
   tags: ["divide"],
   render() {
     return h(

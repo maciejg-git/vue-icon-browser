@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MessageBulleted",
   vendor: "Mdi",
+  type: "",
   tags: ["message","bulleted"],
   render() {
     return h(

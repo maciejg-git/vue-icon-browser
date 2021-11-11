@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "GrinBeamSweatSolid",
+  name: "GrinBeamSweat",
   vendor: "Fa",
+  type: "Solid",
   tags: ["grin","beam","sweat"],
   render() {
     return h(

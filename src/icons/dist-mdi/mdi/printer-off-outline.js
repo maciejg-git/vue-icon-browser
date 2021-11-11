@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PrinterOffOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["printer","off","outline"],
   render() {
     return h(

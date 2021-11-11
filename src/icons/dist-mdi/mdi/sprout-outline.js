@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SproutOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["sprout","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "OrderNumericAscending",
   vendor: "Mdi",
+  type: "",
   tags: ["order","numeric","ascending"],
   render() {
     return h(

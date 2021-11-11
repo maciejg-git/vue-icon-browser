@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CpanelBrand",
+  name: "Cpanel",
   vendor: "Fa",
+  type: "Brand",
   tags: ["cpanel"],
   render() {
     return h(

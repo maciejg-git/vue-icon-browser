@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileLockOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","lock","outline"],
   render() {
     return h(

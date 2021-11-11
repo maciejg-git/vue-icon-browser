@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TableHeadersEyeOff",
   vendor: "Mdi",
+  type: "",
   tags: ["table","headers","eye","off"],
   render() {
     return h(

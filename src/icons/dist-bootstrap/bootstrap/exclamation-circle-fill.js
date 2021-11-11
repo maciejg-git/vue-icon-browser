@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ExclamationCircleFill",
   vendor: "B",
+  type: "",
   tags: ["exclamation","circle","fill"],
   render() {
     return h(

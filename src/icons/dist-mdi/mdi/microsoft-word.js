@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MicrosoftWord",
   vendor: "Mdi",
+  type: "",
   tags: ["microsoft","word"],
   render() {
     return h(

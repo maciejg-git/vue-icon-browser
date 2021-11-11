@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderKeyNetwork",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","key","network"],
   render() {
     return h(

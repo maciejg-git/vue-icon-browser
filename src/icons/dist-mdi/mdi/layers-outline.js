@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LayersOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["layers","outline"],
   render() {
     return h(

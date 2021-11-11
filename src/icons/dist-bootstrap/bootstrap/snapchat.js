@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Snapchat",
   vendor: "B",
+  type: "",
   tags: ["snapchat"],
   render() {
     return h(

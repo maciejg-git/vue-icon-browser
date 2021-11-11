@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MicrosoftOnedrive",
   vendor: "Mdi",
+  type: "",
   tags: ["microsoft","onedrive"],
   render() {
     return h(

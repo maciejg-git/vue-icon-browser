@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PageLayoutSidebarLeft",
   vendor: "Mdi",
+  type: "",
   tags: ["page","layout","sidebar","left"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "UbuntuBrand",
+  name: "Ubuntu",
   vendor: "Fa",
+  type: "Brand",
   tags: ["ubuntu"],
   render() {
     return h(

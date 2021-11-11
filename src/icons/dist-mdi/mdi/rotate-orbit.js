@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "RotateOrbit",
   vendor: "Mdi",
+  type: "",
   tags: ["rotate","orbit"],
   render() {
     return h(

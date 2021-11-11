@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArchiveEye",
   vendor: "Mdi",
+  type: "",
   tags: ["archive","eye"],
   render() {
     return h(

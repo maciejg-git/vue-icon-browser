@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "EjectSolid",
+  name: "Eject",
   vendor: "Fa",
+  type: "Solid",
   tags: ["eject"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BowlMixOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["bowl","mix","outline"],
   render() {
     return h(

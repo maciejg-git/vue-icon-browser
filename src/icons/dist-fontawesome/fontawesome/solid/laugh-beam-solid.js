@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "LaughBeamSolid",
+  name: "LaughBeam",
   vendor: "Fa",
+  type: "Solid",
   tags: ["laugh","beam"],
   render() {
     return h(

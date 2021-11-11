@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatListGroup",
   vendor: "Mdi",
+  type: "",
   tags: ["format","list","group"],
   render() {
     return h(

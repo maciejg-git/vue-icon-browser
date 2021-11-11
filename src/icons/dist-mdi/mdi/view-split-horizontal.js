@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ViewSplitHorizontal",
   vendor: "Mdi",
+  type: "",
   tags: ["view","split","horizontal"],
   render() {
     return h(

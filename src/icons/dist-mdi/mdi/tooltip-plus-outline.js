@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TooltipPlusOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["tooltip","plus","outline"],
   render() {
     return h(

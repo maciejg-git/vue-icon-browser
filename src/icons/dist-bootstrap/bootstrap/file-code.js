@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileCode",
   vendor: "B",
+  type: "",
   tags: ["file","code"],
   render() {
     return h(

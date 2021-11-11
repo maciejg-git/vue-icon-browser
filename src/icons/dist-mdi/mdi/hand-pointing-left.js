@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HandPointingLeft",
   vendor: "Mdi",
+  type: "",
   tags: ["hand","pointing","left"],
   render() {
     return h(

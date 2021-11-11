@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "QuestionSquareFill",
   vendor: "B",
+  type: "",
   tags: ["question","square","fill"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CursorText",
   vendor: "B",
+  type: "",
   tags: ["cursor","text"],
   render() {
     return h(

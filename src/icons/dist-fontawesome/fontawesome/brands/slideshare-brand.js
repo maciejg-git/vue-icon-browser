@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SlideshareBrand",
+  name: "Slideshare",
   vendor: "Fa",
+  type: "Brand",
   tags: ["slideshare"],
   render() {
     return h(

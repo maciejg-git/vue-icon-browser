@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MicrosoftXboxControllerBatteryEmpty",
   vendor: "Mdi",
+  type: "",
   tags: ["microsoft","xbox","controller","battery","empty"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ViewComfyOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["view","comfy","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FilePlay",
   vendor: "B",
+  type: "",
   tags: ["file","play"],
   render() {
     return h(

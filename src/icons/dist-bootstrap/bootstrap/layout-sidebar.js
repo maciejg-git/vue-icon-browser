@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LayoutSidebar",
   vendor: "B",
+  type: "",
   tags: ["layout","sidebar"],
   render() {
     return h(

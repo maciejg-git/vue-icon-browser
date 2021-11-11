@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EyedropperRemove",
   vendor: "Mdi",
+  type: "",
   tags: ["eyedropper","remove"],
   render() {
     return h(

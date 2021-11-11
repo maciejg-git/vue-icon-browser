@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GoogleDownasaur",
   vendor: "Mdi",
+  type: "",
   tags: ["google","downasaur"],
   render() {
     return h(

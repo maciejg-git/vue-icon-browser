@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileFontFill",
   vendor: "B",
+  type: "",
   tags: ["file","font","fill"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TextShadow",
   vendor: "Mdi",
+  type: "",
   tags: ["text","shadow"],
   render() {
     return h(

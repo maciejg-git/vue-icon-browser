@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EjectOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["eject","outline"],
   render() {
     return h(

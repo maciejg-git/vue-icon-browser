@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FilesAlt",
   vendor: "B",
+  type: "",
   tags: ["files","alt"],
   render() {
     return h(

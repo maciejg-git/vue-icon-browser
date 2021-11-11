@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "LockSolid",
+  name: "Lock",
   vendor: "Fa",
+  type: "Solid",
   tags: ["lock"],
   render() {
     return h(

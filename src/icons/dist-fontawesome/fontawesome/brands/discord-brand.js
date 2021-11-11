@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "DiscordBrand",
+  name: "Discord",
   vendor: "Fa",
+  type: "Brand",
   tags: ["discord"],
   render() {
     return h(

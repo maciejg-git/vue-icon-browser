@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FitToScreenOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["fit","to","screen","outline"],
   render() {
     return h(

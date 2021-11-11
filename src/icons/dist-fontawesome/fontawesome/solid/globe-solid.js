@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "GlobeSolid",
+  name: "Globe",
   vendor: "Fa",
+  type: "Solid",
   tags: ["globe"],
   render() {
     return h(

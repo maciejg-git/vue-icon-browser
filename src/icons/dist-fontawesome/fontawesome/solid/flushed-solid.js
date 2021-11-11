@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FlushedSolid",
+  name: "Flushed",
   vendor: "Fa",
+  type: "Solid",
   tags: ["flushed"],
   render() {
     return h(

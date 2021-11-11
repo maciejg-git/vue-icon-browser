@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ArrowAltCircleUpSolid",
+  name: "ArrowAltCircleUp",
   vendor: "Fa",
+  type: "Solid",
   tags: ["arrow","alt","circle","up"],
   render() {
     return h(

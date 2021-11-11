@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "StickerCheckOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["sticker","check","outline"],
   render() {
     return h(

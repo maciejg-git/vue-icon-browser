@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TapeMeasure",
   vendor: "Mdi",
+  type: "",
   tags: ["tape","measure"],
   render() {
     return h(

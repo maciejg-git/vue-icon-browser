@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CommentAlt",
   vendor: "Fa",
+  type: "",
   tags: ["comment","alt"],
   render() {
     return h(

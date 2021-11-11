@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AlphaYCircleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["alpha","y","circle","outline"],
   render() {
     return h(

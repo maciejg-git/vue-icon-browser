@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ContentSaveAlert",
   vendor: "Mdi",
+  type: "",
   tags: ["content","save","alert"],
   render() {
     return h(

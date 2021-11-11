@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MagnifyPlusCursor",
   vendor: "Mdi",
+  type: "",
   tags: ["magnify","plus","cursor"],
   render() {
     return h(

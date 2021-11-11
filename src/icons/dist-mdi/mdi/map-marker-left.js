@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MapMarkerLeft",
   vendor: "Mdi",
+  type: "",
   tags: ["map","marker","left"],
   render() {
     return h(

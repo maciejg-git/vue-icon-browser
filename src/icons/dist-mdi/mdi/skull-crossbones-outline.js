@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SkullCrossbonesOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["skull","crossbones","outline"],
   render() {
     return h(

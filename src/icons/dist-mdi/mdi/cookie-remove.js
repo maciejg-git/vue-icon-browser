@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CookieRemove",
   vendor: "Mdi",
+  type: "",
   tags: ["cookie","remove"],
   render() {
     return h(

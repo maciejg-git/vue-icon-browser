@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArchiveArrowUpOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["archive","arrow","up","outline"],
   render() {
     return h(

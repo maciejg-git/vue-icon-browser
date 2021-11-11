@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BookmarkSolid",
+  name: "Bookmark",
   vendor: "Fa",
+  type: "Solid",
   tags: ["bookmark"],
   render() {
     return h(

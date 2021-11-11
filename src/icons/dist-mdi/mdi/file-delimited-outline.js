@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileDelimitedOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","delimited","outline"],
   render() {
     return h(

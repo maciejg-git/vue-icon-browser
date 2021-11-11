@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "RelativeScale",
   vendor: "Mdi",
+  type: "",
   tags: ["relative","scale"],
   render() {
     return h(

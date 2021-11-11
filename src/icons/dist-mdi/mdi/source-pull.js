@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SourcePull",
   vendor: "Mdi",
+  type: "",
   tags: ["source","pull"],
   render() {
     return h(

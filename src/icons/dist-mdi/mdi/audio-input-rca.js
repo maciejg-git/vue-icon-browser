@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AudioInputRca",
   vendor: "Mdi",
+  type: "",
   tags: ["audio","input","rca"],
   render() {
     return h(

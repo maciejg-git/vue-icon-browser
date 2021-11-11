@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FocusFieldVertical",
   vendor: "Mdi",
+  type: "",
   tags: ["focus","field","vertical"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MailBulkSolid",
+  name: "MailBulk",
   vendor: "Fa",
+  type: "Solid",
   tags: ["mail","bulk"],
   render() {
     return h(

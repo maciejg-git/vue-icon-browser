@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BiohazardSolid",
+  name: "Biohazard",
   vendor: "Fa",
+  type: "Solid",
   tags: ["biohazard"],
   render() {
     return h(

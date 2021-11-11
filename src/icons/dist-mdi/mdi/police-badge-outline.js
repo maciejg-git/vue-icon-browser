@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PoliceBadgeOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["police","badge","outline"],
   render() {
     return h(

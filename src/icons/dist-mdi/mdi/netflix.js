@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Netflix",
   vendor: "Mdi",
+  type: "",
   tags: ["netflix"],
   render() {
     return h(

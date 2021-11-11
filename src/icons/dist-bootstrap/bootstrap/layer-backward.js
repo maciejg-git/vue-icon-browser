@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LayerBackward",
   vendor: "B",
+  type: "",
   tags: ["layer","backward"],
   render() {
     return h(

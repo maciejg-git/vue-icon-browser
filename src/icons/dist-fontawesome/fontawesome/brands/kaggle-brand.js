@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "KaggleBrand",
+  name: "Kaggle",
   vendor: "Fa",
+  type: "Brand",
   tags: ["kaggle"],
   render() {
     return h(

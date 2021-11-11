@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BrightnessAltLow",
   vendor: "B",
+  type: "",
   tags: ["brightness","alt","low"],
   render() {
     return h(

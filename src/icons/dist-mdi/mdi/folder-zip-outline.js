@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderZipOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","zip","outline"],
   render() {
     return h(

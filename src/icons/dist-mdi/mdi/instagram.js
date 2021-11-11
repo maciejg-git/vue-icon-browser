@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Instagram",
   vendor: "Mdi",
+  type: "",
   tags: ["instagram"],
   render() {
     return h(

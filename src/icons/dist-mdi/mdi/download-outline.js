@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DownloadOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["download","outline"],
   render() {
     return h(

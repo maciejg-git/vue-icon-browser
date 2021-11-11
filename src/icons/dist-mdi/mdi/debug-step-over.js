@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DebugStepOver",
   vendor: "Mdi",
+  type: "",
   tags: ["debug","step","over"],
   render() {
     return h(

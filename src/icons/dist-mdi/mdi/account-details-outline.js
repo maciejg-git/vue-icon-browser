@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AccountDetailsOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["account","details","outline"],
   render() {
     return h(

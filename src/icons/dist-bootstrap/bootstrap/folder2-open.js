@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Folder2Open",
   vendor: "B",
+  type: "",
   tags: ["folder2","open"],
   render() {
     return h(

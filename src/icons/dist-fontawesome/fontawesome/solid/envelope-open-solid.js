@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "EnvelopeOpenSolid",
+  name: "EnvelopeOpen",
   vendor: "Fa",
+  type: "Solid",
   tags: ["envelope","open"],
   render() {
     return h(

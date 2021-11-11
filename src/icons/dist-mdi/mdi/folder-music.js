@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderMusic",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","music"],
   render() {
     return h(

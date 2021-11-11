@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AccountLockOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["account","lock","outline"],
   render() {
     return h(

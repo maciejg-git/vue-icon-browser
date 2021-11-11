@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CommentDotsSolid",
+  name: "CommentDots",
   vendor: "Fa",
+  type: "Solid",
   tags: ["comment","dots"],
   render() {
     return h(

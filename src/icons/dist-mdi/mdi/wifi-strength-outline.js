@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WifiStrengthOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["wifi","strength","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "RadioboxBlank",
   vendor: "Mdi",
+  type: "",
   tags: ["radiobox","blank"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CountertopOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["countertop","outline"],
   render() {
     return h(

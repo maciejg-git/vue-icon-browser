@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GoogleNearby",
   vendor: "Mdi",
+  type: "",
   tags: ["google","nearby"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BootstrapReboot",
   vendor: "B",
+  type: "",
   tags: ["bootstrap","reboot"],
   render() {
     return h(

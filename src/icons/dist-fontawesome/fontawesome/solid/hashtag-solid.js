@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "HashtagSolid",
+  name: "Hashtag",
   vendor: "Fa",
+  type: "Solid",
   tags: ["hashtag"],
   render() {
     return h(

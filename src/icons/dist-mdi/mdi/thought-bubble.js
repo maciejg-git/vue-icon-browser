@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ThoughtBubble",
   vendor: "Mdi",
+  type: "",
   tags: ["thought","bubble"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Numeric5CircleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["numeric","5","circle","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AllInclusiveBox",
   vendor: "Mdi",
+  type: "",
   tags: ["all","inclusive","box"],
   render() {
     return h(

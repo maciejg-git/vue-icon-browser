@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TableRefresh",
   vendor: "Mdi",
+  type: "",
   tags: ["table","refresh"],
   render() {
     return h(

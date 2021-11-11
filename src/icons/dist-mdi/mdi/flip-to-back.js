@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FlipToBack",
   vendor: "Mdi",
+  type: "",
   tags: ["flip","to","back"],
   render() {
     return h(

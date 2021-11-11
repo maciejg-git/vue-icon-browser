@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VolumeVibrate",
   vendor: "Mdi",
+  type: "",
   tags: ["volume","vibrate"],
   render() {
     return h(

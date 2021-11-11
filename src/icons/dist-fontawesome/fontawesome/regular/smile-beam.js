@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SmileBeam",
   vendor: "Fa",
+  type: "",
   tags: ["smile","beam"],
   render() {
     return h(

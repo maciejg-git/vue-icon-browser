@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Angularjs",
   vendor: "Mdi",
+  type: "",
   tags: ["angularjs"],
   render() {
     return h(

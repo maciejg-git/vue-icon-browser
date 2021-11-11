@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Jsfiddle",
   vendor: "Mdi",
+  type: "",
   tags: ["jsfiddle"],
   render() {
     return h(

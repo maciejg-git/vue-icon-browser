@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BoxCutter",
   vendor: "Mdi",
+  type: "",
   tags: ["box","cutter"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TunnelOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["tunnel","outline"],
   render() {
     return h(

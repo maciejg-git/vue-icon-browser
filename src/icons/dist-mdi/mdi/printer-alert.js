@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PrinterAlert",
   vendor: "Mdi",
+  type: "",
   tags: ["printer","alert"],
   render() {
     return h(

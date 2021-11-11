@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FilePptFill",
   vendor: "B",
+  type: "",
   tags: ["file","ppt","fill"],
   render() {
     return h(

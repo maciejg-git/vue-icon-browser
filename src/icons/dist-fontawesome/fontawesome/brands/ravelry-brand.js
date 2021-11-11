@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "RavelryBrand",
+  name: "Ravelry",
   vendor: "Fa",
+  type: "Brand",
   tags: ["ravelry"],
   render() {
     return h(

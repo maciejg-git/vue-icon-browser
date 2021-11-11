@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileVideoOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","video","outline"],
   render() {
     return h(

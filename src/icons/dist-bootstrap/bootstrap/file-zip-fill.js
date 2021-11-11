@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileZipFill",
   vendor: "B",
+  type: "",
   tags: ["file","zip","fill"],
   render() {
     return h(

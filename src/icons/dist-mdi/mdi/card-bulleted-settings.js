@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CardBulletedSettings",
   vendor: "Mdi",
+  type: "",
   tags: ["card","bulleted","settings"],
   render() {
     return h(

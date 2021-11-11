@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileWord",
   vendor: "Mdi",
+  type: "",
   tags: ["file","word"],
   render() {
     return h(

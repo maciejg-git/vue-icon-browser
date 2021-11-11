@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ExclamationCircleSolid",
+  name: "ExclamationCircle",
   vendor: "Fa",
+  type: "Solid",
   tags: ["exclamation","circle"],
   render() {
     return h(

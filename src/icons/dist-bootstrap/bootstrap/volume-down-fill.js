@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VolumeDownFill",
   vendor: "B",
+  type: "",
   tags: ["volume","down","fill"],
   render() {
     return h(

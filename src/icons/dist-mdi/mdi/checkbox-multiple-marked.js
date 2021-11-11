@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CheckboxMultipleMarked",
   vendor: "Mdi",
+  type: "",
   tags: ["checkbox","multiple","marked"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SortClockAscending",
   vendor: "Mdi",
+  type: "",
   tags: ["sort","clock","ascending"],
   render() {
     return h(

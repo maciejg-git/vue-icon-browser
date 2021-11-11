@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderSettings",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","settings"],
   render() {
     return h(

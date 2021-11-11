@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ChartAreasplineVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["chart","areaspline","variant"],
   render() {
     return h(

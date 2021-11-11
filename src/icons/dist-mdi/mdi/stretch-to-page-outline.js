@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "StretchToPageOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["stretch","to","page","outline"],
   render() {
     return h(

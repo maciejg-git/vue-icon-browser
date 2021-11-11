@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LanguageMarkdownOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["language","markdown","outline"],
   render() {
     return h(

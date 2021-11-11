@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "UserShieldSolid",
+  name: "UserShield",
   vendor: "Fa",
+  type: "Solid",
   tags: ["user","shield"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ContentPaste",
   vendor: "Mdi",
+  type: "",
   tags: ["content","paste"],
   render() {
     return h(

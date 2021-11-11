@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ReceiptCutoff",
   vendor: "B",
+  type: "",
   tags: ["receipt","cutoff"],
   render() {
     return h(

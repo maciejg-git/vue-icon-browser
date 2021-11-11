@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SpellCheckSolid",
+  name: "SpellCheck",
   vendor: "Fa",
+  type: "Solid",
   tags: ["spell","check"],
   render() {
     return h(

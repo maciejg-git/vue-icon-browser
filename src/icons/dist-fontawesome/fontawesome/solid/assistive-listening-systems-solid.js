@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "AssistiveListeningSystemsSolid",
+  name: "AssistiveListeningSystems",
   vendor: "Fa",
+  type: "Solid",
   tags: ["assistive","listening","systems"],
   render() {
     return h(

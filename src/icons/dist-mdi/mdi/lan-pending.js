@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LanPending",
   vendor: "Mdi",
+  type: "",
   tags: ["lan","pending"],
   render() {
     return h(

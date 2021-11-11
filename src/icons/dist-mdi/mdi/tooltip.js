@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Tooltip",
   vendor: "Mdi",
+  type: "",
   tags: ["tooltip"],
   render() {
     return h(

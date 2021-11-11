@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ProgressDownload",
   vendor: "Mdi",
+  type: "",
   tags: ["progress","download"],
   render() {
     return h(

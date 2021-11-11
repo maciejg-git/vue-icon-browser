@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatVerticalAlignCenter",
   vendor: "Mdi",
+  type: "",
   tags: ["format","vertical","align","center"],
   render() {
     return h(

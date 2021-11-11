@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Ellipse",
   vendor: "Mdi",
+  type: "",
   tags: ["ellipse"],
   render() {
     return h(

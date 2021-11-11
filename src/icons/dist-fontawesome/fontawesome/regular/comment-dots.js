@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CommentDots",
   vendor: "Fa",
+  type: "",
   tags: ["comment","dots"],
   render() {
     return h(

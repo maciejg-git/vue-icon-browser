@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FlaskSolid",
+  name: "Flask",
   vendor: "Fa",
+  type: "Solid",
   tags: ["flask"],
   render() {
     return h(

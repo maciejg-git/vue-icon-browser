@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ApplicationEdit",
   vendor: "Mdi",
+  type: "",
   tags: ["application","edit"],
   render() {
     return h(

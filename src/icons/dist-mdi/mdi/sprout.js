@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Sprout",
   vendor: "Mdi",
+  type: "",
   tags: ["sprout"],
   render() {
     return h(

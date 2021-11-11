@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ToggleOnSolid",
+  name: "ToggleOn",
   vendor: "Fa",
+  type: "Solid",
   tags: ["toggle","on"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "KeyboardBackspace",
   vendor: "Mdi",
+  type: "",
   tags: ["keyboard","backspace"],
   render() {
     return h(

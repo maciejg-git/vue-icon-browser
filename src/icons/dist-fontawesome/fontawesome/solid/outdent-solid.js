@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "OutdentSolid",
+  name: "Outdent",
   vendor: "Fa",
+  type: "Solid",
   tags: ["outdent"],
   render() {
     return h(

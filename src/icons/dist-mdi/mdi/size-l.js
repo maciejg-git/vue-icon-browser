@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SizeL",
   vendor: "Mdi",
+  type: "",
   tags: ["size","l"],
   render() {
     return h(

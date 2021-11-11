@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CeilingFan",
   vendor: "Mdi",
+  type: "",
   tags: ["ceiling","fan"],
   render() {
     return h(

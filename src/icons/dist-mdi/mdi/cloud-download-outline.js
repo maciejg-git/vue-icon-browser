@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CloudDownloadOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["cloud","download","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Subtitles",
   vendor: "Mdi",
+  type: "",
   tags: ["subtitles"],
   render() {
     return h(

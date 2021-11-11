@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PassportSolid",
+  name: "Passport",
   vendor: "Fa",
+  type: "Solid",
   tags: ["passport"],
   render() {
     return h(

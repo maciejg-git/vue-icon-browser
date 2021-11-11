@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MagnetSolid",
+  name: "Magnet",
   vendor: "Fa",
+  type: "Solid",
   tags: ["magnet"],
   render() {
     return h(

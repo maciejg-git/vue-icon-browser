@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FonticonsBrand",
+  name: "Fonticons",
   vendor: "Fa",
+  type: "Brand",
   tags: ["fonticons"],
   render() {
     return h(

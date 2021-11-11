@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FlagRemove",
   vendor: "Mdi",
+  type: "",
   tags: ["flag","remove"],
   render() {
     return h(

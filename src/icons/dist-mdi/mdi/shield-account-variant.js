@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ShieldAccountVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["shield","account","variant"],
   render() {
     return h(

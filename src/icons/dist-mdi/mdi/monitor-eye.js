@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MonitorEye",
   vendor: "Mdi",
+  type: "",
   tags: ["monitor","eye"],
   render() {
     return h(

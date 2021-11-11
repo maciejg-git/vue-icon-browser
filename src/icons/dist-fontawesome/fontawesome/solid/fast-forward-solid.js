@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FastForwardSolid",
+  name: "FastForward",
   vendor: "Fa",
+  type: "Solid",
   tags: ["fast","forward"],
   render() {
     return h(

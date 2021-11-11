@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TableLargeRemove",
   vendor: "Mdi",
+  type: "",
   tags: ["table","large","remove"],
   render() {
     return h(

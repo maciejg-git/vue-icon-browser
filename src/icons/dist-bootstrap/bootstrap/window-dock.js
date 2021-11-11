@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WindowDock",
   vendor: "B",
+  type: "",
   tags: ["window","dock"],
   render() {
     return h(

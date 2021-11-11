@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FingerprintSolid",
+  name: "Fingerprint",
   vendor: "Fa",
+  type: "Solid",
   tags: ["fingerprint"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WateringCanOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["watering","can","outline"],
   render() {
     return h(

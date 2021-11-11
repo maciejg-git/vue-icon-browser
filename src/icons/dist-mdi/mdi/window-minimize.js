@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WindowMinimize",
   vendor: "Mdi",
+  type: "",
   tags: ["window","minimize"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "AtomSolid",
+  name: "Atom",
   vendor: "Fa",
+  type: "Solid",
   tags: ["atom"],
   render() {
     return h(

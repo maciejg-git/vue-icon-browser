@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CodeBrackets",
   vendor: "Mdi",
+  type: "",
   tags: ["code","brackets"],
   render() {
     return h(

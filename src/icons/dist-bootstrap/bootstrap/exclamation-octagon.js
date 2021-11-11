@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ExclamationOctagon",
   vendor: "B",
+  type: "",
   tags: ["exclamation","octagon"],
   render() {
     return h(

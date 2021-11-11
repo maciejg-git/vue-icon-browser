@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Windsock",
   vendor: "Mdi",
+  type: "",
   tags: ["windsock"],
   render() {
     return h(

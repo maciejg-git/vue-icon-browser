@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CloudUploadOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["cloud","upload","outline"],
   render() {
     return h(

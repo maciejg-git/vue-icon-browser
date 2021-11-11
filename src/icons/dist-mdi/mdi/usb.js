@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Usb",
   vendor: "Mdi",
+  type: "",
   tags: ["usb"],
   render() {
     return h(

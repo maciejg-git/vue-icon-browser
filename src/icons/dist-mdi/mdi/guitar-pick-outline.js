@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GuitarPickOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["guitar","pick","outline"],
   render() {
     return h(

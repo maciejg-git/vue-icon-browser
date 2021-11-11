@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DiscPlayer",
   vendor: "Mdi",
+  type: "",
   tags: ["disc","player"],
   render() {
     return h(

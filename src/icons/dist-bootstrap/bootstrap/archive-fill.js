@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArchiveFill",
   vendor: "B",
+  type: "",
   tags: ["archive","fill"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Ungroup",
   vendor: "Mdi",
+  type: "",
   tags: ["ungroup"],
   render() {
     return h(

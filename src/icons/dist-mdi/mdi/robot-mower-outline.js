@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "RobotMowerOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["robot","mower","outline"],
   render() {
     return h(

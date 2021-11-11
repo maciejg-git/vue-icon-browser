@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SquareOpacity",
   vendor: "Mdi",
+  type: "",
   tags: ["square","opacity"],
   render() {
     return h(

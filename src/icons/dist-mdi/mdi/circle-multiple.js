@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CircleMultiple",
   vendor: "Mdi",
+  type: "",
   tags: ["circle","multiple"],
   render() {
     return h(

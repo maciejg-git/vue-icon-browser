@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ConfluenceBrand",
+  name: "Confluence",
   vendor: "Fa",
+  type: "Brand",
   tags: ["confluence"],
   render() {
     return h(

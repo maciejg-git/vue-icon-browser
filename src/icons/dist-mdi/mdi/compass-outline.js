@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CompassOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["compass","outline"],
   render() {
     return h(

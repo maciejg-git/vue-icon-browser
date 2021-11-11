@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EmojiAngry",
   vendor: "B",
+  type: "",
   tags: ["emoji","angry"],
   render() {
     return h(

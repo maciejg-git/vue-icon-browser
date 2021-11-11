@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BlenderOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["blender","outline"],
   render() {
     return h(

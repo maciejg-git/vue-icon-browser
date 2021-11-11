@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileCog",
   vendor: "Mdi",
+  type: "",
   tags: ["file","cog"],
   render() {
     return h(

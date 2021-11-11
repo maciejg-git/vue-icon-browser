@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TableEye",
   vendor: "Mdi",
+  type: "",
   tags: ["table","eye"],
   render() {
     return h(

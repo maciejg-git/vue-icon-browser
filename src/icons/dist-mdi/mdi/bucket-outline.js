@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BucketOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["bucket","outline"],
   render() {
     return h(

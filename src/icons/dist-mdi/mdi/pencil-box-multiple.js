@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PencilBoxMultiple",
   vendor: "Mdi",
+  type: "",
   tags: ["pencil","box","multiple"],
   render() {
     return h(

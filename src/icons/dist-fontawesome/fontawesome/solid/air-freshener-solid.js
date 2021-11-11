@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "AirFreshenerSolid",
+  name: "AirFreshener",
   vendor: "Fa",
+  type: "Solid",
   tags: ["air","freshener"],
   render() {
     return h(

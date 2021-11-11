@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ContentSaveCheck",
   vendor: "Mdi",
+  type: "",
   tags: ["content","save","check"],
   render() {
     return h(

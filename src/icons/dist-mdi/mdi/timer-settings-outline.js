@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TimerSettingsOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["timer","settings","outline"],
   render() {
     return h(

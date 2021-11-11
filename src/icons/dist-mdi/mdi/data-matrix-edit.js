@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DataMatrixEdit",
   vendor: "Mdi",
+  type: "",
   tags: ["data","matrix","edit"],
   render() {
     return h(

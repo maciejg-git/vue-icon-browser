@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VectorSquareClose",
   vendor: "Mdi",
+  type: "",
   tags: ["vector","square","close"],
   render() {
     return h(

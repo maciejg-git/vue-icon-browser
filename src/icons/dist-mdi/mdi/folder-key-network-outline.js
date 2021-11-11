@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderKeyNetworkOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","key","network","outline"],
   render() {
     return h(

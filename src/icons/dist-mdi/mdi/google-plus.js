@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GooglePlus",
   vendor: "Mdi",
+  type: "",
   tags: ["google","plus"],
   render() {
     return h(

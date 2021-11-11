@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HumanNonBinary",
   vendor: "Mdi",
+  type: "",
   tags: ["human","non","binary"],
   render() {
     return h(

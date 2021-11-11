@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ArchwaySolid",
+  name: "Archway",
   vendor: "Fa",
+  type: "Solid",
   tags: ["archway"],
   render() {
     return h(

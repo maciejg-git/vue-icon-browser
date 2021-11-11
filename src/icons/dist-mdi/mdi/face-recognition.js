@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FaceRecognition",
   vendor: "Mdi",
+  type: "",
   tags: ["face","recognition"],
   render() {
     return h(

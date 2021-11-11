@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Plex",
   vendor: "Mdi",
+  type: "",
   tags: ["plex"],
   render() {
     return h(

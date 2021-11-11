@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SmsSolid",
+  name: "Sms",
   vendor: "Fa",
+  type: "Solid",
   tags: ["sms"],
   render() {
     return h(

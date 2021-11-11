@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ChartLineSolid",
+  name: "ChartLine",
   vendor: "Fa",
+  type: "Solid",
   tags: ["chart","line"],
   render() {
     return h(

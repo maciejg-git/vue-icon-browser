@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FlipVertical",
   vendor: "Mdi",
+  type: "",
   tags: ["flip","vertical"],
   render() {
     return h(

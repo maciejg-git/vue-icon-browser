@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ChartBoxOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["chart","box","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ShapePolygonPlus",
   vendor: "Mdi",
+  type: "",
   tags: ["shape","polygon","plus"],
   render() {
     return h(

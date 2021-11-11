@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatTextbox",
   vendor: "Mdi",
+  type: "",
   tags: ["format","textbox"],
   render() {
     return h(

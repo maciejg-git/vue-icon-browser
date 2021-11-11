@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "NotEqual",
   vendor: "Mdi",
+  type: "",
   tags: ["not","equal"],
   render() {
     return h(

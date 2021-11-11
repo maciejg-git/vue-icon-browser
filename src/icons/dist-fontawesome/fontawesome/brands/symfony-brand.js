@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SymfonyBrand",
+  name: "Symfony",
   vendor: "Fa",
+  type: "Brand",
   tags: ["symfony"],
   render() {
     return h(

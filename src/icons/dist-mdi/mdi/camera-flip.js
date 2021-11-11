@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CameraFlip",
   vendor: "Mdi",
+  type: "",
   tags: ["camera","flip"],
   render() {
     return h(

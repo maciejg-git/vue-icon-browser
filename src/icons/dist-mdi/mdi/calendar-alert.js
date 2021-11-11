@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CalendarAlert",
   vendor: "Mdi",
+  type: "",
   tags: ["calendar","alert"],
   render() {
     return h(

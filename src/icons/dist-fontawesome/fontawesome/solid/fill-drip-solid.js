@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FillDripSolid",
+  name: "FillDrip",
   vendor: "Fa",
+  type: "Solid",
   tags: ["fill","drip"],
   render() {
     return h(

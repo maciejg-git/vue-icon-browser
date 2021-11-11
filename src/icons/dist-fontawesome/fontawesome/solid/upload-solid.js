@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "UploadSolid",
+  name: "Upload",
   vendor: "Fa",
+  type: "Solid",
   tags: ["upload"],
   render() {
     return h(

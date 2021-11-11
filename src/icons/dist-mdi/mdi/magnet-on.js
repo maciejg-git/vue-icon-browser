@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MagnetOn",
   vendor: "Mdi",
+  type: "",
   tags: ["magnet","on"],
   render() {
     return h(

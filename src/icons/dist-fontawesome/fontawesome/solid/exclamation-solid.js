@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ExclamationSolid",
+  name: "Exclamation",
   vendor: "Fa",
+  type: "Solid",
   tags: ["exclamation"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Docker",
   vendor: "Mdi",
+  type: "",
   tags: ["docker"],
   render() {
     return h(

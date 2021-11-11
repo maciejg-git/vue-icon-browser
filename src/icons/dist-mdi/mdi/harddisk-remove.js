@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HarddiskRemove",
   vendor: "Mdi",
+  type: "",
   tags: ["harddisk","remove"],
   render() {
     return h(

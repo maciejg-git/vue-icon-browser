@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileTree",
   vendor: "Mdi",
+  type: "",
   tags: ["file","tree"],
   render() {
     return h(

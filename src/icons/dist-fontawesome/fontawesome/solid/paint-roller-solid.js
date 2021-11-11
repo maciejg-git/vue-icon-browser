@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PaintRollerSolid",
+  name: "PaintRoller",
   vendor: "Fa",
+  type: "Solid",
   tags: ["paint","roller"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "OpencartBrand",
+  name: "Opencart",
   vendor: "Fa",
+  type: "Brand",
   tags: ["opencart"],
   render() {
     return h(

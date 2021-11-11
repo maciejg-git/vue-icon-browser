@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "AngleDoubleLeftSolid",
+  name: "AngleDoubleLeft",
   vendor: "Fa",
+  type: "Solid",
   tags: ["angle","double","left"],
   render() {
     return h(

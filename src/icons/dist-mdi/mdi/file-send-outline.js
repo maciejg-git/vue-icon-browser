@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileSendOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","send","outline"],
   render() {
     return h(

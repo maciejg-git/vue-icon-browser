@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DeleteCircleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["delete","circle","outline"],
   render() {
     return h(

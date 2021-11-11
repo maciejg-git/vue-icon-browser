@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "LayerGroupSolid",
+  name: "LayerGroup",
   vendor: "Fa",
+  type: "Solid",
   tags: ["layer","group"],
   render() {
     return h(

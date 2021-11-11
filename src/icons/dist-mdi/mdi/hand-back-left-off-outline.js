@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HandBackLeftOffOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["hand","back","left","off","outline"],
   render() {
     return h(

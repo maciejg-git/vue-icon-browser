@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VectorUnion",
   vendor: "Mdi",
+  type: "",
   tags: ["vector","union"],
   render() {
     return h(

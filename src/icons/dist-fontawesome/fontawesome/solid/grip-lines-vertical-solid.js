@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "GripLinesVerticalSolid",
+  name: "GripLinesVertical",
   vendor: "Fa",
+  type: "Solid",
   tags: ["grip","lines","vertical"],
   render() {
     return h(

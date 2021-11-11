@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LanguageXaml",
   vendor: "Mdi",
+  type: "",
   tags: ["language","xaml"],
   render() {
     return h(

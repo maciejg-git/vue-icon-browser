@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PanDown",
   vendor: "Mdi",
+  type: "",
   tags: ["pan","down"],
   render() {
     return h(

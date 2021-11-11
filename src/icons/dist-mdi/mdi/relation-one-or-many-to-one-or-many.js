@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "RelationOneOrManyToOneOrMany",
   vendor: "Mdi",
+  type: "",
   tags: ["relation","one","or","many","to","one","or","many"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LayersSearchOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["layers","search","outline"],
   render() {
     return h(

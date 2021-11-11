@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AlignMiddle",
   vendor: "B",
+  type: "",
   tags: ["align","middle"],
   render() {
     return h(

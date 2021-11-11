@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "AffiliatethemeBrand",
+  name: "Affiliatetheme",
   vendor: "Fa",
+  type: "Brand",
   tags: ["affiliatetheme"],
   render() {
     return h(

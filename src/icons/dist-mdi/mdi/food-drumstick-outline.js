@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FoodDrumstickOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["food","drumstick","outline"],
   render() {
     return h(

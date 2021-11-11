@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "LaravelBrand",
+  name: "Laravel",
   vendor: "Fa",
+  type: "Brand",
   tags: ["laravel"],
   render() {
     return h(

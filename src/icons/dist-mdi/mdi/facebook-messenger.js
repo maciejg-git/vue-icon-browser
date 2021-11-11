@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FacebookMessenger",
   vendor: "Mdi",
+  type: "",
   tags: ["facebook","messenger"],
   render() {
     return h(

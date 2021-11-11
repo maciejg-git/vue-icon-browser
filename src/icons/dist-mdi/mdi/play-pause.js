@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PlayPause",
   vendor: "Mdi",
+  type: "",
   tags: ["play","pause"],
   render() {
     return h(

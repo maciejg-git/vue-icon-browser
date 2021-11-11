@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BlurOff",
   vendor: "Mdi",
+  type: "",
   tags: ["blur","off"],
   render() {
     return h(

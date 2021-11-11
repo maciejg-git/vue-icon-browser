@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileCertificate",
   vendor: "Mdi",
+  type: "",
   tags: ["file","certificate"],
   render() {
     return h(

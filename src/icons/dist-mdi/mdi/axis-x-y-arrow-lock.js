@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AxisXYArrowLock",
   vendor: "Mdi",
+  type: "",
   tags: ["axis","x","y","arrow","lock"],
   render() {
     return h(

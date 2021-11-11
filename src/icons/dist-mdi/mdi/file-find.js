@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileFind",
   vendor: "Mdi",
+  type: "",
   tags: ["file","find"],
   render() {
     return h(

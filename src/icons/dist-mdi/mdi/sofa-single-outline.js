@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SofaSingleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["sofa","single","outline"],
   render() {
     return h(

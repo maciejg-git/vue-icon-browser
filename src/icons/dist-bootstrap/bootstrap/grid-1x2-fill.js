@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Grid1x2Fill",
   vendor: "B",
+  type: "",
   tags: ["grid","1x2","fill"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MinusCircleOffOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["minus","circle","off","outline"],
   render() {
     return h(

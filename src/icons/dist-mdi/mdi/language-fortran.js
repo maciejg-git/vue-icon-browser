@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LanguageFortran",
   vendor: "Mdi",
+  type: "",
   tags: ["language","fortran"],
   render() {
     return h(

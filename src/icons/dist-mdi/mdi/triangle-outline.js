@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TriangleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["triangle","outline"],
   render() {
     return h(

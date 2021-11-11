@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SkipPreviousOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["skip","previous","outline"],
   render() {
     return h(

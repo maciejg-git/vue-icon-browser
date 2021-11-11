@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DeleteSweep",
   vendor: "Mdi",
+  type: "",
   tags: ["delete","sweep"],
   render() {
     return h(

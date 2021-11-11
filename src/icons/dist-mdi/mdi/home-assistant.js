@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HomeAssistant",
   vendor: "Mdi",
+  type: "",
   tags: ["home","assistant"],
   render() {
     return h(

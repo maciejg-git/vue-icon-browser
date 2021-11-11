@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "RepeatVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["repeat","variant"],
   render() {
     return h(

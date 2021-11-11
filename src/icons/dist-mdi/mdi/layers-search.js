@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LayersSearch",
   vendor: "Mdi",
+  type: "",
   tags: ["layers","search"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ScrewdriverSolid",
+  name: "Screwdriver",
   vendor: "Fa",
+  type: "Solid",
   tags: ["screwdriver"],
   render() {
     return h(

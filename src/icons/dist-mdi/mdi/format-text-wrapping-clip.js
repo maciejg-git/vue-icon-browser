@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatTextWrappingClip",
   vendor: "Mdi",
+  type: "",
   tags: ["format","text","wrapping","clip"],
   render() {
     return h(

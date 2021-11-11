@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MessageAlertOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["message","alert","outline"],
   render() {
     return h(

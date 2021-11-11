@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "AlgoliaBrand",
+  name: "Algolia",
   vendor: "Fa",
+  type: "Brand",
   tags: ["algolia"],
   render() {
     return h(

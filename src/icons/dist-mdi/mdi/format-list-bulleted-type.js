@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatListBulletedType",
   vendor: "Mdi",
+  type: "",
   tags: ["format","list","bulleted","type"],
   render() {
     return h(

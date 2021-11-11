@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DeleteRestore",
   vendor: "Mdi",
+  type: "",
   tags: ["delete","restore"],
   render() {
     return h(

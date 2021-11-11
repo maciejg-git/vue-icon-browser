@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BoundingBox",
   vendor: "B",
+  type: "",
   tags: ["bounding","box"],
   render() {
     return h(

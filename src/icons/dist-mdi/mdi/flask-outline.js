@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FlaskOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["flask","outline"],
   render() {
     return h(

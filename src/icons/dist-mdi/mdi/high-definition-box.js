@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HighDefinitionBox",
   vendor: "Mdi",
+  type: "",
   tags: ["high","definition","box"],
   render() {
     return h(

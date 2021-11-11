@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TapeDrive",
   vendor: "Mdi",
+  type: "",
   tags: ["tape","drive"],
   render() {
     return h(

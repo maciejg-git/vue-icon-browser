@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VideoImage",
   vendor: "Mdi",
+  type: "",
   tags: ["video","image"],
   render() {
     return h(

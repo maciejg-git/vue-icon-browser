@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ResizeBottomRight",
   vendor: "Mdi",
+  type: "",
   tags: ["resize","bottom","right"],
   render() {
     return h(

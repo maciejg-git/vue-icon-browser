@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ViewDashboard",
   vendor: "Mdi",
+  type: "",
   tags: ["view","dashboard"],
   render() {
     return h(

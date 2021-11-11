@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SquareRootBox",
   vendor: "Mdi",
+  type: "",
   tags: ["square","root","box"],
   render() {
     return h(

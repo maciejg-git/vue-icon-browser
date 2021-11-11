@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BallotRecountOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["ballot","recount","outline"],
   render() {
     return h(

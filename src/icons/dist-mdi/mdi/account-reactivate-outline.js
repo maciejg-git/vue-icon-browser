@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AccountReactivateOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["account","reactivate","outline"],
   render() {
     return h(

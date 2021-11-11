@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileSlides",
   vendor: "B",
+  type: "",
   tags: ["file","slides"],
   render() {
     return h(

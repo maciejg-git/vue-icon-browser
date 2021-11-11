@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ChartTree",
   vendor: "Mdi",
+  type: "",
   tags: ["chart","tree"],
   render() {
     return h(

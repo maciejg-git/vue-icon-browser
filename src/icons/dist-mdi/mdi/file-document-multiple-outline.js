@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileDocumentMultipleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","document","multiple","outline"],
   render() {
     return h(

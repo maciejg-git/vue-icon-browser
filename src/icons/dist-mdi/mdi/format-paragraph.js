@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatParagraph",
   vendor: "Mdi",
+  type: "",
   tags: ["format","paragraph"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CardsPlayingHeartMultiple",
   vendor: "Mdi",
+  type: "",
   tags: ["cards","playing","heart","multiple"],
   render() {
     return h(

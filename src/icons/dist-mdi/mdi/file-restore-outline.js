@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileRestoreOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["file","restore","outline"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "HospitalSolid",
+  name: "Hospital",
   vendor: "Fa",
+  type: "Solid",
   tags: ["hospital"],
   render() {
     return h(

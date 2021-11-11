@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "GripVerticalSolid",
+  name: "GripVertical",
   vendor: "Fa",
+  type: "Solid",
   tags: ["grip","vertical"],
   render() {
     return h(

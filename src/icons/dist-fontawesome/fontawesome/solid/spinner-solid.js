@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SpinnerSolid",
+  name: "Spinner",
   vendor: "Fa",
+  type: "Solid",
   tags: ["spinner"],
   render() {
     return h(

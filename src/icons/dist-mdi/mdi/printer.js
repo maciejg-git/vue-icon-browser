@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Printer",
   vendor: "Mdi",
+  type: "",
   tags: ["printer"],
   render() {
     return h(

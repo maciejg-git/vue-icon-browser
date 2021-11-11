@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Exclude",
   vendor: "B",
+  type: "",
   tags: ["exclude"],
   render() {
     return h(

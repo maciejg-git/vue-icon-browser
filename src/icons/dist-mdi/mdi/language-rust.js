@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LanguageRust",
   vendor: "Mdi",
+  type: "",
   tags: ["language","rust"],
   render() {
     return h(

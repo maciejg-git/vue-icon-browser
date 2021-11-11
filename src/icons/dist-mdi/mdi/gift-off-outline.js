@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GiftOffOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["gift","off","outline"],
   render() {
     return h(

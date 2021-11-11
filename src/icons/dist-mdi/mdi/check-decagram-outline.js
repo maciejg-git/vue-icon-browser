@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CheckDecagramOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["check","decagram","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArrowUUpLeftBold",
   vendor: "Mdi",
+  type: "",
   tags: ["arrow","u","up","left","bold"],
   render() {
     return h(

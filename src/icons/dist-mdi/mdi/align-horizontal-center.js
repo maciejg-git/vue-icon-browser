@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AlignHorizontalCenter",
   vendor: "Mdi",
+  type: "",
   tags: ["align","horizontal","center"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DatabaseCheckOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["database","check","outline"],
   render() {
     return h(

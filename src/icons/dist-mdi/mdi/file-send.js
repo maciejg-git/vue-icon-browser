@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FileSend",
   vendor: "Mdi",
+  type: "",
   tags: ["file","send"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PuzzlePlus",
   vendor: "Mdi",
+  type: "",
   tags: ["puzzle","plus"],
   render() {
     return h(

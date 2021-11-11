@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LanguageLua",
   vendor: "Mdi",
+  type: "",
   tags: ["language","lua"],
   render() {
     return h(

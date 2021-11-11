@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Margin",
   vendor: "Mdi",
+  type: "",
   tags: ["margin"],
   render() {
     return h(

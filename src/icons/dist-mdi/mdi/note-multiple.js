@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "NoteMultiple",
   vendor: "Mdi",
+  type: "",
   tags: ["note","multiple"],
   render() {
     return h(

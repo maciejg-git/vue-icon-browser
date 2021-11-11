@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "RemoveFormatSolid",
+  name: "RemoveFormat",
   vendor: "Fa",
+  type: "Solid",
   tags: ["remove","format"],
   render() {
     return h(

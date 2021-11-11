@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LogoutVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["logout","variant"],
   render() {
     return h(

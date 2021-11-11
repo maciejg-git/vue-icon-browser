@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ClipboardTextClockOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["clipboard","text","clock","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Voicemail",
   vendor: "Mdi",
+  type: "",
   tags: ["voicemail"],
   render() {
     return h(

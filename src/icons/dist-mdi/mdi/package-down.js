@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PackageDown",
   vendor: "Mdi",
+  type: "",
   tags: ["package","down"],
   render() {
     return h(

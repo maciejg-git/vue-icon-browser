@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LockPlus",
   vendor: "Mdi",
+  type: "",
   tags: ["lock","plus"],
   render() {
     return h(

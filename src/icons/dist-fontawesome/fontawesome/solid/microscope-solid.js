@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MicroscopeSolid",
+  name: "Microscope",
   vendor: "Fa",
+  type: "Solid",
   tags: ["microscope"],
   render() {
     return h(

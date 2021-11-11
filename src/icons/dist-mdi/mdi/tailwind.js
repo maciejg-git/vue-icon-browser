@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Tailwind",
   vendor: "Mdi",
+  type: "",
   tags: ["tailwind"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Responsive",
   vendor: "Mdi",
+  type: "",
   tags: ["responsive"],
   render() {
     return h(

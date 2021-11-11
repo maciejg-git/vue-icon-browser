@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ListUlSolid",
+  name: "ListUl",
   vendor: "Fa",
+  type: "Solid",
   tags: ["list","ul"],
   render() {
     return h(

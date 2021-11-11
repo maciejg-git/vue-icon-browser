@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GoogleChrome",
   vendor: "Mdi",
+  type: "",
   tags: ["google","chrome"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AllInclusiveBoxOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["all","inclusive","box","outline"],
   render() {
     return h(

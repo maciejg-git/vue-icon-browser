@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "EnvelopeSquareSolid",
+  name: "EnvelopeSquare",
   vendor: "Fa",
+  type: "Solid",
   tags: ["envelope","square"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AudioInputXlr",
   vendor: "Mdi",
+  type: "",
   tags: ["audio","input","xlr"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "StreetViewSolid",
+  name: "StreetView",
   vendor: "Fa",
+  type: "Solid",
   tags: ["street","view"],
   render() {
     return h(

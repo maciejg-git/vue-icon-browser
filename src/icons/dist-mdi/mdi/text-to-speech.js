@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TextToSpeech",
   vendor: "Mdi",
+  type: "",
   tags: ["text","to","speech"],
   render() {
     return h(

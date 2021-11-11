@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SurroundSound512",
   vendor: "Mdi",
+  type: "",
   tags: ["surround","sound","5","1","2"],
   render() {
     return h(

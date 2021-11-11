@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ChevronDownCircleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["chevron","down","circle","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WeightKilogram",
   vendor: "Mdi",
+  type: "",
   tags: ["weight","kilogram"],
   render() {
     return h(

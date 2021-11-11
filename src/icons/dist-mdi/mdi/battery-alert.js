@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BatteryAlert",
   vendor: "Mdi",
+  type: "",
   tags: ["battery","alert"],
   render() {
     return h(

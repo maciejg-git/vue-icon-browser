@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CabinAFrame",
   vendor: "Mdi",
+  type: "",
   tags: ["cabin","a","frame"],
   render() {
     return h(

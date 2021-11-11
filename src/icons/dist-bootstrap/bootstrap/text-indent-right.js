@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TextIndentRight",
   vendor: "B",
+  type: "",
   tags: ["text","indent","right"],
   render() {
     return h(

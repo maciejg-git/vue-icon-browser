@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BellSleepOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["bell","sleep","outline"],
   render() {
     return h(

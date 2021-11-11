@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PagelinesBrand",
+  name: "Pagelines",
   vendor: "Fa",
+  type: "Brand",
   tags: ["pagelines"],
   render() {
     return h(

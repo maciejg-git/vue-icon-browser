@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LayoutSidebarReverse",
   vendor: "B",
+  type: "",
   tags: ["layout","sidebar","reverse"],
   render() {
     return h(

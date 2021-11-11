@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PhoneSettingsOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["phone","settings","outline"],
   render() {
     return h(

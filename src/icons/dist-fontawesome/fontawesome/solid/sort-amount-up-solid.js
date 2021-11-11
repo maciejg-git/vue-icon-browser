@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "SortAmountUpSolid",
+  name: "SortAmountUp",
   vendor: "Fa",
+  type: "Solid",
   tags: ["sort","amount","up"],
   render() {
     return h(

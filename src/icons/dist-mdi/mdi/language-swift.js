@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LanguageSwift",
   vendor: "Mdi",
+  type: "",
   tags: ["language","swift"],
   render() {
     return h(

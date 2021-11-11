@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FilterMinusOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["filter","minus","outline"],
   render() {
     return h(

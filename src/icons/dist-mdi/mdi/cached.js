@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Cached",
   vendor: "Mdi",
+  type: "",
   tags: ["cached"],
   render() {
     return h(

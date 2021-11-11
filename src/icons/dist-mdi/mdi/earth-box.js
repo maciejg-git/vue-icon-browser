@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "EarthBox",
   vendor: "Mdi",
+  type: "",
   tags: ["earth","box"],
   render() {
     return h(

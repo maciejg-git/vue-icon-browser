@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CrownSolid",
+  name: "Crown",
   vendor: "Fa",
+  type: "Solid",
   tags: ["crown"],
   render() {
     return h(

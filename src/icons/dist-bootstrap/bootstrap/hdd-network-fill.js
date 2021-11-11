@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HddNetworkFill",
   vendor: "B",
+  type: "",
   tags: ["hdd","network","fill"],
   render() {
     return h(

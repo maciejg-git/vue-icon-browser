@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FlaskOff",
   vendor: "Mdi",
+  type: "",
   tags: ["flask","off"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "IdCardAltSolid",
+  name: "IdCardAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["id","card","alt"],
   render() {
     return h(

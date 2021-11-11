@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "PasteSolid",
+  name: "Paste",
   vendor: "Fa",
+  type: "Solid",
   tags: ["paste"],
   render() {
     return h(

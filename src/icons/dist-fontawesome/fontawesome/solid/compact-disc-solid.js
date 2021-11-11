@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CompactDiscSolid",
+  name: "CompactDisc",
   vendor: "Fa",
+  type: "Solid",
   tags: ["compact","disc"],
   render() {
     return h(

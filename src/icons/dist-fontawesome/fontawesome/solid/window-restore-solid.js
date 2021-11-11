@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "WindowRestoreSolid",
+  name: "WindowRestore",
   vendor: "Fa",
+  type: "Solid",
   tags: ["window","restore"],
   render() {
     return h(

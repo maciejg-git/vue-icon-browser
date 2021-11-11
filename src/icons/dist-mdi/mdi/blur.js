@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Blur",
   vendor: "Mdi",
+  type: "",
   tags: ["blur"],
   render() {
     return h(

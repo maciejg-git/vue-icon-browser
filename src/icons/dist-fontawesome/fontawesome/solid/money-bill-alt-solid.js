@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "MoneyBillAltSolid",
+  name: "MoneyBillAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["money","bill","alt"],
   render() {
     return h(

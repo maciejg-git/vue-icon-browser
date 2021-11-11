@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "TextHeightSolid",
+  name: "TextHeight",
   vendor: "Fa",
+  type: "Solid",
   tags: ["text","height"],
   render() {
     return h(

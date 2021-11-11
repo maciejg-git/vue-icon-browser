@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CheckNetworkOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["check","network","outline"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SharkFinOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["shark","fin","outline"],
   render() {
     return h(

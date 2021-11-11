@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "WixBrand",
+  name: "Wix",
   vendor: "Fa",
+  type: "Brand",
   tags: ["wix"],
   render() {
     return h(

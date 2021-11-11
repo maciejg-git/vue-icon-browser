@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CheckAll",
   vendor: "B",
+  type: "",
   tags: ["check","all"],
   render() {
     return h(

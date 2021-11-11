@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ServerNetworkOff",
   vendor: "Mdi",
+  type: "",
   tags: ["server","network","off"],
   render() {
     return h(

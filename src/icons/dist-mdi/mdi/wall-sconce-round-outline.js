@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "WallSconceRoundOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["wall","sconce","round","outline"],
   render() {
     return h(

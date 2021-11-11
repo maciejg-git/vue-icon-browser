@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "RecordVinylSolid",
+  name: "RecordVinyl",
   vendor: "Fa",
+  type: "Solid",
   tags: ["record","vinyl"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatColorHighlight",
   vendor: "Mdi",
+  type: "",
   tags: ["format","color","highlight"],
   render() {
     return h(

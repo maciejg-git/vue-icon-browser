@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "IpNetwork",
   vendor: "Mdi",
+  type: "",
   tags: ["ip","network"],
   render() {
     return h(

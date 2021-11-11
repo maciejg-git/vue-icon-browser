@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BackspaceReverseFill",
   vendor: "B",
+  type: "",
   tags: ["backspace","reverse","fill"],
   render() {
     return h(

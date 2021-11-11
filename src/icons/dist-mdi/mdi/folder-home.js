@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderHome",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","home"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "DrumstickBiteSolid",
+  name: "DrumstickBite",
   vendor: "Fa",
+  type: "Solid",
   tags: ["drumstick","bite"],
   render() {
     return h(

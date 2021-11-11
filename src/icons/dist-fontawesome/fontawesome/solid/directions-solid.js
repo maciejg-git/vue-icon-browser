@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "DirectionsSolid",
+  name: "Directions",
   vendor: "Fa",
+  type: "Solid",
   tags: ["directions"],
   render() {
     return h(

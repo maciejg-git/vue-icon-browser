@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "DistributeVertical",
   vendor: "B",
+  type: "",
   tags: ["distribute","vertical"],
   render() {
     return h(

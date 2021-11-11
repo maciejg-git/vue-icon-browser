@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Numeric9PlusBox",
   vendor: "Mdi",
+  type: "",
   tags: ["numeric","9","plus","box"],
   render() {
     return h(

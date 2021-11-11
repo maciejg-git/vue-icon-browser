@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TableMergeCells",
   vendor: "Mdi",
+  type: "",
   tags: ["table","merge","cells"],
   render() {
     return h(

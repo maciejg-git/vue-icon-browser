@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TriangleWave",
   vendor: "Mdi",
+  type: "",
   tags: ["triangle","wave"],
   render() {
     return h(

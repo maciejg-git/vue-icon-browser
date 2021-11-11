@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SelectColor",
   vendor: "Mdi",
+  type: "",
   tags: ["select","color"],
   render() {
     return h(

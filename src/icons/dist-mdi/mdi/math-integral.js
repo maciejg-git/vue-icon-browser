@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MathIntegral",
   vendor: "Mdi",
+  type: "",
   tags: ["math","integral"],
   render() {
     return h(

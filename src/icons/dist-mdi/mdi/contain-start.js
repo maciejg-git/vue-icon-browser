@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ContainStart",
   vendor: "Mdi",
+  type: "",
   tags: ["contain","start"],
   render() {
     return h(

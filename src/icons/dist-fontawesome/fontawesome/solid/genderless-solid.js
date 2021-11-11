@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "GenderlessSolid",
+  name: "Genderless",
   vendor: "Fa",
+  type: "Solid",
   tags: ["genderless"],
   render() {
     return h(

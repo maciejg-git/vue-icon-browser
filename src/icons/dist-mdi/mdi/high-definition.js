@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HighDefinition",
   vendor: "Mdi",
+  type: "",
   tags: ["high","definition"],
   render() {
     return h(

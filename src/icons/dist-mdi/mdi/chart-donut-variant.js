@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ChartDonutVariant",
   vendor: "Mdi",
+  type: "",
   tags: ["chart","donut","variant"],
   render() {
     return h(

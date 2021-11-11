@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LanguagePython",
   vendor: "Mdi",
+  type: "",
   tags: ["language","python"],
   render() {
     return h(

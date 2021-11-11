@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ClipboardSearchOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["clipboard","search","outline"],
   render() {
     return h(

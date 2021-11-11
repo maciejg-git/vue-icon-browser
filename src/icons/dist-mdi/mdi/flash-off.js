@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FlashOff",
   vendor: "Mdi",
+  type: "",
   tags: ["flash","off"],
   render() {
     return h(

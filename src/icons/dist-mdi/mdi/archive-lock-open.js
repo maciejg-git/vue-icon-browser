@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ArchiveLockOpen",
   vendor: "Mdi",
+  type: "",
   tags: ["archive","lock","open"],
   render() {
     return h(

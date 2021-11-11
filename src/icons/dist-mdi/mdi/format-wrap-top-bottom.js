@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FormatWrapTopBottom",
   vendor: "Mdi",
+  type: "",
   tags: ["format","wrap","top","bottom"],
   render() {
     return h(

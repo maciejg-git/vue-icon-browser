@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "HammerScrewdriver",
   vendor: "Mdi",
+  type: "",
   tags: ["hammer","screwdriver"],
   render() {
     return h(

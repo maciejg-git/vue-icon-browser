@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SkipForwardBtnFill",
   vendor: "B",
+  type: "",
   tags: ["skip","forward","btn","fill"],
   render() {
     return h(

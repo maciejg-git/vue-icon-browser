@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "QrcodeSolid",
+  name: "Qrcode",
   vendor: "Fa",
+  type: "Solid",
   tags: ["qrcode"],
   render() {
     return h(

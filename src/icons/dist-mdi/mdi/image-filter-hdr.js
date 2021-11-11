@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ImageFilterHdr",
   vendor: "Mdi",
+  type: "",
   tags: ["image","filter","hdr"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "AccountBoxMultipleOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["account","box","multiple","outline"],
   render() {
     return h(

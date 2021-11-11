@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BusClock",
   vendor: "Mdi",
+  type: "",
   tags: ["bus","clock"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FolderRefreshOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["folder","refresh","outline"],
   render() {
     return h(

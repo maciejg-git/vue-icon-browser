@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Anchor",
   vendor: "Mdi",
+  type: "",
   tags: ["anchor"],
   render() {
     return h(

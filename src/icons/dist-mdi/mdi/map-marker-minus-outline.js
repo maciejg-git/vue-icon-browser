@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "MapMarkerMinusOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["map","marker","minus","outline"],
   render() {
     return h(

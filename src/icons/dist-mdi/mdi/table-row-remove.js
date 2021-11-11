@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TableRowRemove",
   vendor: "Mdi",
+  type: "",
   tags: ["table","row","remove"],
   render() {
     return h(

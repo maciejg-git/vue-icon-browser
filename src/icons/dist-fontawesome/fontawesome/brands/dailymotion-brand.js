@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "DailymotionBrand",
+  name: "Dailymotion",
   vendor: "Fa",
+  type: "Brand",
   tags: ["dailymotion"],
   render() {
     return h(

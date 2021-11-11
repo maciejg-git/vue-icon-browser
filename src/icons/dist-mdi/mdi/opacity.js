@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Opacity",
   vendor: "Mdi",
+  type: "",
   tags: ["opacity"],
   render() {
     return h(

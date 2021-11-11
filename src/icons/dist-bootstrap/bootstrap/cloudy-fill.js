@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "CloudyFill",
   vendor: "B",
+  type: "",
   tags: ["cloudy","fill"],
   render() {
     return h(

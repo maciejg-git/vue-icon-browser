@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ScrollSolid",
+  name: "Scroll",
   vendor: "Fa",
+  type: "Solid",
   tags: ["scroll"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ContrastCircle",
   vendor: "Mdi",
+  type: "",
   tags: ["contrast","circle"],
   render() {
     return h(

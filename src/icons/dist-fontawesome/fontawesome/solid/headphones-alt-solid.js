@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "HeadphonesAltSolid",
+  name: "HeadphonesAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["headphones","alt"],
   render() {
     return h(

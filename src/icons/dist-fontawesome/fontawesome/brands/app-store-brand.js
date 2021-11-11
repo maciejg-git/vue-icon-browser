@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "AppStoreBrand",
+  name: "AppStore",
   vendor: "Fa",
+  type: "Brand",
   tags: ["app","store"],
   render() {
     return h(

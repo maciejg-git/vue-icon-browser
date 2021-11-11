@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "ArrowsAltSolid",
+  name: "ArrowsAlt",
   vendor: "Fa",
+  type: "Solid",
   tags: ["arrows","alt"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ExclamationThick",
   vendor: "Mdi",
+  type: "",
   tags: ["exclamation","thick"],
   render() {
     return h(

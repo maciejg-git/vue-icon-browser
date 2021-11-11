@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GamepadDown",
   vendor: "Mdi",
+  type: "",
   tags: ["gamepad","down"],
   render() {
     return h(

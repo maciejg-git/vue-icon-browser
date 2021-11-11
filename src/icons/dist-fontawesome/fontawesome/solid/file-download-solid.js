@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "FileDownloadSolid",
+  name: "FileDownload",
   vendor: "Fa",
+  type: "Solid",
   tags: ["file","download"],
   render() {
     return h(

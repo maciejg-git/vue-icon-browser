@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PotSteamOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["pot","steam","outline"],
   render() {
     return h(

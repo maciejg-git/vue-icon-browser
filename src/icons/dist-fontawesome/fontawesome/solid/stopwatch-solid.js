@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "StopwatchSolid",
+  name: "Stopwatch",
   vendor: "Fa",
+  type: "Solid",
   tags: ["stopwatch"],
   render() {
     return h(

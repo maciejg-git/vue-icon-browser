@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ClipboardCheck",
   vendor: "Mdi",
+  type: "",
   tags: ["clipboard","check"],
   render() {
     return h(

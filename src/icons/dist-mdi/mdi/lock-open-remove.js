@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "LockOpenRemove",
   vendor: "Mdi",
+  type: "",
   tags: ["lock","open","remove"],
   render() {
     return h(

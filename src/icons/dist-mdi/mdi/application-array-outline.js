@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ApplicationArrayOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["application","array","outline"],
   render() {
     return h(

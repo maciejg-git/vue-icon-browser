@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "BluetoothBrand",
+  name: "Bluetooth",
   vendor: "Fa",
+  type: "Brand",
   tags: ["bluetooth"],
   render() {
     return h(

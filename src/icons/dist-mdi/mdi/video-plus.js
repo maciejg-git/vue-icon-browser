@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VideoPlus",
   vendor: "Mdi",
+  type: "",
   tags: ["video","plus"],
   render() {
     return h(

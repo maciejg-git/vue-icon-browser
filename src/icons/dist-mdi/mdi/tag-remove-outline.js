@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "TagRemoveOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["tag","remove","outline"],
   render() {
     return h(

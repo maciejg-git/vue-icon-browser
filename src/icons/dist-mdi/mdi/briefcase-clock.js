@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BriefcaseClock",
   vendor: "Mdi",
+  type: "",
   tags: ["briefcase","clock"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PauseBtn",
   vendor: "B",
+  type: "",
   tags: ["pause","btn"],
   render() {
     return h(

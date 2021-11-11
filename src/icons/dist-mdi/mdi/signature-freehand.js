@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SignatureFreehand",
   vendor: "Mdi",
+  type: "",
   tags: ["signature","freehand"],
   render() {
     return h(

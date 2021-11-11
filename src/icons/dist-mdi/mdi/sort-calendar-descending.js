@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "SortCalendarDescending",
   vendor: "Mdi",
+  type: "",
   tags: ["sort","calendar","descending"],
   render() {
     return h(

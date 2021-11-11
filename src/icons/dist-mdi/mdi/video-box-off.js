@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "VideoBoxOff",
   vendor: "Mdi",
+  type: "",
   tags: ["video","box","off"],
   render() {
     return h(

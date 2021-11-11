@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "Disqus",
   vendor: "Mdi",
+  type: "",
   tags: ["disqus"],
   render() {
     return h(

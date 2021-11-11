@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "TrafficLightSolid",
+  name: "TrafficLight",
   vendor: "Fa",
+  type: "Solid",
   tags: ["traffic","light"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "RibbonSolid",
+  name: "Ribbon",
   vendor: "Fa",
+  type: "Solid",
   tags: ["ribbon"],
   render() {
     return h(

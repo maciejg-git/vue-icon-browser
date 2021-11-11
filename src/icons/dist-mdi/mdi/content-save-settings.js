@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ContentSaveSettings",
   vendor: "Mdi",
+  type: "",
   tags: ["content","save","settings"],
   render() {
     return h(

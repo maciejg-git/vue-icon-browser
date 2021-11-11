@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "ProjectorScreenOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["projector","screen","outline"],
   render() {
     return h(

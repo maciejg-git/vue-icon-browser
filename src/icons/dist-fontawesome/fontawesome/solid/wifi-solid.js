@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "WifiSolid",
+  name: "Wifi",
   vendor: "Fa",
+  type: "Solid",
   tags: ["wifi"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "GhostSolid",
+  name: "Ghost",
   vendor: "Fa",
+  type: "Solid",
   tags: ["ghost"],
   render() {
     return h(

@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "FilePowerpoint",
   vendor: "Mdi",
+  type: "",
   tags: ["file","powerpoint"],
   render() {
     return h(

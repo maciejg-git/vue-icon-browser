@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "GradientHorizontal",
   vendor: "Mdi",
+  type: "",
   tags: ["gradient","horizontal"],
   render() {
     return h(

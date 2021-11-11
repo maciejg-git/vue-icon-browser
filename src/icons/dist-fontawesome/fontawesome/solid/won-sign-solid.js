@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "WonSignSolid",
+  name: "WonSign",
   vendor: "Fa",
+  type: "Solid",
   tags: ["won","sign"],
   render() {
     return h(

@@ -1,7 +1,8 @@
 import { h } from 'vue'
 export default {
-  name: "CutSolid",
+  name: "Cut",
   vendor: "Fa",
+  type: "Solid",
   tags: ["cut"],
   render() {
     return h(

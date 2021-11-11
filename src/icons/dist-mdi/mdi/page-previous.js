@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PagePrevious",
   vendor: "Mdi",
+  type: "",
   tags: ["page","previous"],
   render() {
     return h(

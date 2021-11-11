@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "PailRemoveOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["pail","remove","outline"],
   render() {
     return h(

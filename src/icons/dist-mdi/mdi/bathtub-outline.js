@@ -2,6 +2,7 @@ import { h } from 'vue'
 export default {
   name: "BathtubOutline",
   vendor: "Mdi",
+  type: "",
   tags: ["bathtub","outline"],
   render() {
     return h(
