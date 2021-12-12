@@ -80,7 +80,7 @@
           </div>
       
           <div class="flex justify-end">
-            <v-button style-button="primary-outline" class="mt-4 mr-4 text-right" @click="clearIconList">
+            <v-button style-button="primary-outline small" class="mt-4 mr-4 text-right" @click="clearIconList">
               Clear all
             </v-button>
           </div>
@@ -115,10 +115,6 @@
             </div>
           </div>
         </div>
-      
-        <!-- empty list text -->
-      
-        <div v-else class="text-lg mx-4 py-1">Icons list is empty</div>
       </transition>
     </div>
   </div>

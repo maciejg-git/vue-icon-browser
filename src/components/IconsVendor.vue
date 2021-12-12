@@ -63,7 +63,7 @@ export default {
       return Object.values(res);
     });
 
-    // move mouse over icon
+    // handle move mouse over icon
     let hoveredIcon = inject("hovered-icon");
 
     let handleMouseMove = (ev) => {
@@ -75,8 +75,6 @@ export default {
     let lastSelectedIcon = inject("last-selected-icon");
 
     let selectIcon = (ev, icon) => {
-      // vendor last vendor
-      // wywalic index
       let selectedIcons = icon;
       if (
         ev.shiftKey &&
