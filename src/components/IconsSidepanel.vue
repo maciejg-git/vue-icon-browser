@@ -96,21 +96,22 @@
                 rows="6"
                 class="w-full"
               ></v-textarea>
-              <div class="flex">
-                    <button @click="copyAllToClipboard(i)">
+              <div class="flex justify-end">
+            <v-button style-button="primary-outline small" class="mt-4 text-right" @click="copyAllToClipboard(i)">
                       <transition name="fade-icon" mode="out-in">
                         <v-icon
                           v-if="!listCopied"
                           :name="MdiContentCopy"
-                          class="text-gray-700 mr-2"
+                          class="mr-1"
                         ></v-icon>
                         <v-icon
                           v-else
                           :name="MdiCheckBold"
-                          class="text-gray-700 mr-2"
+                          class="mr-1"
                         ></v-icon>
                       </transition>
-                    </button>
+              Copy list
+            </v-button>
               </div>
             </div>
           </div>
