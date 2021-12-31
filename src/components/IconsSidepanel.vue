@@ -19,6 +19,8 @@
         <!-- icons   -->
 
         <div v-else>
+
+          <!-- header -->
           <div class="px-4">
             <div v-if="sidepanelState == 'icons'" class="flex">
               <span class="text-lg font-semibold"> Icon vendors </span>
@@ -31,6 +33,8 @@
               </v-button>
             </div>
           </div>
+
+          <!-- vendors -->
           <div class="mx-4 my-4">
             <ul>
               <li class="py-1">
@@ -114,11 +118,15 @@
             </ul>
           </div>
           <v-divider />
+
+          <!-- header -->
           <div class="px-4 py-4">
             <div v-if="sidepanelState == 'icons'" class="flex">
               <span class="text-lg font-semibold"> Icon list </span>
             </div>
           </div>
+
+          <!-- icons -->
           <div v-if="selectedIcons.length" class="my-4">
             <div class="w-full">
               <ul class="mx-1">
@@ -134,7 +142,6 @@
                         class="inline-block icon-standalone my-1 mr-1 ml-4"
                       ></v-icon>
                       <div class="font-semibold ml-2">
-                        <!-- {{ i.icon.vendor + i.icon.name }} -->
                         {{ i.icon.getIconName() }}
                       </div>
                     </div>
@@ -163,6 +170,7 @@
               </ul>
             </div>
 
+            <!-- clear all -->
             <div class="flex justify-end">
               <v-button
                 style-button="primary-outline small"
