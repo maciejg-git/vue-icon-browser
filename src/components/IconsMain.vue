@@ -16,16 +16,29 @@
         <v-divider class="my-10"></v-divider>
 
         <!-- icon size -->
-        <div v-if="isAnyVendorLoaded()" class="flex">
-          <div class="flex items-center ml-auto">
-            <label for="select-size" class="font-semibold mr-4"
-              >Icons size</label
-            >
-            <v-select id="select-size" v-model="size">
-              <option :value="sizes.sm">Small</option>
-              <option :value="sizes.md">Medium</option>
-              <option :value="sizes.lg">Large</option>
-            </v-select>
+        <div class="flex justify-end">
+          <div v-if="isAnyVendorLoaded()" class="flex">
+            <div class="flex items-center ml-auto">
+              <label for="select-size" class="font-semibold mr-4"
+                >Icons size</label
+              >
+              <v-select id="select-size" v-model="size">
+                <option :value="sizes.sm">Small</option>
+                <option :value="sizes.md">Medium</option>
+                <option :value="sizes.lg">Large</option>
+              </v-select>
+            </div>
+          </div>
+          <div v-if="isAnyVendorLoaded()" class="flex ml-8">
+            <div class="flex items-center ml-auto">
+              <label for="select-size" class="font-semibold mr-4"
+                >View</label
+              >
+              <v-select id="select-size" v-model="view">
+                <option :value="views.stacked">Stacked</option>
+                <option :value="views.columns">Columns</option>
+              </v-select>
+            </div>
           </div>
         </div>
 
@@ -37,54 +50,51 @@
           </p>
         </div>
 
-        <header v-if="vendors.bootstrap.active">
-          <div class="w-full my-4 py-2">Bootstrap Icons</div>
-        </header>
-        <icons-vendor-bootstrap
-          v-if="vendors.bootstrap.active"
-          vendor="bootstrap"
-          :filter="debounced"
-          :size="size"
-          @selected-icon="selectIcon"
-          @bootstrap-loaded="vendors.bootstrap.loading = false"
-        ></icons-vendor-bootstrap>
-
-        <header v-if="vendors.mdi.active">
-          <div class="w-full my-4 py-2">Material Design Icons</div>
-        </header>
-        <icons-vendor-mdi
-          v-if="vendors.mdi.active"
-          vendor="mdi"
-          :filter="debounced"
-          :size="size"
-          @selected-icon="selectIcon"
-          @mdi-loaded="vendors.mdi.loading = false"
-        ></icons-vendor-mdi>
-
-        <header v-if="vendors.fontawesome.active">
-          <div class="w-full my-4 py-2">Font Awesome</div>
-        </header>
-        <icons-vendor-fontawesome
-          v-if="vendors.fontawesome.active"
-          vendor="fontawesome"
-          :filter="debounced"
-          :size="size"
-          @selected-icon="selectIcon"
-          @fontawesome-loaded="vendors.fontawesome.loading = false"
-        ></icons-vendor-fontawesome>
-      </div>
-
-      <div class="fixed bottom-0 bg-gray-200 p-2">
-        <div class="flex items-center">
-          <!-- <icon -->
-          <!--   :icon="currentIcon.name" -->
-          <!--   class="h-10 w-10 m-1" -->
-          <!-- ></icon> -->
-          <span class="font-semibold ml-4">
-            {{ currentIcon }}
-          </span>
+        <div :class="view">
+          <div>
+            <header v-if="vendors.bootstrap.active">
+              <div class="w-full my-4 py-2">Bootstrap Icons</div>
+            </header>
+            <icons-vendor-bootstrap
+              v-if="vendors.bootstrap.active"
+              vendor="bootstrap"
+              :filter="debounced"
+              :size="size"
+              @selected-icon="selectIcon"
+              @bootstrap-loaded="vendors.bootstrap.loading = false"
+            ></icons-vendor-bootstrap>
+          </div>
+          
+          <div>
+            <header v-if="vendors.mdi.active">
+              <div class="w-full my-4 py-2">Material Design Icons</div>
+            </header>
+            <icons-vendor-mdi
+              v-if="vendors.mdi.active"
+              vendor="mdi"
+              :filter="debounced"
+              :size="size"
+              @selected-icon="selectIcon"
+              @mdi-loaded="vendors.mdi.loading = false"
+            ></icons-vendor-mdi>
+          </div>
+          
+          <div>
+            <header v-if="vendors.fontawesome.active">
+              <div class="w-full my-4 py-2">Font Awesome</div>
+            </header>
+            <icons-vendor-fontawesome
+              v-if="vendors.fontawesome.active"
+              vendor="fontawesome"
+              :filter="debounced"
+              :size="size"
+              @selected-icon="selectIcon"
+              @fontawesome-loaded="vendors.fontawesome.loading = false"
+            ></icons-vendor-fontawesome>
+          </div>
         </div>
       </div>
+      <!-- <icons-bottom-bar :current-icon="currentIcon"></icons-bottom-bar> -->
     </div>
 
     <icons-sidepanel
@@ -101,7 +111,6 @@
 import {
   ref,
   reactive,
-  computed,
   inject,
   provide,
   defineAsyncComponent,
@@ -109,7 +118,8 @@ import {
 import LoadingProgress from "./LoadingProgress.vue";
 import IconsSidepanel from "./IconsSidepanel.vue";
 import IconsNavbar from "./IconsNavbar.vue";
-import { BCheckLg, BX, BXLg, BPlusLg } from "../icons/dist-bootstrap";
+// import IconsBottomBar from "./IconsBottomBar.vue"
+import { BCheckLg, BPlusLg } from "../icons/dist-bootstrap";
 import { useDebounce } from "@vueuse/core";
 
 export default {
@@ -128,10 +138,10 @@ export default {
     }),
     IconsNavbar,
     IconsSidepanel,
+    // IconsBottomBar,
   },
   setup() {
     let icons = inject("icons");
-    let tags = inject("tags");
 
     let vendors = reactive({
       bootstrap: {
@@ -153,11 +163,19 @@ export default {
       md: "h-10 w-10 m-2",
       lg: "h-14 w-14 m-3",
     };
+    let views = {
+      stacked: "",
+      columns: "grid grid-flow-col",
+    };
 
     let filter = ref("");
+
     const debounced = useDebounce(filter, 200);
-    let size = ref(sizes.md);
+
     let currentIcon = ref({});
+
+    let size = ref(sizes.sm);
+    let view = ref(views.stacked);
 
     // selection
 
@@ -234,6 +252,8 @@ export default {
       clearSelected,
       size,
       sizes,
+      view,
+      views,
       vendors,
       isAnyVendorLoaded,
       toggleVendor,
@@ -249,7 +269,7 @@ svg {
   pointer-events: none;
 }
 header {
-  @apply my-8 text-3xl font-bold;
+  @apply my-8 text-xl font-bold;
 }
 .sidebar {
   min-width: 400px;

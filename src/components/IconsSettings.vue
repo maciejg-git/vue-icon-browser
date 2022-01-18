@@ -2,7 +2,7 @@
   <div class="px-5">
     <div class="flex items-center my-2">
       <v-checkbox v-model="settings.vendorPrefix"></v-checkbox>
-      <label for="" class="ml-3">add vendor prefixes</label>
+      <label for="" class="ml-3">use vendor prefixes</label>
     </div>
     <!-- <div class="flex items-center mt-2"> -->
     <!--   <v-checkbox v-model="settings.originalNames"></v-checkbox> -->
@@ -10,7 +10,7 @@
     <!-- </div> -->
     <div class="flex items-center mt-2">
       <v-checkbox v-model="settings.kebabCase"></v-checkbox>
-      <label for="" class="ml-3">use kebab case for icons</label>
+      <label for="" class="ml-3">use kebab-case</label>
     </div>
   </div>
 </template>

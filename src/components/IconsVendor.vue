@@ -68,7 +68,9 @@ export default {
 
     let handleMouseMove = (ev) => {
       let target = ev.target;
-      if (target) hoveredIcon.value = target.dataset.icon;
+      if (target) {
+        hoveredIcon.value = target.dataset.icon;
+      }
     };
 
     // click to select icon
