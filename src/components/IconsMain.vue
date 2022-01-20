@@ -13,10 +13,8 @@
           class="w-full mt-10"
         />
 
-        <v-divider class="my-10"></v-divider>
-
         <!-- icon size -->
-        <div class="flex justify-end">
+        <div class="flex justify-end mt-8">
           <div v-if="isAnyVendorLoaded()" class="flex">
             <div class="flex items-center ml-auto">
               <label for="select-size" class="font-semibold mr-4"

@@ -15,7 +15,7 @@
 <script>
 export default {
   props: {
-    currentIcon: { type: Object },
+    currentIcon: { type: String },
   },
   setup() {
     

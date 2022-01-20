@@ -116,7 +116,7 @@
         </div>
 
         <!-- header -->
-        <icons-sidepanel-header text="Selected icons" />
+        <icons-sidepanel-header text="Icons" />
         <!-- icons -->
         <div v-if="selectedIcons.length" class="mb-4">
           <div class="w-full">
