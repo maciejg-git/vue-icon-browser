@@ -1,7 +1,7 @@
-import { createApp, ref } from 'vue'
+import { createApp } from 'vue'
 import App from './App.vue'
-import Icon from "./vue/Icon.vue"
 import { plugin } from "vue-component-tailwind"
+import { createPinia } from 'pinia'
 import "tailwindcss/tailwind.css";
 import "./styles.css"
 import "vue-component-tailwind/dist/style.css"
@@ -33,6 +33,8 @@ let tags = {
 
 app.provide("icons", icons)
 app.provide("tags", tags)
+
+app.use(createPinia())
 
 app.mount('#app')
 

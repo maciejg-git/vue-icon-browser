@@ -3,8 +3,8 @@
     <div v-if="icons.length == 0" class="flex">
       <span class="mx-auto text-lg"> Nothing found for current filter. </span>
     </div>
-    <div @mouseover="handleMouseMove">
-      <template v-for="(icon, index) in icons">
+    <div @mouseover="">
+      <template v-for="(icon, index) in icons" :key="icon.name">
         <div
           class="inline-block cursor-pointer bg-gray-100 rounded-md p-2 m-2"
           :data-icon="icon.name"
@@ -13,7 +13,7 @@
           <component
             :is="icon"
             class="icon-browser"
-            :class="[size, { 'icon--selected': icon.selected.value }]"
+            :class="[store.size, { 'icon--selected': icon.selected.value }]"
           ></component>
         </div>
       </template>
@@ -23,15 +23,16 @@
 
 <script>
 import { computed, inject } from "vue";
+import { useStore } from "../composition/useStore";
 
 export default {
   props: {
     vendor: { type: String, default: undefined },
-    filter: { type: String, default: undefined },
     icons: { type: Object, default: undefined },
-    size: { type: String, default: undefined },
   },
   setup(props, { emit }) {
+    let store = useStore();
+
     let generateTags = () => {
       let tags = {};
 
@@ -49,8 +50,8 @@ export default {
 
     // filter icons
     let icons = computed(() => {
-      if (!props.filter) return props.icons;
-      let filter = props.filter;
+      if (!store.filter) return props.icons;
+      let filter = store.filter;
       if (!filter.length) return;
       let res = {};
       for (let t of tags) {
@@ -64,14 +65,14 @@ export default {
     });
 
     // handle move mouse over icon
-    let hoveredIcon = inject("hovered-icon");
+    // let hoveredIcon = inject("hovered-icon");
 
-    let handleMouseMove = (ev) => {
-      let target = ev.target;
-      if (target) {
-        hoveredIcon.value = target.dataset.icon;
-      }
-    };
+    // let handleMouseMove = (ev) => {
+    //   let target = ev.target;
+    //   if (target) {
+    //     hoveredIcon.value = target.dataset.icon;
+    //   }
+    // };
 
     // click to select icon
     let lastSelectedIcon = inject("last-selected-icon");
@@ -97,7 +98,7 @@ export default {
       emit,
       selectIcon,
       icons,
-      handleMouseMove,
+      store,
     };
   },
 };

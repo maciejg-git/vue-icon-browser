@@ -1,5 +1,5 @@
 <template>
-  <icons-vendor :icons="icons" :size="size" :filter="filter"></icons-vendor>
+  <icons-vendor :icons="icons" :filter="filter"></icons-vendor>
 </template>
 
 <script>
@@ -12,7 +12,6 @@ export default {
   props: {
     vendor: { type: String, default: undefined },
     filter: { type: String, default: undefined },
-    size: { type: String, default: undefined },
   },
   components: {
     IconsVendor,

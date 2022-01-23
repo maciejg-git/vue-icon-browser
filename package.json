@@ -9,6 +9,7 @@
   "dependencies": {
     "@tailwindcss/forms": "^0.3.3",
     "@vueuse/core": "^6.5.3",
+    "pinia": "^2.0.9",
     "vue": "^3.2.13",
     "vue-component-tailwind": "0.0.9"
   },

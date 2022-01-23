@@ -45,17 +45,17 @@
                 @click="emit('toggle-vendor', 'bootstrap')"
               >
                 <v-spinner
-                  v-if="vendors.bootstrap.loading"
+                  v-if="store.bootstrap.loading"
                   style-spinner="small"
                   class="mr-2"
                 ></v-spinner>
                 <v-icon
-                  v-if="vendors.bootstrap.active && !vendors.bootstrap.loading"
+                  v-if="store.bootstrap.active && !store.bootstrap.loading"
                   :name="BCheckLg"
                   class="mr-2"
                 ></v-icon>
                 <v-icon
-                  v-if="!vendors.bootstrap.active && !vendors.bootstrap.loading"
+                  v-if="!store.bootstrap.active && !store.bootstrap.loading"
                   :name="BPlusLg"
                   class="mr-2"
                 ></v-icon>
@@ -68,17 +68,17 @@
                 @click="emit('toggle-vendor', 'mdi')"
               >
                 <v-spinner
-                  v-if="vendors.mdi.loading"
+                  v-if="store.mdi.loading"
                   style-spinner="small"
                   class="mr-2"
                 ></v-spinner>
                 <v-icon
-                  v-if="vendors.mdi.active && !vendors.mdi.loading"
+                  v-if="store.mdi.active && !store.mdi.loading"
                   :name="BCheckLg"
                   class="mr-2"
                 ></v-icon>
                 <v-icon
-                  v-if="!vendors.mdi.active && !vendors.mdi.loading"
+                  v-if="!store.mdi.active && !store.mdi.loading"
                   :name="BPlusLg"
                   class="mr-2"
                 ></v-icon>
@@ -91,20 +91,20 @@
                 @click="emit('toggle-vendor', 'fontawesome')"
               >
                 <v-spinner
-                  v-if="vendors.fontawesome.loading"
+                  v-if="store.fontawesome.loading"
                   style-spinner="small"
                   class="mr-2"
                 ></v-spinner>
                 <v-icon
                   v-if="
-                    vendors.fontawesome.active && !vendors.fontawesome.loading
+                    store.fontawesome.active && !store.fontawesome.loading
                   "
                   :name="BCheckLg"
                   class="mr-2"
                 ></v-icon>
                 <v-icon
                   v-if="
-                    !vendors.fontawesome.active && !vendors.fontawesome.loading
+                    !store.fontawesome.active && !store.fontawesome.loading
                   "
                   :name="BPlusLg"
                   class="mr-2"
@@ -224,10 +224,10 @@ import {
 } from "../icons/dist-mdi";
 import { BGear } from "../icons/dist-bootstrap";
 import { BCheckLg, BX, BXLg, BPlusLg } from "../icons/dist-bootstrap";
+import { useStore } from "../composition/useStore";
 
 export default {
   props: {
-    vendors: { type: Object },
     selectedIcons: { type: [Array, Object] },
   },
   components: {
@@ -235,6 +235,8 @@ export default {
     IconsSidepanelHeader,
   },
   setup(props, { emit }) {
+    let store = useStore();
+
     let settings = useSettings();
 
     let sidepanelState = ref("icons");
@@ -317,6 +319,7 @@ export default {
       BGear,
       BCheckLg,
       BPlusLg,
+      store,
     };
   },
 };
