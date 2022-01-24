@@ -10,7 +10,7 @@
     <div class="flex-1">
       <div class="w-11/12 mx-auto">
         <!-- filter input -->
-        <div v-if="isAnyVendorLoaded()" class="flex items-end justify-center">
+        <div v-if="store.isAnyVendorLoaded" class="flex items-end justify-center">
           <v-input
             type="search"
             v-model="filter"
@@ -27,32 +27,31 @@
 
         <v-divider class="my-10"></v-divider>
 
-        <!-- icon size -->
-        <div class="flex justify-end">
-          <div v-if="isAnyVendorLoaded()" class="flex">
-            <div class="flex items-center ml-auto">
-              <label for="select-size" class="font-semibold mr-4">Size</label>
-              <v-select id="select-size" v-model="store.size">
-                <option :value="sizes.sm">Small</option>
-                <option :value="sizes.md">Medium</option>
-                <option :value="sizes.lg">Large</option>
-              </v-select>
-            </div>
+        <!-- size and view options -->
+        <div
+          v-if="store.isAnyVendorLoaded"
+          class="flex justify-end justify-items-end"
+        >
+          <div class="flex items-center">
+            <label for="select-size" class="font-semibold mr-4">Size</label>
+            <v-select id="select-size" v-model="store.size">
+              <option :value="sizes.sm">Small</option>
+              <option :value="sizes.md">Medium</option>
+              <option :value="sizes.lg">Large</option>
+            </v-select>
           </div>
-          <div v-if="isAnyVendorLoaded()" class="flex ml-8">
-            <div class="flex items-center ml-auto">
-              <label for="select-size" class="font-semibold mr-4">View</label>
-              <v-select id="select-size" v-model="store.view">
-                <option :value="views.stacked">Stacked</option>
-                <option :value="views.columns">Columns</option>
-              </v-select>
-            </div>
+          <div class="flex items-center ml-8">
+            <label for="select-size" class="font-semibold mr-4">View</label>
+            <v-select id="select-size" v-model="store.view">
+              <option :value="views.stacked">Stacked</option>
+              <option :value="views.columns">Columns</option>
+            </v-select>
           </div>
         </div>
 
         <!-- icons -->
 
-        <div v-if="!isAnyVendorLoaded()" class="flex justify-center h-40">
+        <div v-if="!store.isAnyVendorLoaded" class="flex justify-center h-40">
           <div class="flex flex-col mt-auto">
             <p class="text-xl">
               No icon vendors loaded. Add icons to start browsing.
@@ -87,7 +86,10 @@
         <div :class="store.view">
           <div>
             <header v-if="store.bootstrap.active">
-              <div class="w-full my-4 py-2">Bootstrap Icons</div>
+              <div class="flex items-center w-full my-4 py-2">
+              <v-icon :name="BBootstrapFill" class="h-8 w-8 text-purple-500 mr-2"></v-icon>
+                Bootstrap Icons
+              </div>
             </header>
             <icons-vendor-bootstrap
               v-if="store.bootstrap.active"
@@ -99,7 +101,10 @@
 
           <div>
             <header v-if="store.mdi.active">
-              <div class="w-full my-4 py-2">Material Design Icons</div>
+              <div class="flex items-center w-full my-4 py-2">
+              <v-icon :name="MdiMaterialDesign" class="h-8 w-8 text-purple-500 mr-2"></v-icon>
+                Material Design Icons
+              </div>
             </header>
             <icons-vendor-mdi
               v-if="store.mdi.active"
@@ -111,7 +116,10 @@
 
           <div>
             <header v-if="store.fontawesome.active">
-              <div class="w-full my-4 py-2">Font Awesome</div>
+              <div class="flex items-center w-full my-4 py-2">
+              <v-icon :name="FaFontAwesomeFlagBrand" class="h-8 w-8 text-purple-500 mr-2"></v-icon>
+                Font Awesome Icons
+              </div>
             </header>
             <icons-vendor-fontawesome
               v-if="store.fontawesome.active"
@@ -124,6 +132,8 @@
       </div>
       <!-- <icons-bottom-bar :current-icon="currentIcon"></icons-bottom-bar> -->
     </div>
+
+    <!-- sidepanel -->
 
     <icons-sidepanel
       :selected-icons="selectedIcons"
@@ -140,6 +150,9 @@ import { useDebounce } from "@vueuse/core";
 import { useStore } from "../composition/useStore";
 import LoadingProgress from "./LoadingProgress.vue";
 import IconsSidepanel from "./IconsSidepanel.vue";
+import { BBootstrapFill } from "../icons/dist-bootstrap"
+import { MdiMaterialDesign } from "../icons/dist-mdi"
+import { FaFontAwesomeFlagBrand } from "../icons/dist-fontawesome"
 // import IconsBottomBar from "./IconsBottomBar.vue"
 
 export default {
@@ -170,15 +183,17 @@ export default {
 
     let views = {
       stacked: "",
-      columns: "grid grid-flow-col",
+      columns: "grid grid-flow-col space-x-4",
     };
 
     let filter = ref("");
     const debounced = useDebounce(filter, 200);
 
-    store.size = sizes.sm;
-    store.view = views.stacked;
-    store.filter = debounced;
+    store.$patch({
+      size: sizes.sm,
+      view: views.stacked,
+      filter: debounced,
+    })
 
     // selection
 
@@ -225,14 +240,6 @@ export default {
     };
 
     // vendors
-    let isAnyVendorLoaded = () => {
-      return (
-        store.bootstrap.active ||
-        store.mdi.active ||
-        store.fontawesome.active
-      );
-    };
-
     let toggleVendor = (vendor) => {
       if (!store[vendor].active) store[vendor].loading = true;
       store[vendor].active = !store[vendor].active;
@@ -250,9 +257,11 @@ export default {
       clearSelected,
       sizes,
       views,
-      isAnyVendorLoaded,
       toggleVendor,
       store,
+      BBootstrapFill,
+      MdiMaterialDesign,
+      FaFontAwesomeFlagBrand,
     };
   },
 };

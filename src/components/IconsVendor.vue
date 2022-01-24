@@ -1,10 +1,10 @@
 <template>
   <div>
     <div v-if="icons.length == 0" class="flex">
-      <span class="mx-auto text-lg"> Nothing found for current filter. </span>
+      <span class="text-lg"> Nothing found for current filter. </span>
     </div>
     <div @mouseover="">
-      <template v-for="(icon, index) in icons" :key="icon.name">
+      <template v-for="(icon, index) in icons">
         <div
           class="inline-block cursor-pointer bg-gray-100 rounded-md p-2 m-2"
           :data-icon="icon.name"

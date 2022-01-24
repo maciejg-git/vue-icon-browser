@@ -21,6 +21,8 @@ export const useStore = defineStore('main', {
     }
   },
   getters: {
-    getCounter: (state) => state.counter,
+    isAnyVendorLoaded: (state) => {
+      return state.bootstrap.active || state.mdi.active || state.fontawesome.active
+    }
   }
 })
