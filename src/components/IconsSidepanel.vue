@@ -125,18 +125,20 @@
                 <li
                   v-for="i in selectedIcons"
                   :key="i.icon.name"
-                  class="flex justify-between hover:bg-gray-100 py-1"
+                  class="flex justify-between hover:bg-gray-100 py-1 ml-4"
                 >
+                  <!-- selected icon -->
                   <div class="flex items-center">
                     <v-icon
                       :name="i.icon"
-                      class="inline-block icon-standalone my-1 mr-1 ml-4"
+                      class="inline-block icon-standalone my-1 mr-1"
                     ></v-icon>
                     <div class="font-semibold ml-2">
                       {{ i.icon.getIconName() }}
                     </div>
                   </div>
-                  <div class="flex items-center">
+                  <!-- buttons -->
+                  <div class="flex items-center mr-4">
                     <button @click="copyIconToClipboard(i)">
                       <transition name="fade-icon" mode="out-in">
                         <v-icon
@@ -152,7 +154,6 @@
                       </transition>
                     </button>
                     <v-close-button
-                      class="mr-2"
                       @click="emit('unselect-icon', i.icon)"
                     ></v-close-button>
                   </div>
