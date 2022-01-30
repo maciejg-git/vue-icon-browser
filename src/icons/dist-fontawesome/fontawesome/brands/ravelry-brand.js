@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Ravelry",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["ravelry"],
+  $_icon: {
+    name: "Ravelry",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["ravelry"],
+  },
   render() {
     return h(
       "svg",

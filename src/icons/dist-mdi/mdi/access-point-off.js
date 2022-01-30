@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AccessPointOff",
-  vendor: "Mdi",
-  type: "",
-  tags: ["access","point","off"],
+  $_icon: {
+    name: "AccessPointOff",
+    vendor: "Mdi",
+    type: "",
+    tags: ["access","point","off"],
+  },
   render() {
     return h(
       "svg",

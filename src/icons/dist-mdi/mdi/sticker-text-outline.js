@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "StickerTextOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["sticker","text","outline"],
+  $_icon: {
+    name: "StickerTextOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["sticker","text","outline"],
+  },
   render() {
     return h(
       "svg",

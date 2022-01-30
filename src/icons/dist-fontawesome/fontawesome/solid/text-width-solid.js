@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TextWidth",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["text","width"],
+  $_icon: {
+    name: "TextWidth",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["text","width"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PanoramaFisheye",
-  vendor: "Mdi",
-  type: "",
-  tags: ["panorama","fisheye"],
+  $_icon: {
+    name: "PanoramaFisheye",
+    vendor: "Mdi",
+    type: "",
+    tags: ["panorama","fisheye"],
+  },
   render() {
     return h(
       "svg",

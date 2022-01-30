@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PrinterWireless",
-  vendor: "Mdi",
-  type: "",
-  tags: ["printer","wireless"],
+  $_icon: {
+    name: "PrinterWireless",
+    vendor: "Mdi",
+    type: "",
+    tags: ["printer","wireless"],
+  },
   render() {
     return h(
       "svg",

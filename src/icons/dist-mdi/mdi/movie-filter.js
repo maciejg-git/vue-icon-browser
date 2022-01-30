@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MovieFilter",
-  vendor: "Mdi",
-  type: "",
-  tags: ["movie","filter"],
+  $_icon: {
+    name: "MovieFilter",
+    vendor: "Mdi",
+    type: "",
+    tags: ["movie","filter"],
+  },
   render() {
     return h(
       "svg",

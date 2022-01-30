@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MicrosoftTeams",
-  vendor: "Mdi",
-  type: "",
-  tags: ["microsoft","teams"],
+  $_icon: {
+    name: "MicrosoftTeams",
+    vendor: "Mdi",
+    type: "",
+    tags: ["microsoft","teams"],
+  },
   render() {
     return h(
       "svg",

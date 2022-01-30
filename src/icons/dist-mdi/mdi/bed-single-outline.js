@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BedSingleOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["bed","single","outline"],
+  $_icon: {
+    name: "BedSingleOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["bed","single","outline"],
+  },
   render() {
     return h(
       "svg",

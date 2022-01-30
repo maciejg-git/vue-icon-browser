@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "EthernetCable",
-  vendor: "Mdi",
-  type: "",
-  tags: ["ethernet","cable"],
+  $_icon: {
+    name: "EthernetCable",
+    vendor: "Mdi",
+    type: "",
+    tags: ["ethernet","cable"],
+  },
   render() {
     return h(
       "svg",

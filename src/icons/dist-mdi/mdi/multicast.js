@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Multicast",
-  vendor: "Mdi",
-  type: "",
-  tags: ["multicast"],
+  $_icon: {
+    name: "Multicast",
+    vendor: "Mdi",
+    type: "",
+    tags: ["multicast"],
+  },
   render() {
     return h(
       "svg",

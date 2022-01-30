@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LayerForward",
-  vendor: "B",
-  type: "",
-  tags: ["layer","forward"],
+  $_icon: {
+    name: "LayerForward",
+    vendor: "B",
+    type: "",
+    tags: ["layer","forward"],
+  },
   render() {
     return h(
       "svg",

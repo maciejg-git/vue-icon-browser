@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GoogleSpreadsheet",
-  vendor: "Mdi",
-  type: "",
-  tags: ["google","spreadsheet"],
+  $_icon: {
+    name: "GoogleSpreadsheet",
+    vendor: "Mdi",
+    type: "",
+    tags: ["google","spreadsheet"],
+  },
   render() {
     return h(
       "svg",

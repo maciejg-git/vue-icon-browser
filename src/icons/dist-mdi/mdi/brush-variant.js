@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BrushVariant",
-  vendor: "Mdi",
-  type: "",
-  tags: ["brush","variant"],
+  $_icon: {
+    name: "BrushVariant",
+    vendor: "Mdi",
+    type: "",
+    tags: ["brush","variant"],
+  },
   render() {
     return h(
       "svg",

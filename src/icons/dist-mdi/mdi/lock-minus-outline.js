@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LockMinusOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["lock","minus","outline"],
+  $_icon: {
+    name: "LockMinusOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["lock","minus","outline"],
+  },
   render() {
     return h(
       "svg",

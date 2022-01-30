@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Cloudflare",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["cloudflare"],
+  $_icon: {
+    name: "Cloudflare",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["cloudflare"],
+  },
   render() {
     return h(
       "svg",

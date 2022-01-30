@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FilterMenu",
-  vendor: "Mdi",
-  type: "",
-  tags: ["filter","menu"],
+  $_icon: {
+    name: "FilterMenu",
+    vendor: "Mdi",
+    type: "",
+    tags: ["filter","menu"],
+  },
   render() {
     return h(
       "svg",

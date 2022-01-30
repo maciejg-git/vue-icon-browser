@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CameraTimer",
-  vendor: "Mdi",
-  type: "",
-  tags: ["camera","timer"],
+  $_icon: {
+    name: "CameraTimer",
+    vendor: "Mdi",
+    type: "",
+    tags: ["camera","timer"],
+  },
   render() {
     return h(
       "svg",

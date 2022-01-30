@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatColumns",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","columns"],
+  $_icon: {
+    name: "FormatColumns",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","columns"],
+  },
   render() {
     return h(
       "svg",

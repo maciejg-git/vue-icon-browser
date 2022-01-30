@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SortDescending",
-  vendor: "Mdi",
-  type: "",
-  tags: ["sort","descending"],
+  $_icon: {
+    name: "SortDescending",
+    vendor: "Mdi",
+    type: "",
+    tags: ["sort","descending"],
+  },
   render() {
     return h(
       "svg",

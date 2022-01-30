@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Symfony",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["symfony"],
+  $_icon: {
+    name: "Symfony",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["symfony"],
+  },
   render() {
     return h(
       "svg",

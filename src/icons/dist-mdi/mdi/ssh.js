@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Ssh",
-  vendor: "Mdi",
-  type: "",
-  tags: ["ssh"],
+  $_icon: {
+    name: "Ssh",
+    vendor: "Mdi",
+    type: "",
+    tags: ["ssh"],
+  },
   render() {
     return h(
       "svg",

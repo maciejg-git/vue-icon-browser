@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormTextarea",
-  vendor: "Mdi",
-  type: "",
-  tags: ["form","textarea"],
+  $_icon: {
+    name: "FormTextarea",
+    vendor: "Mdi",
+    type: "",
+    tags: ["form","textarea"],
+  },
   render() {
     return h(
       "svg",

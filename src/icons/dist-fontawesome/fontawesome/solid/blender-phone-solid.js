@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BlenderPhone",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["blender","phone"],
+  $_icon: {
+    name: "BlenderPhone",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["blender","phone"],
+  },
   render() {
     return h(
       "svg",

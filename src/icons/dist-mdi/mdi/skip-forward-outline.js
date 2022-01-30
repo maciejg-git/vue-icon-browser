@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SkipForwardOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["skip","forward","outline"],
+  $_icon: {
+    name: "SkipForwardOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["skip","forward","outline"],
+  },
   render() {
     return h(
       "svg",

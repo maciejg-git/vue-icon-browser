@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BookRemoveMultipleOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["book","remove","multiple","outline"],
+  $_icon: {
+    name: "BookRemoveMultipleOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["book","remove","multiple","outline"],
+  },
   render() {
     return h(
       "svg",

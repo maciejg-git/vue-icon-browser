@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "EmailMarkAsUnread",
-  vendor: "Mdi",
-  type: "",
-  tags: ["email","mark","as","unread"],
+  $_icon: {
+    name: "EmailMarkAsUnread",
+    vendor: "Mdi",
+    type: "",
+    tags: ["email","mark","as","unread"],
+  },
   render() {
     return h(
       "svg",

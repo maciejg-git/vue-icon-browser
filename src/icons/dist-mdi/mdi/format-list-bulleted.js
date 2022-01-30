@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatListBulleted",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","list","bulleted"],
+  $_icon: {
+    name: "FormatListBulleted",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","list","bulleted"],
+  },
   render() {
     return h(
       "svg",

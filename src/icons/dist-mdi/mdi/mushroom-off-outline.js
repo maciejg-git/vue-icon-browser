@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MushroomOffOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["mushroom","off","outline"],
+  $_icon: {
+    name: "MushroomOffOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["mushroom","off","outline"],
+  },
   render() {
     return h(
       "svg",

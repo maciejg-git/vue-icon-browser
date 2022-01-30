@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MoveResize",
-  vendor: "Mdi",
-  type: "",
-  tags: ["move","resize"],
+  $_icon: {
+    name: "MoveResize",
+    vendor: "Mdi",
+    type: "",
+    tags: ["move","resize"],
+  },
   render() {
     return h(
       "svg",

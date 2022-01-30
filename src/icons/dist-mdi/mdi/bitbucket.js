@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Bitbucket",
-  vendor: "Mdi",
-  type: "",
-  tags: ["bitbucket"],
+  $_icon: {
+    name: "Bitbucket",
+    vendor: "Mdi",
+    type: "",
+    tags: ["bitbucket"],
+  },
   render() {
     return h(
       "svg",

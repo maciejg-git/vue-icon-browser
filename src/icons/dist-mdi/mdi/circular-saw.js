@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CircularSaw",
-  vendor: "Mdi",
-  type: "",
-  tags: ["circular","saw"],
+  $_icon: {
+    name: "CircularSaw",
+    vendor: "Mdi",
+    type: "",
+    tags: ["circular","saw"],
+  },
   render() {
     return h(
       "svg",

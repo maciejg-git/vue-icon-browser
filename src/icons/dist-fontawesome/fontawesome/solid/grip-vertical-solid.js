@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GripVertical",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["grip","vertical"],
+  $_icon: {
+    name: "GripVertical",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["grip","vertical"],
+  },
   render() {
     return h(
       "svg",

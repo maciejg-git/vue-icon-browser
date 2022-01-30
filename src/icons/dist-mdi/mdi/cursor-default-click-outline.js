@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CursorDefaultClickOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["cursor","default","click","outline"],
+  $_icon: {
+    name: "CursorDefaultClickOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["cursor","default","click","outline"],
+  },
   render() {
     return h(
       "svg",

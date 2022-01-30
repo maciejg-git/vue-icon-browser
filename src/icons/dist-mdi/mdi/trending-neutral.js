@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TrendingNeutral",
-  vendor: "Mdi",
-  type: "",
-  tags: ["trending","neutral"],
+  $_icon: {
+    name: "TrendingNeutral",
+    vendor: "Mdi",
+    type: "",
+    tags: ["trending","neutral"],
+  },
   render() {
     return h(
       "svg",

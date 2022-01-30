@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ShakerOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["shaker","outline"],
+  $_icon: {
+    name: "ShakerOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["shaker","outline"],
+  },
   render() {
     return h(
       "svg",

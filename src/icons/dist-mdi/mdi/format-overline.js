@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatOverline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","overline"],
+  $_icon: {
+    name: "FormatOverline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","overline"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MagnifyMinusCursor",
-  vendor: "Mdi",
-  type: "",
-  tags: ["magnify","minus","cursor"],
+  $_icon: {
+    name: "MagnifyMinusCursor",
+    vendor: "Mdi",
+    type: "",
+    tags: ["magnify","minus","cursor"],
+  },
   render() {
     return h(
       "svg",

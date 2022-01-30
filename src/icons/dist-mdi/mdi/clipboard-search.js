@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ClipboardSearch",
-  vendor: "Mdi",
-  type: "",
-  tags: ["clipboard","search"],
+  $_icon: {
+    name: "ClipboardSearch",
+    vendor: "Mdi",
+    type: "",
+    tags: ["clipboard","search"],
+  },
   render() {
     return h(
       "svg",

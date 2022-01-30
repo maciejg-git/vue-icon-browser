@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Mixcloud",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["mixcloud"],
+  $_icon: {
+    name: "Mixcloud",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["mixcloud"],
+  },
   render() {
     return h(
       "svg",

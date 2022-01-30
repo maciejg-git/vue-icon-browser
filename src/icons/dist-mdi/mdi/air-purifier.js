@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AirPurifier",
-  vendor: "Mdi",
-  type: "",
-  tags: ["air","purifier"],
+  $_icon: {
+    name: "AirPurifier",
+    vendor: "Mdi",
+    type: "",
+    tags: ["air","purifier"],
+  },
   render() {
     return h(
       "svg",

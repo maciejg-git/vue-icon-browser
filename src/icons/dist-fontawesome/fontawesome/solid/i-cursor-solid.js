@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ICursor",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["i","cursor"],
+  $_icon: {
+    name: "ICursor",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["i","cursor"],
+  },
   render() {
     return h(
       "svg",

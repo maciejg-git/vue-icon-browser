@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LayoutTextWindowReverse",
-  vendor: "B",
-  type: "",
-  tags: ["layout","text","window","reverse"],
+  $_icon: {
+    name: "LayoutTextWindowReverse",
+    vendor: "B",
+    type: "",
+    tags: ["layout","text","window","reverse"],
+  },
   render() {
     return h(
       "svg",

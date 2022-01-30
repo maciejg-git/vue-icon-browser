@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TableColumnPlusBefore",
-  vendor: "Mdi",
-  type: "",
-  tags: ["table","column","plus","before"],
+  $_icon: {
+    name: "TableColumnPlusBefore",
+    vendor: "Mdi",
+    type: "",
+    tags: ["table","column","plus","before"],
+  },
   render() {
     return h(
       "svg",

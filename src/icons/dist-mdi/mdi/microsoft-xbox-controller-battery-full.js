@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MicrosoftXboxControllerBatteryFull",
-  vendor: "Mdi",
-  type: "",
-  tags: ["microsoft","xbox","controller","battery","full"],
+  $_icon: {
+    name: "MicrosoftXboxControllerBatteryFull",
+    vendor: "Mdi",
+    type: "",
+    tags: ["microsoft","xbox","controller","battery","full"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ImageSizeSelectLarge",
-  vendor: "Mdi",
-  type: "",
-  tags: ["image","size","select","large"],
+  $_icon: {
+    name: "ImageSizeSelectLarge",
+    vendor: "Mdi",
+    type: "",
+    tags: ["image","size","select","large"],
+  },
   render() {
     return h(
       "svg",

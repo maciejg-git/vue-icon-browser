@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Numeric2CircleOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["numeric","2","circle","outline"],
+  $_icon: {
+    name: "Numeric2CircleOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["numeric","2","circle","outline"],
+  },
   render() {
     return h(
       "svg",

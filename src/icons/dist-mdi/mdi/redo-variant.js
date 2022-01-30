@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RedoVariant",
-  vendor: "Mdi",
-  type: "",
-  tags: ["redo","variant"],
+  $_icon: {
+    name: "RedoVariant",
+    vendor: "Mdi",
+    type: "",
+    tags: ["redo","variant"],
+  },
   render() {
     return h(
       "svg",

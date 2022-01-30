@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DirectionsFork",
-  vendor: "Mdi",
-  type: "",
-  tags: ["directions","fork"],
+  $_icon: {
+    name: "DirectionsFork",
+    vendor: "Mdi",
+    type: "",
+    tags: ["directions","fork"],
+  },
   render() {
     return h(
       "svg",

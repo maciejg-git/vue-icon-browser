@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LanConnect",
-  vendor: "Mdi",
-  type: "",
-  tags: ["lan","connect"],
+  $_icon: {
+    name: "LanConnect",
+    vendor: "Mdi",
+    type: "",
+    tags: ["lan","connect"],
+  },
   render() {
     return h(
       "svg",

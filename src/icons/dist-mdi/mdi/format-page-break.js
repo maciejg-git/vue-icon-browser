@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatPageBreak",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","page","break"],
+  $_icon: {
+    name: "FormatPageBreak",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","page","break"],
+  },
   render() {
     return h(
       "svg",

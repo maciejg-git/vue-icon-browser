@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ImageFrame",
-  vendor: "Mdi",
-  type: "",
-  tags: ["image","frame"],
+  $_icon: {
+    name: "ImageFrame",
+    vendor: "Mdi",
+    type: "",
+    tags: ["image","frame"],
+  },
   render() {
     return h(
       "svg",

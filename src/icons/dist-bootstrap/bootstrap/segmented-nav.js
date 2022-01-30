@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SegmentedNav",
-  vendor: "B",
-  type: "",
-  tags: ["segmented","nav"],
+  $_icon: {
+    name: "SegmentedNav",
+    vendor: "B",
+    type: "",
+    tags: ["segmented","nav"],
+  },
   render() {
     return h(
       "svg",

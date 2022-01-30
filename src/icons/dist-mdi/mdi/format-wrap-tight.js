@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatWrapTight",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","wrap","tight"],
+  $_icon: {
+    name: "FormatWrapTight",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","wrap","tight"],
+  },
   render() {
     return h(
       "svg",

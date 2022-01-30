@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Rewind5",
-  vendor: "Mdi",
-  type: "",
-  tags: ["rewind","5"],
+  $_icon: {
+    name: "Rewind5",
+    vendor: "Mdi",
+    type: "",
+    tags: ["rewind","5"],
+  },
   render() {
     return h(
       "svg",

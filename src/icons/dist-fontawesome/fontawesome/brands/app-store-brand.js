@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AppStore",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["app","store"],
+  $_icon: {
+    name: "AppStore",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["app","store"],
+  },
   render() {
     return h(
       "svg",

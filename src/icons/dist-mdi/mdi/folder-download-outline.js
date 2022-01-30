@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FolderDownloadOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["folder","download","outline"],
+  $_icon: {
+    name: "FolderDownloadOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["folder","download","outline"],
+  },
   render() {
     return h(
       "svg",

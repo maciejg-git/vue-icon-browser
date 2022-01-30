@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "UsbFlashDrive",
-  vendor: "Mdi",
-  type: "",
-  tags: ["usb","flash","drive"],
+  $_icon: {
+    name: "UsbFlashDrive",
+    vendor: "Mdi",
+    type: "",
+    tags: ["usb","flash","drive"],
+  },
   render() {
     return h(
       "svg",

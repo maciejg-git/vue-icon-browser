@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "EightTrack",
-  vendor: "Mdi",
-  type: "",
-  tags: ["eight","track"],
+  $_icon: {
+    name: "EightTrack",
+    vendor: "Mdi",
+    type: "",
+    tags: ["eight","track"],
+  },
   render() {
     return h(
       "svg",

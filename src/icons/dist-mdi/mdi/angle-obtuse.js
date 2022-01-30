@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AngleObtuse",
-  vendor: "Mdi",
-  type: "",
-  tags: ["angle","obtuse"],
+  $_icon: {
+    name: "AngleObtuse",
+    vendor: "Mdi",
+    type: "",
+    tags: ["angle","obtuse"],
+  },
   render() {
     return h(
       "svg",

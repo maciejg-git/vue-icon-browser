@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Terraform",
-  vendor: "Mdi",
-  type: "",
-  tags: ["terraform"],
+  $_icon: {
+    name: "Terraform",
+    vendor: "Mdi",
+    type: "",
+    tags: ["terraform"],
+  },
   render() {
     return h(
       "svg",

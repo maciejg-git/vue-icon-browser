@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "VideoInputAntenna",
-  vendor: "Mdi",
-  type: "",
-  tags: ["video","input","antenna"],
+  $_icon: {
+    name: "VideoInputAntenna",
+    vendor: "Mdi",
+    type: "",
+    tags: ["video","input","antenna"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "WindTurbine",
-  vendor: "Mdi",
-  type: "",
-  tags: ["wind","turbine"],
+  $_icon: {
+    name: "WindTurbine",
+    vendor: "Mdi",
+    type: "",
+    tags: ["wind","turbine"],
+  },
   render() {
     return h(
       "svg",

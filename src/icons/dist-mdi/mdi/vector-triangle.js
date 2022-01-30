@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "VectorTriangle",
-  vendor: "Mdi",
-  type: "",
-  tags: ["vector","triangle"],
+  $_icon: {
+    name: "VectorTriangle",
+    vendor: "Mdi",
+    type: "",
+    tags: ["vector","triangle"],
+  },
   render() {
     return h(
       "svg",

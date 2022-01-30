@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SourceBranchCheck",
-  vendor: "Mdi",
-  type: "",
-  tags: ["source","branch","check"],
+  $_icon: {
+    name: "SourceBranchCheck",
+    vendor: "Mdi",
+    type: "",
+    tags: ["source","branch","check"],
+  },
   render() {
     return h(
       "svg",

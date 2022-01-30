@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CoffeeMakerCheckOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["coffee","maker","check","outline"],
+  $_icon: {
+    name: "CoffeeMakerCheckOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["coffee","maker","check","outline"],
+  },
   render() {
     return h(
       "svg",

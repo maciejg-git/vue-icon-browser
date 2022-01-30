@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FolderClockOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["folder","clock","outline"],
+  $_icon: {
+    name: "FolderClockOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["folder","clock","outline"],
+  },
   render() {
     return h(
       "svg",

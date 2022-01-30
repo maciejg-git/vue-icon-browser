@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RedoAlt",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["redo","alt"],
+  $_icon: {
+    name: "RedoAlt",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["redo","alt"],
+  },
   render() {
     return h(
       "svg",

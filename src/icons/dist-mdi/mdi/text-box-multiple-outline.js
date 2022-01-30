@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TextBoxMultipleOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["text","box","multiple","outline"],
+  $_icon: {
+    name: "TextBoxMultipleOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["text","box","multiple","outline"],
+  },
   render() {
     return h(
       "svg",

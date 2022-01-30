@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Equalizer",
-  vendor: "Mdi",
-  type: "",
-  tags: ["equalizer"],
+  $_icon: {
+    name: "Equalizer",
+    vendor: "Mdi",
+    type: "",
+    tags: ["equalizer"],
+  },
   render() {
     return h(
       "svg",

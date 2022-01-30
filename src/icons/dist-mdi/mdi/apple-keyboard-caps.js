@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AppleKeyboardCaps",
-  vendor: "Mdi",
-  type: "",
-  tags: ["apple","keyboard","caps"],
+  $_icon: {
+    name: "AppleKeyboardCaps",
+    vendor: "Mdi",
+    type: "",
+    tags: ["apple","keyboard","caps"],
+  },
   render() {
     return h(
       "svg",

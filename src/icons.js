@@ -16,6 +16,7 @@ export let loadIcons = (icons) => {
     markRaw(icons[icon]);
     icons[icon].selected = ref(false);
     icons[icon].getIconName = getIconName;
+    icons[icon].visible = ref(true);
   }
 
   let iconsArray = Object.values(icons);
@@ -24,8 +25,8 @@ export let loadIcons = (icons) => {
 };
 
 export let getIconName = function () {
-  let i = `${settings.vendorPrefix ? this.vendor : ""}${this.name}${
-    settings.originalNames ? "" : this.type
+  let i = `${settings.vendorPrefix ? this.$_icon.vendor : ""}${this.$_icon.name}${
+    settings.originalNames ? "" : this.$_icon.type
   }`;
   if (settings.kebabCase) return toKebab(i);
   return i;

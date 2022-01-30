@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Onepassword",
-  vendor: "Mdi",
-  type: "",
-  tags: ["onepassword"],
+  $_icon: {
+    name: "Onepassword",
+    vendor: "Mdi",
+    type: "",
+    tags: ["onepassword"],
+  },
   render() {
     return h(
       "svg",

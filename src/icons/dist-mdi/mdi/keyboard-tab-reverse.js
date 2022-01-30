@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "KeyboardTabReverse",
-  vendor: "Mdi",
-  type: "",
-  tags: ["keyboard","tab","reverse"],
+  $_icon: {
+    name: "KeyboardTabReverse",
+    vendor: "Mdi",
+    type: "",
+    tags: ["keyboard","tab","reverse"],
+  },
   render() {
     return h(
       "svg",

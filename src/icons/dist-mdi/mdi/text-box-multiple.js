@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TextBoxMultiple",
-  vendor: "Mdi",
-  type: "",
-  tags: ["text","box","multiple"],
+  $_icon: {
+    name: "TextBoxMultiple",
+    vendor: "Mdi",
+    type: "",
+    tags: ["text","box","multiple"],
+  },
   render() {
     return h(
       "svg",

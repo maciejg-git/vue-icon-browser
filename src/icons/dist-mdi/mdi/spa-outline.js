@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SpaOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["spa","outline"],
+  $_icon: {
+    name: "SpaOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["spa","outline"],
+  },
   render() {
     return h(
       "svg",

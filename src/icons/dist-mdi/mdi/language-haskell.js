@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LanguageHaskell",
-  vendor: "Mdi",
-  type: "",
-  tags: ["language","haskell"],
+  $_icon: {
+    name: "LanguageHaskell",
+    vendor: "Mdi",
+    type: "",
+    tags: ["language","haskell"],
+  },
   render() {
     return h(
       "svg",

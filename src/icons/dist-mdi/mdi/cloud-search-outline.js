@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CloudSearchOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["cloud","search","outline"],
+  $_icon: {
+    name: "CloudSearchOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["cloud","search","outline"],
+  },
   render() {
     return h(
       "svg",

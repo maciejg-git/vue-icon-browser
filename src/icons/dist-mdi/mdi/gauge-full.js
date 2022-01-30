@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GaugeFull",
-  vendor: "Mdi",
-  type: "",
-  tags: ["gauge","full"],
+  $_icon: {
+    name: "GaugeFull",
+    vendor: "Mdi",
+    type: "",
+    tags: ["gauge","full"],
+  },
   render() {
     return h(
       "svg",

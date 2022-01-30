@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PanoramaWideAngle",
-  vendor: "Mdi",
-  type: "",
-  tags: ["panorama","wide","angle"],
+  $_icon: {
+    name: "PanoramaWideAngle",
+    vendor: "Mdi",
+    type: "",
+    tags: ["panorama","wide","angle"],
+  },
   render() {
     return h(
       "svg",

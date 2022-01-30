@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Waze",
-  vendor: "Mdi",
-  type: "",
-  tags: ["waze"],
+  $_icon: {
+    name: "Waze",
+    vendor: "Mdi",
+    type: "",
+    tags: ["waze"],
+  },
   render() {
     return h(
       "svg",

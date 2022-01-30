@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MicrosoftOnedrive",
-  vendor: "Mdi",
-  type: "",
-  tags: ["microsoft","onedrive"],
+  $_icon: {
+    name: "MicrosoftOnedrive",
+    vendor: "Mdi",
+    type: "",
+    tags: ["microsoft","onedrive"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DragVertical",
-  vendor: "Mdi",
-  type: "",
-  tags: ["drag","vertical"],
+  $_icon: {
+    name: "DragVertical",
+    vendor: "Mdi",
+    type: "",
+    tags: ["drag","vertical"],
+  },
   render() {
     return h(
       "svg",

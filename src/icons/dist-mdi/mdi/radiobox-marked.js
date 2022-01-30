@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RadioboxMarked",
-  vendor: "Mdi",
-  type: "",
-  tags: ["radiobox","marked"],
+  $_icon: {
+    name: "RadioboxMarked",
+    vendor: "Mdi",
+    type: "",
+    tags: ["radiobox","marked"],
+  },
   render() {
     return h(
       "svg",

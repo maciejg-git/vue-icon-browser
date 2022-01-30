@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileFind",
-  vendor: "Mdi",
-  type: "",
-  tags: ["file","find"],
+  $_icon: {
+    name: "FileFind",
+    vendor: "Mdi",
+    type: "",
+    tags: ["file","find"],
+  },
   render() {
     return h(
       "svg",

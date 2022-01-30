@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SealVariant",
-  vendor: "Mdi",
-  type: "",
-  tags: ["seal","variant"],
+  $_icon: {
+    name: "SealVariant",
+    vendor: "Mdi",
+    type: "",
+    tags: ["seal","variant"],
+  },
   render() {
     return h(
       "svg",

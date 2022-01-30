@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DotsGrid",
-  vendor: "Mdi",
-  type: "",
-  tags: ["dots","grid"],
+  $_icon: {
+    name: "DotsGrid",
+    vendor: "Mdi",
+    type: "",
+    tags: ["dots","grid"],
+  },
   render() {
     return h(
       "svg",

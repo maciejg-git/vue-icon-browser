@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LabelMultiple",
-  vendor: "Mdi",
-  type: "",
-  tags: ["label","multiple"],
+  $_icon: {
+    name: "LabelMultiple",
+    vendor: "Mdi",
+    type: "",
+    tags: ["label","multiple"],
+  },
   render() {
     return h(
       "svg",

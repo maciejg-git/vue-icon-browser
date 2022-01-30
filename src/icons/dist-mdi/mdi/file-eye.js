@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileEye",
-  vendor: "Mdi",
-  type: "",
-  tags: ["file","eye"],
+  $_icon: {
+    name: "FileEye",
+    vendor: "Mdi",
+    type: "",
+    tags: ["file","eye"],
+  },
   render() {
     return h(
       "svg",

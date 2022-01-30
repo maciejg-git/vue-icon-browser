@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Backspace",
-  vendor: "Mdi",
-  type: "",
-  tags: ["backspace"],
+  $_icon: {
+    name: "Backspace",
+    vendor: "Mdi",
+    type: "",
+    tags: ["backspace"],
+  },
   render() {
     return h(
       "svg",

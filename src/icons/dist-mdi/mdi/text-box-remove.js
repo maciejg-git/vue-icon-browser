@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TextBoxRemove",
-  vendor: "Mdi",
-  type: "",
-  tags: ["text","box","remove"],
+  $_icon: {
+    name: "TextBoxRemove",
+    vendor: "Mdi",
+    type: "",
+    tags: ["text","box","remove"],
+  },
   render() {
     return h(
       "svg",

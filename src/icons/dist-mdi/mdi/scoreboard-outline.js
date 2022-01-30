@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ScoreboardOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["scoreboard","outline"],
+  $_icon: {
+    name: "ScoreboardOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["scoreboard","outline"],
+  },
   render() {
     return h(
       "svg",

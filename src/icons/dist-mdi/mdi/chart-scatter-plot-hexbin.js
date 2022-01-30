@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ChartScatterPlotHexbin",
-  vendor: "Mdi",
-  type: "",
-  tags: ["chart","scatter","plot","hexbin"],
+  $_icon: {
+    name: "ChartScatterPlotHexbin",
+    vendor: "Mdi",
+    type: "",
+    tags: ["chart","scatter","plot","hexbin"],
+  },
   render() {
     return h(
       "svg",

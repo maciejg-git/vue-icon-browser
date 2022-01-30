@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MathIntegral",
-  vendor: "Mdi",
-  type: "",
-  tags: ["math","integral"],
+  $_icon: {
+    name: "MathIntegral",
+    vendor: "Mdi",
+    type: "",
+    tags: ["math","integral"],
+  },
   render() {
     return h(
       "svg",

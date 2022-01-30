@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Weebly",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["weebly"],
+  $_icon: {
+    name: "Weebly",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["weebly"],
+  },
   render() {
     return h(
       "svg",

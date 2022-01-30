@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GoogleMaps",
-  vendor: "Mdi",
-  type: "",
-  tags: ["google","maps"],
+  $_icon: {
+    name: "GoogleMaps",
+    vendor: "Mdi",
+    type: "",
+    tags: ["google","maps"],
+  },
   render() {
     return h(
       "svg",

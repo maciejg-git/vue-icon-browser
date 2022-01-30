@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatListCheckbox",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","list","checkbox"],
+  $_icon: {
+    name: "FormatListCheckbox",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","list","checkbox"],
+  },
   render() {
     return h(
       "svg",

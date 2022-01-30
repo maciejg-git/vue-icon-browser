@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TrackpadLock",
-  vendor: "Mdi",
-  type: "",
-  tags: ["trackpad","lock"],
+  $_icon: {
+    name: "TrackpadLock",
+    vendor: "Mdi",
+    type: "",
+    tags: ["trackpad","lock"],
+  },
   render() {
     return h(
       "svg",

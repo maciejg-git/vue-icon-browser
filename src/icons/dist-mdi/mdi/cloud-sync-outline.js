@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CloudSyncOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["cloud","sync","outline"],
+  $_icon: {
+    name: "CloudSyncOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["cloud","sync","outline"],
+  },
   render() {
     return h(
       "svg",

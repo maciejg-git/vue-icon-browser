@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SpellCheck",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["spell","check"],
+  $_icon: {
+    name: "SpellCheck",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["spell","check"],
+  },
   render() {
     return h(
       "svg",

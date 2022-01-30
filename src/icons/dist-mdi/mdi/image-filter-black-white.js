@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ImageFilterBlackWhite",
-  vendor: "Mdi",
-  type: "",
-  tags: ["image","filter","black","white"],
+  $_icon: {
+    name: "ImageFilterBlackWhite",
+    vendor: "Mdi",
+    type: "",
+    tags: ["image","filter","black","white"],
+  },
   render() {
     return h(
       "svg",

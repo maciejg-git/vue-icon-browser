@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GraphOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["graph","outline"],
+  $_icon: {
+    name: "GraphOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["graph","outline"],
+  },
   render() {
     return h(
       "svg",

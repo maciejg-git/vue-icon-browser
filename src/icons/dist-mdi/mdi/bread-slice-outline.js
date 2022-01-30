@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BreadSliceOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["bread","slice","outline"],
+  $_icon: {
+    name: "BreadSliceOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["bread","slice","outline"],
+  },
   render() {
     return h(
       "svg",

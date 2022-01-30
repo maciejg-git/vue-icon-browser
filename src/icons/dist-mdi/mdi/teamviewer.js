@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Teamviewer",
-  vendor: "Mdi",
-  type: "",
-  tags: ["teamviewer"],
+  $_icon: {
+    name: "Teamviewer",
+    vendor: "Mdi",
+    type: "",
+    tags: ["teamviewer"],
+  },
   render() {
     return h(
       "svg",

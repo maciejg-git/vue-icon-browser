@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "IntegratedCircuitChip",
-  vendor: "Mdi",
-  type: "",
-  tags: ["integrated","circuit","chip"],
+  $_icon: {
+    name: "IntegratedCircuitChip",
+    vendor: "Mdi",
+    type: "",
+    tags: ["integrated","circuit","chip"],
+  },
   render() {
     return h(
       "svg",

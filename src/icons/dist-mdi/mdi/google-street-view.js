@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GoogleStreetView",
-  vendor: "Mdi",
-  type: "",
-  tags: ["google","street","view"],
+  $_icon: {
+    name: "GoogleStreetView",
+    vendor: "Mdi",
+    type: "",
+    tags: ["google","street","view"],
+  },
   render() {
     return h(
       "svg",

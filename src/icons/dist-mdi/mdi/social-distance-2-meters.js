@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SocialDistance2Meters",
-  vendor: "Mdi",
-  type: "",
-  tags: ["social","distance","2","meters"],
+  $_icon: {
+    name: "SocialDistance2Meters",
+    vendor: "Mdi",
+    type: "",
+    tags: ["social","distance","2","meters"],
+  },
   render() {
     return h(
       "svg",

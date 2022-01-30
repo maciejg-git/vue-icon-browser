@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "UfoOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["ufo","outline"],
+  $_icon: {
+    name: "UfoOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["ufo","outline"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SettingsHelper",
-  vendor: "Mdi",
-  type: "",
-  tags: ["settings","helper"],
+  $_icon: {
+    name: "SettingsHelper",
+    vendor: "Mdi",
+    type: "",
+    tags: ["settings","helper"],
+  },
   render() {
     return h(
       "svg",

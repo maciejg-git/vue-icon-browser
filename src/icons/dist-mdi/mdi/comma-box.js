@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CommaBox",
-  vendor: "Mdi",
-  type: "",
-  tags: ["comma","box"],
+  $_icon: {
+    name: "CommaBox",
+    vendor: "Mdi",
+    type: "",
+    tags: ["comma","box"],
+  },
   render() {
     return h(
       "svg",

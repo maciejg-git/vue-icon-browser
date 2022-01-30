@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SmokeDetectorOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["smoke","detector","outline"],
+  $_icon: {
+    name: "SmokeDetectorOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["smoke","detector","outline"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormTextboxPassword",
-  vendor: "Mdi",
-  type: "",
-  tags: ["form","textbox","password"],
+  $_icon: {
+    name: "FormTextboxPassword",
+    vendor: "Mdi",
+    type: "",
+    tags: ["form","textbox","password"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "StarBoxMultipleOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["star","box","multiple","outline"],
+  $_icon: {
+    name: "StarBoxMultipleOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["star","box","multiple","outline"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ExponentBox",
-  vendor: "Mdi",
-  type: "",
-  tags: ["exponent","box"],
+  $_icon: {
+    name: "ExponentBox",
+    vendor: "Mdi",
+    type: "",
+    tags: ["exponent","box"],
+  },
   render() {
     return h(
       "svg",

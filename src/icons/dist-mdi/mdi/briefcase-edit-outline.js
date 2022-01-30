@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BriefcaseEditOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["briefcase","edit","outline"],
+  $_icon: {
+    name: "BriefcaseEditOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["briefcase","edit","outline"],
+  },
   render() {
     return h(
       "svg",

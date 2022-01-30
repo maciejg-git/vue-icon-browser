@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "VectorPolyline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["vector","polyline"],
+  $_icon: {
+    name: "VectorPolyline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["vector","polyline"],
+  },
   render() {
     return h(
       "svg",

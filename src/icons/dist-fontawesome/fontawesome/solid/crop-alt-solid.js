@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CropAlt",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["crop","alt"],
+  $_icon: {
+    name: "CropAlt",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["crop","alt"],
+  },
   render() {
     return h(
       "svg",

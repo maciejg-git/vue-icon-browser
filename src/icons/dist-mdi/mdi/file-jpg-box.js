@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileJpgBox",
-  vendor: "Mdi",
-  type: "",
-  tags: ["file","jpg","box"],
+  $_icon: {
+    name: "FileJpgBox",
+    vendor: "Mdi",
+    type: "",
+    tags: ["file","jpg","box"],
+  },
   render() {
     return h(
       "svg",

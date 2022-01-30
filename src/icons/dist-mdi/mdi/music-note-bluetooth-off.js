@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MusicNoteBluetoothOff",
-  vendor: "Mdi",
-  type: "",
-  tags: ["music","note","bluetooth","off"],
+  $_icon: {
+    name: "MusicNoteBluetoothOff",
+    vendor: "Mdi",
+    type: "",
+    tags: ["music","note","bluetooth","off"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "EngineOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["engine","outline"],
+  $_icon: {
+    name: "EngineOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["engine","outline"],
+  },
   render() {
     return h(
       "svg",

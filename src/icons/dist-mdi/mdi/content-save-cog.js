@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ContentSaveCog",
-  vendor: "Mdi",
-  type: "",
-  tags: ["content","save","cog"],
+  $_icon: {
+    name: "ContentSaveCog",
+    vendor: "Mdi",
+    type: "",
+    tags: ["content","save","cog"],
+  },
   render() {
     return h(
       "svg",

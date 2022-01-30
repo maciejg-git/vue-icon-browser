@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RaspberryPi",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["raspberry","pi"],
+  $_icon: {
+    name: "RaspberryPi",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["raspberry","pi"],
+  },
   render() {
     return h(
       "svg",

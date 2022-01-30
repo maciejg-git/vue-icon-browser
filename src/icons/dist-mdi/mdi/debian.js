@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Debian",
-  vendor: "Mdi",
-  type: "",
-  tags: ["debian"],
+  $_icon: {
+    name: "Debian",
+    vendor: "Mdi",
+    type: "",
+    tags: ["debian"],
+  },
   render() {
     return h(
       "svg",

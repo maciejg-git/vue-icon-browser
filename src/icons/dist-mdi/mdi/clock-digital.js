@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ClockDigital",
-  vendor: "Mdi",
-  type: "",
-  tags: ["clock","digital"],
+  $_icon: {
+    name: "ClockDigital",
+    vendor: "Mdi",
+    type: "",
+    tags: ["clock","digital"],
+  },
   render() {
     return h(
       "svg",

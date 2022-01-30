@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Trackpad",
-  vendor: "Mdi",
-  type: "",
-  tags: ["trackpad"],
+  $_icon: {
+    name: "Trackpad",
+    vendor: "Mdi",
+    type: "",
+    tags: ["trackpad"],
+  },
   render() {
     return h(
       "svg",

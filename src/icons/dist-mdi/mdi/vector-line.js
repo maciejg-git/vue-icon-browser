@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "VectorLine",
-  vendor: "Mdi",
-  type: "",
-  tags: ["vector","line"],
+  $_icon: {
+    name: "VectorLine",
+    vendor: "Mdi",
+    type: "",
+    tags: ["vector","line"],
+  },
   render() {
     return h(
       "svg",

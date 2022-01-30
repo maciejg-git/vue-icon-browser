@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FlowerTulipOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["flower","tulip","outline"],
+  $_icon: {
+    name: "FlowerTulipOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["flower","tulip","outline"],
+  },
   render() {
     return h(
       "svg",

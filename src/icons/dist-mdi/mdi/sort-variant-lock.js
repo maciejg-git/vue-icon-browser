@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SortVariantLock",
-  vendor: "Mdi",
-  type: "",
-  tags: ["sort","variant","lock"],
+  $_icon: {
+    name: "SortVariantLock",
+    vendor: "Mdi",
+    type: "",
+    tags: ["sort","variant","lock"],
+  },
   render() {
     return h(
       "svg",

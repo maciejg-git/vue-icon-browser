@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FaceManShimmerOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["face","man","shimmer","outline"],
+  $_icon: {
+    name: "FaceManShimmerOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["face","man","shimmer","outline"],
+  },
   render() {
     return h(
       "svg",

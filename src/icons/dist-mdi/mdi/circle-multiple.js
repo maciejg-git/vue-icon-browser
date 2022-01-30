@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CircleMultiple",
-  vendor: "Mdi",
-  type: "",
-  tags: ["circle","multiple"],
+  $_icon: {
+    name: "CircleMultiple",
+    vendor: "Mdi",
+    type: "",
+    tags: ["circle","multiple"],
+  },
   render() {
     return h(
       "svg",

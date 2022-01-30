@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FocusFieldHorizontal",
-  vendor: "Mdi",
-  type: "",
-  tags: ["focus","field","horizontal"],
+  $_icon: {
+    name: "FocusFieldHorizontal",
+    vendor: "Mdi",
+    type: "",
+    tags: ["focus","field","horizontal"],
+  },
   render() {
     return h(
       "svg",

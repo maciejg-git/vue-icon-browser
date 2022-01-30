@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileReplace",
-  vendor: "Mdi",
-  type: "",
-  tags: ["file","replace"],
+  $_icon: {
+    name: "FileReplace",
+    vendor: "Mdi",
+    type: "",
+    tags: ["file","replace"],
+  },
   render() {
     return h(
       "svg",

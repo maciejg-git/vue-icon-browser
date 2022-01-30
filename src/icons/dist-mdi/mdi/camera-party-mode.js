@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CameraPartyMode",
-  vendor: "Mdi",
-  type: "",
-  tags: ["camera","party","mode"],
+  $_icon: {
+    name: "CameraPartyMode",
+    vendor: "Mdi",
+    type: "",
+    tags: ["camera","party","mode"],
+  },
   render() {
     return h(
       "svg",

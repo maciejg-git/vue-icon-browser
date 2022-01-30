@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ImageMarkerOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["image","marker","outline"],
+  $_icon: {
+    name: "ImageMarkerOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["image","marker","outline"],
+  },
   render() {
     return h(
       "svg",

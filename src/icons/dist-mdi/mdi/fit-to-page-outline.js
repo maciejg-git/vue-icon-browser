@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FitToPageOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["fit","to","page","outline"],
+  $_icon: {
+    name: "FitToPageOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["fit","to","page","outline"],
+  },
   render() {
     return h(
       "svg",

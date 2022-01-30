@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LanguageFortran",
-  vendor: "Mdi",
-  type: "",
-  tags: ["language","fortran"],
+  $_icon: {
+    name: "LanguageFortran",
+    vendor: "Mdi",
+    type: "",
+    tags: ["language","fortran"],
+  },
   render() {
     return h(
       "svg",

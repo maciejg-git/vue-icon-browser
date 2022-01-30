@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatHeaderIncrease",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","header","increase"],
+  $_icon: {
+    name: "FormatHeaderIncrease",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","header","increase"],
+  },
   render() {
     return h(
       "svg",

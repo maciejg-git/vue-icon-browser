@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TextareaResize",
-  vendor: "B",
-  type: "",
-  tags: ["textarea","resize"],
+  $_icon: {
+    name: "TextareaResize",
+    vendor: "B",
+    type: "",
+    tags: ["textarea","resize"],
+  },
   render() {
     return h(
       "svg",

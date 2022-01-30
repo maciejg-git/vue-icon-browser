@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileMarker",
-  vendor: "Mdi",
-  type: "",
-  tags: ["file","marker"],
+  $_icon: {
+    name: "FileMarker",
+    vendor: "Mdi",
+    type: "",
+    tags: ["file","marker"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Microchip",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["microchip"],
+  $_icon: {
+    name: "Microchip",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["microchip"],
+  },
   render() {
     return h(
       "svg",

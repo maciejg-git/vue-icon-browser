@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Webhook",
-  vendor: "Mdi",
-  type: "",
-  tags: ["webhook"],
+  $_icon: {
+    name: "Webhook",
+    vendor: "Mdi",
+    type: "",
+    tags: ["webhook"],
+  },
   render() {
     return h(
       "svg",

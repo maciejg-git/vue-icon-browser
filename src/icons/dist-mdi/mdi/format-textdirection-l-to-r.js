@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatTextdirectionLToR",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","textdirection","l","to","r"],
+  $_icon: {
+    name: "FormatTextdirectionLToR",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","textdirection","l","to","r"],
+  },
   render() {
     return h(
       "svg",

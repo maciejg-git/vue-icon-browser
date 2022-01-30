@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RelationOneToOneOrMany",
-  vendor: "Mdi",
-  type: "",
-  tags: ["relation","one","to","one","or","many"],
+  $_icon: {
+    name: "RelationOneToOneOrMany",
+    vendor: "Mdi",
+    type: "",
+    tags: ["relation","one","to","one","or","many"],
+  },
   render() {
     return h(
       "svg",

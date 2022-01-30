@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TooltipText",
-  vendor: "Mdi",
-  type: "",
-  tags: ["tooltip","text"],
+  $_icon: {
+    name: "TooltipText",
+    vendor: "Mdi",
+    type: "",
+    tags: ["tooltip","text"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SkipEndCircleFill",
-  vendor: "B",
-  type: "",
-  tags: ["skip","end","circle","fill"],
+  $_icon: {
+    name: "SkipEndCircleFill",
+    vendor: "B",
+    type: "",
+    tags: ["skip","end","circle","fill"],
+  },
   render() {
     return h(
       "svg",

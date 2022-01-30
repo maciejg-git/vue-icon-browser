@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PageNext",
-  vendor: "Mdi",
-  type: "",
-  tags: ["page","next"],
+  $_icon: {
+    name: "PageNext",
+    vendor: "Mdi",
+    type: "",
+    tags: ["page","next"],
+  },
   render() {
     return h(
       "svg",

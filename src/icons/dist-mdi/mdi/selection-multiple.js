@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SelectionMultiple",
-  vendor: "Mdi",
-  type: "",
-  tags: ["selection","multiple"],
+  $_icon: {
+    name: "SelectionMultiple",
+    vendor: "Mdi",
+    type: "",
+    tags: ["selection","multiple"],
+  },
   render() {
     return h(
       "svg",

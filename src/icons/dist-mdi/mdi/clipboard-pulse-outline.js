@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ClipboardPulseOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["clipboard","pulse","outline"],
+  $_icon: {
+    name: "ClipboardPulseOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["clipboard","pulse","outline"],
+  },
   render() {
     return h(
       "svg",

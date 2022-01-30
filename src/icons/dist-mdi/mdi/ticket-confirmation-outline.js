@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TicketConfirmationOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["ticket","confirmation","outline"],
+  $_icon: {
+    name: "TicketConfirmationOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["ticket","confirmation","outline"],
+  },
   render() {
     return h(
       "svg",

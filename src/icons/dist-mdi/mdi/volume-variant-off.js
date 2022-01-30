@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "VolumeVariantOff",
-  vendor: "Mdi",
-  type: "",
-  tags: ["volume","variant","off"],
+  $_icon: {
+    name: "VolumeVariantOff",
+    vendor: "Mdi",
+    type: "",
+    tags: ["volume","variant","off"],
+  },
   render() {
     return h(
       "svg",

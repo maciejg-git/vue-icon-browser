@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "KeyboardVariant",
-  vendor: "Mdi",
-  type: "",
-  tags: ["keyboard","variant"],
+  $_icon: {
+    name: "KeyboardVariant",
+    vendor: "Mdi",
+    type: "",
+    tags: ["keyboard","variant"],
+  },
   render() {
     return h(
       "svg",

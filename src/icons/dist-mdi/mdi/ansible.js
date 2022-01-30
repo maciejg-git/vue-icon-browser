@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Ansible",
-  vendor: "Mdi",
-  type: "",
-  tags: ["ansible"],
+  $_icon: {
+    name: "Ansible",
+    vendor: "Mdi",
+    type: "",
+    tags: ["ansible"],
+  },
   render() {
     return h(
       "svg",

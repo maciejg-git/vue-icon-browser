@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MapClockOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["map","clock","outline"],
+  $_icon: {
+    name: "MapClockOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["map","clock","outline"],
+  },
   render() {
     return h(
       "svg",

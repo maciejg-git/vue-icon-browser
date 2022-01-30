@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "WifiStrength2LockOpen",
-  vendor: "Mdi",
-  type: "",
-  tags: ["wifi","strength","2","lock","open"],
+  $_icon: {
+    name: "WifiStrength2LockOpen",
+    vendor: "Mdi",
+    type: "",
+    tags: ["wifi","strength","2","lock","open"],
+  },
   render() {
     return h(
       "svg",

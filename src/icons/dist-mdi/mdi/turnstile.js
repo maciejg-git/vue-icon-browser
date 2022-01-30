@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Turnstile",
-  vendor: "Mdi",
-  type: "",
-  tags: ["turnstile"],
+  $_icon: {
+    name: "Turnstile",
+    vendor: "Mdi",
+    type: "",
+    tags: ["turnstile"],
+  },
   render() {
     return h(
       "svg",

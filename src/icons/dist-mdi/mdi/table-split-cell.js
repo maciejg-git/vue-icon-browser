@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TableSplitCell",
-  vendor: "Mdi",
-  type: "",
-  tags: ["table","split","cell"],
+  $_icon: {
+    name: "TableSplitCell",
+    vendor: "Mdi",
+    type: "",
+    tags: ["table","split","cell"],
+  },
   render() {
     return h(
       "svg",

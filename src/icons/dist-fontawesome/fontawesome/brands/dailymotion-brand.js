@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Dailymotion",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["dailymotion"],
+  $_icon: {
+    name: "Dailymotion",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["dailymotion"],
+  },
   render() {
     return h(
       "svg",

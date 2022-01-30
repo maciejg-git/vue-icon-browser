@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PhoneForwardOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["phone","forward","outline"],
+  $_icon: {
+    name: "PhoneForwardOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["phone","forward","outline"],
+  },
   render() {
     return h(
       "svg",

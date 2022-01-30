@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Indent",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["indent"],
+  $_icon: {
+    name: "Indent",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["indent"],
+  },
   render() {
     return h(
       "svg",

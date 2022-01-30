@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LayersHalf",
-  vendor: "B",
-  type: "",
-  tags: ["layers","half"],
+  $_icon: {
+    name: "LayersHalf",
+    vendor: "B",
+    type: "",
+    tags: ["layers","half"],
+  },
   render() {
     return h(
       "svg",

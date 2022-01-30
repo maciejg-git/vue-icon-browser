@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DeleteSweepOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["delete","sweep","outline"],
+  $_icon: {
+    name: "DeleteSweepOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["delete","sweep","outline"],
+  },
   render() {
     return h(
       "svg",

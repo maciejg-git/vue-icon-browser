@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LayoutSidebarInsetReverse",
-  vendor: "B",
-  type: "",
-  tags: ["layout","sidebar","inset","reverse"],
+  $_icon: {
+    name: "LayoutSidebarInsetReverse",
+    vendor: "B",
+    type: "",
+    tags: ["layout","sidebar","inset","reverse"],
+  },
   render() {
     return h(
       "svg",

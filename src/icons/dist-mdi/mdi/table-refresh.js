@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TableRefresh",
-  vendor: "Mdi",
-  type: "",
-  tags: ["table","refresh"],
+  $_icon: {
+    name: "TableRefresh",
+    vendor: "Mdi",
+    type: "",
+    tags: ["table","refresh"],
+  },
   render() {
     return h(
       "svg",

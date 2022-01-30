@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TuneVertical",
-  vendor: "Mdi",
-  type: "",
-  tags: ["tune","vertical"],
+  $_icon: {
+    name: "TuneVertical",
+    vendor: "Mdi",
+    type: "",
+    tags: ["tune","vertical"],
+  },
   render() {
     return h(
       "svg",

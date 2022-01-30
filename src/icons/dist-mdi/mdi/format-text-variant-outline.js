@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatTextVariantOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","text","variant","outline"],
+  $_icon: {
+    name: "FormatTextVariantOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","text","variant","outline"],
+  },
   render() {
     return h(
       "svg",

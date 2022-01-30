@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MathNormBox",
-  vendor: "Mdi",
-  type: "",
-  tags: ["math","norm","box"],
+  $_icon: {
+    name: "MathNormBox",
+    vendor: "Mdi",
+    type: "",
+    tags: ["math","norm","box"],
+  },
   render() {
     return h(
       "svg",

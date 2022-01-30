@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CommentPlusOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["comment","plus","outline"],
+  $_icon: {
+    name: "CommentPlusOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["comment","plus","outline"],
+  },
   render() {
     return h(
       "svg",

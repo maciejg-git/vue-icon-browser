@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormTextboxLock",
-  vendor: "Mdi",
-  type: "",
-  tags: ["form","textbox","lock"],
+  $_icon: {
+    name: "FormTextboxLock",
+    vendor: "Mdi",
+    type: "",
+    tags: ["form","textbox","lock"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ImageEditOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["image","edit","outline"],
+  $_icon: {
+    name: "ImageEditOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["image","edit","outline"],
+  },
   render() {
     return h(
       "svg",

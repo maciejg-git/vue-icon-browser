@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Gnome",
-  vendor: "Mdi",
-  type: "",
-  tags: ["gnome"],
+  $_icon: {
+    name: "Gnome",
+    vendor: "Mdi",
+    type: "",
+    tags: ["gnome"],
+  },
   render() {
     return h(
       "svg",

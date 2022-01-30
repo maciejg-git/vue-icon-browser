@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SetSplit",
-  vendor: "Mdi",
-  type: "",
-  tags: ["set","split"],
+  $_icon: {
+    name: "SetSplit",
+    vendor: "Mdi",
+    type: "",
+    tags: ["set","split"],
+  },
   render() {
     return h(
       "svg",

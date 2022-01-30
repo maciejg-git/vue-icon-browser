@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FridgeIndustrialAlertOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["fridge","industrial","alert","outline"],
+  $_icon: {
+    name: "FridgeIndustrialAlertOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["fridge","industrial","alert","outline"],
+  },
   render() {
     return h(
       "svg",

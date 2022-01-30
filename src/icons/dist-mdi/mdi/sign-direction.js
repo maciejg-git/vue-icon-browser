@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SignDirection",
-  vendor: "Mdi",
-  type: "",
-  tags: ["sign","direction"],
+  $_icon: {
+    name: "SignDirection",
+    vendor: "Mdi",
+    type: "",
+    tags: ["sign","direction"],
+  },
   render() {
     return h(
       "svg",

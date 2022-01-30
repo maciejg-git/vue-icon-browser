@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CarWindshieldOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["car","windshield","outline"],
+  $_icon: {
+    name: "CarWindshieldOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["car","windshield","outline"],
+  },
   render() {
     return h(
       "svg",

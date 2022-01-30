@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RoutesClock",
-  vendor: "Mdi",
-  type: "",
-  tags: ["routes","clock"],
+  $_icon: {
+    name: "RoutesClock",
+    vendor: "Mdi",
+    type: "",
+    tags: ["routes","clock"],
+  },
   render() {
     return h(
       "svg",

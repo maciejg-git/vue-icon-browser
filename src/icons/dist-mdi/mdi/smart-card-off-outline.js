@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SmartCardOffOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["smart","card","off","outline"],
+  $_icon: {
+    name: "SmartCardOffOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["smart","card","off","outline"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SelectionEllipse",
-  vendor: "Mdi",
-  type: "",
-  tags: ["selection","ellipse"],
+  $_icon: {
+    name: "SelectionEllipse",
+    vendor: "Mdi",
+    type: "",
+    tags: ["selection","ellipse"],
+  },
   render() {
     return h(
       "svg",

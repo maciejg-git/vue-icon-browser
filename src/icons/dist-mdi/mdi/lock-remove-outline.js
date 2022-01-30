@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LockRemoveOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["lock","remove","outline"],
+  $_icon: {
+    name: "LockRemoveOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["lock","remove","outline"],
+  },
   render() {
     return h(
       "svg",

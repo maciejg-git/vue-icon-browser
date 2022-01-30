@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Wpforms",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["wpforms"],
+  $_icon: {
+    name: "Wpforms",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["wpforms"],
+  },
   render() {
     return h(
       "svg",

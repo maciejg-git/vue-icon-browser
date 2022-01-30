@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ClipboardArrowUp",
-  vendor: "Mdi",
-  type: "",
-  tags: ["clipboard","arrow","up"],
+  $_icon: {
+    name: "ClipboardArrowUp",
+    vendor: "Mdi",
+    type: "",
+    tags: ["clipboard","arrow","up"],
+  },
   render() {
     return h(
       "svg",

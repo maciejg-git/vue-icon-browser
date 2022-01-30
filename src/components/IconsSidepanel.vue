@@ -37,11 +37,12 @@
         <!-- header -->
         <icons-sidepanel-header text="Vendors" />
         <!-- vendors -->
-        <div class="mx-6 mb-4">
+        <div class="mx-4 mb-4">
           <ul>
-            <li class="py-1">
+            <li>
               <v-button
                 name="button-link"
+                class="hover:bg-gray-100 px-2 py-1"
                 @click="emit('toggle-vendor', 'bootstrap')"
               >
                 <v-spinner
@@ -62,9 +63,10 @@
                 Bootstrap Icons
               </v-button>
             </li>
-            <li class="py-1">
+            <li>
               <v-button
                 name="button-link"
+                class="hover:bg-gray-100 px-2 py-1"
                 @click="emit('toggle-vendor', 'mdi')"
               >
                 <v-spinner
@@ -85,9 +87,10 @@
                 Material Design Icons
               </v-button>
             </li>
-            <li class="py-1">
+            <li>
               <v-button
                 name="button-link"
+                class="hover:bg-gray-100 px-2 py-1"
                 @click="emit('toggle-vendor', 'fontawesome')"
               >
                 <v-spinner
@@ -120,12 +123,12 @@
         <!-- icons -->
         <div v-if="selectedIcons.length" class="mb-4">
           <div class="w-full">
-            <ul class="mx-1">
+            <ul class="mx-2">
               <transition-group name="fade-icon">
                 <li
                   v-for="i in selectedIcons"
-                  :key="i.icon.name"
-                  class="flex justify-between hover:bg-gray-100 py-1 ml-4"
+                  :key="i.icon.$_icon.name"
+                  class="flex justify-between hover:bg-gray-100 px-2 py-1"
                 >
                   <!-- selected icon -->
                   <div class="flex items-center">
@@ -138,7 +141,7 @@
                     </div>
                   </div>
                   <!-- buttons -->
-                  <div class="flex items-center mr-4">
+                  <div class="flex items-center">
                     <button @click="copyIconToClipboard(i)">
                       <transition name="fade-icon" mode="out-in">
                         <v-icon

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LanguageXaml",
-  vendor: "Mdi",
-  type: "",
-  tags: ["language","xaml"],
+  $_icon: {
+    name: "LanguageXaml",
+    vendor: "Mdi",
+    type: "",
+    tags: ["language","xaml"],
+  },
   render() {
     return h(
       "svg",

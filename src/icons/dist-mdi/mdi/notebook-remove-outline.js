@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "NotebookRemoveOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["notebook","remove","outline"],
+  $_icon: {
+    name: "NotebookRemoveOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["notebook","remove","outline"],
+  },
   render() {
     return h(
       "svg",

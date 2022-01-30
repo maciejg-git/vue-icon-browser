@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PanoramaVertical",
-  vendor: "Mdi",
-  type: "",
-  tags: ["panorama","vertical"],
+  $_icon: {
+    name: "PanoramaVertical",
+    vendor: "Mdi",
+    type: "",
+    tags: ["panorama","vertical"],
+  },
   render() {
     return h(
       "svg",

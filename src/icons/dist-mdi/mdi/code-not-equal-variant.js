@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CodeNotEqualVariant",
-  vendor: "Mdi",
-  type: "",
-  tags: ["code","not","equal","variant"],
+  $_icon: {
+    name: "CodeNotEqualVariant",
+    vendor: "Mdi",
+    type: "",
+    tags: ["code","not","equal","variant"],
+  },
   render() {
     return h(
       "svg",

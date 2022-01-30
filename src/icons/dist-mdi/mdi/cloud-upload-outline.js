@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CloudUploadOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["cloud","upload","outline"],
+  $_icon: {
+    name: "CloudUploadOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["cloud","upload","outline"],
+  },
   render() {
     return h(
       "svg",

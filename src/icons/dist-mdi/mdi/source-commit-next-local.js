@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SourceCommitNextLocal",
-  vendor: "Mdi",
-  type: "",
-  tags: ["source","commit","next","local"],
+  $_icon: {
+    name: "SourceCommitNextLocal",
+    vendor: "Mdi",
+    type: "",
+    tags: ["source","commit","next","local"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Stopwatch20",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["stopwatch","20"],
+  $_icon: {
+    name: "Stopwatch20",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["stopwatch","20"],
+  },
   render() {
     return h(
       "svg",

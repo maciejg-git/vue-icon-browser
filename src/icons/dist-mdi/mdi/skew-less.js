@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SkewLess",
-  vendor: "Mdi",
-  type: "",
-  tags: ["skew","less"],
+  $_icon: {
+    name: "SkewLess",
+    vendor: "Mdi",
+    type: "",
+    tags: ["skew","less"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ViewDashboard",
-  vendor: "Mdi",
-  type: "",
-  tags: ["view","dashboard"],
+  $_icon: {
+    name: "ViewDashboard",
+    vendor: "Mdi",
+    type: "",
+    tags: ["view","dashboard"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LayoutSplit",
-  vendor: "B",
-  type: "",
-  tags: ["layout","split"],
+  $_icon: {
+    name: "LayoutSplit",
+    vendor: "B",
+    type: "",
+    tags: ["layout","split"],
+  },
   render() {
     return h(
       "svg",

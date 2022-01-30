@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Timetable",
-  vendor: "Mdi",
-  type: "",
-  tags: ["timetable"],
+  $_icon: {
+    name: "Timetable",
+    vendor: "Mdi",
+    type: "",
+    tags: ["timetable"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatLineSpacing",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","line","spacing"],
+  $_icon: {
+    name: "FormatLineSpacing",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","line","spacing"],
+  },
   render() {
     return h(
       "svg",

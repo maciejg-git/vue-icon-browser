@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ScreenRotation",
-  vendor: "Mdi",
-  type: "",
-  tags: ["screen","rotation"],
+  $_icon: {
+    name: "ScreenRotation",
+    vendor: "Mdi",
+    type: "",
+    tags: ["screen","rotation"],
+  },
   render() {
     return h(
       "svg",

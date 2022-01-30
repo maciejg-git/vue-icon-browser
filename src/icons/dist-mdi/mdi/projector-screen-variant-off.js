@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ProjectorScreenVariantOff",
-  vendor: "Mdi",
-  type: "",
-  tags: ["projector","screen","variant","off"],
+  $_icon: {
+    name: "ProjectorScreenVariantOff",
+    vendor: "Mdi",
+    type: "",
+    tags: ["projector","screen","variant","off"],
+  },
   render() {
     return h(
       "svg",

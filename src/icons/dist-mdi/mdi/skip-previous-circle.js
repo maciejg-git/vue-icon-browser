@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SkipPreviousCircle",
-  vendor: "Mdi",
-  type: "",
-  tags: ["skip","previous","circle"],
+  $_icon: {
+    name: "SkipPreviousCircle",
+    vendor: "Mdi",
+    type: "",
+    tags: ["skip","previous","circle"],
+  },
   render() {
     return h(
       "svg",

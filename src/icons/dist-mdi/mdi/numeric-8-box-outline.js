@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Numeric8BoxOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["numeric","8","box","outline"],
+  $_icon: {
+    name: "Numeric8BoxOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["numeric","8","box","outline"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GoogleController",
-  vendor: "Mdi",
-  type: "",
-  tags: ["google","controller"],
+  $_icon: {
+    name: "GoogleController",
+    vendor: "Mdi",
+    type: "",
+    tags: ["google","controller"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PaletteSwatchOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["palette","swatch","outline"],
+  $_icon: {
+    name: "PaletteSwatchOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["palette","swatch","outline"],
+  },
   render() {
     return h(
       "svg",

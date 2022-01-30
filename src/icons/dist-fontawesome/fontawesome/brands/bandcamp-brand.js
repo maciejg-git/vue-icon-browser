@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Bandcamp",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["bandcamp"],
+  $_icon: {
+    name: "Bandcamp",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["bandcamp"],
+  },
   render() {
     return h(
       "svg",

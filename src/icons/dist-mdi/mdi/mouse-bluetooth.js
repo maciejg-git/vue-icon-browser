@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MouseBluetooth",
-  vendor: "Mdi",
-  type: "",
-  tags: ["mouse","bluetooth"],
+  $_icon: {
+    name: "MouseBluetooth",
+    vendor: "Mdi",
+    type: "",
+    tags: ["mouse","bluetooth"],
+  },
   render() {
     return h(
       "svg",

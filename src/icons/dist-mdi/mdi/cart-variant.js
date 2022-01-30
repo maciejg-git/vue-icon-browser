@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CartVariant",
-  vendor: "Mdi",
-  type: "",
-  tags: ["cart","variant"],
+  $_icon: {
+    name: "CartVariant",
+    vendor: "Mdi",
+    type: "",
+    tags: ["cart","variant"],
+  },
   render() {
     return h(
       "svg",

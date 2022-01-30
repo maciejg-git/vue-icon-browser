@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CloseBoxMultiple",
-  vendor: "Mdi",
-  type: "",
-  tags: ["close","box","multiple"],
+  $_icon: {
+    name: "CloseBoxMultiple",
+    vendor: "Mdi",
+    type: "",
+    tags: ["close","box","multiple"],
+  },
   render() {
     return h(
       "svg",

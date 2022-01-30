@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PotSteam",
-  vendor: "Mdi",
-  type: "",
-  tags: ["pot","steam"],
+  $_icon: {
+    name: "PotSteam",
+    vendor: "Mdi",
+    type: "",
+    tags: ["pot","steam"],
+  },
   render() {
     return h(
       "svg",

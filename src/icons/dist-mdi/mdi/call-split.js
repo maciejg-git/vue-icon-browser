@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CallSplit",
-  vendor: "Mdi",
-  type: "",
-  tags: ["call","split"],
+  $_icon: {
+    name: "CallSplit",
+    vendor: "Mdi",
+    type: "",
+    tags: ["call","split"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LayersEdit",
-  vendor: "Mdi",
-  type: "",
-  tags: ["layers","edit"],
+  $_icon: {
+    name: "LayersEdit",
+    vendor: "Mdi",
+    type: "",
+    tags: ["layers","edit"],
+  },
   render() {
     return h(
       "svg",

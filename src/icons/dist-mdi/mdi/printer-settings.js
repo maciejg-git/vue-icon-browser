@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PrinterSettings",
-  vendor: "Mdi",
-  type: "",
-  tags: ["printer","settings"],
+  $_icon: {
+    name: "PrinterSettings",
+    vendor: "Mdi",
+    type: "",
+    tags: ["printer","settings"],
+  },
   render() {
     return h(
       "svg",

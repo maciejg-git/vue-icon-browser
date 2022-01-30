@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "WallSconceFlatVariantOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["wall","sconce","flat","variant","outline"],
+  $_icon: {
+    name: "WallSconceFlatVariantOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["wall","sconce","flat","variant","outline"],
+  },
   render() {
     return h(
       "svg",

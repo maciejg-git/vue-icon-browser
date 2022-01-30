@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MicrosoftExcel",
-  vendor: "Mdi",
-  type: "",
-  tags: ["microsoft","excel"],
+  $_icon: {
+    name: "MicrosoftExcel",
+    vendor: "Mdi",
+    type: "",
+    tags: ["microsoft","excel"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MicrowaveOff",
-  vendor: "Mdi",
-  type: "",
-  tags: ["microwave","off"],
+  $_icon: {
+    name: "MicrowaveOff",
+    vendor: "Mdi",
+    type: "",
+    tags: ["microwave","off"],
+  },
   render() {
     return h(
       "svg",

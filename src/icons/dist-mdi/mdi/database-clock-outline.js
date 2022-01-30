@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DatabaseClockOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["database","clock","outline"],
+  $_icon: {
+    name: "DatabaseClockOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["database","clock","outline"],
+  },
   render() {
     return h(
       "svg",

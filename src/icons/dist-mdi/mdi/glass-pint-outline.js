@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GlassPintOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["glass","pint","outline"],
+  $_icon: {
+    name: "GlassPintOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["glass","pint","outline"],
+  },
   render() {
     return h(
       "svg",

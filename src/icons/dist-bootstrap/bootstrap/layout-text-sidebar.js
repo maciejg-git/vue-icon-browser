@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LayoutTextSidebar",
-  vendor: "B",
-  type: "",
-  tags: ["layout","text","sidebar"],
+  $_icon: {
+    name: "LayoutTextSidebar",
+    vendor: "B",
+    type: "",
+    tags: ["layout","text","sidebar"],
+  },
   render() {
     return h(
       "svg",

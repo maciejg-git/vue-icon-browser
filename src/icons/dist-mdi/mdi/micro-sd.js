@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MicroSd",
-  vendor: "Mdi",
-  type: "",
-  tags: ["micro","sd"],
+  $_icon: {
+    name: "MicroSd",
+    vendor: "Mdi",
+    type: "",
+    tags: ["micro","sd"],
+  },
   render() {
     return h(
       "svg",

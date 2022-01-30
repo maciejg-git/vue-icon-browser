@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Android",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["android"],
+  $_icon: {
+    name: "Android",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["android"],
+  },
   render() {
     return h(
       "svg",

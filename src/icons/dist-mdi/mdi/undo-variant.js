@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "UndoVariant",
-  vendor: "Mdi",
-  type: "",
-  tags: ["undo","variant"],
+  $_icon: {
+    name: "UndoVariant",
+    vendor: "Mdi",
+    type: "",
+    tags: ["undo","variant"],
+  },
   render() {
     return h(
       "svg",

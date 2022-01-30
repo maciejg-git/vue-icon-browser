@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LabelMultipleOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["label","multiple","outline"],
+  $_icon: {
+    name: "LabelMultipleOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["label","multiple","outline"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LanguageMarkdown",
-  vendor: "Mdi",
-  type: "",
-  tags: ["language","markdown"],
+  $_icon: {
+    name: "LanguageMarkdown",
+    vendor: "Mdi",
+    type: "",
+    tags: ["language","markdown"],
+  },
   render() {
     return h(
       "svg",

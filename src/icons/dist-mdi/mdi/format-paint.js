@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatPaint",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","paint"],
+  $_icon: {
+    name: "FormatPaint",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","paint"],
+  },
   render() {
     return h(
       "svg",

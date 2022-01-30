@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PeriodicTable",
-  vendor: "Mdi",
-  type: "",
-  tags: ["periodic","table"],
+  $_icon: {
+    name: "PeriodicTable",
+    vendor: "Mdi",
+    type: "",
+    tags: ["periodic","table"],
+  },
   render() {
     return h(
       "svg",

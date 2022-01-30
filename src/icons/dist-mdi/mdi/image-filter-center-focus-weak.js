@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ImageFilterCenterFocusWeak",
-  vendor: "Mdi",
-  type: "",
-  tags: ["image","filter","center","focus","weak"],
+  $_icon: {
+    name: "ImageFilterCenterFocusWeak",
+    vendor: "Mdi",
+    type: "",
+    tags: ["image","filter","center","focus","weak"],
+  },
   render() {
     return h(
       "svg",

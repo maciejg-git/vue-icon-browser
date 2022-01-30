@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "EuroSign",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["euro","sign"],
+  $_icon: {
+    name: "EuroSign",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["euro","sign"],
+  },
   render() {
     return h(
       "svg",

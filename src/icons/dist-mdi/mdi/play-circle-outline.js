@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PlayCircleOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["play","circle","outline"],
+  $_icon: {
+    name: "PlayCircleOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["play","circle","outline"],
+  },
   render() {
     return h(
       "svg",

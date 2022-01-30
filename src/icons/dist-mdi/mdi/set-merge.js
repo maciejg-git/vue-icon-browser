@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SetMerge",
-  vendor: "Mdi",
-  type: "",
-  tags: ["set","merge"],
+  $_icon: {
+    name: "SetMerge",
+    vendor: "Mdi",
+    type: "",
+    tags: ["set","merge"],
+  },
   render() {
     return h(
       "svg",

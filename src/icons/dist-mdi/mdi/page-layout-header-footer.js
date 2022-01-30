@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PageLayoutHeaderFooter",
-  vendor: "Mdi",
-  type: "",
-  tags: ["page","layout","header","footer"],
+  $_icon: {
+    name: "PageLayoutHeaderFooter",
+    vendor: "Mdi",
+    type: "",
+    tags: ["page","layout","header","footer"],
+  },
   render() {
     return h(
       "svg",

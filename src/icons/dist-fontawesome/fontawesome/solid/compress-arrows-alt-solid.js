@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CompressArrowsAlt",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["compress","arrows","alt"],
+  $_icon: {
+    name: "CompressArrowsAlt",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["compress","arrows","alt"],
+  },
   render() {
     return h(
       "svg",

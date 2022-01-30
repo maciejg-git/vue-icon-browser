@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LocationExit",
-  vendor: "Mdi",
-  type: "",
-  tags: ["location","exit"],
+  $_icon: {
+    name: "LocationExit",
+    vendor: "Mdi",
+    type: "",
+    tags: ["location","exit"],
+  },
   render() {
     return h(
       "svg",

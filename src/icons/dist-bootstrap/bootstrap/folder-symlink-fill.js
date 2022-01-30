@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FolderSymlinkFill",
-  vendor: "B",
-  type: "",
-  tags: ["folder","symlink","fill"],
+  $_icon: {
+    name: "FolderSymlinkFill",
+    vendor: "B",
+    type: "",
+    tags: ["folder","symlink","fill"],
+  },
   render() {
     return h(
       "svg",

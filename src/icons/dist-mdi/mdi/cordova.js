@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Cordova",
-  vendor: "Mdi",
-  type: "",
-  tags: ["cordova"],
+  $_icon: {
+    name: "Cordova",
+    vendor: "Mdi",
+    type: "",
+    tags: ["cordova"],
+  },
   render() {
     return h(
       "svg",

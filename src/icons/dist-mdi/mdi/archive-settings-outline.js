@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ArchiveSettingsOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["archive","settings","outline"],
+  $_icon: {
+    name: "ArchiveSettingsOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["archive","settings","outline"],
+  },
   render() {
     return h(
       "svg",

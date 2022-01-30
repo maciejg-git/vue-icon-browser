@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TransmissionTowerExport",
-  vendor: "Mdi",
-  type: "",
-  tags: ["transmission","tower","export"],
+  $_icon: {
+    name: "TransmissionTowerExport",
+    vendor: "Mdi",
+    type: "",
+    tags: ["transmission","tower","export"],
+  },
   render() {
     return h(
       "svg",

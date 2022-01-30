@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MicrosoftOutlook",
-  vendor: "Mdi",
-  type: "",
-  tags: ["microsoft","outlook"],
+  $_icon: {
+    name: "MicrosoftOutlook",
+    vendor: "Mdi",
+    type: "",
+    tags: ["microsoft","outlook"],
+  },
   render() {
     return h(
       "svg",

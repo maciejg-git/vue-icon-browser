@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CaseSensitiveAlt",
-  vendor: "Mdi",
-  type: "",
-  tags: ["case","sensitive","alt"],
+  $_icon: {
+    name: "CaseSensitiveAlt",
+    vendor: "Mdi",
+    type: "",
+    tags: ["case","sensitive","alt"],
+  },
   render() {
     return h(
       "svg",

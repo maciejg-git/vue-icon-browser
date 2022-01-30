@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ChartTimelineVariantShimmer",
-  vendor: "Mdi",
-  type: "",
-  tags: ["chart","timeline","variant","shimmer"],
+  $_icon: {
+    name: "ChartTimelineVariantShimmer",
+    vendor: "Mdi",
+    type: "",
+    tags: ["chart","timeline","variant","shimmer"],
+  },
   render() {
     return h(
       "svg",

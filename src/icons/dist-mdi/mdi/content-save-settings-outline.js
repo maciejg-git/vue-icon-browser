@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ContentSaveSettingsOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["content","save","settings","outline"],
+  $_icon: {
+    name: "ContentSaveSettingsOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["content","save","settings","outline"],
+  },
   render() {
     return h(
       "svg",

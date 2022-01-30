@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CeilingLightOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["ceiling","light","outline"],
+  $_icon: {
+    name: "CeilingLightOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["ceiling","light","outline"],
+  },
   render() {
     return h(
       "svg",

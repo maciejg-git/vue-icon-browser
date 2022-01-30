@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MusicNoteEighthDotted",
-  vendor: "Mdi",
-  type: "",
-  tags: ["music","note","eighth","dotted"],
+  $_icon: {
+    name: "MusicNoteEighthDotted",
+    vendor: "Mdi",
+    type: "",
+    tags: ["music","note","eighth","dotted"],
+  },
   render() {
     return h(
       "svg",

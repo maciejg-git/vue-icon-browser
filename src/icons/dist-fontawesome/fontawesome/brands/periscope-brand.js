@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Periscope",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["periscope"],
+  $_icon: {
+    name: "Periscope",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["periscope"],
+  },
   render() {
     return h(
       "svg",

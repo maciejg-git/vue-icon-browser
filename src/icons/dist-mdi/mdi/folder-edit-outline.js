@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FolderEditOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["folder","edit","outline"],
+  $_icon: {
+    name: "FolderEditOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["folder","edit","outline"],
+  },
   render() {
     return h(
       "svg",

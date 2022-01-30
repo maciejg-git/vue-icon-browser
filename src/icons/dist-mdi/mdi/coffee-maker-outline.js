@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CoffeeMakerOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["coffee","maker","outline"],
+  $_icon: {
+    name: "CoffeeMakerOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["coffee","maker","outline"],
+  },
   render() {
     return h(
       "svg",

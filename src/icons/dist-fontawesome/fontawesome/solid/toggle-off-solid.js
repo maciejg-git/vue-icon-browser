@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ToggleOff",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["toggle","off"],
+  $_icon: {
+    name: "ToggleOff",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["toggle","off"],
+  },
   render() {
     return h(
       "svg",

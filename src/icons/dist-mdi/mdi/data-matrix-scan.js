@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DataMatrixScan",
-  vendor: "Mdi",
-  type: "",
-  tags: ["data","matrix","scan"],
+  $_icon: {
+    name: "DataMatrixScan",
+    vendor: "Mdi",
+    type: "",
+    tags: ["data","matrix","scan"],
+  },
   render() {
     return h(
       "svg",

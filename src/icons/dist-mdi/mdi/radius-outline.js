@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RadiusOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["radius","outline"],
+  $_icon: {
+    name: "RadiusOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["radius","outline"],
+  },
   render() {
     return h(
       "svg",

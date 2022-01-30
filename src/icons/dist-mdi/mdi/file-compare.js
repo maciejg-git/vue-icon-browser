@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileCompare",
-  vendor: "Mdi",
-  type: "",
-  tags: ["file","compare"],
+  $_icon: {
+    name: "FileCompare",
+    vendor: "Mdi",
+    type: "",
+    tags: ["file","compare"],
+  },
   render() {
     return h(
       "svg",

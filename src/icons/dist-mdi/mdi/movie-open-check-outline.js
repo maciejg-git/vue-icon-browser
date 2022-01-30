@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MovieOpenCheckOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["movie","open","check","outline"],
+  $_icon: {
+    name: "MovieOpenCheckOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["movie","open","check","outline"],
+  },
   render() {
     return h(
       "svg",

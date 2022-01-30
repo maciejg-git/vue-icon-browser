@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AccountSupervisorCircleOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["account","supervisor","circle","outline"],
+  $_icon: {
+    name: "AccountSupervisorCircleOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["account","supervisor","circle","outline"],
+  },
   render() {
     return h(
       "svg",

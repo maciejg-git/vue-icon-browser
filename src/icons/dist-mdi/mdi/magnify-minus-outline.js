@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MagnifyMinusOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["magnify","minus","outline"],
+  $_icon: {
+    name: "MagnifyMinusOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["magnify","minus","outline"],
+  },
   render() {
     return h(
       "svg",

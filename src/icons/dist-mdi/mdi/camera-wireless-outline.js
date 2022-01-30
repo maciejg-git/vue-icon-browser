@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CameraWirelessOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["camera","wireless","outline"],
+  $_icon: {
+    name: "CameraWirelessOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["camera","wireless","outline"],
+  },
   render() {
     return h(
       "svg",

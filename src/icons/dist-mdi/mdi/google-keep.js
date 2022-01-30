@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GoogleKeep",
-  vendor: "Mdi",
-  type: "",
-  tags: ["google","keep"],
+  $_icon: {
+    name: "GoogleKeep",
+    vendor: "Mdi",
+    type: "",
+    tags: ["google","keep"],
+  },
   render() {
     return h(
       "svg",

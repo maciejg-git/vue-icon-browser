@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BoxSeam",
-  vendor: "B",
-  type: "",
-  tags: ["box","seam"],
+  $_icon: {
+    name: "BoxSeam",
+    vendor: "B",
+    type: "",
+    tags: ["box","seam"],
+  },
   render() {
     return h(
       "svg",

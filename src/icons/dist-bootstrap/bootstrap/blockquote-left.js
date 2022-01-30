@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BlockquoteLeft",
-  vendor: "B",
-  type: "",
-  tags: ["blockquote","left"],
+  $_icon: {
+    name: "BlockquoteLeft",
+    vendor: "B",
+    type: "",
+    tags: ["blockquote","left"],
+  },
   render() {
     return h(
       "svg",

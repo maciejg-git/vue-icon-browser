@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Css3Alt",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["css3","alt"],
+  $_icon: {
+    name: "Css3Alt",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["css3","alt"],
+  },
   render() {
     return h(
       "svg",

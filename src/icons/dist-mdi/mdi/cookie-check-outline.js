@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CookieCheckOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["cookie","check","outline"],
+  $_icon: {
+    name: "CookieCheckOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["cookie","check","outline"],
+  },
   render() {
     return h(
       "svg",

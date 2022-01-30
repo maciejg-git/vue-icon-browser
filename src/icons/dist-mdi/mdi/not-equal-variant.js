@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "NotEqualVariant",
-  vendor: "Mdi",
-  type: "",
-  tags: ["not","equal","variant"],
+  $_icon: {
+    name: "NotEqualVariant",
+    vendor: "Mdi",
+    type: "",
+    tags: ["not","equal","variant"],
+  },
   render() {
     return h(
       "svg",

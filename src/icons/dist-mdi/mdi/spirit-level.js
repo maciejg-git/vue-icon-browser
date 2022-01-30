@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SpiritLevel",
-  vendor: "Mdi",
-  type: "",
-  tags: ["spirit","level"],
+  $_icon: {
+    name: "SpiritLevel",
+    vendor: "Mdi",
+    type: "",
+    tags: ["spirit","level"],
+  },
   render() {
     return h(
       "svg",

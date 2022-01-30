@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AlphaQBoxOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["alpha","q","box","outline"],
+  $_icon: {
+    name: "AlphaQBoxOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["alpha","q","box","outline"],
+  },
   render() {
     return h(
       "svg",

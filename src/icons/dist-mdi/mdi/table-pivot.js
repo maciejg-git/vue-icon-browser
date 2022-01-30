@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TablePivot",
-  vendor: "Mdi",
-  type: "",
-  tags: ["table","pivot"],
+  $_icon: {
+    name: "TablePivot",
+    vendor: "Mdi",
+    type: "",
+    tags: ["table","pivot"],
+  },
   render() {
     return h(
       "svg",

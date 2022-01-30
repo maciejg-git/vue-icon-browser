@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TextureBox",
-  vendor: "Mdi",
-  type: "",
-  tags: ["texture","box"],
+  $_icon: {
+    name: "TextureBox",
+    vendor: "Mdi",
+    type: "",
+    tags: ["texture","box"],
+  },
   render() {
     return h(
       "svg",

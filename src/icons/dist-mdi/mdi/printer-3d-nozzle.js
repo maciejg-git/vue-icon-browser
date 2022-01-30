@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Printer3dNozzle",
-  vendor: "Mdi",
-  type: "",
-  tags: ["printer","3d","nozzle"],
+  $_icon: {
+    name: "Printer3dNozzle",
+    vendor: "Mdi",
+    type: "",
+    tags: ["printer","3d","nozzle"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FlipToFront",
-  vendor: "Mdi",
-  type: "",
-  tags: ["flip","to","front"],
+  $_icon: {
+    name: "FlipToFront",
+    vendor: "Mdi",
+    type: "",
+    tags: ["flip","to","front"],
+  },
   render() {
     return h(
       "svg",

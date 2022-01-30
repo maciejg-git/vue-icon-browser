@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LanguageCss3",
-  vendor: "Mdi",
-  type: "",
-  tags: ["language","css3"],
+  $_icon: {
+    name: "LanguageCss3",
+    vendor: "Mdi",
+    type: "",
+    tags: ["language","css3"],
+  },
   render() {
     return h(
       "svg",

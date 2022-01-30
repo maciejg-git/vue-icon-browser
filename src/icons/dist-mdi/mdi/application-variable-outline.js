@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ApplicationVariableOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["application","variable","outline"],
+  $_icon: {
+    name: "ApplicationVariableOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["application","variable","outline"],
+  },
   render() {
     return h(
       "svg",

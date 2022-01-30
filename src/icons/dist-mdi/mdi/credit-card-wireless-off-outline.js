@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CreditCardWirelessOffOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["credit","card","wireless","off","outline"],
+  $_icon: {
+    name: "CreditCardWirelessOffOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["credit","card","wireless","off","outline"],
+  },
   render() {
     return h(
       "svg",

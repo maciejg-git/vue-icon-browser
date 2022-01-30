@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FilmstripBoxMultiple",
-  vendor: "Mdi",
-  type: "",
-  tags: ["filmstrip","box","multiple"],
+  $_icon: {
+    name: "FilmstripBoxMultiple",
+    vendor: "Mdi",
+    type: "",
+    tags: ["filmstrip","box","multiple"],
+  },
   render() {
     return h(
       "svg",

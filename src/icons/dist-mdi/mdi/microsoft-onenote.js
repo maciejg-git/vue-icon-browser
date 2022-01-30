@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MicrosoftOnenote",
-  vendor: "Mdi",
-  type: "",
-  tags: ["microsoft","onenote"],
+  $_icon: {
+    name: "MicrosoftOnenote",
+    vendor: "Mdi",
+    type: "",
+    tags: ["microsoft","onenote"],
+  },
   render() {
     return h(
       "svg",

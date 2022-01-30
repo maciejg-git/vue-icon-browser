@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ViewWeekOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["view","week","outline"],
+  $_icon: {
+    name: "ViewWeekOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["view","week","outline"],
+  },
   render() {
     return h(
       "svg",

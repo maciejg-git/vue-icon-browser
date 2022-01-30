@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Soundcloud",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["soundcloud"],
+  $_icon: {
+    name: "Soundcloud",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["soundcloud"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AxisZArrow",
-  vendor: "Mdi",
-  type: "",
-  tags: ["axis","z","arrow"],
+  $_icon: {
+    name: "AxisZArrow",
+    vendor: "Mdi",
+    type: "",
+    tags: ["axis","z","arrow"],
+  },
   render() {
     return h(
       "svg",

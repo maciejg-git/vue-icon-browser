@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RemoveFormat",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["remove","format"],
+  $_icon: {
+    name: "RemoveFormat",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["remove","format"],
+  },
   render() {
     return h(
       "svg",

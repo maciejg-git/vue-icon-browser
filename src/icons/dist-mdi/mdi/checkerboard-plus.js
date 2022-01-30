@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CheckerboardPlus",
-  vendor: "Mdi",
-  type: "",
-  tags: ["checkerboard","plus"],
+  $_icon: {
+    name: "CheckerboardPlus",
+    vendor: "Mdi",
+    type: "",
+    tags: ["checkerboard","plus"],
+  },
   render() {
     return h(
       "svg",

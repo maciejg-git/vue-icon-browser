@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PlusOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["plus","outline"],
+  $_icon: {
+    name: "PlusOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["plus","outline"],
+  },
   render() {
     return h(
       "svg",

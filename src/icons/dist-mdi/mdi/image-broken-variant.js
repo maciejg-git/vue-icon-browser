@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ImageBrokenVariant",
-  vendor: "Mdi",
-  type: "",
-  tags: ["image","broken","variant"],
+  $_icon: {
+    name: "ImageBrokenVariant",
+    vendor: "Mdi",
+    type: "",
+    tags: ["image","broken","variant"],
+  },
   render() {
     return h(
       "svg",

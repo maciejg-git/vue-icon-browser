@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "HorizontalRotateCounterclockwise",
-  vendor: "Mdi",
-  type: "",
-  tags: ["horizontal","rotate","counterclockwise"],
+  $_icon: {
+    name: "HorizontalRotateCounterclockwise",
+    vendor: "Mdi",
+    type: "",
+    tags: ["horizontal","rotate","counterclockwise"],
+  },
   render() {
     return h(
       "svg",

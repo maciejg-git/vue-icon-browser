@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "NavigationVariant",
-  vendor: "Mdi",
-  type: "",
-  tags: ["navigation","variant"],
+  $_icon: {
+    name: "NavigationVariant",
+    vendor: "Mdi",
+    type: "",
+    tags: ["navigation","variant"],
+  },
   render() {
     return h(
       "svg",

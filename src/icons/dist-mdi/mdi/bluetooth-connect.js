@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BluetoothConnect",
-  vendor: "Mdi",
-  type: "",
-  tags: ["bluetooth","connect"],
+  $_icon: {
+    name: "BluetoothConnect",
+    vendor: "Mdi",
+    type: "",
+    tags: ["bluetooth","connect"],
+  },
   render() {
     return h(
       "svg",

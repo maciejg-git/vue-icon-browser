@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ImageArea",
-  vendor: "Mdi",
-  type: "",
-  tags: ["image","area"],
+  $_icon: {
+    name: "ImageArea",
+    vendor: "Mdi",
+    type: "",
+    tags: ["image","area"],
+  },
   render() {
     return h(
       "svg",

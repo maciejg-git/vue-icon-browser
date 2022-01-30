@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FolderAlert",
-  vendor: "Mdi",
-  type: "",
-  tags: ["folder","alert"],
+  $_icon: {
+    name: "FolderAlert",
+    vendor: "Mdi",
+    type: "",
+    tags: ["folder","alert"],
+  },
   render() {
     return h(
       "svg",

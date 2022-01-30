@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ShieldRemoveOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["shield","remove","outline"],
+  $_icon: {
+    name: "ShieldRemoveOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["shield","remove","outline"],
+  },
   render() {
     return h(
       "svg",

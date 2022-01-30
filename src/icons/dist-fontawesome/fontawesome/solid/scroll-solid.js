@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Scroll",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["scroll"],
+  $_icon: {
+    name: "Scroll",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["scroll"],
+  },
   render() {
     return h(
       "svg",

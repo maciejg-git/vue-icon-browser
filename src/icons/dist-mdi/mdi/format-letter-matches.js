@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatLetterMatches",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","letter","matches"],
+  $_icon: {
+    name: "FormatLetterMatches",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","letter","matches"],
+  },
   render() {
     return h(
       "svg",

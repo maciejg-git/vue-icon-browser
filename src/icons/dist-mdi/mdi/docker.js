@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Docker",
-  vendor: "Mdi",
-  type: "",
-  tags: ["docker"],
+  $_icon: {
+    name: "Docker",
+    vendor: "Mdi",
+    type: "",
+    tags: ["docker"],
+  },
   render() {
     return h(
       "svg",

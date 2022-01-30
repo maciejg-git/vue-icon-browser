@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TwoFactorAuthentication",
-  vendor: "Mdi",
-  type: "",
-  tags: ["two","factor","authentication"],
+  $_icon: {
+    name: "TwoFactorAuthentication",
+    vendor: "Mdi",
+    type: "",
+    tags: ["two","factor","authentication"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CheckDecagram",
-  vendor: "Mdi",
-  type: "",
-  tags: ["check","decagram"],
+  $_icon: {
+    name: "CheckDecagram",
+    vendor: "Mdi",
+    type: "",
+    tags: ["check","decagram"],
+  },
   render() {
     return h(
       "svg",

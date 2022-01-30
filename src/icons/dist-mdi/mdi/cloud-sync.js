@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CloudSync",
-  vendor: "Mdi",
-  type: "",
-  tags: ["cloud","sync"],
+  $_icon: {
+    name: "CloudSync",
+    vendor: "Mdi",
+    type: "",
+    tags: ["cloud","sync"],
+  },
   render() {
     return h(
       "svg",

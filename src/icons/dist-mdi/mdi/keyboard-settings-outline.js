@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "KeyboardSettingsOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["keyboard","settings","outline"],
+  $_icon: {
+    name: "KeyboardSettingsOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["keyboard","settings","outline"],
+  },
   render() {
     return h(
       "svg",

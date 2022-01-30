@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TableHeadersEye",
-  vendor: "Mdi",
-  type: "",
-  tags: ["table","headers","eye"],
+  $_icon: {
+    name: "TableHeadersEye",
+    vendor: "Mdi",
+    type: "",
+    tags: ["table","headers","eye"],
+  },
   render() {
     return h(
       "svg",

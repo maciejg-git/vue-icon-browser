@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AudioInputXlr",
-  vendor: "Mdi",
-  type: "",
-  tags: ["audio","input","xlr"],
+  $_icon: {
+    name: "AudioInputXlr",
+    vendor: "Mdi",
+    type: "",
+    tags: ["audio","input","xlr"],
+  },
   render() {
     return h(
       "svg",

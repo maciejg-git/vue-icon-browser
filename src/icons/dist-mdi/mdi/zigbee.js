@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Zigbee",
-  vendor: "Mdi",
-  type: "",
-  tags: ["zigbee"],
+  $_icon: {
+    name: "Zigbee",
+    vendor: "Mdi",
+    type: "",
+    tags: ["zigbee"],
+  },
   render() {
     return h(
       "svg",

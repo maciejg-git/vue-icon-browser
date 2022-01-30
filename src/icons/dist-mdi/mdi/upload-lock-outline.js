@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "UploadLockOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["upload","lock","outline"],
+  $_icon: {
+    name: "UploadLockOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["upload","lock","outline"],
+  },
   render() {
     return h(
       "svg",

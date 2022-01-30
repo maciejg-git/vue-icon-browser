@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AugmentedReality",
-  vendor: "Mdi",
-  type: "",
-  tags: ["augmented","reality"],
+  $_icon: {
+    name: "AugmentedReality",
+    vendor: "Mdi",
+    type: "",
+    tags: ["augmented","reality"],
+  },
   render() {
     return h(
       "svg",

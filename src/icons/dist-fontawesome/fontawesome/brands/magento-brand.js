@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Magento",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["magento"],
+  $_icon: {
+    name: "Magento",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["magento"],
+  },
   render() {
     return h(
       "svg",

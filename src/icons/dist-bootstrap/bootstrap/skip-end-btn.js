@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SkipEndBtn",
-  vendor: "B",
-  type: "",
-  tags: ["skip","end","btn"],
+  $_icon: {
+    name: "SkipEndBtn",
+    vendor: "B",
+    type: "",
+    tags: ["skip","end","btn"],
+  },
   render() {
     return h(
       "svg",

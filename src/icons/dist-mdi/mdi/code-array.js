@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CodeArray",
-  vendor: "Mdi",
-  type: "",
-  tags: ["code","array"],
+  $_icon: {
+    name: "CodeArray",
+    vendor: "Mdi",
+    type: "",
+    tags: ["code","array"],
+  },
   render() {
     return h(
       "svg",

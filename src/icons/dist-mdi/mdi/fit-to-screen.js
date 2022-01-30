@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FitToScreen",
-  vendor: "Mdi",
-  type: "",
-  tags: ["fit","to","screen"],
+  $_icon: {
+    name: "FitToScreen",
+    vendor: "Mdi",
+    type: "",
+    tags: ["fit","to","screen"],
+  },
   render() {
     return h(
       "svg",

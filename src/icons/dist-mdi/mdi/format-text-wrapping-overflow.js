@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatTextWrappingOverflow",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","text","wrapping","overflow"],
+  $_icon: {
+    name: "FormatTextWrappingOverflow",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","text","wrapping","overflow"],
+  },
   render() {
     return h(
       "svg",

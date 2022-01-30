@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MapMarkerRemoveOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["map","marker","remove","outline"],
+  $_icon: {
+    name: "MapMarkerRemoveOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["map","marker","remove","outline"],
+  },
   render() {
     return h(
       "svg",

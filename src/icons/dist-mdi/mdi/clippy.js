@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Clippy",
-  vendor: "Mdi",
-  type: "",
-  tags: ["clippy"],
+  $_icon: {
+    name: "Clippy",
+    vendor: "Mdi",
+    type: "",
+    tags: ["clippy"],
+  },
   render() {
     return h(
       "svg",

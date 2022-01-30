@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AngleDoubleRight",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["angle","double","right"],
+  $_icon: {
+    name: "AngleDoubleRight",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["angle","double","right"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BallotRecount",
-  vendor: "Mdi",
-  type: "",
-  tags: ["ballot","recount"],
+  $_icon: {
+    name: "BallotRecount",
+    vendor: "Mdi",
+    type: "",
+    tags: ["ballot","recount"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TextBoxCheckOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["text","box","check","outline"],
+  $_icon: {
+    name: "TextBoxCheckOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["text","box","check","outline"],
+  },
   render() {
     return h(
       "svg",

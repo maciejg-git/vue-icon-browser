@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FastForwardOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["fast","forward","outline"],
+  $_icon: {
+    name: "FastForwardOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["fast","forward","outline"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PuzzleCheck",
-  vendor: "Mdi",
-  type: "",
-  tags: ["puzzle","check"],
+  $_icon: {
+    name: "PuzzleCheck",
+    vendor: "Mdi",
+    type: "",
+    tags: ["puzzle","check"],
+  },
   render() {
     return h(
       "svg",

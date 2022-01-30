@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ThoughtBubbleOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["thought","bubble","outline"],
+  $_icon: {
+    name: "ThoughtBubbleOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["thought","bubble","outline"],
+  },
   render() {
     return h(
       "svg",

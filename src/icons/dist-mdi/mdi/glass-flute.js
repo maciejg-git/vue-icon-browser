@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GlassFlute",
-  vendor: "Mdi",
-  type: "",
-  tags: ["glass","flute"],
+  $_icon: {
+    name: "GlassFlute",
+    vendor: "Mdi",
+    type: "",
+    tags: ["glass","flute"],
+  },
   render() {
     return h(
       "svg",

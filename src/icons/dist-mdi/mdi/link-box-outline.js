@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LinkBoxOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["link","box","outline"],
+  $_icon: {
+    name: "LinkBoxOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["link","box","outline"],
+  },
   render() {
     return h(
       "svg",

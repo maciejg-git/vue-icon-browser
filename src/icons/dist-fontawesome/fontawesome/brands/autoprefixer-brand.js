@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Autoprefixer",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["autoprefixer"],
+  $_icon: {
+    name: "Autoprefixer",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["autoprefixer"],
+  },
   render() {
     return h(
       "svg",

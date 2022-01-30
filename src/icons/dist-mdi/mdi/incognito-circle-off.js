@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "IncognitoCircleOff",
-  vendor: "Mdi",
-  type: "",
-  tags: ["incognito","circle","off"],
+  $_icon: {
+    name: "IncognitoCircleOff",
+    vendor: "Mdi",
+    type: "",
+    tags: ["incognito","circle","off"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "UsbPort",
-  vendor: "Mdi",
-  type: "",
-  tags: ["usb","port"],
+  $_icon: {
+    name: "UsbPort",
+    vendor: "Mdi",
+    type: "",
+    tags: ["usb","port"],
+  },
   render() {
     return h(
       "svg",

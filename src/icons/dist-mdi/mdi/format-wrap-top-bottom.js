@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatWrapTopBottom",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","wrap","top","bottom"],
+  $_icon: {
+    name: "FormatWrapTopBottom",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","wrap","top","bottom"],
+  },
   render() {
     return h(
       "svg",

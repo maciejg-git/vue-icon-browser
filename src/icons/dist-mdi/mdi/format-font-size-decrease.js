@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatFontSizeDecrease",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","font","size","decrease"],
+  $_icon: {
+    name: "FormatFontSizeDecrease",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","font","size","decrease"],
+  },
   render() {
     return h(
       "svg",

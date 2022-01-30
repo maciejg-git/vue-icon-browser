@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FlashOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["flash","outline"],
+  $_icon: {
+    name: "FlashOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["flash","outline"],
+  },
   render() {
     return h(
       "svg",

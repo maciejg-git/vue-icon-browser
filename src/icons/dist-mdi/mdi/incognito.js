@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Incognito",
-  vendor: "Mdi",
-  type: "",
-  tags: ["incognito"],
+  $_icon: {
+    name: "Incognito",
+    vendor: "Mdi",
+    type: "",
+    tags: ["incognito"],
+  },
   render() {
     return h(
       "svg",

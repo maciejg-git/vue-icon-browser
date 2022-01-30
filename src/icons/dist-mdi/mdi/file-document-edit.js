@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileDocumentEdit",
-  vendor: "Mdi",
-  type: "",
-  tags: ["file","document","edit"],
+  $_icon: {
+    name: "FileDocumentEdit",
+    vendor: "Mdi",
+    type: "",
+    tags: ["file","document","edit"],
+  },
   render() {
     return h(
       "svg",

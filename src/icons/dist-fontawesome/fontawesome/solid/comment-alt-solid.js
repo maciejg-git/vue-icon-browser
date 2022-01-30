@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CommentAlt",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["comment","alt"],
+  $_icon: {
+    name: "CommentAlt",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["comment","alt"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MultiplicationBox",
-  vendor: "Mdi",
-  type: "",
-  tags: ["multiplication","box"],
+  $_icon: {
+    name: "MultiplicationBox",
+    vendor: "Mdi",
+    type: "",
+    tags: ["multiplication","box"],
+  },
   render() {
     return h(
       "svg",

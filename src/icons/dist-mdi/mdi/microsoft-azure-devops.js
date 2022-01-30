@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MicrosoftAzureDevops",
-  vendor: "Mdi",
-  type: "",
-  tags: ["microsoft","azure","devops"],
+  $_icon: {
+    name: "MicrosoftAzureDevops",
+    vendor: "Mdi",
+    type: "",
+    tags: ["microsoft","azure","devops"],
+  },
   render() {
     return h(
       "svg",

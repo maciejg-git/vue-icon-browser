@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SunWirelessOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["sun","wireless","outline"],
+  $_icon: {
+    name: "SunWirelessOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["sun","wireless","outline"],
+  },
   render() {
     return h(
       "svg",

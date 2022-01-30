@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileSpreadsheet",
-  vendor: "B",
-  type: "",
-  tags: ["file","spreadsheet"],
+  $_icon: {
+    name: "FileSpreadsheet",
+    vendor: "B",
+    type: "",
+    tags: ["file","spreadsheet"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SignpostSplitFill",
-  vendor: "B",
-  type: "",
-  tags: ["signpost","split","fill"],
+  $_icon: {
+    name: "SignpostSplitFill",
+    vendor: "B",
+    type: "",
+    tags: ["signpost","split","fill"],
+  },
   render() {
     return h(
       "svg",

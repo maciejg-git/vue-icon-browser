@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ImageAutoAdjust",
-  vendor: "Mdi",
-  type: "",
-  tags: ["image","auto","adjust"],
+  $_icon: {
+    name: "ImageAutoAdjust",
+    vendor: "Mdi",
+    type: "",
+    tags: ["image","auto","adjust"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "VectorPolygonVariant",
-  vendor: "Mdi",
-  type: "",
-  tags: ["vector","polygon","variant"],
+  $_icon: {
+    name: "VectorPolygonVariant",
+    vendor: "Mdi",
+    type: "",
+    tags: ["vector","polygon","variant"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ArchiveMarkerOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["archive","marker","outline"],
+  $_icon: {
+    name: "ArchiveMarkerOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["archive","marker","outline"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileEarmarkMinus",
-  vendor: "B",
-  type: "",
-  tags: ["file","earmark","minus"],
+  $_icon: {
+    name: "FileEarmarkMinus",
+    vendor: "B",
+    type: "",
+    tags: ["file","earmark","minus"],
+  },
   render() {
     return h(
       "svg",

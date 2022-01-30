@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FolderMultiplePlus",
-  vendor: "Mdi",
-  type: "",
-  tags: ["folder","multiple","plus"],
+  $_icon: {
+    name: "FolderMultiplePlus",
+    vendor: "Mdi",
+    type: "",
+    tags: ["folder","multiple","plus"],
+  },
   render() {
     return h(
       "svg",

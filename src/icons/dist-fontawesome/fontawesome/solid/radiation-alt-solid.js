@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RadiationAlt",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["radiation","alt"],
+  $_icon: {
+    name: "RadiationAlt",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["radiation","alt"],
+  },
   render() {
     return h(
       "svg",

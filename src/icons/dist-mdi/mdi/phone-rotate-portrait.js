@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PhoneRotatePortrait",
-  vendor: "Mdi",
-  type: "",
-  tags: ["phone","rotate","portrait"],
+  $_icon: {
+    name: "PhoneRotatePortrait",
+    vendor: "Mdi",
+    type: "",
+    tags: ["phone","rotate","portrait"],
+  },
   render() {
     return h(
       "svg",

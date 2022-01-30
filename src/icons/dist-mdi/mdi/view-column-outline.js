@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ViewColumnOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["view","column","outline"],
+  $_icon: {
+    name: "ViewColumnOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["view","column","outline"],
+  },
   render() {
     return h(
       "svg",

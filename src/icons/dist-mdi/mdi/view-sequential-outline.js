@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ViewSequentialOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["view","sequential","outline"],
+  $_icon: {
+    name: "ViewSequentialOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["view","sequential","outline"],
+  },
   render() {
     return h(
       "svg",

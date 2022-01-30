@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GridLarge",
-  vendor: "Mdi",
-  type: "",
-  tags: ["grid","large"],
+  $_icon: {
+    name: "GridLarge",
+    vendor: "Mdi",
+    type: "",
+    tags: ["grid","large"],
+  },
   render() {
     return h(
       "svg",

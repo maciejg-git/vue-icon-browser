@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "WindowSidebar",
-  vendor: "B",
-  type: "",
-  tags: ["window","sidebar"],
+  $_icon: {
+    name: "WindowSidebar",
+    vendor: "B",
+    type: "",
+    tags: ["window","sidebar"],
+  },
   render() {
     return h(
       "svg",

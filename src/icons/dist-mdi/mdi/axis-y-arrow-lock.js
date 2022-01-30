@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AxisYArrowLock",
-  vendor: "Mdi",
-  type: "",
-  tags: ["axis","y","arrow","lock"],
+  $_icon: {
+    name: "AxisYArrowLock",
+    vendor: "Mdi",
+    type: "",
+    tags: ["axis","y","arrow","lock"],
+  },
   render() {
     return h(
       "svg",

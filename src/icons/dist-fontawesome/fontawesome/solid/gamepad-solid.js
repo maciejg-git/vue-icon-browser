@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Gamepad",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["gamepad"],
+  $_icon: {
+    name: "Gamepad",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["gamepad"],
+  },
   render() {
     return h(
       "svg",

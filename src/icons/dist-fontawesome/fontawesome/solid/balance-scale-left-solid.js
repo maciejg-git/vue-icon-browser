@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BalanceScaleLeft",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["balance","scale","left"],
+  $_icon: {
+    name: "BalanceScaleLeft",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["balance","scale","left"],
+  },
   render() {
     return h(
       "svg",

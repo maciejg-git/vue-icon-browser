@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ChartScatterPlot",
-  vendor: "Mdi",
-  type: "",
-  tags: ["chart","scatter","plot"],
+  $_icon: {
+    name: "ChartScatterPlot",
+    vendor: "Mdi",
+    type: "",
+    tags: ["chart","scatter","plot"],
+  },
   render() {
     return h(
       "svg",

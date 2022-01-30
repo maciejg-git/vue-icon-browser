@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FilePowerpointOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["file","powerpoint","outline"],
+  $_icon: {
+    name: "FilePowerpointOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["file","powerpoint","outline"],
+  },
   render() {
     return h(
       "svg",

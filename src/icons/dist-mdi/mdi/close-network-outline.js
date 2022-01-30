@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CloseNetworkOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["close","network","outline"],
+  $_icon: {
+    name: "CloseNetworkOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["close","network","outline"],
+  },
   render() {
     return h(
       "svg",

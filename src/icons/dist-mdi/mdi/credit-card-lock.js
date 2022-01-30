@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CreditCardLock",
-  vendor: "Mdi",
-  type: "",
-  tags: ["credit","card","lock"],
+  $_icon: {
+    name: "CreditCardLock",
+    vendor: "Mdi",
+    type: "",
+    tags: ["credit","card","lock"],
+  },
   render() {
     return h(
       "svg",

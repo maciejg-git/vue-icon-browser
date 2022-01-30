@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SourcePull",
-  vendor: "Mdi",
-  type: "",
-  tags: ["source","pull"],
+  $_icon: {
+    name: "SourcePull",
+    vendor: "Mdi",
+    type: "",
+    tags: ["source","pull"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Ethernet",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["ethernet"],
+  $_icon: {
+    name: "Ethernet",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["ethernet"],
+  },
   render() {
     return h(
       "svg",

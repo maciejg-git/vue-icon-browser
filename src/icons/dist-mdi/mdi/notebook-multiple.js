@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "NotebookMultiple",
-  vendor: "Mdi",
-  type: "",
-  tags: ["notebook","multiple"],
+  $_icon: {
+    name: "NotebookMultiple",
+    vendor: "Mdi",
+    type: "",
+    tags: ["notebook","multiple"],
+  },
   render() {
     return h(
       "svg",

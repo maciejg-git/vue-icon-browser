@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DeleteClockOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["delete","clock","outline"],
+  $_icon: {
+    name: "DeleteClockOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["delete","clock","outline"],
+  },
   render() {
     return h(
       "svg",

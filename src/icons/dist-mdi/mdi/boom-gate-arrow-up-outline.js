@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BoomGateArrowUpOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["boom","gate","arrow","up","outline"],
+  $_icon: {
+    name: "BoomGateArrowUpOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["boom","gate","arrow","up","outline"],
+  },
   render() {
     return h(
       "svg",

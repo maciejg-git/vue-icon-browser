@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "UploadNetwork",
-  vendor: "Mdi",
-  type: "",
-  tags: ["upload","network"],
+  $_icon: {
+    name: "UploadNetwork",
+    vendor: "Mdi",
+    type: "",
+    tags: ["upload","network"],
+  },
   render() {
     return h(
       "svg",

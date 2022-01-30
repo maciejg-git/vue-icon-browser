@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AlignVerticalCenter",
-  vendor: "Mdi",
-  type: "",
-  tags: ["align","vertical","center"],
+  $_icon: {
+    name: "AlignVerticalCenter",
+    vendor: "Mdi",
+    type: "",
+    tags: ["align","vertical","center"],
+  },
   render() {
     return h(
       "svg",

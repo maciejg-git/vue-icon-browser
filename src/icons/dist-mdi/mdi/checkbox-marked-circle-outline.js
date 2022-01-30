@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CheckboxMarkedCircleOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["checkbox","marked","circle","outline"],
+  $_icon: {
+    name: "CheckboxMarkedCircleOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["checkbox","marked","circle","outline"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "WindowDock",
-  vendor: "B",
-  type: "",
-  tags: ["window","dock"],
+  $_icon: {
+    name: "WindowDock",
+    vendor: "B",
+    type: "",
+    tags: ["window","dock"],
+  },
   render() {
     return h(
       "svg",

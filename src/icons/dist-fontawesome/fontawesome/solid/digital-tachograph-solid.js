@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DigitalTachograph",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["digital","tachograph"],
+  $_icon: {
+    name: "DigitalTachograph",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["digital","tachograph"],
+  },
   render() {
     return h(
       "svg",

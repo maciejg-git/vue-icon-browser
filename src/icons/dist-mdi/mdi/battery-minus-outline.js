@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BatteryMinusOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["battery","minus","outline"],
+  $_icon: {
+    name: "BatteryMinusOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["battery","minus","outline"],
+  },
   render() {
     return h(
       "svg",

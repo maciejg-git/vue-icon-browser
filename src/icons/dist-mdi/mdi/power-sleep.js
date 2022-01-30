@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PowerSleep",
-  vendor: "Mdi",
-  type: "",
-  tags: ["power","sleep"],
+  $_icon: {
+    name: "PowerSleep",
+    vendor: "Mdi",
+    type: "",
+    tags: ["power","sleep"],
+  },
   render() {
     return h(
       "svg",

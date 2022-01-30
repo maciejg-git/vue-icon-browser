@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "NintendoWiiu",
-  vendor: "Mdi",
-  type: "",
-  tags: ["nintendo","wiiu"],
+  $_icon: {
+    name: "NintendoWiiu",
+    vendor: "Mdi",
+    type: "",
+    tags: ["nintendo","wiiu"],
+  },
   render() {
     return h(
       "svg",

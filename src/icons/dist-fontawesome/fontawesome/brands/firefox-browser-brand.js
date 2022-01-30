@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FirefoxBrowser",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["firefox","browser"],
+  $_icon: {
+    name: "FirefoxBrowser",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["firefox","browser"],
+  },
   render() {
     return h(
       "svg",

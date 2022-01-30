@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Envira",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["envira"],
+  $_icon: {
+    name: "Envira",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["envira"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FeatherAlt",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["feather","alt"],
+  $_icon: {
+    name: "FeatherAlt",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["feather","alt"],
+  },
   render() {
     return h(
       "svg",

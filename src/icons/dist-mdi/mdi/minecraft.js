@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Minecraft",
-  vendor: "Mdi",
-  type: "",
-  tags: ["minecraft"],
+  $_icon: {
+    name: "Minecraft",
+    vendor: "Mdi",
+    type: "",
+    tags: ["minecraft"],
+  },
   render() {
     return h(
       "svg",

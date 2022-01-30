@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DnsOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["dns","outline"],
+  $_icon: {
+    name: "DnsOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["dns","outline"],
+  },
   render() {
     return h(
       "svg",

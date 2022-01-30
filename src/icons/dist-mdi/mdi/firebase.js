@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Firebase",
-  vendor: "Mdi",
-  type: "",
-  tags: ["firebase"],
+  $_icon: {
+    name: "Firebase",
+    vendor: "Mdi",
+    type: "",
+    tags: ["firebase"],
+  },
   render() {
     return h(
       "svg",

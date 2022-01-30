@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ViewStacked",
-  vendor: "B",
-  type: "",
-  tags: ["view","stacked"],
+  $_icon: {
+    name: "ViewStacked",
+    vendor: "B",
+    type: "",
+    tags: ["view","stacked"],
+  },
   render() {
     return h(
       "svg",

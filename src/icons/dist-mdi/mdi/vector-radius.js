@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "VectorRadius",
-  vendor: "Mdi",
-  type: "",
-  tags: ["vector","radius"],
+  $_icon: {
+    name: "VectorRadius",
+    vendor: "Mdi",
+    type: "",
+    tags: ["vector","radius"],
+  },
   render() {
     return h(
       "svg",

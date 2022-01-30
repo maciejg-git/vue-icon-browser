@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Nuxt",
-  vendor: "Mdi",
-  type: "",
-  tags: ["nuxt"],
+  $_icon: {
+    name: "Nuxt",
+    vendor: "Mdi",
+    type: "",
+    tags: ["nuxt"],
+  },
   render() {
     return h(
       "svg",

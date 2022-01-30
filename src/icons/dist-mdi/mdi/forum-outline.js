@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ForumOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["forum","outline"],
+  $_icon: {
+    name: "ForumOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["forum","outline"],
+  },
   render() {
     return h(
       "svg",

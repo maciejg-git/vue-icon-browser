@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "OrbitVariant",
-  vendor: "Mdi",
-  type: "",
-  tags: ["orbit","variant"],
+  $_icon: {
+    name: "OrbitVariant",
+    vendor: "Mdi",
+    type: "",
+    tags: ["orbit","variant"],
+  },
   render() {
     return h(
       "svg",

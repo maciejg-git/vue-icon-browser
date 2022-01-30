@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LinkBox",
-  vendor: "Mdi",
-  type: "",
-  tags: ["link","box"],
+  $_icon: {
+    name: "LinkBox",
+    vendor: "Mdi",
+    type: "",
+    tags: ["link","box"],
+  },
   render() {
     return h(
       "svg",

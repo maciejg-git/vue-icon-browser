@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PostOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["post","outline"],
+  $_icon: {
+    name: "PostOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["post","outline"],
+  },
   render() {
     return h(
       "svg",

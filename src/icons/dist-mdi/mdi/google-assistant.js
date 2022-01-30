@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GoogleAssistant",
-  vendor: "Mdi",
-  type: "",
-  tags: ["google","assistant"],
+  $_icon: {
+    name: "GoogleAssistant",
+    vendor: "Mdi",
+    type: "",
+    tags: ["google","assistant"],
+  },
   render() {
     return h(
       "svg",

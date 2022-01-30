@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "WeightPound",
-  vendor: "Mdi",
-  type: "",
-  tags: ["weight","pound"],
+  $_icon: {
+    name: "WeightPound",
+    vendor: "Mdi",
+    type: "",
+    tags: ["weight","pound"],
+  },
   render() {
     return h(
       "svg",

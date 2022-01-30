@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PhoneRingOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["phone","ring","outline"],
+  $_icon: {
+    name: "PhoneRingOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["phone","ring","outline"],
+  },
   render() {
     return h(
       "svg",

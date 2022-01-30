@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FlagRemoveOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["flag","remove","outline"],
+  $_icon: {
+    name: "FlagRemoveOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["flag","remove","outline"],
+  },
   render() {
     return h(
       "svg",

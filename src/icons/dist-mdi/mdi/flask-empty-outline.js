@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FlaskEmptyOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["flask","empty","outline"],
+  $_icon: {
+    name: "FlaskEmptyOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["flask","empty","outline"],
+  },
   render() {
     return h(
       "svg",

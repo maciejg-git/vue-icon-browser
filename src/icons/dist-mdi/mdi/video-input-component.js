@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "VideoInputComponent",
-  vendor: "Mdi",
-  type: "",
-  tags: ["video","input","component"],
+  $_icon: {
+    name: "VideoInputComponent",
+    vendor: "Mdi",
+    type: "",
+    tags: ["video","input","component"],
+  },
   render() {
     return h(
       "svg",

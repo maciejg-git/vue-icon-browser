@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MapMarkerAlt",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["map","marker","alt"],
+  $_icon: {
+    name: "MapMarkerAlt",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["map","marker","alt"],
+  },
   render() {
     return h(
       "svg",

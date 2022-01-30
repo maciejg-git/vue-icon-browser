@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SelectDrag",
-  vendor: "Mdi",
-  type: "",
-  tags: ["select","drag"],
+  $_icon: {
+    name: "SelectDrag",
+    vendor: "Mdi",
+    type: "",
+    tags: ["select","drag"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TabRemove",
-  vendor: "Mdi",
-  type: "",
-  tags: ["tab","remove"],
+  $_icon: {
+    name: "TabRemove",
+    vendor: "Mdi",
+    type: "",
+    tags: ["tab","remove"],
+  },
   render() {
     return h(
       "svg",

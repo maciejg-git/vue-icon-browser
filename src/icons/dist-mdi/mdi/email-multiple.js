@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "EmailMultiple",
-  vendor: "Mdi",
-  type: "",
-  tags: ["email","multiple"],
+  $_icon: {
+    name: "EmailMultiple",
+    vendor: "Mdi",
+    type: "",
+    tags: ["email","multiple"],
+  },
   render() {
     return h(
       "svg",

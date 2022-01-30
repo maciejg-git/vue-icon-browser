@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GarageAlertVariant",
-  vendor: "Mdi",
-  type: "",
-  tags: ["garage","alert","variant"],
+  $_icon: {
+    name: "GarageAlertVariant",
+    vendor: "Mdi",
+    type: "",
+    tags: ["garage","alert","variant"],
+  },
   render() {
     return h(
       "svg",

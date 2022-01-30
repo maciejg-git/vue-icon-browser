@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "HomeAssistant",
-  vendor: "Mdi",
-  type: "",
-  tags: ["home","assistant"],
+  $_icon: {
+    name: "HomeAssistant",
+    vendor: "Mdi",
+    type: "",
+    tags: ["home","assistant"],
+  },
   render() {
     return h(
       "svg",

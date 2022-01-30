@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MicrosoftWord",
-  vendor: "Mdi",
-  type: "",
-  tags: ["microsoft","word"],
+  $_icon: {
+    name: "MicrosoftWord",
+    vendor: "Mdi",
+    type: "",
+    tags: ["microsoft","word"],
+  },
   render() {
     return h(
       "svg",

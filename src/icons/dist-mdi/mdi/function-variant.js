@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FunctionVariant",
-  vendor: "Mdi",
-  type: "",
-  tags: ["function","variant"],
+  $_icon: {
+    name: "FunctionVariant",
+    vendor: "Mdi",
+    type: "",
+    tags: ["function","variant"],
+  },
   render() {
     return h(
       "svg",

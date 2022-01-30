@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MapMarkerRadius",
-  vendor: "Mdi",
-  type: "",
-  tags: ["map","marker","radius"],
+  $_icon: {
+    name: "MapMarkerRadius",
+    vendor: "Mdi",
+    type: "",
+    tags: ["map","marker","radius"],
+  },
   render() {
     return h(
       "svg",

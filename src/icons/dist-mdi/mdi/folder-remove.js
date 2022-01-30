@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FolderRemove",
-  vendor: "Mdi",
-  type: "",
-  tags: ["folder","remove"],
+  $_icon: {
+    name: "FolderRemove",
+    vendor: "Mdi",
+    type: "",
+    tags: ["folder","remove"],
+  },
   render() {
     return h(
       "svg",

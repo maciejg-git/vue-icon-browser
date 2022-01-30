@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CountertopOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["countertop","outline"],
+  $_icon: {
+    name: "CountertopOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["countertop","outline"],
+  },
   render() {
     return h(
       "svg",

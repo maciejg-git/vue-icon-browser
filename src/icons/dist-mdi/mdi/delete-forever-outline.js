@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DeleteForeverOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["delete","forever","outline"],
+  $_icon: {
+    name: "DeleteForeverOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["delete","forever","outline"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LevelUpAlt",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["level","up","alt"],
+  $_icon: {
+    name: "LevelUpAlt",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["level","up","alt"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AnimationPlayOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["animation","play","outline"],
+  $_icon: {
+    name: "AnimationPlayOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["animation","play","outline"],
+  },
   render() {
     return h(
       "svg",

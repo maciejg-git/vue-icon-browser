@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "VideoStabilization",
-  vendor: "Mdi",
-  type: "",
-  tags: ["video","stabilization"],
+  $_icon: {
+    name: "VideoStabilization",
+    vendor: "Mdi",
+    type: "",
+    tags: ["video","stabilization"],
+  },
   render() {
     return h(
       "svg",

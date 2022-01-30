@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ReplyAllOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["reply","all","outline"],
+  $_icon: {
+    name: "ReplyAllOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["reply","all","outline"],
+  },
   render() {
     return h(
       "svg",

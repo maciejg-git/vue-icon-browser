@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "WindowMinimize",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["window","minimize"],
+  $_icon: {
+    name: "WindowMinimize",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["window","minimize"],
+  },
   render() {
     return h(
       "svg",

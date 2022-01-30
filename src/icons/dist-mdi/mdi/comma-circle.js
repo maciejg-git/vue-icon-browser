@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CommaCircle",
-  vendor: "Mdi",
-  type: "",
-  tags: ["comma","circle"],
+  $_icon: {
+    name: "CommaCircle",
+    vendor: "Mdi",
+    type: "",
+    tags: ["comma","circle"],
+  },
   render() {
     return h(
       "svg",

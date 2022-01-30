@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ChatRemoveOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["chat","remove","outline"],
+  $_icon: {
+    name: "ChatRemoveOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["chat","remove","outline"],
+  },
   render() {
     return h(
       "svg",

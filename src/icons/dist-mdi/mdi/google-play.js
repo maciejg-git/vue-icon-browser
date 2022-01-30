@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GooglePlay",
-  vendor: "Mdi",
-  type: "",
-  tags: ["google","play"],
+  $_icon: {
+    name: "GooglePlay",
+    vendor: "Mdi",
+    type: "",
+    tags: ["google","play"],
+  },
   render() {
     return h(
       "svg",

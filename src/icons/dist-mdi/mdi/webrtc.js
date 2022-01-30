@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Webrtc",
-  vendor: "Mdi",
-  type: "",
-  tags: ["webrtc"],
+  $_icon: {
+    name: "Webrtc",
+    vendor: "Mdi",
+    type: "",
+    tags: ["webrtc"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Mailchimp",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["mailchimp"],
+  $_icon: {
+    name: "Mailchimp",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["mailchimp"],
+  },
   render() {
     return h(
       "svg",

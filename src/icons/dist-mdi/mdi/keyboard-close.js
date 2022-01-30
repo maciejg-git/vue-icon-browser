@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "KeyboardClose",
-  vendor: "Mdi",
-  type: "",
-  tags: ["keyboard","close"],
+  $_icon: {
+    name: "KeyboardClose",
+    vendor: "Mdi",
+    type: "",
+    tags: ["keyboard","close"],
+  },
   render() {
     return h(
       "svg",

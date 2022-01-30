@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileRemoveOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["file","remove","outline"],
+  $_icon: {
+    name: "FileRemoveOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["file","remove","outline"],
+  },
   render() {
     return h(
       "svg",

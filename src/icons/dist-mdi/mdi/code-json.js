@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CodeJson",
-  vendor: "Mdi",
-  type: "",
-  tags: ["code","json"],
+  $_icon: {
+    name: "CodeJson",
+    vendor: "Mdi",
+    type: "",
+    tags: ["code","json"],
+  },
   render() {
     return h(
       "svg",

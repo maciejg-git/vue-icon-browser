@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Chromecast",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["chromecast"],
+  $_icon: {
+    name: "Chromecast",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["chromecast"],
+  },
   render() {
     return h(
       "svg",

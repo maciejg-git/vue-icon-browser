@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AccountMusicOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["account","music","outline"],
+  $_icon: {
+    name: "AccountMusicOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["account","music","outline"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatColorFill",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","color","fill"],
+  $_icon: {
+    name: "FormatColorFill",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","color","fill"],
+  },
   render() {
     return h(
       "svg",

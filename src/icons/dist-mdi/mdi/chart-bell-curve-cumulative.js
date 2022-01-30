@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ChartBellCurveCumulative",
-  vendor: "Mdi",
-  type: "",
-  tags: ["chart","bell","curve","cumulative"],
+  $_icon: {
+    name: "ChartBellCurveCumulative",
+    vendor: "Mdi",
+    type: "",
+    tags: ["chart","bell","curve","cumulative"],
+  },
   render() {
     return h(
       "svg",

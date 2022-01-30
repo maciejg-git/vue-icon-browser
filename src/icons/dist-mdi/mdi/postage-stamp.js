@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PostageStamp",
-  vendor: "Mdi",
-  type: "",
-  tags: ["postage","stamp"],
+  $_icon: {
+    name: "PostageStamp",
+    vendor: "Mdi",
+    type: "",
+    tags: ["postage","stamp"],
+  },
   render() {
     return h(
       "svg",

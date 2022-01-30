@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Ungroup",
-  vendor: "Mdi",
-  type: "",
-  tags: ["ungroup"],
+  $_icon: {
+    name: "Ungroup",
+    vendor: "Mdi",
+    type: "",
+    tags: ["ungroup"],
+  },
   render() {
     return h(
       "svg",

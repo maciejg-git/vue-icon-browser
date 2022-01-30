@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Gratipay",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["gratipay"],
+  $_icon: {
+    name: "Gratipay",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["gratipay"],
+  },
   render() {
     return h(
       "svg",

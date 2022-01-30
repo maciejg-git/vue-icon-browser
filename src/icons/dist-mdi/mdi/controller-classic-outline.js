@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ControllerClassicOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["controller","classic","outline"],
+  $_icon: {
+    name: "ControllerClassicOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["controller","classic","outline"],
+  },
   render() {
     return h(
       "svg",

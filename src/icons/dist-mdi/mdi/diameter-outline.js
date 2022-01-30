@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DiameterOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["diameter","outline"],
+  $_icon: {
+    name: "DiameterOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["diameter","outline"],
+  },
   render() {
     return h(
       "svg",

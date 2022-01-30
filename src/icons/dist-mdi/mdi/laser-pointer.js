@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LaserPointer",
-  vendor: "Mdi",
-  type: "",
-  tags: ["laser","pointer"],
+  $_icon: {
+    name: "LaserPointer",
+    vendor: "Mdi",
+    type: "",
+    tags: ["laser","pointer"],
+  },
   render() {
     return h(
       "svg",

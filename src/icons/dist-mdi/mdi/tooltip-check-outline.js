@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TooltipCheckOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["tooltip","check","outline"],
+  $_icon: {
+    name: "TooltipCheckOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["tooltip","check","outline"],
+  },
   render() {
     return h(
       "svg",

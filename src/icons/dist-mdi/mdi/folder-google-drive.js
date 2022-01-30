@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FolderGoogleDrive",
-  vendor: "Mdi",
-  type: "",
-  tags: ["folder","google","drive"],
+  $_icon: {
+    name: "FolderGoogleDrive",
+    vendor: "Mdi",
+    type: "",
+    tags: ["folder","google","drive"],
+  },
   render() {
     return h(
       "svg",

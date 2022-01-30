@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TableBorder",
-  vendor: "Mdi",
-  type: "",
-  tags: ["table","border"],
+  $_icon: {
+    name: "TableBorder",
+    vendor: "Mdi",
+    type: "",
+    tags: ["table","border"],
+  },
   render() {
     return h(
       "svg",

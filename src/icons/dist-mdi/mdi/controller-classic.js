@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ControllerClassic",
-  vendor: "Mdi",
-  type: "",
-  tags: ["controller","classic"],
+  $_icon: {
+    name: "ControllerClassic",
+    vendor: "Mdi",
+    type: "",
+    tags: ["controller","classic"],
+  },
   render() {
     return h(
       "svg",

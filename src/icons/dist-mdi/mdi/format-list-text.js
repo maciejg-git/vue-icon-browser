@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatListText",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","list","text"],
+  $_icon: {
+    name: "FormatListText",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","list","text"],
+  },
   render() {
     return h(
       "svg",

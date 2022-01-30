@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Numeric3BoxMultipleOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["numeric","3","box","multiple","outline"],
+  $_icon: {
+    name: "Numeric3BoxMultipleOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["numeric","3","box","multiple","outline"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GoogleCirclesGroup",
-  vendor: "Mdi",
-  type: "",
-  tags: ["google","circles","group"],
+  $_icon: {
+    name: "GoogleCirclesGroup",
+    vendor: "Mdi",
+    type: "",
+    tags: ["google","circles","group"],
+  },
   render() {
     return h(
       "svg",

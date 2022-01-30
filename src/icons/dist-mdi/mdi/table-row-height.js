@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TableRowHeight",
-  vendor: "Mdi",
-  type: "",
-  tags: ["table","row","height"],
+  $_icon: {
+    name: "TableRowHeight",
+    vendor: "Mdi",
+    type: "",
+    tags: ["table","row","height"],
+  },
   render() {
     return h(
       "svg",

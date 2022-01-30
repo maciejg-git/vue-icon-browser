@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FitToPage",
-  vendor: "Mdi",
-  type: "",
-  tags: ["fit","to","page"],
+  $_icon: {
+    name: "FitToPage",
+    vendor: "Mdi",
+    type: "",
+    tags: ["fit","to","page"],
+  },
   render() {
     return h(
       "svg",

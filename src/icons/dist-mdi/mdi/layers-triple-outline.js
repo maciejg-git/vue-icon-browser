@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LayersTripleOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["layers","triple","outline"],
+  $_icon: {
+    name: "LayersTripleOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["layers","triple","outline"],
+  },
   render() {
     return h(
       "svg",

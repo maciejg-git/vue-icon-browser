@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DiceMultiple",
-  vendor: "Mdi",
-  type: "",
-  tags: ["dice","multiple"],
+  $_icon: {
+    name: "DiceMultiple",
+    vendor: "Mdi",
+    type: "",
+    tags: ["dice","multiple"],
+  },
   render() {
     return h(
       "svg",

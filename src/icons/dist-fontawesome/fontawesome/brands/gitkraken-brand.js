@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Gitkraken",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["gitkraken"],
+  $_icon: {
+    name: "Gitkraken",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["gitkraken"],
+  },
   render() {
     return h(
       "svg",

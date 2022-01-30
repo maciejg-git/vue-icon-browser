@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Bimobject",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["bimobject"],
+  $_icon: {
+    name: "Bimobject",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["bimobject"],
+  },
   render() {
     return h(
       "svg",

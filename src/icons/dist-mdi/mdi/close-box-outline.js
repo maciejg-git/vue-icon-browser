@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CloseBoxOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["close","box","outline"],
+  $_icon: {
+    name: "CloseBoxOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["close","box","outline"],
+  },
   render() {
     return h(
       "svg",

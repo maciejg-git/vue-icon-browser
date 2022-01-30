@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FolderAlertOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["folder","alert","outline"],
+  $_icon: {
+    name: "FolderAlertOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["folder","alert","outline"],
+  },
   render() {
     return h(
       "svg",

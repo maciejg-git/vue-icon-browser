@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DivingScubaTankMultiple",
-  vendor: "Mdi",
-  type: "",
-  tags: ["diving","scuba","tank","multiple"],
+  $_icon: {
+    name: "DivingScubaTankMultiple",
+    vendor: "Mdi",
+    type: "",
+    tags: ["diving","scuba","tank","multiple"],
+  },
   render() {
     return h(
       "svg",

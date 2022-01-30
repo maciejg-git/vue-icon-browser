@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatSubscript",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","subscript"],
+  $_icon: {
+    name: "FormatSubscript",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","subscript"],
+  },
   render() {
     return h(
       "svg",

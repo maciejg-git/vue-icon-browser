@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CloudPrint",
-  vendor: "Mdi",
-  type: "",
-  tags: ["cloud","print"],
+  $_icon: {
+    name: "CloudPrint",
+    vendor: "Mdi",
+    type: "",
+    tags: ["cloud","print"],
+  },
   render() {
     return h(
       "svg",

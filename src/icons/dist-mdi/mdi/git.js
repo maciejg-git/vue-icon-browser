@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Git",
-  vendor: "Mdi",
-  type: "",
-  tags: ["git"],
+  $_icon: {
+    name: "Git",
+    vendor: "Mdi",
+    type: "",
+    tags: ["git"],
+  },
   render() {
     return h(
       "svg",

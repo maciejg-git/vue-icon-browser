@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "WeightHanging",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["weight","hanging"],
+  $_icon: {
+    name: "WeightHanging",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["weight","hanging"],
+  },
   render() {
     return h(
       "svg",

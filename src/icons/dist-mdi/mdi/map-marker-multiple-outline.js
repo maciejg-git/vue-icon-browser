@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MapMarkerMultipleOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["map","marker","multiple","outline"],
+  $_icon: {
+    name: "MapMarkerMultipleOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["map","marker","multiple","outline"],
+  },
   render() {
     return h(
       "svg",

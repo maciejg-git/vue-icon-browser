@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Vlc",
-  vendor: "Mdi",
-  type: "",
-  tags: ["vlc"],
+  $_icon: {
+    name: "Vlc",
+    vendor: "Mdi",
+    type: "",
+    tags: ["vlc"],
+  },
   render() {
     return h(
       "svg",

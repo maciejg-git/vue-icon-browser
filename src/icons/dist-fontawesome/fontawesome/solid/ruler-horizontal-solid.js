@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RulerHorizontal",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["ruler","horizontal"],
+  $_icon: {
+    name: "RulerHorizontal",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["ruler","horizontal"],
+  },
   render() {
     return h(
       "svg",

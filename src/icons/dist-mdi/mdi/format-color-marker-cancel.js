@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatColorMarkerCancel",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","color","marker","cancel"],
+  $_icon: {
+    name: "FormatColorMarkerCancel",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","color","marker","cancel"],
+  },
   render() {
     return h(
       "svg",

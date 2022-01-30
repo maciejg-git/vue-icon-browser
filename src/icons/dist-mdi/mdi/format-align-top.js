@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatAlignTop",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","align","top"],
+  $_icon: {
+    name: "FormatAlignTop",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","align","top"],
+  },
   render() {
     return h(
       "svg",

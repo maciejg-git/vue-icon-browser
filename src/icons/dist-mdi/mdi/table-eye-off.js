@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TableEyeOff",
-  vendor: "Mdi",
-  type: "",
-  tags: ["table","eye","off"],
+  $_icon: {
+    name: "TableEyeOff",
+    vendor: "Mdi",
+    type: "",
+    tags: ["table","eye","off"],
+  },
   render() {
     return h(
       "svg",

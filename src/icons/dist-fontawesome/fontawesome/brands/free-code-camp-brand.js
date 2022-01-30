@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FreeCodeCamp",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["free","code","camp"],
+  $_icon: {
+    name: "FreeCodeCamp",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["free","code","camp"],
+  },
   render() {
     return h(
       "svg",

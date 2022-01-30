@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MicrosoftWindowsClassic",
-  vendor: "Mdi",
-  type: "",
-  tags: ["microsoft","windows","classic"],
+  $_icon: {
+    name: "MicrosoftWindowsClassic",
+    vendor: "Mdi",
+    type: "",
+    tags: ["microsoft","windows","classic"],
+  },
   render() {
     return h(
       "svg",

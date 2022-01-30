@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ScriptTextKey",
-  vendor: "Mdi",
-  type: "",
-  tags: ["script","text","key"],
+  $_icon: {
+    name: "ScriptTextKey",
+    vendor: "Mdi",
+    type: "",
+    tags: ["script","text","key"],
+  },
   render() {
     return h(
       "svg",

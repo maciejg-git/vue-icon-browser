@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AirConditioner",
-  vendor: "Mdi",
-  type: "",
-  tags: ["air","conditioner"],
+  $_icon: {
+    name: "AirConditioner",
+    vendor: "Mdi",
+    type: "",
+    tags: ["air","conditioner"],
+  },
   render() {
     return h(
       "svg",

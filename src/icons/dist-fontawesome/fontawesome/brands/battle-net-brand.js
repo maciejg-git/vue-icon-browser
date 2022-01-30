@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BattleNet",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["battle","net"],
+  $_icon: {
+    name: "BattleNet",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["battle","net"],
+  },
   render() {
     return h(
       "svg",

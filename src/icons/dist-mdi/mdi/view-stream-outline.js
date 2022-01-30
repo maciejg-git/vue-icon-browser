@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ViewStreamOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["view","stream","outline"],
+  $_icon: {
+    name: "ViewStreamOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["view","stream","outline"],
+  },
   render() {
     return h(
       "svg",

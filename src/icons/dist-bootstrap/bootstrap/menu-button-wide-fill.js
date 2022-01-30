@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MenuButtonWideFill",
-  vendor: "B",
-  type: "",
-  tags: ["menu","button","wide","fill"],
+  $_icon: {
+    name: "MenuButtonWideFill",
+    vendor: "B",
+    type: "",
+    tags: ["menu","button","wide","fill"],
+  },
   render() {
     return h(
       "svg",

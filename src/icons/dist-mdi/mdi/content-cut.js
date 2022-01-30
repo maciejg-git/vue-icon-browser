@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ContentCut",
-  vendor: "Mdi",
-  type: "",
-  tags: ["content","cut"],
+  $_icon: {
+    name: "ContentCut",
+    vendor: "Mdi",
+    type: "",
+    tags: ["content","cut"],
+  },
   render() {
     return h(
       "svg",

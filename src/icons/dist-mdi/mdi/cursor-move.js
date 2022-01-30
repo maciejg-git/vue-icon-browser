@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CursorMove",
-  vendor: "Mdi",
-  type: "",
-  tags: ["cursor","move"],
+  $_icon: {
+    name: "CursorMove",
+    vendor: "Mdi",
+    type: "",
+    tags: ["cursor","move"],
+  },
   render() {
     return h(
       "svg",

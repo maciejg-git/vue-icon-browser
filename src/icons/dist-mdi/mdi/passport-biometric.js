@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PassportBiometric",
-  vendor: "Mdi",
-  type: "",
-  tags: ["passport","biometric"],
+  $_icon: {
+    name: "PassportBiometric",
+    vendor: "Mdi",
+    type: "",
+    tags: ["passport","biometric"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ExclamationTriangle",
-  vendor: "B",
-  type: "",
-  tags: ["exclamation","triangle"],
+  $_icon: {
+    name: "ExclamationTriangle",
+    vendor: "B",
+    type: "",
+    tags: ["exclamation","triangle"],
+  },
   render() {
     return h(
       "svg",

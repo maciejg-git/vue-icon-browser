@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RhombusOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["rhombus","outline"],
+  $_icon: {
+    name: "RhombusOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["rhombus","outline"],
+  },
   render() {
     return h(
       "svg",

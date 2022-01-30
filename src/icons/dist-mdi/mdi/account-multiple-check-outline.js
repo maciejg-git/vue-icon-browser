@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AccountMultipleCheckOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["account","multiple","check","outline"],
+  $_icon: {
+    name: "AccountMultipleCheckOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["account","multiple","check","outline"],
+  },
   render() {
     return h(
       "svg",

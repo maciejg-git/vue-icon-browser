@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "StepBackward",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["step","backward"],
+  $_icon: {
+    name: "StepBackward",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["step","backward"],
+  },
   render() {
     return h(
       "svg",

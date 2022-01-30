@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Unsplash",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["unsplash"],
+  $_icon: {
+    name: "Unsplash",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["unsplash"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TranscribeClose",
-  vendor: "Mdi",
-  type: "",
-  tags: ["transcribe","close"],
+  $_icon: {
+    name: "TranscribeClose",
+    vendor: "Mdi",
+    type: "",
+    tags: ["transcribe","close"],
+  },
   render() {
     return h(
       "svg",

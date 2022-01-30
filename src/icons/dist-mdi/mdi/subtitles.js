@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Subtitles",
-  vendor: "Mdi",
-  type: "",
-  tags: ["subtitles"],
+  $_icon: {
+    name: "Subtitles",
+    vendor: "Mdi",
+    type: "",
+    tags: ["subtitles"],
+  },
   render() {
     return h(
       "svg",

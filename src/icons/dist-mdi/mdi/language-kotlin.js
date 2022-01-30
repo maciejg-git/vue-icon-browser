@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LanguageKotlin",
-  vendor: "Mdi",
-  type: "",
-  tags: ["language","kotlin"],
+  $_icon: {
+    name: "LanguageKotlin",
+    vendor: "Mdi",
+    type: "",
+    tags: ["language","kotlin"],
+  },
   render() {
     return h(
       "svg",

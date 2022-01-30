@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SlotMachineOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["slot","machine","outline"],
+  $_icon: {
+    name: "SlotMachineOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["slot","machine","outline"],
+  },
   render() {
     return h(
       "svg",

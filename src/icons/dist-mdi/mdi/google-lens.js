@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GoogleLens",
-  vendor: "Mdi",
-  type: "",
-  tags: ["google","lens"],
+  $_icon: {
+    name: "GoogleLens",
+    vendor: "Mdi",
+    type: "",
+    tags: ["google","lens"],
+  },
   render() {
     return h(
       "svg",

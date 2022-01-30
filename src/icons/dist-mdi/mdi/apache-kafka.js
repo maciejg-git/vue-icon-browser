@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ApacheKafka",
-  vendor: "Mdi",
-  type: "",
-  tags: ["apache","kafka"],
+  $_icon: {
+    name: "ApacheKafka",
+    vendor: "Mdi",
+    type: "",
+    tags: ["apache","kafka"],
+  },
   render() {
     return h(
       "svg",

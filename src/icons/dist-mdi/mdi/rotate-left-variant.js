@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RotateLeftVariant",
-  vendor: "Mdi",
-  type: "",
-  tags: ["rotate","left","variant"],
+  $_icon: {
+    name: "RotateLeftVariant",
+    vendor: "Mdi",
+    type: "",
+    tags: ["rotate","left","variant"],
+  },
   render() {
     return h(
       "svg",

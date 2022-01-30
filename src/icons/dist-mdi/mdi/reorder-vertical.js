@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ReorderVertical",
-  vendor: "Mdi",
-  type: "",
-  tags: ["reorder","vertical"],
+  $_icon: {
+    name: "ReorderVertical",
+    vendor: "Mdi",
+    type: "",
+    tags: ["reorder","vertical"],
+  },
   render() {
     return h(
       "svg",

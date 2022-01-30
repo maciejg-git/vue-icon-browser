@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FlashAuto",
-  vendor: "Mdi",
-  type: "",
-  tags: ["flash","auto"],
+  $_icon: {
+    name: "FlashAuto",
+    vendor: "Mdi",
+    type: "",
+    tags: ["flash","auto"],
+  },
   render() {
     return h(
       "svg",

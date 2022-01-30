@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AssistiveListeningSystems",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["assistive","listening","systems"],
+  $_icon: {
+    name: "AssistiveListeningSystems",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["assistive","listening","systems"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PinwheelOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["pinwheel","outline"],
+  $_icon: {
+    name: "PinwheelOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["pinwheel","outline"],
+  },
   render() {
     return h(
       "svg",

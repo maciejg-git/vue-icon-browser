@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ApplicationBrackets",
-  vendor: "Mdi",
-  type: "",
-  tags: ["application","brackets"],
+  $_icon: {
+    name: "ApplicationBrackets",
+    vendor: "Mdi",
+    type: "",
+    tags: ["application","brackets"],
+  },
   render() {
     return h(
       "svg",

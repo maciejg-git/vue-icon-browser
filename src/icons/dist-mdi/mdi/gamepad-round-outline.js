@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GamepadRoundOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["gamepad","round","outline"],
+  $_icon: {
+    name: "GamepadRoundOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["gamepad","round","outline"],
+  },
   render() {
     return h(
       "svg",

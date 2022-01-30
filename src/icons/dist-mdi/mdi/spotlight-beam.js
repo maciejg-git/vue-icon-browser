@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SpotlightBeam",
-  vendor: "Mdi",
-  type: "",
-  tags: ["spotlight","beam"],
+  $_icon: {
+    name: "SpotlightBeam",
+    vendor: "Mdi",
+    type: "",
+    tags: ["spotlight","beam"],
+  },
   render() {
     return h(
       "svg",

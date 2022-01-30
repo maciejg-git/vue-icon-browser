@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Grid3x3Gap",
-  vendor: "B",
-  type: "",
-  tags: ["grid","3x3","gap"],
+  $_icon: {
+    name: "Grid3x3Gap",
+    vendor: "B",
+    type: "",
+    tags: ["grid","3x3","gap"],
+  },
   render() {
     return h(
       "svg",

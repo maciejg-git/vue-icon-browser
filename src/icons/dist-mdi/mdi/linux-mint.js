@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LinuxMint",
-  vendor: "Mdi",
-  type: "",
-  tags: ["linux","mint"],
+  $_icon: {
+    name: "LinuxMint",
+    vendor: "Mdi",
+    type: "",
+    tags: ["linux","mint"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RunFast",
-  vendor: "Mdi",
-  type: "",
-  tags: ["run","fast"],
+  $_icon: {
+    name: "RunFast",
+    vendor: "Mdi",
+    type: "",
+    tags: ["run","fast"],
+  },
   render() {
     return h(
       "svg",

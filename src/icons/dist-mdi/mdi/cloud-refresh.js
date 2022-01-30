@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CloudRefresh",
-  vendor: "Mdi",
-  type: "",
-  tags: ["cloud","refresh"],
+  $_icon: {
+    name: "CloudRefresh",
+    vendor: "Mdi",
+    type: "",
+    tags: ["cloud","refresh"],
+  },
   render() {
     return h(
       "svg",

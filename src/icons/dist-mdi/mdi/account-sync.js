@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AccountSync",
-  vendor: "Mdi",
-  type: "",
-  tags: ["account","sync"],
+  $_icon: {
+    name: "AccountSync",
+    vendor: "Mdi",
+    type: "",
+    tags: ["account","sync"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MicrosoftInternetExplorer",
-  vendor: "Mdi",
-  type: "",
-  tags: ["microsoft","internet","explorer"],
+  $_icon: {
+    name: "MicrosoftInternetExplorer",
+    vendor: "Mdi",
+    type: "",
+    tags: ["microsoft","internet","explorer"],
+  },
   render() {
     return h(
       "svg",

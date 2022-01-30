@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PowerOff",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["power","off"],
+  $_icon: {
+    name: "PowerOff",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["power","off"],
+  },
   render() {
     return h(
       "svg",

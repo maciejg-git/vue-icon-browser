@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AlertOctagonOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["alert","octagon","outline"],
+  $_icon: {
+    name: "AlertOctagonOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["alert","octagon","outline"],
+  },
   render() {
     return h(
       "svg",

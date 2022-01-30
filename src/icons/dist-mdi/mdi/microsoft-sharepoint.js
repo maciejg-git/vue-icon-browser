@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MicrosoftSharepoint",
-  vendor: "Mdi",
-  type: "",
-  tags: ["microsoft","sharepoint"],
+  $_icon: {
+    name: "MicrosoftSharepoint",
+    vendor: "Mdi",
+    type: "",
+    tags: ["microsoft","sharepoint"],
+  },
   render() {
     return h(
       "svg",

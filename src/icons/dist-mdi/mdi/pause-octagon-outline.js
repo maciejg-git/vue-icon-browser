@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PauseOctagonOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["pause","octagon","outline"],
+  $_icon: {
+    name: "PauseOctagonOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["pause","octagon","outline"],
+  },
   render() {
     return h(
       "svg",

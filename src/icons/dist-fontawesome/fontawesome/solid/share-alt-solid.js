@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ShareAlt",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["share","alt"],
+  $_icon: {
+    name: "ShareAlt",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["share","alt"],
+  },
   render() {
     return h(
       "svg",

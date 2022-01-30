@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SprinklerVariant",
-  vendor: "Mdi",
-  type: "",
-  tags: ["sprinkler","variant"],
+  $_icon: {
+    name: "SprinklerVariant",
+    vendor: "Mdi",
+    type: "",
+    tags: ["sprinkler","variant"],
+  },
   render() {
     return h(
       "svg",

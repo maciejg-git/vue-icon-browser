@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "WebSync",
-  vendor: "Mdi",
-  type: "",
-  tags: ["web","sync"],
+  $_icon: {
+    name: "WebSync",
+    vendor: "Mdi",
+    type: "",
+    tags: ["web","sync"],
+  },
   render() {
     return h(
       "svg",

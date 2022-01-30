@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "VectorDifference",
-  vendor: "Mdi",
-  type: "",
-  tags: ["vector","difference"],
+  $_icon: {
+    name: "VectorDifference",
+    vendor: "Mdi",
+    type: "",
+    tags: ["vector","difference"],
+  },
   render() {
     return h(
       "svg",

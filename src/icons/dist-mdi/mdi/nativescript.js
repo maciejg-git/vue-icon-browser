@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Nativescript",
-  vendor: "Mdi",
-  type: "",
-  tags: ["nativescript"],
+  $_icon: {
+    name: "Nativescript",
+    vendor: "Mdi",
+    type: "",
+    tags: ["nativescript"],
+  },
   render() {
     return h(
       "svg",

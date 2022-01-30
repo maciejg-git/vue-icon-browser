@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BlurRadial",
-  vendor: "Mdi",
-  type: "",
-  tags: ["blur","radial"],
+  $_icon: {
+    name: "BlurRadial",
+    vendor: "Mdi",
+    type: "",
+    tags: ["blur","radial"],
+  },
   render() {
     return h(
       "svg",

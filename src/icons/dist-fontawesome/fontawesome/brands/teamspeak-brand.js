@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Teamspeak",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["teamspeak"],
+  $_icon: {
+    name: "Teamspeak",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["teamspeak"],
+  },
   render() {
     return h(
       "svg",

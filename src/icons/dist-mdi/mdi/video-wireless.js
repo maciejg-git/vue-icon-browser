@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "VideoWireless",
-  vendor: "Mdi",
-  type: "",
-  tags: ["video","wireless"],
+  $_icon: {
+    name: "VideoWireless",
+    vendor: "Mdi",
+    type: "",
+    tags: ["video","wireless"],
+  },
   render() {
     return h(
       "svg",

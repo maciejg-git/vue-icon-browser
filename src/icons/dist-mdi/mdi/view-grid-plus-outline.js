@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ViewGridPlusOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["view","grid","plus","outline"],
+  $_icon: {
+    name: "ViewGridPlusOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["view","grid","plus","outline"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ListNested",
-  vendor: "B",
-  type: "",
-  tags: ["list","nested"],
+  $_icon: {
+    name: "ListNested",
+    vendor: "B",
+    type: "",
+    tags: ["list","nested"],
+  },
   render() {
     return h(
       "svg",

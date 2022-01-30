@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FolderSearch",
-  vendor: "Mdi",
-  type: "",
-  tags: ["folder","search"],
+  $_icon: {
+    name: "FolderSearch",
+    vendor: "Mdi",
+    type: "",
+    tags: ["folder","search"],
+  },
   render() {
     return h(
       "svg",

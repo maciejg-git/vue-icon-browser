@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CastConnected",
-  vendor: "Mdi",
-  type: "",
-  tags: ["cast","connected"],
+  $_icon: {
+    name: "CastConnected",
+    vendor: "Mdi",
+    type: "",
+    tags: ["cast","connected"],
+  },
   render() {
     return h(
       "svg",

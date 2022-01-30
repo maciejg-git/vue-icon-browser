@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AxisYRotateClockwise",
-  vendor: "Mdi",
-  type: "",
-  tags: ["axis","y","rotate","clockwise"],
+  $_icon: {
+    name: "AxisYRotateClockwise",
+    vendor: "Mdi",
+    type: "",
+    tags: ["axis","y","rotate","clockwise"],
+  },
   render() {
     return h(
       "svg",

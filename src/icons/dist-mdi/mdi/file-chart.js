@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileChart",
-  vendor: "Mdi",
-  type: "",
-  tags: ["file","chart"],
+  $_icon: {
+    name: "FileChart",
+    vendor: "Mdi",
+    type: "",
+    tags: ["file","chart"],
+  },
   render() {
     return h(
       "svg",

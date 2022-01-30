@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DebugStepInto",
-  vendor: "Mdi",
-  type: "",
-  tags: ["debug","step","into"],
+  $_icon: {
+    name: "DebugStepInto",
+    vendor: "Mdi",
+    type: "",
+    tags: ["debug","step","into"],
+  },
   render() {
     return h(
       "svg",

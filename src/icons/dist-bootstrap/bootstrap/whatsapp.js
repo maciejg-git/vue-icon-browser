@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Whatsapp",
-  vendor: "B",
-  type: "",
-  tags: ["whatsapp"],
+  $_icon: {
+    name: "Whatsapp",
+    vendor: "B",
+    type: "",
+    tags: ["whatsapp"],
+  },
   render() {
     return h(
       "svg",

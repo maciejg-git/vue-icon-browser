@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Umbraco",
-  vendor: "Mdi",
-  type: "",
-  tags: ["umbraco"],
+  $_icon: {
+    name: "Umbraco",
+    vendor: "Mdi",
+    type: "",
+    tags: ["umbraco"],
+  },
   render() {
     return h(
       "svg",

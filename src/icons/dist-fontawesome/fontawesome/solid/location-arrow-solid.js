@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LocationArrow",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["location","arrow"],
+  $_icon: {
+    name: "LocationArrow",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["location","arrow"],
+  },
   render() {
     return h(
       "svg",

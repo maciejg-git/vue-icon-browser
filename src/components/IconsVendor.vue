@@ -37,7 +37,7 @@ export default {
       let tags = {};
 
       for (let icon of props.icons) {
-        for (let tag of icon.tags) {
+        for (let tag of icon.$_icon.tags) {
           if (!tags[tag]) tags[tag] = [];
           tags[tag].push(icon);
         }
@@ -57,7 +57,7 @@ export default {
       for (let t of tags) {
         if (t[0].includes(filter)) {
           for (let i of t[1]) {
-            res[i.name] = i;
+            res[i.$_icon.name] = i;
           }
         }
       }

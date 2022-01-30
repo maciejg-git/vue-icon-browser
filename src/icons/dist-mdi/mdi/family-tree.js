@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FamilyTree",
-  vendor: "Mdi",
-  type: "",
-  tags: ["family","tree"],
+  $_icon: {
+    name: "FamilyTree",
+    vendor: "Mdi",
+    type: "",
+    tags: ["family","tree"],
+  },
   render() {
     return h(
       "svg",

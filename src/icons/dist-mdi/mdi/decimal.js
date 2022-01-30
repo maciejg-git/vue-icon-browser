@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Decimal",
-  vendor: "Mdi",
-  type: "",
-  tags: ["decimal"],
+  $_icon: {
+    name: "Decimal",
+    vendor: "Mdi",
+    type: "",
+    tags: ["decimal"],
+  },
   render() {
     return h(
       "svg",

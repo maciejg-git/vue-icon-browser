@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TransitConnectionVariant",
-  vendor: "Mdi",
-  type: "",
-  tags: ["transit","connection","variant"],
+  $_icon: {
+    name: "TransitConnectionVariant",
+    vendor: "Mdi",
+    type: "",
+    tags: ["transit","connection","variant"],
+  },
   render() {
     return h(
       "svg",

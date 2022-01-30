@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RotateRight",
-  vendor: "Mdi",
-  type: "",
-  tags: ["rotate","right"],
+  $_icon: {
+    name: "RotateRight",
+    vendor: "Mdi",
+    type: "",
+    tags: ["rotate","right"],
+  },
   render() {
     return h(
       "svg",

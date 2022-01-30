@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileDocumentMultiple",
-  vendor: "Mdi",
-  type: "",
-  tags: ["file","document","multiple"],
+  $_icon: {
+    name: "FileDocumentMultiple",
+    vendor: "Mdi",
+    type: "",
+    tags: ["file","document","multiple"],
+  },
   render() {
     return h(
       "svg",

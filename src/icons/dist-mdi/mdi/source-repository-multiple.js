@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SourceRepositoryMultiple",
-  vendor: "Mdi",
-  type: "",
-  tags: ["source","repository","multiple"],
+  $_icon: {
+    name: "SourceRepositoryMultiple",
+    vendor: "Mdi",
+    type: "",
+    tags: ["source","repository","multiple"],
+  },
   render() {
     return h(
       "svg",

@@ -130,6 +130,9 @@
           </div>
         </div>
       </div>
+      <!-- <div class="fixed bottom-0 bg-white h-20 w-full p-10">{{ currentIcon &#38;&#38; currentIcon.getIconName() }} -->
+      <!--   <component :is="currentIcon"></component> -->
+      <!-- </div> -->
       <!-- <icons-bottom-bar :current-icon="currentIcon"></icons-bottom-bar> -->
     </div>
 
@@ -199,10 +202,11 @@ export default {
 
     let selectedIcons = ref([]);
     let lastSelectedIcon = ref({});
+    let currentIcon = ref(null);
 
     let unselectIcon = (icon) => {
       let index = selectedIcons.value.findIndex((i) => {
-        return icon.name === i.name;
+        return icon.$_icon.name === i.$_icon.name;
       });
       selectedIcons.value.splice(index, 1);
       icon.selected.value = false;
@@ -225,10 +229,12 @@ export default {
           }
         });
         lastSelectedIcon.value = icons[icons.length - 1];
+        currentIcon.value = icons[0];
       } else {
         selectedIcons.value.push(icons);
         icons.selected.value = true;
         lastSelectedIcon.value = icons;
+        currentIcon.value = icons;
       }
     };
 
@@ -259,6 +265,7 @@ export default {
       views,
       toggleVendor,
       store,
+      currentIcon,
       BBootstrapFill,
       MdiMaterialDesign,
       FaFontAwesomeFlagBrand,

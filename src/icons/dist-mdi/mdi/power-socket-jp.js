@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PowerSocketJp",
-  vendor: "Mdi",
-  type: "",
-  tags: ["power","socket","jp"],
+  $_icon: {
+    name: "PowerSocketJp",
+    vendor: "Mdi",
+    type: "",
+    tags: ["power","socket","jp"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "InboxArrowUpOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["inbox","arrow","up","outline"],
+  $_icon: {
+    name: "InboxArrowUpOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["inbox","arrow","up","outline"],
+  },
   render() {
     return h(
       "svg",

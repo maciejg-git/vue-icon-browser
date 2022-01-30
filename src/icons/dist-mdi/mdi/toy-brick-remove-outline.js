@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ToyBrickRemoveOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["toy","brick","remove","outline"],
+  $_icon: {
+    name: "ToyBrickRemoveOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["toy","brick","remove","outline"],
+  },
   render() {
     return h(
       "svg",

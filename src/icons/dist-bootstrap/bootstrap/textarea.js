@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Textarea",
-  vendor: "B",
-  type: "",
-  tags: ["textarea"],
+  $_icon: {
+    name: "Textarea",
+    vendor: "B",
+    type: "",
+    tags: ["textarea"],
+  },
   render() {
     return h(
       "svg",

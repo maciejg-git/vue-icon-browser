@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Wordpress",
-  vendor: "Mdi",
-  type: "",
-  tags: ["wordpress"],
+  $_icon: {
+    name: "Wordpress",
+    vendor: "Mdi",
+    type: "",
+    tags: ["wordpress"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PiBox",
-  vendor: "Mdi",
-  type: "",
-  tags: ["pi","box"],
+  $_icon: {
+    name: "PiBox",
+    vendor: "Mdi",
+    type: "",
+    tags: ["pi","box"],
+  },
   render() {
     return h(
       "svg",

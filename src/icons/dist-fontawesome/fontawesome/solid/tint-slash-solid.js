@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TintSlash",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["tint","slash"],
+  $_icon: {
+    name: "TintSlash",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["tint","slash"],
+  },
   render() {
     return h(
       "svg",

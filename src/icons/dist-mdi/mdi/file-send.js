@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileSend",
-  vendor: "Mdi",
-  type: "",
-  tags: ["file","send"],
+  $_icon: {
+    name: "FileSend",
+    vendor: "Mdi",
+    type: "",
+    tags: ["file","send"],
+  },
   render() {
     return h(
       "svg",

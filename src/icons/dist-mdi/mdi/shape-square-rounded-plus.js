@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ShapeSquareRoundedPlus",
-  vendor: "Mdi",
-  type: "",
-  tags: ["shape","square","rounded","plus"],
+  $_icon: {
+    name: "ShapeSquareRoundedPlus",
+    vendor: "Mdi",
+    type: "",
+    tags: ["shape","square","rounded","plus"],
+  },
   render() {
     return h(
       "svg",

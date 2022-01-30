@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LayerGroup",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["layer","group"],
+  $_icon: {
+    name: "LayerGroup",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["layer","group"],
+  },
   render() {
     return h(
       "svg",

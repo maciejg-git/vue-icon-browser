@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CollapseAllOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["collapse","all","outline"],
+  $_icon: {
+    name: "CollapseAllOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["collapse","all","outline"],
+  },
   render() {
     return h(
       "svg",

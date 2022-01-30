@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CogSync",
-  vendor: "Mdi",
-  type: "",
-  tags: ["cog","sync"],
+  $_icon: {
+    name: "CogSync",
+    vendor: "Mdi",
+    type: "",
+    tags: ["cog","sync"],
+  },
   render() {
     return h(
       "svg",

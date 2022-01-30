@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AutoUpload",
-  vendor: "Mdi",
-  type: "",
-  tags: ["auto","upload"],
+  $_icon: {
+    name: "AutoUpload",
+    vendor: "Mdi",
+    type: "",
+    tags: ["auto","upload"],
+  },
   render() {
     return h(
       "svg",

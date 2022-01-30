@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CodeGreaterThanOrEqual",
-  vendor: "Mdi",
-  type: "",
-  tags: ["code","greater","than","or","equal"],
+  $_icon: {
+    name: "CodeGreaterThanOrEqual",
+    vendor: "Mdi",
+    type: "",
+    tags: ["code","greater","than","or","equal"],
+  },
   render() {
     return h(
       "svg",

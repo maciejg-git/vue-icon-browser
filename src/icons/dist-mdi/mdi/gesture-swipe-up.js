@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GestureSwipeUp",
-  vendor: "Mdi",
-  type: "",
-  tags: ["gesture","swipe","up"],
+  $_icon: {
+    name: "GestureSwipeUp",
+    vendor: "Mdi",
+    type: "",
+    tags: ["gesture","swipe","up"],
+  },
   render() {
     return h(
       "svg",

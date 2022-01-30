@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FolderStarMultipleOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["folder","star","multiple","outline"],
+  $_icon: {
+    name: "FolderStarMultipleOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["folder","star","multiple","outline"],
+  },
   render() {
     return h(
       "svg",

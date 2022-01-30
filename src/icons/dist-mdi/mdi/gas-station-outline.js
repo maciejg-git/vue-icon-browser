@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GasStationOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["gas","station","outline"],
+  $_icon: {
+    name: "GasStationOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["gas","station","outline"],
+  },
   render() {
     return h(
       "svg",

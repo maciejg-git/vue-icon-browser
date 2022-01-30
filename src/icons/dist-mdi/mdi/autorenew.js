@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Autorenew",
-  vendor: "Mdi",
-  type: "",
-  tags: ["autorenew"],
+  $_icon: {
+    name: "Autorenew",
+    vendor: "Mdi",
+    type: "",
+    tags: ["autorenew"],
+  },
   render() {
     return h(
       "svg",

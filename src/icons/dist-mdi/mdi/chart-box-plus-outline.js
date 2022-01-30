@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ChartBoxPlusOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["chart","box","plus","outline"],
+  $_icon: {
+    name: "ChartBoxPlusOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["chart","box","plus","outline"],
+  },
   render() {
     return h(
       "svg",

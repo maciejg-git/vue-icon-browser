@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AppleKeyboardShift",
-  vendor: "Mdi",
-  type: "",
-  tags: ["apple","keyboard","shift"],
+  $_icon: {
+    name: "AppleKeyboardShift",
+    vendor: "Mdi",
+    type: "",
+    tags: ["apple","keyboard","shift"],
+  },
   render() {
     return h(
       "svg",

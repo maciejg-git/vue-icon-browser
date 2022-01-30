@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CalendarCollapseHorizontal",
-  vendor: "Mdi",
-  type: "",
-  tags: ["calendar","collapse","horizontal"],
+  $_icon: {
+    name: "CalendarCollapseHorizontal",
+    vendor: "Mdi",
+    type: "",
+    tags: ["calendar","collapse","horizontal"],
+  },
   render() {
     return h(
       "svg",

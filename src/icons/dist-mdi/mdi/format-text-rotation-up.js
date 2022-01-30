@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatTextRotationUp",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","text","rotation","up"],
+  $_icon: {
+    name: "FormatTextRotationUp",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","text","rotation","up"],
+  },
   render() {
     return h(
       "svg",

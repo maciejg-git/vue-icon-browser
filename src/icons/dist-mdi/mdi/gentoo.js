@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Gentoo",
-  vendor: "Mdi",
-  type: "",
-  tags: ["gentoo"],
+  $_icon: {
+    name: "Gentoo",
+    vendor: "Mdi",
+    type: "",
+    tags: ["gentoo"],
+  },
   render() {
     return h(
       "svg",

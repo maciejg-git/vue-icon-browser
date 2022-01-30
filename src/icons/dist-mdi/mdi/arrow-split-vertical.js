@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ArrowSplitVertical",
-  vendor: "Mdi",
-  type: "",
-  tags: ["arrow","split","vertical"],
+  $_icon: {
+    name: "ArrowSplitVertical",
+    vendor: "Mdi",
+    type: "",
+    tags: ["arrow","split","vertical"],
+  },
   render() {
     return h(
       "svg",

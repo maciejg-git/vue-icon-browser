@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PrinterOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["printer","outline"],
+  $_icon: {
+    name: "PrinterOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["printer","outline"],
+  },
   render() {
     return h(
       "svg",

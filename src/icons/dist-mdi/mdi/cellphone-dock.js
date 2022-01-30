@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CellphoneDock",
-  vendor: "Mdi",
-  type: "",
-  tags: ["cellphone","dock"],
+  $_icon: {
+    name: "CellphoneDock",
+    vendor: "Mdi",
+    type: "",
+    tags: ["cellphone","dock"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TelevisionShimmer",
-  vendor: "Mdi",
-  type: "",
-  tags: ["television","shimmer"],
+  $_icon: {
+    name: "TelevisionShimmer",
+    vendor: "Mdi",
+    type: "",
+    tags: ["television","shimmer"],
+  },
   render() {
     return h(
       "svg",

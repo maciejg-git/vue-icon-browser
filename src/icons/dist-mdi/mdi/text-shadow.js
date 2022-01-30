@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TextShadow",
-  vendor: "Mdi",
-  type: "",
-  tags: ["text","shadow"],
+  $_icon: {
+    name: "TextShadow",
+    vendor: "Mdi",
+    type: "",
+    tags: ["text","shadow"],
+  },
   render() {
     return h(
       "svg",

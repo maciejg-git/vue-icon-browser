@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "UnfoldMoreHorizontal",
-  vendor: "Mdi",
-  type: "",
-  tags: ["unfold","more","horizontal"],
+  $_icon: {
+    name: "UnfoldMoreHorizontal",
+    vendor: "Mdi",
+    type: "",
+    tags: ["unfold","more","horizontal"],
+  },
   render() {
     return h(
       "svg",

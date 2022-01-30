@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CursorDefaultOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["cursor","default","outline"],
+  $_icon: {
+    name: "CursorDefaultOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["cursor","default","outline"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TachometerAlt",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["tachometer","alt"],
+  $_icon: {
+    name: "TachometerAlt",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["tachometer","alt"],
+  },
   render() {
     return h(
       "svg",

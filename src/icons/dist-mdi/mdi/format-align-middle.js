@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatAlignMiddle",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","align","middle"],
+  $_icon: {
+    name: "FormatAlignMiddle",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","align","middle"],
+  },
   render() {
     return h(
       "svg",

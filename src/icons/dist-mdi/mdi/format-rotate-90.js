@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatRotate90",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","rotate","90"],
+  $_icon: {
+    name: "FormatRotate90",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","rotate","90"],
+  },
   render() {
     return h(
       "svg",

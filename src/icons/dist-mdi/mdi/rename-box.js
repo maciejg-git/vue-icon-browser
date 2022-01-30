@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RenameBox",
-  vendor: "Mdi",
-  type: "",
-  tags: ["rename","box"],
+  $_icon: {
+    name: "RenameBox",
+    vendor: "Mdi",
+    type: "",
+    tags: ["rename","box"],
+  },
   render() {
     return h(
       "svg",

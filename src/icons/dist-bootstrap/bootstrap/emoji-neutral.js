@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "EmojiNeutral",
-  vendor: "B",
-  type: "",
-  tags: ["emoji","neutral"],
+  $_icon: {
+    name: "EmojiNeutral",
+    vendor: "B",
+    type: "",
+    tags: ["emoji","neutral"],
+  },
   render() {
     return h(
       "svg",

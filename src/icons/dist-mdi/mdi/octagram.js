@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Octagram",
-  vendor: "Mdi",
-  type: "",
-  tags: ["octagram"],
+  $_icon: {
+    name: "Octagram",
+    vendor: "Mdi",
+    type: "",
+    tags: ["octagram"],
+  },
   render() {
     return h(
       "svg",

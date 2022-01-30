@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ViewParallel",
-  vendor: "Mdi",
-  type: "",
-  tags: ["view","parallel"],
+  $_icon: {
+    name: "ViewParallel",
+    vendor: "Mdi",
+    type: "",
+    tags: ["view","parallel"],
+  },
   render() {
     return h(
       "svg",

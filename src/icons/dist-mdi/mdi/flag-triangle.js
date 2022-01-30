@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FlagTriangle",
-  vendor: "Mdi",
-  type: "",
-  tags: ["flag","triangle"],
+  $_icon: {
+    name: "FlagTriangle",
+    vendor: "Mdi",
+    type: "",
+    tags: ["flag","triangle"],
+  },
   render() {
     return h(
       "svg",

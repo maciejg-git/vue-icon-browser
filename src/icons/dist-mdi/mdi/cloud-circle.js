@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CloudCircle",
-  vendor: "Mdi",
-  type: "",
-  tags: ["cloud","circle"],
+  $_icon: {
+    name: "CloudCircle",
+    vendor: "Mdi",
+    type: "",
+    tags: ["cloud","circle"],
+  },
   render() {
     return h(
       "svg",

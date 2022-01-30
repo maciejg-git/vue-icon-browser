@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "VectorSquareEdit",
-  vendor: "Mdi",
-  type: "",
-  tags: ["vector","square","edit"],
+  $_icon: {
+    name: "VectorSquareEdit",
+    vendor: "Mdi",
+    type: "",
+    tags: ["vector","square","edit"],
+  },
   render() {
     return h(
       "svg",

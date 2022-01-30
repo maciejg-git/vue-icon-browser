@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ArrowDownThinCircleOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["arrow","down","thin","circle","outline"],
+  $_icon: {
+    name: "ArrowDownThinCircleOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["arrow","down","thin","circle","outline"],
+  },
   render() {
     return h(
       "svg",

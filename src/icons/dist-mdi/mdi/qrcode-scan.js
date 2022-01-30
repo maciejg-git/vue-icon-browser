@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "QrcodeScan",
-  vendor: "Mdi",
-  type: "",
-  tags: ["qrcode","scan"],
+  $_icon: {
+    name: "QrcodeScan",
+    vendor: "Mdi",
+    type: "",
+    tags: ["qrcode","scan"],
+  },
   render() {
     return h(
       "svg",

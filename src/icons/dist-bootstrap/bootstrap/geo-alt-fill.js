@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GeoAltFill",
-  vendor: "B",
-  type: "",
-  tags: ["geo","alt","fill"],
+  $_icon: {
+    name: "GeoAltFill",
+    vendor: "B",
+    type: "",
+    tags: ["geo","alt","fill"],
+  },
   render() {
     return h(
       "svg",

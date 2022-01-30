@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LanguageJavascript",
-  vendor: "Mdi",
-  type: "",
-  tags: ["language","javascript"],
+  $_icon: {
+    name: "LanguageJavascript",
+    vendor: "Mdi",
+    type: "",
+    tags: ["language","javascript"],
+  },
   render() {
     return h(
       "svg",

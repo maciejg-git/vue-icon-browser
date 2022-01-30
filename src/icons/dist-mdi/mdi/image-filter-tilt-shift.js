@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ImageFilterTiltShift",
-  vendor: "Mdi",
-  type: "",
-  tags: ["image","filter","tilt","shift"],
+  $_icon: {
+    name: "ImageFilterTiltShift",
+    vendor: "Mdi",
+    type: "",
+    tags: ["image","filter","tilt","shift"],
+  },
   render() {
     return h(
       "svg",

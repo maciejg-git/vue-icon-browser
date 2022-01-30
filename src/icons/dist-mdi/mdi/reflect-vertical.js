@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ReflectVertical",
-  vendor: "Mdi",
-  type: "",
-  tags: ["reflect","vertical"],
+  $_icon: {
+    name: "ReflectVertical",
+    vendor: "Mdi",
+    type: "",
+    tags: ["reflect","vertical"],
+  },
   render() {
     return h(
       "svg",

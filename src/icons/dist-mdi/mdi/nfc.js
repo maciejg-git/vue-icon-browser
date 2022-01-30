@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Nfc",
-  vendor: "Mdi",
-  type: "",
-  tags: ["nfc"],
+  $_icon: {
+    name: "Nfc",
+    vendor: "Mdi",
+    type: "",
+    tags: ["nfc"],
+  },
   render() {
     return h(
       "svg",

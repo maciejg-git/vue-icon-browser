@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ArmFlex",
-  vendor: "Mdi",
-  type: "",
-  tags: ["arm","flex"],
+  $_icon: {
+    name: "ArmFlex",
+    vendor: "Mdi",
+    type: "",
+    tags: ["arm","flex"],
+  },
   render() {
     return h(
       "svg",

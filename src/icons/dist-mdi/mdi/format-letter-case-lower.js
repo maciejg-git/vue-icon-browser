@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatLetterCaseLower",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","letter","case","lower"],
+  $_icon: {
+    name: "FormatLetterCaseLower",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","letter","case","lower"],
+  },
   render() {
     return h(
       "svg",

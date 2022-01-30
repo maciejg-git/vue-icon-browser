@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ExitToApp",
-  vendor: "Mdi",
-  type: "",
-  tags: ["exit","to","app"],
+  $_icon: {
+    name: "ExitToApp",
+    vendor: "Mdi",
+    type: "",
+    tags: ["exit","to","app"],
+  },
   render() {
     return h(
       "svg",

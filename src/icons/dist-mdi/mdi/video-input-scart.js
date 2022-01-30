@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "VideoInputScart",
-  vendor: "Mdi",
-  type: "",
-  tags: ["video","input","scart"],
+  $_icon: {
+    name: "VideoInputScart",
+    vendor: "Mdi",
+    type: "",
+    tags: ["video","input","scart"],
+  },
   render() {
     return h(
       "svg",

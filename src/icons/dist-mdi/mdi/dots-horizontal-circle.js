@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DotsHorizontalCircle",
-  vendor: "Mdi",
-  type: "",
-  tags: ["dots","horizontal","circle"],
+  $_icon: {
+    name: "DotsHorizontalCircle",
+    vendor: "Mdi",
+    type: "",
+    tags: ["dots","horizontal","circle"],
+  },
   render() {
     return h(
       "svg",

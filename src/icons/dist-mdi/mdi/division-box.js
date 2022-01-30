@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DivisionBox",
-  vendor: "Mdi",
-  type: "",
-  tags: ["division","box"],
+  $_icon: {
+    name: "DivisionBox",
+    vendor: "Mdi",
+    type: "",
+    tags: ["division","box"],
+  },
   render() {
     return h(
       "svg",

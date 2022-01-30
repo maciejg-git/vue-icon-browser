@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Quinscape",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["quinscape"],
+  $_icon: {
+    name: "Quinscape",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["quinscape"],
+  },
   render() {
     return h(
       "svg",

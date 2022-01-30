@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ToggleSwitchOffOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["toggle","switch","off","outline"],
+  $_icon: {
+    name: "ToggleSwitchOffOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["toggle","switch","off","outline"],
+  },
   render() {
     return h(
       "svg",

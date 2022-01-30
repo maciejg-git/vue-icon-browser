@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Infinity",
-  vendor: "Mdi",
-  type: "",
-  tags: ["infinity"],
+  $_icon: {
+    name: "Infinity",
+    vendor: "Mdi",
+    type: "",
+    tags: ["infinity"],
+  },
   render() {
     return h(
       "svg",

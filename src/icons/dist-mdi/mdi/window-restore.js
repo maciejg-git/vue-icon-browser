@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "WindowRestore",
-  vendor: "Mdi",
-  type: "",
-  tags: ["window","restore"],
+  $_icon: {
+    name: "WindowRestore",
+    vendor: "Mdi",
+    type: "",
+    tags: ["window","restore"],
+  },
   render() {
     return h(
       "svg",

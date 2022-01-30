@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BathtubOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["bathtub","outline"],
+  $_icon: {
+    name: "BathtubOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["bathtub","outline"],
+  },
   render() {
     return h(
       "svg",

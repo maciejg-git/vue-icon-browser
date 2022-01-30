@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SortClockAscending",
-  vendor: "Mdi",
-  type: "",
-  tags: ["sort","clock","ascending"],
+  $_icon: {
+    name: "SortClockAscending",
+    vendor: "Mdi",
+    type: "",
+    tags: ["sort","clock","ascending"],
+  },
   render() {
     return h(
       "svg",

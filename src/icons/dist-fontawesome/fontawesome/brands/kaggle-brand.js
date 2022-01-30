@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Kaggle",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["kaggle"],
+  $_icon: {
+    name: "Kaggle",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["kaggle"],
+  },
   render() {
     return h(
       "svg",

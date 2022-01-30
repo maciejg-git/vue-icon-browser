@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FuriganaVertical",
-  vendor: "Mdi",
-  type: "",
-  tags: ["furigana","vertical"],
+  $_icon: {
+    name: "FuriganaVertical",
+    vendor: "Mdi",
+    type: "",
+    tags: ["furigana","vertical"],
+  },
   render() {
     return h(
       "svg",

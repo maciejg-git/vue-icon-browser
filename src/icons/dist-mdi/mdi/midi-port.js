@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MidiPort",
-  vendor: "Mdi",
-  type: "",
-  tags: ["midi","port"],
+  $_icon: {
+    name: "MidiPort",
+    vendor: "Mdi",
+    type: "",
+    tags: ["midi","port"],
+  },
   render() {
     return h(
       "svg",

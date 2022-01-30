@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DeleteVariant",
-  vendor: "Mdi",
-  type: "",
-  tags: ["delete","variant"],
+  $_icon: {
+    name: "DeleteVariant",
+    vendor: "Mdi",
+    type: "",
+    tags: ["delete","variant"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LayoutSidebarInset",
-  vendor: "B",
-  type: "",
-  tags: ["layout","sidebar","inset"],
+  $_icon: {
+    name: "LayoutSidebarInset",
+    vendor: "B",
+    type: "",
+    tags: ["layout","sidebar","inset"],
+  },
   render() {
     return h(
       "svg",

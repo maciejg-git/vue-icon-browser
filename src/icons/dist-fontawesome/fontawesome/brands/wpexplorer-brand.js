@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Wpexplorer",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["wpexplorer"],
+  $_icon: {
+    name: "Wpexplorer",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["wpexplorer"],
+  },
   render() {
     return h(
       "svg",

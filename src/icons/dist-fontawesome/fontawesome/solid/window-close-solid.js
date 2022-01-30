@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "WindowClose",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["window","close"],
+  $_icon: {
+    name: "WindowClose",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["window","close"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FolderSwapOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["folder","swap","outline"],
+  $_icon: {
+    name: "FolderSwapOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["folder","swap","outline"],
+  },
   render() {
     return h(
       "svg",

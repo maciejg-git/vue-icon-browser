@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TrackLight",
-  vendor: "Mdi",
-  type: "",
-  tags: ["track","light"],
+  $_icon: {
+    name: "TrackLight",
+    vendor: "Mdi",
+    type: "",
+    tags: ["track","light"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GoogleHome",
-  vendor: "Mdi",
-  type: "",
-  tags: ["google","home"],
+  $_icon: {
+    name: "GoogleHome",
+    vendor: "Mdi",
+    type: "",
+    tags: ["google","home"],
+  },
   render() {
     return h(
       "svg",

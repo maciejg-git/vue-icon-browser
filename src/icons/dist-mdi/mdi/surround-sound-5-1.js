@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SurroundSound51",
-  vendor: "Mdi",
-  type: "",
-  tags: ["surround","sound","5","1"],
+  $_icon: {
+    name: "SurroundSound51",
+    vendor: "Mdi",
+    type: "",
+    tags: ["surround","sound","5","1"],
+  },
   render() {
     return h(
       "svg",

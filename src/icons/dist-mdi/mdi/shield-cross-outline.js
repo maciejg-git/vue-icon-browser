@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ShieldCrossOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["shield","cross","outline"],
+  $_icon: {
+    name: "ShieldCrossOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["shield","cross","outline"],
+  },
   render() {
     return h(
       "svg",

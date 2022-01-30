@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Intercom",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["intercom"],
+  $_icon: {
+    name: "Intercom",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["intercom"],
+  },
   render() {
     return h(
       "svg",

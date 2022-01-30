@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DockWindow",
-  vendor: "Mdi",
-  type: "",
-  tags: ["dock","window"],
+  $_icon: {
+    name: "DockWindow",
+    vendor: "Mdi",
+    type: "",
+    tags: ["dock","window"],
+  },
   render() {
     return h(
       "svg",

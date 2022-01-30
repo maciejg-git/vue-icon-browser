@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PhoenixFramework",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["phoenix","framework"],
+  $_icon: {
+    name: "PhoenixFramework",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["phoenix","framework"],
+  },
   render() {
     return h(
       "svg",

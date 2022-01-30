@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CardsPlayingDiamondMultiple",
-  vendor: "Mdi",
-  type: "",
-  tags: ["cards","playing","diamond","multiple"],
+  $_icon: {
+    name: "CardsPlayingDiamondMultiple",
+    vendor: "Mdi",
+    type: "",
+    tags: ["cards","playing","diamond","multiple"],
+  },
   render() {
     return h(
       "svg",

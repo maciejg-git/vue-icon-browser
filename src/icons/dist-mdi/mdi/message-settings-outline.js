@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MessageSettingsOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["message","settings","outline"],
+  $_icon: {
+    name: "MessageSettingsOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["message","settings","outline"],
+  },
   render() {
     return h(
       "svg",

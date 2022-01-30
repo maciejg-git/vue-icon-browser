@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DatabaseAlertOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["database","alert","outline"],
+  $_icon: {
+    name: "DatabaseAlertOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["database","alert","outline"],
+  },
   render() {
     return h(
       "svg",

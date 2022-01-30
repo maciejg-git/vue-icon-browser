@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DesktopMacDashboard",
-  vendor: "Mdi",
-  type: "",
-  tags: ["desktop","mac","dashboard"],
+  $_icon: {
+    name: "DesktopMacDashboard",
+    vendor: "Mdi",
+    type: "",
+    tags: ["desktop","mac","dashboard"],
+  },
   render() {
     return h(
       "svg",

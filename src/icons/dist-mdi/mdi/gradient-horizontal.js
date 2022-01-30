@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GradientHorizontal",
-  vendor: "Mdi",
-  type: "",
-  tags: ["gradient","horizontal"],
+  $_icon: {
+    name: "GradientHorizontal",
+    vendor: "Mdi",
+    type: "",
+    tags: ["gradient","horizontal"],
+  },
   render() {
     return h(
       "svg",

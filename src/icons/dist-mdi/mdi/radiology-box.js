@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RadiologyBox",
-  vendor: "Mdi",
-  type: "",
-  tags: ["radiology","box"],
+  $_icon: {
+    name: "RadiologyBox",
+    vendor: "Mdi",
+    type: "",
+    tags: ["radiology","box"],
+  },
   render() {
     return h(
       "svg",

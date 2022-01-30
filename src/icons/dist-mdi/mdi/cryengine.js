@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Cryengine",
-  vendor: "Mdi",
-  type: "",
-  tags: ["cryengine"],
+  $_icon: {
+    name: "Cryengine",
+    vendor: "Mdi",
+    type: "",
+    tags: ["cryengine"],
+  },
   render() {
     return h(
       "svg",

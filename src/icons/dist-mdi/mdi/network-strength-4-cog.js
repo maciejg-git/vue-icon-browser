@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "NetworkStrength4Cog",
-  vendor: "Mdi",
-  type: "",
-  tags: ["network","strength","4","cog"],
+  $_icon: {
+    name: "NetworkStrength4Cog",
+    vendor: "Mdi",
+    type: "",
+    tags: ["network","strength","4","cog"],
+  },
   render() {
     return h(
       "svg",

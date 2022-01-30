@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GoogleHangouts",
-  vendor: "Mdi",
-  type: "",
-  tags: ["google","hangouts"],
+  $_icon: {
+    name: "GoogleHangouts",
+    vendor: "Mdi",
+    type: "",
+    tags: ["google","hangouts"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ArmFlexOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["arm","flex","outline"],
+  $_icon: {
+    name: "ArmFlexOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["arm","flex","outline"],
+  },
   render() {
     return h(
       "svg",

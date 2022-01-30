@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LayersMinus",
-  vendor: "Mdi",
-  type: "",
-  tags: ["layers","minus"],
+  $_icon: {
+    name: "LayersMinus",
+    vendor: "Mdi",
+    type: "",
+    tags: ["layers","minus"],
+  },
   render() {
     return h(
       "svg",

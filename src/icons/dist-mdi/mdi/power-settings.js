@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PowerSettings",
-  vendor: "Mdi",
-  type: "",
-  tags: ["power","settings"],
+  $_icon: {
+    name: "PowerSettings",
+    vendor: "Mdi",
+    type: "",
+    tags: ["power","settings"],
+  },
   render() {
     return h(
       "svg",

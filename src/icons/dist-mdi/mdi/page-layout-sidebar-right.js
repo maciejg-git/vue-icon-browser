@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PageLayoutSidebarRight",
-  vendor: "Mdi",
-  type: "",
-  tags: ["page","layout","sidebar","right"],
+  $_icon: {
+    name: "PageLayoutSidebarRight",
+    vendor: "Mdi",
+    type: "",
+    tags: ["page","layout","sidebar","right"],
+  },
   render() {
     return h(
       "svg",

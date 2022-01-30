@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CosineWave",
-  vendor: "Mdi",
-  type: "",
-  tags: ["cosine","wave"],
+  $_icon: {
+    name: "CosineWave",
+    vendor: "Mdi",
+    type: "",
+    tags: ["cosine","wave"],
+  },
   render() {
     return h(
       "svg",

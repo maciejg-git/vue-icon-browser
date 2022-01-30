@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "WiperWash",
-  vendor: "Mdi",
-  type: "",
-  tags: ["wiper","wash"],
+  $_icon: {
+    name: "WiperWash",
+    vendor: "Mdi",
+    type: "",
+    tags: ["wiper","wash"],
+  },
   render() {
     return h(
       "svg",

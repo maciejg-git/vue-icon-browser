@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GoogleWallet",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["google","wallet"],
+  $_icon: {
+    name: "GoogleWallet",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["google","wallet"],
+  },
   render() {
     return h(
       "svg",

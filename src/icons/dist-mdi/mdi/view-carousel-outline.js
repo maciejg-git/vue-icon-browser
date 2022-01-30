@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ViewCarouselOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["view","carousel","outline"],
+  $_icon: {
+    name: "ViewCarouselOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["view","carousel","outline"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AlphaOCircle",
-  vendor: "Mdi",
-  type: "",
-  tags: ["alpha","o","circle"],
+  $_icon: {
+    name: "AlphaOCircle",
+    vendor: "Mdi",
+    type: "",
+    tags: ["alpha","o","circle"],
+  },
   render() {
     return h(
       "svg",

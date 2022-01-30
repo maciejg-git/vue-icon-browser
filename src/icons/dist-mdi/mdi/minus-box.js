@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MinusBox",
-  vendor: "Mdi",
-  type: "",
-  tags: ["minus","box"],
+  $_icon: {
+    name: "MinusBox",
+    vendor: "Mdi",
+    type: "",
+    tags: ["minus","box"],
+  },
   render() {
     return h(
       "svg",

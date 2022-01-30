@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LeafCircleOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["leaf","circle","outline"],
+  $_icon: {
+    name: "LeafCircleOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["leaf","circle","outline"],
+  },
   render() {
     return h(
       "svg",

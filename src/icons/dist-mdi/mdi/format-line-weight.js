@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatLineWeight",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","line","weight"],
+  $_icon: {
+    name: "FormatLineWeight",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","line","weight"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatWrapInline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","wrap","inline"],
+  $_icon: {
+    name: "FormatWrapInline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","wrap","inline"],
+  },
   render() {
     return h(
       "svg",

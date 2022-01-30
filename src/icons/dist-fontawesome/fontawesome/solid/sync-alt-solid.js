@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SyncAlt",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["sync","alt"],
+  $_icon: {
+    name: "SyncAlt",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["sync","alt"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GooglePodcast",
-  vendor: "Mdi",
-  type: "",
-  tags: ["google","podcast"],
+  $_icon: {
+    name: "GooglePodcast",
+    vendor: "Mdi",
+    type: "",
+    tags: ["google","podcast"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MagnifyPlus",
-  vendor: "Mdi",
-  type: "",
-  tags: ["magnify","plus"],
+  $_icon: {
+    name: "MagnifyPlus",
+    vendor: "Mdi",
+    type: "",
+    tags: ["magnify","plus"],
+  },
   render() {
     return h(
       "svg",

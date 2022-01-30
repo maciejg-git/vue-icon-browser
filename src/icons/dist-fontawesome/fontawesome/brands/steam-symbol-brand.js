@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SteamSymbol",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["steam","symbol"],
+  $_icon: {
+    name: "SteamSymbol",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["steam","symbol"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CursorPointer",
-  vendor: "Mdi",
-  type: "",
-  tags: ["cursor","pointer"],
+  $_icon: {
+    name: "CursorPointer",
+    vendor: "Mdi",
+    type: "",
+    tags: ["cursor","pointer"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MotionPause",
-  vendor: "Mdi",
-  type: "",
-  tags: ["motion","pause"],
+  $_icon: {
+    name: "MotionPause",
+    vendor: "Mdi",
+    type: "",
+    tags: ["motion","pause"],
+  },
   render() {
     return h(
       "svg",

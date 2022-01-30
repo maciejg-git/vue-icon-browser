@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LayersPlus",
-  vendor: "Mdi",
-  type: "",
-  tags: ["layers","plus"],
+  $_icon: {
+    name: "LayersPlus",
+    vendor: "Mdi",
+    type: "",
+    tags: ["layers","plus"],
+  },
   render() {
     return h(
       "svg",

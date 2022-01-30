@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MagnifyRemoveOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["magnify","remove","outline"],
+  $_icon: {
+    name: "MagnifyRemoveOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["magnify","remove","outline"],
+  },
   render() {
     return h(
       "svg",

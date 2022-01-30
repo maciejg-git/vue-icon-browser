@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SignOutAlt",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["sign","out","alt"],
+  $_icon: {
+    name: "SignOutAlt",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["sign","out","alt"],
+  },
   render() {
     return h(
       "svg",

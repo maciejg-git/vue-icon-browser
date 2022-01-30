@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TextHeight",
-  vendor: "Fa",
-  type: "Solid",
-  tags: ["text","height"],
+  $_icon: {
+    name: "TextHeight",
+    vendor: "Fa",
+    type: "Solid",
+    tags: ["text","height"],
+  },
   render() {
     return h(
       "svg",

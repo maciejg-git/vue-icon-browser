@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Cpanel",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["cpanel"],
+  $_icon: {
+    name: "Cpanel",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["cpanel"],
+  },
   render() {
     return h(
       "svg",

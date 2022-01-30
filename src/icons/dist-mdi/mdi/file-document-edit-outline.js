@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileDocumentEditOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["file","document","edit","outline"],
+  $_icon: {
+    name: "FileDocumentEditOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["file","document","edit","outline"],
+  },
   render() {
     return h(
       "svg",

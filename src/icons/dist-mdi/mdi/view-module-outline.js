@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ViewModuleOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["view","module","outline"],
+  $_icon: {
+    name: "ViewModuleOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["view","module","outline"],
+  },
   render() {
     return h(
       "svg",

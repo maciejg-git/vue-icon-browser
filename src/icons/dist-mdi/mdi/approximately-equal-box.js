@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ApproximatelyEqualBox",
-  vendor: "Mdi",
-  type: "",
-  tags: ["approximately","equal","box"],
+  $_icon: {
+    name: "ApproximatelyEqualBox",
+    vendor: "Mdi",
+    type: "",
+    tags: ["approximately","equal","box"],
+  },
   render() {
     return h(
       "svg",

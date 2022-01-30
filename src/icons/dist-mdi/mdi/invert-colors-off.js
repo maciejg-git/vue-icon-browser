@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "InvertColorsOff",
-  vendor: "Mdi",
-  type: "",
-  tags: ["invert","colors","off"],
+  $_icon: {
+    name: "InvertColorsOff",
+    vendor: "Mdi",
+    type: "",
+    tags: ["invert","colors","off"],
+  },
   render() {
     return h(
       "svg",

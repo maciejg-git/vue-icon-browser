@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "VectorArrangeAbove",
-  vendor: "Mdi",
-  type: "",
-  tags: ["vector","arrange","above"],
+  $_icon: {
+    name: "VectorArrangeAbove",
+    vendor: "Mdi",
+    type: "",
+    tags: ["vector","arrange","above"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ZipDisk",
-  vendor: "Mdi",
-  type: "",
-  tags: ["zip","disk"],
+  $_icon: {
+    name: "ZipDisk",
+    vendor: "Mdi",
+    type: "",
+    tags: ["zip","disk"],
+  },
   render() {
     return h(
       "svg",

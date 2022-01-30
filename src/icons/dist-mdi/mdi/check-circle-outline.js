@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CheckCircleOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["check","circle","outline"],
+  $_icon: {
+    name: "CheckCircleOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["check","circle","outline"],
+  },
   render() {
     return h(
       "svg",

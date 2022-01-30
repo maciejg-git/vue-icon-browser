@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "VectorCurve",
-  vendor: "Mdi",
-  type: "",
-  tags: ["vector","curve"],
+  $_icon: {
+    name: "VectorCurve",
+    vendor: "Mdi",
+    type: "",
+    tags: ["vector","curve"],
+  },
   render() {
     return h(
       "svg",

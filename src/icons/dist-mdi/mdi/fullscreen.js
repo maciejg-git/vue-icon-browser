@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Fullscreen",
-  vendor: "Mdi",
-  type: "",
-  tags: ["fullscreen"],
+  $_icon: {
+    name: "Fullscreen",
+    vendor: "Mdi",
+    type: "",
+    tags: ["fullscreen"],
+  },
   render() {
     return h(
       "svg",

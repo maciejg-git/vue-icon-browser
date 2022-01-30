@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ChartAreaspline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["chart","areaspline"],
+  $_icon: {
+    name: "ChartAreaspline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["chart","areaspline"],
+  },
   render() {
     return h(
       "svg",

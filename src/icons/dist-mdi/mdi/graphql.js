@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Graphql",
-  vendor: "Mdi",
-  type: "",
-  tags: ["graphql"],
+  $_icon: {
+    name: "Graphql",
+    vendor: "Mdi",
+    type: "",
+    tags: ["graphql"],
+  },
   render() {
     return h(
       "svg",

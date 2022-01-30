@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CheckUnderlineCircle",
-  vendor: "Mdi",
-  type: "",
-  tags: ["check","underline","circle"],
+  $_icon: {
+    name: "CheckUnderlineCircle",
+    vendor: "Mdi",
+    type: "",
+    tags: ["check","underline","circle"],
+  },
   render() {
     return h(
       "svg",

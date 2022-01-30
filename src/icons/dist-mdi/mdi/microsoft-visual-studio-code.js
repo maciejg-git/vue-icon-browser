@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MicrosoftVisualStudioCode",
-  vendor: "Mdi",
-  type: "",
-  tags: ["microsoft","visual","studio","code"],
+  $_icon: {
+    name: "MicrosoftVisualStudioCode",
+    vendor: "Mdi",
+    type: "",
+    tags: ["microsoft","visual","studio","code"],
+  },
   render() {
     return h(
       "svg",

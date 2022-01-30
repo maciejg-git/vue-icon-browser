@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BlenderSoftware",
-  vendor: "Mdi",
-  type: "",
-  tags: ["blender","software"],
+  $_icon: {
+    name: "BlenderSoftware",
+    vendor: "Mdi",
+    type: "",
+    tags: ["blender","software"],
+  },
   render() {
     return h(
       "svg",

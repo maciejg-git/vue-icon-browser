@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatAnnotationMinus",
-  vendor: "Mdi",
-  type: "",
-  tags: ["format","annotation","minus"],
+  $_icon: {
+    name: "FormatAnnotationMinus",
+    vendor: "Mdi",
+    type: "",
+    tags: ["format","annotation","minus"],
+  },
   render() {
     return h(
       "svg",

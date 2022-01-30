@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Powershell",
-  vendor: "Mdi",
-  type: "",
-  tags: ["powershell"],
+  $_icon: {
+    name: "Powershell",
+    vendor: "Mdi",
+    type: "",
+    tags: ["powershell"],
+  },
   render() {
     return h(
       "svg",

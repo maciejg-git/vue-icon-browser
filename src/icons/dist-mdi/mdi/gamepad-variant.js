@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GamepadVariant",
-  vendor: "Mdi",
-  type: "",
-  tags: ["gamepad","variant"],
+  $_icon: {
+    name: "GamepadVariant",
+    vendor: "Mdi",
+    type: "",
+    tags: ["gamepad","variant"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PinOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["pin","outline"],
+  $_icon: {
+    name: "PinOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["pin","outline"],
+  },
   render() {
     return h(
       "svg",

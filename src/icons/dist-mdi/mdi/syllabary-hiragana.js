@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SyllabaryHiragana",
-  vendor: "Mdi",
-  type: "",
-  tags: ["syllabary","hiragana"],
+  $_icon: {
+    name: "SyllabaryHiragana",
+    vendor: "Mdi",
+    type: "",
+    tags: ["syllabary","hiragana"],
+  },
   render() {
     return h(
       "svg",

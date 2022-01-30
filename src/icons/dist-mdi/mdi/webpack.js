@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Webpack",
-  vendor: "Mdi",
-  type: "",
-  tags: ["webpack"],
+  $_icon: {
+    name: "Webpack",
+    vendor: "Mdi",
+    type: "",
+    tags: ["webpack"],
+  },
   render() {
     return h(
       "svg",

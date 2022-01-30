@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CalendarMonthOutline",
-  vendor: "Mdi",
-  type: "",
-  tags: ["calendar","month","outline"],
+  $_icon: {
+    name: "CalendarMonthOutline",
+    vendor: "Mdi",
+    type: "",
+    tags: ["calendar","month","outline"],
+  },
   render() {
     return h(
       "svg",

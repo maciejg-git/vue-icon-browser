@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DistributeHorizontalCenter",
-  vendor: "Mdi",
-  type: "",
-  tags: ["distribute","horizontal","center"],
+  $_icon: {
+    name: "DistributeHorizontalCenter",
+    vendor: "Mdi",
+    type: "",
+    tags: ["distribute","horizontal","center"],
+  },
   render() {
     return h(
       "svg",

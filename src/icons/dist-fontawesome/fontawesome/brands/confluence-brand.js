@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Confluence",
-  vendor: "Fa",
-  type: "Brand",
-  tags: ["confluence"],
+  $_icon: {
+    name: "Confluence",
+    vendor: "Fa",
+    type: "Brand",
+    tags: ["confluence"],
+  },
   render() {
     return h(
       "svg",
