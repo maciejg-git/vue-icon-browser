@@ -83,10 +83,10 @@
           </div>
         </div>
 
-        <div :class="store.view">
+        <div :class="store.view" class="mt-8">
           <div>
             <header v-if="store.bootstrap.active">
-              <div class="flex items-center w-full my-4 py-2">
+              <div class="flex items-center w-full my-4 py-2 mx-2">
               <v-icon :name="BBootstrapFill" class="h-8 w-8 text-purple-500 mr-2"></v-icon>
                 Bootstrap Icons
               </div>
@@ -101,7 +101,7 @@
 
           <div>
             <header v-if="store.mdi.active">
-              <div class="flex items-center w-full my-4 py-2">
+              <div class="flex items-center w-full my-4 py-2 mx-2">
               <v-icon :name="MdiMaterialDesign" class="h-8 w-8 text-purple-500 mr-2"></v-icon>
                 Material Design Icons
               </div>
@@ -116,7 +116,7 @@
 
           <div>
             <header v-if="store.fontawesome.active">
-              <div class="flex items-center w-full my-4 py-2">
+              <div class="flex items-center w-full my-4 py-2 mx-2">
               <v-icon :name="FaFontAwesomeFlagBrand" class="h-8 w-8 text-purple-500 mr-2"></v-icon>
                 Font Awesome Icons
               </div>
@@ -279,7 +279,7 @@ svg {
   pointer-events: none;
 }
 header {
-  @apply my-8 text-xl font-bold;
+  @apply my-4 text-xl font-bold;
 }
 .sidebar {
   min-width: 400px;
