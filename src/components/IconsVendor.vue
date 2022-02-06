@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="icons.length == 0" class="flex">
+    <div v-if="iconsFiltered.length === 0" class="flex">
       <span class="text-lg"> Nothing found for current filter. </span>
     </div>
     <div>
