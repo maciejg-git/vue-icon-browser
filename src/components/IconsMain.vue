@@ -30,7 +30,7 @@
           </v-button>
         </div>
 
-        <v-divider class="my-10"></v-divider>
+        <v-divider class="my-8"></v-divider>
 
         <!-- size and view options -->
 
@@ -39,19 +39,23 @@
           class="flex justify-end justify-items-end"
         >
           <div class="flex items-center">
-            <label for="select-size" class="font-semibold mr-4">Size</label>
-            <v-select id="select-size" v-model="store.size">
-              <option :value="iconSizes.sm">Small</option>
-              <option :value="iconSizes.md">Medium</option>
-              <option :value="iconSizes.lg">Large</option>
-            </v-select>
+            <v-button name="button-link" @click="handleToolbarClick('sm')" v-tooltip.bottom.oY5="'Small'">
+              <v-icon :name="MdiSizeS" class="h-9 w-9 mx-2" :class="{ 'opacity-20': store.size !== 'sm'}"></v-icon>
+            </v-button>
+            <v-button name="button-link" @click="handleToolbarClick('md')" v-tooltip.bottom.oY5="'Medium'">
+              <v-icon :name="MdiSizeM" class="h-9 w-9 mx-2" :class="{ 'opacity-20': store.size !== 'md'}"></v-icon>
+            </v-button>
+            <v-button name="button-link" @click="handleToolbarClick('lg')" v-tooltip.bottom.oY5="'Large'">
+              <v-icon :name="MdiSizeL" class="h-9 w-9 mx-2" :class="{ 'opacity-20': store.size !== 'lg'}"></v-icon>
+            </v-button>
           </div>
-          <div class="flex items-center ml-8">
-            <label for="select-size" class="font-semibold mr-4">View</label>
-            <v-select id="select-size" v-model="store.view">
-              <option :value="iconViews.stacked">Stacked</option>
-              <option :value="iconViews.columns">Columns</option>
-            </v-select>
+          <div class="flex items-center border-l px-2">
+            <v-button name="button-link" @click="handleToolbarClick('stacked')" v-tooltip.bottom.oY5="'Stacked view'">
+              <v-icon :name="BLayoutTextSidebarReverse" class="h-7 w-7 mx-2" :class="{ 'opacity-20': store.view !== 'stacked'}"></v-icon>
+            </v-button>
+            <v-button name="button-link" @click="handleToolbarClick('columns')" v-tooltip.bottom.oY5="'Columns view'">
+              <v-icon :name="BLayoutThreeColumns" class="h-7 w-7 mx-2" :class="{ 'opacity-20': store.view !== 'columns'}"></v-icon>
+            </v-button>
           </div>
         </div>
 
@@ -91,7 +95,7 @@
 
         <!-- icons -->
 
-        <div :class="store.view" class="mt-8">
+        <div :class="{ [iconViews.columns]: store.view === 'columns'}" class="mt-8">
           <div>
             <header v-if="store.bootstrap.active">
               <div class="flex items-center w-full my-4 py-2 mx-2">
@@ -163,8 +167,8 @@ import { useStore } from "../composition/useStore";
 import { useDebounce } from "@vueuse/core";
 import LoadingProgress from "./LoadingProgress.vue";
 import IconsSidepanel from "./IconsSidepanel.vue";
-import { BBootstrapFill } from "../icons/dist-bootstrap";
-import { MdiMaterialDesign } from "../icons/dist-mdi";
+import { BBootstrapFill, BLayoutTextSidebarReverse, BLayoutThreeColumns } from "../icons/dist-bootstrap";
+import { MdiMaterialDesign, MdiSizeS, MdiSizeM, MdiSizeL } from "../icons/dist-mdi";
 import { FaFontAwesomeFlagBrand } from "../icons/dist-fontawesome";
 
 export default {
@@ -186,12 +190,6 @@ export default {
   setup() {
     let store = useStore();
 
-    let iconSizes = {
-      sm: "h-6 w-6 m-2",
-      md: "h-10 w-10 m-2",
-      lg: "h-14 w-14 m-3",
-    };
-
     let iconViews = {
       stacked: "",
       columns: "grid grid-flow-col space-x-4",
@@ -200,8 +198,8 @@ export default {
     let filter = ref("");
 
     store.$patch({
-      size: iconSizes.sm,
-      view: iconViews.stacked,
+      size: "sm",
+      view: "stacked",
       filter: useDebounce(filter, 200),
     });
 
@@ -258,6 +256,14 @@ export default {
       store[vendor].active = !store[vendor].active;
     };
 
+    let handleToolbarClick = (option) => {
+      if (option === "stacked") store.view = "stacked";
+      else if (option === "columns") store.view = "columns";
+      else if (option === "sm") store.size = "sm";
+      else if (option === "md") store.size = "md";
+      else if (option === "lg") store.size = "lg";
+    }
+
     // provide for IconsVendor
     provide("last-selected-icon", lastSelectedIcon);
 
@@ -267,14 +273,19 @@ export default {
       unselectIcon,
       selectedIcons,
       clearSelected,
-      iconSizes,
       iconViews,
       toggleVendor,
       store,
       currentIcon,
+      handleToolbarClick,
       BBootstrapFill,
       MdiMaterialDesign,
       FaFontAwesomeFlagBrand,
+      BLayoutTextSidebarReverse,
+      BLayoutThreeColumns, 
+      MdiSizeS, 
+      MdiSizeM, 
+      MdiSizeL
     };
   },
 };

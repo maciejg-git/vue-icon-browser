@@ -6,14 +6,14 @@
     <div>
       <template v-for="(icon, index) in iconsFiltered">
         <div
-          class="inline-block cursor-pointer bg-gray-100 rounded-md p-2 m-2"
+          class="inline-block cursor-pointer border rounded-md p-2 m-2"
           :data-icon="icon.name"
           @click="selectIcon($event, icon)"
         >
           <component
             :is="icon"
             class="icon-browser"
-            :class="[store.size, { 'icon--selected': icon.selected.value }]"
+            :class="[iconSizes[store.size], { 'icon--selected': icon.selected.value }]"
           ></component>
         </div>
       </template>
@@ -32,6 +32,12 @@ export default {
   },
   setup(props, { emit }) {
     let store = useStore();
+
+    let iconSizes = {
+      sm: "h-6 w-6 m-2",
+      md: "h-10 w-10 m-2",
+      lg: "h-14 w-14 m-3",
+    };
 
     let lastSelectedIcon = inject("last-selected-icon");
 
@@ -77,6 +83,7 @@ export default {
       selectIcon,
       iconsFiltered,
       store,
+      iconSizes,
     };
   },
 };
