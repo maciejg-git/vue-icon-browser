@@ -6,7 +6,7 @@
     <div>
       <template v-for="(icon, index) in iconsFiltered">
         <div
-          class="inline-block cursor-pointer border rounded-md p-2 m-2"
+          class="inline-block cursor-pointer bg-gray-100 rounded-md p-2 m-2"
           :data-icon="icon.name"
           @click="selectIcon($event, icon)"
         >
