@@ -130,10 +130,6 @@
           </div>
         </div>
       </div>
-      <!-- <div class="fixed bottom-0 bg-white h-20 w-full p-10">{{ currentIcon &#38;&#38; currentIcon.getIconName() }} -->
-      <!--   <component :is="currentIcon"></component> -->
-      <!-- </div> -->
-      <!-- <icons-bottom-bar :current-icon="currentIcon"></icons-bottom-bar> -->
     </div>
 
     <!-- sidepanel -->
@@ -156,7 +152,6 @@ import IconsSidepanel from "./IconsSidepanel.vue";
 import { BBootstrapFill } from "../icons/dist-bootstrap"
 import { MdiMaterialDesign } from "../icons/dist-mdi"
 import { FaFontAwesomeFlagBrand } from "../icons/dist-fontawesome"
-// import IconsBottomBar from "./IconsBottomBar.vue"
 
 export default {
   components: {
@@ -173,7 +168,6 @@ export default {
       loadingComponent: LoadingProgress,
     }),
     IconsSidepanel,
-    // IconsBottomBar,
   },
   setup() {
     let store = useStore();
@@ -190,15 +184,15 @@ export default {
     };
 
     let filter = ref("");
-    const debounced = useDebounce(filter, 200);
+    const filterDebounced = useDebounce(filter, 200);
 
     store.$patch({
       size: sizes.sm,
       view: views.stacked,
-      filter: debounced,
+      filter: filterDebounced,
     })
 
-    // selection
+    // icon selection
 
     let selectedIcons = ref([]);
     let lastSelectedIcon = ref({});
@@ -258,7 +252,7 @@ export default {
       filter,
       selectIcon,
       unselectIcon,
-      debounced,
+      filterDebounced,
       selectedIcons,
       clearSelected,
       sizes,

@@ -276,14 +276,18 @@ export default {
 
     // copy to clipboard
 
+    let scheduleRefUpdate = (ref, t) => {
+      setTimeout(() => {
+        ref.value = false;
+      }, t);
+    }
+
     let copyIconToClipboard = (i) => {
       console.log(i);
       navigator.clipboard.writeText(i.icon.getIconName()).then(
         function () {
           i.copied.value = true;
-          setTimeout(() => {
-            i.copied.value = false;
-          }, 1500);
+          scheduleRefUpdate(i.copied, 1500)
         },
         function () {}
       );
@@ -293,9 +297,7 @@ export default {
       navigator.clipboard.writeText(selectedCopyList.value).then(
         function () {
           listCopied.value = true;
-          setTimeout(() => {
-            listCopied.value = false;
-          }, 1500);
+          scheduleRefUpdate(listCopied, 1500)
         },
         function () {}
       );
