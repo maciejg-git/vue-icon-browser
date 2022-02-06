@@ -3,8 +3,8 @@
     <div v-if="icons.length == 0" class="flex">
       <span class="text-lg"> Nothing found for current filter. </span>
     </div>
-    <div @mouseover="">
-      <template v-for="(icon, index) in icons">
+    <div>
+      <template v-for="(icon, index) in iconsFiltered">
         <div
           class="inline-block cursor-pointer bg-gray-100 rounded-md p-2 m-2"
           :data-icon="icon.name"
@@ -24,32 +24,22 @@
 <script>
 import { computed, inject } from "vue";
 import { useStore } from "../composition/useStore";
+import { generateTags } from "../icons.js"
 
 export default {
   props: {
-    vendor: { type: String, default: undefined },
     icons: { type: Object, default: undefined },
   },
   setup(props, { emit }) {
     let store = useStore();
 
-    let generateTags = () => {
-      let tags = {};
-
-      for (let icon of props.icons) {
-        for (let tag of icon.$_icon.tags) {
-          if (!tags[tag]) tags[tag] = [];
-          tags[tag].push(icon);
-        }
-      }
-      return Object.entries(tags);
-    };
+    let lastSelectedIcon = inject("last-selected-icon");
 
     //generate tags
-    let tags = generateTags();
+    let tags = generateTags(props.icons);
 
     // filter icons
-    let icons = computed(() => {
+    let iconsFiltered = computed(() => {
       if (!store.filter) return props.icons;
       let filter = store.filter;
       if (!filter.length) return;
@@ -64,19 +54,7 @@ export default {
       return Object.values(res);
     });
 
-    // handle move mouse over icon
-    // let hoveredIcon = inject("hovered-icon");
-
-    // let handleMouseMove = (ev) => {
-    //   let target = ev.target;
-    //   if (target) {
-    //     hoveredIcon.value = target.dataset.icon;
-    //   }
-    // };
-
     // click to select icon
-    let lastSelectedIcon = inject("last-selected-icon");
-
     let selectIcon = (ev, icon) => {
       let selectedIcons = icon;
       if (
@@ -85,10 +63,10 @@ export default {
         lastSelectedIcon.value.vendor == icon.vendor
       ) {
         if (lastSelectedIcon.value) {
-          let from = icons.value.indexOf(lastSelectedIcon.value);
-          let to = icons.value.indexOf(icon);
+          let from = iconsFiltered.value.indexOf(lastSelectedIcon.value);
+          let to = iconsFiltered.value.indexOf(icon);
           if (to < from) [from, to] = [to, from];
-          selectedIcons = icons.value.slice(from, to + 1);
+          selectedIcons = iconsFiltered.value.slice(from, to + 1);
         }
       }
       emit("selected-icon", selectedIcons);
@@ -97,7 +75,7 @@ export default {
     return {
       emit,
       selectIcon,
-      icons,
+      iconsFiltered,
       store,
     };
   },

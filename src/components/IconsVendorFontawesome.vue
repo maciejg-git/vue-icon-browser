@@ -1,5 +1,5 @@
 <template>
-  <icons-vendor :icons="icons" :filter="filter"></icons-vendor>
+  <icons-vendor :icons="icons"></icons-vendor>
 </template>
 
 <script>
@@ -9,19 +9,13 @@ import { loadIcons } from "../icons";
 import * as iconsData from "../icons/dist-fontawesome";
 
 export default {
-  props: {
-    vendor: { type: String, default: undefined },
-    filter: { type: String, default: undefined },
-  },
   components: {
     IconsVendor,
   },
   setup(props, { emit }) {
     let icons = loadIcons(iconsData);
 
-    onMounted(() => {
-      emit('fontawesome-loaded')
-    })
+    onMounted(() => emit('fontawesome-loaded'))
 
     return {
       icons,

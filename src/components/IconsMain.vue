@@ -10,7 +10,11 @@
     <div class="flex-1">
       <div class="w-11/12 mx-auto">
         <!-- filter input -->
-        <div v-if="store.isAnyVendorLoaded" class="flex items-end justify-center">
+
+        <div
+          v-if="store.isAnyVendorLoaded"
+          class="flex items-end justify-center"
+        >
           <v-input
             type="search"
             v-model="filter"
@@ -21,13 +25,15 @@
             style-button="primary-outline"
             class="ml-4"
             @click="filter = ''"
-            >Clear</v-button
           >
+            Clear
+          </v-button>
         </div>
 
         <v-divider class="my-10"></v-divider>
 
         <!-- size and view options -->
+
         <div
           v-if="store.isAnyVendorLoaded"
           class="flex justify-end justify-items-end"
@@ -35,21 +41,21 @@
           <div class="flex items-center">
             <label for="select-size" class="font-semibold mr-4">Size</label>
             <v-select id="select-size" v-model="store.size">
-              <option :value="sizes.sm">Small</option>
-              <option :value="sizes.md">Medium</option>
-              <option :value="sizes.lg">Large</option>
+              <option :value="iconSizes.sm">Small</option>
+              <option :value="iconSizes.md">Medium</option>
+              <option :value="iconSizes.lg">Large</option>
             </v-select>
           </div>
           <div class="flex items-center ml-8">
             <label for="select-size" class="font-semibold mr-4">View</label>
             <v-select id="select-size" v-model="store.view">
-              <option :value="views.stacked">Stacked</option>
-              <option :value="views.columns">Columns</option>
+              <option :value="iconViews.stacked">Stacked</option>
+              <option :value="iconViews.columns">Columns</option>
             </v-select>
           </div>
         </div>
 
-        <!-- icons -->
+        <!-- no icons loaded -->
 
         <div v-if="!store.isAnyVendorLoaded" class="flex justify-center h-40">
           <div class="flex flex-col mt-auto">
@@ -83,17 +89,21 @@
           </div>
         </div>
 
+        <!-- icons -->
+
         <div :class="store.view" class="mt-8">
           <div>
             <header v-if="store.bootstrap.active">
               <div class="flex items-center w-full my-4 py-2 mx-2">
-              <v-icon :name="BBootstrapFill" class="h-8 w-8 text-purple-500 mr-2"></v-icon>
+                <v-icon
+                  :name="BBootstrapFill"
+                  class="h-8 w-8 text-purple-500 mr-2"
+                ></v-icon>
                 Bootstrap Icons
               </div>
             </header>
             <icons-vendor-bootstrap
               v-if="store.bootstrap.active"
-              vendor="bootstrap"
               @selected-icon="selectIcon"
               @bootstrap-loaded="store.bootstrap.loading = false"
             ></icons-vendor-bootstrap>
@@ -102,13 +112,15 @@
           <div>
             <header v-if="store.mdi.active">
               <div class="flex items-center w-full my-4 py-2 mx-2">
-              <v-icon :name="MdiMaterialDesign" class="h-8 w-8 text-purple-500 mr-2"></v-icon>
+                <v-icon
+                  :name="MdiMaterialDesign"
+                  class="h-8 w-8 text-purple-500 mr-2"
+                ></v-icon>
                 Material Design Icons
               </div>
             </header>
             <icons-vendor-mdi
               v-if="store.mdi.active"
-              vendor="mdi"
               @selected-icon="selectIcon"
               @mdi-loaded="store.mdi.loading = false"
             ></icons-vendor-mdi>
@@ -117,13 +129,15 @@
           <div>
             <header v-if="store.fontawesome.active">
               <div class="flex items-center w-full my-4 py-2 mx-2">
-              <v-icon :name="FaFontAwesomeFlagBrand" class="h-8 w-8 text-purple-500 mr-2"></v-icon>
+                <v-icon
+                  :name="FaFontAwesomeFlagBrand"
+                  class="h-8 w-8 text-purple-500 mr-2"
+                ></v-icon>
                 Font Awesome Icons
               </div>
             </header>
             <icons-vendor-fontawesome
               v-if="store.fontawesome.active"
-              vendor="fontawesome"
               @selected-icon="selectIcon"
               @fontawesome-loaded="store.fontawesome.loading = false"
             ></icons-vendor-fontawesome>
@@ -145,13 +159,13 @@
 
 <script>
 import { ref, provide, defineAsyncComponent } from "vue";
-import { useDebounce } from "@vueuse/core";
 import { useStore } from "../composition/useStore";
+import { useDebounce } from "@vueuse/core";
 import LoadingProgress from "./LoadingProgress.vue";
 import IconsSidepanel from "./IconsSidepanel.vue";
-import { BBootstrapFill } from "../icons/dist-bootstrap"
-import { MdiMaterialDesign } from "../icons/dist-mdi"
-import { FaFontAwesomeFlagBrand } from "../icons/dist-fontawesome"
+import { BBootstrapFill } from "../icons/dist-bootstrap";
+import { MdiMaterialDesign } from "../icons/dist-mdi";
+import { FaFontAwesomeFlagBrand } from "../icons/dist-fontawesome";
 
 export default {
   components: {
@@ -172,25 +186,24 @@ export default {
   setup() {
     let store = useStore();
 
-    let sizes = {
+    let iconSizes = {
       sm: "h-6 w-6 m-2",
       md: "h-10 w-10 m-2",
       lg: "h-14 w-14 m-3",
     };
 
-    let views = {
+    let iconViews = {
       stacked: "",
       columns: "grid grid-flow-col space-x-4",
     };
 
     let filter = ref("");
-    const filterDebounced = useDebounce(filter, 200);
 
     store.$patch({
-      size: sizes.sm,
-      view: views.stacked,
-      filter: filterDebounced,
-    })
+      size: iconSizes.sm,
+      view: iconViews.stacked,
+      filter: useDebounce(filter, 200),
+    });
 
     // icon selection
 
@@ -252,11 +265,10 @@ export default {
       filter,
       selectIcon,
       unselectIcon,
-      filterDebounced,
       selectedIcons,
       clearSelected,
-      sizes,
-      views,
+      iconSizes,
+      iconViews,
       toggleVendor,
       store,
       currentIcon,
