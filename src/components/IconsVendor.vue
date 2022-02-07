@@ -3,17 +3,20 @@
     <div v-if="iconsFiltered.length === 0" class="flex">
       <span class="text-lg"> Nothing found for current filter. </span>
     </div>
-    <div>
+    <div @click="handleClickIcon($event)">
       <template v-for="(icon, index) in iconsFiltered">
         <div
-          class="inline-block cursor-pointer bg-gray-100 rounded-md p-2 m-2"
+          class="inline-block cursor-pointer bg-gray-100 rounded-md p-2 m-2 border border-transparent dark:bg-transparent dark:border-neutral-600"
           :data-icon="icon.name"
-          @click="selectIcon($event, icon)"
+          :data-index="index"
         >
           <component
             :is="icon"
-            class="icon-browser"
-            :class="[iconSizes[store.size], { 'icon--selected': icon.selected.value }]"
+            class="text-gray-700 dark:text-gray-400"
+            :class="[
+              iconSizes[store.size],
+              { 'icon--selected': icon.selected.value },
+            ]"
           ></component>
         </div>
       </template>
@@ -24,7 +27,7 @@
 <script>
 import { computed, inject } from "vue";
 import { useStore } from "../composition/useStore";
-import { generateTags } from "../icons.js"
+import { generateTags } from "../icons.js";
 
 export default {
   props: {
@@ -78,12 +81,21 @@ export default {
       emit("selected-icon", selectedIcons);
     };
 
+    // handle template events
+
+    let handleClickIcon = (ev) => {
+      let targetData = ev.target.dataset;
+      let index = targetData.index;
+      if (index) selectIcon(ev, iconsFiltered.value[index]);
+    };
+
     return {
       emit,
       selectIcon,
       iconsFiltered,
       store,
       iconSizes,
+      handleClickIcon,
     };
   },
 };

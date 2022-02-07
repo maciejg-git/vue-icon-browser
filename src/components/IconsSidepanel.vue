@@ -1,5 +1,5 @@
 <template>
-  <div class="sidebar sticky border-l shadow-lg top-12 overflow-y-auto">
+  <div class="sidebar sticky border-l shadow-lg top-12 overflow-y-auto dark:bg-neutral-700 dark:border-neutral-900">
 
     <!-- header -->
 
@@ -42,7 +42,7 @@
             <li>
               <v-button
                 name="button-link"
-                class="hover:bg-gray-100 px-2 py-1"
+                class="hover:bg-gray-100 px-2 py-1 dark:text-neutral-300 dark:hover:bg-neutral-600"
                 @click="emit('toggle-vendor', 'bootstrap')"
               >
                 <v-spinner
@@ -66,7 +66,7 @@
             <li>
               <v-button
                 name="button-link"
-                class="hover:bg-gray-100 px-2 py-1"
+                class="hover:bg-gray-100 px-2 py-1 dark:text-neutral-300 dark:hover:bg-neutral-600"
                 @click="emit('toggle-vendor', 'mdi')"
               >
                 <v-spinner
@@ -90,7 +90,7 @@
             <li>
               <v-button
                 name="button-link"
-                class="hover:bg-gray-100 px-2 py-1"
+                class="hover:bg-gray-100 px-2 py-1 dark:text-neutral-300 dark:hover:bg-neutral-600"
                 @click="emit('toggle-vendor', 'fontawesome')"
               >
                 <v-spinner

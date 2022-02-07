@@ -18,6 +18,7 @@ export const useStore = defineStore('main', {
       size: null,
       view: null,
       filter: "",
+      dark: false,
     }
   },
   getters: {

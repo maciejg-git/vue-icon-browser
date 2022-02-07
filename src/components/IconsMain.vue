@@ -1,12 +1,13 @@
 <template>
   <v-navbar
     sticky
-    class="flex items-center text-gray-200 px-4 py-2 shadow-none h-12"
+    class="flex items-center text-gray-200 px-4 py-2 shadow-none h-12 dark:bg-gray-800"
   >
     <span class="text-white text-xl font-bold ml-2"> Vue-icons </span>
   </v-navbar>
 
-  <div class="flex w-full">
+  <!-- slate900, gray800, neutral800, stone800 -->
+  <div class="flex w-full dark:bg-neutral-800">
     <div class="flex-1">
       <div class="w-11/12 mx-auto">
         <!-- filter input -->
@@ -30,7 +31,7 @@
           </v-button>
         </div>
 
-        <v-divider class="my-8"></v-divider>
+        <v-divider class="my-8 dark:border-neutral-700"></v-divider>
 
         <!-- size and view options -->
 
@@ -39,22 +40,75 @@
           class="flex justify-end justify-items-end"
         >
           <div class="flex items-center">
-            <v-button name="button-link" @click="handleToolbarClick('sm')" v-tooltip.bottom.oY5="'Small'">
-              <v-icon :name="MdiSizeS" class="h-9 w-9 mx-2" :class="{ 'opacity-20': store.size !== 'sm'}"></v-icon>
+            <v-button
+              name="button-link"
+              @click="handleToolbarClick('sm')"
+              v-tooltip.bottom.oY5="'Small'"
+            >
+              <v-icon
+                :name="MdiSizeS"
+                class="h-9 w-9 mx-2 dark:text-neutral-400"
+                :class="{ 'opacity-20': store.size !== 'sm' }"
+              ></v-icon>
             </v-button>
-            <v-button name="button-link" @click="handleToolbarClick('md')" v-tooltip.bottom.oY5="'Medium'">
-              <v-icon :name="MdiSizeM" class="h-9 w-9 mx-2" :class="{ 'opacity-20': store.size !== 'md'}"></v-icon>
+            <v-button
+              name="button-link"
+              @click="handleToolbarClick('md')"
+              v-tooltip.bottom.oY5="'Medium'"
+            >
+              <v-icon
+                :name="MdiSizeM"
+                class="h-9 w-9 mx-2 dark:text-neutral-400"
+                :class="{ 'opacity-20': store.size !== 'md' }"
+              ></v-icon>
             </v-button>
-            <v-button name="button-link" @click="handleToolbarClick('lg')" v-tooltip.bottom.oY5="'Large'">
-              <v-icon :name="MdiSizeL" class="h-9 w-9 mx-2" :class="{ 'opacity-20': store.size !== 'lg'}"></v-icon>
+            <v-button
+              name="button-link"
+              @click="handleToolbarClick('lg')"
+              v-tooltip.bottom.oY5="'Large'"
+            >
+              <v-icon
+                :name="MdiSizeL"
+                class="h-9 w-9 mx-2 dark:text-neutral-400"
+                :class="{ 'opacity-20': store.size !== 'lg' }"
+              ></v-icon>
             </v-button>
           </div>
-          <div class="flex items-center border-l px-2">
-            <v-button name="button-link" @click="handleToolbarClick('stacked')" v-tooltip.bottom.oY5="'Stacked view'">
-              <v-icon :name="BLayoutTextSidebarReverse" class="h-7 w-7 mx-2" :class="{ 'opacity-20': store.view !== 'stacked'}"></v-icon>
+          <div class="flex items-center border-l px-2 dark:border-neutral-700">
+            <v-button
+              name="button-link"
+              @click="handleToolbarClick('stacked')"
+              v-tooltip.bottom.oY5="'Stacked view'"
+            >
+              <v-icon
+                :name="BLayoutTextSidebarReverse"
+                class="h-7 w-7 mx-2 dark:text-neutral-400"
+                :class="{ 'opacity-20': store.view !== 'stacked' }"
+              ></v-icon>
             </v-button>
-            <v-button name="button-link" @click="handleToolbarClick('columns')" v-tooltip.bottom.oY5="'Columns view'">
-              <v-icon :name="BLayoutThreeColumns" class="h-7 w-7 mx-2" :class="{ 'opacity-20': store.view !== 'columns'}"></v-icon>
+            <v-button
+              name="button-link"
+              @click="handleToolbarClick('columns')"
+              v-tooltip.bottom.oY5="'Columns view'"
+            >
+              <v-icon
+                :name="BLayoutThreeColumns"
+                class="h-7 w-7 mx-2 dark:text-neutral-400"
+                :class="{ 'opacity-20': store.view !== 'columns' }"
+              ></v-icon>
+            </v-button>
+          </div>
+          <div class="flex items-center border-l px-2 dark:border-neutral-700">
+            <v-button
+              name="button-link"
+              @click="handleToolbarClick('dark')"
+              v-tooltip.bottom.oY5="'Dark mode'"
+            >
+              <v-icon
+                :name="BMoon"
+                class="h-7 w-7 mx-2 dark:text-neutral-400"
+                :class="{ 'opacity-20': !store.dark }"
+              ></v-icon>
             </v-button>
           </div>
         </div>
@@ -95,10 +149,15 @@
 
         <!-- icons -->
 
-        <div :class="{ [iconViews.columns]: store.view === 'columns'}" class="mt-8">
+        <div
+          :class="{ [iconViews.columns]: store.view === 'columns' }"
+          class="mt-8"
+        >
           <div>
             <header v-if="store.bootstrap.active">
-              <div class="flex items-center w-full my-4 py-2 mx-2">
+              <div
+                class="flex items-center w-full my-4 py-2 mx-2 dark:text-neutral-300"
+              >
                 <v-icon
                   :name="BBootstrapFill"
                   class="h-8 w-8 text-purple-500 mr-2"
@@ -115,7 +174,9 @@
 
           <div>
             <header v-if="store.mdi.active">
-              <div class="flex items-center w-full my-4 py-2 mx-2">
+              <div
+                class="flex items-center w-full my-4 py-2 mx-2 dark:text-neutral-300"
+              >
                 <v-icon
                   :name="MdiMaterialDesign"
                   class="h-8 w-8 text-purple-500 mr-2"
@@ -132,7 +193,9 @@
 
           <div>
             <header v-if="store.fontawesome.active">
-              <div class="flex items-center w-full my-4 py-2 mx-2">
+              <div
+                class="flex items-center w-full my-4 py-2 mx-2 dark:text-neutral-300"
+              >
                 <v-icon
                   :name="FaFontAwesomeFlagBrand"
                   class="h-8 w-8 text-purple-500 mr-2"
@@ -167,8 +230,18 @@ import { useStore } from "../composition/useStore";
 import { useDebounce } from "@vueuse/core";
 import LoadingProgress from "./LoadingProgress.vue";
 import IconsSidepanel from "./IconsSidepanel.vue";
-import { BBootstrapFill, BLayoutTextSidebarReverse, BLayoutThreeColumns } from "../icons/dist-bootstrap";
-import { MdiMaterialDesign, MdiSizeS, MdiSizeM, MdiSizeL } from "../icons/dist-mdi";
+import {
+  BBootstrapFill,
+  BLayoutTextSidebarReverse,
+  BLayoutThreeColumns,
+  BMoon,
+} from "../icons/dist-bootstrap";
+import {
+  MdiMaterialDesign,
+  MdiSizeS,
+  MdiSizeM,
+  MdiSizeL,
+} from "../icons/dist-mdi";
 import { FaFontAwesomeFlagBrand } from "../icons/dist-fontawesome";
 
 export default {
@@ -262,7 +335,8 @@ export default {
       else if (option === "sm") store.size = "sm";
       else if (option === "md") store.size = "md";
       else if (option === "lg") store.size = "lg";
-    }
+      else if (option === "dark") store.dark = store.dark ? false : true;
+    };
 
     // provide for IconsVendor
     provide("last-selected-icon", lastSelectedIcon);
@@ -282,10 +356,11 @@ export default {
       MdiMaterialDesign,
       FaFontAwesomeFlagBrand,
       BLayoutTextSidebarReverse,
-      BLayoutThreeColumns, 
-      MdiSizeS, 
-      MdiSizeM, 
-      MdiSizeL
+      BLayoutThreeColumns,
+      BMoon,
+      MdiSizeS,
+      MdiSizeM,
+      MdiSizeL,
     };
   },
 };
