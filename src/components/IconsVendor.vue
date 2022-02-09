@@ -6,13 +6,13 @@
     <div @click="handleClickIcon($event)">
       <template v-for="(icon, index) in iconsFiltered">
         <div
-          class="inline-block cursor-pointer bg-gray-100 rounded-md p-2 m-2 border border-transparent dark:bg-transparent dark:border-neutral-600"
+          class="inline-block cursor-pointer rounded-md p-2 m-2 border border-gray-200 dark:bg-transparent dark:border-neutral-600 hover:ring-2 ring-indigo-300"
           :data-icon="icon.name"
           :data-index="index"
         >
           <component
             :is="icon"
-            class="text-gray-700 dark:text-gray-400"
+            class="text-gray-600 dark:text-gray-400"
             :class="[
               iconSizes[store.size],
               { 'icon--selected': icon.selected.value },

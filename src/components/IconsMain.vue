@@ -153,7 +153,7 @@
           :class="{ [iconViews.columns]: store.view === 'columns' }"
           class="mt-8"
         >
-          <div>
+          <div class="flex-1 px-2">
             <header v-if="store.bootstrap.active">
               <div
                 class="flex items-center w-full my-4 py-2 mx-2 dark:text-neutral-300"
@@ -172,7 +172,7 @@
             ></icons-vendor-bootstrap>
           </div>
 
-          <div>
+          <div class="flex-1 px-2">
             <header v-if="store.mdi.active">
               <div
                 class="flex items-center w-full my-4 py-2 mx-2 dark:text-neutral-300"
@@ -191,7 +191,7 @@
             ></icons-vendor-mdi>
           </div>
 
-          <div>
+          <div class="flex-1 px-2">
             <header v-if="store.fontawesome.active">
               <div
                 class="flex items-center w-full my-4 py-2 mx-2 dark:text-neutral-300"
@@ -265,7 +265,7 @@ export default {
 
     let iconViews = {
       stacked: "",
-      columns: "grid grid-flow-col space-x-4",
+      columns: "flex",
     };
 
     let filter = ref("");
@@ -335,7 +335,7 @@ export default {
       else if (option === "sm") store.size = "sm";
       else if (option === "md") store.size = "md";
       else if (option === "lg") store.size = "lg";
-      else if (option === "dark") store.dark = store.dark ? false : true;
+      else if (option === "dark") store.dark = !store.dark;
     };
 
     // provide for IconsVendor

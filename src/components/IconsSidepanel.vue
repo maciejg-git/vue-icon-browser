@@ -1,5 +1,5 @@
 <template>
-  <div class="sidebar sticky border-l shadow-lg top-12 overflow-y-auto dark:bg-neutral-700 dark:border-neutral-900">
+  <div class="sidebar sticky border-l shadow-lg top-12 overflow-y-auto dark:bg-[#333333] dark:border-neutral-900">
 
     <!-- header -->
 
