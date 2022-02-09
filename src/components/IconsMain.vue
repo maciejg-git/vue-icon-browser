@@ -1,12 +1,11 @@
 <template>
   <v-navbar
     sticky
-    class="flex items-center text-gray-200 px-4 py-2 shadow-none h-12 dark:bg-gray-800"
+    class="flex items-center text-gray-200 px-4 py-2 shadow-none h-12 dark:bg-neutral-800"
   >
     <span class="text-white text-xl font-bold ml-2"> Vue-icons </span>
   </v-navbar>
 
-  <!-- slate900, gray800, neutral800, stone800 -->
   <div class="flex w-full dark:bg-neutral-800">
     <div class="flex-1">
       <div class="w-11/12 mx-auto">
@@ -101,6 +100,19 @@
           <div class="flex items-center border-l px-2 dark:border-neutral-700">
             <v-button
               name="button-link"
+              @click="handleToolbarClick('settings')"
+              v-tooltip.bottom.oY5="'Settings'"
+            >
+              <v-icon
+                :name="BGear"
+                class="h-7 w-7 mx-2 dark:text-neutral-400"
+                :class="{ 'opacity-20': store.sidepanelState !== 'settings' }"
+              ></v-icon>
+            </v-button>
+          </div>
+          <div class="flex items-center border-l px-2 dark:border-neutral-700">
+            <v-button
+              name="button-link"
               @click="handleToolbarClick('dark')"
               v-tooltip.bottom.oY5="'Dark mode'"
             >
@@ -153,8 +165,8 @@
           :class="{ [iconViews.columns]: store.view === 'columns' }"
           class="mt-8"
         >
-          <div class="flex-1 px-2">
-            <header v-if="store.bootstrap.active">
+          <div v-if="store.bootstrap.active" :class="{ 'flex-1': store.view === 'columns' }" class="px-2">
+            <header>
               <div
                 class="flex items-center w-full my-4 py-2 mx-2 dark:text-neutral-300"
               >
@@ -166,14 +178,13 @@
               </div>
             </header>
             <icons-vendor-bootstrap
-              v-if="store.bootstrap.active"
               @selected-icon="selectIcon"
               @bootstrap-loaded="store.bootstrap.loading = false"
             ></icons-vendor-bootstrap>
           </div>
 
-          <div class="flex-1 px-2">
-            <header v-if="store.mdi.active">
+          <div v-if="store.mdi.active" :class="{ 'flex-1': store.view === 'columns' }" class="px-2">
+            <header>
               <div
                 class="flex items-center w-full my-4 py-2 mx-2 dark:text-neutral-300"
               >
@@ -185,14 +196,13 @@
               </div>
             </header>
             <icons-vendor-mdi
-              v-if="store.mdi.active"
               @selected-icon="selectIcon"
               @mdi-loaded="store.mdi.loading = false"
             ></icons-vendor-mdi>
           </div>
 
-          <div class="flex-1 px-2">
-            <header v-if="store.fontawesome.active">
+          <div v-if="store.fontawesome.active" :class="{ 'flex-1': store.view === 'columns' }" class="px-2">
+            <header>
               <div
                 class="flex items-center w-full my-4 py-2 mx-2 dark:text-neutral-300"
               >
@@ -204,7 +214,6 @@
               </div>
             </header>
             <icons-vendor-fontawesome
-              v-if="store.fontawesome.active"
               @selected-icon="selectIcon"
               @fontawesome-loaded="store.fontawesome.loading = false"
             ></icons-vendor-fontawesome>
@@ -235,6 +244,7 @@ import {
   BLayoutTextSidebarReverse,
   BLayoutThreeColumns,
   BMoon,
+  BGear,
 } from "../icons/dist-bootstrap";
 import {
   MdiMaterialDesign,
@@ -336,6 +346,7 @@ export default {
       else if (option === "md") store.size = "md";
       else if (option === "lg") store.size = "lg";
       else if (option === "dark") store.dark = !store.dark;
+      else if (option === "settings") store.sidepanelState = store.sidepanelState === "settings" ? "icons" : "settings"
     };
 
     // provide for IconsVendor
@@ -358,6 +369,7 @@ export default {
       BLayoutTextSidebarReverse,
       BLayoutThreeColumns,
       BMoon,
+      BGear,
       MdiSizeS,
       MdiSizeM,
       MdiSizeL,
@@ -371,7 +383,7 @@ svg {
   pointer-events: none;
 }
 header {
-  @apply my-4 text-xl font-bold;
+  @apply my-4 text-xl font-semibold tracking-wide;
 }
 .sidebar {
   min-width: 400px;

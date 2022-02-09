@@ -1,33 +1,26 @@
 <template>
-  <div class="sidebar sticky border-l shadow-lg top-12 overflow-y-auto dark:bg-[#333333] dark:border-neutral-900">
-
-    <!-- header -->
-
+  <div
+    class="sidebar sticky border-l shadow-lg top-12 overflow-y-auto dark:bg-[#303030] dark:border-neutral-700"
+  >
     <transition name="fade" mode="out-in">
-      <div v-if="sidepanelState == 'settings'">
-        <div class="flex px-4 py-4">
-          <v-button name="button-link" @click="sidepanelState = 'icons'">
-            <v-icon :name="MdiArrowLeft" class="h-6 w-6"></v-icon>
-          </v-button>
-          <span class="text-lg font-semibold ml-auto"> Settings </span>
-        </div>
-      </div>
-      <div v-else class="flex p-4">
-        <v-button
-          name="button-link"
-          class="ml-auto"
-          @click="sidepanelState = 'settings'"
-        >
-          <v-icon :name="BGear" class="h-6 w-6"></v-icon>
-        </v-button>
-      </div>
-    </transition>
-
-    <transition name="fade" mode="out-in">
-
       <!-- settings -->
 
-      <div v-if="sidepanelState == 'settings'">
+      <div v-if="store.sidepanelState == 'settings'">
+        <div v-if="store.sidepanelState == 'settings'" class="flex px-4 py-4">
+          <v-button
+            name="button-link"
+            style-button="pill"
+            @click="store.sidepanelState = 'icons'"
+          >
+            <v-icon
+              :name="MdiArrowLeft"
+              class="h-6 w-6 dark:text-gray-400"
+            ></v-icon>
+          </v-button>
+          <span class="text-lg font-semibold ml-auto dark:text-gray-400">
+            Settings
+          </span>
+        </div>
         <icons-settings />
       </div>
 
@@ -37,12 +30,12 @@
         <!-- header -->
         <icons-sidepanel-header text="Vendors" />
         <!-- vendors -->
-        <div class="mx-4 mb-4">
+        <div class="mx-2 mb-4">
           <ul>
             <li>
               <v-button
                 name="button-link"
-                class="hover:bg-gray-100 px-2 py-1 dark:text-neutral-300 dark:hover:bg-neutral-600"
+                class="hover:bg-gray-100 px-2 py-1 dark:text-gray-300 dark:hover:bg-neutral-600"
                 @click="emit('toggle-vendor', 'bootstrap')"
               >
                 <v-spinner
@@ -66,7 +59,7 @@
             <li>
               <v-button
                 name="button-link"
-                class="hover:bg-gray-100 px-2 py-1 dark:text-neutral-300 dark:hover:bg-neutral-600"
+                class="hover:bg-gray-100 px-2 py-1 dark:text-gray-300 dark:hover:bg-neutral-600"
                 @click="emit('toggle-vendor', 'mdi')"
               >
                 <v-spinner
@@ -90,7 +83,7 @@
             <li>
               <v-button
                 name="button-link"
-                class="hover:bg-gray-100 px-2 py-1 dark:text-neutral-300 dark:hover:bg-neutral-600"
+                class="hover:bg-gray-100 px-2 py-1 dark:text-gray-300 dark:hover:bg-neutral-600"
                 @click="emit('toggle-vendor', 'fontawesome')"
               >
                 <v-spinner
@@ -99,16 +92,12 @@
                   class="mr-2"
                 ></v-spinner>
                 <v-icon
-                  v-if="
-                    store.fontawesome.active && !store.fontawesome.loading
-                  "
+                  v-if="store.fontawesome.active && !store.fontawesome.loading"
                   :name="BCheckLg"
                   class="mr-2"
                 ></v-icon>
                 <v-icon
-                  v-if="
-                    !store.fontawesome.active && !store.fontawesome.loading
-                  "
+                  v-if="!store.fontawesome.active && !store.fontawesome.loading"
                   :name="BPlusLg"
                   class="mr-2"
                 ></v-icon>
@@ -128,15 +117,15 @@
                 <li
                   v-for="i in selectedIcons"
                   :key="i.icon.$_icon.name"
-                  class="flex justify-between hover:bg-gray-100 px-2 py-1"
+                  class="flex justify-between hover:bg-gray-100 px-2 py-1 dark:hover:bg-neutral-600"
                 >
                   <!-- selected icon -->
                   <div class="flex items-center">
                     <v-icon
                       :name="i.icon"
-                      class="inline-block icon-standalone my-1 mr-1"
+                      class="inline-block icon-standalone my-1 mr-1 dark:text-gray-300"
                     ></v-icon>
-                    <div class="font-semibold ml-2">
+                    <div class="ml-2 dark:text-gray-300">
                       {{ i.icon.getIconName() }}
                     </div>
                   </div>
@@ -147,12 +136,12 @@
                         <v-icon
                           v-if="!i.copied.value"
                           :name="MdiContentCopy"
-                          class="text-gray-700 mr-2"
+                          class="text-gray-700 mr-2 dark:text-gray-400"
                         ></v-icon>
                         <v-icon
                           v-else
                           :name="MdiCheckBold"
-                          class="text-gray-700 mr-2"
+                          class="text-gray-700 mr-2 dark:text-gray-400"
                         ></v-icon>
                       </transition>
                     </button>
@@ -205,9 +194,7 @@
             </div>
           </div>
         </div>
-        <div v-else class="mx-10">
-          No icons selected
-        </div>
+        <div v-else class="mx-10 dark:text-gray-300">No icons selected</div>
       </div>
     </transition>
   </div>
@@ -216,7 +203,7 @@
 <script>
 import { ref, computed, watch } from "vue";
 import IconsSettings from "./IconsSettings.vue";
-import IconsSidepanelHeader from "./IconsSidepanelHeader.vue"
+import IconsSidepanelHeader from "./IconsSidepanelHeader.vue";
 import useSettings from "../composition/use-settings";
 import {
   MdiContentCopy,
@@ -280,14 +267,14 @@ export default {
       setTimeout(() => {
         ref.value = false;
       }, t);
-    }
+    };
 
     let copyIconToClipboard = (i) => {
       console.log(i);
       navigator.clipboard.writeText(i.icon.getIconName()).then(
         function () {
           i.copied.value = true;
-          scheduleRefUpdate(i.copied, 1500)
+          scheduleRefUpdate(i.copied, 1500);
         },
         function () {}
       );
@@ -297,7 +284,7 @@ export default {
       navigator.clipboard.writeText(selectedCopyList.value).then(
         function () {
           listCopied.value = true;
-          scheduleRefUpdate(listCopied, 1500)
+          scheduleRefUpdate(listCopied, 1500);
         },
         function () {}
       );

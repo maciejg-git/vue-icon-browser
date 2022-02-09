@@ -19,6 +19,7 @@ export const useStore = defineStore('main', {
       view: null,
       filter: "",
       dark: false,
+      sidepanelState: "icons",
     }
   },
   getters: {

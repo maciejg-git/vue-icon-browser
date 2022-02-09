@@ -3,11 +3,16 @@
 .button-link {
   @apply 
     focus:outline-none
-    font-semibold
+    /* font-semibold */
 }
   .button-link--light {
     @apply
       text-gray-500
+  }
+  .button-link--pill {
+    @apply
+      rounded-full
+      pr-8
   }
 
 .button-link--padding {
@@ -511,6 +516,9 @@
     outline-none
     transition
     duration-200
+    dark:bg-neutral-700
+    dark:border-neutral-500
+    dark:text-neutral-300
 }
     .input--valid-state {
       @apply
@@ -542,6 +550,10 @@
     outline-none
     py-1
     px-3
+    dark:bg-neutral-700
+    dark:border-neutral-500
+    dark:text-neutral-300
+    dark:focus:ring-indigo-300
 }
     .textarea--valid-state {
       @apply
@@ -666,6 +678,7 @@
     text-gray-700
     w-5
     h-5
+    dark:text-gray-400
 }
     .close-button--small {
       @apply
@@ -1262,8 +1275,8 @@
 
 .tooltip {
   @apply
-    bg-gray-700
-    text-gray-100
+    bg-neutral-900
+    text-gray-200
     rounded-md
     z-50
     max-w-sm
@@ -1307,5 +1320,6 @@
 .icon--selected {
   @apply
     text-red-500
+    dark:text-red-500
 }
 
