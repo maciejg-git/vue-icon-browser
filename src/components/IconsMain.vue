@@ -32,98 +32,9 @@
 
         <v-divider class="my-8 dark:border-neutral-700"></v-divider>
 
-        <!-- size and view options -->
+        <!-- toolbar -->
 
-        <div
-          v-if="store.isAnyVendorLoaded"
-          class="flex justify-end justify-items-end"
-        >
-          <div class="flex items-center">
-            <v-button
-              name="button-link"
-              @click="handleToolbarClick('sm')"
-              v-tooltip.bottom.oY5="'Small'"
-            >
-              <v-icon
-                :name="MdiSizeS"
-                class="h-9 w-9 mx-2 dark:text-neutral-400"
-                :class="{ 'opacity-20': store.size !== 'sm' }"
-              ></v-icon>
-            </v-button>
-            <v-button
-              name="button-link"
-              @click="handleToolbarClick('md')"
-              v-tooltip.bottom.oY5="'Medium'"
-            >
-              <v-icon
-                :name="MdiSizeM"
-                class="h-9 w-9 mx-2 dark:text-neutral-400"
-                :class="{ 'opacity-20': store.size !== 'md' }"
-              ></v-icon>
-            </v-button>
-            <v-button
-              name="button-link"
-              @click="handleToolbarClick('lg')"
-              v-tooltip.bottom.oY5="'Large'"
-            >
-              <v-icon
-                :name="MdiSizeL"
-                class="h-9 w-9 mx-2 dark:text-neutral-400"
-                :class="{ 'opacity-20': store.size !== 'lg' }"
-              ></v-icon>
-            </v-button>
-          </div>
-          <div class="flex items-center border-l px-2 dark:border-neutral-700">
-            <v-button
-              name="button-link"
-              @click="handleToolbarClick('stacked')"
-              v-tooltip.bottom.oY5="'Stacked view'"
-            >
-              <v-icon
-                :name="BLayoutTextSidebarReverse"
-                class="h-7 w-7 mx-2 dark:text-neutral-400"
-                :class="{ 'opacity-20': store.view !== 'stacked' }"
-              ></v-icon>
-            </v-button>
-            <v-button
-              name="button-link"
-              @click="handleToolbarClick('columns')"
-              v-tooltip.bottom.oY5="'Columns view'"
-            >
-              <v-icon
-                :name="BLayoutThreeColumns"
-                class="h-7 w-7 mx-2 dark:text-neutral-400"
-                :class="{ 'opacity-20': store.view !== 'columns' }"
-              ></v-icon>
-            </v-button>
-          </div>
-          <div class="flex items-center border-l px-2 dark:border-neutral-700">
-            <v-button
-              name="button-link"
-              @click="handleToolbarClick('settings')"
-              v-tooltip.bottom.oY5="'Settings'"
-            >
-              <v-icon
-                :name="BGear"
-                class="h-7 w-7 mx-2 dark:text-neutral-400"
-                :class="{ 'opacity-20': store.sidepanelState !== 'settings' }"
-              ></v-icon>
-            </v-button>
-          </div>
-          <div class="flex items-center border-l px-2 dark:border-neutral-700">
-            <v-button
-              name="button-link"
-              @click="handleToolbarClick('dark')"
-              v-tooltip.bottom.oY5="'Dark mode'"
-            >
-              <v-icon
-                :name="BMoon"
-                class="h-7 w-7 mx-2 dark:text-neutral-400"
-                :class="{ 'opacity-20': !store.dark }"
-              ></v-icon>
-            </v-button>
-          </div>
-        </div>
+        <icons-main-toolbar v-if="store.isAnyVendorLoaded"></icons-main-toolbar>
 
         <!-- no icons loaded -->
 
@@ -165,17 +76,17 @@
           :class="{ [iconViews.columns]: store.view === 'columns' }"
           class="mt-8"
         >
-          <div v-if="store.bootstrap.active" :class="{ 'flex-1': store.view === 'columns' }" class="px-2">
+          <div
+            v-if="store.bootstrap.active"
+            :class="{ 'flex-1': store.view === 'columns' }"
+            class="px-2"
+          >
             <header>
-              <div
-                class="flex items-center w-full my-4 py-2 mx-2 dark:text-neutral-300"
-              >
-                <v-icon
-                  :name="BBootstrapFill"
-                  class="h-8 w-8 text-purple-500 mr-2"
-                ></v-icon>
-                Bootstrap Icons
-              </div>
+              <v-icon
+                :name="BBootstrapFill"
+                class="h-8 w-8 text-purple-500 mr-2"
+              ></v-icon>
+              Bootstrap Icons
             </header>
             <icons-vendor-bootstrap
               @selected-icon="selectIcon"
@@ -183,17 +94,17 @@
             ></icons-vendor-bootstrap>
           </div>
 
-          <div v-if="store.mdi.active" :class="{ 'flex-1': store.view === 'columns' }" class="px-2">
+          <div
+            v-if="store.mdi.active"
+            :class="{ 'flex-1': store.view === 'columns' }"
+            class="px-2"
+          >
             <header>
-              <div
-                class="flex items-center w-full my-4 py-2 mx-2 dark:text-neutral-300"
-              >
-                <v-icon
-                  :name="MdiMaterialDesign"
-                  class="h-8 w-8 text-purple-500 mr-2"
-                ></v-icon>
-                Material Design Icons
-              </div>
+              <v-icon
+                :name="MdiMaterialDesign"
+                class="h-8 w-8 text-purple-500 mr-2"
+              ></v-icon>
+              Material Design Icons
             </header>
             <icons-vendor-mdi
               @selected-icon="selectIcon"
@@ -201,17 +112,17 @@
             ></icons-vendor-mdi>
           </div>
 
-          <div v-if="store.fontawesome.active" :class="{ 'flex-1': store.view === 'columns' }" class="px-2">
+          <div
+            v-if="store.fontawesome.active"
+            :class="{ 'flex-1': store.view === 'columns' }"
+            class="px-2"
+          >
             <header>
-              <div
-                class="flex items-center w-full my-4 py-2 mx-2 dark:text-neutral-300"
-              >
-                <v-icon
-                  :name="FaFontAwesomeFlagBrand"
-                  class="h-8 w-8 text-purple-500 mr-2"
-                ></v-icon>
-                Font Awesome Icons
-              </div>
+              <v-icon
+                :name="FaFontAwesomeFlagBrand"
+                class="h-8 w-8 text-purple-500 mr-2"
+              ></v-icon>
+              Font Awesome Icons
             </header>
             <icons-vendor-fontawesome
               @selected-icon="selectIcon"
@@ -239,6 +150,7 @@ import { useStore } from "../composition/useStore";
 import { useDebounce } from "@vueuse/core";
 import LoadingProgress from "./LoadingProgress.vue";
 import IconsSidepanel from "./IconsSidepanel.vue";
+import IconsMainToolbar from "./IconsMainToolbar.vue";
 import {
   BBootstrapFill,
   BLayoutTextSidebarReverse,
@@ -269,6 +181,7 @@ export default {
       loadingComponent: LoadingProgress,
     }),
     IconsSidepanel,
+    IconsMainToolbar,
   },
   setup() {
     let store = useStore();
@@ -346,7 +259,9 @@ export default {
       else if (option === "md") store.size = "md";
       else if (option === "lg") store.size = "lg";
       else if (option === "dark") store.dark = !store.dark;
-      else if (option === "settings") store.sidepanelState = store.sidepanelState === "settings" ? "icons" : "settings"
+      else if (option === "settings")
+        store.sidepanelState =
+          store.sidepanelState === "settings" ? "icons" : "settings";
     };
 
     // provide for IconsVendor
@@ -383,7 +298,7 @@ svg {
   pointer-events: none;
 }
 header {
-  @apply my-4 text-xl font-semibold tracking-wide;
+  @apply my-4 text-xl font-semibold flex items-center w-full my-4 py-2 mx-2 dark:text-neutral-300;
 }
 .sidebar {
   min-width: 400px;

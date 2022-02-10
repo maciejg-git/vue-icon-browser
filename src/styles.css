@@ -53,6 +53,8 @@
         hover:bg-indigo-600
         hover:text-gray-200
         focus:ring-indigo-200
+        dark:border-indigo-400
+        dark:text-indigo-400
     }
     .button--secondary {
       @apply

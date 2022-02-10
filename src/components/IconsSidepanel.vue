@@ -1,6 +1,6 @@
 <template>
   <div
-    class="sidebar sticky border-l shadow-lg top-12 overflow-y-auto dark:bg-[#303030] dark:border-neutral-700"
+    class="sidebar sticky border-l shadow-lg top-12 overflow-y-auto dark:bg-[#303030] dark:border-neutral-700 pt-4"
   >
     <transition name="fade" mode="out-in">
       <!-- settings -->
