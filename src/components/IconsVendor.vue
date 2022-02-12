@@ -1,20 +1,18 @@
 <template>
   <div>
     <div v-if="iconsFiltered.length === 0" class="flex">
-      <span class="text-lg"> Nothing found for current filter. </span>
+      <span class="text-lg dark:text-gray-300">
+        Nothing found for current filter.
+      </span>
     </div>
     <div @click="handleClickIcon($event)">
       <template v-for="(icon, index) in iconsFiltered">
-        <div
-          class="icon-tile"
-          :data-icon="icon.name"
-          :data-index="index"
-        >
+        <div class="icon-tile" :data-icon="icon.name" :data-index="index">
           <component
             :is="icon"
             class="text-gray-600 dark:text-gray-400"
             :class="[
-              iconSizes[store.size],
+              iconSizeClasses[store.size],
               { 'icon--selected': icon.selected.value },
             ]"
           ></component>
@@ -36,7 +34,7 @@ export default {
   setup(props, { emit }) {
     let store = useStore();
 
-    let iconSizes = {
+    let iconSizeClasses = {
       sm: "h-6 w-6 m-2",
       md: "h-10 w-10 m-2",
       lg: "h-14 w-14 m-3",
@@ -94,7 +92,7 @@ export default {
       selectIcon,
       iconsFiltered,
       store,
-      iconSizes,
+      iconSizeClasses,
       handleClickIcon,
     };
   },
@@ -107,8 +105,7 @@ svg {
   pointer-events: none;
 }
 .icon-tile {
-  @apply 
-  inline-block
+  @apply inline-block
   cursor-pointer
   rounded-md 
   p-2 
@@ -119,7 +116,7 @@ svg {
   ring-indigo-300
   dark:bg-transparent 
   dark:border-neutral-600 
-  dark:ring-indigo-400
+  dark:ring-indigo-400;
 }
 header {
   @apply my-10 text-2xl font-bold;

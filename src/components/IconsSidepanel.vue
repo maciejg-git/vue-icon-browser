@@ -3,6 +3,7 @@
     class="sidebar sticky border-l shadow-lg top-12 overflow-y-auto dark:bg-[#303030] dark:border-neutral-700 pt-4"
   >
     <transition name="fade" mode="out-in">
+
       <!-- settings -->
 
       <div v-if="store.sidepanelState == 'settings'">
@@ -136,12 +137,12 @@
                         <v-icon
                           v-if="!i.copied.value"
                           :name="MdiContentCopy"
-                          class="text-gray-700 mr-2 dark:text-gray-400"
+                          class="text-gray-700 mr-2 dark:text-gray-300"
                         ></v-icon>
                         <v-icon
                           v-else
                           :name="MdiCheckBold"
-                          class="text-gray-700 mr-2 dark:text-gray-400"
+                          class="text-gray-700 mr-2 dark:text-gray-300"
                         ></v-icon>
                       </transition>
                     </button>
@@ -204,7 +205,6 @@
 import { ref, computed, watch } from "vue";
 import IconsSettings from "./IconsSettings.vue";
 import IconsSidepanelHeader from "./IconsSidepanelHeader.vue";
-import useSettings from "../composition/use-settings";
 import {
   MdiContentCopy,
   MdiCheckboxOutline,
@@ -214,7 +214,7 @@ import {
   MdiArrowLeft,
 } from "../icons/dist-mdi";
 import { BGear } from "../icons/dist-bootstrap";
-import { BCheckLg, BX, BXLg, BPlusLg } from "../icons/dist-bootstrap";
+import { BCheckLg, BPlusLg } from "../icons/dist-bootstrap";
 import { useStore } from "../composition/useStore";
 
 export default {
@@ -227,8 +227,6 @@ export default {
   },
   setup(props, { emit }) {
     let store = useStore();
-
-    let settings = useSettings();
 
     let sidepanelState = ref("icons");
     let selectedCopyList = ref("");
@@ -248,7 +246,7 @@ export default {
     // update selected icons list string
 
     watch(
-      [selectedIcons, () => settings.kebabCase, () => settings.vendorPrefix],
+      [selectedIcons, () => store.settings.kebabCase, () => store.settings.vendorPrefix],
       () => {
         updateCopyList();
       }
@@ -274,7 +272,7 @@ export default {
       navigator.clipboard.writeText(i.icon.getIconName()).then(
         function () {
           i.copied.value = true;
-          scheduleRefUpdate(i.copied, 1500);
+          scheduleRefUpdate(i.copied, 1000);
         },
         function () {}
       );

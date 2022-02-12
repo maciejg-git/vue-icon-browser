@@ -36,6 +36,7 @@
     bg-indigo-600
     hover:bg-indigo-600
     focus:ring-indigo-200
+    dark:focus:ring-indigo-300
 }
     .button--primary {
       @apply
@@ -521,6 +522,7 @@
     dark:bg-neutral-700
     dark:border-neutral-500
     dark:text-neutral-300
+    dark:focus:ring-indigo-300
 }
     .input--valid-state {
       @apply
@@ -680,7 +682,7 @@
     text-gray-700
     w-5
     h-5
-    dark:text-gray-400
+    dark:text-gray-300
 }
     .close-button--small {
       @apply

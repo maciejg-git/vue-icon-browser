@@ -20,6 +20,11 @@ export const useStore = defineStore('main', {
       filter: "",
       dark: false,
       sidepanelState: "icons",
+      settings: {
+        vendorPrefix: true,
+        originalNames: false,
+        kebabCase: false,
+      }
     }
   },
   getters: {

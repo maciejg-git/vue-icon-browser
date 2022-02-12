@@ -73,7 +73,7 @@
         <!-- icons -->
 
         <div
-          :class="{ [iconViews.columns]: store.view === 'columns' }"
+          :class="{ [iconsViewClasses.columns]: store.view === 'columns' }"
           class="mt-8"
         >
           <div
@@ -186,7 +186,7 @@ export default {
   setup() {
     let store = useStore();
 
-    let iconViews = {
+    let iconsViewClasses = {
       stacked: "",
       columns: "flex",
     };
@@ -252,18 +252,6 @@ export default {
       store[vendor].active = !store[vendor].active;
     };
 
-    let handleToolbarClick = (option) => {
-      if (option === "stacked") store.view = "stacked";
-      else if (option === "columns") store.view = "columns";
-      else if (option === "sm") store.size = "sm";
-      else if (option === "md") store.size = "md";
-      else if (option === "lg") store.size = "lg";
-      else if (option === "dark") store.dark = !store.dark;
-      else if (option === "settings")
-        store.sidepanelState =
-          store.sidepanelState === "settings" ? "icons" : "settings";
-    };
-
     // provide for IconsVendor
     provide("last-selected-icon", lastSelectedIcon);
 
@@ -273,11 +261,10 @@ export default {
       unselectIcon,
       selectedIcons,
       clearSelected,
-      iconViews,
+      iconsViewClasses,
       toggleVendor,
       store,
       currentIcon,
-      handleToolbarClick,
       BBootstrapFill,
       MdiMaterialDesign,
       FaFontAwesomeFlagBrand,

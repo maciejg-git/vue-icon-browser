@@ -1,7 +1,7 @@
 import { ref, markRaw } from "vue";
-import useSettings from "./composition/use-settings";
+import { useStore } from "./composition/useStore";
 
-let settings = useSettings();
+let store = useStore();
 
 export let loadIcons = (icons) => {
   for (let icon in icons) {
@@ -37,9 +37,9 @@ let toKebab = (s) => {
 };
 
 export let getIconName = function () {
-  let i = `${settings.vendorPrefix ? this.$_icon.vendor : ""}${
+  let i = `${store.settings.vendorPrefix ? this.$_icon.vendor : ""}${
     this.$_icon.name
-  }${settings.originalNames ? "" : this.$_icon.type}`;
-  if (settings.kebabCase) return toKebab(i);
+  }${store.settings.originalNames ? "" : this.$_icon.type}`;
+  if (store.settings.kebabCase) return toKebab(i);
   return i;
 };
