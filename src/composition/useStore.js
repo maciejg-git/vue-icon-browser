@@ -3,6 +3,11 @@ import { defineStore } from 'pinia'
 export const useStore = defineStore('main', {
  state: () => {
     return {
+      settings: {
+        vendorPrefix: true,
+        originalNames: false,
+        kebabCase: false,
+      },
       bootstrap: {
         active: true,
         loading: false,
@@ -20,11 +25,7 @@ export const useStore = defineStore('main', {
       filter: "",
       dark: false,
       sidepanelState: "icons",
-      settings: {
-        vendorPrefix: true,
-        originalNames: false,
-        kebabCase: false,
-      }
+      currentIconDemo: null,
     }
   },
   getters: {

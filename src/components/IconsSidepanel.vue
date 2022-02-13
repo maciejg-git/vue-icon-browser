@@ -110,6 +110,7 @@
 
         <!-- header -->
         <icons-sidepanel-header text="Icons" />
+
         <!-- icons -->
         <div v-if="selectedIcons.length" class="mb-4">
           <div class="w-full">
@@ -121,10 +122,10 @@
                   class="flex justify-between hover:bg-gray-100 px-2 py-1 dark:hover:bg-neutral-600"
                 >
                   <!-- selected icon -->
-                  <div class="flex items-center">
+                  <div class="flex items-center" @click="store.currentIconDemo = i.icon">
                     <v-icon
                       :name="i.icon"
-                      class="inline-block icon-standalone my-1 mr-1 dark:text-gray-300"
+                      class="inline-block icon-standalone my-1 mr-1 text-gray-600 dark:text-gray-300"
                     ></v-icon>
                     <div class="ml-2 dark:text-gray-300">
                       {{ i.icon.getIconName() }}

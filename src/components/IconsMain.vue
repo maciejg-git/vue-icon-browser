@@ -72,6 +72,8 @@
 
         <!-- icons -->
 
+        <icons-demo v-if="store.currentIconDemo"></icons-demo>
+
         <div
           :class="{ [iconsViewClasses.columns]: store.view === 'columns' }"
           class="mt-8"
@@ -151,6 +153,8 @@ import { useDebounce } from "@vueuse/core";
 import LoadingProgress from "./LoadingProgress.vue";
 import IconsSidepanel from "./IconsSidepanel.vue";
 import IconsMainToolbar from "./IconsMainToolbar.vue";
+import IconsDemo from "./IconsDemo.vue"
+
 import {
   BBootstrapFill,
   BLayoutTextSidebarReverse,
@@ -182,6 +186,7 @@ export default {
     }),
     IconsSidepanel,
     IconsMainToolbar,
+    IconsDemo,
   },
   setup() {
     let store = useStore();
