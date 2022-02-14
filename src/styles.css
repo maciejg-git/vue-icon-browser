@@ -88,6 +88,12 @@
         hover:bg-red-600
         focus:ring-red-200
     }
+    .button--blue {
+      @apply
+        bg-blue-500
+        hover:bg-blue-600
+        focus:ring-blue-200
+    }
     .button--large {
       @apply
         py-2.5

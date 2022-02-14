@@ -72,16 +72,13 @@
 
         <!-- icons -->
 
-        <icons-demo v-if="store.currentIconDemo"></icons-demo>
 
         <div
-          :class="{ [iconsViewClasses.columns]: store.view === 'columns' }"
-          class="mt-8"
+          class="flex mt-8"
         >
           <div
             v-if="store.bootstrap.active"
-            :class="{ 'flex-1': store.view === 'columns' }"
-            class="px-2"
+            class="px-2 flex-1"
           >
             <header>
               <v-icon
@@ -95,54 +92,59 @@
               @bootstrap-loaded="store.bootstrap.loading = false"
             ></icons-vendor-bootstrap>
           </div>
-
-          <div
-            v-if="store.mdi.active"
-            :class="{ 'flex-1': store.view === 'columns' }"
-            class="px-2"
-          >
-            <header>
-              <v-icon
-                :name="MdiMaterialDesign"
-                class="h-8 w-8 text-purple-500 mr-2"
-              ></v-icon>
-              Material Design Icons
-            </header>
-            <icons-vendor-mdi
-              @selected-icon="selectIcon"
-              @mdi-loaded="store.mdi.loading = false"
-            ></icons-vendor-mdi>
+        <div class="mx-4 flex-1 relative">
+          <div class="sticky top-14">
+            <icons-demo v-if="store.currentIconDemo" :selected-icons="selectedIcons"></icons-demo>
           </div>
+        </div>
 
-          <div
-            v-if="store.fontawesome.active"
-            :class="{ 'flex-1': store.view === 'columns' }"
-            class="px-2"
-          >
-            <header>
-              <v-icon
-                :name="FaFontAwesomeFlagBrand"
-                class="h-8 w-8 text-purple-500 mr-2"
-              ></v-icon>
-              Font Awesome Icons
-            </header>
-            <icons-vendor-fontawesome
-              @selected-icon="selectIcon"
-              @fontawesome-loaded="store.fontawesome.loading = false"
-            ></icons-vendor-fontawesome>
-          </div>
+          <!-- <div -->
+          <!--   v-if="store.mdi.active" -->
+          <!--   :class="{ 'flex-1': store.view === 'columns' }" -->
+          <!--   class="px-2" -->
+          <!-- > -->
+          <!--   <header> -->
+          <!--     <v-icon -->
+          <!--       :name="MdiMaterialDesign" -->
+          <!--       class="h-8 w-8 text-purple-500 mr-2" -->
+          <!--     ></v-icon> -->
+          <!--     Material Design Icons -->
+          <!--   </header> -->
+          <!--   <icons-vendor-mdi -->
+          <!--     @selected-icon="selectIcon" -->
+          <!--     @mdi-loaded="store.mdi.loading = false" -->
+          <!--   ></icons-vendor-mdi> -->
+          <!-- </div> -->
+          <!--  -->
+          <!-- <div -->
+          <!--   v-if="store.fontawesome.active" -->
+          <!--   :class="{ 'flex-1': store.view === 'columns' }" -->
+          <!--   class="px-2" -->
+          <!-- > -->
+          <!--   <header> -->
+          <!--     <v-icon -->
+          <!--       :name="FaFontAwesomeFlagBrand" -->
+          <!--       class="h-8 w-8 text-purple-500 mr-2" -->
+          <!--     ></v-icon> -->
+          <!--     Font Awesome Icons -->
+          <!--   </header> -->
+          <!--   <icons-vendor-fontawesome -->
+          <!--     @selected-icon="selectIcon" -->
+          <!--     @fontawesome-loaded="store.fontawesome.loading = false" -->
+          <!--   ></icons-vendor-fontawesome> -->
+          <!-- </div> -->
         </div>
       </div>
     </div>
 
     <!-- sidepanel -->
 
-    <icons-sidepanel
-      :selected-icons="selectedIcons"
-      @unselect-icon="unselectIcon"
-      @clear-icon-list="clearSelected"
-      @toggle-vendor="toggleVendor($event)"
-    />
+    <!-- <icons-sidepanel -->
+    <!--   :selected-icons="selectedIcons" -->
+    <!--   @unselect-icon="unselectIcon" -->
+    <!--   @clear-icon-list="clearSelected" -->
+    <!--   @toggle-vendor="toggleVendor($event)" -->
+    <!-- /> -->
   </div>
 </template>
 
@@ -241,6 +243,7 @@ export default {
         icons.selected.value = true;
         lastSelectedIcon.value = icons;
         currentIcon.value = icons;
+        store.currentIconDemo = icons;
       }
     };
 
