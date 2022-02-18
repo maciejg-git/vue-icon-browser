@@ -2,7 +2,18 @@
   <div>
     <div @click="handleClickIcon($event)">
       <template v-for="(icon, index) in store.selectedIcons">
-        <div class="icon-tile" :data-icon="icon.name" :data-index="index">
+        <div
+          class="icon-tile relative"
+          :data-icon="icon.name"
+          :data-index="index"
+          @mouseenter="handleMouseenterIcon(icon)"
+          @mouseleave="handleMouseleaveIcon"
+        >
+          <v-close-button
+            v-show="hoveredIcon === icon"
+            style-close-button="small"
+            class="absolute -top-2 -left-2 bg-neutral-600 p-0.5 rounded"
+          ></v-close-button>
           <component
             :is="icon"
             class="text-gray-600 dark:text-gray-400"
@@ -15,13 +26,14 @@
 </template>
 
 <script>
+import { ref } from "vue";
 import { useStore } from "../composition/useStore";
 
 export default {
-  props: {
-  },
   setup(props) {
     let store = useStore();
+
+    let hoveredIcon = ref(null);
 
     let iconSizeClasses = {
       sm: "h-6 w-6 m-2",
@@ -34,10 +46,21 @@ export default {
       if (index) store.currentIconDemo = store.selectedIcons[index];
     };
 
+    let handleMouseenterIcon = (icon) => {
+      hoveredIcon.value = icon;
+    };
+
+    let handleMouseleaveIcon = () => {
+      hoveredIcon.value = null;
+    };
+
     return {
       store,
+      hoveredIcon,
       iconSizeClasses,
       handleClickIcon,
+      handleMouseenterIcon,
+      handleMouseleaveIcon,
     };
   },
 };

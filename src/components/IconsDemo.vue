@@ -82,16 +82,6 @@
       </div>
     </div>
 
-    <!-- <div class="flex items-center gap-6 my-6"> -->
-    <!--   <div class="relative flex items-center"> -->
-    <!--     <v-icon -->
-    <!--       :name="store.currentIconDemo" -->
-    <!--       class="absolute h-6 w-6 text-gray-400 dark:text-gray-400 ml-2" -->
-    <!--     ></v-icon> -->
-    <!--     <v-input name="input-underline" class="pl-10" placeholder="Search"></v-input> -->
-    <!--   </div> -->
-    <!-- </div> -->
-
     <!-- link -->
 
     <div class="flex items-center gap-10 my-5">
@@ -118,10 +108,12 @@
           Heading 2
         </h2>
       </div>
-    <v-button style-button="small" @click="isExtendedDemoActive = true">
-      Show more
-    </v-button>
+      <v-button style-button="small" @click="isExtendedDemoActive = true">
+        Show more
+      </v-button>
     </div>
+
+    <!-- links -->
 
     <v-tabs name="tabs-material">
       <v-tab name="Native"></v-tab>
@@ -130,25 +122,18 @@
     </v-tabs>
   </div>
 
-  <v-modal 
+  <!-- extended demo -->
+
+  <v-modal
     v-model="isExtendedDemoActive"
     no-primary-button
     secondary-button-close
-    >
-    <div class="py-4">
-      <v-alert v-model="alertModel" style-alert="info">
-        <template #icon>
-          <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
-        </template>
-        Alert
-      </v-alert>
-    </div>
-
+  >
     <p class="dark:text-gray-400 py-4">
       <v-icon
         :name="store.currentIconDemo"
         class="h-12 w-12 float-left mr-2 text-gray-600 dark:text-gray-400"
-      ></v-icon>
+      />
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       Lorem Ipsum has been the industry's standard dummy text ever since the
       1500s, when an unknown printer took a galley of type and scrambled it to
@@ -159,6 +144,71 @@
       publishing software like Aldus PageMaker including versions of Lorem
       Ipsum.
     </p>
+
+    <div class="py-4">
+      <v-alert v-model="alertModel" style-alert="info" class="my-2">
+        <template #icon>
+          <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
+        </template>
+        Info alert
+      </v-alert>
+      <v-alert v-model="alertModel" style-alert="warn" class="my-2">
+        <template #icon>
+          <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
+        </template>
+        Warning alert
+      </v-alert>
+      <v-alert v-model="alertModel" style-alert="danger" class="my-2">
+        <template #icon>
+          <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
+        </template>
+        Danger alert
+      </v-alert>
+    </div>
+
+    <div class="py-4">
+      <v-tabs>
+        <v-tab name="Item one"></v-tab>
+        <v-tab name="Item two">
+          <template #name>
+        <v-icon :name="store.currentIconDemo" class="w-4 h-4 mr-1"></v-icon>
+        Item three
+      </template>
+        </v-tab>
+        <v-tab name="Item four"></v-tab>
+      </v-tabs>
+    </div>
+
+    <div class="py-4">
+      <v-tabs name="tabs-material">
+        <v-tab name="Item one"></v-tab>
+        <v-tab name="Item two">
+          <template #name>
+        <v-icon :name="store.currentIconDemo" class="w-4 h-4 mr-1"></v-icon>
+        Item three
+      </template>
+        </v-tab>
+        <v-tab name="Item four"></v-tab>
+      </v-tabs>
+    </div>
+
+    <div class="flex items-center gap-6 my-6">
+      <div class="relative flex items-center w-full my-2">
+        <v-icon
+          :name="store.currentIconDemo"
+          class="absolute h-6 w-6 text-gray-400 dark:text-gray-400 ml-2"
+        ></v-icon>
+        <v-input name="input-underline" class="grow pl-10" placeholder="Search"></v-input>
+      </div>
+
+      <div class="relative flex items-center w-full my-2">
+        <v-icon
+          :name="store.currentIconDemo"
+          class="absolute h-6 w-6 text-gray-400 dark:text-gray-400 ml-4"
+        ></v-icon>
+        <v-input name="input-rounded" class="grow pl-12" placeholder="Search"></v-input>
+      </div>
+    </div>
   </v-modal>
 </template>
 

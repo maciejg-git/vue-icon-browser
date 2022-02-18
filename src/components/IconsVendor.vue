@@ -135,20 +135,6 @@ svg {
   display: inline;
   pointer-events: none;
 }
-.icon-tile {
-  @apply inline-block
-  cursor-pointer
-  rounded-md 
-  p-2 
-  m-2 
-  border 
-  border-gray-200 
-  hover:ring-2 
-  ring-indigo-300
-  dark:bg-transparent 
-  dark:border-neutral-600 
-  dark:ring-indigo-400;
-}
 header {
   @apply my-10 text-2xl font-bold;
 }

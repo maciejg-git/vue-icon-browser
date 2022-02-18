@@ -158,6 +158,7 @@
   @apply
     border-b
     pl-2
+    dark:border-neutral-600
 }
 
 .tabs--tab {
@@ -165,6 +166,7 @@
     border
     rounded-t-md
     border-gray-300
+    dark:border-neutral-600
     -mb-px
     -ml-px
     p-2
@@ -173,7 +175,10 @@
     overflow-ellipsis
     no-underline
     bg-gray-100
-    hover:bg-gray-50
+    text-gray-600
+    dark:bg-neutral-900
+    dark:hover:bg-neutral-800
+    dark:text-gray-400
 }
     .tabs--tab--small {
       @apply
@@ -184,8 +189,10 @@
       @apply
         bg-white
         hover:bg-white
-        shadow-none;
-      border-bottom-color: transparent;
+        shadow-none
+        dark:bg-neutral-800
+        dark:hover:bg-neutral-800;
+      border-bottom-color: transparent !important;
     }
 
 /* TABLE */
@@ -526,6 +533,41 @@
         opacity-50
     }
 
+/* INPUT ROUNDED */
+
+.input-rounded {
+  @apply
+    rounded-full
+    border
+    bg-white
+    border-gray-300
+    focus:outline-none
+    focus:ring
+    focus:ring-indigo-200
+    focus:border-gray-400
+    outline-none
+    transition
+    duration-200
+    dark:bg-neutral-700
+    dark:border-neutral-500
+    dark:text-neutral-300
+    dark:focus:ring-indigo-300
+}
+    .input-rounded--valid-state {
+      @apply
+        border-green-300
+        focus:ring-green-200
+    }
+    .input-rounded--invalid-state {
+      @apply
+        border-red-300
+        focus:ring-red-200
+    }
+    .input-rounded--disabled-state {
+      @apply
+        opacity-50
+    }
+
 /* INPUT UNDERLINED */
 
 .input-underline {
@@ -638,24 +680,30 @@
 }
     .alert--info {
       @apply
-        bg-blue-50
-        text-blue-600
-        border-blue-200
+        bg-blue-300
+        text-blue-900
+        border-blue-400
         dark:bg-blue-500
         dark:text-gray-200
         dark:border-blue-600
     }
     .alert--danger {
       @apply
-        bg-red-50
-        text-red-600
-        border-red-200
+        bg-red-300
+        text-red-900
+        border-red-400
+        dark:bg-red-500
+        dark:text-gray-200
+        dark:border-red-600
     }
     .alert--warn {
       @apply
-        bg-yellow-50
-        text-yellow-600
-        border-yellow-200
+        bg-yellow-300
+        text-yellow-900
+        border-yellow-400
+        dark:bg-yellow-500
+        dark:text-gray-200
+        dark:border-yellow-600
     }
     .alert--success {
       @apply
@@ -732,10 +780,10 @@
 
 .close-button {
   @apply
-    text-gray-700
+    text-gray-300
     w-5
     h-5
-    dark:text-gray-300
+    /* dark:text-gray-300 */
 }
     .close-button--small {
       @apply
@@ -796,7 +844,7 @@
 .modal--header {
   @apply
     bg-gray-50
-    dark:bg-neutral-700
+    dark:bg-neutral-800
     text-gray-900
     text-lg
     leading-6
