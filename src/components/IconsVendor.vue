@@ -61,6 +61,16 @@ export default {
       return Object.values(res);
     });
 
+    let unselectIcon = (icon) => {
+      let index = store.selectedIcons.findIndex((i) => {
+        return icon.$_icon.name === i.$_icon.name;
+      });
+      store.selectedIcons.splice(index, 1);
+      icon.selected.value = false;
+      lastSelectedIcon.value = null;
+      // if (icon == store.currentIconDemo) store.currentIconDemo = null
+    };
+
     // click to select icon
     let selectIcon = (ev, icon) => {
       let selectedIcons = icon;
@@ -76,7 +86,28 @@ export default {
           selectedIcons = iconsFiltered.value.slice(from, to + 1);
         }
       }
-      emit("selected-icon", selectedIcons);
+
+      let isArray = Array.isArray(selectedIcons);
+
+      if (!isArray && selectedIcons.selected.value) {
+        unselectIcon(selectedIcons);
+        return;
+      }
+
+      if (isArray) {
+        selectedIcons.forEach((i) => {
+          if (!i.selected.value) {
+            store.selectedIcons.push(i);
+            i.selected.value = true;
+          }
+        });
+        lastSelectedIcon.value = selectedIcons[selectedIcons.length - 1];
+      } else {
+        store.selectedIcons.push(selectedIcons);
+        selectedIcons.selected.value = true;
+        lastSelectedIcon.value = selectedIcons;
+        store.currentIconDemo = selectedIcons;
+      }
     };
 
     // handle template events

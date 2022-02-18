@@ -8,6 +8,7 @@ export const useStore = defineStore('main', {
         originalNames: false,
         kebabCase: false,
       },
+      vendors: ["bootstrap", "mdi", "fontawesome"],
       bootstrap: {
         active: true,
         loading: false,
@@ -21,11 +22,11 @@ export const useStore = defineStore('main', {
         loading: false,
       },
       size: null,
-      view: null,
       filter: "",
       dark: false,
-      sidepanelState: "icons",
       currentIconDemo: null,
+      isSidepanelActive: false,
+      selectedIcons: [],
     }
   },
   getters: {
@@ -33,4 +34,5 @@ export const useStore = defineStore('main', {
       return state.bootstrap.active || state.mdi.active || state.fontawesome.active
     }
   }
+  // toggle sidepanel
 })

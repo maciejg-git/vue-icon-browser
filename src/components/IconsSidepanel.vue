@@ -29,87 +29,87 @@
 
       <div v-else>
         <!-- header -->
-        <icons-sidepanel-header text="Vendors" />
+        <!-- <icons-sidepanel-header text="Vendors" /> -->
         <!-- vendors -->
-        <div class="mx-2 mb-4">
-          <ul>
-            <li>
-              <v-button
-                name="button-link"
-                class="hover:bg-gray-100 px-2 py-1 dark:text-gray-300 dark:hover:bg-neutral-600"
-                @click="emit('toggle-vendor', 'bootstrap')"
-              >
-                <v-spinner
-                  v-if="store.bootstrap.loading"
-                  style-spinner="small"
-                  class="mr-2"
-                ></v-spinner>
-                <v-icon
-                  v-if="store.bootstrap.active && !store.bootstrap.loading"
-                  :name="BCheckLg"
-                  class="mr-2"
-                ></v-icon>
-                <v-icon
-                  v-if="!store.bootstrap.active && !store.bootstrap.loading"
-                  :name="BPlusLg"
-                  class="mr-2"
-                ></v-icon>
-                Bootstrap Icons
-              </v-button>
-            </li>
-            <li>
-              <v-button
-                name="button-link"
-                class="hover:bg-gray-100 px-2 py-1 dark:text-gray-300 dark:hover:bg-neutral-600"
-                @click="emit('toggle-vendor', 'mdi')"
-              >
-                <v-spinner
-                  v-if="store.mdi.loading"
-                  style-spinner="small"
-                  class="mr-2"
-                ></v-spinner>
-                <v-icon
-                  v-if="store.mdi.active && !store.mdi.loading"
-                  :name="BCheckLg"
-                  class="mr-2"
-                ></v-icon>
-                <v-icon
-                  v-if="!store.mdi.active && !store.mdi.loading"
-                  :name="BPlusLg"
-                  class="mr-2"
-                ></v-icon>
-                Material Design Icons
-              </v-button>
-            </li>
-            <li>
-              <v-button
-                name="button-link"
-                class="hover:bg-gray-100 px-2 py-1 dark:text-gray-300 dark:hover:bg-neutral-600"
-                @click="emit('toggle-vendor', 'fontawesome')"
-              >
-                <v-spinner
-                  v-if="store.fontawesome.loading"
-                  style-spinner="small"
-                  class="mr-2"
-                ></v-spinner>
-                <v-icon
-                  v-if="store.fontawesome.active && !store.fontawesome.loading"
-                  :name="BCheckLg"
-                  class="mr-2"
-                ></v-icon>
-                <v-icon
-                  v-if="!store.fontawesome.active && !store.fontawesome.loading"
-                  :name="BPlusLg"
-                  class="mr-2"
-                ></v-icon>
-                Font Awesome Icons
-              </v-button>
-            </li>
-          </ul>
-        </div>
+        <!-- <div class="mx-2 mb-4"> -->
+        <!--   <ul> -->
+        <!--     <li> -->
+        <!--       <v-button -->
+        <!--         name="button-link" -->
+        <!--         class="hover:bg-gray-100 px-2 py-1 dark:text-gray-300 dark:hover:bg-neutral-600" -->
+        <!--         @click="emit('toggle-vendor', 'bootstrap')" -->
+        <!--       > -->
+        <!--         <v-spinner -->
+        <!--           v-if="store.bootstrap.loading" -->
+        <!--           style-spinner="small" -->
+        <!--           class="mr-2" -->
+        <!--         ></v-spinner> -->
+        <!--         <v-icon -->
+        <!--           v-if="store.bootstrap.active &#38;&#38; !store.bootstrap.loading" -->
+        <!--           :name="BCheckLg" -->
+        <!--           class="mr-2" -->
+        <!--         ></v-icon> -->
+        <!--         <v-icon -->
+        <!--           v-if="!store.bootstrap.active &#38;&#38; !store.bootstrap.loading" -->
+        <!--           :name="BPlusLg" -->
+        <!--           class="mr-2" -->
+        <!--         ></v-icon> -->
+        <!--         Bootstrap Icons -->
+        <!--       </v-button> -->
+        <!--     </li> -->
+        <!--     <li> -->
+        <!--       <v-button -->
+        <!--         name="button-link" -->
+        <!--         class="hover:bg-gray-100 px-2 py-1 dark:text-gray-300 dark:hover:bg-neutral-600" -->
+        <!--         @click="emit('toggle-vendor', 'mdi')" -->
+        <!--       > -->
+        <!--         <v-spinner -->
+        <!--           v-if="store.mdi.loading" -->
+        <!--           style-spinner="small" -->
+        <!--           class="mr-2" -->
+        <!--         ></v-spinner> -->
+        <!--         <v-icon -->
+        <!--           v-if="store.mdi.active &#38;&#38; !store.mdi.loading" -->
+        <!--           :name="BCheckLg" -->
+        <!--           class="mr-2" -->
+        <!--         ></v-icon> -->
+        <!--         <v-icon -->
+        <!--           v-if="!store.mdi.active &#38;&#38; !store.mdi.loading" -->
+        <!--           :name="BPlusLg" -->
+        <!--           class="mr-2" -->
+        <!--         ></v-icon> -->
+        <!--         Material Design Icons -->
+        <!--       </v-button> -->
+        <!--     </li> -->
+        <!--     <li> -->
+        <!--       <v-button -->
+        <!--         name="button-link" -->
+        <!--         class="hover:bg-gray-100 px-2 py-1 dark:text-gray-300 dark:hover:bg-neutral-600" -->
+        <!--         @click="emit('toggle-vendor', 'fontawesome')" -->
+        <!--       > -->
+        <!--         <v-spinner -->
+        <!--           v-if="store.fontawesome.loading" -->
+        <!--           style-spinner="small" -->
+        <!--           class="mr-2" -->
+        <!--         ></v-spinner> -->
+        <!--         <v-icon -->
+        <!--           v-if="store.fontawesome.active &#38;&#38; !store.fontawesome.loading" -->
+        <!--           :name="BCheckLg" -->
+        <!--           class="mr-2" -->
+        <!--         ></v-icon> -->
+        <!--         <v-icon -->
+        <!--           v-if="!store.fontawesome.active &#38;&#38; !store.fontawesome.loading" -->
+        <!--           :name="BPlusLg" -->
+        <!--           class="mr-2" -->
+        <!--         ></v-icon> -->
+        <!--         Font Awesome Icons -->
+        <!--       </v-button> -->
+        <!--     </li> -->
+        <!--   </ul> -->
+        <!-- </div> -->
 
         <!-- header -->
-        <icons-sidepanel-header text="Icons" />
+        <!-- <icons-sidepanel-header text="Icons" /> -->
 
         <!-- icons -->
         <div v-if="selectedIcons.length" class="mb-4">
@@ -125,76 +125,56 @@
                   <div class="flex items-center" @click="store.currentIconDemo = i.icon">
                     <v-icon
                       :name="i.icon"
-                      class="inline-block icon-standalone my-1 mr-1 text-gray-600 dark:text-gray-300"
+                      class="inline-block icon-standalone my-1 mr-1 text-gray-600 dark:text-gray-400 h-6 w-6"
                     ></v-icon>
-                    <div class="ml-2 dark:text-gray-300">
+                    <div class="ml-2 dark:text-gray-400 text-sm">
                       {{ i.icon.getIconName() }}
                     </div>
-                  </div>
-                  <!-- buttons -->
-                  <div class="flex items-center">
-                    <button @click="copyIconToClipboard(i)">
-                      <transition name="fade-icon" mode="out-in">
-                        <v-icon
-                          v-if="!i.copied.value"
-                          :name="MdiContentCopy"
-                          class="text-gray-700 mr-2 dark:text-gray-300"
-                        ></v-icon>
-                        <v-icon
-                          v-else
-                          :name="MdiCheckBold"
-                          class="text-gray-700 mr-2 dark:text-gray-300"
-                        ></v-icon>
-                      </transition>
-                    </button>
-                    <v-close-button
-                      @click="emit('unselect-icon', i.icon)"
-                    ></v-close-button>
                   </div>
                 </li>
               </transition-group>
             </ul>
           </div>
 
-          <!-- clear all -->
-          <div class="flex justify-end">
-            <v-button
-              style-button="primary-outline small"
-              class="mt-4 mr-4 text-right"
-              @click="clearIconList"
-            >
-              Clear all
-            </v-button>
-          </div>
+          <!-- &#60;&#33;&#45;&#45; clear all &#45;&#45;&#62; -->
+          <!-- <div class="flex justify-end"> -->
+          <!--   <v-button -->
+          <!--     style-button="primary-outline small" -->
+          <!--     class="mt-4 mr-4 text-right" -->
+          <!--     @click="clearIconList" -->
+          <!--   > -->
+          <!--     Clear all -->
+          <!--   </v-button> -->
+          <!-- </div> -->
 
           <!-- clipboard -->
 
-          <div>
-            <div class="m-4">
-              <v-textarea
-                v-model="selectedCopyList"
-                rows="6"
-                class="w-full"
-              ></v-textarea>
-              <div class="flex justify-end">
-                <v-button
-                  style-button="primary-outline small"
-                  class="mt-4 text-right"
-                  @click="copyAllToClipboard(i)"
-                >
-                  <transition name="fade-icon" mode="out-in">
-                    <v-icon
-                      v-if="!listCopied"
-                      :name="MdiContentCopy"
-                      class="mr-1"
-                    ></v-icon>
-                    <v-icon v-else :name="MdiCheckBold" class="mr-1"></v-icon>
-                  </transition>
-                  Copy list
-                </v-button>
-              </div>
-            </div>
-          </div>
+          <!-- <div> -->
+          <!--   <div class="m-4"> -->
+          <!--     <v-textarea -->
+          <!--       v-model="selectedCopyList" -->
+          <!--       rows="6" -->
+          <!--       class="w-full" -->
+          <!--     ></v-textarea> -->
+          <!--     <div class="flex justify-end"> -->
+          <!--       <v-button -->
+          <!--         style-button="primary-outline small" -->
+          <!--         class="mt-4 text-right" -->
+          <!--         @click="copyAllToClipboard(i)" -->
+          <!--       > -->
+          <!--         <transition name="fade-icon" mode="out-in"> -->
+          <!--           <v-icon -->
+          <!--             v-if="!listCopied" -->
+          <!--             :name="MdiContentCopy" -->
+          <!--             class="mr-1" -->
+          <!--           ></v-icon> -->
+          <!--           <v-icon v-else :name="MdiCheckBold" class="mr-1"></v-icon> -->
+          <!--         </transition> -->
+          <!--         Copy list -->
+          <!--       </v-button> -->
+          <!--     </div> -->
+          <!--   </div> -->
+          <!-- </div> -->
         </div>
         <div v-else class="mx-10 dark:text-gray-300">No icons selected</div>
       </div>
@@ -319,7 +299,7 @@ export default {
 
 <style scoped>
 .sidebar {
-  min-width: 400px;
+  /* min-width: 400px; */
   max-height: calc(100vh - 3em);
   min-height: calc(100vh - 3em);
 }

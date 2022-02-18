@@ -1,14 +1,16 @@
 <template>
   <v-navbar
     sticky
-    class="flex items-center text-gray-200 px-4 py-2 shadow-none h-12 dark:bg-neutral-800"
+    class="flex items-center justify-between text-gray-200 px-4 py-2 shadow-none h-12 dark:bg-neutral-800"
   >
     <span class="text-white text-xl font-bold ml-2"> Vue-icons </span>
+
+    <icons-vendors></icons-vendors>
   </v-navbar>
 
-  <div class="flex w-full dark:bg-neutral-800">
+  <div class="flex mx-16 dark:bg-neutral-800">
     <div class="flex-1">
-      <div class="w-11/12 mx-auto">
+      <div class="mx-auto">
         <!-- filter input -->
 
         <div
@@ -72,79 +74,68 @@
 
         <!-- icons -->
 
+        <div class="flex mt-8 justify-between">
+          <div>
+            <div class="px-2" v-show="store.selectedIcons.length">
+              <icons-main-selected />
+            </div>
+            <div v-if="store.bootstrap.active" class="px-2">
+              <header>
+                <v-icon
+                  :name="BBootstrapFill"
+                  class="h-8 w-8 text-purple-500 mr-2"
+                ></v-icon>
+                Bootstrap Icons
+              </header>
+              <icons-vendor-bootstrap
+                @bootstrap-loaded="store.bootstrap.loading = false"
+              />
+            </div>
 
-        <div
-          class="flex mt-8"
-        >
-          <div
-            v-if="store.bootstrap.active"
-            class="px-2 flex-1"
-          >
-            <header>
-              <v-icon
-                :name="BBootstrapFill"
-                class="h-8 w-8 text-purple-500 mr-2"
-              ></v-icon>
-              Bootstrap Icons
-            </header>
-            <icons-vendor-bootstrap
-              @selected-icon="selectIcon"
-              @bootstrap-loaded="store.bootstrap.loading = false"
-            ></icons-vendor-bootstrap>
-          </div>
-        <div class="mx-4 flex-1 relative">
-          <div class="sticky top-14">
-            <icons-demo v-if="store.currentIconDemo" :selected-icons="selectedIcons"></icons-demo>
-          </div>
-        </div>
+            <div v-if="store.mdi.active" class="px-2">
+              <header>
+                <v-icon
+                  :name="MdiMaterialDesign"
+                  class="h-8 w-8 text-purple-500 mr-2"
+                ></v-icon>
+                Material Design Icons
+              </header>
+              <icons-vendor-mdi @mdi-loaded="store.mdi.loading = false" />
+            </div>
 
-          <!-- <div -->
-          <!--   v-if="store.mdi.active" -->
-          <!--   :class="{ 'flex-1': store.view === 'columns' }" -->
-          <!--   class="px-2" -->
-          <!-- > -->
-          <!--   <header> -->
-          <!--     <v-icon -->
-          <!--       :name="MdiMaterialDesign" -->
-          <!--       class="h-8 w-8 text-purple-500 mr-2" -->
-          <!--     ></v-icon> -->
-          <!--     Material Design Icons -->
-          <!--   </header> -->
-          <!--   <icons-vendor-mdi -->
-          <!--     @selected-icon="selectIcon" -->
-          <!--     @mdi-loaded="store.mdi.loading = false" -->
-          <!--   ></icons-vendor-mdi> -->
-          <!-- </div> -->
-          <!--  -->
-          <!-- <div -->
-          <!--   v-if="store.fontawesome.active" -->
-          <!--   :class="{ 'flex-1': store.view === 'columns' }" -->
-          <!--   class="px-2" -->
-          <!-- > -->
-          <!--   <header> -->
-          <!--     <v-icon -->
-          <!--       :name="FaFontAwesomeFlagBrand" -->
-          <!--       class="h-8 w-8 text-purple-500 mr-2" -->
-          <!--     ></v-icon> -->
-          <!--     Font Awesome Icons -->
-          <!--   </header> -->
-          <!--   <icons-vendor-fontawesome -->
-          <!--     @selected-icon="selectIcon" -->
-          <!--     @fontawesome-loaded="store.fontawesome.loading = false" -->
-          <!--   ></icons-vendor-fontawesome> -->
-          <!-- </div> -->
+            <div v-if="store.fontawesome.active" class="px-2">
+              <header>
+                <v-icon
+                  :name="FaFontAwesomeFlagBrand"
+                  class="h-8 w-8 text-purple-500 mr-2"
+                ></v-icon>
+                Font Awesome Icons
+              </header>
+              <icons-vendor-fontawesome
+                @fontawesome-loaded="store.fontawesome.loading = false"
+              />
+            </div>
+          </div>
+
+          <!-- icons demo -->
+
+          <div class="mx-4 relative">
+            <div class="sticky top-20">
+              <icons-demo v-if="store.currentIconDemo" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- sidepanel -->
 
-    <!-- <icons-sidepanel -->
-    <!--   :selected-icons="selectedIcons" -->
-    <!--   @unselect-icon="unselectIcon" -->
-    <!--   @clear-icon-list="clearSelected" -->
-    <!--   @toggle-vendor="toggleVendor($event)" -->
-    <!-- /> -->
+    <v-sidepanel v-model="store.isSidepanelActive" width="420px">
+      <template #header>
+        <span class="font-semibold dark:text-gray-300">Settings</span>
+      </template>
+      <icons-settings></icons-settings>
+    </v-sidepanel>
   </div>
 </template>
 
@@ -153,9 +144,11 @@ import { ref, provide, defineAsyncComponent } from "vue";
 import { useStore } from "../composition/useStore";
 import { useDebounce } from "@vueuse/core";
 import LoadingProgress from "./LoadingProgress.vue";
-import IconsSidepanel from "./IconsSidepanel.vue";
+import IconsSettings from "./IconsSettings.vue";
 import IconsMainToolbar from "./IconsMainToolbar.vue";
-import IconsDemo from "./IconsDemo.vue"
+import IconsDemo from "./IconsDemo.vue";
+import IconsMainSelected from "./IconsMainSelected.vue";
+import IconsVendors from "./IconsVendors.vue";
 
 import {
   BBootstrapFill,
@@ -163,6 +156,7 @@ import {
   BLayoutThreeColumns,
   BMoon,
   BGear,
+  BList,
 } from "../icons/dist-bootstrap";
 import {
   MdiMaterialDesign,
@@ -186,78 +180,31 @@ export default {
       loader: () => import("./IconsVendorFontawesome.vue"),
       loadingComponent: LoadingProgress,
     }),
-    IconsSidepanel,
     IconsMainToolbar,
     IconsDemo,
+    IconsMainSelected,
+    IconsSettings,
+    IconsVendors,
   },
   setup() {
     let store = useStore();
-
-    let iconsViewClasses = {
-      stacked: "",
-      columns: "flex",
-    };
 
     let filter = ref("");
 
     store.$patch({
       size: "sm",
-      view: "stacked",
       filter: useDebounce(filter, 200),
     });
 
     // icon selection
 
-    let selectedIcons = ref([]);
     let lastSelectedIcon = ref({});
-    let currentIcon = ref(null);
-
-    let unselectIcon = (icon) => {
-      let index = selectedIcons.value.findIndex((i) => {
-        return icon.$_icon.name === i.$_icon.name;
-      });
-      selectedIcons.value.splice(index, 1);
-      icon.selected.value = false;
-      lastSelectedIcon.value = null;
-    };
-
-    let selectIcon = (icons) => {
-      let isArray = Array.isArray(icons);
-
-      if (!isArray && icons.selected.value) {
-        unselectIcon(icons);
-        return;
-      }
-
-      if (isArray) {
-        icons.forEach((i) => {
-          if (!i.selected.value) {
-            selectedIcons.value.push(i);
-            i.selected.value = true;
-          }
-        });
-        lastSelectedIcon.value = icons[icons.length - 1];
-        currentIcon.value = icons[0];
-      } else {
-        selectedIcons.value.push(icons);
-        icons.selected.value = true;
-        lastSelectedIcon.value = icons;
-        currentIcon.value = icons;
-        store.currentIconDemo = icons;
-      }
-    };
 
     let clearSelected = () => {
-      selectedIcons.value.forEach((i) => {
+      store.selectedIcons.forEach((i) => {
         i.selected.value = false;
       });
-      selectedIcons.value = [];
-    };
-
-    // vendors
-    let toggleVendor = (vendor) => {
-      if (!store[vendor].active) store[vendor].loading = true;
-      store[vendor].active = !store[vendor].active;
+      store.selectedIcons = [];
     };
 
     // provide for IconsVendor
@@ -265,14 +212,7 @@ export default {
 
     return {
       filter,
-      selectIcon,
-      unselectIcon,
-      selectedIcons,
-      clearSelected,
-      iconsViewClasses,
-      toggleVendor,
       store,
-      currentIcon,
       BBootstrapFill,
       MdiMaterialDesign,
       FaFontAwesomeFlagBrand,
@@ -280,6 +220,7 @@ export default {
       BLayoutThreeColumns,
       BMoon,
       BGear,
+      BList,
       MdiSizeS,
       MdiSizeM,
       MdiSizeL,
@@ -293,13 +234,7 @@ svg {
   pointer-events: none;
 }
 header {
-  @apply my-4 text-xl font-semibold flex items-center w-full my-4 py-2 mx-2 dark:text-neutral-300;
-}
-.sidebar {
-  min-width: 400px;
-}
-.sidebar-icons {
-  max-height: 75%;
+  @apply text-xl font-semibold flex items-center w-full my-6  mx-2 dark:text-neutral-300;
 }
 
 .fade-enter-active,

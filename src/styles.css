@@ -44,6 +44,7 @@
         border-indigo-500
         hover:bg-indigo-600
         focus:ring-indigo-200
+        dark:focus:ring-indigo-300
     }
     .button--primary-outline {
       @apply
@@ -63,36 +64,42 @@
         border-gray-500
         hover:bg-gray-600
         focus:ring-gray-200
+        dark:focus:ring-gray-300
     }
     .button--yellow {
       @apply
         bg-yellow-500
         hover:bg-yellow-600
         focus:ring-yellow-200
+        dark:focus:ring-yellow-300
     }
     .button--pink {
       @apply
         bg-pink-500
         hover:bg-pink-600
         focus:ring-pink-200
+        dark:focus:ring-pink-300
     }
     .button--green {
       @apply
         bg-green-500
         hover:bg-green-600
         focus:ring-green-200
+        dark:focus:ring-green-300
     }
     .button--red {
       @apply
         bg-red-500
         hover:bg-red-600
         focus:ring-red-200
+        dark:focus:ring-red-300
     }
     .button--blue {
       @apply
         bg-blue-500
         hover:bg-blue-600
         focus:ring-blue-200
+        dark:focus:ring-blue-300
     }
     .button--large {
       @apply
@@ -110,6 +117,15 @@
     .button--square {
       @apply
         rounded-none
+    }
+    .button--circle {
+      @apply
+        rounded-full
+        p-4 !important
+    }
+    .button--equal {
+      @apply
+        p-2 !important
     }
     .button--pill {
       @apply
@@ -510,6 +526,33 @@
         opacity-50
     }
 
+/* INPUT UNDERLINED */
+
+.input-underline {
+  @apply
+    block
+    border-0 
+    border-b-2 
+    border-gray-200
+    focus:ring-0 
+    focus:border-black
+    bg-transparent
+    dark:text-neutral-300
+    dark:border-neutral-500
+}
+    .input-underline--valid-state {
+      @apply
+        border-green-300
+    }
+    .input-underline--invalid-state {
+      @apply
+        border-red-300
+    }
+    .input-underline--disabled-state {
+      @apply
+        opacity-50
+    }
+    
 /* INPUT */
 
 .input {
@@ -589,7 +632,8 @@
     border
     border-blue-200
     border-l-4
-    rounded
+    rounded-md
+    font-semibold
     p-4
 }
     .alert--info {
@@ -597,6 +641,9 @@
         bg-blue-50
         text-blue-600
         border-blue-200
+        dark:bg-blue-500
+        dark:text-gray-200
+        dark:border-blue-600
     }
     .alert--danger {
       @apply
@@ -719,7 +766,8 @@
 
 .sidepanel {
   @apply
-    bg-gray-100
+    bg-white
+    dark:bg-[#303030]
     text-left;
   -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.35);
   -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.35);
@@ -731,6 +779,7 @@
 .modal {
   @apply
     bg-white
+    dark:bg-neutral-800
     shadow-lg
     rounded-md
     text-gray-900
@@ -747,6 +796,7 @@
 .modal--header {
   @apply
     bg-gray-50
+    dark:bg-neutral-700
     text-gray-900
     text-lg
     leading-6
@@ -1089,7 +1139,7 @@
     }
     .spinner--secondary {
       @apply
-        text-gray-200
+        text-gray-400
     }
     .spinner--warn {
       @apply

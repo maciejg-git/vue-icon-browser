@@ -1,0 +1,63 @@
+/* TABS */
+
+.tabs-material-tab-fixed {
+  @apply
+    -mb-px
+    -ml-px
+    p-2
+    px-4
+}
+
+.tabs-material--tab {
+  @apply
+    tabs-material-tab-fixed;
+  @apply
+    /* hover:bg-gray-50 */
+    dark:text-gray-400
+    /* dark:hover:bg-neutral-700 */
+}
+    .tabs-material--tab--active-state {
+      @apply
+        shadow-none
+        border-b-2
+        border-indigo-500
+    }
+
+.tabs-material--tab-bar {
+  @apply
+    border-b
+    dark:border-neutral-700
+}
+
+/* LIST */
+
+.list-material {
+}
+    .list-material--round {
+      @apply
+        rounded-md
+    }
+    .list-material--borderless {
+      @apply
+        border-0
+    }
+
+.list-material--item {
+  @apply
+    border
+    border-gray-100
+    hover:bg-gray-50
+    shadow-md
+    p-2
+    px-4
+    my-1
+    transition-all
+}
+    .list-material--item--active-state {
+      @apply
+        border-blue-600
+        bg-blue-500
+        hover:bg-blue-600
+        text-white
+        border-l-4
+    }
