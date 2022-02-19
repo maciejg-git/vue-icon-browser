@@ -4,6 +4,8 @@
   @apply 
     focus:outline-none
     /* font-semibold */
+    text-gray-600
+    dark:text-gray-300
 }
   .button-link--light {
     @apply
@@ -191,7 +193,8 @@
         hover:bg-white
         shadow-none
         dark:bg-neutral-800
-        dark:hover:bg-neutral-800;
+        dark:hover:bg-neutral-800
+        dark:text-gray-300;
       border-bottom-color: transparent !important;
     }
 
@@ -844,13 +847,14 @@
 .modal--header {
   @apply
     bg-gray-50
-    dark:bg-neutral-800
     text-gray-900
     text-lg
     leading-6
     font-medium
     px-6
     py-6
+    dark:bg-neutral-800
+    dark:text-gray-300
 }
 
 .modal--footer {
@@ -1256,17 +1260,21 @@
     bg-indigo-500
     text-white
 }
-.badge--circle {
-  @apply
-    rounded-full
-    border
-    border-white
-    bg-transparent
-    w-4
-    h-4
-    px-0
-    py-0
-}
+    .badge--plain {
+      @apply
+        rounded
+        p-0
+    }
+    .badge--circle {
+      @apply
+        rounded-full
+        border
+        border-white
+        w-4
+        h-4
+        px-0
+        py-0 !important
+    }
     .badge--primary {
       @apply
         bg-indigo-500

@@ -40,7 +40,10 @@
 
         <!-- no icons loaded -->
 
-        <div v-if="!store.isAnyVendorLoaded" class="flex justify-center h-40">
+        <div
+          v-if="!store.isAnyVendorLoaded && !store.selectedIcons.length"
+          class="flex justify-center h-40"
+        >
           <div class="flex flex-col mt-auto">
             <p class="text-xl">
               No icon vendors loaded. Add icons to start browsing.
@@ -198,17 +201,12 @@ export default {
 
     // icon selection
 
-    let lastSelectedIcon = ref({});
-
     let clearSelected = () => {
       store.selectedIcons.forEach((i) => {
         i.selected.value = false;
       });
       store.selectedIcons = [];
     };
-
-    // provide for IconsVendor
-    provide("last-selected-icon", lastSelectedIcon);
 
     return {
       filter,

@@ -21,8 +21,8 @@
         Button
       </v-button>
       <v-button style-button="secondary">
-        <v-icon :name="store.currentIconDemo" class="h-5 w-5 mr-2"></v-icon>
         Button
+        <v-icon :name="store.currentIconDemo" class="h-5 w-5 ml-2"></v-icon>
       </v-button>
       <v-button style-button="red small">
         <v-icon :name="store.currentIconDemo" class="h-4 w-4 mr-2"></v-icon>
@@ -35,17 +35,19 @@
     </div>
 
     <div class="flex items-center gap-x-5 my-5">
-      <v-button style-button="green">
-        Button
-        <v-icon :name="store.currentIconDemo" class="h-5 w-5 ml-2"></v-icon>
+      <v-button style-button="circle blue">
+        <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
       </v-button>
       <v-button style-button="equal">
         <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
       </v-button>
-    </div>
-    <div class="flex items-center gap-x-6 my-6">
-      <v-button style-button="circle blue">
-        <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
+      <v-button style-button="pill">
+        <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
+        Button
+      </v-button>
+      <v-button name="button-link" class="font-semibold text-lg">
+        <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
+        Button
       </v-button>
     </div>
 
@@ -84,7 +86,7 @@
 
     <!-- link -->
 
-    <div class="flex items-center gap-10 my-5">
+    <div class="flex items-center gap-10 my-4">
       <a href="" class="flex items-center text-blue-400 dark:text-blue-400">
         <v-icon class="mr-1" :name="store.currentIconDemo"></v-icon>
         <span class="underline">Link</span>
@@ -128,8 +130,9 @@
     v-model="isExtendedDemoActive"
     no-primary-button
     secondary-button-close
+    :title="store.currentIconDemo.getIconName()"
   >
-    <p class="dark:text-gray-400 py-4">
+    <p class="dark:text-gray-400 pt-2 pb-5">
       <v-icon
         :name="store.currentIconDemo"
         class="h-12 w-12 float-left mr-2 text-gray-600 dark:text-gray-400"
@@ -145,7 +148,7 @@
       Ipsum.
     </p>
 
-    <div class="py-4">
+    <div class="py-5">
       <v-alert v-model="alertModel" style-alert="info" class="my-2">
         <template #icon>
           <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
@@ -166,27 +169,27 @@
       </v-alert>
     </div>
 
-    <div class="py-4">
+    <div class="py-5">
       <v-tabs>
         <v-tab name="Item one"></v-tab>
         <v-tab name="Item two">
           <template #name>
-        <v-icon :name="store.currentIconDemo" class="w-4 h-4 mr-1"></v-icon>
-        Item three
-      </template>
+            <v-icon :name="store.currentIconDemo" class="w-4 h-4 mr-1"></v-icon>
+            Item three
+          </template>
         </v-tab>
         <v-tab name="Item four"></v-tab>
       </v-tabs>
     </div>
 
-    <div class="py-4">
+    <div class="py-5">
       <v-tabs name="tabs-material">
         <v-tab name="Item one"></v-tab>
         <v-tab name="Item two">
           <template #name>
-        <v-icon :name="store.currentIconDemo" class="w-4 h-4 mr-1"></v-icon>
-        Item three
-      </template>
+            <v-icon :name="store.currentIconDemo" class="w-4 h-4 mr-1"></v-icon>
+            Item three
+          </template>
         </v-tab>
         <v-tab name="Item four"></v-tab>
       </v-tabs>
@@ -198,7 +201,11 @@
           :name="store.currentIconDemo"
           class="absolute h-6 w-6 text-gray-400 dark:text-gray-400 ml-2"
         ></v-icon>
-        <v-input name="input-underline" class="grow pl-10" placeholder="Search"></v-input>
+        <v-input
+          name="input-underline"
+          class="grow pl-10"
+          placeholder="Search"
+        ></v-input>
       </div>
 
       <div class="relative flex items-center w-full my-2">
@@ -206,7 +213,11 @@
           :name="store.currentIconDemo"
           class="absolute h-6 w-6 text-gray-400 dark:text-gray-400 ml-4"
         ></v-icon>
-        <v-input name="input-rounded" class="grow pl-12" placeholder="Search"></v-input>
+        <v-input
+          name="input-rounded"
+          class="grow pl-12"
+          placeholder="Search"
+        ></v-input>
       </div>
     </div>
   </v-modal>

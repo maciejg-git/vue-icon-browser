@@ -1,21 +1,23 @@
 <template>
   <div
-    class="flex items-center divide-x divide-gray-400 dark:divide-neutral-700"
+    class="flex items-center"
   >
     <template v-for="vendor in store.vendors" :key="vendor">
-      <v-button
-        name="button-link"
-        class="px-2"
-        @click="toggleVendor(vendor)"
-      >
-        <v-spinner v-if="store[vendor].loading" style-spinner="secondary" />
-        <v-icon
-          v-if="!store[vendor].loading"
-          :name="icons[vendor]"
-          class="h-7 w-7 text-gray-200 dark:text-purple-500"
-          :class="{ 'opacity-40': !store[vendor].active }"
-        ></v-icon>
-      </v-button>
+      <div class="px-2 py-0.5 mx-0.5"
+           :class="{'border-b-2 border-gray-200 dark:border-purple-500': store[vendor].active}">
+        <v-button
+          name="button-link" 
+          @click="toggleVendor(vendor)"
+        >
+          <v-spinner v-if="store[vendor].loading" style-spinner="secondary" />
+          <v-icon
+            v-if="!store[vendor].loading"
+            :name="icons[vendor]"
+            class="h-7 w-7 text-gray-200 dark:text-purple-500"
+            :class="{ 'opacity-40': !store[vendor].active }"
+          ></v-icon>
+        </v-button>
+      </div>
     </template>
   </div>
 </template>
@@ -23,7 +25,7 @@
 <script>
 import { useStore } from "../composition/useStore";
 
-import { BBootstrapFill } from "../icons/dist-bootstrap";
+import { BBootstrapFill, BCheckLg } from "../icons/dist-bootstrap";
 import { MdiMaterialDesign } from "../icons/dist-mdi";
 import { FaFontAwesomeFlagBrand } from "../icons/dist-fontawesome";
 
@@ -46,6 +48,7 @@ export default {
       store,
       toggleVendor,
       icons,
+      BCheckLg
     };
   },
 };
