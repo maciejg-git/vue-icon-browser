@@ -13,6 +13,7 @@
             v-show="hoveredIcon === icon"
             style-close-button="small"
             class="absolute -top-2 -left-2 bg-neutral-600 p-0.5 rounded"
+            @click="handleClickUnselect(icon)"
           ></v-close-button>
           <component
             :is="icon"
@@ -54,6 +55,10 @@ export default {
       hoveredIcon.value = null;
     };
 
+    let handleClickUnselect = (icon) => {
+      store.unselectIcon(icon);
+    }
+
     return {
       store,
       hoveredIcon,
@@ -61,6 +66,7 @@ export default {
       handleClickIcon,
       handleMouseenterIcon,
       handleMouseleaveIcon,
+      handleClickUnselect,
     };
   },
 };

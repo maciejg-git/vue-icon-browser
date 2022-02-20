@@ -10,9 +10,7 @@
       <span class="text-3xl dark:text-gray-300">{{
         store.currentIconDemo.getIconName()
       }}</span>
-      <v-button name="button-link" @click="handleClickClosebutton">
-        <v-close-button></v-close-button>
-      </v-button>
+      <v-close-button @click="handleClickClosebutton" />
     </div>
 
     <div class="flex items-center gap-x-5 mb-5 mt-10">
@@ -35,13 +33,13 @@
     </div>
 
     <div class="flex items-center gap-x-5 my-5">
-      <v-button style-button="circle blue">
+      <v-button style-button="circle">
         <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
       </v-button>
-      <v-button style-button="equal">
+      <v-button style-button="equal secondary">
         <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
       </v-button>
-      <v-button style-button="pill">
+      <v-button style-button="pill red">
         <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
         Button
       </v-button>
@@ -110,7 +108,7 @@
           Heading 2
         </h2>
       </div>
-      <v-button style-button="small" @click="isExtendedDemoActive = true">
+      <v-button style-button="primary-outline small" @click="isExtendedDemoActive = true">
         Show more
       </v-button>
     </div>
@@ -118,9 +116,27 @@
     <!-- links -->
 
     <v-tabs name="tabs-material">
-      <v-tab name="Native"></v-tab>
-      <v-tab name="Vue"></v-tab>
-      <v-tab name="SVG"></v-tab>
+      <v-tab :name="nativeTabName">
+        <div class="dark:text-gray-300 p-4">
+          {{ getNativeString() }}
+        </div>
+      </v-tab>
+      <v-tab name="Vue">
+        <div class="dark:text-gray-300 px-2 py-1">
+          <div>
+            <pre>
+              <code class="text-sm p-1 w-min">{{ getVueString("import") }}</code>
+            </pre>
+          </div>
+          <div>
+            {{ getVueString("component") }}
+          </div>
+          <div>
+            {{ getVueString("component bind") }}
+          </div>
+        </div>
+      </v-tab>
+      <v-tab name="SVG"> </v-tab>
     </v-tabs>
   </div>
 
@@ -143,9 +159,15 @@
       make a type specimen book. It has survived not only five centuries, but
       also the leap into electronic typesetting, remaining essentially
       unchanged. It was popularised in the 1960s with the release of Letraset
-      sheets containing Lorem Ipsum passages, and more recently with desktop
-      publishing software like Aldus PageMaker including versions of Lorem
-      Ipsum.
+      sheets containing
+      <a
+        href=""
+        class="inline-flex items-center text-blue-400 dark:text-blue-400"
+        ><v-icon class="mr-1" :name="store.currentIconDemo"></v-icon
+        ><span class="underline">Lorem Ipsum</span></a
+      >
+      passages, and more recently with desktop publishing software like Aldus
+      PageMaker including versions of Lorem Ipsum.
     </p>
 
     <div class="py-5">
@@ -224,14 +246,12 @@
 </template>
 
 <script>
-import { ref } from "vue";
+import { ref, computed, onUpdated, inject } from "vue";
 import { useStore } from "../composition/useStore";
+import { toKebab } from "../tools";
 
 export default {
-  props: {
-    modelValue: { type: Boolean, default: false },
-  },
-  setup(props, { emit }) {
+  setup(props) {
     let store = useStore();
 
     let isDemoActive = ref(false);
@@ -240,8 +260,47 @@ export default {
 
     let alertModel = ref(true);
 
+    let hljs = inject("hljs")
+
+    onUpdated(() => {
+      hljs.highlightAll();
+    });
+
+    let nativeTabName = computed(() => {
+      let vendor = store.currentIconDemo.$_icon.vendor;
+      return vendor === "B"
+        ? "Native Bootstrap"
+        : vendor === "Mdi"
+        ? "Native MDI"
+        : vendor === "FA"
+        ? "Native Font Awesome"
+        : "Native";
+    });
+
+    let getNativeString = () => {
+      let icon = store.currentIconDemo;
+      let { name, vendor } = icon.$_icon;
+      if (vendor === "B") {
+        return `<i class="bi bi-${toKebab(name)}"></i>`;
+      }
+    };
+
+    let getVueString = (code) => {
+      let icon = store.currentIconDemo;
+      let { name, vendor } = icon.$_icon;
+      if (code === "import") {
+        return `import { ${vendor}${name} } from "./vue-icons-${vendor}"`;
+      }
+      if (code === "component") {
+        return `<v-icon name="${toKebab(vendor + name)}" />`;
+      }
+      if (code === "component bind") {
+        return `<v-icon :name="${vendor + name}" />`;
+      }
+    };
+
     let handleClickClosebutton = () => {
-      emit("unselect-icon", store.currentIconDemo);
+      store.unselectIcon(store.currentIconDemo);
     };
 
     return {
@@ -249,8 +308,20 @@ export default {
       isDemoActive,
       isExtendedDemoActive,
       alertModel,
+      getNativeString,
+      getVueString,
+      nativeTabName,
       handleClickClosebutton,
     };
   },
 };
 </script>
+
+<style scoped>
+pre {
+  @apply whitespace-normal my-6;
+}
+pre code {
+  @apply whitespace-pre;
+}
+</style>

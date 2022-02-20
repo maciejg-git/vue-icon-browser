@@ -155,11 +155,8 @@ import IconsVendors from "./IconsVendors.vue";
 
 import {
   BBootstrapFill,
-  BLayoutTextSidebarReverse,
-  BLayoutThreeColumns,
   BMoon,
   BGear,
-  BList,
 } from "../icons/dist-bootstrap";
 import {
   MdiMaterialDesign,
@@ -199,26 +196,14 @@ export default {
       filter: useDebounce(filter, 200),
     });
 
-    // icon selection
-
-    let clearSelected = () => {
-      store.selectedIcons.forEach((i) => {
-        i.selected.value = false;
-      });
-      store.selectedIcons = [];
-    };
-
     return {
       filter,
       store,
       BBootstrapFill,
       MdiMaterialDesign,
       FaFontAwesomeFlagBrand,
-      BLayoutTextSidebarReverse,
-      BLayoutThreeColumns,
       BMoon,
       BGear,
-      BList,
       MdiSizeS,
       MdiSizeM,
       MdiSizeL,

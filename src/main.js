@@ -1,4 +1,4 @@
-import { createApp } from 'vue'
+import { createApp, provide } from 'vue'
 import App from './App.vue'
 import { plugin } from "vue-component-tailwind"
 import { createPinia } from 'pinia'
@@ -7,7 +7,16 @@ import "./styles.css"
 import "./styles-material.css"
 import "vue-component-tailwind/dist/style.css"
 
+import hljs from 'highlight.js/lib/core';
+import javascript from 'highlight.js/lib/languages/javascript';
+import 'highlight.js/styles/github.css';
+
+hljs.registerLanguage('javascript', javascript);
+hljs.registerLanguage('xml', javascript);
+
 let app = createApp(App)
+
+app.provide("hljs", hljs)
 
 app.use(plugin)
 

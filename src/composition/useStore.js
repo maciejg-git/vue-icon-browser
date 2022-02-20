@@ -36,6 +36,12 @@ export const useStore = defineStore('main', {
     }
   },
   actions: {
+    clearSelected() {
+      this.selectedIcons.forEach((i) => {
+        i.selected.value = false;
+      });
+      this.selectedIcons = [];
+    },
     unselectIcon(icon) {
       let index = this.selectedIcons.findIndex((i) => {
         return icon.$_icon.name === i.$_icon.name;

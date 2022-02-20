@@ -1,5 +1,6 @@
 import { ref, markRaw } from "vue";
 import { useStore } from "./composition/useStore";
+import { toKebab } from "./tools"
 
 let store = useStore();
 
@@ -26,14 +27,6 @@ export let generateTags = (icons) => {
     }
   }
   return Object.entries(tags);
-};
-
-let toKebab = (s) => {
-  return s
-    .replace(/([A-Z])([A-Z])/g, "$1-$2")
-    .replace(/([a-z])([A-Z])/g, "$1-$2")
-    .replace(/[\s_]+/g, "-")
-    .toLowerCase();
 };
 
 export let getIconName = function () {

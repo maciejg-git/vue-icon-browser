@@ -35,7 +35,7 @@
     focus:ring-4
     px-4
     py-2
-    bg-indigo-600
+    bg-indigo-500
     hover:bg-indigo-600
     focus:ring-indigo-200
     dark:focus:ring-indigo-300
@@ -541,8 +541,7 @@
 .input-rounded {
   @apply
     rounded-full
-    border
-    bg-white
+    border-0
     border-gray-300
     focus:outline-none
     focus:ring
@@ -551,6 +550,7 @@
     outline-none
     transition
     duration-200
+    bg-neutral-100
     dark:bg-neutral-700
     dark:border-neutral-500
     dark:text-neutral-300
