@@ -4,8 +4,7 @@
     class="flex items-center justify-between text-gray-200 px-4 py-2 shadow-none h-12 dark:bg-neutral-800"
   >
     <span class="text-white text-xl font-bold ml-2"> Vue-icons </span>
-
-    <icons-vendors></icons-vendors>
+    <icons-vendors />
   </v-navbar>
 
   <div class="flex mx-16 dark:bg-neutral-800">
@@ -32,13 +31,13 @@
           </v-button>
         </div>
 
-        <v-divider class="my-8 dark:border-neutral-700"></v-divider>
+        <v-divider class="my-8 dark:border-neutral-700" />
 
         <!-- toolbar -->
 
-        <icons-main-toolbar v-if="store.isAnyVendorLoaded"></icons-main-toolbar>
+        <icons-main-toolbar v-if="store.isAnyVendorLoaded" />
 
-        <!-- no icons loaded -->
+        <!-- no icons loaded message -->
 
         <div
           v-if="!store.isAnyVendorLoaded && !store.selectedIcons.length"
@@ -85,7 +84,7 @@
             <div v-if="store.bootstrap.active" class="px-2">
               <header>
                 <v-icon
-                  :name="BBootstrapFill"
+                  name="b-bootstrap-fill"
                   class="h-8 w-8 text-purple-500 mr-2"
                 ></v-icon>
                 Bootstrap Icons
@@ -98,7 +97,7 @@
             <div v-if="store.mdi.active" class="px-2">
               <header>
                 <v-icon
-                  :name="MdiMaterialDesign"
+                  name="mdi-material-design"
                   class="h-8 w-8 text-purple-500 mr-2"
                 ></v-icon>
                 Material Design Icons
@@ -109,7 +108,7 @@
             <div v-if="store.fontawesome.active" class="px-2">
               <header>
                 <v-icon
-                  :name="FaFontAwesomeFlagBrand"
+                  name="fa-font-awesome-flag-brand"
                   class="h-8 w-8 text-purple-500 mr-2"
                 ></v-icon>
                 Font Awesome Icons
@@ -122,9 +121,9 @@
 
           <!-- icons demo -->
 
-          <div class="mx-4 relative">
+          <div v-if="store.currentIconDemo" class="mx-2 relative">
             <div class="sticky top-20">
-              <icons-demo v-if="store.currentIconDemo" />
+              <icons-demo />
             </div>
           </div>
         </div>
@@ -153,19 +152,6 @@ import IconsDemo from "./IconsDemo.vue";
 import IconsMainSelected from "./IconsMainSelected.vue";
 import IconsVendors from "./IconsVendors.vue";
 
-import {
-  BBootstrapFill,
-  BMoon,
-  BGear,
-} from "../icons/dist-bootstrap";
-import {
-  MdiMaterialDesign,
-  MdiSizeS,
-  MdiSizeM,
-  MdiSizeL,
-} from "../icons/dist-mdi";
-import { FaFontAwesomeFlagBrand } from "../icons/dist-fontawesome";
-
 export default {
   components: {
     IconsVendorBootstrap: defineAsyncComponent({
@@ -192,21 +178,12 @@ export default {
     let filter = ref("");
 
     store.$patch({
-      size: "sm",
       filter: useDebounce(filter, 200),
     });
 
     return {
       filter,
       store,
-      BBootstrapFill,
-      MdiMaterialDesign,
-      FaFontAwesomeFlagBrand,
-      BMoon,
-      BGear,
-      MdiSizeS,
-      MdiSizeM,
-      MdiSizeL,
     };
   },
 };
@@ -218,14 +195,5 @@ svg {
 }
 header {
   @apply text-xl font-semibold flex items-center w-full my-6  mx-2 dark:text-neutral-300;
-}
-
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.2s ease;
-}
-.fade-enter-from,
-.fade-leave-to {
-  opacity: 0;
 }
 </style>

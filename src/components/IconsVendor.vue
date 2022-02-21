@@ -1,13 +1,19 @@
 <template>
   <div>
+
+    <!-- all icons filtered out message -->
+
     <div v-if="iconsFiltered.length === 0" class="flex">
       <span class="text-lg dark:text-gray-300">
         Nothing found for current filter.
       </span>
     </div>
+
+    <!-- icons -->
+
     <div @click="handleClickIcon($event)">
       <template v-for="(icon, index) in iconsFiltered">
-        <div class="icon-tile" :data-icon="icon.name" :data-index="index">
+        <div class="icon-tile" :data-index="index">
           <component
             :is="icon"
             class="text-gray-600 dark:text-gray-400"
@@ -19,11 +25,12 @@
         </div>
       </template>
     </div>
+
   </div>
 </template>
 
 <script>
-import { computed, inject } from "vue";
+import { computed } from "vue";
 import { useStore } from "../composition/useStore";
 import { generateTags } from "../icons.js";
 
@@ -87,10 +94,10 @@ export default {
     };
 
     return {
-      emit,
-      selectIcon,
-      iconsFiltered,
       store,
+      emit,
+      iconsFiltered,
+      selectIcon,
       iconSizeClasses,
       handleClickIcon,
     };

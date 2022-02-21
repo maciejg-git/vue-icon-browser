@@ -21,7 +21,7 @@ export const useStore = defineStore('main', {
         active: false,
         loading: false,
       },
-      size: null,
+      size: "sm",
       filter: "",
       dark: false,
       currentIconDemo: null,

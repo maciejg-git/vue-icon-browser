@@ -4,7 +4,6 @@
       <template v-for="(icon, index) in store.selectedIcons">
         <div
           class="icon-tile relative"
-          :data-icon="icon.name"
           :data-index="index"
           @mouseenter="handleMouseenterIcon(icon)"
           @mouseleave="handleMouseleaveIcon"

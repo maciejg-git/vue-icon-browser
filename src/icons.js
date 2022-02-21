@@ -9,7 +9,6 @@ export let loadIcons = (icons) => {
     markRaw(icons[icon]);
     icons[icon].selected = ref(false);
     icons[icon].getIconName = getIconName;
-    icons[icon].visible = ref(true);
   }
 
   let iconsArray = Object.values(icons);
