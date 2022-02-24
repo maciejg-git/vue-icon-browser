@@ -122,25 +122,25 @@
       <v-tab :name="nativeTabName">
         <div class="dark:text-gray-300 p-4">
           <pre>
-              <code class="text-sm p-1 w-min language-xml">{{ getNativeString() }}</code>
+              <code class="language-xml">{{ getNativeString() }}</code>
             </pre>
         </div>
       </v-tab>
       <v-tab name="Vue">
-        <div class="dark:text-gray-300 px-2 py-1">
+        <div class="px-2 py-1">
           <div>
             <pre>
-              <code class="text-sm p-1 w-min language-javascript">{{ getVueString("import") }}</code>
+              <code class="language-javascript">{{ getVueString("import") }}</code>
             </pre>
           </div>
           <div>
             <pre>
-              <code class="text-sm p-1 w-min language-xml">{{ getVueString("component") }}</code>
+              <code class="language-xml">{{ getVueString("component") }}</code>
             </pre>
           </div>
           <div>
             <pre>
-              <code class="text-sm p-1 w-min language-xml">{{ getVueString("component bind") }}</code>
+              <code class="language-xml">{{ getVueString("component bind") }}</code>
             </pre>
           </div>
         </div>
@@ -243,6 +243,6 @@ pre {
   @apply whitespace-normal my-2;
 }
 pre code {
-  @apply whitespace-pre;
+  @apply whitespace-pre text-sm p-1 w-min bg-neutral-100 dark:bg-neutral-700 rounded-md;
 }
 </style>

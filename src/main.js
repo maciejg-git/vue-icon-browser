@@ -14,10 +14,12 @@ import { FaFontAwesomeFlagBrand } from "./icons/dist-fontawesome";
 
 import hljs from 'highlight.js/lib/core';
 import javascript from 'highlight.js/lib/languages/javascript';
-import 'highlight.js/styles/github.css';
+import xml from 'highlight.js/lib/languages/xml';
+import './github.css';
+import './night-owl.css'
 
 hljs.registerLanguage('javascript', javascript);
-hljs.registerLanguage('xml', javascript);
+hljs.registerLanguage('xml', xml);
 
 let app = createApp(App)
 
