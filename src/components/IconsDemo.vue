@@ -120,25 +120,41 @@
 
     <v-tabs name="tabs-material">
       <v-tab :name="nativeTabName">
-        <div class="dark:text-gray-300 p-4">
+        <div class="code">
           <pre>
-              <code class="language-xml">{{ getNativeString() }}</code>
+              <code class="language-xml">{{ getUsageString('native') }}</code>
             </pre>
         </div>
       </v-tab>
       <v-tab name="Vue">
         <div class="px-2 py-1">
-          <div>
+          <div class="code flex my-1">
             <pre>
               <code class="language-javascript">{{ getVueString("import") }}</code>
             </pre>
+            <div class="flex items-center">
+            <v-button name="button-link" @click="copyTextToClipboard(getVueString('import'))">
+              <transition name="fade-icon" mode="out-in">
+              <v-icon
+                  v-if="!copied.vue"
+                  name="mdi-content-copy"
+                  class="text-gray-700 mr-2 dark:text-gray-300"
+                  ></v-icon>
+              <v-icon
+                  v-else
+                  name="mdi-check-bold"
+                  class="text-gray-700 mr-2 dark:text-gray-300"
+                  ></v-icon>
+              </transition>
+            </v-button>
           </div>
-          <div>
+          </div>
+          <div class="code flex my-1">
             <pre>
               <code class="language-xml">{{ getVueString("component") }}</code>
             </pre>
           </div>
-          <div>
+          <div class="code flex my-1">
             <pre>
               <code class="language-xml">{{ getVueString("component bind") }}</code>
             </pre>
@@ -163,7 +179,7 @@
 </template>
 
 <script>
-import { ref, computed, onUpdated, inject, onMounted } from "vue";
+import { ref, reactive, computed, onUpdated, inject, onMounted } from "vue";
 import IconsDemoExtended from "./IconsDemoExtended.vue";
 import { useStore } from "../composition/useStore";
 import { toKebab } from "../tools";
@@ -187,6 +203,27 @@ export default {
 
     onUpdated(() => hljs.highlightAll());
 
+    let copied = reactive({
+      native: false,
+      vue: false,
+    })
+
+    let scheduleRefUpdate = (ref, prop, t) => {
+      setTimeout(() => {
+        ref[prop] = false;
+      }, t);
+    };
+
+    let copyTextToClipboard = (text) => {
+      navigator.clipboard.writeText(text).then(
+        function () {
+          copied.vue = true;
+          scheduleRefUpdate(copied, 'vue', 1000);
+        },
+        function () {}
+      );
+    };
+
     let nativeTabName = computed(() => {
       let vendor = store.currentIconDemo.$_icon.vendor;
       return vendor === "B"
@@ -198,13 +235,16 @@ export default {
         : "Native";
     });
 
-    let getNativeString = () => {
+    let templates = {
+      native: `<i class="bi bi-%n}"></i>`,
+      vueImport: `import { %v%n } from "./vue-icons-%v"`
+    }
+
+    let getUsageString = (type) => {
       let icon = store.currentIconDemo;
       let { name, vendor } = icon.$_icon;
-      if (vendor === "B") {
-        return `<i class="bi bi-${toKebab(name)}"></i>`;
-      }
-    };
+      return templates[type].replace("%v", vendor).replace("%n", name)
+    }
 
     let getVueString = (code) => {
       let icon = store.currentIconDemo;
@@ -229,7 +269,9 @@ export default {
       isDemoActive,
       isExtendedDemoActive,
       alertModel,
-      getNativeString,
+      copied,
+      copyTextToClipboard,
+      getUsageString,
       getVueString,
       nativeTabName,
       handleClickClosebutton,
@@ -240,9 +282,12 @@ export default {
 
 <style scoped>
 pre {
-  @apply whitespace-normal my-2;
+  @apply whitespace-normal;
 }
 pre code {
-  @apply whitespace-pre text-sm p-1 w-min bg-neutral-100 dark:bg-neutral-700 rounded-md;
+  @apply whitespace-pre;
+}
+.code {
+  @apply text-sm w-min bg-neutral-100 dark:bg-neutral-700 rounded-md
 }
 </style>

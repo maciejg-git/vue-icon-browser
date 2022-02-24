@@ -11,6 +11,7 @@ import { registerIcon } from "./vue"
 import { BBootstrapFill } from "./icons/dist-bootstrap";
 import { MdiMaterialDesign } from "./icons/dist-mdi";
 import { FaFontAwesomeFlagBrand } from "./icons/dist-fontawesome";
+import { MdiContentCopy, MdiCheckBold } from "./icons/dist-mdi"
 
 import hljs from 'highlight.js/lib/core';
 import javascript from 'highlight.js/lib/languages/javascript';
@@ -27,6 +28,8 @@ registerIcon(app, [
   BBootstrapFill,
   MdiMaterialDesign,
   FaFontAwesomeFlagBrand,
+  MdiContentCopy,
+  MdiCheckBold,
 ])
 
 app.provide("hljs", hljs)
