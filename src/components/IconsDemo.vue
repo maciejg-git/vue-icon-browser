@@ -120,45 +120,13 @@
 
     <v-tabs name="tabs-material">
       <v-tab :name="nativeTabName">
-        <div class="code">
-          <pre>
-              <code class="language-xml">{{ getUsageString('native') }}</code>
-            </pre>
-        </div>
+        <icons-code :code="usageStringsBootstrap.native.usage" language="xml"></icons-code>
       </v-tab>
       <v-tab name="Vue">
         <div class="px-2 py-1">
-          <div class="code flex my-1">
-            <pre>
-              <code class="language-javascript">{{ getVueString("import") }}</code>
-            </pre>
-            <div class="flex items-center">
-            <v-button name="button-link" @click="copyTextToClipboard(getVueString('import'))">
-              <transition name="fade-icon" mode="out-in">
-              <v-icon
-                  v-if="!copied.vue"
-                  name="mdi-content-copy"
-                  class="text-gray-700 mr-2 dark:text-gray-300"
-                  ></v-icon>
-              <v-icon
-                  v-else
-                  name="mdi-check-bold"
-                  class="text-gray-700 mr-2 dark:text-gray-300"
-                  ></v-icon>
-              </transition>
-            </v-button>
-          </div>
-          </div>
-          <div class="code flex my-1">
-            <pre>
-              <code class="language-xml">{{ getVueString("component") }}</code>
-            </pre>
-          </div>
-          <div class="code flex my-1">
-            <pre>
-              <code class="language-xml">{{ getVueString("component bind") }}</code>
-            </pre>
-          </div>
+          <icons-code :code="usageStringsBootstrap.vue.import" language="javascript"></icons-code>
+          <icons-code :code="usageStringsBootstrap.vue.usage" language="xml"></icons-code>
+          <icons-code :code="usageStringsBootstrap.vue.usageComponent" language="xml"></icons-code>
         </div>
       </v-tab>
       <v-tab name="SVG"> </v-tab>
@@ -182,11 +150,14 @@
 import { ref, reactive, computed, onUpdated, inject, onMounted } from "vue";
 import IconsDemoExtended from "./IconsDemoExtended.vue";
 import { useStore } from "../composition/useStore";
-import { toKebab } from "../tools";
+import { toKebab, copyTextToClipboard } from "../tools";
+import { templates } from "../const"
+import IconsCode from "./IconsCode.vue"
 
 export default {
   components: {
     IconsDemoExtended,
+    IconsCode,
   },
   setup(props) {
     let store = useStore();
@@ -203,26 +174,6 @@ export default {
 
     onUpdated(() => hljs.highlightAll());
 
-    let copied = reactive({
-      native: false,
-      vue: false,
-    })
-
-    let scheduleRefUpdate = (ref, prop, t) => {
-      setTimeout(() => {
-        ref[prop] = false;
-      }, t);
-    };
-
-    let copyTextToClipboard = (text) => {
-      navigator.clipboard.writeText(text).then(
-        function () {
-          copied.vue = true;
-          scheduleRefUpdate(copied, 'vue', 1000);
-        },
-        function () {}
-      );
-    };
 
     let nativeTabName = computed(() => {
       let vendor = store.currentIconDemo.$_icon.vendor;
@@ -235,30 +186,29 @@ export default {
         : "Native";
     });
 
-    let templates = {
-      native: `<i class="bi bi-%n}"></i>`,
-      vueImport: `import { %v%n } from "./vue-icons-%v"`
-    }
-
-    let getUsageString = (type) => {
+    let getUsageString = (type, usage) => {
       let icon = store.currentIconDemo;
       let { name, vendor } = icon.$_icon;
-      return templates[type].replace("%v", vendor).replace("%n", name)
+      return templates[vendor][type][usage].replace(/%v/g, vendor).replace(/%kv/g, toKebab(vendor)).replace(/%n/g, name).replace(/%kn/g, toKebab(name))
     }
 
-    let getVueString = (code) => {
+    let usageStringsBootstrap = computed(() => {
       let icon = store.currentIconDemo;
-      let { name, vendor } = icon.$_icon;
-      if (code === "import") {
-        return `import { ${vendor}${name} } from "./vue-icons-${vendor}"`;
+      let { vendor } = icon.$_icon;
+      if (vendor === "B") {
+        return {
+          native: {
+            usage: getUsageString("native", "usage")
+          },
+          vue: {
+            import: getUsageString("vue", "import"),
+            usage: getUsageString("vue", "usage"),
+            usageComponent: getUsageString("vue", "usageComponent"),
+          }
+        }
       }
-      if (code === "component") {
-        return `<v-icon name="${toKebab(vendor + name)}" />`;
-      }
-      if (code === "component bind") {
-        return `<v-icon :name="${vendor + name}" />`;
-      }
-    };
+
+    })
 
     let handleClickClosebutton = () => {
       store.unselectIcon(store.currentIconDemo);
@@ -269,10 +219,9 @@ export default {
       isDemoActive,
       isExtendedDemoActive,
       alertModel,
-      copied,
       copyTextToClipboard,
       getUsageString,
-      getVueString,
+      usageStringsBootstrap,
       nativeTabName,
       handleClickClosebutton,
     };
@@ -281,13 +230,4 @@ export default {
 </script>
 
 <style scoped>
-pre {
-  @apply whitespace-normal;
-}
-pre code {
-  @apply whitespace-pre;
-}
-.code {
-  @apply text-sm w-min bg-neutral-100 dark:bg-neutral-700 rounded-md
-}
 </style>

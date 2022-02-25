@@ -6,3 +6,19 @@ export let toKebab = (s) => {
     .toLowerCase();
 };
 
+export let scheduleRefUpdate = (ref, prop, t) => {
+  setTimeout(() => {
+    ref[prop] = false;
+  }, t);
+};
+
+export let copyTextToClipboard = (text, ref) => {
+  navigator.clipboard.writeText(text).then(
+    function () {
+      ref.value = true;
+      scheduleRefUpdate(ref, "value", 1000);
+    },
+    function () {}
+  );
+};
+
