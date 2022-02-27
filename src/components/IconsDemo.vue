@@ -119,10 +119,9 @@
     <!-- links -->
 
     <v-tabs name="tabs-material">
-
       <v-tab :name="nativeTabName">
         <icons-code
-            v-for="usage in usageStrings.native"
+          v-for="usage in usageStrings.native"
           :code="usage.s"
           :language="usage.lang"
         ></icons-code>
@@ -159,7 +158,7 @@ import { ref, reactive, computed, onUpdated, inject, onMounted } from "vue";
 import IconsDemoExtended from "./IconsDemoExtended.vue";
 import { useStore } from "../composition/useStore";
 import { toKebab, copyTextToClipboard } from "../tools";
-import { templates, vendorsString } from "../const";
+import { templates } from "../const";
 import IconsCode from "./IconsCode.vue";
 
 export default {
@@ -193,7 +192,7 @@ export default {
         : "Native";
     });
 
-    let getUsageString = (type, usage) => {
+    let getString = (type, usage) => {
       let icon = store.currentIconDemo;
       let { name, vendor } = icon.$_icon;
       return templates[vendor][type][usage].s
@@ -206,13 +205,13 @@ export default {
     let usageStrings = computed(() => {
       let icon = store.currentIconDemo;
       let { vendor } = icon.$_icon;
-      let s = JSON.parse(JSON.stringify(templates[vendor]))
+      let s = JSON.parse(JSON.stringify(templates[vendor]));
       for (let tab in s) {
         for (let type in s[tab]) {
-          s[tab][type].s = getUsageString(tab, type) 
+          s[tab][type].s = getString(tab, type);
         }
       }
-      return s
+      return s;
     });
 
     let handleClickClosebutton = () => {
@@ -225,7 +224,6 @@ export default {
       isExtendedDemoActive,
       alertModel,
       copyTextToClipboard,
-      getUsageString,
       usageStrings,
       nativeTabName,
       handleClickClosebutton,

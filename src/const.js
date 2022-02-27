@@ -23,21 +23,24 @@ export let templates = {
   },
   Mdi: {
     native: {
-      import: `import { mdi%n} from '@mdi/js'`
+      import: {
+        s: `import { mdi%n} from '@mdi/js'`,
+        lang: "javascript",
+      }
     },
     vue: {
-      import: `import { %v%n } from "./vue-icons-%v"`,
-      usage: `<v-icon name="%kv-%kn" />`,
-      usageComponent: `<v-icon :name="%v%n" />`,
+      import: {
+        s:`import { %v%n } from "./vue-icons-%v"`,
+        lang: "javascript",
+      },
+      usage: {
+        s: `<v-icon name="%kv-%kn" />`,
+        lang: "xml",
+      },
+      usageComponent: {
+        s:`<v-icon :name="%v%n" />`,
+        lang: "xml",
+      }
     }
   }
-}
-
-export let vendorsString = {
-  B: [
-    ["native", "usage"],
-    ["vue", "import"],
-    ["vue", "usage"],
-    ["vue", "usageComponent"],
-  ]
 }
