@@ -119,14 +119,30 @@
     <!-- links -->
 
     <v-tabs name="tabs-material">
+
       <v-tab :name="nativeTabName">
-        <icons-code :code="usageStringsBootstrap.native.usage" language="xml"></icons-code>
+        <icons-code
+          :code="usageStrings.native.usage"
+          language="xml"
+        ></icons-code>
       </v-tab>
+
       <v-tab name="Vue">
         <div class="px-2 py-1">
-          <icons-code :code="usageStringsBootstrap.vue.import" language="javascript"></icons-code>
-          <icons-code :code="usageStringsBootstrap.vue.usage" language="xml"></icons-code>
-          <icons-code :code="usageStringsBootstrap.vue.usageComponent" language="xml"></icons-code>
+          <icons-code
+            :code="usageStrings.vue.import"
+            language="javascript"
+          ></icons-code>
+          <div class="my-3">
+            <icons-code
+              :code="usageStrings.vue.usage"
+              language="xml"
+            ></icons-code>
+            <icons-code
+              :code="usageStrings.vue.usageComponent"
+              language="xml"
+            ></icons-code>
+          </div>
         </div>
       </v-tab>
       <v-tab name="SVG"> </v-tab>
@@ -151,8 +167,8 @@ import { ref, reactive, computed, onUpdated, inject, onMounted } from "vue";
 import IconsDemoExtended from "./IconsDemoExtended.vue";
 import { useStore } from "../composition/useStore";
 import { toKebab, copyTextToClipboard } from "../tools";
-import { templates } from "../const"
-import IconsCode from "./IconsCode.vue"
+import { templates } from "../const";
+import IconsCode from "./IconsCode.vue";
 
 export default {
   components: {
@@ -174,7 +190,6 @@ export default {
 
     onUpdated(() => hljs.highlightAll());
 
-
     let nativeTabName = computed(() => {
       let vendor = store.currentIconDemo.$_icon.vendor;
       return vendor === "B"
@@ -189,26 +204,29 @@ export default {
     let getUsageString = (type, usage) => {
       let icon = store.currentIconDemo;
       let { name, vendor } = icon.$_icon;
-      return templates[vendor][type][usage].replace(/%v/g, vendor).replace(/%kv/g, toKebab(vendor)).replace(/%n/g, name).replace(/%kn/g, toKebab(name))
-    }
+      return templates[vendor][type][usage]
+        .replace(/%v/g, vendor)
+        .replace(/%kv/g, toKebab(vendor))
+        .replace(/%n/g, name)
+        .replace(/%kn/g, toKebab(name));
+    };
 
-    let usageStringsBootstrap = computed(() => {
+    let usageStrings = computed(() => {
       let icon = store.currentIconDemo;
       let { vendor } = icon.$_icon;
       if (vendor === "B") {
         return {
           native: {
-            usage: getUsageString("native", "usage")
+            usage: getUsageString("native", "usage"),
           },
           vue: {
             import: getUsageString("vue", "import"),
             usage: getUsageString("vue", "usage"),
             usageComponent: getUsageString("vue", "usageComponent"),
-          }
-        }
+          },
+        };
       }
-
-    })
+    });
 
     let handleClickClosebutton = () => {
       store.unselectIcon(store.currentIconDemo);
@@ -221,7 +239,7 @@ export default {
       alertModel,
       copyTextToClipboard,
       getUsageString,
-      usageStringsBootstrap,
+      usageStrings,
       nativeTabName,
       handleClickClosebutton,
     };
@@ -229,5 +247,4 @@ export default {
 };
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

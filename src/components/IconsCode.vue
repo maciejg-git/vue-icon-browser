@@ -1,5 +1,5 @@
 <template>
-  <div class="code flex my-2">
+  <div class="code flex my-3">
     <pre>
       <code :class="'language-' + language">{{ code }}</code>
     </pre>
