@@ -1,12 +1,24 @@
 export let templates = {
   B: {
     native: {
-      usage: `<i class="bi bi-%kn"></i>`,
+      usage: {
+        s: `<i class="bi bi-%kn"></i>`,
+        lang: "xml",
+      }
     },
     vue: {
-      import: `import { %v%n } from "./vue-icons-%v"`,
-      usage: `<v-icon name="%kv-%kn" />`,
-      usageComponent: `<v-icon :name="%v%n" />`,
+      import: {
+        s: `import { %v%n } from "./vue-icons-%v"`,
+        lang: "javascript",
+      },
+      usage: {
+        s: `<v-icon name="%kv-%kn" />`,
+        lang: "xml",
+      },
+      usageComponent: {
+        s:`<v-icon :name="%v%n" />`,
+        lang: "xml",
+      }
     }
   },
   Mdi: {
@@ -21,7 +33,7 @@ export let templates = {
   }
 }
 
-let vendorsString = {
+export let vendorsString = {
   B: [
     ["native", "usage"],
     ["vue", "import"],

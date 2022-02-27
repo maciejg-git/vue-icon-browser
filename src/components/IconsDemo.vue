@@ -122,27 +122,19 @@
 
       <v-tab :name="nativeTabName">
         <icons-code
-          :code="usageStrings.native.usage"
-          language="xml"
+            v-for="usage in usageStrings.native"
+          :code="usage.s"
+          :language="usage.lang"
         ></icons-code>
       </v-tab>
 
       <v-tab name="Vue">
         <div class="px-2 py-1">
           <icons-code
-            :code="usageStrings.vue.import"
-            language="javascript"
+            v-for="usage in usageStrings.vue"
+            :code="usage.s"
+            :language="usage.lang"
           ></icons-code>
-          <div class="my-3">
-            <icons-code
-              :code="usageStrings.vue.usage"
-              language="xml"
-            ></icons-code>
-            <icons-code
-              :code="usageStrings.vue.usageComponent"
-              language="xml"
-            ></icons-code>
-          </div>
         </div>
       </v-tab>
       <v-tab name="SVG"> </v-tab>
@@ -167,7 +159,7 @@ import { ref, reactive, computed, onUpdated, inject, onMounted } from "vue";
 import IconsDemoExtended from "./IconsDemoExtended.vue";
 import { useStore } from "../composition/useStore";
 import { toKebab, copyTextToClipboard } from "../tools";
-import { templates } from "../const";
+import { templates, vendorsString } from "../const";
 import IconsCode from "./IconsCode.vue";
 
 export default {
@@ -204,7 +196,7 @@ export default {
     let getUsageString = (type, usage) => {
       let icon = store.currentIconDemo;
       let { name, vendor } = icon.$_icon;
-      return templates[vendor][type][usage]
+      return templates[vendor][type][usage].s
         .replace(/%v/g, vendor)
         .replace(/%kv/g, toKebab(vendor))
         .replace(/%n/g, name)
@@ -214,18 +206,13 @@ export default {
     let usageStrings = computed(() => {
       let icon = store.currentIconDemo;
       let { vendor } = icon.$_icon;
-      if (vendor === "B") {
-        return {
-          native: {
-            usage: getUsageString("native", "usage"),
-          },
-          vue: {
-            import: getUsageString("vue", "import"),
-            usage: getUsageString("vue", "usage"),
-            usageComponent: getUsageString("vue", "usageComponent"),
-          },
-        };
+      let s = JSON.parse(JSON.stringify(templates[vendor]))
+      for (let tab in s) {
+        for (let type in s[tab]) {
+          s[tab][type].s = getUsageString(tab, type) 
+        }
       }
+      return s
     });
 
     let handleClickClosebutton = () => {
