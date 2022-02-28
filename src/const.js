@@ -44,3 +44,9 @@ export let templates = {
     }
   }
 }
+
+export let urls = {
+  B: {
+    SVG: "https://raw.githubusercontent.com/twbs/icons/main/icons/"
+  }
+}

@@ -4,12 +4,12 @@
   >
     <template v-for="vendor in store.vendors" :key="vendor">
       <div class="px-2 py-0.5 mx-0.5"
-           :class="{'border-b-2 border-gray-200 dark:border-purple-500': store[vendor].active}">
+           :class="{'border-b-2 border-gray-200 dark:border-purple-500': store[vendor].active && !store[vendor].loading}">
         <v-button
           name="button-link" 
           @click="toggleVendor(vendor)"
         >
-          <v-spinner v-if="store[vendor].loading" style-spinner="secondary" />
+          <v-spinner v-if="store[vendor].loading" style-spinner="secondary small" />
           <v-icon
             v-if="!store[vendor].loading"
             :name="icons[vendor]"

@@ -1,5 +1,5 @@
 <template>
-  <div class="overflow-y-auto mt-6 px-1" style="max-height: calc(100vh - 5em)">
+  <div class="overflow-y-auto mt-6 px-1 min-w-[500px]" style="max-height: calc(100vh - 5em)">
     <!-- buttons -->
 
     <div class="flex items-end gap-x-5">
@@ -22,24 +22,7 @@
         Button
         <v-icon :name="store.currentIconDemo" class="h-5 w-5 ml-2"></v-icon>
       </v-button>
-      <v-button style-button="red small">
-        <v-icon :name="store.currentIconDemo" class="h-4 w-4 mr-2"></v-icon>
-        Button
-      </v-button>
-      <v-button style-button="blue tiny">
-        <v-icon :name="store.currentIconDemo" class="h-4 w-4 mr-2"></v-icon>
-        Button
-      </v-button>
-    </div>
-
-    <div class="flex items-center gap-x-5 my-5">
-      <v-button style-button="circle">
-        <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
-      </v-button>
-      <v-button style-button="equal secondary">
-        <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
-      </v-button>
-      <v-button style-button="pill red">
+      <v-button style-button="pill small red">
         <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
         Button
       </v-button>
@@ -49,9 +32,13 @@
       </v-button>
     </div>
 
-    <!-- small icons colors -->
-
-    <div class="flex items-center gap-10 my-5">
+    <div class="flex items-center gap-x-5 my-6">
+      <v-button style-button="circle">
+        <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
+      </v-button>
+      <v-button style-button="equal secondary">
+        <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
+      </v-button>
       <v-icon
         :name="store.currentIconDemo"
         class="h-6 w-6 text-blue-400 dark:text-blue-400"
@@ -72,7 +59,7 @@
 
     <!-- input -->
 
-    <div class="flex items-center gap-5 my-5">
+    <div class="flex items-center gap-5 my-6">
       <div class="relative flex items-center">
         <v-icon
           :name="store.currentIconDemo"
@@ -84,7 +71,7 @@
 
     <!-- link -->
 
-    <div class="flex items-center gap-10 my-4">
+    <div class="flex items-center gap-10 my-5">
       <a href="" class="flex items-center text-blue-400 dark:text-blue-400">
         <v-icon class="mr-1" :name="store.currentIconDemo"></v-icon>
         <span class="underline">Link</span>
@@ -93,7 +80,7 @@
 
     <!-- text -->
 
-    <div class="flex justify-between items-end my-5">
+    <div class="flex justify-between items-end my-6">
       <div>
         <h1
           class="flex items-center text-3xl text-gray-600 dark:text-gray-400 gap-x-2 my-1"
@@ -136,7 +123,14 @@
           ></icons-code>
         </div>
       </v-tab>
-      <v-tab name="SVG"> </v-tab>
+      <v-tab name="SVG"> 
+        <div class="px-2 py-1">
+          <icons-code
+            :code="SVGstring"
+            language="xml"
+          ></icons-code>
+        </div>
+      </v-tab>
     </v-tabs>
   </div>
 
@@ -158,7 +152,7 @@ import { ref, reactive, computed, onUpdated, inject, onMounted } from "vue";
 import IconsDemoExtended from "./IconsDemoExtended.vue";
 import { useStore } from "../composition/useStore";
 import { toKebab, copyTextToClipboard } from "../tools";
-import { templates } from "../const";
+import { templates, urls } from "../const";
 import IconsCode from "./IconsCode.vue";
 
 export default {
@@ -176,6 +170,8 @@ export default {
     let alertModel = ref(true);
 
     let hljs = inject("hljs");
+
+    let SVGstring = ref("")
 
     onMounted(() => hljs.highlightAll());
 
@@ -211,8 +207,17 @@ export default {
           s[tab][type].s = getString(tab, type);
         }
       }
+      getSVGstring()
       return s;
     });
+
+    let getSVGstring = async () => {
+      let icon = store.currentIconDemo;
+      let { name, vendor } = icon.$_icon;
+      let res = await fetch(urls[vendor].SVG + toKebab(name) + ".svg" )
+      res = await res.text()
+      SVGstring.value = res
+    }
 
     let handleClickClosebutton = () => {
       store.unselectIcon(store.currentIconDemo);
@@ -225,6 +230,8 @@ export default {
       alertModel,
       copyTextToClipboard,
       usageStrings,
+      getSVGstring,
+      SVGstring,
       nativeTabName,
       handleClickClosebutton,
     };
