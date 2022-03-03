@@ -107,15 +107,17 @@
 
     <v-tabs name="tabs-material">
       <v-tab :name="nativeTabName">
-        <icons-code
-          v-for="usage in usageStrings.native"
-          :code="usage.s"
-          :language="usage.lang"
-        ></icons-code>
+        <div class="py-2">
+          <icons-code
+            v-for="usage in usageStrings.native"
+            :code="usage.s"
+            :language="usage.lang"
+          ></icons-code>
+        </div>
       </v-tab>
 
       <v-tab name="Vue">
-        <div class="px-2 py-1">
+        <div class="py-2">
           <icons-code
             v-for="usage in usageStrings.vue"
             :code="usage.s"
