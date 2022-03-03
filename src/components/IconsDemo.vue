@@ -177,15 +177,15 @@ export default {
 
     onUpdated(() => hljs.highlightAll());
 
+    let tabNames = {
+      B: "Native Bootstrap",
+      Mdi: "Native MDI",
+      FA: "Native Font Awesome",
+    }
+
     let nativeTabName = computed(() => {
       let vendor = store.currentIconDemo.$_icon.vendor;
-      return vendor === "B"
-        ? "Native Bootstrap"
-        : vendor === "Mdi"
-        ? "Native MDI"
-        : vendor === "FA"
-        ? "Native Font Awesome"
-        : "Native";
+      return tabNames[vendor];
     });
 
     let getString = (type, usage) => {
