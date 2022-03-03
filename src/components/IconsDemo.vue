@@ -1,5 +1,8 @@
 <template>
-  <div class="overflow-y-auto mt-6 px-1 min-w-[500px]" style="max-height: calc(100vh - 5em)">
+  <div
+    class="overflow-y-auto mt-6 px-1 min-w-[500px]"
+    style="max-height: calc(100vh - 5em)"
+  >
     <!-- buttons -->
 
     <div class="flex items-end gap-x-5">
@@ -107,7 +110,7 @@
 
     <v-tabs name="tabs-material">
       <v-tab :name="nativeTabName">
-        <div class="py-2">
+        <div class="py-1 flex flex-col items-start">
           <icons-code
             v-for="usage in usageStrings.native"
             :code="usage.s"
@@ -117,7 +120,7 @@
       </v-tab>
 
       <v-tab name="Vue">
-        <div class="py-2">
+        <div class="py-1 flex flex-col items-start">
           <icons-code
             v-for="usage in usageStrings.vue"
             :code="usage.s"
@@ -125,12 +128,9 @@
           ></icons-code>
         </div>
       </v-tab>
-      <v-tab name="SVG"> 
-        <div class="px-2 py-1">
-          <icons-code
-            :code="SVGstring"
-            language="xml"
-          ></icons-code>
+      <v-tab name="SVG">
+        <div class="py-1" style="max-width: 480px">
+          <icons-code :code="SVGstring" language="xml"></icons-code>
         </div>
       </v-tab>
     </v-tabs>
@@ -150,7 +150,7 @@
 </template>
 
 <script>
-import { ref, reactive, computed, onUpdated, inject, onMounted } from "vue";
+import { ref, computed, watch } from "vue";
 import IconsDemoExtended from "./IconsDemoExtended.vue";
 import { useStore } from "../composition/useStore";
 import { toKebab, copyTextToClipboard } from "../tools";
@@ -162,7 +162,7 @@ export default {
     IconsDemoExtended,
     IconsCode,
   },
-  setup(props) {
+  setup() {
     let store = useStore();
 
     let isDemoActive = ref(false);
@@ -171,19 +171,27 @@ export default {
 
     let alertModel = ref(true);
 
-    let hljs = inject("hljs");
+    let SVGstring = ref("");
 
-    let SVGstring = ref("")
+    let getSVGstring = async () => {
+      let icon = store.currentIconDemo;
+      let { name, vendor } = icon.$_icon;
+      let res = await fetch(urls[vendor].SVG + toKebab(name) + ".svg");
+      res = await res.text();
+      SVGstring.value = res;
+    };
 
-    onMounted(() => hljs.highlightAll());
-
-    onUpdated(() => hljs.highlightAll());
+    watch(
+      () => store.currentIconDemo,
+      () => getSVGstring(),
+      { immediate: true }
+    );
 
     let tabNames = {
       B: "Native Bootstrap",
       Mdi: "Native MDI",
       FA: "Native Font Awesome",
-    }
+    };
 
     let nativeTabName = computed(() => {
       let vendor = store.currentIconDemo.$_icon.vendor;
@@ -209,17 +217,8 @@ export default {
           s[tab][type].s = getString(tab, type);
         }
       }
-      getSVGstring()
       return s;
     });
-
-    let getSVGstring = async () => {
-      let icon = store.currentIconDemo;
-      let { name, vendor } = icon.$_icon;
-      let res = await fetch(urls[vendor].SVG + toKebab(name) + ".svg" )
-      res = await res.text()
-      SVGstring.value = res
-    }
 
     let handleClickClosebutton = () => {
       store.unselectIcon(store.currentIconDemo);

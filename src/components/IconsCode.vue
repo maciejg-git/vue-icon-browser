@@ -1,7 +1,7 @@
 <template>
   <div class="code flex my-3">
-    <pre>
-      <code :class="'language-' + language">{{ code }}</code>
+    <pre class="overflow-x-hidden">
+      <code ref="codeEl" :class="'language-' + language">{{ code }}</code>
     </pre>
     <div class="flex items-center">
       <v-button
@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import { ref } from "vue";
+import { ref, watch, inject } from "vue";
 import { copyTextToClipboard } from "../tools";
 
 export default {
@@ -35,8 +35,18 @@ export default {
     code: { type: String, default: "" },
     language: { type: String, default: "" },
   },
-  setup() {
+  setup(props) {
+    let hljs = inject("hljs");
+
     let copied = ref(false);
+
+    let codeEl = ref(null);
+
+    watch(
+      [codeEl, () => props.code],
+      () => hljs.highlightElement(codeEl.value),
+      { flush: "post" }
+    );
 
     let handleClickCopy = (text) => {
       copyTextToClipboard(text, copied);
@@ -44,6 +54,7 @@ export default {
 
     return {
       copied,
+      codeEl,
       handleClickCopy,
     };
   },
@@ -55,9 +66,18 @@ pre {
   @apply whitespace-normal;
 }
 pre code {
-  @apply whitespace-pre;
+  @apply whitespace-pre overflow-x-hidden;
 }
 .code {
-  @apply text-sm w-min bg-neutral-100 dark:bg-neutral-700 rounded-md;
+  @apply text-sm bg-neutral-100 dark:bg-neutral-700 rounded-md;
 }
+code .hljs::-webkit-scrollbar {
+  width: 0.5em;
+}
+code .hljs::-webkit-scrollbar-track {
+}
+code .hljs::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
+
 </style>
