@@ -1,6 +1,6 @@
 <template>
   <div
-    class="overflow-y-auto mt-6 px-1 min-w-[500px]"
+    class="overflow-y-auto mt-6 px-1 min-w-[500px] max-w-[500px]"
     style="max-height: calc(100vh - 5em)"
   >
     <!-- buttons -->
@@ -110,7 +110,7 @@
 
     <v-tabs name="tabs-material">
       <v-tab :name="nativeTabName">
-        <div class="py-1 flex flex-col items-start">
+        <div class="py-1">
           <icons-code
             v-for="usage in usageStrings.native"
             :code="usage.s"
@@ -120,7 +120,7 @@
       </v-tab>
 
       <v-tab name="Vue">
-        <div class="py-1 flex flex-col items-start">
+        <div class="py-1">
           <icons-code
             v-for="usage in usageStrings.vue"
             :code="usage.s"
@@ -129,7 +129,7 @@
         </div>
       </v-tab>
       <v-tab name="SVG">
-        <div class="py-1" style="max-width: 480px">
+        <div class="py-1">
           <icons-code :code="SVGstring" language="xml"></icons-code>
         </div>
       </v-tab>
@@ -153,7 +153,7 @@
 import { ref, computed, watch } from "vue";
 import IconsDemoExtended from "./IconsDemoExtended.vue";
 import { useStore } from "../composition/useStore";
-import { toKebab, copyTextToClipboard } from "../tools";
+import { toKebab } from "../tools";
 import { templates, urls } from "../const";
 import IconsCode from "./IconsCode.vue";
 
@@ -165,27 +165,7 @@ export default {
   setup() {
     let store = useStore();
 
-    let isDemoActive = ref(false);
-
     let isExtendedDemoActive = ref(false);
-
-    let alertModel = ref(true);
-
-    let SVGstring = ref("");
-
-    let getSVGstring = async () => {
-      let icon = store.currentIconDemo;
-      let { name, vendor } = icon.$_icon;
-      let res = await fetch(urls[vendor].SVG + toKebab(name) + ".svg");
-      res = await res.text();
-      SVGstring.value = res;
-    };
-
-    watch(
-      () => store.currentIconDemo,
-      () => getSVGstring(),
-      { immediate: true }
-    );
 
     let tabNames = {
       B: "Native Bootstrap",
@@ -197,6 +177,23 @@ export default {
       let vendor = store.currentIconDemo.$_icon.vendor;
       return tabNames[vendor];
     });
+
+    let SVGstring = ref("");
+
+    let getSVGstring = async () => {
+      let icon = store.currentIconDemo;
+      let { name, vendor, tags } = icon.$_icon;
+      name = tags.join("-")
+      let res = await fetch(urls[vendor].SVG + name + ".svg");
+      res = await res.text();
+      SVGstring.value = res;
+    };
+
+    watch(
+      () => store.currentIconDemo,
+      () => getSVGstring(),
+      { immediate: true }
+    );
 
     let getString = (type, usage) => {
       let icon = store.currentIconDemo;
@@ -226,12 +223,8 @@ export default {
 
     return {
       store,
-      isDemoActive,
       isExtendedDemoActive,
-      alertModel,
-      copyTextToClipboard,
       usageStrings,
-      getSVGstring,
       SVGstring,
       nativeTabName,
       handleClickClosebutton,

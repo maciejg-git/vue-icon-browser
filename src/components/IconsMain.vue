@@ -194,6 +194,6 @@ svg {
   pointer-events: none;
 }
 header {
-  @apply text-xl font-semibold flex items-center w-full my-6  mx-2 dark:text-neutral-300;
+  @apply text-xl font-semibold flex items-center w-full my-6 mx-2 dark:text-neutral-300;
 }
 </style>

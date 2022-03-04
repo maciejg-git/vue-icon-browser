@@ -1,5 +1,5 @@
 <template>
-  <div class="code flex my-3">
+  <div class="code my-3">
     <pre class="overflow-x-hidden">
       <code ref="codeEl" :class="'language-' + language">{{ code }}</code>
     </pre>
@@ -48,9 +48,7 @@ export default {
       { flush: "post" }
     );
 
-    let handleClickCopy = (text) => {
-      copyTextToClipboard(text, copied);
-    };
+    let handleClickCopy = (text) => copyTextToClipboard(text, copied);
 
     return {
       copied,
@@ -65,19 +63,10 @@ export default {
 pre {
   @apply whitespace-normal;
 }
-pre code {
-  @apply whitespace-pre overflow-x-hidden;
+pre code.hljs {
+  @apply whitespace-pre overflow-x-hidden mr-4 !important;
 }
 .code {
-  @apply text-sm bg-neutral-100 dark:bg-neutral-700 rounded-md;
+  @apply inline-grid grid-flow-col text-sm bg-neutral-50 dark:bg-neutral-700 rounded-md;
 }
-code .hljs::-webkit-scrollbar {
-  width: 0.5em;
-}
-code .hljs::-webkit-scrollbar-track {
-}
-code .hljs::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-}
-
 </style>

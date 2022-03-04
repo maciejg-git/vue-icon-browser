@@ -48,5 +48,8 @@ export let templates = {
 export let urls = {
   B: {
     SVG: "https://raw.githubusercontent.com/twbs/icons/main/icons/"
+  },
+  Mdi: {
+    SVG: "https://raw.githubusercontent.com/Templarian/MaterialDesign/master/svg/"
   }
 }

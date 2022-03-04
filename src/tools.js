@@ -1,9 +1,11 @@
-export let toKebab = (s) =>
-    s &&
-    s
-      .match(/[A-Z]{2,}(?=[0-9]*[A-Z][a-z]+|\b)|[0-9]*[A-Z]?[a-z]+|[A-Z]|[0-9]+/g)
-      .map(x => x.toLowerCase())
-      .join('-');
+export let toKebab = (s) => {
+  return s
+    .replace(
+      /([^\p{L}\d]+|(?<=\p{L})(?=\d)|(?<=\d)(?=\p{L})|(?<=[\p{Ll}\d])(?=\p{Lu})|(?<=\p{Lu})(?=\p{Lu}\p{Ll})|(?<=[\p{L}\d])(?=\p{Lu}\p{Ll}))/gu,
+      '-'
+    )
+    .toLowerCase()
+}
 
 export let scheduleRefUpdate = (ref, prop, t) => {
   setTimeout(() => {

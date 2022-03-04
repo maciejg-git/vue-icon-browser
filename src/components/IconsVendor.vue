@@ -110,7 +110,4 @@ svg {
   display: inline;
   pointer-events: none;
 }
-header {
-  @apply my-10 text-2xl font-bold;
-}
 </style>
