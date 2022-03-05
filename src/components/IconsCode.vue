@@ -64,7 +64,7 @@ pre {
   @apply whitespace-normal;
 }
 pre code.hljs {
-  @apply whitespace-pre overflow-x-hidden mr-4 !important;
+  @apply whitespace-pre overflow-x-hidden mr-4 py-4 !important;
 }
 .code {
   @apply inline-grid grid-flow-col text-sm bg-neutral-50 dark:bg-neutral-700 rounded-md;

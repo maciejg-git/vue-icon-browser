@@ -156,6 +156,41 @@
         pointer-events-none
     }
 
+/* TABS ROUNDED */
+
+.tabs-rounded--tab-bar {
+}
+
+.tabs-rounded--tab {
+  @apply
+    rounded-md
+    whitespace-nowrap
+    overflow-ellipsis
+    border-gray-300
+    hover:bg-gray-50
+    p-2
+    px-4
+    mr-4
+    transition-all
+    duration-200
+    dark:text-gray-300
+    dark:hover:bg-neutral-700
+}
+    .tabs-rounded--tab--small {
+      @apply
+        py-1
+        px-2
+    }
+    .tabs-rounded--tab--active-state {
+      @apply
+        bg-gray-100
+        hover:bg-white
+        shadow-none
+        hover:bg-gray-50
+        dark:bg-neutral-700
+        dark:hover:bg-neutral-700
+    }
+
 /* TABS */
 
 .tabs--tab-bar {

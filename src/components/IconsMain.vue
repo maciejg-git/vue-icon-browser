@@ -177,9 +177,7 @@ export default {
 
     let filter = ref("");
 
-    store.$patch({
-      filter: useDebounce(filter, 200),
-    });
+    store.filter = useDebounce(filter, 200);
 
     return {
       filter,
@@ -190,9 +188,6 @@ export default {
 </script>
 
 <style scoped>
-svg {
-  pointer-events: none;
-}
 header {
   @apply text-xl font-semibold flex items-center w-full my-6 mx-2 dark:text-neutral-300;
 }

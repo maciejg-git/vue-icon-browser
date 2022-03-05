@@ -108,7 +108,7 @@
 
     <!-- links -->
 
-    <v-tabs name="tabs-material">
+    <v-tabs name="tabs-rounded" class="mt-10">
       <v-tab :name="nativeTabName">
         <div class="py-1">
           <icons-code
@@ -167,6 +167,8 @@ export default {
 
     let isExtendedDemoActive = ref(false);
 
+    // tabs
+
     let tabNames = {
       B: "Native Bootstrap",
       Mdi: "Native MDI",
@@ -178,14 +180,21 @@ export default {
       return tabNames[vendor];
     });
 
+    // SVG
+
     let SVGstring = ref("");
 
     let getSVGstring = async () => {
       let icon = store.currentIconDemo;
-      let { name, vendor, tags } = icon.$_icon;
-      name = tags.join("-")
-      let res = await fetch(urls[vendor].SVG + name + ".svg");
+      let { vendor, tags, type } = icon.$_icon;
+
+      let file = tags.join("-") + ".svg";
+      type = type ? type + "/" : "";
+      let url = `${urls[vendor].SVG}${type}${file}`;
+
+      let res = await fetch(url);
       res = await res.text();
+
       SVGstring.value = res;
     };
 
@@ -194,6 +203,8 @@ export default {
       () => getSVGstring(),
       { immediate: true }
     );
+
+    // usage strings
 
     let getString = (type, usage) => {
       let icon = store.currentIconDemo;
@@ -216,6 +227,8 @@ export default {
       }
       return s;
     });
+
+    // handle template events
 
     let handleClickClosebutton = () => {
       store.unselectIcon(store.currentIconDemo);

@@ -51,5 +51,8 @@ export let urls = {
   },
   Mdi: {
     SVG: "https://raw.githubusercontent.com/Templarian/MaterialDesign/master/svg/"
+  },
+  FA: {
+    SVG: "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/"
   }
 }
