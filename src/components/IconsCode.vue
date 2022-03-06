@@ -13,12 +13,12 @@
           <v-icon
             v-if="!copied"
             name="mdi-content-copy"
-            class="text-gray-700 dark:text-gray-300"
+            class="text-gray-600 dark:text-gray-300"
           ></v-icon>
           <v-icon
             v-else
             name="mdi-check-bold"
-            class="text-gray-700 dark:text-gray-300"
+            class="text-gray-600 dark:text-gray-300"
           ></v-icon>
         </transition>
       </v-button>
@@ -67,6 +67,6 @@ pre code.hljs {
   @apply whitespace-pre overflow-x-hidden mr-4 py-4 !important;
 }
 .code {
-  @apply inline-grid grid-flow-col text-sm bg-neutral-50 dark:bg-neutral-700 rounded-md;
+  @apply inline-grid grid-flow-col text-sm bg-neutral-100 dark:bg-neutral-700 rounded-md;
 }
 </style>

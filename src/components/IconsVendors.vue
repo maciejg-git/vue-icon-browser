@@ -1,15 +1,19 @@
 <template>
-  <div
-    class="flex items-center"
-  >
+  <div class="flex items-center">
     <template v-for="vendor in store.vendors" :key="vendor">
-      <div class="px-2 py-0.5 mx-0.5"
-           :class="{'border-b-2 border-gray-200 dark:border-purple-500': store[vendor].active && !store[vendor].loading}">
-        <v-button
-          name="button-link" 
-          @click="toggleVendor(vendor)"
-        >
-          <v-spinner v-if="store[vendor].loading" style-spinner="secondary small" />
+      <div
+        class="px-2 py-0.5 mx-0.5"
+        :class="{
+          'border-b-2 border-gray-200 dark:border-purple-500':
+            store[vendor].active && !store[vendor].loading,
+        }"
+      >
+        <v-button name="button-link" @click="toggleVendor(vendor)">
+          <v-spinner
+            v-if="store[vendor].loading"
+            type="svg"
+            style-spinner="secondary small"
+          />
           <v-icon
             v-if="!store[vendor].loading"
             :name="icons[vendor]"
@@ -34,10 +38,10 @@ export default {
     let store = useStore();
 
     let icons = {
-      bootstrap: BBootstrapFill, 
-      mdi: MdiMaterialDesign, 
+      bootstrap: BBootstrapFill,
+      mdi: MdiMaterialDesign,
       fontawesome: FaFontAwesomeFlagBrand,
-    }
+    };
 
     let toggleVendor = (vendor) => {
       if (!store[vendor].active) store[vendor].loading = true;
@@ -48,7 +52,7 @@ export default {
       store,
       toggleVendor,
       icons,
-      BCheckLg
+      BCheckLg,
     };
   },
 };

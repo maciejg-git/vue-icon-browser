@@ -1,9 +1,9 @@
 <template>
   <div
-    class="overflow-y-auto mt-6 px-1 min-w-[500px] max-w-[500px]"
+    class="demo overflow-y-auto overflow-x-hidden mt-6 px-1 min-w-[500px] max-w-[500px]"
     style="max-height: calc(100vh - 5em)"
   >
-    <!-- buttons -->
+    <!-- icon demo header -->
 
     <div class="flex items-end gap-x-5">
       <v-icon
@@ -15,6 +15,8 @@
       }}</span>
       <v-close-button @click="handleClickClosebutton" />
     </div>
+
+    <!-- buttons -->
 
     <div class="flex items-center gap-x-5 mb-5 mt-10">
       <v-button>
@@ -34,6 +36,8 @@
         Button
       </v-button>
     </div>
+
+    <!-- buttons second row -->
 
     <div class="flex items-center gap-x-5 my-6">
       <v-button style-button="circle">
@@ -98,6 +102,9 @@
           Heading 2
         </h2>
       </div>
+
+      <!-- show more button -->
+
       <v-button
         style-button="primary-outline small"
         @click="isExtendedDemoActive = true"
@@ -106,34 +113,11 @@
       </v-button>
     </div>
 
-    <!-- links -->
+    <!-- usage tabs -->
 
-    <v-tabs name="tabs-rounded" class="mt-10">
-      <v-tab :name="nativeTabName">
-        <div class="py-1">
-          <icons-code
-            v-for="usage in usageStrings.native"
-            :code="usage.s"
-            :language="usage.lang"
-          ></icons-code>
-        </div>
-      </v-tab>
-
-      <v-tab name="Vue">
-        <div class="py-1">
-          <icons-code
-            v-for="usage in usageStrings.vue"
-            :code="usage.s"
-            :language="usage.lang"
-          ></icons-code>
-        </div>
-      </v-tab>
-      <v-tab name="SVG">
-        <div class="py-1">
-          <icons-code :code="SVGstring" language="xml"></icons-code>
-        </div>
-      </v-tab>
-    </v-tabs>
+    <div class="mt-12">
+      <icons-demo-tabs />
+    </div>
   </div>
 
   <!-- extended demo -->
@@ -145,88 +129,25 @@
     secondary-button-close
     transition="fade-scale"
   >
-    <icons-demo-extended></icons-demo-extended>
+    <icons-demo-extended />
   </v-modal>
 </template>
 
 <script>
 import { ref, computed, watch } from "vue";
 import IconsDemoExtended from "./IconsDemoExtended.vue";
+import IconsDemoTabs from "./IconsDemoTabs.vue";
 import { useStore } from "../composition/useStore";
-import { toKebab } from "../tools";
-import { templates, urls } from "../const";
-import IconsCode from "./IconsCode.vue";
 
 export default {
   components: {
     IconsDemoExtended,
-    IconsCode,
+    IconsDemoTabs,
   },
   setup() {
     let store = useStore();
 
     let isExtendedDemoActive = ref(false);
-
-    // tabs
-
-    let tabNames = {
-      B: "Native Bootstrap",
-      Mdi: "Native MDI",
-      FA: "Native Font Awesome",
-    };
-
-    let nativeTabName = computed(() => {
-      let vendor = store.currentIconDemo.$_icon.vendor;
-      return tabNames[vendor];
-    });
-
-    // SVG
-
-    let SVGstring = ref("");
-
-    let getSVGstring = async () => {
-      let icon = store.currentIconDemo;
-      let { vendor, tags, type } = icon.$_icon;
-
-      let file = tags.join("-") + ".svg";
-      type = type ? type + "/" : "";
-      let url = `${urls[vendor].SVG}${type}${file}`;
-
-      let res = await fetch(url);
-      res = await res.text();
-
-      SVGstring.value = res;
-    };
-
-    watch(
-      () => store.currentIconDemo,
-      () => getSVGstring(),
-      { immediate: true }
-    );
-
-    // usage strings
-
-    let getString = (type, usage) => {
-      let icon = store.currentIconDemo;
-      let { name, vendor } = icon.$_icon;
-      return templates[vendor][type][usage].s
-        .replace(/%v/g, vendor)
-        .replace(/%kv/g, toKebab(vendor))
-        .replace(/%n/g, name)
-        .replace(/%kn/g, toKebab(name));
-    };
-
-    let usageStrings = computed(() => {
-      let icon = store.currentIconDemo;
-      let { vendor } = icon.$_icon;
-      let s = JSON.parse(JSON.stringify(templates[vendor]));
-      for (let tab in s) {
-        for (let type in s[tab]) {
-          s[tab][type].s = getString(tab, type);
-        }
-      }
-      return s;
-    });
 
     // handle template events
 
@@ -237,13 +158,19 @@ export default {
     return {
       store,
       isExtendedDemoActive,
-      usageStrings,
-      SVGstring,
-      nativeTabName,
       handleClickClosebutton,
     };
   },
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.demo::-webkit-scrollbar {
+  width: 0.5em;
+}
+.demo::-webkit-scrollbar-track {
+}
+.demo::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
+</style>

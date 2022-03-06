@@ -167,6 +167,8 @@
     whitespace-nowrap
     overflow-ellipsis
     border-gray-300
+    font-semibold
+    text-gray-600
     hover:bg-gray-50
     p-2
     px-4
@@ -183,12 +185,13 @@
     }
     .tabs-rounded--tab--active-state {
       @apply
-        bg-gray-100
-        hover:bg-white
+        bg-indigo-400
+        hover:bg-indigo-300
+        text-white
         shadow-none
-        hover:bg-gray-50
-        dark:bg-neutral-700
-        dark:hover:bg-neutral-700
+        dark:text-white
+        dark:bg-indigo-500
+        dark:hover:bg-indigo-400
     }
 
 /* TABS */
@@ -1215,6 +1218,13 @@
 }
 
 /* SPINNER */
+
+.spinner-container {
+  --spinner-border-speed: 0.75s;
+  --spinner-svg-speed: 1s;
+  @apply 
+    inline-block;
+}
 
 .spinner {
   @apply

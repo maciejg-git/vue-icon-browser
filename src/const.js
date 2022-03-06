@@ -42,6 +42,20 @@ export let templates = {
         lang: "xml",
       }
     }
+  },
+  Fa: {
+    native: {
+      usage: {
+        s: `<i class="fa-%t fa-%kn"></i>`,
+        lang: "xml",
+      }
+    },
+    vue: {
+      usage: {
+        s: `<font-awesome-icon icon="fa-%t fa-%kn" />`,
+        lang: "xml",
+      },
+    }
   }
 }
 
@@ -52,7 +66,7 @@ export let urls = {
   Mdi: {
     SVG: "https://raw.githubusercontent.com/Templarian/MaterialDesign/master/svg/"
   },
-  FA: {
+  Fa: {
     SVG: "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/"
   }
 }
