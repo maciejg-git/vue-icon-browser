@@ -52,7 +52,7 @@ export let templates = {
     },
     vue: {
       usage: {
-        s: `<font-awesome-icon icon="fa-%t fa-%kn" />`,
+        s: `<font-awesome-icon icon="fa-%tn fa-%kn" />`,
         lang: "xml",
       },
     }
