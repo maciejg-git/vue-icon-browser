@@ -1,14 +1,6 @@
 <template>
   <div>
 
-    <!-- all icons filtered out message -->
-
-    <div v-if="iconsFiltered.length === 0" class="flex">
-      <span class="text-lg dark:text-gray-300">
-        Nothing found for current filter.
-      </span>
-    </div>
-
     <!-- icons -->
 
     <div @click="handleClickIcon($event)">

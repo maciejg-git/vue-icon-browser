@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import { ref } from "vue";
+import { ref, watch } from "vue";
 import { useStore } from "../composition/useStore";
 
 export default {
@@ -40,6 +40,10 @@ export default {
       md: "h-10 w-10 m-2",
       lg: "h-14 w-14 m-3",
     };
+
+    watch(store.selectedIcons, () => {
+      if (!store.selectedIcons.length) store.currentIconDemo = null
+    })
 
     let handleClickIcon = (ev) => {
       let index = ev.target.dataset.index;

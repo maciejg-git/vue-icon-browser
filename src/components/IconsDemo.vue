@@ -5,7 +5,7 @@
   >
     <!-- icon demo header -->
 
-    <div class="flex items-end gap-x-5">
+    <div class="flex items-end gap-x-5 mb-10">
       <v-icon
         :name="store.currentIconDemo"
         class="h-16 w-16 text-gray-600 dark:text-gray-400"
@@ -18,7 +18,7 @@
 
     <!-- buttons -->
 
-    <div class="flex items-center gap-x-5 mb-5 mt-10">
+    <div class="flex items-center gap-x-5 my-5">
       <v-button>
         <v-icon :name="store.currentIconDemo" class="h-5 w-5 mr-2"></v-icon>
         Button
@@ -39,7 +39,7 @@
 
     <!-- buttons second row -->
 
-    <div class="flex items-center gap-x-5 my-6">
+    <div class="flex items-center gap-x-5 my-5">
       <v-button style-button="circle">
         <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
       </v-button>
@@ -66,7 +66,7 @@
 
     <!-- input -->
 
-    <div class="flex items-center gap-5 my-6">
+    <div class="flex items-center gap-5 my-5">
       <div class="relative flex items-center">
         <v-icon
           :name="store.currentIconDemo"
@@ -87,7 +87,7 @@
 
     <!-- text -->
 
-    <div class="flex justify-between items-end my-6">
+    <div class="flex justify-between items-end my-5">
       <div>
         <h1
           class="flex items-center text-3xl text-gray-600 dark:text-gray-400 gap-x-2 my-1"

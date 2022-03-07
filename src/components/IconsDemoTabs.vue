@@ -61,6 +61,9 @@ export default {
 
     let getSVGstring = async () => {
       let icon = store.currentIconDemo;
+
+      if (!icon) return
+
       let { vendor, tags, type } = icon.$_icon;
 
       let file = tags.join("-") + ".svg";
@@ -76,7 +79,7 @@ export default {
 
     watch(
       () => store.currentIconDemo,
-      () => getSVGstring(),
+      () => store.currentIconDemo && getSVGstring(),
       { immediate: true }
     );
 

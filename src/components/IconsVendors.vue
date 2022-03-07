@@ -29,18 +29,14 @@
 <script>
 import { useStore } from "../composition/useStore";
 
-import { BBootstrapFill, BCheckLg } from "../icons/dist-bootstrap";
-import { MdiMaterialDesign } from "../icons/dist-mdi";
-import { FaFontAwesomeFlagBrand } from "../icons/dist-fontawesome";
-
 export default {
   setup() {
     let store = useStore();
 
     let icons = {
-      bootstrap: BBootstrapFill,
-      mdi: MdiMaterialDesign,
-      fontawesome: FaFontAwesomeFlagBrand,
+      bootstrap: "b-bootstrap-fill",
+      mdi: "mdi-material-design",
+      fontawesome: "fa-font-awesome-flag-brand",
     };
 
     let toggleVendor = (vendor) => {
@@ -52,7 +48,6 @@ export default {
       store,
       toggleVendor,
       icons,
-      BCheckLg,
     };
   },
 };

@@ -1,5 +1,5 @@
 <template>
-  <div class="code my-3">
+  <div class="code my-2">
     <pre class="overflow-x-hidden">
       <code ref="codeEl" :class="'language-' + language">{{ code }}</code>
     </pre>

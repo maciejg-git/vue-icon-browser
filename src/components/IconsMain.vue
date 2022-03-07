@@ -37,43 +37,6 @@
 
         <icons-main-toolbar v-if="store.isAnyVendorLoaded" />
 
-        <!-- no icons loaded message -->
-
-        <div
-          v-if="!store.isAnyVendorLoaded && !store.selectedIcons.length"
-          class="flex justify-center h-40"
-        >
-          <div class="flex flex-col mt-auto">
-            <p class="text-xl">
-              No icon vendors loaded. Add icons to start browsing.
-            </p>
-            <p class="mt-8 mx-auto">
-              <a
-                class="text-lg text-blue-400 underline cursor-pointer"
-                @click.prevent="toggleVendor('bootstrap')"
-              >
-                Add Bootstrap Icons.
-              </a>
-            </p>
-            <p class="mt-8 mx-auto">
-              <a
-                class="text-lg text-blue-400 underline cursor-pointer"
-                @click.prevent="toggleVendor('mdi')"
-              >
-                Add Material Design Icons.
-              </a>
-            </p>
-            <p class="mt-8 mx-auto">
-              <a
-                class="text-lg text-blue-400 underline cursor-pointer"
-                @click.prevent="toggleVendor('fontawesome')"
-              >
-                Add Font Awesome Icons.
-              </a>
-            </p>
-          </div>
-        </div>
-
         <!-- icons -->
 
         <div class="flex mt-8 justify-between">
@@ -121,7 +84,7 @@
 
           <!-- icons demo -->
 
-          <div v-if="store.currentIconDemo" class="mx-2 relative">
+          <div v-if="store.currentIconDemo && (store.isAnyVendorLoaded || store.selectedIcons.length)" class="mx-2 relative">
             <div class="sticky top-20">
               <icons-demo />
             </div>
@@ -142,7 +105,7 @@
 </template>
 
 <script>
-import { ref, provide, defineAsyncComponent } from "vue";
+import { ref, defineAsyncComponent } from "vue";
 import { useStore } from "../composition/useStore";
 import { useDebounce } from "@vueuse/core";
 import LoadingProgress from "./LoadingProgress.vue";
