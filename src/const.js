@@ -46,13 +46,13 @@ export let templates = {
   Fa: {
     native: {
       usage: {
-        s: `<i class="fa-%t fa-%kn"></i>`,
+        s: `<i class="fa-%kt fa-%kn"></i>`,
         lang: "xml",
       }
     },
     vue: {
       usage: {
-        s: `<font-awesome-icon icon="fa-%tn fa-%kn" />`,
+        s: `<font-awesome-icon icon="fa-%kt fa-%kn" />`,
         lang: "xml",
       },
     }

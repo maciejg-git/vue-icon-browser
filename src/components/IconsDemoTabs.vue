@@ -94,7 +94,7 @@ export default {
         .replace(/%n/g, name)
         .replace(/%kn/g, toKebab(name))
         .replace(/%t/g, type)
-        .replace(/%tn/g, toKebab(type));
+        .replace(/%kt/g, toKebab(type));
     };
 
     let usageStrings = computed(() => {

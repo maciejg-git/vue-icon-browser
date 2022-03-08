@@ -175,7 +175,7 @@
     mr-4
     transition-all
     duration-200
-    dark:text-gray-300
+    dark:text-gray-400
     dark:hover:bg-neutral-700
 }
     .tabs-rounded--tab--small {
@@ -186,12 +186,12 @@
     .tabs-rounded--tab--active-state {
       @apply
         bg-indigo-400
-        hover:bg-indigo-300
+        hover:bg-indigo-400
         text-white
         shadow-none
         dark:text-white
         dark:bg-indigo-500
-        dark:hover:bg-indigo-400
+        dark:hover:bg-indigo-500
     }
 
 /* TABS */

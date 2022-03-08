@@ -1,7 +1,7 @@
 <template>
   <div
     class="demo overflow-y-auto overflow-x-hidden mt-6 px-1 min-w-[500px] max-w-[500px]"
-    style="max-height: calc(100vh - 5em)"
+    style="max-height: calc(100vh - 6em)"
   >
     <!-- icon demo header -->
 
@@ -112,6 +112,8 @@
         Show more
       </v-button>
     </div>
+
+    <v-divider class="dark:border-neutral-700 my-10"></v-divider>
 
     <!-- usage tabs -->
 

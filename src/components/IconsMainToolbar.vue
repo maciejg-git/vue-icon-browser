@@ -1,8 +1,5 @@
 <template>
-  <div
-    v-if="store.isAnyVendorLoaded"
-    class="flex justify-end justify-items-end"
-  >
+  <div class="flex justify-end justify-items-end">
     <!-- icon size -->
 
     <div class="flex items-center">
@@ -53,10 +50,7 @@
 
 <script>
 import { useStore } from "../composition/useStore";
-import {
-  BMoon,
-  BGear,
-} from "../icons/dist-bootstrap";
+import { BMoon, BGear } from "../icons/dist-bootstrap";
 import { MdiSizeS, MdiSizeM, MdiSizeL } from "../icons/dist-mdi";
 
 export default {
@@ -88,11 +82,10 @@ export default {
       else if (option === "md") store.size = "md";
       else if (option === "lg") store.size = "lg";
       else if (option === "dark") {
-        store.dark = !store.dark
-        if (store.dark) document.documentElement.classList.add('dark')
-        else document.documentElement.classList.remove('dark')
-      }
-      else if (option === "settings") {
+        store.dark = !store.dark;
+        if (store.dark) document.documentElement.classList.add("dark");
+        else document.documentElement.classList.remove("dark");
+      } else if (option === "settings") {
         store.isSidepanelActive = !store.isSidepanelActive;
       }
     };

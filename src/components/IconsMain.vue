@@ -12,10 +12,7 @@
       <div class="mx-auto">
         <!-- filter input -->
 
-        <div
-          v-if="store.isAnyVendorLoaded"
-          class="flex items-end justify-center"
-        >
+        <div class="flex items-end justify-center">
           <v-input
             type="search"
             v-model="filter"
@@ -35,15 +32,17 @@
 
         <!-- toolbar -->
 
-        <icons-main-toolbar v-if="store.isAnyVendorLoaded" />
+        <icons-main-toolbar />
 
         <!-- icons -->
 
         <div class="flex mt-8 justify-between">
           <div>
+
             <div class="px-2" v-show="store.selectedIcons.length">
               <icons-main-selected />
             </div>
+
             <div v-if="store.bootstrap.active" class="px-2">
               <header>
                 <v-icon
@@ -84,7 +83,13 @@
 
           <!-- icons demo -->
 
-          <div v-if="store.currentIconDemo && (store.isAnyVendorLoaded || store.selectedIcons.length)" class="mx-2 relative">
+          <div
+            v-if="
+              store.currentIconDemo &&
+              (store.isAnyVendorLoaded || store.selectedIcons.length)
+            "
+            class="mx-2 relative"
+          >
             <div class="sticky top-20">
               <icons-demo />
             </div>

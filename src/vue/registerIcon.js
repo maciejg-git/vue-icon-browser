@@ -4,13 +4,12 @@ export default function registerIcon(app, icons, options) {
       ? options.vendorPrefix
       : true;
 
-  let iconSufix =
+  let iconSuffix =
     options && options.iconSufix !== undefined ? options.iconSufix : false;
 
   icons.forEach((i) => {
-    let icon = vendorPrefix ? i.$_icon.vendor + i.$_icon.name : i.$_icon.name;
-    icon += i.$_icon.type ? i.$_icon.type : "";
-    icon = iconSufix ? icon + "Icon" : icon;
-    app.component(icon, i);
+    let vendor = vendorPrefix ? i.$_icon.vendor : ""
+    let suffix = iconSuffix ? "Icon" : "";
+    app.component(`${vendor}${i.$_icon.name}${i.$_icon.type}${suffix}`, i);
   });
 }
