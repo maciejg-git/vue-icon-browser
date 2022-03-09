@@ -1,9 +1,10 @@
 <template>
   <v-navbar
     sticky
-    class="flex items-center justify-between text-gray-200 px-4 py-2 shadow-none h-12 dark:bg-neutral-800"
+    style-navbar="flat"
+    class="flex items-center justify-between text-gray-200 px-4 py-2 h-12 bg-white dark:bg-neutral-800 border-b dark:border-neutral-700"
   >
-    <span class="text-white text-xl font-bold ml-2"> Vue-icons </span>
+    <span class="text-gray-700 dark:text-gray-200 text-xl font-bold ml-2"> Vue-icons </span>
     <icons-vendors />
   </v-navbar>
 
@@ -107,6 +108,12 @@
       <icons-settings></icons-settings>
     </v-sidepanel>
   </div>
+
+  <footer class="h-20 border-t dark:border-neutral-700 mt-10"> 
+    <div class="text-gray-300 dark:text-gray-400">
+      github
+    </div>
+  </footer>
 </template>
 
 <script>

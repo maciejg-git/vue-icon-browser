@@ -87,7 +87,7 @@
 
     <!-- text -->
 
-    <div class="flex justify-between items-end my-5">
+    <div class="flex justify-between items-end my-4">
       <div>
         <h1
           class="flex items-center text-3xl text-gray-600 dark:text-gray-400 gap-x-2 my-1"

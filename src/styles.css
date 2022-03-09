@@ -811,12 +811,16 @@
 .navbar {
   @apply
     w-full
-    bg-indigo-500
+    /* bg-indigo-500 */
     shadow-md
 }
     .navbar--bottom {
       @apply
         border-t
+    }
+    .navbar--flat {
+      @apply
+      shadow-none
     }
 
 /* CLOSEBUTTON */
@@ -886,7 +890,7 @@
 
 .modal--header {
   @apply
-    bg-gray-50
+    bg-white
     text-gray-900
     text-lg
     leading-6

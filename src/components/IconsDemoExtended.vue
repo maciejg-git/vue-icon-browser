@@ -42,30 +42,30 @@
   <div class="py-5">
     <v-tabs>
       <v-tab name="Item one"></v-tab>
-      <v-tab name="Item two">
+      <v-tab>
         <template #name>
           <div class="flex items-center">
             <v-icon :name="store.currentIconDemo" class="w-4 h-4 mr-2"></v-icon>
-            Item three
+            Item two
           </div>
         </template>
       </v-tab>
-      <v-tab name="Item four"></v-tab>
+      <v-tab name="Item three"></v-tab>
     </v-tabs>
   </div>
 
   <div class="py-5">
     <v-tabs name="tabs-material">
       <v-tab name="Item one"></v-tab>
-      <v-tab name="Item two">
+      <v-tab>
         <template #name>
           <div class="flex items-center">
             <v-icon :name="store.currentIconDemo" class="w-4 h-4 mr-2"></v-icon>
-            Item three
+            Item two
           </div>
         </template>
       </v-tab>
-      <v-tab name="Item four"></v-tab>
+      <v-tab name="Item three"></v-tab>
     </v-tabs>
   </div>
 

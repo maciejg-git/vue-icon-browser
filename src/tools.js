@@ -7,6 +7,8 @@ export let toKebab = (s) => {
     .toLowerCase()
 }
 
+export let cloneObject = (o) => JSON.parse(JSON.stringify(o))
+
 export let scheduleRefUpdate = (ref, prop, t) => {
   setTimeout(() => {
     ref[prop] = false;

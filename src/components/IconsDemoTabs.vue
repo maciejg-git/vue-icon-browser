@@ -31,7 +31,7 @@
 <script>
 import { ref, computed, watch } from "vue";
 import { useStore } from "../composition/useStore";
-import { toKebab } from "../tools";
+import { toKebab, cloneObject } from "../tools";
 import { templates, urls } from "../const";
 import IconsCode from "./IconsCode.vue";
 
@@ -100,7 +100,7 @@ export default {
     let usageStrings = computed(() => {
       let icon = store.currentIconDemo;
       let { vendor } = icon.$_icon;
-      let s = JSON.parse(JSON.stringify(templates[vendor]));
+      let s = cloneObject(templates[vendor])
       for (let tab in s) {
         for (let type in s[tab]) {
           s[tab][type].s = getString(tab, type);
