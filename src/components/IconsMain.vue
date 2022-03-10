@@ -4,7 +4,9 @@
     style-navbar="flat"
     class="flex items-center justify-between text-gray-200 px-4 py-2 h-12 bg-white dark:bg-neutral-800 border-b dark:border-neutral-700"
   >
-    <span class="text-gray-700 dark:text-gray-200 text-xl font-bold ml-2"> Vue-icons </span>
+    <span class="text-gray-700 dark:text-gray-200 text-xl font-bold ml-2">
+      Vue-icons
+    </span>
     <icons-vendors />
   </v-navbar>
 
@@ -37,9 +39,8 @@
 
         <!-- icons -->
 
-        <div class="flex mt-8 justify-between">
+        <div class="flex mt-4 justify-between">
           <div>
-
             <div class="px-2" v-show="store.selectedIcons.length">
               <icons-main-selected />
             </div>
@@ -84,13 +85,7 @@
 
           <!-- icons demo -->
 
-          <div
-            v-if="
-              store.currentIconDemo &&
-              (store.isAnyVendorLoaded || store.selectedIcons.length)
-            "
-            class="mx-2 relative"
-          >
+          <div v-if="isDemoVisible" class="mx-2 relative">
             <div class="sticky top-20">
               <icons-demo />
             </div>
@@ -105,19 +100,15 @@
       <template #header>
         <span class="font-semibold dark:text-gray-300">Settings</span>
       </template>
-      <icons-settings></icons-settings>
+      <icons-settings />
     </v-sidepanel>
   </div>
 
-  <footer class="h-20 border-t dark:border-neutral-700 mt-10"> 
-    <div class="text-gray-300 dark:text-gray-400">
-      github
-    </div>
-  </footer>
+  <icons-main-footer />
 </template>
 
 <script>
-import { ref, defineAsyncComponent } from "vue";
+import { ref, computed, defineAsyncComponent } from "vue";
 import { useStore } from "../composition/useStore";
 import { useDebounce } from "@vueuse/core";
 import LoadingProgress from "./LoadingProgress.vue";
@@ -126,6 +117,7 @@ import IconsMainToolbar from "./IconsMainToolbar.vue";
 import IconsDemo from "./IconsDemo.vue";
 import IconsMainSelected from "./IconsMainSelected.vue";
 import IconsVendors from "./IconsVendors.vue";
+import IconsMainFooter from "./IconsMainFooter.vue";
 
 export default {
   components: {
@@ -146,6 +138,7 @@ export default {
     IconsMainSelected,
     IconsSettings,
     IconsVendors,
+    IconsMainFooter,
   },
   setup() {
     let store = useStore();
@@ -154,9 +147,17 @@ export default {
 
     store.filter = useDebounce(filter, 200);
 
+    let isDemoVisible = computed(() => {
+      return (
+        store.currentIconDemo &&
+        (store.isAnyVendorLoaded || store.selectedIcons.length)
+      );
+    });
+
     return {
       filter,
       store,
+      isDemoVisible,
     };
   },
 };
