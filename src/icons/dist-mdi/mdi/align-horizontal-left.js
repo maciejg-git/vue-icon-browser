@@ -9,7 +9,7 @@ export default {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"24","height":"24","viewBox":"0 0 24 24","class":"v-icon","fill":"currentColor","data-name":"mdi-align-horizontal-left","innerHTML":"<path d='M22 13V19H6V13H22M6 5V11H16V5H6M2 2V22H4V2H2' />"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"24","height":"24","viewBox":"0 0 24 24","class":"v-icon","fill":"currentColor","data-name":"mdi-align-horizontal-left","innerHTML":"<path d='M4 22H2V2H4V22M22 7H6V10H22V7M16 14H6V17H16V14Z' />"},
     )
   }
 }

@@ -72,7 +72,7 @@
             <div v-if="store.fontawesome.active" class="px-2">
               <header>
                 <v-icon
-                  name="fa-font-awesome-flag-brand"
+                  name="fa-font-awesome-brand"
                   class="h-8 w-8 text-purple-500 mr-2"
                 ></v-icon>
                 Font Awesome Icons

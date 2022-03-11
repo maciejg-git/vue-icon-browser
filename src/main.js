@@ -12,7 +12,7 @@ import "vue-component-tailwind/dist/style.css"
 
 import { BBootstrapFill, BGithub } from "./icons/dist-bootstrap";
 import { MdiMaterialDesign } from "./icons/dist-mdi";
-import { FaFontAwesomeFlagBrand } from "./icons/dist-fontawesome";
+import { FaFontAwesomeBrand } from "./icons/dist-fontawesome";
 import { MdiContentCopy, MdiCheckBold } from "./icons/dist-mdi"
 
 import hljs from 'highlight.js/lib/core';
@@ -30,7 +30,7 @@ registerIcon(app, [
   // logos
   BBootstrapFill,
   MdiMaterialDesign,
-  FaFontAwesomeFlagBrand,
+  FaFontAwesomeBrand,
   BGithub,
   // clipboard
   MdiContentCopy,

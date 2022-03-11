@@ -36,7 +36,7 @@ export default {
     let icons = {
       bootstrap: "b-bootstrap-fill",
       mdi: "mdi-material-design",
-      fontawesome: "fa-font-awesome-flag-brand",
+      fontawesome: "fa-font-awesome-brand",
     };
 
     let toggleVendor = (vendor) => {
