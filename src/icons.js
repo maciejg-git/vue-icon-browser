@@ -9,7 +9,9 @@ export let loadIcons = (icons, tags) => {
     markRaw(icons[icon]);
     icons[icon].selected = ref(false);
     icons[icon].getIconName = getIconName;
-    icons[icon].$_icon.tagsExt = tags[icon];
+    if (tags[icon].length) {
+      icons[icon].$_icon.tagsExt = tags[icon];
+    }
   }
 
   let iconsArray = Object.values(icons);
@@ -25,9 +27,11 @@ export let generateTags = (icons) => {
       if (!tags[tag]) tags[tag] = [];
       tags[tag].push(i);
     }
+    if (i.$_icon.tagsExt) {
     for (let tag of i.$_icon.tagsExt) {
       if (!tags[tag]) tags[tag] = [];
       tags[tag].push(i);
+    }
     }
   }
   return Object.entries(tags);

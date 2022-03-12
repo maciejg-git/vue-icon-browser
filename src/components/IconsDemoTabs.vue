@@ -69,7 +69,6 @@ export default {
       let file = tags.join("-") + ".svg";
       type = type ? toKebab(type) + "/" : "";
       let url = `${urls[vendor].SVG}${type}${file}`;
-      console.log(url);
 
       let res = await fetch(url);
       res = await res.text();
