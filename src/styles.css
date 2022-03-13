@@ -7,6 +7,10 @@
     text-gray-600
     dark:text-gray-300
 }
+  .button-link--bold {
+    @apply
+      font-semibold
+  }
   .button-link--light {
     @apply
       text-gray-500

@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="flex shrink-0 justify-between items-center border-t dark:border-neutral-700 h-20 text-gray-600 dark:text-gray-400 mt-10 px-6 py-4"
+    class="flex shrink-0 justify-between items-center border-t dark:border-neutral-700 text-gray-600 dark:text-gray-400 mt-10 px-6 py-8"
   >
     <div>
       <ul class="text-sm">

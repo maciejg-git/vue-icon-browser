@@ -10,7 +10,7 @@ import "./styles/styles.css"
 import "./styles/styles-material.css"
 import "vue-component-tailwind/dist/style.css"
 
-import { BBootstrapFill, BGithub } from "./icons/dist-bootstrap";
+import { BBootstrapFill, BGithub, BDownload } from "./icons/dist-bootstrap";
 import { MdiMaterialDesign } from "./icons/dist-mdi";
 import { FaFontAwesomeBrand } from "./icons/dist-fontawesome";
 import { MdiContentCopy, MdiCheckBold } from "./icons/dist-mdi"
@@ -35,6 +35,8 @@ registerIcon(app, [
   // clipboard
   MdiContentCopy,
   MdiCheckBold,
+  // download
+  BDownload,
 ])
 
 app.provide("hljs", hljs)

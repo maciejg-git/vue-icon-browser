@@ -120,6 +120,7 @@
     <div class="mt-12">
       <icons-demo-tabs />
     </div>
+
   </div>
 
   <!-- extended demo -->
@@ -167,12 +168,12 @@ export default {
 </script>
 
 <style scoped>
+.demo {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
 .demo::-webkit-scrollbar {
-  width: 0.5em;
-}
-.demo::-webkit-scrollbar-track {
-}
-.demo::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
+    display: none;
 }
 </style>

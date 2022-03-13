@@ -17,6 +17,21 @@
           :code="usage.s"
           :language="usage.lang"
         ></icons-code>
+        <div>
+          <div
+            class="inline-flex border rounded-md dark:border-neutral-700 py-2 px-4 mt-2"
+          >
+            <v-button
+              tag="a"
+              name="button-link"
+              style-button="bold"
+              @click.prevent="getVueComponentString()"
+            >
+              <v-icon name="b-download" class="mr-2"></v-icon>
+              Vue component
+            </v-button>
+          </div>
+        </div>
       </div>
     </v-tab>
 
@@ -31,7 +46,7 @@
 <script>
 import { ref, computed, watch } from "vue";
 import { useStore } from "../composition/useStore";
-import { toKebab, cloneObject } from "../tools";
+import { toKebab, cloneObject, download } from "../tools";
 import { templates, urls } from "../const";
 import IconsCode from "./IconsCode.vue";
 
@@ -62,7 +77,7 @@ export default {
     let getSVGstring = async () => {
       let icon = store.currentIconDemo;
 
-      if (!icon) return
+      if (!icon) return;
 
       let { vendor, tags, type } = icon.$_icon;
 
@@ -74,6 +89,22 @@ export default {
       res = await res.text();
 
       SVGstring.value = res;
+    };
+
+    let getVueComponentString = async () => {
+      let icon = store.currentIconDemo;
+
+      if (!icon) return;
+
+      let { vendor, tags } = icon.$_icon;
+      let name = tags.join("-") + ".js";
+
+      let url = urls[vendor].download.vue + name;
+
+      let res = await fetch(url);
+      res = await res.text();
+
+      download(name, res);
     };
 
     watch(
@@ -99,7 +130,7 @@ export default {
     let usageStrings = computed(() => {
       let icon = store.currentIconDemo;
       let { vendor } = icon.$_icon;
-      let s = cloneObject(templates[vendor])
+      let s = cloneObject(templates[vendor]);
       for (let tab in s) {
         for (let type in s[tab]) {
           s[tab][type].s = getString(tab, type);
@@ -111,6 +142,7 @@ export default {
     return {
       usageStrings,
       SVGstring,
+      getVueComponentString,
       nativeTabName,
     };
   },
