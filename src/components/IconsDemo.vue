@@ -10,9 +10,9 @@
         :name="store.currentIconDemo"
         class="h-16 w-16 text-gray-600 dark:text-gray-400"
       ></v-icon>
-      <span class="text-3xl dark:text-gray-300">{{
+      <div class="overflow-x-hidden overflow-y-hidden text-3xl dark:text-gray-300">{{
         store.currentIconDemo.getIconName()
-      }}</span>
+      }}</div>
       <v-close-button @click="handleClickClosebutton" />
     </div>
 
@@ -80,7 +80,7 @@
 
     <div class="flex items-center gap-10 my-5">
       <a href="" class="flex items-center text-blue-400 dark:text-blue-400">
-        <v-icon class="mr-1" :name="store.currentIconDemo"></v-icon>
+        <v-icon class="h-4 w-4 mr-1" :name="store.currentIconDemo"></v-icon>
         <span class="underline">Link</span>
       </a>
     </div>

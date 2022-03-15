@@ -52,8 +52,12 @@
 import { useStore } from "../composition/useStore";
 import { BMoon, BGear } from "../icons/dist-bootstrap";
 import { MdiSizeS, MdiSizeM, MdiSizeL } from "../icons/dist-mdi";
+import IconsVendors from "./IconsVendors.vue"
 
 export default {
+  components: {
+    IconsVendors,
+  },
   setup() {
     let store = useStore();
 

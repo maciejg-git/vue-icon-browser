@@ -48,13 +48,25 @@ export let templates = {
       usage: {
         s: `<i class="fa-%kt fa-%kn"></i>`,
         lang: "xml",
-      }
-    },
-    vue: {
-      usage: {
+      },
+      vue: {
         s: `<font-awesome-icon icon="fa-%kt fa-%kn" />`,
         lang: "xml",
       },
+    },
+    vue: {
+      import: {
+        s:`import { %v%n } from "./vue-icons-%v"`,
+        lang: "javascript",
+      },
+      usage: {
+        s: `<v-icon name="%kv-%kn" />`,
+        lang: "xml",
+      },
+      usageComponent: {
+        s:`<v-icon :name="%v%n" />`,
+        lang: "xml",
+      }
     }
   }
 }
