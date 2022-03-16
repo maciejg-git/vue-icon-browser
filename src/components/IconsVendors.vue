@@ -2,11 +2,7 @@
   <div class="flex items-center">
     <template v-for="vendor in store.vendors" :key="vendor">
       <div
-        class="px-1 mx-0.5"
-        :class="{
-          'border-b-2 border-purple-500 dark:border-purple-500':
-            store[vendor].active && !store[vendor].loading,
-        }"
+        class="flex items-center px-1 mx-0.5"
       >
         <v-button name="button-link" @click="toggleVendor(vendor)">
           <v-spinner
@@ -18,7 +14,7 @@
             v-if="!store[vendor].loading"
             :name="icons[vendor]"
             class="h-7 w-7 text-purple-500 dark:text-purple-500"
-            :class="{ 'opacity-40': !store[vendor].active }"
+            :class="{ 'opacity-30': !store[vendor].active }"
           ></v-icon>
         </v-button>
       </div>

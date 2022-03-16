@@ -15,10 +15,6 @@ export let templates = {
         s: `<v-icon name="%kv-%kn" />`,
         lang: "xml",
       },
-      usageComponent: {
-        s:`<v-icon :name="%v%n" />`,
-        lang: "xml",
-      }
     }
   },
   Mdi: {
@@ -37,10 +33,6 @@ export let templates = {
         s: `<v-icon name="%kv-%kn" />`,
         lang: "xml",
       },
-      usageComponent: {
-        s:`<v-icon :name="%v%n" />`,
-        lang: "xml",
-      }
     }
   },
   Fa: {
@@ -63,10 +55,6 @@ export let templates = {
         s: `<v-icon name="%kv-%kn" />`,
         lang: "xml",
       },
-      usageComponent: {
-        s:`<v-icon :name="%v%n" />`,
-        lang: "xml",
-      }
     }
   }
 }

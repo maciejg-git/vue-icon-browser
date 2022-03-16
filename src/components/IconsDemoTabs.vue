@@ -25,7 +25,7 @@
               tag="a"
               name="button-link"
               style-button="bold"
-              @click.prevent="getVueComponentString()"
+              @click.prevent="downloadVueComponent()"
             >
               <v-icon name="b-download" class="mr-2"></v-icon>
               Vue component
@@ -38,6 +38,21 @@
     <v-tab name="SVG">
       <div class="py-1">
         <icons-code :code="SVGstring" language="xml"></icons-code>
+        <div>
+          <div
+            class="inline-flex border rounded-md dark:border-neutral-700 py-2 px-4 mt-2"
+          >
+            <v-button
+              tag="a"
+              name="button-link"
+              style-button="bold"
+              @click.prevent="downloadSVG()"
+            >
+              <v-icon name="b-download" class="mr-2"></v-icon>
+              SVG
+            </v-button>
+          </div>
+        </div>
       </div>
     </v-tab>
   </v-tabs>
@@ -60,9 +75,9 @@ export default {
     // tab name
 
     let tabNames = {
-      B: "Native Bootstrap",
-      Mdi: "Native MDI",
-      Fa: "Native Font Awesome",
+      B: "Bootstrap",
+      Mdi: "Material Design Icons",
+      Fa: "Font Awesome",
     };
 
     let nativeTabName = computed(() => {
@@ -74,7 +89,7 @@ export default {
 
     let SVGstring = ref("");
 
-    let getSVGstring = async () => {
+    let getSVGurl = () => {
       let icon = store.currentIconDemo;
 
       if (!icon) return;
@@ -83,7 +98,11 @@ export default {
 
       let file = tags.join("-") + ".svg";
       type = type ? toKebab(type) + "/" : "";
-      let url = `${urls[vendor].SVG}${type}${file}`;
+      return `${urls[vendor].SVG}${type}${file}`;
+    }
+
+    let getSVGstring = async () => {
+      let url = getSVGurl() 
 
       let res = await fetch(url);
       res = await res.text();
@@ -91,15 +110,25 @@ export default {
       SVGstring.value = res;
     };
 
-    let getVueComponentString = async () => {
+    let downloadSVG = async () => {
+      let url = getSVGurl() 
+
+      let res = await fetch(url);
+      res = await res.text();
+
+      download(file, res);
+    };
+
+    let downloadVueComponent = async () => {
       let icon = store.currentIconDemo;
 
       if (!icon) return;
 
-      let { vendor, tags } = icon.$_icon;
-      let name = tags.join("-") + ".js";
+      let { vendor, tags, type } = icon.$_icon;
+      type = type ? toKebab(type) : "";
+      let name = tags.join("-") + (type ? "-" + type : "") + ".js";
 
-      let url = urls[vendor].download.vue + name;
+      let url = `${urls[vendor].download.vue}${type}/${name}`;
 
       let res = await fetch(url);
       res = await res.text();
@@ -142,7 +171,8 @@ export default {
     return {
       usageStrings,
       SVGstring,
-      getVueComponentString,
+      downloadVueComponent,
+      downloadSVG,
       nativeTabName,
     };
   },

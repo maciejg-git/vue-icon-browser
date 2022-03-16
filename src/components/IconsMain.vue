@@ -2,7 +2,7 @@
   <v-navbar
     sticky
     style-navbar="flat"
-    class="flex items-center justify-between text-gray-200 px-4 py-2 h-12 bg-white dark:bg-neutral-800 border-b dark:border-neutral-700"
+    class="flex items-center justify-between text-gray-200 pl-4 pr-2 py-2 h-12 bg-white dark:bg-neutral-800 border-b dark:border-neutral-700"
   >
     <span class="text-gray-700 dark:text-gray-200 text-xl font-bold ml-2">
       Vue-icons

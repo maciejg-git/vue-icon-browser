@@ -10,9 +10,11 @@
         :name="store.currentIconDemo"
         class="h-16 w-16 text-gray-600 dark:text-gray-400"
       ></v-icon>
-      <div class="overflow-x-hidden overflow-y-hidden text-3xl dark:text-gray-300">{{
-        store.currentIconDemo.getIconName()
-      }}</div>
+      <div
+        class="overflow-x-hidden overflow-y-hidden text-3xl dark:text-gray-300"
+      >
+        {{ store.currentIconDemo.getIconName() }}
+      </div>
       <v-close-button @click="handleClickClosebutton" />
     </div>
 
@@ -120,7 +122,6 @@
     <div class="mt-12">
       <icons-demo-tabs />
     </div>
-
   </div>
 
   <!-- extended demo -->
@@ -169,11 +170,11 @@ export default {
 
 <style scoped>
 .demo {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .demo::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 </style>
