@@ -15,7 +15,6 @@
       >
         {{ store.currentIconDemo.getIconName() }}
       </div>
-      <v-close-button @click="handleClickClosebutton" />
     </div>
 
     <!-- buttons -->
