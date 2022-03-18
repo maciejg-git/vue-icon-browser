@@ -54,6 +54,7 @@
                 Bootstrap Icons
               </header>
               <icons-vendor-bootstrap
+                vendor="bootstrap"
                 @bootstrap-loaded="store.bootstrap.loading = false"
               />
             </div>
@@ -66,7 +67,10 @@
                 ></v-icon>
                 Material Design Icons
               </header>
-              <icons-vendor-mdi @mdi-loaded="store.mdi.loading = false" />
+              <icons-vendor-mdi 
+                vendor="mdi"
+                @mdi-loaded="store.mdi.loading = false" 
+                />
             </div>
 
             <div v-if="store.fontawesome.active" class="px-2">
@@ -78,6 +82,7 @@
                 Font Awesome Icons
               </header>
               <icons-vendor-fontawesome
+                vendor="fontawesome"
                 @fontawesome-loaded="store.fontawesome.loading = false"
               />
             </div>

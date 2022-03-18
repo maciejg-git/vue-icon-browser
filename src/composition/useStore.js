@@ -12,14 +12,17 @@ export const useStore = defineStore('main', {
       bootstrap: {
         active: true,
         loading: false,
+        loadedAll: false,
       },
       mdi: {
         active: false,
         loading: false,
+        loadedAll: false,
       },
       fontawesome: {
         active: false,
         loading: false,
+        loadedAll: false,
       },
       size: "sm",
       filter: "",
@@ -28,6 +31,7 @@ export const useStore = defineStore('main', {
       isSidepanelActive: false,
       selectedIcons: [],
       lastSelectedIcon: {},
+      loadedIconsCount: 500,
     }
   },
   getters: {
@@ -51,15 +55,6 @@ export const useStore = defineStore('main', {
       this.lastSelectedIcon = null;
       // if (icon == store.currentIconDemo) store.currentIconDemo = null
     },
-    setDarkMode() {
-      if (this.dark) document.documentElement.classList.add("dark");
-      else document.documentElement.classList.remove("dark"); 
-    },
-    toggleDarkMode() {
-      if (!this.dark) document.documentElement.classList.add("dark");
-      else document.documentElement.classList.remove("dark"); 
-      this.dark = !this.dark;
-    },
     selectIcons(icons) {
       let isArray = Array.isArray(icons);
 
@@ -82,6 +77,15 @@ export const useStore = defineStore('main', {
         this.lastSelectedIcon = icons;
         this.currentIconDemo = icons;
       }
-    }
+    },
+    setDarkMode() {
+      if (this.dark) document.documentElement.classList.add("dark");
+      else document.documentElement.classList.remove("dark"); 
+    },
+    toggleDarkMode() {
+      if (!this.dark) document.documentElement.classList.add("dark");
+      else document.documentElement.classList.remove("dark"); 
+      this.dark = !this.dark;
+    },
   }
 })

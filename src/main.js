@@ -10,7 +10,7 @@ import "./styles/styles.css"
 import "./styles/styles-material.css"
 import "vue-component-tailwind/dist/style.css"
 
-import { BBootstrapFill, BGithub, BDownload, BThreeDotsVertical, BList } from "./icons/dist-bootstrap";
+import { BBootstrapFill, BGithub, BDownload, BThreeDotsVertical, BList, BThreeDots } from "./icons/dist-bootstrap";
 import { MdiMaterialDesign } from "./icons/dist-mdi";
 import { FaFontAwesomeBrand, FaBarsSolid } from "./icons/dist-fontawesome";
 import { MdiContentCopy, MdiCheckBold } from "./icons/dist-mdi"
@@ -41,6 +41,7 @@ registerIcon(app, [
   BThreeDotsVertical,
   BList,
   FaBarsSolid,
+  BThreeDots,
 ])
 
 app.provide("hljs", hljs)

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div @click="handleClickIcon($event)">
+    <div class="flex flex-wrap items-center" @click="handleClickIcon($event)">
       <template v-for="(icon, index) in iconsFiltered">
         <div class="icon-tile" :data-index="index">
           <component
@@ -13,6 +13,13 @@
           ></component>
         </div>
       </template>
+      <v-button
+        v-if="!store.filter && !store[vendor].loadedAll"
+        style-button="primary-outline"
+        class="ml-2"
+        @click="handleClickLoadAllButton"
+        >Load All</v-button
+      >
     </div>
   </div>
 </template>
@@ -25,6 +32,7 @@ import { generateTags } from "../icons.js";
 export default {
   props: {
     icons: { type: Object, default: undefined },
+    vendor: { type: String, default: "" },
   },
   setup(props, { emit }) {
     let store = useStore();
@@ -40,7 +48,11 @@ export default {
 
     // filter icons
     let iconsFiltered = computed(() => {
-      if (!store.filter) return props.icons;
+      if (!store.filter) {
+        return store[props.vendor].loadedAll
+          ? props.icons
+          : props.icons.slice(0, store.loadedIconsCount);
+      }
       let filter = store.filter;
       if (!filter.length) return;
       let res = {};
@@ -70,7 +82,7 @@ export default {
         }
       }
 
-      store.selectIcons(selectedIcons)
+      store.selectIcons(selectedIcons);
     };
 
     // handle template events
@@ -81,6 +93,8 @@ export default {
       if (index) selectIcon(ev, iconsFiltered.value[index]);
     };
 
+    let handleClickLoadAllButton = () => (store[props.vendor].loadedAll = true);
+
     return {
       store,
       emit,
@@ -88,6 +102,7 @@ export default {
       selectIcon,
       iconSizeClasses,
       handleClickIcon,
+      handleClickLoadAllButton,
     };
   },
 };

@@ -1,5 +1,5 @@
 <template>
-  <icons-vendor :icons="icons"></icons-vendor>
+  <icons-vendor :icons="icons" :vendor="vendor"></icons-vendor>
 </template>
 
 <script>
@@ -12,6 +12,9 @@ import tags from "../icons/dist-fontawesome/tags.json";
 export default {
   components: {
     IconsVendor,
+  },
+  props: {
+    vendor: { type: String, default: ""},
   },
   setup(props, { emit }) {
     let icons = loadIcons(iconsData, tags);
