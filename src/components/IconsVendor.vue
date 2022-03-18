@@ -18,8 +18,9 @@
         style-button="primary-outline"
         class="ml-2"
         @click="handleClickLoadAllButton"
-        >Load All</v-button
       >
+        Load All
+      </v-button>
     </div>
   </div>
 </template>
