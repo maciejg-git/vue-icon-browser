@@ -20,7 +20,7 @@
             type="search"
             v-model="filter"
             placeholder="Start typing to filter..."
-            class="w-full mt-10"
+            class="w-full mt-8"
           />
           <v-button
             style-button="primary-outline"
@@ -31,7 +31,7 @@
           </v-button>
         </div>
 
-        <v-divider class="my-8 dark:border-neutral-700" />
+        <v-divider class="my-6 dark:border-neutral-700" />
 
         <!-- toolbar -->
 
@@ -146,6 +146,8 @@ export default {
     let filter = ref("");
 
     store.filter = useDebounce(filter, 200);
+
+    store.setDarkMode()
 
     let isDemoVisible = computed(() => {
       return (

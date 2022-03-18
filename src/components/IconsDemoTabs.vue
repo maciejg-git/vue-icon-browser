@@ -96,9 +96,11 @@ export default {
 
       let { vendor, tags, type } = icon.$_icon;
 
-      let file = tags.join("-") + ".svg";
-      type = type ? toKebab(type) + "/" : "";
-      return `${urls[vendor].SVG}${type}${file}`;
+      let name = tags.join("-") + ".svg";
+      type = type ? toKebab(type) : "";
+      if (type === "brand") type = "brands";
+
+      return `${urls[vendor].SVG}${type ? type + "/" : ""}${name}`;
     }
 
     let getSVGstring = async () => {
@@ -127,8 +129,9 @@ export default {
       let { vendor, tags, type } = icon.$_icon;
       type = type ? toKebab(type) : "";
       let name = tags.join("-") + (type ? "-" + type : "") + ".js";
+      if (type === "brand") type = "brands";
 
-      let url = `${urls[vendor].download.vue}${type}/${name}`;
+      let url = `${urls[vendor].download.vue}${type ? type + "/" : ""}${name}`;
 
       let res = await fetch(url);
       res = await res.text();

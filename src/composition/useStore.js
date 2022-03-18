@@ -23,7 +23,7 @@ export const useStore = defineStore('main', {
       },
       size: "sm",
       filter: "",
-      dark: false,
+      dark: true,
       currentIconDemo: null,
       isSidepanelActive: false,
       selectedIcons: [],
@@ -51,6 +51,15 @@ export const useStore = defineStore('main', {
       this.lastSelectedIcon = null;
       // if (icon == store.currentIconDemo) store.currentIconDemo = null
     },
+    setDarkMode() {
+      if (this.dark) document.documentElement.classList.add("dark");
+      else document.documentElement.classList.remove("dark"); 
+    },
+    toggleDarkMode() {
+      if (!this.dark) document.documentElement.classList.add("dark");
+      else document.documentElement.classList.remove("dark"); 
+      this.dark = !this.dark;
+    },
     selectIcons(icons) {
       let isArray = Array.isArray(icons);
 
@@ -75,5 +84,4 @@ export const useStore = defineStore('main', {
       }
     }
   }
-  // toggle sidepanel
 })
