@@ -54,8 +54,7 @@
                 Bootstrap Icons
               </header>
               <icons-vendor-bootstrap
-                vendor="bootstrap"
-                @bootstrap-loaded="store.bootstrap.loading = false"
+                @bootstrap-loaded="handleVendorLoaded('bootstrap')"
               />
             </div>
 
@@ -68,8 +67,7 @@
                 Material Design Icons
               </header>
               <icons-vendor-mdi 
-                vendor="mdi"
-                @mdi-loaded="store.mdi.loading = false" 
+                @mdi-loaded="handleVendorLoaded('mdi')" 
                 />
             </div>
 
@@ -82,8 +80,7 @@
                 Font Awesome Icons
               </header>
               <icons-vendor-fontawesome
-                vendor="fontawesome"
-                @fontawesome-loaded="store.fontawesome.loading = false"
+                @fontawesome-loaded="handleVendorLoaded('fontawesome')"
               />
             </div>
           </div>
@@ -161,10 +158,15 @@ export default {
       );
     });
 
+    let handleVendorLoaded = (vendor) => {
+      store.loadVendorComplete(vendor)
+    }
+
     return {
       filter,
       store,
       isDemoVisible,
+      handleVendorLoaded,
     };
   },
 };

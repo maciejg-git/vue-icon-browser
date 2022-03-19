@@ -13,16 +13,19 @@ export const useStore = defineStore('main', {
         active: true,
         loading: false,
         loadedAll: false,
+        icons: [],
       },
       mdi: {
         active: false,
         loading: false,
         loadedAll: false,
+        icons: [],
       },
       fontawesome: {
         active: false,
         loading: false,
         loadedAll: false,
+        icons: [],
       },
       size: "sm",
       filter: "",
@@ -37,6 +40,9 @@ export const useStore = defineStore('main', {
   getters: {
     isAnyVendorLoaded: (state) => {
       return state.bootstrap.active || state.mdi.active || state.fontawesome.active
+    },
+    iconsCount: (state) => {
+      return (vendor) => state[vendor].icons.length - state.loadedIconsCount;
     }
   },
   actions: {
@@ -78,6 +84,26 @@ export const useStore = defineStore('main', {
         this.currentIconDemo = icons;
       }
     },
+
+    // load icons async component
+
+    loadVendor(vendor) {
+      this[vendor].active = true;
+      this[vendor].loading = true;
+    },
+    unloadVendor(vendor) {
+      this[vendor].active = false;
+    },
+    loadVendorComplete(vendor) {
+      this[vendor].loading = false;
+    },
+    toggleVendor(vendor) {
+      if (this[vendor].active) this.unloadVendor(vendor)
+      else this.loadVendor(vendor)
+    },
+
+    // dark mode
+
     setDarkMode() {
       if (this.dark) document.documentElement.classList.add("dark");
       else document.documentElement.classList.remove("dark"); 

@@ -1,10 +1,11 @@
 <template>
-  <icons-vendor :icons="icons" :vendor="vendor"></icons-vendor>
+  <icons-vendor :icons="icons" vendor="bootstrap"></icons-vendor>
 </template>
 
 <script>
 import { onMounted } from "vue";
 import IconsVendor from "./IconsVendor.vue";
+import { useStore } from "../composition/useStore";
 import { loadIcons } from "../icons";
 import * as iconsData from "../icons/dist-bootstrap";
 import tags from "../icons/dist-bootstrap/tags.json";
@@ -13,11 +14,12 @@ export default {
   components: {
     IconsVendor,
   },
-  props: {
-    vendor: { type: String, default: ""},
-  },
   setup(props, { emit }) {
+    let store = useStore();
+
     let icons = loadIcons(iconsData, tags);
+
+    store.bootstrap.icons = icons;
 
     onMounted(() => emit("bootstrap-loaded"));
 

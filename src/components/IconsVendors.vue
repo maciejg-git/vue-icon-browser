@@ -4,7 +4,7 @@
       <div
         class="flex items-center px-1 mx-0.5"
       >
-        <v-button name="button-link" @click="toggleVendor(vendor)">
+        <v-button name="button-link" @click="handleToggleVendor(vendor)">
           <v-spinner
             v-if="store[vendor].loading"
             type="svg"
@@ -35,14 +35,11 @@ export default {
       fontawesome: "fa-font-awesome-brand",
     };
 
-    let toggleVendor = (vendor) => {
-      if (!store[vendor].active) store[vendor].loading = true;
-      store[vendor].active = !store[vendor].active;
-    };
+    let handleToggleVendor = (vendor) => store.toggleVendor(vendor)
 
     return {
       store,
-      toggleVendor,
+      handleToggleVendor,
       icons,
     };
   },
