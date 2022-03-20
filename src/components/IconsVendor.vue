@@ -1,6 +1,9 @@
 <template>
   <div>
-    <div class="flex flex-wrap items-center" @click="handleClickIcon($event)">
+    <div v-if="!iconsFiltered.length" class="font-bold text-lg text-gray-400 dark:text-gray-400 py-6">
+      Nothing found.
+    </div>
+    <div v-else class="flex flex-wrap items-center" @click="handleClickIcon($event)">
       <template v-for="(icon, index) in iconsFiltered">
         <div class="icon-tile" :data-index="index">
           <component
@@ -49,13 +52,14 @@ export default {
 
     // filter icons
     let iconsFiltered = computed(() => {
-      if (!store.filter) {
+      let filter = store.filter;
+
+      if (!filter) {
         return store[props.vendor].loadedAll
           ? props.icons
           : props.icons.slice(0, store.loadedIconsCount);
       }
-      let filter = store.filter;
-      if (!filter.length) return;
+
       let res = {};
       for (let t of tags) {
         if (t[0].includes(filter)) {

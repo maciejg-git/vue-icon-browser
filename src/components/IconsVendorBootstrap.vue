@@ -19,8 +19,6 @@ export default {
 
     let icons = loadIcons(iconsData, tags);
 
-    store.bootstrap.icons = icons;
-
     onMounted(() => emit("bootstrap-loaded"));
 
     return {

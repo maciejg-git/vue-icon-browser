@@ -19,8 +19,6 @@ export default {
 
     let icons = loadIcons(iconsData, tags);
 
-    store.mdi.icons = icons;
-
     onMounted(() => emit("mdi-loaded"));
 
     return {

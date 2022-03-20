@@ -96,15 +96,20 @@ export default {
 
       let { vendor, tags, type } = icon.$_icon;
 
-      let name = tags.join("-") + ".svg";
-      type = type ? toKebab(type) : "";
+      let file = tags.join("-") + ".svg";
+      type = toKebab(type);
       if (type === "brand") type = "brands";
 
-      return `${urls[vendor].SVG}${type ? type + "/" : ""}${name}`;
+      let url = [urls[vendor].SVG, type, file].filter(Boolean).join("/")
+
+      return {
+        file,
+        url,
+      }
     }
 
     let getSVGstring = async () => {
-      let url = getSVGurl() 
+      let { url } = getSVGurl() 
 
       let res = await fetch(url);
       res = await res.text();
@@ -113,7 +118,7 @@ export default {
     };
 
     let downloadSVG = async () => {
-      let url = getSVGurl() 
+      let { url, file } = getSVGurl() 
 
       let res = await fetch(url);
       res = await res.text();
@@ -127,16 +132,16 @@ export default {
       if (!icon) return;
 
       let { vendor, tags, type } = icon.$_icon;
-      type = type ? toKebab(type) : "";
-      let name = tags.join("-") + (type ? "-" + type : "") + ".js";
+      type = toKebab(type);
+      let file = tags.join("-") + (type ? "-" + type : "") + ".js";
       if (type === "brand") type = "brands";
 
-      let url = `${urls[vendor].download.vue}${type ? type + "/" : ""}${name}`;
+      let url = [urls[vendor].download.vue, type, file].filter(Boolean).join("/")
 
       let res = await fetch(url);
       res = await res.text();
 
-      download(name, res);
+      download(file, res);
     };
 
     watch(
@@ -149,12 +154,13 @@ export default {
 
     let getString = (tab, usage) => {
       let icon = store.currentIconDemo;
-      let { name, vendor, type } = icon.$_icon;
+      let { name, vendor, type, tags } = icon.$_icon;
+
       return templates[vendor][tab][usage].s
         .replace(/%v/g, vendor)
         .replace(/%kv/g, toKebab(vendor))
         .replace(/%n/g, name)
-        .replace(/%kn/g, toKebab(name))
+        .replace(/%kn/g, tags.join("-"))
         .replace(/%t/g, type)
         .replace(/%kt/g, toKebab(type));
     };
@@ -162,12 +168,15 @@ export default {
     let usageStrings = computed(() => {
       let icon = store.currentIconDemo;
       let { vendor } = icon.$_icon;
+
       let s = cloneObject(templates[vendor]);
+
       for (let tab in s) {
         for (let type in s[tab]) {
           s[tab][type].s = getString(tab, type);
         }
       }
+
       return s;
     });
 

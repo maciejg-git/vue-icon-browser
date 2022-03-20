@@ -2,7 +2,7 @@
   <v-navbar
     sticky
     style-navbar="flat"
-    class="flex items-center justify-between text-gray-200 pl-4 pr-2 py-2 h-12 bg-white dark:bg-neutral-800 border-b dark:border-neutral-700"
+    class="flex items-center justify-between border-b pl-4 pr-2 py-2 h-12 text-gray-200 bg-white dark:bg-neutral-800 dark:border-neutral-700"
   >
     <span class="text-gray-700 dark:text-gray-200 text-xl font-bold ml-2">
       Vue-icons
@@ -66,9 +66,7 @@
                 ></v-icon>
                 Material Design Icons
               </header>
-              <icons-vendor-mdi 
-                @mdi-loaded="handleVendorLoaded('mdi')" 
-                />
+              <icons-vendor-mdi @mdi-loaded="handleVendorLoaded('mdi')" />
             </div>
 
             <div v-if="store.fontawesome.active" class="px-2">
@@ -149,7 +147,7 @@ export default {
 
     store.filter = useDebounce(filter, 200);
 
-    store.setDarkMode()
+    store.initDarkMode();
 
     let isDemoVisible = computed(() => {
       return (
@@ -158,9 +156,7 @@ export default {
       );
     });
 
-    let handleVendorLoaded = (vendor) => {
-      store.loadVendorComplete(vendor)
-    }
+    let handleVendorLoaded = (vendor) => store.loadVendorComplete(vendor);
 
     return {
       filter,

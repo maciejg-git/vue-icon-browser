@@ -3,33 +3,30 @@ import { defineStore } from 'pinia'
 export const useStore = defineStore('main', {
  state: () => {
     return {
+      vendors: ["bootstrap", "mdi", "fontawesome"],
       settings: {
         vendorPrefix: true,
         originalNames: false,
         kebabCase: false,
       },
-      vendors: ["bootstrap", "mdi", "fontawesome"],
+      size: "sm",
+      dark: true,
       bootstrap: {
         active: true,
         loading: false,
         loadedAll: false,
-        icons: [],
       },
       mdi: {
         active: false,
         loading: false,
         loadedAll: false,
-        icons: [],
       },
       fontawesome: {
         active: false,
         loading: false,
         loadedAll: false,
-        icons: [],
       },
-      size: "sm",
       filter: "",
-      dark: true,
       currentIconDemo: null,
       isSidepanelActive: false,
       selectedIcons: [],
@@ -41,9 +38,6 @@ export const useStore = defineStore('main', {
     isAnyVendorLoaded: (state) => {
       return state.bootstrap.active || state.mdi.active || state.fontawesome.active
     },
-    iconsCount: (state) => {
-      return (vendor) => state[vendor].icons.length - state.loadedIconsCount;
-    }
   },
   actions: {
     clearSelected() {
@@ -104,7 +98,7 @@ export const useStore = defineStore('main', {
 
     // dark mode
 
-    setDarkMode() {
+    initDarkMode() {
       if (this.dark) document.documentElement.classList.add("dark");
       else document.documentElement.classList.remove("dark"); 
     },

@@ -19,8 +19,6 @@ export default {
 
     let icons = loadIcons(iconsData, tags);
 
-    store.fontawesome.icons = icons;
-
     onMounted(() => emit('fontawesome-loaded'))
 
     return {

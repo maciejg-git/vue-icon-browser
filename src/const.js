@@ -8,7 +8,7 @@ export let templates = {
     },
     vue: {
       import: {
-        s: `import { %v%n } from "./vue-icons-%v"`,
+        s: `import { %v%n } from "./%kn.js"`,
         lang: "javascript",
       },
       usage: {
@@ -26,7 +26,7 @@ export let templates = {
     },
     vue: {
       import: {
-        s:`import { %v%n } from "./vue-icons-%v"`,
+        s:`import { %v%n } from "./%kn.js"`,
         lang: "javascript",
       },
       usage: {
@@ -48,7 +48,7 @@ export let templates = {
     },
     vue: {
       import: {
-        s:`import { %v%n } from "./vue-icons-%v"`,
+        s:`import { %v%n } from "./%kn.js"`,
         lang: "javascript",
       },
       usage: {
@@ -61,18 +61,18 @@ export let templates = {
 
 export let urls = {
   B: {
-    SVG: "https://raw.githubusercontent.com/twbs/icons/main/icons/",
+    SVG: "https://raw.githubusercontent.com/twbs/icons/main/icons",
     download: {
-      vue: "https://raw.githubusercontent.com/maciejg-git/vue-bootstrap-icons/main/dist-bootstrap/bootstrap/"},
+      vue: "https://raw.githubusercontent.com/maciejg-git/vue-bootstrap-icons/main/dist-bootstrap/bootstrap"},
   },
   Mdi: {
-    SVG: "https://raw.githubusercontent.com/Templarian/MaterialDesign/master/svg/",
+    SVG: "https://raw.githubusercontent.com/Templarian/MaterialDesign/master/svg",
     download: { 
-      vue: "https://raw.githubusercontent.com/maciejg-git/vue-bootstrap-icons/main/dist-mdi/mdi/"},
+      vue: "https://raw.githubusercontent.com/maciejg-git/vue-bootstrap-icons/main/dist-mdi/mdi"},
   },
   Fa: {
-    SVG: "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/",
+    SVG: "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs",
     download: {
-      vue: "https://raw.githubusercontent.com/maciejg-git/vue-bootstrap-icons/main/dist-fontawesome/fontawesome/"},
+      vue: "https://raw.githubusercontent.com/maciejg-git/vue-bootstrap-icons/main/dist-fontawesome/fontawesome"},
   }
 }
