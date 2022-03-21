@@ -17,42 +17,30 @@
           :code="usage.s"
           :language="usage.lang"
         ></icons-code>
-        <div>
-          <div
-            class="inline-flex border rounded-md dark:border-neutral-700 py-2 px-4 mt-2"
-          >
-            <v-button
-              tag="a"
-              name="button-link"
-              style-button="bold"
-              @click.prevent="downloadVueComponent()"
-            >
-              <v-icon name="b-download" class="mr-2"></v-icon>
-              Vue component
-            </v-button>
-          </div>
-        </div>
+        <v-button
+          tag="a"
+          name="button-link"
+          style-button="download"
+          @click.prevent="downloadVueComponent()"
+        >
+          <v-icon name="b-download" class="mr-2"></v-icon>
+          Vue component
+        </v-button>
       </div>
     </v-tab>
 
     <v-tab name="SVG">
       <div class="py-1">
         <icons-code :code="SVGstring" language="xml"></icons-code>
-        <div>
-          <div
-            class="inline-flex border rounded-md dark:border-neutral-700 py-2 px-4 mt-2"
-          >
-            <v-button
-              tag="a"
-              name="button-link"
-              style-button="bold"
-              @click.prevent="downloadSVG()"
-            >
-              <v-icon name="b-download" class="mr-2"></v-icon>
-              SVG
-            </v-button>
-          </div>
-        </div>
+        <v-button
+          tag="a"
+          name="button-link"
+          style-button="download"
+          @click.prevent="downloadSVG()"
+        >
+          <v-icon name="b-download" class="mr-2"></v-icon>
+          SVG
+        </v-button>
       </div>
     </v-tab>
   </v-tabs>
@@ -100,16 +88,16 @@ export default {
       type = toKebab(type);
       if (type === "brand") type = "brands";
 
-      let url = [urls[vendor].SVG, type, file].filter(Boolean).join("/")
+      let url = [urls[vendor].SVG, type, file].filter(Boolean).join("/");
 
       return {
         file,
         url,
-      }
-    }
+      };
+    };
 
     let getSVGstring = async () => {
-      let { url } = getSVGurl() 
+      let { url } = getSVGurl();
 
       let res = await fetch(url);
       res = await res.text();
@@ -118,7 +106,7 @@ export default {
     };
 
     let downloadSVG = async () => {
-      let { url, file } = getSVGurl() 
+      let { url, file } = getSVGurl();
 
       let res = await fetch(url);
       res = await res.text();
@@ -136,7 +124,9 @@ export default {
       let file = tags.join("-") + (type ? "-" + type : "") + ".js";
       if (type === "brand") type = "brands";
 
-      let url = [urls[vendor].download.vue, type, file].filter(Boolean).join("/")
+      let url = [urls[vendor].download.vue, type, file]
+        .filter(Boolean)
+        .join("/");
 
       let res = await fetch(url);
       res = await res.text();

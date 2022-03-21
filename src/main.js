@@ -1,30 +1,37 @@
-import { createApp, provide } from 'vue'
-import App from './App.vue'
-import { createPinia } from 'pinia'
+import { createApp, provide } from "vue";
+import App from "./App.vue";
+import { createPinia } from "pinia";
 
 import "tailwindcss/tailwind.css";
 
-import { plugin } from "vue-component-tailwind"
-import { registerIcon } from "./vue"
-import "./styles/styles.css"
-import "./styles/styles-material.css"
-import "vue-component-tailwind/dist/style.css"
+import { plugin } from "vue-component-tailwind";
+import { registerIcon } from "./vue";
+import "./styles/styles.css";
+import "./styles/styles-material.css";
+import "vue-component-tailwind/dist/style.css";
 
-import { BBootstrapFill, BGithub, BDownload, BThreeDotsVertical, BList, BThreeDots } from "./icons/dist-bootstrap";
+import {
+  BBootstrapFill,
+  BGithub,
+  BDownload,
+  BThreeDotsVertical,
+  BList,
+  BThreeDots,
+} from "./icons/dist-bootstrap";
 import { MdiMaterialDesign } from "./icons/dist-mdi";
 import { FaFontAwesomeBrand, FaBarsSolid } from "./icons/dist-fontawesome";
-import { MdiContentCopy, MdiCheckBold } from "./icons/dist-mdi"
+import { MdiContentCopy, MdiCheckBold } from "./icons/dist-mdi";
 
-import hljs from 'highlight.js/lib/core';
-import javascript from 'highlight.js/lib/languages/javascript';
-import xml from 'highlight.js/lib/languages/xml';
-import './styles/github.css';
-import './styles/night-owl.css'
+import hljs from "highlight.js/lib/core";
+import javascript from "highlight.js/lib/languages/javascript";
+import xml from "highlight.js/lib/languages/xml";
+import "./styles/github.css";
+import "./styles/night-owl.css";
 
-hljs.registerLanguage('javascript', javascript);
-hljs.registerLanguage('xml', xml);
+hljs.registerLanguage("javascript", javascript);
+hljs.registerLanguage("xml", xml);
 
-let app = createApp(App)
+let app = createApp(App);
 
 registerIcon(app, [
   // logos
@@ -42,12 +49,12 @@ registerIcon(app, [
   BList,
   FaBarsSolid,
   BThreeDots,
-])
+]);
 
-app.provide("hljs", hljs)
+app.provide("hljs", hljs);
 
-app.use(plugin)
+app.use(plugin);
 
-app.use(createPinia())
+app.use(createPinia());
 
-app.mount('#app')
+app.mount("#app");

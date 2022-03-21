@@ -15,21 +15,7 @@
       <div class="mx-auto">
         <!-- filter input -->
 
-        <div class="flex items-end justify-center">
-          <v-input
-            type="search"
-            v-model="filter"
-            placeholder="Start typing to filter..."
-            class="w-full mt-8"
-          />
-          <v-button
-            style-button="primary-outline"
-            class="ml-4"
-            @click="filter = ''"
-          >
-            Clear
-          </v-button>
-        </div>
+        <icons-main-filter />
 
         <v-divider class="my-6 dark:border-neutral-700" />
 
@@ -108,9 +94,8 @@
 </template>
 
 <script>
-import { ref, computed, defineAsyncComponent } from "vue";
+import { computed, defineAsyncComponent } from "vue";
 import { useStore } from "../composition/useStore";
-import { useDebounce } from "@vueuse/core";
 import LoadingProgress from "./LoadingProgress.vue";
 import IconsSettings from "./IconsSettings.vue";
 import IconsMainToolbar from "./IconsMainToolbar.vue";
@@ -118,6 +103,7 @@ import IconsDemo from "./IconsDemo.vue";
 import IconsMainSelected from "./IconsMainSelected.vue";
 import IconsVendors from "./IconsVendors.vue";
 import IconsMainFooter from "./IconsMainFooter.vue";
+import IconsMainFilter from "./IconsMainFilter.vue";
 
 export default {
   components: {
@@ -139,13 +125,10 @@ export default {
     IconsSettings,
     IconsVendors,
     IconsMainFooter,
+    IconsMainFilter,
   },
   setup() {
     let store = useStore();
-
-    let filter = ref("");
-
-    store.filter = useDebounce(filter, 200);
 
     store.initDarkMode();
 
@@ -159,7 +142,6 @@ export default {
     let handleVendorLoaded = (vendor) => store.loadVendorComplete(vendor);
 
     return {
-      filter,
       store,
       isDemoVisible,
       handleVendorLoaded,

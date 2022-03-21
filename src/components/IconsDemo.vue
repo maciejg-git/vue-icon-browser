@@ -137,7 +137,7 @@
 </template>
 
 <script>
-import { ref, computed, watch } from "vue";
+import { ref } from "vue";
 import IconsDemoExtended from "./IconsDemoExtended.vue";
 import IconsDemoTabs from "./IconsDemoTabs.vue";
 import { useStore } from "../composition/useStore";
