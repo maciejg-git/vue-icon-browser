@@ -1,26 +1,31 @@
 <template>
   <div>
     <div @click="handleClickIcon($event)">
-      <template v-for="(icon, index) in store.selectedIcons">
-        <div
-          class="icon-tile relative"
-          :data-index="index"
-          @mouseenter="handleMouseenterIcon(icon)"
-          @mouseleave="handleMouseleaveIcon"
+      <transition-group name="fade">
+        <template
+          v-for="(icon, index) in store.selectedIcons"
+          :key="icon.getIconName()"
         >
-          <v-close-button
-            v-show="hoveredIcon === icon"
-            style-close-button="small"
-            class="absolute -top-2 -left-2 bg-neutral-600 p-0.5 rounded"
-            @click="handleClickUnselect(icon)"
-          ></v-close-button>
-          <component
-            :is="icon"
-            class="text-gray-600 dark:text-gray-400"
-            :class="[iconSizeClasses[store.size]]"
-          ></component>
-        </div>
-      </template>
+          <div
+            class="icon-tile relative"
+            :data-index="index"
+            @mouseenter="handleMouseenterIcon(icon)"
+            @mouseleave="handleMouseleaveIcon"
+          >
+            <v-close-button
+              v-show="hoveredIcon === icon"
+              style-close-button="small"
+              class="absolute -top-2 -left-2 bg-neutral-600 p-0.5 rounded"
+              @click="handleClickUnselect(icon)"
+            ></v-close-button>
+            <component
+              :is="icon"
+              class="text-gray-600 dark:text-gray-400"
+              :class="[iconSizeClasses[store.size]]"
+            ></component>
+          </div>
+        </template>
+      </transition-group>
     </div>
   </div>
 </template>
@@ -42,25 +47,19 @@ export default {
     };
 
     watch(store.selectedIcons, () => {
-      if (!store.selectedIcons.length) store.currentIconDemo = null
-    })
+      if (!store.selectedIcons.length) store.currentIconDemo = null;
+    });
 
     let handleClickIcon = (ev) => {
       let index = ev.target.dataset.index;
       if (index) store.currentIconDemo = store.selectedIcons[index];
     };
 
-    let handleMouseenterIcon = (icon) => {
-      hoveredIcon.value = icon;
-    };
+    let handleMouseenterIcon = (icon) => hoveredIcon.value = icon;
 
-    let handleMouseleaveIcon = () => {
-      hoveredIcon.value = null;
-    };
+    let handleMouseleaveIcon = () => hoveredIcon.value = null;
 
-    let handleClickUnselect = (icon) => {
-      store.unselectIcon(icon);
-    }
+    let handleClickUnselect = (icon) => store.unselectIcon(icon);
 
     return {
       store,
@@ -79,5 +78,13 @@ export default {
 svg {
   display: inline;
   pointer-events: none;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>

@@ -27,6 +27,9 @@
 
         <div class="flex mt-4 justify-between">
           <div>
+
+            <!-- selected icons -->
+
             <div class="px-2" v-show="store.selectedIcons.length">
               <icons-main-selected />
             </div>
@@ -76,6 +79,7 @@
               <icons-demo />
             </div>
           </div>
+
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@
           v-for="usage in usageStrings.native"
           :code="usage.s"
           :language="usage.lang"
-        ></icons-code>
+        />
       </div>
     </v-tab>
 
@@ -16,31 +16,35 @@
           v-for="usage in usageStrings.vue"
           :code="usage.s"
           :language="usage.lang"
-        ></icons-code>
-        <v-button
-          tag="a"
-          name="button-link"
-          style-button="download"
-          @click.prevent="downloadVueComponent()"
-        >
-          <v-icon name="b-download" class="mr-2"></v-icon>
-          Vue component
-        </v-button>
+        />
+        <div>
+          <v-button
+            tag="a"
+            name="button-link"
+            style-button="download"
+            @click.prevent="downloadVueComponent()"
+          >
+            <v-icon name="b-download" class="mr-2"></v-icon>
+            Vue component
+          </v-button>
+        </div>
       </div>
     </v-tab>
 
     <v-tab name="SVG">
       <div class="py-1">
-        <icons-code :code="SVGstring" language="xml"></icons-code>
-        <v-button
-          tag="a"
-          name="button-link"
-          style-button="download"
-          @click.prevent="downloadSVG()"
-        >
-          <v-icon name="b-download" class="mr-2"></v-icon>
-          SVG
-        </v-button>
+        <icons-code :code="SVGstring" language="xml" />
+        <div>
+          <v-button
+            tag="a"
+            name="button-link"
+            style-button="download"
+            @click.prevent="downloadSVG()"
+          >
+            <v-icon name="b-download" class="mr-2"></v-icon>
+            SVG
+          </v-button>
+        </div>
       </div>
     </v-tab>
   </v-tabs>
@@ -69,9 +73,13 @@ export default {
     };
 
     let nativeTabName = computed(() => {
-      let vendor = store.currentIconDemo.$_icon.vendor;
+      let { vendor } = store.currentIconDemo.$_icon;
       return tabNames[vendor];
     });
+
+    // url
+
+    let getUrl = (path) => path.filter(Boolean).join("/");
 
     // svg
 
@@ -88,7 +96,7 @@ export default {
       type = toKebab(type);
       if (type === "brand") type = "brands";
 
-      let url = [urls[vendor].SVG, type, file].filter(Boolean).join("/");
+      let url = getUrl([urls[vendor].SVG, type, file]);
 
       return {
         file,
@@ -114,6 +122,14 @@ export default {
       download(file, res);
     };
 
+    watch(
+      () => store.currentIconDemo,
+      () => store.currentIconDemo && getSVGstring(),
+      { immediate: true }
+    );
+
+    // vue component
+
     let downloadVueComponent = async () => {
       let icon = store.currentIconDemo;
 
@@ -124,21 +140,13 @@ export default {
       let file = tags.join("-") + (type ? "-" + type : "") + ".js";
       if (type === "brand") type = "brands";
 
-      let url = [urls[vendor].download.vue, type, file]
-        .filter(Boolean)
-        .join("/");
+      let url = getUrl([urls[vendor].download.vue, type, file]);
 
       let res = await fetch(url);
       res = await res.text();
 
       download(file, res);
     };
-
-    watch(
-      () => store.currentIconDemo,
-      () => store.currentIconDemo && getSVGstring(),
-      { immediate: true }
-    );
 
     // usage strings
 
@@ -159,15 +167,15 @@ export default {
       let icon = store.currentIconDemo;
       let { vendor } = icon.$_icon;
 
-      let s = cloneObject(templates[vendor]);
+      let template = cloneObject(templates[vendor]);
 
-      for (let tab in s) {
-        for (let type in s[tab]) {
-          s[tab][type].s = getString(tab, type);
+      for (let tab in template) {
+        for (let type in template[tab]) {
+          template[tab][type].s = getString(tab, type);
         }
       }
 
-      return s;
+      return template;
     });
 
     return {
