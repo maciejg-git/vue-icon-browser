@@ -1,22 +1,20 @@
 import { ref, markRaw } from "vue";
 import { useStore } from "./composition/useStore";
-import { toKebab } from "./tools"
+import { toKebab } from "./tools";
 
 let store = useStore();
 
 export let loadIcons = (icons, tags) => {
   for (let icon in icons) {
     markRaw(icons[icon]);
+
     icons[icon].selected = ref(false);
     icons[icon].getIconName = getIconName;
-    if (tags[icon].length) {
-      icons[icon].$_icon.tagsExt = tags[icon];
-    }
+
+    if (tags[icon].length) icons[icon].$_icon.tagsExtra = tags[icon];
   }
 
-  let iconsArray = Object.values(icons);
-
-  return iconsArray;
+  return Object.values(icons);
 };
 
 export let generateTags = (icons) => {
@@ -27,11 +25,11 @@ export let generateTags = (icons) => {
       if (!tags[tag]) tags[tag] = [];
       tags[tag].push(i);
     }
-    if (i.$_icon.tagsExt) {
-    for (let tag of i.$_icon.tagsExt) {
-      if (!tags[tag]) tags[tag] = [];
-      tags[tag].push(i);
-    }
+    if (i.$_icon.tagsExtra) {
+      for (let tag of i.$_icon.tagsExtra) {
+        if (!tags[tag]) tags[tag] = [];
+        tags[tag].push(i);
+      }
     }
   }
   return Object.entries(tags);

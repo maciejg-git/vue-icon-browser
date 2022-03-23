@@ -130,7 +130,7 @@
     :title="store.currentIconDemo.getIconName()"
     no-primary-button
     secondary-button-close
-    transition="fade-scale"
+    transition="fade"
   >
     <icons-demo-extended />
   </v-modal>

@@ -1,4 +1,4 @@
-export let templates = {
+export const templates = {
   B: {
     native: {
       usage: {
@@ -59,7 +59,7 @@ export let templates = {
   },
 };
 
-export let urls = {
+export const urls = {
   B: {
     SVG: "https://raw.githubusercontent.com/twbs/icons/main/icons",
     download: {
