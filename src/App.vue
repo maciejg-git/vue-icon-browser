@@ -6,11 +6,16 @@
 
 <script>
 import IconsMain from "./components/IconsMain.vue";
+import { useStore } from "./composition/useStore";
 
 export default {
   components: {
     IconsMain,
   },
+  setup() {
+    let store = useStore();
+    store.initDarkMode();
+  }
 };
 </script>
 

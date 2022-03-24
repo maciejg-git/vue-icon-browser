@@ -134,8 +134,6 @@ export default {
   setup() {
     let store = useStore();
 
-    store.initDarkMode();
-
     let isDemoVisible = computed(() => {
       return (
         store.currentIconDemo &&
