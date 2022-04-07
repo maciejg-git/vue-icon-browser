@@ -20,7 +20,7 @@
         <div>
           <v-button
             tag="a"
-            name="button-link"
+            name="button-plain"
             style-button="download"
             @click.prevent="downloadVueComponent()"
           >
@@ -37,7 +37,7 @@
         <div>
           <v-button
             tag="a"
-            name="button-link"
+            name="button-plain"
             style-button="download"
             @click.prevent="downloadSVG()"
           >

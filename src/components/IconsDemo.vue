@@ -28,11 +28,11 @@
         Button
         <v-icon :name="store.currentIconDemo" class="h-5 w-5 ml-2"></v-icon>
       </v-button>
-      <v-button style-button="pill small red">
+      <v-button style-button="pill small danger">
         <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
         Button
       </v-button>
-      <v-button name="button-link" class="font-semibold text-lg">
+      <v-button name="button-plain" class="font-semibold text-lg">
         <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
         Button
       </v-button>

@@ -6,8 +6,7 @@ import "tailwindcss/tailwind.css";
 
 import { plugin } from "vue-component-tailwind";
 import { registerIcon } from "./vue";
-import "./styles/styles.css";
-import "./styles/styles-material.css";
+import "./styles/components.css";
 import "vue-component-tailwind/dist/style.css";
 
 import {
