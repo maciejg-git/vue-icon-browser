@@ -943,7 +943,6 @@
 
 .navbar {
   @apply
-    shadow-lg
     bg-secondary-100
     dark:bg-dark-800
 }

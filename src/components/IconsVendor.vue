@@ -118,4 +118,9 @@ svg {
   display: inline;
   pointer-events: none;
 }
+.icon--selected {
+  @apply
+    text-red-500
+    dark:text-red-500
+}
 </style>

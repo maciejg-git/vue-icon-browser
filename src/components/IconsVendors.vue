@@ -1,10 +1,12 @@
 <template>
   <div class="flex items-center">
     <template v-for="vendor in store.vendors" :key="vendor">
-      <div
-        class="flex items-center px-1 mx-0.5"
-      >
-        <v-button name="button-link" @click="handleToggleVendor(vendor)">
+      <div class="flex items-center px-1 mx-0.5">
+        <v-button
+          name="button-link"
+          @click="handleToggleVendor(vendor)"
+          v-tooltip.bottom.oY15="store[vendor].name"
+        >
           <v-spinner
             v-if="store[vendor].loading"
             type="svg"
@@ -35,7 +37,7 @@ export default {
       fontawesome: "fa-font-awesome-brand",
     };
 
-    let handleToggleVendor = (vendor) => store.toggleVendor(vendor)
+    let handleToggleVendor = (vendor) => store.toggleVendor(vendor);
 
     return {
       store,
