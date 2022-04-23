@@ -1,4 +1,4 @@
-# vue-icons-browser
+# vue-icon-browser
 
 Icon browser for: Bootstrap Icons, Material Design Icons and Font Awesome.
 
