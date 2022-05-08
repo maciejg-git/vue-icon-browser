@@ -7,6 +7,18 @@
     <span class="text-gray-700 dark:text-gray-200 text-xl font-bold ml-2">
       Vue-icons
     </span>
+    <div class="flex items-center px-2">
+      <v-button
+        name="button-link"
+        @click="store.toggleDarkMode()"
+      >
+        <v-icon
+          :name="BMoon"
+          class="h-7 w-7 mx-2 text-neutral-700 dark:text-neutral-400"
+          :class="{ 'opacity-40': !store.dark }"
+        ></v-icon>
+      </v-button>
+    </div>
   </v-navbar>
 
   <div class="flex mx-16 dark:bg-neutral-800">
@@ -107,6 +119,7 @@ import IconsMainSelected from "./IconsMainSelected.vue";
 import IconsVendors from "./IconsVendors.vue";
 import IconsMainFooter from "./IconsMainFooter.vue";
 import IconsMainFilter from "./IconsMainFilter.vue";
+import { BMoon } from "../icons/dist-bootstrap";
 
 export default {
   components: {
@@ -146,6 +159,7 @@ export default {
       store,
       isDemoVisible,
       handleVendorLoaded,
+      BMoon,
     };
   },
 };

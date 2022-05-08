@@ -55,20 +55,6 @@
       </div>
     </template>
     </div>
-
-    <!-- <div class="flex items-center border-l px-2 dark:border-neutral-700"> -->
-    <!--   <v-button -->
-    <!--     name="button-link" -->
-    <!--     @click="handleToolbarClick('dark')" -->
-    <!--     v-tooltip.bottom.oY6="'Dark mode'" -->
-    <!--   > -->
-    <!--     <v-icon -->
-    <!--       :name="BMoon" -->
-    <!--       class="h-7 w-7 mx-2 dark:text-neutral-400" -->
-    <!--       :class="{ 'opacity-20': !store.dark }" -->
-    <!--     ></v-icon> -->
-    <!--   </v-button> -->
-    <!-- </div> -->
   </div>
 </template>
 
@@ -115,9 +101,7 @@ export default {
       if (option === "sm") store.size = "sm";
       else if (option === "md") store.size = "md";
       else if (option === "lg") store.size = "lg";
-      else if (option === "dark") {
-        store.toggleDarkMode()
-      } else if (option === "settings") {
+      else if (option === "settings") {
         store.isSidepanelActive = !store.isSidepanelActive;
       }
     };
