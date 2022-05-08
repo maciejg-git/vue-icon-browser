@@ -33,18 +33,42 @@
     </div>
 
     <div class="flex items-center border-l px-2 dark:border-neutral-700">
-      <v-button
-        name="button-link"
-        @click="handleToolbarClick('dark')"
-        v-tooltip.bottom.oY6="'Dark mode'"
-      >
-        <v-icon
-          :name="BMoon"
-          class="h-7 w-7 mx-2 dark:text-neutral-400"
-          :class="{ 'opacity-20': !store.dark }"
-        ></v-icon>
-      </v-button>
+    <template v-for="vendor in store.vendors" :key="vendor">
+      <div class="flex items-center px-1 mx-0.5">
+        <v-button
+          name="button-link"
+          @click="handleToggleVendor(vendor)"
+          v-tooltip.bottom.oY15="store[vendor].name"
+        >
+          <v-spinner
+            v-if="store[vendor].loading"
+            type="svg"
+            style-spinner="secondary small"
+          />
+          <v-icon
+            v-if="!store[vendor].loading"
+            :name="icons[vendor]"
+            class="h-7 w-7 text-purple-500 dark:text-purple-500"
+            :class="{ 'opacity-30': !store[vendor].active }"
+          ></v-icon>
+        </v-button>
+      </div>
+    </template>
     </div>
+
+    <!-- <div class="flex items-center border-l px-2 dark:border-neutral-700"> -->
+    <!--   <v-button -->
+    <!--     name="button-link" -->
+    <!--     @click="handleToolbarClick('dark')" -->
+    <!--     v-tooltip.bottom.oY6="'Dark mode'" -->
+    <!--   > -->
+    <!--     <v-icon -->
+    <!--       :name="BMoon" -->
+    <!--       class="h-7 w-7 mx-2 dark:text-neutral-400" -->
+    <!--       :class="{ 'opacity-20': !store.dark }" -->
+    <!--     ></v-icon> -->
+    <!--   </v-button> -->
+    <!-- </div> -->
   </div>
 </template>
 
@@ -60,6 +84,12 @@ export default {
   },
   setup() {
     let store = useStore();
+
+    let icons = {
+      bootstrap: "b-bootstrap-fill",
+      mdi: "mdi-material-design",
+      fontawesome: "fa-font-awesome-brand",
+    };
 
     let buttons = {
       size: {
@@ -92,10 +122,14 @@ export default {
       }
     };
 
+    let handleToggleVendor = (vendor) => store.toggleVendor(vendor);
+
     return {
       store,
       buttons,
       handleToolbarClick,
+      handleToggleVendor,
+      icons,
       BMoon,
       BGear,
       MdiSizeS,

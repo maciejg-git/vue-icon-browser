@@ -7,7 +7,6 @@
     <span class="text-gray-700 dark:text-gray-200 text-xl font-bold ml-2">
       Vue-icons
     </span>
-    <icons-vendors />
   </v-navbar>
 
   <div class="flex mx-16 dark:bg-neutral-800">

@@ -15,6 +15,8 @@ export default {
   setup() {
     let store = useStore();
     store.initDarkMode();
+
+    document.title = "Vue Icon Browser";
   }
 };
 </script>

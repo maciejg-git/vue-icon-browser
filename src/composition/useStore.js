@@ -14,19 +14,19 @@ export const useStore = defineStore('main', {
       bootstrap: {
         active: true,
         loading: false,
-        loadedAll: false,
+        loaded: false,
         name: "Bootstrap",
       },
       mdi: {
         active: false,
         loading: false,
-        loadedAll: false,
+        loaded: false,
         name: "Material Design Icons",
       },
       fontawesome: {
         active: false,
         loading: false,
-        loadedAll: false,
+        loaded: false,
         name: "Font Awesome",
       },
       filter: "",
@@ -86,13 +86,15 @@ export const useStore = defineStore('main', {
 
     loadVendor(vendor) {
       this[vendor].active = true;
-      this[vendor].loading = true;
+      if (!this[vendor].loaded) this[vendor].loading = true;
     },
     unloadVendor(vendor) {
       this[vendor].active = false;
     },
     loadVendorComplete(vendor) {
+      if (this[vendor].loaded) return
       this[vendor].loading = false;
+      this[vendor].loaded = true;
     },
     toggleVendor(vendor) {
       if (this[vendor].active) this.unloadVendor(vendor)
