@@ -43,8 +43,8 @@ export default {
 
     let iconSizeClasses = {
       sm: "h-6 w-6 m-2",
-      md: "h-10 w-10 m-2",
-      lg: "h-14 w-14 m-3",
+      md: "h-8 w-8 m-2",
+      lg: "h-12 w-12 m-3",
     };
 
     //generate tags

@@ -943,8 +943,9 @@
 
 .navbar {
   @apply
-    bg-secondary-100
+    bg-white
     dark:bg-dark-800
+    dark:border-neutral-700
 }
     .navbar--bottom {
       @apply
