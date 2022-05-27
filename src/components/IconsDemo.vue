@@ -1,8 +1,12 @@
 <template>
   <div
-    class="demo overflow-y-auto overflow-x-hidden mt-6 px-1 min-w-[500px] max-w-[500px]"
+      class="demo overflow-y-auto overflow-x-hidden mt-6 min-w-[500px] max-w-[700px] border-l dark:border-dark-700 px-10"
     style="max-height: calc(100vh - 6em)"
   >
+  <!-- <div -->
+  <!--     class="demo overflow-y-auto overflow-x-hidden mt-6 min-w-[500px] max-w-[700px] bg-neutral-50 dark:bg-[#212121] rounded-2xl p-10" -->
+  <!--   style="max-height: calc(100vh - 6em)" -->
+  <!-- > -->
     <!-- icon demo header -->
 
     <div class="flex items-end gap-x-5 mb-10">
