@@ -84,7 +84,7 @@
 
           <!-- icons demo -->
 
-          <div v-if="isDemoVisible" class="mx-2 relative">
+          <div v-if="isDemoVisible" class="mx-2 relative border-l dark:border-dark-700">
             <div class="sticky top-20">
               <icons-demo />
             </div>
