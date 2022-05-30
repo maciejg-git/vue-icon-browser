@@ -118,11 +118,9 @@
       </v-button>
     </div>
 
-    <v-divider class="dark:border-neutral-700 my-10"></v-divider>
-
     <!-- usage tabs -->
 
-    <div class="mt-12">
+    <div class="mt-20">
       <icons-demo-tabs />
     </div>
   </div>
