@@ -1,6 +1,6 @@
 <template>
   <div
-      class="demo overflow-y-auto overflow-x-hidden mt-6 min-w-[500px] max-w-[700px] px-10"
+      class="demo overflow-y-auto overflow-x-hidden mt-6 px-10"
     style="max-height: calc(100vh - 6em)"
   >
   <!-- <div -->
