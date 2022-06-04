@@ -1,20 +1,16 @@
 <template>
   <v-navbar
     sticky
-    style-navbar="flat"
-    class="flex items-center justify-between border-b pl-4 pr-2 py-2 h-12 text-gray-200"
+    class="flex items-center justify-between"
   >
-    <span class="text-gray-700 dark:text-gray-200 text-xl font-bold ml-2">
+    <span class="text-xl font-bold text-gray-700 dark:text-gray-200 ml-2">
       Vue-icons
     </span>
     <div class="flex items-center px-2">
-      <v-button
-        name="button-link"
-        @click="store.toggleDarkMode()"
-      >
+      <v-button name="button-link" @click="store.toggleDarkMode()">
         <v-icon
-          :name="store.dark ? BSun : BMoon"
-          class="h-7 w-7 mx-2 text-neutral-700 dark:text-neutral-400"
+          :name="store.dark ? 'b-Sun' : 'b-moon'"
+          class="h-7 w-7 text-neutral-700 dark:text-neutral-400 mx-2"
         ></v-icon>
       </v-button>
     </div>
@@ -37,7 +33,6 @@
 
         <div class="flex mt-4 justify-between">
           <div>
-
             <!-- selected icons -->
 
             <div class="px-2" v-show="store.selectedIcons.length">
@@ -84,12 +79,14 @@
 
           <!-- icons demo -->
 
-          <div v-if="isDemoVisible" class="mx-2 relative border-l dark:border-dark-700">
+          <div
+            v-if="isDemoVisible"
+            class="mx-2 relative border-l dark:border-dark-700"
+          >
             <div class="sticky top-20">
               <icons-demo />
             </div>
           </div>
-
         </div>
       </div>
     </div>
@@ -118,7 +115,6 @@ import IconsMainSelected from "./IconsMainSelected.vue";
 import IconsVendors from "./IconsVendors.vue";
 import IconsMainFooter from "./IconsMainFooter.vue";
 import IconsMainFilter from "./IconsMainFilter.vue";
-import { BMoon, BSun } from "../icons/dist-bootstrap";
 
 export default {
   components: {
@@ -158,8 +154,6 @@ export default {
       store,
       isDemoVisible,
       handleVendorLoaded,
-      BMoon,
-      BSun,
     };
   },
 };

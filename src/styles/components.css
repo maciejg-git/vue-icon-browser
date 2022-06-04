@@ -943,6 +943,12 @@
 
 .navbar {
   @apply
+    border-b 
+    h-12
+    pl-4
+    pr-2 
+    py-2
+    text-gray-200
     bg-white
     dark:bg-dark-800
     dark:border-neutral-700

@@ -16,6 +16,8 @@ import {
   BThreeDotsVertical,
   BList,
   BThreeDots,
+  BMoon,
+  BSun,
 } from "./icons/dist-bootstrap";
 import { MdiMaterialDesign } from "./icons/dist-mdi";
 import { FaFontAwesomeBrand, FaBarsSolid } from "./icons/dist-fontawesome";
@@ -48,12 +50,12 @@ registerIcon(app, [
   BList,
   FaBarsSolid,
   BThreeDots,
+  // navbar
+  BMoon,
+  BSun,
 ]);
 
 app.provide("hljs", hljs);
-
 app.use(plugin);
-
 app.use(createPinia());
-
 app.mount("#app");
