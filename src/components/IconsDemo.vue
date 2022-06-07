@@ -1,13 +1,9 @@
 <template>
   <div
-      class="demo overflow-y-auto overflow-x-hidden mt-6 px-10"
+    class="demo overflow-y-auto overflow-x-hidden mt-6 px-10"
     style="max-height: calc(100vh - 6em)"
   >
-  <!-- <div -->
-  <!--     class="demo overflow-y-auto overflow-x-hidden mt-6 min-w-[500px] max-w-[700px] bg-neutral-50 dark:bg-[#212121] rounded-2xl p-10" -->
-  <!--   style="max-height: calc(100vh - 6em)" -->
-  <!-- > -->
-    <!-- icon demo header -->
+    <!-- demo header -->
 
     <div class="flex items-end gap-x-5 mb-10">
       <v-icon
@@ -15,7 +11,7 @@
         class="h-16 w-16 text-gray-600 dark:text-gray-400"
       ></v-icon>
       <div
-        class="overflow-x-hidden overflow-y-hidden text-3xl dark:text-gray-300"
+        class="overflow-hidden text-3xl dark:text-gray-300"
       >
         {{ store.currentIconDemo.getIconName() }}
       </div>
@@ -23,7 +19,7 @@
 
     <!-- buttons -->
 
-    <div class="flex items-center gap-x-5 my-5">
+    <div class="demo-section">
       <v-button>
         <v-icon :name="store.currentIconDemo" class="h-5 w-5 mr-2"></v-icon>
         Button
@@ -44,7 +40,7 @@
 
     <!-- buttons second row -->
 
-    <div class="flex items-center gap-x-5 my-5">
+    <div class="demo-section">
       <v-button style-button="circle">
         <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
       </v-button>
@@ -71,7 +67,7 @@
 
     <!-- input -->
 
-    <div class="flex items-center gap-5 my-5">
+    <div class="demo-section">
       <div class="relative flex items-center">
         <v-icon
           :name="store.currentIconDemo"
@@ -83,7 +79,7 @@
 
     <!-- link -->
 
-    <div class="flex items-center gap-10 my-5">
+    <div class="demo-section">
       <a href="" class="flex items-center text-blue-400 dark:text-blue-400">
         <v-icon class="h-4 w-4 mr-1" :name="store.currentIconDemo"></v-icon>
         <span class="underline">Link</span>
@@ -170,6 +166,9 @@ export default {
 </script>
 
 <style scoped>
+.demo-section {
+  @apply flex items-center gap-x-5 my-5
+}
 .demo {
   -ms-overflow-style: none;
   scrollbar-width: none;

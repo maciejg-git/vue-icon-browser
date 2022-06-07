@@ -79,7 +79,7 @@ export default {
 
     // url
 
-    let getUrl = (path) => path.filter(Boolean).join("/");
+    let joinUrl = (path) => path.filter(Boolean).join("/");
 
     // svg
 
@@ -96,7 +96,7 @@ export default {
       type = toKebab(type);
       if (type === "brand") type = "brands";
 
-      let url = getUrl([urls[vendor].SVG, type, file]);
+      let url = joinUrl([urls[vendor].SVG, type, file]);
 
       return {
         file,
@@ -140,7 +140,7 @@ export default {
       let file = tags.join("-") + (type ? "-" + type : "") + ".js";
       if (type === "brand") type = "brands";
 
-      let url = getUrl([urls[vendor].download.vue, type, file]);
+      let url = joinUrl([urls[vendor].download.vue, type, file]);
 
       let res = await fetch(url);
       res = await res.text();
@@ -150,7 +150,7 @@ export default {
 
     // usage strings
 
-    let getString = (tab, usage) => {
+    let getStringFromTemplate = (tab, usage) => {
       let icon = store.currentIconDemo;
       let { name, vendor, type, tags } = icon.$_icon;
 
@@ -171,7 +171,7 @@ export default {
 
       for (let tab in template) {
         for (let type in template[tab]) {
-          template[tab][type].s = getString(tab, type);
+          template[tab][type].s = getStringFromTemplate(tab, type);
         }
       }
 
