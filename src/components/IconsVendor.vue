@@ -1,29 +1,37 @@
 <template>
-    <div v-if="!iconsFiltered.length" class="font-bold text-lg text-gray-400 dark:text-gray-400 py-6">
-      Nothing found.
-    </div>
-    <div v-else class="flex flex-wrap items-center" @click="handleClickIcon($event)">
-      <template v-for="(icon, index) in iconsFiltered">
-        <div class="icon-tile" :data-index="index">
-          <component
-            :is="icon"
-            :class="[
-              'text-gray-600 dark:text-gray-400',
-              iconSizeClasses[store.size],
-              { 'icon--selected': icon.selected.value },
-            ]"
-          ></component>
-        </div>
-      </template>
-      <v-button
-        v-if="!store.filter && !store[vendor].loadedAll"
-        style-button="primary-outline"
-        class="ml-2"
-        @click="handleClickLoadAllButton"
-      >
-        Load All
-      </v-button>
-    </div>
+  <div
+    v-if="!iconsFiltered.length"
+    class="font-bold text-lg text-gray-400 dark:text-gray-400 py-6"
+  >
+    Nothing found.
+  </div>
+  <div
+    v-else
+    class="flex flex-wrap items-center"
+    @click="handleClickIcon($event)"
+  >
+    <template v-for="(icon, index) in iconsFiltered">
+      <div class="icon-tile" :data-index="index">
+        <component
+          :is="icon"
+          class="text-gray-600 dark:text-gray-400"
+          :class="[
+            iconSizeClasses[store.size],
+            { 'icon--selected': icon.selected.value },
+          ]"
+        ></component>
+      </div>
+    </template>
+
+    <v-button
+      v-if="!store.filter && !store[vendor].loadedAll"
+      style-button="primary-outline"
+      class="ml-2"
+      @click="handleClickLoadAllButton"
+    >
+      Load All
+    </v-button>
+  </div>
 </template>
 
 <script>
@@ -117,8 +125,7 @@ svg {
   pointer-events: none;
 }
 .icon--selected {
-  @apply
-    text-red-500
-    dark:text-red-500
+  @apply text-red-500
+    dark:text-red-500;
 }
 </style>
