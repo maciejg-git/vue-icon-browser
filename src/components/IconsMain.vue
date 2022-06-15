@@ -1,8 +1,5 @@
 <template>
-  <v-navbar
-    sticky
-    class="flex items-center justify-between"
-  >
+  <v-navbar sticky class="flex items-center justify-between">
     <span class="text-xl font-bold text-gray-700 dark:text-gray-200 ml-2">
       Vue-icons
     </span>
@@ -40,37 +37,19 @@
             </div>
 
             <div v-if="store.bootstrap.active" class="px-2">
-              <header>
-                <v-icon
-                  name="b-bootstrap-fill"
-                  class="h-8 w-8 text-purple-500 mr-2"
-                ></v-icon>
-                Bootstrap Icons
-              </header>
+              <icons-vendor-header vendor="bootstrap" />
               <icons-vendor-bootstrap
                 @bootstrap-loaded="handleVendorLoaded('bootstrap')"
               />
             </div>
 
             <div v-if="store.mdi.active" class="px-2">
-              <header>
-                <v-icon
-                  name="mdi-material-design"
-                  class="h-8 w-8 text-purple-500 mr-2"
-                ></v-icon>
-                Material Design Icons
-              </header>
+              <icons-vendor-header vendor="mdi" />
               <icons-vendor-mdi @mdi-loaded="handleVendorLoaded('mdi')" />
             </div>
 
             <div v-if="store.fontawesome.active" class="px-2">
-              <header>
-                <v-icon
-                  name="fa-font-awesome-brand"
-                  class="h-8 w-8 text-purple-500 mr-2"
-                ></v-icon>
-                Font Awesome Icons
-              </header>
+              <icons-vendor-header vendor="fontawesome" />
               <icons-vendor-fontawesome
                 @fontawesome-loaded="handleVendorLoaded('fontawesome')"
               />
@@ -79,14 +58,16 @@
 
           <!-- icons demo -->
 
-          <div
-            v-if="isDemoVisible"
-            class="mx-2 relative border-l dark:border-dark-700"
-          >
-            <div class="sticky top-20">
-              <icons-demo />
+          <transition name="fade">
+            <div
+              v-if="isDemoVisible"
+              class="mx-2 relative border-l dark:border-dark-700"
+            >
+              <div class="sticky top-20">
+                <icons-demo />
+              </div>
             </div>
-          </div>
+          </transition>
         </div>
       </div>
     </div>
@@ -115,6 +96,7 @@ import IconsMainSelected from "./IconsMainSelected.vue";
 import IconsVendors from "./IconsVendors.vue";
 import IconsMainFooter from "./IconsMainFooter.vue";
 import IconsMainFilter from "./IconsMainFilter.vue";
+import IconsVendorHeader from "./IconsVendorHeader.vue";
 
 export default {
   components: {
@@ -137,6 +119,7 @@ export default {
     IconsVendors,
     IconsMainFooter,
     IconsMainFilter,
+    IconsVendorHeader,
   },
   setup() {
     let store = useStore();
@@ -162,5 +145,13 @@ export default {
 <style scoped>
 header {
   @apply text-xl font-semibold flex items-center w-full my-6 mx-2 dark:text-neutral-300;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.12s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>

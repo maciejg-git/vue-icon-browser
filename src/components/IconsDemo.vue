@@ -10,9 +10,7 @@
         :name="store.currentIconDemo"
         class="h-16 w-16 text-gray-600 dark:text-gray-400"
       ></v-icon>
-      <div
-        class="overflow-hidden text-3xl dark:text-gray-300"
-      >
+      <div class="overflow-hidden text-3xl dark:text-gray-300">
         {{ store.currentIconDemo.getIconName() }}
       </div>
     </div>
@@ -167,7 +165,7 @@ export default {
 
 <style scoped>
 .demo-section {
-  @apply flex items-center gap-x-5 my-5
+  @apply flex items-center gap-x-5 my-5;
 }
 .demo {
   -ms-overflow-style: none;
