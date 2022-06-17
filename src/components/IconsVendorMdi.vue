@@ -1,5 +1,5 @@
 <template>
-  <icons-vendor :icons="icons" vendor="mdi"></icons-vendor>
+  <icons-vendor :icons="icons" vendor="mdi" />
 </template>
 
 <script>

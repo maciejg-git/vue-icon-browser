@@ -1,5 +1,5 @@
 <template>
-  <icons-vendor :icons="icons" vendor="fontawesome"></icons-vendor>
+  <icons-vendor :icons="icons" vendor="fontawesome" />
 </template>
 
 <script>

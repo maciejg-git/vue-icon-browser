@@ -1,5 +1,5 @@
 <template>
-  <icons-vendor :icons="icons" vendor="bootstrap"></icons-vendor>
+  <icons-vendor :icons="icons" vendor="bootstrap" />
 </template>
 
 <script>

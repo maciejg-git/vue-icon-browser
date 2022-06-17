@@ -93,7 +93,6 @@ import IconsSettings from "./IconsSettings.vue";
 import IconsMainToolbar from "./IconsMainToolbar.vue";
 import IconsDemo from "./IconsDemo.vue";
 import IconsMainSelected from "./IconsMainSelected.vue";
-import IconsVendors from "./IconsVendors.vue";
 import IconsMainFooter from "./IconsMainFooter.vue";
 import IconsMainFilter from "./IconsMainFilter.vue";
 import IconsVendorHeader from "./IconsVendorHeader.vue";
@@ -116,7 +115,6 @@ export default {
     IconsDemo,
     IconsMainSelected,
     IconsSettings,
-    IconsVendors,
     IconsMainFooter,
     IconsMainFilter,
     IconsVendorHeader,

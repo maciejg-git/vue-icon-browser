@@ -53,10 +53,8 @@ export default {
       lg: "h-12 w-12 m-3",
     };
 
-    //generate tags
     let tags = generateTags(props.icons);
 
-    // filter icons
     let iconsFiltered = computed(() => {
       let filter = store.filter;
 
@@ -77,7 +75,6 @@ export default {
       return Object.values(res);
     });
 
-    // click to select icon
     let selectIcon = (ev, icon) => {
       let selectedIcons = icon;
       if (
@@ -104,7 +101,9 @@ export default {
       if (index) selectIcon(ev, iconsFiltered.value[index]);
     };
 
-    let handleClickLoadAllButton = () => (store[props.vendor].loadedAll = true);
+    let handleClickLoadAllButton = () => {
+      store[props.vendor].loadedAll = true;
+    }
 
     return {
       store,
