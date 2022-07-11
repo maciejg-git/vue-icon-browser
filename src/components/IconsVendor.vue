@@ -3,7 +3,7 @@
     v-if="!iconsFiltered.length"
     class="font-bold text-lg text-gray-400 dark:text-gray-400 py-6"
   >
-    Nothing found.
+    Nothing found for current filter.
   </div>
   <div
     v-else

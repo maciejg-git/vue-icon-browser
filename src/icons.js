@@ -4,14 +4,14 @@ import { toKebab } from "./tools";
 
 let store = useStore();
 
-export let loadIcons = (icons, tags) => {
+export let loadIcons = (icons) => {
   for (let icon in icons) {
     markRaw(icons[icon]);
 
     icons[icon].selected = ref(false);
     icons[icon].getIconName = getIconName;
 
-    if (tags[icon].length) icons[icon].$_icon.tagsExtra = tags[icon];
+    // if (tags[icon].length) icons[icon].$_icon.tagsExtra = tags[icon];
   }
 
   return Object.values(icons);
@@ -24,12 +24,6 @@ export let generateTags = (icons) => {
     for (let tag of i.$_icon.tags) {
       if (!tags[tag]) tags[tag] = [];
       tags[tag].push(i);
-    }
-    if (i.$_icon.tagsExtra) {
-      for (let tag of i.$_icon.tagsExtra) {
-        if (!tags[tag]) tags[tag] = [];
-        tags[tag].push(i);
-      }
     }
   }
   return Object.entries(tags);
