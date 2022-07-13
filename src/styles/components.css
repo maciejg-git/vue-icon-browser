@@ -1061,7 +1061,7 @@
 
 .modal--backdrop {
   @apply
-    opacity-50
+    opacity-60
     bg-black
 }
 
