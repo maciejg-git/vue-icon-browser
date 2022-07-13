@@ -1,3 +1,10 @@
+// %v vendor
+// %kv kebab vendor
+// %n icon name
+// %kn kebab icon name
+// %t icon type (font awesome)
+// %kt kebab icon type (font awesome)
+
 export const templates = {
   B: {
     native: {
