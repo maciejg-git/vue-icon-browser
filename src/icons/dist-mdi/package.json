@@ -1,8 +1,8 @@
 {
-  "name": "vue-bootstrap-icons",
+  "name": "vue-mdi-icons",
   "version": "0.1.0",
-  "description": "Material Design Icons converted to Vue 3 components",
+  "description": "Material Design Icons Vue 3 components",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }

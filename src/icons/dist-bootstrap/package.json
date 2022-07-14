@@ -1,8 +1,8 @@
 {
   "name": "vue-bootstrap-icons",
   "version": "0.1.0",
-  "description": "Bootstrap icons converted to Vue 3 components",
+  "description": "Bootstrap Icons Vue 3 components",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }
