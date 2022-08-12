@@ -1,6 +1,6 @@
 <template>
   <div
-    class="demo overflow-y-auto overflow-x-hidden mt-6 px-10"
+    class="demo overflow-y-auto overflow-x-hidden mt-6 px-10 max-w-[500px] min-w-[500px]"
     style="max-height: calc(100vh - 6em)"
   >
     <!-- demo header -->
@@ -10,7 +10,7 @@
         :name="store.currentIconDemo"
         class="h-16 w-16 text-gray-600 dark:text-gray-400"
       ></v-icon>
-      <div class="overflow-hidden text-3xl dark:text-gray-300">
+      <div class="overflow-hidden text-ellipsis leading-10 text-3xl text-gray-600 dark:text-gray-400">
         {{ store.currentIconDemo.getIconName() }}
       </div>
     </div>
@@ -26,6 +26,9 @@
         Button
         <v-icon :name="store.currentIconDemo" class="h-5 w-5 ml-2"></v-icon>
       </v-button>
+    </div>
+
+    <div class="demo-section">
       <v-button style-button="pill small danger">
         <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
         Button
@@ -73,15 +76,6 @@
         ></v-icon>
         <v-input class="pl-10" placeholder="Search"></v-input>
       </div>
-    </div>
-
-    <!-- link -->
-
-    <div class="demo-section">
-      <a href="" class="flex items-center text-blue-400 dark:text-blue-400">
-        <v-icon class="h-4 w-4 mr-1" :name="store.currentIconDemo"></v-icon>
-        <span class="underline">Link</span>
-      </a>
     </div>
 
     <!-- text -->

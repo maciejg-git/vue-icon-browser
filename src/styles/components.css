@@ -252,7 +252,7 @@
       @apply
         shadow-none
         text-white
-        bg-primary-400
+        bg-primary-500
         hover:bg-primary-300
         dark:text-white
         dark:bg-primary-500
@@ -971,6 +971,11 @@
       @apply
         w-4
         h-4
+    }
+    .close-button--light {
+      @apply
+        text-text-300
+        dark:text-text-300
     }
 
 /* CHEVRON */
