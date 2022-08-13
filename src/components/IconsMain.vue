@@ -5,10 +5,12 @@
     </span>
     <div class="flex items-center px-2">
       <v-button name="button-link" @click="store.toggleDarkMode()">
-        <v-icon
-          :name="store.dark ? 'b-Sun' : 'b-moon'"
-          class="h-7 w-7 text-neutral-700 dark:text-neutral-400 mx-2"
-        ></v-icon>
+        <transition name="fade-slow">
+          <v-icon
+            :name="store.dark ? 'b-Sun' : 'b-moon'"
+            class="h-7 w-7 text-neutral-700 dark:text-neutral-400 mx-2"
+          ></v-icon>
+        </transition>
       </v-button>
     </div>
   </v-navbar>
@@ -150,6 +152,15 @@ header {
 }
 .fade-enter-from,
 .fade-leave-to {
+  opacity: 0;
+}
+.fade-slow-enter-active,
+.fade-slow-leave-active {
+  transition: opacity 1s ease, transform 0.6s ease;
+}
+.fade-slow-enter-from,
+.fade-slow-leave-to {
+  transform: translateX(20px);
   opacity: 0;
 }
 </style>
