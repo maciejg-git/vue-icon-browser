@@ -3,14 +3,14 @@
     v-if="!iconsFiltered.length"
     class="font-bold text-lg text-gray-400 dark:text-gray-400 py-6"
   >
-    Nothing found for current filter.
+    Nothing found.
   </div>
   <div
     v-else
     class="flex flex-wrap items-center"
     @click="handleClickIcon($event)"
   >
-    <template v-for="(icon, index) in iconsFiltered">
+    <template v-for="(icon, index) in iconsFiltered" :key="icon.$_icon.name">
       <div class="icon-tile" :data-index="index">
         <component
           :is="icon"

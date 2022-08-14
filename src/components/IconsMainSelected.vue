@@ -11,6 +11,7 @@
             :data-index="index"
             @mouseenter="handleMouseenterIcon(icon)"
             @mouseleave="handleMouseleaveIcon"
+            v-tooltip.bottom.oY7="icon.getIconName()"
           >
             <v-close-button
               v-show="hoveredIcon === icon"

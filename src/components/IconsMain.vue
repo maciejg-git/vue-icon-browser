@@ -18,19 +18,19 @@
   <div class="flex mx-16 dark:bg-neutral-800">
     <div class="flex-1">
       <div class="mx-auto">
-        <!-- filter input -->
 
         <icons-main-filter />
 
         <v-divider class="my-6 dark:border-neutral-700" />
-
-        <!-- toolbar -->
 
         <icons-main-toolbar />
 
         <!-- icons -->
 
         <div class="flex mt-4 justify-between">
+
+          <!-- icons -->
+
           <div>
             <!-- selected icons -->
 
@@ -143,9 +143,6 @@ export default {
 </script>
 
 <style scoped>
-header {
-  @apply text-xl font-semibold flex items-center w-full my-6 mx-2 dark:text-neutral-300;
-}
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.12s ease;
