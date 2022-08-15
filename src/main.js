@@ -18,6 +18,10 @@ import {
   BThreeDots,
   BMoon,
   BSun,
+  BBagCheck,
+  BBagCheckFill,
+  BStar,
+  BBookmarkCheck,
 } from "./icons/dist-bootstrap";
 import { MdiMaterialDesign } from "./icons/dist-mdi";
 import { FaFontAwesomeBrand, FaBarsSolid } from "./icons/dist-fontawesome";
@@ -53,6 +57,10 @@ registerIcon(app, [
   // navbar
   BMoon,
   BSun,
+  BBagCheck,
+  BBagCheckFill,
+  BStar,
+  BBookmarkCheck,
 ]);
 
 app.provide("hljs", hljs);

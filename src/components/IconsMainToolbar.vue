@@ -19,6 +19,44 @@
     </div>
 
     <div class="flex items-center border-l px-2 dark:border-neutral-700">
+  <v-dropdown auto-close-menu :offsetY="5" placement="bottom">
+    <template #reference="{ reference, onTrigger }">
+      <v-button
+        name="button-link"
+        :ref="reference" 
+        v-on="onTrigger"
+      >
+        <v-icon
+          name="b-bag-check"
+          class="h-7 w-7 mx-2 dark:text-neutral-300"
+          :class="{ 'opacity-20': store.sidepanelState !== 'settings' }"
+        ></v-icon>
+      </v-button>
+    </template>
+    <v-card width="320px" style-card="menu shadow">
+      <v-dropdown-header>
+        Selected icons...
+      </v-dropdown-header>
+      <v-dropdown-menu-item tag="button">
+        Remove all
+      </v-dropdown-menu-item>
+      <v-divider />
+      <v-dropdown-menu-item tag="button">
+        Download all as Vue
+      </v-dropdown-menu-item>
+      <v-dropdown-menu-item tag="button">
+        Download all as SVG
+      </v-dropdown-menu-item>
+      <v-divider />
+      <v-dropdown-menu-item tag="button">
+        Sort 
+      </v-dropdown-menu-item>
+    </v-card>
+  </v-dropdown>
+        
+    </div>
+
+    <div class="flex items-center border-l px-2 dark:border-neutral-700">
       <v-button
         name="button-link"
         @click="handleToolbarClick('settings')"
@@ -26,7 +64,7 @@
       >
         <v-icon
           :name="BGear"
-          class="h-7 w-7 mx-2 dark:text-neutral-400"
+          class="h-7 w-7 mx-2 dark:text-neutral-300"
           :class="{ 'opacity-20': store.sidepanelState !== 'settings' }"
         ></v-icon>
       </v-button>
