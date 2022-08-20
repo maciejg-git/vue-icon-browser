@@ -6,7 +6,7 @@
 import { onMounted } from "vue";
 import IconsVendor from "./IconsVendor.vue";
 import { loadIcons } from "../icons";
-import * as iconsData from "../icons/dist-bootstrap";
+import * as iconsData from "../icons/bootstrap";
 // import tags from "../icons/dist-bootstrap/tags.json";
 
 export default {

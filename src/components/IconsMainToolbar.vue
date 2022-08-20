@@ -87,8 +87,8 @@
 
 <script>
 import { useStore } from "../composition/useStore";
-import { BMoon, BGear } from "../icons/dist-bootstrap";
-import { MdiSizeS, MdiSizeM, MdiSizeL } from "../icons/dist-mdi";
+import { BMoon, BGear } from "../icons/bootstrap";
+import { MdiSizeS, MdiSizeM, MdiSizeL } from "../icons/mdi";
 import { toKebab, download } from "../tools";
 import { urls } from "../const";
 

@@ -10,7 +10,7 @@
     class="flex flex-wrap items-center"
     @click="handleClickIcon($event)"
   >
-    <template v-for="(icon, index) in iconsFiltered" :key="icon.$_icon.name">
+    <template v-for="(icon, index) in iconsFiltered" :key="icon.$_icon.vendor + icon.$_icon.name + icon.$_icon.type">
       <div class="icon-tile" :data-index="index">
         <component
           :is="icon"

@@ -22,10 +22,10 @@ import {
   BBagCheckFill,
   BStar,
   BBookmarkCheck,
-} from "./icons/dist-bootstrap";
-import { MdiMaterialDesign } from "./icons/dist-mdi";
-import { FaFontAwesomeBrand, FaBarsSolid } from "./icons/dist-fontawesome";
-import { MdiContentCopy, MdiCheckBold } from "./icons/dist-mdi";
+} from "./icons/bootstrap";
+import { MdiMaterialDesign } from "./icons/mdi";
+import { FaFontAwesomeBrand, FaBarsSolid } from "./icons/fontawesome";
+import { MdiContentCopy, MdiCheckBold } from "./icons/mdi";
 
 import hljs from "highlight.js/lib/core";
 import javascript from "highlight.js/lib/languages/javascript";
