@@ -12,7 +12,7 @@
           <v-icon
             :name="b.icon"
             class="h-7 w-7 mx-2 dark:text-neutral-400"
-            :class="{ 'opacity-20': store.size !== b.option }"
+            :class="{ 'opacity-30': store.size !== b.option }"
           ></v-icon>
         </v-button>
       </template>
@@ -25,22 +25,40 @@
             <v-icon
               name="b-bag-check"
               class="h-7 w-7 mx-2 dark:text-neutral-300"
-              :class="{ 'opacity-20': store.sidepanelState !== 'settings' }"
+              :class="{ 'opacity-30': store.sidepanelState !== 'settings' }"
             ></v-icon>
           </v-button>
         </template>
         <v-card width="320px" style-card="menu shadow">
           <v-dropdown-header> Selected icons... </v-dropdown-header>
-          <v-dropdown-menu-item tag="button"> Remove all </v-dropdown-menu-item>
+          <v-dropdown-menu-item
+            tag="button"
+            :disabled="!store.selectedIcons.length"
+            @click="handleRemoveAll"
+          >
+            Remove all
+          </v-dropdown-menu-item>
           <v-divider />
-          <v-dropdown-menu-item tag="button" @click="handleDownloadAllVue">
+          <v-dropdown-menu-item
+            tag="button"
+            :disabled="!store.selectedIcons.length"
+            @click="handleDownloadAllVue"
+          >
             Download all as Vue
           </v-dropdown-menu-item>
-          <v-dropdown-menu-item tag="button">
+          <v-dropdown-menu-item
+            :disabled="!store.selectedIcons.length"
+            tag="button"
+          >
             Download all as SVG
           </v-dropdown-menu-item>
           <v-divider />
-          <v-dropdown-menu-item tag="button"> Sort </v-dropdown-menu-item>
+          <v-dropdown-menu-item
+            tag="button"
+            :disabled="!store.selectedIcons.length"
+          >
+            Sort
+          </v-dropdown-menu-item>
         </v-card>
       </v-dropdown>
     </div>
@@ -54,7 +72,7 @@
         <v-icon
           :name="BGear"
           class="h-7 w-7 mx-2 dark:text-neutral-300"
-          :class="{ 'opacity-20': store.sidepanelState !== 'settings' }"
+          :class="{ 'opacity-30': store.sidepanelState !== 'settings' }"
         ></v-icon>
       </v-button>
     </div>
@@ -151,11 +169,15 @@ export default {
 
     let handleToggleVendor = (vendor) => store.toggleVendor(vendor);
 
+    let handleRemoveAll = () => {
+      store.clearSelected();
+    };
+
     let handleDownloadAllVue = () => {
       for (let icon of store.selectedIcons) {
-        downloadVueComponent(icon)
+        downloadVueComponent(icon);
       }
-    }
+    };
 
     return {
       store,
@@ -168,6 +190,7 @@ export default {
       MdiSizeS,
       MdiSizeM,
       MdiSizeL,
+      handleRemoveAll,
       handleDownloadAllVue,
     };
   },
