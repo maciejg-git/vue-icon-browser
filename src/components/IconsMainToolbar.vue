@@ -38,7 +38,6 @@
           >
             Remove all
           </v-dropdown-menu-item>
-          <v-divider />
           <v-dropdown-menu-item
             tag="button"
             :disabled="!store.selectedIcons.length"
@@ -52,7 +51,6 @@
           >
             Download all as SVG
           </v-dropdown-menu-item>
-          <v-divider />
           <v-dropdown-menu-item
             tag="button"
             :disabled="!store.selectedIcons.length"
