@@ -1,6 +1,6 @@
 <template>
   <div
-    class="demo overflow-y-auto overflow-x-hidden mt-6 px-10 max-w-[500px] min-w-[500px]"
+    class="demo overflow-y-auto overflow-x-hidden mt-6 px-10 max-w-[470px] min-w-[470px]"
     style="max-height: calc(100vh - 6em)"
   >
     <!-- demo header -->
@@ -29,11 +29,13 @@
     </div>
 
     <div class="demo-section">
-      <v-button style-button="pill small danger">
-        <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
-        Button
+      <v-button style-button="circle">
+        <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
       </v-button>
-      <v-button name="button-plain" class="font-semibold text-lg">
+      <v-button style-button="equal secondary">
+        <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
+      </v-button>
+      <v-button style-button="pill danger">
         <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
         Button
       </v-button>
@@ -42,11 +44,9 @@
     <!-- buttons second row -->
 
     <div class="demo-section">
-      <v-button style-button="circle">
-        <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
-      </v-button>
-      <v-button style-button="equal secondary">
-        <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
+      <v-button name="button-plain" class="font-semibold text-lg">
+        <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
+        Button
       </v-button>
       <v-icon
         :name="store.currentIconDemo"
