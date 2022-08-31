@@ -105,7 +105,6 @@ export default {
 
       let url = makeUrl([urls[vendor].SVG, ...type, file]);
 
-      console.log(url)
       return {
         file,
         url,
