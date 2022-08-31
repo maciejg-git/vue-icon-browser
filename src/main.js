@@ -22,9 +22,10 @@ import {
   BBagCheckFill,
   BStar,
   BBookmarkCheck,
+  BShield,
 } from "./icons/bootstrap";
 import { MdiMaterialDesign } from "./icons/mdi";
-import { FaFontAwesomeBrand, FaBarsSolid } from "./icons/fontawesome";
+import { FaFontAwesomeBrands, FaBarsSolid } from "./icons/fontawesome";
 import { MdiContentCopy, MdiCheckBold } from "./icons/mdi";
 
 import hljs from "highlight.js/lib/core";
@@ -42,7 +43,7 @@ registerIcon(app, [
   // logos
   BBootstrapFill,
   MdiMaterialDesign,
-  FaFontAwesomeBrand,
+  FaFontAwesomeBrands,
   BGithub,
   // clipboard
   MdiContentCopy,
@@ -61,6 +62,7 @@ registerIcon(app, [
   BBagCheckFill,
   BStar,
   BBookmarkCheck,
+  BShield,
 ]);
 
 app.provide("hljs", hljs);

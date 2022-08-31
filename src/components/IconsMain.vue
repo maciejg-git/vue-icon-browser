@@ -56,6 +56,13 @@
                 @fontawesome-loaded="handleVendorLoaded('fontawesome')"
               />
             </div>
+
+            <div v-if="store.heroicons.active" class="px-2">
+              <icons-vendor-header vendor="heroicons" />
+              <icons-vendor-heroicons
+                @heroicons-loaded="handleVendorLoaded('heroicons')"
+              />
+            </div>
           </div>
 
           <!-- icons demo -->
@@ -111,6 +118,10 @@ export default {
     }),
     IconsVendorFontawesome: defineAsyncComponent({
       loader: () => import("./IconsVendorFontawesome.vue"),
+      loadingComponent: LoadingProgress,
+    }),
+    IconsVendorHeroicons: defineAsyncComponent({
+      loader: () => import("./IconsVendorHeroicons.vue"),
       loadingComponent: LoadingProgress,
     }),
     IconsMainToolbar,

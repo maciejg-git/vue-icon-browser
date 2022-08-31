@@ -115,7 +115,8 @@ export default {
     let icons = {
       bootstrap: "b-bootstrap-fill",
       mdi: "mdi-material-design",
-      fontawesome: "fa-font-awesome-brand",
+      fontawesome: "fa-font-awesome-brands",
+      heroicons: "b-shield",
     };
 
     let buttons = {

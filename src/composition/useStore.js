@@ -3,7 +3,7 @@ import { defineStore } from 'pinia'
 export const useStore = defineStore('main', {
  state: () => {
     return {
-      vendors: ["bootstrap", "mdi", "fontawesome"],
+      vendors: ["bootstrap", "mdi", "fontawesome", "heroicons"],
       settings: {
         vendorPrefix: true,
         originalNames: false,
@@ -15,6 +15,7 @@ export const useStore = defineStore('main', {
         active: true,
         loading: false,
         loaded: false,
+        loadedAll: false,
         name: "Bootstrap",
         icon: "b-bootstrap-fill",
       },
@@ -22,6 +23,7 @@ export const useStore = defineStore('main', {
         active: false,
         loading: false,
         loaded: false,
+        loadedAll: false,
         name: "Material Design Icons",
         icon: "mdi-material-design",
       },
@@ -29,8 +31,17 @@ export const useStore = defineStore('main', {
         active: false,
         loading: false,
         loaded: false,
+        loadedAll: false,
         name: "Font Awesome",
         icon: "fa-font-awesome-brand",
+      },
+      heroicons: {
+        active: false,
+        loading: false,
+        loaded: false,
+        loadedAll: false,
+        name: "Heroicons",
+        icon: "b-shield",
       },
       filter: "",
       currentIconDemo: null,
@@ -42,7 +53,7 @@ export const useStore = defineStore('main', {
   },
   getters: {
     isAnyVendorLoaded: (state) => {
-      return state.bootstrap.active || state.mdi.active || state.fontawesome.active
+      return state.bootstrap.active || state.mdi.active || state.fontawesome.active || state.heroicons.active
     },
   },
   actions: {

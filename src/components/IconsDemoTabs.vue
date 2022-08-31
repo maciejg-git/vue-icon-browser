@@ -1,6 +1,6 @@
 <template>
   <v-tabs name="tabs-rounded">
-    <v-tab :name="nativeTabName">
+    <v-tab :name="nativeTabName" v-if="hasNativeTab()">
       <div class="py-1">
         <icons-code
           v-for="usage in usageStrings.native"
@@ -56,6 +56,7 @@ import { useStore } from "../composition/useStore";
 import { toKebab, cloneObject, download } from "../tools";
 import { templates, urls } from "../const";
 import IconsCode from "./IconsCode.vue";
+import kebabCase from "just-kebab-case"
 
 export default {
   components: {
@@ -77,9 +78,15 @@ export default {
       return tabNames[vendor];
     });
 
+    let hasNativeTab = () => {
+      let { vendor } = store.currentIconDemo.$_icon;
+
+      return !(vendor == 'H') 
+    }
+
     // url
 
-    let joinUrl = (path) => path.filter(Boolean).join("/");
+    let makeUrl = (path) => path.filter(Boolean).join("/");
 
     // svg
 
@@ -90,14 +97,15 @@ export default {
 
       if (!icon) return;
 
-      let { vendor, tags, type } = icon.$_icon;
+      let { name, vendor, type } = icon.$_icon;
 
-      let file = tags.join("-") + ".svg";
-      type = toKebab(type);
-      if (type === "brand") type = "brands";
+      let file = kebabCase(name) + ".svg"
 
-      let url = joinUrl([urls[vendor].SVG, type, file]);
+      type = type.map((i) => kebabCase(i))
 
+      let url = makeUrl([urls[vendor].SVG, ...type, file]);
+
+      console.log(url)
       return {
         file,
         url,
@@ -135,12 +143,14 @@ export default {
 
       if (!icon) return;
 
-      let { vendor, tags, type } = icon.$_icon;
-      type = toKebab(type);
-      let file = tags.join("-") + (type ? "-" + type : "") + ".js";
-      if (type === "brand") type = "brands";
+      let { name, vendor, type } = icon.$_icon;
 
-      let url = joinUrl([urls[vendor].download.vue, type, file]);
+      name = kebabCase(name)
+      type = kebabCase(type.join(""))
+
+      let file = name + (type ? "-" + type : "") + ".js";
+
+      let url = makeUrl([urls[vendor].download.vue, file]);
 
       let res = await fetch(url);
       res = await res.text();
@@ -153,6 +163,8 @@ export default {
     let getStringFromTemplate = (tab, usage) => {
       let icon = store.currentIconDemo;
       let { name, vendor, type, tags } = icon.$_icon;
+
+      type = type.join("")
 
       return templates[vendor][tab][usage].s
         .replace(/%v/g, vendor)
@@ -180,6 +192,7 @@ export default {
 
     return {
       usageStrings,
+      hasNativeTab,
       SVGstring,
       downloadVueComponent,
       downloadSVG,

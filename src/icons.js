@@ -32,7 +32,7 @@ export let generateTags = (icons) => {
 export let getIconName = function () {
   let i = `${store.settings.vendorPrefix ? this.$_icon.vendor : ""}${
     this.$_icon.name
-  }${store.settings.originalNames ? "" : this.$_icon.type}`;
+  }${store.settings.originalNames ? "" : this.$_icon.type.join("")}`;
   if (store.settings.kebabCase) return toKebab(i);
   return i;
 };

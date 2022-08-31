@@ -1,10 +1,10 @@
-import { h } from 'vue'
+import { h } from "vue"
 
 export let B1CircleFill = {
   $_icon: {
     name: "1CircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["1","circle","fill"],
   },
   render() {
@@ -24,7 +24,7 @@ export let B1Circle = {
   $_icon: {
     name: "1Circle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["1","circle"],
   },
   render() {
@@ -44,7 +44,7 @@ export let B1SquareFill = {
   $_icon: {
     name: "1SquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["1","square","fill"],
   },
   render() {
@@ -64,7 +64,7 @@ export let B1Square = {
   $_icon: {
     name: "1Square",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["1","square"],
   },
   render() {
@@ -88,7 +88,7 @@ export let B123 = {
   $_icon: {
     name: "123",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["123"],
   },
   render() {
@@ -108,7 +108,7 @@ export let B2CircleFill = {
   $_icon: {
     name: "2CircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["2","circle","fill"],
   },
   render() {
@@ -128,7 +128,7 @@ export let B2Circle = {
   $_icon: {
     name: "2Circle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["2","circle"],
   },
   render() {
@@ -148,7 +148,7 @@ export let B2SquareFill = {
   $_icon: {
     name: "2SquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["2","square","fill"],
   },
   render() {
@@ -168,7 +168,7 @@ export let B2Square = {
   $_icon: {
     name: "2Square",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["2","square"],
   },
   render() {
@@ -192,7 +192,7 @@ export let B3CircleFill = {
   $_icon: {
     name: "3CircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["3","circle","fill"],
   },
   render() {
@@ -212,7 +212,7 @@ export let B3Circle = {
   $_icon: {
     name: "3Circle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["3","circle"],
   },
   render() {
@@ -236,7 +236,7 @@ export let B3SquareFill = {
   $_icon: {
     name: "3SquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["3","square","fill"],
   },
   render() {
@@ -256,7 +256,7 @@ export let B3Square = {
   $_icon: {
     name: "3Square",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["3","square"],
   },
   render() {
@@ -280,7 +280,7 @@ export let B4CircleFill = {
   $_icon: {
     name: "4CircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["4","circle","fill"],
   },
   render() {
@@ -300,7 +300,7 @@ export let B4Circle = {
   $_icon: {
     name: "4Circle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["4","circle"],
   },
   render() {
@@ -324,7 +324,7 @@ export let B4SquareFill = {
   $_icon: {
     name: "4SquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["4","square","fill"],
   },
   render() {
@@ -348,7 +348,7 @@ export let B4Square = {
   $_icon: {
     name: "4Square",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["4","square"],
   },
   render() {
@@ -372,7 +372,7 @@ export let B5CircleFill = {
   $_icon: {
     name: "5CircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["5","circle","fill"],
   },
   render() {
@@ -392,7 +392,7 @@ export let B5Circle = {
   $_icon: {
     name: "5Circle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["5","circle"],
   },
   render() {
@@ -412,7 +412,7 @@ export let B5SquareFill = {
   $_icon: {
     name: "5SquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["5","square","fill"],
   },
   render() {
@@ -432,7 +432,7 @@ export let B5Square = {
   $_icon: {
     name: "5Square",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["5","square"],
   },
   render() {
@@ -456,7 +456,7 @@ export let B6CircleFill = {
   $_icon: {
     name: "6CircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["6","circle","fill"],
   },
   render() {
@@ -476,7 +476,7 @@ export let B6Circle = {
   $_icon: {
     name: "6Circle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["6","circle"],
   },
   render() {
@@ -496,7 +496,7 @@ export let B6SquareFill = {
   $_icon: {
     name: "6SquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["6","square","fill"],
   },
   render() {
@@ -520,7 +520,7 @@ export let B6Square = {
   $_icon: {
     name: "6Square",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["6","square"],
   },
   render() {
@@ -544,7 +544,7 @@ export let B7CircleFill = {
   $_icon: {
     name: "7CircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["7","circle","fill"],
   },
   render() {
@@ -564,7 +564,7 @@ export let B7Circle = {
   $_icon: {
     name: "7Circle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["7","circle"],
   },
   render() {
@@ -584,7 +584,7 @@ export let B7SquareFill = {
   $_icon: {
     name: "7SquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["7","square","fill"],
   },
   render() {
@@ -604,7 +604,7 @@ export let B7Square = {
   $_icon: {
     name: "7Square",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["7","square"],
   },
   render() {
@@ -628,7 +628,7 @@ export let B8CircleFill = {
   $_icon: {
     name: "8CircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["8","circle","fill"],
   },
   render() {
@@ -648,7 +648,7 @@ export let B8Circle = {
   $_icon: {
     name: "8Circle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["8","circle"],
   },
   render() {
@@ -668,7 +668,7 @@ export let B8SquareFill = {
   $_icon: {
     name: "8SquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["8","square","fill"],
   },
   render() {
@@ -692,7 +692,7 @@ export let B8Square = {
   $_icon: {
     name: "8Square",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["8","square"],
   },
   render() {
@@ -716,7 +716,7 @@ export let B9CircleFill = {
   $_icon: {
     name: "9CircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["9","circle","fill"],
   },
   render() {
@@ -736,7 +736,7 @@ export let B9Circle = {
   $_icon: {
     name: "9Circle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["9","circle"],
   },
   render() {
@@ -756,7 +756,7 @@ export let B9SquareFill = {
   $_icon: {
     name: "9SquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["9","square","fill"],
   },
   render() {
@@ -780,7 +780,7 @@ export let B9Square = {
   $_icon: {
     name: "9Square",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["9","square"],
   },
   render() {
@@ -804,7 +804,7 @@ export let BActivity = {
   $_icon: {
     name: "Activity",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["activity"],
   },
   render() {
@@ -824,7 +824,7 @@ export let BAirplaneEnginesFill = {
   $_icon: {
     name: "AirplaneEnginesFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["airplane","engines","fill"],
   },
   render() {
@@ -844,7 +844,7 @@ export let BAirplaneEngines = {
   $_icon: {
     name: "AirplaneEngines",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["airplane","engines"],
   },
   render() {
@@ -864,7 +864,7 @@ export let BAirplaneFill = {
   $_icon: {
     name: "AirplaneFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["airplane","fill"],
   },
   render() {
@@ -884,7 +884,7 @@ export let BAirplane = {
   $_icon: {
     name: "Airplane",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["airplane"],
   },
   render() {
@@ -904,7 +904,7 @@ export let BAlarmFill = {
   $_icon: {
     name: "AlarmFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["alarm","fill"],
   },
   render() {
@@ -924,7 +924,7 @@ export let BAlarm = {
   $_icon: {
     name: "Alarm",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["alarm"],
   },
   render() {
@@ -948,7 +948,7 @@ export let BAlexa = {
   $_icon: {
     name: "Alexa",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["alexa"],
   },
   render() {
@@ -968,7 +968,7 @@ export let BAlignBottom = {
   $_icon: {
     name: "AlignBottom",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["align","bottom"],
   },
   render() {
@@ -992,7 +992,7 @@ export let BAlignCenter = {
   $_icon: {
     name: "AlignCenter",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["align","center"],
   },
   render() {
@@ -1012,7 +1012,7 @@ export let BAlignEnd = {
   $_icon: {
     name: "AlignEnd",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["align","end"],
   },
   render() {
@@ -1036,7 +1036,7 @@ export let BAlignMiddle = {
   $_icon: {
     name: "AlignMiddle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["align","middle"],
   },
   render() {
@@ -1056,7 +1056,7 @@ export let BAlignStart = {
   $_icon: {
     name: "AlignStart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["align","start"],
   },
   render() {
@@ -1080,7 +1080,7 @@ export let BAlignTop = {
   $_icon: {
     name: "AlignTop",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["align","top"],
   },
   render() {
@@ -1104,7 +1104,7 @@ export let BAlipay = {
   $_icon: {
     name: "Alipay",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["alipay"],
   },
   render() {
@@ -1128,7 +1128,7 @@ export let BAlt = {
   $_icon: {
     name: "Alt",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["alt"],
   },
   render() {
@@ -1148,7 +1148,7 @@ export let BAndroid = {
   $_icon: {
     name: "Android",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["android"],
   },
   render() {
@@ -1168,7 +1168,7 @@ export let BAndroid2 = {
   $_icon: {
     name: "Android2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["android2"],
   },
   render() {
@@ -1188,7 +1188,7 @@ export let BAppIndicator = {
   $_icon: {
     name: "AppIndicator",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["app","indicator"],
   },
   render() {
@@ -1212,7 +1212,7 @@ export let BApp = {
   $_icon: {
     name: "App",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["app"],
   },
   render() {
@@ -1232,7 +1232,7 @@ export let BApple = {
   $_icon: {
     name: "Apple",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["apple"],
   },
   render() {
@@ -1256,7 +1256,7 @@ export let BArchiveFill = {
   $_icon: {
     name: "ArchiveFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["archive","fill"],
   },
   render() {
@@ -1276,7 +1276,7 @@ export let BArchive = {
   $_icon: {
     name: "Archive",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["archive"],
   },
   render() {
@@ -1296,7 +1296,7 @@ export let BArrow90degDown = {
   $_icon: {
     name: "Arrow90degDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","90deg","down"],
   },
   render() {
@@ -1316,7 +1316,7 @@ export let BArrow90degLeft = {
   $_icon: {
     name: "Arrow90degLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","90deg","left"],
   },
   render() {
@@ -1336,7 +1336,7 @@ export let BArrow90degRight = {
   $_icon: {
     name: "Arrow90degRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","90deg","right"],
   },
   render() {
@@ -1356,7 +1356,7 @@ export let BArrow90degUp = {
   $_icon: {
     name: "Arrow90degUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","90deg","up"],
   },
   render() {
@@ -1376,7 +1376,7 @@ export let BArrowBarDown = {
   $_icon: {
     name: "ArrowBarDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","bar","down"],
   },
   render() {
@@ -1396,7 +1396,7 @@ export let BArrowBarLeft = {
   $_icon: {
     name: "ArrowBarLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","bar","left"],
   },
   render() {
@@ -1416,7 +1416,7 @@ export let BArrowBarRight = {
   $_icon: {
     name: "ArrowBarRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","bar","right"],
   },
   render() {
@@ -1436,7 +1436,7 @@ export let BArrowBarUp = {
   $_icon: {
     name: "ArrowBarUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","bar","up"],
   },
   render() {
@@ -1456,7 +1456,7 @@ export let BArrowClockwise = {
   $_icon: {
     name: "ArrowClockwise",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","clockwise"],
   },
   render() {
@@ -1480,7 +1480,7 @@ export let BArrowCounterclockwise = {
   $_icon: {
     name: "ArrowCounterclockwise",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","counterclockwise"],
   },
   render() {
@@ -1504,7 +1504,7 @@ export let BArrowDownCircleFill = {
   $_icon: {
     name: "ArrowDownCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","down","circle","fill"],
   },
   render() {
@@ -1524,7 +1524,7 @@ export let BArrowDownCircle = {
   $_icon: {
     name: "ArrowDownCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","down","circle"],
   },
   render() {
@@ -1544,7 +1544,7 @@ export let BArrowDownLeftCircleFill = {
   $_icon: {
     name: "ArrowDownLeftCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","down","left","circle","fill"],
   },
   render() {
@@ -1564,7 +1564,7 @@ export let BArrowDownLeftCircle = {
   $_icon: {
     name: "ArrowDownLeftCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","down","left","circle"],
   },
   render() {
@@ -1584,7 +1584,7 @@ export let BArrowDownLeftSquareFill = {
   $_icon: {
     name: "ArrowDownLeftSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","down","left","square","fill"],
   },
   render() {
@@ -1604,7 +1604,7 @@ export let BArrowDownLeftSquare = {
   $_icon: {
     name: "ArrowDownLeftSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","down","left","square"],
   },
   render() {
@@ -1624,7 +1624,7 @@ export let BArrowDownLeft = {
   $_icon: {
     name: "ArrowDownLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","down","left"],
   },
   render() {
@@ -1644,7 +1644,7 @@ export let BArrowDownRightCircleFill = {
   $_icon: {
     name: "ArrowDownRightCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","down","right","circle","fill"],
   },
   render() {
@@ -1664,7 +1664,7 @@ export let BArrowDownRightCircle = {
   $_icon: {
     name: "ArrowDownRightCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","down","right","circle"],
   },
   render() {
@@ -1684,7 +1684,7 @@ export let BArrowDownRightSquareFill = {
   $_icon: {
     name: "ArrowDownRightSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","down","right","square","fill"],
   },
   render() {
@@ -1704,7 +1704,7 @@ export let BArrowDownRightSquare = {
   $_icon: {
     name: "ArrowDownRightSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","down","right","square"],
   },
   render() {
@@ -1724,7 +1724,7 @@ export let BArrowDownRight = {
   $_icon: {
     name: "ArrowDownRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","down","right"],
   },
   render() {
@@ -1744,7 +1744,7 @@ export let BArrowDownShort = {
   $_icon: {
     name: "ArrowDownShort",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","down","short"],
   },
   render() {
@@ -1764,7 +1764,7 @@ export let BArrowDownSquareFill = {
   $_icon: {
     name: "ArrowDownSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","down","square","fill"],
   },
   render() {
@@ -1784,7 +1784,7 @@ export let BArrowDownSquare = {
   $_icon: {
     name: "ArrowDownSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","down","square"],
   },
   render() {
@@ -1804,7 +1804,7 @@ export let BArrowDownUp = {
   $_icon: {
     name: "ArrowDownUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","down","up"],
   },
   render() {
@@ -1824,7 +1824,7 @@ export let BArrowDown = {
   $_icon: {
     name: "ArrowDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","down"],
   },
   render() {
@@ -1844,7 +1844,7 @@ export let BArrowLeftCircleFill = {
   $_icon: {
     name: "ArrowLeftCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","left","circle","fill"],
   },
   render() {
@@ -1864,7 +1864,7 @@ export let BArrowLeftCircle = {
   $_icon: {
     name: "ArrowLeftCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","left","circle"],
   },
   render() {
@@ -1884,7 +1884,7 @@ export let BArrowLeftRight = {
   $_icon: {
     name: "ArrowLeftRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","left","right"],
   },
   render() {
@@ -1904,7 +1904,7 @@ export let BArrowLeftShort = {
   $_icon: {
     name: "ArrowLeftShort",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","left","short"],
   },
   render() {
@@ -1924,7 +1924,7 @@ export let BArrowLeftSquareFill = {
   $_icon: {
     name: "ArrowLeftSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","left","square","fill"],
   },
   render() {
@@ -1944,7 +1944,7 @@ export let BArrowLeftSquare = {
   $_icon: {
     name: "ArrowLeftSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","left","square"],
   },
   render() {
@@ -1964,7 +1964,7 @@ export let BArrowLeft = {
   $_icon: {
     name: "ArrowLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","left"],
   },
   render() {
@@ -1984,7 +1984,7 @@ export let BArrowRepeat = {
   $_icon: {
     name: "ArrowRepeat",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","repeat"],
   },
   render() {
@@ -2008,7 +2008,7 @@ export let BArrowReturnLeft = {
   $_icon: {
     name: "ArrowReturnLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","return","left"],
   },
   render() {
@@ -2028,7 +2028,7 @@ export let BArrowReturnRight = {
   $_icon: {
     name: "ArrowReturnRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","return","right"],
   },
   render() {
@@ -2048,7 +2048,7 @@ export let BArrowRightCircleFill = {
   $_icon: {
     name: "ArrowRightCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","right","circle","fill"],
   },
   render() {
@@ -2068,7 +2068,7 @@ export let BArrowRightCircle = {
   $_icon: {
     name: "ArrowRightCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","right","circle"],
   },
   render() {
@@ -2088,7 +2088,7 @@ export let BArrowRightShort = {
   $_icon: {
     name: "ArrowRightShort",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","right","short"],
   },
   render() {
@@ -2108,7 +2108,7 @@ export let BArrowRightSquareFill = {
   $_icon: {
     name: "ArrowRightSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","right","square","fill"],
   },
   render() {
@@ -2128,7 +2128,7 @@ export let BArrowRightSquare = {
   $_icon: {
     name: "ArrowRightSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","right","square"],
   },
   render() {
@@ -2148,7 +2148,7 @@ export let BArrowRight = {
   $_icon: {
     name: "ArrowRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","right"],
   },
   render() {
@@ -2168,7 +2168,7 @@ export let BArrowThroughHeartFill = {
   $_icon: {
     name: "ArrowThroughHeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","through","heart","fill"],
   },
   render() {
@@ -2188,7 +2188,7 @@ export let BArrowThroughHeart = {
   $_icon: {
     name: "ArrowThroughHeart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","through","heart"],
   },
   render() {
@@ -2208,7 +2208,7 @@ export let BArrowUpCircleFill = {
   $_icon: {
     name: "ArrowUpCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","up","circle","fill"],
   },
   render() {
@@ -2228,7 +2228,7 @@ export let BArrowUpCircle = {
   $_icon: {
     name: "ArrowUpCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","up","circle"],
   },
   render() {
@@ -2248,7 +2248,7 @@ export let BArrowUpLeftCircleFill = {
   $_icon: {
     name: "ArrowUpLeftCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","up","left","circle","fill"],
   },
   render() {
@@ -2268,7 +2268,7 @@ export let BArrowUpLeftCircle = {
   $_icon: {
     name: "ArrowUpLeftCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","up","left","circle"],
   },
   render() {
@@ -2288,7 +2288,7 @@ export let BArrowUpLeftSquareFill = {
   $_icon: {
     name: "ArrowUpLeftSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","up","left","square","fill"],
   },
   render() {
@@ -2308,7 +2308,7 @@ export let BArrowUpLeftSquare = {
   $_icon: {
     name: "ArrowUpLeftSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","up","left","square"],
   },
   render() {
@@ -2328,7 +2328,7 @@ export let BArrowUpLeft = {
   $_icon: {
     name: "ArrowUpLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","up","left"],
   },
   render() {
@@ -2348,7 +2348,7 @@ export let BArrowUpRightCircleFill = {
   $_icon: {
     name: "ArrowUpRightCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","up","right","circle","fill"],
   },
   render() {
@@ -2368,7 +2368,7 @@ export let BArrowUpRightCircle = {
   $_icon: {
     name: "ArrowUpRightCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","up","right","circle"],
   },
   render() {
@@ -2388,7 +2388,7 @@ export let BArrowUpRightSquareFill = {
   $_icon: {
     name: "ArrowUpRightSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","up","right","square","fill"],
   },
   render() {
@@ -2408,7 +2408,7 @@ export let BArrowUpRightSquare = {
   $_icon: {
     name: "ArrowUpRightSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","up","right","square"],
   },
   render() {
@@ -2428,7 +2428,7 @@ export let BArrowUpRight = {
   $_icon: {
     name: "ArrowUpRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","up","right"],
   },
   render() {
@@ -2448,7 +2448,7 @@ export let BArrowUpShort = {
   $_icon: {
     name: "ArrowUpShort",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","up","short"],
   },
   render() {
@@ -2468,7 +2468,7 @@ export let BArrowUpSquareFill = {
   $_icon: {
     name: "ArrowUpSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","up","square","fill"],
   },
   render() {
@@ -2488,7 +2488,7 @@ export let BArrowUpSquare = {
   $_icon: {
     name: "ArrowUpSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","up","square"],
   },
   render() {
@@ -2508,7 +2508,7 @@ export let BArrowUp = {
   $_icon: {
     name: "ArrowUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrow","up"],
   },
   render() {
@@ -2528,7 +2528,7 @@ export let BArrowsAngleContract = {
   $_icon: {
     name: "ArrowsAngleContract",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrows","angle","contract"],
   },
   render() {
@@ -2548,7 +2548,7 @@ export let BArrowsAngleExpand = {
   $_icon: {
     name: "ArrowsAngleExpand",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrows","angle","expand"],
   },
   render() {
@@ -2568,7 +2568,7 @@ export let BArrowsCollapse = {
   $_icon: {
     name: "ArrowsCollapse",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrows","collapse"],
   },
   render() {
@@ -2588,7 +2588,7 @@ export let BArrowsExpand = {
   $_icon: {
     name: "ArrowsExpand",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrows","expand"],
   },
   render() {
@@ -2608,7 +2608,7 @@ export let BArrowsFullscreen = {
   $_icon: {
     name: "ArrowsFullscreen",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrows","fullscreen"],
   },
   render() {
@@ -2628,7 +2628,7 @@ export let BArrowsMove = {
   $_icon: {
     name: "ArrowsMove",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["arrows","move"],
   },
   render() {
@@ -2648,7 +2648,7 @@ export let BAspectRatioFill = {
   $_icon: {
     name: "AspectRatioFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["aspect","ratio","fill"],
   },
   render() {
@@ -2668,7 +2668,7 @@ export let BAspectRatio = {
   $_icon: {
     name: "AspectRatio",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["aspect","ratio"],
   },
   render() {
@@ -2692,7 +2692,7 @@ export let BAsterisk = {
   $_icon: {
     name: "Asterisk",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["asterisk"],
   },
   render() {
@@ -2712,7 +2712,7 @@ export let BAt = {
   $_icon: {
     name: "At",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["at"],
   },
   render() {
@@ -2732,7 +2732,7 @@ export let BAwardFill = {
   $_icon: {
     name: "AwardFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["award","fill"],
   },
   render() {
@@ -2756,7 +2756,7 @@ export let BAward = {
   $_icon: {
     name: "Award",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["award"],
   },
   render() {
@@ -2780,7 +2780,7 @@ export let BBack = {
   $_icon: {
     name: "Back",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["back"],
   },
   render() {
@@ -2800,7 +2800,7 @@ export let BBackspaceFill = {
   $_icon: {
     name: "BackspaceFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["backspace","fill"],
   },
   render() {
@@ -2820,7 +2820,7 @@ export let BBackspaceReverseFill = {
   $_icon: {
     name: "BackspaceReverseFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["backspace","reverse","fill"],
   },
   render() {
@@ -2840,7 +2840,7 @@ export let BBackspaceReverse = {
   $_icon: {
     name: "BackspaceReverse",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["backspace","reverse"],
   },
   render() {
@@ -2864,7 +2864,7 @@ export let BBackspace = {
   $_icon: {
     name: "Backspace",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["backspace"],
   },
   render() {
@@ -2888,7 +2888,7 @@ export let BBadge3dFill = {
   $_icon: {
     name: "Badge3dFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","3d","fill"],
   },
   render() {
@@ -2912,7 +2912,7 @@ export let BBadge3d = {
   $_icon: {
     name: "Badge3d",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","3d"],
   },
   render() {
@@ -2936,7 +2936,7 @@ export let BBadge4kFill = {
   $_icon: {
     name: "Badge4kFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","4k","fill"],
   },
   render() {
@@ -2960,7 +2960,7 @@ export let BBadge4k = {
   $_icon: {
     name: "Badge4k",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","4k"],
   },
   render() {
@@ -2984,7 +2984,7 @@ export let BBadge8kFill = {
   $_icon: {
     name: "Badge8kFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","8k","fill"],
   },
   render() {
@@ -3008,7 +3008,7 @@ export let BBadge8k = {
   $_icon: {
     name: "Badge8k",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","8k"],
   },
   render() {
@@ -3032,7 +3032,7 @@ export let BBadgeAdFill = {
   $_icon: {
     name: "BadgeAdFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","ad","fill"],
   },
   render() {
@@ -3056,7 +3056,7 @@ export let BBadgeAd = {
   $_icon: {
     name: "BadgeAd",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","ad"],
   },
   render() {
@@ -3080,7 +3080,7 @@ export let BBadgeArFill = {
   $_icon: {
     name: "BadgeArFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","ar","fill"],
   },
   render() {
@@ -3104,7 +3104,7 @@ export let BBadgeAr = {
   $_icon: {
     name: "BadgeAr",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","ar"],
   },
   render() {
@@ -3128,7 +3128,7 @@ export let BBadgeCcFill = {
   $_icon: {
     name: "BadgeCcFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","cc","fill"],
   },
   render() {
@@ -3148,7 +3148,7 @@ export let BBadgeCc = {
   $_icon: {
     name: "BadgeCc",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","cc"],
   },
   render() {
@@ -3172,7 +3172,7 @@ export let BBadgeHdFill = {
   $_icon: {
     name: "BadgeHdFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","hd","fill"],
   },
   render() {
@@ -3196,7 +3196,7 @@ export let BBadgeHd = {
   $_icon: {
     name: "BadgeHd",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","hd"],
   },
   render() {
@@ -3220,7 +3220,7 @@ export let BBadgeSdFill = {
   $_icon: {
     name: "BadgeSdFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","sd","fill"],
   },
   render() {
@@ -3244,7 +3244,7 @@ export let BBadgeSd = {
   $_icon: {
     name: "BadgeSd",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","sd"],
   },
   render() {
@@ -3264,7 +3264,7 @@ export let BBadgeTmFill = {
   $_icon: {
     name: "BadgeTmFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","tm","fill"],
   },
   render() {
@@ -3284,7 +3284,7 @@ export let BBadgeTm = {
   $_icon: {
     name: "BadgeTm",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","tm"],
   },
   render() {
@@ -3308,7 +3308,7 @@ export let BBadgeVoFill = {
   $_icon: {
     name: "BadgeVoFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","vo","fill"],
   },
   render() {
@@ -3332,7 +3332,7 @@ export let BBadgeVo = {
   $_icon: {
     name: "BadgeVo",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","vo"],
   },
   render() {
@@ -3356,7 +3356,7 @@ export let BBadgeVrFill = {
   $_icon: {
     name: "BadgeVrFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","vr","fill"],
   },
   render() {
@@ -3380,7 +3380,7 @@ export let BBadgeVr = {
   $_icon: {
     name: "BadgeVr",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","vr"],
   },
   render() {
@@ -3404,7 +3404,7 @@ export let BBadgeWcFill = {
   $_icon: {
     name: "BadgeWcFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","wc","fill"],
   },
   render() {
@@ -3424,7 +3424,7 @@ export let BBadgeWc = {
   $_icon: {
     name: "BadgeWc",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["badge","wc"],
   },
   render() {
@@ -3448,7 +3448,7 @@ export let BBagCheckFill = {
   $_icon: {
     name: "BagCheckFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bag","check","fill"],
   },
   render() {
@@ -3468,7 +3468,7 @@ export let BBagCheck = {
   $_icon: {
     name: "BagCheck",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bag","check"],
   },
   render() {
@@ -3492,7 +3492,7 @@ export let BBagDashFill = {
   $_icon: {
     name: "BagDashFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bag","dash","fill"],
   },
   render() {
@@ -3512,7 +3512,7 @@ export let BBagDash = {
   $_icon: {
     name: "BagDash",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bag","dash"],
   },
   render() {
@@ -3536,7 +3536,7 @@ export let BBagFill = {
   $_icon: {
     name: "BagFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bag","fill"],
   },
   render() {
@@ -3556,7 +3556,7 @@ export let BBagHeartFill = {
   $_icon: {
     name: "BagHeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bag","heart","fill"],
   },
   render() {
@@ -3576,7 +3576,7 @@ export let BBagHeart = {
   $_icon: {
     name: "BagHeart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bag","heart"],
   },
   render() {
@@ -3596,7 +3596,7 @@ export let BBagPlusFill = {
   $_icon: {
     name: "BagPlusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bag","plus","fill"],
   },
   render() {
@@ -3616,7 +3616,7 @@ export let BBagPlus = {
   $_icon: {
     name: "BagPlus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bag","plus"],
   },
   render() {
@@ -3640,7 +3640,7 @@ export let BBagXFill = {
   $_icon: {
     name: "BagXFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bag","x","fill"],
   },
   render() {
@@ -3660,7 +3660,7 @@ export let BBagX = {
   $_icon: {
     name: "BagX",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bag","x"],
   },
   render() {
@@ -3684,7 +3684,7 @@ export let BBag = {
   $_icon: {
     name: "Bag",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bag"],
   },
   render() {
@@ -3704,7 +3704,7 @@ export let BBalloonFill = {
   $_icon: {
     name: "BalloonFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["balloon","fill"],
   },
   render() {
@@ -3724,7 +3724,7 @@ export let BBalloonHeartFill = {
   $_icon: {
     name: "BalloonHeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["balloon","heart","fill"],
   },
   render() {
@@ -3744,7 +3744,7 @@ export let BBalloonHeart = {
   $_icon: {
     name: "BalloonHeart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["balloon","heart"],
   },
   render() {
@@ -3764,7 +3764,7 @@ export let BBalloon = {
   $_icon: {
     name: "Balloon",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["balloon"],
   },
   render() {
@@ -3784,7 +3784,7 @@ export let BBandaidFill = {
   $_icon: {
     name: "BandaidFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bandaid","fill"],
   },
   render() {
@@ -3804,7 +3804,7 @@ export let BBandaid = {
   $_icon: {
     name: "Bandaid",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bandaid"],
   },
   render() {
@@ -3828,7 +3828,7 @@ export let BBank = {
   $_icon: {
     name: "Bank",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bank"],
   },
   render() {
@@ -3848,7 +3848,7 @@ export let BBank2 = {
   $_icon: {
     name: "Bank2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bank2"],
   },
   render() {
@@ -3868,7 +3868,7 @@ export let BBarChartFill = {
   $_icon: {
     name: "BarChartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bar","chart","fill"],
   },
   render() {
@@ -3888,7 +3888,7 @@ export let BBarChartLineFill = {
   $_icon: {
     name: "BarChartLineFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bar","chart","line","fill"],
   },
   render() {
@@ -3908,7 +3908,7 @@ export let BBarChartLine = {
   $_icon: {
     name: "BarChartLine",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bar","chart","line"],
   },
   render() {
@@ -3928,7 +3928,7 @@ export let BBarChartSteps = {
   $_icon: {
     name: "BarChartSteps",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bar","chart","steps"],
   },
   render() {
@@ -3948,7 +3948,7 @@ export let BBarChart = {
   $_icon: {
     name: "BarChart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bar","chart"],
   },
   render() {
@@ -3968,7 +3968,7 @@ export let BBasketFill = {
   $_icon: {
     name: "BasketFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["basket","fill"],
   },
   render() {
@@ -3988,7 +3988,7 @@ export let BBasket = {
   $_icon: {
     name: "Basket",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["basket"],
   },
   render() {
@@ -4008,7 +4008,7 @@ export let BBasket2Fill = {
   $_icon: {
     name: "Basket2Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["basket2","fill"],
   },
   render() {
@@ -4028,7 +4028,7 @@ export let BBasket2 = {
   $_icon: {
     name: "Basket2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["basket2"],
   },
   render() {
@@ -4052,7 +4052,7 @@ export let BBasket3Fill = {
   $_icon: {
     name: "Basket3Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["basket3","fill"],
   },
   render() {
@@ -4072,7 +4072,7 @@ export let BBasket3 = {
   $_icon: {
     name: "Basket3",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["basket3"],
   },
   render() {
@@ -4092,7 +4092,7 @@ export let BBatteryCharging = {
   $_icon: {
     name: "BatteryCharging",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["battery","charging"],
   },
   render() {
@@ -4124,7 +4124,7 @@ export let BBatteryFull = {
   $_icon: {
     name: "BatteryFull",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["battery","full"],
   },
   render() {
@@ -4148,7 +4148,7 @@ export let BBatteryHalf = {
   $_icon: {
     name: "BatteryHalf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["battery","half"],
   },
   render() {
@@ -4172,7 +4172,7 @@ export let BBattery = {
   $_icon: {
     name: "Battery",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["battery"],
   },
   render() {
@@ -4192,7 +4192,7 @@ export let BBehance = {
   $_icon: {
     name: "Behance",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["behance"],
   },
   render() {
@@ -4212,7 +4212,7 @@ export let BBellFill = {
   $_icon: {
     name: "BellFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bell","fill"],
   },
   render() {
@@ -4232,7 +4232,7 @@ export let BBellSlashFill = {
   $_icon: {
     name: "BellSlashFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bell","slash","fill"],
   },
   render() {
@@ -4252,7 +4252,7 @@ export let BBellSlash = {
   $_icon: {
     name: "BellSlash",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bell","slash"],
   },
   render() {
@@ -4272,7 +4272,7 @@ export let BBell = {
   $_icon: {
     name: "Bell",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bell"],
   },
   render() {
@@ -4292,7 +4292,7 @@ export let BBezier = {
   $_icon: {
     name: "Bezier",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bezier"],
   },
   render() {
@@ -4316,7 +4316,7 @@ export let BBezier2 = {
   $_icon: {
     name: "Bezier2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bezier2"],
   },
   render() {
@@ -4336,7 +4336,7 @@ export let BBicycle = {
   $_icon: {
     name: "Bicycle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bicycle"],
   },
   render() {
@@ -4356,7 +4356,7 @@ export let BBinocularsFill = {
   $_icon: {
     name: "BinocularsFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["binoculars","fill"],
   },
   render() {
@@ -4376,7 +4376,7 @@ export let BBinoculars = {
   $_icon: {
     name: "Binoculars",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["binoculars"],
   },
   render() {
@@ -4396,7 +4396,7 @@ export let BBlockquoteLeft = {
   $_icon: {
     name: "BlockquoteLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["blockquote","left"],
   },
   render() {
@@ -4416,7 +4416,7 @@ export let BBlockquoteRight = {
   $_icon: {
     name: "BlockquoteRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["blockquote","right"],
   },
   render() {
@@ -4436,7 +4436,7 @@ export let BBluetooth = {
   $_icon: {
     name: "Bluetooth",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bluetooth"],
   },
   render() {
@@ -4456,7 +4456,7 @@ export let BBodyText = {
   $_icon: {
     name: "BodyText",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["body","text"],
   },
   render() {
@@ -4476,7 +4476,7 @@ export let BBookFill = {
   $_icon: {
     name: "BookFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["book","fill"],
   },
   render() {
@@ -4496,7 +4496,7 @@ export let BBookHalf = {
   $_icon: {
     name: "BookHalf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["book","half"],
   },
   render() {
@@ -4516,7 +4516,7 @@ export let BBook = {
   $_icon: {
     name: "Book",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["book"],
   },
   render() {
@@ -4536,7 +4536,7 @@ export let BBookmarkCheckFill = {
   $_icon: {
     name: "BookmarkCheckFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bookmark","check","fill"],
   },
   render() {
@@ -4556,7 +4556,7 @@ export let BBookmarkCheck = {
   $_icon: {
     name: "BookmarkCheck",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bookmark","check"],
   },
   render() {
@@ -4580,7 +4580,7 @@ export let BBookmarkDashFill = {
   $_icon: {
     name: "BookmarkDashFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bookmark","dash","fill"],
   },
   render() {
@@ -4600,7 +4600,7 @@ export let BBookmarkDash = {
   $_icon: {
     name: "BookmarkDash",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bookmark","dash"],
   },
   render() {
@@ -4624,7 +4624,7 @@ export let BBookmarkFill = {
   $_icon: {
     name: "BookmarkFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bookmark","fill"],
   },
   render() {
@@ -4644,7 +4644,7 @@ export let BBookmarkHeartFill = {
   $_icon: {
     name: "BookmarkHeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bookmark","heart","fill"],
   },
   render() {
@@ -4664,7 +4664,7 @@ export let BBookmarkHeart = {
   $_icon: {
     name: "BookmarkHeart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bookmark","heart"],
   },
   render() {
@@ -4688,7 +4688,7 @@ export let BBookmarkPlusFill = {
   $_icon: {
     name: "BookmarkPlusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bookmark","plus","fill"],
   },
   render() {
@@ -4708,7 +4708,7 @@ export let BBookmarkPlus = {
   $_icon: {
     name: "BookmarkPlus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bookmark","plus"],
   },
   render() {
@@ -4732,7 +4732,7 @@ export let BBookmarkStarFill = {
   $_icon: {
     name: "BookmarkStarFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bookmark","star","fill"],
   },
   render() {
@@ -4752,7 +4752,7 @@ export let BBookmarkStar = {
   $_icon: {
     name: "BookmarkStar",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bookmark","star"],
   },
   render() {
@@ -4776,7 +4776,7 @@ export let BBookmarkXFill = {
   $_icon: {
     name: "BookmarkXFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bookmark","x","fill"],
   },
   render() {
@@ -4796,7 +4796,7 @@ export let BBookmarkX = {
   $_icon: {
     name: "BookmarkX",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bookmark","x"],
   },
   render() {
@@ -4820,7 +4820,7 @@ export let BBookmark = {
   $_icon: {
     name: "Bookmark",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bookmark"],
   },
   render() {
@@ -4840,7 +4840,7 @@ export let BBookmarksFill = {
   $_icon: {
     name: "BookmarksFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bookmarks","fill"],
   },
   render() {
@@ -4864,7 +4864,7 @@ export let BBookmarks = {
   $_icon: {
     name: "Bookmarks",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bookmarks"],
   },
   render() {
@@ -4888,7 +4888,7 @@ export let BBookshelf = {
   $_icon: {
     name: "Bookshelf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bookshelf"],
   },
   render() {
@@ -4908,7 +4908,7 @@ export let BBoomboxFill = {
   $_icon: {
     name: "BoomboxFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["boombox","fill"],
   },
   render() {
@@ -4932,7 +4932,7 @@ export let BBoombox = {
   $_icon: {
     name: "Boombox",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["boombox"],
   },
   render() {
@@ -4964,7 +4964,7 @@ export let BBootstrapFill = {
   $_icon: {
     name: "BootstrapFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bootstrap","fill"],
   },
   render() {
@@ -4988,7 +4988,7 @@ export let BBootstrapReboot = {
   $_icon: {
     name: "BootstrapReboot",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bootstrap","reboot"],
   },
   render() {
@@ -5012,7 +5012,7 @@ export let BBootstrap = {
   $_icon: {
     name: "Bootstrap",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bootstrap"],
   },
   render() {
@@ -5036,7 +5036,7 @@ export let BBorderAll = {
   $_icon: {
     name: "BorderAll",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["border","all"],
   },
   render() {
@@ -5056,7 +5056,7 @@ export let BBorderBottom = {
   $_icon: {
     name: "BorderBottom",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["border","bottom"],
   },
   render() {
@@ -5076,7 +5076,7 @@ export let BBorderCenter = {
   $_icon: {
     name: "BorderCenter",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["border","center"],
   },
   render() {
@@ -5096,7 +5096,7 @@ export let BBorderInner = {
   $_icon: {
     name: "BorderInner",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["border","inner"],
   },
   render() {
@@ -5124,7 +5124,7 @@ export let BBorderLeft = {
   $_icon: {
     name: "BorderLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["border","left"],
   },
   render() {
@@ -5144,7 +5144,7 @@ export let BBorderMiddle = {
   $_icon: {
     name: "BorderMiddle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["border","middle"],
   },
   render() {
@@ -5164,7 +5164,7 @@ export let BBorderOuter = {
   $_icon: {
     name: "BorderOuter",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["border","outer"],
   },
   render() {
@@ -5188,7 +5188,7 @@ export let BBorderRight = {
   $_icon: {
     name: "BorderRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["border","right"],
   },
   render() {
@@ -5208,7 +5208,7 @@ export let BBorderStyle = {
   $_icon: {
     name: "BorderStyle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["border","style"],
   },
   render() {
@@ -5228,7 +5228,7 @@ export let BBorderTop = {
   $_icon: {
     name: "BorderTop",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["border","top"],
   },
   render() {
@@ -5248,7 +5248,7 @@ export let BBorderWidth = {
   $_icon: {
     name: "BorderWidth",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["border","width"],
   },
   render() {
@@ -5268,7 +5268,7 @@ export let BBorder = {
   $_icon: {
     name: "Border",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["border"],
   },
   render() {
@@ -5288,7 +5288,7 @@ export let BBoundingBoxCircles = {
   $_icon: {
     name: "BoundingBoxCircles",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bounding","box","circles"],
   },
   render() {
@@ -5308,7 +5308,7 @@ export let BBoundingBox = {
   $_icon: {
     name: "BoundingBox",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bounding","box"],
   },
   render() {
@@ -5328,7 +5328,7 @@ export let BBoxArrowDownLeft = {
   $_icon: {
     name: "BoxArrowDownLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box","arrow","down","left"],
   },
   render() {
@@ -5352,7 +5352,7 @@ export let BBoxArrowDownRight = {
   $_icon: {
     name: "BoxArrowDownRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box","arrow","down","right"],
   },
   render() {
@@ -5376,7 +5376,7 @@ export let BBoxArrowDown = {
   $_icon: {
     name: "BoxArrowDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box","arrow","down"],
   },
   render() {
@@ -5400,7 +5400,7 @@ export let BBoxArrowInDownLeft = {
   $_icon: {
     name: "BoxArrowInDownLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box","arrow","in","down","left"],
   },
   render() {
@@ -5424,7 +5424,7 @@ export let BBoxArrowInDownRight = {
   $_icon: {
     name: "BoxArrowInDownRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box","arrow","in","down","right"],
   },
   render() {
@@ -5448,7 +5448,7 @@ export let BBoxArrowInDown = {
   $_icon: {
     name: "BoxArrowInDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box","arrow","in","down"],
   },
   render() {
@@ -5472,7 +5472,7 @@ export let BBoxArrowInLeft = {
   $_icon: {
     name: "BoxArrowInLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box","arrow","in","left"],
   },
   render() {
@@ -5496,7 +5496,7 @@ export let BBoxArrowInRight = {
   $_icon: {
     name: "BoxArrowInRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box","arrow","in","right"],
   },
   render() {
@@ -5520,7 +5520,7 @@ export let BBoxArrowInUpLeft = {
   $_icon: {
     name: "BoxArrowInUpLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box","arrow","in","up","left"],
   },
   render() {
@@ -5544,7 +5544,7 @@ export let BBoxArrowInUpRight = {
   $_icon: {
     name: "BoxArrowInUpRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box","arrow","in","up","right"],
   },
   render() {
@@ -5568,7 +5568,7 @@ export let BBoxArrowInUp = {
   $_icon: {
     name: "BoxArrowInUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box","arrow","in","up"],
   },
   render() {
@@ -5592,7 +5592,7 @@ export let BBoxArrowLeft = {
   $_icon: {
     name: "BoxArrowLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box","arrow","left"],
   },
   render() {
@@ -5616,7 +5616,7 @@ export let BBoxArrowRight = {
   $_icon: {
     name: "BoxArrowRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box","arrow","right"],
   },
   render() {
@@ -5640,7 +5640,7 @@ export let BBoxArrowUpLeft = {
   $_icon: {
     name: "BoxArrowUpLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box","arrow","up","left"],
   },
   render() {
@@ -5664,7 +5664,7 @@ export let BBoxArrowUpRight = {
   $_icon: {
     name: "BoxArrowUpRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box","arrow","up","right"],
   },
   render() {
@@ -5688,7 +5688,7 @@ export let BBoxArrowUp = {
   $_icon: {
     name: "BoxArrowUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box","arrow","up"],
   },
   render() {
@@ -5712,7 +5712,7 @@ export let BBoxFill = {
   $_icon: {
     name: "BoxFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box","fill"],
   },
   render() {
@@ -5732,7 +5732,7 @@ export let BBoxSeamFill = {
   $_icon: {
     name: "BoxSeamFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box","seam","fill"],
   },
   render() {
@@ -5752,7 +5752,7 @@ export let BBoxSeam = {
   $_icon: {
     name: "BoxSeam",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box","seam"],
   },
   render() {
@@ -5772,7 +5772,7 @@ export let BBox = {
   $_icon: {
     name: "Box",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box"],
   },
   render() {
@@ -5792,7 +5792,7 @@ export let BBox2Fill = {
   $_icon: {
     name: "Box2Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box2","fill"],
   },
   render() {
@@ -5812,7 +5812,7 @@ export let BBox2HeartFill = {
   $_icon: {
     name: "Box2HeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box2","heart","fill"],
   },
   render() {
@@ -5832,7 +5832,7 @@ export let BBox2Heart = {
   $_icon: {
     name: "Box2Heart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box2","heart"],
   },
   render() {
@@ -5856,7 +5856,7 @@ export let BBox2 = {
   $_icon: {
     name: "Box2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["box2"],
   },
   render() {
@@ -5876,7 +5876,7 @@ export let BBoxes = {
   $_icon: {
     name: "Boxes",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["boxes"],
   },
   render() {
@@ -5896,7 +5896,7 @@ export let BBracesAsterisk = {
   $_icon: {
     name: "BracesAsterisk",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["braces","asterisk"],
   },
   render() {
@@ -5916,7 +5916,7 @@ export let BBraces = {
   $_icon: {
     name: "Braces",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["braces"],
   },
   render() {
@@ -5936,7 +5936,7 @@ export let BBricks = {
   $_icon: {
     name: "Bricks",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bricks"],
   },
   render() {
@@ -5956,7 +5956,7 @@ export let BBriefcaseFill = {
   $_icon: {
     name: "BriefcaseFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["briefcase","fill"],
   },
   render() {
@@ -5980,7 +5980,7 @@ export let BBriefcase = {
   $_icon: {
     name: "Briefcase",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["briefcase"],
   },
   render() {
@@ -6000,7 +6000,7 @@ export let BBrightnessAltHighFill = {
   $_icon: {
     name: "BrightnessAltHighFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["brightness","alt","high","fill"],
   },
   render() {
@@ -6020,7 +6020,7 @@ export let BBrightnessAltHigh = {
   $_icon: {
     name: "BrightnessAltHigh",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["brightness","alt","high"],
   },
   render() {
@@ -6040,7 +6040,7 @@ export let BBrightnessAltLowFill = {
   $_icon: {
     name: "BrightnessAltLowFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["brightness","alt","low","fill"],
   },
   render() {
@@ -6060,7 +6060,7 @@ export let BBrightnessAltLow = {
   $_icon: {
     name: "BrightnessAltLow",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["brightness","alt","low"],
   },
   render() {
@@ -6080,7 +6080,7 @@ export let BBrightnessHighFill = {
   $_icon: {
     name: "BrightnessHighFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["brightness","high","fill"],
   },
   render() {
@@ -6100,7 +6100,7 @@ export let BBrightnessHigh = {
   $_icon: {
     name: "BrightnessHigh",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["brightness","high"],
   },
   render() {
@@ -6120,7 +6120,7 @@ export let BBrightnessLowFill = {
   $_icon: {
     name: "BrightnessLowFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["brightness","low","fill"],
   },
   render() {
@@ -6140,7 +6140,7 @@ export let BBrightnessLow = {
   $_icon: {
     name: "BrightnessLow",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["brightness","low"],
   },
   render() {
@@ -6160,7 +6160,7 @@ export let BBroadcastPin = {
   $_icon: {
     name: "BroadcastPin",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["broadcast","pin"],
   },
   render() {
@@ -6180,7 +6180,7 @@ export let BBroadcast = {
   $_icon: {
     name: "Broadcast",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["broadcast"],
   },
   render() {
@@ -6200,7 +6200,7 @@ export let BBrowserChrome = {
   $_icon: {
     name: "BrowserChrome",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["browser","chrome"],
   },
   render() {
@@ -6220,7 +6220,7 @@ export let BBrowserEdge = {
   $_icon: {
     name: "BrowserEdge",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["browser","edge"],
   },
   render() {
@@ -6248,7 +6248,7 @@ export let BBrowserFirefox = {
   $_icon: {
     name: "BrowserFirefox",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["browser","firefox"],
   },
   render() {
@@ -6268,7 +6268,7 @@ export let BBrowserSafari = {
   $_icon: {
     name: "BrowserSafari",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["browser","safari"],
   },
   render() {
@@ -6288,7 +6288,7 @@ export let BBrushFill = {
   $_icon: {
     name: "BrushFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["brush","fill"],
   },
   render() {
@@ -6308,7 +6308,7 @@ export let BBrush = {
   $_icon: {
     name: "Brush",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["brush"],
   },
   render() {
@@ -6328,7 +6328,7 @@ export let BBucketFill = {
   $_icon: {
     name: "BucketFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bucket","fill"],
   },
   render() {
@@ -6348,7 +6348,7 @@ export let BBucket = {
   $_icon: {
     name: "Bucket",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bucket"],
   },
   render() {
@@ -6368,7 +6368,7 @@ export let BBugFill = {
   $_icon: {
     name: "BugFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bug","fill"],
   },
   render() {
@@ -6392,7 +6392,7 @@ export let BBug = {
   $_icon: {
     name: "Bug",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bug"],
   },
   render() {
@@ -6412,7 +6412,7 @@ export let BBuilding = {
   $_icon: {
     name: "Building",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["building"],
   },
   render() {
@@ -6436,7 +6436,7 @@ export let BBullseye = {
   $_icon: {
     name: "Bullseye",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["bullseye"],
   },
   render() {
@@ -6468,7 +6468,7 @@ export let BCCircleFill = {
   $_icon: {
     name: "CCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["c","circle","fill"],
   },
   render() {
@@ -6488,7 +6488,7 @@ export let BCCircle = {
   $_icon: {
     name: "CCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["c","circle"],
   },
   render() {
@@ -6508,7 +6508,7 @@ export let BCSquareFill = {
   $_icon: {
     name: "CSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["c","square","fill"],
   },
   render() {
@@ -6528,7 +6528,7 @@ export let BCSquare = {
   $_icon: {
     name: "CSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["c","square"],
   },
   render() {
@@ -6552,7 +6552,7 @@ export let BCalculatorFill = {
   $_icon: {
     name: "CalculatorFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calculator","fill"],
   },
   render() {
@@ -6572,7 +6572,7 @@ export let BCalculator = {
   $_icon: {
     name: "Calculator",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calculator"],
   },
   render() {
@@ -6596,7 +6596,7 @@ export let BCalendarCheckFill = {
   $_icon: {
     name: "CalendarCheckFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","check","fill"],
   },
   render() {
@@ -6616,7 +6616,7 @@ export let BCalendarCheck = {
   $_icon: {
     name: "CalendarCheck",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","check"],
   },
   render() {
@@ -6640,7 +6640,7 @@ export let BCalendarDateFill = {
   $_icon: {
     name: "CalendarDateFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","date","fill"],
   },
   render() {
@@ -6664,7 +6664,7 @@ export let BCalendarDate = {
   $_icon: {
     name: "CalendarDate",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","date"],
   },
   render() {
@@ -6688,7 +6688,7 @@ export let BCalendarDayFill = {
   $_icon: {
     name: "CalendarDayFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","day","fill"],
   },
   render() {
@@ -6708,7 +6708,7 @@ export let BCalendarDay = {
   $_icon: {
     name: "CalendarDay",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","day"],
   },
   render() {
@@ -6732,7 +6732,7 @@ export let BCalendarEventFill = {
   $_icon: {
     name: "CalendarEventFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","event","fill"],
   },
   render() {
@@ -6752,7 +6752,7 @@ export let BCalendarEvent = {
   $_icon: {
     name: "CalendarEvent",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","event"],
   },
   render() {
@@ -6776,7 +6776,7 @@ export let BCalendarFill = {
   $_icon: {
     name: "CalendarFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","fill"],
   },
   render() {
@@ -6796,7 +6796,7 @@ export let BCalendarHeartFill = {
   $_icon: {
     name: "CalendarHeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","heart","fill"],
   },
   render() {
@@ -6816,7 +6816,7 @@ export let BCalendarHeart = {
   $_icon: {
     name: "CalendarHeart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","heart"],
   },
   render() {
@@ -6836,7 +6836,7 @@ export let BCalendarMinusFill = {
   $_icon: {
     name: "CalendarMinusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","minus","fill"],
   },
   render() {
@@ -6856,7 +6856,7 @@ export let BCalendarMinus = {
   $_icon: {
     name: "CalendarMinus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","minus"],
   },
   render() {
@@ -6880,7 +6880,7 @@ export let BCalendarMonthFill = {
   $_icon: {
     name: "CalendarMonthFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","month","fill"],
   },
   render() {
@@ -6904,7 +6904,7 @@ export let BCalendarMonth = {
   $_icon: {
     name: "CalendarMonth",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","month"],
   },
   render() {
@@ -6928,7 +6928,7 @@ export let BCalendarPlusFill = {
   $_icon: {
     name: "CalendarPlusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","plus","fill"],
   },
   render() {
@@ -6948,7 +6948,7 @@ export let BCalendarPlus = {
   $_icon: {
     name: "CalendarPlus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","plus"],
   },
   render() {
@@ -6972,7 +6972,7 @@ export let BCalendarRangeFill = {
   $_icon: {
     name: "CalendarRangeFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","range","fill"],
   },
   render() {
@@ -6992,7 +6992,7 @@ export let BCalendarRange = {
   $_icon: {
     name: "CalendarRange",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","range"],
   },
   render() {
@@ -7016,7 +7016,7 @@ export let BCalendarWeekFill = {
   $_icon: {
     name: "CalendarWeekFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","week","fill"],
   },
   render() {
@@ -7036,7 +7036,7 @@ export let BCalendarWeek = {
   $_icon: {
     name: "CalendarWeek",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","week"],
   },
   render() {
@@ -7060,7 +7060,7 @@ export let BCalendarXFill = {
   $_icon: {
     name: "CalendarXFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","x","fill"],
   },
   render() {
@@ -7080,7 +7080,7 @@ export let BCalendarX = {
   $_icon: {
     name: "CalendarX",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar","x"],
   },
   render() {
@@ -7104,7 +7104,7 @@ export let BCalendar = {
   $_icon: {
     name: "Calendar",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar"],
   },
   render() {
@@ -7124,7 +7124,7 @@ export let BCalendar2CheckFill = {
   $_icon: {
     name: "Calendar2CheckFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","check","fill"],
   },
   render() {
@@ -7144,7 +7144,7 @@ export let BCalendar2Check = {
   $_icon: {
     name: "Calendar2Check",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","check"],
   },
   render() {
@@ -7172,7 +7172,7 @@ export let BCalendar2DateFill = {
   $_icon: {
     name: "Calendar2DateFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","date","fill"],
   },
   render() {
@@ -7196,7 +7196,7 @@ export let BCalendar2Date = {
   $_icon: {
     name: "Calendar2Date",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","date"],
   },
   render() {
@@ -7224,7 +7224,7 @@ export let BCalendar2DayFill = {
   $_icon: {
     name: "Calendar2DayFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","day","fill"],
   },
   render() {
@@ -7244,7 +7244,7 @@ export let BCalendar2Day = {
   $_icon: {
     name: "Calendar2Day",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","day"],
   },
   render() {
@@ -7272,7 +7272,7 @@ export let BCalendar2EventFill = {
   $_icon: {
     name: "Calendar2EventFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","event","fill"],
   },
   render() {
@@ -7292,7 +7292,7 @@ export let BCalendar2Event = {
   $_icon: {
     name: "Calendar2Event",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","event"],
   },
   render() {
@@ -7320,7 +7320,7 @@ export let BCalendar2Fill = {
   $_icon: {
     name: "Calendar2Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","fill"],
   },
   render() {
@@ -7340,7 +7340,7 @@ export let BCalendar2HeartFill = {
   $_icon: {
     name: "Calendar2HeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","heart","fill"],
   },
   render() {
@@ -7360,7 +7360,7 @@ export let BCalendar2Heart = {
   $_icon: {
     name: "Calendar2Heart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","heart"],
   },
   render() {
@@ -7380,7 +7380,7 @@ export let BCalendar2MinusFill = {
   $_icon: {
     name: "Calendar2MinusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","minus","fill"],
   },
   render() {
@@ -7400,7 +7400,7 @@ export let BCalendar2Minus = {
   $_icon: {
     name: "Calendar2Minus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","minus"],
   },
   render() {
@@ -7428,7 +7428,7 @@ export let BCalendar2MonthFill = {
   $_icon: {
     name: "Calendar2MonthFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","month","fill"],
   },
   render() {
@@ -7452,7 +7452,7 @@ export let BCalendar2Month = {
   $_icon: {
     name: "Calendar2Month",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","month"],
   },
   render() {
@@ -7480,7 +7480,7 @@ export let BCalendar2PlusFill = {
   $_icon: {
     name: "Calendar2PlusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","plus","fill"],
   },
   render() {
@@ -7500,7 +7500,7 @@ export let BCalendar2Plus = {
   $_icon: {
     name: "Calendar2Plus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","plus"],
   },
   render() {
@@ -7524,7 +7524,7 @@ export let BCalendar2RangeFill = {
   $_icon: {
     name: "Calendar2RangeFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","range","fill"],
   },
   render() {
@@ -7544,7 +7544,7 @@ export let BCalendar2Range = {
   $_icon: {
     name: "Calendar2Range",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","range"],
   },
   render() {
@@ -7568,7 +7568,7 @@ export let BCalendar2WeekFill = {
   $_icon: {
     name: "Calendar2WeekFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","week","fill"],
   },
   render() {
@@ -7588,7 +7588,7 @@ export let BCalendar2Week = {
   $_icon: {
     name: "Calendar2Week",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","week"],
   },
   render() {
@@ -7612,7 +7612,7 @@ export let BCalendar2XFill = {
   $_icon: {
     name: "Calendar2XFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","x","fill"],
   },
   render() {
@@ -7632,7 +7632,7 @@ export let BCalendar2X = {
   $_icon: {
     name: "Calendar2X",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2","x"],
   },
   render() {
@@ -7660,7 +7660,7 @@ export let BCalendar2 = {
   $_icon: {
     name: "Calendar2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar2"],
   },
   render() {
@@ -7684,7 +7684,7 @@ export let BCalendar3EventFill = {
   $_icon: {
     name: "Calendar3EventFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar3","event","fill"],
   },
   render() {
@@ -7704,7 +7704,7 @@ export let BCalendar3Event = {
   $_icon: {
     name: "Calendar3Event",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar3","event"],
   },
   render() {
@@ -7728,7 +7728,7 @@ export let BCalendar3Fill = {
   $_icon: {
     name: "Calendar3Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar3","fill"],
   },
   render() {
@@ -7748,7 +7748,7 @@ export let BCalendar3RangeFill = {
   $_icon: {
     name: "Calendar3RangeFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar3","range","fill"],
   },
   render() {
@@ -7768,7 +7768,7 @@ export let BCalendar3Range = {
   $_icon: {
     name: "Calendar3Range",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar3","range"],
   },
   render() {
@@ -7792,7 +7792,7 @@ export let BCalendar3WeekFill = {
   $_icon: {
     name: "Calendar3WeekFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar3","week","fill"],
   },
   render() {
@@ -7812,7 +7812,7 @@ export let BCalendar3Week = {
   $_icon: {
     name: "Calendar3Week",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar3","week"],
   },
   render() {
@@ -7836,7 +7836,7 @@ export let BCalendar3 = {
   $_icon: {
     name: "Calendar3",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar3"],
   },
   render() {
@@ -7860,7 +7860,7 @@ export let BCalendar4Event = {
   $_icon: {
     name: "Calendar4Event",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar4","event"],
   },
   render() {
@@ -7884,7 +7884,7 @@ export let BCalendar4Range = {
   $_icon: {
     name: "Calendar4Range",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar4","range"],
   },
   render() {
@@ -7908,7 +7908,7 @@ export let BCalendar4Week = {
   $_icon: {
     name: "Calendar4Week",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar4","week"],
   },
   render() {
@@ -7932,7 +7932,7 @@ export let BCalendar4 = {
   $_icon: {
     name: "Calendar4",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["calendar4"],
   },
   render() {
@@ -7952,7 +7952,7 @@ export let BCameraFill = {
   $_icon: {
     name: "CameraFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["camera","fill"],
   },
   render() {
@@ -7976,7 +7976,7 @@ export let BCameraReelsFill = {
   $_icon: {
     name: "CameraReelsFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["camera","reels","fill"],
   },
   render() {
@@ -8004,7 +8004,7 @@ export let BCameraReels = {
   $_icon: {
     name: "CameraReels",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["camera","reels"],
   },
   render() {
@@ -8032,7 +8032,7 @@ export let BCameraVideoFill = {
   $_icon: {
     name: "CameraVideoFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["camera","video","fill"],
   },
   render() {
@@ -8052,7 +8052,7 @@ export let BCameraVideoOffFill = {
   $_icon: {
     name: "CameraVideoOffFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["camera","video","off","fill"],
   },
   render() {
@@ -8072,7 +8072,7 @@ export let BCameraVideoOff = {
   $_icon: {
     name: "CameraVideoOff",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["camera","video","off"],
   },
   render() {
@@ -8092,7 +8092,7 @@ export let BCameraVideo = {
   $_icon: {
     name: "CameraVideo",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["camera","video"],
   },
   render() {
@@ -8112,7 +8112,7 @@ export let BCamera = {
   $_icon: {
     name: "Camera",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["camera"],
   },
   render() {
@@ -8136,7 +8136,7 @@ export let BCamera2 = {
   $_icon: {
     name: "Camera2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["camera2"],
   },
   render() {
@@ -8160,7 +8160,7 @@ export let BCapslockFill = {
   $_icon: {
     name: "CapslockFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["capslock","fill"],
   },
   render() {
@@ -8180,7 +8180,7 @@ export let BCapslock = {
   $_icon: {
     name: "Capslock",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["capslock"],
   },
   render() {
@@ -8200,7 +8200,7 @@ export let BCapsulePill = {
   $_icon: {
     name: "CapsulePill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["capsule","pill"],
   },
   render() {
@@ -8220,7 +8220,7 @@ export let BCapsule = {
   $_icon: {
     name: "Capsule",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["capsule"],
   },
   render() {
@@ -8240,7 +8240,7 @@ export let BCarFrontFill = {
   $_icon: {
     name: "CarFrontFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["car","front","fill"],
   },
   render() {
@@ -8260,7 +8260,7 @@ export let BCarFront = {
   $_icon: {
     name: "CarFront",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["car","front"],
   },
   render() {
@@ -8284,7 +8284,7 @@ export let BCardChecklist = {
   $_icon: {
     name: "CardChecklist",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["card","checklist"],
   },
   render() {
@@ -8308,7 +8308,7 @@ export let BCardHeading = {
   $_icon: {
     name: "CardHeading",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["card","heading"],
   },
   render() {
@@ -8332,7 +8332,7 @@ export let BCardImage = {
   $_icon: {
     name: "CardImage",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["card","image"],
   },
   render() {
@@ -8356,7 +8356,7 @@ export let BCardList = {
   $_icon: {
     name: "CardList",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["card","list"],
   },
   render() {
@@ -8380,7 +8380,7 @@ export let BCardText = {
   $_icon: {
     name: "CardText",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["card","text"],
   },
   render() {
@@ -8404,7 +8404,7 @@ export let BCaretDownFill = {
   $_icon: {
     name: "CaretDownFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["caret","down","fill"],
   },
   render() {
@@ -8424,7 +8424,7 @@ export let BCaretDownSquareFill = {
   $_icon: {
     name: "CaretDownSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["caret","down","square","fill"],
   },
   render() {
@@ -8444,7 +8444,7 @@ export let BCaretDownSquare = {
   $_icon: {
     name: "CaretDownSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["caret","down","square"],
   },
   render() {
@@ -8468,7 +8468,7 @@ export let BCaretDown = {
   $_icon: {
     name: "CaretDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["caret","down"],
   },
   render() {
@@ -8488,7 +8488,7 @@ export let BCaretLeftFill = {
   $_icon: {
     name: "CaretLeftFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["caret","left","fill"],
   },
   render() {
@@ -8508,7 +8508,7 @@ export let BCaretLeftSquareFill = {
   $_icon: {
     name: "CaretLeftSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["caret","left","square","fill"],
   },
   render() {
@@ -8528,7 +8528,7 @@ export let BCaretLeftSquare = {
   $_icon: {
     name: "CaretLeftSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["caret","left","square"],
   },
   render() {
@@ -8552,7 +8552,7 @@ export let BCaretLeft = {
   $_icon: {
     name: "CaretLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["caret","left"],
   },
   render() {
@@ -8572,7 +8572,7 @@ export let BCaretRightFill = {
   $_icon: {
     name: "CaretRightFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["caret","right","fill"],
   },
   render() {
@@ -8592,7 +8592,7 @@ export let BCaretRightSquareFill = {
   $_icon: {
     name: "CaretRightSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["caret","right","square","fill"],
   },
   render() {
@@ -8612,7 +8612,7 @@ export let BCaretRightSquare = {
   $_icon: {
     name: "CaretRightSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["caret","right","square"],
   },
   render() {
@@ -8636,7 +8636,7 @@ export let BCaretRight = {
   $_icon: {
     name: "CaretRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["caret","right"],
   },
   render() {
@@ -8656,7 +8656,7 @@ export let BCaretUpFill = {
   $_icon: {
     name: "CaretUpFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["caret","up","fill"],
   },
   render() {
@@ -8676,7 +8676,7 @@ export let BCaretUpSquareFill = {
   $_icon: {
     name: "CaretUpSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["caret","up","square","fill"],
   },
   render() {
@@ -8696,7 +8696,7 @@ export let BCaretUpSquare = {
   $_icon: {
     name: "CaretUpSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["caret","up","square"],
   },
   render() {
@@ -8720,7 +8720,7 @@ export let BCaretUp = {
   $_icon: {
     name: "CaretUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["caret","up"],
   },
   render() {
@@ -8740,7 +8740,7 @@ export let BCartCheckFill = {
   $_icon: {
     name: "CartCheckFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cart","check","fill"],
   },
   render() {
@@ -8760,7 +8760,7 @@ export let BCartCheck = {
   $_icon: {
     name: "CartCheck",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cart","check"],
   },
   render() {
@@ -8784,7 +8784,7 @@ export let BCartDashFill = {
   $_icon: {
     name: "CartDashFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cart","dash","fill"],
   },
   render() {
@@ -8804,7 +8804,7 @@ export let BCartDash = {
   $_icon: {
     name: "CartDash",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cart","dash"],
   },
   render() {
@@ -8828,7 +8828,7 @@ export let BCartFill = {
   $_icon: {
     name: "CartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cart","fill"],
   },
   render() {
@@ -8848,7 +8848,7 @@ export let BCartPlusFill = {
   $_icon: {
     name: "CartPlusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cart","plus","fill"],
   },
   render() {
@@ -8868,7 +8868,7 @@ export let BCartPlus = {
   $_icon: {
     name: "CartPlus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cart","plus"],
   },
   render() {
@@ -8892,7 +8892,7 @@ export let BCartXFill = {
   $_icon: {
     name: "CartXFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cart","x","fill"],
   },
   render() {
@@ -8912,7 +8912,7 @@ export let BCartX = {
   $_icon: {
     name: "CartX",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cart","x"],
   },
   render() {
@@ -8936,7 +8936,7 @@ export let BCart = {
   $_icon: {
     name: "Cart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cart"],
   },
   render() {
@@ -8956,7 +8956,7 @@ export let BCart2 = {
   $_icon: {
     name: "Cart2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cart2"],
   },
   render() {
@@ -8976,7 +8976,7 @@ export let BCart3 = {
   $_icon: {
     name: "Cart3",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cart3"],
   },
   render() {
@@ -8996,7 +8996,7 @@ export let BCart4 = {
   $_icon: {
     name: "Cart4",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cart4"],
   },
   render() {
@@ -9016,7 +9016,7 @@ export let BCashCoin = {
   $_icon: {
     name: "CashCoin",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cash","coin"],
   },
   render() {
@@ -9048,7 +9048,7 @@ export let BCashStack = {
   $_icon: {
     name: "CashStack",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cash","stack"],
   },
   render() {
@@ -9072,7 +9072,7 @@ export let BCash = {
   $_icon: {
     name: "Cash",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cash"],
   },
   render() {
@@ -9096,7 +9096,7 @@ export let BCassetteFill = {
   $_icon: {
     name: "CassetteFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cassette","fill"],
   },
   render() {
@@ -9120,7 +9120,7 @@ export let BCassette = {
   $_icon: {
     name: "Cassette",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cassette"],
   },
   render() {
@@ -9144,7 +9144,7 @@ export let BCast = {
   $_icon: {
     name: "Cast",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cast"],
   },
   render() {
@@ -9168,7 +9168,7 @@ export let BCcCircleFill = {
   $_icon: {
     name: "CcCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cc","circle","fill"],
   },
   render() {
@@ -9188,7 +9188,7 @@ export let BCcCircle = {
   $_icon: {
     name: "CcCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cc","circle"],
   },
   render() {
@@ -9208,7 +9208,7 @@ export let BCcSquareFill = {
   $_icon: {
     name: "CcSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cc","square","fill"],
   },
   render() {
@@ -9228,7 +9228,7 @@ export let BCcSquare = {
   $_icon: {
     name: "CcSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cc","square"],
   },
   render() {
@@ -9252,7 +9252,7 @@ export let BChatDotsFill = {
   $_icon: {
     name: "ChatDotsFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","dots","fill"],
   },
   render() {
@@ -9272,7 +9272,7 @@ export let BChatDots = {
   $_icon: {
     name: "ChatDots",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","dots"],
   },
   render() {
@@ -9296,7 +9296,7 @@ export let BChatFill = {
   $_icon: {
     name: "ChatFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","fill"],
   },
   render() {
@@ -9316,7 +9316,7 @@ export let BChatHeartFill = {
   $_icon: {
     name: "ChatHeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","heart","fill"],
   },
   render() {
@@ -9336,7 +9336,7 @@ export let BChatHeart = {
   $_icon: {
     name: "ChatHeart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","heart"],
   },
   render() {
@@ -9356,7 +9356,7 @@ export let BChatLeftDotsFill = {
   $_icon: {
     name: "ChatLeftDotsFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","left","dots","fill"],
   },
   render() {
@@ -9376,7 +9376,7 @@ export let BChatLeftDots = {
   $_icon: {
     name: "ChatLeftDots",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","left","dots"],
   },
   render() {
@@ -9400,7 +9400,7 @@ export let BChatLeftFill = {
   $_icon: {
     name: "ChatLeftFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","left","fill"],
   },
   render() {
@@ -9420,7 +9420,7 @@ export let BChatLeftHeartFill = {
   $_icon: {
     name: "ChatLeftHeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","left","heart","fill"],
   },
   render() {
@@ -9440,7 +9440,7 @@ export let BChatLeftHeart = {
   $_icon: {
     name: "ChatLeftHeart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","left","heart"],
   },
   render() {
@@ -9464,7 +9464,7 @@ export let BChatLeftQuoteFill = {
   $_icon: {
     name: "ChatLeftQuoteFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","left","quote","fill"],
   },
   render() {
@@ -9484,7 +9484,7 @@ export let BChatLeftQuote = {
   $_icon: {
     name: "ChatLeftQuote",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","left","quote"],
   },
   render() {
@@ -9508,7 +9508,7 @@ export let BChatLeftTextFill = {
   $_icon: {
     name: "ChatLeftTextFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","left","text","fill"],
   },
   render() {
@@ -9528,7 +9528,7 @@ export let BChatLeftText = {
   $_icon: {
     name: "ChatLeftText",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","left","text"],
   },
   render() {
@@ -9552,7 +9552,7 @@ export let BChatLeft = {
   $_icon: {
     name: "ChatLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","left"],
   },
   render() {
@@ -9572,7 +9572,7 @@ export let BChatQuoteFill = {
   $_icon: {
     name: "ChatQuoteFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","quote","fill"],
   },
   render() {
@@ -9592,7 +9592,7 @@ export let BChatQuote = {
   $_icon: {
     name: "ChatQuote",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","quote"],
   },
   render() {
@@ -9616,7 +9616,7 @@ export let BChatRightDotsFill = {
   $_icon: {
     name: "ChatRightDotsFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","right","dots","fill"],
   },
   render() {
@@ -9636,7 +9636,7 @@ export let BChatRightDots = {
   $_icon: {
     name: "ChatRightDots",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","right","dots"],
   },
   render() {
@@ -9660,7 +9660,7 @@ export let BChatRightFill = {
   $_icon: {
     name: "ChatRightFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","right","fill"],
   },
   render() {
@@ -9680,7 +9680,7 @@ export let BChatRightHeartFill = {
   $_icon: {
     name: "ChatRightHeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","right","heart","fill"],
   },
   render() {
@@ -9700,7 +9700,7 @@ export let BChatRightHeart = {
   $_icon: {
     name: "ChatRightHeart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","right","heart"],
   },
   render() {
@@ -9724,7 +9724,7 @@ export let BChatRightQuoteFill = {
   $_icon: {
     name: "ChatRightQuoteFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","right","quote","fill"],
   },
   render() {
@@ -9744,7 +9744,7 @@ export let BChatRightQuote = {
   $_icon: {
     name: "ChatRightQuote",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","right","quote"],
   },
   render() {
@@ -9768,7 +9768,7 @@ export let BChatRightTextFill = {
   $_icon: {
     name: "ChatRightTextFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","right","text","fill"],
   },
   render() {
@@ -9788,7 +9788,7 @@ export let BChatRightText = {
   $_icon: {
     name: "ChatRightText",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","right","text"],
   },
   render() {
@@ -9812,7 +9812,7 @@ export let BChatRight = {
   $_icon: {
     name: "ChatRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","right"],
   },
   render() {
@@ -9832,7 +9832,7 @@ export let BChatSquareDotsFill = {
   $_icon: {
     name: "ChatSquareDotsFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","square","dots","fill"],
   },
   render() {
@@ -9852,7 +9852,7 @@ export let BChatSquareDots = {
   $_icon: {
     name: "ChatSquareDots",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","square","dots"],
   },
   render() {
@@ -9876,7 +9876,7 @@ export let BChatSquareFill = {
   $_icon: {
     name: "ChatSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","square","fill"],
   },
   render() {
@@ -9896,7 +9896,7 @@ export let BChatSquareHeartFill = {
   $_icon: {
     name: "ChatSquareHeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","square","heart","fill"],
   },
   render() {
@@ -9916,7 +9916,7 @@ export let BChatSquareHeart = {
   $_icon: {
     name: "ChatSquareHeart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","square","heart"],
   },
   render() {
@@ -9940,7 +9940,7 @@ export let BChatSquareQuoteFill = {
   $_icon: {
     name: "ChatSquareQuoteFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","square","quote","fill"],
   },
   render() {
@@ -9960,7 +9960,7 @@ export let BChatSquareQuote = {
   $_icon: {
     name: "ChatSquareQuote",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","square","quote"],
   },
   render() {
@@ -9984,7 +9984,7 @@ export let BChatSquareTextFill = {
   $_icon: {
     name: "ChatSquareTextFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","square","text","fill"],
   },
   render() {
@@ -10004,7 +10004,7 @@ export let BChatSquareText = {
   $_icon: {
     name: "ChatSquareText",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","square","text"],
   },
   render() {
@@ -10028,7 +10028,7 @@ export let BChatSquare = {
   $_icon: {
     name: "ChatSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","square"],
   },
   render() {
@@ -10048,7 +10048,7 @@ export let BChatTextFill = {
   $_icon: {
     name: "ChatTextFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","text","fill"],
   },
   render() {
@@ -10068,7 +10068,7 @@ export let BChatText = {
   $_icon: {
     name: "ChatText",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat","text"],
   },
   render() {
@@ -10092,7 +10092,7 @@ export let BChat = {
   $_icon: {
     name: "Chat",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chat"],
   },
   render() {
@@ -10112,7 +10112,7 @@ export let BCheckAll = {
   $_icon: {
     name: "CheckAll",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["check","all"],
   },
   render() {
@@ -10132,7 +10132,7 @@ export let BCheckCircleFill = {
   $_icon: {
     name: "CheckCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["check","circle","fill"],
   },
   render() {
@@ -10152,7 +10152,7 @@ export let BCheckCircle = {
   $_icon: {
     name: "CheckCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["check","circle"],
   },
   render() {
@@ -10176,7 +10176,7 @@ export let BCheckLg = {
   $_icon: {
     name: "CheckLg",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["check","lg"],
   },
   render() {
@@ -10196,7 +10196,7 @@ export let BCheckSquareFill = {
   $_icon: {
     name: "CheckSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["check","square","fill"],
   },
   render() {
@@ -10216,7 +10216,7 @@ export let BCheckSquare = {
   $_icon: {
     name: "CheckSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["check","square"],
   },
   render() {
@@ -10240,7 +10240,7 @@ export let BCheck = {
   $_icon: {
     name: "Check",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["check"],
   },
   render() {
@@ -10260,7 +10260,7 @@ export let BCheck2All = {
   $_icon: {
     name: "Check2All",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["check2","all"],
   },
   render() {
@@ -10284,7 +10284,7 @@ export let BCheck2Circle = {
   $_icon: {
     name: "Check2Circle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["check2","circle"],
   },
   render() {
@@ -10308,7 +10308,7 @@ export let BCheck2Square = {
   $_icon: {
     name: "Check2Square",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["check2","square"],
   },
   render() {
@@ -10332,7 +10332,7 @@ export let BCheck2 = {
   $_icon: {
     name: "Check2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["check2"],
   },
   render() {
@@ -10352,7 +10352,7 @@ export let BChevronBarContract = {
   $_icon: {
     name: "ChevronBarContract",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chevron","bar","contract"],
   },
   render() {
@@ -10372,7 +10372,7 @@ export let BChevronBarDown = {
   $_icon: {
     name: "ChevronBarDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chevron","bar","down"],
   },
   render() {
@@ -10392,7 +10392,7 @@ export let BChevronBarExpand = {
   $_icon: {
     name: "ChevronBarExpand",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chevron","bar","expand"],
   },
   render() {
@@ -10412,7 +10412,7 @@ export let BChevronBarLeft = {
   $_icon: {
     name: "ChevronBarLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chevron","bar","left"],
   },
   render() {
@@ -10432,7 +10432,7 @@ export let BChevronBarRight = {
   $_icon: {
     name: "ChevronBarRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chevron","bar","right"],
   },
   render() {
@@ -10452,7 +10452,7 @@ export let BChevronBarUp = {
   $_icon: {
     name: "ChevronBarUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chevron","bar","up"],
   },
   render() {
@@ -10472,7 +10472,7 @@ export let BChevronCompactDown = {
   $_icon: {
     name: "ChevronCompactDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chevron","compact","down"],
   },
   render() {
@@ -10492,7 +10492,7 @@ export let BChevronCompactLeft = {
   $_icon: {
     name: "ChevronCompactLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chevron","compact","left"],
   },
   render() {
@@ -10512,7 +10512,7 @@ export let BChevronCompactRight = {
   $_icon: {
     name: "ChevronCompactRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chevron","compact","right"],
   },
   render() {
@@ -10532,7 +10532,7 @@ export let BChevronCompactUp = {
   $_icon: {
     name: "ChevronCompactUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chevron","compact","up"],
   },
   render() {
@@ -10552,7 +10552,7 @@ export let BChevronContract = {
   $_icon: {
     name: "ChevronContract",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chevron","contract"],
   },
   render() {
@@ -10572,7 +10572,7 @@ export let BChevronDoubleDown = {
   $_icon: {
     name: "ChevronDoubleDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chevron","double","down"],
   },
   render() {
@@ -10596,7 +10596,7 @@ export let BChevronDoubleLeft = {
   $_icon: {
     name: "ChevronDoubleLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chevron","double","left"],
   },
   render() {
@@ -10620,7 +10620,7 @@ export let BChevronDoubleRight = {
   $_icon: {
     name: "ChevronDoubleRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chevron","double","right"],
   },
   render() {
@@ -10644,7 +10644,7 @@ export let BChevronDoubleUp = {
   $_icon: {
     name: "ChevronDoubleUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chevron","double","up"],
   },
   render() {
@@ -10668,7 +10668,7 @@ export let BChevronDown = {
   $_icon: {
     name: "ChevronDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chevron","down"],
   },
   render() {
@@ -10688,7 +10688,7 @@ export let BChevronExpand = {
   $_icon: {
     name: "ChevronExpand",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chevron","expand"],
   },
   render() {
@@ -10708,7 +10708,7 @@ export let BChevronLeft = {
   $_icon: {
     name: "ChevronLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chevron","left"],
   },
   render() {
@@ -10728,7 +10728,7 @@ export let BChevronRight = {
   $_icon: {
     name: "ChevronRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chevron","right"],
   },
   render() {
@@ -10748,7 +10748,7 @@ export let BChevronUp = {
   $_icon: {
     name: "ChevronUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["chevron","up"],
   },
   render() {
@@ -10768,7 +10768,7 @@ export let BCircleFill = {
   $_icon: {
     name: "CircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["circle","fill"],
   },
   render() {
@@ -10788,7 +10788,7 @@ export let BCircleHalf = {
   $_icon: {
     name: "CircleHalf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["circle","half"],
   },
   render() {
@@ -10808,7 +10808,7 @@ export let BCircleSquare = {
   $_icon: {
     name: "CircleSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["circle","square"],
   },
   render() {
@@ -10832,7 +10832,7 @@ export let BCircle = {
   $_icon: {
     name: "Circle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["circle"],
   },
   render() {
@@ -10852,7 +10852,7 @@ export let BClipboardCheckFill = {
   $_icon: {
     name: "ClipboardCheckFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard","check","fill"],
   },
   render() {
@@ -10876,7 +10876,7 @@ export let BClipboardCheck = {
   $_icon: {
     name: "ClipboardCheck",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard","check"],
   },
   render() {
@@ -10904,7 +10904,7 @@ export let BClipboardDataFill = {
   $_icon: {
     name: "ClipboardDataFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard","data","fill"],
   },
   render() {
@@ -10928,7 +10928,7 @@ export let BClipboardData = {
   $_icon: {
     name: "ClipboardData",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard","data"],
   },
   render() {
@@ -10956,7 +10956,7 @@ export let BClipboardFill = {
   $_icon: {
     name: "ClipboardFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard","fill"],
   },
   render() {
@@ -10976,7 +10976,7 @@ export let BClipboardHeartFill = {
   $_icon: {
     name: "ClipboardHeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard","heart","fill"],
   },
   render() {
@@ -11000,7 +11000,7 @@ export let BClipboardHeart = {
   $_icon: {
     name: "ClipboardHeart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard","heart"],
   },
   render() {
@@ -11028,7 +11028,7 @@ export let BClipboardMinusFill = {
   $_icon: {
     name: "ClipboardMinusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard","minus","fill"],
   },
   render() {
@@ -11052,7 +11052,7 @@ export let BClipboardMinus = {
   $_icon: {
     name: "ClipboardMinus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard","minus"],
   },
   render() {
@@ -11080,7 +11080,7 @@ export let BClipboardPlusFill = {
   $_icon: {
     name: "ClipboardPlusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard","plus","fill"],
   },
   render() {
@@ -11104,7 +11104,7 @@ export let BClipboardPlus = {
   $_icon: {
     name: "ClipboardPlus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard","plus"],
   },
   render() {
@@ -11132,7 +11132,7 @@ export let BClipboardPulse = {
   $_icon: {
     name: "ClipboardPulse",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard","pulse"],
   },
   render() {
@@ -11152,7 +11152,7 @@ export let BClipboardXFill = {
   $_icon: {
     name: "ClipboardXFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard","x","fill"],
   },
   render() {
@@ -11176,7 +11176,7 @@ export let BClipboardX = {
   $_icon: {
     name: "ClipboardX",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard","x"],
   },
   render() {
@@ -11204,7 +11204,7 @@ export let BClipboard = {
   $_icon: {
     name: "Clipboard",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard"],
   },
   render() {
@@ -11228,7 +11228,7 @@ export let BClipboard2CheckFill = {
   $_icon: {
     name: "Clipboard2CheckFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard2","check","fill"],
   },
   render() {
@@ -11252,7 +11252,7 @@ export let BClipboard2Check = {
   $_icon: {
     name: "Clipboard2Check",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard2","check"],
   },
   render() {
@@ -11280,7 +11280,7 @@ export let BClipboard2DataFill = {
   $_icon: {
     name: "Clipboard2DataFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard2","data","fill"],
   },
   render() {
@@ -11304,7 +11304,7 @@ export let BClipboard2Data = {
   $_icon: {
     name: "Clipboard2Data",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard2","data"],
   },
   render() {
@@ -11332,7 +11332,7 @@ export let BClipboard2Fill = {
   $_icon: {
     name: "Clipboard2Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard2","fill"],
   },
   render() {
@@ -11356,7 +11356,7 @@ export let BClipboard2HeartFill = {
   $_icon: {
     name: "Clipboard2HeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard2","heart","fill"],
   },
   render() {
@@ -11380,7 +11380,7 @@ export let BClipboard2Heart = {
   $_icon: {
     name: "Clipboard2Heart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard2","heart"],
   },
   render() {
@@ -11408,7 +11408,7 @@ export let BClipboard2MinusFill = {
   $_icon: {
     name: "Clipboard2MinusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard2","minus","fill"],
   },
   render() {
@@ -11432,7 +11432,7 @@ export let BClipboard2Minus = {
   $_icon: {
     name: "Clipboard2Minus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard2","minus"],
   },
   render() {
@@ -11460,7 +11460,7 @@ export let BClipboard2PlusFill = {
   $_icon: {
     name: "Clipboard2PlusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard2","plus","fill"],
   },
   render() {
@@ -11484,7 +11484,7 @@ export let BClipboard2Plus = {
   $_icon: {
     name: "Clipboard2Plus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard2","plus"],
   },
   render() {
@@ -11512,7 +11512,7 @@ export let BClipboard2PulseFill = {
   $_icon: {
     name: "Clipboard2PulseFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard2","pulse","fill"],
   },
   render() {
@@ -11536,7 +11536,7 @@ export let BClipboard2Pulse = {
   $_icon: {
     name: "Clipboard2Pulse",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard2","pulse"],
   },
   render() {
@@ -11564,7 +11564,7 @@ export let BClipboard2XFill = {
   $_icon: {
     name: "Clipboard2XFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard2","x","fill"],
   },
   render() {
@@ -11588,7 +11588,7 @@ export let BClipboard2X = {
   $_icon: {
     name: "Clipboard2X",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard2","x"],
   },
   render() {
@@ -11616,7 +11616,7 @@ export let BClipboard2 = {
   $_icon: {
     name: "Clipboard2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clipboard2"],
   },
   render() {
@@ -11640,7 +11640,7 @@ export let BClockFill = {
   $_icon: {
     name: "ClockFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clock","fill"],
   },
   render() {
@@ -11660,7 +11660,7 @@ export let BClockHistory = {
   $_icon: {
     name: "ClockHistory",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clock","history"],
   },
   render() {
@@ -11688,7 +11688,7 @@ export let BClock = {
   $_icon: {
     name: "Clock",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clock"],
   },
   render() {
@@ -11712,7 +11712,7 @@ export let BCloudArrowDownFill = {
   $_icon: {
     name: "CloudArrowDownFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","arrow","down","fill"],
   },
   render() {
@@ -11732,7 +11732,7 @@ export let BCloudArrowDown = {
   $_icon: {
     name: "CloudArrowDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","arrow","down"],
   },
   render() {
@@ -11756,7 +11756,7 @@ export let BCloudArrowUpFill = {
   $_icon: {
     name: "CloudArrowUpFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","arrow","up","fill"],
   },
   render() {
@@ -11776,7 +11776,7 @@ export let BCloudArrowUp = {
   $_icon: {
     name: "CloudArrowUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","arrow","up"],
   },
   render() {
@@ -11800,7 +11800,7 @@ export let BCloudCheckFill = {
   $_icon: {
     name: "CloudCheckFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","check","fill"],
   },
   render() {
@@ -11820,7 +11820,7 @@ export let BCloudCheck = {
   $_icon: {
     name: "CloudCheck",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","check"],
   },
   render() {
@@ -11844,7 +11844,7 @@ export let BCloudDownloadFill = {
   $_icon: {
     name: "CloudDownloadFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","download","fill"],
   },
   render() {
@@ -11864,7 +11864,7 @@ export let BCloudDownload = {
   $_icon: {
     name: "CloudDownload",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","download"],
   },
   render() {
@@ -11888,7 +11888,7 @@ export let BCloudDrizzleFill = {
   $_icon: {
     name: "CloudDrizzleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","drizzle","fill"],
   },
   render() {
@@ -11908,7 +11908,7 @@ export let BCloudDrizzle = {
   $_icon: {
     name: "CloudDrizzle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","drizzle"],
   },
   render() {
@@ -11928,7 +11928,7 @@ export let BCloudFill = {
   $_icon: {
     name: "CloudFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","fill"],
   },
   render() {
@@ -11948,7 +11948,7 @@ export let BCloudFogFill = {
   $_icon: {
     name: "CloudFogFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","fog","fill"],
   },
   render() {
@@ -11968,7 +11968,7 @@ export let BCloudFog = {
   $_icon: {
     name: "CloudFog",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","fog"],
   },
   render() {
@@ -11988,7 +11988,7 @@ export let BCloudFog2Fill = {
   $_icon: {
     name: "CloudFog2Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","fog2","fill"],
   },
   render() {
@@ -12008,7 +12008,7 @@ export let BCloudFog2 = {
   $_icon: {
     name: "CloudFog2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","fog2"],
   },
   render() {
@@ -12028,7 +12028,7 @@ export let BCloudHailFill = {
   $_icon: {
     name: "CloudHailFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","hail","fill"],
   },
   render() {
@@ -12048,7 +12048,7 @@ export let BCloudHail = {
   $_icon: {
     name: "CloudHail",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","hail"],
   },
   render() {
@@ -12068,7 +12068,7 @@ export let BCloudHazeFill = {
   $_icon: {
     name: "CloudHazeFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","haze","fill"],
   },
   render() {
@@ -12088,7 +12088,7 @@ export let BCloudHaze = {
   $_icon: {
     name: "CloudHaze",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","haze"],
   },
   render() {
@@ -12108,7 +12108,7 @@ export let BCloudHaze2Fill = {
   $_icon: {
     name: "CloudHaze2Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","haze2","fill"],
   },
   render() {
@@ -12128,7 +12128,7 @@ export let BCloudHaze2 = {
   $_icon: {
     name: "CloudHaze2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","haze2"],
   },
   render() {
@@ -12148,7 +12148,7 @@ export let BCloudLightningFill = {
   $_icon: {
     name: "CloudLightningFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","lightning","fill"],
   },
   render() {
@@ -12168,7 +12168,7 @@ export let BCloudLightningRainFill = {
   $_icon: {
     name: "CloudLightningRainFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","lightning","rain","fill"],
   },
   render() {
@@ -12188,7 +12188,7 @@ export let BCloudLightningRain = {
   $_icon: {
     name: "CloudLightningRain",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","lightning","rain"],
   },
   render() {
@@ -12208,7 +12208,7 @@ export let BCloudLightning = {
   $_icon: {
     name: "CloudLightning",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","lightning"],
   },
   render() {
@@ -12228,7 +12228,7 @@ export let BCloudMinusFill = {
   $_icon: {
     name: "CloudMinusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","minus","fill"],
   },
   render() {
@@ -12248,7 +12248,7 @@ export let BCloudMinus = {
   $_icon: {
     name: "CloudMinus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","minus"],
   },
   render() {
@@ -12272,7 +12272,7 @@ export let BCloudMoonFill = {
   $_icon: {
     name: "CloudMoonFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","moon","fill"],
   },
   render() {
@@ -12296,7 +12296,7 @@ export let BCloudMoon = {
   $_icon: {
     name: "CloudMoon",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","moon"],
   },
   render() {
@@ -12320,7 +12320,7 @@ export let BCloudPlusFill = {
   $_icon: {
     name: "CloudPlusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","plus","fill"],
   },
   render() {
@@ -12340,7 +12340,7 @@ export let BCloudPlus = {
   $_icon: {
     name: "CloudPlus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","plus"],
   },
   render() {
@@ -12364,7 +12364,7 @@ export let BCloudRainFill = {
   $_icon: {
     name: "CloudRainFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","rain","fill"],
   },
   render() {
@@ -12384,7 +12384,7 @@ export let BCloudRainHeavyFill = {
   $_icon: {
     name: "CloudRainHeavyFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","rain","heavy","fill"],
   },
   render() {
@@ -12404,7 +12404,7 @@ export let BCloudRainHeavy = {
   $_icon: {
     name: "CloudRainHeavy",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","rain","heavy"],
   },
   render() {
@@ -12424,7 +12424,7 @@ export let BCloudRain = {
   $_icon: {
     name: "CloudRain",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","rain"],
   },
   render() {
@@ -12444,7 +12444,7 @@ export let BCloudSlashFill = {
   $_icon: {
     name: "CloudSlashFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","slash","fill"],
   },
   render() {
@@ -12464,7 +12464,7 @@ export let BCloudSlash = {
   $_icon: {
     name: "CloudSlash",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","slash"],
   },
   render() {
@@ -12488,7 +12488,7 @@ export let BCloudSleetFill = {
   $_icon: {
     name: "CloudSleetFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","sleet","fill"],
   },
   render() {
@@ -12508,7 +12508,7 @@ export let BCloudSleet = {
   $_icon: {
     name: "CloudSleet",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","sleet"],
   },
   render() {
@@ -12528,7 +12528,7 @@ export let BCloudSnowFill = {
   $_icon: {
     name: "CloudSnowFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","snow","fill"],
   },
   render() {
@@ -12548,7 +12548,7 @@ export let BCloudSnow = {
   $_icon: {
     name: "CloudSnow",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","snow"],
   },
   render() {
@@ -12568,7 +12568,7 @@ export let BCloudSunFill = {
   $_icon: {
     name: "CloudSunFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","sun","fill"],
   },
   render() {
@@ -12592,7 +12592,7 @@ export let BCloudSun = {
   $_icon: {
     name: "CloudSun",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","sun"],
   },
   render() {
@@ -12616,7 +12616,7 @@ export let BCloudUploadFill = {
   $_icon: {
     name: "CloudUploadFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","upload","fill"],
   },
   render() {
@@ -12636,7 +12636,7 @@ export let BCloudUpload = {
   $_icon: {
     name: "CloudUpload",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud","upload"],
   },
   render() {
@@ -12660,7 +12660,7 @@ export let BCloud = {
   $_icon: {
     name: "Cloud",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloud"],
   },
   render() {
@@ -12680,7 +12680,7 @@ export let BCloudsFill = {
   $_icon: {
     name: "CloudsFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clouds","fill"],
   },
   render() {
@@ -12704,7 +12704,7 @@ export let BClouds = {
   $_icon: {
     name: "Clouds",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["clouds"],
   },
   render() {
@@ -12728,7 +12728,7 @@ export let BCloudyFill = {
   $_icon: {
     name: "CloudyFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloudy","fill"],
   },
   render() {
@@ -12748,7 +12748,7 @@ export let BCloudy = {
   $_icon: {
     name: "Cloudy",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cloudy"],
   },
   render() {
@@ -12768,7 +12768,7 @@ export let BCodeSlash = {
   $_icon: {
     name: "CodeSlash",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["code","slash"],
   },
   render() {
@@ -12788,7 +12788,7 @@ export let BCodeSquare = {
   $_icon: {
     name: "CodeSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["code","square"],
   },
   render() {
@@ -12812,7 +12812,7 @@ export let BCode = {
   $_icon: {
     name: "Code",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["code"],
   },
   render() {
@@ -12832,7 +12832,7 @@ export let BCoin = {
   $_icon: {
     name: "Coin",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["coin"],
   },
   render() {
@@ -12860,7 +12860,7 @@ export let BCollectionFill = {
   $_icon: {
     name: "CollectionFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["collection","fill"],
   },
   render() {
@@ -12880,7 +12880,7 @@ export let BCollectionPlayFill = {
   $_icon: {
     name: "CollectionPlayFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["collection","play","fill"],
   },
   render() {
@@ -12900,7 +12900,7 @@ export let BCollectionPlay = {
   $_icon: {
     name: "CollectionPlay",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["collection","play"],
   },
   render() {
@@ -12924,7 +12924,7 @@ export let BCollection = {
   $_icon: {
     name: "Collection",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["collection"],
   },
   render() {
@@ -12944,7 +12944,7 @@ export let BColumnsGap = {
   $_icon: {
     name: "ColumnsGap",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["columns","gap"],
   },
   render() {
@@ -12964,7 +12964,7 @@ export let BColumns = {
   $_icon: {
     name: "Columns",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["columns"],
   },
   render() {
@@ -12984,7 +12984,7 @@ export let BCommand = {
   $_icon: {
     name: "Command",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["command"],
   },
   render() {
@@ -13004,7 +13004,7 @@ export let BCompassFill = {
   $_icon: {
     name: "CompassFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["compass","fill"],
   },
   render() {
@@ -13024,7 +13024,7 @@ export let BCompass = {
   $_icon: {
     name: "Compass",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["compass"],
   },
   render() {
@@ -13048,7 +13048,7 @@ export let BConeStriped = {
   $_icon: {
     name: "ConeStriped",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cone","striped"],
   },
   render() {
@@ -13068,7 +13068,7 @@ export let BCone = {
   $_icon: {
     name: "Cone",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cone"],
   },
   render() {
@@ -13088,7 +13088,7 @@ export let BController = {
   $_icon: {
     name: "Controller",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["controller"],
   },
   render() {
@@ -13112,7 +13112,7 @@ export let BCpuFill = {
   $_icon: {
     name: "CpuFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cpu","fill"],
   },
   render() {
@@ -13136,7 +13136,7 @@ export let BCpu = {
   $_icon: {
     name: "Cpu",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cpu"],
   },
   render() {
@@ -13156,7 +13156,7 @@ export let BCreditCard2BackFill = {
   $_icon: {
     name: "CreditCard2BackFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["credit","card","2","back","fill"],
   },
   render() {
@@ -13176,7 +13176,7 @@ export let BCreditCard2Back = {
   $_icon: {
     name: "CreditCard2Back",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["credit","card","2","back"],
   },
   render() {
@@ -13200,7 +13200,7 @@ export let BCreditCard2FrontFill = {
   $_icon: {
     name: "CreditCard2FrontFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["credit","card","2","front","fill"],
   },
   render() {
@@ -13220,7 +13220,7 @@ export let BCreditCard2Front = {
   $_icon: {
     name: "CreditCard2Front",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["credit","card","2","front"],
   },
   render() {
@@ -13244,7 +13244,7 @@ export let BCreditCardFill = {
   $_icon: {
     name: "CreditCardFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["credit","card","fill"],
   },
   render() {
@@ -13264,7 +13264,7 @@ export let BCreditCard = {
   $_icon: {
     name: "CreditCard",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["credit","card"],
   },
   render() {
@@ -13288,7 +13288,7 @@ export let BCrop = {
   $_icon: {
     name: "Crop",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["crop"],
   },
   render() {
@@ -13308,7 +13308,7 @@ export let BCupFill = {
   $_icon: {
     name: "CupFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cup","fill"],
   },
   render() {
@@ -13328,7 +13328,7 @@ export let BCupHotFill = {
   $_icon: {
     name: "CupHotFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cup","hot","fill"],
   },
   render() {
@@ -13352,7 +13352,7 @@ export let BCupHot = {
   $_icon: {
     name: "CupHot",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cup","hot"],
   },
   render() {
@@ -13376,7 +13376,7 @@ export let BCupStraw = {
   $_icon: {
     name: "CupStraw",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cup","straw"],
   },
   render() {
@@ -13396,7 +13396,7 @@ export let BCup = {
   $_icon: {
     name: "Cup",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cup"],
   },
   render() {
@@ -13416,7 +13416,7 @@ export let BCurrencyBitcoin = {
   $_icon: {
     name: "CurrencyBitcoin",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["currency","bitcoin"],
   },
   render() {
@@ -13436,7 +13436,7 @@ export let BCurrencyDollar = {
   $_icon: {
     name: "CurrencyDollar",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["currency","dollar"],
   },
   render() {
@@ -13456,7 +13456,7 @@ export let BCurrencyEuro = {
   $_icon: {
     name: "CurrencyEuro",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["currency","euro"],
   },
   render() {
@@ -13476,7 +13476,7 @@ export let BCurrencyExchange = {
   $_icon: {
     name: "CurrencyExchange",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["currency","exchange"],
   },
   render() {
@@ -13496,7 +13496,7 @@ export let BCurrencyPound = {
   $_icon: {
     name: "CurrencyPound",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["currency","pound"],
   },
   render() {
@@ -13516,7 +13516,7 @@ export let BCurrencyRupee = {
   $_icon: {
     name: "CurrencyRupee",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["currency","rupee"],
   },
   render() {
@@ -13536,7 +13536,7 @@ export let BCurrencyYen = {
   $_icon: {
     name: "CurrencyYen",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["currency","yen"],
   },
   render() {
@@ -13556,7 +13556,7 @@ export let BCursorFill = {
   $_icon: {
     name: "CursorFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cursor","fill"],
   },
   render() {
@@ -13576,7 +13576,7 @@ export let BCursorText = {
   $_icon: {
     name: "CursorText",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cursor","text"],
   },
   render() {
@@ -13596,7 +13596,7 @@ export let BCursor = {
   $_icon: {
     name: "Cursor",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["cursor"],
   },
   render() {
@@ -13616,7 +13616,7 @@ export let BDashCircleDotted = {
   $_icon: {
     name: "DashCircleDotted",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dash","circle","dotted"],
   },
   render() {
@@ -13636,7 +13636,7 @@ export let BDashCircleFill = {
   $_icon: {
     name: "DashCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dash","circle","fill"],
   },
   render() {
@@ -13656,7 +13656,7 @@ export let BDashCircle = {
   $_icon: {
     name: "DashCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dash","circle"],
   },
   render() {
@@ -13680,7 +13680,7 @@ export let BDashLg = {
   $_icon: {
     name: "DashLg",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dash","lg"],
   },
   render() {
@@ -13700,7 +13700,7 @@ export let BDashSquareDotted = {
   $_icon: {
     name: "DashSquareDotted",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dash","square","dotted"],
   },
   render() {
@@ -13720,7 +13720,7 @@ export let BDashSquareFill = {
   $_icon: {
     name: "DashSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dash","square","fill"],
   },
   render() {
@@ -13740,7 +13740,7 @@ export let BDashSquare = {
   $_icon: {
     name: "DashSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dash","square"],
   },
   render() {
@@ -13764,7 +13764,7 @@ export let BDash = {
   $_icon: {
     name: "Dash",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dash"],
   },
   render() {
@@ -13784,7 +13784,7 @@ export let BDeviceHddFill = {
   $_icon: {
     name: "DeviceHddFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["device","hdd","fill"],
   },
   render() {
@@ -13808,7 +13808,7 @@ export let BDeviceHdd = {
   $_icon: {
     name: "DeviceHdd",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["device","hdd"],
   },
   render() {
@@ -13836,7 +13836,7 @@ export let BDeviceSsdFill = {
   $_icon: {
     name: "DeviceSsdFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["device","ssd","fill"],
   },
   render() {
@@ -13860,7 +13860,7 @@ export let BDeviceSsd = {
   $_icon: {
     name: "DeviceSsd",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["device","ssd"],
   },
   render() {
@@ -13884,7 +13884,7 @@ export let BDiagram2Fill = {
   $_icon: {
     name: "Diagram2Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["diagram","2","fill"],
   },
   render() {
@@ -13904,7 +13904,7 @@ export let BDiagram2 = {
   $_icon: {
     name: "Diagram2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["diagram","2"],
   },
   render() {
@@ -13924,7 +13924,7 @@ export let BDiagram3Fill = {
   $_icon: {
     name: "Diagram3Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["diagram","3","fill"],
   },
   render() {
@@ -13944,7 +13944,7 @@ export let BDiagram3 = {
   $_icon: {
     name: "Diagram3",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["diagram","3"],
   },
   render() {
@@ -13964,7 +13964,7 @@ export let BDiamondFill = {
   $_icon: {
     name: "DiamondFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["diamond","fill"],
   },
   render() {
@@ -13984,7 +13984,7 @@ export let BDiamondHalf = {
   $_icon: {
     name: "DiamondHalf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["diamond","half"],
   },
   render() {
@@ -14004,7 +14004,7 @@ export let BDiamond = {
   $_icon: {
     name: "Diamond",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["diamond"],
   },
   render() {
@@ -14024,7 +14024,7 @@ export let BDice1Fill = {
   $_icon: {
     name: "Dice1Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dice","1","fill"],
   },
   render() {
@@ -14044,7 +14044,7 @@ export let BDice1 = {
   $_icon: {
     name: "Dice1",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dice","1"],
   },
   render() {
@@ -14068,7 +14068,7 @@ export let BDice2Fill = {
   $_icon: {
     name: "Dice2Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dice","2","fill"],
   },
   render() {
@@ -14088,7 +14088,7 @@ export let BDice2 = {
   $_icon: {
     name: "Dice2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dice","2"],
   },
   render() {
@@ -14112,7 +14112,7 @@ export let BDice3Fill = {
   $_icon: {
     name: "Dice3Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dice","3","fill"],
   },
   render() {
@@ -14132,7 +14132,7 @@ export let BDice3 = {
   $_icon: {
     name: "Dice3",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dice","3"],
   },
   render() {
@@ -14156,7 +14156,7 @@ export let BDice4Fill = {
   $_icon: {
     name: "Dice4Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dice","4","fill"],
   },
   render() {
@@ -14176,7 +14176,7 @@ export let BDice4 = {
   $_icon: {
     name: "Dice4",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dice","4"],
   },
   render() {
@@ -14200,7 +14200,7 @@ export let BDice5Fill = {
   $_icon: {
     name: "Dice5Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dice","5","fill"],
   },
   render() {
@@ -14220,7 +14220,7 @@ export let BDice5 = {
   $_icon: {
     name: "Dice5",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dice","5"],
   },
   render() {
@@ -14244,7 +14244,7 @@ export let BDice6Fill = {
   $_icon: {
     name: "Dice6Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dice","6","fill"],
   },
   render() {
@@ -14264,7 +14264,7 @@ export let BDice6 = {
   $_icon: {
     name: "Dice6",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dice","6"],
   },
   render() {
@@ -14288,7 +14288,7 @@ export let BDiscFill = {
   $_icon: {
     name: "DiscFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["disc","fill"],
   },
   render() {
@@ -14308,7 +14308,7 @@ export let BDisc = {
   $_icon: {
     name: "Disc",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["disc"],
   },
   render() {
@@ -14332,7 +14332,7 @@ export let BDiscord = {
   $_icon: {
     name: "Discord",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["discord"],
   },
   render() {
@@ -14352,7 +14352,7 @@ export let BDisplayFill = {
   $_icon: {
     name: "DisplayFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["display","fill"],
   },
   render() {
@@ -14372,7 +14372,7 @@ export let BDisplay = {
   $_icon: {
     name: "Display",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["display"],
   },
   render() {
@@ -14392,7 +14392,7 @@ export let BDisplayportFill = {
   $_icon: {
     name: "DisplayportFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["displayport","fill"],
   },
   render() {
@@ -14412,7 +14412,7 @@ export let BDisplayport = {
   $_icon: {
     name: "Displayport",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["displayport"],
   },
   render() {
@@ -14436,7 +14436,7 @@ export let BDistributeHorizontal = {
   $_icon: {
     name: "DistributeHorizontal",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["distribute","horizontal"],
   },
   render() {
@@ -14460,7 +14460,7 @@ export let BDistributeVertical = {
   $_icon: {
     name: "DistributeVertical",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["distribute","vertical"],
   },
   render() {
@@ -14484,7 +14484,7 @@ export let BDoorClosedFill = {
   $_icon: {
     name: "DoorClosedFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["door","closed","fill"],
   },
   render() {
@@ -14504,7 +14504,7 @@ export let BDoorClosed = {
   $_icon: {
     name: "DoorClosed",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["door","closed"],
   },
   render() {
@@ -14528,7 +14528,7 @@ export let BDoorOpenFill = {
   $_icon: {
     name: "DoorOpenFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["door","open","fill"],
   },
   render() {
@@ -14548,7 +14548,7 @@ export let BDoorOpen = {
   $_icon: {
     name: "DoorOpen",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["door","open"],
   },
   render() {
@@ -14572,7 +14572,7 @@ export let BDot = {
   $_icon: {
     name: "Dot",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dot"],
   },
   render() {
@@ -14592,7 +14592,7 @@ export let BDownload = {
   $_icon: {
     name: "Download",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["download"],
   },
   render() {
@@ -14616,7 +14616,7 @@ export let BDpadFill = {
   $_icon: {
     name: "DpadFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dpad","fill"],
   },
   render() {
@@ -14636,7 +14636,7 @@ export let BDpad = {
   $_icon: {
     name: "Dpad",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dpad"],
   },
   render() {
@@ -14660,7 +14660,7 @@ export let BDribbble = {
   $_icon: {
     name: "Dribbble",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dribbble"],
   },
   render() {
@@ -14680,7 +14680,7 @@ export let BDropbox = {
   $_icon: {
     name: "Dropbox",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["dropbox"],
   },
   render() {
@@ -14700,7 +14700,7 @@ export let BDropletFill = {
   $_icon: {
     name: "DropletFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["droplet","fill"],
   },
   render() {
@@ -14720,7 +14720,7 @@ export let BDropletHalf = {
   $_icon: {
     name: "DropletHalf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["droplet","half"],
   },
   render() {
@@ -14744,7 +14744,7 @@ export let BDroplet = {
   $_icon: {
     name: "Droplet",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["droplet"],
   },
   render() {
@@ -14768,7 +14768,7 @@ export let BEarFill = {
   $_icon: {
     name: "EarFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["ear","fill"],
   },
   render() {
@@ -14788,7 +14788,7 @@ export let BEar = {
   $_icon: {
     name: "Ear",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["ear"],
   },
   render() {
@@ -14808,7 +14808,7 @@ export let BEarbuds = {
   $_icon: {
     name: "Earbuds",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["earbuds"],
   },
   render() {
@@ -14828,7 +14828,7 @@ export let BEaselFill = {
   $_icon: {
     name: "EaselFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["easel","fill"],
   },
   render() {
@@ -14848,7 +14848,7 @@ export let BEasel = {
   $_icon: {
     name: "Easel",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["easel"],
   },
   render() {
@@ -14868,7 +14868,7 @@ export let BEasel2Fill = {
   $_icon: {
     name: "Easel2Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["easel2","fill"],
   },
   render() {
@@ -14892,7 +14892,7 @@ export let BEasel2 = {
   $_icon: {
     name: "Easel2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["easel2"],
   },
   render() {
@@ -14912,7 +14912,7 @@ export let BEasel3Fill = {
   $_icon: {
     name: "Easel3Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["easel3","fill"],
   },
   render() {
@@ -14932,7 +14932,7 @@ export let BEasel3 = {
   $_icon: {
     name: "Easel3",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["easel3"],
   },
   render() {
@@ -14952,7 +14952,7 @@ export let BEggFill = {
   $_icon: {
     name: "EggFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["egg","fill"],
   },
   render() {
@@ -14972,7 +14972,7 @@ export let BEggFried = {
   $_icon: {
     name: "EggFried",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["egg","fried"],
   },
   render() {
@@ -14996,7 +14996,7 @@ export let BEgg = {
   $_icon: {
     name: "Egg",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["egg"],
   },
   render() {
@@ -15016,7 +15016,7 @@ export let BEjectFill = {
   $_icon: {
     name: "EjectFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["eject","fill"],
   },
   render() {
@@ -15036,7 +15036,7 @@ export let BEject = {
   $_icon: {
     name: "Eject",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["eject"],
   },
   render() {
@@ -15056,7 +15056,7 @@ export let BEmojiAngryFill = {
   $_icon: {
     name: "EmojiAngryFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","angry","fill"],
   },
   render() {
@@ -15076,7 +15076,7 @@ export let BEmojiAngry = {
   $_icon: {
     name: "EmojiAngry",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","angry"],
   },
   render() {
@@ -15100,7 +15100,7 @@ export let BEmojiDizzyFill = {
   $_icon: {
     name: "EmojiDizzyFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","dizzy","fill"],
   },
   render() {
@@ -15120,7 +15120,7 @@ export let BEmojiDizzy = {
   $_icon: {
     name: "EmojiDizzy",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","dizzy"],
   },
   render() {
@@ -15144,7 +15144,7 @@ export let BEmojiExpressionlessFill = {
   $_icon: {
     name: "EmojiExpressionlessFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","expressionless","fill"],
   },
   render() {
@@ -15164,7 +15164,7 @@ export let BEmojiExpressionless = {
   $_icon: {
     name: "EmojiExpressionless",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","expressionless"],
   },
   render() {
@@ -15188,7 +15188,7 @@ export let BEmojiFrownFill = {
   $_icon: {
     name: "EmojiFrownFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","frown","fill"],
   },
   render() {
@@ -15208,7 +15208,7 @@ export let BEmojiFrown = {
   $_icon: {
     name: "EmojiFrown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","frown"],
   },
   render() {
@@ -15232,7 +15232,7 @@ export let BEmojiHeartEyesFill = {
   $_icon: {
     name: "EmojiHeartEyesFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","heart","eyes","fill"],
   },
   render() {
@@ -15252,7 +15252,7 @@ export let BEmojiHeartEyes = {
   $_icon: {
     name: "EmojiHeartEyes",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","heart","eyes"],
   },
   render() {
@@ -15276,7 +15276,7 @@ export let BEmojiKissFill = {
   $_icon: {
     name: "EmojiKissFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","kiss","fill"],
   },
   render() {
@@ -15296,7 +15296,7 @@ export let BEmojiKiss = {
   $_icon: {
     name: "EmojiKiss",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","kiss"],
   },
   render() {
@@ -15316,7 +15316,7 @@ export let BEmojiLaughingFill = {
   $_icon: {
     name: "EmojiLaughingFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","laughing","fill"],
   },
   render() {
@@ -15336,7 +15336,7 @@ export let BEmojiLaughing = {
   $_icon: {
     name: "EmojiLaughing",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","laughing"],
   },
   render() {
@@ -15360,7 +15360,7 @@ export let BEmojiNeutralFill = {
   $_icon: {
     name: "EmojiNeutralFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","neutral","fill"],
   },
   render() {
@@ -15380,7 +15380,7 @@ export let BEmojiNeutral = {
   $_icon: {
     name: "EmojiNeutral",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","neutral"],
   },
   render() {
@@ -15404,7 +15404,7 @@ export let BEmojiSmileFill = {
   $_icon: {
     name: "EmojiSmileFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","smile","fill"],
   },
   render() {
@@ -15424,7 +15424,7 @@ export let BEmojiSmileUpsideDownFill = {
   $_icon: {
     name: "EmojiSmileUpsideDownFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","smile","upside","down","fill"],
   },
   render() {
@@ -15444,7 +15444,7 @@ export let BEmojiSmileUpsideDown = {
   $_icon: {
     name: "EmojiSmileUpsideDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","smile","upside","down"],
   },
   render() {
@@ -15468,7 +15468,7 @@ export let BEmojiSmile = {
   $_icon: {
     name: "EmojiSmile",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","smile"],
   },
   render() {
@@ -15492,7 +15492,7 @@ export let BEmojiSunglassesFill = {
   $_icon: {
     name: "EmojiSunglassesFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","sunglasses","fill"],
   },
   render() {
@@ -15512,7 +15512,7 @@ export let BEmojiSunglasses = {
   $_icon: {
     name: "EmojiSunglasses",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","sunglasses"],
   },
   render() {
@@ -15536,7 +15536,7 @@ export let BEmojiWinkFill = {
   $_icon: {
     name: "EmojiWinkFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","wink","fill"],
   },
   render() {
@@ -15556,7 +15556,7 @@ export let BEmojiWink = {
   $_icon: {
     name: "EmojiWink",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["emoji","wink"],
   },
   render() {
@@ -15580,7 +15580,7 @@ export let BEnvelopeCheckFill = {
   $_icon: {
     name: "EnvelopeCheckFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","check","fill"],
   },
   render() {
@@ -15604,7 +15604,7 @@ export let BEnvelopeCheck = {
   $_icon: {
     name: "EnvelopeCheck",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","check"],
   },
   render() {
@@ -15628,7 +15628,7 @@ export let BEnvelopeDashFill = {
   $_icon: {
     name: "EnvelopeDashFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","dash","fill"],
   },
   render() {
@@ -15652,7 +15652,7 @@ export let BEnvelopeDash = {
   $_icon: {
     name: "EnvelopeDash",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","dash"],
   },
   render() {
@@ -15676,7 +15676,7 @@ export let BEnvelopeExclamationFill = {
   $_icon: {
     name: "EnvelopeExclamationFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","exclamation","fill"],
   },
   render() {
@@ -15700,7 +15700,7 @@ export let BEnvelopeExclamation = {
   $_icon: {
     name: "EnvelopeExclamation",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","exclamation"],
   },
   render() {
@@ -15724,7 +15724,7 @@ export let BEnvelopeFill = {
   $_icon: {
     name: "EnvelopeFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","fill"],
   },
   render() {
@@ -15744,7 +15744,7 @@ export let BEnvelopeHeartFill = {
   $_icon: {
     name: "EnvelopeHeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","heart","fill"],
   },
   render() {
@@ -15768,7 +15768,7 @@ export let BEnvelopeHeart = {
   $_icon: {
     name: "EnvelopeHeart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","heart"],
   },
   render() {
@@ -15788,7 +15788,7 @@ export let BEnvelopeOpenFill = {
   $_icon: {
     name: "EnvelopeOpenFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","open","fill"],
   },
   render() {
@@ -15808,7 +15808,7 @@ export let BEnvelopeOpenHeartFill = {
   $_icon: {
     name: "EnvelopeOpenHeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","open","heart","fill"],
   },
   render() {
@@ -15832,7 +15832,7 @@ export let BEnvelopeOpenHeart = {
   $_icon: {
     name: "EnvelopeOpenHeart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","open","heart"],
   },
   render() {
@@ -15852,7 +15852,7 @@ export let BEnvelopeOpen = {
   $_icon: {
     name: "EnvelopeOpen",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","open"],
   },
   render() {
@@ -15872,7 +15872,7 @@ export let BEnvelopePaperFill = {
   $_icon: {
     name: "EnvelopePaperFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","paper","fill"],
   },
   render() {
@@ -15892,7 +15892,7 @@ export let BEnvelopePaperHeartFill = {
   $_icon: {
     name: "EnvelopePaperHeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","paper","heart","fill"],
   },
   render() {
@@ -15912,7 +15912,7 @@ export let BEnvelopePaperHeart = {
   $_icon: {
     name: "EnvelopePaperHeart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","paper","heart"],
   },
   render() {
@@ -15932,7 +15932,7 @@ export let BEnvelopePaper = {
   $_icon: {
     name: "EnvelopePaper",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","paper"],
   },
   render() {
@@ -15952,7 +15952,7 @@ export let BEnvelopePlusFill = {
   $_icon: {
     name: "EnvelopePlusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","plus","fill"],
   },
   render() {
@@ -15976,7 +15976,7 @@ export let BEnvelopePlus = {
   $_icon: {
     name: "EnvelopePlus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","plus"],
   },
   render() {
@@ -16000,7 +16000,7 @@ export let BEnvelopeSlashFill = {
   $_icon: {
     name: "EnvelopeSlashFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","slash","fill"],
   },
   render() {
@@ -16024,7 +16024,7 @@ export let BEnvelopeSlash = {
   $_icon: {
     name: "EnvelopeSlash",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","slash"],
   },
   render() {
@@ -16048,7 +16048,7 @@ export let BEnvelopeXFill = {
   $_icon: {
     name: "EnvelopeXFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","x","fill"],
   },
   render() {
@@ -16072,7 +16072,7 @@ export let BEnvelopeX = {
   $_icon: {
     name: "EnvelopeX",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope","x"],
   },
   render() {
@@ -16096,7 +16096,7 @@ export let BEnvelope = {
   $_icon: {
     name: "Envelope",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["envelope"],
   },
   render() {
@@ -16116,7 +16116,7 @@ export let BEraserFill = {
   $_icon: {
     name: "EraserFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["eraser","fill"],
   },
   render() {
@@ -16136,7 +16136,7 @@ export let BEraser = {
   $_icon: {
     name: "Eraser",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["eraser"],
   },
   render() {
@@ -16156,7 +16156,7 @@ export let BEscape = {
   $_icon: {
     name: "Escape",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["escape"],
   },
   render() {
@@ -16180,7 +16180,7 @@ export let BEthernet = {
   $_icon: {
     name: "Ethernet",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["ethernet"],
   },
   render() {
@@ -16204,7 +16204,7 @@ export let BEvStationFill = {
   $_icon: {
     name: "EvStationFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["ev","station","fill"],
   },
   render() {
@@ -16224,7 +16224,7 @@ export let BEvStation = {
   $_icon: {
     name: "EvStation",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["ev","station"],
   },
   render() {
@@ -16248,7 +16248,7 @@ export let BExclamationCircleFill = {
   $_icon: {
     name: "ExclamationCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["exclamation","circle","fill"],
   },
   render() {
@@ -16268,7 +16268,7 @@ export let BExclamationCircle = {
   $_icon: {
     name: "ExclamationCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["exclamation","circle"],
   },
   render() {
@@ -16292,7 +16292,7 @@ export let BExclamationDiamondFill = {
   $_icon: {
     name: "ExclamationDiamondFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["exclamation","diamond","fill"],
   },
   render() {
@@ -16312,7 +16312,7 @@ export let BExclamationDiamond = {
   $_icon: {
     name: "ExclamationDiamond",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["exclamation","diamond"],
   },
   render() {
@@ -16336,7 +16336,7 @@ export let BExclamationLg = {
   $_icon: {
     name: "ExclamationLg",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["exclamation","lg"],
   },
   render() {
@@ -16356,7 +16356,7 @@ export let BExclamationOctagonFill = {
   $_icon: {
     name: "ExclamationOctagonFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["exclamation","octagon","fill"],
   },
   render() {
@@ -16376,7 +16376,7 @@ export let BExclamationOctagon = {
   $_icon: {
     name: "ExclamationOctagon",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["exclamation","octagon"],
   },
   render() {
@@ -16400,7 +16400,7 @@ export let BExclamationSquareFill = {
   $_icon: {
     name: "ExclamationSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["exclamation","square","fill"],
   },
   render() {
@@ -16420,7 +16420,7 @@ export let BExclamationSquare = {
   $_icon: {
     name: "ExclamationSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["exclamation","square"],
   },
   render() {
@@ -16444,7 +16444,7 @@ export let BExclamationTriangleFill = {
   $_icon: {
     name: "ExclamationTriangleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["exclamation","triangle","fill"],
   },
   render() {
@@ -16464,7 +16464,7 @@ export let BExclamationTriangle = {
   $_icon: {
     name: "ExclamationTriangle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["exclamation","triangle"],
   },
   render() {
@@ -16488,7 +16488,7 @@ export let BExclamation = {
   $_icon: {
     name: "Exclamation",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["exclamation"],
   },
   render() {
@@ -16508,7 +16508,7 @@ export let BExclude = {
   $_icon: {
     name: "Exclude",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["exclude"],
   },
   render() {
@@ -16528,7 +16528,7 @@ export let BExplicitFill = {
   $_icon: {
     name: "ExplicitFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["explicit","fill"],
   },
   render() {
@@ -16548,7 +16548,7 @@ export let BExplicit = {
   $_icon: {
     name: "Explicit",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["explicit"],
   },
   render() {
@@ -16572,7 +16572,7 @@ export let BEyeFill = {
   $_icon: {
     name: "EyeFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["eye","fill"],
   },
   render() {
@@ -16596,7 +16596,7 @@ export let BEyeSlashFill = {
   $_icon: {
     name: "EyeSlashFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["eye","slash","fill"],
   },
   render() {
@@ -16620,7 +16620,7 @@ export let BEyeSlash = {
   $_icon: {
     name: "EyeSlash",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["eye","slash"],
   },
   render() {
@@ -16648,7 +16648,7 @@ export let BEye = {
   $_icon: {
     name: "Eye",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["eye"],
   },
   render() {
@@ -16672,7 +16672,7 @@ export let BEyedropper = {
   $_icon: {
     name: "Eyedropper",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["eyedropper"],
   },
   render() {
@@ -16692,7 +16692,7 @@ export let BEyeglasses = {
   $_icon: {
     name: "Eyeglasses",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["eyeglasses"],
   },
   render() {
@@ -16712,7 +16712,7 @@ export let BFacebook = {
   $_icon: {
     name: "Facebook",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["facebook"],
   },
   render() {
@@ -16732,7 +16732,7 @@ export let BFan = {
   $_icon: {
     name: "Fan",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["fan"],
   },
   render() {
@@ -16756,7 +16756,7 @@ export let BFastForwardBtnFill = {
   $_icon: {
     name: "FastForwardBtnFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["fast","forward","btn","fill"],
   },
   render() {
@@ -16776,7 +16776,7 @@ export let BFastForwardBtn = {
   $_icon: {
     name: "FastForwardBtn",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["fast","forward","btn"],
   },
   render() {
@@ -16800,7 +16800,7 @@ export let BFastForwardCircleFill = {
   $_icon: {
     name: "FastForwardCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["fast","forward","circle","fill"],
   },
   render() {
@@ -16820,7 +16820,7 @@ export let BFastForwardCircle = {
   $_icon: {
     name: "FastForwardCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["fast","forward","circle"],
   },
   render() {
@@ -16844,7 +16844,7 @@ export let BFastForwardFill = {
   $_icon: {
     name: "FastForwardFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["fast","forward","fill"],
   },
   render() {
@@ -16868,7 +16868,7 @@ export let BFastForward = {
   $_icon: {
     name: "FastForward",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["fast","forward"],
   },
   render() {
@@ -16892,7 +16892,7 @@ export let BFileArrowDownFill = {
   $_icon: {
     name: "FileArrowDownFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","arrow","down","fill"],
   },
   render() {
@@ -16912,7 +16912,7 @@ export let BFileArrowDown = {
   $_icon: {
     name: "FileArrowDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","arrow","down"],
   },
   render() {
@@ -16936,7 +16936,7 @@ export let BFileArrowUpFill = {
   $_icon: {
     name: "FileArrowUpFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","arrow","up","fill"],
   },
   render() {
@@ -16956,7 +16956,7 @@ export let BFileArrowUp = {
   $_icon: {
     name: "FileArrowUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","arrow","up"],
   },
   render() {
@@ -16980,7 +16980,7 @@ export let BFileBarGraphFill = {
   $_icon: {
     name: "FileBarGraphFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","bar","graph","fill"],
   },
   render() {
@@ -17000,7 +17000,7 @@ export let BFileBarGraph = {
   $_icon: {
     name: "FileBarGraph",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","bar","graph"],
   },
   render() {
@@ -17024,7 +17024,7 @@ export let BFileBinaryFill = {
   $_icon: {
     name: "FileBinaryFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","binary","fill"],
   },
   render() {
@@ -17048,7 +17048,7 @@ export let BFileBinary = {
   $_icon: {
     name: "FileBinary",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","binary"],
   },
   render() {
@@ -17072,7 +17072,7 @@ export let BFileBreakFill = {
   $_icon: {
     name: "FileBreakFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","break","fill"],
   },
   render() {
@@ -17092,7 +17092,7 @@ export let BFileBreak = {
   $_icon: {
     name: "FileBreak",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","break"],
   },
   render() {
@@ -17112,7 +17112,7 @@ export let BFileCheckFill = {
   $_icon: {
     name: "FileCheckFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","check","fill"],
   },
   render() {
@@ -17132,7 +17132,7 @@ export let BFileCheck = {
   $_icon: {
     name: "FileCheck",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","check"],
   },
   render() {
@@ -17156,7 +17156,7 @@ export let BFileCodeFill = {
   $_icon: {
     name: "FileCodeFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","code","fill"],
   },
   render() {
@@ -17176,7 +17176,7 @@ export let BFileCode = {
   $_icon: {
     name: "FileCode",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","code"],
   },
   render() {
@@ -17200,7 +17200,7 @@ export let BFileDiffFill = {
   $_icon: {
     name: "FileDiffFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","diff","fill"],
   },
   render() {
@@ -17220,7 +17220,7 @@ export let BFileDiff = {
   $_icon: {
     name: "FileDiff",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","diff"],
   },
   render() {
@@ -17244,7 +17244,7 @@ export let BFileEarmarkArrowDownFill = {
   $_icon: {
     name: "FileEarmarkArrowDownFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","arrow","down","fill"],
   },
   render() {
@@ -17264,7 +17264,7 @@ export let BFileEarmarkArrowDown = {
   $_icon: {
     name: "FileEarmarkArrowDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","arrow","down"],
   },
   render() {
@@ -17288,7 +17288,7 @@ export let BFileEarmarkArrowUpFill = {
   $_icon: {
     name: "FileEarmarkArrowUpFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","arrow","up","fill"],
   },
   render() {
@@ -17308,7 +17308,7 @@ export let BFileEarmarkArrowUp = {
   $_icon: {
     name: "FileEarmarkArrowUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","arrow","up"],
   },
   render() {
@@ -17332,7 +17332,7 @@ export let BFileEarmarkBarGraphFill = {
   $_icon: {
     name: "FileEarmarkBarGraphFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","bar","graph","fill"],
   },
   render() {
@@ -17352,7 +17352,7 @@ export let BFileEarmarkBarGraph = {
   $_icon: {
     name: "FileEarmarkBarGraph",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","bar","graph"],
   },
   render() {
@@ -17376,7 +17376,7 @@ export let BFileEarmarkBinaryFill = {
   $_icon: {
     name: "FileEarmarkBinaryFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","binary","fill"],
   },
   render() {
@@ -17400,7 +17400,7 @@ export let BFileEarmarkBinary = {
   $_icon: {
     name: "FileEarmarkBinary",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","binary"],
   },
   render() {
@@ -17424,7 +17424,7 @@ export let BFileEarmarkBreakFill = {
   $_icon: {
     name: "FileEarmarkBreakFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","break","fill"],
   },
   render() {
@@ -17444,7 +17444,7 @@ export let BFileEarmarkBreak = {
   $_icon: {
     name: "FileEarmarkBreak",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","break"],
   },
   render() {
@@ -17464,7 +17464,7 @@ export let BFileEarmarkCheckFill = {
   $_icon: {
     name: "FileEarmarkCheckFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","check","fill"],
   },
   render() {
@@ -17484,7 +17484,7 @@ export let BFileEarmarkCheck = {
   $_icon: {
     name: "FileEarmarkCheck",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","check"],
   },
   render() {
@@ -17508,7 +17508,7 @@ export let BFileEarmarkCodeFill = {
   $_icon: {
     name: "FileEarmarkCodeFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","code","fill"],
   },
   render() {
@@ -17528,7 +17528,7 @@ export let BFileEarmarkCode = {
   $_icon: {
     name: "FileEarmarkCode",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","code"],
   },
   render() {
@@ -17552,7 +17552,7 @@ export let BFileEarmarkDiffFill = {
   $_icon: {
     name: "FileEarmarkDiffFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","diff","fill"],
   },
   render() {
@@ -17572,7 +17572,7 @@ export let BFileEarmarkDiff = {
   $_icon: {
     name: "FileEarmarkDiff",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","diff"],
   },
   render() {
@@ -17596,7 +17596,7 @@ export let BFileEarmarkEaselFill = {
   $_icon: {
     name: "FileEarmarkEaselFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","easel","fill"],
   },
   render() {
@@ -17620,7 +17620,7 @@ export let BFileEarmarkEasel = {
   $_icon: {
     name: "FileEarmarkEasel",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","easel"],
   },
   render() {
@@ -17644,7 +17644,7 @@ export let BFileEarmarkExcelFill = {
   $_icon: {
     name: "FileEarmarkExcelFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","excel","fill"],
   },
   render() {
@@ -17664,7 +17664,7 @@ export let BFileEarmarkExcel = {
   $_icon: {
     name: "FileEarmarkExcel",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","excel"],
   },
   render() {
@@ -17688,7 +17688,7 @@ export let BFileEarmarkFill = {
   $_icon: {
     name: "FileEarmarkFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","fill"],
   },
   render() {
@@ -17708,7 +17708,7 @@ export let BFileEarmarkFontFill = {
   $_icon: {
     name: "FileEarmarkFontFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","font","fill"],
   },
   render() {
@@ -17728,7 +17728,7 @@ export let BFileEarmarkFont = {
   $_icon: {
     name: "FileEarmarkFont",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","font"],
   },
   render() {
@@ -17752,7 +17752,7 @@ export let BFileEarmarkImageFill = {
   $_icon: {
     name: "FileEarmarkImageFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","image","fill"],
   },
   render() {
@@ -17776,7 +17776,7 @@ export let BFileEarmarkImage = {
   $_icon: {
     name: "FileEarmarkImage",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","image"],
   },
   render() {
@@ -17800,7 +17800,7 @@ export let BFileEarmarkLockFill = {
   $_icon: {
     name: "FileEarmarkLockFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","lock","fill"],
   },
   render() {
@@ -17824,7 +17824,7 @@ export let BFileEarmarkLock = {
   $_icon: {
     name: "FileEarmarkLock",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","lock"],
   },
   render() {
@@ -17848,7 +17848,7 @@ export let BFileEarmarkLock2Fill = {
   $_icon: {
     name: "FileEarmarkLock2Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","lock2","fill"],
   },
   render() {
@@ -17872,7 +17872,7 @@ export let BFileEarmarkLock2 = {
   $_icon: {
     name: "FileEarmarkLock2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","lock2"],
   },
   render() {
@@ -17896,7 +17896,7 @@ export let BFileEarmarkMedicalFill = {
   $_icon: {
     name: "FileEarmarkMedicalFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","medical","fill"],
   },
   render() {
@@ -17916,7 +17916,7 @@ export let BFileEarmarkMedical = {
   $_icon: {
     name: "FileEarmarkMedical",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","medical"],
   },
   render() {
@@ -17940,7 +17940,7 @@ export let BFileEarmarkMinusFill = {
   $_icon: {
     name: "FileEarmarkMinusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","minus","fill"],
   },
   render() {
@@ -17960,7 +17960,7 @@ export let BFileEarmarkMinus = {
   $_icon: {
     name: "FileEarmarkMinus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","minus"],
   },
   render() {
@@ -17984,7 +17984,7 @@ export let BFileEarmarkMusicFill = {
   $_icon: {
     name: "FileEarmarkMusicFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","music","fill"],
   },
   render() {
@@ -18004,7 +18004,7 @@ export let BFileEarmarkMusic = {
   $_icon: {
     name: "FileEarmarkMusic",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","music"],
   },
   render() {
@@ -18028,7 +18028,7 @@ export let BFileEarmarkPdfFill = {
   $_icon: {
     name: "FileEarmarkPdfFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","pdf","fill"],
   },
   render() {
@@ -18052,7 +18052,7 @@ export let BFileEarmarkPdf = {
   $_icon: {
     name: "FileEarmarkPdf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","pdf"],
   },
   render() {
@@ -18076,7 +18076,7 @@ export let BFileEarmarkPersonFill = {
   $_icon: {
     name: "FileEarmarkPersonFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","person","fill"],
   },
   render() {
@@ -18096,7 +18096,7 @@ export let BFileEarmarkPerson = {
   $_icon: {
     name: "FileEarmarkPerson",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","person"],
   },
   render() {
@@ -18120,7 +18120,7 @@ export let BFileEarmarkPlayFill = {
   $_icon: {
     name: "FileEarmarkPlayFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","play","fill"],
   },
   render() {
@@ -18140,7 +18140,7 @@ export let BFileEarmarkPlay = {
   $_icon: {
     name: "FileEarmarkPlay",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","play"],
   },
   render() {
@@ -18164,7 +18164,7 @@ export let BFileEarmarkPlusFill = {
   $_icon: {
     name: "FileEarmarkPlusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","plus","fill"],
   },
   render() {
@@ -18184,7 +18184,7 @@ export let BFileEarmarkPlus = {
   $_icon: {
     name: "FileEarmarkPlus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","plus"],
   },
   render() {
@@ -18208,7 +18208,7 @@ export let BFileEarmarkPostFill = {
   $_icon: {
     name: "FileEarmarkPostFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","post","fill"],
   },
   render() {
@@ -18228,7 +18228,7 @@ export let BFileEarmarkPost = {
   $_icon: {
     name: "FileEarmarkPost",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","post"],
   },
   render() {
@@ -18252,7 +18252,7 @@ export let BFileEarmarkPptFill = {
   $_icon: {
     name: "FileEarmarkPptFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","ppt","fill"],
   },
   render() {
@@ -18276,7 +18276,7 @@ export let BFileEarmarkPpt = {
   $_icon: {
     name: "FileEarmarkPpt",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","ppt"],
   },
   render() {
@@ -18300,7 +18300,7 @@ export let BFileEarmarkRichtextFill = {
   $_icon: {
     name: "FileEarmarkRichtextFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","richtext","fill"],
   },
   render() {
@@ -18320,7 +18320,7 @@ export let BFileEarmarkRichtext = {
   $_icon: {
     name: "FileEarmarkRichtext",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","richtext"],
   },
   render() {
@@ -18344,7 +18344,7 @@ export let BFileEarmarkRuledFill = {
   $_icon: {
     name: "FileEarmarkRuledFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","ruled","fill"],
   },
   render() {
@@ -18364,7 +18364,7 @@ export let BFileEarmarkRuled = {
   $_icon: {
     name: "FileEarmarkRuled",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","ruled"],
   },
   render() {
@@ -18384,7 +18384,7 @@ export let BFileEarmarkSlidesFill = {
   $_icon: {
     name: "FileEarmarkSlidesFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","slides","fill"],
   },
   render() {
@@ -18408,7 +18408,7 @@ export let BFileEarmarkSlides = {
   $_icon: {
     name: "FileEarmarkSlides",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","slides"],
   },
   render() {
@@ -18432,7 +18432,7 @@ export let BFileEarmarkSpreadsheetFill = {
   $_icon: {
     name: "FileEarmarkSpreadsheetFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","spreadsheet","fill"],
   },
   render() {
@@ -18456,7 +18456,7 @@ export let BFileEarmarkSpreadsheet = {
   $_icon: {
     name: "FileEarmarkSpreadsheet",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","spreadsheet"],
   },
   render() {
@@ -18476,7 +18476,7 @@ export let BFileEarmarkTextFill = {
   $_icon: {
     name: "FileEarmarkTextFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","text","fill"],
   },
   render() {
@@ -18496,7 +18496,7 @@ export let BFileEarmarkText = {
   $_icon: {
     name: "FileEarmarkText",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","text"],
   },
   render() {
@@ -18520,7 +18520,7 @@ export let BFileEarmarkWordFill = {
   $_icon: {
     name: "FileEarmarkWordFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","word","fill"],
   },
   render() {
@@ -18540,7 +18540,7 @@ export let BFileEarmarkWord = {
   $_icon: {
     name: "FileEarmarkWord",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","word"],
   },
   render() {
@@ -18564,7 +18564,7 @@ export let BFileEarmarkXFill = {
   $_icon: {
     name: "FileEarmarkXFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","x","fill"],
   },
   render() {
@@ -18584,7 +18584,7 @@ export let BFileEarmarkX = {
   $_icon: {
     name: "FileEarmarkX",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","x"],
   },
   render() {
@@ -18608,7 +18608,7 @@ export let BFileEarmarkZipFill = {
   $_icon: {
     name: "FileEarmarkZipFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","zip","fill"],
   },
   render() {
@@ -18632,7 +18632,7 @@ export let BFileEarmarkZip = {
   $_icon: {
     name: "FileEarmarkZip",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark","zip"],
   },
   render() {
@@ -18656,7 +18656,7 @@ export let BFileEarmark = {
   $_icon: {
     name: "FileEarmark",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","earmark"],
   },
   render() {
@@ -18676,7 +18676,7 @@ export let BFileEaselFill = {
   $_icon: {
     name: "FileEaselFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","easel","fill"],
   },
   render() {
@@ -18700,7 +18700,7 @@ export let BFileEasel = {
   $_icon: {
     name: "FileEasel",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","easel"],
   },
   render() {
@@ -18724,7 +18724,7 @@ export let BFileExcelFill = {
   $_icon: {
     name: "FileExcelFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","excel","fill"],
   },
   render() {
@@ -18744,7 +18744,7 @@ export let BFileExcel = {
   $_icon: {
     name: "FileExcel",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","excel"],
   },
   render() {
@@ -18768,7 +18768,7 @@ export let BFileFill = {
   $_icon: {
     name: "FileFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","fill"],
   },
   render() {
@@ -18788,7 +18788,7 @@ export let BFileFontFill = {
   $_icon: {
     name: "FileFontFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","font","fill"],
   },
   render() {
@@ -18808,7 +18808,7 @@ export let BFileFont = {
   $_icon: {
     name: "FileFont",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","font"],
   },
   render() {
@@ -18832,7 +18832,7 @@ export let BFileImageFill = {
   $_icon: {
     name: "FileImageFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","image","fill"],
   },
   render() {
@@ -18856,7 +18856,7 @@ export let BFileImage = {
   $_icon: {
     name: "FileImage",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","image"],
   },
   render() {
@@ -18880,7 +18880,7 @@ export let BFileLockFill = {
   $_icon: {
     name: "FileLockFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","lock","fill"],
   },
   render() {
@@ -18904,7 +18904,7 @@ export let BFileLock = {
   $_icon: {
     name: "FileLock",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","lock"],
   },
   render() {
@@ -18928,7 +18928,7 @@ export let BFileLock2Fill = {
   $_icon: {
     name: "FileLock2Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","lock2","fill"],
   },
   render() {
@@ -18952,7 +18952,7 @@ export let BFileLock2 = {
   $_icon: {
     name: "FileLock2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","lock2"],
   },
   render() {
@@ -18976,7 +18976,7 @@ export let BFileMedicalFill = {
   $_icon: {
     name: "FileMedicalFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","medical","fill"],
   },
   render() {
@@ -18996,7 +18996,7 @@ export let BFileMedical = {
   $_icon: {
     name: "FileMedical",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","medical"],
   },
   render() {
@@ -19020,7 +19020,7 @@ export let BFileMinusFill = {
   $_icon: {
     name: "FileMinusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","minus","fill"],
   },
   render() {
@@ -19040,7 +19040,7 @@ export let BFileMinus = {
   $_icon: {
     name: "FileMinus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","minus"],
   },
   render() {
@@ -19064,7 +19064,7 @@ export let BFileMusicFill = {
   $_icon: {
     name: "FileMusicFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","music","fill"],
   },
   render() {
@@ -19084,7 +19084,7 @@ export let BFileMusic = {
   $_icon: {
     name: "FileMusic",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","music"],
   },
   render() {
@@ -19108,7 +19108,7 @@ export let BFilePdfFill = {
   $_icon: {
     name: "FilePdfFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","pdf","fill"],
   },
   render() {
@@ -19132,7 +19132,7 @@ export let BFilePdf = {
   $_icon: {
     name: "FilePdf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","pdf"],
   },
   render() {
@@ -19156,7 +19156,7 @@ export let BFilePersonFill = {
   $_icon: {
     name: "FilePersonFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","person","fill"],
   },
   render() {
@@ -19176,7 +19176,7 @@ export let BFilePerson = {
   $_icon: {
     name: "FilePerson",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","person"],
   },
   render() {
@@ -19200,7 +19200,7 @@ export let BFilePlayFill = {
   $_icon: {
     name: "FilePlayFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","play","fill"],
   },
   render() {
@@ -19220,7 +19220,7 @@ export let BFilePlay = {
   $_icon: {
     name: "FilePlay",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","play"],
   },
   render() {
@@ -19244,7 +19244,7 @@ export let BFilePlusFill = {
   $_icon: {
     name: "FilePlusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","plus","fill"],
   },
   render() {
@@ -19264,7 +19264,7 @@ export let BFilePlus = {
   $_icon: {
     name: "FilePlus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","plus"],
   },
   render() {
@@ -19288,7 +19288,7 @@ export let BFilePostFill = {
   $_icon: {
     name: "FilePostFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","post","fill"],
   },
   render() {
@@ -19308,7 +19308,7 @@ export let BFilePost = {
   $_icon: {
     name: "FilePost",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","post"],
   },
   render() {
@@ -19332,7 +19332,7 @@ export let BFilePptFill = {
   $_icon: {
     name: "FilePptFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","ppt","fill"],
   },
   render() {
@@ -19356,7 +19356,7 @@ export let BFilePpt = {
   $_icon: {
     name: "FilePpt",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","ppt"],
   },
   render() {
@@ -19380,7 +19380,7 @@ export let BFileRichtextFill = {
   $_icon: {
     name: "FileRichtextFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","richtext","fill"],
   },
   render() {
@@ -19400,7 +19400,7 @@ export let BFileRichtext = {
   $_icon: {
     name: "FileRichtext",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","richtext"],
   },
   render() {
@@ -19424,7 +19424,7 @@ export let BFileRuledFill = {
   $_icon: {
     name: "FileRuledFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","ruled","fill"],
   },
   render() {
@@ -19444,7 +19444,7 @@ export let BFileRuled = {
   $_icon: {
     name: "FileRuled",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","ruled"],
   },
   render() {
@@ -19464,7 +19464,7 @@ export let BFileSlidesFill = {
   $_icon: {
     name: "FileSlidesFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","slides","fill"],
   },
   render() {
@@ -19488,7 +19488,7 @@ export let BFileSlides = {
   $_icon: {
     name: "FileSlides",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","slides"],
   },
   render() {
@@ -19512,7 +19512,7 @@ export let BFileSpreadsheetFill = {
   $_icon: {
     name: "FileSpreadsheetFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","spreadsheet","fill"],
   },
   render() {
@@ -19532,7 +19532,7 @@ export let BFileSpreadsheet = {
   $_icon: {
     name: "FileSpreadsheet",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","spreadsheet"],
   },
   render() {
@@ -19552,7 +19552,7 @@ export let BFileTextFill = {
   $_icon: {
     name: "FileTextFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","text","fill"],
   },
   render() {
@@ -19572,7 +19572,7 @@ export let BFileText = {
   $_icon: {
     name: "FileText",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","text"],
   },
   render() {
@@ -19596,7 +19596,7 @@ export let BFileWordFill = {
   $_icon: {
     name: "FileWordFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","word","fill"],
   },
   render() {
@@ -19616,7 +19616,7 @@ export let BFileWord = {
   $_icon: {
     name: "FileWord",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","word"],
   },
   render() {
@@ -19640,7 +19640,7 @@ export let BFileXFill = {
   $_icon: {
     name: "FileXFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","x","fill"],
   },
   render() {
@@ -19660,7 +19660,7 @@ export let BFileX = {
   $_icon: {
     name: "FileX",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","x"],
   },
   render() {
@@ -19684,7 +19684,7 @@ export let BFileZipFill = {
   $_icon: {
     name: "FileZipFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","zip","fill"],
   },
   render() {
@@ -19708,7 +19708,7 @@ export let BFileZip = {
   $_icon: {
     name: "FileZip",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file","zip"],
   },
   render() {
@@ -19732,7 +19732,7 @@ export let BFile = {
   $_icon: {
     name: "File",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["file"],
   },
   render() {
@@ -19752,7 +19752,7 @@ export let BFilesAlt = {
   $_icon: {
     name: "FilesAlt",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["files","alt"],
   },
   render() {
@@ -19772,7 +19772,7 @@ export let BFiles = {
   $_icon: {
     name: "Files",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["files"],
   },
   render() {
@@ -19792,7 +19792,7 @@ export let BFiletypeAac = {
   $_icon: {
     name: "FiletypeAac",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","aac"],
   },
   render() {
@@ -19812,7 +19812,7 @@ export let BFiletypeAi = {
   $_icon: {
     name: "FiletypeAi",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","ai"],
   },
   render() {
@@ -19832,7 +19832,7 @@ export let BFiletypeBmp = {
   $_icon: {
     name: "FiletypeBmp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","bmp"],
   },
   render() {
@@ -19852,7 +19852,7 @@ export let BFiletypeCs = {
   $_icon: {
     name: "FiletypeCs",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","cs"],
   },
   render() {
@@ -19872,7 +19872,7 @@ export let BFiletypeCss = {
   $_icon: {
     name: "FiletypeCss",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","css"],
   },
   render() {
@@ -19892,7 +19892,7 @@ export let BFiletypeCsv = {
   $_icon: {
     name: "FiletypeCsv",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","csv"],
   },
   render() {
@@ -19912,7 +19912,7 @@ export let BFiletypeDoc = {
   $_icon: {
     name: "FiletypeDoc",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","doc"],
   },
   render() {
@@ -19932,7 +19932,7 @@ export let BFiletypeDocx = {
   $_icon: {
     name: "FiletypeDocx",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","docx"],
   },
   render() {
@@ -19952,7 +19952,7 @@ export let BFiletypeExe = {
   $_icon: {
     name: "FiletypeExe",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","exe"],
   },
   render() {
@@ -19972,7 +19972,7 @@ export let BFiletypeGif = {
   $_icon: {
     name: "FiletypeGif",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","gif"],
   },
   render() {
@@ -19992,7 +19992,7 @@ export let BFiletypeHeic = {
   $_icon: {
     name: "FiletypeHeic",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","heic"],
   },
   render() {
@@ -20012,7 +20012,7 @@ export let BFiletypeHtml = {
   $_icon: {
     name: "FiletypeHtml",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","html"],
   },
   render() {
@@ -20032,7 +20032,7 @@ export let BFiletypeJava = {
   $_icon: {
     name: "FiletypeJava",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","java"],
   },
   render() {
@@ -20052,7 +20052,7 @@ export let BFiletypeJpg = {
   $_icon: {
     name: "FiletypeJpg",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","jpg"],
   },
   render() {
@@ -20072,7 +20072,7 @@ export let BFiletypeJs = {
   $_icon: {
     name: "FiletypeJs",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","js"],
   },
   render() {
@@ -20092,7 +20092,7 @@ export let BFiletypeJson = {
   $_icon: {
     name: "FiletypeJson",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","json"],
   },
   render() {
@@ -20112,7 +20112,7 @@ export let BFiletypeJsx = {
   $_icon: {
     name: "FiletypeJsx",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","jsx"],
   },
   render() {
@@ -20132,7 +20132,7 @@ export let BFiletypeKey = {
   $_icon: {
     name: "FiletypeKey",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","key"],
   },
   render() {
@@ -20152,7 +20152,7 @@ export let BFiletypeM4p = {
   $_icon: {
     name: "FiletypeM4p",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","m4p"],
   },
   render() {
@@ -20172,7 +20172,7 @@ export let BFiletypeMd = {
   $_icon: {
     name: "FiletypeMd",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","md"],
   },
   render() {
@@ -20192,7 +20192,7 @@ export let BFiletypeMdx = {
   $_icon: {
     name: "FiletypeMdx",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","mdx"],
   },
   render() {
@@ -20212,7 +20212,7 @@ export let BFiletypeMov = {
   $_icon: {
     name: "FiletypeMov",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","mov"],
   },
   render() {
@@ -20232,7 +20232,7 @@ export let BFiletypeMp3 = {
   $_icon: {
     name: "FiletypeMp3",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","mp3"],
   },
   render() {
@@ -20252,7 +20252,7 @@ export let BFiletypeMp4 = {
   $_icon: {
     name: "FiletypeMp4",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","mp4"],
   },
   render() {
@@ -20272,7 +20272,7 @@ export let BFiletypeOtf = {
   $_icon: {
     name: "FiletypeOtf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","otf"],
   },
   render() {
@@ -20292,7 +20292,7 @@ export let BFiletypePdf = {
   $_icon: {
     name: "FiletypePdf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","pdf"],
   },
   render() {
@@ -20312,7 +20312,7 @@ export let BFiletypePhp = {
   $_icon: {
     name: "FiletypePhp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","php"],
   },
   render() {
@@ -20332,7 +20332,7 @@ export let BFiletypePng = {
   $_icon: {
     name: "FiletypePng",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","png"],
   },
   render() {
@@ -20352,7 +20352,7 @@ export let BFiletypePpt = {
   $_icon: {
     name: "FiletypePpt",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","ppt"],
   },
   render() {
@@ -20372,7 +20372,7 @@ export let BFiletypePptx = {
   $_icon: {
     name: "FiletypePptx",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","pptx"],
   },
   render() {
@@ -20392,7 +20392,7 @@ export let BFiletypePsd = {
   $_icon: {
     name: "FiletypePsd",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","psd"],
   },
   render() {
@@ -20412,7 +20412,7 @@ export let BFiletypePy = {
   $_icon: {
     name: "FiletypePy",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","py"],
   },
   render() {
@@ -20432,7 +20432,7 @@ export let BFiletypeRaw = {
   $_icon: {
     name: "FiletypeRaw",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","raw"],
   },
   render() {
@@ -20452,7 +20452,7 @@ export let BFiletypeRb = {
   $_icon: {
     name: "FiletypeRb",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","rb"],
   },
   render() {
@@ -20472,7 +20472,7 @@ export let BFiletypeSass = {
   $_icon: {
     name: "FiletypeSass",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","sass"],
   },
   render() {
@@ -20492,7 +20492,7 @@ export let BFiletypeScss = {
   $_icon: {
     name: "FiletypeScss",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","scss"],
   },
   render() {
@@ -20512,7 +20512,7 @@ export let BFiletypeSh = {
   $_icon: {
     name: "FiletypeSh",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","sh"],
   },
   render() {
@@ -20532,7 +20532,7 @@ export let BFiletypeSql = {
   $_icon: {
     name: "FiletypeSql",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","sql"],
   },
   render() {
@@ -20552,7 +20552,7 @@ export let BFiletypeSvg = {
   $_icon: {
     name: "FiletypeSvg",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","svg"],
   },
   render() {
@@ -20572,7 +20572,7 @@ export let BFiletypeTiff = {
   $_icon: {
     name: "FiletypeTiff",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","tiff"],
   },
   render() {
@@ -20592,7 +20592,7 @@ export let BFiletypeTsx = {
   $_icon: {
     name: "FiletypeTsx",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","tsx"],
   },
   render() {
@@ -20612,7 +20612,7 @@ export let BFiletypeTtf = {
   $_icon: {
     name: "FiletypeTtf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","ttf"],
   },
   render() {
@@ -20632,7 +20632,7 @@ export let BFiletypeTxt = {
   $_icon: {
     name: "FiletypeTxt",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","txt"],
   },
   render() {
@@ -20652,7 +20652,7 @@ export let BFiletypeWav = {
   $_icon: {
     name: "FiletypeWav",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","wav"],
   },
   render() {
@@ -20672,7 +20672,7 @@ export let BFiletypeWoff = {
   $_icon: {
     name: "FiletypeWoff",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","woff"],
   },
   render() {
@@ -20692,7 +20692,7 @@ export let BFiletypeXls = {
   $_icon: {
     name: "FiletypeXls",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","xls"],
   },
   render() {
@@ -20712,7 +20712,7 @@ export let BFiletypeXlsx = {
   $_icon: {
     name: "FiletypeXlsx",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","xlsx"],
   },
   render() {
@@ -20732,7 +20732,7 @@ export let BFiletypeXml = {
   $_icon: {
     name: "FiletypeXml",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","xml"],
   },
   render() {
@@ -20752,7 +20752,7 @@ export let BFiletypeYml = {
   $_icon: {
     name: "FiletypeYml",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filetype","yml"],
   },
   render() {
@@ -20772,7 +20772,7 @@ export let BFilm = {
   $_icon: {
     name: "Film",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["film"],
   },
   render() {
@@ -20792,7 +20792,7 @@ export let BFilterCircleFill = {
   $_icon: {
     name: "FilterCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filter","circle","fill"],
   },
   render() {
@@ -20812,7 +20812,7 @@ export let BFilterCircle = {
   $_icon: {
     name: "FilterCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filter","circle"],
   },
   render() {
@@ -20836,7 +20836,7 @@ export let BFilterLeft = {
   $_icon: {
     name: "FilterLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filter","left"],
   },
   render() {
@@ -20856,7 +20856,7 @@ export let BFilterRight = {
   $_icon: {
     name: "FilterRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filter","right"],
   },
   render() {
@@ -20876,7 +20876,7 @@ export let BFilterSquareFill = {
   $_icon: {
     name: "FilterSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filter","square","fill"],
   },
   render() {
@@ -20896,7 +20896,7 @@ export let BFilterSquare = {
   $_icon: {
     name: "FilterSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filter","square"],
   },
   render() {
@@ -20920,7 +20920,7 @@ export let BFilter = {
   $_icon: {
     name: "Filter",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["filter"],
   },
   render() {
@@ -20940,7 +20940,7 @@ export let BFingerprint = {
   $_icon: {
     name: "Fingerprint",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["fingerprint"],
   },
   render() {
@@ -20976,7 +20976,7 @@ export let BFire = {
   $_icon: {
     name: "Fire",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["fire"],
   },
   render() {
@@ -20996,7 +20996,7 @@ export let BFlagFill = {
   $_icon: {
     name: "FlagFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["flag","fill"],
   },
   render() {
@@ -21016,7 +21016,7 @@ export let BFlag = {
   $_icon: {
     name: "Flag",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["flag"],
   },
   render() {
@@ -21036,7 +21036,7 @@ export let BFlower1 = {
   $_icon: {
     name: "Flower1",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["flower1"],
   },
   render() {
@@ -21056,7 +21056,7 @@ export let BFlower2 = {
   $_icon: {
     name: "Flower2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["flower2"],
   },
   render() {
@@ -21076,7 +21076,7 @@ export let BFlower3 = {
   $_icon: {
     name: "Flower3",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["flower3"],
   },
   render() {
@@ -21096,7 +21096,7 @@ export let BFolderCheck = {
   $_icon: {
     name: "FolderCheck",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["folder","check"],
   },
   render() {
@@ -21120,7 +21120,7 @@ export let BFolderFill = {
   $_icon: {
     name: "FolderFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["folder","fill"],
   },
   render() {
@@ -21140,7 +21140,7 @@ export let BFolderMinus = {
   $_icon: {
     name: "FolderMinus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["folder","minus"],
   },
   render() {
@@ -21164,7 +21164,7 @@ export let BFolderPlus = {
   $_icon: {
     name: "FolderPlus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["folder","plus"],
   },
   render() {
@@ -21188,7 +21188,7 @@ export let BFolderSymlinkFill = {
   $_icon: {
     name: "FolderSymlinkFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["folder","symlink","fill"],
   },
   render() {
@@ -21208,7 +21208,7 @@ export let BFolderSymlink = {
   $_icon: {
     name: "FolderSymlink",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["folder","symlink"],
   },
   render() {
@@ -21232,7 +21232,7 @@ export let BFolderX = {
   $_icon: {
     name: "FolderX",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["folder","x"],
   },
   render() {
@@ -21256,7 +21256,7 @@ export let BFolder = {
   $_icon: {
     name: "Folder",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["folder"],
   },
   render() {
@@ -21276,7 +21276,7 @@ export let BFolder2Open = {
   $_icon: {
     name: "Folder2Open",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["folder2","open"],
   },
   render() {
@@ -21296,7 +21296,7 @@ export let BFolder2 = {
   $_icon: {
     name: "Folder2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["folder2"],
   },
   render() {
@@ -21316,7 +21316,7 @@ export let BFonts = {
   $_icon: {
     name: "Fonts",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["fonts"],
   },
   render() {
@@ -21336,7 +21336,7 @@ export let BForwardFill = {
   $_icon: {
     name: "ForwardFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["forward","fill"],
   },
   render() {
@@ -21356,7 +21356,7 @@ export let BForward = {
   $_icon: {
     name: "Forward",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["forward"],
   },
   render() {
@@ -21376,7 +21376,7 @@ export let BFront = {
   $_icon: {
     name: "Front",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["front"],
   },
   render() {
@@ -21396,7 +21396,7 @@ export let BFuelPumpDieselFill = {
   $_icon: {
     name: "FuelPumpDieselFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["fuel","pump","diesel","fill"],
   },
   render() {
@@ -21420,7 +21420,7 @@ export let BFuelPumpDiesel = {
   $_icon: {
     name: "FuelPumpDiesel",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["fuel","pump","diesel"],
   },
   render() {
@@ -21444,7 +21444,7 @@ export let BFuelPumpFill = {
   $_icon: {
     name: "FuelPumpFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["fuel","pump","fill"],
   },
   render() {
@@ -21464,7 +21464,7 @@ export let BFuelPump = {
   $_icon: {
     name: "FuelPump",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["fuel","pump"],
   },
   render() {
@@ -21488,7 +21488,7 @@ export let BFullscreenExit = {
   $_icon: {
     name: "FullscreenExit",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["fullscreen","exit"],
   },
   render() {
@@ -21508,7 +21508,7 @@ export let BFullscreen = {
   $_icon: {
     name: "Fullscreen",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["fullscreen"],
   },
   render() {
@@ -21528,7 +21528,7 @@ export let BFunnelFill = {
   $_icon: {
     name: "FunnelFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["funnel","fill"],
   },
   render() {
@@ -21548,7 +21548,7 @@ export let BFunnel = {
   $_icon: {
     name: "Funnel",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["funnel"],
   },
   render() {
@@ -21568,7 +21568,7 @@ export let BGearFill = {
   $_icon: {
     name: "GearFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["gear","fill"],
   },
   render() {
@@ -21588,7 +21588,7 @@ export let BGearWideConnected = {
   $_icon: {
     name: "GearWideConnected",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["gear","wide","connected"],
   },
   render() {
@@ -21608,7 +21608,7 @@ export let BGearWide = {
   $_icon: {
     name: "GearWide",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["gear","wide"],
   },
   render() {
@@ -21628,7 +21628,7 @@ export let BGear = {
   $_icon: {
     name: "Gear",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["gear"],
   },
   render() {
@@ -21652,7 +21652,7 @@ export let BGem = {
   $_icon: {
     name: "Gem",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["gem"],
   },
   render() {
@@ -21672,7 +21672,7 @@ export let BGenderAmbiguous = {
   $_icon: {
     name: "GenderAmbiguous",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["gender","ambiguous"],
   },
   render() {
@@ -21692,7 +21692,7 @@ export let BGenderFemale = {
   $_icon: {
     name: "GenderFemale",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["gender","female"],
   },
   render() {
@@ -21712,7 +21712,7 @@ export let BGenderMale = {
   $_icon: {
     name: "GenderMale",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["gender","male"],
   },
   render() {
@@ -21732,7 +21732,7 @@ export let BGenderTrans = {
   $_icon: {
     name: "GenderTrans",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["gender","trans"],
   },
   render() {
@@ -21752,7 +21752,7 @@ export let BGeoAltFill = {
   $_icon: {
     name: "GeoAltFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["geo","alt","fill"],
   },
   render() {
@@ -21772,7 +21772,7 @@ export let BGeoAlt = {
   $_icon: {
     name: "GeoAlt",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["geo","alt"],
   },
   render() {
@@ -21796,7 +21796,7 @@ export let BGeoFill = {
   $_icon: {
     name: "GeoFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["geo","fill"],
   },
   render() {
@@ -21816,7 +21816,7 @@ export let BGeo = {
   $_icon: {
     name: "Geo",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["geo"],
   },
   render() {
@@ -21836,7 +21836,7 @@ export let BGiftFill = {
   $_icon: {
     name: "GiftFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["gift","fill"],
   },
   render() {
@@ -21856,7 +21856,7 @@ export let BGift = {
   $_icon: {
     name: "Gift",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["gift"],
   },
   render() {
@@ -21876,7 +21876,7 @@ export let BGit = {
   $_icon: {
     name: "Git",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["git"],
   },
   render() {
@@ -21896,7 +21896,7 @@ export let BGithub = {
   $_icon: {
     name: "Github",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["github"],
   },
   render() {
@@ -21916,7 +21916,7 @@ export let BGlobe = {
   $_icon: {
     name: "Globe",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["globe"],
   },
   render() {
@@ -21936,7 +21936,7 @@ export let BGlobe2 = {
   $_icon: {
     name: "Globe2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["globe2"],
   },
   render() {
@@ -21956,7 +21956,7 @@ export let BGooglePlay = {
   $_icon: {
     name: "GooglePlay",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["google","play"],
   },
   render() {
@@ -21976,7 +21976,7 @@ export let BGoogle = {
   $_icon: {
     name: "Google",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["google"],
   },
   render() {
@@ -21996,7 +21996,7 @@ export let BGpuCard = {
   $_icon: {
     name: "GpuCard",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["gpu","card"],
   },
   render() {
@@ -22024,7 +22024,7 @@ export let BGraphDownArrow = {
   $_icon: {
     name: "GraphDownArrow",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["graph","down","arrow"],
   },
   render() {
@@ -22044,7 +22044,7 @@ export let BGraphDown = {
   $_icon: {
     name: "GraphDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["graph","down"],
   },
   render() {
@@ -22064,7 +22064,7 @@ export let BGraphUpArrow = {
   $_icon: {
     name: "GraphUpArrow",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["graph","up","arrow"],
   },
   render() {
@@ -22084,7 +22084,7 @@ export let BGraphUp = {
   $_icon: {
     name: "GraphUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["graph","up"],
   },
   render() {
@@ -22104,7 +22104,7 @@ export let BGrid1x2Fill = {
   $_icon: {
     name: "Grid1x2Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["grid","1x2","fill"],
   },
   render() {
@@ -22124,7 +22124,7 @@ export let BGrid1x2 = {
   $_icon: {
     name: "Grid1x2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["grid","1x2"],
   },
   render() {
@@ -22144,7 +22144,7 @@ export let BGrid3x2GapFill = {
   $_icon: {
     name: "Grid3x2GapFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["grid","3x2","gap","fill"],
   },
   render() {
@@ -22164,7 +22164,7 @@ export let BGrid3x2Gap = {
   $_icon: {
     name: "Grid3x2Gap",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["grid","3x2","gap"],
   },
   render() {
@@ -22184,7 +22184,7 @@ export let BGrid3x2 = {
   $_icon: {
     name: "Grid3x2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["grid","3x2"],
   },
   render() {
@@ -22204,7 +22204,7 @@ export let BGrid3x3GapFill = {
   $_icon: {
     name: "Grid3x3GapFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["grid","3x3","gap","fill"],
   },
   render() {
@@ -22224,7 +22224,7 @@ export let BGrid3x3Gap = {
   $_icon: {
     name: "Grid3x3Gap",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["grid","3x3","gap"],
   },
   render() {
@@ -22244,7 +22244,7 @@ export let BGrid3x3 = {
   $_icon: {
     name: "Grid3x3",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["grid","3x3"],
   },
   render() {
@@ -22264,7 +22264,7 @@ export let BGridFill = {
   $_icon: {
     name: "GridFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["grid","fill"],
   },
   render() {
@@ -22284,7 +22284,7 @@ export let BGrid = {
   $_icon: {
     name: "Grid",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["grid"],
   },
   render() {
@@ -22304,7 +22304,7 @@ export let BGripHorizontal = {
   $_icon: {
     name: "GripHorizontal",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["grip","horizontal"],
   },
   render() {
@@ -22324,7 +22324,7 @@ export let BGripVertical = {
   $_icon: {
     name: "GripVertical",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["grip","vertical"],
   },
   render() {
@@ -22344,7 +22344,7 @@ export let BHCircleFill = {
   $_icon: {
     name: "HCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["h","circle","fill"],
   },
   render() {
@@ -22364,7 +22364,7 @@ export let BHCircle = {
   $_icon: {
     name: "HCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["h","circle"],
   },
   render() {
@@ -22384,7 +22384,7 @@ export let BHSquareFill = {
   $_icon: {
     name: "HSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["h","square","fill"],
   },
   render() {
@@ -22404,7 +22404,7 @@ export let BHSquare = {
   $_icon: {
     name: "HSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["h","square"],
   },
   render() {
@@ -22428,7 +22428,7 @@ export let BHammer = {
   $_icon: {
     name: "Hammer",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hammer"],
   },
   render() {
@@ -22448,7 +22448,7 @@ export let BHandIndexFill = {
   $_icon: {
     name: "HandIndexFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hand","index","fill"],
   },
   render() {
@@ -22468,7 +22468,7 @@ export let BHandIndexThumbFill = {
   $_icon: {
     name: "HandIndexThumbFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hand","index","thumb","fill"],
   },
   render() {
@@ -22488,7 +22488,7 @@ export let BHandIndexThumb = {
   $_icon: {
     name: "HandIndexThumb",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hand","index","thumb"],
   },
   render() {
@@ -22508,7 +22508,7 @@ export let BHandIndex = {
   $_icon: {
     name: "HandIndex",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hand","index"],
   },
   render() {
@@ -22528,7 +22528,7 @@ export let BHandThumbsDownFill = {
   $_icon: {
     name: "HandThumbsDownFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hand","thumbs","down","fill"],
   },
   render() {
@@ -22548,7 +22548,7 @@ export let BHandThumbsDown = {
   $_icon: {
     name: "HandThumbsDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hand","thumbs","down"],
   },
   render() {
@@ -22568,7 +22568,7 @@ export let BHandThumbsUpFill = {
   $_icon: {
     name: "HandThumbsUpFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hand","thumbs","up","fill"],
   },
   render() {
@@ -22588,7 +22588,7 @@ export let BHandThumbsUp = {
   $_icon: {
     name: "HandThumbsUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hand","thumbs","up"],
   },
   render() {
@@ -22608,7 +22608,7 @@ export let BHandbagFill = {
   $_icon: {
     name: "HandbagFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["handbag","fill"],
   },
   render() {
@@ -22628,7 +22628,7 @@ export let BHandbag = {
   $_icon: {
     name: "Handbag",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["handbag"],
   },
   render() {
@@ -22648,7 +22648,7 @@ export let BHash = {
   $_icon: {
     name: "Hash",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hash"],
   },
   render() {
@@ -22668,7 +22668,7 @@ export let BHddFill = {
   $_icon: {
     name: "HddFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hdd","fill"],
   },
   render() {
@@ -22688,7 +22688,7 @@ export let BHddNetworkFill = {
   $_icon: {
     name: "HddNetworkFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hdd","network","fill"],
   },
   render() {
@@ -22708,7 +22708,7 @@ export let BHddNetwork = {
   $_icon: {
     name: "HddNetwork",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hdd","network"],
   },
   render() {
@@ -22732,7 +22732,7 @@ export let BHddRackFill = {
   $_icon: {
     name: "HddRackFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hdd","rack","fill"],
   },
   render() {
@@ -22752,7 +22752,7 @@ export let BHddRack = {
   $_icon: {
     name: "HddRack",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hdd","rack"],
   },
   render() {
@@ -22776,7 +22776,7 @@ export let BHddStackFill = {
   $_icon: {
     name: "HddStackFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hdd","stack","fill"],
   },
   render() {
@@ -22796,7 +22796,7 @@ export let BHddStack = {
   $_icon: {
     name: "HddStack",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hdd","stack"],
   },
   render() {
@@ -22824,7 +22824,7 @@ export let BHdd = {
   $_icon: {
     name: "Hdd",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hdd"],
   },
   render() {
@@ -22848,7 +22848,7 @@ export let BHdmiFill = {
   $_icon: {
     name: "HdmiFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hdmi","fill"],
   },
   render() {
@@ -22868,7 +22868,7 @@ export let BHdmi = {
   $_icon: {
     name: "Hdmi",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hdmi"],
   },
   render() {
@@ -22892,7 +22892,7 @@ export let BHeadphones = {
   $_icon: {
     name: "Headphones",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["headphones"],
   },
   render() {
@@ -22912,7 +22912,7 @@ export let BHeadsetVr = {
   $_icon: {
     name: "HeadsetVr",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["headset","vr"],
   },
   render() {
@@ -22936,7 +22936,7 @@ export let BHeadset = {
   $_icon: {
     name: "Headset",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["headset"],
   },
   render() {
@@ -22956,7 +22956,7 @@ export let BHeartArrow = {
   $_icon: {
     name: "HeartArrow",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["heart","arrow"],
   },
   render() {
@@ -22976,7 +22976,7 @@ export let BHeartFill = {
   $_icon: {
     name: "HeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["heart","fill"],
   },
   render() {
@@ -22996,7 +22996,7 @@ export let BHeartHalf = {
   $_icon: {
     name: "HeartHalf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["heart","half"],
   },
   render() {
@@ -23016,7 +23016,7 @@ export let BHeartPulseFill = {
   $_icon: {
     name: "HeartPulseFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["heart","pulse","fill"],
   },
   render() {
@@ -23036,7 +23036,7 @@ export let BHeartPulse = {
   $_icon: {
     name: "HeartPulse",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["heart","pulse"],
   },
   render() {
@@ -23056,7 +23056,7 @@ export let BHeart = {
   $_icon: {
     name: "Heart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["heart"],
   },
   render() {
@@ -23076,7 +23076,7 @@ export let BHeartbreakFill = {
   $_icon: {
     name: "HeartbreakFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["heartbreak","fill"],
   },
   render() {
@@ -23096,7 +23096,7 @@ export let BHeartbreak = {
   $_icon: {
     name: "Heartbreak",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["heartbreak"],
   },
   render() {
@@ -23116,7 +23116,7 @@ export let BHearts = {
   $_icon: {
     name: "Hearts",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hearts"],
   },
   render() {
@@ -23136,7 +23136,7 @@ export let BHeptagonFill = {
   $_icon: {
     name: "HeptagonFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["heptagon","fill"],
   },
   render() {
@@ -23156,7 +23156,7 @@ export let BHeptagonHalf = {
   $_icon: {
     name: "HeptagonHalf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["heptagon","half"],
   },
   render() {
@@ -23176,7 +23176,7 @@ export let BHeptagon = {
   $_icon: {
     name: "Heptagon",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["heptagon"],
   },
   render() {
@@ -23196,7 +23196,7 @@ export let BHexagonFill = {
   $_icon: {
     name: "HexagonFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hexagon","fill"],
   },
   render() {
@@ -23216,7 +23216,7 @@ export let BHexagonHalf = {
   $_icon: {
     name: "HexagonHalf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hexagon","half"],
   },
   render() {
@@ -23236,7 +23236,7 @@ export let BHexagon = {
   $_icon: {
     name: "Hexagon",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hexagon"],
   },
   render() {
@@ -23256,7 +23256,7 @@ export let BHospitalFill = {
   $_icon: {
     name: "HospitalFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hospital","fill"],
   },
   render() {
@@ -23276,7 +23276,7 @@ export let BHospital = {
   $_icon: {
     name: "Hospital",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hospital"],
   },
   render() {
@@ -23300,7 +23300,7 @@ export let BHourglassBottom = {
   $_icon: {
     name: "HourglassBottom",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hourglass","bottom"],
   },
   render() {
@@ -23320,7 +23320,7 @@ export let BHourglassSplit = {
   $_icon: {
     name: "HourglassSplit",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hourglass","split"],
   },
   render() {
@@ -23340,7 +23340,7 @@ export let BHourglassTop = {
   $_icon: {
     name: "HourglassTop",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hourglass","top"],
   },
   render() {
@@ -23360,7 +23360,7 @@ export let BHourglass = {
   $_icon: {
     name: "Hourglass",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hourglass"],
   },
   render() {
@@ -23380,7 +23380,7 @@ export let BHouseDoorFill = {
   $_icon: {
     name: "HouseDoorFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["house","door","fill"],
   },
   render() {
@@ -23400,7 +23400,7 @@ export let BHouseDoor = {
   $_icon: {
     name: "HouseDoor",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["house","door"],
   },
   render() {
@@ -23420,7 +23420,7 @@ export let BHouseFill = {
   $_icon: {
     name: "HouseFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["house","fill"],
   },
   render() {
@@ -23444,7 +23444,7 @@ export let BHouseHeartFill = {
   $_icon: {
     name: "HouseHeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["house","heart","fill"],
   },
   render() {
@@ -23468,7 +23468,7 @@ export let BHouseHeart = {
   $_icon: {
     name: "HouseHeart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["house","heart"],
   },
   render() {
@@ -23492,7 +23492,7 @@ export let BHouse = {
   $_icon: {
     name: "House",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["house"],
   },
   render() {
@@ -23516,7 +23516,7 @@ export let BHr = {
   $_icon: {
     name: "Hr",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hr"],
   },
   render() {
@@ -23536,7 +23536,7 @@ export let BHurricane = {
   $_icon: {
     name: "Hurricane",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hurricane"],
   },
   render() {
@@ -23556,7 +23556,7 @@ export let BHypnotize = {
   $_icon: {
     name: "Hypnotize",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["hypnotize"],
   },
   render() {
@@ -23580,7 +23580,7 @@ export let BImageAlt = {
   $_icon: {
     name: "ImageAlt",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["image","alt"],
   },
   render() {
@@ -23600,7 +23600,7 @@ export let BImageFill = {
   $_icon: {
     name: "ImageFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["image","fill"],
   },
   render() {
@@ -23620,7 +23620,7 @@ export let BImage = {
   $_icon: {
     name: "Image",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["image"],
   },
   render() {
@@ -23644,7 +23644,7 @@ export let BImages = {
   $_icon: {
     name: "Images",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["images"],
   },
   render() {
@@ -23668,7 +23668,7 @@ export let BInboxFill = {
   $_icon: {
     name: "InboxFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["inbox","fill"],
   },
   render() {
@@ -23688,7 +23688,7 @@ export let BInbox = {
   $_icon: {
     name: "Inbox",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["inbox"],
   },
   render() {
@@ -23708,7 +23708,7 @@ export let BInboxesFill = {
   $_icon: {
     name: "InboxesFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["inboxes","fill"],
   },
   render() {
@@ -23728,7 +23728,7 @@ export let BInboxes = {
   $_icon: {
     name: "Inboxes",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["inboxes"],
   },
   render() {
@@ -23748,7 +23748,7 @@ export let BIncognito = {
   $_icon: {
     name: "Incognito",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["incognito"],
   },
   render() {
@@ -23768,7 +23768,7 @@ export let BIndent = {
   $_icon: {
     name: "Indent",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["indent"],
   },
   render() {
@@ -23792,7 +23792,7 @@ export let BInfinity = {
   $_icon: {
     name: "Infinity",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["infinity"],
   },
   render() {
@@ -23812,7 +23812,7 @@ export let BInfoCircleFill = {
   $_icon: {
     name: "InfoCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["info","circle","fill"],
   },
   render() {
@@ -23832,7 +23832,7 @@ export let BInfoCircle = {
   $_icon: {
     name: "InfoCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["info","circle"],
   },
   render() {
@@ -23856,7 +23856,7 @@ export let BInfoLg = {
   $_icon: {
     name: "InfoLg",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["info","lg"],
   },
   render() {
@@ -23876,7 +23876,7 @@ export let BInfoSquareFill = {
   $_icon: {
     name: "InfoSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["info","square","fill"],
   },
   render() {
@@ -23896,7 +23896,7 @@ export let BInfoSquare = {
   $_icon: {
     name: "InfoSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["info","square"],
   },
   render() {
@@ -23920,7 +23920,7 @@ export let BInfo = {
   $_icon: {
     name: "Info",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["info"],
   },
   render() {
@@ -23940,7 +23940,7 @@ export let BInputCursorText = {
   $_icon: {
     name: "InputCursorText",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["input","cursor","text"],
   },
   render() {
@@ -23964,7 +23964,7 @@ export let BInputCursor = {
   $_icon: {
     name: "InputCursor",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["input","cursor"],
   },
   render() {
@@ -23988,7 +23988,7 @@ export let BInstagram = {
   $_icon: {
     name: "Instagram",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["instagram"],
   },
   render() {
@@ -24008,7 +24008,7 @@ export let BIntersect = {
   $_icon: {
     name: "Intersect",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["intersect"],
   },
   render() {
@@ -24028,7 +24028,7 @@ export let BJournalAlbum = {
   $_icon: {
     name: "JournalAlbum",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["journal","album"],
   },
   render() {
@@ -24056,7 +24056,7 @@ export let BJournalArrowDown = {
   $_icon: {
     name: "JournalArrowDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["journal","arrow","down"],
   },
   render() {
@@ -24084,7 +24084,7 @@ export let BJournalArrowUp = {
   $_icon: {
     name: "JournalArrowUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["journal","arrow","up"],
   },
   render() {
@@ -24112,7 +24112,7 @@ export let BJournalBookmarkFill = {
   $_icon: {
     name: "JournalBookmarkFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["journal","bookmark","fill"],
   },
   render() {
@@ -24140,7 +24140,7 @@ export let BJournalBookmark = {
   $_icon: {
     name: "JournalBookmark",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["journal","bookmark"],
   },
   render() {
@@ -24168,7 +24168,7 @@ export let BJournalCheck = {
   $_icon: {
     name: "JournalCheck",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["journal","check"],
   },
   render() {
@@ -24196,7 +24196,7 @@ export let BJournalCode = {
   $_icon: {
     name: "JournalCode",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["journal","code"],
   },
   render() {
@@ -24224,7 +24224,7 @@ export let BJournalMedical = {
   $_icon: {
     name: "JournalMedical",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["journal","medical"],
   },
   render() {
@@ -24252,7 +24252,7 @@ export let BJournalMinus = {
   $_icon: {
     name: "JournalMinus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["journal","minus"],
   },
   render() {
@@ -24280,7 +24280,7 @@ export let BJournalPlus = {
   $_icon: {
     name: "JournalPlus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["journal","plus"],
   },
   render() {
@@ -24308,7 +24308,7 @@ export let BJournalRichtext = {
   $_icon: {
     name: "JournalRichtext",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["journal","richtext"],
   },
   render() {
@@ -24336,7 +24336,7 @@ export let BJournalText = {
   $_icon: {
     name: "JournalText",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["journal","text"],
   },
   render() {
@@ -24364,7 +24364,7 @@ export let BJournalX = {
   $_icon: {
     name: "JournalX",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["journal","x"],
   },
   render() {
@@ -24392,7 +24392,7 @@ export let BJournal = {
   $_icon: {
     name: "Journal",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["journal"],
   },
   render() {
@@ -24416,7 +24416,7 @@ export let BJournals = {
   $_icon: {
     name: "Journals",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["journals"],
   },
   render() {
@@ -24440,7 +24440,7 @@ export let BJoystick = {
   $_icon: {
     name: "Joystick",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["joystick"],
   },
   render() {
@@ -24464,7 +24464,7 @@ export let BJustifyLeft = {
   $_icon: {
     name: "JustifyLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["justify","left"],
   },
   render() {
@@ -24484,7 +24484,7 @@ export let BJustifyRight = {
   $_icon: {
     name: "JustifyRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["justify","right"],
   },
   render() {
@@ -24504,7 +24504,7 @@ export let BJustify = {
   $_icon: {
     name: "Justify",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["justify"],
   },
   render() {
@@ -24524,7 +24524,7 @@ export let BKanbanFill = {
   $_icon: {
     name: "KanbanFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["kanban","fill"],
   },
   render() {
@@ -24544,7 +24544,7 @@ export let BKanban = {
   $_icon: {
     name: "Kanban",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["kanban"],
   },
   render() {
@@ -24568,7 +24568,7 @@ export let BKeyFill = {
   $_icon: {
     name: "KeyFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["key","fill"],
   },
   render() {
@@ -24588,7 +24588,7 @@ export let BKey = {
   $_icon: {
     name: "Key",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["key"],
   },
   render() {
@@ -24612,7 +24612,7 @@ export let BKeyboardFill = {
   $_icon: {
     name: "KeyboardFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["keyboard","fill"],
   },
   render() {
@@ -24632,7 +24632,7 @@ export let BKeyboard = {
   $_icon: {
     name: "Keyboard",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["keyboard"],
   },
   render() {
@@ -24656,7 +24656,7 @@ export let BLadder = {
   $_icon: {
     name: "Ladder",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["ladder"],
   },
   render() {
@@ -24676,7 +24676,7 @@ export let BLampFill = {
   $_icon: {
     name: "LampFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["lamp","fill"],
   },
   render() {
@@ -24700,7 +24700,7 @@ export let BLamp = {
   $_icon: {
     name: "Lamp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["lamp"],
   },
   render() {
@@ -24724,7 +24724,7 @@ export let BLaptopFill = {
   $_icon: {
     name: "LaptopFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["laptop","fill"],
   },
   render() {
@@ -24744,7 +24744,7 @@ export let BLaptop = {
   $_icon: {
     name: "Laptop",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["laptop"],
   },
   render() {
@@ -24764,7 +24764,7 @@ export let BLayerBackward = {
   $_icon: {
     name: "LayerBackward",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["layer","backward"],
   },
   render() {
@@ -24788,7 +24788,7 @@ export let BLayerForward = {
   $_icon: {
     name: "LayerForward",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["layer","forward"],
   },
   render() {
@@ -24812,7 +24812,7 @@ export let BLayersFill = {
   $_icon: {
     name: "LayersFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["layers","fill"],
   },
   render() {
@@ -24836,7 +24836,7 @@ export let BLayersHalf = {
   $_icon: {
     name: "LayersHalf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["layers","half"],
   },
   render() {
@@ -24856,7 +24856,7 @@ export let BLayers = {
   $_icon: {
     name: "Layers",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["layers"],
   },
   render() {
@@ -24876,7 +24876,7 @@ export let BLayoutSidebarInsetReverse = {
   $_icon: {
     name: "LayoutSidebarInsetReverse",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["layout","sidebar","inset","reverse"],
   },
   render() {
@@ -24900,7 +24900,7 @@ export let BLayoutSidebarInset = {
   $_icon: {
     name: "LayoutSidebarInset",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["layout","sidebar","inset"],
   },
   render() {
@@ -24924,7 +24924,7 @@ export let BLayoutSidebarReverse = {
   $_icon: {
     name: "LayoutSidebarReverse",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["layout","sidebar","reverse"],
   },
   render() {
@@ -24944,7 +24944,7 @@ export let BLayoutSidebar = {
   $_icon: {
     name: "LayoutSidebar",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["layout","sidebar"],
   },
   render() {
@@ -24964,7 +24964,7 @@ export let BLayoutSplit = {
   $_icon: {
     name: "LayoutSplit",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["layout","split"],
   },
   render() {
@@ -24984,7 +24984,7 @@ export let BLayoutTextSidebarReverse = {
   $_icon: {
     name: "LayoutTextSidebarReverse",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["layout","text","sidebar","reverse"],
   },
   render() {
@@ -25008,7 +25008,7 @@ export let BLayoutTextSidebar = {
   $_icon: {
     name: "LayoutTextSidebar",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["layout","text","sidebar"],
   },
   render() {
@@ -25032,7 +25032,7 @@ export let BLayoutTextWindowReverse = {
   $_icon: {
     name: "LayoutTextWindowReverse",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["layout","text","window","reverse"],
   },
   render() {
@@ -25056,7 +25056,7 @@ export let BLayoutTextWindow = {
   $_icon: {
     name: "LayoutTextWindow",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["layout","text","window"],
   },
   render() {
@@ -25080,7 +25080,7 @@ export let BLayoutThreeColumns = {
   $_icon: {
     name: "LayoutThreeColumns",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["layout","three","columns"],
   },
   render() {
@@ -25100,7 +25100,7 @@ export let BLayoutWtf = {
   $_icon: {
     name: "LayoutWtf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["layout","wtf"],
   },
   render() {
@@ -25120,7 +25120,7 @@ export let BLifePreserver = {
   $_icon: {
     name: "LifePreserver",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["life","preserver"],
   },
   render() {
@@ -25140,7 +25140,7 @@ export let BLightbulbFill = {
   $_icon: {
     name: "LightbulbFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["lightbulb","fill"],
   },
   render() {
@@ -25160,7 +25160,7 @@ export let BLightbulbOffFill = {
   $_icon: {
     name: "LightbulbOffFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["lightbulb","off","fill"],
   },
   render() {
@@ -25180,7 +25180,7 @@ export let BLightbulbOff = {
   $_icon: {
     name: "LightbulbOff",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["lightbulb","off"],
   },
   render() {
@@ -25200,7 +25200,7 @@ export let BLightbulb = {
   $_icon: {
     name: "Lightbulb",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["lightbulb"],
   },
   render() {
@@ -25220,7 +25220,7 @@ export let BLightningChargeFill = {
   $_icon: {
     name: "LightningChargeFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["lightning","charge","fill"],
   },
   render() {
@@ -25240,7 +25240,7 @@ export let BLightningCharge = {
   $_icon: {
     name: "LightningCharge",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["lightning","charge"],
   },
   render() {
@@ -25260,7 +25260,7 @@ export let BLightningFill = {
   $_icon: {
     name: "LightningFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["lightning","fill"],
   },
   render() {
@@ -25280,7 +25280,7 @@ export let BLightning = {
   $_icon: {
     name: "Lightning",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["lightning"],
   },
   render() {
@@ -25300,7 +25300,7 @@ export let BLine = {
   $_icon: {
     name: "Line",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["line"],
   },
   render() {
@@ -25320,7 +25320,7 @@ export let BLink45deg = {
   $_icon: {
     name: "Link45deg",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["link","45deg"],
   },
   render() {
@@ -25344,7 +25344,7 @@ export let BLink = {
   $_icon: {
     name: "Link",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["link"],
   },
   render() {
@@ -25368,7 +25368,7 @@ export let BLinkedin = {
   $_icon: {
     name: "Linkedin",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["linkedin"],
   },
   render() {
@@ -25388,7 +25388,7 @@ export let BListCheck = {
   $_icon: {
     name: "ListCheck",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["list","check"],
   },
   render() {
@@ -25408,7 +25408,7 @@ export let BListColumnsReverse = {
   $_icon: {
     name: "ListColumnsReverse",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["list","columns","reverse"],
   },
   render() {
@@ -25428,7 +25428,7 @@ export let BListColumns = {
   $_icon: {
     name: "ListColumns",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["list","columns"],
   },
   render() {
@@ -25448,7 +25448,7 @@ export let BListNested = {
   $_icon: {
     name: "ListNested",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["list","nested"],
   },
   render() {
@@ -25468,7 +25468,7 @@ export let BListOl = {
   $_icon: {
     name: "ListOl",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["list","ol"],
   },
   render() {
@@ -25492,7 +25492,7 @@ export let BListStars = {
   $_icon: {
     name: "ListStars",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["list","stars"],
   },
   render() {
@@ -25516,7 +25516,7 @@ export let BListTask = {
   $_icon: {
     name: "ListTask",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["list","task"],
   },
   render() {
@@ -25544,7 +25544,7 @@ export let BListUl = {
   $_icon: {
     name: "ListUl",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["list","ul"],
   },
   render() {
@@ -25564,7 +25564,7 @@ export let BList = {
   $_icon: {
     name: "List",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["list"],
   },
   render() {
@@ -25584,7 +25584,7 @@ export let BLockFill = {
   $_icon: {
     name: "LockFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["lock","fill"],
   },
   render() {
@@ -25604,7 +25604,7 @@ export let BLock = {
   $_icon: {
     name: "Lock",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["lock"],
   },
   render() {
@@ -25624,7 +25624,7 @@ export let BLungsFill = {
   $_icon: {
     name: "LungsFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["lungs","fill"],
   },
   render() {
@@ -25644,7 +25644,7 @@ export let BLungs = {
   $_icon: {
     name: "Lungs",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["lungs"],
   },
   render() {
@@ -25664,7 +25664,7 @@ export let BMagic = {
   $_icon: {
     name: "Magic",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["magic"],
   },
   render() {
@@ -25684,7 +25684,7 @@ export let BMagnetFill = {
   $_icon: {
     name: "MagnetFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["magnet","fill"],
   },
   render() {
@@ -25704,7 +25704,7 @@ export let BMagnet = {
   $_icon: {
     name: "Magnet",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["magnet"],
   },
   render() {
@@ -25724,7 +25724,7 @@ export let BMailbox = {
   $_icon: {
     name: "Mailbox",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["mailbox"],
   },
   render() {
@@ -25748,7 +25748,7 @@ export let BMailbox2 = {
   $_icon: {
     name: "Mailbox2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["mailbox2"],
   },
   render() {
@@ -25772,7 +25772,7 @@ export let BMapFill = {
   $_icon: {
     name: "MapFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["map","fill"],
   },
   render() {
@@ -25792,7 +25792,7 @@ export let BMap = {
   $_icon: {
     name: "Map",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["map"],
   },
   render() {
@@ -25812,7 +25812,7 @@ export let BMarkdownFill = {
   $_icon: {
     name: "MarkdownFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["markdown","fill"],
   },
   render() {
@@ -25832,7 +25832,7 @@ export let BMarkdown = {
   $_icon: {
     name: "Markdown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["markdown"],
   },
   render() {
@@ -25864,7 +25864,7 @@ export let BMask = {
   $_icon: {
     name: "Mask",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["mask"],
   },
   render() {
@@ -25884,7 +25884,7 @@ export let BMastodon = {
   $_icon: {
     name: "Mastodon",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["mastodon"],
   },
   render() {
@@ -25904,7 +25904,7 @@ export let BMedium = {
   $_icon: {
     name: "Medium",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["medium"],
   },
   render() {
@@ -25924,7 +25924,7 @@ export let BMegaphoneFill = {
   $_icon: {
     name: "MegaphoneFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["megaphone","fill"],
   },
   render() {
@@ -25944,7 +25944,7 @@ export let BMegaphone = {
   $_icon: {
     name: "Megaphone",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["megaphone"],
   },
   render() {
@@ -25964,7 +25964,7 @@ export let BMemory = {
   $_icon: {
     name: "Memory",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["memory"],
   },
   render() {
@@ -25984,7 +25984,7 @@ export let BMenuAppFill = {
   $_icon: {
     name: "MenuAppFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["menu","app","fill"],
   },
   render() {
@@ -26004,7 +26004,7 @@ export let BMenuApp = {
   $_icon: {
     name: "MenuApp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["menu","app"],
   },
   render() {
@@ -26024,7 +26024,7 @@ export let BMenuButtonFill = {
   $_icon: {
     name: "MenuButtonFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["menu","button","fill"],
   },
   render() {
@@ -26044,7 +26044,7 @@ export let BMenuButtonWideFill = {
   $_icon: {
     name: "MenuButtonWideFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["menu","button","wide","fill"],
   },
   render() {
@@ -26064,7 +26064,7 @@ export let BMenuButtonWide = {
   $_icon: {
     name: "MenuButtonWide",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["menu","button","wide"],
   },
   render() {
@@ -26088,7 +26088,7 @@ export let BMenuButton = {
   $_icon: {
     name: "MenuButton",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["menu","button"],
   },
   render() {
@@ -26112,7 +26112,7 @@ export let BMenuDown = {
   $_icon: {
     name: "MenuDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["menu","down"],
   },
   render() {
@@ -26132,7 +26132,7 @@ export let BMenuUp = {
   $_icon: {
     name: "MenuUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["menu","up"],
   },
   render() {
@@ -26152,7 +26152,7 @@ export let BMessenger = {
   $_icon: {
     name: "Messenger",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["messenger"],
   },
   render() {
@@ -26172,7 +26172,7 @@ export let BMeta = {
   $_icon: {
     name: "Meta",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["meta"],
   },
   render() {
@@ -26192,7 +26192,7 @@ export let BMicFill = {
   $_icon: {
     name: "MicFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["mic","fill"],
   },
   render() {
@@ -26216,7 +26216,7 @@ export let BMicMuteFill = {
   $_icon: {
     name: "MicMuteFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["mic","mute","fill"],
   },
   render() {
@@ -26240,7 +26240,7 @@ export let BMicMute = {
   $_icon: {
     name: "MicMute",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["mic","mute"],
   },
   render() {
@@ -26264,7 +26264,7 @@ export let BMic = {
   $_icon: {
     name: "Mic",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["mic"],
   },
   render() {
@@ -26288,7 +26288,7 @@ export let BMicrosoftTeams = {
   $_icon: {
     name: "MicrosoftTeams",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["microsoft","teams"],
   },
   render() {
@@ -26312,7 +26312,7 @@ export let BMicrosoft = {
   $_icon: {
     name: "Microsoft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["microsoft"],
   },
   render() {
@@ -26332,7 +26332,7 @@ export let BMinecartLoaded = {
   $_icon: {
     name: "MinecartLoaded",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["minecart","loaded"],
   },
   render() {
@@ -26356,7 +26356,7 @@ export let BMinecart = {
   $_icon: {
     name: "Minecart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["minecart"],
   },
   render() {
@@ -26376,7 +26376,7 @@ export let BModemFill = {
   $_icon: {
     name: "ModemFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["modem","fill"],
   },
   render() {
@@ -26396,7 +26396,7 @@ export let BModem = {
   $_icon: {
     name: "Modem",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["modem"],
   },
   render() {
@@ -26420,7 +26420,7 @@ export let BMoisture = {
   $_icon: {
     name: "Moisture",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["moisture"],
   },
   render() {
@@ -26440,7 +26440,7 @@ export let BMoonFill = {
   $_icon: {
     name: "MoonFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["moon","fill"],
   },
   render() {
@@ -26460,7 +26460,7 @@ export let BMoonStarsFill = {
   $_icon: {
     name: "MoonStarsFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["moon","stars","fill"],
   },
   render() {
@@ -26484,7 +26484,7 @@ export let BMoonStars = {
   $_icon: {
     name: "MoonStars",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["moon","stars"],
   },
   render() {
@@ -26508,7 +26508,7 @@ export let BMoon = {
   $_icon: {
     name: "Moon",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["moon"],
   },
   render() {
@@ -26528,7 +26528,7 @@ export let BMortarboardFill = {
   $_icon: {
     name: "MortarboardFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["mortarboard","fill"],
   },
   render() {
@@ -26552,7 +26552,7 @@ export let BMortarboard = {
   $_icon: {
     name: "Mortarboard",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["mortarboard"],
   },
   render() {
@@ -26576,7 +26576,7 @@ export let BMotherboardFill = {
   $_icon: {
     name: "MotherboardFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["motherboard","fill"],
   },
   render() {
@@ -26600,7 +26600,7 @@ export let BMotherboard = {
   $_icon: {
     name: "Motherboard",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["motherboard"],
   },
   render() {
@@ -26624,7 +26624,7 @@ export let BMouseFill = {
   $_icon: {
     name: "MouseFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["mouse","fill"],
   },
   render() {
@@ -26644,7 +26644,7 @@ export let BMouse = {
   $_icon: {
     name: "Mouse",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["mouse"],
   },
   render() {
@@ -26664,7 +26664,7 @@ export let BMouse2Fill = {
   $_icon: {
     name: "Mouse2Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["mouse2","fill"],
   },
   render() {
@@ -26684,7 +26684,7 @@ export let BMouse2 = {
   $_icon: {
     name: "Mouse2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["mouse2"],
   },
   render() {
@@ -26704,7 +26704,7 @@ export let BMouse3Fill = {
   $_icon: {
     name: "Mouse3Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["mouse3","fill"],
   },
   render() {
@@ -26724,7 +26724,7 @@ export let BMouse3 = {
   $_icon: {
     name: "Mouse3",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["mouse3"],
   },
   render() {
@@ -26744,7 +26744,7 @@ export let BMusicNoteBeamed = {
   $_icon: {
     name: "MusicNoteBeamed",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["music","note","beamed"],
   },
   render() {
@@ -26772,7 +26772,7 @@ export let BMusicNoteList = {
   $_icon: {
     name: "MusicNoteList",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["music","note","list"],
   },
   render() {
@@ -26804,7 +26804,7 @@ export let BMusicNote = {
   $_icon: {
     name: "MusicNote",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["music","note"],
   },
   render() {
@@ -26832,7 +26832,7 @@ export let BMusicPlayerFill = {
   $_icon: {
     name: "MusicPlayerFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["music","player","fill"],
   },
   render() {
@@ -26856,7 +26856,7 @@ export let BMusicPlayer = {
   $_icon: {
     name: "MusicPlayer",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["music","player"],
   },
   render() {
@@ -26884,7 +26884,7 @@ export let BNewspaper = {
   $_icon: {
     name: "Newspaper",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["newspaper"],
   },
   render() {
@@ -26908,7 +26908,7 @@ export let BNintendoSwitch = {
   $_icon: {
     name: "NintendoSwitch",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["nintendo","switch"],
   },
   render() {
@@ -26932,7 +26932,7 @@ export let BNodeMinusFill = {
   $_icon: {
     name: "NodeMinusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["node","minus","fill"],
   },
   render() {
@@ -26952,7 +26952,7 @@ export let BNodeMinus = {
   $_icon: {
     name: "NodeMinus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["node","minus"],
   },
   render() {
@@ -26972,7 +26972,7 @@ export let BNodePlusFill = {
   $_icon: {
     name: "NodePlusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["node","plus","fill"],
   },
   render() {
@@ -26992,7 +26992,7 @@ export let BNodePlus = {
   $_icon: {
     name: "NodePlus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["node","plus"],
   },
   render() {
@@ -27012,7 +27012,7 @@ export let BNutFill = {
   $_icon: {
     name: "NutFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["nut","fill"],
   },
   render() {
@@ -27032,7 +27032,7 @@ export let BNut = {
   $_icon: {
     name: "Nut",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["nut"],
   },
   render() {
@@ -27056,7 +27056,7 @@ export let BOctagonFill = {
   $_icon: {
     name: "OctagonFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["octagon","fill"],
   },
   render() {
@@ -27076,7 +27076,7 @@ export let BOctagonHalf = {
   $_icon: {
     name: "OctagonHalf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["octagon","half"],
   },
   render() {
@@ -27096,7 +27096,7 @@ export let BOctagon = {
   $_icon: {
     name: "Octagon",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["octagon"],
   },
   render() {
@@ -27116,7 +27116,7 @@ export let BOpticalAudioFill = {
   $_icon: {
     name: "OpticalAudioFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["optical","audio","fill"],
   },
   render() {
@@ -27140,7 +27140,7 @@ export let BOpticalAudio = {
   $_icon: {
     name: "OpticalAudio",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["optical","audio"],
   },
   render() {
@@ -27168,7 +27168,7 @@ export let BOption = {
   $_icon: {
     name: "Option",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["option"],
   },
   render() {
@@ -27188,7 +27188,7 @@ export let BOutlet = {
   $_icon: {
     name: "Outlet",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["outlet"],
   },
   render() {
@@ -27212,7 +27212,7 @@ export let BPCircleFill = {
   $_icon: {
     name: "PCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["p","circle","fill"],
   },
   render() {
@@ -27232,7 +27232,7 @@ export let BPCircle = {
   $_icon: {
     name: "PCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["p","circle"],
   },
   render() {
@@ -27252,7 +27252,7 @@ export let BPSquareFill = {
   $_icon: {
     name: "PSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["p","square","fill"],
   },
   render() {
@@ -27276,7 +27276,7 @@ export let BPSquare = {
   $_icon: {
     name: "PSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["p","square"],
   },
   render() {
@@ -27300,7 +27300,7 @@ export let BPaintBucket = {
   $_icon: {
     name: "PaintBucket",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["paint","bucket"],
   },
   render() {
@@ -27320,7 +27320,7 @@ export let BPaletteFill = {
   $_icon: {
     name: "PaletteFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["palette","fill"],
   },
   render() {
@@ -27340,7 +27340,7 @@ export let BPalette = {
   $_icon: {
     name: "Palette",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["palette"],
   },
   render() {
@@ -27364,7 +27364,7 @@ export let BPalette2 = {
   $_icon: {
     name: "Palette2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["palette2"],
   },
   render() {
@@ -27388,7 +27388,7 @@ export let BPaperclip = {
   $_icon: {
     name: "Paperclip",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["paperclip"],
   },
   render() {
@@ -27408,7 +27408,7 @@ export let BParagraph = {
   $_icon: {
     name: "Paragraph",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["paragraph"],
   },
   render() {
@@ -27428,7 +27428,7 @@ export let BPassFill = {
   $_icon: {
     name: "PassFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pass","fill"],
   },
   render() {
@@ -27448,7 +27448,7 @@ export let BPass = {
   $_icon: {
     name: "Pass",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pass"],
   },
   render() {
@@ -27472,7 +27472,7 @@ export let BPatchCheckFill = {
   $_icon: {
     name: "PatchCheckFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["patch","check","fill"],
   },
   render() {
@@ -27492,7 +27492,7 @@ export let BPatchCheck = {
   $_icon: {
     name: "PatchCheck",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["patch","check"],
   },
   render() {
@@ -27516,7 +27516,7 @@ export let BPatchExclamationFill = {
   $_icon: {
     name: "PatchExclamationFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["patch","exclamation","fill"],
   },
   render() {
@@ -27536,7 +27536,7 @@ export let BPatchExclamation = {
   $_icon: {
     name: "PatchExclamation",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["patch","exclamation"],
   },
   render() {
@@ -27560,7 +27560,7 @@ export let BPatchMinusFill = {
   $_icon: {
     name: "PatchMinusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["patch","minus","fill"],
   },
   render() {
@@ -27580,7 +27580,7 @@ export let BPatchMinus = {
   $_icon: {
     name: "PatchMinus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["patch","minus"],
   },
   render() {
@@ -27604,7 +27604,7 @@ export let BPatchPlusFill = {
   $_icon: {
     name: "PatchPlusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["patch","plus","fill"],
   },
   render() {
@@ -27624,7 +27624,7 @@ export let BPatchPlus = {
   $_icon: {
     name: "PatchPlus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["patch","plus"],
   },
   render() {
@@ -27648,7 +27648,7 @@ export let BPatchQuestionFill = {
   $_icon: {
     name: "PatchQuestionFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["patch","question","fill"],
   },
   render() {
@@ -27668,7 +27668,7 @@ export let BPatchQuestion = {
   $_icon: {
     name: "PatchQuestion",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["patch","question"],
   },
   render() {
@@ -27696,7 +27696,7 @@ export let BPauseBtnFill = {
   $_icon: {
     name: "PauseBtnFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pause","btn","fill"],
   },
   render() {
@@ -27716,7 +27716,7 @@ export let BPauseBtn = {
   $_icon: {
     name: "PauseBtn",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pause","btn"],
   },
   render() {
@@ -27740,7 +27740,7 @@ export let BPauseCircleFill = {
   $_icon: {
     name: "PauseCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pause","circle","fill"],
   },
   render() {
@@ -27760,7 +27760,7 @@ export let BPauseCircle = {
   $_icon: {
     name: "PauseCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pause","circle"],
   },
   render() {
@@ -27784,7 +27784,7 @@ export let BPauseFill = {
   $_icon: {
     name: "PauseFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pause","fill"],
   },
   render() {
@@ -27804,7 +27804,7 @@ export let BPause = {
   $_icon: {
     name: "Pause",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pause"],
   },
   render() {
@@ -27824,7 +27824,7 @@ export let BPaypal = {
   $_icon: {
     name: "Paypal",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["paypal"],
   },
   render() {
@@ -27844,7 +27844,7 @@ export let BPcDisplayHorizontal = {
   $_icon: {
     name: "PcDisplayHorizontal",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pc","display","horizontal"],
   },
   render() {
@@ -27864,7 +27864,7 @@ export let BPcDisplay = {
   $_icon: {
     name: "PcDisplay",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pc","display"],
   },
   render() {
@@ -27884,7 +27884,7 @@ export let BPcHorizontal = {
   $_icon: {
     name: "PcHorizontal",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pc","horizontal"],
   },
   render() {
@@ -27904,7 +27904,7 @@ export let BPc = {
   $_icon: {
     name: "Pc",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pc"],
   },
   render() {
@@ -27924,7 +27924,7 @@ export let BPciCard = {
   $_icon: {
     name: "PciCard",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pci","card"],
   },
   render() {
@@ -27948,7 +27948,7 @@ export let BPeaceFill = {
   $_icon: {
     name: "PeaceFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["peace","fill"],
   },
   render() {
@@ -27968,7 +27968,7 @@ export let BPeace = {
   $_icon: {
     name: "Peace",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["peace"],
   },
   render() {
@@ -27988,7 +27988,7 @@ export let BPenFill = {
   $_icon: {
     name: "PenFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pen","fill"],
   },
   render() {
@@ -28008,7 +28008,7 @@ export let BPen = {
   $_icon: {
     name: "Pen",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pen"],
   },
   render() {
@@ -28028,7 +28028,7 @@ export let BPencilFill = {
   $_icon: {
     name: "PencilFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pencil","fill"],
   },
   render() {
@@ -28048,7 +28048,7 @@ export let BPencilSquare = {
   $_icon: {
     name: "PencilSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pencil","square"],
   },
   render() {
@@ -28072,7 +28072,7 @@ export let BPencil = {
   $_icon: {
     name: "Pencil",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pencil"],
   },
   render() {
@@ -28092,7 +28092,7 @@ export let BPentagonFill = {
   $_icon: {
     name: "PentagonFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pentagon","fill"],
   },
   render() {
@@ -28112,7 +28112,7 @@ export let BPentagonHalf = {
   $_icon: {
     name: "PentagonHalf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pentagon","half"],
   },
   render() {
@@ -28132,7 +28132,7 @@ export let BPentagon = {
   $_icon: {
     name: "Pentagon",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pentagon"],
   },
   render() {
@@ -28152,7 +28152,7 @@ export let BPeopleFill = {
   $_icon: {
     name: "PeopleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["people","fill"],
   },
   render() {
@@ -28180,7 +28180,7 @@ export let BPeople = {
   $_icon: {
     name: "People",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["people"],
   },
   render() {
@@ -28200,7 +28200,7 @@ export let BPercent = {
   $_icon: {
     name: "Percent",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["percent"],
   },
   render() {
@@ -28220,7 +28220,7 @@ export let BPersonBadgeFill = {
   $_icon: {
     name: "PersonBadgeFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","badge","fill"],
   },
   render() {
@@ -28240,7 +28240,7 @@ export let BPersonBadge = {
   $_icon: {
     name: "PersonBadge",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","badge"],
   },
   render() {
@@ -28264,7 +28264,7 @@ export let BPersonBoundingBox = {
   $_icon: {
     name: "PersonBoundingBox",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","bounding","box"],
   },
   render() {
@@ -28288,7 +28288,7 @@ export let BPersonCheckFill = {
   $_icon: {
     name: "PersonCheckFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","check","fill"],
   },
   render() {
@@ -28312,7 +28312,7 @@ export let BPersonCheck = {
   $_icon: {
     name: "PersonCheck",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","check"],
   },
   render() {
@@ -28336,7 +28336,7 @@ export let BPersonCircle = {
   $_icon: {
     name: "PersonCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","circle"],
   },
   render() {
@@ -28360,7 +28360,7 @@ export let BPersonDashFill = {
   $_icon: {
     name: "PersonDashFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","dash","fill"],
   },
   render() {
@@ -28384,7 +28384,7 @@ export let BPersonDash = {
   $_icon: {
     name: "PersonDash",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","dash"],
   },
   render() {
@@ -28408,7 +28408,7 @@ export let BPersonFill = {
   $_icon: {
     name: "PersonFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","fill"],
   },
   render() {
@@ -28428,7 +28428,7 @@ export let BPersonHeart = {
   $_icon: {
     name: "PersonHeart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","heart"],
   },
   render() {
@@ -28448,7 +28448,7 @@ export let BPersonHearts = {
   $_icon: {
     name: "PersonHearts",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","hearts"],
   },
   render() {
@@ -28468,7 +28468,7 @@ export let BPersonLinesFill = {
   $_icon: {
     name: "PersonLinesFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","lines","fill"],
   },
   render() {
@@ -28488,7 +28488,7 @@ export let BPersonPlusFill = {
   $_icon: {
     name: "PersonPlusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","plus","fill"],
   },
   render() {
@@ -28512,7 +28512,7 @@ export let BPersonPlus = {
   $_icon: {
     name: "PersonPlus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","plus"],
   },
   render() {
@@ -28536,7 +28536,7 @@ export let BPersonRolodex = {
   $_icon: {
     name: "PersonRolodex",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","rolodex"],
   },
   render() {
@@ -28560,7 +28560,7 @@ export let BPersonSquare = {
   $_icon: {
     name: "PersonSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","square"],
   },
   render() {
@@ -28584,7 +28584,7 @@ export let BPersonVideo = {
   $_icon: {
     name: "PersonVideo",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","video"],
   },
   render() {
@@ -28608,7 +28608,7 @@ export let BPersonVideo2 = {
   $_icon: {
     name: "PersonVideo2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","video2"],
   },
   render() {
@@ -28632,7 +28632,7 @@ export let BPersonVideo3 = {
   $_icon: {
     name: "PersonVideo3",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","video3"],
   },
   render() {
@@ -28656,7 +28656,7 @@ export let BPersonWorkspace = {
   $_icon: {
     name: "PersonWorkspace",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","workspace"],
   },
   render() {
@@ -28680,7 +28680,7 @@ export let BPersonXFill = {
   $_icon: {
     name: "PersonXFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","x","fill"],
   },
   render() {
@@ -28700,7 +28700,7 @@ export let BPersonX = {
   $_icon: {
     name: "PersonX",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person","x"],
   },
   render() {
@@ -28724,7 +28724,7 @@ export let BPerson = {
   $_icon: {
     name: "Person",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["person"],
   },
   render() {
@@ -28744,7 +28744,7 @@ export let BPhoneFill = {
   $_icon: {
     name: "PhoneFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["phone","fill"],
   },
   render() {
@@ -28764,7 +28764,7 @@ export let BPhoneFlip = {
   $_icon: {
     name: "PhoneFlip",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["phone","flip"],
   },
   render() {
@@ -28784,7 +28784,7 @@ export let BPhoneLandscapeFill = {
   $_icon: {
     name: "PhoneLandscapeFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["phone","landscape","fill"],
   },
   render() {
@@ -28804,7 +28804,7 @@ export let BPhoneLandscape = {
   $_icon: {
     name: "PhoneLandscape",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["phone","landscape"],
   },
   render() {
@@ -28828,7 +28828,7 @@ export let BPhoneVibrateFill = {
   $_icon: {
     name: "PhoneVibrateFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["phone","vibrate","fill"],
   },
   render() {
@@ -28848,7 +28848,7 @@ export let BPhoneVibrate = {
   $_icon: {
     name: "PhoneVibrate",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["phone","vibrate"],
   },
   render() {
@@ -28872,7 +28872,7 @@ export let BPhone = {
   $_icon: {
     name: "Phone",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["phone"],
   },
   render() {
@@ -28896,7 +28896,7 @@ export let BPieChartFill = {
   $_icon: {
     name: "PieChartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pie","chart","fill"],
   },
   render() {
@@ -28916,7 +28916,7 @@ export let BPieChart = {
   $_icon: {
     name: "PieChart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pie","chart"],
   },
   render() {
@@ -28936,7 +28936,7 @@ export let BPiggyBankFill = {
   $_icon: {
     name: "PiggyBankFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["piggy","bank","fill"],
   },
   render() {
@@ -28956,7 +28956,7 @@ export let BPiggyBank = {
   $_icon: {
     name: "PiggyBank",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["piggy","bank"],
   },
   render() {
@@ -28980,7 +28980,7 @@ export let BPinAngleFill = {
   $_icon: {
     name: "PinAngleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pin","angle","fill"],
   },
   render() {
@@ -29000,7 +29000,7 @@ export let BPinAngle = {
   $_icon: {
     name: "PinAngle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pin","angle"],
   },
   render() {
@@ -29020,7 +29020,7 @@ export let BPinFill = {
   $_icon: {
     name: "PinFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pin","fill"],
   },
   render() {
@@ -29040,7 +29040,7 @@ export let BPinMapFill = {
   $_icon: {
     name: "PinMapFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pin","map","fill"],
   },
   render() {
@@ -29064,7 +29064,7 @@ export let BPinMap = {
   $_icon: {
     name: "PinMap",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pin","map"],
   },
   render() {
@@ -29088,7 +29088,7 @@ export let BPin = {
   $_icon: {
     name: "Pin",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pin"],
   },
   render() {
@@ -29108,7 +29108,7 @@ export let BPinterest = {
   $_icon: {
     name: "Pinterest",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pinterest"],
   },
   render() {
@@ -29128,7 +29128,7 @@ export let BPipFill = {
   $_icon: {
     name: "PipFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pip","fill"],
   },
   render() {
@@ -29148,7 +29148,7 @@ export let BPip = {
   $_icon: {
     name: "Pip",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["pip"],
   },
   render() {
@@ -29172,7 +29172,7 @@ export let BPlayBtnFill = {
   $_icon: {
     name: "PlayBtnFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["play","btn","fill"],
   },
   render() {
@@ -29192,7 +29192,7 @@ export let BPlayBtn = {
   $_icon: {
     name: "PlayBtn",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["play","btn"],
   },
   render() {
@@ -29216,7 +29216,7 @@ export let BPlayCircleFill = {
   $_icon: {
     name: "PlayCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["play","circle","fill"],
   },
   render() {
@@ -29236,7 +29236,7 @@ export let BPlayCircle = {
   $_icon: {
     name: "PlayCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["play","circle"],
   },
   render() {
@@ -29260,7 +29260,7 @@ export let BPlayFill = {
   $_icon: {
     name: "PlayFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["play","fill"],
   },
   render() {
@@ -29280,7 +29280,7 @@ export let BPlay = {
   $_icon: {
     name: "Play",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["play"],
   },
   render() {
@@ -29300,7 +29300,7 @@ export let BPlaystation = {
   $_icon: {
     name: "Playstation",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["playstation"],
   },
   render() {
@@ -29320,7 +29320,7 @@ export let BPlugFill = {
   $_icon: {
     name: "PlugFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["plug","fill"],
   },
   render() {
@@ -29340,7 +29340,7 @@ export let BPlug = {
   $_icon: {
     name: "Plug",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["plug"],
   },
   render() {
@@ -29360,7 +29360,7 @@ export let BPlugin = {
   $_icon: {
     name: "Plugin",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["plugin"],
   },
   render() {
@@ -29380,7 +29380,7 @@ export let BPlusCircleDotted = {
   $_icon: {
     name: "PlusCircleDotted",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["plus","circle","dotted"],
   },
   render() {
@@ -29400,7 +29400,7 @@ export let BPlusCircleFill = {
   $_icon: {
     name: "PlusCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["plus","circle","fill"],
   },
   render() {
@@ -29420,7 +29420,7 @@ export let BPlusCircle = {
   $_icon: {
     name: "PlusCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["plus","circle"],
   },
   render() {
@@ -29444,7 +29444,7 @@ export let BPlusLg = {
   $_icon: {
     name: "PlusLg",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["plus","lg"],
   },
   render() {
@@ -29464,7 +29464,7 @@ export let BPlusSlashMinus = {
   $_icon: {
     name: "PlusSlashMinus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["plus","slash","minus"],
   },
   render() {
@@ -29484,7 +29484,7 @@ export let BPlusSquareDotted = {
   $_icon: {
     name: "PlusSquareDotted",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["plus","square","dotted"],
   },
   render() {
@@ -29504,7 +29504,7 @@ export let BPlusSquareFill = {
   $_icon: {
     name: "PlusSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["plus","square","fill"],
   },
   render() {
@@ -29524,7 +29524,7 @@ export let BPlusSquare = {
   $_icon: {
     name: "PlusSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["plus","square"],
   },
   render() {
@@ -29548,7 +29548,7 @@ export let BPlus = {
   $_icon: {
     name: "Plus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["plus"],
   },
   render() {
@@ -29568,7 +29568,7 @@ export let BPostageFill = {
   $_icon: {
     name: "PostageFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["postage","fill"],
   },
   render() {
@@ -29592,7 +29592,7 @@ export let BPostageHeartFill = {
   $_icon: {
     name: "PostageHeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["postage","heart","fill"],
   },
   render() {
@@ -29616,7 +29616,7 @@ export let BPostageHeart = {
   $_icon: {
     name: "PostageHeart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["postage","heart"],
   },
   render() {
@@ -29640,7 +29640,7 @@ export let BPostage = {
   $_icon: {
     name: "Postage",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["postage"],
   },
   render() {
@@ -29664,7 +29664,7 @@ export let BPostcardFill = {
   $_icon: {
     name: "PostcardFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["postcard","fill"],
   },
   render() {
@@ -29688,7 +29688,7 @@ export let BPostcardHeartFill = {
   $_icon: {
     name: "PostcardHeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["postcard","heart","fill"],
   },
   render() {
@@ -29708,7 +29708,7 @@ export let BPostcardHeart = {
   $_icon: {
     name: "PostcardHeart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["postcard","heart"],
   },
   render() {
@@ -29732,7 +29732,7 @@ export let BPostcard = {
   $_icon: {
     name: "Postcard",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["postcard"],
   },
   render() {
@@ -29752,7 +29752,7 @@ export let BPower = {
   $_icon: {
     name: "Power",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["power"],
   },
   render() {
@@ -29776,7 +29776,7 @@ export let BPrescription = {
   $_icon: {
     name: "Prescription",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["prescription"],
   },
   render() {
@@ -29800,7 +29800,7 @@ export let BPrescription2 = {
   $_icon: {
     name: "Prescription2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["prescription2"],
   },
   render() {
@@ -29824,7 +29824,7 @@ export let BPrinterFill = {
   $_icon: {
     name: "PrinterFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["printer","fill"],
   },
   render() {
@@ -29848,7 +29848,7 @@ export let BPrinter = {
   $_icon: {
     name: "Printer",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["printer"],
   },
   render() {
@@ -29872,7 +29872,7 @@ export let BProjectorFill = {
   $_icon: {
     name: "ProjectorFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["projector","fill"],
   },
   render() {
@@ -29892,7 +29892,7 @@ export let BProjector = {
   $_icon: {
     name: "Projector",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["projector"],
   },
   render() {
@@ -29916,7 +29916,7 @@ export let BPuzzleFill = {
   $_icon: {
     name: "PuzzleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["puzzle","fill"],
   },
   render() {
@@ -29936,7 +29936,7 @@ export let BPuzzle = {
   $_icon: {
     name: "Puzzle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["puzzle"],
   },
   render() {
@@ -29956,7 +29956,7 @@ export let BQrCodeScan = {
   $_icon: {
     name: "QrCodeScan",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["qr","code","scan"],
   },
   render() {
@@ -29992,7 +29992,7 @@ export let BQrCode = {
   $_icon: {
     name: "QrCode",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["qr","code"],
   },
   render() {
@@ -30028,7 +30028,7 @@ export let BQuestionCircleFill = {
   $_icon: {
     name: "QuestionCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["question","circle","fill"],
   },
   render() {
@@ -30048,7 +30048,7 @@ export let BQuestionCircle = {
   $_icon: {
     name: "QuestionCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["question","circle"],
   },
   render() {
@@ -30072,7 +30072,7 @@ export let BQuestionDiamondFill = {
   $_icon: {
     name: "QuestionDiamondFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["question","diamond","fill"],
   },
   render() {
@@ -30092,7 +30092,7 @@ export let BQuestionDiamond = {
   $_icon: {
     name: "QuestionDiamond",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["question","diamond"],
   },
   render() {
@@ -30116,7 +30116,7 @@ export let BQuestionLg = {
   $_icon: {
     name: "QuestionLg",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["question","lg"],
   },
   render() {
@@ -30136,7 +30136,7 @@ export let BQuestionOctagonFill = {
   $_icon: {
     name: "QuestionOctagonFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["question","octagon","fill"],
   },
   render() {
@@ -30156,7 +30156,7 @@ export let BQuestionOctagon = {
   $_icon: {
     name: "QuestionOctagon",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["question","octagon"],
   },
   render() {
@@ -30180,7 +30180,7 @@ export let BQuestionSquareFill = {
   $_icon: {
     name: "QuestionSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["question","square","fill"],
   },
   render() {
@@ -30200,7 +30200,7 @@ export let BQuestionSquare = {
   $_icon: {
     name: "QuestionSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["question","square"],
   },
   render() {
@@ -30224,7 +30224,7 @@ export let BQuestion = {
   $_icon: {
     name: "Question",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["question"],
   },
   render() {
@@ -30244,7 +30244,7 @@ export let BQuora = {
   $_icon: {
     name: "Quora",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["quora"],
   },
   render() {
@@ -30264,7 +30264,7 @@ export let BQuote = {
   $_icon: {
     name: "Quote",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["quote"],
   },
   render() {
@@ -30284,7 +30284,7 @@ export let BRCircleFill = {
   $_icon: {
     name: "RCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["r","circle","fill"],
   },
   render() {
@@ -30304,7 +30304,7 @@ export let BRCircle = {
   $_icon: {
     name: "RCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["r","circle"],
   },
   render() {
@@ -30324,7 +30324,7 @@ export let BRSquareFill = {
   $_icon: {
     name: "RSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["r","square","fill"],
   },
   render() {
@@ -30348,7 +30348,7 @@ export let BRSquare = {
   $_icon: {
     name: "RSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["r","square"],
   },
   render() {
@@ -30372,7 +30372,7 @@ export let BRadioactive = {
   $_icon: {
     name: "Radioactive",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["radioactive"],
   },
   render() {
@@ -30396,7 +30396,7 @@ export let BRainbow = {
   $_icon: {
     name: "Rainbow",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["rainbow"],
   },
   render() {
@@ -30416,7 +30416,7 @@ export let BReceiptCutoff = {
   $_icon: {
     name: "ReceiptCutoff",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["receipt","cutoff"],
   },
   render() {
@@ -30440,7 +30440,7 @@ export let BReceipt = {
   $_icon: {
     name: "Receipt",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["receipt"],
   },
   render() {
@@ -30464,7 +30464,7 @@ export let BReception0 = {
   $_icon: {
     name: "Reception0",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["reception","0"],
   },
   render() {
@@ -30484,7 +30484,7 @@ export let BReception1 = {
   $_icon: {
     name: "Reception1",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["reception","1"],
   },
   render() {
@@ -30504,7 +30504,7 @@ export let BReception2 = {
   $_icon: {
     name: "Reception2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["reception","2"],
   },
   render() {
@@ -30524,7 +30524,7 @@ export let BReception3 = {
   $_icon: {
     name: "Reception3",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["reception","3"],
   },
   render() {
@@ -30544,7 +30544,7 @@ export let BReception4 = {
   $_icon: {
     name: "Reception4",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["reception","4"],
   },
   render() {
@@ -30564,7 +30564,7 @@ export let BRecordBtnFill = {
   $_icon: {
     name: "RecordBtnFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["record","btn","fill"],
   },
   render() {
@@ -30584,7 +30584,7 @@ export let BRecordBtn = {
   $_icon: {
     name: "RecordBtn",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["record","btn"],
   },
   render() {
@@ -30608,7 +30608,7 @@ export let BRecordCircleFill = {
   $_icon: {
     name: "RecordCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["record","circle","fill"],
   },
   render() {
@@ -30628,7 +30628,7 @@ export let BRecordCircle = {
   $_icon: {
     name: "RecordCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["record","circle"],
   },
   render() {
@@ -30652,7 +30652,7 @@ export let BRecordFill = {
   $_icon: {
     name: "RecordFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["record","fill"],
   },
   render() {
@@ -30672,7 +30672,7 @@ export let BRecord = {
   $_icon: {
     name: "Record",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["record"],
   },
   render() {
@@ -30692,7 +30692,7 @@ export let BRecord2Fill = {
   $_icon: {
     name: "Record2Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["record2","fill"],
   },
   render() {
@@ -30716,7 +30716,7 @@ export let BRecord2 = {
   $_icon: {
     name: "Record2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["record2"],
   },
   render() {
@@ -30740,7 +30740,7 @@ export let BRecycle = {
   $_icon: {
     name: "Recycle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["recycle"],
   },
   render() {
@@ -30760,7 +30760,7 @@ export let BReddit = {
   $_icon: {
     name: "Reddit",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["reddit"],
   },
   render() {
@@ -30784,7 +30784,7 @@ export let BRepeat1 = {
   $_icon: {
     name: "Repeat1",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["repeat","1"],
   },
   render() {
@@ -30808,7 +30808,7 @@ export let BRepeat = {
   $_icon: {
     name: "Repeat",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["repeat"],
   },
   render() {
@@ -30828,7 +30828,7 @@ export let BReplyAllFill = {
   $_icon: {
     name: "ReplyAllFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["reply","all","fill"],
   },
   render() {
@@ -30852,7 +30852,7 @@ export let BReplyAll = {
   $_icon: {
     name: "ReplyAll",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["reply","all"],
   },
   render() {
@@ -30876,7 +30876,7 @@ export let BReplyFill = {
   $_icon: {
     name: "ReplyFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["reply","fill"],
   },
   render() {
@@ -30896,7 +30896,7 @@ export let BReply = {
   $_icon: {
     name: "Reply",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["reply"],
   },
   render() {
@@ -30916,7 +30916,7 @@ export let BRewindBtnFill = {
   $_icon: {
     name: "RewindBtnFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["rewind","btn","fill"],
   },
   render() {
@@ -30936,7 +30936,7 @@ export let BRewindBtn = {
   $_icon: {
     name: "RewindBtn",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["rewind","btn"],
   },
   render() {
@@ -30960,7 +30960,7 @@ export let BRewindCircleFill = {
   $_icon: {
     name: "RewindCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["rewind","circle","fill"],
   },
   render() {
@@ -30980,7 +30980,7 @@ export let BRewindCircle = {
   $_icon: {
     name: "RewindCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["rewind","circle"],
   },
   render() {
@@ -31004,7 +31004,7 @@ export let BRewindFill = {
   $_icon: {
     name: "RewindFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["rewind","fill"],
   },
   render() {
@@ -31028,7 +31028,7 @@ export let BRewind = {
   $_icon: {
     name: "Rewind",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["rewind"],
   },
   render() {
@@ -31052,7 +31052,7 @@ export let BRobot = {
   $_icon: {
     name: "Robot",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["robot"],
   },
   render() {
@@ -31076,7 +31076,7 @@ export let BRouterFill = {
   $_icon: {
     name: "RouterFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["router","fill"],
   },
   render() {
@@ -31108,7 +31108,7 @@ export let BRouter = {
   $_icon: {
     name: "Router",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["router"],
   },
   render() {
@@ -31140,7 +31140,7 @@ export let BRssFill = {
   $_icon: {
     name: "RssFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["rss","fill"],
   },
   render() {
@@ -31160,7 +31160,7 @@ export let BRss = {
   $_icon: {
     name: "Rss",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["rss"],
   },
   render() {
@@ -31184,7 +31184,7 @@ export let BRulers = {
   $_icon: {
     name: "Rulers",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["rulers"],
   },
   render() {
@@ -31204,7 +31204,7 @@ export let BSafeFill = {
   $_icon: {
     name: "SafeFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["safe","fill"],
   },
   render() {
@@ -31228,7 +31228,7 @@ export let BSafe = {
   $_icon: {
     name: "Safe",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["safe"],
   },
   render() {
@@ -31252,7 +31252,7 @@ export let BSafe2Fill = {
   $_icon: {
     name: "Safe2Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["safe2","fill"],
   },
   render() {
@@ -31276,7 +31276,7 @@ export let BSafe2 = {
   $_icon: {
     name: "Safe2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["safe2"],
   },
   render() {
@@ -31300,7 +31300,7 @@ export let BSaveFill = {
   $_icon: {
     name: "SaveFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["save","fill"],
   },
   render() {
@@ -31320,7 +31320,7 @@ export let BSave = {
   $_icon: {
     name: "Save",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["save"],
   },
   render() {
@@ -31340,7 +31340,7 @@ export let BSave2Fill = {
   $_icon: {
     name: "Save2Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["save2","fill"],
   },
   render() {
@@ -31360,7 +31360,7 @@ export let BSave2 = {
   $_icon: {
     name: "Save2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["save2"],
   },
   render() {
@@ -31380,7 +31380,7 @@ export let BScissors = {
   $_icon: {
     name: "Scissors",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["scissors"],
   },
   render() {
@@ -31400,7 +31400,7 @@ export let BScrewdriver = {
   $_icon: {
     name: "Screwdriver",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["screwdriver"],
   },
   render() {
@@ -31420,7 +31420,7 @@ export let BSdCardFill = {
   $_icon: {
     name: "SdCardFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sd","card","fill"],
   },
   render() {
@@ -31440,7 +31440,7 @@ export let BSdCard = {
   $_icon: {
     name: "SdCard",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sd","card"],
   },
   render() {
@@ -31464,7 +31464,7 @@ export let BSearchHeartFill = {
   $_icon: {
     name: "SearchHeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["search","heart","fill"],
   },
   render() {
@@ -31484,7 +31484,7 @@ export let BSearchHeart = {
   $_icon: {
     name: "SearchHeart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["search","heart"],
   },
   render() {
@@ -31508,7 +31508,7 @@ export let BSearch = {
   $_icon: {
     name: "Search",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["search"],
   },
   render() {
@@ -31528,7 +31528,7 @@ export let BSegmentedNav = {
   $_icon: {
     name: "SegmentedNav",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["segmented","nav"],
   },
   render() {
@@ -31548,7 +31548,7 @@ export let BSendCheckFill = {
   $_icon: {
     name: "SendCheckFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["send","check","fill"],
   },
   render() {
@@ -31572,7 +31572,7 @@ export let BSendCheck = {
   $_icon: {
     name: "SendCheck",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["send","check"],
   },
   render() {
@@ -31596,7 +31596,7 @@ export let BSendDashFill = {
   $_icon: {
     name: "SendDashFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["send","dash","fill"],
   },
   render() {
@@ -31620,7 +31620,7 @@ export let BSendDash = {
   $_icon: {
     name: "SendDash",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["send","dash"],
   },
   render() {
@@ -31644,7 +31644,7 @@ export let BSendExclamationFill = {
   $_icon: {
     name: "SendExclamationFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["send","exclamation","fill"],
   },
   render() {
@@ -31668,7 +31668,7 @@ export let BSendExclamation = {
   $_icon: {
     name: "SendExclamation",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["send","exclamation"],
   },
   render() {
@@ -31692,7 +31692,7 @@ export let BSendFill = {
   $_icon: {
     name: "SendFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["send","fill"],
   },
   render() {
@@ -31712,7 +31712,7 @@ export let BSendPlusFill = {
   $_icon: {
     name: "SendPlusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["send","plus","fill"],
   },
   render() {
@@ -31736,7 +31736,7 @@ export let BSendPlus = {
   $_icon: {
     name: "SendPlus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["send","plus"],
   },
   render() {
@@ -31760,7 +31760,7 @@ export let BSendSlashFill = {
   $_icon: {
     name: "SendSlashFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["send","slash","fill"],
   },
   render() {
@@ -31784,7 +31784,7 @@ export let BSendSlash = {
   $_icon: {
     name: "SendSlash",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["send","slash"],
   },
   render() {
@@ -31808,7 +31808,7 @@ export let BSendXFill = {
   $_icon: {
     name: "SendXFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["send","x","fill"],
   },
   render() {
@@ -31832,7 +31832,7 @@ export let BSendX = {
   $_icon: {
     name: "SendX",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["send","x"],
   },
   render() {
@@ -31856,7 +31856,7 @@ export let BSend = {
   $_icon: {
     name: "Send",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["send"],
   },
   render() {
@@ -31876,7 +31876,7 @@ export let BServer = {
   $_icon: {
     name: "Server",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["server"],
   },
   render() {
@@ -31904,7 +31904,7 @@ export let BShareFill = {
   $_icon: {
     name: "ShareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["share","fill"],
   },
   render() {
@@ -31924,7 +31924,7 @@ export let BShare = {
   $_icon: {
     name: "Share",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["share"],
   },
   render() {
@@ -31944,7 +31944,7 @@ export let BShieldCheck = {
   $_icon: {
     name: "ShieldCheck",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shield","check"],
   },
   render() {
@@ -31968,7 +31968,7 @@ export let BShieldExclamation = {
   $_icon: {
     name: "ShieldExclamation",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shield","exclamation"],
   },
   render() {
@@ -31992,7 +31992,7 @@ export let BShieldFillCheck = {
   $_icon: {
     name: "ShieldFillCheck",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shield","fill","check"],
   },
   render() {
@@ -32012,7 +32012,7 @@ export let BShieldFillExclamation = {
   $_icon: {
     name: "ShieldFillExclamation",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shield","fill","exclamation"],
   },
   render() {
@@ -32032,7 +32032,7 @@ export let BShieldFillMinus = {
   $_icon: {
     name: "ShieldFillMinus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shield","fill","minus"],
   },
   render() {
@@ -32052,7 +32052,7 @@ export let BShieldFillPlus = {
   $_icon: {
     name: "ShieldFillPlus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shield","fill","plus"],
   },
   render() {
@@ -32072,7 +32072,7 @@ export let BShieldFillX = {
   $_icon: {
     name: "ShieldFillX",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shield","fill","x"],
   },
   render() {
@@ -32092,7 +32092,7 @@ export let BShieldFill = {
   $_icon: {
     name: "ShieldFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shield","fill"],
   },
   render() {
@@ -32112,7 +32112,7 @@ export let BShieldLockFill = {
   $_icon: {
     name: "ShieldLockFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shield","lock","fill"],
   },
   render() {
@@ -32132,7 +32132,7 @@ export let BShieldLock = {
   $_icon: {
     name: "ShieldLock",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shield","lock"],
   },
   render() {
@@ -32156,7 +32156,7 @@ export let BShieldMinus = {
   $_icon: {
     name: "ShieldMinus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shield","minus"],
   },
   render() {
@@ -32180,7 +32180,7 @@ export let BShieldPlus = {
   $_icon: {
     name: "ShieldPlus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shield","plus"],
   },
   render() {
@@ -32204,7 +32204,7 @@ export let BShieldShaded = {
   $_icon: {
     name: "ShieldShaded",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shield","shaded"],
   },
   render() {
@@ -32224,7 +32224,7 @@ export let BShieldSlashFill = {
   $_icon: {
     name: "ShieldSlashFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shield","slash","fill"],
   },
   render() {
@@ -32244,7 +32244,7 @@ export let BShieldSlash = {
   $_icon: {
     name: "ShieldSlash",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shield","slash"],
   },
   render() {
@@ -32264,7 +32264,7 @@ export let BShieldX = {
   $_icon: {
     name: "ShieldX",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shield","x"],
   },
   render() {
@@ -32288,7 +32288,7 @@ export let BShield = {
   $_icon: {
     name: "Shield",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shield"],
   },
   render() {
@@ -32308,7 +32308,7 @@ export let BShiftFill = {
   $_icon: {
     name: "ShiftFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shift","fill"],
   },
   render() {
@@ -32328,7 +32328,7 @@ export let BShift = {
   $_icon: {
     name: "Shift",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shift"],
   },
   render() {
@@ -32348,7 +32348,7 @@ export let BShopWindow = {
   $_icon: {
     name: "ShopWindow",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shop","window"],
   },
   render() {
@@ -32368,7 +32368,7 @@ export let BShop = {
   $_icon: {
     name: "Shop",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shop"],
   },
   render() {
@@ -32388,7 +32388,7 @@ export let BShuffle = {
   $_icon: {
     name: "Shuffle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["shuffle"],
   },
   render() {
@@ -32412,7 +32412,7 @@ export let BSignStopFill = {
   $_icon: {
     name: "SignStopFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sign","stop","fill"],
   },
   render() {
@@ -32436,7 +32436,7 @@ export let BSignStopLightsFill = {
   $_icon: {
     name: "SignStopLightsFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sign","stop","lights","fill"],
   },
   render() {
@@ -32460,7 +32460,7 @@ export let BSignStopLights = {
   $_icon: {
     name: "SignStopLights",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sign","stop","lights"],
   },
   render() {
@@ -32484,7 +32484,7 @@ export let BSignStop = {
   $_icon: {
     name: "SignStop",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sign","stop"],
   },
   render() {
@@ -32512,7 +32512,7 @@ export let BSignTurnLeftFill = {
   $_icon: {
     name: "SignTurnLeftFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sign","turn","left","fill"],
   },
   render() {
@@ -32532,7 +32532,7 @@ export let BSignTurnLeft = {
   $_icon: {
     name: "SignTurnLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sign","turn","left"],
   },
   render() {
@@ -32556,7 +32556,7 @@ export let BSignTurnRightFill = {
   $_icon: {
     name: "SignTurnRightFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sign","turn","right","fill"],
   },
   render() {
@@ -32576,7 +32576,7 @@ export let BSignTurnRight = {
   $_icon: {
     name: "SignTurnRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sign","turn","right"],
   },
   render() {
@@ -32600,7 +32600,7 @@ export let BSignTurnSlightLeftFill = {
   $_icon: {
     name: "SignTurnSlightLeftFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sign","turn","slight","left","fill"],
   },
   render() {
@@ -32620,7 +32620,7 @@ export let BSignTurnSlightLeft = {
   $_icon: {
     name: "SignTurnSlightLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sign","turn","slight","left"],
   },
   render() {
@@ -32644,7 +32644,7 @@ export let BSignTurnSlightRightFill = {
   $_icon: {
     name: "SignTurnSlightRightFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sign","turn","slight","right","fill"],
   },
   render() {
@@ -32664,7 +32664,7 @@ export let BSignTurnSlightRight = {
   $_icon: {
     name: "SignTurnSlightRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sign","turn","slight","right"],
   },
   render() {
@@ -32688,7 +32688,7 @@ export let BSignYieldFill = {
   $_icon: {
     name: "SignYieldFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sign","yield","fill"],
   },
   render() {
@@ -32712,7 +32712,7 @@ export let BSignYield = {
   $_icon: {
     name: "SignYield",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sign","yield"],
   },
   render() {
@@ -32740,7 +32740,7 @@ export let BSignal = {
   $_icon: {
     name: "Signal",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["signal"],
   },
   render() {
@@ -32760,7 +32760,7 @@ export let BSignpost2Fill = {
   $_icon: {
     name: "Signpost2Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["signpost","2","fill"],
   },
   render() {
@@ -32780,7 +32780,7 @@ export let BSignpost2 = {
   $_icon: {
     name: "Signpost2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["signpost","2"],
   },
   render() {
@@ -32800,7 +32800,7 @@ export let BSignpostFill = {
   $_icon: {
     name: "SignpostFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["signpost","fill"],
   },
   render() {
@@ -32820,7 +32820,7 @@ export let BSignpostSplitFill = {
   $_icon: {
     name: "SignpostSplitFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["signpost","split","fill"],
   },
   render() {
@@ -32840,7 +32840,7 @@ export let BSignpostSplit = {
   $_icon: {
     name: "SignpostSplit",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["signpost","split"],
   },
   render() {
@@ -32860,7 +32860,7 @@ export let BSignpost = {
   $_icon: {
     name: "Signpost",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["signpost"],
   },
   render() {
@@ -32880,7 +32880,7 @@ export let BSimFill = {
   $_icon: {
     name: "SimFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sim","fill"],
   },
   render() {
@@ -32904,7 +32904,7 @@ export let BSim = {
   $_icon: {
     name: "Sim",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sim"],
   },
   render() {
@@ -32928,7 +32928,7 @@ export let BSkipBackwardBtnFill = {
   $_icon: {
     name: "SkipBackwardBtnFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","backward","btn","fill"],
   },
   render() {
@@ -32948,7 +32948,7 @@ export let BSkipBackwardBtn = {
   $_icon: {
     name: "SkipBackwardBtn",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","backward","btn"],
   },
   render() {
@@ -32972,7 +32972,7 @@ export let BSkipBackwardCircleFill = {
   $_icon: {
     name: "SkipBackwardCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","backward","circle","fill"],
   },
   render() {
@@ -32992,7 +32992,7 @@ export let BSkipBackwardCircle = {
   $_icon: {
     name: "SkipBackwardCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","backward","circle"],
   },
   render() {
@@ -33016,7 +33016,7 @@ export let BSkipBackwardFill = {
   $_icon: {
     name: "SkipBackwardFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","backward","fill"],
   },
   render() {
@@ -33036,7 +33036,7 @@ export let BSkipBackward = {
   $_icon: {
     name: "SkipBackward",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","backward"],
   },
   render() {
@@ -33056,7 +33056,7 @@ export let BSkipEndBtnFill = {
   $_icon: {
     name: "SkipEndBtnFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","end","btn","fill"],
   },
   render() {
@@ -33076,7 +33076,7 @@ export let BSkipEndBtn = {
   $_icon: {
     name: "SkipEndBtn",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","end","btn"],
   },
   render() {
@@ -33100,7 +33100,7 @@ export let BSkipEndCircleFill = {
   $_icon: {
     name: "SkipEndCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","end","circle","fill"],
   },
   render() {
@@ -33120,7 +33120,7 @@ export let BSkipEndCircle = {
   $_icon: {
     name: "SkipEndCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","end","circle"],
   },
   render() {
@@ -33144,7 +33144,7 @@ export let BSkipEndFill = {
   $_icon: {
     name: "SkipEndFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","end","fill"],
   },
   render() {
@@ -33164,7 +33164,7 @@ export let BSkipEnd = {
   $_icon: {
     name: "SkipEnd",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","end"],
   },
   render() {
@@ -33184,7 +33184,7 @@ export let BSkipForwardBtnFill = {
   $_icon: {
     name: "SkipForwardBtnFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","forward","btn","fill"],
   },
   render() {
@@ -33204,7 +33204,7 @@ export let BSkipForwardBtn = {
   $_icon: {
     name: "SkipForwardBtn",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","forward","btn"],
   },
   render() {
@@ -33228,7 +33228,7 @@ export let BSkipForwardCircleFill = {
   $_icon: {
     name: "SkipForwardCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","forward","circle","fill"],
   },
   render() {
@@ -33248,7 +33248,7 @@ export let BSkipForwardCircle = {
   $_icon: {
     name: "SkipForwardCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","forward","circle"],
   },
   render() {
@@ -33272,7 +33272,7 @@ export let BSkipForwardFill = {
   $_icon: {
     name: "SkipForwardFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","forward","fill"],
   },
   render() {
@@ -33292,7 +33292,7 @@ export let BSkipForward = {
   $_icon: {
     name: "SkipForward",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","forward"],
   },
   render() {
@@ -33312,7 +33312,7 @@ export let BSkipStartBtnFill = {
   $_icon: {
     name: "SkipStartBtnFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","start","btn","fill"],
   },
   render() {
@@ -33332,7 +33332,7 @@ export let BSkipStartBtn = {
   $_icon: {
     name: "SkipStartBtn",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","start","btn"],
   },
   render() {
@@ -33356,7 +33356,7 @@ export let BSkipStartCircleFill = {
   $_icon: {
     name: "SkipStartCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","start","circle","fill"],
   },
   render() {
@@ -33376,7 +33376,7 @@ export let BSkipStartCircle = {
   $_icon: {
     name: "SkipStartCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","start","circle"],
   },
   render() {
@@ -33400,7 +33400,7 @@ export let BSkipStartFill = {
   $_icon: {
     name: "SkipStartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","start","fill"],
   },
   render() {
@@ -33420,7 +33420,7 @@ export let BSkipStart = {
   $_icon: {
     name: "SkipStart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skip","start"],
   },
   render() {
@@ -33440,7 +33440,7 @@ export let BSkype = {
   $_icon: {
     name: "Skype",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["skype"],
   },
   render() {
@@ -33460,7 +33460,7 @@ export let BSlack = {
   $_icon: {
     name: "Slack",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["slack"],
   },
   render() {
@@ -33480,7 +33480,7 @@ export let BSlashCircleFill = {
   $_icon: {
     name: "SlashCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["slash","circle","fill"],
   },
   render() {
@@ -33500,7 +33500,7 @@ export let BSlashCircle = {
   $_icon: {
     name: "SlashCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["slash","circle"],
   },
   render() {
@@ -33524,7 +33524,7 @@ export let BSlashLg = {
   $_icon: {
     name: "SlashLg",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["slash","lg"],
   },
   render() {
@@ -33544,7 +33544,7 @@ export let BSlashSquareFill = {
   $_icon: {
     name: "SlashSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["slash","square","fill"],
   },
   render() {
@@ -33564,7 +33564,7 @@ export let BSlashSquare = {
   $_icon: {
     name: "SlashSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["slash","square"],
   },
   render() {
@@ -33588,7 +33588,7 @@ export let BSlash = {
   $_icon: {
     name: "Slash",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["slash"],
   },
   render() {
@@ -33608,7 +33608,7 @@ export let BSliders = {
   $_icon: {
     name: "Sliders",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sliders"],
   },
   render() {
@@ -33628,7 +33628,7 @@ export let BSliders2Vertical = {
   $_icon: {
     name: "Sliders2Vertical",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sliders2","vertical"],
   },
   render() {
@@ -33648,7 +33648,7 @@ export let BSliders2 = {
   $_icon: {
     name: "Sliders2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sliders2"],
   },
   render() {
@@ -33668,7 +33668,7 @@ export let BSmartwatch = {
   $_icon: {
     name: "Smartwatch",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["smartwatch"],
   },
   render() {
@@ -33692,7 +33692,7 @@ export let BSnapchat = {
   $_icon: {
     name: "Snapchat",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["snapchat"],
   },
   render() {
@@ -33712,7 +33712,7 @@ export let BSnow = {
   $_icon: {
     name: "Snow",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["snow"],
   },
   render() {
@@ -33732,7 +33732,7 @@ export let BSnow2 = {
   $_icon: {
     name: "Snow2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["snow2"],
   },
   render() {
@@ -33752,7 +33752,7 @@ export let BSnow3 = {
   $_icon: {
     name: "Snow3",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["snow3"],
   },
   render() {
@@ -33776,7 +33776,7 @@ export let BSortAlphaDownAlt = {
   $_icon: {
     name: "SortAlphaDownAlt",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sort","alpha","down","alt"],
   },
   render() {
@@ -33804,7 +33804,7 @@ export let BSortAlphaDown = {
   $_icon: {
     name: "SortAlphaDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sort","alpha","down"],
   },
   render() {
@@ -33828,7 +33828,7 @@ export let BSortAlphaUpAlt = {
   $_icon: {
     name: "SortAlphaUpAlt",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sort","alpha","up","alt"],
   },
   render() {
@@ -33856,7 +33856,7 @@ export let BSortAlphaUp = {
   $_icon: {
     name: "SortAlphaUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sort","alpha","up"],
   },
   render() {
@@ -33880,7 +33880,7 @@ export let BSortDownAlt = {
   $_icon: {
     name: "SortDownAlt",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sort","down","alt"],
   },
   render() {
@@ -33900,7 +33900,7 @@ export let BSortDown = {
   $_icon: {
     name: "SortDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sort","down"],
   },
   render() {
@@ -33920,7 +33920,7 @@ export let BSortNumericDownAlt = {
   $_icon: {
     name: "SortNumericDownAlt",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sort","numeric","down","alt"],
   },
   render() {
@@ -33944,7 +33944,7 @@ export let BSortNumericDown = {
   $_icon: {
     name: "SortNumericDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sort","numeric","down"],
   },
   render() {
@@ -33972,7 +33972,7 @@ export let BSortNumericUpAlt = {
   $_icon: {
     name: "SortNumericUpAlt",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sort","numeric","up","alt"],
   },
   render() {
@@ -33996,7 +33996,7 @@ export let BSortNumericUp = {
   $_icon: {
     name: "SortNumericUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sort","numeric","up"],
   },
   render() {
@@ -34024,7 +34024,7 @@ export let BSortUpAlt = {
   $_icon: {
     name: "SortUpAlt",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sort","up","alt"],
   },
   render() {
@@ -34044,7 +34044,7 @@ export let BSortUp = {
   $_icon: {
     name: "SortUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sort","up"],
   },
   render() {
@@ -34064,7 +34064,7 @@ export let BSoundwave = {
   $_icon: {
     name: "Soundwave",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["soundwave"],
   },
   render() {
@@ -34084,7 +34084,7 @@ export let BSpeakerFill = {
   $_icon: {
     name: "SpeakerFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["speaker","fill"],
   },
   render() {
@@ -34108,7 +34108,7 @@ export let BSpeaker = {
   $_icon: {
     name: "Speaker",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["speaker"],
   },
   render() {
@@ -34132,7 +34132,7 @@ export let BSpeedometer = {
   $_icon: {
     name: "Speedometer",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["speedometer"],
   },
   render() {
@@ -34156,7 +34156,7 @@ export let BSpeedometer2 = {
   $_icon: {
     name: "Speedometer2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["speedometer2"],
   },
   render() {
@@ -34180,7 +34180,7 @@ export let BSpellcheck = {
   $_icon: {
     name: "Spellcheck",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["spellcheck"],
   },
   render() {
@@ -34204,7 +34204,7 @@ export let BSpotify = {
   $_icon: {
     name: "Spotify",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["spotify"],
   },
   render() {
@@ -34224,7 +34224,7 @@ export let BSquareFill = {
   $_icon: {
     name: "SquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["square","fill"],
   },
   render() {
@@ -34244,7 +34244,7 @@ export let BSquareHalf = {
   $_icon: {
     name: "SquareHalf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["square","half"],
   },
   render() {
@@ -34264,7 +34264,7 @@ export let BSquare = {
   $_icon: {
     name: "Square",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["square"],
   },
   render() {
@@ -34284,7 +34284,7 @@ export let BStackOverflow = {
   $_icon: {
     name: "StackOverflow",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["stack","overflow"],
   },
   render() {
@@ -34308,7 +34308,7 @@ export let BStack = {
   $_icon: {
     name: "Stack",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["stack"],
   },
   render() {
@@ -34332,7 +34332,7 @@ export let BStarFill = {
   $_icon: {
     name: "StarFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["star","fill"],
   },
   render() {
@@ -34352,7 +34352,7 @@ export let BStarHalf = {
   $_icon: {
     name: "StarHalf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["star","half"],
   },
   render() {
@@ -34372,7 +34372,7 @@ export let BStar = {
   $_icon: {
     name: "Star",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["star"],
   },
   render() {
@@ -34392,7 +34392,7 @@ export let BStars = {
   $_icon: {
     name: "Stars",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["stars"],
   },
   render() {
@@ -34412,7 +34412,7 @@ export let BSteam = {
   $_icon: {
     name: "Steam",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["steam"],
   },
   render() {
@@ -34436,7 +34436,7 @@ export let BStickiesFill = {
   $_icon: {
     name: "StickiesFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["stickies","fill"],
   },
   render() {
@@ -34460,7 +34460,7 @@ export let BStickies = {
   $_icon: {
     name: "Stickies",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["stickies"],
   },
   render() {
@@ -34484,7 +34484,7 @@ export let BStickyFill = {
   $_icon: {
     name: "StickyFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sticky","fill"],
   },
   render() {
@@ -34504,7 +34504,7 @@ export let BSticky = {
   $_icon: {
     name: "Sticky",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sticky"],
   },
   render() {
@@ -34524,7 +34524,7 @@ export let BStopBtnFill = {
   $_icon: {
     name: "StopBtnFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["stop","btn","fill"],
   },
   render() {
@@ -34544,7 +34544,7 @@ export let BStopBtn = {
   $_icon: {
     name: "StopBtn",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["stop","btn"],
   },
   render() {
@@ -34568,7 +34568,7 @@ export let BStopCircleFill = {
   $_icon: {
     name: "StopCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["stop","circle","fill"],
   },
   render() {
@@ -34588,7 +34588,7 @@ export let BStopCircle = {
   $_icon: {
     name: "StopCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["stop","circle"],
   },
   render() {
@@ -34612,7 +34612,7 @@ export let BStopFill = {
   $_icon: {
     name: "StopFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["stop","fill"],
   },
   render() {
@@ -34632,7 +34632,7 @@ export let BStop = {
   $_icon: {
     name: "Stop",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["stop"],
   },
   render() {
@@ -34652,7 +34652,7 @@ export let BStoplightsFill = {
   $_icon: {
     name: "StoplightsFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["stoplights","fill"],
   },
   render() {
@@ -34672,7 +34672,7 @@ export let BStoplights = {
   $_icon: {
     name: "Stoplights",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["stoplights"],
   },
   render() {
@@ -34696,7 +34696,7 @@ export let BStopwatchFill = {
   $_icon: {
     name: "StopwatchFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["stopwatch","fill"],
   },
   render() {
@@ -34716,7 +34716,7 @@ export let BStopwatch = {
   $_icon: {
     name: "Stopwatch",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["stopwatch"],
   },
   render() {
@@ -34740,7 +34740,7 @@ export let BStrava = {
   $_icon: {
     name: "Strava",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["strava"],
   },
   render() {
@@ -34760,7 +34760,7 @@ export let BSubtract = {
   $_icon: {
     name: "Subtract",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["subtract"],
   },
   render() {
@@ -34780,7 +34780,7 @@ export let BSuitClubFill = {
   $_icon: {
     name: "SuitClubFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["suit","club","fill"],
   },
   render() {
@@ -34800,7 +34800,7 @@ export let BSuitClub = {
   $_icon: {
     name: "SuitClub",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["suit","club"],
   },
   render() {
@@ -34820,7 +34820,7 @@ export let BSuitDiamondFill = {
   $_icon: {
     name: "SuitDiamondFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["suit","diamond","fill"],
   },
   render() {
@@ -34840,7 +34840,7 @@ export let BSuitDiamond = {
   $_icon: {
     name: "SuitDiamond",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["suit","diamond"],
   },
   render() {
@@ -34860,7 +34860,7 @@ export let BSuitHeartFill = {
   $_icon: {
     name: "SuitHeartFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["suit","heart","fill"],
   },
   render() {
@@ -34880,7 +34880,7 @@ export let BSuitHeart = {
   $_icon: {
     name: "SuitHeart",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["suit","heart"],
   },
   render() {
@@ -34900,7 +34900,7 @@ export let BSuitSpadeFill = {
   $_icon: {
     name: "SuitSpadeFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["suit","spade","fill"],
   },
   render() {
@@ -34920,7 +34920,7 @@ export let BSuitSpade = {
   $_icon: {
     name: "SuitSpade",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["suit","spade"],
   },
   render() {
@@ -34940,7 +34940,7 @@ export let BSunFill = {
   $_icon: {
     name: "SunFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sun","fill"],
   },
   render() {
@@ -34960,7 +34960,7 @@ export let BSun = {
   $_icon: {
     name: "Sun",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sun"],
   },
   render() {
@@ -34980,7 +34980,7 @@ export let BSunglasses = {
   $_icon: {
     name: "Sunglasses",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sunglasses"],
   },
   render() {
@@ -35000,7 +35000,7 @@ export let BSunriseFill = {
   $_icon: {
     name: "SunriseFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sunrise","fill"],
   },
   render() {
@@ -35020,7 +35020,7 @@ export let BSunrise = {
   $_icon: {
     name: "Sunrise",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sunrise"],
   },
   render() {
@@ -35040,7 +35040,7 @@ export let BSunsetFill = {
   $_icon: {
     name: "SunsetFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sunset","fill"],
   },
   render() {
@@ -35060,7 +35060,7 @@ export let BSunset = {
   $_icon: {
     name: "Sunset",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["sunset"],
   },
   render() {
@@ -35080,7 +35080,7 @@ export let BSymmetryHorizontal = {
   $_icon: {
     name: "SymmetryHorizontal",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["symmetry","horizontal"],
   },
   render() {
@@ -35100,7 +35100,7 @@ export let BSymmetryVertical = {
   $_icon: {
     name: "SymmetryVertical",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["symmetry","vertical"],
   },
   render() {
@@ -35120,7 +35120,7 @@ export let BTable = {
   $_icon: {
     name: "Table",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["table"],
   },
   render() {
@@ -35140,7 +35140,7 @@ export let BTabletFill = {
   $_icon: {
     name: "TabletFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["tablet","fill"],
   },
   render() {
@@ -35160,7 +35160,7 @@ export let BTabletLandscapeFill = {
   $_icon: {
     name: "TabletLandscapeFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["tablet","landscape","fill"],
   },
   render() {
@@ -35180,7 +35180,7 @@ export let BTabletLandscape = {
   $_icon: {
     name: "TabletLandscape",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["tablet","landscape"],
   },
   render() {
@@ -35204,7 +35204,7 @@ export let BTablet = {
   $_icon: {
     name: "Tablet",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["tablet"],
   },
   render() {
@@ -35228,7 +35228,7 @@ export let BTagFill = {
   $_icon: {
     name: "TagFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["tag","fill"],
   },
   render() {
@@ -35248,7 +35248,7 @@ export let BTag = {
   $_icon: {
     name: "Tag",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["tag"],
   },
   render() {
@@ -35272,7 +35272,7 @@ export let BTagsFill = {
   $_icon: {
     name: "TagsFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["tags","fill"],
   },
   render() {
@@ -35296,7 +35296,7 @@ export let BTags = {
   $_icon: {
     name: "Tags",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["tags"],
   },
   render() {
@@ -35320,7 +35320,7 @@ export let BTelegram = {
   $_icon: {
     name: "Telegram",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["telegram"],
   },
   render() {
@@ -35340,7 +35340,7 @@ export let BTelephoneFill = {
   $_icon: {
     name: "TelephoneFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["telephone","fill"],
   },
   render() {
@@ -35360,7 +35360,7 @@ export let BTelephoneForwardFill = {
   $_icon: {
     name: "TelephoneForwardFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["telephone","forward","fill"],
   },
   render() {
@@ -35380,7 +35380,7 @@ export let BTelephoneForward = {
   $_icon: {
     name: "TelephoneForward",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["telephone","forward"],
   },
   render() {
@@ -35400,7 +35400,7 @@ export let BTelephoneInboundFill = {
   $_icon: {
     name: "TelephoneInboundFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["telephone","inbound","fill"],
   },
   render() {
@@ -35420,7 +35420,7 @@ export let BTelephoneInbound = {
   $_icon: {
     name: "TelephoneInbound",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["telephone","inbound"],
   },
   render() {
@@ -35440,7 +35440,7 @@ export let BTelephoneMinusFill = {
   $_icon: {
     name: "TelephoneMinusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["telephone","minus","fill"],
   },
   render() {
@@ -35460,7 +35460,7 @@ export let BTelephoneMinus = {
   $_icon: {
     name: "TelephoneMinus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["telephone","minus"],
   },
   render() {
@@ -35484,7 +35484,7 @@ export let BTelephoneOutboundFill = {
   $_icon: {
     name: "TelephoneOutboundFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["telephone","outbound","fill"],
   },
   render() {
@@ -35504,7 +35504,7 @@ export let BTelephoneOutbound = {
   $_icon: {
     name: "TelephoneOutbound",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["telephone","outbound"],
   },
   render() {
@@ -35524,7 +35524,7 @@ export let BTelephonePlusFill = {
   $_icon: {
     name: "TelephonePlusFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["telephone","plus","fill"],
   },
   render() {
@@ -35544,7 +35544,7 @@ export let BTelephonePlus = {
   $_icon: {
     name: "TelephonePlus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["telephone","plus"],
   },
   render() {
@@ -35568,7 +35568,7 @@ export let BTelephoneXFill = {
   $_icon: {
     name: "TelephoneXFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["telephone","x","fill"],
   },
   render() {
@@ -35588,7 +35588,7 @@ export let BTelephoneX = {
   $_icon: {
     name: "TelephoneX",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["telephone","x"],
   },
   render() {
@@ -35612,7 +35612,7 @@ export let BTelephone = {
   $_icon: {
     name: "Telephone",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["telephone"],
   },
   render() {
@@ -35632,7 +35632,7 @@ export let BTerminalDash = {
   $_icon: {
     name: "TerminalDash",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["terminal","dash"],
   },
   render() {
@@ -35656,7 +35656,7 @@ export let BTerminalFill = {
   $_icon: {
     name: "TerminalFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["terminal","fill"],
   },
   render() {
@@ -35676,7 +35676,7 @@ export let BTerminalPlus = {
   $_icon: {
     name: "TerminalPlus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["terminal","plus"],
   },
   render() {
@@ -35700,7 +35700,7 @@ export let BTerminalSplit = {
   $_icon: {
     name: "TerminalSplit",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["terminal","split"],
   },
   render() {
@@ -35724,7 +35724,7 @@ export let BTerminalX = {
   $_icon: {
     name: "TerminalX",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["terminal","x"],
   },
   render() {
@@ -35748,7 +35748,7 @@ export let BTerminal = {
   $_icon: {
     name: "Terminal",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["terminal"],
   },
   render() {
@@ -35772,7 +35772,7 @@ export let BTextCenter = {
   $_icon: {
     name: "TextCenter",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["text","center"],
   },
   render() {
@@ -35792,7 +35792,7 @@ export let BTextIndentLeft = {
   $_icon: {
     name: "TextIndentLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["text","indent","left"],
   },
   render() {
@@ -35812,7 +35812,7 @@ export let BTextIndentRight = {
   $_icon: {
     name: "TextIndentRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["text","indent","right"],
   },
   render() {
@@ -35832,7 +35832,7 @@ export let BTextLeft = {
   $_icon: {
     name: "TextLeft",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["text","left"],
   },
   render() {
@@ -35852,7 +35852,7 @@ export let BTextParagraph = {
   $_icon: {
     name: "TextParagraph",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["text","paragraph"],
   },
   render() {
@@ -35872,7 +35872,7 @@ export let BTextRight = {
   $_icon: {
     name: "TextRight",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["text","right"],
   },
   render() {
@@ -35892,7 +35892,7 @@ export let BTextareaResize = {
   $_icon: {
     name: "TextareaResize",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["textarea","resize"],
   },
   render() {
@@ -35912,7 +35912,7 @@ export let BTextareaT = {
   $_icon: {
     name: "TextareaT",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["textarea","t"],
   },
   render() {
@@ -35936,7 +35936,7 @@ export let BTextarea = {
   $_icon: {
     name: "Textarea",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["textarea"],
   },
   render() {
@@ -35956,7 +35956,7 @@ export let BThermometerHalf = {
   $_icon: {
     name: "ThermometerHalf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["thermometer","half"],
   },
   render() {
@@ -35980,7 +35980,7 @@ export let BThermometerHigh = {
   $_icon: {
     name: "ThermometerHigh",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["thermometer","high"],
   },
   render() {
@@ -36004,7 +36004,7 @@ export let BThermometerLow = {
   $_icon: {
     name: "ThermometerLow",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["thermometer","low"],
   },
   render() {
@@ -36028,7 +36028,7 @@ export let BThermometerSnow = {
   $_icon: {
     name: "ThermometerSnow",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["thermometer","snow"],
   },
   render() {
@@ -36052,7 +36052,7 @@ export let BThermometerSun = {
   $_icon: {
     name: "ThermometerSun",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["thermometer","sun"],
   },
   render() {
@@ -36076,7 +36076,7 @@ export let BThermometer = {
   $_icon: {
     name: "Thermometer",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["thermometer"],
   },
   render() {
@@ -36100,7 +36100,7 @@ export let BThreeDotsVertical = {
   $_icon: {
     name: "ThreeDotsVertical",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["three","dots","vertical"],
   },
   render() {
@@ -36120,7 +36120,7 @@ export let BThreeDots = {
   $_icon: {
     name: "ThreeDots",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["three","dots"],
   },
   render() {
@@ -36140,7 +36140,7 @@ export let BThunderboltFill = {
   $_icon: {
     name: "ThunderboltFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["thunderbolt","fill"],
   },
   render() {
@@ -36160,7 +36160,7 @@ export let BThunderbolt = {
   $_icon: {
     name: "Thunderbolt",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["thunderbolt"],
   },
   render() {
@@ -36184,7 +36184,7 @@ export let BTicketDetailedFill = {
   $_icon: {
     name: "TicketDetailedFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["ticket","detailed","fill"],
   },
   render() {
@@ -36204,7 +36204,7 @@ export let BTicketDetailed = {
   $_icon: {
     name: "TicketDetailed",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["ticket","detailed"],
   },
   render() {
@@ -36228,7 +36228,7 @@ export let BTicketFill = {
   $_icon: {
     name: "TicketFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["ticket","fill"],
   },
   render() {
@@ -36248,7 +36248,7 @@ export let BTicketPerforatedFill = {
   $_icon: {
     name: "TicketPerforatedFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["ticket","perforated","fill"],
   },
   render() {
@@ -36268,7 +36268,7 @@ export let BTicketPerforated = {
   $_icon: {
     name: "TicketPerforated",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["ticket","perforated"],
   },
   render() {
@@ -36292,7 +36292,7 @@ export let BTicket = {
   $_icon: {
     name: "Ticket",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["ticket"],
   },
   render() {
@@ -36312,7 +36312,7 @@ export let BTiktok = {
   $_icon: {
     name: "Tiktok",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["tiktok"],
   },
   render() {
@@ -36332,7 +36332,7 @@ export let BToggleOff = {
   $_icon: {
     name: "ToggleOff",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["toggle","off"],
   },
   render() {
@@ -36352,7 +36352,7 @@ export let BToggleOn = {
   $_icon: {
     name: "ToggleOn",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["toggle","on"],
   },
   render() {
@@ -36372,7 +36372,7 @@ export let BToggle2Off = {
   $_icon: {
     name: "Toggle2Off",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["toggle2","off"],
   },
   render() {
@@ -36396,7 +36396,7 @@ export let BToggle2On = {
   $_icon: {
     name: "Toggle2On",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["toggle2","on"],
   },
   render() {
@@ -36420,7 +36420,7 @@ export let BToggles = {
   $_icon: {
     name: "Toggles",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["toggles"],
   },
   render() {
@@ -36440,7 +36440,7 @@ export let BToggles2 = {
   $_icon: {
     name: "Toggles2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["toggles2"],
   },
   render() {
@@ -36468,7 +36468,7 @@ export let BTools = {
   $_icon: {
     name: "Tools",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["tools"],
   },
   render() {
@@ -36488,7 +36488,7 @@ export let BTornado = {
   $_icon: {
     name: "Tornado",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["tornado"],
   },
   render() {
@@ -36508,7 +36508,7 @@ export let BTrainFreightFrontFill = {
   $_icon: {
     name: "TrainFreightFrontFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["train","freight","front","fill"],
   },
   render() {
@@ -36528,7 +36528,7 @@ export let BTrainFreightFront = {
   $_icon: {
     name: "TrainFreightFront",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["train","freight","front"],
   },
   render() {
@@ -36548,7 +36548,7 @@ export let BTrainFrontFill = {
   $_icon: {
     name: "TrainFrontFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["train","front","fill"],
   },
   render() {
@@ -36568,7 +36568,7 @@ export let BTrainFront = {
   $_icon: {
     name: "TrainFront",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["train","front"],
   },
   render() {
@@ -36588,7 +36588,7 @@ export let BTrainLightrailFrontFill = {
   $_icon: {
     name: "TrainLightrailFrontFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["train","lightrail","front","fill"],
   },
   render() {
@@ -36608,7 +36608,7 @@ export let BTrainLightrailFront = {
   $_icon: {
     name: "TrainLightrailFront",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["train","lightrail","front"],
   },
   render() {
@@ -36628,7 +36628,7 @@ export let BTranslate = {
   $_icon: {
     name: "Translate",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["translate"],
   },
   render() {
@@ -36652,7 +36652,7 @@ export let BTrashFill = {
   $_icon: {
     name: "TrashFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["trash","fill"],
   },
   render() {
@@ -36672,7 +36672,7 @@ export let BTrash = {
   $_icon: {
     name: "Trash",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["trash"],
   },
   render() {
@@ -36696,7 +36696,7 @@ export let BTrash2Fill = {
   $_icon: {
     name: "Trash2Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["trash2","fill"],
   },
   render() {
@@ -36716,7 +36716,7 @@ export let BTrash2 = {
   $_icon: {
     name: "Trash2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["trash2"],
   },
   render() {
@@ -36736,7 +36736,7 @@ export let BTrash3Fill = {
   $_icon: {
     name: "Trash3Fill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["trash3","fill"],
   },
   render() {
@@ -36756,7 +36756,7 @@ export let BTrash3 = {
   $_icon: {
     name: "Trash3",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["trash3"],
   },
   render() {
@@ -36776,7 +36776,7 @@ export let BTreeFill = {
   $_icon: {
     name: "TreeFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["tree","fill"],
   },
   render() {
@@ -36796,7 +36796,7 @@ export let BTree = {
   $_icon: {
     name: "Tree",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["tree"],
   },
   render() {
@@ -36816,7 +36816,7 @@ export let BTriangleFill = {
   $_icon: {
     name: "TriangleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["triangle","fill"],
   },
   render() {
@@ -36836,7 +36836,7 @@ export let BTriangleHalf = {
   $_icon: {
     name: "TriangleHalf",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["triangle","half"],
   },
   render() {
@@ -36856,7 +36856,7 @@ export let BTriangle = {
   $_icon: {
     name: "Triangle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["triangle"],
   },
   render() {
@@ -36876,7 +36876,7 @@ export let BTrophyFill = {
   $_icon: {
     name: "TrophyFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["trophy","fill"],
   },
   render() {
@@ -36896,7 +36896,7 @@ export let BTrophy = {
   $_icon: {
     name: "Trophy",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["trophy"],
   },
   render() {
@@ -36916,7 +36916,7 @@ export let BTropicalStorm = {
   $_icon: {
     name: "TropicalStorm",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["tropical","storm"],
   },
   render() {
@@ -36940,7 +36940,7 @@ export let BTruckFlatbed = {
   $_icon: {
     name: "TruckFlatbed",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["truck","flatbed"],
   },
   render() {
@@ -36960,7 +36960,7 @@ export let BTruckFrontFill = {
   $_icon: {
     name: "TruckFrontFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["truck","front","fill"],
   },
   render() {
@@ -36980,7 +36980,7 @@ export let BTruckFront = {
   $_icon: {
     name: "TruckFront",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["truck","front"],
   },
   render() {
@@ -37008,7 +37008,7 @@ export let BTruck = {
   $_icon: {
     name: "Truck",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["truck"],
   },
   render() {
@@ -37028,7 +37028,7 @@ export let BTsunami = {
   $_icon: {
     name: "Tsunami",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["tsunami"],
   },
   render() {
@@ -37048,7 +37048,7 @@ export let BTvFill = {
   $_icon: {
     name: "TvFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["tv","fill"],
   },
   render() {
@@ -37068,7 +37068,7 @@ export let BTv = {
   $_icon: {
     name: "Tv",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["tv"],
   },
   render() {
@@ -37088,7 +37088,7 @@ export let BTwitch = {
   $_icon: {
     name: "Twitch",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["twitch"],
   },
   render() {
@@ -37112,7 +37112,7 @@ export let BTwitter = {
   $_icon: {
     name: "Twitter",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["twitter"],
   },
   render() {
@@ -37132,7 +37132,7 @@ export let BTypeBold = {
   $_icon: {
     name: "TypeBold",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["type","bold"],
   },
   render() {
@@ -37152,7 +37152,7 @@ export let BTypeH1 = {
   $_icon: {
     name: "TypeH1",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["type","h1"],
   },
   render() {
@@ -37172,7 +37172,7 @@ export let BTypeH2 = {
   $_icon: {
     name: "TypeH2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["type","h2"],
   },
   render() {
@@ -37192,7 +37192,7 @@ export let BTypeH3 = {
   $_icon: {
     name: "TypeH3",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["type","h3"],
   },
   render() {
@@ -37212,7 +37212,7 @@ export let BTypeItalic = {
   $_icon: {
     name: "TypeItalic",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["type","italic"],
   },
   render() {
@@ -37232,7 +37232,7 @@ export let BTypeStrikethrough = {
   $_icon: {
     name: "TypeStrikethrough",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["type","strikethrough"],
   },
   render() {
@@ -37252,7 +37252,7 @@ export let BTypeUnderline = {
   $_icon: {
     name: "TypeUnderline",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["type","underline"],
   },
   render() {
@@ -37272,7 +37272,7 @@ export let BType = {
   $_icon: {
     name: "Type",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["type"],
   },
   render() {
@@ -37292,7 +37292,7 @@ export let BUbuntu = {
   $_icon: {
     name: "Ubuntu",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["ubuntu"],
   },
   render() {
@@ -37312,7 +37312,7 @@ export let BUiChecksGrid = {
   $_icon: {
     name: "UiChecksGrid",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["ui","checks","grid"],
   },
   render() {
@@ -37332,7 +37332,7 @@ export let BUiChecks = {
   $_icon: {
     name: "UiChecks",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["ui","checks"],
   },
   render() {
@@ -37352,7 +37352,7 @@ export let BUiRadiosGrid = {
   $_icon: {
     name: "UiRadiosGrid",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["ui","radios","grid"],
   },
   render() {
@@ -37372,7 +37372,7 @@ export let BUiRadios = {
   $_icon: {
     name: "UiRadios",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["ui","radios"],
   },
   render() {
@@ -37392,7 +37392,7 @@ export let BUmbrellaFill = {
   $_icon: {
     name: "UmbrellaFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["umbrella","fill"],
   },
   render() {
@@ -37412,7 +37412,7 @@ export let BUmbrella = {
   $_icon: {
     name: "Umbrella",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["umbrella"],
   },
   render() {
@@ -37432,7 +37432,7 @@ export let BUnindent = {
   $_icon: {
     name: "Unindent",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["unindent"],
   },
   render() {
@@ -37456,7 +37456,7 @@ export let BUnion = {
   $_icon: {
     name: "Union",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["union"],
   },
   render() {
@@ -37476,7 +37476,7 @@ export let BUnity = {
   $_icon: {
     name: "Unity",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["unity"],
   },
   render() {
@@ -37496,7 +37496,7 @@ export let BUniversalAccessCircle = {
   $_icon: {
     name: "UniversalAccessCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["universal","access","circle"],
   },
   render() {
@@ -37520,7 +37520,7 @@ export let BUniversalAccess = {
   $_icon: {
     name: "UniversalAccess",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["universal","access"],
   },
   render() {
@@ -37540,7 +37540,7 @@ export let BUnlockFill = {
   $_icon: {
     name: "UnlockFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["unlock","fill"],
   },
   render() {
@@ -37560,7 +37560,7 @@ export let BUnlock = {
   $_icon: {
     name: "Unlock",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["unlock"],
   },
   render() {
@@ -37580,7 +37580,7 @@ export let BUpcScan = {
   $_icon: {
     name: "UpcScan",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["upc","scan"],
   },
   render() {
@@ -37600,7 +37600,7 @@ export let BUpc = {
   $_icon: {
     name: "Upc",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["upc"],
   },
   render() {
@@ -37620,7 +37620,7 @@ export let BUpload = {
   $_icon: {
     name: "Upload",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["upload"],
   },
   render() {
@@ -37644,7 +37644,7 @@ export let BUsbCFill = {
   $_icon: {
     name: "UsbCFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["usb","c","fill"],
   },
   render() {
@@ -37664,7 +37664,7 @@ export let BUsbC = {
   $_icon: {
     name: "UsbC",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["usb","c"],
   },
   render() {
@@ -37688,7 +37688,7 @@ export let BUsbDriveFill = {
   $_icon: {
     name: "UsbDriveFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["usb","drive","fill"],
   },
   render() {
@@ -37708,7 +37708,7 @@ export let BUsbDrive = {
   $_icon: {
     name: "UsbDrive",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["usb","drive"],
   },
   render() {
@@ -37728,7 +37728,7 @@ export let BUsbFill = {
   $_icon: {
     name: "UsbFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["usb","fill"],
   },
   render() {
@@ -37748,7 +37748,7 @@ export let BUsbMicroFill = {
   $_icon: {
     name: "UsbMicroFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["usb","micro","fill"],
   },
   render() {
@@ -37768,7 +37768,7 @@ export let BUsbMicro = {
   $_icon: {
     name: "UsbMicro",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["usb","micro"],
   },
   render() {
@@ -37792,7 +37792,7 @@ export let BUsbMiniFill = {
   $_icon: {
     name: "UsbMiniFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["usb","mini","fill"],
   },
   render() {
@@ -37812,7 +37812,7 @@ export let BUsbMini = {
   $_icon: {
     name: "UsbMini",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["usb","mini"],
   },
   render() {
@@ -37836,7 +37836,7 @@ export let BUsbPlugFill = {
   $_icon: {
     name: "UsbPlugFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["usb","plug","fill"],
   },
   render() {
@@ -37856,7 +37856,7 @@ export let BUsbPlug = {
   $_icon: {
     name: "UsbPlug",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["usb","plug"],
   },
   render() {
@@ -37876,7 +37876,7 @@ export let BUsbSymbol = {
   $_icon: {
     name: "UsbSymbol",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["usb","symbol"],
   },
   render() {
@@ -37896,7 +37896,7 @@ export let BUsb = {
   $_icon: {
     name: "Usb",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["usb"],
   },
   render() {
@@ -37920,7 +37920,7 @@ export let BValentine = {
   $_icon: {
     name: "Valentine",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["valentine"],
   },
   render() {
@@ -37944,7 +37944,7 @@ export let BValentine2 = {
   $_icon: {
     name: "Valentine2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["valentine2"],
   },
   render() {
@@ -37968,7 +37968,7 @@ export let BVectorPen = {
   $_icon: {
     name: "VectorPen",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["vector","pen"],
   },
   render() {
@@ -37992,7 +37992,7 @@ export let BViewList = {
   $_icon: {
     name: "ViewList",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["view","list"],
   },
   render() {
@@ -38012,7 +38012,7 @@ export let BViewStacked = {
   $_icon: {
     name: "ViewStacked",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["view","stacked"],
   },
   render() {
@@ -38032,7 +38032,7 @@ export let BVimeo = {
   $_icon: {
     name: "Vimeo",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["vimeo"],
   },
   render() {
@@ -38052,7 +38052,7 @@ export let BVinylFill = {
   $_icon: {
     name: "VinylFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["vinyl","fill"],
   },
   render() {
@@ -38076,7 +38076,7 @@ export let BVinyl = {
   $_icon: {
     name: "Vinyl",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["vinyl"],
   },
   render() {
@@ -38104,7 +38104,7 @@ export let BVirus = {
   $_icon: {
     name: "Virus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["virus"],
   },
   render() {
@@ -38124,7 +38124,7 @@ export let BVirus2 = {
   $_icon: {
     name: "Virus2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["virus2"],
   },
   render() {
@@ -38144,7 +38144,7 @@ export let BVoicemail = {
   $_icon: {
     name: "Voicemail",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["voicemail"],
   },
   render() {
@@ -38164,7 +38164,7 @@ export let BVolumeDownFill = {
   $_icon: {
     name: "VolumeDownFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["volume","down","fill"],
   },
   render() {
@@ -38184,7 +38184,7 @@ export let BVolumeDown = {
   $_icon: {
     name: "VolumeDown",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["volume","down"],
   },
   render() {
@@ -38204,7 +38204,7 @@ export let BVolumeMuteFill = {
   $_icon: {
     name: "VolumeMuteFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["volume","mute","fill"],
   },
   render() {
@@ -38224,7 +38224,7 @@ export let BVolumeMute = {
   $_icon: {
     name: "VolumeMute",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["volume","mute"],
   },
   render() {
@@ -38244,7 +38244,7 @@ export let BVolumeOffFill = {
   $_icon: {
     name: "VolumeOffFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["volume","off","fill"],
   },
   render() {
@@ -38264,7 +38264,7 @@ export let BVolumeOff = {
   $_icon: {
     name: "VolumeOff",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["volume","off"],
   },
   render() {
@@ -38284,7 +38284,7 @@ export let BVolumeUpFill = {
   $_icon: {
     name: "VolumeUpFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["volume","up","fill"],
   },
   render() {
@@ -38312,7 +38312,7 @@ export let BVolumeUp = {
   $_icon: {
     name: "VolumeUp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["volume","up"],
   },
   render() {
@@ -38340,7 +38340,7 @@ export let BVr = {
   $_icon: {
     name: "Vr",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["vr"],
   },
   render() {
@@ -38360,7 +38360,7 @@ export let BWalletFill = {
   $_icon: {
     name: "WalletFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["wallet","fill"],
   },
   render() {
@@ -38384,7 +38384,7 @@ export let BWallet = {
   $_icon: {
     name: "Wallet",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["wallet"],
   },
   render() {
@@ -38404,7 +38404,7 @@ export let BWallet2 = {
   $_icon: {
     name: "Wallet2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["wallet2"],
   },
   render() {
@@ -38424,7 +38424,7 @@ export let BWatch = {
   $_icon: {
     name: "Watch",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["watch"],
   },
   render() {
@@ -38448,7 +38448,7 @@ export let BWater = {
   $_icon: {
     name: "Water",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["water"],
   },
   render() {
@@ -38468,7 +38468,7 @@ export let BWebcamFill = {
   $_icon: {
     name: "WebcamFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["webcam","fill"],
   },
   render() {
@@ -38492,7 +38492,7 @@ export let BWebcam = {
   $_icon: {
     name: "Webcam",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["webcam"],
   },
   render() {
@@ -38516,7 +38516,7 @@ export let BWechat = {
   $_icon: {
     name: "Wechat",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["wechat"],
   },
   render() {
@@ -38540,7 +38540,7 @@ export let BWhatsapp = {
   $_icon: {
     name: "Whatsapp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["whatsapp"],
   },
   render() {
@@ -38560,7 +38560,7 @@ export let BWifi1 = {
   $_icon: {
     name: "Wifi1",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["wifi","1"],
   },
   render() {
@@ -38580,7 +38580,7 @@ export let BWifi2 = {
   $_icon: {
     name: "Wifi2",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["wifi","2"],
   },
   render() {
@@ -38600,7 +38600,7 @@ export let BWifiOff = {
   $_icon: {
     name: "WifiOff",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["wifi","off"],
   },
   render() {
@@ -38620,7 +38620,7 @@ export let BWifi = {
   $_icon: {
     name: "Wifi",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["wifi"],
   },
   render() {
@@ -38644,7 +38644,7 @@ export let BWind = {
   $_icon: {
     name: "Wind",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["wind"],
   },
   render() {
@@ -38664,7 +38664,7 @@ export let BWindowDash = {
   $_icon: {
     name: "WindowDash",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["window","dash"],
   },
   render() {
@@ -38692,7 +38692,7 @@ export let BWindowDesktop = {
   $_icon: {
     name: "WindowDesktop",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["window","desktop"],
   },
   render() {
@@ -38716,7 +38716,7 @@ export let BWindowDock = {
   $_icon: {
     name: "WindowDock",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["window","dock"],
   },
   render() {
@@ -38740,7 +38740,7 @@ export let BWindowFullscreen = {
   $_icon: {
     name: "WindowFullscreen",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["window","fullscreen"],
   },
   render() {
@@ -38764,7 +38764,7 @@ export let BWindowPlus = {
   $_icon: {
     name: "WindowPlus",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["window","plus"],
   },
   render() {
@@ -38792,7 +38792,7 @@ export let BWindowSidebar = {
   $_icon: {
     name: "WindowSidebar",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["window","sidebar"],
   },
   render() {
@@ -38816,7 +38816,7 @@ export let BWindowSplit = {
   $_icon: {
     name: "WindowSplit",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["window","split"],
   },
   render() {
@@ -38840,7 +38840,7 @@ export let BWindowStack = {
   $_icon: {
     name: "WindowStack",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["window","stack"],
   },
   render() {
@@ -38864,7 +38864,7 @@ export let BWindowX = {
   $_icon: {
     name: "WindowX",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["window","x"],
   },
   render() {
@@ -38892,7 +38892,7 @@ export let BWindow = {
   $_icon: {
     name: "Window",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["window"],
   },
   render() {
@@ -38916,7 +38916,7 @@ export let BWindows = {
   $_icon: {
     name: "Windows",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["windows"],
   },
   render() {
@@ -38936,7 +38936,7 @@ export let BWordpress = {
   $_icon: {
     name: "Wordpress",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["wordpress"],
   },
   render() {
@@ -38964,7 +38964,7 @@ export let BWrenchAdjustableCircleFill = {
   $_icon: {
     name: "WrenchAdjustableCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["wrench","adjustable","circle","fill"],
   },
   render() {
@@ -38988,7 +38988,7 @@ export let BWrenchAdjustableCircle = {
   $_icon: {
     name: "WrenchAdjustableCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["wrench","adjustable","circle"],
   },
   render() {
@@ -39012,7 +39012,7 @@ export let BWrenchAdjustable = {
   $_icon: {
     name: "WrenchAdjustable",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["wrench","adjustable"],
   },
   render() {
@@ -39036,7 +39036,7 @@ export let BWrench = {
   $_icon: {
     name: "Wrench",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["wrench"],
   },
   render() {
@@ -39056,7 +39056,7 @@ export let BXCircleFill = {
   $_icon: {
     name: "XCircleFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["x","circle","fill"],
   },
   render() {
@@ -39076,7 +39076,7 @@ export let BXCircle = {
   $_icon: {
     name: "XCircle",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["x","circle"],
   },
   render() {
@@ -39100,7 +39100,7 @@ export let BXDiamondFill = {
   $_icon: {
     name: "XDiamondFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["x","diamond","fill"],
   },
   render() {
@@ -39120,7 +39120,7 @@ export let BXDiamond = {
   $_icon: {
     name: "XDiamond",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["x","diamond"],
   },
   render() {
@@ -39140,7 +39140,7 @@ export let BXLg = {
   $_icon: {
     name: "XLg",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["x","lg"],
   },
   render() {
@@ -39160,7 +39160,7 @@ export let BXOctagonFill = {
   $_icon: {
     name: "XOctagonFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["x","octagon","fill"],
   },
   render() {
@@ -39180,7 +39180,7 @@ export let BXOctagon = {
   $_icon: {
     name: "XOctagon",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["x","octagon"],
   },
   render() {
@@ -39204,7 +39204,7 @@ export let BXSquareFill = {
   $_icon: {
     name: "XSquareFill",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["x","square","fill"],
   },
   render() {
@@ -39224,7 +39224,7 @@ export let BXSquare = {
   $_icon: {
     name: "XSquare",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["x","square"],
   },
   render() {
@@ -39248,7 +39248,7 @@ export let BX = {
   $_icon: {
     name: "X",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["x"],
   },
   render() {
@@ -39268,7 +39268,7 @@ export let BXbox = {
   $_icon: {
     name: "Xbox",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["xbox"],
   },
   render() {
@@ -39288,7 +39288,7 @@ export let BYelp = {
   $_icon: {
     name: "Yelp",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["yelp"],
   },
   render() {
@@ -39308,7 +39308,7 @@ export let BYinYang = {
   $_icon: {
     name: "YinYang",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["yin","yang"],
   },
   render() {
@@ -39332,7 +39332,7 @@ export let BYoutube = {
   $_icon: {
     name: "Youtube",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["youtube"],
   },
   render() {
@@ -39352,7 +39352,7 @@ export let BZoomIn = {
   $_icon: {
     name: "ZoomIn",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["zoom","in"],
   },
   render() {
@@ -39380,7 +39380,7 @@ export let BZoomOut = {
   $_icon: {
     name: "ZoomOut",
     vendor: "B",
-    type: "",
+    type: [],
     tags: ["zoom","out"],
   },
   render() {

@@ -9,6 +9,7 @@
   "dependencies": {
     "@vueuse/core": "^6.5.3",
     "highlight.js": "^11.4.0",
+    "just-kebab-case": "^4.1.1",
     "pinia": "^2.0.9",
     "vue": "^3.2.13",
     "vue-component-tailwind": "0.0.15"

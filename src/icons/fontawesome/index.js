@@ -1,10 +1,10 @@
-import { h } from 'vue'
+import { h } from "vue"
 
-export let Fa42GroupBrand = {
+export let Fa42GroupBrands = {
   $_icon: {
     name: "42Group",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["42","group"],
   },
   render() {
@@ -20,11 +20,11 @@ export let Fa42GroupBrand = {
     )
   }
 }
-export let Fa500pxBrand = {
+export let Fa500pxBrands = {
   $_icon: {
     name: "500px",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["500px"],
   },
   render() {
@@ -40,11 +40,11 @@ export let Fa500pxBrand = {
     )
   }
 }
-export let FaAccessibleIconBrand = {
+export let FaAccessibleIconBrands = {
   $_icon: {
     name: "AccessibleIcon",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["accessible","icon"],
   },
   render() {
@@ -60,11 +60,11 @@ export let FaAccessibleIconBrand = {
     )
   }
 }
-export let FaAccusoftBrand = {
+export let FaAccusoftBrands = {
   $_icon: {
     name: "Accusoft",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["accusoft"],
   },
   render() {
@@ -80,11 +80,11 @@ export let FaAccusoftBrand = {
     )
   }
 }
-export let FaAdnBrand = {
+export let FaAdnBrands = {
   $_icon: {
     name: "Adn",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["adn"],
   },
   render() {
@@ -100,11 +100,11 @@ export let FaAdnBrand = {
     )
   }
 }
-export let FaAdversalBrand = {
+export let FaAdversalBrands = {
   $_icon: {
     name: "Adversal",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["adversal"],
   },
   render() {
@@ -120,11 +120,11 @@ export let FaAdversalBrand = {
     )
   }
 }
-export let FaAffiliatethemeBrand = {
+export let FaAffiliatethemeBrands = {
   $_icon: {
     name: "Affiliatetheme",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["affiliatetheme"],
   },
   render() {
@@ -140,11 +140,11 @@ export let FaAffiliatethemeBrand = {
     )
   }
 }
-export let FaAirbnbBrand = {
+export let FaAirbnbBrands = {
   $_icon: {
     name: "Airbnb",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["airbnb"],
   },
   render() {
@@ -160,11 +160,11 @@ export let FaAirbnbBrand = {
     )
   }
 }
-export let FaAlgoliaBrand = {
+export let FaAlgoliaBrands = {
   $_icon: {
     name: "Algolia",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["algolia"],
   },
   render() {
@@ -180,11 +180,11 @@ export let FaAlgoliaBrand = {
     )
   }
 }
-export let FaAlipayBrand = {
+export let FaAlipayBrands = {
   $_icon: {
     name: "Alipay",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["alipay"],
   },
   render() {
@@ -200,11 +200,11 @@ export let FaAlipayBrand = {
     )
   }
 }
-export let FaAmazonPayBrand = {
+export let FaAmazonPayBrands = {
   $_icon: {
     name: "AmazonPay",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["amazon","pay"],
   },
   render() {
@@ -220,11 +220,11 @@ export let FaAmazonPayBrand = {
     )
   }
 }
-export let FaAmazonBrand = {
+export let FaAmazonBrands = {
   $_icon: {
     name: "Amazon",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["amazon"],
   },
   render() {
@@ -240,11 +240,11 @@ export let FaAmazonBrand = {
     )
   }
 }
-export let FaAmiliaBrand = {
+export let FaAmiliaBrands = {
   $_icon: {
     name: "Amilia",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["amilia"],
   },
   render() {
@@ -260,11 +260,11 @@ export let FaAmiliaBrand = {
     )
   }
 }
-export let FaAndroidBrand = {
+export let FaAndroidBrands = {
   $_icon: {
     name: "Android",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["android"],
   },
   render() {
@@ -280,11 +280,11 @@ export let FaAndroidBrand = {
     )
   }
 }
-export let FaAngellistBrand = {
+export let FaAngellistBrands = {
   $_icon: {
     name: "Angellist",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["angellist"],
   },
   render() {
@@ -300,11 +300,11 @@ export let FaAngellistBrand = {
     )
   }
 }
-export let FaAngrycreativeBrand = {
+export let FaAngrycreativeBrands = {
   $_icon: {
     name: "Angrycreative",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["angrycreative"],
   },
   render() {
@@ -320,11 +320,11 @@ export let FaAngrycreativeBrand = {
     )
   }
 }
-export let FaAngularBrand = {
+export let FaAngularBrands = {
   $_icon: {
     name: "Angular",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["angular"],
   },
   render() {
@@ -340,11 +340,11 @@ export let FaAngularBrand = {
     )
   }
 }
-export let FaAppStoreIosBrand = {
+export let FaAppStoreIosBrands = {
   $_icon: {
     name: "AppStoreIos",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["app","store","ios"],
   },
   render() {
@@ -360,11 +360,11 @@ export let FaAppStoreIosBrand = {
     )
   }
 }
-export let FaAppStoreBrand = {
+export let FaAppStoreBrands = {
   $_icon: {
     name: "AppStore",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["app","store"],
   },
   render() {
@@ -380,11 +380,11 @@ export let FaAppStoreBrand = {
     )
   }
 }
-export let FaApperBrand = {
+export let FaApperBrands = {
   $_icon: {
     name: "Apper",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["apper"],
   },
   render() {
@@ -400,11 +400,11 @@ export let FaApperBrand = {
     )
   }
 }
-export let FaApplePayBrand = {
+export let FaApplePayBrands = {
   $_icon: {
     name: "ApplePay",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["apple","pay"],
   },
   render() {
@@ -420,11 +420,11 @@ export let FaApplePayBrand = {
     )
   }
 }
-export let FaAppleBrand = {
+export let FaAppleBrands = {
   $_icon: {
     name: "Apple",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["apple"],
   },
   render() {
@@ -440,11 +440,11 @@ export let FaAppleBrand = {
     )
   }
 }
-export let FaArtstationBrand = {
+export let FaArtstationBrands = {
   $_icon: {
     name: "Artstation",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["artstation"],
   },
   render() {
@@ -460,11 +460,11 @@ export let FaArtstationBrand = {
     )
   }
 }
-export let FaAsymmetrikBrand = {
+export let FaAsymmetrikBrands = {
   $_icon: {
     name: "Asymmetrik",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["asymmetrik"],
   },
   render() {
@@ -480,11 +480,11 @@ export let FaAsymmetrikBrand = {
     )
   }
 }
-export let FaAtlassianBrand = {
+export let FaAtlassianBrands = {
   $_icon: {
     name: "Atlassian",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["atlassian"],
   },
   render() {
@@ -500,11 +500,11 @@ export let FaAtlassianBrand = {
     )
   }
 }
-export let FaAudibleBrand = {
+export let FaAudibleBrands = {
   $_icon: {
     name: "Audible",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["audible"],
   },
   render() {
@@ -520,11 +520,11 @@ export let FaAudibleBrand = {
     )
   }
 }
-export let FaAutoprefixerBrand = {
+export let FaAutoprefixerBrands = {
   $_icon: {
     name: "Autoprefixer",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["autoprefixer"],
   },
   render() {
@@ -540,11 +540,11 @@ export let FaAutoprefixerBrand = {
     )
   }
 }
-export let FaAvianexBrand = {
+export let FaAvianexBrands = {
   $_icon: {
     name: "Avianex",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["avianex"],
   },
   render() {
@@ -560,11 +560,11 @@ export let FaAvianexBrand = {
     )
   }
 }
-export let FaAviatoBrand = {
+export let FaAviatoBrands = {
   $_icon: {
     name: "Aviato",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["aviato"],
   },
   render() {
@@ -580,11 +580,11 @@ export let FaAviatoBrand = {
     )
   }
 }
-export let FaAwsBrand = {
+export let FaAwsBrands = {
   $_icon: {
     name: "Aws",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["aws"],
   },
   render() {
@@ -600,11 +600,11 @@ export let FaAwsBrand = {
     )
   }
 }
-export let FaBandcampBrand = {
+export let FaBandcampBrands = {
   $_icon: {
     name: "Bandcamp",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["bandcamp"],
   },
   render() {
@@ -620,11 +620,11 @@ export let FaBandcampBrand = {
     )
   }
 }
-export let FaBattleNetBrand = {
+export let FaBattleNetBrands = {
   $_icon: {
     name: "BattleNet",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["battle","net"],
   },
   render() {
@@ -640,11 +640,11 @@ export let FaBattleNetBrand = {
     )
   }
 }
-export let FaBehanceSquareBrand = {
+export let FaBehanceSquareBrands = {
   $_icon: {
     name: "BehanceSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["behance","square"],
   },
   render() {
@@ -660,11 +660,11 @@ export let FaBehanceSquareBrand = {
     )
   }
 }
-export let FaBehanceBrand = {
+export let FaBehanceBrands = {
   $_icon: {
     name: "Behance",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["behance"],
   },
   render() {
@@ -680,11 +680,11 @@ export let FaBehanceBrand = {
     )
   }
 }
-export let FaBilibiliBrand = {
+export let FaBilibiliBrands = {
   $_icon: {
     name: "Bilibili",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["bilibili"],
   },
   render() {
@@ -700,11 +700,11 @@ export let FaBilibiliBrand = {
     )
   }
 }
-export let FaBimobjectBrand = {
+export let FaBimobjectBrands = {
   $_icon: {
     name: "Bimobject",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["bimobject"],
   },
   render() {
@@ -720,11 +720,11 @@ export let FaBimobjectBrand = {
     )
   }
 }
-export let FaBitbucketBrand = {
+export let FaBitbucketBrands = {
   $_icon: {
     name: "Bitbucket",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["bitbucket"],
   },
   render() {
@@ -740,11 +740,11 @@ export let FaBitbucketBrand = {
     )
   }
 }
-export let FaBitcoinBrand = {
+export let FaBitcoinBrands = {
   $_icon: {
     name: "Bitcoin",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["bitcoin"],
   },
   render() {
@@ -760,11 +760,11 @@ export let FaBitcoinBrand = {
     )
   }
 }
-export let FaBityBrand = {
+export let FaBityBrands = {
   $_icon: {
     name: "Bity",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["bity"],
   },
   render() {
@@ -780,11 +780,11 @@ export let FaBityBrand = {
     )
   }
 }
-export let FaBlackTieBrand = {
+export let FaBlackTieBrands = {
   $_icon: {
     name: "BlackTie",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["black","tie"],
   },
   render() {
@@ -800,11 +800,11 @@ export let FaBlackTieBrand = {
     )
   }
 }
-export let FaBlackberryBrand = {
+export let FaBlackberryBrands = {
   $_icon: {
     name: "Blackberry",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["blackberry"],
   },
   render() {
@@ -820,11 +820,11 @@ export let FaBlackberryBrand = {
     )
   }
 }
-export let FaBloggerBBrand = {
+export let FaBloggerBBrands = {
   $_icon: {
     name: "BloggerB",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["blogger","b"],
   },
   render() {
@@ -840,11 +840,11 @@ export let FaBloggerBBrand = {
     )
   }
 }
-export let FaBloggerBrand = {
+export let FaBloggerBrands = {
   $_icon: {
     name: "Blogger",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["blogger"],
   },
   render() {
@@ -860,11 +860,11 @@ export let FaBloggerBrand = {
     )
   }
 }
-export let FaBluetoothBBrand = {
+export let FaBluetoothBBrands = {
   $_icon: {
     name: "BluetoothB",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["bluetooth","b"],
   },
   render() {
@@ -880,11 +880,11 @@ export let FaBluetoothBBrand = {
     )
   }
 }
-export let FaBluetoothBrand = {
+export let FaBluetoothBrands = {
   $_icon: {
     name: "Bluetooth",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["bluetooth"],
   },
   render() {
@@ -900,11 +900,11 @@ export let FaBluetoothBrand = {
     )
   }
 }
-export let FaBootstrapBrand = {
+export let FaBootstrapBrands = {
   $_icon: {
     name: "Bootstrap",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["bootstrap"],
   },
   render() {
@@ -920,11 +920,11 @@ export let FaBootstrapBrand = {
     )
   }
 }
-export let FaBotsBrand = {
+export let FaBotsBrands = {
   $_icon: {
     name: "Bots",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["bots"],
   },
   render() {
@@ -940,11 +940,11 @@ export let FaBotsBrand = {
     )
   }
 }
-export let FaBtcBrand = {
+export let FaBtcBrands = {
   $_icon: {
     name: "Btc",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["btc"],
   },
   render() {
@@ -960,11 +960,11 @@ export let FaBtcBrand = {
     )
   }
 }
-export let FaBufferBrand = {
+export let FaBufferBrands = {
   $_icon: {
     name: "Buffer",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["buffer"],
   },
   render() {
@@ -980,11 +980,11 @@ export let FaBufferBrand = {
     )
   }
 }
-export let FaBuromobelexperteBrand = {
+export let FaBuromobelexperteBrands = {
   $_icon: {
     name: "Buromobelexperte",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["buromobelexperte"],
   },
   render() {
@@ -1000,11 +1000,11 @@ export let FaBuromobelexperteBrand = {
     )
   }
 }
-export let FaBuyNLargeBrand = {
+export let FaBuyNLargeBrands = {
   $_icon: {
     name: "BuyNLarge",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["buy","n","large"],
   },
   render() {
@@ -1020,11 +1020,11 @@ export let FaBuyNLargeBrand = {
     )
   }
 }
-export let FaBuyselladsBrand = {
+export let FaBuyselladsBrands = {
   $_icon: {
     name: "Buysellads",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["buysellads"],
   },
   render() {
@@ -1040,11 +1040,11 @@ export let FaBuyselladsBrand = {
     )
   }
 }
-export let FaCanadianMapleLeafBrand = {
+export let FaCanadianMapleLeafBrands = {
   $_icon: {
     name: "CanadianMapleLeaf",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["canadian","maple","leaf"],
   },
   render() {
@@ -1060,11 +1060,11 @@ export let FaCanadianMapleLeafBrand = {
     )
   }
 }
-export let FaCcAmazonPayBrand = {
+export let FaCcAmazonPayBrands = {
   $_icon: {
     name: "CcAmazonPay",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["cc","amazon","pay"],
   },
   render() {
@@ -1080,11 +1080,11 @@ export let FaCcAmazonPayBrand = {
     )
   }
 }
-export let FaCcAmexBrand = {
+export let FaCcAmexBrands = {
   $_icon: {
     name: "CcAmex",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["cc","amex"],
   },
   render() {
@@ -1100,11 +1100,11 @@ export let FaCcAmexBrand = {
     )
   }
 }
-export let FaCcApplePayBrand = {
+export let FaCcApplePayBrands = {
   $_icon: {
     name: "CcApplePay",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["cc","apple","pay"],
   },
   render() {
@@ -1120,11 +1120,11 @@ export let FaCcApplePayBrand = {
     )
   }
 }
-export let FaCcDinersClubBrand = {
+export let FaCcDinersClubBrands = {
   $_icon: {
     name: "CcDinersClub",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["cc","diners","club"],
   },
   render() {
@@ -1140,11 +1140,11 @@ export let FaCcDinersClubBrand = {
     )
   }
 }
-export let FaCcDiscoverBrand = {
+export let FaCcDiscoverBrands = {
   $_icon: {
     name: "CcDiscover",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["cc","discover"],
   },
   render() {
@@ -1160,11 +1160,11 @@ export let FaCcDiscoverBrand = {
     )
   }
 }
-export let FaCcJcbBrand = {
+export let FaCcJcbBrands = {
   $_icon: {
     name: "CcJcb",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["cc","jcb"],
   },
   render() {
@@ -1180,11 +1180,11 @@ export let FaCcJcbBrand = {
     )
   }
 }
-export let FaCcMastercardBrand = {
+export let FaCcMastercardBrands = {
   $_icon: {
     name: "CcMastercard",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["cc","mastercard"],
   },
   render() {
@@ -1200,11 +1200,11 @@ export let FaCcMastercardBrand = {
     )
   }
 }
-export let FaCcPaypalBrand = {
+export let FaCcPaypalBrands = {
   $_icon: {
     name: "CcPaypal",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["cc","paypal"],
   },
   render() {
@@ -1220,11 +1220,11 @@ export let FaCcPaypalBrand = {
     )
   }
 }
-export let FaCcStripeBrand = {
+export let FaCcStripeBrands = {
   $_icon: {
     name: "CcStripe",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["cc","stripe"],
   },
   render() {
@@ -1240,11 +1240,11 @@ export let FaCcStripeBrand = {
     )
   }
 }
-export let FaCcVisaBrand = {
+export let FaCcVisaBrands = {
   $_icon: {
     name: "CcVisa",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["cc","visa"],
   },
   render() {
@@ -1260,11 +1260,11 @@ export let FaCcVisaBrand = {
     )
   }
 }
-export let FaCentercodeBrand = {
+export let FaCentercodeBrands = {
   $_icon: {
     name: "Centercode",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["centercode"],
   },
   render() {
@@ -1280,11 +1280,11 @@ export let FaCentercodeBrand = {
     )
   }
 }
-export let FaCentosBrand = {
+export let FaCentosBrands = {
   $_icon: {
     name: "Centos",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["centos"],
   },
   render() {
@@ -1300,11 +1300,11 @@ export let FaCentosBrand = {
     )
   }
 }
-export let FaChromeBrand = {
+export let FaChromeBrands = {
   $_icon: {
     name: "Chrome",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["chrome"],
   },
   render() {
@@ -1320,11 +1320,11 @@ export let FaChromeBrand = {
     )
   }
 }
-export let FaChromecastBrand = {
+export let FaChromecastBrands = {
   $_icon: {
     name: "Chromecast",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["chromecast"],
   },
   render() {
@@ -1340,11 +1340,11 @@ export let FaChromecastBrand = {
     )
   }
 }
-export let FaCloudflareBrand = {
+export let FaCloudflareBrands = {
   $_icon: {
     name: "Cloudflare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["cloudflare"],
   },
   render() {
@@ -1360,11 +1360,11 @@ export let FaCloudflareBrand = {
     )
   }
 }
-export let FaCloudscaleBrand = {
+export let FaCloudscaleBrands = {
   $_icon: {
     name: "Cloudscale",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["cloudscale"],
   },
   render() {
@@ -1380,11 +1380,11 @@ export let FaCloudscaleBrand = {
     )
   }
 }
-export let FaCloudsmithBrand = {
+export let FaCloudsmithBrands = {
   $_icon: {
     name: "Cloudsmith",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["cloudsmith"],
   },
   render() {
@@ -1400,11 +1400,11 @@ export let FaCloudsmithBrand = {
     )
   }
 }
-export let FaCloudversifyBrand = {
+export let FaCloudversifyBrands = {
   $_icon: {
     name: "Cloudversify",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["cloudversify"],
   },
   render() {
@@ -1420,11 +1420,11 @@ export let FaCloudversifyBrand = {
     )
   }
 }
-export let FaCmplidBrand = {
+export let FaCmplidBrands = {
   $_icon: {
     name: "Cmplid",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["cmplid"],
   },
   render() {
@@ -1440,11 +1440,11 @@ export let FaCmplidBrand = {
     )
   }
 }
-export let FaCodepenBrand = {
+export let FaCodepenBrands = {
   $_icon: {
     name: "Codepen",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["codepen"],
   },
   render() {
@@ -1460,11 +1460,11 @@ export let FaCodepenBrand = {
     )
   }
 }
-export let FaCodiepieBrand = {
+export let FaCodiepieBrands = {
   $_icon: {
     name: "Codiepie",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["codiepie"],
   },
   render() {
@@ -1480,11 +1480,11 @@ export let FaCodiepieBrand = {
     )
   }
 }
-export let FaConfluenceBrand = {
+export let FaConfluenceBrands = {
   $_icon: {
     name: "Confluence",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["confluence"],
   },
   render() {
@@ -1500,11 +1500,11 @@ export let FaConfluenceBrand = {
     )
   }
 }
-export let FaConnectdevelopBrand = {
+export let FaConnectdevelopBrands = {
   $_icon: {
     name: "Connectdevelop",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["connectdevelop"],
   },
   render() {
@@ -1520,11 +1520,11 @@ export let FaConnectdevelopBrand = {
     )
   }
 }
-export let FaContaoBrand = {
+export let FaContaoBrands = {
   $_icon: {
     name: "Contao",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["contao"],
   },
   render() {
@@ -1540,11 +1540,11 @@ export let FaContaoBrand = {
     )
   }
 }
-export let FaCottonBureauBrand = {
+export let FaCottonBureauBrands = {
   $_icon: {
     name: "CottonBureau",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["cotton","bureau"],
   },
   render() {
@@ -1560,11 +1560,11 @@ export let FaCottonBureauBrand = {
     )
   }
 }
-export let FaCpanelBrand = {
+export let FaCpanelBrands = {
   $_icon: {
     name: "Cpanel",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["cpanel"],
   },
   render() {
@@ -1580,11 +1580,11 @@ export let FaCpanelBrand = {
     )
   }
 }
-export let FaCreativeCommonsByBrand = {
+export let FaCreativeCommonsByBrands = {
   $_icon: {
     name: "CreativeCommonsBy",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["creative","commons","by"],
   },
   render() {
@@ -1600,11 +1600,11 @@ export let FaCreativeCommonsByBrand = {
     )
   }
 }
-export let FaCreativeCommonsNcEuBrand = {
+export let FaCreativeCommonsNcEuBrands = {
   $_icon: {
     name: "CreativeCommonsNcEu",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["creative","commons","nc","eu"],
   },
   render() {
@@ -1620,11 +1620,11 @@ export let FaCreativeCommonsNcEuBrand = {
     )
   }
 }
-export let FaCreativeCommonsNcJpBrand = {
+export let FaCreativeCommonsNcJpBrands = {
   $_icon: {
     name: "CreativeCommonsNcJp",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["creative","commons","nc","jp"],
   },
   render() {
@@ -1640,11 +1640,11 @@ export let FaCreativeCommonsNcJpBrand = {
     )
   }
 }
-export let FaCreativeCommonsNcBrand = {
+export let FaCreativeCommonsNcBrands = {
   $_icon: {
     name: "CreativeCommonsNc",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["creative","commons","nc"],
   },
   render() {
@@ -1660,11 +1660,11 @@ export let FaCreativeCommonsNcBrand = {
     )
   }
 }
-export let FaCreativeCommonsNdBrand = {
+export let FaCreativeCommonsNdBrands = {
   $_icon: {
     name: "CreativeCommonsNd",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["creative","commons","nd"],
   },
   render() {
@@ -1680,11 +1680,11 @@ export let FaCreativeCommonsNdBrand = {
     )
   }
 }
-export let FaCreativeCommonsPdAltBrand = {
+export let FaCreativeCommonsPdAltBrands = {
   $_icon: {
     name: "CreativeCommonsPdAlt",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["creative","commons","pd","alt"],
   },
   render() {
@@ -1700,11 +1700,11 @@ export let FaCreativeCommonsPdAltBrand = {
     )
   }
 }
-export let FaCreativeCommonsPdBrand = {
+export let FaCreativeCommonsPdBrands = {
   $_icon: {
     name: "CreativeCommonsPd",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["creative","commons","pd"],
   },
   render() {
@@ -1720,11 +1720,11 @@ export let FaCreativeCommonsPdBrand = {
     )
   }
 }
-export let FaCreativeCommonsRemixBrand = {
+export let FaCreativeCommonsRemixBrands = {
   $_icon: {
     name: "CreativeCommonsRemix",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["creative","commons","remix"],
   },
   render() {
@@ -1740,11 +1740,11 @@ export let FaCreativeCommonsRemixBrand = {
     )
   }
 }
-export let FaCreativeCommonsSaBrand = {
+export let FaCreativeCommonsSaBrands = {
   $_icon: {
     name: "CreativeCommonsSa",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["creative","commons","sa"],
   },
   render() {
@@ -1760,11 +1760,11 @@ export let FaCreativeCommonsSaBrand = {
     )
   }
 }
-export let FaCreativeCommonsSamplingPlusBrand = {
+export let FaCreativeCommonsSamplingPlusBrands = {
   $_icon: {
     name: "CreativeCommonsSamplingPlus",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["creative","commons","sampling","plus"],
   },
   render() {
@@ -1780,11 +1780,11 @@ export let FaCreativeCommonsSamplingPlusBrand = {
     )
   }
 }
-export let FaCreativeCommonsSamplingBrand = {
+export let FaCreativeCommonsSamplingBrands = {
   $_icon: {
     name: "CreativeCommonsSampling",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["creative","commons","sampling"],
   },
   render() {
@@ -1800,11 +1800,11 @@ export let FaCreativeCommonsSamplingBrand = {
     )
   }
 }
-export let FaCreativeCommonsShareBrand = {
+export let FaCreativeCommonsShareBrands = {
   $_icon: {
     name: "CreativeCommonsShare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["creative","commons","share"],
   },
   render() {
@@ -1820,11 +1820,11 @@ export let FaCreativeCommonsShareBrand = {
     )
   }
 }
-export let FaCreativeCommonsZeroBrand = {
+export let FaCreativeCommonsZeroBrands = {
   $_icon: {
     name: "CreativeCommonsZero",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["creative","commons","zero"],
   },
   render() {
@@ -1840,11 +1840,11 @@ export let FaCreativeCommonsZeroBrand = {
     )
   }
 }
-export let FaCreativeCommonsBrand = {
+export let FaCreativeCommonsBrands = {
   $_icon: {
     name: "CreativeCommons",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["creative","commons"],
   },
   render() {
@@ -1860,11 +1860,11 @@ export let FaCreativeCommonsBrand = {
     )
   }
 }
-export let FaCriticalRoleBrand = {
+export let FaCriticalRoleBrands = {
   $_icon: {
     name: "CriticalRole",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["critical","role"],
   },
   render() {
@@ -1880,11 +1880,11 @@ export let FaCriticalRoleBrand = {
     )
   }
 }
-export let FaCss3AltBrand = {
+export let FaCss3AltBrands = {
   $_icon: {
     name: "Css3Alt",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["css3","alt"],
   },
   render() {
@@ -1900,11 +1900,11 @@ export let FaCss3AltBrand = {
     )
   }
 }
-export let FaCss3Brand = {
+export let FaCss3Brands = {
   $_icon: {
     name: "Css3",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["css3"],
   },
   render() {
@@ -1920,11 +1920,11 @@ export let FaCss3Brand = {
     )
   }
 }
-export let FaCuttlefishBrand = {
+export let FaCuttlefishBrands = {
   $_icon: {
     name: "Cuttlefish",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["cuttlefish"],
   },
   render() {
@@ -1940,11 +1940,11 @@ export let FaCuttlefishBrand = {
     )
   }
 }
-export let FaDAndDBeyondBrand = {
+export let FaDAndDBeyondBrands = {
   $_icon: {
     name: "DAndDBeyond",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["d","and","d","beyond"],
   },
   render() {
@@ -1960,11 +1960,11 @@ export let FaDAndDBeyondBrand = {
     )
   }
 }
-export let FaDAndDBrand = {
+export let FaDAndDBrands = {
   $_icon: {
     name: "DAndD",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["d","and","d"],
   },
   render() {
@@ -1980,11 +1980,11 @@ export let FaDAndDBrand = {
     )
   }
 }
-export let FaDailymotionBrand = {
+export let FaDailymotionBrands = {
   $_icon: {
     name: "Dailymotion",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["dailymotion"],
   },
   render() {
@@ -2000,11 +2000,11 @@ export let FaDailymotionBrand = {
     )
   }
 }
-export let FaDashcubeBrand = {
+export let FaDashcubeBrands = {
   $_icon: {
     name: "Dashcube",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["dashcube"],
   },
   render() {
@@ -2020,11 +2020,11 @@ export let FaDashcubeBrand = {
     )
   }
 }
-export let FaDeezerBrand = {
+export let FaDeezerBrands = {
   $_icon: {
     name: "Deezer",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["deezer"],
   },
   render() {
@@ -2040,11 +2040,11 @@ export let FaDeezerBrand = {
     )
   }
 }
-export let FaDeliciousBrand = {
+export let FaDeliciousBrands = {
   $_icon: {
     name: "Delicious",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["delicious"],
   },
   render() {
@@ -2060,11 +2060,11 @@ export let FaDeliciousBrand = {
     )
   }
 }
-export let FaDeploydogBrand = {
+export let FaDeploydogBrands = {
   $_icon: {
     name: "Deploydog",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["deploydog"],
   },
   render() {
@@ -2080,11 +2080,11 @@ export let FaDeploydogBrand = {
     )
   }
 }
-export let FaDeskproBrand = {
+export let FaDeskproBrands = {
   $_icon: {
     name: "Deskpro",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["deskpro"],
   },
   render() {
@@ -2100,11 +2100,11 @@ export let FaDeskproBrand = {
     )
   }
 }
-export let FaDevBrand = {
+export let FaDevBrands = {
   $_icon: {
     name: "Dev",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["dev"],
   },
   render() {
@@ -2120,11 +2120,11 @@ export let FaDevBrand = {
     )
   }
 }
-export let FaDeviantartBrand = {
+export let FaDeviantartBrands = {
   $_icon: {
     name: "Deviantart",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["deviantart"],
   },
   render() {
@@ -2140,11 +2140,11 @@ export let FaDeviantartBrand = {
     )
   }
 }
-export let FaDhlBrand = {
+export let FaDhlBrands = {
   $_icon: {
     name: "Dhl",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["dhl"],
   },
   render() {
@@ -2160,11 +2160,11 @@ export let FaDhlBrand = {
     )
   }
 }
-export let FaDiasporaBrand = {
+export let FaDiasporaBrands = {
   $_icon: {
     name: "Diaspora",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["diaspora"],
   },
   render() {
@@ -2180,11 +2180,11 @@ export let FaDiasporaBrand = {
     )
   }
 }
-export let FaDiggBrand = {
+export let FaDiggBrands = {
   $_icon: {
     name: "Digg",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["digg"],
   },
   render() {
@@ -2200,11 +2200,11 @@ export let FaDiggBrand = {
     )
   }
 }
-export let FaDigitalOceanBrand = {
+export let FaDigitalOceanBrands = {
   $_icon: {
     name: "DigitalOcean",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["digital","ocean"],
   },
   render() {
@@ -2220,11 +2220,11 @@ export let FaDigitalOceanBrand = {
     )
   }
 }
-export let FaDiscordBrand = {
+export let FaDiscordBrands = {
   $_icon: {
     name: "Discord",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["discord"],
   },
   render() {
@@ -2240,11 +2240,11 @@ export let FaDiscordBrand = {
     )
   }
 }
-export let FaDiscourseBrand = {
+export let FaDiscourseBrands = {
   $_icon: {
     name: "Discourse",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["discourse"],
   },
   render() {
@@ -2260,11 +2260,11 @@ export let FaDiscourseBrand = {
     )
   }
 }
-export let FaDochubBrand = {
+export let FaDochubBrands = {
   $_icon: {
     name: "Dochub",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["dochub"],
   },
   render() {
@@ -2280,11 +2280,11 @@ export let FaDochubBrand = {
     )
   }
 }
-export let FaDockerBrand = {
+export let FaDockerBrands = {
   $_icon: {
     name: "Docker",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["docker"],
   },
   render() {
@@ -2300,11 +2300,11 @@ export let FaDockerBrand = {
     )
   }
 }
-export let FaDraft2digitalBrand = {
+export let FaDraft2digitalBrands = {
   $_icon: {
     name: "Draft2digital",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["draft2digital"],
   },
   render() {
@@ -2320,11 +2320,11 @@ export let FaDraft2digitalBrand = {
     )
   }
 }
-export let FaDribbbleSquareBrand = {
+export let FaDribbbleSquareBrands = {
   $_icon: {
     name: "DribbbleSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["dribbble","square"],
   },
   render() {
@@ -2340,11 +2340,11 @@ export let FaDribbbleSquareBrand = {
     )
   }
 }
-export let FaDribbbleBrand = {
+export let FaDribbbleBrands = {
   $_icon: {
     name: "Dribbble",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["dribbble"],
   },
   render() {
@@ -2360,11 +2360,11 @@ export let FaDribbbleBrand = {
     )
   }
 }
-export let FaDropboxBrand = {
+export let FaDropboxBrands = {
   $_icon: {
     name: "Dropbox",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["dropbox"],
   },
   render() {
@@ -2380,11 +2380,11 @@ export let FaDropboxBrand = {
     )
   }
 }
-export let FaDrupalBrand = {
+export let FaDrupalBrands = {
   $_icon: {
     name: "Drupal",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["drupal"],
   },
   render() {
@@ -2400,11 +2400,11 @@ export let FaDrupalBrand = {
     )
   }
 }
-export let FaDyalogBrand = {
+export let FaDyalogBrands = {
   $_icon: {
     name: "Dyalog",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["dyalog"],
   },
   render() {
@@ -2420,11 +2420,11 @@ export let FaDyalogBrand = {
     )
   }
 }
-export let FaEarlybirdsBrand = {
+export let FaEarlybirdsBrands = {
   $_icon: {
     name: "Earlybirds",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["earlybirds"],
   },
   render() {
@@ -2440,11 +2440,11 @@ export let FaEarlybirdsBrand = {
     )
   }
 }
-export let FaEbayBrand = {
+export let FaEbayBrands = {
   $_icon: {
     name: "Ebay",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["ebay"],
   },
   render() {
@@ -2460,11 +2460,11 @@ export let FaEbayBrand = {
     )
   }
 }
-export let FaEdgeLegacyBrand = {
+export let FaEdgeLegacyBrands = {
   $_icon: {
     name: "EdgeLegacy",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["edge","legacy"],
   },
   render() {
@@ -2480,11 +2480,11 @@ export let FaEdgeLegacyBrand = {
     )
   }
 }
-export let FaEdgeBrand = {
+export let FaEdgeBrands = {
   $_icon: {
     name: "Edge",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["edge"],
   },
   render() {
@@ -2500,11 +2500,11 @@ export let FaEdgeBrand = {
     )
   }
 }
-export let FaElementorBrand = {
+export let FaElementorBrands = {
   $_icon: {
     name: "Elementor",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["elementor"],
   },
   render() {
@@ -2520,11 +2520,11 @@ export let FaElementorBrand = {
     )
   }
 }
-export let FaElloBrand = {
+export let FaElloBrands = {
   $_icon: {
     name: "Ello",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["ello"],
   },
   render() {
@@ -2540,11 +2540,11 @@ export let FaElloBrand = {
     )
   }
 }
-export let FaEmberBrand = {
+export let FaEmberBrands = {
   $_icon: {
     name: "Ember",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["ember"],
   },
   render() {
@@ -2560,11 +2560,11 @@ export let FaEmberBrand = {
     )
   }
 }
-export let FaEmpireBrand = {
+export let FaEmpireBrands = {
   $_icon: {
     name: "Empire",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["empire"],
   },
   render() {
@@ -2580,11 +2580,11 @@ export let FaEmpireBrand = {
     )
   }
 }
-export let FaEnviraBrand = {
+export let FaEnviraBrands = {
   $_icon: {
     name: "Envira",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["envira"],
   },
   render() {
@@ -2600,11 +2600,11 @@ export let FaEnviraBrand = {
     )
   }
 }
-export let FaErlangBrand = {
+export let FaErlangBrands = {
   $_icon: {
     name: "Erlang",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["erlang"],
   },
   render() {
@@ -2620,11 +2620,11 @@ export let FaErlangBrand = {
     )
   }
 }
-export let FaEthereumBrand = {
+export let FaEthereumBrands = {
   $_icon: {
     name: "Ethereum",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["ethereum"],
   },
   render() {
@@ -2640,11 +2640,11 @@ export let FaEthereumBrand = {
     )
   }
 }
-export let FaEtsyBrand = {
+export let FaEtsyBrands = {
   $_icon: {
     name: "Etsy",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["etsy"],
   },
   render() {
@@ -2660,11 +2660,11 @@ export let FaEtsyBrand = {
     )
   }
 }
-export let FaEvernoteBrand = {
+export let FaEvernoteBrands = {
   $_icon: {
     name: "Evernote",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["evernote"],
   },
   render() {
@@ -2680,11 +2680,11 @@ export let FaEvernoteBrand = {
     )
   }
 }
-export let FaExpeditedsslBrand = {
+export let FaExpeditedsslBrands = {
   $_icon: {
     name: "Expeditedssl",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["expeditedssl"],
   },
   render() {
@@ -2700,11 +2700,11 @@ export let FaExpeditedsslBrand = {
     )
   }
 }
-export let FaFacebookFBrand = {
+export let FaFacebookFBrands = {
   $_icon: {
     name: "FacebookF",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["facebook","f"],
   },
   render() {
@@ -2720,11 +2720,11 @@ export let FaFacebookFBrand = {
     )
   }
 }
-export let FaFacebookMessengerBrand = {
+export let FaFacebookMessengerBrands = {
   $_icon: {
     name: "FacebookMessenger",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["facebook","messenger"],
   },
   render() {
@@ -2740,11 +2740,11 @@ export let FaFacebookMessengerBrand = {
     )
   }
 }
-export let FaFacebookSquareBrand = {
+export let FaFacebookSquareBrands = {
   $_icon: {
     name: "FacebookSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["facebook","square"],
   },
   render() {
@@ -2760,11 +2760,11 @@ export let FaFacebookSquareBrand = {
     )
   }
 }
-export let FaFacebookBrand = {
+export let FaFacebookBrands = {
   $_icon: {
     name: "Facebook",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["facebook"],
   },
   render() {
@@ -2780,11 +2780,11 @@ export let FaFacebookBrand = {
     )
   }
 }
-export let FaFantasyFlightGamesBrand = {
+export let FaFantasyFlightGamesBrands = {
   $_icon: {
     name: "FantasyFlightGames",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["fantasy","flight","games"],
   },
   render() {
@@ -2800,11 +2800,11 @@ export let FaFantasyFlightGamesBrand = {
     )
   }
 }
-export let FaFedexBrand = {
+export let FaFedexBrands = {
   $_icon: {
     name: "Fedex",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["fedex"],
   },
   render() {
@@ -2820,11 +2820,11 @@ export let FaFedexBrand = {
     )
   }
 }
-export let FaFedoraBrand = {
+export let FaFedoraBrands = {
   $_icon: {
     name: "Fedora",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["fedora"],
   },
   render() {
@@ -2840,11 +2840,11 @@ export let FaFedoraBrand = {
     )
   }
 }
-export let FaFigmaBrand = {
+export let FaFigmaBrands = {
   $_icon: {
     name: "Figma",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["figma"],
   },
   render() {
@@ -2860,11 +2860,11 @@ export let FaFigmaBrand = {
     )
   }
 }
-export let FaFirefoxBrowserBrand = {
+export let FaFirefoxBrowserBrands = {
   $_icon: {
     name: "FirefoxBrowser",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["firefox","browser"],
   },
   render() {
@@ -2880,11 +2880,11 @@ export let FaFirefoxBrowserBrand = {
     )
   }
 }
-export let FaFirefoxBrand = {
+export let FaFirefoxBrands = {
   $_icon: {
     name: "Firefox",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["firefox"],
   },
   render() {
@@ -2900,11 +2900,11 @@ export let FaFirefoxBrand = {
     )
   }
 }
-export let FaFirstOrderAltBrand = {
+export let FaFirstOrderAltBrands = {
   $_icon: {
     name: "FirstOrderAlt",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["first","order","alt"],
   },
   render() {
@@ -2920,11 +2920,11 @@ export let FaFirstOrderAltBrand = {
     )
   }
 }
-export let FaFirstOrderBrand = {
+export let FaFirstOrderBrands = {
   $_icon: {
     name: "FirstOrder",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["first","order"],
   },
   render() {
@@ -2940,11 +2940,11 @@ export let FaFirstOrderBrand = {
     )
   }
 }
-export let FaFirstdraftBrand = {
+export let FaFirstdraftBrands = {
   $_icon: {
     name: "Firstdraft",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["firstdraft"],
   },
   render() {
@@ -2960,11 +2960,11 @@ export let FaFirstdraftBrand = {
     )
   }
 }
-export let FaFlickrBrand = {
+export let FaFlickrBrands = {
   $_icon: {
     name: "Flickr",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["flickr"],
   },
   render() {
@@ -2980,11 +2980,11 @@ export let FaFlickrBrand = {
     )
   }
 }
-export let FaFlipboardBrand = {
+export let FaFlipboardBrands = {
   $_icon: {
     name: "Flipboard",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["flipboard"],
   },
   render() {
@@ -3000,11 +3000,11 @@ export let FaFlipboardBrand = {
     )
   }
 }
-export let FaFlyBrand = {
+export let FaFlyBrands = {
   $_icon: {
     name: "Fly",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["fly"],
   },
   render() {
@@ -3020,11 +3020,11 @@ export let FaFlyBrand = {
     )
   }
 }
-export let FaFontAwesomeBrand = {
+export let FaFontAwesomeBrands = {
   $_icon: {
     name: "FontAwesome",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["font","awesome"],
   },
   render() {
@@ -3040,11 +3040,11 @@ export let FaFontAwesomeBrand = {
     )
   }
 }
-export let FaFonticonsFiBrand = {
+export let FaFonticonsFiBrands = {
   $_icon: {
     name: "FonticonsFi",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["fonticons","fi"],
   },
   render() {
@@ -3060,11 +3060,11 @@ export let FaFonticonsFiBrand = {
     )
   }
 }
-export let FaFonticonsBrand = {
+export let FaFonticonsBrands = {
   $_icon: {
     name: "Fonticons",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["fonticons"],
   },
   render() {
@@ -3080,11 +3080,11 @@ export let FaFonticonsBrand = {
     )
   }
 }
-export let FaFortAwesomeAltBrand = {
+export let FaFortAwesomeAltBrands = {
   $_icon: {
     name: "FortAwesomeAlt",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["fort","awesome","alt"],
   },
   render() {
@@ -3100,11 +3100,11 @@ export let FaFortAwesomeAltBrand = {
     )
   }
 }
-export let FaFortAwesomeBrand = {
+export let FaFortAwesomeBrands = {
   $_icon: {
     name: "FortAwesome",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["fort","awesome"],
   },
   render() {
@@ -3120,11 +3120,11 @@ export let FaFortAwesomeBrand = {
     )
   }
 }
-export let FaForumbeeBrand = {
+export let FaForumbeeBrands = {
   $_icon: {
     name: "Forumbee",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["forumbee"],
   },
   render() {
@@ -3140,11 +3140,11 @@ export let FaForumbeeBrand = {
     )
   }
 }
-export let FaFoursquareBrand = {
+export let FaFoursquareBrands = {
   $_icon: {
     name: "Foursquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["foursquare"],
   },
   render() {
@@ -3160,11 +3160,11 @@ export let FaFoursquareBrand = {
     )
   }
 }
-export let FaFreeCodeCampBrand = {
+export let FaFreeCodeCampBrands = {
   $_icon: {
     name: "FreeCodeCamp",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["free","code","camp"],
   },
   render() {
@@ -3180,11 +3180,11 @@ export let FaFreeCodeCampBrand = {
     )
   }
 }
-export let FaFreebsdBrand = {
+export let FaFreebsdBrands = {
   $_icon: {
     name: "Freebsd",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["freebsd"],
   },
   render() {
@@ -3200,11 +3200,11 @@ export let FaFreebsdBrand = {
     )
   }
 }
-export let FaFulcrumBrand = {
+export let FaFulcrumBrands = {
   $_icon: {
     name: "Fulcrum",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["fulcrum"],
   },
   render() {
@@ -3220,11 +3220,11 @@ export let FaFulcrumBrand = {
     )
   }
 }
-export let FaGalacticRepublicBrand = {
+export let FaGalacticRepublicBrands = {
   $_icon: {
     name: "GalacticRepublic",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["galactic","republic"],
   },
   render() {
@@ -3240,11 +3240,11 @@ export let FaGalacticRepublicBrand = {
     )
   }
 }
-export let FaGalacticSenateBrand = {
+export let FaGalacticSenateBrands = {
   $_icon: {
     name: "GalacticSenate",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["galactic","senate"],
   },
   render() {
@@ -3260,11 +3260,11 @@ export let FaGalacticSenateBrand = {
     )
   }
 }
-export let FaGetPocketBrand = {
+export let FaGetPocketBrands = {
   $_icon: {
     name: "GetPocket",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["get","pocket"],
   },
   render() {
@@ -3280,11 +3280,11 @@ export let FaGetPocketBrand = {
     )
   }
 }
-export let FaGgCircleBrand = {
+export let FaGgCircleBrands = {
   $_icon: {
     name: "GgCircle",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["gg","circle"],
   },
   render() {
@@ -3300,11 +3300,11 @@ export let FaGgCircleBrand = {
     )
   }
 }
-export let FaGgBrand = {
+export let FaGgBrands = {
   $_icon: {
     name: "Gg",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["gg"],
   },
   render() {
@@ -3320,11 +3320,11 @@ export let FaGgBrand = {
     )
   }
 }
-export let FaGitAltBrand = {
+export let FaGitAltBrands = {
   $_icon: {
     name: "GitAlt",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["git","alt"],
   },
   render() {
@@ -3340,11 +3340,11 @@ export let FaGitAltBrand = {
     )
   }
 }
-export let FaGitSquareBrand = {
+export let FaGitSquareBrands = {
   $_icon: {
     name: "GitSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["git","square"],
   },
   render() {
@@ -3360,11 +3360,11 @@ export let FaGitSquareBrand = {
     )
   }
 }
-export let FaGitBrand = {
+export let FaGitBrands = {
   $_icon: {
     name: "Git",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["git"],
   },
   render() {
@@ -3380,11 +3380,11 @@ export let FaGitBrand = {
     )
   }
 }
-export let FaGithubAltBrand = {
+export let FaGithubAltBrands = {
   $_icon: {
     name: "GithubAlt",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["github","alt"],
   },
   render() {
@@ -3400,11 +3400,11 @@ export let FaGithubAltBrand = {
     )
   }
 }
-export let FaGithubSquareBrand = {
+export let FaGithubSquareBrands = {
   $_icon: {
     name: "GithubSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["github","square"],
   },
   render() {
@@ -3420,11 +3420,11 @@ export let FaGithubSquareBrand = {
     )
   }
 }
-export let FaGithubBrand = {
+export let FaGithubBrands = {
   $_icon: {
     name: "Github",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["github"],
   },
   render() {
@@ -3440,11 +3440,11 @@ export let FaGithubBrand = {
     )
   }
 }
-export let FaGitkrakenBrand = {
+export let FaGitkrakenBrands = {
   $_icon: {
     name: "Gitkraken",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["gitkraken"],
   },
   render() {
@@ -3460,11 +3460,11 @@ export let FaGitkrakenBrand = {
     )
   }
 }
-export let FaGitlabBrand = {
+export let FaGitlabBrands = {
   $_icon: {
     name: "Gitlab",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["gitlab"],
   },
   render() {
@@ -3480,11 +3480,11 @@ export let FaGitlabBrand = {
     )
   }
 }
-export let FaGitterBrand = {
+export let FaGitterBrands = {
   $_icon: {
     name: "Gitter",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["gitter"],
   },
   render() {
@@ -3500,11 +3500,11 @@ export let FaGitterBrand = {
     )
   }
 }
-export let FaGlideGBrand = {
+export let FaGlideGBrands = {
   $_icon: {
     name: "GlideG",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["glide","g"],
   },
   render() {
@@ -3520,11 +3520,11 @@ export let FaGlideGBrand = {
     )
   }
 }
-export let FaGlideBrand = {
+export let FaGlideBrands = {
   $_icon: {
     name: "Glide",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["glide"],
   },
   render() {
@@ -3540,11 +3540,11 @@ export let FaGlideBrand = {
     )
   }
 }
-export let FaGoforeBrand = {
+export let FaGoforeBrands = {
   $_icon: {
     name: "Gofore",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["gofore"],
   },
   render() {
@@ -3560,11 +3560,11 @@ export let FaGoforeBrand = {
     )
   }
 }
-export let FaGolangBrand = {
+export let FaGolangBrands = {
   $_icon: {
     name: "Golang",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["golang"],
   },
   render() {
@@ -3580,11 +3580,11 @@ export let FaGolangBrand = {
     )
   }
 }
-export let FaGoodreadsGBrand = {
+export let FaGoodreadsGBrands = {
   $_icon: {
     name: "GoodreadsG",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["goodreads","g"],
   },
   render() {
@@ -3600,11 +3600,11 @@ export let FaGoodreadsGBrand = {
     )
   }
 }
-export let FaGoodreadsBrand = {
+export let FaGoodreadsBrands = {
   $_icon: {
     name: "Goodreads",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["goodreads"],
   },
   render() {
@@ -3620,11 +3620,11 @@ export let FaGoodreadsBrand = {
     )
   }
 }
-export let FaGoogleDriveBrand = {
+export let FaGoogleDriveBrands = {
   $_icon: {
     name: "GoogleDrive",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["google","drive"],
   },
   render() {
@@ -3640,11 +3640,11 @@ export let FaGoogleDriveBrand = {
     )
   }
 }
-export let FaGooglePayBrand = {
+export let FaGooglePayBrands = {
   $_icon: {
     name: "GooglePay",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["google","pay"],
   },
   render() {
@@ -3660,11 +3660,11 @@ export let FaGooglePayBrand = {
     )
   }
 }
-export let FaGooglePlayBrand = {
+export let FaGooglePlayBrands = {
   $_icon: {
     name: "GooglePlay",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["google","play"],
   },
   render() {
@@ -3680,11 +3680,11 @@ export let FaGooglePlayBrand = {
     )
   }
 }
-export let FaGooglePlusGBrand = {
+export let FaGooglePlusGBrands = {
   $_icon: {
     name: "GooglePlusG",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["google","plus","g"],
   },
   render() {
@@ -3700,11 +3700,11 @@ export let FaGooglePlusGBrand = {
     )
   }
 }
-export let FaGooglePlusSquareBrand = {
+export let FaGooglePlusSquareBrands = {
   $_icon: {
     name: "GooglePlusSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["google","plus","square"],
   },
   render() {
@@ -3720,11 +3720,11 @@ export let FaGooglePlusSquareBrand = {
     )
   }
 }
-export let FaGooglePlusBrand = {
+export let FaGooglePlusBrands = {
   $_icon: {
     name: "GooglePlus",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["google","plus"],
   },
   render() {
@@ -3740,11 +3740,11 @@ export let FaGooglePlusBrand = {
     )
   }
 }
-export let FaGoogleWalletBrand = {
+export let FaGoogleWalletBrands = {
   $_icon: {
     name: "GoogleWallet",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["google","wallet"],
   },
   render() {
@@ -3760,11 +3760,11 @@ export let FaGoogleWalletBrand = {
     )
   }
 }
-export let FaGoogleBrand = {
+export let FaGoogleBrands = {
   $_icon: {
     name: "Google",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["google"],
   },
   render() {
@@ -3780,11 +3780,11 @@ export let FaGoogleBrand = {
     )
   }
 }
-export let FaGratipayBrand = {
+export let FaGratipayBrands = {
   $_icon: {
     name: "Gratipay",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["gratipay"],
   },
   render() {
@@ -3800,11 +3800,11 @@ export let FaGratipayBrand = {
     )
   }
 }
-export let FaGravBrand = {
+export let FaGravBrands = {
   $_icon: {
     name: "Grav",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["grav"],
   },
   render() {
@@ -3820,11 +3820,11 @@ export let FaGravBrand = {
     )
   }
 }
-export let FaGripfireBrand = {
+export let FaGripfireBrands = {
   $_icon: {
     name: "Gripfire",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["gripfire"],
   },
   render() {
@@ -3840,11 +3840,11 @@ export let FaGripfireBrand = {
     )
   }
 }
-export let FaGruntBrand = {
+export let FaGruntBrands = {
   $_icon: {
     name: "Grunt",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["grunt"],
   },
   render() {
@@ -3860,11 +3860,11 @@ export let FaGruntBrand = {
     )
   }
 }
-export let FaGuildedBrand = {
+export let FaGuildedBrands = {
   $_icon: {
     name: "Guilded",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["guilded"],
   },
   render() {
@@ -3880,11 +3880,11 @@ export let FaGuildedBrand = {
     )
   }
 }
-export let FaGulpBrand = {
+export let FaGulpBrands = {
   $_icon: {
     name: "Gulp",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["gulp"],
   },
   render() {
@@ -3900,11 +3900,11 @@ export let FaGulpBrand = {
     )
   }
 }
-export let FaHackerNewsSquareBrand = {
+export let FaHackerNewsSquareBrands = {
   $_icon: {
     name: "HackerNewsSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["hacker","news","square"],
   },
   render() {
@@ -3920,11 +3920,11 @@ export let FaHackerNewsSquareBrand = {
     )
   }
 }
-export let FaHackerNewsBrand = {
+export let FaHackerNewsBrands = {
   $_icon: {
     name: "HackerNews",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["hacker","news"],
   },
   render() {
@@ -3940,11 +3940,11 @@ export let FaHackerNewsBrand = {
     )
   }
 }
-export let FaHackerrankBrand = {
+export let FaHackerrankBrands = {
   $_icon: {
     name: "Hackerrank",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["hackerrank"],
   },
   render() {
@@ -3960,11 +3960,11 @@ export let FaHackerrankBrand = {
     )
   }
 }
-export let FaHashnodeBrand = {
+export let FaHashnodeBrands = {
   $_icon: {
     name: "Hashnode",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["hashnode"],
   },
   render() {
@@ -3980,11 +3980,11 @@ export let FaHashnodeBrand = {
     )
   }
 }
-export let FaHipsBrand = {
+export let FaHipsBrands = {
   $_icon: {
     name: "Hips",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["hips"],
   },
   render() {
@@ -4000,11 +4000,11 @@ export let FaHipsBrand = {
     )
   }
 }
-export let FaHireAHelperBrand = {
+export let FaHireAHelperBrands = {
   $_icon: {
     name: "HireAHelper",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["hire","a","helper"],
   },
   render() {
@@ -4020,11 +4020,11 @@ export let FaHireAHelperBrand = {
     )
   }
 }
-export let FaHiveBrand = {
+export let FaHiveBrands = {
   $_icon: {
     name: "Hive",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["hive"],
   },
   render() {
@@ -4040,11 +4040,11 @@ export let FaHiveBrand = {
     )
   }
 }
-export let FaHooliBrand = {
+export let FaHooliBrands = {
   $_icon: {
     name: "Hooli",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["hooli"],
   },
   render() {
@@ -4060,11 +4060,11 @@ export let FaHooliBrand = {
     )
   }
 }
-export let FaHornbillBrand = {
+export let FaHornbillBrands = {
   $_icon: {
     name: "Hornbill",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["hornbill"],
   },
   render() {
@@ -4080,11 +4080,11 @@ export let FaHornbillBrand = {
     )
   }
 }
-export let FaHotjarBrand = {
+export let FaHotjarBrands = {
   $_icon: {
     name: "Hotjar",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["hotjar"],
   },
   render() {
@@ -4100,11 +4100,11 @@ export let FaHotjarBrand = {
     )
   }
 }
-export let FaHouzzBrand = {
+export let FaHouzzBrands = {
   $_icon: {
     name: "Houzz",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["houzz"],
   },
   render() {
@@ -4120,11 +4120,11 @@ export let FaHouzzBrand = {
     )
   }
 }
-export let FaHtml5Brand = {
+export let FaHtml5Brands = {
   $_icon: {
     name: "Html5",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["html5"],
   },
   render() {
@@ -4140,11 +4140,11 @@ export let FaHtml5Brand = {
     )
   }
 }
-export let FaHubspotBrand = {
+export let FaHubspotBrands = {
   $_icon: {
     name: "Hubspot",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["hubspot"],
   },
   render() {
@@ -4160,11 +4160,11 @@ export let FaHubspotBrand = {
     )
   }
 }
-export let FaIdealBrand = {
+export let FaIdealBrands = {
   $_icon: {
     name: "Ideal",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["ideal"],
   },
   render() {
@@ -4180,11 +4180,11 @@ export let FaIdealBrand = {
     )
   }
 }
-export let FaImdbBrand = {
+export let FaImdbBrands = {
   $_icon: {
     name: "Imdb",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["imdb"],
   },
   render() {
@@ -4200,11 +4200,11 @@ export let FaImdbBrand = {
     )
   }
 }
-export let FaInstagramSquareBrand = {
+export let FaInstagramSquareBrands = {
   $_icon: {
     name: "InstagramSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["instagram","square"],
   },
   render() {
@@ -4220,11 +4220,11 @@ export let FaInstagramSquareBrand = {
     )
   }
 }
-export let FaInstagramBrand = {
+export let FaInstagramBrands = {
   $_icon: {
     name: "Instagram",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["instagram"],
   },
   render() {
@@ -4240,11 +4240,11 @@ export let FaInstagramBrand = {
     )
   }
 }
-export let FaInstalodBrand = {
+export let FaInstalodBrands = {
   $_icon: {
     name: "Instalod",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["instalod"],
   },
   render() {
@@ -4260,11 +4260,11 @@ export let FaInstalodBrand = {
     )
   }
 }
-export let FaIntercomBrand = {
+export let FaIntercomBrands = {
   $_icon: {
     name: "Intercom",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["intercom"],
   },
   render() {
@@ -4280,11 +4280,11 @@ export let FaIntercomBrand = {
     )
   }
 }
-export let FaInternetExplorerBrand = {
+export let FaInternetExplorerBrands = {
   $_icon: {
     name: "InternetExplorer",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["internet","explorer"],
   },
   render() {
@@ -4300,11 +4300,11 @@ export let FaInternetExplorerBrand = {
     )
   }
 }
-export let FaInvisionBrand = {
+export let FaInvisionBrands = {
   $_icon: {
     name: "Invision",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["invision"],
   },
   render() {
@@ -4320,11 +4320,11 @@ export let FaInvisionBrand = {
     )
   }
 }
-export let FaIoxhostBrand = {
+export let FaIoxhostBrands = {
   $_icon: {
     name: "Ioxhost",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["ioxhost"],
   },
   render() {
@@ -4340,11 +4340,11 @@ export let FaIoxhostBrand = {
     )
   }
 }
-export let FaItchIoBrand = {
+export let FaItchIoBrands = {
   $_icon: {
     name: "ItchIo",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["itch","io"],
   },
   render() {
@@ -4360,11 +4360,11 @@ export let FaItchIoBrand = {
     )
   }
 }
-export let FaItunesNoteBrand = {
+export let FaItunesNoteBrands = {
   $_icon: {
     name: "ItunesNote",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["itunes","note"],
   },
   render() {
@@ -4380,11 +4380,11 @@ export let FaItunesNoteBrand = {
     )
   }
 }
-export let FaItunesBrand = {
+export let FaItunesBrands = {
   $_icon: {
     name: "Itunes",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["itunes"],
   },
   render() {
@@ -4400,11 +4400,11 @@ export let FaItunesBrand = {
     )
   }
 }
-export let FaJavaBrand = {
+export let FaJavaBrands = {
   $_icon: {
     name: "Java",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["java"],
   },
   render() {
@@ -4420,11 +4420,11 @@ export let FaJavaBrand = {
     )
   }
 }
-export let FaJediOrderBrand = {
+export let FaJediOrderBrands = {
   $_icon: {
     name: "JediOrder",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["jedi","order"],
   },
   render() {
@@ -4440,11 +4440,11 @@ export let FaJediOrderBrand = {
     )
   }
 }
-export let FaJenkinsBrand = {
+export let FaJenkinsBrands = {
   $_icon: {
     name: "Jenkins",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["jenkins"],
   },
   render() {
@@ -4460,11 +4460,11 @@ export let FaJenkinsBrand = {
     )
   }
 }
-export let FaJiraBrand = {
+export let FaJiraBrands = {
   $_icon: {
     name: "Jira",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["jira"],
   },
   render() {
@@ -4480,11 +4480,11 @@ export let FaJiraBrand = {
     )
   }
 }
-export let FaJogetBrand = {
+export let FaJogetBrands = {
   $_icon: {
     name: "Joget",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["joget"],
   },
   render() {
@@ -4500,11 +4500,11 @@ export let FaJogetBrand = {
     )
   }
 }
-export let FaJoomlaBrand = {
+export let FaJoomlaBrands = {
   $_icon: {
     name: "Joomla",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["joomla"],
   },
   render() {
@@ -4520,11 +4520,11 @@ export let FaJoomlaBrand = {
     )
   }
 }
-export let FaJsSquareBrand = {
+export let FaJsSquareBrands = {
   $_icon: {
     name: "JsSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["js","square"],
   },
   render() {
@@ -4540,11 +4540,11 @@ export let FaJsSquareBrand = {
     )
   }
 }
-export let FaJsBrand = {
+export let FaJsBrands = {
   $_icon: {
     name: "Js",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["js"],
   },
   render() {
@@ -4560,11 +4560,11 @@ export let FaJsBrand = {
     )
   }
 }
-export let FaJsfiddleBrand = {
+export let FaJsfiddleBrands = {
   $_icon: {
     name: "Jsfiddle",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["jsfiddle"],
   },
   render() {
@@ -4580,11 +4580,11 @@ export let FaJsfiddleBrand = {
     )
   }
 }
-export let FaKaggleBrand = {
+export let FaKaggleBrands = {
   $_icon: {
     name: "Kaggle",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["kaggle"],
   },
   render() {
@@ -4600,11 +4600,11 @@ export let FaKaggleBrand = {
     )
   }
 }
-export let FaKeybaseBrand = {
+export let FaKeybaseBrands = {
   $_icon: {
     name: "Keybase",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["keybase"],
   },
   render() {
@@ -4620,11 +4620,11 @@ export let FaKeybaseBrand = {
     )
   }
 }
-export let FaKeycdnBrand = {
+export let FaKeycdnBrands = {
   $_icon: {
     name: "Keycdn",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["keycdn"],
   },
   render() {
@@ -4640,11 +4640,11 @@ export let FaKeycdnBrand = {
     )
   }
 }
-export let FaKickstarterKBrand = {
+export let FaKickstarterKBrands = {
   $_icon: {
     name: "KickstarterK",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["kickstarter","k"],
   },
   render() {
@@ -4660,11 +4660,11 @@ export let FaKickstarterKBrand = {
     )
   }
 }
-export let FaKickstarterBrand = {
+export let FaKickstarterBrands = {
   $_icon: {
     name: "Kickstarter",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["kickstarter"],
   },
   render() {
@@ -4680,11 +4680,11 @@ export let FaKickstarterBrand = {
     )
   }
 }
-export let FaKorvueBrand = {
+export let FaKorvueBrands = {
   $_icon: {
     name: "Korvue",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["korvue"],
   },
   render() {
@@ -4700,11 +4700,11 @@ export let FaKorvueBrand = {
     )
   }
 }
-export let FaLaravelBrand = {
+export let FaLaravelBrands = {
   $_icon: {
     name: "Laravel",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["laravel"],
   },
   render() {
@@ -4720,11 +4720,11 @@ export let FaLaravelBrand = {
     )
   }
 }
-export let FaLastfmSquareBrand = {
+export let FaLastfmSquareBrands = {
   $_icon: {
     name: "LastfmSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["lastfm","square"],
   },
   render() {
@@ -4740,11 +4740,11 @@ export let FaLastfmSquareBrand = {
     )
   }
 }
-export let FaLastfmBrand = {
+export let FaLastfmBrands = {
   $_icon: {
     name: "Lastfm",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["lastfm"],
   },
   render() {
@@ -4760,11 +4760,11 @@ export let FaLastfmBrand = {
     )
   }
 }
-export let FaLeanpubBrand = {
+export let FaLeanpubBrands = {
   $_icon: {
     name: "Leanpub",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["leanpub"],
   },
   render() {
@@ -4780,11 +4780,11 @@ export let FaLeanpubBrand = {
     )
   }
 }
-export let FaLessBrand = {
+export let FaLessBrands = {
   $_icon: {
     name: "Less",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["less"],
   },
   render() {
@@ -4800,11 +4800,11 @@ export let FaLessBrand = {
     )
   }
 }
-export let FaLineBrand = {
+export let FaLineBrands = {
   $_icon: {
     name: "Line",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["line"],
   },
   render() {
@@ -4820,11 +4820,11 @@ export let FaLineBrand = {
     )
   }
 }
-export let FaLinkedinInBrand = {
+export let FaLinkedinInBrands = {
   $_icon: {
     name: "LinkedinIn",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["linkedin","in"],
   },
   render() {
@@ -4840,11 +4840,11 @@ export let FaLinkedinInBrand = {
     )
   }
 }
-export let FaLinkedinBrand = {
+export let FaLinkedinBrands = {
   $_icon: {
     name: "Linkedin",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["linkedin"],
   },
   render() {
@@ -4860,11 +4860,11 @@ export let FaLinkedinBrand = {
     )
   }
 }
-export let FaLinodeBrand = {
+export let FaLinodeBrands = {
   $_icon: {
     name: "Linode",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["linode"],
   },
   render() {
@@ -4880,11 +4880,11 @@ export let FaLinodeBrand = {
     )
   }
 }
-export let FaLinuxBrand = {
+export let FaLinuxBrands = {
   $_icon: {
     name: "Linux",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["linux"],
   },
   render() {
@@ -4900,11 +4900,11 @@ export let FaLinuxBrand = {
     )
   }
 }
-export let FaLyftBrand = {
+export let FaLyftBrands = {
   $_icon: {
     name: "Lyft",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["lyft"],
   },
   render() {
@@ -4920,11 +4920,11 @@ export let FaLyftBrand = {
     )
   }
 }
-export let FaMagentoBrand = {
+export let FaMagentoBrands = {
   $_icon: {
     name: "Magento",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["magento"],
   },
   render() {
@@ -4940,11 +4940,11 @@ export let FaMagentoBrand = {
     )
   }
 }
-export let FaMailchimpBrand = {
+export let FaMailchimpBrands = {
   $_icon: {
     name: "Mailchimp",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["mailchimp"],
   },
   render() {
@@ -4960,11 +4960,11 @@ export let FaMailchimpBrand = {
     )
   }
 }
-export let FaMandalorianBrand = {
+export let FaMandalorianBrands = {
   $_icon: {
     name: "Mandalorian",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["mandalorian"],
   },
   render() {
@@ -4980,11 +4980,11 @@ export let FaMandalorianBrand = {
     )
   }
 }
-export let FaMarkdownBrand = {
+export let FaMarkdownBrands = {
   $_icon: {
     name: "Markdown",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["markdown"],
   },
   render() {
@@ -5000,11 +5000,11 @@ export let FaMarkdownBrand = {
     )
   }
 }
-export let FaMastodonBrand = {
+export let FaMastodonBrands = {
   $_icon: {
     name: "Mastodon",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["mastodon"],
   },
   render() {
@@ -5020,11 +5020,11 @@ export let FaMastodonBrand = {
     )
   }
 }
-export let FaMaxcdnBrand = {
+export let FaMaxcdnBrands = {
   $_icon: {
     name: "Maxcdn",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["maxcdn"],
   },
   render() {
@@ -5040,11 +5040,11 @@ export let FaMaxcdnBrand = {
     )
   }
 }
-export let FaMdbBrand = {
+export let FaMdbBrands = {
   $_icon: {
     name: "Mdb",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["mdb"],
   },
   render() {
@@ -5060,11 +5060,11 @@ export let FaMdbBrand = {
     )
   }
 }
-export let FaMedappsBrand = {
+export let FaMedappsBrands = {
   $_icon: {
     name: "Medapps",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["medapps"],
   },
   render() {
@@ -5080,11 +5080,11 @@ export let FaMedappsBrand = {
     )
   }
 }
-export let FaMediumBrand = {
+export let FaMediumBrands = {
   $_icon: {
     name: "Medium",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["medium"],
   },
   render() {
@@ -5100,11 +5100,11 @@ export let FaMediumBrand = {
     )
   }
 }
-export let FaMedrtBrand = {
+export let FaMedrtBrands = {
   $_icon: {
     name: "Medrt",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["medrt"],
   },
   render() {
@@ -5120,11 +5120,11 @@ export let FaMedrtBrand = {
     )
   }
 }
-export let FaMeetupBrand = {
+export let FaMeetupBrands = {
   $_icon: {
     name: "Meetup",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["meetup"],
   },
   render() {
@@ -5140,11 +5140,11 @@ export let FaMeetupBrand = {
     )
   }
 }
-export let FaMegaportBrand = {
+export let FaMegaportBrands = {
   $_icon: {
     name: "Megaport",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["megaport"],
   },
   render() {
@@ -5160,11 +5160,11 @@ export let FaMegaportBrand = {
     )
   }
 }
-export let FaMendeleyBrand = {
+export let FaMendeleyBrands = {
   $_icon: {
     name: "Mendeley",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["mendeley"],
   },
   render() {
@@ -5180,11 +5180,11 @@ export let FaMendeleyBrand = {
     )
   }
 }
-export let FaMicroblogBrand = {
+export let FaMicroblogBrands = {
   $_icon: {
     name: "Microblog",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["microblog"],
   },
   render() {
@@ -5200,11 +5200,11 @@ export let FaMicroblogBrand = {
     )
   }
 }
-export let FaMicrosoftBrand = {
+export let FaMicrosoftBrands = {
   $_icon: {
     name: "Microsoft",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["microsoft"],
   },
   render() {
@@ -5220,11 +5220,11 @@ export let FaMicrosoftBrand = {
     )
   }
 }
-export let FaMixBrand = {
+export let FaMixBrands = {
   $_icon: {
     name: "Mix",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["mix"],
   },
   render() {
@@ -5240,11 +5240,11 @@ export let FaMixBrand = {
     )
   }
 }
-export let FaMixcloudBrand = {
+export let FaMixcloudBrands = {
   $_icon: {
     name: "Mixcloud",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["mixcloud"],
   },
   render() {
@@ -5260,11 +5260,11 @@ export let FaMixcloudBrand = {
     )
   }
 }
-export let FaMixerBrand = {
+export let FaMixerBrands = {
   $_icon: {
     name: "Mixer",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["mixer"],
   },
   render() {
@@ -5280,11 +5280,11 @@ export let FaMixerBrand = {
     )
   }
 }
-export let FaMizuniBrand = {
+export let FaMizuniBrands = {
   $_icon: {
     name: "Mizuni",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["mizuni"],
   },
   render() {
@@ -5300,11 +5300,11 @@ export let FaMizuniBrand = {
     )
   }
 }
-export let FaModxBrand = {
+export let FaModxBrands = {
   $_icon: {
     name: "Modx",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["modx"],
   },
   render() {
@@ -5320,11 +5320,11 @@ export let FaModxBrand = {
     )
   }
 }
-export let FaMoneroBrand = {
+export let FaMoneroBrands = {
   $_icon: {
     name: "Monero",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["monero"],
   },
   render() {
@@ -5340,11 +5340,11 @@ export let FaMoneroBrand = {
     )
   }
 }
-export let FaNapsterBrand = {
+export let FaNapsterBrands = {
   $_icon: {
     name: "Napster",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["napster"],
   },
   render() {
@@ -5360,11 +5360,11 @@ export let FaNapsterBrand = {
     )
   }
 }
-export let FaNeosBrand = {
+export let FaNeosBrands = {
   $_icon: {
     name: "Neos",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["neos"],
   },
   render() {
@@ -5380,11 +5380,11 @@ export let FaNeosBrand = {
     )
   }
 }
-export let FaNfcDirectionalBrand = {
+export let FaNfcDirectionalBrands = {
   $_icon: {
     name: "NfcDirectional",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["nfc","directional"],
   },
   render() {
@@ -5400,11 +5400,11 @@ export let FaNfcDirectionalBrand = {
     )
   }
 }
-export let FaNfcSymbolBrand = {
+export let FaNfcSymbolBrands = {
   $_icon: {
     name: "NfcSymbol",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["nfc","symbol"],
   },
   render() {
@@ -5420,11 +5420,11 @@ export let FaNfcSymbolBrand = {
     )
   }
 }
-export let FaNimblrBrand = {
+export let FaNimblrBrands = {
   $_icon: {
     name: "Nimblr",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["nimblr"],
   },
   render() {
@@ -5440,11 +5440,11 @@ export let FaNimblrBrand = {
     )
   }
 }
-export let FaNodeJsBrand = {
+export let FaNodeJsBrands = {
   $_icon: {
     name: "NodeJs",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["node","js"],
   },
   render() {
@@ -5460,11 +5460,11 @@ export let FaNodeJsBrand = {
     )
   }
 }
-export let FaNodeBrand = {
+export let FaNodeBrands = {
   $_icon: {
     name: "Node",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["node"],
   },
   render() {
@@ -5480,11 +5480,11 @@ export let FaNodeBrand = {
     )
   }
 }
-export let FaNpmBrand = {
+export let FaNpmBrands = {
   $_icon: {
     name: "Npm",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["npm"],
   },
   render() {
@@ -5500,11 +5500,11 @@ export let FaNpmBrand = {
     )
   }
 }
-export let FaNs8Brand = {
+export let FaNs8Brands = {
   $_icon: {
     name: "Ns8",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["ns8"],
   },
   render() {
@@ -5520,11 +5520,11 @@ export let FaNs8Brand = {
     )
   }
 }
-export let FaNutritionixBrand = {
+export let FaNutritionixBrands = {
   $_icon: {
     name: "Nutritionix",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["nutritionix"],
   },
   render() {
@@ -5540,11 +5540,11 @@ export let FaNutritionixBrand = {
     )
   }
 }
-export let FaOctopusDeployBrand = {
+export let FaOctopusDeployBrands = {
   $_icon: {
     name: "OctopusDeploy",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["octopus","deploy"],
   },
   render() {
@@ -5560,11 +5560,11 @@ export let FaOctopusDeployBrand = {
     )
   }
 }
-export let FaOdnoklassnikiSquareBrand = {
+export let FaOdnoklassnikiSquareBrands = {
   $_icon: {
     name: "OdnoklassnikiSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["odnoklassniki","square"],
   },
   render() {
@@ -5580,11 +5580,11 @@ export let FaOdnoklassnikiSquareBrand = {
     )
   }
 }
-export let FaOdnoklassnikiBrand = {
+export let FaOdnoklassnikiBrands = {
   $_icon: {
     name: "Odnoklassniki",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["odnoklassniki"],
   },
   render() {
@@ -5600,11 +5600,11 @@ export let FaOdnoklassnikiBrand = {
     )
   }
 }
-export let FaOldRepublicBrand = {
+export let FaOldRepublicBrands = {
   $_icon: {
     name: "OldRepublic",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["old","republic"],
   },
   render() {
@@ -5620,11 +5620,11 @@ export let FaOldRepublicBrand = {
     )
   }
 }
-export let FaOpencartBrand = {
+export let FaOpencartBrands = {
   $_icon: {
     name: "Opencart",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["opencart"],
   },
   render() {
@@ -5640,11 +5640,11 @@ export let FaOpencartBrand = {
     )
   }
 }
-export let FaOpenidBrand = {
+export let FaOpenidBrands = {
   $_icon: {
     name: "Openid",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["openid"],
   },
   render() {
@@ -5660,11 +5660,11 @@ export let FaOpenidBrand = {
     )
   }
 }
-export let FaOperaBrand = {
+export let FaOperaBrands = {
   $_icon: {
     name: "Opera",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["opera"],
   },
   render() {
@@ -5680,11 +5680,11 @@ export let FaOperaBrand = {
     )
   }
 }
-export let FaOptinMonsterBrand = {
+export let FaOptinMonsterBrands = {
   $_icon: {
     name: "OptinMonster",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["optin","monster"],
   },
   render() {
@@ -5700,11 +5700,11 @@ export let FaOptinMonsterBrand = {
     )
   }
 }
-export let FaOrcidBrand = {
+export let FaOrcidBrands = {
   $_icon: {
     name: "Orcid",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["orcid"],
   },
   render() {
@@ -5720,11 +5720,11 @@ export let FaOrcidBrand = {
     )
   }
 }
-export let FaOsiBrand = {
+export let FaOsiBrands = {
   $_icon: {
     name: "Osi",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["osi"],
   },
   render() {
@@ -5740,11 +5740,11 @@ export let FaOsiBrand = {
     )
   }
 }
-export let FaPadletBrand = {
+export let FaPadletBrands = {
   $_icon: {
     name: "Padlet",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["padlet"],
   },
   render() {
@@ -5760,11 +5760,11 @@ export let FaPadletBrand = {
     )
   }
 }
-export let FaPage4Brand = {
+export let FaPage4Brands = {
   $_icon: {
     name: "Page4",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["page4"],
   },
   render() {
@@ -5780,11 +5780,11 @@ export let FaPage4Brand = {
     )
   }
 }
-export let FaPagelinesBrand = {
+export let FaPagelinesBrands = {
   $_icon: {
     name: "Pagelines",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["pagelines"],
   },
   render() {
@@ -5800,11 +5800,11 @@ export let FaPagelinesBrand = {
     )
   }
 }
-export let FaPalfedBrand = {
+export let FaPalfedBrands = {
   $_icon: {
     name: "Palfed",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["palfed"],
   },
   render() {
@@ -5820,11 +5820,11 @@ export let FaPalfedBrand = {
     )
   }
 }
-export let FaPatreonBrand = {
+export let FaPatreonBrands = {
   $_icon: {
     name: "Patreon",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["patreon"],
   },
   render() {
@@ -5840,11 +5840,11 @@ export let FaPatreonBrand = {
     )
   }
 }
-export let FaPaypalBrand = {
+export let FaPaypalBrands = {
   $_icon: {
     name: "Paypal",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["paypal"],
   },
   render() {
@@ -5860,11 +5860,11 @@ export let FaPaypalBrand = {
     )
   }
 }
-export let FaPerbyteBrand = {
+export let FaPerbyteBrands = {
   $_icon: {
     name: "Perbyte",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["perbyte"],
   },
   render() {
@@ -5880,11 +5880,11 @@ export let FaPerbyteBrand = {
     )
   }
 }
-export let FaPeriscopeBrand = {
+export let FaPeriscopeBrands = {
   $_icon: {
     name: "Periscope",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["periscope"],
   },
   render() {
@@ -5900,11 +5900,11 @@ export let FaPeriscopeBrand = {
     )
   }
 }
-export let FaPhabricatorBrand = {
+export let FaPhabricatorBrands = {
   $_icon: {
     name: "Phabricator",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["phabricator"],
   },
   render() {
@@ -5920,11 +5920,11 @@ export let FaPhabricatorBrand = {
     )
   }
 }
-export let FaPhoenixFrameworkBrand = {
+export let FaPhoenixFrameworkBrands = {
   $_icon: {
     name: "PhoenixFramework",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["phoenix","framework"],
   },
   render() {
@@ -5940,11 +5940,11 @@ export let FaPhoenixFrameworkBrand = {
     )
   }
 }
-export let FaPhoenixSquadronBrand = {
+export let FaPhoenixSquadronBrands = {
   $_icon: {
     name: "PhoenixSquadron",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["phoenix","squadron"],
   },
   render() {
@@ -5960,11 +5960,11 @@ export let FaPhoenixSquadronBrand = {
     )
   }
 }
-export let FaPhpBrand = {
+export let FaPhpBrands = {
   $_icon: {
     name: "Php",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["php"],
   },
   render() {
@@ -5980,11 +5980,11 @@ export let FaPhpBrand = {
     )
   }
 }
-export let FaPiedPiperAltBrand = {
+export let FaPiedPiperAltBrands = {
   $_icon: {
     name: "PiedPiperAlt",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["pied","piper","alt"],
   },
   render() {
@@ -6000,11 +6000,11 @@ export let FaPiedPiperAltBrand = {
     )
   }
 }
-export let FaPiedPiperHatBrand = {
+export let FaPiedPiperHatBrands = {
   $_icon: {
     name: "PiedPiperHat",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["pied","piper","hat"],
   },
   render() {
@@ -6020,11 +6020,11 @@ export let FaPiedPiperHatBrand = {
     )
   }
 }
-export let FaPiedPiperPpBrand = {
+export let FaPiedPiperPpBrands = {
   $_icon: {
     name: "PiedPiperPp",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["pied","piper","pp"],
   },
   render() {
@@ -6040,11 +6040,11 @@ export let FaPiedPiperPpBrand = {
     )
   }
 }
-export let FaPiedPiperSquareBrand = {
+export let FaPiedPiperSquareBrands = {
   $_icon: {
     name: "PiedPiperSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["pied","piper","square"],
   },
   render() {
@@ -6060,11 +6060,11 @@ export let FaPiedPiperSquareBrand = {
     )
   }
 }
-export let FaPiedPiperBrand = {
+export let FaPiedPiperBrands = {
   $_icon: {
     name: "PiedPiper",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["pied","piper"],
   },
   render() {
@@ -6080,11 +6080,11 @@ export let FaPiedPiperBrand = {
     )
   }
 }
-export let FaPinterestPBrand = {
+export let FaPinterestPBrands = {
   $_icon: {
     name: "PinterestP",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["pinterest","p"],
   },
   render() {
@@ -6100,11 +6100,11 @@ export let FaPinterestPBrand = {
     )
   }
 }
-export let FaPinterestSquareBrand = {
+export let FaPinterestSquareBrands = {
   $_icon: {
     name: "PinterestSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["pinterest","square"],
   },
   render() {
@@ -6120,11 +6120,11 @@ export let FaPinterestSquareBrand = {
     )
   }
 }
-export let FaPinterestBrand = {
+export let FaPinterestBrands = {
   $_icon: {
     name: "Pinterest",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["pinterest"],
   },
   render() {
@@ -6140,11 +6140,11 @@ export let FaPinterestBrand = {
     )
   }
 }
-export let FaPixBrand = {
+export let FaPixBrands = {
   $_icon: {
     name: "Pix",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["pix"],
   },
   render() {
@@ -6160,11 +6160,11 @@ export let FaPixBrand = {
     )
   }
 }
-export let FaPlaystationBrand = {
+export let FaPlaystationBrands = {
   $_icon: {
     name: "Playstation",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["playstation"],
   },
   render() {
@@ -6180,11 +6180,11 @@ export let FaPlaystationBrand = {
     )
   }
 }
-export let FaProductHuntBrand = {
+export let FaProductHuntBrands = {
   $_icon: {
     name: "ProductHunt",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["product","hunt"],
   },
   render() {
@@ -6200,11 +6200,11 @@ export let FaProductHuntBrand = {
     )
   }
 }
-export let FaPushedBrand = {
+export let FaPushedBrands = {
   $_icon: {
     name: "Pushed",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["pushed"],
   },
   render() {
@@ -6220,11 +6220,11 @@ export let FaPushedBrand = {
     )
   }
 }
-export let FaPythonBrand = {
+export let FaPythonBrands = {
   $_icon: {
     name: "Python",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["python"],
   },
   render() {
@@ -6240,11 +6240,11 @@ export let FaPythonBrand = {
     )
   }
 }
-export let FaQqBrand = {
+export let FaQqBrands = {
   $_icon: {
     name: "Qq",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["qq"],
   },
   render() {
@@ -6260,11 +6260,11 @@ export let FaQqBrand = {
     )
   }
 }
-export let FaQuinscapeBrand = {
+export let FaQuinscapeBrands = {
   $_icon: {
     name: "Quinscape",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["quinscape"],
   },
   render() {
@@ -6280,11 +6280,11 @@ export let FaQuinscapeBrand = {
     )
   }
 }
-export let FaQuoraBrand = {
+export let FaQuoraBrands = {
   $_icon: {
     name: "Quora",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["quora"],
   },
   render() {
@@ -6300,11 +6300,11 @@ export let FaQuoraBrand = {
     )
   }
 }
-export let FaRProjectBrand = {
+export let FaRProjectBrands = {
   $_icon: {
     name: "RProject",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["r","project"],
   },
   render() {
@@ -6320,11 +6320,11 @@ export let FaRProjectBrand = {
     )
   }
 }
-export let FaRaspberryPiBrand = {
+export let FaRaspberryPiBrands = {
   $_icon: {
     name: "RaspberryPi",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["raspberry","pi"],
   },
   render() {
@@ -6340,11 +6340,11 @@ export let FaRaspberryPiBrand = {
     )
   }
 }
-export let FaRavelryBrand = {
+export let FaRavelryBrands = {
   $_icon: {
     name: "Ravelry",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["ravelry"],
   },
   render() {
@@ -6360,11 +6360,11 @@ export let FaRavelryBrand = {
     )
   }
 }
-export let FaReactBrand = {
+export let FaReactBrands = {
   $_icon: {
     name: "React",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["react"],
   },
   render() {
@@ -6380,11 +6380,11 @@ export let FaReactBrand = {
     )
   }
 }
-export let FaReacteuropeBrand = {
+export let FaReacteuropeBrands = {
   $_icon: {
     name: "Reacteurope",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["reacteurope"],
   },
   render() {
@@ -6400,11 +6400,11 @@ export let FaReacteuropeBrand = {
     )
   }
 }
-export let FaReadmeBrand = {
+export let FaReadmeBrands = {
   $_icon: {
     name: "Readme",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["readme"],
   },
   render() {
@@ -6420,11 +6420,11 @@ export let FaReadmeBrand = {
     )
   }
 }
-export let FaRebelBrand = {
+export let FaRebelBrands = {
   $_icon: {
     name: "Rebel",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["rebel"],
   },
   render() {
@@ -6440,11 +6440,11 @@ export let FaRebelBrand = {
     )
   }
 }
-export let FaRedRiverBrand = {
+export let FaRedRiverBrands = {
   $_icon: {
     name: "RedRiver",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["red","river"],
   },
   render() {
@@ -6460,11 +6460,11 @@ export let FaRedRiverBrand = {
     )
   }
 }
-export let FaRedditAlienBrand = {
+export let FaRedditAlienBrands = {
   $_icon: {
     name: "RedditAlien",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["reddit","alien"],
   },
   render() {
@@ -6480,11 +6480,11 @@ export let FaRedditAlienBrand = {
     )
   }
 }
-export let FaRedditSquareBrand = {
+export let FaRedditSquareBrands = {
   $_icon: {
     name: "RedditSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["reddit","square"],
   },
   render() {
@@ -6500,11 +6500,11 @@ export let FaRedditSquareBrand = {
     )
   }
 }
-export let FaRedditBrand = {
+export let FaRedditBrands = {
   $_icon: {
     name: "Reddit",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["reddit"],
   },
   render() {
@@ -6520,11 +6520,11 @@ export let FaRedditBrand = {
     )
   }
 }
-export let FaRedhatBrand = {
+export let FaRedhatBrands = {
   $_icon: {
     name: "Redhat",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["redhat"],
   },
   render() {
@@ -6540,11 +6540,11 @@ export let FaRedhatBrand = {
     )
   }
 }
-export let FaRenrenBrand = {
+export let FaRenrenBrands = {
   $_icon: {
     name: "Renren",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["renren"],
   },
   render() {
@@ -6560,11 +6560,11 @@ export let FaRenrenBrand = {
     )
   }
 }
-export let FaReplydBrand = {
+export let FaReplydBrands = {
   $_icon: {
     name: "Replyd",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["replyd"],
   },
   render() {
@@ -6580,11 +6580,11 @@ export let FaReplydBrand = {
     )
   }
 }
-export let FaResearchgateBrand = {
+export let FaResearchgateBrands = {
   $_icon: {
     name: "Researchgate",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["researchgate"],
   },
   render() {
@@ -6600,11 +6600,11 @@ export let FaResearchgateBrand = {
     )
   }
 }
-export let FaResolvingBrand = {
+export let FaResolvingBrands = {
   $_icon: {
     name: "Resolving",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["resolving"],
   },
   render() {
@@ -6620,11 +6620,11 @@ export let FaResolvingBrand = {
     )
   }
 }
-export let FaRevBrand = {
+export let FaRevBrands = {
   $_icon: {
     name: "Rev",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["rev"],
   },
   render() {
@@ -6640,11 +6640,11 @@ export let FaRevBrand = {
     )
   }
 }
-export let FaRocketchatBrand = {
+export let FaRocketchatBrands = {
   $_icon: {
     name: "Rocketchat",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["rocketchat"],
   },
   render() {
@@ -6660,11 +6660,11 @@ export let FaRocketchatBrand = {
     )
   }
 }
-export let FaRockrmsBrand = {
+export let FaRockrmsBrands = {
   $_icon: {
     name: "Rockrms",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["rockrms"],
   },
   render() {
@@ -6680,11 +6680,11 @@ export let FaRockrmsBrand = {
     )
   }
 }
-export let FaRustBrand = {
+export let FaRustBrands = {
   $_icon: {
     name: "Rust",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["rust"],
   },
   render() {
@@ -6700,11 +6700,11 @@ export let FaRustBrand = {
     )
   }
 }
-export let FaSafariBrand = {
+export let FaSafariBrands = {
   $_icon: {
     name: "Safari",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["safari"],
   },
   render() {
@@ -6720,11 +6720,11 @@ export let FaSafariBrand = {
     )
   }
 }
-export let FaSalesforceBrand = {
+export let FaSalesforceBrands = {
   $_icon: {
     name: "Salesforce",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["salesforce"],
   },
   render() {
@@ -6740,11 +6740,11 @@ export let FaSalesforceBrand = {
     )
   }
 }
-export let FaSassBrand = {
+export let FaSassBrands = {
   $_icon: {
     name: "Sass",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["sass"],
   },
   render() {
@@ -6760,11 +6760,11 @@ export let FaSassBrand = {
     )
   }
 }
-export let FaSchlixBrand = {
+export let FaSchlixBrands = {
   $_icon: {
     name: "Schlix",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["schlix"],
   },
   render() {
@@ -6780,11 +6780,11 @@ export let FaSchlixBrand = {
     )
   }
 }
-export let FaScreenpalBrand = {
+export let FaScreenpalBrands = {
   $_icon: {
     name: "Screenpal",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["screenpal"],
   },
   render() {
@@ -6800,11 +6800,11 @@ export let FaScreenpalBrand = {
     )
   }
 }
-export let FaScribdBrand = {
+export let FaScribdBrands = {
   $_icon: {
     name: "Scribd",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["scribd"],
   },
   render() {
@@ -6820,11 +6820,11 @@ export let FaScribdBrand = {
     )
   }
 }
-export let FaSearchenginBrand = {
+export let FaSearchenginBrands = {
   $_icon: {
     name: "Searchengin",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["searchengin"],
   },
   render() {
@@ -6840,11 +6840,11 @@ export let FaSearchenginBrand = {
     )
   }
 }
-export let FaSellcastBrand = {
+export let FaSellcastBrands = {
   $_icon: {
     name: "Sellcast",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["sellcast"],
   },
   render() {
@@ -6860,11 +6860,11 @@ export let FaSellcastBrand = {
     )
   }
 }
-export let FaSellsyBrand = {
+export let FaSellsyBrands = {
   $_icon: {
     name: "Sellsy",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["sellsy"],
   },
   render() {
@@ -6880,11 +6880,11 @@ export let FaSellsyBrand = {
     )
   }
 }
-export let FaServicestackBrand = {
+export let FaServicestackBrands = {
   $_icon: {
     name: "Servicestack",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["servicestack"],
   },
   render() {
@@ -6900,11 +6900,11 @@ export let FaServicestackBrand = {
     )
   }
 }
-export let FaShirtsinbulkBrand = {
+export let FaShirtsinbulkBrands = {
   $_icon: {
     name: "Shirtsinbulk",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["shirtsinbulk"],
   },
   render() {
@@ -6920,11 +6920,11 @@ export let FaShirtsinbulkBrand = {
     )
   }
 }
-export let FaShopifyBrand = {
+export let FaShopifyBrands = {
   $_icon: {
     name: "Shopify",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["shopify"],
   },
   render() {
@@ -6940,11 +6940,11 @@ export let FaShopifyBrand = {
     )
   }
 }
-export let FaShopwareBrand = {
+export let FaShopwareBrands = {
   $_icon: {
     name: "Shopware",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["shopware"],
   },
   render() {
@@ -6960,11 +6960,11 @@ export let FaShopwareBrand = {
     )
   }
 }
-export let FaSimplybuiltBrand = {
+export let FaSimplybuiltBrands = {
   $_icon: {
     name: "Simplybuilt",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["simplybuilt"],
   },
   render() {
@@ -6980,11 +6980,11 @@ export let FaSimplybuiltBrand = {
     )
   }
 }
-export let FaSistrixBrand = {
+export let FaSistrixBrands = {
   $_icon: {
     name: "Sistrix",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["sistrix"],
   },
   render() {
@@ -7000,11 +7000,11 @@ export let FaSistrixBrand = {
     )
   }
 }
-export let FaSithBrand = {
+export let FaSithBrands = {
   $_icon: {
     name: "Sith",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["sith"],
   },
   render() {
@@ -7020,11 +7020,11 @@ export let FaSithBrand = {
     )
   }
 }
-export let FaSitroxBrand = {
+export let FaSitroxBrands = {
   $_icon: {
     name: "Sitrox",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["sitrox"],
   },
   render() {
@@ -7040,11 +7040,11 @@ export let FaSitroxBrand = {
     )
   }
 }
-export let FaSketchBrand = {
+export let FaSketchBrands = {
   $_icon: {
     name: "Sketch",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["sketch"],
   },
   render() {
@@ -7060,11 +7060,11 @@ export let FaSketchBrand = {
     )
   }
 }
-export let FaSkyatlasBrand = {
+export let FaSkyatlasBrands = {
   $_icon: {
     name: "Skyatlas",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["skyatlas"],
   },
   render() {
@@ -7080,11 +7080,11 @@ export let FaSkyatlasBrand = {
     )
   }
 }
-export let FaSkypeBrand = {
+export let FaSkypeBrands = {
   $_icon: {
     name: "Skype",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["skype"],
   },
   render() {
@@ -7100,11 +7100,11 @@ export let FaSkypeBrand = {
     )
   }
 }
-export let FaSlackBrand = {
+export let FaSlackBrands = {
   $_icon: {
     name: "Slack",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["slack"],
   },
   render() {
@@ -7120,11 +7120,11 @@ export let FaSlackBrand = {
     )
   }
 }
-export let FaSlideshareBrand = {
+export let FaSlideshareBrands = {
   $_icon: {
     name: "Slideshare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["slideshare"],
   },
   render() {
@@ -7140,11 +7140,11 @@ export let FaSlideshareBrand = {
     )
   }
 }
-export let FaSnapchatSquareBrand = {
+export let FaSnapchatSquareBrands = {
   $_icon: {
     name: "SnapchatSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["snapchat","square"],
   },
   render() {
@@ -7160,11 +7160,11 @@ export let FaSnapchatSquareBrand = {
     )
   }
 }
-export let FaSnapchatBrand = {
+export let FaSnapchatBrands = {
   $_icon: {
     name: "Snapchat",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["snapchat"],
   },
   render() {
@@ -7180,11 +7180,11 @@ export let FaSnapchatBrand = {
     )
   }
 }
-export let FaSoundcloudBrand = {
+export let FaSoundcloudBrands = {
   $_icon: {
     name: "Soundcloud",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["soundcloud"],
   },
   render() {
@@ -7200,11 +7200,11 @@ export let FaSoundcloudBrand = {
     )
   }
 }
-export let FaSourcetreeBrand = {
+export let FaSourcetreeBrands = {
   $_icon: {
     name: "Sourcetree",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["sourcetree"],
   },
   render() {
@@ -7220,11 +7220,11 @@ export let FaSourcetreeBrand = {
     )
   }
 }
-export let FaSpeakapBrand = {
+export let FaSpeakapBrands = {
   $_icon: {
     name: "Speakap",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["speakap"],
   },
   render() {
@@ -7240,11 +7240,11 @@ export let FaSpeakapBrand = {
     )
   }
 }
-export let FaSpeakerDeckBrand = {
+export let FaSpeakerDeckBrands = {
   $_icon: {
     name: "SpeakerDeck",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["speaker","deck"],
   },
   render() {
@@ -7260,11 +7260,11 @@ export let FaSpeakerDeckBrand = {
     )
   }
 }
-export let FaSpotifyBrand = {
+export let FaSpotifyBrands = {
   $_icon: {
     name: "Spotify",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["spotify"],
   },
   render() {
@@ -7280,11 +7280,11 @@ export let FaSpotifyBrand = {
     )
   }
 }
-export let FaSquareFontAwesomeStrokeBrand = {
+export let FaSquareFontAwesomeStrokeBrands = {
   $_icon: {
     name: "SquareFontAwesomeStroke",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["square","font","awesome","stroke"],
   },
   render() {
@@ -7300,11 +7300,11 @@ export let FaSquareFontAwesomeStrokeBrand = {
     )
   }
 }
-export let FaSquareFontAwesomeBrand = {
+export let FaSquareFontAwesomeBrands = {
   $_icon: {
     name: "SquareFontAwesome",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["square","font","awesome"],
   },
   render() {
@@ -7320,11 +7320,11 @@ export let FaSquareFontAwesomeBrand = {
     )
   }
 }
-export let FaSquarespaceBrand = {
+export let FaSquarespaceBrands = {
   $_icon: {
     name: "Squarespace",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["squarespace"],
   },
   render() {
@@ -7340,11 +7340,11 @@ export let FaSquarespaceBrand = {
     )
   }
 }
-export let FaStackExchangeBrand = {
+export let FaStackExchangeBrands = {
   $_icon: {
     name: "StackExchange",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["stack","exchange"],
   },
   render() {
@@ -7360,11 +7360,11 @@ export let FaStackExchangeBrand = {
     )
   }
 }
-export let FaStackOverflowBrand = {
+export let FaStackOverflowBrands = {
   $_icon: {
     name: "StackOverflow",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["stack","overflow"],
   },
   render() {
@@ -7380,11 +7380,11 @@ export let FaStackOverflowBrand = {
     )
   }
 }
-export let FaStackpathBrand = {
+export let FaStackpathBrands = {
   $_icon: {
     name: "Stackpath",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["stackpath"],
   },
   render() {
@@ -7400,11 +7400,11 @@ export let FaStackpathBrand = {
     )
   }
 }
-export let FaStaylinkedBrand = {
+export let FaStaylinkedBrands = {
   $_icon: {
     name: "Staylinked",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["staylinked"],
   },
   render() {
@@ -7420,11 +7420,11 @@ export let FaStaylinkedBrand = {
     )
   }
 }
-export let FaSteamSquareBrand = {
+export let FaSteamSquareBrands = {
   $_icon: {
     name: "SteamSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["steam","square"],
   },
   render() {
@@ -7440,11 +7440,11 @@ export let FaSteamSquareBrand = {
     )
   }
 }
-export let FaSteamSymbolBrand = {
+export let FaSteamSymbolBrands = {
   $_icon: {
     name: "SteamSymbol",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["steam","symbol"],
   },
   render() {
@@ -7460,11 +7460,11 @@ export let FaSteamSymbolBrand = {
     )
   }
 }
-export let FaSteamBrand = {
+export let FaSteamBrands = {
   $_icon: {
     name: "Steam",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["steam"],
   },
   render() {
@@ -7480,11 +7480,11 @@ export let FaSteamBrand = {
     )
   }
 }
-export let FaStickerMuleBrand = {
+export let FaStickerMuleBrands = {
   $_icon: {
     name: "StickerMule",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["sticker","mule"],
   },
   render() {
@@ -7500,11 +7500,11 @@ export let FaStickerMuleBrand = {
     )
   }
 }
-export let FaStravaBrand = {
+export let FaStravaBrands = {
   $_icon: {
     name: "Strava",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["strava"],
   },
   render() {
@@ -7520,11 +7520,11 @@ export let FaStravaBrand = {
     )
   }
 }
-export let FaStripeSBrand = {
+export let FaStripeSBrands = {
   $_icon: {
     name: "StripeS",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["stripe","s"],
   },
   render() {
@@ -7540,11 +7540,11 @@ export let FaStripeSBrand = {
     )
   }
 }
-export let FaStripeBrand = {
+export let FaStripeBrands = {
   $_icon: {
     name: "Stripe",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["stripe"],
   },
   render() {
@@ -7560,11 +7560,11 @@ export let FaStripeBrand = {
     )
   }
 }
-export let FaStudiovinariBrand = {
+export let FaStudiovinariBrands = {
   $_icon: {
     name: "Studiovinari",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["studiovinari"],
   },
   render() {
@@ -7580,11 +7580,11 @@ export let FaStudiovinariBrand = {
     )
   }
 }
-export let FaStumbleuponCircleBrand = {
+export let FaStumbleuponCircleBrands = {
   $_icon: {
     name: "StumbleuponCircle",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["stumbleupon","circle"],
   },
   render() {
@@ -7600,11 +7600,11 @@ export let FaStumbleuponCircleBrand = {
     )
   }
 }
-export let FaStumbleuponBrand = {
+export let FaStumbleuponBrands = {
   $_icon: {
     name: "Stumbleupon",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["stumbleupon"],
   },
   render() {
@@ -7620,11 +7620,11 @@ export let FaStumbleuponBrand = {
     )
   }
 }
-export let FaSuperpowersBrand = {
+export let FaSuperpowersBrands = {
   $_icon: {
     name: "Superpowers",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["superpowers"],
   },
   render() {
@@ -7640,11 +7640,11 @@ export let FaSuperpowersBrand = {
     )
   }
 }
-export let FaSuppleBrand = {
+export let FaSuppleBrands = {
   $_icon: {
     name: "Supple",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["supple"],
   },
   render() {
@@ -7660,11 +7660,11 @@ export let FaSuppleBrand = {
     )
   }
 }
-export let FaSuseBrand = {
+export let FaSuseBrands = {
   $_icon: {
     name: "Suse",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["suse"],
   },
   render() {
@@ -7680,11 +7680,11 @@ export let FaSuseBrand = {
     )
   }
 }
-export let FaSwiftBrand = {
+export let FaSwiftBrands = {
   $_icon: {
     name: "Swift",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["swift"],
   },
   render() {
@@ -7700,11 +7700,11 @@ export let FaSwiftBrand = {
     )
   }
 }
-export let FaSymfonyBrand = {
+export let FaSymfonyBrands = {
   $_icon: {
     name: "Symfony",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["symfony"],
   },
   render() {
@@ -7720,11 +7720,11 @@ export let FaSymfonyBrand = {
     )
   }
 }
-export let FaTeamspeakBrand = {
+export let FaTeamspeakBrands = {
   $_icon: {
     name: "Teamspeak",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["teamspeak"],
   },
   render() {
@@ -7740,11 +7740,11 @@ export let FaTeamspeakBrand = {
     )
   }
 }
-export let FaTelegramBrand = {
+export let FaTelegramBrands = {
   $_icon: {
     name: "Telegram",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["telegram"],
   },
   render() {
@@ -7760,11 +7760,11 @@ export let FaTelegramBrand = {
     )
   }
 }
-export let FaTencentWeiboBrand = {
+export let FaTencentWeiboBrands = {
   $_icon: {
     name: "TencentWeibo",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["tencent","weibo"],
   },
   render() {
@@ -7780,11 +7780,11 @@ export let FaTencentWeiboBrand = {
     )
   }
 }
-export let FaTheRedYetiBrand = {
+export let FaTheRedYetiBrands = {
   $_icon: {
     name: "TheRedYeti",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["the","red","yeti"],
   },
   render() {
@@ -7800,11 +7800,11 @@ export let FaTheRedYetiBrand = {
     )
   }
 }
-export let FaThemecoBrand = {
+export let FaThemecoBrands = {
   $_icon: {
     name: "Themeco",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["themeco"],
   },
   render() {
@@ -7820,11 +7820,11 @@ export let FaThemecoBrand = {
     )
   }
 }
-export let FaThemeisleBrand = {
+export let FaThemeisleBrands = {
   $_icon: {
     name: "Themeisle",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["themeisle"],
   },
   render() {
@@ -7840,11 +7840,11 @@ export let FaThemeisleBrand = {
     )
   }
 }
-export let FaThinkPeaksBrand = {
+export let FaThinkPeaksBrands = {
   $_icon: {
     name: "ThinkPeaks",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["think","peaks"],
   },
   render() {
@@ -7860,11 +7860,11 @@ export let FaThinkPeaksBrand = {
     )
   }
 }
-export let FaTiktokBrand = {
+export let FaTiktokBrands = {
   $_icon: {
     name: "Tiktok",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["tiktok"],
   },
   render() {
@@ -7880,11 +7880,11 @@ export let FaTiktokBrand = {
     )
   }
 }
-export let FaTradeFederationBrand = {
+export let FaTradeFederationBrands = {
   $_icon: {
     name: "TradeFederation",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["trade","federation"],
   },
   render() {
@@ -7900,11 +7900,11 @@ export let FaTradeFederationBrand = {
     )
   }
 }
-export let FaTrelloBrand = {
+export let FaTrelloBrands = {
   $_icon: {
     name: "Trello",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["trello"],
   },
   render() {
@@ -7920,11 +7920,11 @@ export let FaTrelloBrand = {
     )
   }
 }
-export let FaTumblrSquareBrand = {
+export let FaTumblrSquareBrands = {
   $_icon: {
     name: "TumblrSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["tumblr","square"],
   },
   render() {
@@ -7940,11 +7940,11 @@ export let FaTumblrSquareBrand = {
     )
   }
 }
-export let FaTumblrBrand = {
+export let FaTumblrBrands = {
   $_icon: {
     name: "Tumblr",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["tumblr"],
   },
   render() {
@@ -7960,11 +7960,11 @@ export let FaTumblrBrand = {
     )
   }
 }
-export let FaTwitchBrand = {
+export let FaTwitchBrands = {
   $_icon: {
     name: "Twitch",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["twitch"],
   },
   render() {
@@ -7980,11 +7980,11 @@ export let FaTwitchBrand = {
     )
   }
 }
-export let FaTwitterSquareBrand = {
+export let FaTwitterSquareBrands = {
   $_icon: {
     name: "TwitterSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["twitter","square"],
   },
   render() {
@@ -8000,11 +8000,11 @@ export let FaTwitterSquareBrand = {
     )
   }
 }
-export let FaTwitterBrand = {
+export let FaTwitterBrands = {
   $_icon: {
     name: "Twitter",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["twitter"],
   },
   render() {
@@ -8020,11 +8020,11 @@ export let FaTwitterBrand = {
     )
   }
 }
-export let FaTypo3Brand = {
+export let FaTypo3Brands = {
   $_icon: {
     name: "Typo3",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["typo3"],
   },
   render() {
@@ -8040,11 +8040,11 @@ export let FaTypo3Brand = {
     )
   }
 }
-export let FaUberBrand = {
+export let FaUberBrands = {
   $_icon: {
     name: "Uber",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["uber"],
   },
   render() {
@@ -8060,11 +8060,11 @@ export let FaUberBrand = {
     )
   }
 }
-export let FaUbuntuBrand = {
+export let FaUbuntuBrands = {
   $_icon: {
     name: "Ubuntu",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["ubuntu"],
   },
   render() {
@@ -8080,11 +8080,11 @@ export let FaUbuntuBrand = {
     )
   }
 }
-export let FaUikitBrand = {
+export let FaUikitBrands = {
   $_icon: {
     name: "Uikit",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["uikit"],
   },
   render() {
@@ -8100,11 +8100,11 @@ export let FaUikitBrand = {
     )
   }
 }
-export let FaUmbracoBrand = {
+export let FaUmbracoBrands = {
   $_icon: {
     name: "Umbraco",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["umbraco"],
   },
   render() {
@@ -8120,11 +8120,11 @@ export let FaUmbracoBrand = {
     )
   }
 }
-export let FaUnchartedBrand = {
+export let FaUnchartedBrands = {
   $_icon: {
     name: "Uncharted",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["uncharted"],
   },
   render() {
@@ -8140,11 +8140,11 @@ export let FaUnchartedBrand = {
     )
   }
 }
-export let FaUniregistryBrand = {
+export let FaUniregistryBrands = {
   $_icon: {
     name: "Uniregistry",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["uniregistry"],
   },
   render() {
@@ -8160,11 +8160,11 @@ export let FaUniregistryBrand = {
     )
   }
 }
-export let FaUnityBrand = {
+export let FaUnityBrands = {
   $_icon: {
     name: "Unity",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["unity"],
   },
   render() {
@@ -8180,11 +8180,11 @@ export let FaUnityBrand = {
     )
   }
 }
-export let FaUnsplashBrand = {
+export let FaUnsplashBrands = {
   $_icon: {
     name: "Unsplash",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["unsplash"],
   },
   render() {
@@ -8200,11 +8200,11 @@ export let FaUnsplashBrand = {
     )
   }
 }
-export let FaUntappdBrand = {
+export let FaUntappdBrands = {
   $_icon: {
     name: "Untappd",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["untappd"],
   },
   render() {
@@ -8220,11 +8220,11 @@ export let FaUntappdBrand = {
     )
   }
 }
-export let FaUpsBrand = {
+export let FaUpsBrands = {
   $_icon: {
     name: "Ups",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["ups"],
   },
   render() {
@@ -8240,11 +8240,11 @@ export let FaUpsBrand = {
     )
   }
 }
-export let FaUsbBrand = {
+export let FaUsbBrands = {
   $_icon: {
     name: "Usb",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["usb"],
   },
   render() {
@@ -8260,11 +8260,11 @@ export let FaUsbBrand = {
     )
   }
 }
-export let FaUspsBrand = {
+export let FaUspsBrands = {
   $_icon: {
     name: "Usps",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["usps"],
   },
   render() {
@@ -8280,11 +8280,11 @@ export let FaUspsBrand = {
     )
   }
 }
-export let FaUssunnahBrand = {
+export let FaUssunnahBrands = {
   $_icon: {
     name: "Ussunnah",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["ussunnah"],
   },
   render() {
@@ -8300,11 +8300,11 @@ export let FaUssunnahBrand = {
     )
   }
 }
-export let FaVaadinBrand = {
+export let FaVaadinBrands = {
   $_icon: {
     name: "Vaadin",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["vaadin"],
   },
   render() {
@@ -8320,11 +8320,11 @@ export let FaVaadinBrand = {
     )
   }
 }
-export let FaViacoinBrand = {
+export let FaViacoinBrands = {
   $_icon: {
     name: "Viacoin",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["viacoin"],
   },
   render() {
@@ -8340,11 +8340,11 @@ export let FaViacoinBrand = {
     )
   }
 }
-export let FaViadeoSquareBrand = {
+export let FaViadeoSquareBrands = {
   $_icon: {
     name: "ViadeoSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["viadeo","square"],
   },
   render() {
@@ -8360,11 +8360,11 @@ export let FaViadeoSquareBrand = {
     )
   }
 }
-export let FaViadeoBrand = {
+export let FaViadeoBrands = {
   $_icon: {
     name: "Viadeo",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["viadeo"],
   },
   render() {
@@ -8380,11 +8380,11 @@ export let FaViadeoBrand = {
     )
   }
 }
-export let FaViberBrand = {
+export let FaViberBrands = {
   $_icon: {
     name: "Viber",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["viber"],
   },
   render() {
@@ -8400,11 +8400,11 @@ export let FaViberBrand = {
     )
   }
 }
-export let FaVimeoSquareBrand = {
+export let FaVimeoSquareBrands = {
   $_icon: {
     name: "VimeoSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["vimeo","square"],
   },
   render() {
@@ -8420,11 +8420,11 @@ export let FaVimeoSquareBrand = {
     )
   }
 }
-export let FaVimeoVBrand = {
+export let FaVimeoVBrands = {
   $_icon: {
     name: "VimeoV",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["vimeo","v"],
   },
   render() {
@@ -8440,11 +8440,11 @@ export let FaVimeoVBrand = {
     )
   }
 }
-export let FaVimeoBrand = {
+export let FaVimeoBrands = {
   $_icon: {
     name: "Vimeo",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["vimeo"],
   },
   render() {
@@ -8460,11 +8460,11 @@ export let FaVimeoBrand = {
     )
   }
 }
-export let FaVineBrand = {
+export let FaVineBrands = {
   $_icon: {
     name: "Vine",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["vine"],
   },
   render() {
@@ -8480,11 +8480,11 @@ export let FaVineBrand = {
     )
   }
 }
-export let FaVkBrand = {
+export let FaVkBrands = {
   $_icon: {
     name: "Vk",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["vk"],
   },
   render() {
@@ -8500,11 +8500,11 @@ export let FaVkBrand = {
     )
   }
 }
-export let FaVnvBrand = {
+export let FaVnvBrands = {
   $_icon: {
     name: "Vnv",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["vnv"],
   },
   render() {
@@ -8520,11 +8520,11 @@ export let FaVnvBrand = {
     )
   }
 }
-export let FaVuejsBrand = {
+export let FaVuejsBrands = {
   $_icon: {
     name: "Vuejs",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["vuejs"],
   },
   render() {
@@ -8540,11 +8540,11 @@ export let FaVuejsBrand = {
     )
   }
 }
-export let FaWatchmanMonitoringBrand = {
+export let FaWatchmanMonitoringBrands = {
   $_icon: {
     name: "WatchmanMonitoring",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["watchman","monitoring"],
   },
   render() {
@@ -8560,11 +8560,11 @@ export let FaWatchmanMonitoringBrand = {
     )
   }
 }
-export let FaWazeBrand = {
+export let FaWazeBrands = {
   $_icon: {
     name: "Waze",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["waze"],
   },
   render() {
@@ -8580,11 +8580,11 @@ export let FaWazeBrand = {
     )
   }
 }
-export let FaWeeblyBrand = {
+export let FaWeeblyBrands = {
   $_icon: {
     name: "Weebly",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["weebly"],
   },
   render() {
@@ -8600,11 +8600,11 @@ export let FaWeeblyBrand = {
     )
   }
 }
-export let FaWeiboBrand = {
+export let FaWeiboBrands = {
   $_icon: {
     name: "Weibo",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["weibo"],
   },
   render() {
@@ -8620,11 +8620,11 @@ export let FaWeiboBrand = {
     )
   }
 }
-export let FaWeixinBrand = {
+export let FaWeixinBrands = {
   $_icon: {
     name: "Weixin",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["weixin"],
   },
   render() {
@@ -8640,11 +8640,11 @@ export let FaWeixinBrand = {
     )
   }
 }
-export let FaWhatsappSquareBrand = {
+export let FaWhatsappSquareBrands = {
   $_icon: {
     name: "WhatsappSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["whatsapp","square"],
   },
   render() {
@@ -8660,11 +8660,11 @@ export let FaWhatsappSquareBrand = {
     )
   }
 }
-export let FaWhatsappBrand = {
+export let FaWhatsappBrands = {
   $_icon: {
     name: "Whatsapp",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["whatsapp"],
   },
   render() {
@@ -8680,11 +8680,11 @@ export let FaWhatsappBrand = {
     )
   }
 }
-export let FaWhmcsBrand = {
+export let FaWhmcsBrands = {
   $_icon: {
     name: "Whmcs",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["whmcs"],
   },
   render() {
@@ -8700,11 +8700,11 @@ export let FaWhmcsBrand = {
     )
   }
 }
-export let FaWikipediaWBrand = {
+export let FaWikipediaWBrands = {
   $_icon: {
     name: "WikipediaW",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["wikipedia","w"],
   },
   render() {
@@ -8720,11 +8720,11 @@ export let FaWikipediaWBrand = {
     )
   }
 }
-export let FaWindowsBrand = {
+export let FaWindowsBrands = {
   $_icon: {
     name: "Windows",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["windows"],
   },
   render() {
@@ -8740,11 +8740,11 @@ export let FaWindowsBrand = {
     )
   }
 }
-export let FaWirsindhandwerkBrand = {
+export let FaWirsindhandwerkBrands = {
   $_icon: {
     name: "Wirsindhandwerk",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["wirsindhandwerk"],
   },
   render() {
@@ -8760,11 +8760,11 @@ export let FaWirsindhandwerkBrand = {
     )
   }
 }
-export let FaWixBrand = {
+export let FaWixBrands = {
   $_icon: {
     name: "Wix",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["wix"],
   },
   render() {
@@ -8780,11 +8780,11 @@ export let FaWixBrand = {
     )
   }
 }
-export let FaWizardsOfTheCoastBrand = {
+export let FaWizardsOfTheCoastBrands = {
   $_icon: {
     name: "WizardsOfTheCoast",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["wizards","of","the","coast"],
   },
   render() {
@@ -8800,11 +8800,11 @@ export let FaWizardsOfTheCoastBrand = {
     )
   }
 }
-export let FaWoduBrand = {
+export let FaWoduBrands = {
   $_icon: {
     name: "Wodu",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["wodu"],
   },
   render() {
@@ -8820,11 +8820,11 @@ export let FaWoduBrand = {
     )
   }
 }
-export let FaWolfPackBattalionBrand = {
+export let FaWolfPackBattalionBrands = {
   $_icon: {
     name: "WolfPackBattalion",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["wolf","pack","battalion"],
   },
   render() {
@@ -8840,11 +8840,11 @@ export let FaWolfPackBattalionBrand = {
     )
   }
 }
-export let FaWordpressSimpleBrand = {
+export let FaWordpressSimpleBrands = {
   $_icon: {
     name: "WordpressSimple",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["wordpress","simple"],
   },
   render() {
@@ -8860,11 +8860,11 @@ export let FaWordpressSimpleBrand = {
     )
   }
 }
-export let FaWordpressBrand = {
+export let FaWordpressBrands = {
   $_icon: {
     name: "Wordpress",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["wordpress"],
   },
   render() {
@@ -8880,11 +8880,11 @@ export let FaWordpressBrand = {
     )
   }
 }
-export let FaWpbeginnerBrand = {
+export let FaWpbeginnerBrands = {
   $_icon: {
     name: "Wpbeginner",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["wpbeginner"],
   },
   render() {
@@ -8900,11 +8900,11 @@ export let FaWpbeginnerBrand = {
     )
   }
 }
-export let FaWpexplorerBrand = {
+export let FaWpexplorerBrands = {
   $_icon: {
     name: "Wpexplorer",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["wpexplorer"],
   },
   render() {
@@ -8920,11 +8920,11 @@ export let FaWpexplorerBrand = {
     )
   }
 }
-export let FaWpformsBrand = {
+export let FaWpformsBrands = {
   $_icon: {
     name: "Wpforms",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["wpforms"],
   },
   render() {
@@ -8940,11 +8940,11 @@ export let FaWpformsBrand = {
     )
   }
 }
-export let FaWpressrBrand = {
+export let FaWpressrBrands = {
   $_icon: {
     name: "Wpressr",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["wpressr"],
   },
   render() {
@@ -8960,11 +8960,11 @@ export let FaWpressrBrand = {
     )
   }
 }
-export let FaXboxBrand = {
+export let FaXboxBrands = {
   $_icon: {
     name: "Xbox",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["xbox"],
   },
   render() {
@@ -8980,11 +8980,11 @@ export let FaXboxBrand = {
     )
   }
 }
-export let FaXingSquareBrand = {
+export let FaXingSquareBrands = {
   $_icon: {
     name: "XingSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["xing","square"],
   },
   render() {
@@ -9000,11 +9000,11 @@ export let FaXingSquareBrand = {
     )
   }
 }
-export let FaXingBrand = {
+export let FaXingBrands = {
   $_icon: {
     name: "Xing",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["xing"],
   },
   render() {
@@ -9020,11 +9020,11 @@ export let FaXingBrand = {
     )
   }
 }
-export let FaYCombinatorBrand = {
+export let FaYCombinatorBrands = {
   $_icon: {
     name: "YCombinator",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["y","combinator"],
   },
   render() {
@@ -9040,11 +9040,11 @@ export let FaYCombinatorBrand = {
     )
   }
 }
-export let FaYahooBrand = {
+export let FaYahooBrands = {
   $_icon: {
     name: "Yahoo",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["yahoo"],
   },
   render() {
@@ -9060,11 +9060,11 @@ export let FaYahooBrand = {
     )
   }
 }
-export let FaYammerBrand = {
+export let FaYammerBrands = {
   $_icon: {
     name: "Yammer",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["yammer"],
   },
   render() {
@@ -9080,11 +9080,11 @@ export let FaYammerBrand = {
     )
   }
 }
-export let FaYandexInternationalBrand = {
+export let FaYandexInternationalBrands = {
   $_icon: {
     name: "YandexInternational",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["yandex","international"],
   },
   render() {
@@ -9100,11 +9100,11 @@ export let FaYandexInternationalBrand = {
     )
   }
 }
-export let FaYandexBrand = {
+export let FaYandexBrands = {
   $_icon: {
     name: "Yandex",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["yandex"],
   },
   render() {
@@ -9120,11 +9120,11 @@ export let FaYandexBrand = {
     )
   }
 }
-export let FaYarnBrand = {
+export let FaYarnBrands = {
   $_icon: {
     name: "Yarn",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["yarn"],
   },
   render() {
@@ -9140,11 +9140,11 @@ export let FaYarnBrand = {
     )
   }
 }
-export let FaYelpBrand = {
+export let FaYelpBrands = {
   $_icon: {
     name: "Yelp",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["yelp"],
   },
   render() {
@@ -9160,11 +9160,11 @@ export let FaYelpBrand = {
     )
   }
 }
-export let FaYoastBrand = {
+export let FaYoastBrands = {
   $_icon: {
     name: "Yoast",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["yoast"],
   },
   render() {
@@ -9180,11 +9180,11 @@ export let FaYoastBrand = {
     )
   }
 }
-export let FaYoutubeSquareBrand = {
+export let FaYoutubeSquareBrands = {
   $_icon: {
     name: "YoutubeSquare",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["youtube","square"],
   },
   render() {
@@ -9200,11 +9200,11 @@ export let FaYoutubeSquareBrand = {
     )
   }
 }
-export let FaYoutubeBrand = {
+export let FaYoutubeBrands = {
   $_icon: {
     name: "Youtube",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["youtube"],
   },
   render() {
@@ -9220,11 +9220,11 @@ export let FaYoutubeBrand = {
     )
   }
 }
-export let FaZhihuBrand = {
+export let FaZhihuBrands = {
   $_icon: {
     name: "Zhihu",
     vendor: "Fa",
-    type: "Brand",
+    type: ["Brands"],
     tags: ["zhihu"],
   },
   render() {
@@ -9244,7 +9244,7 @@ export let FaAddressBookRegular = {
   $_icon: {
     name: "AddressBook",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["address","book"],
   },
   render() {
@@ -9264,7 +9264,7 @@ export let FaAddressCardRegular = {
   $_icon: {
     name: "AddressCard",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["address","card"],
   },
   render() {
@@ -9284,7 +9284,7 @@ export let FaBellSlashRegular = {
   $_icon: {
     name: "BellSlash",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["bell","slash"],
   },
   render() {
@@ -9304,7 +9304,7 @@ export let FaBellRegular = {
   $_icon: {
     name: "Bell",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["bell"],
   },
   render() {
@@ -9324,7 +9324,7 @@ export let FaBookmarkRegular = {
   $_icon: {
     name: "Bookmark",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["bookmark"],
   },
   render() {
@@ -9344,7 +9344,7 @@ export let FaBuildingRegular = {
   $_icon: {
     name: "Building",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["building"],
   },
   render() {
@@ -9364,7 +9364,7 @@ export let FaCalendarCheckRegular = {
   $_icon: {
     name: "CalendarCheck",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["calendar","check"],
   },
   render() {
@@ -9384,7 +9384,7 @@ export let FaCalendarDaysRegular = {
   $_icon: {
     name: "CalendarDays",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["calendar","days"],
   },
   render() {
@@ -9404,7 +9404,7 @@ export let FaCalendarMinusRegular = {
   $_icon: {
     name: "CalendarMinus",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["calendar","minus"],
   },
   render() {
@@ -9424,7 +9424,7 @@ export let FaCalendarPlusRegular = {
   $_icon: {
     name: "CalendarPlus",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["calendar","plus"],
   },
   render() {
@@ -9444,7 +9444,7 @@ export let FaCalendarXmarkRegular = {
   $_icon: {
     name: "CalendarXmark",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["calendar","xmark"],
   },
   render() {
@@ -9464,7 +9464,7 @@ export let FaCalendarRegular = {
   $_icon: {
     name: "Calendar",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["calendar"],
   },
   render() {
@@ -9484,7 +9484,7 @@ export let FaChartBarRegular = {
   $_icon: {
     name: "ChartBar",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["chart","bar"],
   },
   render() {
@@ -9504,7 +9504,7 @@ export let FaChessBishopRegular = {
   $_icon: {
     name: "ChessBishop",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["chess","bishop"],
   },
   render() {
@@ -9524,7 +9524,7 @@ export let FaChessKingRegular = {
   $_icon: {
     name: "ChessKing",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["chess","king"],
   },
   render() {
@@ -9544,7 +9544,7 @@ export let FaChessKnightRegular = {
   $_icon: {
     name: "ChessKnight",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["chess","knight"],
   },
   render() {
@@ -9564,7 +9564,7 @@ export let FaChessPawnRegular = {
   $_icon: {
     name: "ChessPawn",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["chess","pawn"],
   },
   render() {
@@ -9584,7 +9584,7 @@ export let FaChessQueenRegular = {
   $_icon: {
     name: "ChessQueen",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["chess","queen"],
   },
   render() {
@@ -9604,7 +9604,7 @@ export let FaChessRookRegular = {
   $_icon: {
     name: "ChessRook",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["chess","rook"],
   },
   render() {
@@ -9624,7 +9624,7 @@ export let FaCircleCheckRegular = {
   $_icon: {
     name: "CircleCheck",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["circle","check"],
   },
   render() {
@@ -9644,7 +9644,7 @@ export let FaCircleDotRegular = {
   $_icon: {
     name: "CircleDot",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["circle","dot"],
   },
   render() {
@@ -9664,7 +9664,7 @@ export let FaCircleDownRegular = {
   $_icon: {
     name: "CircleDown",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["circle","down"],
   },
   render() {
@@ -9684,7 +9684,7 @@ export let FaCircleLeftRegular = {
   $_icon: {
     name: "CircleLeft",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["circle","left"],
   },
   render() {
@@ -9704,7 +9704,7 @@ export let FaCirclePauseRegular = {
   $_icon: {
     name: "CirclePause",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["circle","pause"],
   },
   render() {
@@ -9724,7 +9724,7 @@ export let FaCirclePlayRegular = {
   $_icon: {
     name: "CirclePlay",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["circle","play"],
   },
   render() {
@@ -9744,7 +9744,7 @@ export let FaCircleQuestionRegular = {
   $_icon: {
     name: "CircleQuestion",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["circle","question"],
   },
   render() {
@@ -9764,7 +9764,7 @@ export let FaCircleRightRegular = {
   $_icon: {
     name: "CircleRight",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["circle","right"],
   },
   render() {
@@ -9784,7 +9784,7 @@ export let FaCircleStopRegular = {
   $_icon: {
     name: "CircleStop",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["circle","stop"],
   },
   render() {
@@ -9804,7 +9804,7 @@ export let FaCircleUpRegular = {
   $_icon: {
     name: "CircleUp",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["circle","up"],
   },
   render() {
@@ -9824,7 +9824,7 @@ export let FaCircleUserRegular = {
   $_icon: {
     name: "CircleUser",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["circle","user"],
   },
   render() {
@@ -9844,7 +9844,7 @@ export let FaCircleXmarkRegular = {
   $_icon: {
     name: "CircleXmark",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["circle","xmark"],
   },
   render() {
@@ -9864,7 +9864,7 @@ export let FaCircleRegular = {
   $_icon: {
     name: "Circle",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["circle"],
   },
   render() {
@@ -9884,7 +9884,7 @@ export let FaClipboardRegular = {
   $_icon: {
     name: "Clipboard",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["clipboard"],
   },
   render() {
@@ -9904,7 +9904,7 @@ export let FaClockRegular = {
   $_icon: {
     name: "Clock",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["clock"],
   },
   render() {
@@ -9924,7 +9924,7 @@ export let FaCloneRegular = {
   $_icon: {
     name: "Clone",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["clone"],
   },
   render() {
@@ -9944,7 +9944,7 @@ export let FaClosedCaptioningRegular = {
   $_icon: {
     name: "ClosedCaptioning",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["closed","captioning"],
   },
   render() {
@@ -9964,7 +9964,7 @@ export let FaCommentDotsRegular = {
   $_icon: {
     name: "CommentDots",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["comment","dots"],
   },
   render() {
@@ -9984,7 +9984,7 @@ export let FaCommentRegular = {
   $_icon: {
     name: "Comment",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["comment"],
   },
   render() {
@@ -10004,7 +10004,7 @@ export let FaCommentsRegular = {
   $_icon: {
     name: "Comments",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["comments"],
   },
   render() {
@@ -10024,7 +10024,7 @@ export let FaCompassRegular = {
   $_icon: {
     name: "Compass",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["compass"],
   },
   render() {
@@ -10044,7 +10044,7 @@ export let FaCopyRegular = {
   $_icon: {
     name: "Copy",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["copy"],
   },
   render() {
@@ -10064,7 +10064,7 @@ export let FaCopyrightRegular = {
   $_icon: {
     name: "Copyright",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["copyright"],
   },
   render() {
@@ -10084,7 +10084,7 @@ export let FaCreditCardRegular = {
   $_icon: {
     name: "CreditCard",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["credit","card"],
   },
   render() {
@@ -10104,7 +10104,7 @@ export let FaEnvelopeOpenRegular = {
   $_icon: {
     name: "EnvelopeOpen",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["envelope","open"],
   },
   render() {
@@ -10124,7 +10124,7 @@ export let FaEnvelopeRegular = {
   $_icon: {
     name: "Envelope",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["envelope"],
   },
   render() {
@@ -10144,7 +10144,7 @@ export let FaEyeSlashRegular = {
   $_icon: {
     name: "EyeSlash",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["eye","slash"],
   },
   render() {
@@ -10164,7 +10164,7 @@ export let FaEyeRegular = {
   $_icon: {
     name: "Eye",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["eye"],
   },
   render() {
@@ -10184,7 +10184,7 @@ export let FaFaceAngryRegular = {
   $_icon: {
     name: "FaceAngry",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","angry"],
   },
   render() {
@@ -10204,7 +10204,7 @@ export let FaFaceDizzyRegular = {
   $_icon: {
     name: "FaceDizzy",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","dizzy"],
   },
   render() {
@@ -10224,7 +10224,7 @@ export let FaFaceFlushedRegular = {
   $_icon: {
     name: "FaceFlushed",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","flushed"],
   },
   render() {
@@ -10244,7 +10244,7 @@ export let FaFaceFrownOpenRegular = {
   $_icon: {
     name: "FaceFrownOpen",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","frown","open"],
   },
   render() {
@@ -10264,7 +10264,7 @@ export let FaFaceFrownRegular = {
   $_icon: {
     name: "FaceFrown",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","frown"],
   },
   render() {
@@ -10284,7 +10284,7 @@ export let FaFaceGrimaceRegular = {
   $_icon: {
     name: "FaceGrimace",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","grimace"],
   },
   render() {
@@ -10304,7 +10304,7 @@ export let FaFaceGrinBeamSweatRegular = {
   $_icon: {
     name: "FaceGrinBeamSweat",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","grin","beam","sweat"],
   },
   render() {
@@ -10324,7 +10324,7 @@ export let FaFaceGrinBeamRegular = {
   $_icon: {
     name: "FaceGrinBeam",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","grin","beam"],
   },
   render() {
@@ -10344,7 +10344,7 @@ export let FaFaceGrinHeartsRegular = {
   $_icon: {
     name: "FaceGrinHearts",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","grin","hearts"],
   },
   render() {
@@ -10364,7 +10364,7 @@ export let FaFaceGrinSquintTearsRegular = {
   $_icon: {
     name: "FaceGrinSquintTears",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","grin","squint","tears"],
   },
   render() {
@@ -10384,7 +10384,7 @@ export let FaFaceGrinSquintRegular = {
   $_icon: {
     name: "FaceGrinSquint",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","grin","squint"],
   },
   render() {
@@ -10404,7 +10404,7 @@ export let FaFaceGrinStarsRegular = {
   $_icon: {
     name: "FaceGrinStars",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","grin","stars"],
   },
   render() {
@@ -10424,7 +10424,7 @@ export let FaFaceGrinTearsRegular = {
   $_icon: {
     name: "FaceGrinTears",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","grin","tears"],
   },
   render() {
@@ -10444,7 +10444,7 @@ export let FaFaceGrinTongueSquintRegular = {
   $_icon: {
     name: "FaceGrinTongueSquint",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","grin","tongue","squint"],
   },
   render() {
@@ -10464,7 +10464,7 @@ export let FaFaceGrinTongueWinkRegular = {
   $_icon: {
     name: "FaceGrinTongueWink",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","grin","tongue","wink"],
   },
   render() {
@@ -10484,7 +10484,7 @@ export let FaFaceGrinTongueRegular = {
   $_icon: {
     name: "FaceGrinTongue",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","grin","tongue"],
   },
   render() {
@@ -10504,7 +10504,7 @@ export let FaFaceGrinWideRegular = {
   $_icon: {
     name: "FaceGrinWide",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","grin","wide"],
   },
   render() {
@@ -10524,7 +10524,7 @@ export let FaFaceGrinWinkRegular = {
   $_icon: {
     name: "FaceGrinWink",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","grin","wink"],
   },
   render() {
@@ -10544,7 +10544,7 @@ export let FaFaceGrinRegular = {
   $_icon: {
     name: "FaceGrin",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","grin"],
   },
   render() {
@@ -10564,7 +10564,7 @@ export let FaFaceKissBeamRegular = {
   $_icon: {
     name: "FaceKissBeam",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","kiss","beam"],
   },
   render() {
@@ -10584,7 +10584,7 @@ export let FaFaceKissWinkHeartRegular = {
   $_icon: {
     name: "FaceKissWinkHeart",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","kiss","wink","heart"],
   },
   render() {
@@ -10604,7 +10604,7 @@ export let FaFaceKissRegular = {
   $_icon: {
     name: "FaceKiss",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","kiss"],
   },
   render() {
@@ -10624,7 +10624,7 @@ export let FaFaceLaughBeamRegular = {
   $_icon: {
     name: "FaceLaughBeam",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","laugh","beam"],
   },
   render() {
@@ -10644,7 +10644,7 @@ export let FaFaceLaughSquintRegular = {
   $_icon: {
     name: "FaceLaughSquint",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","laugh","squint"],
   },
   render() {
@@ -10664,7 +10664,7 @@ export let FaFaceLaughWinkRegular = {
   $_icon: {
     name: "FaceLaughWink",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","laugh","wink"],
   },
   render() {
@@ -10684,7 +10684,7 @@ export let FaFaceLaughRegular = {
   $_icon: {
     name: "FaceLaugh",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","laugh"],
   },
   render() {
@@ -10704,7 +10704,7 @@ export let FaFaceMehBlankRegular = {
   $_icon: {
     name: "FaceMehBlank",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","meh","blank"],
   },
   render() {
@@ -10724,7 +10724,7 @@ export let FaFaceMehRegular = {
   $_icon: {
     name: "FaceMeh",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","meh"],
   },
   render() {
@@ -10744,7 +10744,7 @@ export let FaFaceRollingEyesRegular = {
   $_icon: {
     name: "FaceRollingEyes",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","rolling","eyes"],
   },
   render() {
@@ -10764,7 +10764,7 @@ export let FaFaceSadCryRegular = {
   $_icon: {
     name: "FaceSadCry",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","sad","cry"],
   },
   render() {
@@ -10784,7 +10784,7 @@ export let FaFaceSadTearRegular = {
   $_icon: {
     name: "FaceSadTear",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","sad","tear"],
   },
   render() {
@@ -10804,7 +10804,7 @@ export let FaFaceSmileBeamRegular = {
   $_icon: {
     name: "FaceSmileBeam",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","smile","beam"],
   },
   render() {
@@ -10824,7 +10824,7 @@ export let FaFaceSmileWinkRegular = {
   $_icon: {
     name: "FaceSmileWink",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","smile","wink"],
   },
   render() {
@@ -10844,7 +10844,7 @@ export let FaFaceSmileRegular = {
   $_icon: {
     name: "FaceSmile",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","smile"],
   },
   render() {
@@ -10864,7 +10864,7 @@ export let FaFaceSurpriseRegular = {
   $_icon: {
     name: "FaceSurprise",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","surprise"],
   },
   render() {
@@ -10884,7 +10884,7 @@ export let FaFaceTiredRegular = {
   $_icon: {
     name: "FaceTired",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["face","tired"],
   },
   render() {
@@ -10904,7 +10904,7 @@ export let FaFileAudioRegular = {
   $_icon: {
     name: "FileAudio",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["file","audio"],
   },
   render() {
@@ -10924,7 +10924,7 @@ export let FaFileCodeRegular = {
   $_icon: {
     name: "FileCode",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["file","code"],
   },
   render() {
@@ -10944,7 +10944,7 @@ export let FaFileExcelRegular = {
   $_icon: {
     name: "FileExcel",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["file","excel"],
   },
   render() {
@@ -10964,7 +10964,7 @@ export let FaFileImageRegular = {
   $_icon: {
     name: "FileImage",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["file","image"],
   },
   render() {
@@ -10984,7 +10984,7 @@ export let FaFileLinesRegular = {
   $_icon: {
     name: "FileLines",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["file","lines"],
   },
   render() {
@@ -11004,7 +11004,7 @@ export let FaFilePdfRegular = {
   $_icon: {
     name: "FilePdf",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["file","pdf"],
   },
   render() {
@@ -11024,7 +11024,7 @@ export let FaFilePowerpointRegular = {
   $_icon: {
     name: "FilePowerpoint",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["file","powerpoint"],
   },
   render() {
@@ -11044,7 +11044,7 @@ export let FaFileVideoRegular = {
   $_icon: {
     name: "FileVideo",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["file","video"],
   },
   render() {
@@ -11064,7 +11064,7 @@ export let FaFileWordRegular = {
   $_icon: {
     name: "FileWord",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["file","word"],
   },
   render() {
@@ -11084,7 +11084,7 @@ export let FaFileZipperRegular = {
   $_icon: {
     name: "FileZipper",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["file","zipper"],
   },
   render() {
@@ -11104,7 +11104,7 @@ export let FaFileRegular = {
   $_icon: {
     name: "File",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["file"],
   },
   render() {
@@ -11124,7 +11124,7 @@ export let FaFlagRegular = {
   $_icon: {
     name: "Flag",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["flag"],
   },
   render() {
@@ -11144,7 +11144,7 @@ export let FaFloppyDiskRegular = {
   $_icon: {
     name: "FloppyDisk",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["floppy","disk"],
   },
   render() {
@@ -11164,7 +11164,7 @@ export let FaFolderClosedRegular = {
   $_icon: {
     name: "FolderClosed",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["folder","closed"],
   },
   render() {
@@ -11184,7 +11184,7 @@ export let FaFolderOpenRegular = {
   $_icon: {
     name: "FolderOpen",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["folder","open"],
   },
   render() {
@@ -11204,7 +11204,7 @@ export let FaFolderRegular = {
   $_icon: {
     name: "Folder",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["folder"],
   },
   render() {
@@ -11224,7 +11224,7 @@ export let FaFontAwesomeRegular = {
   $_icon: {
     name: "FontAwesome",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["font","awesome"],
   },
   render() {
@@ -11244,7 +11244,7 @@ export let FaFutbolRegular = {
   $_icon: {
     name: "Futbol",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["futbol"],
   },
   render() {
@@ -11264,7 +11264,7 @@ export let FaGemRegular = {
   $_icon: {
     name: "Gem",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["gem"],
   },
   render() {
@@ -11284,7 +11284,7 @@ export let FaHandBackFistRegular = {
   $_icon: {
     name: "HandBackFist",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["hand","back","fist"],
   },
   render() {
@@ -11304,7 +11304,7 @@ export let FaHandLizardRegular = {
   $_icon: {
     name: "HandLizard",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["hand","lizard"],
   },
   render() {
@@ -11324,7 +11324,7 @@ export let FaHandPeaceRegular = {
   $_icon: {
     name: "HandPeace",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["hand","peace"],
   },
   render() {
@@ -11344,7 +11344,7 @@ export let FaHandPointDownRegular = {
   $_icon: {
     name: "HandPointDown",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["hand","point","down"],
   },
   render() {
@@ -11364,7 +11364,7 @@ export let FaHandPointLeftRegular = {
   $_icon: {
     name: "HandPointLeft",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["hand","point","left"],
   },
   render() {
@@ -11384,7 +11384,7 @@ export let FaHandPointRightRegular = {
   $_icon: {
     name: "HandPointRight",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["hand","point","right"],
   },
   render() {
@@ -11404,7 +11404,7 @@ export let FaHandPointUpRegular = {
   $_icon: {
     name: "HandPointUp",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["hand","point","up"],
   },
   render() {
@@ -11424,7 +11424,7 @@ export let FaHandPointerRegular = {
   $_icon: {
     name: "HandPointer",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["hand","pointer"],
   },
   render() {
@@ -11444,7 +11444,7 @@ export let FaHandScissorsRegular = {
   $_icon: {
     name: "HandScissors",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["hand","scissors"],
   },
   render() {
@@ -11464,7 +11464,7 @@ export let FaHandSpockRegular = {
   $_icon: {
     name: "HandSpock",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["hand","spock"],
   },
   render() {
@@ -11484,7 +11484,7 @@ export let FaHandRegular = {
   $_icon: {
     name: "Hand",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["hand"],
   },
   render() {
@@ -11504,7 +11504,7 @@ export let FaHandshakeRegular = {
   $_icon: {
     name: "Handshake",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["handshake"],
   },
   render() {
@@ -11524,7 +11524,7 @@ export let FaHardDriveRegular = {
   $_icon: {
     name: "HardDrive",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["hard","drive"],
   },
   render() {
@@ -11544,7 +11544,7 @@ export let FaHeartRegular = {
   $_icon: {
     name: "Heart",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["heart"],
   },
   render() {
@@ -11564,7 +11564,7 @@ export let FaHospitalRegular = {
   $_icon: {
     name: "Hospital",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["hospital"],
   },
   render() {
@@ -11584,7 +11584,7 @@ export let FaHourglassRegular = {
   $_icon: {
     name: "Hourglass",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["hourglass"],
   },
   render() {
@@ -11604,7 +11604,7 @@ export let FaIdBadgeRegular = {
   $_icon: {
     name: "IdBadge",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["id","badge"],
   },
   render() {
@@ -11624,7 +11624,7 @@ export let FaIdCardRegular = {
   $_icon: {
     name: "IdCard",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["id","card"],
   },
   render() {
@@ -11644,7 +11644,7 @@ export let FaImageRegular = {
   $_icon: {
     name: "Image",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["image"],
   },
   render() {
@@ -11664,7 +11664,7 @@ export let FaImagesRegular = {
   $_icon: {
     name: "Images",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["images"],
   },
   render() {
@@ -11684,7 +11684,7 @@ export let FaKeyboardRegular = {
   $_icon: {
     name: "Keyboard",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["keyboard"],
   },
   render() {
@@ -11704,7 +11704,7 @@ export let FaLemonRegular = {
   $_icon: {
     name: "Lemon",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["lemon"],
   },
   render() {
@@ -11724,7 +11724,7 @@ export let FaLifeRingRegular = {
   $_icon: {
     name: "LifeRing",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["life","ring"],
   },
   render() {
@@ -11744,7 +11744,7 @@ export let FaLightbulbRegular = {
   $_icon: {
     name: "Lightbulb",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["lightbulb"],
   },
   render() {
@@ -11764,7 +11764,7 @@ export let FaMapRegular = {
   $_icon: {
     name: "Map",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["map"],
   },
   render() {
@@ -11784,7 +11784,7 @@ export let FaMessageRegular = {
   $_icon: {
     name: "Message",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["message"],
   },
   render() {
@@ -11804,7 +11804,7 @@ export let FaMoneyBill1Regular = {
   $_icon: {
     name: "MoneyBill1",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["money","bill","1"],
   },
   render() {
@@ -11824,7 +11824,7 @@ export let FaMoonRegular = {
   $_icon: {
     name: "Moon",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["moon"],
   },
   render() {
@@ -11844,7 +11844,7 @@ export let FaNewspaperRegular = {
   $_icon: {
     name: "Newspaper",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["newspaper"],
   },
   render() {
@@ -11864,7 +11864,7 @@ export let FaNoteStickyRegular = {
   $_icon: {
     name: "NoteSticky",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["note","sticky"],
   },
   render() {
@@ -11884,7 +11884,7 @@ export let FaObjectGroupRegular = {
   $_icon: {
     name: "ObjectGroup",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["object","group"],
   },
   render() {
@@ -11904,7 +11904,7 @@ export let FaObjectUngroupRegular = {
   $_icon: {
     name: "ObjectUngroup",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["object","ungroup"],
   },
   render() {
@@ -11924,7 +11924,7 @@ export let FaPaperPlaneRegular = {
   $_icon: {
     name: "PaperPlane",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["paper","plane"],
   },
   render() {
@@ -11944,7 +11944,7 @@ export let FaPasteRegular = {
   $_icon: {
     name: "Paste",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["paste"],
   },
   render() {
@@ -11964,7 +11964,7 @@ export let FaPenToSquareRegular = {
   $_icon: {
     name: "PenToSquare",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["pen","to","square"],
   },
   render() {
@@ -11984,7 +11984,7 @@ export let FaRectangleListRegular = {
   $_icon: {
     name: "RectangleList",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["rectangle","list"],
   },
   render() {
@@ -12004,7 +12004,7 @@ export let FaRectangleXmarkRegular = {
   $_icon: {
     name: "RectangleXmark",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["rectangle","xmark"],
   },
   render() {
@@ -12024,7 +12024,7 @@ export let FaRegisteredRegular = {
   $_icon: {
     name: "Registered",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["registered"],
   },
   render() {
@@ -12044,7 +12044,7 @@ export let FaShareFromSquareRegular = {
   $_icon: {
     name: "ShareFromSquare",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["share","from","square"],
   },
   render() {
@@ -12064,7 +12064,7 @@ export let FaSnowflakeRegular = {
   $_icon: {
     name: "Snowflake",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["snowflake"],
   },
   render() {
@@ -12084,7 +12084,7 @@ export let FaSquareCaretDownRegular = {
   $_icon: {
     name: "SquareCaretDown",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["square","caret","down"],
   },
   render() {
@@ -12104,7 +12104,7 @@ export let FaSquareCaretLeftRegular = {
   $_icon: {
     name: "SquareCaretLeft",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["square","caret","left"],
   },
   render() {
@@ -12124,7 +12124,7 @@ export let FaSquareCaretRightRegular = {
   $_icon: {
     name: "SquareCaretRight",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["square","caret","right"],
   },
   render() {
@@ -12144,7 +12144,7 @@ export let FaSquareCaretUpRegular = {
   $_icon: {
     name: "SquareCaretUp",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["square","caret","up"],
   },
   render() {
@@ -12164,7 +12164,7 @@ export let FaSquareCheckRegular = {
   $_icon: {
     name: "SquareCheck",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["square","check"],
   },
   render() {
@@ -12184,7 +12184,7 @@ export let FaSquareFullRegular = {
   $_icon: {
     name: "SquareFull",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["square","full"],
   },
   render() {
@@ -12204,7 +12204,7 @@ export let FaSquareMinusRegular = {
   $_icon: {
     name: "SquareMinus",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["square","minus"],
   },
   render() {
@@ -12224,7 +12224,7 @@ export let FaSquarePlusRegular = {
   $_icon: {
     name: "SquarePlus",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["square","plus"],
   },
   render() {
@@ -12244,7 +12244,7 @@ export let FaSquareRegular = {
   $_icon: {
     name: "Square",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["square"],
   },
   render() {
@@ -12264,7 +12264,7 @@ export let FaStarHalfStrokeRegular = {
   $_icon: {
     name: "StarHalfStroke",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["star","half","stroke"],
   },
   render() {
@@ -12284,7 +12284,7 @@ export let FaStarHalfRegular = {
   $_icon: {
     name: "StarHalf",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["star","half"],
   },
   render() {
@@ -12304,7 +12304,7 @@ export let FaStarRegular = {
   $_icon: {
     name: "Star",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["star"],
   },
   render() {
@@ -12324,7 +12324,7 @@ export let FaSunRegular = {
   $_icon: {
     name: "Sun",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["sun"],
   },
   render() {
@@ -12344,7 +12344,7 @@ export let FaThumbsDownRegular = {
   $_icon: {
     name: "ThumbsDown",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["thumbs","down"],
   },
   render() {
@@ -12364,7 +12364,7 @@ export let FaThumbsUpRegular = {
   $_icon: {
     name: "ThumbsUp",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["thumbs","up"],
   },
   render() {
@@ -12384,7 +12384,7 @@ export let FaTrashCanRegular = {
   $_icon: {
     name: "TrashCan",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["trash","can"],
   },
   render() {
@@ -12404,7 +12404,7 @@ export let FaUserRegular = {
   $_icon: {
     name: "User",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["user"],
   },
   render() {
@@ -12424,7 +12424,7 @@ export let FaWindowMaximizeRegular = {
   $_icon: {
     name: "WindowMaximize",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["window","maximize"],
   },
   render() {
@@ -12444,7 +12444,7 @@ export let FaWindowMinimizeRegular = {
   $_icon: {
     name: "WindowMinimize",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["window","minimize"],
   },
   render() {
@@ -12464,7 +12464,7 @@ export let FaWindowRestoreRegular = {
   $_icon: {
     name: "WindowRestore",
     vendor: "Fa",
-    type: "Regular",
+    type: ["Regular"],
     tags: ["window","restore"],
   },
   render() {
@@ -12484,7 +12484,7 @@ export let Fa0Solid = {
   $_icon: {
     name: "0",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["0"],
   },
   render() {
@@ -12504,7 +12504,7 @@ export let Fa1Solid = {
   $_icon: {
     name: "1",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["1"],
   },
   render() {
@@ -12524,7 +12524,7 @@ export let Fa2Solid = {
   $_icon: {
     name: "2",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["2"],
   },
   render() {
@@ -12544,7 +12544,7 @@ export let Fa3Solid = {
   $_icon: {
     name: "3",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["3"],
   },
   render() {
@@ -12564,7 +12564,7 @@ export let Fa4Solid = {
   $_icon: {
     name: "4",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["4"],
   },
   render() {
@@ -12584,7 +12584,7 @@ export let Fa5Solid = {
   $_icon: {
     name: "5",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["5"],
   },
   render() {
@@ -12604,7 +12604,7 @@ export let Fa6Solid = {
   $_icon: {
     name: "6",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["6"],
   },
   render() {
@@ -12624,7 +12624,7 @@ export let Fa7Solid = {
   $_icon: {
     name: "7",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["7"],
   },
   render() {
@@ -12644,7 +12644,7 @@ export let Fa8Solid = {
   $_icon: {
     name: "8",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["8"],
   },
   render() {
@@ -12664,7 +12664,7 @@ export let Fa9Solid = {
   $_icon: {
     name: "9",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["9"],
   },
   render() {
@@ -12684,7 +12684,7 @@ export let FaASolid = {
   $_icon: {
     name: "A",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["a"],
   },
   render() {
@@ -12704,7 +12704,7 @@ export let FaAddressBookSolid = {
   $_icon: {
     name: "AddressBook",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["address","book"],
   },
   render() {
@@ -12724,7 +12724,7 @@ export let FaAddressCardSolid = {
   $_icon: {
     name: "AddressCard",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["address","card"],
   },
   render() {
@@ -12744,7 +12744,7 @@ export let FaAlignCenterSolid = {
   $_icon: {
     name: "AlignCenter",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["align","center"],
   },
   render() {
@@ -12764,7 +12764,7 @@ export let FaAlignJustifySolid = {
   $_icon: {
     name: "AlignJustify",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["align","justify"],
   },
   render() {
@@ -12784,7 +12784,7 @@ export let FaAlignLeftSolid = {
   $_icon: {
     name: "AlignLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["align","left"],
   },
   render() {
@@ -12804,7 +12804,7 @@ export let FaAlignRightSolid = {
   $_icon: {
     name: "AlignRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["align","right"],
   },
   render() {
@@ -12824,7 +12824,7 @@ export let FaAnchorCircleCheckSolid = {
   $_icon: {
     name: "AnchorCircleCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["anchor","circle","check"],
   },
   render() {
@@ -12844,7 +12844,7 @@ export let FaAnchorCircleExclamationSolid = {
   $_icon: {
     name: "AnchorCircleExclamation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["anchor","circle","exclamation"],
   },
   render() {
@@ -12864,7 +12864,7 @@ export let FaAnchorCircleXmarkSolid = {
   $_icon: {
     name: "AnchorCircleXmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["anchor","circle","xmark"],
   },
   render() {
@@ -12884,7 +12884,7 @@ export let FaAnchorLockSolid = {
   $_icon: {
     name: "AnchorLock",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["anchor","lock"],
   },
   render() {
@@ -12904,7 +12904,7 @@ export let FaAnchorSolid = {
   $_icon: {
     name: "Anchor",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["anchor"],
   },
   render() {
@@ -12924,7 +12924,7 @@ export let FaAngleDownSolid = {
   $_icon: {
     name: "AngleDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["angle","down"],
   },
   render() {
@@ -12944,7 +12944,7 @@ export let FaAngleLeftSolid = {
   $_icon: {
     name: "AngleLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["angle","left"],
   },
   render() {
@@ -12964,7 +12964,7 @@ export let FaAngleRightSolid = {
   $_icon: {
     name: "AngleRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["angle","right"],
   },
   render() {
@@ -12984,7 +12984,7 @@ export let FaAngleUpSolid = {
   $_icon: {
     name: "AngleUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["angle","up"],
   },
   render() {
@@ -13004,7 +13004,7 @@ export let FaAnglesDownSolid = {
   $_icon: {
     name: "AnglesDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["angles","down"],
   },
   render() {
@@ -13024,7 +13024,7 @@ export let FaAnglesLeftSolid = {
   $_icon: {
     name: "AnglesLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["angles","left"],
   },
   render() {
@@ -13044,7 +13044,7 @@ export let FaAnglesRightSolid = {
   $_icon: {
     name: "AnglesRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["angles","right"],
   },
   render() {
@@ -13064,7 +13064,7 @@ export let FaAnglesUpSolid = {
   $_icon: {
     name: "AnglesUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["angles","up"],
   },
   render() {
@@ -13084,7 +13084,7 @@ export let FaAnkhSolid = {
   $_icon: {
     name: "Ankh",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ankh"],
   },
   render() {
@@ -13104,7 +13104,7 @@ export let FaAppleWholeSolid = {
   $_icon: {
     name: "AppleWhole",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["apple","whole"],
   },
   render() {
@@ -13124,7 +13124,7 @@ export let FaArchwaySolid = {
   $_icon: {
     name: "Archway",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["archway"],
   },
   render() {
@@ -13144,7 +13144,7 @@ export let FaArrowDown19Solid = {
   $_icon: {
     name: "ArrowDown19",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","down","1","9"],
   },
   render() {
@@ -13164,7 +13164,7 @@ export let FaArrowDown91Solid = {
   $_icon: {
     name: "ArrowDown91",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","down","9","1"],
   },
   render() {
@@ -13184,7 +13184,7 @@ export let FaArrowDownAZSolid = {
   $_icon: {
     name: "ArrowDownAZ",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","down","a","z"],
   },
   render() {
@@ -13204,7 +13204,7 @@ export let FaArrowDownLongSolid = {
   $_icon: {
     name: "ArrowDownLong",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","down","long"],
   },
   render() {
@@ -13224,7 +13224,7 @@ export let FaArrowDownShortWideSolid = {
   $_icon: {
     name: "ArrowDownShortWide",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","down","short","wide"],
   },
   render() {
@@ -13244,7 +13244,7 @@ export let FaArrowDownUpAcrossLineSolid = {
   $_icon: {
     name: "ArrowDownUpAcrossLine",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","down","up","across","line"],
   },
   render() {
@@ -13264,7 +13264,7 @@ export let FaArrowDownUpLockSolid = {
   $_icon: {
     name: "ArrowDownUpLock",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","down","up","lock"],
   },
   render() {
@@ -13284,7 +13284,7 @@ export let FaArrowDownWideShortSolid = {
   $_icon: {
     name: "ArrowDownWideShort",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","down","wide","short"],
   },
   render() {
@@ -13304,7 +13304,7 @@ export let FaArrowDownZASolid = {
   $_icon: {
     name: "ArrowDownZA",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","down","z","a"],
   },
   render() {
@@ -13324,7 +13324,7 @@ export let FaArrowDownSolid = {
   $_icon: {
     name: "ArrowDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","down"],
   },
   render() {
@@ -13344,7 +13344,7 @@ export let FaArrowLeftLongSolid = {
   $_icon: {
     name: "ArrowLeftLong",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","left","long"],
   },
   render() {
@@ -13364,7 +13364,7 @@ export let FaArrowLeftSolid = {
   $_icon: {
     name: "ArrowLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","left"],
   },
   render() {
@@ -13384,7 +13384,7 @@ export let FaArrowPointerSolid = {
   $_icon: {
     name: "ArrowPointer",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","pointer"],
   },
   render() {
@@ -13404,7 +13404,7 @@ export let FaArrowRightArrowLeftSolid = {
   $_icon: {
     name: "ArrowRightArrowLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","right","arrow","left"],
   },
   render() {
@@ -13424,7 +13424,7 @@ export let FaArrowRightFromBracketSolid = {
   $_icon: {
     name: "ArrowRightFromBracket",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","right","from","bracket"],
   },
   render() {
@@ -13444,7 +13444,7 @@ export let FaArrowRightLongSolid = {
   $_icon: {
     name: "ArrowRightLong",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","right","long"],
   },
   render() {
@@ -13464,7 +13464,7 @@ export let FaArrowRightToBracketSolid = {
   $_icon: {
     name: "ArrowRightToBracket",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","right","to","bracket"],
   },
   render() {
@@ -13484,7 +13484,7 @@ export let FaArrowRightToCitySolid = {
   $_icon: {
     name: "ArrowRightToCity",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","right","to","city"],
   },
   render() {
@@ -13504,7 +13504,7 @@ export let FaArrowRightSolid = {
   $_icon: {
     name: "ArrowRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","right"],
   },
   render() {
@@ -13524,7 +13524,7 @@ export let FaArrowRotateLeftSolid = {
   $_icon: {
     name: "ArrowRotateLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","rotate","left"],
   },
   render() {
@@ -13544,7 +13544,7 @@ export let FaArrowRotateRightSolid = {
   $_icon: {
     name: "ArrowRotateRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","rotate","right"],
   },
   render() {
@@ -13564,7 +13564,7 @@ export let FaArrowTrendDownSolid = {
   $_icon: {
     name: "ArrowTrendDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","trend","down"],
   },
   render() {
@@ -13584,7 +13584,7 @@ export let FaArrowTrendUpSolid = {
   $_icon: {
     name: "ArrowTrendUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","trend","up"],
   },
   render() {
@@ -13604,7 +13604,7 @@ export let FaArrowTurnDownSolid = {
   $_icon: {
     name: "ArrowTurnDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","turn","down"],
   },
   render() {
@@ -13624,7 +13624,7 @@ export let FaArrowTurnUpSolid = {
   $_icon: {
     name: "ArrowTurnUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","turn","up"],
   },
   render() {
@@ -13644,7 +13644,7 @@ export let FaArrowUp19Solid = {
   $_icon: {
     name: "ArrowUp19",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","up","1","9"],
   },
   render() {
@@ -13664,7 +13664,7 @@ export let FaArrowUp91Solid = {
   $_icon: {
     name: "ArrowUp91",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","up","9","1"],
   },
   render() {
@@ -13684,7 +13684,7 @@ export let FaArrowUpAZSolid = {
   $_icon: {
     name: "ArrowUpAZ",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","up","a","z"],
   },
   render() {
@@ -13704,7 +13704,7 @@ export let FaArrowUpFromBracketSolid = {
   $_icon: {
     name: "ArrowUpFromBracket",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","up","from","bracket"],
   },
   render() {
@@ -13724,7 +13724,7 @@ export let FaArrowUpFromGroundWaterSolid = {
   $_icon: {
     name: "ArrowUpFromGroundWater",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","up","from","ground","water"],
   },
   render() {
@@ -13744,7 +13744,7 @@ export let FaArrowUpFromWaterPumpSolid = {
   $_icon: {
     name: "ArrowUpFromWaterPump",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","up","from","water","pump"],
   },
   render() {
@@ -13764,7 +13764,7 @@ export let FaArrowUpLongSolid = {
   $_icon: {
     name: "ArrowUpLong",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","up","long"],
   },
   render() {
@@ -13784,7 +13784,7 @@ export let FaArrowUpRightDotsSolid = {
   $_icon: {
     name: "ArrowUpRightDots",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","up","right","dots"],
   },
   render() {
@@ -13804,7 +13804,7 @@ export let FaArrowUpRightFromSquareSolid = {
   $_icon: {
     name: "ArrowUpRightFromSquare",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","up","right","from","square"],
   },
   render() {
@@ -13824,7 +13824,7 @@ export let FaArrowUpShortWideSolid = {
   $_icon: {
     name: "ArrowUpShortWide",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","up","short","wide"],
   },
   render() {
@@ -13844,7 +13844,7 @@ export let FaArrowUpWideShortSolid = {
   $_icon: {
     name: "ArrowUpWideShort",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","up","wide","short"],
   },
   render() {
@@ -13864,7 +13864,7 @@ export let FaArrowUpZASolid = {
   $_icon: {
     name: "ArrowUpZA",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","up","z","a"],
   },
   render() {
@@ -13884,7 +13884,7 @@ export let FaArrowUpSolid = {
   $_icon: {
     name: "ArrowUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrow","up"],
   },
   render() {
@@ -13904,7 +13904,7 @@ export let FaArrowsDownToLineSolid = {
   $_icon: {
     name: "ArrowsDownToLine",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrows","down","to","line"],
   },
   render() {
@@ -13924,7 +13924,7 @@ export let FaArrowsDownToPeopleSolid = {
   $_icon: {
     name: "ArrowsDownToPeople",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrows","down","to","people"],
   },
   render() {
@@ -13944,7 +13944,7 @@ export let FaArrowsLeftRightToLineSolid = {
   $_icon: {
     name: "ArrowsLeftRightToLine",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrows","left","right","to","line"],
   },
   render() {
@@ -13964,7 +13964,7 @@ export let FaArrowsLeftRightSolid = {
   $_icon: {
     name: "ArrowsLeftRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrows","left","right"],
   },
   render() {
@@ -13984,7 +13984,7 @@ export let FaArrowsRotateSolid = {
   $_icon: {
     name: "ArrowsRotate",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrows","rotate"],
   },
   render() {
@@ -14004,7 +14004,7 @@ export let FaArrowsSpinSolid = {
   $_icon: {
     name: "ArrowsSpin",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrows","spin"],
   },
   render() {
@@ -14024,7 +14024,7 @@ export let FaArrowsSplitUpAndLeftSolid = {
   $_icon: {
     name: "ArrowsSplitUpAndLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrows","split","up","and","left"],
   },
   render() {
@@ -14044,7 +14044,7 @@ export let FaArrowsToCircleSolid = {
   $_icon: {
     name: "ArrowsToCircle",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrows","to","circle"],
   },
   render() {
@@ -14064,7 +14064,7 @@ export let FaArrowsToDotSolid = {
   $_icon: {
     name: "ArrowsToDot",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrows","to","dot"],
   },
   render() {
@@ -14084,7 +14084,7 @@ export let FaArrowsToEyeSolid = {
   $_icon: {
     name: "ArrowsToEye",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrows","to","eye"],
   },
   render() {
@@ -14104,7 +14104,7 @@ export let FaArrowsTurnRightSolid = {
   $_icon: {
     name: "ArrowsTurnRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrows","turn","right"],
   },
   render() {
@@ -14124,7 +14124,7 @@ export let FaArrowsTurnToDotsSolid = {
   $_icon: {
     name: "ArrowsTurnToDots",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrows","turn","to","dots"],
   },
   render() {
@@ -14144,7 +14144,7 @@ export let FaArrowsUpDownLeftRightSolid = {
   $_icon: {
     name: "ArrowsUpDownLeftRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrows","up","down","left","right"],
   },
   render() {
@@ -14164,7 +14164,7 @@ export let FaArrowsUpDownSolid = {
   $_icon: {
     name: "ArrowsUpDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrows","up","down"],
   },
   render() {
@@ -14184,7 +14184,7 @@ export let FaArrowsUpToLineSolid = {
   $_icon: {
     name: "ArrowsUpToLine",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["arrows","up","to","line"],
   },
   render() {
@@ -14204,7 +14204,7 @@ export let FaAsteriskSolid = {
   $_icon: {
     name: "Asterisk",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["asterisk"],
   },
   render() {
@@ -14224,7 +14224,7 @@ export let FaAtSolid = {
   $_icon: {
     name: "At",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["at"],
   },
   render() {
@@ -14244,7 +14244,7 @@ export let FaAtomSolid = {
   $_icon: {
     name: "Atom",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["atom"],
   },
   render() {
@@ -14264,7 +14264,7 @@ export let FaAudioDescriptionSolid = {
   $_icon: {
     name: "AudioDescription",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["audio","description"],
   },
   render() {
@@ -14284,7 +14284,7 @@ export let FaAustralSignSolid = {
   $_icon: {
     name: "AustralSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["austral","sign"],
   },
   render() {
@@ -14304,7 +14304,7 @@ export let FaAwardSolid = {
   $_icon: {
     name: "Award",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["award"],
   },
   render() {
@@ -14324,7 +14324,7 @@ export let FaBSolid = {
   $_icon: {
     name: "B",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["b"],
   },
   render() {
@@ -14344,7 +14344,7 @@ export let FaBabyCarriageSolid = {
   $_icon: {
     name: "BabyCarriage",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["baby","carriage"],
   },
   render() {
@@ -14364,7 +14364,7 @@ export let FaBabySolid = {
   $_icon: {
     name: "Baby",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["baby"],
   },
   render() {
@@ -14384,7 +14384,7 @@ export let FaBackwardFastSolid = {
   $_icon: {
     name: "BackwardFast",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["backward","fast"],
   },
   render() {
@@ -14404,7 +14404,7 @@ export let FaBackwardStepSolid = {
   $_icon: {
     name: "BackwardStep",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["backward","step"],
   },
   render() {
@@ -14424,7 +14424,7 @@ export let FaBackwardSolid = {
   $_icon: {
     name: "Backward",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["backward"],
   },
   render() {
@@ -14444,7 +14444,7 @@ export let FaBaconSolid = {
   $_icon: {
     name: "Bacon",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bacon"],
   },
   render() {
@@ -14464,7 +14464,7 @@ export let FaBacteriaSolid = {
   $_icon: {
     name: "Bacteria",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bacteria"],
   },
   render() {
@@ -14484,7 +14484,7 @@ export let FaBacteriumSolid = {
   $_icon: {
     name: "Bacterium",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bacterium"],
   },
   render() {
@@ -14504,7 +14504,7 @@ export let FaBagShoppingSolid = {
   $_icon: {
     name: "BagShopping",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bag","shopping"],
   },
   render() {
@@ -14524,7 +14524,7 @@ export let FaBahaiSolid = {
   $_icon: {
     name: "Bahai",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bahai"],
   },
   render() {
@@ -14544,7 +14544,7 @@ export let FaBahtSignSolid = {
   $_icon: {
     name: "BahtSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["baht","sign"],
   },
   render() {
@@ -14564,7 +14564,7 @@ export let FaBanSmokingSolid = {
   $_icon: {
     name: "BanSmoking",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ban","smoking"],
   },
   render() {
@@ -14584,7 +14584,7 @@ export let FaBanSolid = {
   $_icon: {
     name: "Ban",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ban"],
   },
   render() {
@@ -14604,7 +14604,7 @@ export let FaBandageSolid = {
   $_icon: {
     name: "Bandage",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bandage"],
   },
   render() {
@@ -14624,7 +14624,7 @@ export let FaBarcodeSolid = {
   $_icon: {
     name: "Barcode",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["barcode"],
   },
   render() {
@@ -14644,7 +14644,7 @@ export let FaBarsProgressSolid = {
   $_icon: {
     name: "BarsProgress",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bars","progress"],
   },
   render() {
@@ -14664,7 +14664,7 @@ export let FaBarsStaggeredSolid = {
   $_icon: {
     name: "BarsStaggered",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bars","staggered"],
   },
   render() {
@@ -14684,7 +14684,7 @@ export let FaBarsSolid = {
   $_icon: {
     name: "Bars",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bars"],
   },
   render() {
@@ -14704,7 +14704,7 @@ export let FaBaseballBatBallSolid = {
   $_icon: {
     name: "BaseballBatBall",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["baseball","bat","ball"],
   },
   render() {
@@ -14724,7 +14724,7 @@ export let FaBaseballSolid = {
   $_icon: {
     name: "Baseball",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["baseball"],
   },
   render() {
@@ -14744,7 +14744,7 @@ export let FaBasketShoppingSolid = {
   $_icon: {
     name: "BasketShopping",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["basket","shopping"],
   },
   render() {
@@ -14764,7 +14764,7 @@ export let FaBasketballSolid = {
   $_icon: {
     name: "Basketball",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["basketball"],
   },
   render() {
@@ -14784,7 +14784,7 @@ export let FaBathSolid = {
   $_icon: {
     name: "Bath",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bath"],
   },
   render() {
@@ -14804,7 +14804,7 @@ export let FaBatteryEmptySolid = {
   $_icon: {
     name: "BatteryEmpty",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["battery","empty"],
   },
   render() {
@@ -14824,7 +14824,7 @@ export let FaBatteryFullSolid = {
   $_icon: {
     name: "BatteryFull",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["battery","full"],
   },
   render() {
@@ -14844,7 +14844,7 @@ export let FaBatteryHalfSolid = {
   $_icon: {
     name: "BatteryHalf",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["battery","half"],
   },
   render() {
@@ -14864,7 +14864,7 @@ export let FaBatteryQuarterSolid = {
   $_icon: {
     name: "BatteryQuarter",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["battery","quarter"],
   },
   render() {
@@ -14884,7 +14884,7 @@ export let FaBatteryThreeQuartersSolid = {
   $_icon: {
     name: "BatteryThreeQuarters",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["battery","three","quarters"],
   },
   render() {
@@ -14904,7 +14904,7 @@ export let FaBedPulseSolid = {
   $_icon: {
     name: "BedPulse",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bed","pulse"],
   },
   render() {
@@ -14924,7 +14924,7 @@ export let FaBedSolid = {
   $_icon: {
     name: "Bed",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bed"],
   },
   render() {
@@ -14944,7 +14944,7 @@ export let FaBeerMugEmptySolid = {
   $_icon: {
     name: "BeerMugEmpty",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["beer","mug","empty"],
   },
   render() {
@@ -14964,7 +14964,7 @@ export let FaBellConciergeSolid = {
   $_icon: {
     name: "BellConcierge",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bell","concierge"],
   },
   render() {
@@ -14984,7 +14984,7 @@ export let FaBellSlashSolid = {
   $_icon: {
     name: "BellSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bell","slash"],
   },
   render() {
@@ -15004,7 +15004,7 @@ export let FaBellSolid = {
   $_icon: {
     name: "Bell",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bell"],
   },
   render() {
@@ -15024,7 +15024,7 @@ export let FaBezierCurveSolid = {
   $_icon: {
     name: "BezierCurve",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bezier","curve"],
   },
   render() {
@@ -15044,7 +15044,7 @@ export let FaBicycleSolid = {
   $_icon: {
     name: "Bicycle",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bicycle"],
   },
   render() {
@@ -15064,7 +15064,7 @@ export let FaBinocularsSolid = {
   $_icon: {
     name: "Binoculars",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["binoculars"],
   },
   render() {
@@ -15084,7 +15084,7 @@ export let FaBiohazardSolid = {
   $_icon: {
     name: "Biohazard",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["biohazard"],
   },
   render() {
@@ -15104,7 +15104,7 @@ export let FaBitcoinSignSolid = {
   $_icon: {
     name: "BitcoinSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bitcoin","sign"],
   },
   render() {
@@ -15124,7 +15124,7 @@ export let FaBlenderPhoneSolid = {
   $_icon: {
     name: "BlenderPhone",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["blender","phone"],
   },
   render() {
@@ -15144,7 +15144,7 @@ export let FaBlenderSolid = {
   $_icon: {
     name: "Blender",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["blender"],
   },
   render() {
@@ -15164,7 +15164,7 @@ export let FaBlogSolid = {
   $_icon: {
     name: "Blog",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["blog"],
   },
   render() {
@@ -15184,7 +15184,7 @@ export let FaBoldSolid = {
   $_icon: {
     name: "Bold",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bold"],
   },
   render() {
@@ -15204,7 +15204,7 @@ export let FaBoltLightningSolid = {
   $_icon: {
     name: "BoltLightning",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bolt","lightning"],
   },
   render() {
@@ -15224,7 +15224,7 @@ export let FaBoltSolid = {
   $_icon: {
     name: "Bolt",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bolt"],
   },
   render() {
@@ -15244,7 +15244,7 @@ export let FaBombSolid = {
   $_icon: {
     name: "Bomb",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bomb"],
   },
   render() {
@@ -15264,7 +15264,7 @@ export let FaBoneSolid = {
   $_icon: {
     name: "Bone",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bone"],
   },
   render() {
@@ -15284,7 +15284,7 @@ export let FaBongSolid = {
   $_icon: {
     name: "Bong",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bong"],
   },
   render() {
@@ -15304,7 +15304,7 @@ export let FaBookAtlasSolid = {
   $_icon: {
     name: "BookAtlas",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["book","atlas"],
   },
   render() {
@@ -15324,7 +15324,7 @@ export let FaBookBibleSolid = {
   $_icon: {
     name: "BookBible",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["book","bible"],
   },
   render() {
@@ -15344,7 +15344,7 @@ export let FaBookBookmarkSolid = {
   $_icon: {
     name: "BookBookmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["book","bookmark"],
   },
   render() {
@@ -15364,7 +15364,7 @@ export let FaBookJournalWhillsSolid = {
   $_icon: {
     name: "BookJournalWhills",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["book","journal","whills"],
   },
   render() {
@@ -15384,7 +15384,7 @@ export let FaBookMedicalSolid = {
   $_icon: {
     name: "BookMedical",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["book","medical"],
   },
   render() {
@@ -15404,7 +15404,7 @@ export let FaBookOpenReaderSolid = {
   $_icon: {
     name: "BookOpenReader",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["book","open","reader"],
   },
   render() {
@@ -15424,7 +15424,7 @@ export let FaBookOpenSolid = {
   $_icon: {
     name: "BookOpen",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["book","open"],
   },
   render() {
@@ -15444,7 +15444,7 @@ export let FaBookQuranSolid = {
   $_icon: {
     name: "BookQuran",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["book","quran"],
   },
   render() {
@@ -15464,7 +15464,7 @@ export let FaBookSkullSolid = {
   $_icon: {
     name: "BookSkull",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["book","skull"],
   },
   render() {
@@ -15484,7 +15484,7 @@ export let FaBookSolid = {
   $_icon: {
     name: "Book",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["book"],
   },
   render() {
@@ -15504,7 +15504,7 @@ export let FaBookmarkSolid = {
   $_icon: {
     name: "Bookmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bookmark"],
   },
   render() {
@@ -15524,7 +15524,7 @@ export let FaBorderAllSolid = {
   $_icon: {
     name: "BorderAll",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["border","all"],
   },
   render() {
@@ -15544,7 +15544,7 @@ export let FaBorderNoneSolid = {
   $_icon: {
     name: "BorderNone",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["border","none"],
   },
   render() {
@@ -15564,7 +15564,7 @@ export let FaBorderTopLeftSolid = {
   $_icon: {
     name: "BorderTopLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["border","top","left"],
   },
   render() {
@@ -15584,7 +15584,7 @@ export let FaBoreHoleSolid = {
   $_icon: {
     name: "BoreHole",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bore","hole"],
   },
   render() {
@@ -15604,7 +15604,7 @@ export let FaBottleDropletSolid = {
   $_icon: {
     name: "BottleDroplet",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bottle","droplet"],
   },
   render() {
@@ -15624,7 +15624,7 @@ export let FaBottleWaterSolid = {
   $_icon: {
     name: "BottleWater",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bottle","water"],
   },
   render() {
@@ -15644,7 +15644,7 @@ export let FaBowlFoodSolid = {
   $_icon: {
     name: "BowlFood",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bowl","food"],
   },
   render() {
@@ -15664,7 +15664,7 @@ export let FaBowlRiceSolid = {
   $_icon: {
     name: "BowlRice",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bowl","rice"],
   },
   render() {
@@ -15684,7 +15684,7 @@ export let FaBowlingBallSolid = {
   $_icon: {
     name: "BowlingBall",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bowling","ball"],
   },
   render() {
@@ -15704,7 +15704,7 @@ export let FaBoxArchiveSolid = {
   $_icon: {
     name: "BoxArchive",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["box","archive"],
   },
   render() {
@@ -15724,7 +15724,7 @@ export let FaBoxOpenSolid = {
   $_icon: {
     name: "BoxOpen",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["box","open"],
   },
   render() {
@@ -15744,7 +15744,7 @@ export let FaBoxTissueSolid = {
   $_icon: {
     name: "BoxTissue",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["box","tissue"],
   },
   render() {
@@ -15764,7 +15764,7 @@ export let FaBoxSolid = {
   $_icon: {
     name: "Box",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["box"],
   },
   render() {
@@ -15784,7 +15784,7 @@ export let FaBoxesPackingSolid = {
   $_icon: {
     name: "BoxesPacking",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["boxes","packing"],
   },
   render() {
@@ -15804,7 +15804,7 @@ export let FaBoxesStackedSolid = {
   $_icon: {
     name: "BoxesStacked",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["boxes","stacked"],
   },
   render() {
@@ -15824,7 +15824,7 @@ export let FaBrailleSolid = {
   $_icon: {
     name: "Braille",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["braille"],
   },
   render() {
@@ -15844,7 +15844,7 @@ export let FaBrainSolid = {
   $_icon: {
     name: "Brain",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["brain"],
   },
   render() {
@@ -15864,7 +15864,7 @@ export let FaBrazilianRealSignSolid = {
   $_icon: {
     name: "BrazilianRealSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["brazilian","real","sign"],
   },
   render() {
@@ -15884,7 +15884,7 @@ export let FaBreadSliceSolid = {
   $_icon: {
     name: "BreadSlice",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bread","slice"],
   },
   render() {
@@ -15904,7 +15904,7 @@ export let FaBridgeCircleCheckSolid = {
   $_icon: {
     name: "BridgeCircleCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bridge","circle","check"],
   },
   render() {
@@ -15924,7 +15924,7 @@ export let FaBridgeCircleExclamationSolid = {
   $_icon: {
     name: "BridgeCircleExclamation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bridge","circle","exclamation"],
   },
   render() {
@@ -15944,7 +15944,7 @@ export let FaBridgeCircleXmarkSolid = {
   $_icon: {
     name: "BridgeCircleXmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bridge","circle","xmark"],
   },
   render() {
@@ -15964,7 +15964,7 @@ export let FaBridgeLockSolid = {
   $_icon: {
     name: "BridgeLock",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bridge","lock"],
   },
   render() {
@@ -15984,7 +15984,7 @@ export let FaBridgeWaterSolid = {
   $_icon: {
     name: "BridgeWater",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bridge","water"],
   },
   render() {
@@ -16004,7 +16004,7 @@ export let FaBridgeSolid = {
   $_icon: {
     name: "Bridge",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bridge"],
   },
   render() {
@@ -16024,7 +16024,7 @@ export let FaBriefcaseMedicalSolid = {
   $_icon: {
     name: "BriefcaseMedical",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["briefcase","medical"],
   },
   render() {
@@ -16044,7 +16044,7 @@ export let FaBriefcaseSolid = {
   $_icon: {
     name: "Briefcase",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["briefcase"],
   },
   render() {
@@ -16064,7 +16064,7 @@ export let FaBroomBallSolid = {
   $_icon: {
     name: "BroomBall",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["broom","ball"],
   },
   render() {
@@ -16084,7 +16084,7 @@ export let FaBroomSolid = {
   $_icon: {
     name: "Broom",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["broom"],
   },
   render() {
@@ -16104,7 +16104,7 @@ export let FaBrushSolid = {
   $_icon: {
     name: "Brush",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["brush"],
   },
   render() {
@@ -16124,7 +16124,7 @@ export let FaBucketSolid = {
   $_icon: {
     name: "Bucket",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bucket"],
   },
   render() {
@@ -16144,7 +16144,7 @@ export let FaBugSlashSolid = {
   $_icon: {
     name: "BugSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bug","slash"],
   },
   render() {
@@ -16164,7 +16164,7 @@ export let FaBugSolid = {
   $_icon: {
     name: "Bug",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bug"],
   },
   render() {
@@ -16184,7 +16184,7 @@ export let FaBugsSolid = {
   $_icon: {
     name: "Bugs",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bugs"],
   },
   render() {
@@ -16204,7 +16204,7 @@ export let FaBuildingCircleArrowRightSolid = {
   $_icon: {
     name: "BuildingCircleArrowRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["building","circle","arrow","right"],
   },
   render() {
@@ -16224,7 +16224,7 @@ export let FaBuildingCircleCheckSolid = {
   $_icon: {
     name: "BuildingCircleCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["building","circle","check"],
   },
   render() {
@@ -16244,7 +16244,7 @@ export let FaBuildingCircleExclamationSolid = {
   $_icon: {
     name: "BuildingCircleExclamation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["building","circle","exclamation"],
   },
   render() {
@@ -16264,7 +16264,7 @@ export let FaBuildingCircleXmarkSolid = {
   $_icon: {
     name: "BuildingCircleXmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["building","circle","xmark"],
   },
   render() {
@@ -16284,7 +16284,7 @@ export let FaBuildingColumnsSolid = {
   $_icon: {
     name: "BuildingColumns",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["building","columns"],
   },
   render() {
@@ -16304,7 +16304,7 @@ export let FaBuildingFlagSolid = {
   $_icon: {
     name: "BuildingFlag",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["building","flag"],
   },
   render() {
@@ -16324,7 +16324,7 @@ export let FaBuildingLockSolid = {
   $_icon: {
     name: "BuildingLock",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["building","lock"],
   },
   render() {
@@ -16344,7 +16344,7 @@ export let FaBuildingNgoSolid = {
   $_icon: {
     name: "BuildingNgo",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["building","ngo"],
   },
   render() {
@@ -16364,7 +16364,7 @@ export let FaBuildingShieldSolid = {
   $_icon: {
     name: "BuildingShield",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["building","shield"],
   },
   render() {
@@ -16384,7 +16384,7 @@ export let FaBuildingUnSolid = {
   $_icon: {
     name: "BuildingUn",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["building","un"],
   },
   render() {
@@ -16404,7 +16404,7 @@ export let FaBuildingUserSolid = {
   $_icon: {
     name: "BuildingUser",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["building","user"],
   },
   render() {
@@ -16424,7 +16424,7 @@ export let FaBuildingWheatSolid = {
   $_icon: {
     name: "BuildingWheat",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["building","wheat"],
   },
   render() {
@@ -16444,7 +16444,7 @@ export let FaBuildingSolid = {
   $_icon: {
     name: "Building",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["building"],
   },
   render() {
@@ -16464,7 +16464,7 @@ export let FaBullhornSolid = {
   $_icon: {
     name: "Bullhorn",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bullhorn"],
   },
   render() {
@@ -16484,7 +16484,7 @@ export let FaBullseyeSolid = {
   $_icon: {
     name: "Bullseye",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bullseye"],
   },
   render() {
@@ -16504,7 +16504,7 @@ export let FaBurgerSolid = {
   $_icon: {
     name: "Burger",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["burger"],
   },
   render() {
@@ -16524,7 +16524,7 @@ export let FaBurstSolid = {
   $_icon: {
     name: "Burst",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["burst"],
   },
   render() {
@@ -16544,7 +16544,7 @@ export let FaBusSimpleSolid = {
   $_icon: {
     name: "BusSimple",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bus","simple"],
   },
   render() {
@@ -16564,7 +16564,7 @@ export let FaBusSolid = {
   $_icon: {
     name: "Bus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["bus"],
   },
   render() {
@@ -16584,7 +16584,7 @@ export let FaBusinessTimeSolid = {
   $_icon: {
     name: "BusinessTime",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["business","time"],
   },
   render() {
@@ -16604,7 +16604,7 @@ export let FaCSolid = {
   $_icon: {
     name: "C",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["c"],
   },
   render() {
@@ -16624,7 +16624,7 @@ export let FaCakeCandlesSolid = {
   $_icon: {
     name: "CakeCandles",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cake","candles"],
   },
   render() {
@@ -16644,7 +16644,7 @@ export let FaCalculatorSolid = {
   $_icon: {
     name: "Calculator",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["calculator"],
   },
   render() {
@@ -16664,7 +16664,7 @@ export let FaCalendarCheckSolid = {
   $_icon: {
     name: "CalendarCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["calendar","check"],
   },
   render() {
@@ -16684,7 +16684,7 @@ export let FaCalendarDaySolid = {
   $_icon: {
     name: "CalendarDay",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["calendar","day"],
   },
   render() {
@@ -16704,7 +16704,7 @@ export let FaCalendarDaysSolid = {
   $_icon: {
     name: "CalendarDays",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["calendar","days"],
   },
   render() {
@@ -16724,7 +16724,7 @@ export let FaCalendarMinusSolid = {
   $_icon: {
     name: "CalendarMinus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["calendar","minus"],
   },
   render() {
@@ -16744,7 +16744,7 @@ export let FaCalendarPlusSolid = {
   $_icon: {
     name: "CalendarPlus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["calendar","plus"],
   },
   render() {
@@ -16764,7 +16764,7 @@ export let FaCalendarWeekSolid = {
   $_icon: {
     name: "CalendarWeek",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["calendar","week"],
   },
   render() {
@@ -16784,7 +16784,7 @@ export let FaCalendarXmarkSolid = {
   $_icon: {
     name: "CalendarXmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["calendar","xmark"],
   },
   render() {
@@ -16804,7 +16804,7 @@ export let FaCalendarSolid = {
   $_icon: {
     name: "Calendar",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["calendar"],
   },
   render() {
@@ -16824,7 +16824,7 @@ export let FaCameraRetroSolid = {
   $_icon: {
     name: "CameraRetro",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["camera","retro"],
   },
   render() {
@@ -16844,7 +16844,7 @@ export let FaCameraRotateSolid = {
   $_icon: {
     name: "CameraRotate",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["camera","rotate"],
   },
   render() {
@@ -16864,7 +16864,7 @@ export let FaCameraSolid = {
   $_icon: {
     name: "Camera",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["camera"],
   },
   render() {
@@ -16884,7 +16884,7 @@ export let FaCampgroundSolid = {
   $_icon: {
     name: "Campground",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["campground"],
   },
   render() {
@@ -16904,7 +16904,7 @@ export let FaCandyCaneSolid = {
   $_icon: {
     name: "CandyCane",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["candy","cane"],
   },
   render() {
@@ -16924,7 +16924,7 @@ export let FaCannabisSolid = {
   $_icon: {
     name: "Cannabis",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cannabis"],
   },
   render() {
@@ -16944,7 +16944,7 @@ export let FaCapsulesSolid = {
   $_icon: {
     name: "Capsules",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["capsules"],
   },
   render() {
@@ -16964,7 +16964,7 @@ export let FaCarBatterySolid = {
   $_icon: {
     name: "CarBattery",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["car","battery"],
   },
   render() {
@@ -16984,7 +16984,7 @@ export let FaCarBurstSolid = {
   $_icon: {
     name: "CarBurst",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["car","burst"],
   },
   render() {
@@ -17004,7 +17004,7 @@ export let FaCarCrashSolid = {
   $_icon: {
     name: "CarCrash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["car","crash"],
   },
   render() {
@@ -17024,7 +17024,7 @@ export let FaCarOnSolid = {
   $_icon: {
     name: "CarOn",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["car","on"],
   },
   render() {
@@ -17044,7 +17044,7 @@ export let FaCarRearSolid = {
   $_icon: {
     name: "CarRear",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["car","rear"],
   },
   render() {
@@ -17064,7 +17064,7 @@ export let FaCarSideSolid = {
   $_icon: {
     name: "CarSide",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["car","side"],
   },
   render() {
@@ -17084,7 +17084,7 @@ export let FaCarTunnelSolid = {
   $_icon: {
     name: "CarTunnel",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["car","tunnel"],
   },
   render() {
@@ -17104,7 +17104,7 @@ export let FaCarSolid = {
   $_icon: {
     name: "Car",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["car"],
   },
   render() {
@@ -17124,7 +17124,7 @@ export let FaCaravanSolid = {
   $_icon: {
     name: "Caravan",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["caravan"],
   },
   render() {
@@ -17144,7 +17144,7 @@ export let FaCaretDownSolid = {
   $_icon: {
     name: "CaretDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["caret","down"],
   },
   render() {
@@ -17164,7 +17164,7 @@ export let FaCaretLeftSolid = {
   $_icon: {
     name: "CaretLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["caret","left"],
   },
   render() {
@@ -17184,7 +17184,7 @@ export let FaCaretRightSolid = {
   $_icon: {
     name: "CaretRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["caret","right"],
   },
   render() {
@@ -17204,7 +17204,7 @@ export let FaCaretUpSolid = {
   $_icon: {
     name: "CaretUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["caret","up"],
   },
   render() {
@@ -17224,7 +17224,7 @@ export let FaCarrotSolid = {
   $_icon: {
     name: "Carrot",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["carrot"],
   },
   render() {
@@ -17244,7 +17244,7 @@ export let FaCartArrowDownSolid = {
   $_icon: {
     name: "CartArrowDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cart","arrow","down"],
   },
   render() {
@@ -17264,7 +17264,7 @@ export let FaCartFlatbedSuitcaseSolid = {
   $_icon: {
     name: "CartFlatbedSuitcase",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cart","flatbed","suitcase"],
   },
   render() {
@@ -17284,7 +17284,7 @@ export let FaCartFlatbedSolid = {
   $_icon: {
     name: "CartFlatbed",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cart","flatbed"],
   },
   render() {
@@ -17304,7 +17304,7 @@ export let FaCartPlusSolid = {
   $_icon: {
     name: "CartPlus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cart","plus"],
   },
   render() {
@@ -17324,7 +17324,7 @@ export let FaCartShoppingSolid = {
   $_icon: {
     name: "CartShopping",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cart","shopping"],
   },
   render() {
@@ -17344,7 +17344,7 @@ export let FaCashRegisterSolid = {
   $_icon: {
     name: "CashRegister",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cash","register"],
   },
   render() {
@@ -17364,7 +17364,7 @@ export let FaCatSolid = {
   $_icon: {
     name: "Cat",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cat"],
   },
   render() {
@@ -17384,7 +17384,7 @@ export let FaCediSignSolid = {
   $_icon: {
     name: "CediSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cedi","sign"],
   },
   render() {
@@ -17404,7 +17404,7 @@ export let FaCentSignSolid = {
   $_icon: {
     name: "CentSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cent","sign"],
   },
   render() {
@@ -17424,7 +17424,7 @@ export let FaCertificateSolid = {
   $_icon: {
     name: "Certificate",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["certificate"],
   },
   render() {
@@ -17444,7 +17444,7 @@ export let FaChairSolid = {
   $_icon: {
     name: "Chair",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chair"],
   },
   render() {
@@ -17464,7 +17464,7 @@ export let FaChalkboardUserSolid = {
   $_icon: {
     name: "ChalkboardUser",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chalkboard","user"],
   },
   render() {
@@ -17484,7 +17484,7 @@ export let FaChalkboardSolid = {
   $_icon: {
     name: "Chalkboard",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chalkboard"],
   },
   render() {
@@ -17504,7 +17504,7 @@ export let FaChampagneGlassesSolid = {
   $_icon: {
     name: "ChampagneGlasses",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["champagne","glasses"],
   },
   render() {
@@ -17524,7 +17524,7 @@ export let FaChargingStationSolid = {
   $_icon: {
     name: "ChargingStation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["charging","station"],
   },
   render() {
@@ -17544,7 +17544,7 @@ export let FaChartAreaSolid = {
   $_icon: {
     name: "ChartArea",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chart","area"],
   },
   render() {
@@ -17564,7 +17564,7 @@ export let FaChartBarSolid = {
   $_icon: {
     name: "ChartBar",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chart","bar"],
   },
   render() {
@@ -17584,7 +17584,7 @@ export let FaChartColumnSolid = {
   $_icon: {
     name: "ChartColumn",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chart","column"],
   },
   render() {
@@ -17604,7 +17604,7 @@ export let FaChartGanttSolid = {
   $_icon: {
     name: "ChartGantt",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chart","gantt"],
   },
   render() {
@@ -17624,7 +17624,7 @@ export let FaChartLineSolid = {
   $_icon: {
     name: "ChartLine",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chart","line"],
   },
   render() {
@@ -17644,7 +17644,7 @@ export let FaChartPieSolid = {
   $_icon: {
     name: "ChartPie",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chart","pie"],
   },
   render() {
@@ -17664,7 +17664,7 @@ export let FaChartSimpleSolid = {
   $_icon: {
     name: "ChartSimple",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chart","simple"],
   },
   render() {
@@ -17684,7 +17684,7 @@ export let FaCheckDoubleSolid = {
   $_icon: {
     name: "CheckDouble",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["check","double"],
   },
   render() {
@@ -17704,7 +17704,7 @@ export let FaCheckToSlotSolid = {
   $_icon: {
     name: "CheckToSlot",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["check","to","slot"],
   },
   render() {
@@ -17724,7 +17724,7 @@ export let FaCheckSolid = {
   $_icon: {
     name: "Check",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["check"],
   },
   render() {
@@ -17744,7 +17744,7 @@ export let FaCheeseSolid = {
   $_icon: {
     name: "Cheese",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cheese"],
   },
   render() {
@@ -17764,7 +17764,7 @@ export let FaChessBishopSolid = {
   $_icon: {
     name: "ChessBishop",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chess","bishop"],
   },
   render() {
@@ -17784,7 +17784,7 @@ export let FaChessBoardSolid = {
   $_icon: {
     name: "ChessBoard",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chess","board"],
   },
   render() {
@@ -17804,7 +17804,7 @@ export let FaChessKingSolid = {
   $_icon: {
     name: "ChessKing",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chess","king"],
   },
   render() {
@@ -17824,7 +17824,7 @@ export let FaChessKnightSolid = {
   $_icon: {
     name: "ChessKnight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chess","knight"],
   },
   render() {
@@ -17844,7 +17844,7 @@ export let FaChessPawnSolid = {
   $_icon: {
     name: "ChessPawn",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chess","pawn"],
   },
   render() {
@@ -17864,7 +17864,7 @@ export let FaChessQueenSolid = {
   $_icon: {
     name: "ChessQueen",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chess","queen"],
   },
   render() {
@@ -17884,7 +17884,7 @@ export let FaChessRookSolid = {
   $_icon: {
     name: "ChessRook",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chess","rook"],
   },
   render() {
@@ -17904,7 +17904,7 @@ export let FaChessSolid = {
   $_icon: {
     name: "Chess",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chess"],
   },
   render() {
@@ -17924,7 +17924,7 @@ export let FaChevronDownSolid = {
   $_icon: {
     name: "ChevronDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chevron","down"],
   },
   render() {
@@ -17944,7 +17944,7 @@ export let FaChevronLeftSolid = {
   $_icon: {
     name: "ChevronLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chevron","left"],
   },
   render() {
@@ -17964,7 +17964,7 @@ export let FaChevronRightSolid = {
   $_icon: {
     name: "ChevronRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chevron","right"],
   },
   render() {
@@ -17984,7 +17984,7 @@ export let FaChevronUpSolid = {
   $_icon: {
     name: "ChevronUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["chevron","up"],
   },
   render() {
@@ -18004,7 +18004,7 @@ export let FaChildDressSolid = {
   $_icon: {
     name: "ChildDress",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["child","dress"],
   },
   render() {
@@ -18024,7 +18024,7 @@ export let FaChildReachingSolid = {
   $_icon: {
     name: "ChildReaching",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["child","reaching"],
   },
   render() {
@@ -18044,7 +18044,7 @@ export let FaChildRifleSolid = {
   $_icon: {
     name: "ChildRifle",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["child","rifle"],
   },
   render() {
@@ -18064,7 +18064,7 @@ export let FaChildSolid = {
   $_icon: {
     name: "Child",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["child"],
   },
   render() {
@@ -18084,7 +18084,7 @@ export let FaChildrenSolid = {
   $_icon: {
     name: "Children",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["children"],
   },
   render() {
@@ -18104,7 +18104,7 @@ export let FaChurchSolid = {
   $_icon: {
     name: "Church",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["church"],
   },
   render() {
@@ -18124,7 +18124,7 @@ export let FaCircleArrowDownSolid = {
   $_icon: {
     name: "CircleArrowDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","arrow","down"],
   },
   render() {
@@ -18144,7 +18144,7 @@ export let FaCircleArrowLeftSolid = {
   $_icon: {
     name: "CircleArrowLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","arrow","left"],
   },
   render() {
@@ -18164,7 +18164,7 @@ export let FaCircleArrowRightSolid = {
   $_icon: {
     name: "CircleArrowRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","arrow","right"],
   },
   render() {
@@ -18184,7 +18184,7 @@ export let FaCircleArrowUpSolid = {
   $_icon: {
     name: "CircleArrowUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","arrow","up"],
   },
   render() {
@@ -18204,7 +18204,7 @@ export let FaCircleCheckSolid = {
   $_icon: {
     name: "CircleCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","check"],
   },
   render() {
@@ -18224,7 +18224,7 @@ export let FaCircleChevronDownSolid = {
   $_icon: {
     name: "CircleChevronDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","chevron","down"],
   },
   render() {
@@ -18244,7 +18244,7 @@ export let FaCircleChevronLeftSolid = {
   $_icon: {
     name: "CircleChevronLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","chevron","left"],
   },
   render() {
@@ -18264,7 +18264,7 @@ export let FaCircleChevronRightSolid = {
   $_icon: {
     name: "CircleChevronRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","chevron","right"],
   },
   render() {
@@ -18284,7 +18284,7 @@ export let FaCircleChevronUpSolid = {
   $_icon: {
     name: "CircleChevronUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","chevron","up"],
   },
   render() {
@@ -18304,7 +18304,7 @@ export let FaCircleDollarToSlotSolid = {
   $_icon: {
     name: "CircleDollarToSlot",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","dollar","to","slot"],
   },
   render() {
@@ -18324,7 +18324,7 @@ export let FaCircleDotSolid = {
   $_icon: {
     name: "CircleDot",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","dot"],
   },
   render() {
@@ -18344,7 +18344,7 @@ export let FaCircleDownSolid = {
   $_icon: {
     name: "CircleDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","down"],
   },
   render() {
@@ -18364,7 +18364,7 @@ export let FaCircleExclamationSolid = {
   $_icon: {
     name: "CircleExclamation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","exclamation"],
   },
   render() {
@@ -18384,7 +18384,7 @@ export let FaCircleHSolid = {
   $_icon: {
     name: "CircleH",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","h"],
   },
   render() {
@@ -18404,7 +18404,7 @@ export let FaCircleHalfStrokeSolid = {
   $_icon: {
     name: "CircleHalfStroke",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","half","stroke"],
   },
   render() {
@@ -18424,7 +18424,7 @@ export let FaCircleInfoSolid = {
   $_icon: {
     name: "CircleInfo",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","info"],
   },
   render() {
@@ -18444,7 +18444,7 @@ export let FaCircleLeftSolid = {
   $_icon: {
     name: "CircleLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","left"],
   },
   render() {
@@ -18464,7 +18464,7 @@ export let FaCircleMinusSolid = {
   $_icon: {
     name: "CircleMinus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","minus"],
   },
   render() {
@@ -18484,7 +18484,7 @@ export let FaCircleNodesSolid = {
   $_icon: {
     name: "CircleNodes",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","nodes"],
   },
   render() {
@@ -18504,7 +18504,7 @@ export let FaCircleNotchSolid = {
   $_icon: {
     name: "CircleNotch",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","notch"],
   },
   render() {
@@ -18524,7 +18524,7 @@ export let FaCirclePauseSolid = {
   $_icon: {
     name: "CirclePause",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","pause"],
   },
   render() {
@@ -18544,7 +18544,7 @@ export let FaCirclePlaySolid = {
   $_icon: {
     name: "CirclePlay",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","play"],
   },
   render() {
@@ -18564,7 +18564,7 @@ export let FaCirclePlusSolid = {
   $_icon: {
     name: "CirclePlus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","plus"],
   },
   render() {
@@ -18584,7 +18584,7 @@ export let FaCircleQuestionSolid = {
   $_icon: {
     name: "CircleQuestion",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","question"],
   },
   render() {
@@ -18604,7 +18604,7 @@ export let FaCircleRadiationSolid = {
   $_icon: {
     name: "CircleRadiation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","radiation"],
   },
   render() {
@@ -18624,7 +18624,7 @@ export let FaCircleRightSolid = {
   $_icon: {
     name: "CircleRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","right"],
   },
   render() {
@@ -18644,7 +18644,7 @@ export let FaCircleStopSolid = {
   $_icon: {
     name: "CircleStop",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","stop"],
   },
   render() {
@@ -18664,7 +18664,7 @@ export let FaCircleUpSolid = {
   $_icon: {
     name: "CircleUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","up"],
   },
   render() {
@@ -18684,7 +18684,7 @@ export let FaCircleUserSolid = {
   $_icon: {
     name: "CircleUser",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","user"],
   },
   render() {
@@ -18704,7 +18704,7 @@ export let FaCircleXmarkSolid = {
   $_icon: {
     name: "CircleXmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle","xmark"],
   },
   render() {
@@ -18724,7 +18724,7 @@ export let FaCircleSolid = {
   $_icon: {
     name: "Circle",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["circle"],
   },
   render() {
@@ -18744,7 +18744,7 @@ export let FaCitySolid = {
   $_icon: {
     name: "City",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["city"],
   },
   render() {
@@ -18764,7 +18764,7 @@ export let FaClapperboardSolid = {
   $_icon: {
     name: "Clapperboard",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["clapperboard"],
   },
   render() {
@@ -18784,7 +18784,7 @@ export let FaClipboardCheckSolid = {
   $_icon: {
     name: "ClipboardCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["clipboard","check"],
   },
   render() {
@@ -18804,7 +18804,7 @@ export let FaClipboardListSolid = {
   $_icon: {
     name: "ClipboardList",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["clipboard","list"],
   },
   render() {
@@ -18824,7 +18824,7 @@ export let FaClipboardQuestionSolid = {
   $_icon: {
     name: "ClipboardQuestion",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["clipboard","question"],
   },
   render() {
@@ -18844,7 +18844,7 @@ export let FaClipboardUserSolid = {
   $_icon: {
     name: "ClipboardUser",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["clipboard","user"],
   },
   render() {
@@ -18864,7 +18864,7 @@ export let FaClipboardSolid = {
   $_icon: {
     name: "Clipboard",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["clipboard"],
   },
   render() {
@@ -18884,7 +18884,7 @@ export let FaClockRotateLeftSolid = {
   $_icon: {
     name: "ClockRotateLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["clock","rotate","left"],
   },
   render() {
@@ -18904,7 +18904,7 @@ export let FaClockSolid = {
   $_icon: {
     name: "Clock",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["clock"],
   },
   render() {
@@ -18924,7 +18924,7 @@ export let FaCloneSolid = {
   $_icon: {
     name: "Clone",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["clone"],
   },
   render() {
@@ -18944,7 +18944,7 @@ export let FaClosedCaptioningSolid = {
   $_icon: {
     name: "ClosedCaptioning",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["closed","captioning"],
   },
   render() {
@@ -18964,7 +18964,7 @@ export let FaCloudArrowDownSolid = {
   $_icon: {
     name: "CloudArrowDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cloud","arrow","down"],
   },
   render() {
@@ -18984,7 +18984,7 @@ export let FaCloudArrowUpSolid = {
   $_icon: {
     name: "CloudArrowUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cloud","arrow","up"],
   },
   render() {
@@ -19004,7 +19004,7 @@ export let FaCloudBoltSolid = {
   $_icon: {
     name: "CloudBolt",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cloud","bolt"],
   },
   render() {
@@ -19024,7 +19024,7 @@ export let FaCloudMeatballSolid = {
   $_icon: {
     name: "CloudMeatball",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cloud","meatball"],
   },
   render() {
@@ -19044,7 +19044,7 @@ export let FaCloudMoonRainSolid = {
   $_icon: {
     name: "CloudMoonRain",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cloud","moon","rain"],
   },
   render() {
@@ -19064,7 +19064,7 @@ export let FaCloudMoonSolid = {
   $_icon: {
     name: "CloudMoon",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cloud","moon"],
   },
   render() {
@@ -19084,7 +19084,7 @@ export let FaCloudRainSolid = {
   $_icon: {
     name: "CloudRain",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cloud","rain"],
   },
   render() {
@@ -19104,7 +19104,7 @@ export let FaCloudShowersHeavySolid = {
   $_icon: {
     name: "CloudShowersHeavy",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cloud","showers","heavy"],
   },
   render() {
@@ -19124,7 +19124,7 @@ export let FaCloudShowersWaterSolid = {
   $_icon: {
     name: "CloudShowersWater",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cloud","showers","water"],
   },
   render() {
@@ -19144,7 +19144,7 @@ export let FaCloudSunRainSolid = {
   $_icon: {
     name: "CloudSunRain",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cloud","sun","rain"],
   },
   render() {
@@ -19164,7 +19164,7 @@ export let FaCloudSunSolid = {
   $_icon: {
     name: "CloudSun",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cloud","sun"],
   },
   render() {
@@ -19184,7 +19184,7 @@ export let FaCloudSolid = {
   $_icon: {
     name: "Cloud",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cloud"],
   },
   render() {
@@ -19204,7 +19204,7 @@ export let FaCloverSolid = {
   $_icon: {
     name: "Clover",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["clover"],
   },
   render() {
@@ -19224,7 +19224,7 @@ export let FaCodeBranchSolid = {
   $_icon: {
     name: "CodeBranch",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["code","branch"],
   },
   render() {
@@ -19244,7 +19244,7 @@ export let FaCodeCommitSolid = {
   $_icon: {
     name: "CodeCommit",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["code","commit"],
   },
   render() {
@@ -19264,7 +19264,7 @@ export let FaCodeCompareSolid = {
   $_icon: {
     name: "CodeCompare",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["code","compare"],
   },
   render() {
@@ -19284,7 +19284,7 @@ export let FaCodeForkSolid = {
   $_icon: {
     name: "CodeFork",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["code","fork"],
   },
   render() {
@@ -19304,7 +19304,7 @@ export let FaCodeMergeSolid = {
   $_icon: {
     name: "CodeMerge",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["code","merge"],
   },
   render() {
@@ -19324,7 +19324,7 @@ export let FaCodePullRequestSolid = {
   $_icon: {
     name: "CodePullRequest",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["code","pull","request"],
   },
   render() {
@@ -19344,7 +19344,7 @@ export let FaCodeSolid = {
   $_icon: {
     name: "Code",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["code"],
   },
   render() {
@@ -19364,7 +19364,7 @@ export let FaCoinsSolid = {
   $_icon: {
     name: "Coins",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["coins"],
   },
   render() {
@@ -19384,7 +19384,7 @@ export let FaColonSignSolid = {
   $_icon: {
     name: "ColonSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["colon","sign"],
   },
   render() {
@@ -19404,7 +19404,7 @@ export let FaCommentDollarSolid = {
   $_icon: {
     name: "CommentDollar",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["comment","dollar"],
   },
   render() {
@@ -19424,7 +19424,7 @@ export let FaCommentDotsSolid = {
   $_icon: {
     name: "CommentDots",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["comment","dots"],
   },
   render() {
@@ -19444,7 +19444,7 @@ export let FaCommentMedicalSolid = {
   $_icon: {
     name: "CommentMedical",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["comment","medical"],
   },
   render() {
@@ -19464,7 +19464,7 @@ export let FaCommentSlashSolid = {
   $_icon: {
     name: "CommentSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["comment","slash"],
   },
   render() {
@@ -19484,7 +19484,7 @@ export let FaCommentSmsSolid = {
   $_icon: {
     name: "CommentSms",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["comment","sms"],
   },
   render() {
@@ -19504,7 +19504,7 @@ export let FaCommentSolid = {
   $_icon: {
     name: "Comment",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["comment"],
   },
   render() {
@@ -19524,7 +19524,7 @@ export let FaCommentsDollarSolid = {
   $_icon: {
     name: "CommentsDollar",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["comments","dollar"],
   },
   render() {
@@ -19544,7 +19544,7 @@ export let FaCommentsSolid = {
   $_icon: {
     name: "Comments",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["comments"],
   },
   render() {
@@ -19564,7 +19564,7 @@ export let FaCompactDiscSolid = {
   $_icon: {
     name: "CompactDisc",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["compact","disc"],
   },
   render() {
@@ -19584,7 +19584,7 @@ export let FaCompassDraftingSolid = {
   $_icon: {
     name: "CompassDrafting",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["compass","drafting"],
   },
   render() {
@@ -19604,7 +19604,7 @@ export let FaCompassSolid = {
   $_icon: {
     name: "Compass",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["compass"],
   },
   render() {
@@ -19624,7 +19624,7 @@ export let FaCompressSolid = {
   $_icon: {
     name: "Compress",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["compress"],
   },
   render() {
@@ -19644,7 +19644,7 @@ export let FaComputerMouseSolid = {
   $_icon: {
     name: "ComputerMouse",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["computer","mouse"],
   },
   render() {
@@ -19664,7 +19664,7 @@ export let FaComputerSolid = {
   $_icon: {
     name: "Computer",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["computer"],
   },
   render() {
@@ -19684,7 +19684,7 @@ export let FaCookieBiteSolid = {
   $_icon: {
     name: "CookieBite",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cookie","bite"],
   },
   render() {
@@ -19704,7 +19704,7 @@ export let FaCookieSolid = {
   $_icon: {
     name: "Cookie",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cookie"],
   },
   render() {
@@ -19724,7 +19724,7 @@ export let FaCopySolid = {
   $_icon: {
     name: "Copy",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["copy"],
   },
   render() {
@@ -19744,7 +19744,7 @@ export let FaCopyrightSolid = {
   $_icon: {
     name: "Copyright",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["copyright"],
   },
   render() {
@@ -19764,7 +19764,7 @@ export let FaCouchSolid = {
   $_icon: {
     name: "Couch",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["couch"],
   },
   render() {
@@ -19784,7 +19784,7 @@ export let FaCowSolid = {
   $_icon: {
     name: "Cow",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cow"],
   },
   render() {
@@ -19804,7 +19804,7 @@ export let FaCreditCardSolid = {
   $_icon: {
     name: "CreditCard",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["credit","card"],
   },
   render() {
@@ -19824,7 +19824,7 @@ export let FaCropSimpleSolid = {
   $_icon: {
     name: "CropSimple",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["crop","simple"],
   },
   render() {
@@ -19844,7 +19844,7 @@ export let FaCropSolid = {
   $_icon: {
     name: "Crop",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["crop"],
   },
   render() {
@@ -19864,7 +19864,7 @@ export let FaCrossSolid = {
   $_icon: {
     name: "Cross",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cross"],
   },
   render() {
@@ -19884,7 +19884,7 @@ export let FaCrosshairsSolid = {
   $_icon: {
     name: "Crosshairs",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["crosshairs"],
   },
   render() {
@@ -19904,7 +19904,7 @@ export let FaCrowSolid = {
   $_icon: {
     name: "Crow",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["crow"],
   },
   render() {
@@ -19924,7 +19924,7 @@ export let FaCrownSolid = {
   $_icon: {
     name: "Crown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["crown"],
   },
   render() {
@@ -19944,7 +19944,7 @@ export let FaCrutchSolid = {
   $_icon: {
     name: "Crutch",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["crutch"],
   },
   render() {
@@ -19964,7 +19964,7 @@ export let FaCruzeiroSignSolid = {
   $_icon: {
     name: "CruzeiroSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cruzeiro","sign"],
   },
   render() {
@@ -19984,7 +19984,7 @@ export let FaCubeSolid = {
   $_icon: {
     name: "Cube",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cube"],
   },
   render() {
@@ -20004,7 +20004,7 @@ export let FaCubesStackedSolid = {
   $_icon: {
     name: "CubesStacked",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cubes","stacked"],
   },
   render() {
@@ -20024,7 +20024,7 @@ export let FaCubesSolid = {
   $_icon: {
     name: "Cubes",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["cubes"],
   },
   render() {
@@ -20044,7 +20044,7 @@ export let FaDSolid = {
   $_icon: {
     name: "D",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["d"],
   },
   render() {
@@ -20064,7 +20064,7 @@ export let FaDatabaseSolid = {
   $_icon: {
     name: "Database",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["database"],
   },
   render() {
@@ -20084,7 +20084,7 @@ export let FaDeleteLeftSolid = {
   $_icon: {
     name: "DeleteLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["delete","left"],
   },
   render() {
@@ -20104,7 +20104,7 @@ export let FaDemocratSolid = {
   $_icon: {
     name: "Democrat",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["democrat"],
   },
   render() {
@@ -20124,7 +20124,7 @@ export let FaDesktopSolid = {
   $_icon: {
     name: "Desktop",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["desktop"],
   },
   render() {
@@ -20144,7 +20144,7 @@ export let FaDharmachakraSolid = {
   $_icon: {
     name: "Dharmachakra",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["dharmachakra"],
   },
   render() {
@@ -20164,7 +20164,7 @@ export let FaDiagramNextSolid = {
   $_icon: {
     name: "DiagramNext",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["diagram","next"],
   },
   render() {
@@ -20184,7 +20184,7 @@ export let FaDiagramPredecessorSolid = {
   $_icon: {
     name: "DiagramPredecessor",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["diagram","predecessor"],
   },
   render() {
@@ -20204,7 +20204,7 @@ export let FaDiagramProjectSolid = {
   $_icon: {
     name: "DiagramProject",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["diagram","project"],
   },
   render() {
@@ -20224,7 +20224,7 @@ export let FaDiagramSuccessorSolid = {
   $_icon: {
     name: "DiagramSuccessor",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["diagram","successor"],
   },
   render() {
@@ -20244,7 +20244,7 @@ export let FaDiamondTurnRightSolid = {
   $_icon: {
     name: "DiamondTurnRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["diamond","turn","right"],
   },
   render() {
@@ -20264,7 +20264,7 @@ export let FaDiamondSolid = {
   $_icon: {
     name: "Diamond",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["diamond"],
   },
   render() {
@@ -20284,7 +20284,7 @@ export let FaDiceD20Solid = {
   $_icon: {
     name: "DiceD20",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["dice","d20"],
   },
   render() {
@@ -20304,7 +20304,7 @@ export let FaDiceD6Solid = {
   $_icon: {
     name: "DiceD6",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["dice","d6"],
   },
   render() {
@@ -20324,7 +20324,7 @@ export let FaDiceFiveSolid = {
   $_icon: {
     name: "DiceFive",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["dice","five"],
   },
   render() {
@@ -20344,7 +20344,7 @@ export let FaDiceFourSolid = {
   $_icon: {
     name: "DiceFour",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["dice","four"],
   },
   render() {
@@ -20364,7 +20364,7 @@ export let FaDiceOneSolid = {
   $_icon: {
     name: "DiceOne",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["dice","one"],
   },
   render() {
@@ -20384,7 +20384,7 @@ export let FaDiceSixSolid = {
   $_icon: {
     name: "DiceSix",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["dice","six"],
   },
   render() {
@@ -20404,7 +20404,7 @@ export let FaDiceThreeSolid = {
   $_icon: {
     name: "DiceThree",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["dice","three"],
   },
   render() {
@@ -20424,7 +20424,7 @@ export let FaDiceTwoSolid = {
   $_icon: {
     name: "DiceTwo",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["dice","two"],
   },
   render() {
@@ -20444,7 +20444,7 @@ export let FaDiceSolid = {
   $_icon: {
     name: "Dice",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["dice"],
   },
   render() {
@@ -20464,7 +20464,7 @@ export let FaDiseaseSolid = {
   $_icon: {
     name: "Disease",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["disease"],
   },
   render() {
@@ -20484,7 +20484,7 @@ export let FaDisplaySolid = {
   $_icon: {
     name: "Display",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["display"],
   },
   render() {
@@ -20504,7 +20504,7 @@ export let FaDivideSolid = {
   $_icon: {
     name: "Divide",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["divide"],
   },
   render() {
@@ -20524,7 +20524,7 @@ export let FaDnaSolid = {
   $_icon: {
     name: "Dna",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["dna"],
   },
   render() {
@@ -20544,7 +20544,7 @@ export let FaDogSolid = {
   $_icon: {
     name: "Dog",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["dog"],
   },
   render() {
@@ -20564,7 +20564,7 @@ export let FaDollarSignSolid = {
   $_icon: {
     name: "DollarSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["dollar","sign"],
   },
   render() {
@@ -20584,7 +20584,7 @@ export let FaDollySolid = {
   $_icon: {
     name: "Dolly",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["dolly"],
   },
   render() {
@@ -20604,7 +20604,7 @@ export let FaDongSignSolid = {
   $_icon: {
     name: "DongSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["dong","sign"],
   },
   render() {
@@ -20624,7 +20624,7 @@ export let FaDoorClosedSolid = {
   $_icon: {
     name: "DoorClosed",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["door","closed"],
   },
   render() {
@@ -20644,7 +20644,7 @@ export let FaDoorOpenSolid = {
   $_icon: {
     name: "DoorOpen",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["door","open"],
   },
   render() {
@@ -20664,7 +20664,7 @@ export let FaDoveSolid = {
   $_icon: {
     name: "Dove",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["dove"],
   },
   render() {
@@ -20684,7 +20684,7 @@ export let FaDownLeftAndUpRightToCenterSolid = {
   $_icon: {
     name: "DownLeftAndUpRightToCenter",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["down","left","and","up","right","to","center"],
   },
   render() {
@@ -20704,7 +20704,7 @@ export let FaDownLongSolid = {
   $_icon: {
     name: "DownLong",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["down","long"],
   },
   render() {
@@ -20724,7 +20724,7 @@ export let FaDownloadSolid = {
   $_icon: {
     name: "Download",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["download"],
   },
   render() {
@@ -20744,7 +20744,7 @@ export let FaDragonSolid = {
   $_icon: {
     name: "Dragon",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["dragon"],
   },
   render() {
@@ -20764,7 +20764,7 @@ export let FaDrawPolygonSolid = {
   $_icon: {
     name: "DrawPolygon",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["draw","polygon"],
   },
   render() {
@@ -20784,7 +20784,7 @@ export let FaDropletSlashSolid = {
   $_icon: {
     name: "DropletSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["droplet","slash"],
   },
   render() {
@@ -20804,7 +20804,7 @@ export let FaDropletSolid = {
   $_icon: {
     name: "Droplet",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["droplet"],
   },
   render() {
@@ -20824,7 +20824,7 @@ export let FaDrumSteelpanSolid = {
   $_icon: {
     name: "DrumSteelpan",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["drum","steelpan"],
   },
   render() {
@@ -20844,7 +20844,7 @@ export let FaDrumSolid = {
   $_icon: {
     name: "Drum",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["drum"],
   },
   render() {
@@ -20864,7 +20864,7 @@ export let FaDrumstickBiteSolid = {
   $_icon: {
     name: "DrumstickBite",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["drumstick","bite"],
   },
   render() {
@@ -20884,7 +20884,7 @@ export let FaDumbbellSolid = {
   $_icon: {
     name: "Dumbbell",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["dumbbell"],
   },
   render() {
@@ -20904,7 +20904,7 @@ export let FaDumpsterFireSolid = {
   $_icon: {
     name: "DumpsterFire",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["dumpster","fire"],
   },
   render() {
@@ -20924,7 +20924,7 @@ export let FaDumpsterSolid = {
   $_icon: {
     name: "Dumpster",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["dumpster"],
   },
   render() {
@@ -20944,7 +20944,7 @@ export let FaDungeonSolid = {
   $_icon: {
     name: "Dungeon",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["dungeon"],
   },
   render() {
@@ -20964,7 +20964,7 @@ export let FaESolid = {
   $_icon: {
     name: "E",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["e"],
   },
   render() {
@@ -20984,7 +20984,7 @@ export let FaEarDeafSolid = {
   $_icon: {
     name: "EarDeaf",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ear","deaf"],
   },
   render() {
@@ -21004,7 +21004,7 @@ export let FaEarListenSolid = {
   $_icon: {
     name: "EarListen",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ear","listen"],
   },
   render() {
@@ -21024,7 +21024,7 @@ export let FaEarthAfricaSolid = {
   $_icon: {
     name: "EarthAfrica",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["earth","africa"],
   },
   render() {
@@ -21044,7 +21044,7 @@ export let FaEarthAmericasSolid = {
   $_icon: {
     name: "EarthAmericas",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["earth","americas"],
   },
   render() {
@@ -21064,7 +21064,7 @@ export let FaEarthAsiaSolid = {
   $_icon: {
     name: "EarthAsia",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["earth","asia"],
   },
   render() {
@@ -21084,7 +21084,7 @@ export let FaEarthEuropeSolid = {
   $_icon: {
     name: "EarthEurope",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["earth","europe"],
   },
   render() {
@@ -21104,7 +21104,7 @@ export let FaEarthOceaniaSolid = {
   $_icon: {
     name: "EarthOceania",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["earth","oceania"],
   },
   render() {
@@ -21124,7 +21124,7 @@ export let FaEggSolid = {
   $_icon: {
     name: "Egg",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["egg"],
   },
   render() {
@@ -21144,7 +21144,7 @@ export let FaEjectSolid = {
   $_icon: {
     name: "Eject",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["eject"],
   },
   render() {
@@ -21164,7 +21164,7 @@ export let FaElevatorSolid = {
   $_icon: {
     name: "Elevator",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["elevator"],
   },
   render() {
@@ -21184,7 +21184,7 @@ export let FaEllipsisVerticalSolid = {
   $_icon: {
     name: "EllipsisVertical",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ellipsis","vertical"],
   },
   render() {
@@ -21204,7 +21204,7 @@ export let FaEllipsisSolid = {
   $_icon: {
     name: "Ellipsis",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ellipsis"],
   },
   render() {
@@ -21224,7 +21224,7 @@ export let FaEnvelopeCircleCheckSolid = {
   $_icon: {
     name: "EnvelopeCircleCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["envelope","circle","check"],
   },
   render() {
@@ -21244,7 +21244,7 @@ export let FaEnvelopeOpenTextSolid = {
   $_icon: {
     name: "EnvelopeOpenText",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["envelope","open","text"],
   },
   render() {
@@ -21264,7 +21264,7 @@ export let FaEnvelopeOpenSolid = {
   $_icon: {
     name: "EnvelopeOpen",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["envelope","open"],
   },
   render() {
@@ -21284,7 +21284,7 @@ export let FaEnvelopeSolid = {
   $_icon: {
     name: "Envelope",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["envelope"],
   },
   render() {
@@ -21304,7 +21304,7 @@ export let FaEnvelopesBulkSolid = {
   $_icon: {
     name: "EnvelopesBulk",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["envelopes","bulk"],
   },
   render() {
@@ -21324,7 +21324,7 @@ export let FaEqualsSolid = {
   $_icon: {
     name: "Equals",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["equals"],
   },
   render() {
@@ -21344,7 +21344,7 @@ export let FaEraserSolid = {
   $_icon: {
     name: "Eraser",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["eraser"],
   },
   render() {
@@ -21364,7 +21364,7 @@ export let FaEthernetSolid = {
   $_icon: {
     name: "Ethernet",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ethernet"],
   },
   render() {
@@ -21384,7 +21384,7 @@ export let FaEuroSignSolid = {
   $_icon: {
     name: "EuroSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["euro","sign"],
   },
   render() {
@@ -21404,7 +21404,7 @@ export let FaExclamationSolid = {
   $_icon: {
     name: "Exclamation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["exclamation"],
   },
   render() {
@@ -21424,7 +21424,7 @@ export let FaExpandSolid = {
   $_icon: {
     name: "Expand",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["expand"],
   },
   render() {
@@ -21444,7 +21444,7 @@ export let FaExplosionSolid = {
   $_icon: {
     name: "Explosion",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["explosion"],
   },
   render() {
@@ -21464,7 +21464,7 @@ export let FaEyeDropperSolid = {
   $_icon: {
     name: "EyeDropper",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["eye","dropper"],
   },
   render() {
@@ -21484,7 +21484,7 @@ export let FaEyeLowVisionSolid = {
   $_icon: {
     name: "EyeLowVision",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["eye","low","vision"],
   },
   render() {
@@ -21504,7 +21504,7 @@ export let FaEyeSlashSolid = {
   $_icon: {
     name: "EyeSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["eye","slash"],
   },
   render() {
@@ -21524,7 +21524,7 @@ export let FaEyeSolid = {
   $_icon: {
     name: "Eye",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["eye"],
   },
   render() {
@@ -21544,7 +21544,7 @@ export let FaFSolid = {
   $_icon: {
     name: "F",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["f"],
   },
   render() {
@@ -21564,7 +21564,7 @@ export let FaFaceAngrySolid = {
   $_icon: {
     name: "FaceAngry",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","angry"],
   },
   render() {
@@ -21584,7 +21584,7 @@ export let FaFaceDizzySolid = {
   $_icon: {
     name: "FaceDizzy",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","dizzy"],
   },
   render() {
@@ -21604,7 +21604,7 @@ export let FaFaceFlushedSolid = {
   $_icon: {
     name: "FaceFlushed",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","flushed"],
   },
   render() {
@@ -21624,7 +21624,7 @@ export let FaFaceFrownOpenSolid = {
   $_icon: {
     name: "FaceFrownOpen",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","frown","open"],
   },
   render() {
@@ -21644,7 +21644,7 @@ export let FaFaceFrownSolid = {
   $_icon: {
     name: "FaceFrown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","frown"],
   },
   render() {
@@ -21664,7 +21664,7 @@ export let FaFaceGrimaceSolid = {
   $_icon: {
     name: "FaceGrimace",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","grimace"],
   },
   render() {
@@ -21684,7 +21684,7 @@ export let FaFaceGrinBeamSweatSolid = {
   $_icon: {
     name: "FaceGrinBeamSweat",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","grin","beam","sweat"],
   },
   render() {
@@ -21704,7 +21704,7 @@ export let FaFaceGrinBeamSolid = {
   $_icon: {
     name: "FaceGrinBeam",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","grin","beam"],
   },
   render() {
@@ -21724,7 +21724,7 @@ export let FaFaceGrinHeartsSolid = {
   $_icon: {
     name: "FaceGrinHearts",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","grin","hearts"],
   },
   render() {
@@ -21744,7 +21744,7 @@ export let FaFaceGrinSquintTearsSolid = {
   $_icon: {
     name: "FaceGrinSquintTears",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","grin","squint","tears"],
   },
   render() {
@@ -21764,7 +21764,7 @@ export let FaFaceGrinSquintSolid = {
   $_icon: {
     name: "FaceGrinSquint",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","grin","squint"],
   },
   render() {
@@ -21784,7 +21784,7 @@ export let FaFaceGrinStarsSolid = {
   $_icon: {
     name: "FaceGrinStars",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","grin","stars"],
   },
   render() {
@@ -21804,7 +21804,7 @@ export let FaFaceGrinTearsSolid = {
   $_icon: {
     name: "FaceGrinTears",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","grin","tears"],
   },
   render() {
@@ -21824,7 +21824,7 @@ export let FaFaceGrinTongueSquintSolid = {
   $_icon: {
     name: "FaceGrinTongueSquint",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","grin","tongue","squint"],
   },
   render() {
@@ -21844,7 +21844,7 @@ export let FaFaceGrinTongueWinkSolid = {
   $_icon: {
     name: "FaceGrinTongueWink",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","grin","tongue","wink"],
   },
   render() {
@@ -21864,7 +21864,7 @@ export let FaFaceGrinTongueSolid = {
   $_icon: {
     name: "FaceGrinTongue",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","grin","tongue"],
   },
   render() {
@@ -21884,7 +21884,7 @@ export let FaFaceGrinWideSolid = {
   $_icon: {
     name: "FaceGrinWide",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","grin","wide"],
   },
   render() {
@@ -21904,7 +21904,7 @@ export let FaFaceGrinWinkSolid = {
   $_icon: {
     name: "FaceGrinWink",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","grin","wink"],
   },
   render() {
@@ -21924,7 +21924,7 @@ export let FaFaceGrinSolid = {
   $_icon: {
     name: "FaceGrin",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","grin"],
   },
   render() {
@@ -21944,7 +21944,7 @@ export let FaFaceKissBeamSolid = {
   $_icon: {
     name: "FaceKissBeam",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","kiss","beam"],
   },
   render() {
@@ -21964,7 +21964,7 @@ export let FaFaceKissWinkHeartSolid = {
   $_icon: {
     name: "FaceKissWinkHeart",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","kiss","wink","heart"],
   },
   render() {
@@ -21984,7 +21984,7 @@ export let FaFaceKissSolid = {
   $_icon: {
     name: "FaceKiss",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","kiss"],
   },
   render() {
@@ -22004,7 +22004,7 @@ export let FaFaceLaughBeamSolid = {
   $_icon: {
     name: "FaceLaughBeam",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","laugh","beam"],
   },
   render() {
@@ -22024,7 +22024,7 @@ export let FaFaceLaughSquintSolid = {
   $_icon: {
     name: "FaceLaughSquint",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","laugh","squint"],
   },
   render() {
@@ -22044,7 +22044,7 @@ export let FaFaceLaughWinkSolid = {
   $_icon: {
     name: "FaceLaughWink",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","laugh","wink"],
   },
   render() {
@@ -22064,7 +22064,7 @@ export let FaFaceLaughSolid = {
   $_icon: {
     name: "FaceLaugh",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","laugh"],
   },
   render() {
@@ -22084,7 +22084,7 @@ export let FaFaceMehBlankSolid = {
   $_icon: {
     name: "FaceMehBlank",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","meh","blank"],
   },
   render() {
@@ -22104,7 +22104,7 @@ export let FaFaceMehSolid = {
   $_icon: {
     name: "FaceMeh",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","meh"],
   },
   render() {
@@ -22124,7 +22124,7 @@ export let FaFaceRollingEyesSolid = {
   $_icon: {
     name: "FaceRollingEyes",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","rolling","eyes"],
   },
   render() {
@@ -22144,7 +22144,7 @@ export let FaFaceSadCrySolid = {
   $_icon: {
     name: "FaceSadCry",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","sad","cry"],
   },
   render() {
@@ -22164,7 +22164,7 @@ export let FaFaceSadTearSolid = {
   $_icon: {
     name: "FaceSadTear",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","sad","tear"],
   },
   render() {
@@ -22184,7 +22184,7 @@ export let FaFaceSmileBeamSolid = {
   $_icon: {
     name: "FaceSmileBeam",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","smile","beam"],
   },
   render() {
@@ -22204,7 +22204,7 @@ export let FaFaceSmileWinkSolid = {
   $_icon: {
     name: "FaceSmileWink",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","smile","wink"],
   },
   render() {
@@ -22224,7 +22224,7 @@ export let FaFaceSmileSolid = {
   $_icon: {
     name: "FaceSmile",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","smile"],
   },
   render() {
@@ -22244,7 +22244,7 @@ export let FaFaceSurpriseSolid = {
   $_icon: {
     name: "FaceSurprise",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","surprise"],
   },
   render() {
@@ -22264,7 +22264,7 @@ export let FaFaceTiredSolid = {
   $_icon: {
     name: "FaceTired",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["face","tired"],
   },
   render() {
@@ -22284,7 +22284,7 @@ export let FaFanSolid = {
   $_icon: {
     name: "Fan",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["fan"],
   },
   render() {
@@ -22304,7 +22304,7 @@ export let FaFaucetDripSolid = {
   $_icon: {
     name: "FaucetDrip",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["faucet","drip"],
   },
   render() {
@@ -22324,7 +22324,7 @@ export let FaFaucetSolid = {
   $_icon: {
     name: "Faucet",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["faucet"],
   },
   render() {
@@ -22344,7 +22344,7 @@ export let FaFaxSolid = {
   $_icon: {
     name: "Fax",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["fax"],
   },
   render() {
@@ -22364,7 +22364,7 @@ export let FaFeatherPointedSolid = {
   $_icon: {
     name: "FeatherPointed",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["feather","pointed"],
   },
   render() {
@@ -22384,7 +22384,7 @@ export let FaFeatherSolid = {
   $_icon: {
     name: "Feather",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["feather"],
   },
   render() {
@@ -22404,7 +22404,7 @@ export let FaFerrySolid = {
   $_icon: {
     name: "Ferry",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ferry"],
   },
   render() {
@@ -22424,7 +22424,7 @@ export let FaFileArrowDownSolid = {
   $_icon: {
     name: "FileArrowDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","arrow","down"],
   },
   render() {
@@ -22444,7 +22444,7 @@ export let FaFileArrowUpSolid = {
   $_icon: {
     name: "FileArrowUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","arrow","up"],
   },
   render() {
@@ -22464,7 +22464,7 @@ export let FaFileAudioSolid = {
   $_icon: {
     name: "FileAudio",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","audio"],
   },
   render() {
@@ -22484,7 +22484,7 @@ export let FaFileCircleCheckSolid = {
   $_icon: {
     name: "FileCircleCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","circle","check"],
   },
   render() {
@@ -22504,7 +22504,7 @@ export let FaFileCircleExclamationSolid = {
   $_icon: {
     name: "FileCircleExclamation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","circle","exclamation"],
   },
   render() {
@@ -22524,7 +22524,7 @@ export let FaFileCircleMinusSolid = {
   $_icon: {
     name: "FileCircleMinus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","circle","minus"],
   },
   render() {
@@ -22544,7 +22544,7 @@ export let FaFileCirclePlusSolid = {
   $_icon: {
     name: "FileCirclePlus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","circle","plus"],
   },
   render() {
@@ -22564,7 +22564,7 @@ export let FaFileCircleQuestionSolid = {
   $_icon: {
     name: "FileCircleQuestion",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","circle","question"],
   },
   render() {
@@ -22584,7 +22584,7 @@ export let FaFileCircleXmarkSolid = {
   $_icon: {
     name: "FileCircleXmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","circle","xmark"],
   },
   render() {
@@ -22604,7 +22604,7 @@ export let FaFileCodeSolid = {
   $_icon: {
     name: "FileCode",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","code"],
   },
   render() {
@@ -22624,7 +22624,7 @@ export let FaFileContractSolid = {
   $_icon: {
     name: "FileContract",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","contract"],
   },
   render() {
@@ -22644,7 +22644,7 @@ export let FaFileCsvSolid = {
   $_icon: {
     name: "FileCsv",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","csv"],
   },
   render() {
@@ -22664,7 +22664,7 @@ export let FaFileExcelSolid = {
   $_icon: {
     name: "FileExcel",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","excel"],
   },
   render() {
@@ -22684,7 +22684,7 @@ export let FaFileExportSolid = {
   $_icon: {
     name: "FileExport",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","export"],
   },
   render() {
@@ -22704,7 +22704,7 @@ export let FaFileImageSolid = {
   $_icon: {
     name: "FileImage",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","image"],
   },
   render() {
@@ -22724,7 +22724,7 @@ export let FaFileImportSolid = {
   $_icon: {
     name: "FileImport",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","import"],
   },
   render() {
@@ -22744,7 +22744,7 @@ export let FaFileInvoiceDollarSolid = {
   $_icon: {
     name: "FileInvoiceDollar",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","invoice","dollar"],
   },
   render() {
@@ -22764,7 +22764,7 @@ export let FaFileInvoiceSolid = {
   $_icon: {
     name: "FileInvoice",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","invoice"],
   },
   render() {
@@ -22784,7 +22784,7 @@ export let FaFileLinesSolid = {
   $_icon: {
     name: "FileLines",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","lines"],
   },
   render() {
@@ -22804,7 +22804,7 @@ export let FaFileMedicalSolid = {
   $_icon: {
     name: "FileMedical",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","medical"],
   },
   render() {
@@ -22824,7 +22824,7 @@ export let FaFilePdfSolid = {
   $_icon: {
     name: "FilePdf",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","pdf"],
   },
   render() {
@@ -22844,7 +22844,7 @@ export let FaFilePenSolid = {
   $_icon: {
     name: "FilePen",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","pen"],
   },
   render() {
@@ -22864,7 +22864,7 @@ export let FaFilePowerpointSolid = {
   $_icon: {
     name: "FilePowerpoint",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","powerpoint"],
   },
   render() {
@@ -22884,7 +22884,7 @@ export let FaFilePrescriptionSolid = {
   $_icon: {
     name: "FilePrescription",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","prescription"],
   },
   render() {
@@ -22904,7 +22904,7 @@ export let FaFileShieldSolid = {
   $_icon: {
     name: "FileShield",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","shield"],
   },
   render() {
@@ -22924,7 +22924,7 @@ export let FaFileSignatureSolid = {
   $_icon: {
     name: "FileSignature",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","signature"],
   },
   render() {
@@ -22944,7 +22944,7 @@ export let FaFileVideoSolid = {
   $_icon: {
     name: "FileVideo",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","video"],
   },
   render() {
@@ -22964,7 +22964,7 @@ export let FaFileWaveformSolid = {
   $_icon: {
     name: "FileWaveform",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","waveform"],
   },
   render() {
@@ -22984,7 +22984,7 @@ export let FaFileWordSolid = {
   $_icon: {
     name: "FileWord",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","word"],
   },
   render() {
@@ -23004,7 +23004,7 @@ export let FaFileZipperSolid = {
   $_icon: {
     name: "FileZipper",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file","zipper"],
   },
   render() {
@@ -23024,7 +23024,7 @@ export let FaFileSolid = {
   $_icon: {
     name: "File",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["file"],
   },
   render() {
@@ -23044,7 +23044,7 @@ export let FaFillDripSolid = {
   $_icon: {
     name: "FillDrip",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["fill","drip"],
   },
   render() {
@@ -23064,7 +23064,7 @@ export let FaFillSolid = {
   $_icon: {
     name: "Fill",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["fill"],
   },
   render() {
@@ -23084,7 +23084,7 @@ export let FaFilmSolid = {
   $_icon: {
     name: "Film",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["film"],
   },
   render() {
@@ -23104,7 +23104,7 @@ export let FaFilterCircleDollarSolid = {
   $_icon: {
     name: "FilterCircleDollar",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["filter","circle","dollar"],
   },
   render() {
@@ -23124,7 +23124,7 @@ export let FaFilterCircleXmarkSolid = {
   $_icon: {
     name: "FilterCircleXmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["filter","circle","xmark"],
   },
   render() {
@@ -23144,7 +23144,7 @@ export let FaFilterSolid = {
   $_icon: {
     name: "Filter",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["filter"],
   },
   render() {
@@ -23164,7 +23164,7 @@ export let FaFingerprintSolid = {
   $_icon: {
     name: "Fingerprint",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["fingerprint"],
   },
   render() {
@@ -23184,7 +23184,7 @@ export let FaFireBurnerSolid = {
   $_icon: {
     name: "FireBurner",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["fire","burner"],
   },
   render() {
@@ -23204,7 +23204,7 @@ export let FaFireExtinguisherSolid = {
   $_icon: {
     name: "FireExtinguisher",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["fire","extinguisher"],
   },
   render() {
@@ -23224,7 +23224,7 @@ export let FaFireFlameCurvedSolid = {
   $_icon: {
     name: "FireFlameCurved",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["fire","flame","curved"],
   },
   render() {
@@ -23244,7 +23244,7 @@ export let FaFireFlameSimpleSolid = {
   $_icon: {
     name: "FireFlameSimple",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["fire","flame","simple"],
   },
   render() {
@@ -23264,7 +23264,7 @@ export let FaFireSolid = {
   $_icon: {
     name: "Fire",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["fire"],
   },
   render() {
@@ -23284,7 +23284,7 @@ export let FaFishFinsSolid = {
   $_icon: {
     name: "FishFins",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["fish","fins"],
   },
   render() {
@@ -23304,7 +23304,7 @@ export let FaFishSolid = {
   $_icon: {
     name: "Fish",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["fish"],
   },
   render() {
@@ -23324,7 +23324,7 @@ export let FaFlagCheckeredSolid = {
   $_icon: {
     name: "FlagCheckered",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["flag","checkered"],
   },
   render() {
@@ -23344,7 +23344,7 @@ export let FaFlagUsaSolid = {
   $_icon: {
     name: "FlagUsa",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["flag","usa"],
   },
   render() {
@@ -23364,7 +23364,7 @@ export let FaFlagSolid = {
   $_icon: {
     name: "Flag",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["flag"],
   },
   render() {
@@ -23384,7 +23384,7 @@ export let FaFlaskVialSolid = {
   $_icon: {
     name: "FlaskVial",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["flask","vial"],
   },
   render() {
@@ -23404,7 +23404,7 @@ export let FaFlaskSolid = {
   $_icon: {
     name: "Flask",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["flask"],
   },
   render() {
@@ -23424,7 +23424,7 @@ export let FaFloppyDiskSolid = {
   $_icon: {
     name: "FloppyDisk",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["floppy","disk"],
   },
   render() {
@@ -23444,7 +23444,7 @@ export let FaFlorinSignSolid = {
   $_icon: {
     name: "FlorinSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["florin","sign"],
   },
   render() {
@@ -23464,7 +23464,7 @@ export let FaFolderClosedSolid = {
   $_icon: {
     name: "FolderClosed",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["folder","closed"],
   },
   render() {
@@ -23484,7 +23484,7 @@ export let FaFolderMinusSolid = {
   $_icon: {
     name: "FolderMinus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["folder","minus"],
   },
   render() {
@@ -23504,7 +23504,7 @@ export let FaFolderOpenSolid = {
   $_icon: {
     name: "FolderOpen",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["folder","open"],
   },
   render() {
@@ -23524,7 +23524,7 @@ export let FaFolderPlusSolid = {
   $_icon: {
     name: "FolderPlus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["folder","plus"],
   },
   render() {
@@ -23544,7 +23544,7 @@ export let FaFolderTreeSolid = {
   $_icon: {
     name: "FolderTree",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["folder","tree"],
   },
   render() {
@@ -23564,7 +23564,7 @@ export let FaFolderSolid = {
   $_icon: {
     name: "Folder",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["folder"],
   },
   render() {
@@ -23584,7 +23584,7 @@ export let FaFontAwesomeSolid = {
   $_icon: {
     name: "FontAwesome",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["font","awesome"],
   },
   render() {
@@ -23604,7 +23604,7 @@ export let FaFontSolid = {
   $_icon: {
     name: "Font",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["font"],
   },
   render() {
@@ -23624,7 +23624,7 @@ export let FaFootballSolid = {
   $_icon: {
     name: "Football",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["football"],
   },
   render() {
@@ -23644,7 +23644,7 @@ export let FaForwardFastSolid = {
   $_icon: {
     name: "ForwardFast",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["forward","fast"],
   },
   render() {
@@ -23664,7 +23664,7 @@ export let FaForwardStepSolid = {
   $_icon: {
     name: "ForwardStep",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["forward","step"],
   },
   render() {
@@ -23684,7 +23684,7 @@ export let FaForwardSolid = {
   $_icon: {
     name: "Forward",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["forward"],
   },
   render() {
@@ -23704,7 +23704,7 @@ export let FaFrancSignSolid = {
   $_icon: {
     name: "FrancSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["franc","sign"],
   },
   render() {
@@ -23724,7 +23724,7 @@ export let FaFrogSolid = {
   $_icon: {
     name: "Frog",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["frog"],
   },
   render() {
@@ -23744,7 +23744,7 @@ export let FaFutbolSolid = {
   $_icon: {
     name: "Futbol",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["futbol"],
   },
   render() {
@@ -23764,7 +23764,7 @@ export let FaGSolid = {
   $_icon: {
     name: "G",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["g"],
   },
   render() {
@@ -23784,7 +23784,7 @@ export let FaGamepadSolid = {
   $_icon: {
     name: "Gamepad",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["gamepad"],
   },
   render() {
@@ -23804,7 +23804,7 @@ export let FaGasPumpSolid = {
   $_icon: {
     name: "GasPump",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["gas","pump"],
   },
   render() {
@@ -23824,7 +23824,7 @@ export let FaGaugeHighSolid = {
   $_icon: {
     name: "GaugeHigh",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["gauge","high"],
   },
   render() {
@@ -23844,7 +23844,7 @@ export let FaGaugeSimpleHighSolid = {
   $_icon: {
     name: "GaugeSimpleHigh",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["gauge","simple","high"],
   },
   render() {
@@ -23864,7 +23864,7 @@ export let FaGaugeSimpleSolid = {
   $_icon: {
     name: "GaugeSimple",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["gauge","simple"],
   },
   render() {
@@ -23884,7 +23884,7 @@ export let FaGaugeSolid = {
   $_icon: {
     name: "Gauge",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["gauge"],
   },
   render() {
@@ -23904,7 +23904,7 @@ export let FaGavelSolid = {
   $_icon: {
     name: "Gavel",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["gavel"],
   },
   render() {
@@ -23924,7 +23924,7 @@ export let FaGearSolid = {
   $_icon: {
     name: "Gear",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["gear"],
   },
   render() {
@@ -23944,7 +23944,7 @@ export let FaGearsSolid = {
   $_icon: {
     name: "Gears",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["gears"],
   },
   render() {
@@ -23964,7 +23964,7 @@ export let FaGemSolid = {
   $_icon: {
     name: "Gem",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["gem"],
   },
   render() {
@@ -23984,7 +23984,7 @@ export let FaGenderlessSolid = {
   $_icon: {
     name: "Genderless",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["genderless"],
   },
   render() {
@@ -24004,7 +24004,7 @@ export let FaGhostSolid = {
   $_icon: {
     name: "Ghost",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ghost"],
   },
   render() {
@@ -24024,7 +24024,7 @@ export let FaGiftSolid = {
   $_icon: {
     name: "Gift",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["gift"],
   },
   render() {
@@ -24044,7 +24044,7 @@ export let FaGiftsSolid = {
   $_icon: {
     name: "Gifts",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["gifts"],
   },
   render() {
@@ -24064,7 +24064,7 @@ export let FaGlassWaterDropletSolid = {
   $_icon: {
     name: "GlassWaterDroplet",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["glass","water","droplet"],
   },
   render() {
@@ -24084,7 +24084,7 @@ export let FaGlassWaterSolid = {
   $_icon: {
     name: "GlassWater",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["glass","water"],
   },
   render() {
@@ -24104,7 +24104,7 @@ export let FaGlassesSolid = {
   $_icon: {
     name: "Glasses",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["glasses"],
   },
   render() {
@@ -24124,7 +24124,7 @@ export let FaGlobeSolid = {
   $_icon: {
     name: "Globe",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["globe"],
   },
   render() {
@@ -24144,7 +24144,7 @@ export let FaGolfBallTeeSolid = {
   $_icon: {
     name: "GolfBallTee",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["golf","ball","tee"],
   },
   render() {
@@ -24164,7 +24164,7 @@ export let FaGopuramSolid = {
   $_icon: {
     name: "Gopuram",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["gopuram"],
   },
   render() {
@@ -24184,7 +24184,7 @@ export let FaGraduationCapSolid = {
   $_icon: {
     name: "GraduationCap",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["graduation","cap"],
   },
   render() {
@@ -24204,7 +24204,7 @@ export let FaGreaterThanEqualSolid = {
   $_icon: {
     name: "GreaterThanEqual",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["greater","than","equal"],
   },
   render() {
@@ -24224,7 +24224,7 @@ export let FaGreaterThanSolid = {
   $_icon: {
     name: "GreaterThan",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["greater","than"],
   },
   render() {
@@ -24244,7 +24244,7 @@ export let FaGripLinesVerticalSolid = {
   $_icon: {
     name: "GripLinesVertical",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["grip","lines","vertical"],
   },
   render() {
@@ -24264,7 +24264,7 @@ export let FaGripLinesSolid = {
   $_icon: {
     name: "GripLines",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["grip","lines"],
   },
   render() {
@@ -24284,7 +24284,7 @@ export let FaGripVerticalSolid = {
   $_icon: {
     name: "GripVertical",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["grip","vertical"],
   },
   render() {
@@ -24304,7 +24304,7 @@ export let FaGripSolid = {
   $_icon: {
     name: "Grip",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["grip"],
   },
   render() {
@@ -24324,7 +24324,7 @@ export let FaGroupArrowsRotateSolid = {
   $_icon: {
     name: "GroupArrowsRotate",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["group","arrows","rotate"],
   },
   render() {
@@ -24344,7 +24344,7 @@ export let FaGuaraniSignSolid = {
   $_icon: {
     name: "GuaraniSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["guarani","sign"],
   },
   render() {
@@ -24364,7 +24364,7 @@ export let FaGuitarSolid = {
   $_icon: {
     name: "Guitar",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["guitar"],
   },
   render() {
@@ -24384,7 +24384,7 @@ export let FaGunSolid = {
   $_icon: {
     name: "Gun",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["gun"],
   },
   render() {
@@ -24404,7 +24404,7 @@ export let FaHSolid = {
   $_icon: {
     name: "H",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["h"],
   },
   render() {
@@ -24424,7 +24424,7 @@ export let FaHammerSolid = {
   $_icon: {
     name: "Hammer",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hammer"],
   },
   render() {
@@ -24444,7 +24444,7 @@ export let FaHamsaSolid = {
   $_icon: {
     name: "Hamsa",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hamsa"],
   },
   render() {
@@ -24464,7 +24464,7 @@ export let FaHandBackFistSolid = {
   $_icon: {
     name: "HandBackFist",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hand","back","fist"],
   },
   render() {
@@ -24484,7 +24484,7 @@ export let FaHandDotsSolid = {
   $_icon: {
     name: "HandDots",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hand","dots"],
   },
   render() {
@@ -24504,7 +24504,7 @@ export let FaHandFistSolid = {
   $_icon: {
     name: "HandFist",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hand","fist"],
   },
   render() {
@@ -24524,7 +24524,7 @@ export let FaHandHoldingDollarSolid = {
   $_icon: {
     name: "HandHoldingDollar",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hand","holding","dollar"],
   },
   render() {
@@ -24544,7 +24544,7 @@ export let FaHandHoldingDropletSolid = {
   $_icon: {
     name: "HandHoldingDroplet",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hand","holding","droplet"],
   },
   render() {
@@ -24564,7 +24564,7 @@ export let FaHandHoldingHandSolid = {
   $_icon: {
     name: "HandHoldingHand",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hand","holding","hand"],
   },
   render() {
@@ -24584,7 +24584,7 @@ export let FaHandHoldingHeartSolid = {
   $_icon: {
     name: "HandHoldingHeart",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hand","holding","heart"],
   },
   render() {
@@ -24604,7 +24604,7 @@ export let FaHandHoldingMedicalSolid = {
   $_icon: {
     name: "HandHoldingMedical",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hand","holding","medical"],
   },
   render() {
@@ -24624,7 +24624,7 @@ export let FaHandHoldingSolid = {
   $_icon: {
     name: "HandHolding",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hand","holding"],
   },
   render() {
@@ -24644,7 +24644,7 @@ export let FaHandLizardSolid = {
   $_icon: {
     name: "HandLizard",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hand","lizard"],
   },
   render() {
@@ -24664,7 +24664,7 @@ export let FaHandMiddleFingerSolid = {
   $_icon: {
     name: "HandMiddleFinger",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hand","middle","finger"],
   },
   render() {
@@ -24684,7 +24684,7 @@ export let FaHandPeaceSolid = {
   $_icon: {
     name: "HandPeace",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hand","peace"],
   },
   render() {
@@ -24704,7 +24704,7 @@ export let FaHandPointDownSolid = {
   $_icon: {
     name: "HandPointDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hand","point","down"],
   },
   render() {
@@ -24724,7 +24724,7 @@ export let FaHandPointLeftSolid = {
   $_icon: {
     name: "HandPointLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hand","point","left"],
   },
   render() {
@@ -24744,7 +24744,7 @@ export let FaHandPointRightSolid = {
   $_icon: {
     name: "HandPointRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hand","point","right"],
   },
   render() {
@@ -24764,7 +24764,7 @@ export let FaHandPointUpSolid = {
   $_icon: {
     name: "HandPointUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hand","point","up"],
   },
   render() {
@@ -24784,7 +24784,7 @@ export let FaHandPointerSolid = {
   $_icon: {
     name: "HandPointer",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hand","pointer"],
   },
   render() {
@@ -24804,7 +24804,7 @@ export let FaHandScissorsSolid = {
   $_icon: {
     name: "HandScissors",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hand","scissors"],
   },
   render() {
@@ -24824,7 +24824,7 @@ export let FaHandSparklesSolid = {
   $_icon: {
     name: "HandSparkles",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hand","sparkles"],
   },
   render() {
@@ -24844,7 +24844,7 @@ export let FaHandSpockSolid = {
   $_icon: {
     name: "HandSpock",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hand","spock"],
   },
   render() {
@@ -24864,7 +24864,7 @@ export let FaHandSolid = {
   $_icon: {
     name: "Hand",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hand"],
   },
   render() {
@@ -24884,7 +24884,7 @@ export let FaHandcuffsSolid = {
   $_icon: {
     name: "Handcuffs",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["handcuffs"],
   },
   render() {
@@ -24904,7 +24904,7 @@ export let FaHandsAslInterpretingSolid = {
   $_icon: {
     name: "HandsAslInterpreting",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hands","asl","interpreting"],
   },
   render() {
@@ -24924,7 +24924,7 @@ export let FaHandsBoundSolid = {
   $_icon: {
     name: "HandsBound",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hands","bound"],
   },
   render() {
@@ -24944,7 +24944,7 @@ export let FaHandsBubblesSolid = {
   $_icon: {
     name: "HandsBubbles",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hands","bubbles"],
   },
   render() {
@@ -24964,7 +24964,7 @@ export let FaHandsClappingSolid = {
   $_icon: {
     name: "HandsClapping",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hands","clapping"],
   },
   render() {
@@ -24984,7 +24984,7 @@ export let FaHandsHoldingChildSolid = {
   $_icon: {
     name: "HandsHoldingChild",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hands","holding","child"],
   },
   render() {
@@ -25004,7 +25004,7 @@ export let FaHandsHoldingCircleSolid = {
   $_icon: {
     name: "HandsHoldingCircle",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hands","holding","circle"],
   },
   render() {
@@ -25024,7 +25024,7 @@ export let FaHandsHoldingSolid = {
   $_icon: {
     name: "HandsHolding",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hands","holding"],
   },
   render() {
@@ -25044,7 +25044,7 @@ export let FaHandsPrayingSolid = {
   $_icon: {
     name: "HandsPraying",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hands","praying"],
   },
   render() {
@@ -25064,7 +25064,7 @@ export let FaHandsSolid = {
   $_icon: {
     name: "Hands",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hands"],
   },
   render() {
@@ -25084,7 +25084,7 @@ export let FaHandshakeAngleSolid = {
   $_icon: {
     name: "HandshakeAngle",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["handshake","angle"],
   },
   render() {
@@ -25104,7 +25104,7 @@ export let FaHandshakeSimpleSlashSolid = {
   $_icon: {
     name: "HandshakeSimpleSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["handshake","simple","slash"],
   },
   render() {
@@ -25124,7 +25124,7 @@ export let FaHandshakeSimpleSolid = {
   $_icon: {
     name: "HandshakeSimple",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["handshake","simple"],
   },
   render() {
@@ -25144,7 +25144,7 @@ export let FaHandshakeSlashSolid = {
   $_icon: {
     name: "HandshakeSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["handshake","slash"],
   },
   render() {
@@ -25164,7 +25164,7 @@ export let FaHandshakeSolid = {
   $_icon: {
     name: "Handshake",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["handshake"],
   },
   render() {
@@ -25184,7 +25184,7 @@ export let FaHanukiahSolid = {
   $_icon: {
     name: "Hanukiah",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hanukiah"],
   },
   render() {
@@ -25204,7 +25204,7 @@ export let FaHardDriveSolid = {
   $_icon: {
     name: "HardDrive",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hard","drive"],
   },
   render() {
@@ -25224,7 +25224,7 @@ export let FaHashtagSolid = {
   $_icon: {
     name: "Hashtag",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hashtag"],
   },
   render() {
@@ -25244,7 +25244,7 @@ export let FaHatCowboySideSolid = {
   $_icon: {
     name: "HatCowboySide",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hat","cowboy","side"],
   },
   render() {
@@ -25264,7 +25264,7 @@ export let FaHatCowboySolid = {
   $_icon: {
     name: "HatCowboy",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hat","cowboy"],
   },
   render() {
@@ -25284,7 +25284,7 @@ export let FaHatWizardSolid = {
   $_icon: {
     name: "HatWizard",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hat","wizard"],
   },
   render() {
@@ -25304,7 +25304,7 @@ export let FaHeadSideCoughSlashSolid = {
   $_icon: {
     name: "HeadSideCoughSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["head","side","cough","slash"],
   },
   render() {
@@ -25324,7 +25324,7 @@ export let FaHeadSideCoughSolid = {
   $_icon: {
     name: "HeadSideCough",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["head","side","cough"],
   },
   render() {
@@ -25344,7 +25344,7 @@ export let FaHeadSideMaskSolid = {
   $_icon: {
     name: "HeadSideMask",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["head","side","mask"],
   },
   render() {
@@ -25364,7 +25364,7 @@ export let FaHeadSideVirusSolid = {
   $_icon: {
     name: "HeadSideVirus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["head","side","virus"],
   },
   render() {
@@ -25384,7 +25384,7 @@ export let FaHeadingSolid = {
   $_icon: {
     name: "Heading",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["heading"],
   },
   render() {
@@ -25404,7 +25404,7 @@ export let FaHeadphonesSimpleSolid = {
   $_icon: {
     name: "HeadphonesSimple",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["headphones","simple"],
   },
   render() {
@@ -25424,7 +25424,7 @@ export let FaHeadphonesSolid = {
   $_icon: {
     name: "Headphones",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["headphones"],
   },
   render() {
@@ -25444,7 +25444,7 @@ export let FaHeadsetSolid = {
   $_icon: {
     name: "Headset",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["headset"],
   },
   render() {
@@ -25464,7 +25464,7 @@ export let FaHeartCircleBoltSolid = {
   $_icon: {
     name: "HeartCircleBolt",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["heart","circle","bolt"],
   },
   render() {
@@ -25484,7 +25484,7 @@ export let FaHeartCircleCheckSolid = {
   $_icon: {
     name: "HeartCircleCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["heart","circle","check"],
   },
   render() {
@@ -25504,7 +25504,7 @@ export let FaHeartCircleExclamationSolid = {
   $_icon: {
     name: "HeartCircleExclamation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["heart","circle","exclamation"],
   },
   render() {
@@ -25524,7 +25524,7 @@ export let FaHeartCircleMinusSolid = {
   $_icon: {
     name: "HeartCircleMinus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["heart","circle","minus"],
   },
   render() {
@@ -25544,7 +25544,7 @@ export let FaHeartCirclePlusSolid = {
   $_icon: {
     name: "HeartCirclePlus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["heart","circle","plus"],
   },
   render() {
@@ -25564,7 +25564,7 @@ export let FaHeartCircleXmarkSolid = {
   $_icon: {
     name: "HeartCircleXmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["heart","circle","xmark"],
   },
   render() {
@@ -25584,7 +25584,7 @@ export let FaHeartCrackSolid = {
   $_icon: {
     name: "HeartCrack",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["heart","crack"],
   },
   render() {
@@ -25604,7 +25604,7 @@ export let FaHeartPulseSolid = {
   $_icon: {
     name: "HeartPulse",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["heart","pulse"],
   },
   render() {
@@ -25624,7 +25624,7 @@ export let FaHeartSolid = {
   $_icon: {
     name: "Heart",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["heart"],
   },
   render() {
@@ -25644,7 +25644,7 @@ export let FaHelicopterSymbolSolid = {
   $_icon: {
     name: "HelicopterSymbol",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["helicopter","symbol"],
   },
   render() {
@@ -25664,7 +25664,7 @@ export let FaHelicopterSolid = {
   $_icon: {
     name: "Helicopter",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["helicopter"],
   },
   render() {
@@ -25684,7 +25684,7 @@ export let FaHelmetSafetySolid = {
   $_icon: {
     name: "HelmetSafety",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["helmet","safety"],
   },
   render() {
@@ -25704,7 +25704,7 @@ export let FaHelmetUnSolid = {
   $_icon: {
     name: "HelmetUn",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["helmet","un"],
   },
   render() {
@@ -25724,7 +25724,7 @@ export let FaHighlighterSolid = {
   $_icon: {
     name: "Highlighter",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["highlighter"],
   },
   render() {
@@ -25744,7 +25744,7 @@ export let FaHillAvalancheSolid = {
   $_icon: {
     name: "HillAvalanche",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hill","avalanche"],
   },
   render() {
@@ -25764,7 +25764,7 @@ export let FaHillRockslideSolid = {
   $_icon: {
     name: "HillRockslide",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hill","rockslide"],
   },
   render() {
@@ -25784,7 +25784,7 @@ export let FaHippoSolid = {
   $_icon: {
     name: "Hippo",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hippo"],
   },
   render() {
@@ -25804,7 +25804,7 @@ export let FaHockeyPuckSolid = {
   $_icon: {
     name: "HockeyPuck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hockey","puck"],
   },
   render() {
@@ -25824,7 +25824,7 @@ export let FaHollyBerrySolid = {
   $_icon: {
     name: "HollyBerry",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["holly","berry"],
   },
   render() {
@@ -25844,7 +25844,7 @@ export let FaHorseHeadSolid = {
   $_icon: {
     name: "HorseHead",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["horse","head"],
   },
   render() {
@@ -25864,7 +25864,7 @@ export let FaHorseSolid = {
   $_icon: {
     name: "Horse",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["horse"],
   },
   render() {
@@ -25884,7 +25884,7 @@ export let FaHospitalUserSolid = {
   $_icon: {
     name: "HospitalUser",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hospital","user"],
   },
   render() {
@@ -25904,7 +25904,7 @@ export let FaHospitalSolid = {
   $_icon: {
     name: "Hospital",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hospital"],
   },
   render() {
@@ -25924,7 +25924,7 @@ export let FaHotTubPersonSolid = {
   $_icon: {
     name: "HotTubPerson",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hot","tub","person"],
   },
   render() {
@@ -25944,7 +25944,7 @@ export let FaHotdogSolid = {
   $_icon: {
     name: "Hotdog",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hotdog"],
   },
   render() {
@@ -25964,7 +25964,7 @@ export let FaHotelSolid = {
   $_icon: {
     name: "Hotel",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hotel"],
   },
   render() {
@@ -25984,7 +25984,7 @@ export let FaHourglassEmptySolid = {
   $_icon: {
     name: "HourglassEmpty",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hourglass","empty"],
   },
   render() {
@@ -26004,7 +26004,7 @@ export let FaHourglassEndSolid = {
   $_icon: {
     name: "HourglassEnd",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hourglass","end"],
   },
   render() {
@@ -26024,7 +26024,7 @@ export let FaHourglassStartSolid = {
   $_icon: {
     name: "HourglassStart",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hourglass","start"],
   },
   render() {
@@ -26044,7 +26044,7 @@ export let FaHourglassSolid = {
   $_icon: {
     name: "Hourglass",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hourglass"],
   },
   render() {
@@ -26064,7 +26064,7 @@ export let FaHouseChimneyCrackSolid = {
   $_icon: {
     name: "HouseChimneyCrack",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","chimney","crack"],
   },
   render() {
@@ -26084,7 +26084,7 @@ export let FaHouseChimneyMedicalSolid = {
   $_icon: {
     name: "HouseChimneyMedical",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","chimney","medical"],
   },
   render() {
@@ -26104,7 +26104,7 @@ export let FaHouseChimneyUserSolid = {
   $_icon: {
     name: "HouseChimneyUser",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","chimney","user"],
   },
   render() {
@@ -26124,7 +26124,7 @@ export let FaHouseChimneyWindowSolid = {
   $_icon: {
     name: "HouseChimneyWindow",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","chimney","window"],
   },
   render() {
@@ -26144,7 +26144,7 @@ export let FaHouseChimneySolid = {
   $_icon: {
     name: "HouseChimney",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","chimney"],
   },
   render() {
@@ -26164,7 +26164,7 @@ export let FaHouseCircleCheckSolid = {
   $_icon: {
     name: "HouseCircleCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","circle","check"],
   },
   render() {
@@ -26184,7 +26184,7 @@ export let FaHouseCircleExclamationSolid = {
   $_icon: {
     name: "HouseCircleExclamation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","circle","exclamation"],
   },
   render() {
@@ -26204,7 +26204,7 @@ export let FaHouseCircleXmarkSolid = {
   $_icon: {
     name: "HouseCircleXmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","circle","xmark"],
   },
   render() {
@@ -26224,7 +26224,7 @@ export let FaHouseCrackSolid = {
   $_icon: {
     name: "HouseCrack",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","crack"],
   },
   render() {
@@ -26244,7 +26244,7 @@ export let FaHouseFireSolid = {
   $_icon: {
     name: "HouseFire",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","fire"],
   },
   render() {
@@ -26264,7 +26264,7 @@ export let FaHouseFlagSolid = {
   $_icon: {
     name: "HouseFlag",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","flag"],
   },
   render() {
@@ -26284,7 +26284,7 @@ export let FaHouseFloodWaterCircleArrowRightSolid = {
   $_icon: {
     name: "HouseFloodWaterCircleArrowRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","flood","water","circle","arrow","right"],
   },
   render() {
@@ -26304,7 +26304,7 @@ export let FaHouseFloodWaterSolid = {
   $_icon: {
     name: "HouseFloodWater",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","flood","water"],
   },
   render() {
@@ -26324,7 +26324,7 @@ export let FaHouseLaptopSolid = {
   $_icon: {
     name: "HouseLaptop",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","laptop"],
   },
   render() {
@@ -26344,7 +26344,7 @@ export let FaHouseLockSolid = {
   $_icon: {
     name: "HouseLock",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","lock"],
   },
   render() {
@@ -26364,7 +26364,7 @@ export let FaHouseMedicalCircleCheckSolid = {
   $_icon: {
     name: "HouseMedicalCircleCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","medical","circle","check"],
   },
   render() {
@@ -26384,7 +26384,7 @@ export let FaHouseMedicalCircleExclamationSolid = {
   $_icon: {
     name: "HouseMedicalCircleExclamation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","medical","circle","exclamation"],
   },
   render() {
@@ -26404,7 +26404,7 @@ export let FaHouseMedicalCircleXmarkSolid = {
   $_icon: {
     name: "HouseMedicalCircleXmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","medical","circle","xmark"],
   },
   render() {
@@ -26424,7 +26424,7 @@ export let FaHouseMedicalFlagSolid = {
   $_icon: {
     name: "HouseMedicalFlag",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","medical","flag"],
   },
   render() {
@@ -26444,7 +26444,7 @@ export let FaHouseMedicalSolid = {
   $_icon: {
     name: "HouseMedical",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","medical"],
   },
   render() {
@@ -26464,7 +26464,7 @@ export let FaHouseSignalSolid = {
   $_icon: {
     name: "HouseSignal",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","signal"],
   },
   render() {
@@ -26484,7 +26484,7 @@ export let FaHouseTsunamiSolid = {
   $_icon: {
     name: "HouseTsunami",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","tsunami"],
   },
   render() {
@@ -26504,7 +26504,7 @@ export let FaHouseUserSolid = {
   $_icon: {
     name: "HouseUser",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house","user"],
   },
   render() {
@@ -26524,7 +26524,7 @@ export let FaHouseSolid = {
   $_icon: {
     name: "House",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["house"],
   },
   render() {
@@ -26544,7 +26544,7 @@ export let FaHryvniaSignSolid = {
   $_icon: {
     name: "HryvniaSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hryvnia","sign"],
   },
   render() {
@@ -26564,7 +26564,7 @@ export let FaHurricaneSolid = {
   $_icon: {
     name: "Hurricane",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["hurricane"],
   },
   render() {
@@ -26584,7 +26584,7 @@ export let FaICursorSolid = {
   $_icon: {
     name: "ICursor",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["i","cursor"],
   },
   render() {
@@ -26604,7 +26604,7 @@ export let FaISolid = {
   $_icon: {
     name: "I",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["i"],
   },
   render() {
@@ -26624,7 +26624,7 @@ export let FaIceCreamSolid = {
   $_icon: {
     name: "IceCream",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ice","cream"],
   },
   render() {
@@ -26644,7 +26644,7 @@ export let FaIciclesSolid = {
   $_icon: {
     name: "Icicles",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["icicles"],
   },
   render() {
@@ -26664,7 +26664,7 @@ export let FaIconsSolid = {
   $_icon: {
     name: "Icons",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["icons"],
   },
   render() {
@@ -26684,7 +26684,7 @@ export let FaIdBadgeSolid = {
   $_icon: {
     name: "IdBadge",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["id","badge"],
   },
   render() {
@@ -26704,7 +26704,7 @@ export let FaIdCardClipSolid = {
   $_icon: {
     name: "IdCardClip",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["id","card","clip"],
   },
   render() {
@@ -26724,7 +26724,7 @@ export let FaIdCardSolid = {
   $_icon: {
     name: "IdCard",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["id","card"],
   },
   render() {
@@ -26744,7 +26744,7 @@ export let FaIglooSolid = {
   $_icon: {
     name: "Igloo",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["igloo"],
   },
   render() {
@@ -26764,7 +26764,7 @@ export let FaImagePortraitSolid = {
   $_icon: {
     name: "ImagePortrait",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["image","portrait"],
   },
   render() {
@@ -26784,7 +26784,7 @@ export let FaImageSolid = {
   $_icon: {
     name: "Image",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["image"],
   },
   render() {
@@ -26804,7 +26804,7 @@ export let FaImagesSolid = {
   $_icon: {
     name: "Images",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["images"],
   },
   render() {
@@ -26824,7 +26824,7 @@ export let FaInboxSolid = {
   $_icon: {
     name: "Inbox",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["inbox"],
   },
   render() {
@@ -26844,7 +26844,7 @@ export let FaIndentSolid = {
   $_icon: {
     name: "Indent",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["indent"],
   },
   render() {
@@ -26864,7 +26864,7 @@ export let FaIndianRupeeSignSolid = {
   $_icon: {
     name: "IndianRupeeSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["indian","rupee","sign"],
   },
   render() {
@@ -26884,7 +26884,7 @@ export let FaIndustrySolid = {
   $_icon: {
     name: "Industry",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["industry"],
   },
   render() {
@@ -26904,7 +26904,7 @@ export let FaInfinitySolid = {
   $_icon: {
     name: "Infinity",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["infinity"],
   },
   render() {
@@ -26924,7 +26924,7 @@ export let FaInfoSolid = {
   $_icon: {
     name: "Info",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["info"],
   },
   render() {
@@ -26944,7 +26944,7 @@ export let FaItalicSolid = {
   $_icon: {
     name: "Italic",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["italic"],
   },
   render() {
@@ -26964,7 +26964,7 @@ export let FaJSolid = {
   $_icon: {
     name: "J",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["j"],
   },
   render() {
@@ -26984,7 +26984,7 @@ export let FaJarWheatSolid = {
   $_icon: {
     name: "JarWheat",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["jar","wheat"],
   },
   render() {
@@ -27004,7 +27004,7 @@ export let FaJarSolid = {
   $_icon: {
     name: "Jar",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["jar"],
   },
   render() {
@@ -27024,7 +27024,7 @@ export let FaJediSolid = {
   $_icon: {
     name: "Jedi",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["jedi"],
   },
   render() {
@@ -27044,7 +27044,7 @@ export let FaJetFighterUpSolid = {
   $_icon: {
     name: "JetFighterUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["jet","fighter","up"],
   },
   render() {
@@ -27064,7 +27064,7 @@ export let FaJetFighterSolid = {
   $_icon: {
     name: "JetFighter",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["jet","fighter"],
   },
   render() {
@@ -27084,7 +27084,7 @@ export let FaJointSolid = {
   $_icon: {
     name: "Joint",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["joint"],
   },
   render() {
@@ -27104,7 +27104,7 @@ export let FaJugDetergentSolid = {
   $_icon: {
     name: "JugDetergent",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["jug","detergent"],
   },
   render() {
@@ -27124,7 +27124,7 @@ export let FaKSolid = {
   $_icon: {
     name: "K",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["k"],
   },
   render() {
@@ -27144,7 +27144,7 @@ export let FaKaabaSolid = {
   $_icon: {
     name: "Kaaba",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["kaaba"],
   },
   render() {
@@ -27164,7 +27164,7 @@ export let FaKeySolid = {
   $_icon: {
     name: "Key",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["key"],
   },
   render() {
@@ -27184,7 +27184,7 @@ export let FaKeyboardSolid = {
   $_icon: {
     name: "Keyboard",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["keyboard"],
   },
   render() {
@@ -27204,7 +27204,7 @@ export let FaKhandaSolid = {
   $_icon: {
     name: "Khanda",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["khanda"],
   },
   render() {
@@ -27224,7 +27224,7 @@ export let FaKipSignSolid = {
   $_icon: {
     name: "KipSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["kip","sign"],
   },
   render() {
@@ -27244,7 +27244,7 @@ export let FaKitMedicalSolid = {
   $_icon: {
     name: "KitMedical",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["kit","medical"],
   },
   render() {
@@ -27264,7 +27264,7 @@ export let FaKitchenSetSolid = {
   $_icon: {
     name: "KitchenSet",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["kitchen","set"],
   },
   render() {
@@ -27284,7 +27284,7 @@ export let FaKiwiBirdSolid = {
   $_icon: {
     name: "KiwiBird",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["kiwi","bird"],
   },
   render() {
@@ -27304,7 +27304,7 @@ export let FaLSolid = {
   $_icon: {
     name: "L",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["l"],
   },
   render() {
@@ -27324,7 +27324,7 @@ export let FaLandMineOnSolid = {
   $_icon: {
     name: "LandMineOn",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["land","mine","on"],
   },
   render() {
@@ -27344,7 +27344,7 @@ export let FaLandmarkDomeSolid = {
   $_icon: {
     name: "LandmarkDome",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["landmark","dome"],
   },
   render() {
@@ -27364,7 +27364,7 @@ export let FaLandmarkFlagSolid = {
   $_icon: {
     name: "LandmarkFlag",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["landmark","flag"],
   },
   render() {
@@ -27384,7 +27384,7 @@ export let FaLandmarkSolid = {
   $_icon: {
     name: "Landmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["landmark"],
   },
   render() {
@@ -27404,7 +27404,7 @@ export let FaLanguageSolid = {
   $_icon: {
     name: "Language",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["language"],
   },
   render() {
@@ -27424,7 +27424,7 @@ export let FaLaptopCodeSolid = {
   $_icon: {
     name: "LaptopCode",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["laptop","code"],
   },
   render() {
@@ -27444,7 +27444,7 @@ export let FaLaptopFileSolid = {
   $_icon: {
     name: "LaptopFile",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["laptop","file"],
   },
   render() {
@@ -27464,7 +27464,7 @@ export let FaLaptopMedicalSolid = {
   $_icon: {
     name: "LaptopMedical",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["laptop","medical"],
   },
   render() {
@@ -27484,7 +27484,7 @@ export let FaLaptopSolid = {
   $_icon: {
     name: "Laptop",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["laptop"],
   },
   render() {
@@ -27504,7 +27504,7 @@ export let FaLariSignSolid = {
   $_icon: {
     name: "LariSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["lari","sign"],
   },
   render() {
@@ -27524,7 +27524,7 @@ export let FaLayerGroupSolid = {
   $_icon: {
     name: "LayerGroup",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["layer","group"],
   },
   render() {
@@ -27544,7 +27544,7 @@ export let FaLeafSolid = {
   $_icon: {
     name: "Leaf",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["leaf"],
   },
   render() {
@@ -27564,7 +27564,7 @@ export let FaLeftLongSolid = {
   $_icon: {
     name: "LeftLong",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["left","long"],
   },
   render() {
@@ -27584,7 +27584,7 @@ export let FaLeftRightSolid = {
   $_icon: {
     name: "LeftRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["left","right"],
   },
   render() {
@@ -27604,7 +27604,7 @@ export let FaLemonSolid = {
   $_icon: {
     name: "Lemon",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["lemon"],
   },
   render() {
@@ -27624,7 +27624,7 @@ export let FaLessThanEqualSolid = {
   $_icon: {
     name: "LessThanEqual",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["less","than","equal"],
   },
   render() {
@@ -27644,7 +27644,7 @@ export let FaLessThanSolid = {
   $_icon: {
     name: "LessThan",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["less","than"],
   },
   render() {
@@ -27664,7 +27664,7 @@ export let FaLifeRingSolid = {
   $_icon: {
     name: "LifeRing",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["life","ring"],
   },
   render() {
@@ -27684,7 +27684,7 @@ export let FaLightbulbSolid = {
   $_icon: {
     name: "Lightbulb",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["lightbulb"],
   },
   render() {
@@ -27704,7 +27704,7 @@ export let FaLinesLeaningSolid = {
   $_icon: {
     name: "LinesLeaning",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["lines","leaning"],
   },
   render() {
@@ -27724,7 +27724,7 @@ export let FaLinkSlashSolid = {
   $_icon: {
     name: "LinkSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["link","slash"],
   },
   render() {
@@ -27744,7 +27744,7 @@ export let FaLinkSolid = {
   $_icon: {
     name: "Link",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["link"],
   },
   render() {
@@ -27764,7 +27764,7 @@ export let FaLiraSignSolid = {
   $_icon: {
     name: "LiraSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["lira","sign"],
   },
   render() {
@@ -27784,7 +27784,7 @@ export let FaListCheckSolid = {
   $_icon: {
     name: "ListCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["list","check"],
   },
   render() {
@@ -27804,7 +27804,7 @@ export let FaListOlSolid = {
   $_icon: {
     name: "ListOl",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["list","ol"],
   },
   render() {
@@ -27824,7 +27824,7 @@ export let FaListUlSolid = {
   $_icon: {
     name: "ListUl",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["list","ul"],
   },
   render() {
@@ -27844,7 +27844,7 @@ export let FaListSolid = {
   $_icon: {
     name: "List",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["list"],
   },
   render() {
@@ -27864,7 +27864,7 @@ export let FaLitecoinSignSolid = {
   $_icon: {
     name: "LitecoinSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["litecoin","sign"],
   },
   render() {
@@ -27884,7 +27884,7 @@ export let FaLocationArrowSolid = {
   $_icon: {
     name: "LocationArrow",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["location","arrow"],
   },
   render() {
@@ -27904,7 +27904,7 @@ export let FaLocationCrosshairsSolid = {
   $_icon: {
     name: "LocationCrosshairs",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["location","crosshairs"],
   },
   render() {
@@ -27924,7 +27924,7 @@ export let FaLocationDotSolid = {
   $_icon: {
     name: "LocationDot",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["location","dot"],
   },
   render() {
@@ -27944,7 +27944,7 @@ export let FaLocationPinLockSolid = {
   $_icon: {
     name: "LocationPinLock",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["location","pin","lock"],
   },
   render() {
@@ -27964,7 +27964,7 @@ export let FaLocationPinSolid = {
   $_icon: {
     name: "LocationPin",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["location","pin"],
   },
   render() {
@@ -27984,7 +27984,7 @@ export let FaLockOpenSolid = {
   $_icon: {
     name: "LockOpen",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["lock","open"],
   },
   render() {
@@ -28004,7 +28004,7 @@ export let FaLockSolid = {
   $_icon: {
     name: "Lock",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["lock"],
   },
   render() {
@@ -28024,7 +28024,7 @@ export let FaLocustSolid = {
   $_icon: {
     name: "Locust",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["locust"],
   },
   render() {
@@ -28044,7 +28044,7 @@ export let FaLungsVirusSolid = {
   $_icon: {
     name: "LungsVirus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["lungs","virus"],
   },
   render() {
@@ -28064,7 +28064,7 @@ export let FaLungsSolid = {
   $_icon: {
     name: "Lungs",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["lungs"],
   },
   render() {
@@ -28084,7 +28084,7 @@ export let FaMSolid = {
   $_icon: {
     name: "M",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["m"],
   },
   render() {
@@ -28104,7 +28104,7 @@ export let FaMagnetSolid = {
   $_icon: {
     name: "Magnet",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["magnet"],
   },
   render() {
@@ -28124,7 +28124,7 @@ export let FaMagnifyingGlassArrowRightSolid = {
   $_icon: {
     name: "MagnifyingGlassArrowRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["magnifying","glass","arrow","right"],
   },
   render() {
@@ -28144,7 +28144,7 @@ export let FaMagnifyingGlassChartSolid = {
   $_icon: {
     name: "MagnifyingGlassChart",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["magnifying","glass","chart"],
   },
   render() {
@@ -28164,7 +28164,7 @@ export let FaMagnifyingGlassDollarSolid = {
   $_icon: {
     name: "MagnifyingGlassDollar",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["magnifying","glass","dollar"],
   },
   render() {
@@ -28184,7 +28184,7 @@ export let FaMagnifyingGlassLocationSolid = {
   $_icon: {
     name: "MagnifyingGlassLocation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["magnifying","glass","location"],
   },
   render() {
@@ -28204,7 +28204,7 @@ export let FaMagnifyingGlassMinusSolid = {
   $_icon: {
     name: "MagnifyingGlassMinus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["magnifying","glass","minus"],
   },
   render() {
@@ -28224,7 +28224,7 @@ export let FaMagnifyingGlassPlusSolid = {
   $_icon: {
     name: "MagnifyingGlassPlus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["magnifying","glass","plus"],
   },
   render() {
@@ -28244,7 +28244,7 @@ export let FaMagnifyingGlassSolid = {
   $_icon: {
     name: "MagnifyingGlass",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["magnifying","glass"],
   },
   render() {
@@ -28264,7 +28264,7 @@ export let FaManatSignSolid = {
   $_icon: {
     name: "ManatSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["manat","sign"],
   },
   render() {
@@ -28284,7 +28284,7 @@ export let FaMapLocationDotSolid = {
   $_icon: {
     name: "MapLocationDot",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["map","location","dot"],
   },
   render() {
@@ -28304,7 +28304,7 @@ export let FaMapLocationSolid = {
   $_icon: {
     name: "MapLocation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["map","location"],
   },
   render() {
@@ -28324,7 +28324,7 @@ export let FaMapPinSolid = {
   $_icon: {
     name: "MapPin",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["map","pin"],
   },
   render() {
@@ -28344,7 +28344,7 @@ export let FaMapSolid = {
   $_icon: {
     name: "Map",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["map"],
   },
   render() {
@@ -28364,7 +28364,7 @@ export let FaMarkerSolid = {
   $_icon: {
     name: "Marker",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["marker"],
   },
   render() {
@@ -28384,7 +28384,7 @@ export let FaMarsAndVenusBurstSolid = {
   $_icon: {
     name: "MarsAndVenusBurst",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mars","and","venus","burst"],
   },
   render() {
@@ -28404,7 +28404,7 @@ export let FaMarsAndVenusSolid = {
   $_icon: {
     name: "MarsAndVenus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mars","and","venus"],
   },
   render() {
@@ -28424,7 +28424,7 @@ export let FaMarsDoubleSolid = {
   $_icon: {
     name: "MarsDouble",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mars","double"],
   },
   render() {
@@ -28444,7 +28444,7 @@ export let FaMarsStrokeRightSolid = {
   $_icon: {
     name: "MarsStrokeRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mars","stroke","right"],
   },
   render() {
@@ -28464,7 +28464,7 @@ export let FaMarsStrokeUpSolid = {
   $_icon: {
     name: "MarsStrokeUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mars","stroke","up"],
   },
   render() {
@@ -28484,7 +28484,7 @@ export let FaMarsStrokeSolid = {
   $_icon: {
     name: "MarsStroke",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mars","stroke"],
   },
   render() {
@@ -28504,7 +28504,7 @@ export let FaMarsSolid = {
   $_icon: {
     name: "Mars",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mars"],
   },
   render() {
@@ -28524,7 +28524,7 @@ export let FaMartiniGlassCitrusSolid = {
   $_icon: {
     name: "MartiniGlassCitrus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["martini","glass","citrus"],
   },
   render() {
@@ -28544,7 +28544,7 @@ export let FaMartiniGlassEmptySolid = {
   $_icon: {
     name: "MartiniGlassEmpty",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["martini","glass","empty"],
   },
   render() {
@@ -28564,7 +28564,7 @@ export let FaMartiniGlassSolid = {
   $_icon: {
     name: "MartiniGlass",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["martini","glass"],
   },
   render() {
@@ -28584,7 +28584,7 @@ export let FaMaskFaceSolid = {
   $_icon: {
     name: "MaskFace",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mask","face"],
   },
   render() {
@@ -28604,7 +28604,7 @@ export let FaMaskVentilatorSolid = {
   $_icon: {
     name: "MaskVentilator",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mask","ventilator"],
   },
   render() {
@@ -28624,7 +28624,7 @@ export let FaMaskSolid = {
   $_icon: {
     name: "Mask",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mask"],
   },
   render() {
@@ -28644,7 +28644,7 @@ export let FaMasksTheaterSolid = {
   $_icon: {
     name: "MasksTheater",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["masks","theater"],
   },
   render() {
@@ -28664,7 +28664,7 @@ export let FaMattressPillowSolid = {
   $_icon: {
     name: "MattressPillow",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mattress","pillow"],
   },
   render() {
@@ -28684,7 +28684,7 @@ export let FaMaximizeSolid = {
   $_icon: {
     name: "Maximize",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["maximize"],
   },
   render() {
@@ -28704,7 +28704,7 @@ export let FaMedalSolid = {
   $_icon: {
     name: "Medal",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["medal"],
   },
   render() {
@@ -28724,7 +28724,7 @@ export let FaMemorySolid = {
   $_icon: {
     name: "Memory",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["memory"],
   },
   render() {
@@ -28744,7 +28744,7 @@ export let FaMenorahSolid = {
   $_icon: {
     name: "Menorah",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["menorah"],
   },
   render() {
@@ -28764,7 +28764,7 @@ export let FaMercurySolid = {
   $_icon: {
     name: "Mercury",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mercury"],
   },
   render() {
@@ -28784,7 +28784,7 @@ export let FaMessageSolid = {
   $_icon: {
     name: "Message",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["message"],
   },
   render() {
@@ -28804,7 +28804,7 @@ export let FaMeteorSolid = {
   $_icon: {
     name: "Meteor",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["meteor"],
   },
   render() {
@@ -28824,7 +28824,7 @@ export let FaMicrochipSolid = {
   $_icon: {
     name: "Microchip",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["microchip"],
   },
   render() {
@@ -28844,7 +28844,7 @@ export let FaMicrophoneLinesSlashSolid = {
   $_icon: {
     name: "MicrophoneLinesSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["microphone","lines","slash"],
   },
   render() {
@@ -28864,7 +28864,7 @@ export let FaMicrophoneLinesSolid = {
   $_icon: {
     name: "MicrophoneLines",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["microphone","lines"],
   },
   render() {
@@ -28884,7 +28884,7 @@ export let FaMicrophoneSlashSolid = {
   $_icon: {
     name: "MicrophoneSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["microphone","slash"],
   },
   render() {
@@ -28904,7 +28904,7 @@ export let FaMicrophoneSolid = {
   $_icon: {
     name: "Microphone",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["microphone"],
   },
   render() {
@@ -28924,7 +28924,7 @@ export let FaMicroscopeSolid = {
   $_icon: {
     name: "Microscope",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["microscope"],
   },
   render() {
@@ -28944,7 +28944,7 @@ export let FaMillSignSolid = {
   $_icon: {
     name: "MillSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mill","sign"],
   },
   render() {
@@ -28964,7 +28964,7 @@ export let FaMinimizeSolid = {
   $_icon: {
     name: "Minimize",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["minimize"],
   },
   render() {
@@ -28984,7 +28984,7 @@ export let FaMinusSolid = {
   $_icon: {
     name: "Minus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["minus"],
   },
   render() {
@@ -29004,7 +29004,7 @@ export let FaMittenSolid = {
   $_icon: {
     name: "Mitten",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mitten"],
   },
   render() {
@@ -29024,7 +29024,7 @@ export let FaMobileButtonSolid = {
   $_icon: {
     name: "MobileButton",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mobile","button"],
   },
   render() {
@@ -29044,7 +29044,7 @@ export let FaMobileRetroSolid = {
   $_icon: {
     name: "MobileRetro",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mobile","retro"],
   },
   render() {
@@ -29064,7 +29064,7 @@ export let FaMobileScreenButtonSolid = {
   $_icon: {
     name: "MobileScreenButton",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mobile","screen","button"],
   },
   render() {
@@ -29084,7 +29084,7 @@ export let FaMobileScreenSolid = {
   $_icon: {
     name: "MobileScreen",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mobile","screen"],
   },
   render() {
@@ -29104,7 +29104,7 @@ export let FaMobileSolid = {
   $_icon: {
     name: "Mobile",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mobile"],
   },
   render() {
@@ -29124,7 +29124,7 @@ export let FaMoneyBill1WaveSolid = {
   $_icon: {
     name: "MoneyBill1Wave",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["money","bill","1","wave"],
   },
   render() {
@@ -29144,7 +29144,7 @@ export let FaMoneyBill1Solid = {
   $_icon: {
     name: "MoneyBill1",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["money","bill","1"],
   },
   render() {
@@ -29164,7 +29164,7 @@ export let FaMoneyBillTransferSolid = {
   $_icon: {
     name: "MoneyBillTransfer",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["money","bill","transfer"],
   },
   render() {
@@ -29184,7 +29184,7 @@ export let FaMoneyBillTrendUpSolid = {
   $_icon: {
     name: "MoneyBillTrendUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["money","bill","trend","up"],
   },
   render() {
@@ -29204,7 +29204,7 @@ export let FaMoneyBillWaveSolid = {
   $_icon: {
     name: "MoneyBillWave",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["money","bill","wave"],
   },
   render() {
@@ -29224,7 +29224,7 @@ export let FaMoneyBillWheatSolid = {
   $_icon: {
     name: "MoneyBillWheat",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["money","bill","wheat"],
   },
   render() {
@@ -29244,7 +29244,7 @@ export let FaMoneyBillSolid = {
   $_icon: {
     name: "MoneyBill",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["money","bill"],
   },
   render() {
@@ -29264,7 +29264,7 @@ export let FaMoneyBillsSolid = {
   $_icon: {
     name: "MoneyBills",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["money","bills"],
   },
   render() {
@@ -29284,7 +29284,7 @@ export let FaMoneyCheckDollarSolid = {
   $_icon: {
     name: "MoneyCheckDollar",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["money","check","dollar"],
   },
   render() {
@@ -29304,7 +29304,7 @@ export let FaMoneyCheckSolid = {
   $_icon: {
     name: "MoneyCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["money","check"],
   },
   render() {
@@ -29324,7 +29324,7 @@ export let FaMonumentSolid = {
   $_icon: {
     name: "Monument",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["monument"],
   },
   render() {
@@ -29344,7 +29344,7 @@ export let FaMoonSolid = {
   $_icon: {
     name: "Moon",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["moon"],
   },
   render() {
@@ -29364,7 +29364,7 @@ export let FaMortarPestleSolid = {
   $_icon: {
     name: "MortarPestle",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mortar","pestle"],
   },
   render() {
@@ -29384,7 +29384,7 @@ export let FaMosqueSolid = {
   $_icon: {
     name: "Mosque",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mosque"],
   },
   render() {
@@ -29404,7 +29404,7 @@ export let FaMosquitoNetSolid = {
   $_icon: {
     name: "MosquitoNet",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mosquito","net"],
   },
   render() {
@@ -29424,7 +29424,7 @@ export let FaMosquitoSolid = {
   $_icon: {
     name: "Mosquito",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mosquito"],
   },
   render() {
@@ -29444,7 +29444,7 @@ export let FaMotorcycleSolid = {
   $_icon: {
     name: "Motorcycle",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["motorcycle"],
   },
   render() {
@@ -29464,7 +29464,7 @@ export let FaMoundSolid = {
   $_icon: {
     name: "Mound",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mound"],
   },
   render() {
@@ -29484,7 +29484,7 @@ export let FaMountainCitySolid = {
   $_icon: {
     name: "MountainCity",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mountain","city"],
   },
   render() {
@@ -29504,7 +29504,7 @@ export let FaMountainSunSolid = {
   $_icon: {
     name: "MountainSun",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mountain","sun"],
   },
   render() {
@@ -29524,7 +29524,7 @@ export let FaMountainSolid = {
   $_icon: {
     name: "Mountain",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mountain"],
   },
   render() {
@@ -29544,7 +29544,7 @@ export let FaMugHotSolid = {
   $_icon: {
     name: "MugHot",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mug","hot"],
   },
   render() {
@@ -29564,7 +29564,7 @@ export let FaMugSaucerSolid = {
   $_icon: {
     name: "MugSaucer",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["mug","saucer"],
   },
   render() {
@@ -29584,7 +29584,7 @@ export let FaMusicSolid = {
   $_icon: {
     name: "Music",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["music"],
   },
   render() {
@@ -29604,7 +29604,7 @@ export let FaNSolid = {
   $_icon: {
     name: "N",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["n"],
   },
   render() {
@@ -29624,7 +29624,7 @@ export let FaNairaSignSolid = {
   $_icon: {
     name: "NairaSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["naira","sign"],
   },
   render() {
@@ -29644,7 +29644,7 @@ export let FaNetworkWiredSolid = {
   $_icon: {
     name: "NetworkWired",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["network","wired"],
   },
   render() {
@@ -29664,7 +29664,7 @@ export let FaNeuterSolid = {
   $_icon: {
     name: "Neuter",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["neuter"],
   },
   render() {
@@ -29684,7 +29684,7 @@ export let FaNewspaperSolid = {
   $_icon: {
     name: "Newspaper",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["newspaper"],
   },
   render() {
@@ -29704,7 +29704,7 @@ export let FaNotEqualSolid = {
   $_icon: {
     name: "NotEqual",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["not","equal"],
   },
   render() {
@@ -29724,7 +29724,7 @@ export let FaNoteStickySolid = {
   $_icon: {
     name: "NoteSticky",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["note","sticky"],
   },
   render() {
@@ -29744,7 +29744,7 @@ export let FaNotesMedicalSolid = {
   $_icon: {
     name: "NotesMedical",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["notes","medical"],
   },
   render() {
@@ -29764,7 +29764,7 @@ export let FaOSolid = {
   $_icon: {
     name: "O",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["o"],
   },
   render() {
@@ -29784,7 +29784,7 @@ export let FaObjectGroupSolid = {
   $_icon: {
     name: "ObjectGroup",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["object","group"],
   },
   render() {
@@ -29804,7 +29804,7 @@ export let FaObjectUngroupSolid = {
   $_icon: {
     name: "ObjectUngroup",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["object","ungroup"],
   },
   render() {
@@ -29824,7 +29824,7 @@ export let FaOilCanSolid = {
   $_icon: {
     name: "OilCan",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["oil","can"],
   },
   render() {
@@ -29844,7 +29844,7 @@ export let FaOilWellSolid = {
   $_icon: {
     name: "OilWell",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["oil","well"],
   },
   render() {
@@ -29864,7 +29864,7 @@ export let FaOmSolid = {
   $_icon: {
     name: "Om",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["om"],
   },
   render() {
@@ -29884,7 +29884,7 @@ export let FaOtterSolid = {
   $_icon: {
     name: "Otter",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["otter"],
   },
   render() {
@@ -29904,7 +29904,7 @@ export let FaOutdentSolid = {
   $_icon: {
     name: "Outdent",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["outdent"],
   },
   render() {
@@ -29924,7 +29924,7 @@ export let FaPSolid = {
   $_icon: {
     name: "P",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["p"],
   },
   render() {
@@ -29944,7 +29944,7 @@ export let FaPagerSolid = {
   $_icon: {
     name: "Pager",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["pager"],
   },
   render() {
@@ -29964,7 +29964,7 @@ export let FaPaintRollerSolid = {
   $_icon: {
     name: "PaintRoller",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["paint","roller"],
   },
   render() {
@@ -29984,7 +29984,7 @@ export let FaPaintbrushSolid = {
   $_icon: {
     name: "Paintbrush",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["paintbrush"],
   },
   render() {
@@ -30004,7 +30004,7 @@ export let FaPaletteSolid = {
   $_icon: {
     name: "Palette",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["palette"],
   },
   render() {
@@ -30024,7 +30024,7 @@ export let FaPalletSolid = {
   $_icon: {
     name: "Pallet",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["pallet"],
   },
   render() {
@@ -30044,7 +30044,7 @@ export let FaPanoramaSolid = {
   $_icon: {
     name: "Panorama",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["panorama"],
   },
   render() {
@@ -30064,7 +30064,7 @@ export let FaPaperPlaneSolid = {
   $_icon: {
     name: "PaperPlane",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["paper","plane"],
   },
   render() {
@@ -30084,7 +30084,7 @@ export let FaPaperclipSolid = {
   $_icon: {
     name: "Paperclip",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["paperclip"],
   },
   render() {
@@ -30104,7 +30104,7 @@ export let FaParachuteBoxSolid = {
   $_icon: {
     name: "ParachuteBox",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["parachute","box"],
   },
   render() {
@@ -30124,7 +30124,7 @@ export let FaParagraphSolid = {
   $_icon: {
     name: "Paragraph",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["paragraph"],
   },
   render() {
@@ -30144,7 +30144,7 @@ export let FaPassportSolid = {
   $_icon: {
     name: "Passport",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["passport"],
   },
   render() {
@@ -30164,7 +30164,7 @@ export let FaPasteSolid = {
   $_icon: {
     name: "Paste",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["paste"],
   },
   render() {
@@ -30184,7 +30184,7 @@ export let FaPauseSolid = {
   $_icon: {
     name: "Pause",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["pause"],
   },
   render() {
@@ -30204,7 +30204,7 @@ export let FaPawSolid = {
   $_icon: {
     name: "Paw",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["paw"],
   },
   render() {
@@ -30224,7 +30224,7 @@ export let FaPeaceSolid = {
   $_icon: {
     name: "Peace",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["peace"],
   },
   render() {
@@ -30244,7 +30244,7 @@ export let FaPenClipSolid = {
   $_icon: {
     name: "PenClip",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["pen","clip"],
   },
   render() {
@@ -30264,7 +30264,7 @@ export let FaPenFancySolid = {
   $_icon: {
     name: "PenFancy",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["pen","fancy"],
   },
   render() {
@@ -30284,7 +30284,7 @@ export let FaPenNibSolid = {
   $_icon: {
     name: "PenNib",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["pen","nib"],
   },
   render() {
@@ -30304,7 +30304,7 @@ export let FaPenRulerSolid = {
   $_icon: {
     name: "PenRuler",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["pen","ruler"],
   },
   render() {
@@ -30324,7 +30324,7 @@ export let FaPenToSquareSolid = {
   $_icon: {
     name: "PenToSquare",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["pen","to","square"],
   },
   render() {
@@ -30344,7 +30344,7 @@ export let FaPenSolid = {
   $_icon: {
     name: "Pen",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["pen"],
   },
   render() {
@@ -30364,7 +30364,7 @@ export let FaPencilSolid = {
   $_icon: {
     name: "Pencil",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["pencil"],
   },
   render() {
@@ -30384,7 +30384,7 @@ export let FaPeopleArrowsLeftRightSolid = {
   $_icon: {
     name: "PeopleArrowsLeftRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["people","arrows","left","right"],
   },
   render() {
@@ -30404,7 +30404,7 @@ export let FaPeopleCarryBoxSolid = {
   $_icon: {
     name: "PeopleCarryBox",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["people","carry","box"],
   },
   render() {
@@ -30424,7 +30424,7 @@ export let FaPeopleGroupSolid = {
   $_icon: {
     name: "PeopleGroup",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["people","group"],
   },
   render() {
@@ -30444,7 +30444,7 @@ export let FaPeopleLineSolid = {
   $_icon: {
     name: "PeopleLine",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["people","line"],
   },
   render() {
@@ -30464,7 +30464,7 @@ export let FaPeoplePullingSolid = {
   $_icon: {
     name: "PeoplePulling",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["people","pulling"],
   },
   render() {
@@ -30484,7 +30484,7 @@ export let FaPeopleRobberySolid = {
   $_icon: {
     name: "PeopleRobbery",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["people","robbery"],
   },
   render() {
@@ -30504,7 +30504,7 @@ export let FaPeopleRoofSolid = {
   $_icon: {
     name: "PeopleRoof",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["people","roof"],
   },
   render() {
@@ -30524,7 +30524,7 @@ export let FaPepperHotSolid = {
   $_icon: {
     name: "PepperHot",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["pepper","hot"],
   },
   render() {
@@ -30544,7 +30544,7 @@ export let FaPercentSolid = {
   $_icon: {
     name: "Percent",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["percent"],
   },
   render() {
@@ -30564,7 +30564,7 @@ export let FaPersonArrowDownToLineSolid = {
   $_icon: {
     name: "PersonArrowDownToLine",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","arrow","down","to","line"],
   },
   render() {
@@ -30584,7 +30584,7 @@ export let FaPersonArrowUpFromLineSolid = {
   $_icon: {
     name: "PersonArrowUpFromLine",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","arrow","up","from","line"],
   },
   render() {
@@ -30604,7 +30604,7 @@ export let FaPersonBikingSolid = {
   $_icon: {
     name: "PersonBiking",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","biking"],
   },
   render() {
@@ -30624,7 +30624,7 @@ export let FaPersonBoothSolid = {
   $_icon: {
     name: "PersonBooth",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","booth"],
   },
   render() {
@@ -30644,7 +30644,7 @@ export let FaPersonBreastfeedingSolid = {
   $_icon: {
     name: "PersonBreastfeeding",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","breastfeeding"],
   },
   render() {
@@ -30664,7 +30664,7 @@ export let FaPersonBurstSolid = {
   $_icon: {
     name: "PersonBurst",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","burst"],
   },
   render() {
@@ -30684,7 +30684,7 @@ export let FaPersonCaneSolid = {
   $_icon: {
     name: "PersonCane",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","cane"],
   },
   render() {
@@ -30704,7 +30704,7 @@ export let FaPersonChalkboardSolid = {
   $_icon: {
     name: "PersonChalkboard",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","chalkboard"],
   },
   render() {
@@ -30724,7 +30724,7 @@ export let FaPersonCircleCheckSolid = {
   $_icon: {
     name: "PersonCircleCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","circle","check"],
   },
   render() {
@@ -30744,7 +30744,7 @@ export let FaPersonCircleExclamationSolid = {
   $_icon: {
     name: "PersonCircleExclamation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","circle","exclamation"],
   },
   render() {
@@ -30764,7 +30764,7 @@ export let FaPersonCircleMinusSolid = {
   $_icon: {
     name: "PersonCircleMinus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","circle","minus"],
   },
   render() {
@@ -30784,7 +30784,7 @@ export let FaPersonCirclePlusSolid = {
   $_icon: {
     name: "PersonCirclePlus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","circle","plus"],
   },
   render() {
@@ -30804,7 +30804,7 @@ export let FaPersonCircleQuestionSolid = {
   $_icon: {
     name: "PersonCircleQuestion",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","circle","question"],
   },
   render() {
@@ -30824,7 +30824,7 @@ export let FaPersonCircleXmarkSolid = {
   $_icon: {
     name: "PersonCircleXmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","circle","xmark"],
   },
   render() {
@@ -30844,7 +30844,7 @@ export let FaPersonDiggingSolid = {
   $_icon: {
     name: "PersonDigging",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","digging"],
   },
   render() {
@@ -30864,7 +30864,7 @@ export let FaPersonDotsFromLineSolid = {
   $_icon: {
     name: "PersonDotsFromLine",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","dots","from","line"],
   },
   render() {
@@ -30884,7 +30884,7 @@ export let FaPersonDressBurstSolid = {
   $_icon: {
     name: "PersonDressBurst",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","dress","burst"],
   },
   render() {
@@ -30904,7 +30904,7 @@ export let FaPersonDressSolid = {
   $_icon: {
     name: "PersonDress",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","dress"],
   },
   render() {
@@ -30924,7 +30924,7 @@ export let FaPersonDrowningSolid = {
   $_icon: {
     name: "PersonDrowning",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","drowning"],
   },
   render() {
@@ -30944,7 +30944,7 @@ export let FaPersonFallingBurstSolid = {
   $_icon: {
     name: "PersonFallingBurst",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","falling","burst"],
   },
   render() {
@@ -30964,7 +30964,7 @@ export let FaPersonFallingSolid = {
   $_icon: {
     name: "PersonFalling",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","falling"],
   },
   render() {
@@ -30984,7 +30984,7 @@ export let FaPersonHalfDressSolid = {
   $_icon: {
     name: "PersonHalfDress",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","half","dress"],
   },
   render() {
@@ -31004,7 +31004,7 @@ export let FaPersonHarassingSolid = {
   $_icon: {
     name: "PersonHarassing",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","harassing"],
   },
   render() {
@@ -31024,7 +31024,7 @@ export let FaPersonHikingSolid = {
   $_icon: {
     name: "PersonHiking",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","hiking"],
   },
   render() {
@@ -31044,7 +31044,7 @@ export let FaPersonMilitaryPointingSolid = {
   $_icon: {
     name: "PersonMilitaryPointing",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","military","pointing"],
   },
   render() {
@@ -31064,7 +31064,7 @@ export let FaPersonMilitaryRifleSolid = {
   $_icon: {
     name: "PersonMilitaryRifle",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","military","rifle"],
   },
   render() {
@@ -31084,7 +31084,7 @@ export let FaPersonMilitaryToPersonSolid = {
   $_icon: {
     name: "PersonMilitaryToPerson",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","military","to","person"],
   },
   render() {
@@ -31104,7 +31104,7 @@ export let FaPersonPrayingSolid = {
   $_icon: {
     name: "PersonPraying",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","praying"],
   },
   render() {
@@ -31124,7 +31124,7 @@ export let FaPersonPregnantSolid = {
   $_icon: {
     name: "PersonPregnant",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","pregnant"],
   },
   render() {
@@ -31144,7 +31144,7 @@ export let FaPersonRaysSolid = {
   $_icon: {
     name: "PersonRays",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","rays"],
   },
   render() {
@@ -31164,7 +31164,7 @@ export let FaPersonRifleSolid = {
   $_icon: {
     name: "PersonRifle",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","rifle"],
   },
   render() {
@@ -31184,7 +31184,7 @@ export let FaPersonRunningSolid = {
   $_icon: {
     name: "PersonRunning",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","running"],
   },
   render() {
@@ -31204,7 +31204,7 @@ export let FaPersonShelterSolid = {
   $_icon: {
     name: "PersonShelter",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","shelter"],
   },
   render() {
@@ -31224,7 +31224,7 @@ export let FaPersonSkatingSolid = {
   $_icon: {
     name: "PersonSkating",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","skating"],
   },
   render() {
@@ -31244,7 +31244,7 @@ export let FaPersonSkiingNordicSolid = {
   $_icon: {
     name: "PersonSkiingNordic",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","skiing","nordic"],
   },
   render() {
@@ -31264,7 +31264,7 @@ export let FaPersonSkiingSolid = {
   $_icon: {
     name: "PersonSkiing",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","skiing"],
   },
   render() {
@@ -31284,7 +31284,7 @@ export let FaPersonSnowboardingSolid = {
   $_icon: {
     name: "PersonSnowboarding",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","snowboarding"],
   },
   render() {
@@ -31304,7 +31304,7 @@ export let FaPersonSwimmingSolid = {
   $_icon: {
     name: "PersonSwimming",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","swimming"],
   },
   render() {
@@ -31324,7 +31324,7 @@ export let FaPersonThroughWindowSolid = {
   $_icon: {
     name: "PersonThroughWindow",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","through","window"],
   },
   render() {
@@ -31344,7 +31344,7 @@ export let FaPersonWalkingArrowLoopLeftSolid = {
   $_icon: {
     name: "PersonWalkingArrowLoopLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","walking","arrow","loop","left"],
   },
   render() {
@@ -31364,7 +31364,7 @@ export let FaPersonWalkingArrowRightSolid = {
   $_icon: {
     name: "PersonWalkingArrowRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","walking","arrow","right"],
   },
   render() {
@@ -31384,7 +31384,7 @@ export let FaPersonWalkingDashedLineArrowRightSolid = {
   $_icon: {
     name: "PersonWalkingDashedLineArrowRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","walking","dashed","line","arrow","right"],
   },
   render() {
@@ -31404,7 +31404,7 @@ export let FaPersonWalkingLuggageSolid = {
   $_icon: {
     name: "PersonWalkingLuggage",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","walking","luggage"],
   },
   render() {
@@ -31424,7 +31424,7 @@ export let FaPersonWalkingWithCaneSolid = {
   $_icon: {
     name: "PersonWalkingWithCane",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","walking","with","cane"],
   },
   render() {
@@ -31444,7 +31444,7 @@ export let FaPersonWalkingSolid = {
   $_icon: {
     name: "PersonWalking",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person","walking"],
   },
   render() {
@@ -31464,7 +31464,7 @@ export let FaPersonSolid = {
   $_icon: {
     name: "Person",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["person"],
   },
   render() {
@@ -31484,7 +31484,7 @@ export let FaPesetaSignSolid = {
   $_icon: {
     name: "PesetaSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["peseta","sign"],
   },
   render() {
@@ -31504,7 +31504,7 @@ export let FaPesoSignSolid = {
   $_icon: {
     name: "PesoSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["peso","sign"],
   },
   render() {
@@ -31524,7 +31524,7 @@ export let FaPhoneFlipSolid = {
   $_icon: {
     name: "PhoneFlip",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["phone","flip"],
   },
   render() {
@@ -31544,7 +31544,7 @@ export let FaPhoneSlashSolid = {
   $_icon: {
     name: "PhoneSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["phone","slash"],
   },
   render() {
@@ -31564,7 +31564,7 @@ export let FaPhoneVolumeSolid = {
   $_icon: {
     name: "PhoneVolume",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["phone","volume"],
   },
   render() {
@@ -31584,7 +31584,7 @@ export let FaPhoneSolid = {
   $_icon: {
     name: "Phone",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["phone"],
   },
   render() {
@@ -31604,7 +31604,7 @@ export let FaPhotoFilmSolid = {
   $_icon: {
     name: "PhotoFilm",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["photo","film"],
   },
   render() {
@@ -31624,7 +31624,7 @@ export let FaPiggyBankSolid = {
   $_icon: {
     name: "PiggyBank",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["piggy","bank"],
   },
   render() {
@@ -31644,7 +31644,7 @@ export let FaPillsSolid = {
   $_icon: {
     name: "Pills",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["pills"],
   },
   render() {
@@ -31664,7 +31664,7 @@ export let FaPizzaSliceSolid = {
   $_icon: {
     name: "PizzaSlice",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["pizza","slice"],
   },
   render() {
@@ -31684,7 +31684,7 @@ export let FaPlaceOfWorshipSolid = {
   $_icon: {
     name: "PlaceOfWorship",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["place","of","worship"],
   },
   render() {
@@ -31704,7 +31704,7 @@ export let FaPlaneArrivalSolid = {
   $_icon: {
     name: "PlaneArrival",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["plane","arrival"],
   },
   render() {
@@ -31724,7 +31724,7 @@ export let FaPlaneCircleCheckSolid = {
   $_icon: {
     name: "PlaneCircleCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["plane","circle","check"],
   },
   render() {
@@ -31744,7 +31744,7 @@ export let FaPlaneCircleExclamationSolid = {
   $_icon: {
     name: "PlaneCircleExclamation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["plane","circle","exclamation"],
   },
   render() {
@@ -31764,7 +31764,7 @@ export let FaPlaneCircleXmarkSolid = {
   $_icon: {
     name: "PlaneCircleXmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["plane","circle","xmark"],
   },
   render() {
@@ -31784,7 +31784,7 @@ export let FaPlaneDepartureSolid = {
   $_icon: {
     name: "PlaneDeparture",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["plane","departure"],
   },
   render() {
@@ -31804,7 +31804,7 @@ export let FaPlaneLockSolid = {
   $_icon: {
     name: "PlaneLock",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["plane","lock"],
   },
   render() {
@@ -31824,7 +31824,7 @@ export let FaPlaneSlashSolid = {
   $_icon: {
     name: "PlaneSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["plane","slash"],
   },
   render() {
@@ -31844,7 +31844,7 @@ export let FaPlaneUpSolid = {
   $_icon: {
     name: "PlaneUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["plane","up"],
   },
   render() {
@@ -31864,7 +31864,7 @@ export let FaPlaneSolid = {
   $_icon: {
     name: "Plane",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["plane"],
   },
   render() {
@@ -31884,7 +31884,7 @@ export let FaPlantWiltSolid = {
   $_icon: {
     name: "PlantWilt",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["plant","wilt"],
   },
   render() {
@@ -31904,7 +31904,7 @@ export let FaPlateWheatSolid = {
   $_icon: {
     name: "PlateWheat",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["plate","wheat"],
   },
   render() {
@@ -31924,7 +31924,7 @@ export let FaPlaySolid = {
   $_icon: {
     name: "Play",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["play"],
   },
   render() {
@@ -31944,7 +31944,7 @@ export let FaPlugCircleBoltSolid = {
   $_icon: {
     name: "PlugCircleBolt",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["plug","circle","bolt"],
   },
   render() {
@@ -31964,7 +31964,7 @@ export let FaPlugCircleCheckSolid = {
   $_icon: {
     name: "PlugCircleCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["plug","circle","check"],
   },
   render() {
@@ -31984,7 +31984,7 @@ export let FaPlugCircleExclamationSolid = {
   $_icon: {
     name: "PlugCircleExclamation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["plug","circle","exclamation"],
   },
   render() {
@@ -32004,7 +32004,7 @@ export let FaPlugCircleMinusSolid = {
   $_icon: {
     name: "PlugCircleMinus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["plug","circle","minus"],
   },
   render() {
@@ -32024,7 +32024,7 @@ export let FaPlugCirclePlusSolid = {
   $_icon: {
     name: "PlugCirclePlus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["plug","circle","plus"],
   },
   render() {
@@ -32044,7 +32044,7 @@ export let FaPlugCircleXmarkSolid = {
   $_icon: {
     name: "PlugCircleXmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["plug","circle","xmark"],
   },
   render() {
@@ -32064,7 +32064,7 @@ export let FaPlugSolid = {
   $_icon: {
     name: "Plug",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["plug"],
   },
   render() {
@@ -32084,7 +32084,7 @@ export let FaPlusMinusSolid = {
   $_icon: {
     name: "PlusMinus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["plus","minus"],
   },
   render() {
@@ -32104,7 +32104,7 @@ export let FaPlusSolid = {
   $_icon: {
     name: "Plus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["plus"],
   },
   render() {
@@ -32124,7 +32124,7 @@ export let FaPodcastSolid = {
   $_icon: {
     name: "Podcast",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["podcast"],
   },
   render() {
@@ -32144,7 +32144,7 @@ export let FaPooStormSolid = {
   $_icon: {
     name: "PooStorm",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["poo","storm"],
   },
   render() {
@@ -32164,7 +32164,7 @@ export let FaPooSolid = {
   $_icon: {
     name: "Poo",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["poo"],
   },
   render() {
@@ -32184,7 +32184,7 @@ export let FaPoopSolid = {
   $_icon: {
     name: "Poop",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["poop"],
   },
   render() {
@@ -32204,7 +32204,7 @@ export let FaPowerOffSolid = {
   $_icon: {
     name: "PowerOff",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["power","off"],
   },
   render() {
@@ -32224,7 +32224,7 @@ export let FaPrescriptionBottleMedicalSolid = {
   $_icon: {
     name: "PrescriptionBottleMedical",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["prescription","bottle","medical"],
   },
   render() {
@@ -32244,7 +32244,7 @@ export let FaPrescriptionBottleSolid = {
   $_icon: {
     name: "PrescriptionBottle",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["prescription","bottle"],
   },
   render() {
@@ -32264,7 +32264,7 @@ export let FaPrescriptionSolid = {
   $_icon: {
     name: "Prescription",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["prescription"],
   },
   render() {
@@ -32284,7 +32284,7 @@ export let FaPrintSolid = {
   $_icon: {
     name: "Print",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["print"],
   },
   render() {
@@ -32304,7 +32304,7 @@ export let FaPumpMedicalSolid = {
   $_icon: {
     name: "PumpMedical",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["pump","medical"],
   },
   render() {
@@ -32324,7 +32324,7 @@ export let FaPumpSoapSolid = {
   $_icon: {
     name: "PumpSoap",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["pump","soap"],
   },
   render() {
@@ -32344,7 +32344,7 @@ export let FaPuzzlePieceSolid = {
   $_icon: {
     name: "PuzzlePiece",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["puzzle","piece"],
   },
   render() {
@@ -32364,7 +32364,7 @@ export let FaQSolid = {
   $_icon: {
     name: "Q",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["q"],
   },
   render() {
@@ -32384,7 +32384,7 @@ export let FaQrcodeSolid = {
   $_icon: {
     name: "Qrcode",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["qrcode"],
   },
   render() {
@@ -32404,7 +32404,7 @@ export let FaQuestionSolid = {
   $_icon: {
     name: "Question",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["question"],
   },
   render() {
@@ -32424,7 +32424,7 @@ export let FaQuoteLeftSolid = {
   $_icon: {
     name: "QuoteLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["quote","left"],
   },
   render() {
@@ -32444,7 +32444,7 @@ export let FaQuoteRightSolid = {
   $_icon: {
     name: "QuoteRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["quote","right"],
   },
   render() {
@@ -32464,7 +32464,7 @@ export let FaRSolid = {
   $_icon: {
     name: "R",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["r"],
   },
   render() {
@@ -32484,7 +32484,7 @@ export let FaRadiationSolid = {
   $_icon: {
     name: "Radiation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["radiation"],
   },
   render() {
@@ -32504,7 +32504,7 @@ export let FaRadioSolid = {
   $_icon: {
     name: "Radio",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["radio"],
   },
   render() {
@@ -32524,7 +32524,7 @@ export let FaRainbowSolid = {
   $_icon: {
     name: "Rainbow",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["rainbow"],
   },
   render() {
@@ -32544,7 +32544,7 @@ export let FaRankingStarSolid = {
   $_icon: {
     name: "RankingStar",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ranking","star"],
   },
   render() {
@@ -32564,7 +32564,7 @@ export let FaReceiptSolid = {
   $_icon: {
     name: "Receipt",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["receipt"],
   },
   render() {
@@ -32584,7 +32584,7 @@ export let FaRecordVinylSolid = {
   $_icon: {
     name: "RecordVinyl",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["record","vinyl"],
   },
   render() {
@@ -32604,7 +32604,7 @@ export let FaRectangleAdSolid = {
   $_icon: {
     name: "RectangleAd",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["rectangle","ad"],
   },
   render() {
@@ -32624,7 +32624,7 @@ export let FaRectangleListSolid = {
   $_icon: {
     name: "RectangleList",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["rectangle","list"],
   },
   render() {
@@ -32644,7 +32644,7 @@ export let FaRectangleXmarkSolid = {
   $_icon: {
     name: "RectangleXmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["rectangle","xmark"],
   },
   render() {
@@ -32664,7 +32664,7 @@ export let FaRecycleSolid = {
   $_icon: {
     name: "Recycle",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["recycle"],
   },
   render() {
@@ -32684,7 +32684,7 @@ export let FaRegisteredSolid = {
   $_icon: {
     name: "Registered",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["registered"],
   },
   render() {
@@ -32704,7 +32704,7 @@ export let FaRepeatSolid = {
   $_icon: {
     name: "Repeat",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["repeat"],
   },
   render() {
@@ -32724,7 +32724,7 @@ export let FaReplyAllSolid = {
   $_icon: {
     name: "ReplyAll",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["reply","all"],
   },
   render() {
@@ -32744,7 +32744,7 @@ export let FaReplySolid = {
   $_icon: {
     name: "Reply",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["reply"],
   },
   render() {
@@ -32764,7 +32764,7 @@ export let FaRepublicanSolid = {
   $_icon: {
     name: "Republican",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["republican"],
   },
   render() {
@@ -32784,7 +32784,7 @@ export let FaRestroomSolid = {
   $_icon: {
     name: "Restroom",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["restroom"],
   },
   render() {
@@ -32804,7 +32804,7 @@ export let FaRetweetSolid = {
   $_icon: {
     name: "Retweet",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["retweet"],
   },
   render() {
@@ -32824,7 +32824,7 @@ export let FaRibbonSolid = {
   $_icon: {
     name: "Ribbon",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ribbon"],
   },
   render() {
@@ -32844,7 +32844,7 @@ export let FaRightFromBracketSolid = {
   $_icon: {
     name: "RightFromBracket",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["right","from","bracket"],
   },
   render() {
@@ -32864,7 +32864,7 @@ export let FaRightLeftSolid = {
   $_icon: {
     name: "RightLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["right","left"],
   },
   render() {
@@ -32884,7 +32884,7 @@ export let FaRightLongSolid = {
   $_icon: {
     name: "RightLong",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["right","long"],
   },
   render() {
@@ -32904,7 +32904,7 @@ export let FaRightToBracketSolid = {
   $_icon: {
     name: "RightToBracket",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["right","to","bracket"],
   },
   render() {
@@ -32924,7 +32924,7 @@ export let FaRingSolid = {
   $_icon: {
     name: "Ring",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ring"],
   },
   render() {
@@ -32944,7 +32944,7 @@ export let FaRoadBarrierSolid = {
   $_icon: {
     name: "RoadBarrier",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["road","barrier"],
   },
   render() {
@@ -32964,7 +32964,7 @@ export let FaRoadBridgeSolid = {
   $_icon: {
     name: "RoadBridge",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["road","bridge"],
   },
   render() {
@@ -32984,7 +32984,7 @@ export let FaRoadCircleCheckSolid = {
   $_icon: {
     name: "RoadCircleCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["road","circle","check"],
   },
   render() {
@@ -33004,7 +33004,7 @@ export let FaRoadCircleExclamationSolid = {
   $_icon: {
     name: "RoadCircleExclamation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["road","circle","exclamation"],
   },
   render() {
@@ -33024,7 +33024,7 @@ export let FaRoadCircleXmarkSolid = {
   $_icon: {
     name: "RoadCircleXmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["road","circle","xmark"],
   },
   render() {
@@ -33044,7 +33044,7 @@ export let FaRoadLockSolid = {
   $_icon: {
     name: "RoadLock",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["road","lock"],
   },
   render() {
@@ -33064,7 +33064,7 @@ export let FaRoadSpikesSolid = {
   $_icon: {
     name: "RoadSpikes",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["road","spikes"],
   },
   render() {
@@ -33084,7 +33084,7 @@ export let FaRoadSolid = {
   $_icon: {
     name: "Road",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["road"],
   },
   render() {
@@ -33104,7 +33104,7 @@ export let FaRobotSolid = {
   $_icon: {
     name: "Robot",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["robot"],
   },
   render() {
@@ -33124,7 +33124,7 @@ export let FaRocketSolid = {
   $_icon: {
     name: "Rocket",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["rocket"],
   },
   render() {
@@ -33144,7 +33144,7 @@ export let FaRotateLeftSolid = {
   $_icon: {
     name: "RotateLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["rotate","left"],
   },
   render() {
@@ -33164,7 +33164,7 @@ export let FaRotateRightSolid = {
   $_icon: {
     name: "RotateRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["rotate","right"],
   },
   render() {
@@ -33184,7 +33184,7 @@ export let FaRotateSolid = {
   $_icon: {
     name: "Rotate",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["rotate"],
   },
   render() {
@@ -33204,7 +33204,7 @@ export let FaRouteSolid = {
   $_icon: {
     name: "Route",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["route"],
   },
   render() {
@@ -33224,7 +33224,7 @@ export let FaRssSolid = {
   $_icon: {
     name: "Rss",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["rss"],
   },
   render() {
@@ -33244,7 +33244,7 @@ export let FaRubleSignSolid = {
   $_icon: {
     name: "RubleSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ruble","sign"],
   },
   render() {
@@ -33264,7 +33264,7 @@ export let FaRugSolid = {
   $_icon: {
     name: "Rug",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["rug"],
   },
   render() {
@@ -33284,7 +33284,7 @@ export let FaRulerCombinedSolid = {
   $_icon: {
     name: "RulerCombined",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ruler","combined"],
   },
   render() {
@@ -33304,7 +33304,7 @@ export let FaRulerHorizontalSolid = {
   $_icon: {
     name: "RulerHorizontal",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ruler","horizontal"],
   },
   render() {
@@ -33324,7 +33324,7 @@ export let FaRulerVerticalSolid = {
   $_icon: {
     name: "RulerVertical",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ruler","vertical"],
   },
   render() {
@@ -33344,7 +33344,7 @@ export let FaRulerSolid = {
   $_icon: {
     name: "Ruler",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ruler"],
   },
   render() {
@@ -33364,7 +33364,7 @@ export let FaRupeeSignSolid = {
   $_icon: {
     name: "RupeeSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["rupee","sign"],
   },
   render() {
@@ -33384,7 +33384,7 @@ export let FaRupiahSignSolid = {
   $_icon: {
     name: "RupiahSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["rupiah","sign"],
   },
   render() {
@@ -33404,7 +33404,7 @@ export let FaSSolid = {
   $_icon: {
     name: "S",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["s"],
   },
   render() {
@@ -33424,7 +33424,7 @@ export let FaSackDollarSolid = {
   $_icon: {
     name: "SackDollar",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["sack","dollar"],
   },
   render() {
@@ -33444,7 +33444,7 @@ export let FaSackXmarkSolid = {
   $_icon: {
     name: "SackXmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["sack","xmark"],
   },
   render() {
@@ -33464,7 +33464,7 @@ export let FaSailboatSolid = {
   $_icon: {
     name: "Sailboat",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["sailboat"],
   },
   render() {
@@ -33484,7 +33484,7 @@ export let FaSatelliteDishSolid = {
   $_icon: {
     name: "SatelliteDish",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["satellite","dish"],
   },
   render() {
@@ -33504,7 +33504,7 @@ export let FaSatelliteSolid = {
   $_icon: {
     name: "Satellite",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["satellite"],
   },
   render() {
@@ -33524,7 +33524,7 @@ export let FaScaleBalancedSolid = {
   $_icon: {
     name: "ScaleBalanced",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["scale","balanced"],
   },
   render() {
@@ -33544,7 +33544,7 @@ export let FaScaleUnbalancedFlipSolid = {
   $_icon: {
     name: "ScaleUnbalancedFlip",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["scale","unbalanced","flip"],
   },
   render() {
@@ -33564,7 +33564,7 @@ export let FaScaleUnbalancedSolid = {
   $_icon: {
     name: "ScaleUnbalanced",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["scale","unbalanced"],
   },
   render() {
@@ -33584,7 +33584,7 @@ export let FaSchoolCircleCheckSolid = {
   $_icon: {
     name: "SchoolCircleCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["school","circle","check"],
   },
   render() {
@@ -33604,7 +33604,7 @@ export let FaSchoolCircleExclamationSolid = {
   $_icon: {
     name: "SchoolCircleExclamation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["school","circle","exclamation"],
   },
   render() {
@@ -33624,7 +33624,7 @@ export let FaSchoolCircleXmarkSolid = {
   $_icon: {
     name: "SchoolCircleXmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["school","circle","xmark"],
   },
   render() {
@@ -33644,7 +33644,7 @@ export let FaSchoolFlagSolid = {
   $_icon: {
     name: "SchoolFlag",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["school","flag"],
   },
   render() {
@@ -33664,7 +33664,7 @@ export let FaSchoolLockSolid = {
   $_icon: {
     name: "SchoolLock",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["school","lock"],
   },
   render() {
@@ -33684,7 +33684,7 @@ export let FaSchoolSolid = {
   $_icon: {
     name: "School",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["school"],
   },
   render() {
@@ -33704,7 +33704,7 @@ export let FaScissorsSolid = {
   $_icon: {
     name: "Scissors",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["scissors"],
   },
   render() {
@@ -33724,7 +33724,7 @@ export let FaScrewdriverWrenchSolid = {
   $_icon: {
     name: "ScrewdriverWrench",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["screwdriver","wrench"],
   },
   render() {
@@ -33744,7 +33744,7 @@ export let FaScrewdriverSolid = {
   $_icon: {
     name: "Screwdriver",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["screwdriver"],
   },
   render() {
@@ -33764,7 +33764,7 @@ export let FaScrollTorahSolid = {
   $_icon: {
     name: "ScrollTorah",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["scroll","torah"],
   },
   render() {
@@ -33784,7 +33784,7 @@ export let FaScrollSolid = {
   $_icon: {
     name: "Scroll",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["scroll"],
   },
   render() {
@@ -33804,7 +33804,7 @@ export let FaSdCardSolid = {
   $_icon: {
     name: "SdCard",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["sd","card"],
   },
   render() {
@@ -33824,7 +33824,7 @@ export let FaSectionSolid = {
   $_icon: {
     name: "Section",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["section"],
   },
   render() {
@@ -33844,7 +33844,7 @@ export let FaSeedlingSolid = {
   $_icon: {
     name: "Seedling",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["seedling"],
   },
   render() {
@@ -33864,7 +33864,7 @@ export let FaServerSolid = {
   $_icon: {
     name: "Server",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["server"],
   },
   render() {
@@ -33884,7 +33884,7 @@ export let FaShapesSolid = {
   $_icon: {
     name: "Shapes",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["shapes"],
   },
   render() {
@@ -33904,7 +33904,7 @@ export let FaShareFromSquareSolid = {
   $_icon: {
     name: "ShareFromSquare",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["share","from","square"],
   },
   render() {
@@ -33924,7 +33924,7 @@ export let FaShareNodesSolid = {
   $_icon: {
     name: "ShareNodes",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["share","nodes"],
   },
   render() {
@@ -33944,7 +33944,7 @@ export let FaShareSolid = {
   $_icon: {
     name: "Share",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["share"],
   },
   render() {
@@ -33964,7 +33964,7 @@ export let FaSheetPlasticSolid = {
   $_icon: {
     name: "SheetPlastic",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["sheet","plastic"],
   },
   render() {
@@ -33984,7 +33984,7 @@ export let FaShekelSignSolid = {
   $_icon: {
     name: "ShekelSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["shekel","sign"],
   },
   render() {
@@ -34004,7 +34004,7 @@ export let FaShieldBlankSolid = {
   $_icon: {
     name: "ShieldBlank",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["shield","blank"],
   },
   render() {
@@ -34024,7 +34024,7 @@ export let FaShieldCatSolid = {
   $_icon: {
     name: "ShieldCat",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["shield","cat"],
   },
   render() {
@@ -34044,7 +34044,7 @@ export let FaShieldDogSolid = {
   $_icon: {
     name: "ShieldDog",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["shield","dog"],
   },
   render() {
@@ -34064,7 +34064,7 @@ export let FaShieldHalvedSolid = {
   $_icon: {
     name: "ShieldHalved",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["shield","halved"],
   },
   render() {
@@ -34084,7 +34084,7 @@ export let FaShieldHeartSolid = {
   $_icon: {
     name: "ShieldHeart",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["shield","heart"],
   },
   render() {
@@ -34104,7 +34104,7 @@ export let FaShieldVirusSolid = {
   $_icon: {
     name: "ShieldVirus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["shield","virus"],
   },
   render() {
@@ -34124,7 +34124,7 @@ export let FaShieldSolid = {
   $_icon: {
     name: "Shield",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["shield"],
   },
   render() {
@@ -34144,7 +34144,7 @@ export let FaShipSolid = {
   $_icon: {
     name: "Ship",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ship"],
   },
   render() {
@@ -34164,7 +34164,7 @@ export let FaShirtSolid = {
   $_icon: {
     name: "Shirt",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["shirt"],
   },
   render() {
@@ -34184,7 +34184,7 @@ export let FaShoePrintsSolid = {
   $_icon: {
     name: "ShoePrints",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["shoe","prints"],
   },
   render() {
@@ -34204,7 +34204,7 @@ export let FaShopLockSolid = {
   $_icon: {
     name: "ShopLock",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["shop","lock"],
   },
   render() {
@@ -34224,7 +34224,7 @@ export let FaShopSlashSolid = {
   $_icon: {
     name: "ShopSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["shop","slash"],
   },
   render() {
@@ -34244,7 +34244,7 @@ export let FaShopSolid = {
   $_icon: {
     name: "Shop",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["shop"],
   },
   render() {
@@ -34264,7 +34264,7 @@ export let FaShowerSolid = {
   $_icon: {
     name: "Shower",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["shower"],
   },
   render() {
@@ -34284,7 +34284,7 @@ export let FaShrimpSolid = {
   $_icon: {
     name: "Shrimp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["shrimp"],
   },
   render() {
@@ -34304,7 +34304,7 @@ export let FaShuffleSolid = {
   $_icon: {
     name: "Shuffle",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["shuffle"],
   },
   render() {
@@ -34324,7 +34324,7 @@ export let FaShuttleSpaceSolid = {
   $_icon: {
     name: "ShuttleSpace",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["shuttle","space"],
   },
   render() {
@@ -34344,7 +34344,7 @@ export let FaSignHangingSolid = {
   $_icon: {
     name: "SignHanging",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["sign","hanging"],
   },
   render() {
@@ -34364,7 +34364,7 @@ export let FaSignalSolid = {
   $_icon: {
     name: "Signal",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["signal"],
   },
   render() {
@@ -34384,7 +34384,7 @@ export let FaSignatureSolid = {
   $_icon: {
     name: "Signature",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["signature"],
   },
   render() {
@@ -34404,7 +34404,7 @@ export let FaSignsPostSolid = {
   $_icon: {
     name: "SignsPost",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["signs","post"],
   },
   render() {
@@ -34424,7 +34424,7 @@ export let FaSimCardSolid = {
   $_icon: {
     name: "SimCard",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["sim","card"],
   },
   render() {
@@ -34444,7 +34444,7 @@ export let FaSinkSolid = {
   $_icon: {
     name: "Sink",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["sink"],
   },
   render() {
@@ -34464,7 +34464,7 @@ export let FaSitemapSolid = {
   $_icon: {
     name: "Sitemap",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["sitemap"],
   },
   render() {
@@ -34484,7 +34484,7 @@ export let FaSkullCrossbonesSolid = {
   $_icon: {
     name: "SkullCrossbones",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["skull","crossbones"],
   },
   render() {
@@ -34504,7 +34504,7 @@ export let FaSkullSolid = {
   $_icon: {
     name: "Skull",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["skull"],
   },
   render() {
@@ -34524,7 +34524,7 @@ export let FaSlashSolid = {
   $_icon: {
     name: "Slash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["slash"],
   },
   render() {
@@ -34544,7 +34544,7 @@ export let FaSleighSolid = {
   $_icon: {
     name: "Sleigh",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["sleigh"],
   },
   render() {
@@ -34564,7 +34564,7 @@ export let FaSlidersSolid = {
   $_icon: {
     name: "Sliders",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["sliders"],
   },
   render() {
@@ -34584,7 +34584,7 @@ export let FaSmogSolid = {
   $_icon: {
     name: "Smog",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["smog"],
   },
   render() {
@@ -34604,7 +34604,7 @@ export let FaSmokingSolid = {
   $_icon: {
     name: "Smoking",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["smoking"],
   },
   render() {
@@ -34624,7 +34624,7 @@ export let FaSnowflakeSolid = {
   $_icon: {
     name: "Snowflake",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["snowflake"],
   },
   render() {
@@ -34644,7 +34644,7 @@ export let FaSnowmanSolid = {
   $_icon: {
     name: "Snowman",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["snowman"],
   },
   render() {
@@ -34664,7 +34664,7 @@ export let FaSnowplowSolid = {
   $_icon: {
     name: "Snowplow",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["snowplow"],
   },
   render() {
@@ -34684,7 +34684,7 @@ export let FaSoapSolid = {
   $_icon: {
     name: "Soap",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["soap"],
   },
   render() {
@@ -34704,7 +34704,7 @@ export let FaSocksSolid = {
   $_icon: {
     name: "Socks",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["socks"],
   },
   render() {
@@ -34724,7 +34724,7 @@ export let FaSolarPanelSolid = {
   $_icon: {
     name: "SolarPanel",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["solar","panel"],
   },
   render() {
@@ -34744,7 +34744,7 @@ export let FaSortDownSolid = {
   $_icon: {
     name: "SortDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["sort","down"],
   },
   render() {
@@ -34764,7 +34764,7 @@ export let FaSortUpSolid = {
   $_icon: {
     name: "SortUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["sort","up"],
   },
   render() {
@@ -34784,7 +34784,7 @@ export let FaSortSolid = {
   $_icon: {
     name: "Sort",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["sort"],
   },
   render() {
@@ -34804,7 +34804,7 @@ export let FaSpaSolid = {
   $_icon: {
     name: "Spa",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["spa"],
   },
   render() {
@@ -34824,7 +34824,7 @@ export let FaSpaghettiMonsterFlyingSolid = {
   $_icon: {
     name: "SpaghettiMonsterFlying",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["spaghetti","monster","flying"],
   },
   render() {
@@ -34844,7 +34844,7 @@ export let FaSpellCheckSolid = {
   $_icon: {
     name: "SpellCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["spell","check"],
   },
   render() {
@@ -34864,7 +34864,7 @@ export let FaSpiderSolid = {
   $_icon: {
     name: "Spider",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["spider"],
   },
   render() {
@@ -34884,7 +34884,7 @@ export let FaSpinnerSolid = {
   $_icon: {
     name: "Spinner",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["spinner"],
   },
   render() {
@@ -34904,7 +34904,7 @@ export let FaSplotchSolid = {
   $_icon: {
     name: "Splotch",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["splotch"],
   },
   render() {
@@ -34924,7 +34924,7 @@ export let FaSpoonSolid = {
   $_icon: {
     name: "Spoon",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["spoon"],
   },
   render() {
@@ -34944,7 +34944,7 @@ export let FaSprayCanSparklesSolid = {
   $_icon: {
     name: "SprayCanSparkles",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["spray","can","sparkles"],
   },
   render() {
@@ -34964,7 +34964,7 @@ export let FaSprayCanSolid = {
   $_icon: {
     name: "SprayCan",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["spray","can"],
   },
   render() {
@@ -34984,7 +34984,7 @@ export let FaSquareArrowUpRightSolid = {
   $_icon: {
     name: "SquareArrowUpRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","arrow","up","right"],
   },
   render() {
@@ -35004,7 +35004,7 @@ export let FaSquareCaretDownSolid = {
   $_icon: {
     name: "SquareCaretDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","caret","down"],
   },
   render() {
@@ -35024,7 +35024,7 @@ export let FaSquareCaretLeftSolid = {
   $_icon: {
     name: "SquareCaretLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","caret","left"],
   },
   render() {
@@ -35044,7 +35044,7 @@ export let FaSquareCaretRightSolid = {
   $_icon: {
     name: "SquareCaretRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","caret","right"],
   },
   render() {
@@ -35064,7 +35064,7 @@ export let FaSquareCaretUpSolid = {
   $_icon: {
     name: "SquareCaretUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","caret","up"],
   },
   render() {
@@ -35084,7 +35084,7 @@ export let FaSquareCheckSolid = {
   $_icon: {
     name: "SquareCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","check"],
   },
   render() {
@@ -35104,7 +35104,7 @@ export let FaSquareEnvelopeSolid = {
   $_icon: {
     name: "SquareEnvelope",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","envelope"],
   },
   render() {
@@ -35124,7 +35124,7 @@ export let FaSquareFullSolid = {
   $_icon: {
     name: "SquareFull",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","full"],
   },
   render() {
@@ -35144,7 +35144,7 @@ export let FaSquareHSolid = {
   $_icon: {
     name: "SquareH",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","h"],
   },
   render() {
@@ -35164,7 +35164,7 @@ export let FaSquareMinusSolid = {
   $_icon: {
     name: "SquareMinus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","minus"],
   },
   render() {
@@ -35184,7 +35184,7 @@ export let FaSquareNfiSolid = {
   $_icon: {
     name: "SquareNfi",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","nfi"],
   },
   render() {
@@ -35204,7 +35204,7 @@ export let FaSquareParkingSolid = {
   $_icon: {
     name: "SquareParking",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","parking"],
   },
   render() {
@@ -35224,7 +35224,7 @@ export let FaSquarePenSolid = {
   $_icon: {
     name: "SquarePen",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","pen"],
   },
   render() {
@@ -35244,7 +35244,7 @@ export let FaSquarePersonConfinedSolid = {
   $_icon: {
     name: "SquarePersonConfined",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","person","confined"],
   },
   render() {
@@ -35264,7 +35264,7 @@ export let FaSquarePhoneFlipSolid = {
   $_icon: {
     name: "SquarePhoneFlip",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","phone","flip"],
   },
   render() {
@@ -35284,7 +35284,7 @@ export let FaSquarePhoneSolid = {
   $_icon: {
     name: "SquarePhone",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","phone"],
   },
   render() {
@@ -35304,7 +35304,7 @@ export let FaSquarePlusSolid = {
   $_icon: {
     name: "SquarePlus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","plus"],
   },
   render() {
@@ -35324,7 +35324,7 @@ export let FaSquarePollHorizontalSolid = {
   $_icon: {
     name: "SquarePollHorizontal",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","poll","horizontal"],
   },
   render() {
@@ -35344,7 +35344,7 @@ export let FaSquarePollVerticalSolid = {
   $_icon: {
     name: "SquarePollVertical",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","poll","vertical"],
   },
   render() {
@@ -35364,7 +35364,7 @@ export let FaSquareRootVariableSolid = {
   $_icon: {
     name: "SquareRootVariable",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","root","variable"],
   },
   render() {
@@ -35384,7 +35384,7 @@ export let FaSquareRssSolid = {
   $_icon: {
     name: "SquareRss",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","rss"],
   },
   render() {
@@ -35404,7 +35404,7 @@ export let FaSquareShareNodesSolid = {
   $_icon: {
     name: "SquareShareNodes",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","share","nodes"],
   },
   render() {
@@ -35424,7 +35424,7 @@ export let FaSquareUpRightSolid = {
   $_icon: {
     name: "SquareUpRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","up","right"],
   },
   render() {
@@ -35444,7 +35444,7 @@ export let FaSquareVirusSolid = {
   $_icon: {
     name: "SquareVirus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","virus"],
   },
   render() {
@@ -35464,7 +35464,7 @@ export let FaSquareXmarkSolid = {
   $_icon: {
     name: "SquareXmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square","xmark"],
   },
   render() {
@@ -35484,7 +35484,7 @@ export let FaSquareSolid = {
   $_icon: {
     name: "Square",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["square"],
   },
   render() {
@@ -35504,7 +35504,7 @@ export let FaStaffAesculapiusSolid = {
   $_icon: {
     name: "StaffAesculapius",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["staff","aesculapius"],
   },
   render() {
@@ -35524,7 +35524,7 @@ export let FaStairsSolid = {
   $_icon: {
     name: "Stairs",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["stairs"],
   },
   render() {
@@ -35544,7 +35544,7 @@ export let FaStampSolid = {
   $_icon: {
     name: "Stamp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["stamp"],
   },
   render() {
@@ -35564,7 +35564,7 @@ export let FaStarAndCrescentSolid = {
   $_icon: {
     name: "StarAndCrescent",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["star","and","crescent"],
   },
   render() {
@@ -35584,7 +35584,7 @@ export let FaStarHalfStrokeSolid = {
   $_icon: {
     name: "StarHalfStroke",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["star","half","stroke"],
   },
   render() {
@@ -35604,7 +35604,7 @@ export let FaStarHalfSolid = {
   $_icon: {
     name: "StarHalf",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["star","half"],
   },
   render() {
@@ -35624,7 +35624,7 @@ export let FaStarOfDavidSolid = {
   $_icon: {
     name: "StarOfDavid",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["star","of","david"],
   },
   render() {
@@ -35644,7 +35644,7 @@ export let FaStarOfLifeSolid = {
   $_icon: {
     name: "StarOfLife",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["star","of","life"],
   },
   render() {
@@ -35664,7 +35664,7 @@ export let FaStarSolid = {
   $_icon: {
     name: "Star",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["star"],
   },
   render() {
@@ -35684,7 +35684,7 @@ export let FaSterlingSignSolid = {
   $_icon: {
     name: "SterlingSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["sterling","sign"],
   },
   render() {
@@ -35704,7 +35704,7 @@ export let FaStethoscopeSolid = {
   $_icon: {
     name: "Stethoscope",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["stethoscope"],
   },
   render() {
@@ -35724,7 +35724,7 @@ export let FaStopSolid = {
   $_icon: {
     name: "Stop",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["stop"],
   },
   render() {
@@ -35744,7 +35744,7 @@ export let FaStopwatch20Solid = {
   $_icon: {
     name: "Stopwatch20",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["stopwatch","20"],
   },
   render() {
@@ -35764,7 +35764,7 @@ export let FaStopwatchSolid = {
   $_icon: {
     name: "Stopwatch",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["stopwatch"],
   },
   render() {
@@ -35784,7 +35784,7 @@ export let FaStoreSlashSolid = {
   $_icon: {
     name: "StoreSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["store","slash"],
   },
   render() {
@@ -35804,7 +35804,7 @@ export let FaStoreSolid = {
   $_icon: {
     name: "Store",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["store"],
   },
   render() {
@@ -35824,7 +35824,7 @@ export let FaStreetViewSolid = {
   $_icon: {
     name: "StreetView",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["street","view"],
   },
   render() {
@@ -35844,7 +35844,7 @@ export let FaStrikethroughSolid = {
   $_icon: {
     name: "Strikethrough",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["strikethrough"],
   },
   render() {
@@ -35864,7 +35864,7 @@ export let FaStroopwafelSolid = {
   $_icon: {
     name: "Stroopwafel",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["stroopwafel"],
   },
   render() {
@@ -35884,7 +35884,7 @@ export let FaSubscriptSolid = {
   $_icon: {
     name: "Subscript",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["subscript"],
   },
   render() {
@@ -35904,7 +35904,7 @@ export let FaSuitcaseMedicalSolid = {
   $_icon: {
     name: "SuitcaseMedical",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["suitcase","medical"],
   },
   render() {
@@ -35924,7 +35924,7 @@ export let FaSuitcaseRollingSolid = {
   $_icon: {
     name: "SuitcaseRolling",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["suitcase","rolling"],
   },
   render() {
@@ -35944,7 +35944,7 @@ export let FaSuitcaseSolid = {
   $_icon: {
     name: "Suitcase",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["suitcase"],
   },
   render() {
@@ -35964,7 +35964,7 @@ export let FaSunPlantWiltSolid = {
   $_icon: {
     name: "SunPlantWilt",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["sun","plant","wilt"],
   },
   render() {
@@ -35984,7 +35984,7 @@ export let FaSunSolid = {
   $_icon: {
     name: "Sun",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["sun"],
   },
   render() {
@@ -36004,7 +36004,7 @@ export let FaSuperscriptSolid = {
   $_icon: {
     name: "Superscript",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["superscript"],
   },
   render() {
@@ -36024,7 +36024,7 @@ export let FaSwatchbookSolid = {
   $_icon: {
     name: "Swatchbook",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["swatchbook"],
   },
   render() {
@@ -36044,7 +36044,7 @@ export let FaSynagogueSolid = {
   $_icon: {
     name: "Synagogue",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["synagogue"],
   },
   render() {
@@ -36064,7 +36064,7 @@ export let FaSyringeSolid = {
   $_icon: {
     name: "Syringe",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["syringe"],
   },
   render() {
@@ -36084,7 +36084,7 @@ export let FaTSolid = {
   $_icon: {
     name: "T",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["t"],
   },
   render() {
@@ -36104,7 +36104,7 @@ export let FaTableCellsLargeSolid = {
   $_icon: {
     name: "TableCellsLarge",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["table","cells","large"],
   },
   render() {
@@ -36124,7 +36124,7 @@ export let FaTableCellsSolid = {
   $_icon: {
     name: "TableCells",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["table","cells"],
   },
   render() {
@@ -36144,7 +36144,7 @@ export let FaTableColumnsSolid = {
   $_icon: {
     name: "TableColumns",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["table","columns"],
   },
   render() {
@@ -36164,7 +36164,7 @@ export let FaTableListSolid = {
   $_icon: {
     name: "TableList",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["table","list"],
   },
   render() {
@@ -36184,7 +36184,7 @@ export let FaTableTennisPaddleBallSolid = {
   $_icon: {
     name: "TableTennisPaddleBall",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["table","tennis","paddle","ball"],
   },
   render() {
@@ -36204,7 +36204,7 @@ export let FaTableSolid = {
   $_icon: {
     name: "Table",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["table"],
   },
   render() {
@@ -36224,7 +36224,7 @@ export let FaTabletButtonSolid = {
   $_icon: {
     name: "TabletButton",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tablet","button"],
   },
   render() {
@@ -36244,7 +36244,7 @@ export let FaTabletScreenButtonSolid = {
   $_icon: {
     name: "TabletScreenButton",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tablet","screen","button"],
   },
   render() {
@@ -36264,7 +36264,7 @@ export let FaTabletSolid = {
   $_icon: {
     name: "Tablet",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tablet"],
   },
   render() {
@@ -36284,7 +36284,7 @@ export let FaTabletsSolid = {
   $_icon: {
     name: "Tablets",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tablets"],
   },
   render() {
@@ -36304,7 +36304,7 @@ export let FaTachographDigitalSolid = {
   $_icon: {
     name: "TachographDigital",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tachograph","digital"],
   },
   render() {
@@ -36324,7 +36324,7 @@ export let FaTagSolid = {
   $_icon: {
     name: "Tag",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tag"],
   },
   render() {
@@ -36344,7 +36344,7 @@ export let FaTagsSolid = {
   $_icon: {
     name: "Tags",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tags"],
   },
   render() {
@@ -36364,7 +36364,7 @@ export let FaTapeSolid = {
   $_icon: {
     name: "Tape",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tape"],
   },
   render() {
@@ -36384,7 +36384,7 @@ export let FaTarpDropletSolid = {
   $_icon: {
     name: "TarpDroplet",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tarp","droplet"],
   },
   render() {
@@ -36404,7 +36404,7 @@ export let FaTarpSolid = {
   $_icon: {
     name: "Tarp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tarp"],
   },
   render() {
@@ -36424,7 +36424,7 @@ export let FaTaxiSolid = {
   $_icon: {
     name: "Taxi",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["taxi"],
   },
   render() {
@@ -36444,7 +36444,7 @@ export let FaTeethOpenSolid = {
   $_icon: {
     name: "TeethOpen",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["teeth","open"],
   },
   render() {
@@ -36464,7 +36464,7 @@ export let FaTeethSolid = {
   $_icon: {
     name: "Teeth",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["teeth"],
   },
   render() {
@@ -36484,7 +36484,7 @@ export let FaTemperatureArrowDownSolid = {
   $_icon: {
     name: "TemperatureArrowDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["temperature","arrow","down"],
   },
   render() {
@@ -36504,7 +36504,7 @@ export let FaTemperatureArrowUpSolid = {
   $_icon: {
     name: "TemperatureArrowUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["temperature","arrow","up"],
   },
   render() {
@@ -36524,7 +36524,7 @@ export let FaTemperatureEmptySolid = {
   $_icon: {
     name: "TemperatureEmpty",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["temperature","empty"],
   },
   render() {
@@ -36544,7 +36544,7 @@ export let FaTemperatureFullSolid = {
   $_icon: {
     name: "TemperatureFull",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["temperature","full"],
   },
   render() {
@@ -36564,7 +36564,7 @@ export let FaTemperatureHalfSolid = {
   $_icon: {
     name: "TemperatureHalf",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["temperature","half"],
   },
   render() {
@@ -36584,7 +36584,7 @@ export let FaTemperatureHighSolid = {
   $_icon: {
     name: "TemperatureHigh",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["temperature","high"],
   },
   render() {
@@ -36604,7 +36604,7 @@ export let FaTemperatureLowSolid = {
   $_icon: {
     name: "TemperatureLow",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["temperature","low"],
   },
   render() {
@@ -36624,7 +36624,7 @@ export let FaTemperatureQuarterSolid = {
   $_icon: {
     name: "TemperatureQuarter",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["temperature","quarter"],
   },
   render() {
@@ -36644,7 +36644,7 @@ export let FaTemperatureThreeQuartersSolid = {
   $_icon: {
     name: "TemperatureThreeQuarters",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["temperature","three","quarters"],
   },
   render() {
@@ -36664,7 +36664,7 @@ export let FaTengeSignSolid = {
   $_icon: {
     name: "TengeSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tenge","sign"],
   },
   render() {
@@ -36684,7 +36684,7 @@ export let FaTentArrowDownToLineSolid = {
   $_icon: {
     name: "TentArrowDownToLine",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tent","arrow","down","to","line"],
   },
   render() {
@@ -36704,7 +36704,7 @@ export let FaTentArrowLeftRightSolid = {
   $_icon: {
     name: "TentArrowLeftRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tent","arrow","left","right"],
   },
   render() {
@@ -36724,7 +36724,7 @@ export let FaTentArrowTurnLeftSolid = {
   $_icon: {
     name: "TentArrowTurnLeft",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tent","arrow","turn","left"],
   },
   render() {
@@ -36744,7 +36744,7 @@ export let FaTentArrowsDownSolid = {
   $_icon: {
     name: "TentArrowsDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tent","arrows","down"],
   },
   render() {
@@ -36764,7 +36764,7 @@ export let FaTentSolid = {
   $_icon: {
     name: "Tent",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tent"],
   },
   render() {
@@ -36784,7 +36784,7 @@ export let FaTentsSolid = {
   $_icon: {
     name: "Tents",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tents"],
   },
   render() {
@@ -36804,7 +36804,7 @@ export let FaTerminalSolid = {
   $_icon: {
     name: "Terminal",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["terminal"],
   },
   render() {
@@ -36824,7 +36824,7 @@ export let FaTextHeightSolid = {
   $_icon: {
     name: "TextHeight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["text","height"],
   },
   render() {
@@ -36844,7 +36844,7 @@ export let FaTextSlashSolid = {
   $_icon: {
     name: "TextSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["text","slash"],
   },
   render() {
@@ -36864,7 +36864,7 @@ export let FaTextWidthSolid = {
   $_icon: {
     name: "TextWidth",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["text","width"],
   },
   render() {
@@ -36884,7 +36884,7 @@ export let FaThermometerSolid = {
   $_icon: {
     name: "Thermometer",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["thermometer"],
   },
   render() {
@@ -36904,7 +36904,7 @@ export let FaThumbsDownSolid = {
   $_icon: {
     name: "ThumbsDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["thumbs","down"],
   },
   render() {
@@ -36924,7 +36924,7 @@ export let FaThumbsUpSolid = {
   $_icon: {
     name: "ThumbsUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["thumbs","up"],
   },
   render() {
@@ -36944,7 +36944,7 @@ export let FaThumbtackSolid = {
   $_icon: {
     name: "Thumbtack",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["thumbtack"],
   },
   render() {
@@ -36964,7 +36964,7 @@ export let FaTicketSimpleSolid = {
   $_icon: {
     name: "TicketSimple",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ticket","simple"],
   },
   render() {
@@ -36984,7 +36984,7 @@ export let FaTicketSolid = {
   $_icon: {
     name: "Ticket",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["ticket"],
   },
   render() {
@@ -37004,7 +37004,7 @@ export let FaTimelineSolid = {
   $_icon: {
     name: "Timeline",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["timeline"],
   },
   render() {
@@ -37024,7 +37024,7 @@ export let FaToggleOffSolid = {
   $_icon: {
     name: "ToggleOff",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["toggle","off"],
   },
   render() {
@@ -37044,7 +37044,7 @@ export let FaToggleOnSolid = {
   $_icon: {
     name: "ToggleOn",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["toggle","on"],
   },
   render() {
@@ -37064,7 +37064,7 @@ export let FaToiletPaperSlashSolid = {
   $_icon: {
     name: "ToiletPaperSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["toilet","paper","slash"],
   },
   render() {
@@ -37084,7 +37084,7 @@ export let FaToiletPaperSolid = {
   $_icon: {
     name: "ToiletPaper",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["toilet","paper"],
   },
   render() {
@@ -37104,7 +37104,7 @@ export let FaToiletPortableSolid = {
   $_icon: {
     name: "ToiletPortable",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["toilet","portable"],
   },
   render() {
@@ -37124,7 +37124,7 @@ export let FaToiletSolid = {
   $_icon: {
     name: "Toilet",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["toilet"],
   },
   render() {
@@ -37144,7 +37144,7 @@ export let FaToiletsPortableSolid = {
   $_icon: {
     name: "ToiletsPortable",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["toilets","portable"],
   },
   render() {
@@ -37164,7 +37164,7 @@ export let FaToolboxSolid = {
   $_icon: {
     name: "Toolbox",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["toolbox"],
   },
   render() {
@@ -37184,7 +37184,7 @@ export let FaToothSolid = {
   $_icon: {
     name: "Tooth",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tooth"],
   },
   render() {
@@ -37204,7 +37204,7 @@ export let FaToriiGateSolid = {
   $_icon: {
     name: "ToriiGate",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["torii","gate"],
   },
   render() {
@@ -37224,7 +37224,7 @@ export let FaTornadoSolid = {
   $_icon: {
     name: "Tornado",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tornado"],
   },
   render() {
@@ -37244,7 +37244,7 @@ export let FaTowerBroadcastSolid = {
   $_icon: {
     name: "TowerBroadcast",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tower","broadcast"],
   },
   render() {
@@ -37264,7 +37264,7 @@ export let FaTowerCellSolid = {
   $_icon: {
     name: "TowerCell",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tower","cell"],
   },
   render() {
@@ -37284,7 +37284,7 @@ export let FaTowerObservationSolid = {
   $_icon: {
     name: "TowerObservation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tower","observation"],
   },
   render() {
@@ -37304,7 +37304,7 @@ export let FaTractorSolid = {
   $_icon: {
     name: "Tractor",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tractor"],
   },
   render() {
@@ -37324,7 +37324,7 @@ export let FaTrademarkSolid = {
   $_icon: {
     name: "Trademark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["trademark"],
   },
   render() {
@@ -37344,7 +37344,7 @@ export let FaTrafficLightSolid = {
   $_icon: {
     name: "TrafficLight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["traffic","light"],
   },
   render() {
@@ -37364,7 +37364,7 @@ export let FaTrailerSolid = {
   $_icon: {
     name: "Trailer",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["trailer"],
   },
   render() {
@@ -37384,7 +37384,7 @@ export let FaTrainSubwaySolid = {
   $_icon: {
     name: "TrainSubway",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["train","subway"],
   },
   render() {
@@ -37404,7 +37404,7 @@ export let FaTrainTramSolid = {
   $_icon: {
     name: "TrainTram",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["train","tram"],
   },
   render() {
@@ -37424,7 +37424,7 @@ export let FaTrainSolid = {
   $_icon: {
     name: "Train",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["train"],
   },
   render() {
@@ -37444,7 +37444,7 @@ export let FaTransgenderSolid = {
   $_icon: {
     name: "Transgender",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["transgender"],
   },
   render() {
@@ -37464,7 +37464,7 @@ export let FaTrashArrowUpSolid = {
   $_icon: {
     name: "TrashArrowUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["trash","arrow","up"],
   },
   render() {
@@ -37484,7 +37484,7 @@ export let FaTrashCanArrowUpSolid = {
   $_icon: {
     name: "TrashCanArrowUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["trash","can","arrow","up"],
   },
   render() {
@@ -37504,7 +37504,7 @@ export let FaTrashCanSolid = {
   $_icon: {
     name: "TrashCan",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["trash","can"],
   },
   render() {
@@ -37524,7 +37524,7 @@ export let FaTrashSolid = {
   $_icon: {
     name: "Trash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["trash"],
   },
   render() {
@@ -37544,7 +37544,7 @@ export let FaTreeCitySolid = {
   $_icon: {
     name: "TreeCity",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tree","city"],
   },
   render() {
@@ -37564,7 +37564,7 @@ export let FaTreeSolid = {
   $_icon: {
     name: "Tree",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tree"],
   },
   render() {
@@ -37584,7 +37584,7 @@ export let FaTriangleExclamationSolid = {
   $_icon: {
     name: "TriangleExclamation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["triangle","exclamation"],
   },
   render() {
@@ -37604,7 +37604,7 @@ export let FaTrophySolid = {
   $_icon: {
     name: "Trophy",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["trophy"],
   },
   render() {
@@ -37624,7 +37624,7 @@ export let FaTrowelBricksSolid = {
   $_icon: {
     name: "TrowelBricks",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["trowel","bricks"],
   },
   render() {
@@ -37644,7 +37644,7 @@ export let FaTrowelSolid = {
   $_icon: {
     name: "Trowel",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["trowel"],
   },
   render() {
@@ -37664,7 +37664,7 @@ export let FaTruckArrowRightSolid = {
   $_icon: {
     name: "TruckArrowRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["truck","arrow","right"],
   },
   render() {
@@ -37684,7 +37684,7 @@ export let FaTruckDropletSolid = {
   $_icon: {
     name: "TruckDroplet",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["truck","droplet"],
   },
   render() {
@@ -37704,7 +37704,7 @@ export let FaTruckFastSolid = {
   $_icon: {
     name: "TruckFast",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["truck","fast"],
   },
   render() {
@@ -37724,7 +37724,7 @@ export let FaTruckFieldUnSolid = {
   $_icon: {
     name: "TruckFieldUn",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["truck","field","un"],
   },
   render() {
@@ -37744,7 +37744,7 @@ export let FaTruckFieldSolid = {
   $_icon: {
     name: "TruckField",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["truck","field"],
   },
   render() {
@@ -37764,7 +37764,7 @@ export let FaTruckFrontSolid = {
   $_icon: {
     name: "TruckFront",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["truck","front"],
   },
   render() {
@@ -37784,7 +37784,7 @@ export let FaTruckMedicalSolid = {
   $_icon: {
     name: "TruckMedical",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["truck","medical"],
   },
   render() {
@@ -37804,7 +37804,7 @@ export let FaTruckMonsterSolid = {
   $_icon: {
     name: "TruckMonster",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["truck","monster"],
   },
   render() {
@@ -37824,7 +37824,7 @@ export let FaTruckMovingSolid = {
   $_icon: {
     name: "TruckMoving",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["truck","moving"],
   },
   render() {
@@ -37844,7 +37844,7 @@ export let FaTruckPickupSolid = {
   $_icon: {
     name: "TruckPickup",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["truck","pickup"],
   },
   render() {
@@ -37864,7 +37864,7 @@ export let FaTruckPlaneSolid = {
   $_icon: {
     name: "TruckPlane",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["truck","plane"],
   },
   render() {
@@ -37884,7 +37884,7 @@ export let FaTruckRampBoxSolid = {
   $_icon: {
     name: "TruckRampBox",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["truck","ramp","box"],
   },
   render() {
@@ -37904,7 +37904,7 @@ export let FaTruckSolid = {
   $_icon: {
     name: "Truck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["truck"],
   },
   render() {
@@ -37924,7 +37924,7 @@ export let FaTtySolid = {
   $_icon: {
     name: "Tty",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tty"],
   },
   render() {
@@ -37944,7 +37944,7 @@ export let FaTurkishLiraSignSolid = {
   $_icon: {
     name: "TurkishLiraSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["turkish","lira","sign"],
   },
   render() {
@@ -37964,7 +37964,7 @@ export let FaTurnDownSolid = {
   $_icon: {
     name: "TurnDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["turn","down"],
   },
   render() {
@@ -37984,7 +37984,7 @@ export let FaTurnUpSolid = {
   $_icon: {
     name: "TurnUp",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["turn","up"],
   },
   render() {
@@ -38004,7 +38004,7 @@ export let FaTvSolid = {
   $_icon: {
     name: "Tv",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["tv"],
   },
   render() {
@@ -38024,7 +38024,7 @@ export let FaUSolid = {
   $_icon: {
     name: "U",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["u"],
   },
   render() {
@@ -38044,7 +38044,7 @@ export let FaUmbrellaBeachSolid = {
   $_icon: {
     name: "UmbrellaBeach",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["umbrella","beach"],
   },
   render() {
@@ -38064,7 +38064,7 @@ export let FaUmbrellaSolid = {
   $_icon: {
     name: "Umbrella",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["umbrella"],
   },
   render() {
@@ -38084,7 +38084,7 @@ export let FaUnderlineSolid = {
   $_icon: {
     name: "Underline",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["underline"],
   },
   render() {
@@ -38104,7 +38104,7 @@ export let FaUniversalAccessSolid = {
   $_icon: {
     name: "UniversalAccess",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["universal","access"],
   },
   render() {
@@ -38124,7 +38124,7 @@ export let FaUnlockKeyholeSolid = {
   $_icon: {
     name: "UnlockKeyhole",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["unlock","keyhole"],
   },
   render() {
@@ -38144,7 +38144,7 @@ export let FaUnlockSolid = {
   $_icon: {
     name: "Unlock",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["unlock"],
   },
   render() {
@@ -38164,7 +38164,7 @@ export let FaUpDownLeftRightSolid = {
   $_icon: {
     name: "UpDownLeftRight",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["up","down","left","right"],
   },
   render() {
@@ -38184,7 +38184,7 @@ export let FaUpDownSolid = {
   $_icon: {
     name: "UpDown",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["up","down"],
   },
   render() {
@@ -38204,7 +38204,7 @@ export let FaUpLongSolid = {
   $_icon: {
     name: "UpLong",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["up","long"],
   },
   render() {
@@ -38224,7 +38224,7 @@ export let FaUpRightAndDownLeftFromCenterSolid = {
   $_icon: {
     name: "UpRightAndDownLeftFromCenter",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["up","right","and","down","left","from","center"],
   },
   render() {
@@ -38244,7 +38244,7 @@ export let FaUpRightFromSquareSolid = {
   $_icon: {
     name: "UpRightFromSquare",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["up","right","from","square"],
   },
   render() {
@@ -38264,7 +38264,7 @@ export let FaUploadSolid = {
   $_icon: {
     name: "Upload",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["upload"],
   },
   render() {
@@ -38284,7 +38284,7 @@ export let FaUserAstronautSolid = {
   $_icon: {
     name: "UserAstronaut",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","astronaut"],
   },
   render() {
@@ -38304,7 +38304,7 @@ export let FaUserCheckSolid = {
   $_icon: {
     name: "UserCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","check"],
   },
   render() {
@@ -38324,7 +38324,7 @@ export let FaUserClockSolid = {
   $_icon: {
     name: "UserClock",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","clock"],
   },
   render() {
@@ -38344,7 +38344,7 @@ export let FaUserDoctorSolid = {
   $_icon: {
     name: "UserDoctor",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","doctor"],
   },
   render() {
@@ -38364,7 +38364,7 @@ export let FaUserGearSolid = {
   $_icon: {
     name: "UserGear",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","gear"],
   },
   render() {
@@ -38384,7 +38384,7 @@ export let FaUserGraduateSolid = {
   $_icon: {
     name: "UserGraduate",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","graduate"],
   },
   render() {
@@ -38404,7 +38404,7 @@ export let FaUserGroupSolid = {
   $_icon: {
     name: "UserGroup",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","group"],
   },
   render() {
@@ -38424,7 +38424,7 @@ export let FaUserInjuredSolid = {
   $_icon: {
     name: "UserInjured",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","injured"],
   },
   render() {
@@ -38444,7 +38444,7 @@ export let FaUserLargeSlashSolid = {
   $_icon: {
     name: "UserLargeSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","large","slash"],
   },
   render() {
@@ -38464,7 +38464,7 @@ export let FaUserLargeSolid = {
   $_icon: {
     name: "UserLarge",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","large"],
   },
   render() {
@@ -38484,7 +38484,7 @@ export let FaUserLockSolid = {
   $_icon: {
     name: "UserLock",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","lock"],
   },
   render() {
@@ -38504,7 +38504,7 @@ export let FaUserMinusSolid = {
   $_icon: {
     name: "UserMinus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","minus"],
   },
   render() {
@@ -38524,7 +38524,7 @@ export let FaUserNinjaSolid = {
   $_icon: {
     name: "UserNinja",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","ninja"],
   },
   render() {
@@ -38544,7 +38544,7 @@ export let FaUserNurseSolid = {
   $_icon: {
     name: "UserNurse",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","nurse"],
   },
   render() {
@@ -38564,7 +38564,7 @@ export let FaUserPenSolid = {
   $_icon: {
     name: "UserPen",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","pen"],
   },
   render() {
@@ -38584,7 +38584,7 @@ export let FaUserPlusSolid = {
   $_icon: {
     name: "UserPlus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","plus"],
   },
   render() {
@@ -38604,7 +38604,7 @@ export let FaUserSecretSolid = {
   $_icon: {
     name: "UserSecret",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","secret"],
   },
   render() {
@@ -38624,7 +38624,7 @@ export let FaUserShieldSolid = {
   $_icon: {
     name: "UserShield",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","shield"],
   },
   render() {
@@ -38644,7 +38644,7 @@ export let FaUserSlashSolid = {
   $_icon: {
     name: "UserSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","slash"],
   },
   render() {
@@ -38664,7 +38664,7 @@ export let FaUserTagSolid = {
   $_icon: {
     name: "UserTag",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","tag"],
   },
   render() {
@@ -38684,7 +38684,7 @@ export let FaUserTieSolid = {
   $_icon: {
     name: "UserTie",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","tie"],
   },
   render() {
@@ -38704,7 +38704,7 @@ export let FaUserXmarkSolid = {
   $_icon: {
     name: "UserXmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user","xmark"],
   },
   render() {
@@ -38724,7 +38724,7 @@ export let FaUserSolid = {
   $_icon: {
     name: "User",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["user"],
   },
   render() {
@@ -38744,7 +38744,7 @@ export let FaUsersBetweenLinesSolid = {
   $_icon: {
     name: "UsersBetweenLines",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["users","between","lines"],
   },
   render() {
@@ -38764,7 +38764,7 @@ export let FaUsersGearSolid = {
   $_icon: {
     name: "UsersGear",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["users","gear"],
   },
   render() {
@@ -38784,7 +38784,7 @@ export let FaUsersLineSolid = {
   $_icon: {
     name: "UsersLine",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["users","line"],
   },
   render() {
@@ -38804,7 +38804,7 @@ export let FaUsersRaysSolid = {
   $_icon: {
     name: "UsersRays",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["users","rays"],
   },
   render() {
@@ -38824,7 +38824,7 @@ export let FaUsersRectangleSolid = {
   $_icon: {
     name: "UsersRectangle",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["users","rectangle"],
   },
   render() {
@@ -38844,7 +38844,7 @@ export let FaUsersSlashSolid = {
   $_icon: {
     name: "UsersSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["users","slash"],
   },
   render() {
@@ -38864,7 +38864,7 @@ export let FaUsersViewfinderSolid = {
   $_icon: {
     name: "UsersViewfinder",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["users","viewfinder"],
   },
   render() {
@@ -38884,7 +38884,7 @@ export let FaUsersSolid = {
   $_icon: {
     name: "Users",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["users"],
   },
   render() {
@@ -38904,7 +38904,7 @@ export let FaUtensilsSolid = {
   $_icon: {
     name: "Utensils",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["utensils"],
   },
   render() {
@@ -38924,7 +38924,7 @@ export let FaVSolid = {
   $_icon: {
     name: "V",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["v"],
   },
   render() {
@@ -38944,7 +38944,7 @@ export let FaVanShuttleSolid = {
   $_icon: {
     name: "VanShuttle",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["van","shuttle"],
   },
   render() {
@@ -38964,7 +38964,7 @@ export let FaVaultSolid = {
   $_icon: {
     name: "Vault",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["vault"],
   },
   render() {
@@ -38984,7 +38984,7 @@ export let FaVectorSquareSolid = {
   $_icon: {
     name: "VectorSquare",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["vector","square"],
   },
   render() {
@@ -39004,7 +39004,7 @@ export let FaVenusDoubleSolid = {
   $_icon: {
     name: "VenusDouble",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["venus","double"],
   },
   render() {
@@ -39024,7 +39024,7 @@ export let FaVenusMarsSolid = {
   $_icon: {
     name: "VenusMars",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["venus","mars"],
   },
   render() {
@@ -39044,7 +39044,7 @@ export let FaVenusSolid = {
   $_icon: {
     name: "Venus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["venus"],
   },
   render() {
@@ -39064,7 +39064,7 @@ export let FaVestPatchesSolid = {
   $_icon: {
     name: "VestPatches",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["vest","patches"],
   },
   render() {
@@ -39084,7 +39084,7 @@ export let FaVestSolid = {
   $_icon: {
     name: "Vest",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["vest"],
   },
   render() {
@@ -39104,7 +39104,7 @@ export let FaVialCircleCheckSolid = {
   $_icon: {
     name: "VialCircleCheck",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["vial","circle","check"],
   },
   render() {
@@ -39124,7 +39124,7 @@ export let FaVialVirusSolid = {
   $_icon: {
     name: "VialVirus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["vial","virus"],
   },
   render() {
@@ -39144,7 +39144,7 @@ export let FaVialSolid = {
   $_icon: {
     name: "Vial",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["vial"],
   },
   render() {
@@ -39164,7 +39164,7 @@ export let FaVialsSolid = {
   $_icon: {
     name: "Vials",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["vials"],
   },
   render() {
@@ -39184,7 +39184,7 @@ export let FaVideoSlashSolid = {
   $_icon: {
     name: "VideoSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["video","slash"],
   },
   render() {
@@ -39204,7 +39204,7 @@ export let FaVideoSolid = {
   $_icon: {
     name: "Video",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["video"],
   },
   render() {
@@ -39224,7 +39224,7 @@ export let FaViharaSolid = {
   $_icon: {
     name: "Vihara",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["vihara"],
   },
   render() {
@@ -39244,7 +39244,7 @@ export let FaVirusCovidSlashSolid = {
   $_icon: {
     name: "VirusCovidSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["virus","covid","slash"],
   },
   render() {
@@ -39264,7 +39264,7 @@ export let FaVirusCovidSolid = {
   $_icon: {
     name: "VirusCovid",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["virus","covid"],
   },
   render() {
@@ -39284,7 +39284,7 @@ export let FaVirusSlashSolid = {
   $_icon: {
     name: "VirusSlash",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["virus","slash"],
   },
   render() {
@@ -39304,7 +39304,7 @@ export let FaVirusSolid = {
   $_icon: {
     name: "Virus",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["virus"],
   },
   render() {
@@ -39324,7 +39324,7 @@ export let FaVirusesSolid = {
   $_icon: {
     name: "Viruses",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["viruses"],
   },
   render() {
@@ -39344,7 +39344,7 @@ export let FaVoicemailSolid = {
   $_icon: {
     name: "Voicemail",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["voicemail"],
   },
   render() {
@@ -39364,7 +39364,7 @@ export let FaVolcanoSolid = {
   $_icon: {
     name: "Volcano",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["volcano"],
   },
   render() {
@@ -39384,7 +39384,7 @@ export let FaVolleyballSolid = {
   $_icon: {
     name: "Volleyball",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["volleyball"],
   },
   render() {
@@ -39404,7 +39404,7 @@ export let FaVolumeHighSolid = {
   $_icon: {
     name: "VolumeHigh",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["volume","high"],
   },
   render() {
@@ -39424,7 +39424,7 @@ export let FaVolumeLowSolid = {
   $_icon: {
     name: "VolumeLow",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["volume","low"],
   },
   render() {
@@ -39444,7 +39444,7 @@ export let FaVolumeOffSolid = {
   $_icon: {
     name: "VolumeOff",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["volume","off"],
   },
   render() {
@@ -39464,7 +39464,7 @@ export let FaVolumeXmarkSolid = {
   $_icon: {
     name: "VolumeXmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["volume","xmark"],
   },
   render() {
@@ -39484,7 +39484,7 @@ export let FaVrCardboardSolid = {
   $_icon: {
     name: "VrCardboard",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["vr","cardboard"],
   },
   render() {
@@ -39504,7 +39504,7 @@ export let FaWSolid = {
   $_icon: {
     name: "W",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["w"],
   },
   render() {
@@ -39524,7 +39524,7 @@ export let FaWalkieTalkieSolid = {
   $_icon: {
     name: "WalkieTalkie",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["walkie","talkie"],
   },
   render() {
@@ -39544,7 +39544,7 @@ export let FaWalletSolid = {
   $_icon: {
     name: "Wallet",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["wallet"],
   },
   render() {
@@ -39564,7 +39564,7 @@ export let FaWandMagicSparklesSolid = {
   $_icon: {
     name: "WandMagicSparkles",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["wand","magic","sparkles"],
   },
   render() {
@@ -39584,7 +39584,7 @@ export let FaWandMagicSolid = {
   $_icon: {
     name: "WandMagic",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["wand","magic"],
   },
   render() {
@@ -39604,7 +39604,7 @@ export let FaWandSparklesSolid = {
   $_icon: {
     name: "WandSparkles",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["wand","sparkles"],
   },
   render() {
@@ -39624,7 +39624,7 @@ export let FaWarehouseSolid = {
   $_icon: {
     name: "Warehouse",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["warehouse"],
   },
   render() {
@@ -39644,7 +39644,7 @@ export let FaWaterLadderSolid = {
   $_icon: {
     name: "WaterLadder",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["water","ladder"],
   },
   render() {
@@ -39664,7 +39664,7 @@ export let FaWaterSolid = {
   $_icon: {
     name: "Water",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["water"],
   },
   render() {
@@ -39684,7 +39684,7 @@ export let FaWaveSquareSolid = {
   $_icon: {
     name: "WaveSquare",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["wave","square"],
   },
   render() {
@@ -39704,7 +39704,7 @@ export let FaWeightHangingSolid = {
   $_icon: {
     name: "WeightHanging",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["weight","hanging"],
   },
   render() {
@@ -39724,7 +39724,7 @@ export let FaWeightScaleSolid = {
   $_icon: {
     name: "WeightScale",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["weight","scale"],
   },
   render() {
@@ -39744,7 +39744,7 @@ export let FaWheatAwnCircleExclamationSolid = {
   $_icon: {
     name: "WheatAwnCircleExclamation",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["wheat","awn","circle","exclamation"],
   },
   render() {
@@ -39764,7 +39764,7 @@ export let FaWheatAwnSolid = {
   $_icon: {
     name: "WheatAwn",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["wheat","awn"],
   },
   render() {
@@ -39784,7 +39784,7 @@ export let FaWheelchairMoveSolid = {
   $_icon: {
     name: "WheelchairMove",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["wheelchair","move"],
   },
   render() {
@@ -39804,7 +39804,7 @@ export let FaWheelchairSolid = {
   $_icon: {
     name: "Wheelchair",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["wheelchair"],
   },
   render() {
@@ -39824,7 +39824,7 @@ export let FaWhiskeyGlassSolid = {
   $_icon: {
     name: "WhiskeyGlass",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["whiskey","glass"],
   },
   render() {
@@ -39844,7 +39844,7 @@ export let FaWifiSolid = {
   $_icon: {
     name: "Wifi",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["wifi"],
   },
   render() {
@@ -39864,7 +39864,7 @@ export let FaWindSolid = {
   $_icon: {
     name: "Wind",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["wind"],
   },
   render() {
@@ -39884,7 +39884,7 @@ export let FaWindowMaximizeSolid = {
   $_icon: {
     name: "WindowMaximize",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["window","maximize"],
   },
   render() {
@@ -39904,7 +39904,7 @@ export let FaWindowMinimizeSolid = {
   $_icon: {
     name: "WindowMinimize",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["window","minimize"],
   },
   render() {
@@ -39924,7 +39924,7 @@ export let FaWindowRestoreSolid = {
   $_icon: {
     name: "WindowRestore",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["window","restore"],
   },
   render() {
@@ -39944,7 +39944,7 @@ export let FaWineBottleSolid = {
   $_icon: {
     name: "WineBottle",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["wine","bottle"],
   },
   render() {
@@ -39964,7 +39964,7 @@ export let FaWineGlassEmptySolid = {
   $_icon: {
     name: "WineGlassEmpty",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["wine","glass","empty"],
   },
   render() {
@@ -39984,7 +39984,7 @@ export let FaWineGlassSolid = {
   $_icon: {
     name: "WineGlass",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["wine","glass"],
   },
   render() {
@@ -40004,7 +40004,7 @@ export let FaWonSignSolid = {
   $_icon: {
     name: "WonSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["won","sign"],
   },
   render() {
@@ -40024,7 +40024,7 @@ export let FaWormSolid = {
   $_icon: {
     name: "Worm",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["worm"],
   },
   render() {
@@ -40044,7 +40044,7 @@ export let FaWrenchSolid = {
   $_icon: {
     name: "Wrench",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["wrench"],
   },
   render() {
@@ -40064,7 +40064,7 @@ export let FaXRaySolid = {
   $_icon: {
     name: "XRay",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["x","ray"],
   },
   render() {
@@ -40084,7 +40084,7 @@ export let FaXSolid = {
   $_icon: {
     name: "X",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["x"],
   },
   render() {
@@ -40104,7 +40104,7 @@ export let FaXmarkSolid = {
   $_icon: {
     name: "Xmark",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["xmark"],
   },
   render() {
@@ -40124,7 +40124,7 @@ export let FaXmarksLinesSolid = {
   $_icon: {
     name: "XmarksLines",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["xmarks","lines"],
   },
   render() {
@@ -40144,7 +40144,7 @@ export let FaYSolid = {
   $_icon: {
     name: "Y",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["y"],
   },
   render() {
@@ -40164,7 +40164,7 @@ export let FaYenSignSolid = {
   $_icon: {
     name: "YenSign",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["yen","sign"],
   },
   render() {
@@ -40184,7 +40184,7 @@ export let FaYinYangSolid = {
   $_icon: {
     name: "YinYang",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["yin","yang"],
   },
   render() {
@@ -40204,7 +40204,7 @@ export let FaZSolid = {
   $_icon: {
     name: "Z",
     vendor: "Fa",
-    type: "Solid",
+    type: ["Solid"],
     tags: ["z"],
   },
   render() {
