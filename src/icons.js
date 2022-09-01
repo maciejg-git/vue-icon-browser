@@ -1,6 +1,5 @@
 import { ref, markRaw } from "vue";
 import { useStore } from "./composition/useStore";
-import { toKebab } from "./tools";
 
 let store = useStore();
 
@@ -30,9 +29,18 @@ export let generateTags = (icons) => {
 };
 
 export let getIconName = function () {
-  let i = `${store.settings.vendorPrefix ? this.$_icon.vendor : ""}${
-    this.$_icon.name
-  }${store.settings.originalNames ? "" : this.$_icon.type.join("")}`;
+  let vendor = store.settings.vendorPrefix ? this.$_icon.vendor : "";
+  let suffix = this.$_icon.type
+    .map((i) => {
+      return i.charAt(0).toUpperCase() + i.slice(1);
+    })
+    .join("");
+
+  let i = `${vendor}${this.$_icon.name}${
+    store.settings.originalNames ? "" : suffix
+  }`;
+
   if (store.settings.kebabCase) return toKebab(i);
+
   return i;
 };

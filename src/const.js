@@ -100,7 +100,7 @@ export const urls = {
   H: {
     SVG: "https://raw.githubusercontent.com/tailwindlabs/heroicons/master/optimized",
     download: {
-      vue: "https://raw.githubusercontent.com/maciejg-git/vue-bootstrap-icons/main/dist-heroicons/heroicons",
+      vue: "https://raw.githubusercontent.com/maciejg-git/vue-bootstrap-icons/main/dist-heroicons/icons",
     },
   },
 };

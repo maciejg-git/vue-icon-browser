@@ -56,7 +56,6 @@ import { useStore } from "../composition/useStore";
 import { toKebab, cloneObject, download } from "../tools";
 import { templates, urls } from "../const";
 import IconsCode from "./IconsCode.vue";
-import kebabCase from "just-kebab-case"
 
 export default {
   components: {
@@ -97,11 +96,9 @@ export default {
 
       if (!icon) return;
 
-      let { name, vendor, type } = icon.$_icon;
+      let { tags, vendor, type } = icon.$_icon;
 
-      let file = kebabCase(name) + ".svg"
-
-      type = type.map((i) => kebabCase(i))
+      let file = tags.join("-") + ".svg"
 
       let url = makeUrl([urls[vendor].SVG, ...type, file]);
 
@@ -142,10 +139,10 @@ export default {
 
       if (!icon) return;
 
-      let { name, vendor, type } = icon.$_icon;
+      let { vendor, type, tags } = icon.$_icon;
 
-      name = kebabCase(name)
-      type = kebabCase(type.join(""))
+      let name = tags.join("-")
+      type = type.join("-")
 
       let file = name + (type ? "-" + type : "") + ".js";
 

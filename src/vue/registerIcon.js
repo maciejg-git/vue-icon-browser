@@ -4,12 +4,14 @@ export default function registerIcon(app, icons, options) {
       ? options.vendorPrefix
       : true;
 
-  let iconSuffix =
-    options && options.iconSufix !== undefined ? options.iconSufix : false;
-
   icons.forEach((i) => {
     let vendor = vendorPrefix ? i.$_icon.vendor : ""
-    let suffix = iconSuffix ? "Icon" : "";
-    app.component(`${vendor}${i.$_icon.name}${i.$_icon.type}${suffix}`, i);
+    let suffix = i.$_icon.type
+      .map((i) => {
+        return i.charAt(0).toUpperCase() + i.slice(1);
+      })
+      .join("");
+
+    app.component(`${vendor}${i.$_icon.name}${suffix}`, i);
   });
 }
