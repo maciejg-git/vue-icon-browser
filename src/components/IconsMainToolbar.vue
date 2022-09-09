@@ -122,8 +122,8 @@
 
 <script>
 import { useStore } from "../composition/useStore";
-import { BMoon, BGear, BGrid3x3Gap, BLayoutTextSidebar, BList, BViewStacked, BGrid } from "../icons/bootstrap";
-import { MdiSizeS, MdiSizeM, MdiSizeL, MdiLandRowsHorizontal, MdiFormatAlignLeft } from "../icons/mdi";
+import { BMoon, BGear, BGrid } from "../icons/bootstrap";
+import { MdiSizeS, MdiSizeM, MdiSizeL, MdiFormatAlignLeft } from "../icons/mdi";
 import { toKebab, download } from "../tools";
 import { urls } from "../const";
 
@@ -207,15 +207,10 @@ export default {
       icons,
       BMoon,
       BGear,
-      BGrid3x3Gap,
-      BLayoutTextSidebar,
-      BList,
-      BViewStacked,
       BGrid,
       MdiSizeS,
       MdiSizeM,
       MdiSizeL,
-      MdiLandRowsHorizontal,
       MdiFormatAlignLeft,
       handleRemoveAll,
       handleDownloadAllVue,
