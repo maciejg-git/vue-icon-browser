@@ -122,8 +122,6 @@
 
 <script>
 import { useStore } from "../composition/useStore";
-import { BMoon, BGear, BGrid } from "../icons/bootstrap";
-import { MdiSizeS, MdiSizeM, MdiSizeL, MdiFormatAlignLeft } from "../icons/mdi";
 import { toKebab, download } from "../tools";
 import { urls } from "../const";
 
