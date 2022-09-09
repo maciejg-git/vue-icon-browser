@@ -13,11 +13,9 @@ export let loadIcons = (icons) => {
     // if (tags[icon].length) icons[icon].$_icon.tagsExtra = tags[icon];
   }
 
-  icons = Object.values(icons).sort((a, b) => {
+  return Object.values(icons).sort((a, b) => {
     return a.$_icon.name > b.$_icon.name ? 1 : -1
-  })
-
-  return icons;
+  });
 };
 
 export let generateTags = (icons) => {
