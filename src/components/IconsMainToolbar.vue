@@ -26,12 +26,12 @@
       >
         <v-icon
           v-if="store.groupBy"
-          :name="BGrid"
+          name="b-grid"
           class="h-7 w-7 mx-2 dark:text-neutral-300 opacity-30"
         ></v-icon>
         <v-icon
           v-else
-          :name="MdiFormatAlignLeft"
+          name="mdi-format-align-left"
           class="h-7 w-7 mx-2 dark:text-neutral-300 opacity-30"
         ></v-icon>
       </v-button>
@@ -87,7 +87,7 @@
         v-tooltip.bottom.oY6="'Settings'"
       >
         <v-icon
-          :name="BGear"
+          name="b-gear"
           class="h-7 w-7 mx-2 dark:text-neutral-300"
           :class="{ 'opacity-30': store.sidepanelState !== 'settings' }"
         ></v-icon>
@@ -142,17 +142,17 @@ export default {
       size: {
         sm: {
           option: "sm",
-          icon: MdiSizeS,
+          icon: "mdi-size-s",
           tooltip: "Small icons",
         },
         md: {
           option: "md",
-          icon: MdiSizeM,
+          icon: "mdi-size-m",
           tooltip: "Medium icons",
         },
         lg: {
           option: "lg",
-          icon: MdiSizeL,
+          icon: "mdi-size-l",
           tooltip: "Large icons",
         },
       },
@@ -205,13 +205,6 @@ export default {
       handleToolbarClick,
       handleToggleVendor,
       icons,
-      BMoon,
-      BGear,
-      BGrid,
-      MdiSizeS,
-      MdiSizeM,
-      MdiSizeL,
-      MdiFormatAlignLeft,
       handleRemoveAll,
       handleDownloadAllVue,
     };

@@ -1,17 +1,32 @@
 export default function registerIcon(app, icons, options) {
   let vendorPrefix =
-    options && options.vendorPrefix !== undefined
-      ? options.vendorPrefix
-      : true;
+    options && options.vendorPrefix !== undefined ? options.vendorPrefix : true;
 
-  icons.forEach((i) => {
-    let vendor = vendorPrefix ? i.$_icon.vendor : ""
-    let suffix = i.$_icon.type
-      .map((i) => {
-        return i.charAt(0).toUpperCase() + i.slice(1);
-      })
-      .join("");
+  let iconSuffix =
+    options && options.iconSufix !== undefined ? options.iconSufix : false;
 
-    app.component(`${vendor}${i.$_icon.name}${suffix}`, i);
-  });
+  if (Array.isArray(icons)) {
+    icons.forEach((i) => {
+      let vendor = vendorPrefix ? i.$_icon.vendor : "";
+      let suffix = iconSuffix ? "Icon" : "";
+      let type = icons.$_icon.type
+        .map((i) => {
+          return i.charAt(0).toUpperCase() + i.slice(1);
+        })
+        .join("");
+
+      app.component(`${vendor}${i.$_icon.name}${i.$_icon.type}${suffix}`, i);
+    });
+    return;
+  }
+
+  let vendor = vendorPrefix ? icons.$_icon.vendor : "";
+  let suffix = iconSuffix ? "Icon" : "";
+  let type = icons.$_icon.type
+    .map((i) => {
+      return i.charAt(0).toUpperCase() + i.slice(1);
+    })
+    .join("");
+
+  app.component(`${vendor}${icons.$_icon.name}${type}${suffix}`, icons);
 }

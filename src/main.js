@@ -9,25 +9,6 @@ import { registerIcon } from "./vue";
 import "./styles/components.css";
 import "vue-component-tailwind/dist/style.css";
 
-import {
-  BBootstrapFill,
-  BGithub,
-  BDownload,
-  BThreeDotsVertical,
-  BList,
-  BThreeDots,
-  BMoon,
-  BSun,
-  BBagCheck,
-  BBagCheckFill,
-  BStar,
-  BBookmarkCheck,
-  BShield,
-} from "./icons/bootstrap";
-import { MdiMaterialDesign } from "./icons/mdi";
-import { FaFontAwesomeBrands, FaBarsSolid } from "./icons/fontawesome";
-import { MdiContentCopy, MdiCheckBold } from "./icons/mdi";
-
 import hljs from "highlight.js/lib/core";
 import javascript from "highlight.js/lib/languages/javascript";
 import xml from "highlight.js/lib/languages/xml";
@@ -39,31 +20,10 @@ hljs.registerLanguage("xml", xml);
 
 let app = createApp(App);
 
-registerIcon(app, [
-  // logos
-  BBootstrapFill,
-  MdiMaterialDesign,
-  FaFontAwesomeBrands,
-  BGithub,
-  // clipboard
-  MdiContentCopy,
-  MdiCheckBold,
-  // download
-  BDownload,
-  // menu
-  BThreeDotsVertical,
-  BList,
-  FaBarsSolid,
-  BThreeDots,
-  // navbar
-  BMoon,
-  BSun,
-  BBagCheck,
-  BBagCheckFill,
-  BStar,
-  BBookmarkCheck,
-  BShield,
-]);
+const icons = import.meta.globEager('./components/icons/*.js')
+Object.entries(icons).forEach(([path, definition]) => {
+  registerIcon(app, definition.default)
+})
 
 app.provide("hljs", hljs);
 app.use(plugin);
