@@ -19,6 +19,25 @@
     </div>
 
     <div class="flex items-center border-l px-2 dark:border-neutral-700">
+      <v-button
+        name="button-link"
+        @click="handleToolbarClick('layout')"
+        v-tooltip.bottom.oY6="() => store.groupBy ? 'Grid layout' : 'List layout'"
+      >
+        <v-icon
+          v-if="store.groupBy"
+          :name="BGrid"
+          class="h-7 w-7 mx-2 dark:text-neutral-300 opacity-30"
+        ></v-icon>
+        <v-icon
+          v-else
+          :name="MdiFormatAlignLeft"
+          class="h-7 w-7 mx-2 dark:text-neutral-300 opacity-30"
+        ></v-icon>
+      </v-button>
+    </div>
+
+    <div class="flex items-center border-l px-2 dark:border-neutral-700">
       <v-dropdown auto-close-menu :offsetY="5" placement="bottom">
         <template #reference="{ reference, onTrigger }">
           <v-button name="button-link" :ref="reference" v-on="onTrigger">
@@ -103,8 +122,8 @@
 
 <script>
 import { useStore } from "../composition/useStore";
-import { BMoon, BGear } from "../icons/bootstrap";
-import { MdiSizeS, MdiSizeM, MdiSizeL } from "../icons/mdi";
+import { BMoon, BGear, BGrid3x3Gap, BLayoutTextSidebar, BList, BViewStacked, BGrid } from "../icons/bootstrap";
+import { MdiSizeS, MdiSizeM, MdiSizeL, MdiLandRowsHorizontal, MdiFormatAlignLeft } from "../icons/mdi";
 import { toKebab, download } from "../tools";
 import { urls } from "../const";
 
@@ -145,6 +164,8 @@ export default {
       else if (option === "lg") store.size = "lg";
       else if (option === "settings") {
         store.isSidepanelActive = !store.isSidepanelActive;
+      } else if (option === 'layout') {
+        store.groupBy = !store.groupBy
       }
     };
 
@@ -186,9 +207,16 @@ export default {
       icons,
       BMoon,
       BGear,
+      BGrid3x3Gap,
+      BLayoutTextSidebar,
+      BList,
+      BViewStacked,
+      BGrid,
       MdiSizeS,
       MdiSizeM,
       MdiSizeL,
+      MdiLandRowsHorizontal,
+      MdiFormatAlignLeft,
       handleRemoveAll,
       handleDownloadAllVue,
     };

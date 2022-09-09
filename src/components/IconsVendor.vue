@@ -10,7 +10,17 @@
     class="flex flex-wrap items-center"
     @click="handleClickIcon($event)"
   >
-    <template v-for="(icon, index) in iconsFiltered" :key="icon.$_icon.vendor + icon.$_icon.name + icon.$_icon.type">
+    <template
+      v-for="(icon, index) in iconsFiltered"
+      :key="icon.$_icon.vendor + icon.$_icon.name + icon.$_icon.type"
+    >
+      <template v-if="store.groupBy">
+        <div v-if="icon.newLine" class="w-full my-4">
+          <span class="text-text-300 font-semibold">
+            {{ icon.$_icon.tags[0].toUpperCase() }}
+          </span>
+        </div>
+      </template>
       <div class="icon-tile" :data-index="index">
         <component
           :is="icon"
@@ -55,13 +65,30 @@ export default {
 
     let tags = generateTags(props.icons);
 
+    let groupBy = (icons) => {
+      let lastTag = "";
+
+      return icons.map((i) => {
+        if (i.$_icon.tags[0] !== lastTag) {
+          i.newLine = true;
+        } else {
+          i.newLine = false;
+        }
+        lastTag = i.$_icon.tags[0];
+        return i;
+      });
+    };
+
     let iconsFiltered = computed(() => {
       let filter = store.filter;
+      let icons = null;
 
       if (!filter) {
-        return store[props.vendor].loadedAll
+        icons = store[props.vendor].loadedAll
           ? props.icons
           : props.icons.slice(0, store.loadedIconsCount);
+
+        return store.groupBy ? groupBy(icons) : icons;
       }
 
       let res = {};
@@ -72,7 +99,10 @@ export default {
           }
         }
       }
-      return Object.values(res);
+
+      icons = Object.values(res);
+
+      return store.groupBy ? groupBy(icons) : icons;
     });
 
     let selectIcon = (ev, icon) => {
@@ -103,7 +133,7 @@ export default {
 
     let handleClickLoadAllButton = () => {
       store[props.vendor].loadedAll = true;
-    }
+    };
 
     return {
       store,

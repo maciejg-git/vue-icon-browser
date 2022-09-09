@@ -176,7 +176,8 @@
     }
     .button--equal {
       @apply
-        p-2 !important
+        px-0
+        py-1 !important
     }
     .button--pill {
       @apply
