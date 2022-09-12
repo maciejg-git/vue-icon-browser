@@ -17,7 +17,7 @@
           :code="usage.s"
           :language="usage.lang"
         />
-        <div>
+        <div class="flex gap-x-4">
           <v-button
             tag="a"
             name="button-plain"
@@ -26,6 +26,15 @@
           >
             <v-icon name="b-download" class="mr-2"></v-icon>
             Vue component
+          </v-button>
+          <v-button
+            tag="a"
+            name="button-plain"
+            style-button="download"
+            @click.prevent="openVueGithub()"
+          >
+            <v-icon name="b-github" class="mr-2"></v-icon>
+            Github
           </v-button>
         </div>
       </div>
@@ -150,9 +159,27 @@ export default {
 
       let res = await fetch(url);
       res = await res.text();
+      console.log(res)
 
       download(file, res);
     };
+
+    let openVueGithub = () => {
+      let icon = store.currentIconDemo;
+
+      if (!icon) return;
+
+      let { vendor, type, tags } = icon.$_icon;
+
+      let name = tags.join("-")
+      type = type.join("-")
+
+      let file = name + (type ? "-" + type : "") + ".js";
+
+      let url = makeUrl([urls[vendor].github.vue, file]);
+
+      window.open(url)
+    }
 
     // usage strings
 
@@ -190,6 +217,7 @@ export default {
       usageStrings,
       hasNativeTab,
       SVGstring,
+      openVueGithub,
       downloadVueComponent,
       downloadSVG,
       nativeTabName,

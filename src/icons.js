@@ -1,5 +1,6 @@
 import { ref, markRaw } from "vue";
 import { useStore } from "./composition/useStore";
+import { dbLoadVendor } from "./supabase"
 
 let store = useStore();
 
@@ -9,6 +10,7 @@ export let loadIcons = (icons) => {
 
     icons[icon].selected = ref(false);
     icons[icon].getIconName = getIconName;
+    icons[icon].getUniqueIconName = getUniqueIconName;
 
     // if (tags[icon].length) icons[icon].$_icon.tagsExtra = tags[icon];
   }
@@ -18,16 +20,39 @@ export let loadIcons = (icons) => {
   });
 };
 
-export let generateTags = (icons) => {
+export let generateTags = async (icons, vendor) => {
+  let extTags = await dbLoadVendor(vendor)
+
+  extTags = extTags.reduce((acc, i) => {
+    acc[i.icon] = i.tags
+    return acc
+  }, {})
+
   let tags = {};
+  let uniqueIconName = ""
 
   for (let i of icons) {
     for (let tag of i.$_icon.tags) {
       if (!tags[tag]) tags[tag] = [];
       tags[tag].push(i);
     }
+
+    uniqueIconName = i.getUniqueIconName()
+
+    if (extTags[uniqueIconName]) {
+      for (let tag of extTags[uniqueIconName]) {
+        if (!tags[tag]) tags[tag] = [];
+        tags[tag].push(i);
+      }
+    }
   }
   return Object.entries(tags);
+};
+
+export let getUniqueIconName = function () {
+  let icon = this.$_icon
+
+  return `${icon.vendor.toLowerCase()}-${icon.tags.join("-")}${icon.type.length ? '-' : ''}${icon.type.join("-")}`
 };
 
 export let getIconName = function () {

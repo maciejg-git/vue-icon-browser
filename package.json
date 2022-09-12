@@ -7,6 +7,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^1.35.6",
     "@vueuse/core": "^6.5.3",
     "highlight.js": "^11.4.0",
     "just-kebab-case": "^4.1.1",

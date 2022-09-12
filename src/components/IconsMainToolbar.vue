@@ -22,17 +22,18 @@
       <v-button
         name="button-link"
         @click="handleToolbarClick('layout')"
-        v-tooltip.bottom.oY6="() => store.groupBy ? 'Grid layout' : 'List layout'"
       >
         <v-icon
-          v-if="store.groupBy"
+          v-show="store.groupBy"
           name="b-grid"
           class="h-7 w-7 mx-2 dark:text-neutral-300 opacity-30"
+          v-tooltip.bottom.oY6="'Grid layout'"
         ></v-icon>
         <v-icon
-          v-else
+          v-show="!store.groupBy"
           name="mdi-format-align-left"
           class="h-7 w-7 mx-2 dark:text-neutral-300 opacity-30"
+          v-tooltip.bottom.oY6="'List layout'"
         ></v-icon>
       </v-button>
     </div>

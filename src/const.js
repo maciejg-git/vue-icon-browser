@@ -84,11 +84,17 @@ export const urls = {
     download: {
       vue: "https://raw.githubusercontent.com/maciejg-git/vue-bootstrap-icons/main/dist-bootstrap/icons",
     },
+    github: {
+      vue: "https://github.com/maciejg-git/vue-bootstrap-icons/blob/main/dist-bootstrap/icons",
+    },
   },
   Mdi: {
     SVG: "https://raw.githubusercontent.com/Templarian/MaterialDesign/master/svg",
     download: {
       vue: "https://raw.githubusercontent.com/maciejg-git/vue-bootstrap-icons/main/dist-mdi/icons",
+    },
+    github: {
+      vue: "https://github.com/maciejg-git/vue-bootstrap-icons/blob/main/dist-mdi/icons",
     },
   },
   Fa: {
@@ -96,11 +102,17 @@ export const urls = {
     download: {
       vue: "https://raw.githubusercontent.com/maciejg-git/vue-bootstrap-icons/main/dist-fontawesome/icons",
     },
+    github: {
+      vue: "https://github.com/maciejg-git/vue-bootstrap-icons/blob/main/dist-fontawesome/icons",
+    },
   },
   H: {
     SVG: "https://raw.githubusercontent.com/tailwindlabs/heroicons/master/optimized",
     download: {
       vue: "https://raw.githubusercontent.com/maciejg-git/vue-bootstrap-icons/main/dist-heroicons/icons",
+    },
+    github: {
+      vue: "https://github.com/maciejg-git/vue-bootstrap-icons/blob/main/dist-heroicons/icons",
     },
   },
 };

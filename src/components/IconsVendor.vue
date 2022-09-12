@@ -63,7 +63,10 @@ export default {
       lg: "h-12 w-12 m-3",
     };
 
-    let tags = generateTags(props.icons);
+    let tags = null
+    generateTags(props.icons, props.vendor).then((res) => {
+      tags = res
+    });
 
     let groupBy = (icons) => {
       let lastTag = "";
