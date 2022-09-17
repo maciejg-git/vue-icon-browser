@@ -1,6 +1,6 @@
 import { ref, markRaw } from "vue";
 import { useStore } from "./composition/useStore";
-import { dbLoadVendor } from "./supabase"
+import { dbLoadVendor } from "./supabase";
 
 let store = useStore();
 
@@ -16,20 +16,20 @@ export let loadIcons = (icons) => {
   }
 
   return Object.values(icons).sort((a, b) => {
-    return a.$_icon.name > b.$_icon.name ? 1 : -1
+    return a.$_icon.name > b.$_icon.name ? 1 : -1;
   });
 };
 
 export let generateTags = async (icons, vendor) => {
-  let extTags = await dbLoadVendor(vendor)
+  let extTags = await dbLoadVendor(vendor);
 
   extTags = extTags.reduce((acc, i) => {
-    acc[i.icon] = i.tags
-    return acc
-  }, {})
+    acc[i.icon] = i.tags;
+    return acc;
+  }, {});
 
   let tags = {};
-  let uniqueIconName = ""
+  let uniqueIconName = "";
 
   for (let i of icons) {
     for (let tag of i.$_icon.tags) {
@@ -37,7 +37,7 @@ export let generateTags = async (icons, vendor) => {
       tags[tag].push(i);
     }
 
-    uniqueIconName = i.getUniqueIconName()
+    uniqueIconName = i.getUniqueIconName();
 
     if (extTags[uniqueIconName]) {
       for (let tag of extTags[uniqueIconName]) {
@@ -50,9 +50,11 @@ export let generateTags = async (icons, vendor) => {
 };
 
 export let getUniqueIconName = function () {
-  let icon = this.$_icon
+  let icon = this.$_icon;
 
-  return `${icon.vendor.toLowerCase()}-${icon.tags.join("-")}${icon.type.length ? '-' : ''}${icon.type.join("-")}`
+  return `${icon.vendor.toLowerCase()}-${icon.tags.join("-")}${
+    icon.type.length ? "-" : ""
+  }${icon.type.join("-")}`;
 };
 
 export let getIconName = function () {

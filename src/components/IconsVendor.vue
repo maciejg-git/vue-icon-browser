@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import { computed } from "vue";
+import { ref, computed } from "vue";
 import { useStore } from "../composition/useStore";
 import { generateTags } from "../icons.js";
 
@@ -63,9 +63,13 @@ export default {
       lg: "h-12 w-12 m-3",
     };
 
+    let isReady = ref(false)
+
     let tags = null
+
     generateTags(props.icons, props.vendor).then((res) => {
       tags = res
+      isReady.value = true
     });
 
     let groupBy = (icons) => {
@@ -83,6 +87,8 @@ export default {
     };
 
     let iconsFiltered = computed(() => {
+      if (!isReady.value) return []
+
       let filter = store.filter;
       let icons = null;
 
