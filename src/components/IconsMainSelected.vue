@@ -47,20 +47,7 @@ export default {
       lg: "h-14 w-14 m-3",
     };
 
-    // let vendors = {
-    //   B: 'bootstrap',
-    //   Mdi: 'mdi',
-    //   Fa: 'fontawesome',
-    //   H: 'heroicons',
-    // }
-
     watch(store.selectedIcons, () => {
-//       let icons = ''
-//       store.selectedIcons.forEach((i) => {
-//         icons += `('${i.getUniqueIconName()}', ARRAY [''], '${vendors[i.$_icon.vendor]}'),
-// `
-//       })
-//       console.log(icons)
       if (!store.selectedIcons.length) store.currentIconDemo = null;
     });
 
