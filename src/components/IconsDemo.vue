@@ -159,7 +159,7 @@ export default {
 
 <style scoped>
 .demo-section {
-  @apply flex items-center gap-x-4 my-5;
+  @apply flex items-center gap-x-4 my-8;
 }
 .demo {
   -ms-overflow-style: none;

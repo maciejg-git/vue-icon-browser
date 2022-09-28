@@ -34,7 +34,7 @@ export const useStore = defineStore('main', {
         loaded: false,
         loadedAll: false,
         name: "Font Awesome",
-        icon: "fa-font-awesome-brand",
+        icon: "fa-font-awesome-brands",
       },
       heroicons: {
         active: false,
