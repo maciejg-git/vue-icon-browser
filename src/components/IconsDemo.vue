@@ -142,16 +142,9 @@ export default {
 
     let isExtendedDemoActive = ref(false);
 
-    // handle template events
-
-    let handleClickClosebutton = () => {
-      store.unselectIcon(store.currentIconDemo);
-    };
-
     return {
       store,
       isExtendedDemoActive,
-      handleClickClosebutton,
     };
   },
 };
