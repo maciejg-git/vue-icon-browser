@@ -101,11 +101,7 @@ export default {
     let SVGstring = ref("");
 
     let getSVGurl = () => {
-      let icon = store.currentIconDemo;
-
-      if (!icon) return;
-
-      let { tags, vendor, type } = icon.$_icon;
+      let { tags, vendor, type } = store.currentIconDemo.$_icon;
 
       let file = tags.join("-") + ".svg"
 
@@ -144,11 +140,7 @@ export default {
     // vue component
 
     let downloadVueComponent = async () => {
-      let icon = store.currentIconDemo;
-
-      if (!icon) return;
-
-      let { vendor, type, tags } = icon.$_icon;
+      let { vendor, type, tags } = store.currentIconDemo.$_icon;
 
       let name = tags.join("-")
       type = type.join("-")
@@ -159,17 +151,12 @@ export default {
 
       let res = await fetch(url);
       res = await res.text();
-      console.log(res)
 
       download(file, res);
     };
 
     let openVueGithub = () => {
-      let icon = store.currentIconDemo;
-
-      if (!icon) return;
-
-      let { vendor, type, tags } = icon.$_icon;
+      let { vendor, type, tags } = store.currentIconDemo.$_icon;
 
       let name = tags.join("-")
       type = type.join("-")
@@ -184,8 +171,7 @@ export default {
     // usage strings
 
     let getStringFromTemplate = (tab, usage) => {
-      let icon = store.currentIconDemo;
-      let { name, vendor, type, tags } = icon.$_icon;
+      let { name, vendor, type, tags } = store.currentIconDemo.$_icon;
 
       type = type.join("")
 
@@ -199,8 +185,7 @@ export default {
     };
 
     let usageStrings = computed(() => {
-      let icon = store.currentIconDemo;
-      let { vendor } = icon.$_icon;
+      let { vendor } = store.currentIconDemo.$_icon;
 
       let template = cloneObject(templates[vendor]);
 
