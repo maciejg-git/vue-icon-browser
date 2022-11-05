@@ -31,7 +31,7 @@
             tag="a"
             name="button-plain"
             style-button="download"
-            @click.prevent="openVueGithub()"
+            @click.prevent="openVueComponentGithub()"
           >
             <v-icon name="b-github" class="mr-2"></v-icon>
             Github
@@ -113,14 +113,20 @@ export default {
       };
     };
 
-    let getSVGstring = async () => {
-      let { url } = getSVGurl();
+    watch(
+      () => store.currentIconDemo,
+      async (value) => {
+        if (!value) return
 
-      let res = await fetch(url);
-      res = await res.text();
+        let { url } = getSVGurl();
 
-      SVGstring.value = res;
-    };
+        let res = await fetch(url);
+        res = await res.text();
+
+        SVGstring.value = res;
+      },
+      { immediate: true }
+    );
 
     let downloadSVG = async () => {
       let { url, file } = getSVGurl();
@@ -130,12 +136,6 @@ export default {
 
       download(file, res);
     };
-
-    watch(
-      () => store.currentIconDemo,
-      () => store.currentIconDemo && getSVGstring(),
-      { immediate: true }
-    );
 
     // vue component
 
@@ -155,7 +155,7 @@ export default {
       download(file, res);
     };
 
-    let openVueGithub = () => {
+    let openVueComponentGithub = () => {
       let { vendor, type, tags } = store.currentIconDemo.$_icon;
 
       let name = tags.join("-")
@@ -202,7 +202,7 @@ export default {
       usageStrings,
       hasNativeTab,
       SVGstring,
-      openVueGithub,
+      openVueComponentGithub,
       downloadVueComponent,
       downloadSVG,
       nativeTabName,
