@@ -1,5 +1,5 @@
 <template>
-  <v-tabs name="tabs-rounded">
+  <v-tabs base="rounded">
     <v-tab :name="nativeTabName" v-if="hasNativeTab()">
       <div class="py-1">
         <icons-code

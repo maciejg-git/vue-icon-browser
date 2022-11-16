@@ -1,10 +1,9 @@
 <template>
-  <div class="flex items-end justify-center">
+  <div class="flex items-end justify-center mt-8">
     <v-input
       type="search"
       v-model="filter"
       placeholder="Start typing to filter..."
-      class="w-full mt-8"
     />
     <v-button style-button="primary-outline" class="ml-4" @click="filter = ''">
       Clear

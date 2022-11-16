@@ -5,7 +5,7 @@
     <div class="flex items-center">
       <template v-for="b in buttons.size" :key="b.option">
         <v-button
-          name="button-link"
+          base="button-link"
           @click="handleToolbarClick(b.option)"
           v-tooltip.bottom.oY6="b.tooltip"
         >
@@ -20,7 +20,7 @@
 
     <div class="flex items-center border-l px-2 dark:border-neutral-700">
       <v-button
-        name="button-link"
+        base="button-link"
         @click="handleToolbarClick('layout')"
       >
         <v-icon
@@ -41,7 +41,7 @@
     <div class="flex items-center border-l px-2 dark:border-neutral-700">
       <v-dropdown auto-close-menu :offsetY="5" placement="bottom">
         <template #reference="{ reference, onTrigger }">
-          <v-button name="button-link" :ref="reference" v-on="onTrigger">
+          <v-button base="button-link" :ref="reference" v-on="onTrigger">
             <v-icon
               name="b-bag-check"
               class="h-7 w-7 mx-2 dark:text-neutral-300"
@@ -83,7 +83,7 @@
 
     <div class="flex items-center border-l px-2 dark:border-neutral-700">
       <v-button
-        name="button-link"
+        base="button-link"
         @click="handleToolbarClick('settings')"
         v-tooltip.bottom.oY6="'Settings'"
       >
@@ -99,7 +99,7 @@
       <template v-for="vendor in store.vendors" :key="vendor">
         <div class="flex items-center px-1 mx-0.5">
           <v-button
-            name="button-link"
+            base="button-link"
             @click="handleToggleVendor(vendor)"
             v-tooltip.bottom.oY15="store[vendor].name"
           >

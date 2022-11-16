@@ -1,0 +1,10 @@
+  .chevron {
+    @apply
+      w-4
+      h-4;
+
+    &--right {
+      @apply
+        ml-2
+    }
+  }

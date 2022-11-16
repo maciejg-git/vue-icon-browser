@@ -1,0 +1,30 @@
+:root {
+  --tree-transition-duration: 0.2s;
+}
+
+.tree {
+  &__folder {
+    @apply
+      font-bold
+      my-3
+      ml-8;
+
+      &--folder--root-variant {
+        @apply
+          ml-0
+      }
+  }
+
+  &__item {
+    @apply
+      font-normal
+      my-3
+      ml-8
+  }
+
+  &__icon {
+    @apply
+      w-5
+      h-5
+  }
+}

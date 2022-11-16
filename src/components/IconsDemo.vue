@@ -44,7 +44,7 @@
     <!-- buttons second row -->
 
     <div class="demo-section">
-      <v-button name="button-plain" class="font-semibold text-lg">
+      <v-button base="plain" class="font-semibold text-lg">
         <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
         Button
       </v-button>
@@ -70,11 +70,7 @@
 
     <div class="demo-section">
       <div class="relative flex items-center">
-        <v-icon
-          :name="store.currentIconDemo"
-          class="absolute h-6 w-6 text-gray-400 dark:text-gray-400 ml-2"
-        ></v-icon>
-        <v-input class="pl-10" placeholder="Search"></v-input>
+        <v-input placeholder="Search" :icon="store.currentIconDemo"></v-input>
       </div>
     </div>
 
