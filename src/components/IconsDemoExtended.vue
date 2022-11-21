@@ -58,7 +58,7 @@
   </div>
 
   <div class="py-5">
-    <v-tabs name="tabs-material">
+    <v-tabs base="material">
       <v-tab name="Item one"></v-tab>
       <v-tab>
         <template #name>
@@ -73,29 +73,17 @@
   </div>
 
   <div class="flex items-center gap-6 my-6">
-    <div class="relative flex items-center w-full my-2">
-      <v-icon
-        :name="store.currentIconDemo"
-        class="absolute h-6 w-6 text-gray-400 dark:text-gray-400 ml-2"
-      ></v-icon>
-      <v-input
-        name="input-underline"
-        class="grow pl-10"
-        placeholder="Search"
-      ></v-input>
-    </div>
+    <v-input
+      base="underlined"
+      placeholder="Search"
+      :icon="store.currentIconDemo"
+    ></v-input>
 
-    <div class="relative flex items-center w-full my-2">
-      <v-icon
-        :name="store.currentIconDemo"
-        class="absolute h-6 w-6 text-gray-400 dark:text-gray-400 ml-4"
-      ></v-icon>
-      <v-input
-        name="input-rounded"
-        class="grow pl-12"
-        placeholder="Search"
-      ></v-input>
-    </div>
+    <v-input
+      base="round"
+      placeholder="Search"
+      :icon="store.currentIconDemo"
+    ></v-input>
   </div>
 </template>
 

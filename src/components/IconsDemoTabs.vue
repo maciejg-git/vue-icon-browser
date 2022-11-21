@@ -20,7 +20,7 @@
         <div class="flex gap-x-4">
           <v-button
             tag="a"
-            name="button-plain"
+            base="plain"
             style-button="download"
             @click.prevent="downloadVueComponent()"
           >
@@ -29,7 +29,7 @@
           </v-button>
           <v-button
             tag="a"
-            name="button-plain"
+            base="plain"
             style-button="download"
             @click.prevent="openVueComponentGithub()"
           >
@@ -46,7 +46,7 @@
         <div>
           <v-button
             tag="a"
-            name="button-plain"
+            base="plain"
             style-button="download"
             @click.prevent="downloadSVG()"
           >

@@ -1,6 +1,9 @@
   .navbar {
     @apply
       shadow-lg
+      py-2
+      border-b
+      dark:border-neutral-700
       bg-secondary-100
       dark:bg-dark-800;
 

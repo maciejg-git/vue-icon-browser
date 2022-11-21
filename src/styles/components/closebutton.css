@@ -2,8 +2,8 @@
   @apply
     w-5
     h-5
-    text-current
-    dark:text-current;
+    text-text-800
+    dark:text-text-300;
 
     &--small {
       @apply

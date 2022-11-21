@@ -1,7 +1,7 @@
 @import "backdrop.css";
 
 :root {
-  --modal-transition-duration: 0.2s;
+  --modal-transition-duration: 0.1s;
 }
 
 .modal {

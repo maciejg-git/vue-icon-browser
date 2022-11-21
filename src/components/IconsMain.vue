@@ -4,7 +4,7 @@
       Vue-icons
     </span>
     <div class="flex items-center px-2">
-      <v-button name="button-link" @click="store.toggleDarkMode()">
+      <v-button base="button-link" @click="store.toggleDarkMode()">
         <transition name="fade-slow">
           <v-icon
             :name="store.dark ? 'b-Sun' : 'b-moon'"

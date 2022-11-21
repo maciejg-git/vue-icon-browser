@@ -23,7 +23,7 @@
       <v-button
         tag="a"
         href="https://github.com/maciejg-git/vue-icons-browser"
-        name="button-link"
+        base="button-link"
         style-button="small"
       >
         <v-icon name="b-github" class="mr-2"></v-icon>
