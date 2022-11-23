@@ -1,5 +1,101 @@
 import { h } from "vue"
 
+export let B0CircleFill = {
+  $_icon: {
+    name: "0CircleFill",
+    vendor: "B",
+    type: [],
+    tags: ["0","circle","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z"}
+        ),
+        h(
+          "path",
+          {"d":"M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-8.012 4.158c1.858 0 2.96-1.582 2.96-3.99V7.84c0-2.426-1.079-3.996-2.936-3.996-1.864 0-2.965 1.588-2.965 3.996v.328c0 2.42 1.09 3.99 2.941 3.99Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let B0Circle = {
+  $_icon: {
+    name: "0Circle",
+    vendor: "B",
+    type: [],
+    tags: ["0","circle"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M7.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99ZM8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z"}
+        ),
+        h(
+          "path",
+          {"d":"M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let B0SquareFill = {
+  $_icon: {
+    name: "0SquareFill",
+    vendor: "B",
+    type: [],
+    tags: ["0","square","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Zm5.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let B0Square = {
+  $_icon: {
+    name: "0Square",
+    vendor: "B",
+    type: [],
+    tags: ["0","square"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M7.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99ZM8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z"}
+        ),
+        h(
+          "path",
+          {"d":"M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2Zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2Z"}
+        ) 
+      ]
+    )
+  }
+}
 export let B1CircleFill = {
   $_icon: {
     name: "1CircleFill",
@@ -10,11 +106,11 @@ export let B1CircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-1-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383h1.312Z"}
+          {"d":"M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312V4.002Z"}
         ) 
       ]
     )
@@ -30,7 +126,7 @@ export let B1Circle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-1-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -50,7 +146,7 @@ export let B1SquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-1-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -70,7 +166,7 @@ export let B1Square = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-1-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -94,7 +190,7 @@ export let B123 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-123"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -114,7 +210,7 @@ export let B2CircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-2-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -134,7 +230,7 @@ export let B2Circle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-2-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -154,7 +250,7 @@ export let B2SquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-2-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -174,7 +270,7 @@ export let B2Square = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-2-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -198,7 +294,7 @@ export let B3CircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-3-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -218,7 +314,7 @@ export let B3Circle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-3-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -242,7 +338,7 @@ export let B3SquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-3-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -262,7 +358,7 @@ export let B3Square = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-3-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -286,7 +382,7 @@ export let B4CircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-4-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -306,7 +402,7 @@ export let B4Circle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-4-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -330,7 +426,7 @@ export let B4SquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-4-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -354,7 +450,7 @@ export let B4Square = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-4-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -378,7 +474,7 @@ export let B5CircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-5-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -398,7 +494,7 @@ export let B5Circle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-5-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -418,7 +514,7 @@ export let B5SquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-5-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -438,7 +534,7 @@ export let B5Square = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-5-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -462,7 +558,7 @@ export let B6CircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-6-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -482,7 +578,7 @@ export let B6Circle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-6-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -502,7 +598,7 @@ export let B6SquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-6-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -526,7 +622,7 @@ export let B6Square = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-6-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -550,7 +646,7 @@ export let B7CircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-7-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -570,7 +666,7 @@ export let B7Circle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-7-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -590,7 +686,7 @@ export let B7SquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-7-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -610,7 +706,7 @@ export let B7Square = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-7-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -634,7 +730,7 @@ export let B8CircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-8-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -654,7 +750,7 @@ export let B8Circle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-8-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -674,7 +770,7 @@ export let B8SquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-8-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -698,7 +794,7 @@ export let B8Square = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-8-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -722,7 +818,7 @@ export let B9CircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-9-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -742,7 +838,7 @@ export let B9Circle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-9-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -762,7 +858,7 @@ export let B9SquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-9-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -786,7 +882,7 @@ export let B9Square = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-9-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -810,7 +906,7 @@ export let BActivity = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-activity"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -830,7 +926,7 @@ export let BAirplaneEnginesFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-airplane-engines-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -850,7 +946,7 @@ export let BAirplaneEngines = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-airplane-engines"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -870,7 +966,7 @@ export let BAirplaneFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-airplane-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -890,7 +986,7 @@ export let BAirplane = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-airplane"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -910,7 +1006,7 @@ export let BAlarmFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-alarm-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -930,7 +1026,7 @@ export let BAlarm = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-alarm"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -954,7 +1050,7 @@ export let BAlexa = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-alexa"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -974,7 +1070,7 @@ export let BAlignBottom = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-align-bottom"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "rect",
@@ -998,7 +1094,7 @@ export let BAlignCenter = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-align-center"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1018,7 +1114,7 @@ export let BAlignEnd = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-align-end"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1042,7 +1138,7 @@ export let BAlignMiddle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-align-middle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1062,7 +1158,7 @@ export let BAlignStart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-align-start"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1086,7 +1182,7 @@ export let BAlignTop = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-align-top"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "rect",
@@ -1110,7 +1206,7 @@ export let BAlipay = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-alipay"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1134,11 +1230,31 @@ export let BAlt = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-alt"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
           {"d":"M1 13.5a.5.5 0 0 0 .5.5h3.797a.5.5 0 0 0 .439-.26L11 3h3.5a.5.5 0 0 0 0-1h-3.797a.5.5 0 0 0-.439.26L5 13H1.5a.5.5 0 0 0-.5.5zm10 0a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BAmd = {
+  $_icon: {
+    name: "Amd",
+    vendor: "B",
+    type: [],
+    tags: ["amd"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"m.334 0 4.358 4.359h7.15v7.15l4.358 4.358V0H.334ZM.2 9.72l4.487-4.488v6.281h6.28L6.48 16H.2V9.72Z"}
         ) 
       ]
     )
@@ -1154,7 +1270,7 @@ export let BAndroid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-android"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1174,7 +1290,7 @@ export let BAndroid2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-android2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1194,7 +1310,7 @@ export let BAppIndicator = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-app-indicator"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1218,7 +1334,7 @@ export let BApp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-app"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1238,7 +1354,7 @@ export let BApple = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-apple"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1262,7 +1378,7 @@ export let BArchiveFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-archive-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1282,7 +1398,7 @@ export let BArchive = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-archive"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1302,7 +1418,7 @@ export let BArrow90degDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-90deg-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1322,7 +1438,7 @@ export let BArrow90degLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-90deg-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1342,7 +1458,7 @@ export let BArrow90degRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-90deg-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1362,7 +1478,7 @@ export let BArrow90degUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-90deg-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1382,7 +1498,7 @@ export let BArrowBarDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-bar-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1402,11 +1518,11 @@ export let BArrowBarLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-bar-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"}
+          {"fill-rule":"evenodd","d":"M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5ZM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5Z"}
         ) 
       ]
     )
@@ -1422,11 +1538,11 @@ export let BArrowBarRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-bar-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"}
+          {"fill-rule":"evenodd","d":"M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8Zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5Z"}
         ) 
       ]
     )
@@ -1442,7 +1558,7 @@ export let BArrowBarUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-bar-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1462,7 +1578,7 @@ export let BArrowClockwise = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-clockwise"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1486,7 +1602,7 @@ export let BArrowCounterclockwise = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-counterclockwise"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1510,7 +1626,7 @@ export let BArrowDownCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-down-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1530,7 +1646,7 @@ export let BArrowDownCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-down-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1550,7 +1666,7 @@ export let BArrowDownLeftCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-down-left-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1570,7 +1686,7 @@ export let BArrowDownLeftCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-down-left-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1590,7 +1706,7 @@ export let BArrowDownLeftSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-down-left-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1610,7 +1726,7 @@ export let BArrowDownLeftSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-down-left-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1630,7 +1746,7 @@ export let BArrowDownLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-down-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1650,7 +1766,7 @@ export let BArrowDownRightCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-down-right-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1670,7 +1786,7 @@ export let BArrowDownRightCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-down-right-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1690,7 +1806,7 @@ export let BArrowDownRightSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-down-right-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1710,7 +1826,7 @@ export let BArrowDownRightSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-down-right-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1730,7 +1846,7 @@ export let BArrowDownRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-down-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1750,7 +1866,7 @@ export let BArrowDownShort = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-down-short"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1770,7 +1886,7 @@ export let BArrowDownSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-down-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1790,7 +1906,7 @@ export let BArrowDownSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-down-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1810,7 +1926,7 @@ export let BArrowDownUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-down-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1830,7 +1946,7 @@ export let BArrowDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1850,7 +1966,7 @@ export let BArrowLeftCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-left-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1870,7 +1986,7 @@ export let BArrowLeftCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-left-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1890,7 +2006,7 @@ export let BArrowLeftRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-left-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1910,7 +2026,7 @@ export let BArrowLeftShort = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-left-short"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1930,7 +2046,7 @@ export let BArrowLeftSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-left-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1950,7 +2066,7 @@ export let BArrowLeftSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-left-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1970,7 +2086,7 @@ export let BArrowLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -1990,7 +2106,7 @@ export let BArrowRepeat = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-repeat"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2014,7 +2130,7 @@ export let BArrowReturnLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-return-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2034,7 +2150,7 @@ export let BArrowReturnRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-return-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2054,7 +2170,7 @@ export let BArrowRightCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-right-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2074,7 +2190,7 @@ export let BArrowRightCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-right-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2094,7 +2210,7 @@ export let BArrowRightShort = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-right-short"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2114,7 +2230,7 @@ export let BArrowRightSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-right-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2134,7 +2250,7 @@ export let BArrowRightSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-right-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2154,7 +2270,7 @@ export let BArrowRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2174,7 +2290,7 @@ export let BArrowThroughHeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-through-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2194,7 +2310,7 @@ export let BArrowThroughHeart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-through-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2214,7 +2330,7 @@ export let BArrowUpCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-up-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2234,7 +2350,7 @@ export let BArrowUpCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-up-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2254,7 +2370,7 @@ export let BArrowUpLeftCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-up-left-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2274,7 +2390,7 @@ export let BArrowUpLeftCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-up-left-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2294,7 +2410,7 @@ export let BArrowUpLeftSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-up-left-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2314,7 +2430,7 @@ export let BArrowUpLeftSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-up-left-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2334,7 +2450,7 @@ export let BArrowUpLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-up-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2354,7 +2470,7 @@ export let BArrowUpRightCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-up-right-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2374,7 +2490,7 @@ export let BArrowUpRightCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-up-right-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2394,7 +2510,7 @@ export let BArrowUpRightSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-up-right-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2414,7 +2530,7 @@ export let BArrowUpRightSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-up-right-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2434,7 +2550,7 @@ export let BArrowUpRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-up-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2454,7 +2570,7 @@ export let BArrowUpShort = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-up-short"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2474,7 +2590,7 @@ export let BArrowUpSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-up-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2494,7 +2610,7 @@ export let BArrowUpSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-up-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2514,7 +2630,7 @@ export let BArrowUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrow-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2534,7 +2650,7 @@ export let BArrowsAngleContract = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrows-angle-contract"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2554,7 +2670,7 @@ export let BArrowsAngleExpand = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrows-angle-expand"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2574,11 +2690,11 @@ export let BArrowsCollapse = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrows-collapse"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M1 8a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 8zm7-8a.5.5 0 0 1 .5.5v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 4.293V.5A.5.5 0 0 1 8 0zm-.5 11.707-1.146 1.147a.5.5 0 0 1-.708-.708l2-2a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1-.708.708L8.5 11.707V15.5a.5.5 0 0 1-1 0v-3.793z"}
+          {"fill-rule":"evenodd","d":"M1 8a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 8Zm7-8a.5.5 0 0 1 .5.5v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 4.293V.5A.5.5 0 0 1 8 0Zm-.5 11.707-1.146 1.147a.5.5 0 0 1-.708-.708l2-2a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1-.708.708L8.5 11.707V15.5a.5.5 0 0 1-1 0v-3.793Z"}
         ) 
       ]
     )
@@ -2594,11 +2710,11 @@ export let BArrowsExpand = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrows-expand"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M1 8a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 8zM7.646.146a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1-.708.708L8.5 1.707V5.5a.5.5 0 0 1-1 0V1.707L6.354 2.854a.5.5 0 1 1-.708-.708l2-2zM8 10a.5.5 0 0 1 .5.5v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 14.293V10.5A.5.5 0 0 1 8 10z"}
+          {"fill-rule":"evenodd","d":"M1 8a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 8ZM7.646.146a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1-.708.708L8.5 1.707V5.5a.5.5 0 0 1-1 0V1.707L6.354 2.854a.5.5 0 1 1-.708-.708l2-2ZM8 10a.5.5 0 0 1 .5.5v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 14.293V10.5A.5.5 0 0 1 8 10Z"}
         ) 
       ]
     )
@@ -2614,7 +2730,7 @@ export let BArrowsFullscreen = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrows-fullscreen"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2634,7 +2750,7 @@ export let BArrowsMove = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-arrows-move"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2654,7 +2770,7 @@ export let BAspectRatioFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-aspect-ratio-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2674,7 +2790,7 @@ export let BAspectRatio = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-aspect-ratio"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2698,7 +2814,7 @@ export let BAsterisk = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-asterisk"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2718,7 +2834,7 @@ export let BAt = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-at"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2738,7 +2854,7 @@ export let BAwardFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-award-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2762,7 +2878,7 @@ export let BAward = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-award"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2786,7 +2902,7 @@ export let BBack = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-back"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2806,7 +2922,7 @@ export let BBackspaceFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-backspace-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2826,7 +2942,7 @@ export let BBackspaceReverseFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-backspace-reverse-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2846,7 +2962,7 @@ export let BBackspaceReverse = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-backspace-reverse"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2870,7 +2986,7 @@ export let BBackspace = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-backspace"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2894,7 +3010,7 @@ export let BBadge3dFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-3d-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2918,7 +3034,7 @@ export let BBadge3d = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-3d"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2942,7 +3058,7 @@ export let BBadge4kFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-4k-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2966,7 +3082,7 @@ export let BBadge4k = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-4k"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -2990,7 +3106,7 @@ export let BBadge8kFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-8k-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3014,7 +3130,7 @@ export let BBadge8k = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-8k"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3038,7 +3154,7 @@ export let BBadgeAdFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-ad-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3062,7 +3178,7 @@ export let BBadgeAd = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-ad"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3086,7 +3202,7 @@ export let BBadgeArFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-ar-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3110,7 +3226,7 @@ export let BBadgeAr = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-ar"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3134,7 +3250,7 @@ export let BBadgeCcFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-cc-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3154,7 +3270,7 @@ export let BBadgeCc = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-cc"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3178,7 +3294,7 @@ export let BBadgeHdFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-hd-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3202,7 +3318,7 @@ export let BBadgeHd = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-hd"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3226,7 +3342,7 @@ export let BBadgeSdFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-sd-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3250,7 +3366,7 @@ export let BBadgeSd = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-sd"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3270,7 +3386,7 @@ export let BBadgeTmFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-tm-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3290,7 +3406,7 @@ export let BBadgeTm = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-tm"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3314,7 +3430,7 @@ export let BBadgeVoFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-vo-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3338,7 +3454,7 @@ export let BBadgeVo = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-vo"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3362,7 +3478,7 @@ export let BBadgeVrFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-vr-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3386,7 +3502,7 @@ export let BBadgeVr = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-vr"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3410,7 +3526,7 @@ export let BBadgeWcFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-wc-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3430,7 +3546,7 @@ export let BBadgeWc = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-badge-wc"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3454,7 +3570,7 @@ export let BBagCheckFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bag-check-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3474,7 +3590,7 @@ export let BBagCheck = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bag-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3498,7 +3614,7 @@ export let BBagDashFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bag-dash-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3518,7 +3634,7 @@ export let BBagDash = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bag-dash"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3542,7 +3658,7 @@ export let BBagFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bag-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3562,7 +3678,7 @@ export let BBagHeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bag-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3582,7 +3698,7 @@ export let BBagHeart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bag-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3602,7 +3718,7 @@ export let BBagPlusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bag-plus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3622,7 +3738,7 @@ export let BBagPlus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bag-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3646,7 +3762,7 @@ export let BBagXFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bag-x-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3666,7 +3782,7 @@ export let BBagX = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bag-x"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3690,7 +3806,7 @@ export let BBag = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bag"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3710,7 +3826,7 @@ export let BBalloonFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-balloon-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3730,7 +3846,7 @@ export let BBalloonHeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-balloon-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3750,7 +3866,7 @@ export let BBalloonHeart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-balloon-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3770,7 +3886,7 @@ export let BBalloon = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-balloon"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3790,7 +3906,7 @@ export let BBandaidFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bandaid-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3810,7 +3926,7 @@ export let BBandaid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bandaid"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3834,7 +3950,7 @@ export let BBank = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bank"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3854,7 +3970,7 @@ export let BBank2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bank2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3874,7 +3990,7 @@ export let BBarChartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bar-chart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3894,7 +4010,7 @@ export let BBarChartLineFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bar-chart-line-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3914,7 +4030,7 @@ export let BBarChartLine = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bar-chart-line"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3934,7 +4050,7 @@ export let BBarChartSteps = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bar-chart-steps"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3954,7 +4070,7 @@ export let BBarChart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bar-chart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3974,7 +4090,7 @@ export let BBasketFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-basket-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -3994,7 +4110,7 @@ export let BBasket = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-basket"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4014,7 +4130,7 @@ export let BBasket2Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-basket2-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4034,7 +4150,7 @@ export let BBasket2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-basket2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4058,7 +4174,7 @@ export let BBasket3Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-basket3-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4078,7 +4194,7 @@ export let BBasket3 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-basket3"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4098,7 +4214,7 @@ export let BBatteryCharging = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-battery-charging"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4130,7 +4246,7 @@ export let BBatteryFull = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-battery-full"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4154,7 +4270,7 @@ export let BBatteryHalf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-battery-half"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4178,7 +4294,7 @@ export let BBattery = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-battery"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4198,7 +4314,7 @@ export let BBehance = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-behance"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4218,7 +4334,7 @@ export let BBellFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bell-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4238,7 +4354,7 @@ export let BBellSlashFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bell-slash-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4258,7 +4374,7 @@ export let BBellSlash = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bell-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4278,7 +4394,7 @@ export let BBell = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bell"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4298,7 +4414,7 @@ export let BBezier = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bezier"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4322,7 +4438,7 @@ export let BBezier2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bezier2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4342,7 +4458,7 @@ export let BBicycle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bicycle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4362,7 +4478,7 @@ export let BBinocularsFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-binoculars-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4382,7 +4498,7 @@ export let BBinoculars = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-binoculars"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4402,7 +4518,7 @@ export let BBlockquoteLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-blockquote-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4422,7 +4538,7 @@ export let BBlockquoteRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-blockquote-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4442,7 +4558,7 @@ export let BBluetooth = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bluetooth"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4462,7 +4578,7 @@ export let BBodyText = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-body-text"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4482,7 +4598,7 @@ export let BBookFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-book-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4502,7 +4618,7 @@ export let BBookHalf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-book-half"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4522,7 +4638,7 @@ export let BBook = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-book"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4542,7 +4658,7 @@ export let BBookmarkCheckFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bookmark-check-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4562,7 +4678,7 @@ export let BBookmarkCheck = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bookmark-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4586,7 +4702,7 @@ export let BBookmarkDashFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bookmark-dash-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4606,7 +4722,7 @@ export let BBookmarkDash = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bookmark-dash"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4630,7 +4746,7 @@ export let BBookmarkFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bookmark-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4650,7 +4766,7 @@ export let BBookmarkHeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bookmark-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4670,7 +4786,7 @@ export let BBookmarkHeart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bookmark-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4694,7 +4810,7 @@ export let BBookmarkPlusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bookmark-plus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4714,7 +4830,7 @@ export let BBookmarkPlus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bookmark-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4738,7 +4854,7 @@ export let BBookmarkStarFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bookmark-star-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4758,7 +4874,7 @@ export let BBookmarkStar = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bookmark-star"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4782,7 +4898,7 @@ export let BBookmarkXFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bookmark-x-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4802,7 +4918,7 @@ export let BBookmarkX = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bookmark-x"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4826,7 +4942,7 @@ export let BBookmark = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bookmark"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4846,7 +4962,7 @@ export let BBookmarksFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bookmarks-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4870,7 +4986,7 @@ export let BBookmarks = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bookmarks"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4894,7 +5010,7 @@ export let BBookshelf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bookshelf"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4914,7 +5030,7 @@ export let BBoomboxFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-boombox-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4938,7 +5054,7 @@ export let BBoombox = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-boombox"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4970,7 +5086,7 @@ export let BBootstrapFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bootstrap-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -4994,7 +5110,7 @@ export let BBootstrapReboot = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bootstrap-reboot"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5018,7 +5134,7 @@ export let BBootstrap = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bootstrap"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5042,7 +5158,7 @@ export let BBorderAll = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-border-all"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5062,7 +5178,7 @@ export let BBorderBottom = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-border-bottom"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5082,7 +5198,7 @@ export let BBorderCenter = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-border-center"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5102,7 +5218,7 @@ export let BBorderInner = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-border-inner"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5130,7 +5246,7 @@ export let BBorderLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-border-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5150,7 +5266,7 @@ export let BBorderMiddle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-border-middle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5170,7 +5286,7 @@ export let BBorderOuter = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-border-outer"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5194,7 +5310,7 @@ export let BBorderRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-border-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5214,7 +5330,7 @@ export let BBorderStyle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-border-style"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5234,7 +5350,7 @@ export let BBorderTop = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-border-top"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5254,7 +5370,7 @@ export let BBorderWidth = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-border-width"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5274,7 +5390,7 @@ export let BBorder = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-border"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5294,7 +5410,7 @@ export let BBoundingBoxCircles = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bounding-box-circles"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5314,7 +5430,7 @@ export let BBoundingBox = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bounding-box"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5334,7 +5450,7 @@ export let BBoxArrowDownLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box-arrow-down-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5358,7 +5474,7 @@ export let BBoxArrowDownRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box-arrow-down-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5382,7 +5498,7 @@ export let BBoxArrowDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5406,7 +5522,7 @@ export let BBoxArrowInDownLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box-arrow-in-down-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5430,7 +5546,7 @@ export let BBoxArrowInDownRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box-arrow-in-down-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5454,7 +5570,7 @@ export let BBoxArrowInDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box-arrow-in-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5478,7 +5594,7 @@ export let BBoxArrowInLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box-arrow-in-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5502,7 +5618,7 @@ export let BBoxArrowInRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box-arrow-in-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5526,7 +5642,7 @@ export let BBoxArrowInUpLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box-arrow-in-up-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5550,7 +5666,7 @@ export let BBoxArrowInUpRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box-arrow-in-up-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5574,7 +5690,7 @@ export let BBoxArrowInUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box-arrow-in-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5598,7 +5714,7 @@ export let BBoxArrowLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box-arrow-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5622,7 +5738,7 @@ export let BBoxArrowRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box-arrow-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5646,7 +5762,7 @@ export let BBoxArrowUpLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box-arrow-up-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5670,7 +5786,7 @@ export let BBoxArrowUpRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box-arrow-up-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5694,7 +5810,7 @@ export let BBoxArrowUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box-arrow-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5718,7 +5834,7 @@ export let BBoxFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5738,7 +5854,7 @@ export let BBoxSeamFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box-seam-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5758,7 +5874,7 @@ export let BBoxSeam = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box-seam"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5778,7 +5894,7 @@ export let BBox = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5798,7 +5914,7 @@ export let BBox2Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box2-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5818,7 +5934,7 @@ export let BBox2HeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box2-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5838,7 +5954,7 @@ export let BBox2Heart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box2-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5862,7 +5978,7 @@ export let BBox2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-box2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5882,7 +5998,7 @@ export let BBoxes = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-boxes"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5902,7 +6018,7 @@ export let BBracesAsterisk = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-braces-asterisk"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5922,7 +6038,7 @@ export let BBraces = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-braces"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5942,7 +6058,7 @@ export let BBricks = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bricks"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5962,7 +6078,7 @@ export let BBriefcaseFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-briefcase-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -5986,7 +6102,7 @@ export let BBriefcase = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-briefcase"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6006,7 +6122,7 @@ export let BBrightnessAltHighFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-brightness-alt-high-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6026,7 +6142,7 @@ export let BBrightnessAltHigh = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-brightness-alt-high"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6046,7 +6162,7 @@ export let BBrightnessAltLowFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-brightness-alt-low-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6066,7 +6182,7 @@ export let BBrightnessAltLow = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-brightness-alt-low"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6086,7 +6202,7 @@ export let BBrightnessHighFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-brightness-high-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6106,7 +6222,7 @@ export let BBrightnessHigh = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-brightness-high"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6126,7 +6242,7 @@ export let BBrightnessLowFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-brightness-low-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6146,7 +6262,7 @@ export let BBrightnessLow = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-brightness-low"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6166,7 +6282,7 @@ export let BBroadcastPin = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-broadcast-pin"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6186,7 +6302,7 @@ export let BBroadcast = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-broadcast"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6206,7 +6322,7 @@ export let BBrowserChrome = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-browser-chrome"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6226,7 +6342,7 @@ export let BBrowserEdge = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-browser-edge"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6254,7 +6370,7 @@ export let BBrowserFirefox = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-browser-firefox"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6274,7 +6390,7 @@ export let BBrowserSafari = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-browser-safari"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6294,7 +6410,7 @@ export let BBrushFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-brush-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6314,7 +6430,7 @@ export let BBrush = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-brush"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6334,7 +6450,7 @@ export let BBucketFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bucket-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6354,7 +6470,7 @@ export let BBucket = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bucket"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6374,7 +6490,7 @@ export let BBugFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bug-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6398,11 +6514,535 @@ export let BBug = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bug"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
           {"d":"M4.355.522a.5.5 0 0 1 .623.333l.291.956A4.979 4.979 0 0 1 8 1c1.007 0 1.946.298 2.731.811l.29-.956a.5.5 0 1 1 .957.29l-.41 1.352A4.985 4.985 0 0 1 13 6h.5a.5.5 0 0 0 .5-.5V5a.5.5 0 0 1 1 0v.5A1.5 1.5 0 0 1 13.5 7H13v1h1.5a.5.5 0 0 1 0 1H13v1h.5a1.5 1.5 0 0 1 1.5 1.5v.5a.5.5 0 1 1-1 0v-.5a.5.5 0 0 0-.5-.5H13a5 5 0 0 1-10 0h-.5a.5.5 0 0 0-.5.5v.5a.5.5 0 1 1-1 0v-.5A1.5 1.5 0 0 1 2.5 10H3V9H1.5a.5.5 0 0 1 0-1H3V7h-.5A1.5 1.5 0 0 1 1 5.5V5a.5.5 0 0 1 1 0v.5a.5.5 0 0 0 .5.5H3c0-1.364.547-2.601 1.432-3.503l-.41-1.352a.5.5 0 0 1 .333-.623zM4 7v4a4 4 0 0 0 3.5 3.97V7H4zm4.5 0v7.97A4 4 0 0 0 12 11V7H8.5zM12 6a3.989 3.989 0 0 0-1.334-2.982A3.983 3.983 0 0 0 8 2a3.983 3.983 0 0 0-2.667 1.018A3.989 3.989 0 0 0 4 6h8z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingAdd = {
+  $_icon: {
+    name: "BuildingAdd",
+    vendor: "B",
+    type: [],
+    tags: ["building","add"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6.5a.5.5 0 0 1-1 0V1H3v14h3v-2.5a.5.5 0 0 1 .5-.5H8v4H3a1 1 0 0 1-1-1V1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M4.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingCheck = {
+  $_icon: {
+    name: "BuildingCheck",
+    vendor: "B",
+    type: [],
+    tags: ["building","check"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6.5a.5.5 0 0 1-1 0V1H3v14h3v-2.5a.5.5 0 0 1 .5-.5H8v4H3a1 1 0 0 1-1-1V1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M4.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingDash = {
+  $_icon: {
+    name: "BuildingDash",
+    vendor: "B",
+    type: [],
+    tags: ["building","dash"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7ZM11 12h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6.5a.5.5 0 0 1-1 0V1H3v14h3v-2.5a.5.5 0 0 1 .5-.5H8v4H3a1 1 0 0 1-1-1V1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M4.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingDown = {
+  $_icon: {
+    name: "BuildingDown",
+    vendor: "B",
+    type: [],
+    tags: ["building","down"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 9a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7Zm.354 5.854 1.5-1.5a.5.5 0 0 0-.708-.708l-.646.647V10.5a.5.5 0 0 0-1 0v2.793l-.646-.647a.5.5 0 0 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6.5a.5.5 0 0 1-1 0V1H3v14h3v-2.5a.5.5 0 0 1 .5-.5H8v4H3a1 1 0 0 1-1-1V1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M4.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingExclamation = {
+  $_icon: {
+    name: "BuildingExclamation",
+    vendor: "B",
+    type: [],
+    tags: ["building","exclamation"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6.5a.5.5 0 0 1-1 0V1H3v14h3v-2.5a.5.5 0 0 1 .5-.5H8v4H3a1 1 0 0 1-1-1V1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M4.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm8.5 4.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-3.5-2a.5.5 0 0 0-.5.5v1.5a.5.5 0 0 0 1 0V11a.5.5 0 0 0-.5-.5Zm0 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingFillAdd = {
+  $_icon: {
+    name: "BuildingFillAdd",
+    vendor: "B",
+    type: [],
+    tags: ["building","fill","add"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7.256A4.493 4.493 0 0 0 12.5 8a4.493 4.493 0 0 0-3.59 1.787A.498.498 0 0 0 9 9.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .39-.187A4.476 4.476 0 0 0 8.027 12H6.5a.5.5 0 0 0-.5.5V16H3a1 1 0 0 1-1-1V1Zm2 1.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3 0v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingFillCheck = {
+  $_icon: {
+    name: "BuildingFillCheck",
+    vendor: "B",
+    type: [],
+    tags: ["building","fill","check"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7.256A4.493 4.493 0 0 0 12.5 8a4.493 4.493 0 0 0-3.59 1.787A.498.498 0 0 0 9 9.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .39-.187A4.476 4.476 0 0 0 8.027 12H6.5a.5.5 0 0 0-.5.5V16H3a1 1 0 0 1-1-1V1Zm2 1.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3 0v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingFillDash = {
+  $_icon: {
+    name: "BuildingFillDash",
+    vendor: "B",
+    type: [],
+    tags: ["building","fill","dash"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7ZM11 12h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7.256A4.493 4.493 0 0 0 12.5 8a4.493 4.493 0 0 0-3.59 1.787A.498.498 0 0 0 9 9.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .39-.187A4.476 4.476 0 0 0 8.027 12H6.5a.5.5 0 0 0-.5.5V16H3a1 1 0 0 1-1-1V1Zm2 1.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3 0v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingFillDown = {
+  $_icon: {
+    name: "BuildingFillDown",
+    vendor: "B",
+    type: [],
+    tags: ["building","fill","down"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 9a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7Zm.354 5.854 1.5-1.5a.5.5 0 0 0-.708-.708l-.646.647V10.5a.5.5 0 0 0-1 0v2.793l-.646-.647a.5.5 0 0 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7.256A4.493 4.493 0 0 0 12.5 8a4.493 4.493 0 0 0-3.59 1.787A.498.498 0 0 0 9 9.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .39-.187A4.476 4.476 0 0 0 8.027 12H6.5a.5.5 0 0 0-.5.5V16H3a1 1 0 0 1-1-1V1Zm2 1.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3 0v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingFillExclamation = {
+  $_icon: {
+    name: "BuildingFillExclamation",
+    vendor: "B",
+    type: [],
+    tags: ["building","fill","exclamation"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7.256A4.493 4.493 0 0 0 12.5 8a4.493 4.493 0 0 0-3.59 1.787A.498.498 0 0 0 9 9.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .39-.187A4.476 4.476 0 0 0 8.027 12H6.5a.5.5 0 0 0-.5.5V16H3a1 1 0 0 1-1-1V1Zm2 1.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3 0v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-3.5-2a.5.5 0 0 0-.5.5v1.5a.5.5 0 0 0 1 0V11a.5.5 0 0 0-.5-.5Zm0 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingFillGear = {
+  $_icon: {
+    name: "BuildingFillGear",
+    vendor: "B",
+    type: [],
+    tags: ["building","fill","gear"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7.256A4.493 4.493 0 0 0 12.5 8a4.493 4.493 0 0 0-3.59 1.787A.498.498 0 0 0 9 9.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .39-.187A4.476 4.476 0 0 0 8.027 12H6.5a.5.5 0 0 0-.5.5V16H3a1 1 0 0 1-1-1V1Zm2 1.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3 0v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M11.886 9.46c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingFillLock = {
+  $_icon: {
+    name: "BuildingFillLock",
+    vendor: "B",
+    type: [],
+    tags: ["building","fill","lock"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7.764a3 3 0 0 0-4.989 2.497 2.01 2.01 0 0 0-.743.739H6.5a.5.5 0 0 0-.5.5V16H3a1 1 0 0 1-1-1V1Zm2 1.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3 0v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"M9 13a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2Zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingFillSlash = {
+  $_icon: {
+    name: "BuildingFillSlash",
+    vendor: "B",
+    type: [],
+    tags: ["building","fill","slash"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M13.879 10.414a2.501 2.501 0 0 0-3.465 3.465l3.465-3.465Zm.707.707-3.465 3.465a2.501 2.501 0 0 0 3.465-3.465Zm-4.56-1.096a3.5 3.5 0 1 1 4.949 4.95 3.5 3.5 0 0 1-4.95-4.95Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7.256A4.493 4.493 0 0 0 12.5 8a4.493 4.493 0 0 0-3.59 1.787A.498.498 0 0 0 9 9.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .39-.187A4.476 4.476 0 0 0 8.027 12H6.5a.5.5 0 0 0-.5.5V16H3a1 1 0 0 1-1-1V1Zm2 1.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3 0v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingFillUp = {
+  $_icon: {
+    name: "BuildingFillUp",
+    vendor: "B",
+    type: [],
+    tags: ["building","fill","up"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.354-5.854 1.5 1.5a.5.5 0 0 1-.708.708L13 11.707V14.5a.5.5 0 0 1-1 0v-2.793l-.646.647a.5.5 0 0 1-.708-.708l1.5-1.5a.5.5 0 0 1 .708 0Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7.256A4.493 4.493 0 0 0 12.5 8a4.493 4.493 0 0 0-3.59 1.787A.498.498 0 0 0 9 9.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .39-.187A4.476 4.476 0 0 0 8.027 12H6.5a.5.5 0 0 0-.5.5V16H3a1 1 0 0 1-1-1V1Zm2 1.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3 0v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingFillX = {
+  $_icon: {
+    name: "BuildingFillX",
+    vendor: "B",
+    type: [],
+    tags: ["building","fill","x"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7.256A4.493 4.493 0 0 0 12.5 8a4.493 4.493 0 0 0-3.59 1.787A.498.498 0 0 0 9 9.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .39-.187A4.476 4.476 0 0 0 8.027 12H6.5a.5.5 0 0 0-.5.5V16H3a1 1 0 0 1-1-1V1Zm2 1.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3 0v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm-.646-4.854.646.647.646-.647a.5.5 0 0 1 .708.708l-.647.646.647.646a.5.5 0 0 1-.708.708l-.646-.647-.646.647a.5.5 0 0 1-.708-.708l.647-.646-.647-.646a.5.5 0 0 1 .708-.708Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingFill = {
+  $_icon: {
+    name: "BuildingFill",
+    vendor: "B",
+    type: [],
+    tags: ["building","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M3 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3v-3.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V16h3a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H3Zm1 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5ZM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM7.5 5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM4.5 8h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingGear = {
+  $_icon: {
+    name: "BuildingGear",
+    vendor: "B",
+    type: [],
+    tags: ["building","gear"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6.5a.5.5 0 0 1-1 0V1H3v14h3v-2.5a.5.5 0 0 1 .5-.5H8v4H3a1 1 0 0 1-1-1V1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M4.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm4.386 1.46c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingLock = {
+  $_icon: {
+    name: "BuildingLock",
+    vendor: "B",
+    type: [],
+    tags: ["building","lock"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6.5a.5.5 0 0 1-1 0V1H3v14h3v-2.5a.5.5 0 0 1 .5-.5H8v4H3a1 1 0 0 1-1-1V1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M4.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM9 13a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2Zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingSlash = {
+  $_icon: {
+    name: "BuildingSlash",
+    vendor: "B",
+    type: [],
+    tags: ["building","slash"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M13.879 10.414a2.501 2.501 0 0 0-3.465 3.465l3.465-3.465Zm.707.707-3.465 3.465a2.501 2.501 0 0 0 3.465-3.465Zm-4.56-1.096a3.5 3.5 0 1 1 4.949 4.95 3.5 3.5 0 0 1-4.95-4.95Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6.5a.5.5 0 0 1-1 0V1H3v14h3v-2.5a.5.5 0 0 1 .5-.5H8v4H3a1 1 0 0 1-1-1V1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M4.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingUp = {
+  $_icon: {
+    name: "BuildingUp",
+    vendor: "B",
+    type: [],
+    tags: ["building","up"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.354-5.854 1.5 1.5a.5.5 0 0 1-.708.708L13 11.707V14.5a.5.5 0 0 1-1 0v-2.793l-.646.647a.5.5 0 0 1-.708-.708l1.5-1.5a.5.5 0 0 1 .708 0Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6.5a.5.5 0 0 1-1 0V1H3v14h3v-2.5a.5.5 0 0 1 .5-.5H8v4H3a1 1 0 0 1-1-1V1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M4.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingX = {
+  $_icon: {
+    name: "BuildingX",
+    vendor: "B",
+    type: [],
+    tags: ["building","x"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6.5a.5.5 0 0 1-1 0V1H3v14h3v-2.5a.5.5 0 0 1 .5-.5H8v4H3a1 1 0 0 1-1-1V1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M4.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm5 8a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm-.646-4.854.646.647.646-.647a.5.5 0 0 1 .708.708l-.647.646.647.646a.5.5 0 0 1-.708.708l-.646-.647-.646.647a.5.5 0 0 1-.708-.708l.647-.646-.647-.646a.5.5 0 0 1 .708-.708Z"}
         ) 
       ]
     )
@@ -6418,15 +7058,59 @@ export let BBuilding = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-building"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"}
+          {"d":"M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"}
         ),
         h(
           "path",
-          {"d":"M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z"}
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V1Zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3V1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildingsFill = {
+  $_icon: {
+    name: "BuildingsFill",
+    vendor: "B",
+    type: [],
+    tags: ["buildings","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M15 .5a.5.5 0 0 0-.724-.447l-8 4A.5.5 0 0 0 6 4.5v3.14L.342 9.526A.5.5 0 0 0 0 10v5.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V14h1v1.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V.5ZM2 11h1v1H2v-1Zm2 0h1v1H4v-1Zm-1 2v1H2v-1h1Zm1 0h1v1H4v-1Zm9-10v1h-1V3h1ZM8 5h1v1H8V5Zm1 2v1H8V7h1ZM8 9h1v1H8V9Zm2 0h1v1h-1V9Zm-1 2v1H8v-1h1Zm1 0h1v1h-1v-1Zm3-2v1h-1V9h1Zm-1 2h1v1h-1v-1Zm-2-4h1v1h-1V7Zm3 0v1h-1V7h1Zm-2-2v1h-1V5h1Zm1 0h1v1h-1V5Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBuildings = {
+  $_icon: {
+    name: "Buildings",
+    vendor: "B",
+    type: [],
+    tags: ["buildings"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022ZM6 8.694 1 10.36V15h5V8.694ZM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 11h1v1H2v-1Zm2 0h1v1H4v-1Zm-2 2h1v1H2v-1Zm2 0h1v1H4v-1Zm4-4h1v1H8V9Zm2 0h1v1h-1V9Zm-2 2h1v1H8v-1Zm2 0h1v1h-1v-1Zm2-2h1v1h-1V9Zm0 2h1v1h-1v-1ZM8 7h1v1H8V7Zm2 0h1v1h-1V7Zm2 0h1v1h-1V7ZM8 5h1v1H8V5Zm2 0h1v1h-1V5Zm2 0h1v1h-1V5Zm0-2h1v1h-1V3Z"}
         ) 
       ]
     )
@@ -6442,7 +7126,7 @@ export let BBullseye = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-bullseye"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6464,6 +7148,50 @@ export let BBullseye = {
     )
   }
 }
+export let BBusFrontFill = {
+  $_icon: {
+    name: "BusFrontFill",
+    vendor: "B",
+    type: [],
+    tags: ["bus","front","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M16 7a1 1 0 0 1-1 1v3.5c0 .818-.393 1.544-1 2v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2a2.496 2.496 0 0 1-1-2V8a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1V2.64C1 1.452 1.845.408 3.064.268A43.608 43.608 0 0 1 8 0c2.1 0 3.792.136 4.936.268C14.155.408 15 1.452 15 2.64V4a1 1 0 0 1 1 1v2ZM3.552 3.22A43.306 43.306 0 0 1 8 3c1.837 0 3.353.107 4.448.22a.5.5 0 0 0 .104-.994A44.304 44.304 0 0 0 8 2c-1.876 0-3.426.109-4.552.226a.5.5 0 1 0 .104.994ZM8 4c-1.876 0-3.426.109-4.552.226A.5.5 0 0 0 3 4.723v3.554a.5.5 0 0 0 .448.497C4.574 8.891 6.124 9 8 9c1.876 0 3.426-.109 4.552-.226A.5.5 0 0 0 13 8.277V4.723a.5.5 0 0 0-.448-.497A44.304 44.304 0 0 0 8 4Zm-3 7a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm8 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm-7 0a1 1 0 0 0 1 1h2a1 1 0 1 0 0-2H7a1 1 0 0 0-1 1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BBusFront = {
+  $_icon: {
+    name: "BusFront",
+    vendor: "B",
+    type: [],
+    tags: ["bus","front"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M5 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm8 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-6-1a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2H7Zm1-6c-1.876 0-3.426.109-4.552.226A.5.5 0 0 0 3 4.723v3.554a.5.5 0 0 0 .448.497C4.574 8.891 6.124 9 8 9c1.876 0 3.426-.109 4.552-.226A.5.5 0 0 0 13 8.277V4.723a.5.5 0 0 0-.448-.497A44.303 44.303 0 0 0 8 4Zm0-1c-1.837 0-3.353.107-4.448.22a.5.5 0 1 1-.104-.994A44.304 44.304 0 0 1 8 2c1.876 0 3.426.109 4.552.226a.5.5 0 1 1-.104.994A43.306 43.306 0 0 0 8 3Z"}
+        ),
+        h(
+          "path",
+          {"d":"M15 8a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1V2.64c0-1.188-.845-2.232-2.064-2.372A43.61 43.61 0 0 0 8 0C5.9 0 4.208.136 3.064.268 1.845.408 1 1.452 1 2.64V4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1v3.5c0 .818.393 1.544 1 2v2a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5V14h6v1.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-2c.607-.456 1-1.182 1-2V8ZM8 1c2.056 0 3.71.134 4.822.261.676.078 1.178.66 1.178 1.379v8.86a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 11.5V2.64c0-.72.502-1.301 1.178-1.379A42.611 42.611 0 0 1 8 1Z"}
+        ) 
+      ]
+    )
+  }
+}
 export let BCCircleFill = {
   $_icon: {
     name: "CCircleFill",
@@ -6474,7 +7202,7 @@ export let BCCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-c-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6494,7 +7222,7 @@ export let BCCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-c-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6514,7 +7242,7 @@ export let BCSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-c-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6534,7 +7262,7 @@ export let BCSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-c-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6558,7 +7286,7 @@ export let BCalculatorFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calculator-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6578,7 +7306,7 @@ export let BCalculator = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calculator"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6602,7 +7330,7 @@ export let BCalendarCheckFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-check-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6622,7 +7350,7 @@ export let BCalendarCheck = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6646,7 +7374,7 @@ export let BCalendarDateFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-date-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6670,7 +7398,7 @@ export let BCalendarDate = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-date"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6694,7 +7422,7 @@ export let BCalendarDayFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-day-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6714,7 +7442,7 @@ export let BCalendarDay = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-day"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6738,7 +7466,7 @@ export let BCalendarEventFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-event-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6758,7 +7486,7 @@ export let BCalendarEvent = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-event"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6782,7 +7510,7 @@ export let BCalendarFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6802,7 +7530,7 @@ export let BCalendarHeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6822,7 +7550,7 @@ export let BCalendarHeart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6842,7 +7570,7 @@ export let BCalendarMinusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-minus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6862,7 +7590,7 @@ export let BCalendarMinus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6886,7 +7614,7 @@ export let BCalendarMonthFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-month-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6910,7 +7638,7 @@ export let BCalendarMonth = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-month"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6934,7 +7662,7 @@ export let BCalendarPlusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-plus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6954,7 +7682,7 @@ export let BCalendarPlus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6978,7 +7706,7 @@ export let BCalendarRangeFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-range-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -6998,7 +7726,7 @@ export let BCalendarRange = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-range"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7022,7 +7750,7 @@ export let BCalendarWeekFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-week-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7042,7 +7770,7 @@ export let BCalendarWeek = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-week"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7066,7 +7794,7 @@ export let BCalendarXFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-x-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7086,7 +7814,7 @@ export let BCalendarX = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar-x"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7110,7 +7838,7 @@ export let BCalendar = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7130,7 +7858,7 @@ export let BCalendar2CheckFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-check-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7150,7 +7878,7 @@ export let BCalendar2Check = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7178,7 +7906,7 @@ export let BCalendar2DateFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-date-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7202,7 +7930,7 @@ export let BCalendar2Date = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-date"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7230,7 +7958,7 @@ export let BCalendar2DayFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-day-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7250,7 +7978,7 @@ export let BCalendar2Day = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-day"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7278,7 +8006,7 @@ export let BCalendar2EventFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-event-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7298,7 +8026,7 @@ export let BCalendar2Event = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-event"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7326,7 +8054,7 @@ export let BCalendar2Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7346,7 +8074,7 @@ export let BCalendar2HeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7366,7 +8094,7 @@ export let BCalendar2Heart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7386,7 +8114,7 @@ export let BCalendar2MinusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-minus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7406,7 +8134,7 @@ export let BCalendar2Minus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7434,7 +8162,7 @@ export let BCalendar2MonthFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-month-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7458,7 +8186,7 @@ export let BCalendar2Month = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-month"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7486,7 +8214,7 @@ export let BCalendar2PlusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-plus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7506,7 +8234,7 @@ export let BCalendar2Plus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7530,7 +8258,7 @@ export let BCalendar2RangeFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-range-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7550,7 +8278,7 @@ export let BCalendar2Range = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-range"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7574,7 +8302,7 @@ export let BCalendar2WeekFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-week-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7594,7 +8322,7 @@ export let BCalendar2Week = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-week"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7618,7 +8346,7 @@ export let BCalendar2XFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-x-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7638,7 +8366,7 @@ export let BCalendar2X = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2-x"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7666,7 +8394,7 @@ export let BCalendar2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7690,7 +8418,7 @@ export let BCalendar3EventFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar3-event-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7710,7 +8438,7 @@ export let BCalendar3Event = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar3-event"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7734,7 +8462,7 @@ export let BCalendar3Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar3-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7754,7 +8482,7 @@ export let BCalendar3RangeFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar3-range-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7774,7 +8502,7 @@ export let BCalendar3Range = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar3-range"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7798,7 +8526,7 @@ export let BCalendar3WeekFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar3-week-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7818,7 +8546,7 @@ export let BCalendar3Week = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar3-week"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7842,7 +8570,7 @@ export let BCalendar3 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar3"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7866,7 +8594,7 @@ export let BCalendar4Event = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar4-event"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7890,7 +8618,7 @@ export let BCalendar4Range = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar4-range"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7914,7 +8642,7 @@ export let BCalendar4Week = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar4-week"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7938,7 +8666,7 @@ export let BCalendar4 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-calendar4"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7958,7 +8686,7 @@ export let BCameraFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-camera-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -7982,7 +8710,7 @@ export let BCameraReelsFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-camera-reels-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8010,7 +8738,7 @@ export let BCameraReels = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-camera-reels"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8038,7 +8766,7 @@ export let BCameraVideoFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-camera-video-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8058,7 +8786,7 @@ export let BCameraVideoOffFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-camera-video-off-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8078,7 +8806,7 @@ export let BCameraVideoOff = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-camera-video-off"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8098,7 +8826,7 @@ export let BCameraVideo = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-camera-video"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8118,7 +8846,7 @@ export let BCamera = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-camera"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8142,7 +8870,7 @@ export let BCamera2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-camera2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8166,7 +8894,7 @@ export let BCapslockFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-capslock-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8186,7 +8914,7 @@ export let BCapslock = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-capslock"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8206,11 +8934,11 @@ export let BCapsulePill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-capsule-pill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M11.02 5.364a3 3 0 0 0-4.242-4.243L1.121 6.778a3 3 0 1 0 4.243 4.243l5.657-5.657Zm-6.413-.657 2.878-2.879a2 2 0 1 1 2.829 2.829L7.435 7.536 4.607 4.707ZM12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm-.5 1.041a3 3 0 0 0 0 5.918V9.04Zm1 5.918a3 3 0 0 0 0-5.918v5.918Z"}
+          {"d":"M11.02 5.364a3 3 0 0 0-4.242-4.243L1.121 6.778a3 3 0 1 0 4.243 4.243l5.657-5.657Zm-6.413-.657 2.878-2.879a2 2 0 1 1 2.829 2.829L7.435 7.536 4.607 4.707ZM12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm-.5 1.042a3 3 0 0 0 0 5.917V9.042Zm1 5.917a3 3 0 0 0 0-5.917v5.917Z"}
         ) 
       ]
     )
@@ -8226,11 +8954,11 @@ export let BCapsule = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-capsule"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M1.828 8.9 8.9 1.827a4 4 0 1 1 5.657 5.657l-7.07 7.071A4 4 0 1 1 1.827 8.9Zm9.128.771 2.893-2.893a3 3 0 1 0-4.243-4.242L6.713 5.429l4.243 4.242Z"}
+          {"d":"M1.828 8.9 8.9 1.827a4 4 0 1 1 5.657 5.657l-7.07 7.071A4 4 0 1 1 1.827 8.9Zm9.128.771 2.893-2.893a3 3 0 1 0-4.243-4.242L6.713 5.429l4.243 4.242Z"}
         ) 
       ]
     )
@@ -8246,11 +8974,11 @@ export let BCarFrontFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-car-front-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189l.956-1.913A.5.5 0 0 1 4.309 3h7.382a.5.5 0 0 1 .447.276l.956 1.913a.51.51 0 0 1-.497.731c-.91-.073-3.35-.17-4.597-.17-1.247 0-3.688.097-4.597.17a.51.51 0 0 1-.497-.731Z"}
+          {"d":"M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"}
         ) 
       ]
     )
@@ -8266,7 +8994,7 @@ export let BCarFront = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-car-front"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8274,7 +9002,7 @@ export let BCarFront = {
         ),
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM4.82 3a1.5 1.5 0 0 0-1.379.91l-.792 1.847a1.8 1.8 0 0 1-.853.904.807.807 0 0 0-.43.564L1.03 8.904a1.5 1.5 0 0 0-.03.294v.413c0 .796.62 1.448 1.408 1.484 1.555.07 3.786.155 5.592.155 1.806 0 4.037-.084 5.592-.155A1.479 1.479 0 0 0 15 9.611v-.413c0-.099-.01-.197-.03-.294l-.335-1.68a.807.807 0 0 0-.43-.563 1.807 1.807 0 0 1-.853-.904l-.792-1.848A1.5 1.5 0 0 0 11.18 3H4.82Z"}
+          {"d":"M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM4.82 3a1.5 1.5 0 0 0-1.379.91l-.792 1.847a1.8 1.8 0 0 1-.853.904.807.807 0 0 0-.43.564L1.03 8.904a1.5 1.5 0 0 0-.03.294v.413c0 .796.62 1.448 1.408 1.484 1.555.07 3.786.155 5.592.155 1.806 0 4.037-.084 5.592-.155A1.479 1.479 0 0 0 15 9.611v-.413c0-.099-.01-.197-.03-.294l-.335-1.68a.807.807 0 0 0-.43-.563 1.807 1.807 0 0 1-.853-.904l-.792-1.848A1.5 1.5 0 0 0 11.18 3H4.82Z"}
         ) 
       ]
     )
@@ -8290,7 +9018,7 @@ export let BCardChecklist = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-card-checklist"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8314,7 +9042,7 @@ export let BCardHeading = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-card-heading"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8338,7 +9066,7 @@ export let BCardImage = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-card-image"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8362,7 +9090,7 @@ export let BCardList = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-card-list"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8386,7 +9114,7 @@ export let BCardText = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-card-text"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8410,7 +9138,7 @@ export let BCaretDownFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-caret-down-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8430,7 +9158,7 @@ export let BCaretDownSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-caret-down-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8450,7 +9178,7 @@ export let BCaretDownSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-caret-down-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8474,7 +9202,7 @@ export let BCaretDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-caret-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8494,7 +9222,7 @@ export let BCaretLeftFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-caret-left-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8514,7 +9242,7 @@ export let BCaretLeftSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-caret-left-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8534,7 +9262,7 @@ export let BCaretLeftSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-caret-left-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8558,7 +9286,7 @@ export let BCaretLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-caret-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8578,7 +9306,7 @@ export let BCaretRightFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-caret-right-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8598,7 +9326,7 @@ export let BCaretRightSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-caret-right-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8618,7 +9346,7 @@ export let BCaretRightSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-caret-right-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8642,7 +9370,7 @@ export let BCaretRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-caret-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8662,7 +9390,7 @@ export let BCaretUpFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-caret-up-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8682,7 +9410,7 @@ export let BCaretUpSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-caret-up-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8702,7 +9430,7 @@ export let BCaretUpSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-caret-up-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8726,7 +9454,7 @@ export let BCaretUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-caret-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8746,7 +9474,7 @@ export let BCartCheckFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cart-check-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8766,7 +9494,7 @@ export let BCartCheck = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cart-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8790,7 +9518,7 @@ export let BCartDashFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cart-dash-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8810,7 +9538,7 @@ export let BCartDash = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cart-dash"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8834,7 +9562,7 @@ export let BCartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8854,7 +9582,7 @@ export let BCartPlusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cart-plus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8874,7 +9602,7 @@ export let BCartPlus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cart-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8898,7 +9626,7 @@ export let BCartXFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cart-x-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8918,7 +9646,7 @@ export let BCartX = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cart-x"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8942,7 +9670,7 @@ export let BCart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8962,7 +9690,7 @@ export let BCart2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cart2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -8982,7 +9710,7 @@ export let BCart3 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cart3"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9002,7 +9730,7 @@ export let BCart4 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cart4"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9022,7 +9750,7 @@ export let BCashCoin = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cash-coin"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9054,7 +9782,7 @@ export let BCashStack = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cash-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9078,7 +9806,7 @@ export let BCash = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cash"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9102,7 +9830,7 @@ export let BCassetteFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cassette-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9126,7 +9854,7 @@ export let BCassette = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cassette"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9150,7 +9878,7 @@ export let BCast = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cast"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9174,7 +9902,7 @@ export let BCcCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cc-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9194,7 +9922,7 @@ export let BCcCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cc-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9214,7 +9942,7 @@ export let BCcSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cc-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9234,7 +9962,7 @@ export let BCcSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cc-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9258,7 +9986,7 @@ export let BChatDotsFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-dots-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9278,7 +10006,7 @@ export let BChatDots = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-dots"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9302,7 +10030,7 @@ export let BChatFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9322,7 +10050,7 @@ export let BChatHeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9342,7 +10070,7 @@ export let BChatHeart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9362,7 +10090,7 @@ export let BChatLeftDotsFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-left-dots-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9382,7 +10110,7 @@ export let BChatLeftDots = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-left-dots"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9406,7 +10134,7 @@ export let BChatLeftFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-left-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9426,7 +10154,7 @@ export let BChatLeftHeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-left-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9446,7 +10174,7 @@ export let BChatLeftHeart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-left-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9470,7 +10198,7 @@ export let BChatLeftQuoteFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-left-quote-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9490,7 +10218,7 @@ export let BChatLeftQuote = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-left-quote"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9514,7 +10242,7 @@ export let BChatLeftTextFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-left-text-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9534,7 +10262,7 @@ export let BChatLeftText = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-left-text"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9558,7 +10286,7 @@ export let BChatLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9578,7 +10306,7 @@ export let BChatQuoteFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-quote-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9598,7 +10326,7 @@ export let BChatQuote = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-quote"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9622,7 +10350,7 @@ export let BChatRightDotsFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-right-dots-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9642,7 +10370,7 @@ export let BChatRightDots = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-right-dots"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9666,7 +10394,7 @@ export let BChatRightFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-right-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9686,7 +10414,7 @@ export let BChatRightHeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-right-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9706,7 +10434,7 @@ export let BChatRightHeart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-right-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9730,7 +10458,7 @@ export let BChatRightQuoteFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-right-quote-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9750,7 +10478,7 @@ export let BChatRightQuote = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-right-quote"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9774,7 +10502,7 @@ export let BChatRightTextFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-right-text-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9794,7 +10522,7 @@ export let BChatRightText = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-right-text"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9818,7 +10546,7 @@ export let BChatRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9838,7 +10566,7 @@ export let BChatSquareDotsFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-square-dots-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9858,7 +10586,7 @@ export let BChatSquareDots = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-square-dots"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9882,7 +10610,7 @@ export let BChatSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9902,7 +10630,7 @@ export let BChatSquareHeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-square-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9922,7 +10650,7 @@ export let BChatSquareHeart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-square-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9946,7 +10674,7 @@ export let BChatSquareQuoteFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-square-quote-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9966,7 +10694,7 @@ export let BChatSquareQuote = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-square-quote"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -9990,7 +10718,7 @@ export let BChatSquareTextFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-square-text-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10010,7 +10738,7 @@ export let BChatSquareText = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-square-text"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10034,7 +10762,7 @@ export let BChatSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10054,7 +10782,7 @@ export let BChatTextFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-text-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10074,7 +10802,7 @@ export let BChatText = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat-text"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10098,7 +10826,7 @@ export let BChat = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chat"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10118,7 +10846,7 @@ export let BCheckAll = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-check-all"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10138,7 +10866,7 @@ export let BCheckCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-check-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10158,7 +10886,7 @@ export let BCheckCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-check-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10182,7 +10910,7 @@ export let BCheckLg = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-check-lg"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10202,7 +10930,7 @@ export let BCheckSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-check-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10222,7 +10950,7 @@ export let BCheckSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-check-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10246,7 +10974,7 @@ export let BCheck = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10266,7 +10994,7 @@ export let BCheck2All = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-check2-all"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10290,7 +11018,7 @@ export let BCheck2Circle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-check2-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10314,7 +11042,7 @@ export let BCheck2Square = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-check2-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10338,7 +11066,7 @@ export let BCheck2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-check2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10358,7 +11086,7 @@ export let BChevronBarContract = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chevron-bar-contract"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10378,7 +11106,7 @@ export let BChevronBarDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chevron-bar-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10398,7 +11126,7 @@ export let BChevronBarExpand = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chevron-bar-expand"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10418,7 +11146,7 @@ export let BChevronBarLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chevron-bar-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10438,7 +11166,7 @@ export let BChevronBarRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chevron-bar-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10458,7 +11186,7 @@ export let BChevronBarUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chevron-bar-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10478,7 +11206,7 @@ export let BChevronCompactDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chevron-compact-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10498,7 +11226,7 @@ export let BChevronCompactLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chevron-compact-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10518,7 +11246,7 @@ export let BChevronCompactRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chevron-compact-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10538,7 +11266,7 @@ export let BChevronCompactUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chevron-compact-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10558,7 +11286,7 @@ export let BChevronContract = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chevron-contract"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10578,7 +11306,7 @@ export let BChevronDoubleDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chevron-double-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10602,7 +11330,7 @@ export let BChevronDoubleLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chevron-double-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10626,7 +11354,7 @@ export let BChevronDoubleRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chevron-double-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10650,7 +11378,7 @@ export let BChevronDoubleUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chevron-double-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10674,7 +11402,7 @@ export let BChevronDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chevron-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10694,7 +11422,7 @@ export let BChevronExpand = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chevron-expand"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10714,7 +11442,7 @@ export let BChevronLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chevron-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10734,7 +11462,7 @@ export let BChevronRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chevron-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10754,7 +11482,7 @@ export let BChevronUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-chevron-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10774,7 +11502,7 @@ export let BCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "circle",
@@ -10794,7 +11522,7 @@ export let BCircleHalf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-circle-half"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10814,7 +11542,7 @@ export let BCircleSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-circle-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10838,7 +11566,7 @@ export let BCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10858,7 +11586,7 @@ export let BClipboardCheckFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard-check-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10882,7 +11610,7 @@ export let BClipboardCheck = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10910,7 +11638,7 @@ export let BClipboardDataFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard-data-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10934,7 +11662,7 @@ export let BClipboardData = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard-data"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10962,7 +11690,7 @@ export let BClipboardFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -10982,7 +11710,7 @@ export let BClipboardHeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11006,7 +11734,7 @@ export let BClipboardHeart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11034,7 +11762,7 @@ export let BClipboardMinusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard-minus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11058,7 +11786,7 @@ export let BClipboardMinus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11086,7 +11814,7 @@ export let BClipboardPlusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard-plus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11110,7 +11838,7 @@ export let BClipboardPlus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11138,7 +11866,7 @@ export let BClipboardPulse = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard-pulse"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11158,7 +11886,7 @@ export let BClipboardXFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard-x-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11182,7 +11910,7 @@ export let BClipboardX = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard-x"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11210,7 +11938,7 @@ export let BClipboard = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11234,7 +11962,7 @@ export let BClipboard2CheckFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard2-check-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11258,7 +11986,7 @@ export let BClipboard2Check = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard2-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11286,7 +12014,7 @@ export let BClipboard2DataFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard2-data-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11310,7 +12038,7 @@ export let BClipboard2Data = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard2-data"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11338,7 +12066,7 @@ export let BClipboard2Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard2-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11362,7 +12090,7 @@ export let BClipboard2HeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard2-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11386,7 +12114,7 @@ export let BClipboard2Heart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard2-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11414,7 +12142,7 @@ export let BClipboard2MinusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard2-minus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11438,7 +12166,7 @@ export let BClipboard2Minus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard2-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11466,7 +12194,7 @@ export let BClipboard2PlusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard2-plus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11490,7 +12218,7 @@ export let BClipboard2Plus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard2-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11518,7 +12246,7 @@ export let BClipboard2PulseFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard2-pulse-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11542,7 +12270,7 @@ export let BClipboard2Pulse = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard2-pulse"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11570,7 +12298,7 @@ export let BClipboard2XFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard2-x-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11594,7 +12322,7 @@ export let BClipboard2X = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard2-x"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11622,7 +12350,7 @@ export let BClipboard2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clipboard2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11646,7 +12374,7 @@ export let BClockFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clock-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11666,7 +12394,7 @@ export let BClockHistory = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clock-history"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11694,7 +12422,7 @@ export let BClock = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clock"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11718,7 +12446,7 @@ export let BCloudArrowDownFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-arrow-down-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11738,7 +12466,7 @@ export let BCloudArrowDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11762,7 +12490,7 @@ export let BCloudArrowUpFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-arrow-up-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11782,7 +12510,7 @@ export let BCloudArrowUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-arrow-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11806,7 +12534,7 @@ export let BCloudCheckFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-check-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11826,7 +12554,7 @@ export let BCloudCheck = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11850,7 +12578,7 @@ export let BCloudDownloadFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-download-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11870,7 +12598,7 @@ export let BCloudDownload = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-download"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11894,7 +12622,7 @@ export let BCloudDrizzleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-drizzle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11914,7 +12642,7 @@ export let BCloudDrizzle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-drizzle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11934,7 +12662,7 @@ export let BCloudFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11954,7 +12682,7 @@ export let BCloudFogFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-fog-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11974,7 +12702,7 @@ export let BCloudFog = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-fog"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -11994,7 +12722,7 @@ export let BCloudFog2Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-fog2-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12014,7 +12742,7 @@ export let BCloudFog2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-fog2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12034,7 +12762,7 @@ export let BCloudHailFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-hail-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12054,7 +12782,7 @@ export let BCloudHail = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-hail"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12074,7 +12802,7 @@ export let BCloudHazeFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-haze-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12094,7 +12822,7 @@ export let BCloudHaze = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-haze"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12114,7 +12842,7 @@ export let BCloudHaze2Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-haze2-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12134,7 +12862,7 @@ export let BCloudHaze2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-haze2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12154,7 +12882,7 @@ export let BCloudLightningFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-lightning-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12174,7 +12902,7 @@ export let BCloudLightningRainFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-lightning-rain-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12194,7 +12922,7 @@ export let BCloudLightningRain = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-lightning-rain"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12214,7 +12942,7 @@ export let BCloudLightning = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-lightning"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12234,7 +12962,7 @@ export let BCloudMinusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-minus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12254,7 +12982,7 @@ export let BCloudMinus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12278,7 +13006,7 @@ export let BCloudMoonFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-moon-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12302,7 +13030,7 @@ export let BCloudMoon = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-moon"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12326,7 +13054,7 @@ export let BCloudPlusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-plus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12346,7 +13074,7 @@ export let BCloudPlus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12370,7 +13098,7 @@ export let BCloudRainFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-rain-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12390,7 +13118,7 @@ export let BCloudRainHeavyFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-rain-heavy-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12410,7 +13138,7 @@ export let BCloudRainHeavy = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-rain-heavy"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12430,7 +13158,7 @@ export let BCloudRain = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-rain"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12450,7 +13178,7 @@ export let BCloudSlashFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-slash-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12470,7 +13198,7 @@ export let BCloudSlash = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12494,7 +13222,7 @@ export let BCloudSleetFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-sleet-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12514,7 +13242,7 @@ export let BCloudSleet = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-sleet"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12534,7 +13262,7 @@ export let BCloudSnowFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-snow-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12554,7 +13282,7 @@ export let BCloudSnow = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-snow"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12574,7 +13302,7 @@ export let BCloudSunFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-sun-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12598,7 +13326,7 @@ export let BCloudSun = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-sun"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12622,7 +13350,7 @@ export let BCloudUploadFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-upload-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12642,7 +13370,7 @@ export let BCloudUpload = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud-upload"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12666,7 +13394,7 @@ export let BCloud = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloud"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12686,7 +13414,7 @@ export let BCloudsFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clouds-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12710,7 +13438,7 @@ export let BClouds = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-clouds"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12734,7 +13462,7 @@ export let BCloudyFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloudy-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12754,7 +13482,7 @@ export let BCloudy = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cloudy"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12774,7 +13502,7 @@ export let BCodeSlash = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-code-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12794,7 +13522,7 @@ export let BCodeSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-code-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12818,7 +13546,7 @@ export let BCode = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-code"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12838,7 +13566,7 @@ export let BCoin = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-coin"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12866,7 +13594,7 @@ export let BCollectionFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-collection-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12886,7 +13614,7 @@ export let BCollectionPlayFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-collection-play-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12906,7 +13634,7 @@ export let BCollectionPlay = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-collection-play"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12930,7 +13658,7 @@ export let BCollection = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-collection"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12950,7 +13678,7 @@ export let BColumnsGap = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-columns-gap"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12970,7 +13698,7 @@ export let BColumns = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-columns"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -12990,7 +13718,7 @@ export let BCommand = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-command"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13010,7 +13738,7 @@ export let BCompassFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-compass-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13030,7 +13758,7 @@ export let BCompass = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-compass"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13054,7 +13782,7 @@ export let BConeStriped = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cone-striped"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13074,7 +13802,7 @@ export let BCone = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cone"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13094,7 +13822,7 @@ export let BController = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-controller"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13118,7 +13846,7 @@ export let BCpuFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cpu-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13142,7 +13870,7 @@ export let BCpu = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cpu"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13162,7 +13890,7 @@ export let BCreditCard2BackFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-credit-card-2-back-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13182,7 +13910,7 @@ export let BCreditCard2Back = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-credit-card-2-back"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13206,7 +13934,7 @@ export let BCreditCard2FrontFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-credit-card-2-front-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13226,7 +13954,7 @@ export let BCreditCard2Front = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-credit-card-2-front"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13250,7 +13978,7 @@ export let BCreditCardFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-credit-card-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13270,7 +13998,7 @@ export let BCreditCard = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-credit-card"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13294,7 +14022,7 @@ export let BCrop = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-crop"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13314,7 +14042,7 @@ export let BCupFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cup-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13334,7 +14062,7 @@ export let BCupHotFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cup-hot-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13358,7 +14086,7 @@ export let BCupHot = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cup-hot"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13382,7 +14110,7 @@ export let BCupStraw = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cup-straw"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13402,7 +14130,7 @@ export let BCup = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cup"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13422,7 +14150,7 @@ export let BCurrencyBitcoin = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-currency-bitcoin"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13442,7 +14170,7 @@ export let BCurrencyDollar = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-currency-dollar"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13462,7 +14190,7 @@ export let BCurrencyEuro = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-currency-euro"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13482,7 +14210,7 @@ export let BCurrencyExchange = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-currency-exchange"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13502,7 +14230,7 @@ export let BCurrencyPound = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-currency-pound"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13522,7 +14250,7 @@ export let BCurrencyRupee = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-currency-rupee"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13542,7 +14270,7 @@ export let BCurrencyYen = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-currency-yen"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13562,7 +14290,7 @@ export let BCursorFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cursor-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13582,7 +14310,7 @@ export let BCursorText = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cursor-text"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13602,7 +14330,7 @@ export let BCursor = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-cursor"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13622,7 +14350,7 @@ export let BDashCircleDotted = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dash-circle-dotted"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13642,7 +14370,7 @@ export let BDashCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dash-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13662,7 +14390,7 @@ export let BDashCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dash-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13686,7 +14414,7 @@ export let BDashLg = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dash-lg"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13706,7 +14434,7 @@ export let BDashSquareDotted = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dash-square-dotted"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13726,7 +14454,7 @@ export let BDashSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dash-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13746,7 +14474,7 @@ export let BDashSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dash-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13770,11 +14498,555 @@ export let BDash = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dash"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
           {"d":"M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabaseAdd = {
+  $_icon: {
+    name: "DatabaseAdd",
+    vendor: "B",
+    type: [],
+    tags: ["database","add"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0Z"}
+        ),
+        h(
+          "path",
+          {"d":"M12.096 6.223A4.92 4.92 0 0 0 13 5.698V7c0 .289-.213.654-.753 1.007a4.493 4.493 0 0 1 1.753.25V4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.525 4.525 0 0 1-.813-.927C8.5 14.992 8.252 15 8 15c-1.464 0-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13h.027a4.552 4.552 0 0 1 0-1H8c-1.464 0-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10c.262 0 .52-.008.774-.024a4.525 4.525 0 0 1 1.102-1.132C9.298 8.944 8.666 9 8 9c-1.464 0-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777ZM3 4c0-.374.356-.875 1.318-1.313C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabaseCheck = {
+  $_icon: {
+    name: "DatabaseCheck",
+    vendor: "B",
+    type: [],
+    tags: ["database","check"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514Z"}
+        ),
+        h(
+          "path",
+          {"d":"M12.096 6.223A4.92 4.92 0 0 0 13 5.698V7c0 .289-.213.654-.753 1.007a4.493 4.493 0 0 1 1.753.25V4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.525 4.525 0 0 1-.813-.927C8.5 14.992 8.252 15 8 15c-1.464 0-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13h.027a4.552 4.552 0 0 1 0-1H8c-1.464 0-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10c.262 0 .52-.008.774-.024a4.525 4.525 0 0 1 1.102-1.132C9.298 8.944 8.666 9 8 9c-1.464 0-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777ZM3 4c0-.374.356-.875 1.318-1.313C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabaseDash = {
+  $_icon: {
+    name: "DatabaseDash",
+    vendor: "B",
+    type: [],
+    tags: ["database","dash"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7ZM11 12h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M12.096 6.223A4.92 4.92 0 0 0 13 5.698V7c0 .289-.213.654-.753 1.007a4.493 4.493 0 0 1 1.753.25V4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.525 4.525 0 0 1-.813-.927C8.5 14.992 8.252 15 8 15c-1.464 0-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13h.027a4.552 4.552 0 0 1 0-1H8c-1.464 0-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10c.262 0 .52-.008.774-.024a4.525 4.525 0 0 1 1.102-1.132C9.298 8.944 8.666 9 8 9c-1.464 0-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777ZM3 4c0-.374.356-.875 1.318-1.313C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabaseDown = {
+  $_icon: {
+    name: "DatabaseDown",
+    vendor: "B",
+    type: [],
+    tags: ["database","down"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 9a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7Zm.354 5.854 1.5-1.5a.5.5 0 0 0-.708-.708l-.646.647V10.5a.5.5 0 0 0-1 0v2.793l-.646-.647a.5.5 0 0 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0Z"}
+        ),
+        h(
+          "path",
+          {"d":"M12.096 6.223A4.92 4.92 0 0 0 13 5.698V7c0 .289-.213.654-.753 1.007a4.493 4.493 0 0 1 1.753.25V4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.525 4.525 0 0 1-.813-.927C8.5 14.992 8.252 15 8 15c-1.464 0-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13h.027a4.552 4.552 0 0 1 0-1H8c-1.464 0-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10c.262 0 .52-.008.774-.024a4.525 4.525 0 0 1 1.102-1.132C9.298 8.944 8.666 9 8 9c-1.464 0-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777ZM3 4c0-.374.356-.875 1.318-1.313C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabaseExclamation = {
+  $_icon: {
+    name: "DatabaseExclamation",
+    vendor: "B",
+    type: [],
+    tags: ["database","exclamation"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.096 6.223A4.92 4.92 0 0 0 13 5.698V7c0 .289-.213.654-.753 1.007a4.493 4.493 0 0 1 1.753.25V4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.525 4.525 0 0 1-.813-.927C8.5 14.992 8.252 15 8 15c-1.464 0-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13h.027a4.552 4.552 0 0 1 0-1H8c-1.464 0-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10c.262 0 .52-.008.774-.024a4.525 4.525 0 0 1 1.102-1.132C9.298 8.944 8.666 9 8 9c-1.464 0-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777ZM3 4c0-.374.356-.875 1.318-1.313C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4Z"}
+        ),
+        h(
+          "path",
+          {"d":"M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-3.5-2a.5.5 0 0 0-.5.5v1.5a.5.5 0 0 0 1 0V11a.5.5 0 0 0-.5-.5Zm0 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabaseFillAdd = {
+  $_icon: {
+    name: "DatabaseFillAdd",
+    vendor: "B",
+    type: [],
+    tags: ["database","fill","add"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0ZM8 1c-1.573 0-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4s.875 1.755 1.904 2.223C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777C13.125 5.755 14 5.007 14 4s-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 7v-.839c.457.432 1.004.751 1.49.972C4.722 7.693 6.318 8 8 8s3.278-.307 4.51-.867c.486-.22 1.033-.54 1.49-.972V7c0 .424-.155.802-.411 1.133a4.51 4.51 0 0 0-4.815 1.843A12.31 12.31 0 0 1 8 10c-1.573 0-3.022-.289-4.096-.777C2.875 8.755 2 8.007 2 7Zm6.257 3.998L8 11c-1.682 0-3.278-.307-4.51-.867-.486-.22-1.033-.54-1.49-.972V10c0 1.007.875 1.755 1.904 2.223C4.978 12.711 6.427 13 8 13h.027a4.552 4.552 0 0 1 .23-2.002Zm-.002 3L8 14c-1.682 0-3.278-.307-4.51-.867-.486-.22-1.033-.54-1.49-.972V13c0 1.007.875 1.755 1.904 2.223C4.978 15.711 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.507 4.507 0 0 1-1.3-1.905Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabaseFillCheck = {
+  $_icon: {
+    name: "DatabaseFillCheck",
+    vendor: "B",
+    type: [],
+    tags: ["database","fill","check"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514ZM8 1c-1.573 0-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4s.875 1.755 1.904 2.223C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777C13.125 5.755 14 5.007 14 4s-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 7v-.839c.457.432 1.004.751 1.49.972C4.722 7.693 6.318 8 8 8s3.278-.307 4.51-.867c.486-.22 1.033-.54 1.49-.972V7c0 .424-.155.802-.411 1.133a4.51 4.51 0 0 0-4.815 1.843A12.31 12.31 0 0 1 8 10c-1.573 0-3.022-.289-4.096-.777C2.875 8.755 2 8.007 2 7Zm6.257 3.998L8 11c-1.682 0-3.278-.307-4.51-.867-.486-.22-1.033-.54-1.49-.972V10c0 1.007.875 1.755 1.904 2.223C4.978 12.711 6.427 13 8 13h.027a4.552 4.552 0 0 1 .23-2.002Zm-.002 3L8 14c-1.682 0-3.278-.307-4.51-.867-.486-.22-1.033-.54-1.49-.972V13c0 1.007.875 1.755 1.904 2.223C4.978 15.711 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.507 4.507 0 0 1-1.3-1.905Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabaseFillDash = {
+  $_icon: {
+    name: "DatabaseFillDash",
+    vendor: "B",
+    type: [],
+    tags: ["database","fill","dash"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7ZM11 12h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1ZM8 1c-1.573 0-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4s.875 1.755 1.904 2.223C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777C13.125 5.755 14 5.007 14 4s-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 7v-.839c.457.432 1.004.751 1.49.972C4.722 7.693 6.318 8 8 8s3.278-.307 4.51-.867c.486-.22 1.033-.54 1.49-.972V7c0 .424-.155.802-.411 1.133a4.51 4.51 0 0 0-4.815 1.843A12.31 12.31 0 0 1 8 10c-1.573 0-3.022-.289-4.096-.777C2.875 8.755 2 8.007 2 7Zm6.257 3.998L8 11c-1.682 0-3.278-.307-4.51-.867-.486-.22-1.033-.54-1.49-.972V10c0 1.007.875 1.755 1.904 2.223C4.978 12.711 6.427 13 8 13h.027a4.552 4.552 0 0 1 .23-2.002Zm-.002 3L8 14c-1.682 0-3.278-.307-4.51-.867-.486-.22-1.033-.54-1.49-.972V13c0 1.007.875 1.755 1.904 2.223C4.978 15.711 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.507 4.507 0 0 1-1.3-1.905Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabaseFillDown = {
+  $_icon: {
+    name: "DatabaseFillDown",
+    vendor: "B",
+    type: [],
+    tags: ["database","fill","down"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 9a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7Zm.354 5.854 1.5-1.5a.5.5 0 0 0-.708-.708l-.646.647V10.5a.5.5 0 0 0-1 0v2.793l-.646-.647a.5.5 0 0 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0ZM8 1c-1.573 0-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4s.875 1.755 1.904 2.223C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777C13.125 5.755 14 5.007 14 4s-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 7v-.839c.457.432 1.004.751 1.49.972C4.722 7.693 6.318 8 8 8s3.278-.307 4.51-.867c.486-.22 1.033-.54 1.49-.972V7c0 .424-.155.802-.411 1.133a4.51 4.51 0 0 0-4.815 1.843A12.31 12.31 0 0 1 8 10c-1.573 0-3.022-.289-4.096-.777C2.875 8.755 2 8.007 2 7Zm6.257 3.998L8 11c-1.682 0-3.278-.307-4.51-.867-.486-.22-1.033-.54-1.49-.972V10c0 1.007.875 1.755 1.904 2.223C4.978 12.711 6.427 13 8 13h.027a4.552 4.552 0 0 1 .23-2.002Zm-.002 3L8 14c-1.682 0-3.278-.307-4.51-.867-.486-.22-1.033-.54-1.49-.972V13c0 1.007.875 1.755 1.904 2.223C4.978 15.711 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.507 4.507 0 0 1-1.3-1.905Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabaseFillExclamation = {
+  $_icon: {
+    name: "DatabaseFillExclamation",
+    vendor: "B",
+    type: [],
+    tags: ["database","fill","exclamation"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M8 1c-1.573 0-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4s.875 1.755 1.904 2.223C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777C13.125 5.755 14 5.007 14 4s-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 7v-.839c.457.432 1.004.751 1.49.972C4.722 7.693 6.318 8 8 8s3.278-.307 4.51-.867c.486-.22 1.033-.54 1.49-.972V7c0 .424-.155.802-.411 1.133a4.51 4.51 0 0 0-4.815 1.843A12.31 12.31 0 0 1 8 10c-1.573 0-3.022-.289-4.096-.777C2.875 8.755 2 8.007 2 7Zm6.257 3.998L8 11c-1.682 0-3.278-.307-4.51-.867-.486-.22-1.033-.54-1.49-.972V10c0 1.007.875 1.755 1.904 2.223C4.978 12.711 6.427 13 8 13h.027a4.552 4.552 0 0 1 .23-2.002Zm-.002 3L8 14c-1.682 0-3.278-.307-4.51-.867-.486-.22-1.033-.54-1.49-.972V13c0 1.007.875 1.755 1.904 2.223C4.978 15.711 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.507 4.507 0 0 1-1.3-1.905Z"}
+        ),
+        h(
+          "path",
+          {"d":"M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-3.5-2a.5.5 0 0 0-.5.5v1.5a.5.5 0 0 0 1 0V11a.5.5 0 0 0-.5-.5Zm0 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabaseFillGear = {
+  $_icon: {
+    name: "DatabaseFillGear",
+    vendor: "B",
+    type: [],
+    tags: ["database","fill","gear"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M8 1c-1.573 0-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4s.875 1.755 1.904 2.223C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777C13.125 5.755 14 5.007 14 4s-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 7v-.839c.457.432 1.004.751 1.49.972C4.722 7.693 6.318 8 8 8s3.278-.307 4.51-.867c.486-.22 1.033-.54 1.49-.972V7c0 .424-.155.802-.411 1.133a4.51 4.51 0 0 0-4.815 1.843A12.31 12.31 0 0 1 8 10c-1.573 0-3.022-.289-4.096-.777C2.875 8.755 2 8.007 2 7Zm6.257 3.998L8 11c-1.682 0-3.278-.307-4.51-.867-.486-.22-1.033-.54-1.49-.972V10c0 1.007.875 1.755 1.904 2.223C4.978 12.711 6.427 13 8 13h.027a4.552 4.552 0 0 1 .23-2.002Zm-.002 3L8 14c-1.682 0-3.278-.307-4.51-.867-.486-.22-1.033-.54-1.49-.972V13c0 1.007.875 1.755 1.904 2.223C4.978 15.711 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.507 4.507 0 0 1-1.3-1.905Zm3.631-4.538c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabaseFillLock = {
+  $_icon: {
+    name: "DatabaseFillLock",
+    vendor: "B",
+    type: [],
+    tags: ["database","fill","lock"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M8 1c-1.573 0-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4s.875 1.755 1.904 2.223C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777C13.125 5.755 14 5.007 14 4s-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M3.904 9.223C2.875 8.755 2 8.007 2 7v-.839c.457.432 1.004.751 1.49.972C4.722 7.693 6.318 8 8 8s3.278-.307 4.51-.867c.486-.22 1.033-.54 1.49-.972V7c0 .424-.155.802-.411 1.133a4.51 4.51 0 0 0-1.364-.125 2.988 2.988 0 0 0-2.197.731 4.525 4.525 0 0 0-1.254 1.237A12.31 12.31 0 0 1 8 10c-1.573 0-3.022-.289-4.096-.777ZM8 14c-1.682 0-3.278-.307-4.51-.867-.486-.22-1.033-.54-1.49-.972V13c0 1.007.875 1.755 1.904 2.223C4.978 15.711 6.427 16 8 16c.09 0 .178 0 .266-.003A1.99 1.99 0 0 1 8 15v-1Zm0-1.5c0 .1.003.201.01.3A1.9 1.9 0 0 0 8 13c-1.573 0-3.022-.289-4.096-.777C2.875 11.755 2 11.007 2 10v-.839c.457.432 1.004.751 1.49.972C4.722 10.693 6.318 11 8 11c.086 0 .172 0 .257-.002A4.5 4.5 0 0 0 8 12.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"M9 13a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2Zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabaseFillSlash = {
+  $_icon: {
+    name: "DatabaseFillSlash",
+    vendor: "B",
+    type: [],
+    tags: ["database","fill","slash"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M13.879 10.414a2.501 2.501 0 0 0-3.465 3.465l3.465-3.465Zm.707.707-3.465 3.465a2.501 2.501 0 0 0 3.465-3.465Zm-4.56-1.096a3.5 3.5 0 1 1 4.949 4.95 3.5 3.5 0 0 1-4.95-4.95ZM8 1c-1.573 0-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4s.875 1.755 1.904 2.223C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777C13.125 5.755 14 5.007 14 4s-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 7v-.839c.457.432 1.004.751 1.49.972C4.722 7.693 6.318 8 8 8s3.278-.307 4.51-.867c.486-.22 1.033-.54 1.49-.972V7c0 .424-.155.802-.411 1.133a4.51 4.51 0 0 0-4.815 1.843A12.31 12.31 0 0 1 8 10c-1.573 0-3.022-.289-4.096-.777C2.875 8.755 2 8.007 2 7Zm6.257 3.998L8 11c-1.682 0-3.278-.307-4.51-.867-.486-.22-1.033-.54-1.49-.972V10c0 1.007.875 1.755 1.904 2.223C4.978 12.711 6.427 13 8 13h.027a4.552 4.552 0 0 1 .23-2.002Zm-.002 3L8 14c-1.682 0-3.278-.307-4.51-.867-.486-.22-1.033-.54-1.49-.972V13c0 1.007.875 1.755 1.904 2.223C4.978 15.711 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.507 4.507 0 0 1-1.3-1.905Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabaseFillUp = {
+  $_icon: {
+    name: "DatabaseFillUp",
+    vendor: "B",
+    type: [],
+    tags: ["database","fill","up"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.354-5.854 1.5 1.5a.5.5 0 0 1-.708.708L13 11.707V14.5a.5.5 0 0 1-1 0v-2.793l-.646.647a.5.5 0 0 1-.708-.708l1.5-1.5a.5.5 0 0 1 .708 0ZM8 1c-1.573 0-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4s.875 1.755 1.904 2.223C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777C13.125 5.755 14 5.007 14 4s-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 7v-.839c.457.432 1.004.751 1.49.972C4.722 7.693 6.318 8 8 8s3.278-.307 4.51-.867c.486-.22 1.033-.54 1.49-.972V7c0 .424-.155.802-.411 1.133a4.51 4.51 0 0 0-4.815 1.843A12.31 12.31 0 0 1 8 10c-1.573 0-3.022-.289-4.096-.777C2.875 8.755 2 8.007 2 7Zm6.257 3.998L8 11c-1.682 0-3.278-.307-4.51-.867-.486-.22-1.033-.54-1.49-.972V10c0 1.007.875 1.755 1.904 2.223C4.978 12.711 6.427 13 8 13h.027a4.552 4.552 0 0 1 .23-2.002Zm-.002 3L8 14c-1.682 0-3.278-.307-4.51-.867-.486-.22-1.033-.54-1.49-.972V13c0 1.007.875 1.755 1.904 2.223C4.978 15.711 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.507 4.507 0 0 1-1.3-1.905Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabaseFillX = {
+  $_icon: {
+    name: "DatabaseFillX",
+    vendor: "B",
+    type: [],
+    tags: ["database","fill","x"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M8 1c-1.573 0-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4s.875 1.755 1.904 2.223C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777C13.125 5.755 14 5.007 14 4s-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 7v-.839c.457.432 1.004.751 1.49.972C4.722 7.693 6.318 8 8 8s3.278-.307 4.51-.867c.486-.22 1.033-.54 1.49-.972V7c0 .424-.155.802-.411 1.133a4.51 4.51 0 0 0-4.815 1.843A12.31 12.31 0 0 1 8 10c-1.573 0-3.022-.289-4.096-.777C2.875 8.755 2 8.007 2 7Zm6.257 3.998L8 11c-1.682 0-3.278-.307-4.51-.867-.486-.22-1.033-.54-1.49-.972V10c0 1.007.875 1.755 1.904 2.223C4.978 12.711 6.427 13 8 13h.027a4.552 4.552 0 0 1 .23-2.002Zm-.002 3L8 14c-1.682 0-3.278-.307-4.51-.867-.486-.22-1.033-.54-1.49-.972V13c0 1.007.875 1.755 1.904 2.223C4.978 15.711 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.507 4.507 0 0 1-1.3-1.905Z"}
+        ),
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm-.646-4.854.646.647.646-.647a.5.5 0 0 1 .708.708l-.647.646.647.646a.5.5 0 0 1-.708.708l-.646-.647-.646.647a.5.5 0 0 1-.708-.708l.647-.646-.647-.646a.5.5 0 0 1 .708-.708Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabaseFill = {
+  $_icon: {
+    name: "DatabaseFill",
+    vendor: "B",
+    type: [],
+    tags: ["database","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M3.904 1.777C4.978 1.289 6.427 1 8 1s3.022.289 4.096.777C13.125 2.245 14 2.993 14 4s-.875 1.755-1.904 2.223C11.022 6.711 9.573 7 8 7s-3.022-.289-4.096-.777C2.875 5.755 2 5.007 2 4s.875-1.755 1.904-2.223Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 6.161V7c0 1.007.875 1.755 1.904 2.223C4.978 9.71 6.427 10 8 10s3.022-.289 4.096-.777C13.125 8.755 14 8.007 14 7v-.839c-.457.432-1.004.751-1.49.972C11.278 7.693 9.682 8 8 8s-3.278-.307-4.51-.867c-.486-.22-1.033-.54-1.49-.972Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 9.161V10c0 1.007.875 1.755 1.904 2.223C4.978 12.711 6.427 13 8 13s3.022-.289 4.096-.777C13.125 11.755 14 11.007 14 10v-.839c-.457.432-1.004.751-1.49.972-1.232.56-2.828.867-4.51.867s-3.278-.307-4.51-.867c-.486-.22-1.033-.54-1.49-.972Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 12.161V13c0 1.007.875 1.755 1.904 2.223C4.978 15.711 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13v-.839c-.457.432-1.004.751-1.49.972-1.232.56-2.828.867-4.51.867s-3.278-.307-4.51-.867c-.486-.22-1.033-.54-1.49-.972Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabaseGear = {
+  $_icon: {
+    name: "DatabaseGear",
+    vendor: "B",
+    type: [],
+    tags: ["database","gear"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.096 6.223A4.92 4.92 0 0 0 13 5.698V7c0 .289-.213.654-.753 1.007a4.493 4.493 0 0 1 1.753.25V4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.525 4.525 0 0 1-.813-.927C8.5 14.992 8.252 15 8 15c-1.464 0-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13h.027a4.552 4.552 0 0 1 0-1H8c-1.464 0-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10c.262 0 .52-.008.774-.024a4.525 4.525 0 0 1 1.102-1.132C9.298 8.944 8.666 9 8 9c-1.464 0-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777ZM3 4c0-.374.356-.875 1.318-1.313C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4Z"}
+        ),
+        h(
+          "path",
+          {"d":"M11.886 9.46c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabaseLock = {
+  $_icon: {
+    name: "DatabaseLock",
+    vendor: "B",
+    type: [],
+    tags: ["database","lock"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M13 5.698a4.92 4.92 0 0 1-.904.525C11.022 6.711 9.573 7 8 7s-3.022-.289-4.096-.777A4.92 4.92 0 0 1 3 5.698V7c0 .374.356.875 1.318 1.313C5.234 8.729 6.536 9 8 9c.666 0 1.298-.056 1.876-.156-.43.31-.804.693-1.102 1.132A12.31 12.31 0 0 1 8 10c-1.573 0-3.022-.289-4.096-.777A4.92 4.92 0 0 1 3 8.698V10c0 .374.356.875 1.318 1.313C5.234 11.729 6.536 12 8 12h.027a4.548 4.548 0 0 0-.017.8A1.9 1.9 0 0 0 8 13c-1.573 0-3.022-.289-4.096-.777A4.916 4.916 0 0 1 3 11.698V13c0 .374.356.875 1.318 1.313C5.234 14.729 6.536 15 8 15c0 .363.097.704.266.997C8.178 16 8.089 16 8 16c-1.573 0-3.022-.289-4.096-.777C2.875 14.755 2 14.007 2 13V4c0-1.007.875-1.755 1.904-2.223C4.978 1.289 6.427 1 8 1s3.022.289 4.096.777C13.125 2.245 14 2.993 14 4v4.256a4.493 4.493 0 0 0-1.753-.249C12.787 7.654 13 7.289 13 7V5.698Zm-8.682-3.01C3.356 3.124 3 3.625 3 4c0 .374.356.875 1.318 1.313C5.234 5.729 6.536 6 8 6s2.766-.27 3.682-.687C12.644 4.875 13 4.373 13 4c0-.374-.356-.875-1.318-1.313C10.766 2.271 9.464 2 8 2s-2.766.27-3.682.687Z"}
+        ),
+        h(
+          "path",
+          {"d":"M9 13a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2Zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabaseSlash = {
+  $_icon: {
+    name: "DatabaseSlash",
+    vendor: "B",
+    type: [],
+    tags: ["database","slash"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M13.879 10.414a2.501 2.501 0 0 0-3.465 3.465l3.465-3.465Zm.707.707-3.465 3.465a2.501 2.501 0 0 0 3.465-3.465Zm-4.56-1.096a3.5 3.5 0 1 1 4.949 4.95 3.5 3.5 0 0 1-4.95-4.95Z"}
+        ),
+        h(
+          "path",
+          {"d":"M12.096 6.223A4.92 4.92 0 0 0 13 5.698V7c0 .289-.213.654-.753 1.007a4.493 4.493 0 0 1 1.753.25V4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.525 4.525 0 0 1-.813-.927C8.5 14.992 8.252 15 8 15c-1.464 0-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13h.027a4.552 4.552 0 0 1 0-1H8c-1.464 0-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10c.262 0 .52-.008.774-.024a4.525 4.525 0 0 1 1.102-1.132C9.298 8.944 8.666 9 8 9c-1.464 0-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777ZM3 4c0-.374.356-.875 1.318-1.313C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabaseUp = {
+  $_icon: {
+    name: "DatabaseUp",
+    vendor: "B",
+    type: [],
+    tags: ["database","up"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.354-5.854 1.5 1.5a.5.5 0 0 1-.708.708L13 11.707V14.5a.5.5 0 0 1-1 0v-2.793l-.646.647a.5.5 0 0 1-.708-.708l1.5-1.5a.5.5 0 0 1 .708 0Z"}
+        ),
+        h(
+          "path",
+          {"d":"M12.096 6.223A4.92 4.92 0 0 0 13 5.698V7c0 .289-.213.654-.753 1.007a4.493 4.493 0 0 1 1.753.25V4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.525 4.525 0 0 1-.813-.927C8.5 14.992 8.252 15 8 15c-1.464 0-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13h.027a4.552 4.552 0 0 1 0-1H8c-1.464 0-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10c.262 0 .52-.008.774-.024a4.525 4.525 0 0 1 1.102-1.132C9.298 8.944 8.666 9 8 9c-1.464 0-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777ZM3 4c0-.374.356-.875 1.318-1.313C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabaseX = {
+  $_icon: {
+    name: "DatabaseX",
+    vendor: "B",
+    type: [],
+    tags: ["database","x"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.096 6.223A4.92 4.92 0 0 0 13 5.698V7c0 .289-.213.654-.753 1.007a4.493 4.493 0 0 1 1.753.25V4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.525 4.525 0 0 1-.813-.927C8.5 14.992 8.252 15 8 15c-1.464 0-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13h.027a4.552 4.552 0 0 1 0-1H8c-1.464 0-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10c.262 0 .52-.008.774-.024a4.525 4.525 0 0 1 1.102-1.132C9.298 8.944 8.666 9 8 9c-1.464 0-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777ZM3 4c0-.374.356-.875 1.318-1.313C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4Z"}
+        ),
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm-.646-4.854.646.647.646-.647a.5.5 0 0 1 .708.708l-.647.646.647.646a.5.5 0 0 1-.708.708l-.646-.647-.646.647a.5.5 0 0 1-.708-.708l.647-.646-.647-.646a.5.5 0 0 1 .708-.708Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BDatabase = {
+  $_icon: {
+    name: "Database",
+    vendor: "B",
+    type: [],
+    tags: ["database"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M4.318 2.687C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4c0-.374.356-.875 1.318-1.313ZM13 5.698V7c0 .374-.356.875-1.318 1.313C10.766 8.729 9.464 9 8 9s-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777A4.92 4.92 0 0 0 13 5.698ZM14 4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13V4Zm-1 4.698V10c0 .374-.356.875-1.318 1.313C10.766 11.729 9.464 12 8 12s-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10s3.022-.289 4.096-.777A4.92 4.92 0 0 0 13 8.698Zm0 3V13c0 .374-.356.875-1.318 1.313C10.766 14.729 9.464 15 8 15s-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13s3.022-.289 4.096-.777c.324-.147.633-.323.904-.525Z"}
         ) 
       ]
     )
@@ -13790,7 +15062,7 @@ export let BDeviceHddFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-device-hdd-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13814,7 +15086,7 @@ export let BDeviceHdd = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-device-hdd"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13842,7 +15114,7 @@ export let BDeviceSsdFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-device-ssd-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13866,7 +15138,7 @@ export let BDeviceSsd = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-device-ssd"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13890,7 +15162,7 @@ export let BDiagram2Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-diagram-2-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13910,7 +15182,7 @@ export let BDiagram2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-diagram-2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13930,7 +15202,7 @@ export let BDiagram3Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-diagram-3-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13950,7 +15222,7 @@ export let BDiagram3 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-diagram-3"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13970,7 +15242,7 @@ export let BDiamondFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-diamond-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -13990,7 +15262,7 @@ export let BDiamondHalf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-diamond-half"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14010,7 +15282,7 @@ export let BDiamond = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-diamond"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14030,7 +15302,7 @@ export let BDice1Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dice-1-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14050,7 +15322,7 @@ export let BDice1 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dice-1"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "circle",
@@ -14074,7 +15346,7 @@ export let BDice2Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dice-2-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14094,7 +15366,7 @@ export let BDice2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dice-2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14118,7 +15390,7 @@ export let BDice3Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dice-3-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14138,7 +15410,7 @@ export let BDice3 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dice-3"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14162,7 +15434,7 @@ export let BDice4Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dice-4-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14182,7 +15454,7 @@ export let BDice4 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dice-4"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14206,7 +15478,7 @@ export let BDice5Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dice-5-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14226,7 +15498,7 @@ export let BDice5 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dice-5"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14250,7 +15522,7 @@ export let BDice6Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dice-6-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14270,7 +15542,7 @@ export let BDice6 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dice-6"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14294,7 +15566,7 @@ export let BDiscFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-disc-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14314,7 +15586,7 @@ export let BDisc = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-disc"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14338,7 +15610,7 @@ export let BDiscord = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-discord"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14358,7 +15630,7 @@ export let BDisplayFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-display-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14378,7 +15650,7 @@ export let BDisplay = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-display"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14398,7 +15670,7 @@ export let BDisplayportFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-displayport-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14418,7 +15690,7 @@ export let BDisplayport = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-displayport"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14442,7 +15714,7 @@ export let BDistributeHorizontal = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-distribute-horizontal"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14466,7 +15738,7 @@ export let BDistributeVertical = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-distribute-vertical"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14490,7 +15762,7 @@ export let BDoorClosedFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-door-closed-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14510,7 +15782,7 @@ export let BDoorClosed = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-door-closed"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14534,7 +15806,7 @@ export let BDoorOpenFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-door-open-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14554,7 +15826,7 @@ export let BDoorOpen = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-door-open"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14578,7 +15850,7 @@ export let BDot = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dot"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14598,7 +15870,7 @@ export let BDownload = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-download"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14622,7 +15894,7 @@ export let BDpadFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dpad-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14642,7 +15914,7 @@ export let BDpad = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dpad"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14666,7 +15938,7 @@ export let BDribbble = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dribbble"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14686,7 +15958,7 @@ export let BDropbox = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-dropbox"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14706,7 +15978,7 @@ export let BDropletFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-droplet-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14726,7 +15998,7 @@ export let BDropletHalf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-droplet-half"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14750,7 +16022,7 @@ export let BDroplet = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-droplet"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14774,7 +16046,7 @@ export let BEarFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-ear-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14794,7 +16066,7 @@ export let BEar = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-ear"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14814,7 +16086,7 @@ export let BEarbuds = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-earbuds"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14834,7 +16106,7 @@ export let BEaselFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-easel-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14854,7 +16126,7 @@ export let BEasel = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-easel"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14874,7 +16146,7 @@ export let BEasel2Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-easel2-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14898,7 +16170,7 @@ export let BEasel2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-easel2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14918,7 +16190,7 @@ export let BEasel3Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-easel3-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14938,7 +16210,7 @@ export let BEasel3 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-easel3"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14958,7 +16230,7 @@ export let BEggFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-egg-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -14978,7 +16250,7 @@ export let BEggFried = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-egg-fried"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15002,7 +16274,7 @@ export let BEgg = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-egg"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15022,7 +16294,7 @@ export let BEjectFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-eject-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15042,7 +16314,7 @@ export let BEject = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-eject"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15062,7 +16334,7 @@ export let BEmojiAngryFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-angry-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15082,7 +16354,7 @@ export let BEmojiAngry = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-angry"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15106,7 +16378,7 @@ export let BEmojiDizzyFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-dizzy-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15126,7 +16398,7 @@ export let BEmojiDizzy = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-dizzy"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15150,7 +16422,7 @@ export let BEmojiExpressionlessFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-expressionless-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15170,7 +16442,7 @@ export let BEmojiExpressionless = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-expressionless"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15194,7 +16466,7 @@ export let BEmojiFrownFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-frown-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15214,7 +16486,7 @@ export let BEmojiFrown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-frown"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15238,7 +16510,7 @@ export let BEmojiHeartEyesFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-heart-eyes-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15258,7 +16530,7 @@ export let BEmojiHeartEyes = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-heart-eyes"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15282,7 +16554,7 @@ export let BEmojiKissFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-kiss-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15302,7 +16574,7 @@ export let BEmojiKiss = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-kiss"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15322,7 +16594,7 @@ export let BEmojiLaughingFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-laughing-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15342,7 +16614,7 @@ export let BEmojiLaughing = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-laughing"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15366,7 +16638,7 @@ export let BEmojiNeutralFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-neutral-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15386,7 +16658,7 @@ export let BEmojiNeutral = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-neutral"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15410,7 +16682,7 @@ export let BEmojiSmileFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-smile-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15430,7 +16702,7 @@ export let BEmojiSmileUpsideDownFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-smile-upside-down-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15450,7 +16722,7 @@ export let BEmojiSmileUpsideDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-smile-upside-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15474,7 +16746,7 @@ export let BEmojiSmile = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-smile"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15498,7 +16770,7 @@ export let BEmojiSunglassesFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-sunglasses-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15518,7 +16790,7 @@ export let BEmojiSunglasses = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-sunglasses"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15542,7 +16814,7 @@ export let BEmojiWinkFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-wink-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15562,7 +16834,7 @@ export let BEmojiWink = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-emoji-wink"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15571,6 +16843,54 @@ export let BEmojiWink = {
         h(
           "path",
           {"d":"M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm1.757-.437a.5.5 0 0 1 .68.194.934.934 0 0 0 .813.493c.339 0 .645-.19.813-.493a.5.5 0 1 1 .874.486A1.934 1.934 0 0 1 10.25 7.75c-.73 0-1.356-.412-1.687-1.007a.5.5 0 0 1 .194-.68z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BEnvelopeAtFill = {
+  $_icon: {
+    name: "EnvelopeAtFill",
+    vendor: "B",
+    type: [],
+    tags: ["envelope","at","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z"}
+        ),
+        h(
+          "path",
+          {"d":"M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BEnvelopeAt = {
+  $_icon: {
+    name: "EnvelopeAt",
+    vendor: "B",
+    type: [],
+    tags: ["envelope","at"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"}
+        ),
+        h(
+          "path",
+          {"d":"M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"}
         ) 
       ]
     )
@@ -15586,7 +16906,7 @@ export let BEnvelopeCheckFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-check-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15610,7 +16930,7 @@ export let BEnvelopeCheck = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15634,7 +16954,7 @@ export let BEnvelopeDashFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-dash-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15658,7 +16978,7 @@ export let BEnvelopeDash = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-dash"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15682,7 +17002,7 @@ export let BEnvelopeExclamationFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-exclamation-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15706,7 +17026,7 @@ export let BEnvelopeExclamation = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-exclamation"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15730,7 +17050,7 @@ export let BEnvelopeFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15750,7 +17070,7 @@ export let BEnvelopeHeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15774,7 +17094,7 @@ export let BEnvelopeHeart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15794,7 +17114,7 @@ export let BEnvelopeOpenFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-open-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15814,7 +17134,7 @@ export let BEnvelopeOpenHeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-open-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15838,7 +17158,7 @@ export let BEnvelopeOpenHeart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-open-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15858,7 +17178,7 @@ export let BEnvelopeOpen = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-open"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15878,7 +17198,7 @@ export let BEnvelopePaperFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-paper-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15898,7 +17218,7 @@ export let BEnvelopePaperHeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-paper-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15918,7 +17238,7 @@ export let BEnvelopePaperHeart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-paper-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15938,7 +17258,7 @@ export let BEnvelopePaper = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-paper"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15958,7 +17278,7 @@ export let BEnvelopePlusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-plus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -15982,7 +17302,7 @@ export let BEnvelopePlus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16006,7 +17326,7 @@ export let BEnvelopeSlashFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-slash-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16030,7 +17350,7 @@ export let BEnvelopeSlash = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16054,7 +17374,7 @@ export let BEnvelopeXFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-x-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16078,7 +17398,7 @@ export let BEnvelopeX = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope-x"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16102,7 +17422,7 @@ export let BEnvelope = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-envelope"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16122,7 +17442,7 @@ export let BEraserFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-eraser-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16142,7 +17462,7 @@ export let BEraser = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-eraser"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16162,7 +17482,7 @@ export let BEscape = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-escape"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16186,7 +17506,7 @@ export let BEthernet = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-ethernet"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16195,6 +17515,50 @@ export let BEthernet = {
         h(
           "path",
           {"d":"M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2ZM1 2a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BEvFrontFill = {
+  $_icon: {
+    name: "EvFrontFill",
+    vendor: "B",
+    type: [],
+    tags: ["ev","front","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848Zm6.75.51a.186.186 0 0 0-.23.034L6.05 7.246a.188.188 0 0 0 .137.316h1.241l-.673 2.195a.188.188 0 0 0 .085.218c.075.043.17.03.23-.034l2.88-3.187a.188.188 0 0 0-.137-.316H8.572l.782-2.195a.188.188 0 0 0-.085-.218Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BEvFront = {
+  $_icon: {
+    name: "EvFront",
+    vendor: "B",
+    type: [],
+    tags: ["ev","front"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M9.354 4.243a.188.188 0 0 0-.085-.218.186.186 0 0 0-.23.034L6.051 7.246a.188.188 0 0 0 .136.316h1.241l-.673 2.195a.188.188 0 0 0 .085.218c.075.043.17.03.23-.034l2.88-3.187a.188.188 0 0 0-.137-.316H8.572l.782-2.195Z"}
+        ),
+        h(
+          "path",
+          {"d":"M4.819 2A2.5 2.5 0 0 0 2.52 3.515l-.792 1.848a.807.807 0 0 1-.38.404c-.5.25-.855.715-.965 1.262L.05 8.708a2.5 2.5 0 0 0-.049.49v.413c0 .814.39 1.543 1 1.997V13.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1.338c1.292.048 2.745.088 4 .088s2.708-.04 4-.088V13.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1.892c.61-.454 1-1.183 1-1.997v-.413c0-.165-.016-.329-.049-.49l-.335-1.68a1.807 1.807 0 0 0-.964-1.261.807.807 0 0 1-.381-.404l-.792-1.848A2.5 2.5 0 0 0 11.181 2H4.82ZM3.44 3.91A1.5 1.5 0 0 1 4.82 3h6.362a1.5 1.5 0 0 1 1.379.91l.792 1.847a1.8 1.8 0 0 0 .853.904c.222.112.381.32.43.564l.336 1.679c.02.097.029.195.029.294v.413a1.48 1.48 0 0 1-1.408 1.484c-1.555.07-3.786.155-5.592.155-1.806 0-4.037-.084-5.592-.155A1.479 1.479 0 0 1 1 9.611v-.413c0-.099.01-.197.03-.294l.335-1.68a.807.807 0 0 1 .43-.563c.383-.19.685-.511.853-.904l.792-1.848Z"}
         ) 
       ]
     )
@@ -16210,7 +17574,7 @@ export let BEvStationFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-ev-station-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16230,7 +17594,7 @@ export let BEvStation = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-ev-station"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16254,7 +17618,7 @@ export let BExclamationCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-exclamation-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16274,7 +17638,7 @@ export let BExclamationCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-exclamation-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16298,7 +17662,7 @@ export let BExclamationDiamondFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-exclamation-diamond-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16318,7 +17682,7 @@ export let BExclamationDiamond = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-exclamation-diamond"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16342,7 +17706,7 @@ export let BExclamationLg = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-exclamation-lg"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16362,7 +17726,7 @@ export let BExclamationOctagonFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-exclamation-octagon-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16382,7 +17746,7 @@ export let BExclamationOctagon = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-exclamation-octagon"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16406,7 +17770,7 @@ export let BExclamationSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-exclamation-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16426,7 +17790,7 @@ export let BExclamationSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-exclamation-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16450,7 +17814,7 @@ export let BExclamationTriangleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-exclamation-triangle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16470,7 +17834,7 @@ export let BExclamationTriangle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-exclamation-triangle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16494,7 +17858,7 @@ export let BExclamation = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-exclamation"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16514,7 +17878,7 @@ export let BExclude = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-exclude"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16534,7 +17898,7 @@ export let BExplicitFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-explicit-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16554,7 +17918,7 @@ export let BExplicit = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-explicit"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16578,7 +17942,7 @@ export let BEyeFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-eye-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16602,7 +17966,7 @@ export let BEyeSlashFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-eye-slash-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16626,7 +17990,7 @@ export let BEyeSlash = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-eye-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16654,7 +18018,7 @@ export let BEye = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-eye"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16678,7 +18042,7 @@ export let BEyedropper = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-eyedropper"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16698,7 +18062,7 @@ export let BEyeglasses = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-eyeglasses"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16718,7 +18082,7 @@ export let BFacebook = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-facebook"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16738,7 +18102,7 @@ export let BFan = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-fan"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16762,7 +18126,7 @@ export let BFastForwardBtnFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-fast-forward-btn-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16782,7 +18146,7 @@ export let BFastForwardBtn = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-fast-forward-btn"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16806,7 +18170,7 @@ export let BFastForwardCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-fast-forward-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16826,7 +18190,7 @@ export let BFastForwardCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-fast-forward-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16850,7 +18214,7 @@ export let BFastForwardFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-fast-forward-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16874,7 +18238,7 @@ export let BFastForward = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-fast-forward"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16898,7 +18262,7 @@ export let BFileArrowDownFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-arrow-down-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16918,7 +18282,7 @@ export let BFileArrowDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16942,7 +18306,7 @@ export let BFileArrowUpFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-arrow-up-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16962,7 +18326,7 @@ export let BFileArrowUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-arrow-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -16986,7 +18350,7 @@ export let BFileBarGraphFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-bar-graph-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17006,7 +18370,7 @@ export let BFileBarGraph = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-bar-graph"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17030,7 +18394,7 @@ export let BFileBinaryFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-binary-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17054,7 +18418,7 @@ export let BFileBinary = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-binary"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17078,7 +18442,7 @@ export let BFileBreakFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-break-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17098,7 +18462,7 @@ export let BFileBreak = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-break"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17118,7 +18482,7 @@ export let BFileCheckFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-check-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17138,7 +18502,7 @@ export let BFileCheck = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17162,7 +18526,7 @@ export let BFileCodeFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-code-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17182,7 +18546,7 @@ export let BFileCode = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-code"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17206,7 +18570,7 @@ export let BFileDiffFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-diff-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17226,7 +18590,7 @@ export let BFileDiff = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-diff"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17250,7 +18614,7 @@ export let BFileEarmarkArrowDownFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-arrow-down-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17270,7 +18634,7 @@ export let BFileEarmarkArrowDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17294,7 +18658,7 @@ export let BFileEarmarkArrowUpFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-arrow-up-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17314,7 +18678,7 @@ export let BFileEarmarkArrowUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-arrow-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17338,7 +18702,7 @@ export let BFileEarmarkBarGraphFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-bar-graph-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17358,7 +18722,7 @@ export let BFileEarmarkBarGraph = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-bar-graph"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17382,7 +18746,7 @@ export let BFileEarmarkBinaryFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-binary-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17406,7 +18770,7 @@ export let BFileEarmarkBinary = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-binary"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17430,7 +18794,7 @@ export let BFileEarmarkBreakFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-break-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17450,7 +18814,7 @@ export let BFileEarmarkBreak = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-break"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17470,7 +18834,7 @@ export let BFileEarmarkCheckFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-check-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17490,7 +18854,7 @@ export let BFileEarmarkCheck = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17514,7 +18878,7 @@ export let BFileEarmarkCodeFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-code-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17534,7 +18898,7 @@ export let BFileEarmarkCode = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-code"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17558,7 +18922,7 @@ export let BFileEarmarkDiffFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-diff-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17578,7 +18942,7 @@ export let BFileEarmarkDiff = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-diff"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17602,7 +18966,7 @@ export let BFileEarmarkEaselFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-easel-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17626,7 +18990,7 @@ export let BFileEarmarkEasel = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-easel"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17650,7 +19014,7 @@ export let BFileEarmarkExcelFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-excel-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17670,7 +19034,7 @@ export let BFileEarmarkExcel = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-excel"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17694,7 +19058,7 @@ export let BFileEarmarkFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17714,7 +19078,7 @@ export let BFileEarmarkFontFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-font-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17734,7 +19098,7 @@ export let BFileEarmarkFont = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-font"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17758,7 +19122,7 @@ export let BFileEarmarkImageFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-image-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17782,7 +19146,7 @@ export let BFileEarmarkImage = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-image"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17806,7 +19170,7 @@ export let BFileEarmarkLockFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-lock-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17830,7 +19194,7 @@ export let BFileEarmarkLock = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-lock"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17854,7 +19218,7 @@ export let BFileEarmarkLock2Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-lock2-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17878,7 +19242,7 @@ export let BFileEarmarkLock2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-lock2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17902,7 +19266,7 @@ export let BFileEarmarkMedicalFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-medical-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17922,7 +19286,7 @@ export let BFileEarmarkMedical = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-medical"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17946,7 +19310,7 @@ export let BFileEarmarkMinusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-minus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17966,7 +19330,7 @@ export let BFileEarmarkMinus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -17990,7 +19354,7 @@ export let BFileEarmarkMusicFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-music-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18010,7 +19374,7 @@ export let BFileEarmarkMusic = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-music"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18034,7 +19398,7 @@ export let BFileEarmarkPdfFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-pdf-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18058,7 +19422,7 @@ export let BFileEarmarkPdf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-pdf"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18082,7 +19446,7 @@ export let BFileEarmarkPersonFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-person-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18102,7 +19466,7 @@ export let BFileEarmarkPerson = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-person"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18126,7 +19490,7 @@ export let BFileEarmarkPlayFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-play-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18146,7 +19510,7 @@ export let BFileEarmarkPlay = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-play"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18170,7 +19534,7 @@ export let BFileEarmarkPlusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-plus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18190,7 +19554,7 @@ export let BFileEarmarkPlus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18214,7 +19578,7 @@ export let BFileEarmarkPostFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-post-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18234,7 +19598,7 @@ export let BFileEarmarkPost = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-post"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18258,7 +19622,7 @@ export let BFileEarmarkPptFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-ppt-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18282,7 +19646,7 @@ export let BFileEarmarkPpt = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-ppt"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18306,7 +19670,7 @@ export let BFileEarmarkRichtextFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-richtext-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18326,7 +19690,7 @@ export let BFileEarmarkRichtext = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-richtext"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18350,7 +19714,7 @@ export let BFileEarmarkRuledFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-ruled-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18370,7 +19734,7 @@ export let BFileEarmarkRuled = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-ruled"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18390,7 +19754,7 @@ export let BFileEarmarkSlidesFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-slides-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18414,7 +19778,7 @@ export let BFileEarmarkSlides = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-slides"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18438,7 +19802,7 @@ export let BFileEarmarkSpreadsheetFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-spreadsheet-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18462,7 +19826,7 @@ export let BFileEarmarkSpreadsheet = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-spreadsheet"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18482,7 +19846,7 @@ export let BFileEarmarkTextFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-text-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18502,7 +19866,7 @@ export let BFileEarmarkText = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-text"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18526,7 +19890,7 @@ export let BFileEarmarkWordFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-word-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18546,7 +19910,7 @@ export let BFileEarmarkWord = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-word"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18570,7 +19934,7 @@ export let BFileEarmarkXFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-x-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18590,7 +19954,7 @@ export let BFileEarmarkX = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-x"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18614,7 +19978,7 @@ export let BFileEarmarkZipFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-zip-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18638,7 +20002,7 @@ export let BFileEarmarkZip = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark-zip"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18662,7 +20026,7 @@ export let BFileEarmark = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-earmark"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18682,7 +20046,7 @@ export let BFileEaselFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-easel-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18706,7 +20070,7 @@ export let BFileEasel = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-easel"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18730,7 +20094,7 @@ export let BFileExcelFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-excel-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18750,7 +20114,7 @@ export let BFileExcel = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-excel"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18774,7 +20138,7 @@ export let BFileFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18794,7 +20158,7 @@ export let BFileFontFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-font-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18814,7 +20178,7 @@ export let BFileFont = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-font"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18838,7 +20202,7 @@ export let BFileImageFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-image-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18862,7 +20226,7 @@ export let BFileImage = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-image"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18886,7 +20250,7 @@ export let BFileLockFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-lock-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18910,7 +20274,7 @@ export let BFileLock = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-lock"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18934,7 +20298,7 @@ export let BFileLock2Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-lock2-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18958,7 +20322,7 @@ export let BFileLock2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-lock2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -18982,7 +20346,7 @@ export let BFileMedicalFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-medical-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19002,7 +20366,7 @@ export let BFileMedical = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-medical"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19026,7 +20390,7 @@ export let BFileMinusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-minus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19046,7 +20410,7 @@ export let BFileMinus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19070,7 +20434,7 @@ export let BFileMusicFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-music-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19090,7 +20454,7 @@ export let BFileMusic = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-music"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19114,7 +20478,7 @@ export let BFilePdfFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-pdf-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19138,7 +20502,7 @@ export let BFilePdf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-pdf"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19162,7 +20526,7 @@ export let BFilePersonFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-person-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19182,7 +20546,7 @@ export let BFilePerson = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-person"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19206,7 +20570,7 @@ export let BFilePlayFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-play-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19226,7 +20590,7 @@ export let BFilePlay = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-play"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19250,7 +20614,7 @@ export let BFilePlusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-plus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19270,7 +20634,7 @@ export let BFilePlus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19294,7 +20658,7 @@ export let BFilePostFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-post-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19314,7 +20678,7 @@ export let BFilePost = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-post"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19338,7 +20702,7 @@ export let BFilePptFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-ppt-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19362,7 +20726,7 @@ export let BFilePpt = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-ppt"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19386,7 +20750,7 @@ export let BFileRichtextFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-richtext-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19406,7 +20770,7 @@ export let BFileRichtext = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-richtext"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19430,7 +20794,7 @@ export let BFileRuledFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-ruled-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19450,7 +20814,7 @@ export let BFileRuled = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-ruled"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19470,7 +20834,7 @@ export let BFileSlidesFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-slides-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19494,7 +20858,7 @@ export let BFileSlides = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-slides"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19518,7 +20882,7 @@ export let BFileSpreadsheetFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-spreadsheet-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19538,7 +20902,7 @@ export let BFileSpreadsheet = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-spreadsheet"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19558,7 +20922,7 @@ export let BFileTextFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-text-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19578,7 +20942,7 @@ export let BFileText = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-text"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19602,7 +20966,7 @@ export let BFileWordFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-word-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19622,7 +20986,7 @@ export let BFileWord = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-word"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19646,7 +21010,7 @@ export let BFileXFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-x-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19666,7 +21030,7 @@ export let BFileX = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-x"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19690,7 +21054,7 @@ export let BFileZipFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-zip-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19714,7 +21078,7 @@ export let BFileZip = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file-zip"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19738,7 +21102,7 @@ export let BFile = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-file"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19758,7 +21122,7 @@ export let BFilesAlt = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-files-alt"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19778,7 +21142,7 @@ export let BFiles = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-files"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19798,7 +21162,7 @@ export let BFiletypeAac = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-aac"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19818,7 +21182,7 @@ export let BFiletypeAi = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-ai"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19838,7 +21202,7 @@ export let BFiletypeBmp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-bmp"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19858,7 +21222,7 @@ export let BFiletypeCs = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-cs"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19878,7 +21242,7 @@ export let BFiletypeCss = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-css"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19898,7 +21262,7 @@ export let BFiletypeCsv = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-csv"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19918,7 +21282,7 @@ export let BFiletypeDoc = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-doc"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19938,7 +21302,7 @@ export let BFiletypeDocx = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-docx"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19958,7 +21322,7 @@ export let BFiletypeExe = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-exe"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19978,7 +21342,7 @@ export let BFiletypeGif = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-gif"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -19998,7 +21362,7 @@ export let BFiletypeHeic = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-heic"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20018,7 +21382,7 @@ export let BFiletypeHtml = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-html"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20038,7 +21402,7 @@ export let BFiletypeJava = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-java"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20058,7 +21422,7 @@ export let BFiletypeJpg = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-jpg"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20078,7 +21442,7 @@ export let BFiletypeJs = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-js"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20098,7 +21462,7 @@ export let BFiletypeJson = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-json"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20118,7 +21482,7 @@ export let BFiletypeJsx = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-jsx"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20138,7 +21502,7 @@ export let BFiletypeKey = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-key"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20158,7 +21522,7 @@ export let BFiletypeM4p = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-m4p"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20178,7 +21542,7 @@ export let BFiletypeMd = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-md"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20198,7 +21562,7 @@ export let BFiletypeMdx = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-mdx"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20218,7 +21582,7 @@ export let BFiletypeMov = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-mov"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20238,7 +21602,7 @@ export let BFiletypeMp3 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-mp3"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20258,7 +21622,7 @@ export let BFiletypeMp4 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-mp4"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20278,7 +21642,7 @@ export let BFiletypeOtf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-otf"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20298,7 +21662,7 @@ export let BFiletypePdf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-pdf"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20318,7 +21682,7 @@ export let BFiletypePhp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-php"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20338,7 +21702,7 @@ export let BFiletypePng = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-png"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20358,7 +21722,7 @@ export let BFiletypePpt = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-ppt"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20378,7 +21742,7 @@ export let BFiletypePptx = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-pptx"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20398,7 +21762,7 @@ export let BFiletypePsd = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-psd"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20418,7 +21782,7 @@ export let BFiletypePy = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-py"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20438,7 +21802,7 @@ export let BFiletypeRaw = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-raw"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20458,7 +21822,7 @@ export let BFiletypeRb = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-rb"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20478,7 +21842,7 @@ export let BFiletypeSass = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-sass"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20498,7 +21862,7 @@ export let BFiletypeScss = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-scss"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20518,7 +21882,7 @@ export let BFiletypeSh = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-sh"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20538,7 +21902,7 @@ export let BFiletypeSql = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-sql"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20558,7 +21922,7 @@ export let BFiletypeSvg = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-svg"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20578,7 +21942,7 @@ export let BFiletypeTiff = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-tiff"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20598,7 +21962,7 @@ export let BFiletypeTsx = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-tsx"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20618,7 +21982,7 @@ export let BFiletypeTtf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-ttf"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20638,7 +22002,7 @@ export let BFiletypeTxt = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-txt"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20658,7 +22022,7 @@ export let BFiletypeWav = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-wav"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20678,7 +22042,7 @@ export let BFiletypeWoff = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-woff"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20698,7 +22062,7 @@ export let BFiletypeXls = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-xls"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20718,7 +22082,7 @@ export let BFiletypeXlsx = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-xlsx"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20738,7 +22102,7 @@ export let BFiletypeXml = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-xml"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20758,7 +22122,7 @@ export let BFiletypeYml = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filetype-yml"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20778,7 +22142,7 @@ export let BFilm = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-film"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20798,7 +22162,7 @@ export let BFilterCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filter-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20818,7 +22182,7 @@ export let BFilterCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filter-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20842,7 +22206,7 @@ export let BFilterLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filter-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20862,7 +22226,7 @@ export let BFilterRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filter-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20882,7 +22246,7 @@ export let BFilterSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filter-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20902,7 +22266,7 @@ export let BFilterSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filter-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20926,7 +22290,7 @@ export let BFilter = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-filter"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20946,7 +22310,7 @@ export let BFingerprint = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-fingerprint"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -20982,7 +22346,7 @@ export let BFire = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-fire"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21002,7 +22366,7 @@ export let BFlagFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-flag-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21022,7 +22386,7 @@ export let BFlag = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-flag"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21042,7 +22406,7 @@ export let BFlower1 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-flower1"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21062,7 +22426,7 @@ export let BFlower2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-flower2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21082,7 +22446,7 @@ export let BFlower3 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-flower3"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21102,7 +22466,7 @@ export let BFolderCheck = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-folder-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21126,7 +22490,7 @@ export let BFolderFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-folder-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21146,7 +22510,7 @@ export let BFolderMinus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-folder-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21170,7 +22534,7 @@ export let BFolderPlus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-folder-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21194,7 +22558,7 @@ export let BFolderSymlinkFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-folder-symlink-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21214,7 +22578,7 @@ export let BFolderSymlink = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-folder-symlink"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21238,7 +22602,7 @@ export let BFolderX = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-folder-x"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21262,7 +22626,7 @@ export let BFolder = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-folder"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21282,7 +22646,7 @@ export let BFolder2Open = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-folder2-open"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21302,7 +22666,7 @@ export let BFolder2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-folder2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21322,7 +22686,7 @@ export let BFonts = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-fonts"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21342,7 +22706,7 @@ export let BForwardFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-forward-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21362,7 +22726,7 @@ export let BForward = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-forward"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21382,7 +22746,7 @@ export let BFront = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-front"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21402,7 +22766,7 @@ export let BFuelPumpDieselFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-fuel-pump-diesel-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21426,7 +22790,7 @@ export let BFuelPumpDiesel = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-fuel-pump-diesel"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21450,7 +22814,7 @@ export let BFuelPumpFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-fuel-pump-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21470,7 +22834,7 @@ export let BFuelPump = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-fuel-pump"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21494,7 +22858,7 @@ export let BFullscreenExit = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-fullscreen-exit"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21514,7 +22878,7 @@ export let BFullscreen = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-fullscreen"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21534,7 +22898,7 @@ export let BFunnelFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-funnel-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21554,7 +22918,7 @@ export let BFunnel = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-funnel"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21574,7 +22938,7 @@ export let BGearFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-gear-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21594,7 +22958,7 @@ export let BGearWideConnected = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-gear-wide-connected"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21614,7 +22978,7 @@ export let BGearWide = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-gear-wide"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21634,7 +22998,7 @@ export let BGear = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-gear"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21658,7 +23022,7 @@ export let BGem = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-gem"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21678,7 +23042,7 @@ export let BGenderAmbiguous = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-gender-ambiguous"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21698,7 +23062,7 @@ export let BGenderFemale = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-gender-female"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21718,7 +23082,7 @@ export let BGenderMale = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-gender-male"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21738,7 +23102,7 @@ export let BGenderTrans = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-gender-trans"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21758,7 +23122,7 @@ export let BGeoAltFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-geo-alt-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21778,7 +23142,7 @@ export let BGeoAlt = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-geo-alt"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21802,7 +23166,7 @@ export let BGeoFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-geo-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21822,7 +23186,7 @@ export let BGeo = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-geo"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21842,7 +23206,7 @@ export let BGiftFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-gift-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21862,7 +23226,7 @@ export let BGift = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-gift"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21882,7 +23246,7 @@ export let BGit = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-git"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21902,11 +23266,95 @@ export let BGithub = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-github"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
           {"d":"M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BGlobeAmericas = {
+  $_icon: {
+    name: "GlobeAmericas",
+    vendor: "B",
+    type: [],
+    tags: ["globe","americas"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484-.08.08-.162.158-.242.234-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BGlobeAsiaAustralia = {
+  $_icon: {
+    name: "GlobeAsiaAustralia",
+    vendor: "B",
+    type: [],
+    tags: ["globe","asia","australia"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"m10.495 6.92 1.278-.619a.483.483 0 0 0 .126-.782c-.252-.244-.682-.139-.932.107-.23.226-.513.373-.816.53l-.102.054c-.338.178-.264.626.1.736a.476.476 0 0 0 .346-.027ZM7.741 9.808V9.78a.413.413 0 1 1 .783.183l-.22.443a.602.602 0 0 1-.12.167l-.193.185a.36.36 0 1 1-.5-.516l.112-.108a.453.453 0 0 0 .138-.326ZM5.672 12.5l.482.233A.386.386 0 1 0 6.32 12h-.416a.702.702 0 0 1-.419-.139l-.277-.206a.302.302 0 1 0-.298.52l.761.325Z"}
+        ),
+        h(
+          "path",
+          {"d":"M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM1.612 10.867l.756-1.288a1 1 0 0 1 1.545-.225l1.074 1.005a.986.986 0 0 0 1.36-.011l.038-.037a.882.882 0 0 0 .26-.755c-.075-.548.37-1.033.92-1.099.728-.086 1.587-.324 1.728-.957.086-.386-.114-.83-.361-1.2-.207-.312 0-.8.374-.8.123 0 .24-.055.318-.15l.393-.474c.196-.237.491-.368.797-.403.554-.064 1.407-.277 1.583-.973.098-.391-.192-.634-.484-.88-.254-.212-.51-.426-.515-.741a6.998 6.998 0 0 1 3.425 7.692 1.015 1.015 0 0 0-.087-.063l-.316-.204a1 1 0 0 0-.977-.06l-.169.082a1 1 0 0 1-.741.051l-1.021-.329A1 1 0 0 0 11.205 9h-.165a1 1 0 0 0-.945.674l-.172.499a1 1 0 0 1-.404.514l-.802.518a1 1 0 0 0-.458.84v.455a1 1 0 0 0 1 1h.257a1 1 0 0 1 .542.16l.762.49a.998.998 0 0 0 .283.126 7.001 7.001 0 0 1-9.49-3.409Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BGlobeCentralSouthAsia = {
+  $_icon: {
+    name: "GlobeCentralSouthAsia",
+    vendor: "B",
+    type: [],
+    tags: ["globe","central","south","asia"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM4.882 1.731a.482.482 0 0 0 .14.291.487.487 0 0 1-.126.78l-.291.146a.721.721 0 0 0-.188.135l-.48.48a1 1 0 0 1-1.023.242l-.02-.007a.996.996 0 0 0-.462-.04 7.03 7.03 0 0 1 2.45-2.027Zm-3 9.674.86-.216a1 1 0 0 0 .758-.97v-.184a1 1 0 0 1 .445-.832l.04-.026a1 1 0 0 0 .152-1.54L3.121 6.621a.414.414 0 0 1 .542-.624l1.09.818a.5.5 0 0 0 .523.047.5.5 0 0 1 .724.447v.455a.78.78 0 0 0 .131.433l.795 1.192a1 1 0 0 1 .116.238l.73 2.19a1 1 0 0 0 .949.683h.058a1 1 0 0 0 .949-.684l.73-2.189a1 1 0 0 1 .116-.238l.791-1.187A.454.454 0 0 1 11.743 8c.16 0 .306.084.392.218.557.875 1.63 2.282 2.365 2.282a.61.61 0 0 0 .04-.001 7.003 7.003 0 0 1-12.658.905Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BGlobeEuropeAfrica = {
+  $_icon: {
+    name: "GlobeEuropeAfrica",
+    vendor: "B",
+    type: [],
+    tags: ["globe","europe","africa"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM3.668 2.501l-.288.646a.847.847 0 0 0 1.479.815l.245-.368a.809.809 0 0 1 1.034-.275.809.809 0 0 0 .724 0l.261-.13a1 1 0 0 1 .775-.05l.984.34c.078.028.16.044.243.054.784.093.855.377.694.801-.155.41-.616.617-1.035.487l-.01-.003C8.274 4.663 7.748 4.5 6 4.5 4.8 4.5 3.5 5.62 3.5 7c0 1.96.826 2.166 1.696 2.382.46.115.935.233 1.304.618.449.467.393 1.181.339 1.877C6.755 12.96 6.674 14 8.5 14c1.75 0 3-3.5 3-4.5 0-.262.208-.468.444-.7.396-.392.87-.86.556-1.8-.097-.291-.396-.568-.641-.756-.174-.133-.207-.396-.052-.551a.333.333 0 0 1 .42-.042l1.085.724c.11.072.255.058.348-.035.15-.15.415-.083.489.117.16.43.445 1.05.849 1.357L15 8A7 7 0 1 1 3.668 2.501Z"}
         ) 
       ]
     )
@@ -21922,7 +23370,7 @@ export let BGlobe = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-globe"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21942,7 +23390,7 @@ export let BGlobe2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-globe2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21962,7 +23410,7 @@ export let BGooglePlay = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-google-play"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -21982,7 +23430,7 @@ export let BGoogle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-google"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22002,7 +23450,7 @@ export let BGpuCard = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-gpu-card"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22030,7 +23478,7 @@ export let BGraphDownArrow = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-graph-down-arrow"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22050,7 +23498,7 @@ export let BGraphDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-graph-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22070,7 +23518,7 @@ export let BGraphUpArrow = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-graph-up-arrow"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22090,7 +23538,7 @@ export let BGraphUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-graph-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22110,7 +23558,7 @@ export let BGrid1x2Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-grid-1x2-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22130,7 +23578,7 @@ export let BGrid1x2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-grid-1x2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22150,7 +23598,7 @@ export let BGrid3x2GapFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-grid-3x2-gap-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22170,7 +23618,7 @@ export let BGrid3x2Gap = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-grid-3x2-gap"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22190,7 +23638,7 @@ export let BGrid3x2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-grid-3x2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22210,7 +23658,7 @@ export let BGrid3x3GapFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-grid-3x3-gap-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22230,7 +23678,7 @@ export let BGrid3x3Gap = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-grid-3x3-gap"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22250,7 +23698,7 @@ export let BGrid3x3 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-grid-3x3"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22270,7 +23718,7 @@ export let BGridFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-grid-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22290,7 +23738,7 @@ export let BGrid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-grid"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22310,7 +23758,7 @@ export let BGripHorizontal = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-grip-horizontal"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22330,7 +23778,7 @@ export let BGripVertical = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-grip-vertical"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22350,7 +23798,7 @@ export let BHCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-h-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22370,7 +23818,7 @@ export let BHCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-h-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22390,7 +23838,7 @@ export let BHSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-h-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22410,7 +23858,7 @@ export let BHSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-h-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22434,7 +23882,7 @@ export let BHammer = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hammer"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22454,7 +23902,7 @@ export let BHandIndexFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hand-index-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22474,7 +23922,7 @@ export let BHandIndexThumbFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hand-index-thumb-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22494,7 +23942,7 @@ export let BHandIndexThumb = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hand-index-thumb"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22514,7 +23962,7 @@ export let BHandIndex = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hand-index"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22534,7 +23982,7 @@ export let BHandThumbsDownFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hand-thumbs-down-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22554,7 +24002,7 @@ export let BHandThumbsDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hand-thumbs-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22574,7 +24022,7 @@ export let BHandThumbsUpFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hand-thumbs-up-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22594,7 +24042,7 @@ export let BHandThumbsUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hand-thumbs-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22614,7 +24062,7 @@ export let BHandbagFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-handbag-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22634,7 +24082,7 @@ export let BHandbag = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-handbag"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22654,7 +24102,7 @@ export let BHash = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hash"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22674,7 +24122,7 @@ export let BHddFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hdd-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22694,7 +24142,7 @@ export let BHddNetworkFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hdd-network-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22714,7 +24162,7 @@ export let BHddNetwork = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hdd-network"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22738,7 +24186,7 @@ export let BHddRackFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hdd-rack-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22758,7 +24206,7 @@ export let BHddRack = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hdd-rack"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22782,7 +24230,7 @@ export let BHddStackFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hdd-stack-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22802,7 +24250,7 @@ export let BHddStack = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hdd-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22830,7 +24278,7 @@ export let BHdd = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hdd"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22854,7 +24302,7 @@ export let BHdmiFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hdmi-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22874,7 +24322,7 @@ export let BHdmi = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hdmi"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22898,7 +24346,7 @@ export let BHeadphones = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-headphones"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22918,7 +24366,7 @@ export let BHeadsetVr = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-headset-vr"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22942,7 +24390,7 @@ export let BHeadset = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-headset"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22962,7 +24410,7 @@ export let BHeartArrow = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-heart-arrow"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -22982,7 +24430,7 @@ export let BHeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23002,7 +24450,7 @@ export let BHeartHalf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-heart-half"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23022,11 +24470,15 @@ export let BHeartPulseFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-heart-pulse-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M1.475 9C2.702 10.84 4.779 12.871 8 15c3.221-2.129 5.298-4.16 6.525-6H12a.5.5 0 0 1-.464-.314l-1.457-3.642-1.598 5.593a.5.5 0 0 1-.945.049L5.889 6.568l-1.473 2.21A.5.5 0 0 1 4 9H1.475ZM.879 8C-2.426 1.68 4.41-2 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C11.59-2 18.426 1.68 15.12 8h-2.783l-1.874-4.686a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.88Z"}
+          {"d":"M1.475 9C2.702 10.84 4.779 12.871 8 15c3.221-2.129 5.298-4.16 6.525-6H12a.5.5 0 0 1-.464-.314l-1.457-3.642-1.598 5.593a.5.5 0 0 1-.945.049L5.889 6.568l-1.473 2.21A.5.5 0 0 1 4 9H1.475Z"}
+        ),
+        h(
+          "path",
+          {"d":"M.88 8C-2.427 1.68 4.41-2 7.823 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C11.59-2 18.426 1.68 15.12 8h-2.783l-1.874-4.686a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.88Z"}
         ) 
       ]
     )
@@ -23042,11 +24494,15 @@ export let BHeartPulse = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-heart-pulse"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053.918 3.995.78 5.323 1.508 7H.43c-2.128-5.697 4.165-8.83 7.394-5.857.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17c3.23-2.974 9.522.159 7.394 5.856h-1.078c.728-1.677.59-3.005.108-3.947C13.486.878 10.4.28 8.717 2.01L8 2.748ZM2.212 10h1.315C4.593 11.183 6.05 12.458 8 13.795c1.949-1.337 3.407-2.612 4.473-3.795h1.315c-1.265 1.566-3.14 3.25-5.788 5-2.648-1.75-4.523-3.434-5.788-5Zm8.252-6.686a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.5a.5.5 0 0 0 0 1H4a.5.5 0 0 0 .416-.223l1.473-2.209 1.647 4.118a.5.5 0 0 0 .945-.049l1.598-5.593 1.457 3.642A.5.5 0 0 0 12 9h3.5a.5.5 0 0 0 0-1h-3.162l-1.874-4.686Z"}
+          {"d":"m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053.918 3.995.78 5.323 1.508 7H.43c-2.128-5.697 4.165-8.83 7.394-5.857.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17c3.23-2.974 9.522.159 7.394 5.856h-1.078c.728-1.677.59-3.005.108-3.947C13.486.878 10.4.28 8.717 2.01L8 2.748ZM2.212 10h1.315C4.593 11.183 6.05 12.458 8 13.795c1.949-1.337 3.407-2.612 4.473-3.795h1.315c-1.265 1.566-3.14 3.25-5.788 5-2.648-1.75-4.523-3.434-5.788-5Z"}
+        ),
+        h(
+          "path",
+          {"d":"M10.464 3.314a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.5a.5.5 0 0 0 0 1H4a.5.5 0 0 0 .416-.223l1.473-2.209 1.647 4.118a.5.5 0 0 0 .945-.049l1.598-5.593 1.457 3.642A.5.5 0 0 0 12 9h3.5a.5.5 0 0 0 0-1h-3.162l-1.874-4.686Z"}
         ) 
       ]
     )
@@ -23062,7 +24518,7 @@ export let BHeart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23082,11 +24538,11 @@ export let BHeartbreakFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-heartbreak-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M8.931.586 7 3l1.5 4-2 3L8 15C22.534 5.396 13.757-2.21 8.931.586ZM7.358.77 5.5 3 7 7l-1.5 3 1.815 4.537C-6.533 4.96 2.685-2.467 7.358.77Z"}
+          {"d":"M8.931.586 7 3l1.5 4-2 3L8 15C22.534 5.396 13.757-2.21 8.931.586ZM7.358.77 5.5 3 7 7l-1.5 3 1.815 4.537C-6.533 4.96 2.685-2.467 7.358.77Z"}
         ) 
       ]
     )
@@ -23102,11 +24558,11 @@ export let BHeartbreak = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-heartbreak"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M8.867 14.41c13.308-9.322 4.79-16.563.064-13.824L7 3l1.5 4-2 3L8 15a38.094 38.094 0 0 0 .867-.59Zm-.303-1.01c6.164-4.4 6.91-7.982 6.22-9.921C14.031 1.37 11.447.42 9.587 1.368L8.136 3.18l1.3 3.468a1 1 0 0 1-.104.906l-1.739 2.608.971 3.237Zm-1.25 1.137a36.027 36.027 0 0 1-1.522-1.116C-5.077 4.97 1.842-1.472 6.454.293c.314.12.618.279.904.477L5.5 3 7 7l-1.5 3 1.815 4.537Zm-2.3-3.06C.895 7.797.597 4.875 1.308 3.248c.756-1.73 2.768-2.577 4.456-2.127L4.732 2.36a1 1 0 0 0-.168.991L5.91 6.943l-1.305 2.61a1 1 0 0 0-.034.818l.442 1.106Z"}
+          {"d":"M8.867 14.41c13.308-9.322 4.79-16.563.064-13.824L7 3l1.5 4-2 3L8 15a38.094 38.094 0 0 0 .867-.59Zm-.303-1.01-.971-3.237 1.74-2.608a1 1 0 0 0 .103-.906l-1.3-3.468 1.45-1.813c1.861-.948 4.446.002 5.197 2.11.691 1.94-.055 5.521-6.219 9.922Zm-1.25 1.137a36.027 36.027 0 0 1-1.522-1.116C-5.077 4.97 1.842-1.472 6.454.293c.314.12.618.279.904.477L5.5 3 7 7l-1.5 3 1.815 4.537Zm-2.3-3.06-.442-1.106a1 1 0 0 1 .034-.818l1.305-2.61L4.564 3.35a1 1 0 0 1 .168-.991l1.032-1.24c-1.688-.449-3.7.398-4.456 2.128-.711 1.627-.413 4.55 3.706 8.229Z"}
         ) 
       ]
     )
@@ -23122,7 +24578,7 @@ export let BHearts = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hearts"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23142,7 +24598,7 @@ export let BHeptagonFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-heptagon-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23162,7 +24618,7 @@ export let BHeptagonHalf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-heptagon-half"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23182,7 +24638,7 @@ export let BHeptagon = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-heptagon"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23202,7 +24658,7 @@ export let BHexagonFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hexagon-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23222,7 +24678,7 @@ export let BHexagonHalf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hexagon-half"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23242,7 +24698,7 @@ export let BHexagon = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hexagon"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23262,7 +24718,7 @@ export let BHospitalFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hospital-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23282,7 +24738,7 @@ export let BHospital = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hospital"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23306,7 +24762,7 @@ export let BHourglassBottom = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hourglass-bottom"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23326,7 +24782,7 @@ export let BHourglassSplit = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hourglass-split"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23346,7 +24802,7 @@ export let BHourglassTop = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hourglass-top"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23366,11 +24822,167 @@ export let BHourglass = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hourglass"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
           {"d":"M2 1.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1h-11a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1-.5-.5zm2.5.5v1a3.5 3.5 0 0 0 1.989 3.158c.533.256 1.011.791 1.011 1.491v.702c0 .7-.478 1.235-1.011 1.491A3.5 3.5 0 0 0 4.5 13v1h7v-1a3.5 3.5 0 0 0-1.989-3.158C8.978 9.586 8.5 9.052 8.5 8.351v-.702c0-.7.478-1.235 1.011-1.491A3.5 3.5 0 0 0 11.5 3V2h-7z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHouseAddFill = {
+  $_icon: {
+    name: "HouseAddFill",
+    vendor: "B",
+    type: [],
+    tags: ["house","add","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 1 1-1 0v-1h-1a.5.5 0 1 1 0-1h1v-1a.5.5 0 0 1 1 0Z"}
+        ),
+        h(
+          "path",
+          {"d":"M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"m8 3.293 4.712 4.712A4.5 4.5 0 0 0 8.758 15H3.5A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHouseAdd = {
+  $_icon: {
+    name: "HouseAdd",
+    vendor: "B",
+    type: [],
+    tags: ["house","add"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h4a.5.5 0 1 0 0-1h-4a.5.5 0 0 1-.5-.5V7.207l5-5 6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-3.5-2a.5.5 0 0 0-.5.5v1h-1a.5.5 0 0 0 0 1h1v1a.5.5 0 1 0 1 0v-1h1a.5.5 0 1 0 0-1h-1v-1a.5.5 0 0 0-.5-.5Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHouseCheckFill = {
+  $_icon: {
+    name: "HouseCheckFill",
+    vendor: "B",
+    type: [],
+    tags: ["house","check","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"m8 3.293 4.712 4.712A4.5 4.5 0 0 0 8.758 15H3.5A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"}
+        ),
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.707l.547.547 1.17-1.951a.5.5 0 1 1 .858.514Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHouseCheck = {
+  $_icon: {
+    name: "HouseCheck",
+    vendor: "B",
+    type: [],
+    tags: ["house","check"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207l-5 5V13.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 2 13.5V8.207l-.646.647a.5.5 0 1 1-.708-.708L7.293 1.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.707l.547.547 1.17-1.951a.5.5 0 1 1 .858.514Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHouseDashFill = {
+  $_icon: {
+    name: "HouseDashFill",
+    vendor: "B",
+    type: [],
+    tags: ["house","dash","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"m8 3.293 4.712 4.712A4.5 4.5 0 0 0 8.758 15H3.5A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"}
+        ),
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7ZM11 12h3a.5.5 0 0 1 0 1h-3a.5.5 0 1 1 0-1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHouseDash = {
+  $_icon: {
+    name: "HouseDash",
+    vendor: "B",
+    type: [],
+    tags: ["house","dash"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7ZM11 12h3a.5.5 0 0 1 0 1h-3a.5.5 0 1 1 0-1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207l-5 5V13.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 2 13.5V8.207l-.646.647a.5.5 0 1 1-.708-.708L7.293 1.5Z"}
         ) 
       ]
     )
@@ -23386,11 +24998,11 @@ export let BHouseDoorFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-house-door-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"d":"M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"}
+          {"d":"M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"}
         ) 
       ]
     )
@@ -23406,11 +25018,115 @@ export let BHouseDoor = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-house-door"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"d":"M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"}
+          {"d":"M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHouseDownFill = {
+  $_icon: {
+    name: "HouseDownFill",
+    vendor: "B",
+    type: [],
+    tags: ["house","down","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 9a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7Zm.354 5.854 1.5-1.5a.5.5 0 0 0-.708-.707l-.646.646V10.5a.5.5 0 0 0-1 0v2.793l-.646-.646a.5.5 0 0 0-.708.707l1.5 1.5a.5.5 0 0 0 .708 0Z"}
+        ),
+        h(
+          "path",
+          {"d":"M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"m8 3.293 4.712 4.712A4.5 4.5 0 0 0 8.758 15H3.5A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHouseDown = {
+  $_icon: {
+    name: "HouseDown",
+    vendor: "B",
+    type: [],
+    tags: ["house","down"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207l-5 5V13.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 2 13.5V8.207l-.646.647a.5.5 0 1 1-.708-.708L7.293 1.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"M12.5 9a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7Zm.354 5.854 1.5-1.5a.5.5 0 0 0-.708-.707l-.646.646V10.5a.5.5 0 0 0-1 0v2.793l-.646-.646a.5.5 0 0 0-.708.707l1.5 1.5a.5.5 0 0 0 .708 0Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHouseExclamationFill = {
+  $_icon: {
+    name: "HouseExclamationFill",
+    vendor: "B",
+    type: [],
+    tags: ["house","exclamation","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"m8 3.293 4.712 4.712A4.5 4.5 0 0 0 8.758 15H3.5A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"}
+        ),
+        h(
+          "path",
+          {"d":"M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-3.5-2a.5.5 0 0 0-.5.5v1.5a.5.5 0 1 0 1 0V11a.5.5 0 0 0-.5-.5Zm0 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHouseExclamation = {
+  $_icon: {
+    name: "HouseExclamation",
+    vendor: "B",
+    type: [],
+    tags: ["house","exclamation"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207l-5 5V13.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 2 13.5V8.207l-.646.647a.5.5 0 1 1-.708-.708L7.293 1.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-3.5-2a.5.5 0 0 0-.5.5v1.5a.5.5 0 1 0 1 0V11a.5.5 0 0 0-.5-.5Zm0 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z"}
         ) 
       ]
     )
@@ -23426,15 +25142,67 @@ export let BHouseFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-house-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"}
+          {"d":"M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"}
         ),
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"}
+          {"d":"m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHouseGearFill = {
+  $_icon: {
+    name: "HouseGearFill",
+    vendor: "B",
+    type: [],
+    tags: ["house","gear","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"M11.07 9.047a1.5 1.5 0 0 0-1.742.26l-.02.021a1.5 1.5 0 0 0-.261 1.742 1.5 1.5 0 0 0 0 2.86 1.504 1.504 0 0 0-.12 1.07H3.5A1.5 1.5 0 0 1 2 13.5V9.293l6-6 4.724 4.724a1.5 1.5 0 0 0-1.654 1.03Z"}
+        ),
+        h(
+          "path",
+          {"d":"m13.158 9.608-.043-.148c-.181-.613-1.049-.613-1.23 0l-.043.148a.64.64 0 0 1-.921.382l-.136-.074c-.561-.306-1.175.308-.87.869l.075.136a.64.64 0 0 1-.382.92l-.148.045c-.613.18-.613 1.048 0 1.229l.148.043a.64.64 0 0 1 .382.921l-.074.136c-.306.561.308 1.175.869.87l.136-.075a.64.64 0 0 1 .92.382l.045.149c.18.612 1.048.612 1.229 0l.043-.15a.64.64 0 0 1 .921-.38l.136.074c.561.305 1.175-.309.87-.87l-.075-.136a.64.64 0 0 1 .382-.92l.149-.044c.612-.181.612-1.049 0-1.23l-.15-.043a.64.64 0 0 1-.38-.921l.074-.136c.305-.561-.309-1.175-.87-.87l-.136.075a.64.64 0 0 1-.92-.382ZM12.5 14a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHouseGear = {
+  $_icon: {
+    name: "HouseGear",
+    vendor: "B",
+    type: [],
+    tags: ["house","gear"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207l-5 5V13.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 2 13.5V8.207l-.646.647a.5.5 0 1 1-.708-.708L7.293 1.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"M11.886 9.46c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.044c-.613-.181-.613-1.049 0-1.23l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z"}
         ) 
       ]
     )
@@ -23450,7 +25218,7 @@ export let BHouseHeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-house-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23474,7 +25242,7 @@ export let BHouseHeart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-house-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23483,6 +25251,214 @@ export let BHouseHeart = {
         h(
           "path",
           {"d":"M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHouseLockFill = {
+  $_icon: {
+    name: "HouseLockFill",
+    vendor: "B",
+    type: [],
+    tags: ["house","lock","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"m8 3.293 4.72 4.72a3 3 0 0 0-2.709 3.248A2 2 0 0 0 9 13v2H3.5A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"}
+        ),
+        h(
+          "path",
+          {"d":"M13 9a2 2 0 0 0-2 2v1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1v-1a2 2 0 0 0-2-2Zm0 1a1 1 0 0 1 1 1v1h-2v-1a1 1 0 0 1 1-1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHouseLock = {
+  $_icon: {
+    name: "HouseLock",
+    vendor: "B",
+    type: [],
+    tags: ["house","lock"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207l-5 5V13.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 2 13.5V8.207l-.646.647a.5.5 0 1 1-.708-.708L7.293 1.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"M10 13a1 1 0 0 1 1-1v-1a2 2 0 0 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2Zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHouseSlashFill = {
+  $_icon: {
+    name: "HouseSlashFill",
+    vendor: "B",
+    type: [],
+    tags: ["house","slash","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"m8 3.293 4.712 4.712A4.5 4.5 0 0 0 8.758 15H3.5A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"}
+        ),
+        h(
+          "path",
+          {"d":"M13.879 10.414a2.5 2.5 0 0 0-3.465 3.465l3.465-3.465Zm.707.707-3.465 3.465a2.501 2.501 0 0 0 3.465-3.465Zm-4.56-1.096a3.5 3.5 0 1 1 4.949 4.95 3.5 3.5 0 0 1-4.95-4.95Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHouseSlash = {
+  $_icon: {
+    name: "HouseSlash",
+    vendor: "B",
+    type: [],
+    tags: ["house","slash"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M13.879 10.414a2.5 2.5 0 0 0-3.465 3.465l3.465-3.465Zm.707.707-3.465 3.465a2.501 2.501 0 0 0 3.465-3.465Zm-4.56-1.096a3.5 3.5 0 1 1 4.949 4.95 3.5 3.5 0 0 1-4.95-4.95Z"}
+        ),
+        h(
+          "path",
+          {"d":"M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207l-5 5V13.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 2 13.5V8.207l-.646.647a.5.5 0 1 1-.708-.708L7.293 1.5Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHouseUpFill = {
+  $_icon: {
+    name: "HouseUpFill",
+    vendor: "B",
+    type: [],
+    tags: ["house","up","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.354-5.854 1.5 1.5a.5.5 0 0 1-.708.708L13 11.707V14.5a.5.5 0 1 1-1 0v-2.793l-.646.647a.5.5 0 0 1-.708-.707l1.5-1.5a.5.5 0 0 1 .708 0Z"}
+        ),
+        h(
+          "path",
+          {"d":"M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"m8 3.293 4.712 4.712A4.5 4.5 0 0 0 8.758 15H3.5A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHouseUp = {
+  $_icon: {
+    name: "HouseUp",
+    vendor: "B",
+    type: [],
+    tags: ["house","up"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207l-5 5V13.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 2 13.5V8.207l-.646.647a.5.5 0 1 1-.708-.708L7.293 1.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.354-5.854 1.5 1.5a.5.5 0 0 1-.708.708L13 11.707V14.5a.5.5 0 1 1-1 0v-2.793l-.646.647a.5.5 0 0 1-.708-.707l1.5-1.5a.5.5 0 0 1 .708 0Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHouseXFill = {
+  $_icon: {
+    name: "HouseXFill",
+    vendor: "B",
+    type: [],
+    tags: ["house","x","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"m8 3.293 4.712 4.712A4.5 4.5 0 0 0 8.758 15H3.5A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"}
+        ),
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm-.646-4.854.646.647.646-.646a.5.5 0 0 1 .708.707l-.647.646.647.646a.5.5 0 0 1-.708.708l-.646-.647-.646.647a.5.5 0 0 1-.708-.707l.647-.647-.647-.646a.5.5 0 0 1 .708-.707Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHouseX = {
+  $_icon: {
+    name: "HouseX",
+    vendor: "B",
+    type: [],
+    tags: ["house","x"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207l-5 5V13.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 2 13.5V8.207l-.646.647a.5.5 0 1 1-.708-.708L7.293 1.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm-.646-4.854.646.647.646-.646a.5.5 0 0 1 .708.707l-.647.646.647.646a.5.5 0 0 1-.708.708l-.646-.647-.646.647a.5.5 0 0 1-.708-.707l.647-.647-.647-.646a.5.5 0 0 1 .708-.707Z"}
         ) 
       ]
     )
@@ -23498,15 +25474,55 @@ export let BHouse = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-house"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"}
+          {"d":"M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHousesFill = {
+  $_icon: {
+    name: "HousesFill",
+    vendor: "B",
+    type: [],
+    tags: ["houses","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M7.207 1a1 1 0 0 0-1.414 0L.146 6.646a.5.5 0 0 0 .708.708L1 7.207V12.5A1.5 1.5 0 0 0 2.5 14h.55a2.51 2.51 0 0 1-.05-.5V9.415a1.5 1.5 0 0 1-.56-2.475l5.353-5.354L7.207 1Z"}
         ),
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"}
+          {"d":"M8.793 2a1 1 0 0 1 1.414 0L12 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l1.854 1.853a.5.5 0 0 1-.708.708L15 8.207V13.5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 4 13.5V8.207l-.146.147a.5.5 0 1 1-.708-.708L8.793 2Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BHouses = {
+  $_icon: {
+    name: "Houses",
+    vendor: "B",
+    type: [],
+    tags: ["houses"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M5.793 1a1 1 0 0 1 1.414 0l.647.646a.5.5 0 1 1-.708.708L6.5 1.707 2 6.207V12.5a.5.5 0 0 0 .5.5.5.5 0 0 1 0 1A1.5 1.5 0 0 1 1 12.5V7.207l-.146.147a.5.5 0 0 1-.708-.708L5.793 1Zm3 1a1 1 0 0 1 1.414 0L12 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l1.854 1.853a.5.5 0 0 1-.708.708L15 8.207V13.5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 4 13.5V8.207l-.146.147a.5.5 0 1 1-.708-.708L8.793 2Zm.707.707L5 7.207V13.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5V7.207l-4.5-4.5Z"}
         ) 
       ]
     )
@@ -23522,7 +25538,7 @@ export let BHr = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hr"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23542,7 +25558,7 @@ export let BHurricane = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hurricane"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23562,7 +25578,7 @@ export let BHypnotize = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-hypnotize"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23586,7 +25602,7 @@ export let BImageAlt = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-image-alt"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23606,7 +25622,7 @@ export let BImageFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-image-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23626,7 +25642,7 @@ export let BImage = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-image"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23650,7 +25666,7 @@ export let BImages = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-images"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23674,7 +25690,7 @@ export let BInboxFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-inbox-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23694,7 +25710,7 @@ export let BInbox = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-inbox"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23714,7 +25730,7 @@ export let BInboxesFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-inboxes-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23734,7 +25750,7 @@ export let BInboxes = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-inboxes"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23754,7 +25770,7 @@ export let BIncognito = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-incognito"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23774,7 +25790,7 @@ export let BIndent = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-indent"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23798,7 +25814,7 @@ export let BInfinity = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-infinity"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23818,7 +25834,7 @@ export let BInfoCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-info-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23838,7 +25854,7 @@ export let BInfoCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-info-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23862,7 +25878,7 @@ export let BInfoLg = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-info-lg"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23882,7 +25898,7 @@ export let BInfoSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-info-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23902,7 +25918,7 @@ export let BInfoSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-info-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23926,7 +25942,7 @@ export let BInfo = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-info"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23946,7 +25962,7 @@ export let BInputCursorText = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-input-cursor-text"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23970,7 +25986,7 @@ export let BInputCursor = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-input-cursor"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -23994,7 +26010,7 @@ export let BInstagram = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-instagram"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24014,7 +26030,7 @@ export let BIntersect = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-intersect"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24034,7 +26050,7 @@ export let BJournalAlbum = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-journal-album"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24062,7 +26078,7 @@ export let BJournalArrowDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-journal-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24090,7 +26106,7 @@ export let BJournalArrowUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-journal-arrow-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24118,7 +26134,7 @@ export let BJournalBookmarkFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-journal-bookmark-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24146,7 +26162,7 @@ export let BJournalBookmark = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-journal-bookmark"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24174,7 +26190,7 @@ export let BJournalCheck = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-journal-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24202,7 +26218,7 @@ export let BJournalCode = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-journal-code"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24230,7 +26246,7 @@ export let BJournalMedical = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-journal-medical"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24258,7 +26274,7 @@ export let BJournalMinus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-journal-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24286,7 +26302,7 @@ export let BJournalPlus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-journal-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24314,7 +26330,7 @@ export let BJournalRichtext = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-journal-richtext"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24342,7 +26358,7 @@ export let BJournalText = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-journal-text"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24370,7 +26386,7 @@ export let BJournalX = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-journal-x"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24398,7 +26414,7 @@ export let BJournal = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-journal"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24422,7 +26438,7 @@ export let BJournals = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-journals"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24446,7 +26462,7 @@ export let BJoystick = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-joystick"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24470,7 +26486,7 @@ export let BJustifyLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-justify-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24490,7 +26506,7 @@ export let BJustifyRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-justify-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24510,7 +26526,7 @@ export let BJustify = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-justify"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24530,7 +26546,7 @@ export let BKanbanFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-kanban-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24550,7 +26566,7 @@ export let BKanban = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-kanban"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24574,7 +26590,7 @@ export let BKeyFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-key-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24594,7 +26610,7 @@ export let BKey = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-key"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24618,7 +26634,7 @@ export let BKeyboardFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-keyboard-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24638,7 +26654,7 @@ export let BKeyboard = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-keyboard"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24662,7 +26678,7 @@ export let BLadder = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-ladder"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24682,7 +26698,7 @@ export let BLampFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-lamp-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24706,7 +26722,7 @@ export let BLamp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-lamp"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24730,7 +26746,7 @@ export let BLaptopFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-laptop-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24750,7 +26766,7 @@ export let BLaptop = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-laptop"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24770,7 +26786,7 @@ export let BLayerBackward = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-layer-backward"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24794,7 +26810,7 @@ export let BLayerForward = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-layer-forward"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24818,7 +26834,7 @@ export let BLayersFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-layers-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24842,7 +26858,7 @@ export let BLayersHalf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-layers-half"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24862,7 +26878,7 @@ export let BLayers = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-layers"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24882,7 +26898,7 @@ export let BLayoutSidebarInsetReverse = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-layout-sidebar-inset-reverse"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24906,7 +26922,7 @@ export let BLayoutSidebarInset = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-layout-sidebar-inset"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24930,7 +26946,7 @@ export let BLayoutSidebarReverse = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-layout-sidebar-reverse"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24950,7 +26966,7 @@ export let BLayoutSidebar = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-layout-sidebar"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24970,7 +26986,7 @@ export let BLayoutSplit = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-layout-split"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -24990,7 +27006,7 @@ export let BLayoutTextSidebarReverse = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-layout-text-sidebar-reverse"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25014,7 +27030,7 @@ export let BLayoutTextSidebar = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-layout-text-sidebar"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25038,7 +27054,7 @@ export let BLayoutTextWindowReverse = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-layout-text-window-reverse"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25062,7 +27078,7 @@ export let BLayoutTextWindow = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-layout-text-window"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25086,7 +27102,7 @@ export let BLayoutThreeColumns = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-layout-three-columns"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25106,7 +27122,7 @@ export let BLayoutWtf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-layout-wtf"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25126,7 +27142,7 @@ export let BLifePreserver = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-life-preserver"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25146,7 +27162,7 @@ export let BLightbulbFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-lightbulb-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25166,7 +27182,7 @@ export let BLightbulbOffFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-lightbulb-off-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25186,7 +27202,7 @@ export let BLightbulbOff = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-lightbulb-off"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25206,7 +27222,7 @@ export let BLightbulb = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-lightbulb"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25226,7 +27242,7 @@ export let BLightningChargeFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-lightning-charge-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25246,7 +27262,7 @@ export let BLightningCharge = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-lightning-charge"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25266,7 +27282,7 @@ export let BLightningFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-lightning-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25286,7 +27302,7 @@ export let BLightning = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-lightning"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25306,7 +27322,7 @@ export let BLine = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-line"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25326,7 +27342,7 @@ export let BLink45deg = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-link-45deg"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25350,7 +27366,7 @@ export let BLink = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-link"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25374,7 +27390,7 @@ export let BLinkedin = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-linkedin"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25394,7 +27410,7 @@ export let BListCheck = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-list-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25414,7 +27430,7 @@ export let BListColumnsReverse = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-list-columns-reverse"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25434,7 +27450,7 @@ export let BListColumns = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-list-columns"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25454,7 +27470,7 @@ export let BListNested = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-list-nested"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25474,7 +27490,7 @@ export let BListOl = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-list-ol"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25498,7 +27514,7 @@ export let BListStars = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-list-stars"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25522,7 +27538,7 @@ export let BListTask = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-list-task"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25550,7 +27566,7 @@ export let BListUl = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-list-ul"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25570,7 +27586,7 @@ export let BList = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-list"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25590,7 +27606,7 @@ export let BLockFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-lock-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25610,7 +27626,7 @@ export let BLock = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-lock"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25630,11 +27646,11 @@ export let BLungsFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-lungs-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M8 1a.5.5 0 0 1 .5.5v5.243L9 7.1V4.72C9 3.77 9.77 3 10.72 3c.524 0 1.023.27 1.443.592.431.332.847.773 1.216 1.229.736.908 1.347 1.946 1.58 2.48.176.405.393 1.16.556 2.011.165.857.283 1.857.24 2.759-.04.867-.232 1.79-.837 2.33-.67.6-1.622.556-2.741-.004l-1.795-.897A2.5 2.5 0 0 1 9 11.264V8.329l-1-.715-1 .715V7.214c-.1 0-.202.03-.29.093l-2.5 1.786a.5.5 0 1 0 .58.814L7 8.329v2.935A2.5 2.5 0 0 1 5.618 13.5l-1.795.897c-1.12.56-2.07.603-2.741.004-.605-.54-.798-1.463-.838-2.33-.042-.902.076-1.902.24-2.759.164-.852.38-1.606.558-2.012.232-.533.843-1.571 1.579-2.479.37-.456.785-.897 1.216-1.229C4.257 3.27 4.756 3 5.28 3 6.23 3 7 3.77 7 4.72V7.1l.5-.357V1.5A.5.5 0 0 1 8 1Zm3.21 8.907L9 8.329V7.214c.1 0 .202.03.29.093l2.5 1.786a.5.5 0 0 1-.58.814Z"}
+          {"d":"M8 1a.5.5 0 0 1 .5.5v5.243L9 7.1V4.72C9 3.77 9.77 3 10.72 3c.524 0 1.023.27 1.443.592.431.332.847.773 1.216 1.229.736.908 1.347 1.946 1.58 2.48.176.405.393 1.16.556 2.011.165.857.283 1.857.24 2.759-.04.867-.232 1.79-.837 2.33-.67.6-1.622.556-2.741-.004l-1.795-.897A2.5 2.5 0 0 1 9 11.264V8.329l-1-.715-1 .715V7.214c-.1 0-.202.03-.29.093l-2.5 1.786a.5.5 0 1 0 .58.814L7 8.329v2.935A2.5 2.5 0 0 1 5.618 13.5l-1.795.897c-1.12.56-2.07.603-2.741.004-.605-.54-.798-1.463-.838-2.33-.042-.902.076-1.902.24-2.759.164-.852.38-1.606.558-2.012.232-.533.843-1.571 1.579-2.479.37-.456.785-.897 1.216-1.229C4.257 3.27 4.756 3 5.28 3 6.23 3 7 3.77 7 4.72V7.1l.5-.357V1.5A.5.5 0 0 1 8 1Zm3.21 8.907a.5.5 0 1 0 .58-.814l-2.5-1.786A.498.498 0 0 0 9 7.214V8.33l2.21 1.578Z"}
         ) 
       ]
     )
@@ -25650,7 +27666,7 @@ export let BLungs = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-lungs"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25670,7 +27686,7 @@ export let BMagic = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-magic"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25690,7 +27706,7 @@ export let BMagnetFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-magnet-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25710,7 +27726,7 @@ export let BMagnet = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-magnet"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25730,7 +27746,7 @@ export let BMailbox = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-mailbox"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25754,7 +27770,7 @@ export let BMailbox2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-mailbox2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25778,7 +27794,7 @@ export let BMapFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-map-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25798,7 +27814,7 @@ export let BMap = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-map"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25818,7 +27834,7 @@ export let BMarkdownFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-markdown-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25838,7 +27854,7 @@ export let BMarkdown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-markdown"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25870,7 +27886,7 @@ export let BMask = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-mask"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25890,7 +27906,7 @@ export let BMastodon = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-mastodon"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25910,7 +27926,7 @@ export let BMedium = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-medium"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25930,7 +27946,7 @@ export let BMegaphoneFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-megaphone-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25950,7 +27966,7 @@ export let BMegaphone = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-megaphone"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25970,7 +27986,7 @@ export let BMemory = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-memory"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -25990,7 +28006,7 @@ export let BMenuAppFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-menu-app-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26010,7 +28026,7 @@ export let BMenuApp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-menu-app"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26030,7 +28046,7 @@ export let BMenuButtonFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-menu-button-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26050,7 +28066,7 @@ export let BMenuButtonWideFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-menu-button-wide-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26070,7 +28086,7 @@ export let BMenuButtonWide = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-menu-button-wide"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26094,7 +28110,7 @@ export let BMenuButton = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-menu-button"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26118,7 +28134,7 @@ export let BMenuDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-menu-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26138,7 +28154,7 @@ export let BMenuUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-menu-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26158,7 +28174,7 @@ export let BMessenger = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-messenger"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26178,7 +28194,7 @@ export let BMeta = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-meta"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26198,7 +28214,7 @@ export let BMicFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-mic-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26222,7 +28238,7 @@ export let BMicMuteFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-mic-mute-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26246,7 +28262,7 @@ export let BMicMute = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-mic-mute"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26270,7 +28286,7 @@ export let BMic = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-mic"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26294,7 +28310,7 @@ export let BMicrosoftTeams = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-microsoft-teams"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26318,7 +28334,7 @@ export let BMicrosoft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-microsoft"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26338,7 +28354,7 @@ export let BMinecartLoaded = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-minecart-loaded"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26362,7 +28378,7 @@ export let BMinecart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-minecart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26382,7 +28398,7 @@ export let BModemFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-modem-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26402,7 +28418,7 @@ export let BModem = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-modem"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26426,7 +28442,7 @@ export let BMoisture = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-moisture"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26446,7 +28462,7 @@ export let BMoonFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-moon-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26466,7 +28482,7 @@ export let BMoonStarsFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-moon-stars-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26490,7 +28506,7 @@ export let BMoonStars = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-moon-stars"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26514,7 +28530,7 @@ export let BMoon = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-moon"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26534,7 +28550,7 @@ export let BMortarboardFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-mortarboard-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26558,7 +28574,7 @@ export let BMortarboard = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-mortarboard"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26582,7 +28598,7 @@ export let BMotherboardFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-motherboard-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26606,7 +28622,7 @@ export let BMotherboard = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-motherboard"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26630,7 +28646,7 @@ export let BMouseFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-mouse-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26650,7 +28666,7 @@ export let BMouse = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-mouse"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26670,7 +28686,7 @@ export let BMouse2Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-mouse2-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26690,7 +28706,7 @@ export let BMouse2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-mouse2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26710,7 +28726,7 @@ export let BMouse3Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-mouse3-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26730,7 +28746,7 @@ export let BMouse3 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-mouse3"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26750,7 +28766,7 @@ export let BMusicNoteBeamed = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-music-note-beamed"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26778,7 +28794,7 @@ export let BMusicNoteList = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-music-note-list"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26810,7 +28826,7 @@ export let BMusicNote = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-music-note"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26838,7 +28854,7 @@ export let BMusicPlayerFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-music-player-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26862,7 +28878,7 @@ export let BMusicPlayer = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-music-player"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26890,7 +28906,7 @@ export let BNewspaper = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-newspaper"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26914,7 +28930,7 @@ export let BNintendoSwitch = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-nintendo-switch"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26938,7 +28954,7 @@ export let BNodeMinusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-node-minus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26958,7 +28974,7 @@ export let BNodeMinus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-node-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26978,7 +28994,7 @@ export let BNodePlusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-node-plus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -26998,7 +29014,7 @@ export let BNodePlus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-node-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27018,7 +29034,7 @@ export let BNutFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-nut-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27038,7 +29054,7 @@ export let BNut = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-nut"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27047,6 +29063,26 @@ export let BNut = {
         h(
           "path",
           {"d":"M6.848 5.933a2.5 2.5 0 1 0 2.5 4.33 2.5 2.5 0 0 0-2.5-4.33zm-1.78 3.915a3.5 3.5 0 1 1 6.061-3.5 3.5 3.5 0 0 1-6.062 3.5z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BNvidia = {
+  $_icon: {
+    name: "Nvidia",
+    vendor: "B",
+    type: [],
+    tags: ["nvidia"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M1.635 7.146S3.08 5.012 5.97 4.791v-.774C2.77 4.273 0 6.983 0 6.983s1.57 4.536 5.97 4.952v-.824c-3.23-.406-4.335-3.965-4.335-3.965ZM5.97 9.475v.753c-2.44-.435-3.118-2.972-3.118-2.972S4.023 5.958 5.97 5.747v.828h-.004c-1.021-.123-1.82.83-1.82.83s.448 1.607 1.824 2.07ZM6 2l-.03 2.017A6.64 6.64 0 0 1 6.252 4c3.637-.123 6.007 2.983 6.007 2.983s-2.722 3.31-5.557 3.31c-.26 0-.504-.024-.732-.065v.883c.195.025.398.04.61.04 2.638 0 4.546-1.348 6.394-2.943.307.246 1.561.842 1.819 1.104-1.757 1.47-5.852 2.657-8.173 2.657a6.84 6.84 0 0 1-.65-.034V14H16l.03-12H6Zm-.03 3.747v-.956a6.4 6.4 0 0 1 .282-.015c2.616-.082 4.332 2.248 4.332 2.248S8.73 9.598 6.743 9.598c-.286 0-.542-.046-.773-.123v-2.9c1.018.123 1.223.572 1.835 1.593L9.167 7.02s-.994-1.304-2.67-1.304a4.9 4.9 0 0 0-.527.031Z"}
         ) 
       ]
     )
@@ -27062,7 +29098,7 @@ export let BOctagonFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-octagon-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27082,7 +29118,7 @@ export let BOctagonHalf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-octagon-half"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27102,7 +29138,7 @@ export let BOctagon = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-octagon"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27122,7 +29158,7 @@ export let BOpticalAudioFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-optical-audio-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27146,7 +29182,7 @@ export let BOpticalAudio = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-optical-audio"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27174,7 +29210,7 @@ export let BOption = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-option"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27194,7 +29230,7 @@ export let BOutlet = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-outlet"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27218,7 +29254,7 @@ export let BPCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-p-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27238,7 +29274,7 @@ export let BPCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-p-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27258,7 +29294,7 @@ export let BPSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-p-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27282,7 +29318,7 @@ export let BPSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-p-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27306,7 +29342,7 @@ export let BPaintBucket = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-paint-bucket"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27326,7 +29362,7 @@ export let BPaletteFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-palette-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27346,7 +29382,7 @@ export let BPalette = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-palette"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27370,7 +29406,7 @@ export let BPalette2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-palette2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27394,7 +29430,7 @@ export let BPaperclip = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-paperclip"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27414,7 +29450,7 @@ export let BParagraph = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-paragraph"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27434,7 +29470,7 @@ export let BPassFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pass-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27454,7 +29490,7 @@ export let BPass = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pass"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27478,7 +29514,7 @@ export let BPatchCheckFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-patch-check-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27498,7 +29534,7 @@ export let BPatchCheck = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-patch-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27522,7 +29558,7 @@ export let BPatchExclamationFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-patch-exclamation-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27542,7 +29578,7 @@ export let BPatchExclamation = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-patch-exclamation"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27566,7 +29602,7 @@ export let BPatchMinusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-patch-minus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27586,7 +29622,7 @@ export let BPatchMinus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-patch-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27610,7 +29646,7 @@ export let BPatchPlusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-patch-plus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27630,7 +29666,7 @@ export let BPatchPlus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-patch-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27654,7 +29690,7 @@ export let BPatchQuestionFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-patch-question-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27674,7 +29710,7 @@ export let BPatchQuestion = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-patch-question"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27702,7 +29738,7 @@ export let BPauseBtnFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pause-btn-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27722,7 +29758,7 @@ export let BPauseBtn = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pause-btn"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27746,7 +29782,7 @@ export let BPauseCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pause-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27766,7 +29802,7 @@ export let BPauseCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pause-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27790,7 +29826,7 @@ export let BPauseFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pause-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27810,7 +29846,7 @@ export let BPause = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pause"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27830,7 +29866,7 @@ export let BPaypal = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-paypal"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27850,7 +29886,7 @@ export let BPcDisplayHorizontal = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pc-display-horizontal"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27870,7 +29906,7 @@ export let BPcDisplay = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pc-display"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27890,7 +29926,7 @@ export let BPcHorizontal = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pc-horizontal"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27910,7 +29946,7 @@ export let BPc = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pc"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27930,7 +29966,7 @@ export let BPciCard = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pci-card"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27954,7 +29990,7 @@ export let BPeaceFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-peace-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27974,7 +30010,7 @@ export let BPeace = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-peace"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -27994,7 +30030,7 @@ export let BPenFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pen-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28014,7 +30050,7 @@ export let BPen = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pen"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28034,7 +30070,7 @@ export let BPencilFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pencil-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28054,7 +30090,7 @@ export let BPencilSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pencil-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28078,7 +30114,7 @@ export let BPencil = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pencil"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28098,7 +30134,7 @@ export let BPentagonFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pentagon-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28118,7 +30154,7 @@ export let BPentagonHalf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pentagon-half"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28138,7 +30174,7 @@ export let BPentagon = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pentagon"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28158,19 +30194,11 @@ export let BPeopleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-people-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"d":"M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"}
-        ),
-        h(
-          "path",
-          {"fill-rule":"evenodd","d":"M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"}
-        ),
-        h(
-          "path",
-          {"d":"M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"}
+          {"d":"M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"}
         ) 
       ]
     )
@@ -28186,11 +30214,11 @@ export let BPeople = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-people"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"d":"M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"}
+          {"d":"M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"}
         ) 
       ]
     )
@@ -28206,11 +30234,35 @@ export let BPercent = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-percent"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
           {"d":"M13.442 2.558a.625.625 0 0 1 0 .884l-10 10a.625.625 0 1 1-.884-.884l10-10a.625.625 0 0 1 .884 0zM4.5 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm7 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BPersonAdd = {
+  $_icon: {
+    name: "PersonAdd",
+    vendor: "B",
+    type: [],
+    tags: ["person","add"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0Zm-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"}
+        ),
+        h(
+          "path",
+          {"d":"M8.256 14a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z"}
         ) 
       ]
     )
@@ -28226,7 +30278,7 @@ export let BPersonBadgeFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-badge-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28246,7 +30298,7 @@ export let BPersonBadge = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-badge"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28270,7 +30322,7 @@ export let BPersonBoundingBox = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-bounding-box"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28294,7 +30346,7 @@ export let BPersonCheckFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-check-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28318,15 +30370,15 @@ export let BPersonCheck = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"d":"M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"}
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"}
         ),
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"}
+          {"d":"M8.256 14a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z"}
         ) 
       ]
     )
@@ -28342,7 +30394,7 @@ export let BPersonCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28366,7 +30418,7 @@ export let BPersonDashFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-dash-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28390,15 +30442,291 @@ export let BPersonDash = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-dash"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"d":"M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"}
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7ZM11 12h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1Zm0-7a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"}
         ),
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M11 7.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5z"}
+          {"d":"M8.256 14a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BPersonDown = {
+  $_icon: {
+    name: "PersonDown",
+    vendor: "B",
+    type: [],
+    tags: ["person","down"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 9a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7Zm.354 5.854 1.5-1.5a.5.5 0 0 0-.708-.708l-.646.647V10.5a.5.5 0 0 0-1 0v2.793l-.646-.647a.5.5 0 0 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"}
+        ),
+        h(
+          "path",
+          {"d":"M8.256 14a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BPersonExclamation = {
+  $_icon: {
+    name: "PersonExclamation",
+    vendor: "B",
+    type: [],
+    tags: ["person","exclamation"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm.256 7a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z"}
+        ),
+        h(
+          "path",
+          {"d":"M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-3.5-2a.5.5 0 0 0-.5.5v1.5a.5.5 0 0 0 1 0V11a.5.5 0 0 0-.5-.5Zm0 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BPersonFillAdd = {
+  $_icon: {
+    name: "PersonFillAdd",
+    vendor: "B",
+    type: [],
+    tags: ["person","fill","add"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0Zm-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BPersonFillCheck = {
+  $_icon: {
+    name: "PersonFillCheck",
+    vendor: "B",
+    type: [],
+    tags: ["person","fill","check"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BPersonFillDash = {
+  $_icon: {
+    name: "PersonFillDash",
+    vendor: "B",
+    type: [],
+    tags: ["person","fill","dash"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7ZM11 12h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1Zm0-7a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BPersonFillDown = {
+  $_icon: {
+    name: "PersonFillDown",
+    vendor: "B",
+    type: [],
+    tags: ["person","fill","down"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 9a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7Zm.354 5.854 1.5-1.5a.5.5 0 0 0-.708-.708l-.646.647V10.5a.5.5 0 0 0-1 0v2.793l-.646-.647a.5.5 0 0 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BPersonFillExclamation = {
+  $_icon: {
+    name: "PersonFillExclamation",
+    vendor: "B",
+    type: [],
+    tags: ["person","fill","exclamation"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"}
+        ),
+        h(
+          "path",
+          {"d":"M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-3.5-2a.5.5 0 0 0-.5.5v1.5a.5.5 0 0 0 1 0V11a.5.5 0 0 0-.5-.5Zm0 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BPersonFillGear = {
+  $_icon: {
+    name: "PersonFillGear",
+    vendor: "B",
+    type: [],
+    tags: ["person","fill","gear"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Zm9.886-3.54c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BPersonFillLock = {
+  $_icon: {
+    name: "PersonFillLock",
+    vendor: "B",
+    type: [],
+    tags: ["person","fill","lock"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h5v-1a1.9 1.9 0 0 1 .01-.2 4.49 4.49 0 0 1 1.534-3.693C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Zm7 0a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2Zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BPersonFillSlash = {
+  $_icon: {
+    name: "PersonFillSlash",
+    vendor: "B",
+    type: [],
+    tags: ["person","fill","slash"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M13.879 10.414a2.501 2.501 0 0 0-3.465 3.465l3.465-3.465Zm.707.707-3.465 3.465a2.501 2.501 0 0 0 3.465-3.465Zm-4.56-1.096a3.5 3.5 0 1 1 4.949 4.95 3.5 3.5 0 0 1-4.95-4.95ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BPersonFillUp = {
+  $_icon: {
+    name: "PersonFillUp",
+    vendor: "B",
+    type: [],
+    tags: ["person","fill","up"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.354-5.854 1.5 1.5a.5.5 0 0 1-.708.708L13 11.707V14.5a.5.5 0 0 1-1 0v-2.793l-.646.647a.5.5 0 0 1-.708-.708l1.5-1.5a.5.5 0 0 1 .708 0ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BPersonFillX = {
+  $_icon: {
+    name: "PersonFillX",
+    vendor: "B",
+    type: [],
+    tags: ["person","fill","x"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"}
+        ),
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm-.646-4.854.646.647.646-.647a.5.5 0 0 1 .708.708l-.647.646.647.646a.5.5 0 0 1-.708.708l-.646-.647-.646.647a.5.5 0 0 1-.708-.708l.647-.646-.647-.646a.5.5 0 0 1 .708-.708Z"}
         ) 
       ]
     )
@@ -28414,11 +30742,31 @@ export let BPersonFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"d":"M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"}
+          {"d":"M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BPersonGear = {
+  $_icon: {
+    name: "PersonGear",
+    vendor: "B",
+    type: [],
+    tags: ["person","gear"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm.256 7a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Zm3.63-4.54c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z"}
         ) 
       ]
     )
@@ -28434,7 +30782,7 @@ export let BPersonHeart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28454,7 +30802,7 @@ export let BPersonHearts = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-hearts"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28474,11 +30822,31 @@ export let BPersonLinesFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-lines-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
           {"d":"M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BPersonLock = {
+  $_icon: {
+    name: "PersonLock",
+    vendor: "B",
+    type: [],
+    tags: ["person","lock"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 5.996V14H3s-1 0-1-1 1-4 6-4c.564 0 1.077.038 1.544.107a4.524 4.524 0 0 0-.803.918A10.46 10.46 0 0 0 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h5ZM9 13a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2Zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1Z"}
         ) 
       ]
     )
@@ -28494,7 +30862,7 @@ export let BPersonPlusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-plus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28518,7 +30886,7 @@ export let BPersonPlus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28542,7 +30910,7 @@ export let BPersonRolodex = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-rolodex"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28551,6 +30919,26 @@ export let BPersonRolodex = {
         h(
           "path",
           {"d":"M1 1a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h.5a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h.5a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H6.707L6 1.293A1 1 0 0 0 5.293 1H1Zm0 1h4.293L6 2.707A1 1 0 0 0 6.707 3H15v10h-.085a1.5 1.5 0 0 0-2.4-.63C11.885 11.223 10.554 10 8 10c-2.555 0-3.886 1.224-4.514 2.37a1.5 1.5 0 0 0-2.4.63H1V2Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BPersonSlash = {
+  $_icon: {
+    name: "PersonSlash",
+    vendor: "B",
+    type: [],
+    tags: ["person","slash"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M13.879 10.414a2.501 2.501 0 0 0-3.465 3.465l3.465-3.465Zm.707.707-3.465 3.465a2.501 2.501 0 0 0 3.465-3.465Zm-4.56-1.096a3.5 3.5 0 1 1 4.949 4.95 3.5 3.5 0 0 1-4.95-4.95ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm.256 7a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z"}
         ) 
       ]
     )
@@ -28566,7 +30954,7 @@ export let BPersonSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28575,6 +30963,74 @@ export let BPersonSquare = {
         h(
           "path",
           {"d":"M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BPersonUp = {
+  $_icon: {
+    name: "PersonUp",
+    vendor: "B",
+    type: [],
+    tags: ["person","up"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.354-5.854 1.5 1.5a.5.5 0 0 1-.708.708L13 11.707V14.5a.5.5 0 0 1-1 0v-2.793l-.646.647a.5.5 0 0 1-.708-.708l1.5-1.5a.5.5 0 0 1 .708 0ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"}
+        ),
+        h(
+          "path",
+          {"d":"M8.256 14a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BPersonVcardFill = {
+  $_icon: {
+    name: "PersonVcardFill",
+    vendor: "B",
+    type: [],
+    tags: ["person","vcard","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5ZM9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8Zm1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5Zm-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96c.026-.163.04-.33.04-.5ZM7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BPersonVcard = {
+  $_icon: {
+    name: "PersonVcard",
+    vendor: "B",
+    type: [],
+    tags: ["person","vcard"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M5 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm4-2.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5ZM9 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4A.5.5 0 0 1 9 8Zm1 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2ZM1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H8.96c.026-.163.04-.33.04-.5C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1.006 1.006 0 0 1 1 12V4Z"}
         ) 
       ]
     )
@@ -28590,7 +31046,7 @@ export let BPersonVideo = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-video"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28614,7 +31070,7 @@ export let BPersonVideo2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-video2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28638,7 +31094,7 @@ export let BPersonVideo3 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-video3"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28662,7 +31118,7 @@ export let BPersonWorkspace = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-workspace"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28686,7 +31142,7 @@ export let BPersonXFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-x-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28706,15 +31162,15 @@ export let BPersonX = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person-x"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"d":"M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"}
+          {"d":"M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm.256 7a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z"}
         ),
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M12.146 5.146a.5.5 0 0 1 .708 0L14 6.293l1.146-1.147a.5.5 0 0 1 .708.708L14.707 7l1.147 1.146a.5.5 0 0 1-.708.708L14 7.707l-1.146 1.147a.5.5 0 0 1-.708-.708L13.293 7l-1.147-1.146a.5.5 0 0 1 0-.708z"}
+          {"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm-.646-4.854.646.647.646-.647a.5.5 0 0 1 .708.708l-.647.646.647.646a.5.5 0 0 1-.708.708l-.646-.647-.646.647a.5.5 0 0 1-.708-.708l.647-.646-.647-.646a.5.5 0 0 1 .708-.708Z"}
         ) 
       ]
     )
@@ -28730,11 +31186,11 @@ export let BPerson = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-person"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"d":"M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"}
+          {"d":"M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"}
         ) 
       ]
     )
@@ -28750,7 +31206,7 @@ export let BPhoneFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-phone-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28770,7 +31226,7 @@ export let BPhoneFlip = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-phone-flip"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28790,7 +31246,7 @@ export let BPhoneLandscapeFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-phone-landscape-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28810,7 +31266,7 @@ export let BPhoneLandscape = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-phone-landscape"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28834,7 +31290,7 @@ export let BPhoneVibrateFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-phone-vibrate-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28854,7 +31310,7 @@ export let BPhoneVibrate = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-phone-vibrate"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28878,7 +31334,7 @@ export let BPhone = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-phone"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28902,7 +31358,7 @@ export let BPieChartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pie-chart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28922,7 +31378,7 @@ export let BPieChart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pie-chart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28942,7 +31398,7 @@ export let BPiggyBankFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-piggy-bank-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28962,7 +31418,7 @@ export let BPiggyBank = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-piggy-bank"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -28986,7 +31442,7 @@ export let BPinAngleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pin-angle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29006,7 +31462,7 @@ export let BPinAngle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pin-angle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29026,7 +31482,7 @@ export let BPinFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pin-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29046,7 +31502,7 @@ export let BPinMapFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pin-map-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29070,7 +31526,7 @@ export let BPinMap = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pin-map"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29094,7 +31550,7 @@ export let BPin = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pin"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29114,7 +31570,7 @@ export let BPinterest = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pinterest"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29134,7 +31590,7 @@ export let BPipFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pip-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29154,7 +31610,7 @@ export let BPip = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-pip"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29178,7 +31634,7 @@ export let BPlayBtnFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-play-btn-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29198,7 +31654,7 @@ export let BPlayBtn = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-play-btn"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29222,7 +31678,7 @@ export let BPlayCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-play-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29242,7 +31698,7 @@ export let BPlayCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-play-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29266,7 +31722,7 @@ export let BPlayFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-play-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29286,7 +31742,7 @@ export let BPlay = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-play"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29306,7 +31762,7 @@ export let BPlaystation = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-playstation"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29326,7 +31782,7 @@ export let BPlugFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-plug-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29346,7 +31802,7 @@ export let BPlug = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-plug"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29366,7 +31822,7 @@ export let BPlugin = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-plugin"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29386,7 +31842,7 @@ export let BPlusCircleDotted = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-plus-circle-dotted"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29406,7 +31862,7 @@ export let BPlusCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-plus-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29426,7 +31882,7 @@ export let BPlusCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-plus-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29450,7 +31906,7 @@ export let BPlusLg = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-plus-lg"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29470,7 +31926,7 @@ export let BPlusSlashMinus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-plus-slash-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29490,7 +31946,7 @@ export let BPlusSquareDotted = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-plus-square-dotted"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29510,7 +31966,7 @@ export let BPlusSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-plus-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29530,7 +31986,7 @@ export let BPlusSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-plus-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29554,7 +32010,7 @@ export let BPlus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29574,7 +32030,7 @@ export let BPostageFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-postage-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29598,7 +32054,7 @@ export let BPostageHeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-postage-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29622,7 +32078,7 @@ export let BPostageHeart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-postage-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29646,7 +32102,7 @@ export let BPostage = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-postage"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29670,7 +32126,7 @@ export let BPostcardFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-postcard-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29694,7 +32150,7 @@ export let BPostcardHeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-postcard-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29714,7 +32170,7 @@ export let BPostcardHeart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-postcard-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29738,7 +32194,7 @@ export let BPostcard = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-postcard"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29758,7 +32214,7 @@ export let BPower = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-power"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29782,15 +32238,15 @@ export let BPrescription = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-prescription"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M5.5 6a.5.5 0 0 0-.5.5v4a.5.5 0 0 0 1 0V9h.293l2 2-1.147 1.146a.5.5 0 0 0 .708.708L9 11.707l1.146 1.147a.5.5 0 0 0 .708-.708L9.707 11l1.147-1.146a.5.5 0 0 0-.708-.708L9 10.293 7.695 8.987A1.5 1.5 0 0 0 7.5 6h-2ZM6 7v1h1.5a.5.5 0 0 0 0-1H6Z"}
+          {"d":"M5.5 6a.5.5 0 0 0-.5.5v4a.5.5 0 0 0 1 0V9h.293l2 2-1.147 1.146a.5.5 0 0 0 .708.708L9 11.707l1.146 1.147a.5.5 0 0 0 .708-.708L9.707 11l1.147-1.146a.5.5 0 0 0-.708-.708L9 10.293 7.695 8.987A1.5 1.5 0 0 0 7.5 6h-2ZM6 7h1.5a.5.5 0 0 1 0 1H6V7Z"}
         ),
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v10.5a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 3 14.5V4a1 1 0 0 1-1-1V1Zm2 3h8v10.5a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5V4ZM3 3V1h10v2H3Z"}
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v10.5a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 3 14.5V4a1 1 0 0 1-1-1V1Zm2 3v10.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5V4H4ZM3 3h10V1H3v2Z"}
         ) 
       ]
     )
@@ -29806,7 +32262,7 @@ export let BPrescription2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-prescription2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29814,7 +32270,7 @@ export let BPrescription2 = {
         ),
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v10.5a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 3 14.5V4a1 1 0 0 1-1-1V1Zm2 3h8v10.5a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5V4ZM3 3V1h10v2H3Z"}
+          {"d":"M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v10.5a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 3 14.5V4a1 1 0 0 1-1-1V1Zm2 3v10.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5V4H4ZM3 3h10V1H3v2Z"}
         ) 
       ]
     )
@@ -29830,7 +32286,7 @@ export let BPrinterFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-printer-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29854,7 +32310,7 @@ export let BPrinter = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-printer"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29878,7 +32334,7 @@ export let BProjectorFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-projector-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29898,7 +32354,7 @@ export let BProjector = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-projector"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29922,7 +32378,7 @@ export let BPuzzleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-puzzle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29942,7 +32398,7 @@ export let BPuzzle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-puzzle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29962,7 +32418,7 @@ export let BQrCodeScan = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-qr-code-scan"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -29998,7 +32454,7 @@ export let BQrCode = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-qr-code"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30034,7 +32490,7 @@ export let BQuestionCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-question-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30054,7 +32510,7 @@ export let BQuestionCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-question-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30078,7 +32534,7 @@ export let BQuestionDiamondFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-question-diamond-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30098,7 +32554,7 @@ export let BQuestionDiamond = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-question-diamond"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30122,7 +32578,7 @@ export let BQuestionLg = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-question-lg"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30142,7 +32598,7 @@ export let BQuestionOctagonFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-question-octagon-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30162,7 +32618,7 @@ export let BQuestionOctagon = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-question-octagon"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30186,7 +32642,7 @@ export let BQuestionSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-question-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30206,7 +32662,7 @@ export let BQuestionSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-question-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30230,7 +32686,7 @@ export let BQuestion = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-question"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30250,7 +32706,7 @@ export let BQuora = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-quora"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30270,7 +32726,7 @@ export let BQuote = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-quote"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30290,7 +32746,7 @@ export let BRCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-r-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30310,7 +32766,7 @@ export let BRCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-r-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30330,7 +32786,7 @@ export let BRSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-r-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30354,7 +32810,7 @@ export let BRSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-r-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30378,7 +32834,7 @@ export let BRadioactive = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-radioactive"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30402,7 +32858,7 @@ export let BRainbow = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-rainbow"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30422,7 +32878,7 @@ export let BReceiptCutoff = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-receipt-cutoff"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30446,7 +32902,7 @@ export let BReceipt = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-receipt"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30470,7 +32926,7 @@ export let BReception0 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-reception-0"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30490,7 +32946,7 @@ export let BReception1 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-reception-1"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30510,7 +32966,7 @@ export let BReception2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-reception-2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30530,7 +32986,7 @@ export let BReception3 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-reception-3"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30550,7 +33006,7 @@ export let BReception4 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-reception-4"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30570,7 +33026,7 @@ export let BRecordBtnFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-record-btn-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30590,7 +33046,7 @@ export let BRecordBtn = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-record-btn"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30614,7 +33070,7 @@ export let BRecordCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-record-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30634,7 +33090,7 @@ export let BRecordCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-record-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30658,7 +33114,7 @@ export let BRecordFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-record-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30678,7 +33134,7 @@ export let BRecord = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-record"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30698,7 +33154,7 @@ export let BRecord2Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-record2-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30722,7 +33178,7 @@ export let BRecord2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-record2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30746,7 +33202,7 @@ export let BRecycle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-recycle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30766,7 +33222,7 @@ export let BReddit = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-reddit"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30775,6 +33231,26 @@ export let BReddit = {
         h(
           "path",
           {"d":"M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.828-1.165c-.315 0-.602.124-.812.325-.801-.573-1.9-.945-3.121-.993l.534-2.501 1.738.372a.83.83 0 1 0 .83-.869.83.83 0 0 0-.744.468l-1.938-.41a.203.203 0 0 0-.153.028.186.186 0 0 0-.086.134l-.592 2.788c-1.24.038-2.358.41-3.17.992-.21-.2-.496-.324-.81-.324a1.163 1.163 0 0 0-.478 2.224c-.02.115-.029.23-.029.353 0 1.795 2.091 3.256 4.669 3.256 2.577 0 4.668-1.451 4.668-3.256 0-.114-.01-.238-.029-.353.401-.181.688-.592.688-1.069 0-.65-.525-1.165-1.165-1.165z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BRegex = {
+  $_icon: {
+    name: "Regex",
+    vendor: "B",
+    type: [],
+    tags: ["regex"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 1 1 .707.707Zm9.9-.707a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.314.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707ZM6 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm5-6.5a.5.5 0 0 0-1 0v2.117L8.257 5.57a.5.5 0 0 0-.514.858L9.528 7.5 7.743 8.571a.5.5 0 1 0 .514.858L10 8.383V10.5a.5.5 0 1 0 1 0V8.383l1.743 1.046a.5.5 0 0 0 .514-.858L11.472 7.5l1.785-1.071a.5.5 0 1 0-.514-.858L11 6.617V4.5Z"}
         ) 
       ]
     )
@@ -30790,7 +33266,7 @@ export let BRepeat1 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-repeat-1"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30814,7 +33290,7 @@ export let BRepeat = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-repeat"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30834,7 +33310,7 @@ export let BReplyAllFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-reply-all-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30858,7 +33334,7 @@ export let BReplyAll = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-reply-all"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30882,7 +33358,7 @@ export let BReplyFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-reply-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30902,7 +33378,7 @@ export let BReply = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-reply"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30922,7 +33398,7 @@ export let BRewindBtnFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-rewind-btn-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30942,7 +33418,7 @@ export let BRewindBtn = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-rewind-btn"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30966,7 +33442,7 @@ export let BRewindCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-rewind-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -30986,7 +33462,7 @@ export let BRewindCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-rewind-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31010,7 +33486,7 @@ export let BRewindFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-rewind-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31034,7 +33510,7 @@ export let BRewind = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-rewind"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31058,7 +33534,7 @@ export let BRobot = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-robot"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31067,6 +33543,110 @@ export let BRobot = {
         h(
           "path",
           {"d":"M8.5 1.866a1 1 0 1 0-1 0V3h-2A4.5 4.5 0 0 0 1 7.5V8a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1v1a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-1a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1v-.5A4.5 4.5 0 0 0 10.5 3h-2V1.866ZM14 7.5V13a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7.5A3.5 3.5 0 0 1 5.5 4h5A3.5 3.5 0 0 1 14 7.5Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BRocketFill = {
+  $_icon: {
+    name: "RocketFill",
+    vendor: "B",
+    type: [],
+    tags: ["rocket","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M10.175 1.991c.81 1.312 1.583 3.43 1.778 6.819l1.5 1.83A2.5 2.5 0 0 1 14 12.202V15.5a.5.5 0 0 1-.9.3l-1.125-1.5c-.166-.222-.42-.4-.752-.57-.214-.108-.414-.192-.627-.282l-.196-.083C9.7 13.793 8.85 14 8 14c-.85 0-1.7-.207-2.4-.635-.068.03-.133.057-.198.084-.211.089-.411.173-.625.281-.332.17-.586.348-.752.57L2.9 15.8a.5.5 0 0 1-.9-.3v-3.298a2.5 2.5 0 0 1 .548-1.562l.004-.005L4.049 8.81c.197-3.323.969-5.434 1.774-6.756.466-.767.94-1.262 1.31-1.57a3.67 3.67 0 0 1 .601-.41A.549.549 0 0 1 8 0c.101 0 .17.027.25.064.037.017.086.041.145.075.118.066.277.167.463.315.373.297.85.779 1.317 1.537ZM9.5 6c0-1.105-.672-2-1.5-2s-1.5.895-1.5 2S7.172 8 8 8s1.5-.895 1.5-2Z"}
+        ),
+        h(
+          "path",
+          {"d":"M8 14.5c.5 0 .999-.046 1.479-.139L8.4 15.8a.5.5 0 0 1-.8 0l-1.079-1.439c.48.093.98.139 1.479.139Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BRocketTakeoffFill = {
+  $_icon: {
+    name: "RocketTakeoffFill",
+    vendor: "B",
+    type: [],
+    tags: ["rocket","takeoff","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M12.17 9.53c2.307-2.592 3.278-4.684 3.641-6.218.21-.887.214-1.58.16-2.065a3.578 3.578 0 0 0-.108-.563 2.22 2.22 0 0 0-.078-.23V.453c-.073-.164-.168-.234-.352-.295a2.35 2.35 0 0 0-.16-.045 3.797 3.797 0 0 0-.57-.093c-.49-.044-1.19-.03-2.08.188-1.536.374-3.618 1.343-6.161 3.604l-2.4.238h-.006a2.552 2.552 0 0 0-1.524.734L.15 7.17a.512.512 0 0 0 .433.868l1.896-.271c.28-.04.592.013.955.132.232.076.437.16.655.248l.203.083c.196.816.66 1.58 1.275 2.195.613.614 1.376 1.08 2.191 1.277l.082.202c.089.218.173.424.249.657.118.363.172.676.132.956l-.271 1.9a.512.512 0 0 0 .867.433l2.382-2.386c.41-.41.668-.949.732-1.526l.24-2.408Zm.11-3.699c-.797.8-1.93.961-2.528.362-.598-.6-.436-1.733.361-2.532.798-.799 1.93-.96 2.528-.361.599.599.437 1.732-.36 2.531Z"}
+        ),
+        h(
+          "path",
+          {"d":"M5.205 10.787a7.632 7.632 0 0 0 1.804 1.352c-1.118 1.007-4.929 2.028-5.054 1.903-.126-.127.737-4.189 1.839-5.18.346.69.837 1.35 1.411 1.925Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BRocketTakeoff = {
+  $_icon: {
+    name: "RocketTakeoff",
+    vendor: "B",
+    type: [],
+    tags: ["rocket","takeoff"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M9.752 6.193c.599.6 1.73.437 2.528-.362.798-.799.96-1.932.362-2.531-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532Z"}
+        ),
+        h(
+          "path",
+          {"d":"M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9.42 9.42 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a9.556 9.556 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093.067.017.12.033.16.045.184.06.279.13.351.295l.029.073a3.475 3.475 0 0 1 .157.721c.055.485.051 1.178-.159 2.065Zm-4.828 7.475.04-.04-.107 1.081a1.536 1.536 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a8.548 8.548 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006ZM5.205 5c-.625.626-.94 1.351-1.004 2.09a8.497 8.497 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107-.04.039Zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a2.835 2.835 0 0 0-.045-.283 3.078 3.078 0 0 0-.3-.041Z"}
+        ),
+        h(
+          "path",
+          {"d":"M7.009 12.139a7.632 7.632 0 0 1-1.804-1.352A7.568 7.568 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BRocket = {
+  $_icon: {
+    name: "Rocket",
+    vendor: "B",
+    type: [],
+    tags: ["rocket"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M8 8c.828 0 1.5-.895 1.5-2S8.828 4 8 4s-1.5.895-1.5 2S7.172 8 8 8Z"}
+        ),
+        h(
+          "path",
+          {"d":"M11.953 8.81c-.195-3.388-.968-5.507-1.777-6.819C9.707 1.233 9.23.751 8.857.454a3.495 3.495 0 0 0-.463-.315A2.19 2.19 0 0 0 8.25.064.546.546 0 0 0 8 0a.549.549 0 0 0-.266.073 2.312 2.312 0 0 0-.142.08 3.67 3.67 0 0 0-.459.33c-.37.308-.844.803-1.31 1.57-.805 1.322-1.577 3.433-1.774 6.756l-1.497 1.826-.004.005A2.5 2.5 0 0 0 2 12.202V15.5a.5.5 0 0 0 .9.3l1.125-1.5c.166-.222.42-.4.752-.57.214-.108.414-.192.625-.281l.198-.084c.7.428 1.55.635 2.4.635.85 0 1.7-.207 2.4-.635.067.03.132.056.196.083.213.09.413.174.627.282.332.17.586.348.752.57l1.125 1.5a.5.5 0 0 0 .9-.3v-3.298a2.5 2.5 0 0 0-.548-1.562l-1.499-1.83ZM12 10.445v.055c0 .866-.284 1.585-.75 2.14.146.064.292.13.425.199.39.197.8.46 1.1.86L13 14v-1.798a1.5 1.5 0 0 0-.327-.935L12 10.445ZM4.75 12.64C4.284 12.085 4 11.366 4 10.5v-.054l-.673.82a1.5 1.5 0 0 0-.327.936V14l.225-.3c.3-.4.71-.664 1.1-.861.133-.068.279-.135.425-.199ZM8.009 1.073c.063.04.14.094.226.163.284.226.683.621 1.09 1.28C10.137 3.836 11 6.237 11 10.5c0 .858-.374 1.48-.943 1.893C9.517 12.786 8.781 13 8 13c-.781 0-1.517-.214-2.057-.607C5.373 11.979 5 11.358 5 10.5c0-4.182.86-6.586 1.677-7.928.409-.67.81-1.082 1.096-1.32.09-.076.17-.135.236-.18Z"}
+        ),
+        h(
+          "path",
+          {"d":"M9.479 14.361c-.48.093-.98.139-1.479.139-.5 0-.999-.046-1.479-.139L7.6 15.8a.5.5 0 0 0 .8 0l1.079-1.439Z"}
         ) 
       ]
     )
@@ -31082,7 +33662,7 @@ export let BRouterFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-router-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31114,7 +33694,7 @@ export let BRouter = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-router"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31146,7 +33726,7 @@ export let BRssFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-rss-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31166,7 +33746,7 @@ export let BRss = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-rss"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31190,7 +33770,7 @@ export let BRulers = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-rulers"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31210,7 +33790,7 @@ export let BSafeFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-safe-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31234,7 +33814,7 @@ export let BSafe = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-safe"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31258,7 +33838,7 @@ export let BSafe2Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-safe2-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31282,7 +33862,7 @@ export let BSafe2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-safe2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31306,7 +33886,7 @@ export let BSaveFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-save-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31326,7 +33906,7 @@ export let BSave = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-save"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31346,7 +33926,7 @@ export let BSave2Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-save2-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31366,7 +33946,7 @@ export let BSave2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-save2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31386,11 +33966,31 @@ export let BScissors = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-scissors"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
           {"d":"M3.5 3.5c-.614-.884-.074-1.962.858-2.5L8 7.226 11.642 1c.932.538 1.472 1.616.858 2.5L8.81 8.61l1.556 2.661a2.5 2.5 0 1 1-.794.637L8 9.73l-1.572 2.177a2.5 2.5 0 1 1-.794-.637L7.19 8.61 3.5 3.5zm2.5 10a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0zm7 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BScooter = {
+  $_icon: {
+    name: "Scooter",
+    vendor: "B",
+    type: [],
+    tags: ["scooter"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M9 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-.39l1.4 7a2.5 2.5 0 1 1-.98.195l-.189-.938-2.43 3.527A.5.5 0 0 1 9.5 13H4.95a2.5 2.5 0 1 1 0-1h4.287l2.831-4.11L11.09 3H9.5a.5.5 0 0 1-.5-.5ZM3.915 12a1.5 1.5 0 1 0 0 1H2.5a.5.5 0 0 1 0-1h1.415Zm8.817-.789A1.499 1.499 0 0 0 13.5 14a1.5 1.5 0 0 0 .213-2.985l.277 1.387a.5.5 0 0 1-.98.196l-.278-1.387Z"}
         ) 
       ]
     )
@@ -31406,7 +34006,7 @@ export let BScrewdriver = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-screwdriver"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31426,7 +34026,7 @@ export let BSdCardFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sd-card-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31446,7 +34046,7 @@ export let BSdCard = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sd-card"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31470,7 +34070,7 @@ export let BSearchHeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-search-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31490,7 +34090,7 @@ export let BSearchHeart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-search-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31514,7 +34114,7 @@ export let BSearch = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-search"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31534,7 +34134,7 @@ export let BSegmentedNav = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-segmented-nav"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31554,7 +34154,7 @@ export let BSendCheckFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-send-check-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31578,7 +34178,7 @@ export let BSendCheck = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-send-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31602,7 +34202,7 @@ export let BSendDashFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-send-dash-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31626,7 +34226,7 @@ export let BSendDash = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-send-dash"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31650,7 +34250,7 @@ export let BSendExclamationFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-send-exclamation-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31674,7 +34274,7 @@ export let BSendExclamation = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-send-exclamation"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31698,7 +34298,7 @@ export let BSendFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-send-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31718,7 +34318,7 @@ export let BSendPlusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-send-plus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31742,7 +34342,7 @@ export let BSendPlus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-send-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31766,7 +34366,7 @@ export let BSendSlashFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-send-slash-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31790,7 +34390,7 @@ export let BSendSlash = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-send-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31814,7 +34414,7 @@ export let BSendXFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-send-x-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31838,7 +34438,7 @@ export let BSendX = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-send-x"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31862,7 +34462,7 @@ export let BSend = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-send"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31882,7 +34482,7 @@ export let BServer = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-server"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31910,7 +34510,7 @@ export let BShareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-share-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31930,7 +34530,7 @@ export let BShare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-share"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31950,7 +34550,7 @@ export let BShieldCheck = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shield-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31974,7 +34574,7 @@ export let BShieldExclamation = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shield-exclamation"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -31998,7 +34598,7 @@ export let BShieldFillCheck = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shield-fill-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32018,7 +34618,7 @@ export let BShieldFillExclamation = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shield-fill-exclamation"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32038,7 +34638,7 @@ export let BShieldFillMinus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shield-fill-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32058,7 +34658,7 @@ export let BShieldFillPlus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shield-fill-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32078,7 +34678,7 @@ export let BShieldFillX = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shield-fill-x"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32098,7 +34698,7 @@ export let BShieldFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shield-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32118,7 +34718,7 @@ export let BShieldLockFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shield-lock-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32138,7 +34738,7 @@ export let BShieldLock = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shield-lock"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32162,7 +34762,7 @@ export let BShieldMinus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shield-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32186,7 +34786,7 @@ export let BShieldPlus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shield-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32210,7 +34810,7 @@ export let BShieldShaded = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shield-shaded"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32230,7 +34830,7 @@ export let BShieldSlashFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shield-slash-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32250,7 +34850,7 @@ export let BShieldSlash = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shield-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32270,7 +34870,7 @@ export let BShieldX = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shield-x"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32294,7 +34894,7 @@ export let BShield = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shield"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32314,7 +34914,7 @@ export let BShiftFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shift-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32334,7 +34934,7 @@ export let BShift = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shift"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32354,7 +34954,7 @@ export let BShopWindow = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shop-window"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32374,7 +34974,7 @@ export let BShop = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shop"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32394,7 +34994,7 @@ export let BShuffle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-shuffle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32403,6 +35003,550 @@ export let BShuffle = {
         h(
           "path",
           {"d":"M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192zm0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignDeadEndFill = {
+  $_icon: {
+    name: "SignDeadEndFill",
+    vendor: "B",
+    type: [],
+    tags: ["sign","dead","end","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M5.116 6.28h.32c.395 0 .582.24.582.722 0 .48-.186.718-.581.718h-.321V6.28Zm3.636.066.268.845h-.552l.27-.845h.014Zm1.327-.066h.32c.394 0 .582.24.582.722 0 .48-.186.718-.582.718h-.32V6.28Zm-.792 3h.32c.395 0 .582.24.582.722 0 .48-.186.718-.581.718h-.32V9.28Z"}
+        ),
+        h(
+          "path",
+          {"d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435ZM4.782 6h.69c.596 0 .886.355.886.998S6.066 8 5.473 8h-.69V6ZM7.82 7.72V8H6.571V6H7.82v.28h-.917v.57h.863v.268h-.863v.602h.917Zm.397.28h-.34l.688-2h.371l.689 2h-.352l-.177-.554h-.702L8.216 8Zm1.53-2h.69c.596 0 .886.355.886.998S11.03 8 10.436 8h-.69V6Zm-2.923 4.72V11H5.575V9h1.248v.28h-.917v.57h.863v.268h-.863v.602h.917Zm.572.28h-.32V9h.294l.933 1.436h.014V9h.32v2h-.292l-.936-1.44h-.013V11Zm1.56-2h.69c.596 0 .886.355.886.998S10.238 11 9.645 11h-.69V9Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignDeadEnd = {
+  $_icon: {
+    name: "SignDeadEnd",
+    vendor: "B",
+    type: [],
+    tags: ["sign","dead","end"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M4.783 6v2h.69c.593 0 .886-.359.886-1.002S6.07 6 5.473 6h-.69Zm.333.28h.32c.395 0 .582.24.582.722 0 .48-.186.718-.581.718h-.321V6.28ZM7.82 7.72h-.918v-.602h.863V6.85h-.863v-.57h.917V6H6.571v2H7.82v-.28Zm.573-.274L8.216 8h-.34l.688-2h.371l.689 2h-.352l-.177-.554h-.702Zm.627-.255-.268-.845h-.015l-.27.845h.553ZM9.746 6v2h.69c.593 0 .886-.359.886-1.002S11.032 6 10.436 6h-.69Zm.333.28h.32c.394 0 .582.24.582.722 0 .48-.186.718-.582.718h-.32V6.28Zm-4.173 4.44h.917V11H5.575V9h1.248v.28h-.917v.57h.863v.268h-.863v.602Zm1.489.28V9.56h.013L8.344 11h.292V9h-.32v1.436h-.014L7.369 9h-.293v2h.319Zm1.56 0V9h.69c.596 0 .886.355.886.998S10.238 11 9.645 11h-.69Zm.653-1.72h-.32v1.44h.32c.395 0 .581-.239.581-.718 0-.481-.187-.722-.581-.722Z"}
+        ),
+        h(
+          "path",
+          {"d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435Zm-1.4.7a.495.495 0 0 1 .7 0l6.516 6.515a.495.495 0 0 1 0 .7L8.35 14.866a.495.495 0 0 1-.7 0L1.134 8.35a.495.495 0 0 1 0-.7L7.65 1.134Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignDoNotEnterFill = {
+  $_icon: {
+    name: "SignDoNotEnterFill",
+    vendor: "B",
+    type: [],
+    tags: ["sign","do","not","enter","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M4.237 4.28h-.32v1.44h.32c.396 0 .582-.239.582-.718 0-.481-.188-.722-.582-.722Zm2.392.859v-.277c0-.413-.211-.617-.494-.617-.285 0-.495.204-.495.617v.277c0 .414.21.618.495.618.283 0 .494-.204.494-.618Zm4.163 0v-.277c0-.413-.211-.617-.494-.617-.285 0-.495.204-.495.617v.277c0 .414.21.618.495.618.283 0 .494-.204.494-.618Zm.006 5.828v-.694h.39c.231 0 .378.126.378.354 0 .225-.142.34-.387.34h-.38Z"}
+        ),
+        h(
+          "path",
+          {"d":"M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16ZM3.584 6V4h.69c.596 0 .886.355.886.998S4.867 6 4.274 6h-.69Zm3.382-1.135v.272c0 .566-.318.903-.83.903-.513 0-.833-.337-.833-.903v-.272c0-.569.32-.904.832-.904.513 0 .83.337.83.904Zm1.021-.305V6h-.319V4h.293l.933 1.436h.015V4h.319v2h-.291L8 4.56h-.013Zm3.142.305v.272c0 .566-.318.903-.83.903-.513 0-.833-.337-.833-.903v-.272c0-.569.32-.904.832-.904.513 0 .83.337.83.904Zm.899-.58V6h-.333V4.285h-.584V4h1.503v.285h-.586ZM5.413 11.72V12H4.165v-2h1.248v.28h-.917v.57h.862v.268h-.862v.602h.917Zm.572.28h-.32v-2h.294l.933 1.436h.014v-1.435h.32V12h-.292l-.936-1.44h-.013V12Zm2.279 0H7.93v-1.715h-.584V10H8.85v.284h-.586V12Zm1.953-.28V12H8.97v-2h1.248v.28H9.3v.57h.863v.268H9.3v.602h.917ZM11.235 10c.42 0 .674.244.674.616a.575.575 0 0 1-.368.56l.404.824h-.373l-.36-.769h-.414V12h-.328v-2h.765ZM3.5 7h9a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignDoNotEnter = {
+  $_icon: {
+    name: "SignDoNotEnter",
+    vendor: "B",
+    type: [],
+    tags: ["sign","do","not","enter"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M3.584 6V4h.69c.596 0 .886.355.886.998S4.867 6 4.274 6h-.69Zm.653-1.72h-.32v1.44h.32c.396 0 .582-.239.582-.718 0-.481-.188-.722-.582-.722Zm2.729.585v.272c0 .566-.318.903-.83.903-.513 0-.833-.337-.833-.903v-.272c0-.569.32-.904.832-.904.513 0 .83.337.83.904Zm-.337.274v-.277c0-.413-.211-.617-.494-.617-.285 0-.495.204-.495.617v.277c0 .414.21.618.495.618.283 0 .494-.204.494-.618Zm1.358-.579V6h-.319V4h.293l.933 1.436h.015V4h.319v2h-.291L8 4.56h-.013Zm3.142.305v.272c0 .566-.318.903-.83.903-.513 0-.833-.337-.833-.903v-.272c0-.569.32-.904.832-.904.513 0 .83.337.83.904Zm-.337.274v-.277c0-.413-.211-.617-.494-.617-.285 0-.495.204-.495.617v.277c0 .414.21.618.495.618.283 0 .494-.204.494-.618Zm1.236-.854V6h-.333V4.285h-.584V4h1.503v.285h-.586ZM4.496 11.72h.917V12H4.165v-2h1.248v.28h-.917v.57h.862v.268h-.862v.602Zm1.489-1.16V12h-.32v-2h.294l.933 1.436h.014v-1.435h.32V12h-.292l-.936-1.44h-.013Zm2.279-.275V12H7.93v-1.715h-.584V10H8.85v.284h-.586ZM9.3 11.72h.917V12H8.97v-2h1.248v.28H9.3v.57h.863v.268H9.3v.602ZM10.47 10h.765c.42 0 .674.244.674.616a.575.575 0 0 1-.368.56l.404.824h-.373l-.36-.769h-.414V12h-.328v-2Zm.328.273v.694h.381c.245 0 .387-.115.387-.34 0-.228-.147-.354-.378-.354h-.39ZM3.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-9Z"}
+        ),
+        h(
+          "path",
+          {"d":"M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16Zm0-1A7 7 0 1 1 8 1a7 7 0 0 1 0 14Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignIntersectionFill = {
+  $_icon: {
+    name: "SignIntersectionFill",
+    vendor: "B",
+    type: [],
+    tags: ["sign","intersection","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435ZM7.25 4h1.5v3.25H12v1.5H8.75V12h-1.5V8.75H4v-1.5h3.25V4Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignIntersectionSideFill = {
+  $_icon: {
+    name: "SignIntersectionSideFill",
+    vendor: "B",
+    type: [],
+    tags: ["sign","intersection","side","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435ZM6.25 4h1.5v3.25H11v1.5H7.75V12h-1.5V4Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignIntersectionSide = {
+  $_icon: {
+    name: "SignIntersectionSide",
+    vendor: "B",
+    type: [],
+    tags: ["sign","intersection","side"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M6.25 4v8h1.5V8.75H11v-1.5H7.75V4h-1.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435Zm-1.4.7a.495.495 0 0 1 .7 0l6.516 6.515a.495.495 0 0 1 0 .7L8.35 14.866a.495.495 0 0 1-.7 0L1.134 8.35a.495.495 0 0 1 0-.7L7.65 1.134Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignIntersectionTFill = {
+  $_icon: {
+    name: "SignIntersectionTFill",
+    vendor: "B",
+    type: [],
+    tags: ["sign","intersection","t","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435ZM5 5h6v1.5H8.75V12h-1.5V6.5H5V5Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignIntersectionT = {
+  $_icon: {
+    name: "SignIntersectionT",
+    vendor: "B",
+    type: [],
+    tags: ["sign","intersection","t"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M5 5v1.5h2.25V12h1.5V6.5H11V5H5Z"}
+        ),
+        h(
+          "path",
+          {"d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435Zm-1.4.7a.495.495 0 0 1 .7 0l6.516 6.515a.495.495 0 0 1 0 .7L8.35 14.866a.495.495 0 0 1-.7 0L1.134 8.35a.495.495 0 0 1 0-.7L7.65 1.134Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignIntersectionYFill = {
+  $_icon: {
+    name: "SignIntersectionYFill",
+    vendor: "B",
+    type: [],
+    tags: ["sign","intersection","y","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435Zm1.443 4.762 1.014 1.106L8.75 8.83V12h-1.5V8.83L4.493 6.303l1.014-1.106L8 7.483l2.493-2.286Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignIntersectionY = {
+  $_icon: {
+    name: "SignIntersectionY",
+    vendor: "B",
+    type: [],
+    tags: ["sign","intersection","y"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M10.493 5.197 8 7.483 5.507 5.197 4.493 6.303 7.25 8.83V12h1.5V8.83l2.757-2.527-1.014-1.106Z"}
+        ),
+        h(
+          "path",
+          {"d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435Zm-1.4.7a.495.495 0 0 1 .7 0l6.516 6.515a.495.495 0 0 1 0 .7L8.35 14.866a.495.495 0 0 1-.7 0L1.134 8.35a.495.495 0 0 1 0-.7L7.65 1.134Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignIntersection = {
+  $_icon: {
+    name: "SignIntersection",
+    vendor: "B",
+    type: [],
+    tags: ["sign","intersection"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M7.25 4v3.25H4v1.5h3.25V12h1.5V8.75H12v-1.5H8.75V4h-1.5Z"}
+        ),
+        h(
+          "path",
+          {"d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435Zm-1.4.7a.495.495 0 0 1 .7 0l6.516 6.515a.495.495 0 0 1 0 .7L8.35 14.866a.495.495 0 0 1-.7 0L1.134 8.35a.495.495 0 0 1 0-.7L7.65 1.134Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignMergeLeftFill = {
+  $_icon: {
+    name: "SignMergeLeftFill",
+    vendor: "B",
+    type: [],
+    tags: ["sign","merge","left","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435ZM7.25 6H6.034a.25.25 0 0 1-.192-.41l1.966-2.36a.25.25 0 0 1 .384 0l1.966 2.36a.25.25 0 0 1-.192.41H8.75v6h-1.5V8.823c-.551.686-1.229 1.363-1.88 2.015l-.016.016-.708-.708c.757-.756 1.48-1.48 2.016-2.196.25-.333.448-.649.588-.95V6Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignMergeLeft = {
+  $_icon: {
+    name: "SignMergeLeft",
+    vendor: "B",
+    type: [],
+    tags: ["sign","merge","left"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M7.25 6v1c-.14.301-.338.617-.588.95-.537.716-1.259 1.44-2.016 2.196l.708.708.015-.016c.652-.652 1.33-1.33 1.881-2.015V12h1.5V6h1.216a.25.25 0 0 0 .192-.41L8.192 3.23a.25.25 0 0 0-.384 0L5.842 5.59a.25.25 0 0 0 .192.41H7.25Z"}
+        ),
+        h(
+          "path",
+          {"d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435Zm-1.4.7a.495.495 0 0 1 .7 0l6.516 6.515a.495.495 0 0 1 0 .7L8.35 14.866a.495.495 0 0 1-.7 0L1.134 8.35a.495.495 0 0 1 0-.7L7.65 1.134Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignMergeRightFill = {
+  $_icon: {
+    name: "SignMergeRightFill",
+    vendor: "B",
+    type: [],
+    tags: ["sign","merge","right","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435ZM8.75 6v1c.14.301.338.617.588.95.537.716 1.259 1.44 2.016 2.196l-.708.708-.015-.016c-.652-.652-1.33-1.33-1.881-2.015V12h-1.5V6H6.034a.25.25 0 0 1-.192-.41l1.966-2.36a.25.25 0 0 1 .384 0l1.966 2.36a.25.25 0 0 1-.192.41H8.75Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignMergeRight = {
+  $_icon: {
+    name: "SignMergeRight",
+    vendor: "B",
+    type: [],
+    tags: ["sign","merge","right"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M8.75 6v1c.14.301.338.617.588.95.537.716 1.259 1.44 2.016 2.196l-.708.708-.015-.016c-.652-.652-1.33-1.33-1.881-2.015V12h-1.5V6H6.034a.25.25 0 0 1-.192-.41l1.966-2.36a.25.25 0 0 1 .384 0l1.966 2.36a.25.25 0 0 1-.192.41H8.75Z"}
+        ),
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435Zm-1.4.7a.495.495 0 0 1 .7 0l6.516 6.515a.495.495 0 0 1 0 .7L8.35 14.866a.495.495 0 0 1-.7 0L1.134 8.35a.495.495 0 0 1 0-.7L7.65 1.134Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignNoLeftTurnFill = {
+  $_icon: {
+    name: "SignNoLeftTurnFill",
+    vendor: "B",
+    type: [],
+    tags: ["sign","no","left","turn","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M2 13.292A8 8 0 0 1 13.293 2L9.195 6.099A2.501 2.501 0 0 0 8.5 6H7V4.534a.25.25 0 0 0-.41-.192L4.23 6.308a.25.25 0 0 0 0 .384l2.36 1.966a.265.265 0 0 0 .026.02L2 13.291Zm.708.708A8 8 0 0 0 14 2.707l-3.885 3.884C10.656 7.05 11 7.735 11 8.5V11h-1V8.5c0-.489-.234-.923-.596-1.197l-6.696 6.696Z"}
+        ),
+        h(
+          "path",
+          {"d":"M8.293 7 7 8.293V7h1.293Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignNoLeftTurn = {
+  $_icon: {
+    name: "SignNoLeftTurn",
+    vendor: "B",
+    type: [],
+    tags: ["sign","no","left","turn"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8Zm3.416 5.29 5.988-5.987c.362.274.596.708.596 1.197V11h1V8.5c0-.765-.344-1.45-.885-1.908l3.176-3.176a7 7 0 0 1-9.874 9.874Zm-.707-.706a7 7 0 0 1 9.874-9.874L9.196 6.097A2.501 2.501 0 0 0 8.5 6H7V4.534a.25.25 0 0 0-.41-.192L4.23 6.308a.25.25 0 0 0 0 .384l2.36 1.966a.265.265 0 0 0 .026.02l-3.907 3.906ZM8.293 7 7 8.293V7h1.293Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignNoParkingFill = {
+  $_icon: {
+    name: "SignNoParkingFill",
+    vendor: "B",
+    type: [],
+    tags: ["sign","no","parking","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M13.292 14A8 8 0 0 1 2 2.707l3.5 3.5V12h1.283V9.164h1.674L13.292 14Zm.708-.708-4.37-4.37C10.5 8.524 11 7.662 11 6.587c0-1.482-.955-2.584-2.538-2.584H5.5v.79L2.708 2.002A8 8 0 0 1 14 13.293Z"}
+        ),
+        h(
+          "path",
+          {"d":"M6.777 7.485v.59h.59l-.59-.59Zm1.949.535L6.777 6.07v-.966H8.27c.893 0 1.419.539 1.419 1.482 0 .769-.35 1.273-.963 1.433Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignNoParking = {
+  $_icon: {
+    name: "SignNoParking",
+    vendor: "B",
+    type: [],
+    tags: ["sign","no","parking"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16Zm5.29-3.416L9.63 8.923C10.5 8.523 11 7.66 11 6.586c0-1.482-.955-2.584-2.538-2.584H5.5v.79L3.416 2.71a7 7 0 0 1 9.874 9.874Zm-.706.707A7 7 0 0 1 2.71 3.417l2.79 2.79V12h1.283V9.164h1.674l4.127 4.127ZM8.726 8.019 6.777 6.07v-.966H8.27c.893 0 1.419.539 1.419 1.482 0 .769-.35 1.273-.963 1.433Zm-1.949-.534.59.59h-.59v-.59Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignNoRightTurnFill = {
+  $_icon: {
+    name: "SignNoRightTurnFill",
+    vendor: "B",
+    type: [],
+    tags: ["sign","no","right","turn","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M14 13.292A8 8 0 0 0 2.707 2l4.097 4.098C7.025 6.034 7.259 6 7.5 6H9V4.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L9.41 8.658a.265.265 0 0 1-.026.02L14 13.291Zm-.708.708A8 8 0 0 1 2 2.707l3.885 3.884A2.495 2.495 0 0 0 5 8.5V11h1V8.5c0-.489.234-.923.596-1.197l6.696 6.696Z"}
+        ),
+        h(
+          "path",
+          {"d":"M7.707 7 9 8.293V7H7.707Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignNoRightTurn = {
+  $_icon: {
+    name: "SignNoRightTurn",
+    vendor: "B",
+    type: [],
+    tags: ["sign","no","right","turn"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-3.416 5.29L6.596 7.304A1.498 1.498 0 0 0 6 8.5V11H5V8.5c0-.765.344-1.45.885-1.908L2.709 3.416a7 7 0 0 0 9.874 9.874Zm.707-.706A7 7 0 0 0 3.417 2.71l3.388 3.388C7.025 6.034 7.259 6 7.5 6H9V4.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L9.41 8.658a.265.265 0 0 1-.026.02l3.907 3.906ZM7.707 7 9 8.293V7H7.707Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignRailroadFill = {
+  $_icon: {
+    name: "SignRailroadFill",
+    vendor: "B",
+    type: [],
+    tags: ["sign","railroad","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L4.224 3.162 8 6.94l3.777-3.777L9.049.435Zm3.274 7.425v-.862h.467c.28 0 .467.154.467.44 0 .28-.182.421-.475.421h-.459Z"}
+        ),
+        h(
+          "path",
+          {"d":"M12.838 4.223 9.06 8l3.777 3.777 2.727-2.728c.58-.58.58-1.519 0-2.098l-2.727-2.728Zm.03 2.361c.591 0 .935.334.935.844a.79.79 0 0 1-.485.748l.536 1.074h-.59l-.467-.994h-.473v.994h-.521V6.584h1.064Zm-1.091 6.254L8 9.06l-3.777 3.777 2.728 2.727c.58.58 1.519.58 2.098 0l2.728-2.727Zm-8.953-5.84v.861h.46c.292 0 .474-.14.474-.421 0-.286-.188-.44-.467-.44h-.467Z"}
+        ),
+        h(
+          "path",
+          {"d":"M3.162 11.777 6.94 8 3.162 4.223.435 6.951c-.58.58-.58 1.519 0 2.098l2.727 2.728Zm-.86-5.193h1.065c.592 0 .936.334.936.844 0 .39-.242.654-.485.748l.536 1.074h-.59l-.467-.994h-.473v.994h-.521V6.584Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSignRailroad = {
+  $_icon: {
+    name: "SignRailroad",
+    vendor: "B",
+    type: [],
+    tags: ["sign","railroad"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M11.303 6.584h1.064c.592 0 .936.334.936.844a.79.79 0 0 1-.485.748l.536 1.074h-.59l-.467-.994h-.473v.994h-.521V6.584Zm.521.414v.861h.46c.292 0 .474-.14.474-.421 0-.286-.188-.44-.467-.44h-.467Zm-8.771-.414h1.064c.592 0 .936.334.936.844 0 .39-.242.654-.485.748l.536 1.074h-.59l-.467-.994h-.473v.994h-.521V6.584Zm.521.414v.861h.46c.292 0 .474-.14.474-.421 0-.286-.188-.44-.467-.44h-.467Z"}
+        ),
+        h(
+          "path",
+          {"d":"M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435Zm1.4.7a.495.495 0 0 0-.7 0L4.923 3.861 8 6.939l3.078-3.077L8.35 1.134Zm3.788 3.788L9.061 8l3.077 3.078 2.728-2.728a.495.495 0 0 0 0-.7l-2.728-2.727Zm-1.06 7.215L8 9.061l-3.077 3.077 2.727 2.728a.495.495 0 0 0 .7 0l2.727-2.728Zm-7.216-1.06L6.939 8 3.862 4.923 1.134 7.65a.495.495 0 0 0 0 .7l2.728 2.728Z"}
         ) 
       ]
     )
@@ -32418,7 +35562,7 @@ export let BSignStopFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sign-stop-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32426,7 +35570,7 @@ export let BSignStopFill = {
         ),
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M4.893 0a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146A.5.5 0 0 0 11.107 0H4.893ZM3.16 10.08c-.931 0-1.447-.493-1.494-1.132h.653c.065.346.396.583.891.583.524 0 .83-.246.83-.62 0-.303-.203-.467-.637-.572l-.656-.164c-.61-.147-.978-.51-.978-1.078 0-.706.597-1.184 1.444-1.184.853 0 1.386.475 1.436 1.087h-.645c-.064-.32-.352-.542-.797-.542-.472 0-.77.246-.77.6 0 .261.196.437.553.522l.654.161c.673.164 1.06.487 1.06 1.11 0 .736-.574 1.228-1.544 1.228Zm3.427-3.51V10h-.665V6.57H4.753V6h3.006v.568H6.587Zm4.458 1.16v.544c0 1.131-.636 1.805-1.661 1.805-1.026 0-1.664-.674-1.664-1.805V7.73c0-1.136.638-1.807 1.664-1.807 1.025 0 1.66.674 1.66 1.807ZM11.52 6h1.535c.82 0 1.316.55 1.316 1.292 0 .747-.501 1.289-1.321 1.289h-.865V10h-.665V6.001Z"}
+          {"d":"M4.893 0a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146A.5.5 0 0 0 11.107 0H4.893ZM3.16 10.08c-.931 0-1.447-.493-1.494-1.132h.653c.065.346.396.583.891.583.524 0 .83-.246.83-.62 0-.303-.203-.467-.637-.572l-.656-.164c-.61-.147-.978-.51-.978-1.078 0-.706.597-1.184 1.444-1.184.853 0 1.386.475 1.436 1.087h-.645c-.064-.32-.352-.542-.797-.542-.472 0-.77.246-.77.6 0 .261.196.437.553.522l.654.161c.673.164 1.06.487 1.06 1.11 0 .736-.574 1.228-1.544 1.228Zm3.427-3.51V10h-.665V6.57H4.753V6h3.006v.568H6.587Zm4.458 1.16v.544c0 1.131-.636 1.805-1.661 1.805-1.026 0-1.664-.674-1.664-1.805V7.73c0-1.136.638-1.807 1.664-1.807 1.025 0 1.66.674 1.66 1.807ZM11.52 6h1.535c.82 0 1.316.55 1.316 1.292 0 .747-.501 1.289-1.321 1.289h-.865V10h-.665V6.001Z"}
         ) 
       ]
     )
@@ -32442,7 +35586,7 @@ export let BSignStopLightsFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sign-stop-lights-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32450,7 +35594,7 @@ export let BSignStopLightsFill = {
         ),
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435ZM6 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4Z"}
+          {"d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435ZM6 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4Z"}
         ) 
       ]
     )
@@ -32466,7 +35610,7 @@ export let BSignStopLights = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sign-stop-lights"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32490,7 +35634,7 @@ export let BSignStop = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sign-stop"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32518,11 +35662,11 @@ export let BSignTurnLeftFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sign-turn-left-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435ZM7 8.466V7h1.5A1.5 1.5 0 0 1 10 8.5V11h1V8.5A2.5 2.5 0 0 0 8.5 6H7V4.534a.25.25 0 0 0-.41-.192L4.23 6.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 7 8.466Z"}
+          {"d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435ZM7 8.466a.25.25 0 0 1-.41.192L4.23 6.692a.25.25 0 0 1 0-.384l2.36-1.966a.25.25 0 0 1 .41.192V6h1.5A2.5 2.5 0 0 1 11 8.5V11h-1V8.5A1.5 1.5 0 0 0 8.5 7H7v1.466Z"}
         ) 
       ]
     )
@@ -32538,7 +35682,7 @@ export let BSignTurnLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sign-turn-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32562,11 +35706,11 @@ export let BSignTurnRightFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sign-turn-right-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435ZM9 8.466V7H7.5A1.5 1.5 0 0 0 6 8.5V11H5V8.5A2.5 2.5 0 0 1 7.5 6H9V4.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L9.41 8.658A.25.25 0 0 1 9 8.466Z"}
+          {"d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435ZM9 8.466V7H7.5A1.5 1.5 0 0 0 6 8.5V11H5V8.5A2.5 2.5 0 0 1 7.5 6H9V4.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L9.41 8.658A.25.25 0 0 1 9 8.466Z"}
         ) 
       ]
     )
@@ -32582,7 +35726,7 @@ export let BSignTurnRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sign-turn-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32606,11 +35750,11 @@ export let BSignTurnSlightLeftFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sign-turn-slight-left-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435ZM6.864 8.368l.8-1.386.607.364A1.5 1.5 0 0 1 9 8.632V11h1V8.632A2.5 2.5 0 0 0 8.786 6.49l-.62-.373.665-1.154a.25.25 0 0 0-.259-.371l-3.026.523a.25.25 0 0 0-.192.333l1.06 2.882a.25.25 0 0 0 .451.039Z"}
+          {"d":"M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435ZM6.864 8.368a.25.25 0 0 1-.451-.039l-1.06-2.882a.25.25 0 0 1 .192-.333l3.026-.523a.25.25 0 0 1 .26.371l-.667 1.154.621.373A2.5 2.5 0 0 1 10 8.632V11H9V8.632a1.5 1.5 0 0 0-.728-1.286l-.607-.364-.8 1.386Z"}
         ) 
       ]
     )
@@ -32626,7 +35770,7 @@ export let BSignTurnSlightLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sign-turn-slight-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32650,11 +35794,11 @@ export let BSignTurnSlightRightFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sign-turn-slight-right-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435Zm1.385 6.547.8 1.386a.25.25 0 0 0 .451-.039l1.06-2.882a.25.25 0 0 0-.192-.333l-3.026-.523a.25.25 0 0 0-.26.371l.667 1.154-.621.373A2.5 2.5 0 0 0 6 8.632V11h1V8.632a1.5 1.5 0 0 1 .728-1.286l.607-.364Z"}
+          {"d":"M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435Zm1.385 6.547.8 1.386a.25.25 0 0 0 .451-.039l1.06-2.882a.25.25 0 0 0-.192-.333l-3.026-.523a.25.25 0 0 0-.26.371l.667 1.154-.621.373A2.5 2.5 0 0 0 6 8.632V11h1V8.632a1.5 1.5 0 0 1 .728-1.286l.607-.364Z"}
         ) 
       ]
     )
@@ -32670,7 +35814,7 @@ export let BSignTurnSlightRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sign-turn-slight-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32694,7 +35838,7 @@ export let BSignYieldFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sign-yield-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32702,7 +35846,7 @@ export let BSignYieldFill = {
         ),
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M7.022 14.434a1.131 1.131 0 0 0 1.96 0l6.857-11.667c.457-.778-.092-1.767-.98-1.767H1.144c-.889 0-1.437.99-.98 1.767l6.857 11.667ZM5.506 6.232V7H5.11v-.76L4.44 5h.44l.424.849h.016L5.748 5h.428l-.67 1.232ZM6.628 5v2h-.396V5h.396Zm.684 1.676h.895V7H6.919V5h1.288v.324h-.895v.513h.842v.303h-.842v.536Zm1.521-.013h.848V7H8.437V5h.396v1.663Zm.97.337V5h.73c.608 0 .895.364.895.995 0 .636-.291 1.005-.895 1.005h-.73Z"}
+          {"d":"M7.022 14.434a1.131 1.131 0 0 0 1.96 0l6.857-11.667c.457-.778-.092-1.767-.98-1.767H1.144c-.889 0-1.437.99-.98 1.767l6.857 11.667ZM5.506 6.232V7H5.11v-.76L4.44 5h.44l.424.849h.016L5.748 5h.428l-.67 1.232ZM6.628 5v2h-.396V5h.396Zm.684 1.676h.895V7H6.919V5h1.288v.324h-.895v.513h.842v.303h-.842v.536Zm1.521-.013h.848V7H8.437V5h.396v1.663Zm.97.337V5h.73c.608 0 .895.364.895.995 0 .636-.291 1.005-.895 1.005h-.73Z"}
         ) 
       ]
     )
@@ -32718,7 +35862,7 @@ export let BSignYield = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sign-yield"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32746,7 +35890,7 @@ export let BSignal = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-signal"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32766,7 +35910,7 @@ export let BSignpost2Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-signpost-2-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32786,7 +35930,7 @@ export let BSignpost2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-signpost-2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32806,7 +35950,7 @@ export let BSignpostFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-signpost-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32826,7 +35970,7 @@ export let BSignpostSplitFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-signpost-split-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32846,7 +35990,7 @@ export let BSignpostSplit = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-signpost-split"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32866,7 +36010,7 @@ export let BSignpost = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-signpost"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32886,7 +36030,7 @@ export let BSimFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sim-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32910,7 +36054,7 @@ export let BSim = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sim"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32919,6 +36063,30 @@ export let BSim = {
         h(
           "path",
           {"d":"M5.5 4a.5.5 0 0 0-.5.5V6h2.5V4h-2zm3 0v2H11V4.5a.5.5 0 0 0-.5-.5h-2zM11 7H5v2h6V7zm0 3H8.5v2h2a.5.5 0 0 0 .5-.5V10zm-3.5 2v-2H5v1.5a.5.5 0 0 0 .5.5h2zM4 4.5A1.5 1.5 0 0 1 5.5 3h5A1.5 1.5 0 0 1 12 4.5v7a1.5 1.5 0 0 1-1.5 1.5h-5A1.5 1.5 0 0 1 4 11.5v-7z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSinaWeibo = {
+  $_icon: {
+    name: "SinaWeibo",
+    vendor: "B",
+    type: [],
+    tags: ["sina","weibo"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M10.878 1.093a4.23 4.23 0 0 1 4.031 1.305 4.225 4.225 0 0 1 .886 4.14v.001a.612.612 0 0 1-1.166-.377 3.01 3.01 0 0 0-3.495-3.873.611.611 0 1 1-.256-1.196ZM3.753 9.465c.548-1.11 1.972-1.74 3.233-1.411 1.304.338 1.971 1.568 1.437 2.764-.541 1.221-2.095 1.875-3.416 1.449-1.271-.411-1.812-1.67-1.254-2.802Zm2.658.567c.16.066.365-.009.458-.168.088-.16.03-.34-.129-.397-.156-.062-.353.013-.446.168-.09.154-.041.333.117.397Zm-1.607 1.314c.413.188.963.009 1.219-.4.252-.413.12-.883-.296-1.062-.41-.172-.94.005-1.194.402-.256.4-.135.874.271 1.06Z"}
+        ),
+        h(
+          "path",
+          {"d":"m12.014 7.238.005.001c.919.285 1.941.974 1.939 2.188 0 2.007-2.895 4.535-7.246 4.535C3.393 13.962 0 12.352 0 9.708c0-1.385.876-2.985 2.384-4.493C4.4 3.199 6.751 2.28 7.634 3.165c.39.392.427 1.065.177 1.87-.132.405.38.182.38.182 1.63-.682 3.051-.722 3.57.02.278.397.252.951-.004 1.594-.116.293.035.34.257.407Zm-10.4 3.101c.172 1.738 2.46 2.936 5.109 2.674 2.647-.26 4.656-1.883 4.482-3.623-.17-1.738-2.458-2.937-5.107-2.674-2.647.263-4.656 1.883-4.484 3.623Zm11.681-6.484a2.056 2.056 0 0 0-1.962-.634.526.526 0 1 0 .219 1.031 1.008 1.008 0 0 1 1.17 1.296.528.528 0 0 0 1.005.325 2.062 2.062 0 0 0-.432-2.018Z"}
         ) 
       ]
     )
@@ -32934,7 +36102,7 @@ export let BSkipBackwardBtnFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-backward-btn-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32954,7 +36122,7 @@ export let BSkipBackwardBtn = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-backward-btn"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32978,7 +36146,7 @@ export let BSkipBackwardCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-backward-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -32998,7 +36166,7 @@ export let BSkipBackwardCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-backward-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33022,7 +36190,7 @@ export let BSkipBackwardFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-backward-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33042,7 +36210,7 @@ export let BSkipBackward = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-backward"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33062,7 +36230,7 @@ export let BSkipEndBtnFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-end-btn-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33082,7 +36250,7 @@ export let BSkipEndBtn = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-end-btn"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33106,7 +36274,7 @@ export let BSkipEndCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-end-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33126,7 +36294,7 @@ export let BSkipEndCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-end-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33150,7 +36318,7 @@ export let BSkipEndFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-end-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33170,7 +36338,7 @@ export let BSkipEnd = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-end"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33190,7 +36358,7 @@ export let BSkipForwardBtnFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-forward-btn-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33210,7 +36378,7 @@ export let BSkipForwardBtn = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-forward-btn"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33234,7 +36402,7 @@ export let BSkipForwardCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-forward-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33254,7 +36422,7 @@ export let BSkipForwardCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-forward-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33278,7 +36446,7 @@ export let BSkipForwardFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-forward-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33298,7 +36466,7 @@ export let BSkipForward = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-forward"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33318,7 +36486,7 @@ export let BSkipStartBtnFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-start-btn-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33338,7 +36506,7 @@ export let BSkipStartBtn = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-start-btn"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33362,7 +36530,7 @@ export let BSkipStartCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-start-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33382,7 +36550,7 @@ export let BSkipStartCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-start-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33406,7 +36574,7 @@ export let BSkipStartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-start-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33426,7 +36594,7 @@ export let BSkipStart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skip-start"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33446,7 +36614,7 @@ export let BSkype = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-skype"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33466,7 +36634,7 @@ export let BSlack = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-slack"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33486,7 +36654,7 @@ export let BSlashCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-slash-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33506,7 +36674,7 @@ export let BSlashCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-slash-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33530,7 +36698,7 @@ export let BSlashLg = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-slash-lg"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33550,7 +36718,7 @@ export let BSlashSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-slash-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33570,7 +36738,7 @@ export let BSlashSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-slash-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33594,7 +36762,7 @@ export let BSlash = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33614,7 +36782,7 @@ export let BSliders = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sliders"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33634,7 +36802,7 @@ export let BSliders2Vertical = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sliders2-vertical"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33654,7 +36822,7 @@ export let BSliders2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sliders2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33674,7 +36842,7 @@ export let BSmartwatch = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-smartwatch"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33698,7 +36866,7 @@ export let BSnapchat = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-snapchat"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33718,7 +36886,7 @@ export let BSnow = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-snow"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33738,7 +36906,7 @@ export let BSnow2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-snow2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33758,7 +36926,7 @@ export let BSnow3 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-snow3"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33782,7 +36950,7 @@ export let BSortAlphaDownAlt = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sort-alpha-down-alt"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33810,7 +36978,7 @@ export let BSortAlphaDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sort-alpha-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33834,7 +37002,7 @@ export let BSortAlphaUpAlt = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sort-alpha-up-alt"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33862,7 +37030,7 @@ export let BSortAlphaUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sort-alpha-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33886,7 +37054,7 @@ export let BSortDownAlt = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sort-down-alt"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33906,7 +37074,7 @@ export let BSortDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sort-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33926,7 +37094,7 @@ export let BSortNumericDownAlt = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sort-numeric-down-alt"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33950,7 +37118,7 @@ export let BSortNumericDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sort-numeric-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -33978,7 +37146,7 @@ export let BSortNumericUpAlt = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sort-numeric-up-alt"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34002,7 +37170,7 @@ export let BSortNumericUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sort-numeric-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34030,7 +37198,7 @@ export let BSortUpAlt = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sort-up-alt"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34050,7 +37218,7 @@ export let BSortUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sort-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34070,7 +37238,7 @@ export let BSoundwave = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-soundwave"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34090,7 +37258,7 @@ export let BSpeakerFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-speaker-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34114,7 +37282,7 @@ export let BSpeaker = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-speaker"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34138,7 +37306,7 @@ export let BSpeedometer = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-speedometer"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34162,7 +37330,7 @@ export let BSpeedometer2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-speedometer2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34186,7 +37354,7 @@ export let BSpellcheck = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-spellcheck"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34210,7 +37378,7 @@ export let BSpotify = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-spotify"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34230,7 +37398,7 @@ export let BSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34250,7 +37418,7 @@ export let BSquareHalf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-square-half"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34270,7 +37438,7 @@ export let BSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34290,7 +37458,7 @@ export let BStackOverflow = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-stack-overflow"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34314,7 +37482,7 @@ export let BStack = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34338,7 +37506,7 @@ export let BStarFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-star-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34358,7 +37526,7 @@ export let BStarHalf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-star-half"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34378,7 +37546,7 @@ export let BStar = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-star"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34398,7 +37566,7 @@ export let BStars = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-stars"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34418,7 +37586,7 @@ export let BSteam = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-steam"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34442,7 +37610,7 @@ export let BStickiesFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-stickies-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34466,7 +37634,7 @@ export let BStickies = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-stickies"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34490,7 +37658,7 @@ export let BStickyFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sticky-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34510,7 +37678,7 @@ export let BSticky = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sticky"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34530,7 +37698,7 @@ export let BStopBtnFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-stop-btn-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34550,7 +37718,7 @@ export let BStopBtn = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-stop-btn"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34574,7 +37742,7 @@ export let BStopCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-stop-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34594,7 +37762,7 @@ export let BStopCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-stop-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34618,7 +37786,7 @@ export let BStopFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-stop-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34638,7 +37806,7 @@ export let BStop = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-stop"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34658,7 +37826,7 @@ export let BStoplightsFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-stoplights-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34678,7 +37846,7 @@ export let BStoplights = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-stoplights"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34702,7 +37870,7 @@ export let BStopwatchFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-stopwatch-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34722,7 +37890,7 @@ export let BStopwatch = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-stopwatch"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34746,11 +37914,51 @@ export let BStrava = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-strava"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
           {"d":"M6.731 0 2 9.125h2.788L6.73 5.497l1.93 3.628h2.766L6.731 0zm4.694 9.125-1.372 2.756L8.66 9.125H6.547L10.053 16l3.484-6.875h-2.112z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BStripe = {
+  $_icon: {
+    name: "Stripe",
+    vendor: "B",
+    type: [],
+    tags: ["stripe"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Zm6.226 5.385c-.584 0-.937.164-.937.593 0 .468.607.674 1.36.93 1.228.415 2.844.963 2.851 2.993C11.5 11.868 9.924 13 7.63 13a7.662 7.662 0 0 1-3.009-.626V9.758c.926.506 2.095.88 3.01.88.617 0 1.058-.165 1.058-.671 0-.518-.658-.755-1.453-1.041C6.026 8.49 4.5 7.94 4.5 6.11 4.5 4.165 5.988 3 8.226 3a7.29 7.29 0 0 1 2.734.505v2.583c-.838-.45-1.896-.703-2.734-.703Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSubscript = {
+  $_icon: {
+    name: "Subscript",
+    vendor: "B",
+    type: [],
+    tags: ["subscript"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"m3.266 12.496.96-2.853H7.76l.96 2.853H10L6.62 3H5.38L2 12.496h1.266Zm2.748-8.063 1.419 4.23h-2.88l1.426-4.23h.035Zm6.132 7.203v-.075c0-.332.234-.618.619-.618.354 0 .618.256.618.58 0 .362-.271.649-.52.898l-1.788 1.832V15h3.59v-.958h-1.923v-.045l.973-1.04c.415-.438.867-.845.867-1.547 0-.8-.701-1.41-1.787-1.41-1.23 0-1.795.8-1.795 1.576v.06h1.146Z"}
         ) 
       ]
     )
@@ -34766,7 +37974,7 @@ export let BSubtract = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-subtract"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34786,7 +37994,7 @@ export let BSuitClubFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-suit-club-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34806,7 +38014,7 @@ export let BSuitClub = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-suit-club"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34826,7 +38034,7 @@ export let BSuitDiamondFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-suit-diamond-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34846,7 +38054,7 @@ export let BSuitDiamond = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-suit-diamond"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34866,7 +38074,7 @@ export let BSuitHeartFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-suit-heart-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34886,7 +38094,7 @@ export let BSuitHeart = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-suit-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34906,7 +38114,7 @@ export let BSuitSpadeFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-suit-spade-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34926,7 +38134,7 @@ export let BSuitSpade = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-suit-spade"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34946,7 +38154,7 @@ export let BSunFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sun-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34966,7 +38174,7 @@ export let BSun = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sun"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -34986,7 +38194,7 @@ export let BSunglasses = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sunglasses"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35006,7 +38214,7 @@ export let BSunriseFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sunrise-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35026,7 +38234,7 @@ export let BSunrise = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sunrise"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35046,7 +38254,7 @@ export let BSunsetFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sunset-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35066,11 +38274,31 @@ export let BSunset = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-sunset"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
           {"d":"M7.646 4.854a.5.5 0 0 0 .708 0l1.5-1.5a.5.5 0 0 0-.708-.708l-.646.647V1.5a.5.5 0 0 0-1 0v1.793l-.646-.647a.5.5 0 1 0-.708.708l1.5 1.5zm-5.303-.51a.5.5 0 0 1 .707 0l1.414 1.413a.5.5 0 0 1-.707.707L2.343 5.05a.5.5 0 0 1 0-.707zm11.314 0a.5.5 0 0 1 0 .706l-1.414 1.414a.5.5 0 1 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zM8 7a3 3 0 0 1 2.599 4.5H5.4A3 3 0 0 1 8 7zm3.71 4.5a4 4 0 1 0-7.418 0H.499a.5.5 0 0 0 0 1h15a.5.5 0 0 0 0-1h-3.79zM0 10a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2A.5.5 0 0 1 0 10zm13 0a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BSuperscript = {
+  $_icon: {
+    name: "Superscript",
+    vendor: "B",
+    type: [],
+    tags: ["superscript"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"m4.266 12.496.96-2.853H8.76l.96 2.853H11L7.62 3H6.38L3 12.496h1.266Zm2.748-8.063 1.419 4.23h-2.88l1.426-4.23h.035Zm5.132-1.797v-.075c0-.332.234-.618.619-.618.354 0 .618.256.618.58 0 .362-.271.649-.52.898l-1.788 1.832V6h3.59v-.958h-1.923v-.045l.973-1.04c.415-.438.867-.845.867-1.547 0-.8-.701-1.41-1.787-1.41C11.565 1 11 1.8 11 2.576v.06h1.146Z"}
         ) 
       ]
     )
@@ -35086,7 +38314,7 @@ export let BSymmetryHorizontal = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-symmetry-horizontal"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35106,7 +38334,7 @@ export let BSymmetryVertical = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-symmetry-vertical"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35126,7 +38354,7 @@ export let BTable = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-table"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35146,7 +38374,7 @@ export let BTabletFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-tablet-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35166,7 +38394,7 @@ export let BTabletLandscapeFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-tablet-landscape-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35186,7 +38414,7 @@ export let BTabletLandscape = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-tablet-landscape"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35210,7 +38438,7 @@ export let BTablet = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-tablet"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35234,7 +38462,7 @@ export let BTagFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-tag-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35254,7 +38482,7 @@ export let BTag = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-tag"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35278,7 +38506,7 @@ export let BTagsFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-tags-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35302,7 +38530,7 @@ export let BTags = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-tags"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35311,6 +38539,50 @@ export let BTags = {
         h(
           "path",
           {"d":"M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BTaxiFrontFill = {
+  $_icon: {
+    name: "TaxiFrontFill",
+    vendor: "B",
+    type: [],
+    tags: ["taxi","front","fill"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M6 1a1 1 0 0 0-1 1v1h-.181A2.5 2.5 0 0 0 2.52 4.515l-.792 1.848a.807.807 0 0 1-.38.404c-.5.25-.855.715-.965 1.262L.05 9.708a2.5 2.5 0 0 0-.049.49v.413c0 .814.39 1.543 1 1.997V14.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1.338c1.292.048 2.745.088 4 .088s2.708-.04 4-.088V14.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1.892c.61-.454 1-1.183 1-1.997v-.413c0-.165-.016-.329-.049-.49l-.335-1.68a1.807 1.807 0 0 0-.964-1.261.807.807 0 0 1-.381-.404l-.792-1.848A2.5 2.5 0 0 0 11.181 3H11V2a1 1 0 0 0-1-1H6ZM4.309 4h7.382a.5.5 0 0 1 .447.276l.956 1.913a.51.51 0 0 1-.497.731c-.91-.073-3.35-.17-4.597-.17-1.247 0-3.688.097-4.597.17a.51.51 0 0 1-.497-.731l.956-1.913A.5.5 0 0 1 4.309 4ZM4 10a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-9 0a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1Z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BTaxiFront = {
+  $_icon: {
+    name: "TaxiFront",
+    vendor: "B",
+    type: [],
+    tags: ["taxi","front"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M4.862 5.276 3.906 7.19a.51.51 0 0 0 .497.731c.91-.073 2.35-.17 3.597-.17 1.247 0 2.688.097 3.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 10.691 5H5.309a.5.5 0 0 0-.447.276ZM4 10a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-9 0a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1Z"}
+        ),
+        h(
+          "path",
+          {"d":"M6 1a1 1 0 0 0-1 1v1h-.181A2.5 2.5 0 0 0 2.52 4.515l-.792 1.848a.807.807 0 0 1-.38.404c-.5.25-.855.715-.965 1.262L.05 9.708a2.5 2.5 0 0 0-.049.49v.413c0 .814.39 1.543 1 1.997V14.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1.338c1.292.048 2.745.088 4 .088s2.708-.04 4-.088V14.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1.892c.61-.454 1-1.183 1-1.997v-.413c0-.165-.016-.329-.049-.49l-.335-1.68a1.807 1.807 0 0 0-.964-1.261.807.807 0 0 1-.381-.404l-.792-1.848A2.5 2.5 0 0 0 11.181 3H11V2a1 1 0 0 0-1-1H6ZM4.819 4h6.362a1.5 1.5 0 0 1 1.379.91l.792 1.847a1.8 1.8 0 0 0 .853.904c.222.112.381.32.43.564l.336 1.679c.02.097.029.195.029.294v.413a1.48 1.48 0 0 1-1.408 1.484c-1.555.07-3.786.155-5.592.155-1.806 0-4.037-.084-5.592-.155A1.479 1.479 0 0 1 1 10.611v-.413c0-.099.01-.197.03-.294l.335-1.68a.807.807 0 0 1 .43-.563c.383-.19.685-.511.853-.904l.792-1.848A1.5 1.5 0 0 1 4.82 4Z"}
         ) 
       ]
     )
@@ -35326,7 +38598,7 @@ export let BTelegram = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-telegram"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35346,7 +38618,7 @@ export let BTelephoneFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-telephone-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35366,7 +38638,7 @@ export let BTelephoneForwardFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-telephone-forward-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35386,7 +38658,7 @@ export let BTelephoneForward = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-telephone-forward"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35406,7 +38678,7 @@ export let BTelephoneInboundFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-telephone-inbound-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35426,7 +38698,7 @@ export let BTelephoneInbound = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-telephone-inbound"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35446,7 +38718,7 @@ export let BTelephoneMinusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-telephone-minus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35466,7 +38738,7 @@ export let BTelephoneMinus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-telephone-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35490,7 +38762,7 @@ export let BTelephoneOutboundFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-telephone-outbound-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35510,7 +38782,7 @@ export let BTelephoneOutbound = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-telephone-outbound"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35530,7 +38802,7 @@ export let BTelephonePlusFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-telephone-plus-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35550,7 +38822,7 @@ export let BTelephonePlus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-telephone-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35574,7 +38846,7 @@ export let BTelephoneXFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-telephone-x-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35594,7 +38866,7 @@ export let BTelephoneX = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-telephone-x"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35618,11 +38890,35 @@ export let BTelephone = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-telephone"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
           {"d":"M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BTencentQq = {
+  $_icon: {
+    name: "TencentQq",
+    vendor: "B",
+    type: [],
+    tags: ["tencent","qq"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M6.048 3.323c.022.277-.13.523-.338.55-.21.026-.397-.176-.419-.453-.022-.277.13-.523.338-.55.21-.026.397.176.42.453Zm2.265-.24c-.603-.146-.894.256-.936.333-.027.048-.008.117.037.15.045.035.092.025.119-.003.361-.39.751-.172.829-.129l.011.007c.053.024.147.028.193-.098.023-.063.017-.11-.006-.142-.016-.023-.089-.08-.247-.118Z"}
+        ),
+        h(
+          "path",
+          {"d":"M11.727 6.719c0-.022.01-.375.01-.557 0-3.07-1.45-6.156-5.015-6.156-3.564 0-5.014 3.086-5.014 6.156 0 .182.01.535.01.557l-.72 1.795a25.85 25.85 0 0 0-.534 1.508c-.68 2.187-.46 3.093-.292 3.113.36.044 1.401-1.647 1.401-1.647 0 .979.504 2.256 1.594 3.179-.408.126-.907.319-1.228.556-.29.213-.253.43-.201.518.228.386 3.92.246 4.985.126 1.065.12 4.756.26 4.984-.126.052-.088.088-.305-.2-.518-.322-.237-.822-.43-1.23-.557 1.09-.922 1.594-2.2 1.594-3.178 0 0 1.041 1.69 1.401 1.647.168-.02.388-.926-.292-3.113a25.78 25.78 0 0 0-.534-1.508l-.72-1.795ZM9.773 5.53a.095.095 0 0 1-.009.096c-.109.159-1.554.943-3.033.943h-.017c-1.48 0-2.925-.784-3.034-.943a.098.098 0 0 1-.018-.055c0-.015.004-.028.01-.04.13-.287 1.43-.606 3.042-.606h.017c1.611 0 2.912.319 3.042.605Zm-4.32-.989c-.483.022-.896-.529-.922-1.229-.026-.7.344-1.286.828-1.308.483-.022.896.529.922 1.23.027.7-.344 1.286-.827 1.307Zm2.538 0c-.484-.022-.854-.607-.828-1.308.027-.7.44-1.25.923-1.23.483.023.853.608.827 1.309-.026.7-.439 1.251-.922 1.23ZM2.928 8.99c.213.042.426.081.639.117v2.336s1.104.222 2.21.068V9.363c.326.018.64.026.937.023h.017c1.117.013 2.474-.136 3.786-.396.097.622.151 1.386.097 2.284-.146 2.45-1.6 3.99-3.846 4.012h-.091c-2.245-.023-3.7-1.562-3.846-4.011-.054-.9 0-1.663.097-2.285Z"}
         ) 
       ]
     )
@@ -35638,7 +38934,7 @@ export let BTerminalDash = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-terminal-dash"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35662,7 +38958,7 @@ export let BTerminalFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-terminal-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35682,7 +38978,7 @@ export let BTerminalPlus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-terminal-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35706,7 +39002,7 @@ export let BTerminalSplit = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-terminal-split"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35730,7 +39026,7 @@ export let BTerminalX = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-terminal-x"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35754,7 +39050,7 @@ export let BTerminal = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-terminal"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35778,7 +39074,7 @@ export let BTextCenter = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-text-center"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35798,7 +39094,7 @@ export let BTextIndentLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-text-indent-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35818,7 +39114,7 @@ export let BTextIndentRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-text-indent-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35838,7 +39134,7 @@ export let BTextLeft = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-text-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35858,7 +39154,7 @@ export let BTextParagraph = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-text-paragraph"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35878,11 +39174,31 @@ export let BTextRight = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-text-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M6 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-4-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-4-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BTextWrap = {
+  $_icon: {
+    name: "TextWrap",
+    vendor: "B",
+    type: [],
+    tags: ["text","wrap"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M2 3.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5Zm0 4a.5.5 0 0 1 .5-.5h9a2.5 2.5 0 0 1 0 5h-1.293l.647.646a.5.5 0 0 1-.708.708l-1.5-1.5a.5.5 0 0 1 0-.708l1.5-1.5a.5.5 0 0 1 .708.708l-.647.646H11.5a1.5 1.5 0 0 0 0-3h-9a.5.5 0 0 1-.5-.5Zm0 4a.5.5 0 0 1 .5-.5H7a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5Z"}
         ) 
       ]
     )
@@ -35898,7 +39214,7 @@ export let BTextareaResize = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-textarea-resize"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35918,7 +39234,7 @@ export let BTextareaT = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-textarea-t"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35942,7 +39258,7 @@ export let BTextarea = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-textarea"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35962,7 +39278,7 @@ export let BThermometerHalf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-thermometer-half"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -35986,7 +39302,7 @@ export let BThermometerHigh = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-thermometer-high"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36010,7 +39326,7 @@ export let BThermometerLow = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-thermometer-low"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36034,7 +39350,7 @@ export let BThermometerSnow = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-thermometer-snow"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36058,7 +39374,7 @@ export let BThermometerSun = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-thermometer-sun"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36082,7 +39398,7 @@ export let BThermometer = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-thermometer"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36106,7 +39422,7 @@ export let BThreeDotsVertical = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-three-dots-vertical"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36126,7 +39442,7 @@ export let BThreeDots = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-three-dots"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36146,7 +39462,7 @@ export let BThunderboltFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-thunderbolt-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36166,7 +39482,7 @@ export let BThunderbolt = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-thunderbolt"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36190,7 +39506,7 @@ export let BTicketDetailedFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-ticket-detailed-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36210,7 +39526,7 @@ export let BTicketDetailed = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-ticket-detailed"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36234,7 +39550,7 @@ export let BTicketFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-ticket-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36254,7 +39570,7 @@ export let BTicketPerforatedFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-ticket-perforated-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36274,7 +39590,7 @@ export let BTicketPerforated = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-ticket-perforated"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36298,7 +39614,7 @@ export let BTicket = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-ticket"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36318,7 +39634,7 @@ export let BTiktok = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-tiktok"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36338,7 +39654,7 @@ export let BToggleOff = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-toggle-off"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36358,7 +39674,7 @@ export let BToggleOn = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-toggle-on"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36378,7 +39694,7 @@ export let BToggle2Off = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-toggle2-off"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36402,7 +39718,7 @@ export let BToggle2On = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-toggle2-on"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36426,7 +39742,7 @@ export let BToggles = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-toggles"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36446,7 +39762,7 @@ export let BToggles2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-toggles2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36474,7 +39790,7 @@ export let BTools = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-tools"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36494,7 +39810,7 @@ export let BTornado = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-tornado"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36514,11 +39830,11 @@ export let BTrainFreightFrontFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-train-freight-front-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M5.736 0a1.5 1.5 0 0 0-.67.158L1.828 1.776A1.5 1.5 0 0 0 1 3.118v5.51l2-.6V5a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3.028l2 .6v-5.51a1.5 1.5 0 0 0-.83-1.342L10.936.158A1.5 1.5 0 0 0 10.264 0H5.736ZM15 9.672l-5.503-1.65A.5.5 0 0 0 9.353 8H8.5v8h4a2.5 2.5 0 0 0 2.5-2.5V9.672ZM7.5 16V8h-.853a.5.5 0 0 0-.144.021L1 9.672V13.5A2.5 2.5 0 0 0 3.5 16h4Zm-1-14a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3ZM12 5v2.728l-2.216-.665A1.5 1.5 0 0 0 9.354 7H8.5V5H12ZM7.5 5v2h-.853a1.5 1.5 0 0 0-.431.063L4 7.728V5h3.5Zm-4 5a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1Zm9 0a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1ZM5 13a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm7 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"}
+          {"d":"M5.736 0a1.5 1.5 0 0 0-.67.158L1.828 1.776A1.5 1.5 0 0 0 1 3.118v5.51l2-.6V5a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3.028l2 .6v-5.51a1.5 1.5 0 0 0-.83-1.342L10.936.158A1.5 1.5 0 0 0 10.264 0H5.736ZM15 9.672l-5.503-1.65A.5.5 0 0 0 9.353 8H8.5v8h4a2.5 2.5 0 0 0 2.5-2.5V9.672ZM7.5 16V8h-.853a.5.5 0 0 0-.144.021L1 9.672V13.5A2.5 2.5 0 0 0 3.5 16h4Zm-1-14h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1ZM12 5v2.728l-2.216-.665A1.5 1.5 0 0 0 9.354 7H8.5V5H12ZM7.5 5v2h-.853a1.5 1.5 0 0 0-.431.063L4 7.728V5h3.5Zm-4 5a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1Zm9 0a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1ZM5 13a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm7 1a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"}
         ) 
       ]
     )
@@ -36534,11 +39850,11 @@ export let BTrainFreightFront = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-train-freight-front"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M5.065.158A1.5 1.5 0 0 1 5.736 0h4.528a1.5 1.5 0 0 1 .67.158l3.237 1.618a1.5 1.5 0 0 1 .83 1.342V13.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V3.118a1.5 1.5 0 0 1 .828-1.342L5.065.158ZM2 9.372V13.5A1.5 1.5 0 0 0 3.5 15h4V8h-.853a.5.5 0 0 0-.144.021L2 9.372ZM8.5 15h4a1.5 1.5 0 0 0 1.5-1.5V9.372l-4.503-1.35A.5.5 0 0 0 9.353 8H8.5v7ZM14 8.328v-5.21a.5.5 0 0 0-.276-.447l-3.236-1.618A.5.5 0 0 0 10.264 1H5.736a.5.5 0 0 0-.223.053L2.277 2.67A.5.5 0 0 0 2 3.118v5.21l1-.3V5a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3.028l1 .3Zm-2-.6V5H8.5v2h.853a1.5 1.5 0 0 1 .431.063L12 7.728ZM7.5 7V5H4v2.728l2.216-.665A1.5 1.5 0 0 1 6.646 7H7.5Zm-1-5a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3Zm-3 8a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1Zm9 0a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1ZM5 13a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm7 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"}
+          {"d":"M5.065.158A1.5 1.5 0 0 1 5.736 0h4.528a1.5 1.5 0 0 1 .67.158l3.237 1.618a1.5 1.5 0 0 1 .83 1.342V13.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V3.118a1.5 1.5 0 0 1 .828-1.342L5.065.158ZM2 9.372V13.5A1.5 1.5 0 0 0 3.5 15h4V8h-.853a.5.5 0 0 0-.144.021L2 9.372ZM8.5 15h4a1.5 1.5 0 0 0 1.5-1.5V9.372l-4.503-1.35A.5.5 0 0 0 9.353 8H8.5v7ZM14 8.328v-5.21a.5.5 0 0 0-.276-.447l-3.236-1.618A.5.5 0 0 0 10.264 1H5.736a.5.5 0 0 0-.223.053L2.277 2.67A.5.5 0 0 0 2 3.118v5.21l1-.3V5a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3.028l1 .3Zm-2-.6V5H8.5v2h.853a1.5 1.5 0 0 1 .431.063L12 7.728ZM7.5 7V5H4v2.728l2.216-.665A1.5 1.5 0 0 1 6.646 7H7.5Zm-1-5a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3Zm-3 8a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1Zm9 0a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1ZM5 13a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm7 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"}
         ) 
       ]
     )
@@ -36554,11 +39870,11 @@ export let BTrainFrontFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-train-front-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M10.621.515C8.647.02 7.353.02 5.38.515c-.924.23-1.982.766-2.78 1.22C1.566 2.322 1 3.432 1 4.582V13.5A2.5 2.5 0 0 0 3.5 16h9a2.5 2.5 0 0 0 2.5-2.5V4.583c0-1.15-.565-2.26-1.6-2.849-.797-.453-1.855-.988-2.779-1.22ZM6.5 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3Zm-2 2A1.5 1.5 0 0 0 3 5.5v2A1.5 1.5 0 0 0 4.5 9h7A1.5 1.5 0 0 0 13 7.5v-2A1.5 1.5 0 0 0 11.5 4h-7Zm.5 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm0 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm8 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-3-1a1 1 0 1 1 0 2 1 1 0 0 1 0-2ZM4 5.5a.5.5 0 0 1 .5-.5h3v3h-3a.5.5 0 0 1-.5-.5v-2ZM8.5 8V5h3a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-3Z"}
+          {"d":"M10.621.515C8.647.02 7.353.02 5.38.515c-.924.23-1.982.766-2.78 1.22C1.566 2.322 1 3.432 1 4.582V13.5A2.5 2.5 0 0 0 3.5 16h9a2.5 2.5 0 0 0 2.5-2.5V4.583c0-1.15-.565-2.26-1.6-2.849-.797-.453-1.855-.988-2.779-1.22ZM6.5 2h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1Zm-2 2h7A1.5 1.5 0 0 1 13 5.5v2A1.5 1.5 0 0 1 11.5 9h-7A1.5 1.5 0 0 1 3 7.5v-2A1.5 1.5 0 0 1 4.5 4Zm.5 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm0 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm8 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-3-1a1 1 0 1 1 0 2 1 1 0 0 1 0-2ZM4 5.5a.5.5 0 0 1 .5-.5h3v3h-3a.5.5 0 0 1-.5-.5v-2ZM8.5 8V5h3a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-3Z"}
         ) 
       ]
     )
@@ -36574,11 +39890,11 @@ export let BTrainFront = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-train-front"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M5.621 1.485c1.815-.454 2.943-.454 4.758 0 .784.196 1.743.673 2.527 1.119.688.39 1.094 1.148 1.094 1.979V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V4.583c0-.831.406-1.588 1.094-1.98.784-.445 1.744-.922 2.527-1.118Zm5-.97C8.647.02 7.353.02 5.38.515c-.924.23-1.982.766-2.78 1.22C1.566 2.322 1 3.432 1 4.582V13.5A2.5 2.5 0 0 0 3.5 16h9a2.5 2.5 0 0 0 2.5-2.5V4.583c0-1.15-.565-2.26-1.6-2.849-.797-.453-1.855-.988-2.779-1.22ZM5 13a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm0 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm7 1a1 1 0 1 0-1-1 1 1 0 1 0-2 0 1 1 0 0 0 2 0 1 1 0 0 0 1 1ZM4.5 5a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h3V5h-3Zm4 0v3h3a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5h-3ZM3 5.5A1.5 1.5 0 0 1 4.5 4h7A1.5 1.5 0 0 1 13 5.5v2A1.5 1.5 0 0 1 11.5 9h-7A1.5 1.5 0 0 1 3 7.5v-2ZM6.5 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3Z"}
+          {"d":"M5.621 1.485c1.815-.454 2.943-.454 4.758 0 .784.196 1.743.673 2.527 1.119.688.39 1.094 1.148 1.094 1.979V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V4.583c0-.831.406-1.588 1.094-1.98.784-.445 1.744-.922 2.527-1.118Zm5-.97C8.647.02 7.353.02 5.38.515c-.924.23-1.982.766-2.78 1.22C1.566 2.322 1 3.432 1 4.582V13.5A2.5 2.5 0 0 0 3.5 16h9a2.5 2.5 0 0 0 2.5-2.5V4.583c0-1.15-.565-2.26-1.6-2.849-.797-.453-1.855-.988-2.779-1.22ZM5 13a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm0 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm7 1a1 1 0 1 0-1-1 1 1 0 1 0-2 0 1 1 0 0 0 2 0 1 1 0 0 0 1 1ZM4.5 5a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h3V5h-3Zm4 0v3h3a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5h-3ZM3 5.5A1.5 1.5 0 0 1 4.5 4h7A1.5 1.5 0 0 1 13 5.5v2A1.5 1.5 0 0 1 11.5 9h-7A1.5 1.5 0 0 1 3 7.5v-2ZM6.5 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3Z"}
         ) 
       ]
     )
@@ -36594,11 +39910,11 @@ export let BTrainLightrailFrontFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-train-lightrail-front-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M6.5 0a.5.5 0 0 0 0 1h1v1.011c-1.525.064-3.346.394-4.588.655C1.775 2.904 1 3.915 1 5.055V13.5A2.5 2.5 0 0 0 3.5 16h9a2.5 2.5 0 0 0 2.5-2.5V5.055c0-1.14-.775-2.15-1.912-2.39-1.242-.26-3.063-.59-4.588-.654V1h1a.5.5 0 0 0 0-1h-3ZM8 4c-1.136 0-2.645.2-3.604.346-.825.126-1.356.9-1.244 1.697.022.16.046.335.07.522C3.357 7.596 3.5 8.949 3.5 10c0 .428-.024.933-.062 1.464a57.32 57.32 0 0 1-.266 2.682c-.041.34-.08.634-.108.854h1.008a62.692 62.692 0 0 0 .328-3h2.246c.36 0 .704-.143.958-.396a.353.353 0 0 1 .25-.104h.292a.35.35 0 0 1 .25.104c.254.253.599.396.958.396H11.6a62.703 62.703 0 0 0 .328 3h1.008c-.029-.22-.066-.514-.108-.854-.092-.761-.2-1.752-.266-2.682A21.26 21.26 0 0 1 12.5 10c0-1.051.143-2.404.278-3.435.024-.187.048-.362.07-.522.112-.798-.42-1.571-1.244-1.697C10.644 4.199 9.136 4 8 4Zm-1.354 7H4.47c.019-.353.03-.692.03-1 0-.927-.104-2.051-.216-3h7.432c-.112.949-.216 2.073-.216 3 0 .308.011.647.03 1H9.354a.353.353 0 0 1-.25-.104 1.354 1.354 0 0 0-.958-.396h-.292c-.36 0-.704.143-.958.396a.353.353 0 0 1-.25.104Zm5.199-5h-7.69l-.013-.096a.497.497 0 0 1 .405-.57C5.505 5.188 6.947 5 8 5s2.495.188 3.453.334a.497.497 0 0 1 .405.57L11.845 6ZM6 13.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm0 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm4 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm0 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Z"}
+          {"d":"M6.5 0a.5.5 0 0 0 0 1h1v1.011c-1.525.064-3.346.394-4.588.655C1.775 2.904 1 3.915 1 5.055V13.5A2.5 2.5 0 0 0 3.5 16h9a2.5 2.5 0 0 0 2.5-2.5V5.055c0-1.14-.775-2.15-1.912-2.39-1.242-.26-3.063-.59-4.588-.654V1h1a.5.5 0 0 0 0-1h-3ZM8 4c1.136 0 2.645.2 3.604.346.825.126 1.356.9 1.244 1.697-.022.16-.046.335-.07.522C12.643 7.596 12.5 8.949 12.5 10c0 .428.024.933.062 1.464.066.93.174 1.92.266 2.682.042.34.08.634.109.854h-1.01a62.703 62.703 0 0 1-.327-3H9.354c-.36 0-.704-.143-.958-.396a.353.353 0 0 0-.25-.104h-.292a.353.353 0 0 0-.25.104 1.354 1.354 0 0 1-.958.396H4.4a62.692 62.692 0 0 1-.328 3H3.064c.029-.22.067-.514.108-.854.092-.761.2-1.752.266-2.682.038-.531.062-1.036.062-1.464 0-1.051-.143-2.404-.278-3.435a51.762 51.762 0 0 0-.07-.522c-.112-.798.42-1.571 1.244-1.697C5.356 4.199 6.864 4 8 4Zm-1.354 7H4.47c.019-.353.03-.692.03-1 0-.927-.104-2.051-.216-3h7.432c-.112.949-.216 2.073-.216 3 0 .308.011.647.03 1H9.354a.353.353 0 0 1-.25-.104 1.354 1.354 0 0 0-.958-.396h-.292c-.36 0-.704.143-.958.396a.353.353 0 0 1-.25.104Zm5.199-5h-7.69l-.013-.096a.497.497 0 0 1 .405-.57C5.505 5.188 6.947 5 8 5s2.495.188 3.453.334a.497.497 0 0 1 .405.57L11.845 6ZM6 13.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm0 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm4 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm0 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Z"}
         ) 
       ]
     )
@@ -36614,11 +39930,11 @@ export let BTrainLightrailFront = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-train-lightrail-front"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M6.5 0a.5.5 0 0 0 0 1h1v1.011c-1.525.064-3.346.394-4.588.655C1.775 2.904 1 3.915 1 5.055V13.5A2.5 2.5 0 0 0 3.5 16h9a2.5 2.5 0 0 0 2.5-2.5V5.055c0-1.14-.775-2.15-1.912-2.39-1.242-.26-3.063-.59-4.588-.654V1h1a.5.5 0 0 0 0-1h-3ZM8 3c-1.497 0-3.505.356-4.883.644C2.464 3.781 2 4.366 2 5.055V13.5a1.5 1.5 0 0 0 1.072 1.438c.028-.212.062-.483.1-.792.092-.761.2-1.752.266-2.682.038-.531.062-1.036.062-1.464 0-1.051-.143-2.404-.278-3.435a52.052 52.052 0 0 0-.07-.522c-.112-.798.42-1.571 1.244-1.697C5.356 4.199 6.864 4 8 4c1.136 0 2.645.2 3.604.346.825.126 1.356.9 1.244 1.697-.022.16-.046.335-.07.522C12.643 7.596 12.5 8.949 12.5 10c0 .428.024.933.062 1.464.066.93.174 1.92.266 2.682.038.31.072.58.1.792A1.5 1.5 0 0 0 14 13.5V5.055c0-.69-.464-1.274-1.117-1.41C11.505 3.354 9.497 3 8 3Zm3.835 11.266c.034.28.066.53.093.734H4.072a62.692 62.692 0 0 0 .328-3h2.246c.36 0 .704-.143.958-.396a.353.353 0 0 1 .25-.104h.292a.35.35 0 0 1 .25.104c.254.253.599.396.958.396H11.6c.068.808.158 1.621.236 2.266ZM6 13.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm0 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm3.5.5a.5.5 0 0 0 .5-.5.5.5 0 1 0 1 0 .5.5 0 0 0-1 0 .5.5 0 1 0-.5.5Zm-5.03-3h2.176a.353.353 0 0 0 .25-.104c.254-.253.599-.396.958-.396h.292c.36 0 .704.143.958.396a.353.353 0 0 0 .25.104h2.177c-.02-.353-.031-.692-.031-1 0-.927.104-2.051.216-3H4.284c.112.949.216 2.073.216 3 0 .308-.011.647-.03 1Zm-.315-5h7.69l.013-.096a.497.497 0 0 0-.405-.57C10.495 5.188 9.053 5 8 5s-2.495.188-3.453.334a.497.497 0 0 0-.405.57L4.155 6Z"}
+          {"d":"M6.5 0a.5.5 0 0 0 0 1h1v1.011c-1.525.064-3.346.394-4.588.655C1.775 2.904 1 3.915 1 5.055V13.5A2.5 2.5 0 0 0 3.5 16h9a2.5 2.5 0 0 0 2.5-2.5V5.055c0-1.14-.775-2.15-1.912-2.39-1.242-.26-3.063-.59-4.588-.654V1h1a.5.5 0 0 0 0-1h-3ZM8 3c1.497 0 3.505.356 4.883.644.653.137 1.117.722 1.117 1.411V13.5a1.5 1.5 0 0 1-1.072 1.438 75.999 75.999 0 0 1-.1-.792c-.092-.761-.2-1.752-.266-2.682A21.26 21.26 0 0 1 12.5 10c0-1.051.143-2.404.278-3.435.024-.187.048-.362.07-.522.112-.798-.42-1.571-1.244-1.697C10.644 4.199 9.136 4 8 4c-1.136 0-2.645.2-3.604.346-.825.126-1.356.9-1.244 1.697.022.16.046.335.07.522C3.357 7.596 3.5 8.949 3.5 10c0 .428-.024.933-.062 1.464a57.32 57.32 0 0 1-.266 2.682c-.038.31-.072.58-.1.792A1.5 1.5 0 0 1 2 13.5V5.055c0-.69.464-1.274 1.117-1.41C4.495 3.354 6.503 3 8 3Zm3.835 11.266c.034.28.066.53.093.734H4.072a62.692 62.692 0 0 0 .328-3h2.246c.36 0 .704-.143.958-.396a.353.353 0 0 1 .25-.104h.292a.35.35 0 0 1 .25.104c.254.253.599.396.958.396H11.6c.068.808.158 1.621.236 2.266ZM6 13.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm0 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm3.5.5a.5.5 0 0 0 .5-.5.5.5 0 1 0 1 0 .5.5 0 0 0-1 0 .5.5 0 1 0-.5.5Zm-5.03-3c.019-.353.03-.692.03-1 0-.927-.104-2.051-.216-3h7.432c-.112.949-.216 2.073-.216 3 0 .308.011.647.03 1H9.354a.353.353 0 0 1-.25-.104 1.354 1.354 0 0 0-.958-.396h-.292c-.36 0-.704.143-.958.396a.353.353 0 0 1-.25.104H4.47Zm-.315-5-.013-.096a.497.497 0 0 1 .405-.57C5.505 5.188 6.947 5 8 5s2.495.188 3.453.334a.497.497 0 0 1 .405.57L11.845 6h-7.69Z"}
         ) 
       ]
     )
@@ -36634,7 +39950,7 @@ export let BTranslate = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-translate"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36658,7 +39974,7 @@ export let BTrashFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-trash-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36678,7 +39994,7 @@ export let BTrash = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-trash"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36702,7 +40018,7 @@ export let BTrash2Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-trash2-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36722,7 +40038,7 @@ export let BTrash2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-trash2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36742,7 +40058,7 @@ export let BTrash3Fill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-trash3-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36762,7 +40078,7 @@ export let BTrash3 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-trash3"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36782,7 +40098,7 @@ export let BTreeFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-tree-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36802,11 +40118,31 @@ export let BTree = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-tree"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
           {"d":"M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777l-3-4.5zM6.437 4.758A.5.5 0 0 0 6 4.5h-.066L8 1.401 10.066 4.5H10a.5.5 0 0 0-.424.765L11.598 8.5H11.5a.5.5 0 0 0-.447.724L12.69 12.5H3.309l1.638-3.276A.5.5 0 0 0 4.5 8.5h-.098l2.022-3.235a.5.5 0 0 0 .013-.507z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BTrello = {
+  $_icon: {
+    name: "Trello",
+    vendor: "B",
+    type: [],
+    tags: ["trello"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M14.1 0H1.903C.852 0 .002.85 0 1.9v12.19A1.902 1.902 0 0 0 1.902 16h12.199A1.902 1.902 0 0 0 16 14.09V1.9A1.902 1.902 0 0 0 14.1 0ZM7 11.367a.636.636 0 0 1-.64.633H3.593a.633.633 0 0 1-.63-.633V3.583c0-.348.281-.631.63-.633h2.765c.35.002.632.284.633.633L7 11.367Zm6.052-3.5a.633.633 0 0 1-.64.633h-2.78A.636.636 0 0 1 9 7.867V3.583a.636.636 0 0 1 .633-.633h2.778c.35.002.631.285.631.633l.01 4.284Z"}
         ) 
       ]
     )
@@ -36822,7 +40158,7 @@ export let BTriangleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-triangle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36842,7 +40178,7 @@ export let BTriangleHalf = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-triangle-half"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36862,7 +40198,7 @@ export let BTriangle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-triangle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36882,7 +40218,7 @@ export let BTrophyFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-trophy-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36902,7 +40238,7 @@ export let BTrophy = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-trophy"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36922,7 +40258,7 @@ export let BTropicalStorm = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-tropical-storm"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36946,7 +40282,7 @@ export let BTruckFlatbed = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-truck-flatbed"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -36966,11 +40302,11 @@ export let BTruckFrontFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-truck-front-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M3.5 0A2.5 2.5 0 0 0 1 2.5v9c0 .818.393 1.544 1 2v2a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5V14h6v1.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-2c.607-.456 1-1.182 1-2v-9A2.5 2.5 0 0 0 12.5 0h-9ZM3 3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3.9c0 .625-.562 1.092-1.17.994C10.925 7.747 9.208 7.5 8 7.5c-1.208 0-2.925.247-3.83.394A1.008 1.008 0 0 1 3 6.9V3Zm1 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm8 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm-5-2a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2H7Z"}
+          {"d":"M3.5 0A2.5 2.5 0 0 0 1 2.5v9c0 .818.393 1.544 1 2v2a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5V14h6v1.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-2c.607-.456 1-1.182 1-2v-9A2.5 2.5 0 0 0 12.5 0h-9ZM3 3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3.9c0 .625-.562 1.092-1.17.994C10.925 7.747 9.208 7.5 8 7.5c-1.208 0-2.925.247-3.83.394A1.008 1.008 0 0 1 3 6.9V3Zm1 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm8 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm-5-2h2a1 1 0 1 1 0 2H7a1 1 0 1 1 0-2Z"}
         ) 
       ]
     )
@@ -36986,19 +40322,15 @@ export let BTruckFront = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-truck-front"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"d":"M5 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm8 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-6-1a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2H7Z"}
+          {"d":"M5 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm8 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-6-1a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2H7ZM4 2a1 1 0 0 0-1 1v3.9c0 .625.562 1.092 1.17.994C5.075 7.747 6.792 7.5 8 7.5c1.208 0 2.925.247 3.83.394A1.008 1.008 0 0 0 13 6.9V3a1 1 0 0 0-1-1H4Zm0 1h8v3.9c0 .002 0 .001 0 0l-.002.004a.013.013 0 0 1-.005.002h-.004C11.088 6.761 9.299 6.5 8 6.5s-3.088.26-3.99.406h-.003a.013.013 0 0 1-.005-.002L4 6.9c0 .001 0 .002 0 0V3Z"}
         ),
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M4 2a1 1 0 0 0-1 1v3.9c0 .625.562 1.092 1.17.994C5.075 7.747 6.792 7.5 8 7.5c1.208 0 2.925.247 3.83.394A1.008 1.008 0 0 0 13 6.9V3a1 1 0 0 0-1-1H4Zm0 1h8v3.9c0 .002 0 .001 0 0l-.002.004a.013.013 0 0 1-.005.002h-.004C11.088 6.761 9.299 6.5 8 6.5s-3.088.26-3.99.406h-.003a.013.013 0 0 1-.005-.002L4 6.9c0 .001 0 .002 0 0V3Z"}
-        ),
-        h(
-          "path",
-          {"fill-rule":"evenodd","d":"M1 2.5A2.5 2.5 0 0 1 3.5 0h9A2.5 2.5 0 0 1 15 2.5v9c0 .818-.393 1.544-1 2v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2a2.496 2.496 0 0 1-1-2v-9ZM3.5 1A1.5 1.5 0 0 0 2 2.5v9A1.5 1.5 0 0 0 3.5 13h9a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 12.5 1h-9Z"}
+          {"d":"M1 2.5A2.5 2.5 0 0 1 3.5 0h9A2.5 2.5 0 0 1 15 2.5v9c0 .818-.393 1.544-1 2v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2a2.496 2.496 0 0 1-1-2v-9ZM3.5 1A1.5 1.5 0 0 0 2 2.5v9A1.5 1.5 0 0 0 3.5 13h9a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 12.5 1h-9Z"}
         ) 
       ]
     )
@@ -37014,7 +40346,7 @@ export let BTruck = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-truck"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37034,7 +40366,7 @@ export let BTsunami = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-tsunami"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37054,7 +40386,7 @@ export let BTvFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-tv-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37074,7 +40406,7 @@ export let BTv = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-tv"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37094,7 +40426,7 @@ export let BTwitch = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-twitch"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37118,7 +40450,7 @@ export let BTwitter = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-twitter"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37138,7 +40470,7 @@ export let BTypeBold = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-type-bold"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37158,7 +40490,7 @@ export let BTypeH1 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-type-h1"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37178,7 +40510,7 @@ export let BTypeH2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-type-h2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37198,7 +40530,7 @@ export let BTypeH3 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-type-h3"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37218,7 +40550,7 @@ export let BTypeItalic = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-type-italic"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37238,7 +40570,7 @@ export let BTypeStrikethrough = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-type-strikethrough"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37258,7 +40590,7 @@ export let BTypeUnderline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-type-underline"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37278,7 +40610,7 @@ export let BType = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-type"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37298,7 +40630,7 @@ export let BUbuntu = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-ubuntu"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37318,7 +40650,7 @@ export let BUiChecksGrid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-ui-checks-grid"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37338,7 +40670,7 @@ export let BUiChecks = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-ui-checks"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37358,7 +40690,7 @@ export let BUiRadiosGrid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-ui-radios-grid"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37378,7 +40710,7 @@ export let BUiRadios = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-ui-radios"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37398,7 +40730,7 @@ export let BUmbrellaFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-umbrella-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37418,7 +40750,7 @@ export let BUmbrella = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-umbrella"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37438,7 +40770,7 @@ export let BUnindent = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-unindent"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37462,7 +40794,7 @@ export let BUnion = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-union"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37482,7 +40814,7 @@ export let BUnity = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-unity"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37502,7 +40834,7 @@ export let BUniversalAccessCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-universal-access-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37526,7 +40858,7 @@ export let BUniversalAccess = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-universal-access"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37546,7 +40878,7 @@ export let BUnlockFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-unlock-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37566,7 +40898,7 @@ export let BUnlock = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-unlock"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37586,7 +40918,7 @@ export let BUpcScan = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-upc-scan"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37606,7 +40938,7 @@ export let BUpc = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-upc"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37626,7 +40958,7 @@ export let BUpload = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-upload"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37650,7 +40982,7 @@ export let BUsbCFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-usb-c-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37670,7 +41002,7 @@ export let BUsbC = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-usb-c"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37694,7 +41026,7 @@ export let BUsbDriveFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-usb-drive-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37714,7 +41046,7 @@ export let BUsbDrive = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-usb-drive"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37734,7 +41066,7 @@ export let BUsbFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-usb-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37754,7 +41086,7 @@ export let BUsbMicroFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-usb-micro-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37774,7 +41106,7 @@ export let BUsbMicro = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-usb-micro"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37798,7 +41130,7 @@ export let BUsbMiniFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-usb-mini-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37818,7 +41150,7 @@ export let BUsbMini = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-usb-mini"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37842,7 +41174,7 @@ export let BUsbPlugFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-usb-plug-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37862,7 +41194,7 @@ export let BUsbPlug = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-usb-plug"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37882,7 +41214,7 @@ export let BUsbSymbol = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-usb-symbol"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37902,7 +41234,7 @@ export let BUsb = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-usb"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37926,7 +41258,7 @@ export let BValentine = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-valentine"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37950,7 +41282,7 @@ export let BValentine2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-valentine2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37974,7 +41306,7 @@ export let BVectorPen = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-vector-pen"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -37998,7 +41330,7 @@ export let BViewList = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-view-list"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38018,7 +41350,7 @@ export let BViewStacked = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-view-stacked"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38038,7 +41370,7 @@ export let BVimeo = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-vimeo"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38058,7 +41390,7 @@ export let BVinylFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-vinyl-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38082,7 +41414,7 @@ export let BVinyl = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-vinyl"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38110,11 +41442,11 @@ export let BVirus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-virus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M8 0a1 1 0 0 1 1 1v1.402c0 .511.677.693.933.25l.7-1.214a1 1 0 0 1 1.733 1l-.701 1.214c-.256.443.24.939.683.683l1.214-.701a1 1 0 0 1 1 1.732l-1.214.701c-.443.256-.262.933.25.933H15a1 1 0 1 1 0 2h-1.402c-.512 0-.693.677-.25.933l1.214.701a1 1 0 1 1-1 1.732l-1.214-.7c-.443-.257-.939.24-.683.682l.701 1.214a1 1 0 1 1-1.732 1l-.701-1.214c-.256-.443-.933-.262-.933.25V15a1 1 0 1 1-2 0v-1.402c0-.512-.677-.693-.933-.25l-.701 1.214a1 1 0 0 1-1.732-1l.7-1.214c.257-.443-.24-.939-.682-.683l-1.214.701a1 1 0 1 1-1-1.732l1.214-.701c.443-.256.261-.933-.25-.933H1a1 1 0 1 1 0-2h1.402c.511 0 .693-.677.25-.933l-1.214-.701a1 1 0 1 1 1-1.732l1.214.701c.443.256.939-.24.683-.683l-.701-1.214a1 1 0 0 1 1.732-1l.701 1.214c.256.443.933.261.933-.25V1a1 1 0 0 1 1-1Zm2 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM6 7a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm1 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm5-3a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"}
+          {"d":"M8 0a1 1 0 0 1 1 1v1.402c0 .511.677.693.933.25l.7-1.214a1 1 0 0 1 1.733 1l-.701 1.214c-.256.443.24.939.683.683l1.214-.701a1 1 0 0 1 1 1.732l-1.214.701c-.443.256-.262.933.25.933H15a1 1 0 1 1 0 2h-1.402c-.512 0-.693.677-.25.933l1.214.701a1 1 0 1 1-1 1.732l-1.214-.7c-.443-.257-.939.24-.683.682l.701 1.214a1 1 0 1 1-1.732 1l-.701-1.214c-.256-.443-.933-.262-.933.25V15a1 1 0 1 1-2 0v-1.402c0-.512-.677-.693-.933-.25l-.701 1.214a1 1 0 0 1-1.732-1l.7-1.214c.257-.443-.24-.939-.682-.683l-1.214.701a1 1 0 1 1-1-1.732l1.214-.701c.443-.256.261-.933-.25-.933H1a1 1 0 1 1 0-2h1.402c.511 0 .693-.677.25-.933l-1.214-.701a1 1 0 1 1 1-1.732l1.214.701c.443.256.939-.24.683-.683l-.701-1.214a1 1 0 0 1 1.732-1l.701 1.214c.256.443.933.261.933-.25V1a1 1 0 0 1 1-1Zm2 5a1 1 0 1 0-2 0 1 1 0 0 0 2 0ZM6 7a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm1 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm5-3a1 1 0 1 0-2 0 1 1 0 0 0 2 0Z"}
         ) 
       ]
     )
@@ -38130,11 +41462,11 @@ export let BVirus2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-virus2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M8 0a1 1 0 0 0-1 1v1.143c0 .557-.407 1.025-.921 1.24-.514.214-1.12.162-1.513-.231l-.809-.809a1 1 0 1 0-1.414 1.414l.809.809c.393.394.445.999.23 1.513C3.168 6.593 2.7 7 2.142 7H1a1 1 0 0 0 0 2h1.143c.557 0 1.025.407 1.24.921.214.514.162 1.12-.231 1.513l-.809.809a1 1 0 0 0 1.414 1.414l.809-.809c.394-.394.999-.445 1.513-.23.514.214.921.682.921 1.24V15a1 1 0 1 0 2 0v-1.143c0-.557.407-1.025.921-1.24.514-.214 1.12-.162 1.513.231l.809.809a1 1 0 0 0 1.414-1.414l-.809-.809c-.394-.394-.445-.999-.23-1.513.214-.514.682-.921 1.24-.921H15a1 1 0 1 0 0-2h-1.143c-.557 0-1.025-.407-1.24-.921-.214-.514-.163-1.12.231-1.513l.809-.809a1 1 0 1 0-1.415-1.414l-.808.809c-.394.393-.999.445-1.513.23C9.407 3.168 9 2.7 9 2.142V1a1 1 0 0 0-1-1Zm2 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM7 7a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm1 5a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm4-4a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"}
+          {"d":"M8 0a1 1 0 0 0-1 1v1.143c0 .557-.407 1.025-.921 1.24-.514.214-1.12.162-1.513-.231l-.809-.809a1 1 0 1 0-1.414 1.414l.809.809c.394.394.445.999.23 1.513C3.169 6.593 2.7 7 2.144 7H1a1 1 0 0 0 0 2h1.143c.557 0 1.025.407 1.24.921.214.514.163 1.12-.231 1.513l-.809.809a1 1 0 0 0 1.414 1.414l.809-.809c.394-.394.999-.445 1.513-.23.514.214.921.682.921 1.24V15a1 1 0 1 0 2 0v-1.143c0-.557.407-1.025.921-1.24.514-.214 1.12-.162 1.513.231l.809.809a1 1 0 0 0 1.414-1.414l-.809-.809c-.393-.394-.445-.999-.23-1.513.214-.514.682-.921 1.24-.921H15a1 1 0 1 0 0-2h-1.143c-.557 0-1.025-.407-1.24-.921-.214-.514-.162-1.12.231-1.513l.809-.809a1 1 0 0 0-1.414-1.414l-.809.809c-.394.393-.999.445-1.513.23-.514-.214-.92-.682-.92-1.24V1a1 1 0 0 0-1-1Zm2 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM7 7a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm1 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm4-4a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"}
         ) 
       ]
     )
@@ -38150,7 +41482,7 @@ export let BVoicemail = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-voicemail"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38170,7 +41502,7 @@ export let BVolumeDownFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-volume-down-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38190,7 +41522,7 @@ export let BVolumeDown = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-volume-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38210,7 +41542,7 @@ export let BVolumeMuteFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-volume-mute-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38230,7 +41562,7 @@ export let BVolumeMute = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-volume-mute"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38250,7 +41582,7 @@ export let BVolumeOffFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-volume-off-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38270,7 +41602,7 @@ export let BVolumeOff = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-volume-off"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38290,7 +41622,7 @@ export let BVolumeUpFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-volume-up-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38318,7 +41650,7 @@ export let BVolumeUp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-volume-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38346,7 +41678,7 @@ export let BVr = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-vr"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38366,7 +41698,7 @@ export let BWalletFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-wallet-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38390,7 +41722,7 @@ export let BWallet = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-wallet"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38410,7 +41742,7 @@ export let BWallet2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-wallet2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38430,7 +41762,7 @@ export let BWatch = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-watch"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38454,7 +41786,7 @@ export let BWater = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-water"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38474,7 +41806,7 @@ export let BWebcamFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-webcam-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38498,7 +41830,7 @@ export let BWebcam = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-webcam"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38522,7 +41854,7 @@ export let BWechat = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-wechat"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38546,7 +41878,7 @@ export let BWhatsapp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-whatsapp"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38566,7 +41898,7 @@ export let BWifi1 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-wifi-1"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38586,7 +41918,7 @@ export let BWifi2 = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-wifi-2"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38606,7 +41938,7 @@ export let BWifiOff = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-wifi-off"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38626,7 +41958,7 @@ export let BWifi = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-wifi"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38635,6 +41967,26 @@ export let BWifi = {
         h(
           "path",
           {"d":"M13.229 8.271a.482.482 0 0 0-.063-.745A9.455 9.455 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.576 1.336c.206.132.48.108.653-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.407.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.61-.091l.016-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .707 0l.707-.707z"}
+        ) 
+      ]
+    )
+  }
+}
+export let BWikipedia = {
+  $_icon: {
+    name: "Wikipedia",
+    vendor: "B",
+    type: [],
+    tags: ["wikipedia"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
+      [ 
+        h(
+          "path",
+          {"d":"M8.835 3.003c.828-.006 2.688 0 2.688 0l.033.03v.288c0 .08-.045.12-.133.12-.433.02-.522.063-.68.29-.087.126-.258.393-.435.694l-1.52 2.843-.043.089 1.858 3.801.113.031 2.926-6.946c.102-.28.086-.478-.044-.595-.132-.114-.224-.18-.563-.195l-.275-.014a.161.161 0 0 1-.096-.035.1.1 0 0 1-.046-.084v-.289l.042-.03h3.306l.034.03v.29c0 .078-.045.117-.133.117-.433.02-.754.113-.962.281a1.64 1.64 0 0 0-.488.704s-2.691 6.16-3.612 8.208c-.353.672-.7.61-1.004-.019A224.05 224.05 0 0 1 8.044 8.81c-.623 1.285-1.475 3.026-1.898 3.81-.411.715-.75.622-1.02.019-.45-1.065-1.131-2.519-1.817-3.982-.735-1.569-1.475-3.149-1.943-4.272-.167-.4-.293-.657-.412-.759-.12-.1-.368-.16-.746-.18C.069 3.429 0 3.395 0 3.341v-.303l.034-.03c.615-.003 3.594 0 3.594 0l.034.03v.288c0 .08-.05.118-.15.118l-.375.016c-.322.013-.483.11-.483.288 0 .083.034.217.109.4.72 1.753 3.207 6.998 3.207 6.998l.091.023 1.603-3.197-.32-.71L6.24 5.095s-.213-.433-.286-.577l-.098-.196c-.387-.77-.411-.82-.865-.88-.137-.017-.208-.035-.208-.102v-.304l.041-.03h2.853l.075.024v.303c0 .069-.05.104-.15.104l-.206.03c-.523.04-.438.254-.09.946l1.057 2.163 1.17-2.332c.195-.427.155-.534.074-.633-.046-.055-.202-.144-.54-.158l-.133-.015a.159.159 0 0 1-.096-.034.099.099 0 0 1-.045-.085v-.288l.041-.03Z"}
         ) 
       ]
     )
@@ -38650,7 +42002,7 @@ export let BWind = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-wind"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38670,7 +42022,7 @@ export let BWindowDash = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-window-dash"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38698,7 +42050,7 @@ export let BWindowDesktop = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-window-desktop"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38722,7 +42074,7 @@ export let BWindowDock = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-window-dock"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38746,7 +42098,7 @@ export let BWindowFullscreen = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-window-fullscreen"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38770,7 +42122,7 @@ export let BWindowPlus = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-window-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38798,7 +42150,7 @@ export let BWindowSidebar = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-window-sidebar"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38822,7 +42174,7 @@ export let BWindowSplit = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-window-split"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38846,7 +42198,7 @@ export let BWindowStack = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-window-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38870,7 +42222,7 @@ export let BWindowX = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-window-x"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38898,7 +42250,7 @@ export let BWindow = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-window"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38922,7 +42274,7 @@ export let BWindows = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-windows"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38942,7 +42294,7 @@ export let BWordpress = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-wordpress"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38970,7 +42322,7 @@ export let BWrenchAdjustableCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-wrench-adjustable-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -38994,7 +42346,7 @@ export let BWrenchAdjustableCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-wrench-adjustable-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -39018,7 +42370,7 @@ export let BWrenchAdjustable = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-wrench-adjustable"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -39042,7 +42394,7 @@ export let BWrench = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-wrench"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -39062,7 +42414,7 @@ export let BXCircleFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-x-circle-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -39082,7 +42434,7 @@ export let BXCircle = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-x-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -39106,7 +42458,7 @@ export let BXDiamondFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-x-diamond-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -39126,7 +42478,7 @@ export let BXDiamond = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-x-diamond"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -39146,7 +42498,7 @@ export let BXLg = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-x-lg"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -39166,7 +42518,7 @@ export let BXOctagonFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-x-octagon-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -39186,7 +42538,7 @@ export let BXOctagon = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-x-octagon"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -39210,7 +42562,7 @@ export let BXSquareFill = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-x-square-fill"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -39230,7 +42582,7 @@ export let BXSquare = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-x-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -39254,7 +42606,7 @@ export let BX = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-x"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -39274,7 +42626,7 @@ export let BXbox = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-xbox"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -39294,7 +42646,7 @@ export let BYelp = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-yelp"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -39314,7 +42666,7 @@ export let BYinYang = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-yin-yang"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -39338,7 +42690,7 @@ export let BYoutube = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-youtube"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -39358,7 +42710,7 @@ export let BZoomIn = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-zoom-in"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",
@@ -39386,7 +42738,7 @@ export let BZoomOut = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16","data-name":"b-zoom-out"},
+      {"xmlns":"http://www.w3.org/2000/svg","width":"16","height":"16","fill":"currentColor","viewBox":"0 0 16 16"},
       [ 
         h(
           "path",

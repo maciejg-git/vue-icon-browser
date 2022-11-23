@@ -1,24 +1,38 @@
-import { createApp, provide } from "vue";
+import { createApp } from "vue";
 import App from "./App.vue";
 import { createPinia } from "pinia";
 
-import "tailwindcss/tailwind.css";
-
-// import { plugin } from "vue-component-tailwind";
-import { componentPlugin } from "vue-component-tailwind"
-import { components } from "vue-component-tailwind"
-import { directives } from "vue-component-tailwind"
+import { componentPlugin } from "vue-component-tailwind";
+import { directives } from "vue-component-tailwind";
+import {
+  vInput,
+  vTabs,
+  vTab,
+  vModal,
+  vButton,
+  vSidepanel,
+  vNavbar,
+  vIcon,
+  vDivider,
+  vCard,
+  vDropdown,
+  vDropdownHeader,
+  vDropdownMenuItem,
+  vSpinner,
+  vCheckbox,
+  vCloseButton,
+  vBackdrop,
+  vAlert,
+} from "vue-component-tailwind";
 
 import { registerIcon } from "./vue";
 import "tailwindcss/tailwind.css";
-import "./styles-form/form-reset.css"
-import "vue-component-tailwind/dist/style.css"
-import "./styles/icon.css"
-import "./styles/shared.css"
-import "./styles/components.css"
-import "./styles/icon.css"
-// import "./styles/components.css";
-// import "vue-component-tailwind/dist/style.css";
+import "./styles-form/form-reset.css";
+import "vue-component-tailwind/dist/style.css";
+import "./styles/icon.css";
+import "./styles/shared.css";
+import "./styles/components.css";
+import "./styles/icon.css";
 
 import hljs from "highlight.js/lib/core";
 import javascript from "highlight.js/lib/languages/javascript";
@@ -31,25 +45,37 @@ hljs.registerLanguage("xml", xml);
 
 let app = createApp(App);
 
-const icons = import.meta.globEager('./components/icons/*.js')
+const icons = import.meta.globEager("./components/icons/*.js");
 Object.entries(icons).forEach(([path, definition]) => {
-  registerIcon(app, definition.default)
-})
+  registerIcon(app, definition.default);
+});
 
 app.provide("hljs", hljs);
+
 app.use(componentPlugin, {
-  components,
+  components: {
+    vInput,
+    vTabs,
+    vTab,
+    vModal,
+    vButton,
+    vSidepanel,
+    vNavbar,
+    vIcon,
+    vDivider,
+    vCard,
+    vDropdown,
+    vDropdownHeader,
+    vDropdownMenuItem,
+    vSpinner,
+    vCheckbox,
+    vCloseButton,
+    vBackdrop,
+    vAlert,
+  },
   directives,
-  componentProps: {
-    select: {
-      inline: true,
-      offsetY: 5,
-      card: {
-        base: 'flat',
-        styleCard: 'menu shadow rounded',
-      }
-    }
-  }
 });
+
 app.use(createPinia());
+
 app.mount("#app");

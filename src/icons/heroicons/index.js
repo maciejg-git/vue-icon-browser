@@ -10,7 +10,7 @@ export let HAcademicCap20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-academic-cap"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -30,7 +30,7 @@ export let HAdjustmentsHorizontal20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-adjustments-horizontal"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -50,7 +50,7 @@ export let HAdjustmentsVertical20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-adjustments-vertical"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -70,7 +70,7 @@ export let HArchiveBoxArrowDown20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-archive-box-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -90,7 +90,7 @@ export let HArchiveBoxXMark20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-archive-box-x-mark"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -114,7 +114,7 @@ export let HArchiveBox20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-archive-box"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -138,7 +138,7 @@ export let HArrowDownCircle20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-down-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -158,7 +158,7 @@ export let HArrowDownLeft20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-down-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -178,7 +178,7 @@ export let HArrowDownOnSquareStack20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-down-on-square-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -198,7 +198,7 @@ export let HArrowDownOnSquare20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-down-on-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -218,7 +218,7 @@ export let HArrowDownRight20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-down-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -238,7 +238,7 @@ export let HArrowDownTray20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-down-tray"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -262,7 +262,7 @@ export let HArrowDown20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -282,7 +282,7 @@ export let HArrowLeftCircle20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-left-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "g",
@@ -306,7 +306,7 @@ export let HArrowLeftOnRectangle20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-left-on-rectangle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -330,7 +330,7 @@ export let HArrowLeft20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -350,7 +350,7 @@ export let HArrowLongDown20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-long-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -370,7 +370,7 @@ export let HArrowLongLeft20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-long-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -390,7 +390,7 @@ export let HArrowLongRight20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-long-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -410,11 +410,31 @@ export let HArrowLongUp20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-long-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M10 18a.75.75 0 01-.75-.75V4.66L7.3 6.76a.75.75 0 11-1.1-1.02l3.25-3.5a.75.75 0 011.1 0l3.25 3.5a.75.75 0 01-1.1 1.02l-1.95-2.1v12.59A.75.75 0 0110 18z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HArrowPathRoundedSquare20Solid = {
+  $_icon: {
+    name: "ArrowPathRoundedSquare",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["arrow","path","rounded","square"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M10 4.5c1.215 0 2.417.055 3.604.162a.68.68 0 01.615.597c.124 1.038.208 2.088.25 3.15l-1.689-1.69a.75.75 0 00-1.06 1.061l2.999 3a.75.75 0 001.06 0l3.001-3a.75.75 0 10-1.06-1.06l-1.748 1.747a41.31 41.31 0 00-.264-3.386 2.18 2.18 0 00-1.97-1.913 41.512 41.512 0 00-7.477 0 2.18 2.18 0 00-1.969 1.913 41.16 41.16 0 00-.16 1.61.75.75 0 101.495.12c.041-.52.093-1.038.154-1.552a.68.68 0 01.615-.597A40.012 40.012 0 0110 4.5zM5.281 9.22a.75.75 0 00-1.06 0l-3.001 3a.75.75 0 101.06 1.06l1.748-1.747c.042 1.141.13 2.27.264 3.386a2.18 2.18 0 001.97 1.913 41.533 41.533 0 007.477 0 2.18 2.18 0 001.969-1.913c.064-.534.117-1.071.16-1.61a.75.75 0 10-1.495-.12c-.041.52-.093 1.037-.154 1.552a.68.68 0 01-.615.597 40.013 40.013 0 01-7.208 0 .68.68 0 01-.615-.597 39.785 39.785 0 01-.25-3.15l1.689 1.69a.75.75 0 001.06-1.061l-2.999-3z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -430,11 +450,11 @@ export let HArrowPath20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-path"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M10 4.5c-1.215 0-2.417.055-3.604.162a.68.68 0 00-.615.597 39.78 39.78 0 00-.25 3.15l1.689-1.69A.75.75 0 118.28 7.78l-2.999 3a.75.75 0 01-1.06 0l-3.001-3a.75.75 0 011.06-1.06l1.748 1.747c.042-1.141.13-2.27.264-3.386a2.18 2.18 0 011.97-1.913 41.51 41.51 0 017.477 0 2.18 2.18 0 011.969 1.913c.064.534.117 1.07.16 1.61a.75.75 0 01-1.495.12 39.518 39.518 0 00-.154-1.552.68.68 0 00-.615-.597A40.013 40.013 0 0010 4.5zm4.719 4.72a.75.75 0 011.06 0l3.001 3a.75.75 0 11-1.06 1.06l-1.748-1.747a41.309 41.309 0 01-.264 3.386 2.18 2.18 0 01-1.97 1.913 41.534 41.534 0 01-7.477 0 2.18 2.18 0 01-1.969-1.913 41.176 41.176 0 01-.16-1.61.75.75 0 011.495-.12c.041.52.093 1.037.154 1.552a.68.68 0 00.615.597 40.012 40.012 0 007.208 0 .68.68 0 00.615-.597c.124-1.038.208-2.088.25-3.15l-1.689 1.69a.75.75 0 01-1.06-1.061l2.999-3z","clip-rule":"evenodd"}
+          {"fill-rule":"evenodd","d":"M15.312 11.424a5.5 5.5 0 01-9.201 2.466l-.312-.311h2.433a.75.75 0 000-1.5H3.989a.75.75 0 00-.75.75v4.242a.75.75 0 001.5 0v-2.43l.31.31a7 7 0 0011.712-3.138.75.75 0 00-1.449-.39zm1.23-3.723a.75.75 0 00.219-.53V2.929a.75.75 0 00-1.5 0V5.36l-.31-.31A7 7 0 003.239 8.188a.75.75 0 101.448.389A5.5 5.5 0 0113.89 6.11l.311.31h-2.432a.75.75 0 000 1.5h4.243a.75.75 0 00.53-.219z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -450,7 +470,7 @@ export let HArrowRightCircle20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-right-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -470,7 +490,7 @@ export let HArrowRightOnRectangle20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-right-on-rectangle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -494,11 +514,91 @@ export let HArrowRight20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HArrowSmallDown20Solid = {
+  $_icon: {
+    name: "ArrowSmallDown",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["arrow","small","down"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M10 5a.75.75 0 01.75.75v6.638l1.96-2.158a.75.75 0 111.08 1.04l-3.25 3.5a.75.75 0 01-1.08 0l-3.25-3.5a.75.75 0 111.08-1.04l1.96 2.158V5.75A.75.75 0 0110 5z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HArrowSmallLeft20Solid = {
+  $_icon: {
+    name: "ArrowSmallLeft",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["arrow","small","left"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M15 10a.75.75 0 01-.75.75H7.612l2.158 1.96a.75.75 0 11-1.04 1.08l-3.5-3.25a.75.75 0 010-1.08l3.5-3.25a.75.75 0 111.04 1.08L7.612 9.25h6.638A.75.75 0 0115 10z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HArrowSmallRight20Solid = {
+  $_icon: {
+    name: "ArrowSmallRight",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["arrow","small","right"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M5 10a.75.75 0 01.75-.75h6.638L10.23 7.29a.75.75 0 111.04-1.08l3.5 3.25a.75.75 0 010 1.08l-3.5 3.25a.75.75 0 11-1.04-1.08l2.158-1.96H5.75A.75.75 0 015 10z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HArrowSmallUp20Solid = {
+  $_icon: {
+    name: "ArrowSmallUp",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["arrow","small","up"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M10 15a.75.75 0 01-.75-.75V7.612L7.29 9.77a.75.75 0 01-1.08-1.04l3.25-3.5a.75.75 0 011.08 0l3.25 3.5a.75.75 0 11-1.08 1.04l-1.96-2.158v6.638A.75.75 0 0110 15z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -514,7 +614,7 @@ export let HArrowTopRightOnSquare20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-top-right-on-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -538,7 +638,7 @@ export let HArrowTrendingDown20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-trending-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -558,7 +658,7 @@ export let HArrowTrendingUp20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-trending-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -578,7 +678,7 @@ export let HArrowUpCircle20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-up-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -598,7 +698,7 @@ export let HArrowUpLeft20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-up-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -618,7 +718,7 @@ export let HArrowUpOnSquareStack20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-up-on-square-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -638,7 +738,7 @@ export let HArrowUpOnSquare20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-up-on-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -658,7 +758,7 @@ export let HArrowUpRight20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-up-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -678,7 +778,7 @@ export let HArrowUpTray20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-up-tray"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -702,7 +802,7 @@ export let HArrowUp20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -722,7 +822,7 @@ export let HArrowUturnDown20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-uturn-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -742,7 +842,7 @@ export let HArrowUturnLeft20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-uturn-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -762,7 +862,7 @@ export let HArrowUturnRight20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-uturn-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -782,7 +882,7 @@ export let HArrowUturnUp20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-uturn-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -802,7 +902,7 @@ export let HArrowsPointingIn20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrows-pointing-in"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -822,7 +922,7 @@ export let HArrowsPointingOut20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrows-pointing-out"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -842,7 +942,7 @@ export let HArrowsRightLeft20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrows-right-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -862,7 +962,7 @@ export let HArrowsUpDown20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-arrows-up-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -882,7 +982,7 @@ export let HAtSymbol20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-at-symbol"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -902,7 +1002,7 @@ export let HBackspace20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-backspace"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -922,7 +1022,7 @@ export let HBackward20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-backward"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -942,7 +1042,7 @@ export let HBanknotes20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-banknotes"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -962,7 +1062,7 @@ export let HBars220Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-bars-2"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -982,7 +1082,7 @@ export let HBars3BottomLeft20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-bars-3-bottom-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1002,7 +1102,7 @@ export let HBars3BottomRight20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-bars-3-bottom-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1022,7 +1122,7 @@ export let HBars3CenterLeft20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-bars-3-center-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1042,7 +1142,7 @@ export let HBars320Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-bars-3"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1062,7 +1162,7 @@ export let HBars420Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-bars-4"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1082,7 +1182,7 @@ export let HBarsArrowDown20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-bars-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1102,11 +1202,79 @@ export let HBarsArrowUp20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-bars-arrow-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M2 3.75A.75.75 0 012.75 3h11.5a.75.75 0 010 1.5H2.75A.75.75 0 012 3.75zM2 7.5a.75.75 0 01.75-.75h6.365a.75.75 0 010 1.5H2.75A.75.75 0 012 7.5zM14 7a.75.75 0 01.55.24l3.25 3.5a.75.75 0 11-1.1 1.02l-1.95-2.1v6.59a.75.75 0 01-1.5 0V9.66l-1.95 2.1a.75.75 0 11-1.1-1.02l3.25-3.5A.75.75 0 0114 7zM2 11.25a.75.75 0 01.75-.75H7A.75.75 0 017 12H2.75a.75.75 0 01-.75-.75z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HBattery020Solid = {
+  $_icon: {
+    name: "Battery0",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["battery","0"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M1 7.25A2.25 2.25 0 013.25 5h12.5A2.25 2.25 0 0118 7.25v1.085a1.5 1.5 0 011 1.415v.5a1.5 1.5 0 01-1 1.415v1.085A2.25 2.25 0 0115.75 15H3.25A2.25 2.25 0 011 12.75v-5.5zm2.25-.75a.75.75 0 00-.75.75v5.5c0 .414.336.75.75.75h12.5a.75.75 0 00.75-.75v-5.5a.75.75 0 00-.75-.75H3.25z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HBattery10020Solid = {
+  $_icon: {
+    name: "Battery100",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["battery","100"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"d":"M4.75 8a.75.75 0 00-.75.75v2.5c0 .414.336.75.75.75h9.5a.75.75 0 00.75-.75v-2.5a.75.75 0 00-.75-.75h-9.5z"}
+        ),
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M1 7.25A2.25 2.25 0 013.25 5h12.5A2.25 2.25 0 0118 7.25v1.085a1.5 1.5 0 011 1.415v.5a1.5 1.5 0 01-1 1.415v1.085A2.25 2.25 0 0115.75 15H3.25A2.25 2.25 0 011 12.75v-5.5zm2.25-.75a.75.75 0 00-.75.75v5.5c0 .414.336.75.75.75h12.5a.75.75 0 00.75-.75v-5.5a.75.75 0 00-.75-.75H3.25z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HBattery5020Solid = {
+  $_icon: {
+    name: "Battery50",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["battery","50"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"d":"M4.75 8a.75.75 0 00-.75.75v2.5c0 .414.336.75.75.75H9.5a.75.75 0 00.75-.75v-2.5A.75.75 0 009.5 8H4.75z"}
+        ),
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M3.25 5A2.25 2.25 0 001 7.25v5.5A2.25 2.25 0 003.25 15h12.5A2.25 2.25 0 0018 12.75v-1.085a1.5 1.5 0 001-1.415v-.5a1.5 1.5 0 00-1-1.415V7.25A2.25 2.25 0 0015.75 5H3.25zM2.5 7.25a.75.75 0 01.75-.75h12.5a.75.75 0 01.75.75v5.5a.75.75 0 01-.75.75H3.25a.75.75 0 01-.75-.75v-5.5z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -1122,7 +1290,7 @@ export let HBeaker20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-beaker"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1142,7 +1310,7 @@ export let HBellAlert20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-bell-alert"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1166,7 +1334,7 @@ export let HBellSlash20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-bell-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1186,7 +1354,7 @@ export let HBellSnooze20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-bell-snooze"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1206,7 +1374,7 @@ export let HBell20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-bell"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1226,7 +1394,7 @@ export let HBoltSlash20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-bolt-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1250,7 +1418,7 @@ export let HBolt20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-bolt"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1270,7 +1438,7 @@ export let HBookOpen20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-book-open"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1290,11 +1458,11 @@ export let HBookmarkSlash20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-bookmark-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
-          {"d":"M3 18.25V6.182l12.577 12.577L10 16.082l-5.925 2.844A.75.75 0 013 18.25zM17 3.517v10.301L4.568 1.386c.116-.035.237-.06.362-.076a41.401 41.401 0 0110.14 0C16.194 1.45 17 2.414 17 3.517zM3.28 2.22a.75.75 0 00-1.06 1.06l14.5 14.5a.75.75 0 101.06-1.06L3.28 2.22z"}
+          {"d":"M17 4.517v9.301L5.433 2.252a41.44 41.44 0 019.637.058C16.194 2.45 17 3.414 17 4.517zM3 17.25V6.182l10.654 10.654L10 15.082l-5.925 2.844A.75.75 0 013 17.25zM3.28 2.22a.75.75 0 00-1.06 1.06l14.5 14.5a.75.75 0 101.06-1.06L3.28 2.22z"}
         ) 
       ]
     )
@@ -1310,7 +1478,7 @@ export let HBookmarkSquare20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-bookmark-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1330,11 +1498,11 @@ export let HBookmark20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-bookmark"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M10 1c-1.716 0-3.408.106-5.07.31C3.806 1.45 3 2.414 3 3.517V18.25a.75.75 0 001.075.676L10 16.082l5.925 2.844A.75.75 0 0017 18.25V3.517c0-1.103-.806-2.068-1.93-2.207A41.403 41.403 0 0010 1z","clip-rule":"evenodd"}
+          {"fill-rule":"evenodd","d":"M10 2c-1.716 0-3.408.106-5.07.31C3.806 2.45 3 3.414 3 4.517V17.25a.75.75 0 001.075.676L10 15.082l5.925 2.844A.75.75 0 0017 17.25V4.517c0-1.103-.806-2.068-1.93-2.207A41.403 41.403 0 0010 2z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -1350,7 +1518,7 @@ export let HBriefcase20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-briefcase"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1359,6 +1527,26 @@ export let HBriefcase20Solid = {
         h(
           "path",
           {"d":"M3 15.055v-.684c.126.053.255.1.39.142 2.092.642 4.313.987 6.61.987 2.297 0 4.518-.345 6.61-.987.135-.041.264-.089.39-.142v.684c0 1.347-.985 2.53-2.363 2.686a41.454 41.454 0 01-9.274 0C3.985 17.585 3 16.402 3 15.055z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HBugAnt20Solid = {
+  $_icon: {
+    name: "BugAnt",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["bug","ant"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M6.56 1.14a.75.75 0 01.177 1.045 3.989 3.989 0 00-.464.86c.185.17.382.329.59.473A3.993 3.993 0 0110 2c1.272 0 2.405.594 3.137 1.518.208-.144.405-.302.59-.473a3.989 3.989 0 00-.464-.86.75.75 0 011.222-.869c.369.519.65 1.105.822 1.736a.75.75 0 01-.174.707 7.03 7.03 0 01-1.299 1.098A4 4 0 0114 6c0 .52-.301.963-.723 1.187a6.961 6.961 0 01-1.158.486c.13.208.231.436.296.679 1.413-.174 2.779-.5 4.081-.96a19.655 19.655 0 00-.09-2.319.75.75 0 111.493-.146 21.239 21.239 0 01.08 3.028.75.75 0 01-.482.667 20.874 20.874 0 01-5.153 1.249 2.51 2.51 0 01-.107.247 20.86 20.86 0 015.253 1.257.75.75 0 01.48.74 20.946 20.946 0 01-.907 5.107.75.75 0 01-1.433-.444c.415-1.34.69-2.743.806-4.19-.495-.174-1-.328-1.512-.461.05.284.076.575.076.873 0 1.814-.517 3.312-1.426 4.37A4.639 4.639 0 0110 19a4.64 4.64 0 01-3.574-1.63C5.516 16.311 5 14.813 5 13c0-.298.026-.59.076-.873-.513.133-1.017.287-1.512.46.116 1.448.39 2.85.806 4.191a.75.75 0 01-1.433.444 20.94 20.94 0 01-.908-5.107.75.75 0 01.482-.74 20.857 20.857 0 015.252-1.257 2.481 2.481 0 01-.107-.247 20.874 20.874 0 01-5.153-1.249.75.75 0 01-.482-.667 21.342 21.342 0 01.08-3.028.75.75 0 111.493.146 19.745 19.745 0 00-.09 2.32c1.302.459 2.668.785 4.08.959.066-.243.166-.471.297-.679a6.962 6.962 0 01-1.158-.486A1.348 1.348 0 016 6a4 4 0 01.166-1.143 7.032 7.032 0 01-1.3-1.098.75.75 0 01-.173-.707 5.48 5.48 0 01.822-1.736.75.75 0 011.046-.176z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -1374,7 +1562,7 @@ export let HBuildingLibrary20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-building-library"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1394,7 +1582,7 @@ export let HBuildingOffice220Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-building-office-2"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1414,7 +1602,7 @@ export let HBuildingOffice20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-building-office"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1434,7 +1622,7 @@ export let HBuildingStorefront20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-building-storefront"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1454,7 +1642,7 @@ export let HCake20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-cake"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1474,7 +1662,7 @@ export let HCalculator20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-calculator"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1494,7 +1682,7 @@ export let HCalendarDays20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-calendar-days"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1518,7 +1706,7 @@ export let HCalendar20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-calendar"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1538,7 +1726,7 @@ export let HCamera20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-camera"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1558,7 +1746,7 @@ export let HChartBarSquare20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-chart-bar-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1578,7 +1766,7 @@ export let HChartBar20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-chart-bar"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1598,7 +1786,7 @@ export let HChartPie20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-chart-pie"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1622,7 +1810,7 @@ export let HChatBubbleBottomCenterText20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-chat-bubble-bottom-center-text"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1642,7 +1830,7 @@ export let HChatBubbleBottomCenter20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-chat-bubble-bottom-center"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1662,7 +1850,7 @@ export let HChatBubbleLeftEllipsis20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-chat-bubble-left-ellipsis"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1682,7 +1870,7 @@ export let HChatBubbleLeftRight20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-chat-bubble-left-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1706,7 +1894,7 @@ export let HChatBubbleLeft20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-chat-bubble-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1726,7 +1914,7 @@ export let HChatBubbleOvalLeftEllipsis20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-chat-bubble-oval-left-ellipsis"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1746,7 +1934,7 @@ export let HChatBubbleOvalLeft20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-chat-bubble-oval-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1766,7 +1954,7 @@ export let HCheckBadge20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-check-badge"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1786,7 +1974,7 @@ export let HCheckCircle20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-check-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1806,7 +1994,7 @@ export let HCheck20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1826,7 +2014,7 @@ export let HChevronDoubleDown20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-chevron-double-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1846,7 +2034,7 @@ export let HChevronDoubleLeft20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-chevron-double-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1866,7 +2054,7 @@ export let HChevronDoubleRight20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-chevron-double-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1890,7 +2078,7 @@ export let HChevronDoubleUp20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-chevron-double-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1910,7 +2098,7 @@ export let HChevronDown20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-chevron-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1930,7 +2118,7 @@ export let HChevronLeft20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-chevron-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1950,7 +2138,7 @@ export let HChevronRight20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-chevron-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1970,7 +2158,7 @@ export let HChevronUpDown20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-chevron-up-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -1990,7 +2178,7 @@ export let HChevronUp20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-chevron-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2010,7 +2198,7 @@ export let HCircleStack20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-circle-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2030,7 +2218,7 @@ export let HClipboardDocumentCheck20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-clipboard-document-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2054,7 +2242,7 @@ export let HClipboardDocumentList20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-clipboard-document-list"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2078,7 +2266,7 @@ export let HClipboardDocument20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-clipboard-document"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2102,7 +2290,7 @@ export let HClipboard20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-clipboard"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2122,7 +2310,7 @@ export let HClock20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-clock"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2142,7 +2330,7 @@ export let HCloudArrowDown20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-cloud-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2162,7 +2350,7 @@ export let HCloudArrowUp20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-cloud-arrow-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2182,7 +2370,7 @@ export let HCloud20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-cloud"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2202,7 +2390,7 @@ export let HCodeBracketSquare20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-code-bracket-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2222,7 +2410,7 @@ export let HCodeBracket20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-code-bracket"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2242,7 +2430,7 @@ export let HCog6Tooth20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-cog-6-tooth"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2262,7 +2450,7 @@ export let HCog8Tooth20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-cog-8-tooth"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2282,7 +2470,7 @@ export let HCog20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-cog"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2306,7 +2494,7 @@ export let HCommandLine20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-command-line"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2326,7 +2514,7 @@ export let HComputerDesktop20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-computer-desktop"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2346,7 +2534,7 @@ export let HCpuChip20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-cpu-chip"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2370,11 +2558,31 @@ export let HCreditCard20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-credit-card"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M2.5 4A1.5 1.5 0 001 5.5V6h18v-.5A1.5 1.5 0 0017.5 4h-15zM19 8.5H1v6A1.5 1.5 0 002.5 16h15a1.5 1.5 0 001.5-1.5v-6zM3 13.25a.75.75 0 01.75-.75h1.5a.75.75 0 010 1.5h-1.5a.75.75 0 01-.75-.75zm4.75-.75a.75.75 0 000 1.5h3.5a.75.75 0 000-1.5h-3.5z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HCubeTransparent20Solid = {
+  $_icon: {
+    name: "CubeTransparent",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["cube","transparent"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M9.638 1.093a.75.75 0 01.724 0l2 1.104a.75.75 0 11-.724 1.313L10 2.607l-1.638.903a.75.75 0 11-.724-1.313l2-1.104zM5.403 4.287a.75.75 0 01-.295 1.019l-.805.444.805.444a.75.75 0 01-.724 1.314L3.5 7.02v.73a.75.75 0 01-1.5 0v-2a.75.75 0 01.388-.657l1.996-1.1a.75.75 0 011.019.294zm9.194 0a.75.75 0 011.02-.295l1.995 1.101A.75.75 0 0118 5.75v2a.75.75 0 01-1.5 0v-.73l-.884.488a.75.75 0 11-.724-1.314l.806-.444-.806-.444a.75.75 0 01-.295-1.02zM7.343 8.284a.75.75 0 011.02-.294L10 8.893l1.638-.903a.75.75 0 11.724 1.313l-1.612.89v1.557a.75.75 0 01-1.5 0v-1.557l-1.612-.89a.75.75 0 01-.295-1.019zM2.75 11.5a.75.75 0 01.75.75v1.557l1.608.887a.75.75 0 01-.724 1.314l-1.996-1.101A.75.75 0 012 14.25v-2a.75.75 0 01.75-.75zm14.5 0a.75.75 0 01.75.75v2a.75.75 0 01-.388.657l-1.996 1.1a.75.75 0 11-.724-1.313l1.608-.887V12.25a.75.75 0 01.75-.75zm-7.25 4a.75.75 0 01.75.75v.73l.888-.49a.75.75 0 01.724 1.313l-2 1.104a.75.75 0 01-.724 0l-2-1.104a.75.75 0 11.724-1.313l.888.49v-.73a.75.75 0 01.75-.75z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -2390,11 +2598,31 @@ export let HCube20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-cube"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M10.362 1.093a.75.75 0 00-.724 0L2.523 5.018 10 9.143l7.477-4.125-7.115-3.925zM18 6.443l-7.25 4v8.25l6.862-3.786A.75.75 0 0018 14.25V6.443zm-8.75 12.25v-8.25l-7.25-4v7.807a.75.75 0 00.388.657l6.862 3.786z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HCurrencyBangladeshi20Solid = {
+  $_icon: {
+    name: "CurrencyBangladeshi",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["currency","bangladeshi"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M10 2a8 8 0 100 16 8 8 0 000-16zM5.94 5.5c.944-.945 2.56-.276 2.56 1.06V8h5.75a.75.75 0 010 1.5H8.5v4.275c0 .296.144.455.26.499a3.5 3.5 0 004.402-1.77h-.412a.75.75 0 010-1.5h.537c.462 0 .887.21 1.156.556.278.355.383.852.184 1.337a5.001 5.001 0 01-6.4 2.78C7.376 15.353 7 14.512 7 13.774V9.5H5.75a.75.75 0 010-1.5H7V6.56l-.22.22a.75.75 0 11-1.06-1.06l.22-.22z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -2410,7 +2638,7 @@ export let HCurrencyDollar20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-currency-dollar"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2434,7 +2662,7 @@ export let HCurrencyEuro20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-currency-euro"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2454,7 +2682,7 @@ export let HCurrencyPound20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-currency-pound"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2474,7 +2702,7 @@ export let HCurrencyRupee20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-currency-rupee"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2494,7 +2722,7 @@ export let HCurrencyYen20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-currency-yen"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2514,7 +2742,7 @@ export let HCursorArrowRays20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-cursor-arrow-rays"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2534,7 +2762,7 @@ export let HCursorArrowRipple20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-cursor-arrow-ripple"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2554,7 +2782,7 @@ export let HDevicePhoneMobile20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-device-phone-mobile"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2578,7 +2806,7 @@ export let HDeviceTablet20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-device-tablet"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2598,7 +2826,7 @@ export let HDocumentArrowDown20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-document-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2618,7 +2846,7 @@ export let HDocumentArrowUp20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-document-arrow-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2638,7 +2866,7 @@ export let HDocumentChartBar20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-document-chart-bar"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2658,7 +2886,7 @@ export let HDocumentCheck20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-document-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2678,7 +2906,7 @@ export let HDocumentDuplicate20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-document-duplicate"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2702,7 +2930,7 @@ export let HDocumentMagnifyingGlass20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-document-magnifying-glass"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2726,7 +2954,7 @@ export let HDocumentMinus20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-document-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2746,7 +2974,7 @@ export let HDocumentPlus20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-document-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2766,7 +2994,7 @@ export let HDocumentText20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-document-text"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2786,7 +3014,7 @@ export let HDocument20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-document"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2806,7 +3034,7 @@ export let HEllipsisHorizontalCircle20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-ellipsis-horizontal-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2826,7 +3054,7 @@ export let HEllipsisHorizontal20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-ellipsis-horizontal"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2846,7 +3074,7 @@ export let HEllipsisVertical20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-ellipsis-vertical"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2866,7 +3094,7 @@ export let HEnvelopeOpen20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-envelope-open"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2886,7 +3114,7 @@ export let HEnvelope20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-envelope"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2910,7 +3138,7 @@ export let HExclamationCircle20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-exclamation-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2930,11 +3158,31 @@ export let HExclamationTriangle20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-exclamation-triangle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M8.485 3.495c.673-1.167 2.357-1.167 3.03 0l6.28 10.875c.673 1.167-.17 2.625-1.516 2.625H3.72c-1.347 0-2.189-1.458-1.515-2.625L8.485 3.495zM10 6a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 0110 6zm0 9a1 1 0 100-2 1 1 0 000 2z","clip-rule":"evenodd"}
+          {"fill-rule":"evenodd","d":"M8.485 2.495c.673-1.167 2.357-1.167 3.03 0l6.28 10.875c.673 1.167-.17 2.625-1.516 2.625H3.72c-1.347 0-2.189-1.458-1.515-2.625L8.485 2.495zM10 5a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 0110 5zm0 9a1 1 0 100-2 1 1 0 000 2z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HEyeDropper20Solid = {
+  $_icon: {
+    name: "EyeDropper",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["eye","dropper"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M12.1 3.667a3.502 3.502 0 116.782 1.738 3.487 3.487 0 01-.907 1.57 3.495 3.495 0 01-1.617.919L16 7.99V10a.75.75 0 01-.22.53l-.25.25a.75.75 0 01-1.06 0l-.845-.844L7.22 16.34A2.25 2.25 0 015.629 17H5.12a.75.75 0 00-.53.22l-1.56 1.56a.75.75 0 01-1.061 0l-.75-.75a.75.75 0 010-1.06l1.56-1.561a.75.75 0 00.22-.53v-.508c0-.596.237-1.169.659-1.59l6.405-6.406-.844-.845a.75.75 0 010-1.06l.25-.25A.75.75 0 0110 4h2.01l.09-.333zM4.72 13.84l6.405-6.405 1.44 1.439-6.406 6.405a.75.75 0 01-.53.22H5.12c-.258 0-.511.044-.75.129a2.25 2.25 0 00.129-.75v-.508a.75.75 0 01.22-.53z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -2950,7 +3198,7 @@ export let HEyeSlash20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-eye-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2974,7 +3222,7 @@ export let HEye20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-eye"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -2998,7 +3246,7 @@ export let HFaceFrown20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-face-frown"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3018,7 +3266,7 @@ export let HFaceSmile20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-face-smile"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3038,7 +3286,7 @@ export let HFilm20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-film"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3058,7 +3306,7 @@ export let HFingerPrint20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-finger-print"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3078,7 +3326,7 @@ export let HFire20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-fire"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3098,7 +3346,7 @@ export let HFlag20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-flag"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3118,7 +3366,7 @@ export let HFolderArrowDown20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-folder-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3138,7 +3386,7 @@ export let HFolderMinus20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-folder-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3158,7 +3406,7 @@ export let HFolderOpen20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-folder-open"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3178,7 +3426,7 @@ export let HFolderPlus20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-folder-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3198,7 +3446,7 @@ export let HFolder20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-folder"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3218,7 +3466,7 @@ export let HForward20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-forward"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3238,7 +3486,7 @@ export let HFunnel20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-funnel"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3258,7 +3506,7 @@ export let HGif20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-gif"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3278,7 +3526,7 @@ export let HGiftTop20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-gift-top"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3298,7 +3546,7 @@ export let HGift20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-gift"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3322,7 +3570,7 @@ export let HGlobeAlt20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-globe-alt"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3342,7 +3590,7 @@ export let HGlobeAmericas20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-globe-americas"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3362,7 +3610,7 @@ export let HGlobeAsiaAustralia20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-globe-asia-australia"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3382,7 +3630,7 @@ export let HGlobeEuropeAfrica20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-globe-europe-africa"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3402,7 +3650,7 @@ export let HHandRaised20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-hand-raised"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3422,7 +3670,7 @@ export let HHandThumbDown20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-hand-thumb-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3442,7 +3690,7 @@ export let HHandThumbUp20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-hand-thumb-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3462,7 +3710,7 @@ export let HHashtag20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-hashtag"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3482,7 +3730,7 @@ export let HHeart20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3502,7 +3750,7 @@ export let HHomeModern20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-home-modern"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3522,7 +3770,7 @@ export let HHome20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-home"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3542,7 +3790,7 @@ export let HIdentification20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-identification"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3562,7 +3810,7 @@ export let HInboxArrowDown20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-inbox-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3586,7 +3834,7 @@ export let HInboxStack20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-inbox-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3610,7 +3858,7 @@ export let HInbox20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-inbox"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3630,11 +3878,11 @@ export let HInformationCircle20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-information-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M19 10.5a8.5 8.5 0 11-17 0 8.5 8.5 0 0117 0zM8.25 9.75A.75.75 0 019 9h.253a1.75 1.75 0 011.709 2.13l-.46 2.066a.25.25 0 00.245.304H11a.75.75 0 010 1.5h-.253a1.75 1.75 0 01-1.709-2.13l.46-2.066a.25.25 0 00-.245-.304H9a.75.75 0 01-.75-.75zM10 7a1 1 0 100-2 1 1 0 000 2z","clip-rule":"evenodd"}
+          {"fill-rule":"evenodd","d":"M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a.75.75 0 000 1.5h.253a.25.25 0 01.244.304l-.459 2.066A1.75 1.75 0 0010.747 15H11a.75.75 0 000-1.5h-.253a.25.25 0 01-.244-.304l.459-2.066A1.75 1.75 0 009.253 9H9z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -3650,7 +3898,7 @@ export let HKey20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-key"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3670,7 +3918,7 @@ export let HLanguage20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-language"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3694,7 +3942,7 @@ export let HLifebuoy20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-lifebuoy"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3714,7 +3962,7 @@ export let HLightBulb20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-light-bulb"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3734,7 +3982,7 @@ export let HLink20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-link"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3758,7 +4006,7 @@ export let HListBullet20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-list-bullet"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3778,7 +4026,7 @@ export let HLockClosed20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-lock-closed"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3798,7 +4046,7 @@ export let HLockOpen20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-lock-open"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3818,7 +4066,7 @@ export let HMagnifyingGlassCircle20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-magnifying-glass-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3842,7 +4090,7 @@ export let HMagnifyingGlassMinus20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-magnifying-glass-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3866,7 +4114,7 @@ export let HMagnifyingGlassPlus20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-magnifying-glass-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3890,7 +4138,7 @@ export let HMagnifyingGlass20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-magnifying-glass"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3910,7 +4158,7 @@ export let HMapPin20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-map-pin"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3930,7 +4178,7 @@ export let HMap20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-map"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3950,7 +4198,7 @@ export let HMegaphone20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-megaphone"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3970,7 +4218,7 @@ export let HMicrophone20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-microphone"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -3994,11 +4242,31 @@ export let HMinusCircle20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-minus-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zM6.75 9.25a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HMinusSmall20Solid = {
+  $_icon: {
+    name: "MinusSmall",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["minus","small"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"d":"M6.75 9.25a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5z"}
         ) 
       ]
     )
@@ -4014,11 +4282,11 @@ export let HMinus20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M3 10a.75.75 0 01.75-.75h10.5a.75.75 0 010 1.5H3.75A.75.75 0 013 10z","clip-rule":"evenodd"}
+          {"fill-rule":"evenodd","d":"M4 10a.75.75 0 01.75-.75h10.5a.75.75 0 010 1.5H4.75A.75.75 0 014 10z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -4034,7 +4302,7 @@ export let HMoon20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-moon"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4054,7 +4322,7 @@ export let HMusicalNote20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-musical-note"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4074,7 +4342,7 @@ export let HNewspaper20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-newspaper"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4098,11 +4366,31 @@ export let HNoSymbol20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-no-symbol"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M5.965 4.904l9.131 9.131a6.5 6.5 0 00-9.131-9.131zm8.07 10.192L4.904 5.965a6.5 6.5 0 009.131 9.131zM4.343 4.343a8 8 0 1111.314 11.314A8 8 0 014.343 4.343z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HPaintBrush20Solid = {
+  $_icon: {
+    name: "PaintBrush",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["paint","brush"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"d":"M15.993 1.385a1.87 1.87 0 012.623 2.622l-4.03 5.27a12.749 12.749 0 01-4.237 3.562 4.508 4.508 0 00-3.188-3.188 12.75 12.75 0 013.562-4.236l5.27-4.03zM6 11a3 3 0 00-3 3 .5.5 0 01-.72.45.75.75 0 00-1.035.931A4.001 4.001 0 009 14.004V14a3.01 3.01 0 00-1.66-2.685A2.99 2.99 0 006 11z"}
         ) 
       ]
     )
@@ -4118,7 +4406,7 @@ export let HPaperAirplane20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-paper-airplane"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4138,11 +4426,31 @@ export let HPaperClip20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-paper-clip"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M15.621 4.379a3 3 0 00-4.242 0l-7 7a3 3 0 004.241 4.243h.001l.497-.5a.75.75 0 011.064 1.057l-.498.501-.002.002a4.5 4.5 0 01-6.364-6.364l7-7a4.5 4.5 0 016.368 6.36l-3.455 3.553A2.625 2.625 0 119.52 9.52l3.45-3.451a.75.75 0 111.061 1.06l-3.45 3.451a1.125 1.125 0 001.587 1.595l3.454-3.553a3 3 0 000-4.242z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HPauseCircle20Solid = {
+  $_icon: {
+    name: "PauseCircle",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["pause","circle"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M2 10a8 8 0 1116 0 8 8 0 01-16 0zm5-2.25A.75.75 0 017.75 7h.5a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-.5a.75.75 0 01-.75-.75v-4.5zm4 0a.75.75 0 01.75-.75h.5a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-.5a.75.75 0 01-.75-.75v-4.5z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -4158,7 +4466,7 @@ export let HPause20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-pause"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4178,7 +4486,7 @@ export let HPencilSquare20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-pencil-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4202,7 +4510,7 @@ export let HPencil20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-pencil"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4222,7 +4530,7 @@ export let HPhoneArrowDownLeft20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-phone-arrow-down-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4242,7 +4550,7 @@ export let HPhoneArrowUpRight20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-phone-arrow-up-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4262,7 +4570,7 @@ export let HPhoneXMark20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-phone-x-mark"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4282,7 +4590,7 @@ export let HPhone20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-phone"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4302,11 +4610,31 @@ export let HPhoto20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-photo"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M1 5.25A2.25 2.25 0 013.25 3h13.5A2.25 2.25 0 0119 5.25v9.5A2.25 2.25 0 0116.75 17H3.25A2.25 2.25 0 011 14.75v-9.5zm1.5 5.81v3.69c0 .414.336.75.75.75h13.5a.75.75 0 00.75-.75v-2.69l-2.22-2.219a.75.75 0 00-1.06 0l-1.91 1.909.47.47a.75.75 0 11-1.06 1.06L6.53 8.091a.75.75 0 00-1.06 0l-2.97 2.97zM12 7a1 1 0 11-2 0 1 1 0 012 0z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HPlayCircle20Solid = {
+  $_icon: {
+    name: "PlayCircle",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["play","circle"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M2 10a8 8 0 1116 0 8 8 0 01-16 0zm6.39-2.908a.75.75 0 01.766.027l3.5 2.25a.75.75 0 010 1.262l-3.5 2.25A.75.75 0 018 12.25v-4.5a.75.75 0 01.39-.658z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -4322,7 +4650,7 @@ export let HPlayPause20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-play-pause"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4342,7 +4670,7 @@ export let HPlay20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-play"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4362,11 +4690,31 @@ export let HPlusCircle20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-plus-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M10 18a8 8 0 100-16 8 8 0 000 16zm.75-11.25a.75.75 0 00-1.5 0v2.5h-2.5a.75.75 0 000 1.5h2.5v2.5a.75.75 0 001.5 0v-2.5h2.5a.75.75 0 000-1.5h-2.5v-2.5z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HPlusSmall20Solid = {
+  $_icon: {
+    name: "PlusSmall",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["plus","small"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"d":"M10.75 6.75a.75.75 0 00-1.5 0v2.5h-2.5a.75.75 0 000 1.5h2.5v2.5a.75.75 0 001.5 0v-2.5h2.5a.75.75 0 000-1.5h-2.5v-2.5z"}
         ) 
       ]
     )
@@ -4382,11 +4730,31 @@ export let HPlus20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"d":"M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HPower20Solid = {
+  $_icon: {
+    name: "Power",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["power"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M10 2a.75.75 0 01.75.75v7.5a.75.75 0 01-1.5 0v-7.5A.75.75 0 0110 2zM5.404 4.343a.75.75 0 010 1.06 6.5 6.5 0 109.192 0 .75.75 0 111.06-1.06 8 8 0 11-11.313 0 .75.75 0 011.06 0z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -4402,7 +4770,7 @@ export let HPresentationChartBar20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-presentation-chart-bar"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4422,7 +4790,7 @@ export let HPresentationChartLine20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-presentation-chart-line"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4442,7 +4810,7 @@ export let HPrinter20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-printer"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4462,7 +4830,7 @@ export let HPuzzlePiece20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-puzzle-piece"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4482,7 +4850,7 @@ export let HQrCode20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-qr-code"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4502,7 +4870,7 @@ export let HQuestionMarkCircle20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-question-mark-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4522,7 +4890,7 @@ export let HQueueList20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-queue-list"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4542,7 +4910,7 @@ export let HRadio20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-radio"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4562,7 +4930,7 @@ export let HReceiptPercent20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-receipt-percent"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4582,7 +4950,7 @@ export let HReceiptRefund20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-receipt-refund"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4602,7 +4970,7 @@ export let HRectangleGroup20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-rectangle-group"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4622,11 +4990,35 @@ export let HRectangleStack20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-rectangle-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"d":"M5.127 3.502L5.25 3.5h9.5c.041 0 .082 0 .123.002A2.251 2.251 0 0012.75 2h-5.5a2.25 2.25 0 00-2.123 1.502zM1 10.25A2.25 2.25 0 013.25 8h13.5A2.25 2.25 0 0119 10.25v5.5A2.25 2.25 0 0116.75 18H3.25A2.25 2.25 0 011 15.75v-5.5zM3.25 6.5c-.04 0-.082 0-.123.002A2.25 2.25 0 015.25 5h9.5c.98 0 1.814.627 2.123 1.502a3.819 3.819 0 00-.123-.002H3.25z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HRocketLaunch20Solid = {
+  $_icon: {
+    name: "RocketLaunch",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["rocket","launch"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M4.606 12.97a.75.75 0 01-.134 1.051 2.494 2.494 0 00-.93 2.437 2.494 2.494 0 002.437-.93.75.75 0 111.186.918 3.995 3.995 0 01-4.482 1.332.75.75 0 01-.461-.461 3.994 3.994 0 011.332-4.482.75.75 0 011.052.134z","clip-rule":"evenodd"}
+        ),
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M5.752 12A13.07 13.07 0 008 14.248v4.002c0 .414.336.75.75.75a5 5 0 004.797-6.414 12.984 12.984 0 005.45-10.848.75.75 0 00-.735-.735 12.984 12.984 0 00-10.849 5.45A5 5 0 001 11.25c.001.414.337.75.751.75h4.002zM13 9a2 2 0 100-4 2 2 0 000 4z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -4642,7 +5034,7 @@ export let HRss20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-rss"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4666,7 +5058,7 @@ export let HScale20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-scale"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4686,7 +5078,7 @@ export let HScissors20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-scissors"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4710,7 +5102,7 @@ export let HServerStack20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-server-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4734,7 +5126,7 @@ export let HServer20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-server"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4758,7 +5150,7 @@ export let HShare20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-share"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4778,7 +5170,7 @@ export let HShieldCheck20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-shield-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4798,7 +5190,7 @@ export let HShieldExclamation20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-shield-exclamation"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4818,7 +5210,7 @@ export let HShoppingBag20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-shopping-bag"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4838,7 +5230,7 @@ export let HShoppingCart20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-shopping-cart"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4858,7 +5250,7 @@ export let HSignalSlash20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-signal-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4878,7 +5270,7 @@ export let HSignal20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-signal"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4902,7 +5294,7 @@ export let HSparkles20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-sparkles"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4922,7 +5314,7 @@ export let HSpeakerWave20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-speaker-wave"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4946,7 +5338,7 @@ export let HSpeakerXMark20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-speaker-x-mark"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4966,7 +5358,7 @@ export let HSquare2Stack20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-square-2-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -4975,6 +5367,34 @@ export let HSquare2Stack20Solid = {
         h(
           "path",
           {"d":"M9.25 7A2.25 2.25 0 007 9.25v6.5A2.25 2.25 0 009.25 18h6.5A2.25 2.25 0 0018 15.75v-6.5A2.25 2.25 0 0015.75 7h-6.5z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HSquare3Stack3d20Solid = {
+  $_icon: {
+    name: "Square3Stack3d",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["square","3","stack","3d"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"d":"M3.196 12.87l-.825.483a.75.75 0 000 1.294l7.25 4.25a.75.75 0 00.758 0l7.25-4.25a.75.75 0 000-1.294l-.825-.484-5.666 3.322a2.25 2.25 0 01-2.276 0L3.196 12.87z"}
+        ),
+        h(
+          "path",
+          {"d":"M3.196 8.87l-.825.483a.75.75 0 000 1.294l7.25 4.25a.75.75 0 00.758 0l7.25-4.25a.75.75 0 000-1.294l-.825-.484-5.666 3.322a2.25 2.25 0 01-2.276 0L3.196 8.87z"}
+        ),
+        h(
+          "path",
+          {"d":"M10.38 1.103a.75.75 0 00-.76 0l-7.25 4.25a.75.75 0 000 1.294l7.25 4.25a.75.75 0 00.76 0l7.25-4.25a.75.75 0 000-1.294l-7.25-4.25z"}
         ) 
       ]
     )
@@ -4990,7 +5410,7 @@ export let HSquares2x220Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-squares-2x2"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5010,7 +5430,7 @@ export let HSquaresPlus20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-squares-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5030,11 +5450,31 @@ export let HStar20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-star"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HStopCircle20Solid = {
+  $_icon: {
+    name: "StopCircle",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["stop","circle"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M2 10a8 8 0 1116 0 8 8 0 01-16 0zm5-2.25A.75.75 0 017.75 7h4.5a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-4.5a.75.75 0 01-.75-.75v-4.5z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -5050,7 +5490,7 @@ export let HStop20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-stop"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5070,7 +5510,7 @@ export let HSun20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-sun"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5090,7 +5530,7 @@ export let HSwatch20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-swatch"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5110,11 +5550,11 @@ export let HTableCells20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-table-cells"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M1 4.25A2.25 2.25 0 013.25 2h13.5A2.25 2.25 0 0119 4.25v11.51a2.25 2.25 0 01-2.25 2.25H11.5c-.072 0-.143-.003-.214-.01H8.714c-.07.007-.142.01-.214.01H3.25A2.25 2.25 0 011 15.76V4.25zm8.25 11.51v-.625a.75.75 0 00-.75-.75H3.25a.75.75 0 00-.75.75v.615c0 .414.336.75.75.75h5.373a.75.75 0 00.627-.74zm1.5 0a.75.75 0 00.627.74h5.373a.75.75 0 00.75-.75v-.615a.75.75 0 00-.75-.75H11.5a.75.75 0 00-.75.75v.625zm6.75-3.63v-.625a.75.75 0 00-.75-.75H11.5a.75.75 0 00-.75.75v.625c0 .414.336.75.75.75h5.25a.75.75 0 00.75-.75zm-8.25 0v-.625a.75.75 0 00-.75-.75H3.25a.75.75 0 00-.75.75v.625c0 .414.336.75.75.75H8.5a.75.75 0 00.75-.75zM17.5 8.5v-.625a.75.75 0 00-.75-.75H11.5a.75.75 0 00-.75.75V8.5c0 .414.336.75.75.75h5.25a.75.75 0 00.75-.75zm-8.25 0v-.625a.75.75 0 00-.75-.75H3.25a.75.75 0 00-.75.75V8.5c0 .414.336.75.75.75H8.5a.75.75 0 00.75-.75z","clip-rule":"evenodd"}
+          {"fill-rule":"evenodd","d":"M.99 5.24A2.25 2.25 0 013.25 3h13.5A2.25 2.25 0 0119 5.25l.01 9.5A2.25 2.25 0 0116.76 17H3.26A2.267 2.267 0 011 14.74l-.01-9.5zm8.26 9.52v-.625a.75.75 0 00-.75-.75H3.25a.75.75 0 00-.75.75v.615c0 .414.336.75.75.75h5.373a.75.75 0 00.627-.74zm1.5 0a.75.75 0 00.627.74h5.373a.75.75 0 00.75-.75v-.615a.75.75 0 00-.75-.75H11.5a.75.75 0 00-.75.75v.625zm6.75-3.63v-.625a.75.75 0 00-.75-.75H11.5a.75.75 0 00-.75.75v.625c0 .414.336.75.75.75h5.25a.75.75 0 00.75-.75zm-8.25 0v-.625a.75.75 0 00-.75-.75H3.25a.75.75 0 00-.75.75v.625c0 .414.336.75.75.75H8.5a.75.75 0 00.75-.75zM17.5 7.5v-.625a.75.75 0 00-.75-.75H11.5a.75.75 0 00-.75.75V7.5c0 .414.336.75.75.75h5.25a.75.75 0 00.75-.75zm-8.25 0v-.625a.75.75 0 00-.75-.75H3.25a.75.75 0 00-.75.75V7.5c0 .414.336.75.75.75H8.5a.75.75 0 00.75-.75z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -5130,7 +5570,7 @@ export let HTag20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-tag"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5150,7 +5590,7 @@ export let HTicket20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-ticket"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5170,11 +5610,31 @@ export let HTrash20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-trash"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M8.75 1A2.75 2.75 0 006 3.75v.443c-.795.077-1.584.176-2.365.298a.75.75 0 10.23 1.482l.149-.022.841 10.518A2.75 2.75 0 007.596 19h4.807a2.75 2.75 0 002.742-2.53l.841-10.52.149.023a.75.75 0 00.23-1.482A41.03 41.03 0 0014 4.193V3.75A2.75 2.75 0 0011.25 1h-2.5zM10 4c.84 0 1.673.025 2.5.075V3.75c0-.69-.56-1.25-1.25-1.25h-2.5c-.69 0-1.25.56-1.25 1.25v.325C8.327 4.025 9.16 4 10 4zM8.58 7.72a.75.75 0 00-1.5.06l.3 7.5a.75.75 0 101.5-.06l-.3-7.5zm4.34.06a.75.75 0 10-1.5-.06l-.3 7.5a.75.75 0 101.5.06l.3-7.5z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HTrophy20Solid = {
+  $_icon: {
+    name: "Trophy",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["trophy"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M10 1c-1.828 0-3.623.149-5.371.435a.75.75 0 00-.629.74v.387c-.827.157-1.642.345-2.445.564a.75.75 0 00-.552.698 5 5 0 004.503 5.152 6 6 0 002.946 1.822A6.451 6.451 0 017.768 13H7.5A1.5 1.5 0 006 14.5V17h-.75C4.56 17 4 17.56 4 18.25c0 .414.336.75.75.75h10.5a.75.75 0 00.75-.75c0-.69-.56-1.25-1.25-1.25H14v-2.5a1.5 1.5 0 00-1.5-1.5h-.268a6.453 6.453 0 01-.684-2.202 6 6 0 002.946-1.822 5 5 0 004.503-5.152.75.75 0 00-.552-.698A31.804 31.804 0 0016 2.562v-.387a.75.75 0 00-.629-.74A33.227 33.227 0 0010 1zM2.525 4.422C3.012 4.3 3.504 4.19 4 4.09V5c0 .74.134 1.448.38 2.103a3.503 3.503 0 01-1.855-2.68zm14.95 0a3.503 3.503 0 01-1.854 2.68C15.866 6.449 16 5.74 16 5v-.91c.496.099.988.21 1.475.332z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -5190,7 +5650,7 @@ export let HTruck20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-truck"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5199,6 +5659,30 @@ export let HTruck20Solid = {
         h(
           "path",
           {"d":"M6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM13.25 5a.75.75 0 00-.75.75v8.514a3.001 3.001 0 014.893 1.44c.37-.275.61-.719.595-1.227a24.905 24.905 0 00-1.784-8.549A1.486 1.486 0 0014.823 5H13.25zM14.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HTv20Solid = {
+  $_icon: {
+    name: "Tv",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["tv"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"d":"M4 5h12v7H4V5z"}
+        ),
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M1 3.5A1.5 1.5 0 012.5 2h15A1.5 1.5 0 0119 3.5v10a1.5 1.5 0 01-1.5 1.5H12v1.5h3.25a.75.75 0 010 1.5H4.75a.75.75 0 010-1.5H8V15H2.5A1.5 1.5 0 011 13.5v-10zm16.5 0h-15v10h15v-10z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -5214,7 +5698,7 @@ export let HUserCircle20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-user-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5234,7 +5718,7 @@ export let HUserGroup20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-user-group"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5254,7 +5738,7 @@ export let HUserMinus20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-user-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5274,7 +5758,7 @@ export let HUserPlus20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-user-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5294,7 +5778,7 @@ export let HUser20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-user"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5314,11 +5798,31 @@ export let HUsers20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-users"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"d":"M7 8a3 3 0 100-6 3 3 0 000 6zM14.5 9a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM1.615 16.428a1.224 1.224 0 01-.569-1.175 6.002 6.002 0 0111.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 017 18a9.953 9.953 0 01-5.385-1.572zM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 00-1.588-3.755 4.502 4.502 0 015.874 2.636.818.818 0 01-.36.98A7.465 7.465 0 0114.5 16z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HVariable20Solid = {
+  $_icon: {
+    name: "Variable",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["variable"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M15.212 2.079a.75.75 0 011.006.336A16.932 16.932 0 0118 10c0 2.724-.641 5.3-1.782 7.585a.75.75 0 11-1.342-.67A15.432 15.432 0 0016.5 10c0-2.486-.585-4.834-1.624-6.915a.75.75 0 01.336-1.006zm-10.424 0a.75.75 0 01.336 1.006A15.433 15.433 0 003.5 10c0 2.486.585 4.834 1.624 6.915a.75.75 0 11-1.342.67A16.933 16.933 0 012 10c0-2.724.641-5.3 1.782-7.585a.75.75 0 011.006-.336zm2.285 3.554a1.5 1.5 0 012.219.677l.856 2.08 1.146-1.77a2.25 2.25 0 013.137-.65l.235.156a.75.75 0 11-.832 1.248l-.235-.156a.75.75 0 00-1.045.216l-1.71 2.644 1.251 3.04.739-.492a.75.75 0 11.832 1.248l-.739.493a1.5 1.5 0 01-2.219-.677l-.856-2.08-1.146 1.77a2.25 2.25 0 01-3.137.65l-.235-.156a.75.75 0 01.832-1.248l.235.157a.75.75 0 001.045-.217l1.71-2.644-1.251-3.04-.739.492a.75.75 0 01-.832-1.248l.739-.493z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -5334,7 +5838,7 @@ export let HVideoCameraSlash20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-video-camera-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5354,7 +5858,7 @@ export let HVideoCamera20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-video-camera"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5374,11 +5878,51 @@ export let HViewColumns20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-view-columns"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M14 18h2.75A2.25 2.25 0 0019 15.75V4.25A2.25 2.25 0 0016.75 2H14v16zM12.5 2h-5v16h5V2zM3.25 2H6v16H3.25A2.25 2.25 0 011 15.75V4.25A2.25 2.25 0 013.25 2z","clip-rule":"evenodd"}
+          {"d":"M14 17h2.75A2.25 2.25 0 0019 14.75v-9.5A2.25 2.25 0 0016.75 3H14v14zM12.5 3h-5v14h5V3zM3.25 3H6v14H3.25A2.25 2.25 0 011 14.75v-9.5A2.25 2.25 0 013.25 3z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HViewfinderCircle20Solid = {
+  $_icon: {
+    name: "ViewfinderCircle",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["viewfinder","circle"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"d":"M4.25 2A2.25 2.25 0 002 4.25v2a.75.75 0 001.5 0v-2a.75.75 0 01.75-.75h2a.75.75 0 000-1.5h-2zM13.75 2a.75.75 0 000 1.5h2a.75.75 0 01.75.75v2a.75.75 0 001.5 0v-2A2.25 2.25 0 0015.75 2h-2zM3.5 13.75a.75.75 0 00-1.5 0v2A2.25 2.25 0 004.25 18h2a.75.75 0 000-1.5h-2a.75.75 0 01-.75-.75v-2zM18 13.75a.75.75 0 00-1.5 0v2a.75.75 0 01-.75.75h-2a.75.75 0 000 1.5h2A2.25 2.25 0 0018 15.75v-2zM7 10a3 3 0 116 0 3 3 0 01-6 0z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HWallet20Solid = {
+  $_icon: {
+    name: "Wallet",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["wallet"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"d":"M1 4.25a3.733 3.733 0 012.25-.75h13.5c.844 0 1.623.279 2.25.75A2.25 2.25 0 0016.75 2H3.25A2.25 2.25 0 001 4.25zM1 7.25a3.733 3.733 0 012.25-.75h13.5c.844 0 1.623.279 2.25.75A2.25 2.25 0 0016.75 5H3.25A2.25 2.25 0 001 7.25zM7 8a1 1 0 011 1 2 2 0 104 0 1 1 0 011-1h3.75A2.25 2.25 0 0119 10.25v5.5A2.25 2.25 0 0116.75 18H3.25A2.25 2.25 0 011 15.75v-5.5A2.25 2.25 0 013.25 8H7z"}
         ) 
       ]
     )
@@ -5394,11 +5938,31 @@ export let HWifi20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-wifi"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M.676 6.941A12.964 12.964 0 0110 3c3.657 0 6.963 1.511 9.324 3.941a.75.75 0 01-.008 1.053l-.353.354a.75.75 0 01-1.069-.008C15.894 6.28 13.097 5 10 5 6.903 5 4.106 6.28 2.106 8.34a.75.75 0 01-1.069.008l-.353-.354a.75.75 0 01-.008-1.053zm2.825 2.833A8.976 8.976 0 0110 7a8.976 8.976 0 016.499 2.774.75.75 0 01-.011 1.049l-.354.354a.75.75 0 01-1.072-.012A6.978 6.978 0 0010 9c-1.99 0-3.786.83-5.061 2.165a.75.75 0 01-1.073.012l-.354-.354a.75.75 0 01-.01-1.05zm2.82 2.84A4.989 4.989 0 0110 11c1.456 0 2.767.623 3.68 1.614a.75.75 0 01-.022 1.039l-.354.354a.75.75 0 01-1.085-.026A2.99 2.99 0 0010 13c-.88 0-1.67.377-2.22.981a.75.75 0 01-1.084.026l-.354-.354a.75.75 0 01-.021-1.039zm2.795 2.752a1.248 1.248 0 011.768 0 .75.75 0 010 1.06l-.354.354a.75.75 0 01-1.06 0l-.354-.353a.75.75 0 010-1.06z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HWindow20Solid = {
+  $_icon: {
+    name: "Window",
+    vendor: "H",
+    type: ["20","solid"],
+    tags: ["window"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M3.25 3A2.25 2.25 0 001 5.25v9.5A2.25 2.25 0 003.25 17h13.5A2.25 2.25 0 0019 14.75v-9.5A2.25 2.25 0 0016.75 3H3.25zM2.5 9v5.75c0 .414.336.75.75.75h13.5a.75.75 0 00.75-.75V9h-15zM4 5.25a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 00.75-.75V6a.75.75 0 00-.75-.75H4zM6.25 6A.75.75 0 017 5.25h.01a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75H7a.75.75 0 01-.75-.75V6zM10 5.25a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 00.75-.75V6a.75.75 0 00-.75-.75H10z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -5414,7 +5978,7 @@ export let HWrenchScrewdriver20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-wrench-screwdriver"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5438,7 +6002,7 @@ export let HWrench20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-wrench"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5458,7 +6022,7 @@ export let HXCircle20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-x-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5478,7 +6042,7 @@ export let HXMark20Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-name":"h-x-mark"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5498,7 +6062,7 @@ export let HAcademicCap24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-academic-cap"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5518,7 +6082,7 @@ export let HAdjustmentsHorizontal24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-adjustments-horizontal"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5538,7 +6102,7 @@ export let HAdjustmentsVertical24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-adjustments-vertical"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5558,7 +6122,7 @@ export let HArchiveBoxArrowDown24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-archive-box-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5578,7 +6142,7 @@ export let HArchiveBoxXMark24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-archive-box-x-mark"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5598,7 +6162,7 @@ export let HArchiveBox24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-archive-box"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5618,7 +6182,7 @@ export let HArrowDownCircle24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-down-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5638,7 +6202,7 @@ export let HArrowDownLeft24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-down-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5658,7 +6222,7 @@ export let HArrowDownOnSquareStack24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-down-on-square-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5678,7 +6242,7 @@ export let HArrowDownOnSquare24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-down-on-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5698,7 +6262,7 @@ export let HArrowDownRight24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-down-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5718,7 +6282,7 @@ export let HArrowDownTray24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-down-tray"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5738,7 +6302,7 @@ export let HArrowDown24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5758,7 +6322,7 @@ export let HArrowLeftCircle24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-left-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5778,7 +6342,7 @@ export let HArrowLeftOnRectangle24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-left-on-rectangle"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5798,7 +6362,7 @@ export let HArrowLeft24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5818,7 +6382,7 @@ export let HArrowLongDown24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-long-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5838,7 +6402,7 @@ export let HArrowLongLeft24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-long-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5858,7 +6422,7 @@ export let HArrowLongRight24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-long-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5878,11 +6442,31 @@ export let HArrowLongUp24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-long-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"stroke-linecap":"round","stroke-linejoin":"round","d":"M8.25 6.75L12 3m0 0l3.75 3.75M12 3v18"}
+        ) 
+      ]
+    )
+  }
+}
+export let HArrowPathRoundedSquare24Outline = {
+  $_icon: {
+    name: "ArrowPathRoundedSquare",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["arrow","path","rounded","square"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"}
         ) 
       ]
     )
@@ -5898,11 +6482,11 @@ export let HArrowPath24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-path"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
-          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M4.5 12c0-1.232.046-2.453.138-3.662a4.006 4.006 0 013.7-3.7 48.678 48.678 0 017.324 0 4.006 4.006 0 013.7 3.7c.017.22.032.441.046.662M4.5 12l-3-3m3 3l3-3m12 3c0 1.232-.046 2.453-.138 3.662a4.006 4.006 0 01-3.7 3.7 48.657 48.657 0 01-7.324 0 4.006 4.006 0 01-3.7-3.7c-.017-.22-.032-.441-.046-.662M19.5 12l-3 3m3-3l3 3"}
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99"}
         ) 
       ]
     )
@@ -5918,7 +6502,7 @@ export let HArrowRightCircle24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-right-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5938,7 +6522,7 @@ export let HArrowRightOnRectangle24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-right-on-rectangle"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5958,11 +6542,91 @@ export let HArrowRight24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"stroke-linecap":"round","stroke-linejoin":"round","d":"M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"}
+        ) 
+      ]
+    )
+  }
+}
+export let HArrowSmallDown24Outline = {
+  $_icon: {
+    name: "ArrowSmallDown",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["arrow","small","down"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75"}
+        ) 
+      ]
+    )
+  }
+}
+export let HArrowSmallLeft24Outline = {
+  $_icon: {
+    name: "ArrowSmallLeft",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["arrow","small","left"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75"}
+        ) 
+      ]
+    )
+  }
+}
+export let HArrowSmallRight24Outline = {
+  $_icon: {
+    name: "ArrowSmallRight",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["arrow","small","right"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"}
+        ) 
+      ]
+    )
+  }
+}
+export let HArrowSmallUp24Outline = {
+  $_icon: {
+    name: "ArrowSmallUp",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["arrow","small","up"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75"}
         ) 
       ]
     )
@@ -5978,7 +6642,7 @@ export let HArrowTopRightOnSquare24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-top-right-on-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -5998,7 +6662,7 @@ export let HArrowTrendingDown24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-trending-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6018,7 +6682,7 @@ export let HArrowTrendingUp24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-trending-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6038,7 +6702,7 @@ export let HArrowUpCircle24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-up-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6058,7 +6722,7 @@ export let HArrowUpLeft24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-up-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6078,7 +6742,7 @@ export let HArrowUpOnSquareStack24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-up-on-square-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6098,7 +6762,7 @@ export let HArrowUpOnSquare24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-up-on-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6118,7 +6782,7 @@ export let HArrowUpRight24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-up-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6138,7 +6802,7 @@ export let HArrowUpTray24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-up-tray"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6158,7 +6822,7 @@ export let HArrowUp24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6178,7 +6842,7 @@ export let HArrowUturnDown24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-uturn-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6198,7 +6862,7 @@ export let HArrowUturnLeft24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-uturn-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6218,7 +6882,7 @@ export let HArrowUturnRight24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-uturn-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6238,7 +6902,7 @@ export let HArrowUturnUp24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrow-uturn-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6258,7 +6922,7 @@ export let HArrowsPointingIn24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrows-pointing-in"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6278,7 +6942,7 @@ export let HArrowsPointingOut24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrows-pointing-out"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6298,7 +6962,7 @@ export let HArrowsRightLeft24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrows-right-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6318,7 +6982,7 @@ export let HArrowsUpDown24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-arrows-up-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6338,7 +7002,7 @@ export let HAtSymbol24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-at-symbol"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6358,7 +7022,7 @@ export let HBackspace24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-backspace"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6378,7 +7042,7 @@ export let HBackward24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-backward"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6398,7 +7062,7 @@ export let HBanknotes24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-banknotes"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6418,7 +7082,7 @@ export let HBars224Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-bars-2"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6438,7 +7102,7 @@ export let HBars3BottomLeft24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-bars-3-bottom-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6458,7 +7122,7 @@ export let HBars3BottomRight24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-bars-3-bottom-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6478,7 +7142,7 @@ export let HBars3CenterLeft24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-bars-3-center-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6498,7 +7162,7 @@ export let HBars324Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-bars-3"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6518,7 +7182,7 @@ export let HBars424Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-bars-4"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6538,7 +7202,7 @@ export let HBarsArrowDown24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-bars-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6558,11 +7222,71 @@ export let HBarsArrowUp24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-bars-arrow-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"stroke-linecap":"round","stroke-linejoin":"round","d":"M3 4.5h14.25M3 9h9.75M3 13.5h5.25m5.25-.75L17.25 9m0 0L21 12.75M17.25 9v12"}
+        ) 
+      ]
+    )
+  }
+}
+export let HBattery024Outline = {
+  $_icon: {
+    name: "Battery0",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["battery","0"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M21 10.5h.375c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125H21M3.75 18h15A2.25 2.25 0 0021 15.75v-6a2.25 2.25 0 00-2.25-2.25h-15A2.25 2.25 0 001.5 9.75v6A2.25 2.25 0 003.75 18z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HBattery10024Outline = {
+  $_icon: {
+    name: "Battery100",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["battery","100"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M21 10.5h.375c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125H21M4.5 10.5H18V15H4.5v-4.5zM3.75 18h15A2.25 2.25 0 0021 15.75v-6a2.25 2.25 0 00-2.25-2.25h-15A2.25 2.25 0 001.5 9.75v6A2.25 2.25 0 003.75 18z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HBattery5024Outline = {
+  $_icon: {
+    name: "Battery50",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["battery","50"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M21 10.5h.375c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125H21M4.5 10.5h6.75V15H4.5v-4.5zM3.75 18h15A2.25 2.25 0 0021 15.75v-6a2.25 2.25 0 00-2.25-2.25h-15A2.25 2.25 0 001.5 9.75v6A2.25 2.25 0 003.75 18z"}
         ) 
       ]
     )
@@ -6578,7 +7302,7 @@ export let HBeaker24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-beaker"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6598,7 +7322,7 @@ export let HBellAlert24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-bell-alert"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6618,7 +7342,7 @@ export let HBellSlash24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-bell-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6638,7 +7362,7 @@ export let HBellSnooze24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-bell-snooze"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6658,7 +7382,7 @@ export let HBell24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-bell"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6678,7 +7402,7 @@ export let HBoltSlash24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-bolt-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6698,7 +7422,7 @@ export let HBolt24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-bolt"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6718,7 +7442,7 @@ export let HBookOpen24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-book-open"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6738,7 +7462,7 @@ export let HBookmarkSlash24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-bookmark-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6758,7 +7482,7 @@ export let HBookmarkSquare24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-bookmark-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6778,7 +7502,7 @@ export let HBookmark24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-bookmark"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6798,11 +7522,31 @@ export let HBriefcase24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-briefcase"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"stroke-linecap":"round","stroke-linejoin":"round","d":"M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HBugAnt24Outline = {
+  $_icon: {
+    name: "BugAnt",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["bug","ant"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M12 12.75c1.148 0 2.278.08 3.383.237 1.037.146 1.866.966 1.866 2.013 0 3.728-2.35 6.75-5.25 6.75S6.75 18.728 6.75 15c0-1.046.83-1.867 1.866-2.013A24.204 24.204 0 0112 12.75zm0 0c2.883 0 5.647.508 8.207 1.44a23.91 23.91 0 01-1.152 6.06M12 12.75c-2.883 0-5.647.508-8.208 1.44.125 2.104.52 4.136 1.153 6.06M12 12.75a2.25 2.25 0 002.248-2.354M12 12.75a2.25 2.25 0 01-2.248-2.354M12 8.25c.995 0 1.971-.08 2.922-.236.403-.066.74-.358.795-.762a3.778 3.778 0 00-.399-2.25M12 8.25c-.995 0-1.97-.08-2.922-.236-.402-.066-.74-.358-.795-.762a3.734 3.734 0 01.4-2.253M12 8.25a2.25 2.25 0 00-2.248 2.146M12 8.25a2.25 2.25 0 012.248 2.146M8.683 5a6.032 6.032 0 01-1.155-1.002c.07-.63.27-1.222.574-1.747m.581 2.749A3.75 3.75 0 0115.318 5m0 0c.427-.283.815-.62 1.155-.999a4.471 4.471 0 00-.575-1.752M4.921 6a24.048 24.048 0 00-.392 3.314c1.668.546 3.416.914 5.223 1.082M19.08 6c.205 1.08.337 2.187.392 3.314a23.882 23.882 0 01-5.223 1.082"}
         ) 
       ]
     )
@@ -6818,7 +7562,7 @@ export let HBuildingLibrary24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-building-library"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6838,7 +7582,7 @@ export let HBuildingOffice224Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-building-office-2"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6858,7 +7602,7 @@ export let HBuildingOffice24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-building-office"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6878,7 +7622,7 @@ export let HBuildingStorefront24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-building-storefront"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6898,7 +7642,7 @@ export let HCake24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-cake"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6918,7 +7662,7 @@ export let HCalculator24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-calculator"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6938,7 +7682,7 @@ export let HCalendarDays24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-calendar-days"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6958,7 +7702,7 @@ export let HCalendar24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-calendar"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6978,7 +7722,7 @@ export let HCamera24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-camera"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7002,7 +7746,7 @@ export let HChartBarSquare24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-chart-bar-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7022,7 +7766,7 @@ export let HChartBar24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-chart-bar"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7042,7 +7786,7 @@ export let HChartPie24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-chart-pie"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7066,7 +7810,7 @@ export let HChatBubbleBottomCenterText24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-chat-bubble-bottom-center-text"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7086,7 +7830,7 @@ export let HChatBubbleBottomCenter24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-chat-bubble-bottom-center"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7106,7 +7850,7 @@ export let HChatBubbleLeftEllipsis24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-chat-bubble-left-ellipsis"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7126,7 +7870,7 @@ export let HChatBubbleLeftRight24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-chat-bubble-left-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7146,7 +7890,7 @@ export let HChatBubbleLeft24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-chat-bubble-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7166,7 +7910,7 @@ export let HChatBubbleOvalLeftEllipsis24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-chat-bubble-oval-left-ellipsis"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7186,7 +7930,7 @@ export let HChatBubbleOvalLeft24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-chat-bubble-oval-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7206,7 +7950,7 @@ export let HCheckBadge24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-check-badge"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7226,7 +7970,7 @@ export let HCheckCircle24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-check-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7246,7 +7990,7 @@ export let HCheck24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7266,7 +8010,7 @@ export let HChevronDoubleDown24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-chevron-double-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7286,7 +8030,7 @@ export let HChevronDoubleLeft24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-chevron-double-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7306,7 +8050,7 @@ export let HChevronDoubleRight24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-chevron-double-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7326,7 +8070,7 @@ export let HChevronDoubleUp24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-chevron-double-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7346,7 +8090,7 @@ export let HChevronDown24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-chevron-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7366,7 +8110,7 @@ export let HChevronLeft24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-chevron-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7386,7 +8130,7 @@ export let HChevronRight24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-chevron-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7406,7 +8150,7 @@ export let HChevronUpDown24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-chevron-up-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7426,7 +8170,7 @@ export let HChevronUp24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-chevron-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7446,7 +8190,7 @@ export let HCircleStack24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-circle-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7466,7 +8210,7 @@ export let HClipboardDocumentCheck24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-clipboard-document-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7486,7 +8230,7 @@ export let HClipboardDocumentList24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-clipboard-document-list"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7506,7 +8250,7 @@ export let HClipboardDocument24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-clipboard-document"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7526,7 +8270,7 @@ export let HClipboard24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-clipboard"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7546,7 +8290,7 @@ export let HClock24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-clock"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7566,7 +8310,7 @@ export let HCloudArrowDown24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-cloud-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7586,7 +8330,7 @@ export let HCloudArrowUp24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-cloud-arrow-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7606,7 +8350,7 @@ export let HCloud24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-cloud"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7626,7 +8370,7 @@ export let HCodeBracketSquare24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-code-bracket-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7646,7 +8390,7 @@ export let HCodeBracket24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-code-bracket"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7666,7 +8410,7 @@ export let HCog6Tooth24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-cog-6-tooth"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7690,7 +8434,7 @@ export let HCog8Tooth24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-cog-8-tooth"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7714,7 +8458,7 @@ export let HCog24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-cog"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7734,7 +8478,7 @@ export let HCommandLine24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-command-line"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7754,7 +8498,7 @@ export let HComputerDesktop24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-computer-desktop"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7774,7 +8518,7 @@ export let HCpuChip24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-cpu-chip"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7794,11 +8538,31 @@ export let HCreditCard24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-credit-card"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"stroke-linecap":"round","stroke-linejoin":"round","d":"M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HCubeTransparent24Outline = {
+  $_icon: {
+    name: "CubeTransparent",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["cube","transparent"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M21 7.5l-2.25-1.313M21 7.5v2.25m0-2.25l-2.25 1.313M3 7.5l2.25-1.313M3 7.5l2.25 1.313M3 7.5v2.25m9 3l2.25-1.313M12 12.75l-2.25-1.313M12 12.75V15m0 6.75l2.25-1.313M12 21.75V19.5m0 2.25l-2.25-1.313m0-16.875L12 2.25l2.25 1.313M21 14.25v2.25l-2.25 1.313m-13.5 0L3 16.5v-2.25"}
         ) 
       ]
     )
@@ -7814,11 +8578,31 @@ export let HCube24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-cube"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"stroke-linecap":"round","stroke-linejoin":"round","d":"M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9"}
+        ) 
+      ]
+    )
+  }
+}
+export let HCurrencyBangladeshi24Outline = {
+  $_icon: {
+    name: "CurrencyBangladeshi",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["currency","bangladeshi"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M8.25 7.5l.415-.207a.75.75 0 011.085.67V10.5m0 0h6m-6 0h-1.5m1.5 0v5.438c0 .354.161.697.473.865a3.751 3.751 0 005.452-2.553c.083-.409-.263-.75-.68-.75h-.745M21 12a9 9 0 11-18 0 9 9 0 0118 0z"}
         ) 
       ]
     )
@@ -7834,7 +8618,7 @@ export let HCurrencyDollar24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-currency-dollar"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7854,7 +8638,7 @@ export let HCurrencyEuro24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-currency-euro"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7874,7 +8658,7 @@ export let HCurrencyPound24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-currency-pound"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7894,7 +8678,7 @@ export let HCurrencyRupee24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-currency-rupee"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7914,7 +8698,7 @@ export let HCurrencyYen24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-currency-yen"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7934,7 +8718,7 @@ export let HCursorArrowRays24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-cursor-arrow-rays"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7954,7 +8738,7 @@ export let HCursorArrowRipple24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-cursor-arrow-ripple"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7974,7 +8758,7 @@ export let HDevicePhoneMobile24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-device-phone-mobile"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7994,7 +8778,7 @@ export let HDeviceTablet24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-device-tablet"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8014,7 +8798,7 @@ export let HDocumentArrowDown24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-document-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8034,7 +8818,7 @@ export let HDocumentArrowUp24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-document-arrow-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8054,7 +8838,7 @@ export let HDocumentChartBar24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-document-chart-bar"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8074,7 +8858,7 @@ export let HDocumentCheck24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-document-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8094,7 +8878,7 @@ export let HDocumentDuplicate24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-document-duplicate"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8114,7 +8898,7 @@ export let HDocumentMagnifyingGlass24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-document-magnifying-glass"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8134,7 +8918,7 @@ export let HDocumentMinus24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-document-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8154,7 +8938,7 @@ export let HDocumentPlus24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-document-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8174,7 +8958,7 @@ export let HDocumentText24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-document-text"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8194,7 +8978,7 @@ export let HDocument24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-document"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8214,7 +8998,7 @@ export let HEllipsisHorizontalCircle24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-ellipsis-horizontal-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8234,7 +9018,7 @@ export let HEllipsisHorizontal24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-ellipsis-horizontal"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8254,7 +9038,7 @@ export let HEllipsisVertical24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-ellipsis-vertical"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8274,7 +9058,7 @@ export let HEnvelopeOpen24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-envelope-open"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8294,7 +9078,7 @@ export let HEnvelope24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-envelope"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8314,7 +9098,7 @@ export let HExclamationCircle24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-exclamation-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8334,11 +9118,31 @@ export let HExclamationTriangle24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-exclamation-triangle"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
-          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M12 10.5v3.75m-9.303 3.376C1.83 19.126 2.914 21 4.645 21h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 4.88c-.866-1.501-3.032-1.501-3.898 0L2.697 17.626zM12 17.25h.007v.008H12v-.008z"}
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HEyeDropper24Outline = {
+  $_icon: {
+    name: "EyeDropper",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["eye","dropper"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M15 11.25l1.5 1.5.75-.75V8.758l2.276-.61a3 3 0 10-3.675-3.675l-.61 2.277H12l-.75.75 1.5 1.5M15 11.25l-8.47 8.47c-.34.34-.8.53-1.28.53s-.94.19-1.28.53l-.97.97-.75-.75.97-.97c.34-.34.53-.8.53-1.28s.19-.94.53-1.28L12.75 9M15 11.25L12.75 9"}
         ) 
       ]
     )
@@ -8354,7 +9158,7 @@ export let HEyeSlash24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-eye-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8374,7 +9178,7 @@ export let HEye24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-eye"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8398,7 +9202,7 @@ export let HFaceFrown24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-face-frown"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8418,7 +9222,7 @@ export let HFaceSmile24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-face-smile"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8438,7 +9242,7 @@ export let HFilm24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-film"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8458,7 +9262,7 @@ export let HFingerPrint24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-finger-print"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8478,7 +9282,7 @@ export let HFire24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-fire"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8502,7 +9306,7 @@ export let HFlag24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-flag"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8522,7 +9326,7 @@ export let HFolderArrowDown24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-folder-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8542,7 +9346,7 @@ export let HFolderMinus24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-folder-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8562,7 +9366,7 @@ export let HFolderOpen24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-folder-open"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8582,7 +9386,7 @@ export let HFolderPlus24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-folder-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8602,7 +9406,7 @@ export let HFolder24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-folder"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8622,7 +9426,7 @@ export let HForward24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-forward"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8642,7 +9446,7 @@ export let HFunnel24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-funnel"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8662,7 +9466,7 @@ export let HGif24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-gif"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8682,7 +9486,7 @@ export let HGiftTop24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-gift-top"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8702,7 +9506,7 @@ export let HGift24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-gift"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8722,7 +9526,7 @@ export let HGlobeAlt24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-globe-alt"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8742,7 +9546,7 @@ export let HGlobeAmericas24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-globe-americas"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8762,7 +9566,7 @@ export let HGlobeAsiaAustralia24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-globe-asia-australia"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8782,7 +9586,7 @@ export let HGlobeEuropeAfrica24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-globe-europe-africa"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8802,7 +9606,7 @@ export let HHandRaised24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-hand-raised"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8822,7 +9626,7 @@ export let HHandThumbDown24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-hand-thumb-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8842,7 +9646,7 @@ export let HHandThumbUp24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-hand-thumb-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8862,7 +9666,7 @@ export let HHashtag24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-hashtag"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8882,7 +9686,7 @@ export let HHeart24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8902,7 +9706,7 @@ export let HHomeModern24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-home-modern"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8922,7 +9726,7 @@ export let HHome24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-home"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8942,7 +9746,7 @@ export let HIdentification24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-identification"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8962,7 +9766,7 @@ export let HInboxArrowDown24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-inbox-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8982,7 +9786,7 @@ export let HInboxStack24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-inbox-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9002,7 +9806,7 @@ export let HInbox24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-inbox"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9022,7 +9826,7 @@ export let HInformationCircle24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-information-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9042,7 +9846,7 @@ export let HKey24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-key"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9062,7 +9866,7 @@ export let HLanguage24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-language"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9082,7 +9886,7 @@ export let HLifebuoy24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-lifebuoy"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9102,7 +9906,7 @@ export let HLightBulb24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-light-bulb"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9122,7 +9926,7 @@ export let HLink24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-link"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9142,7 +9946,7 @@ export let HListBullet24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-list-bullet"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9162,7 +9966,7 @@ export let HLockClosed24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-lock-closed"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9182,7 +9986,7 @@ export let HLockOpen24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-lock-open"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9202,7 +10006,7 @@ export let HMagnifyingGlassCircle24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-magnifying-glass-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9222,7 +10026,7 @@ export let HMagnifyingGlassMinus24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-magnifying-glass-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9242,7 +10046,7 @@ export let HMagnifyingGlassPlus24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-magnifying-glass-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9262,7 +10066,7 @@ export let HMagnifyingGlass24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-magnifying-glass"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9282,7 +10086,7 @@ export let HMapPin24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-map-pin"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9306,7 +10110,7 @@ export let HMap24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-map"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9326,7 +10130,7 @@ export let HMegaphone24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-megaphone"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9346,7 +10150,7 @@ export let HMicrophone24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-microphone"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9366,11 +10170,31 @@ export let HMinusCircle24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-minus-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"stroke-linecap":"round","stroke-linejoin":"round","d":"M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HMinusSmall24Outline = {
+  $_icon: {
+    name: "MinusSmall",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["minus","small"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M18 12H6"}
         ) 
       ]
     )
@@ -9386,7 +10210,7 @@ export let HMinus24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9406,7 +10230,7 @@ export let HMoon24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-moon"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9426,7 +10250,7 @@ export let HMusicalNote24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-musical-note"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9446,7 +10270,7 @@ export let HNewspaper24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-newspaper"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9466,11 +10290,31 @@ export let HNoSymbol24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-no-symbol"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"stroke-linecap":"round","stroke-linejoin":"round","d":"M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"}
+        ) 
+      ]
+    )
+  }
+}
+export let HPaintBrush24Outline = {
+  $_icon: {
+    name: "PaintBrush",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["paint","brush"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42"}
         ) 
       ]
     )
@@ -9486,7 +10330,7 @@ export let HPaperAirplane24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-paper-airplane"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9506,11 +10350,31 @@ export let HPaperClip24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-paper-clip"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"stroke-linecap":"round","stroke-linejoin":"round","d":"M18.375 12.739l-7.693 7.693a4.5 4.5 0 01-6.364-6.364l10.94-10.94A3 3 0 1119.5 7.372L8.552 18.32m.009-.01l-.01.01m5.699-9.941l-7.81 7.81a1.5 1.5 0 002.112 2.13"}
+        ) 
+      ]
+    )
+  }
+}
+export let HPauseCircle24Outline = {
+  $_icon: {
+    name: "PauseCircle",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["pause","circle"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M14.25 9v6m-4.5 0V9M21 12a9 9 0 11-18 0 9 9 0 0118 0z"}
         ) 
       ]
     )
@@ -9526,7 +10390,7 @@ export let HPause24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-pause"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9546,7 +10410,7 @@ export let HPencilSquare24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-pencil-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9566,7 +10430,7 @@ export let HPencil24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-pencil"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9586,7 +10450,7 @@ export let HPhoneArrowDownLeft24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-phone-arrow-down-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9606,7 +10470,7 @@ export let HPhoneArrowUpRight24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-phone-arrow-up-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9626,7 +10490,7 @@ export let HPhoneXMark24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-phone-x-mark"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9646,7 +10510,7 @@ export let HPhone24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-phone"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9666,11 +10530,35 @@ export let HPhoto24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-photo"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"stroke-linecap":"round","stroke-linejoin":"round","d":"M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HPlayCircle24Outline = {
+  $_icon: {
+    name: "PlayCircle",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["play","circle"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M21 12a9 9 0 11-18 0 9 9 0 0118 0z"}
+        ),
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z"}
         ) 
       ]
     )
@@ -9686,7 +10574,7 @@ export let HPlayPause24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-play-pause"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9706,7 +10594,7 @@ export let HPlay24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-play"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9726,11 +10614,31 @@ export let HPlusCircle24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-plus-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"stroke-linecap":"round","stroke-linejoin":"round","d":"M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HPlusSmall24Outline = {
+  $_icon: {
+    name: "PlusSmall",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["plus","small"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M12 6v12m6-6H6"}
         ) 
       ]
     )
@@ -9746,11 +10654,31 @@ export let HPlus24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"stroke-linecap":"round","stroke-linejoin":"round","d":"M12 4.5v15m7.5-7.5h-15"}
+        ) 
+      ]
+    )
+  }
+}
+export let HPower24Outline = {
+  $_icon: {
+    name: "Power",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["power"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M5.636 5.636a9 9 0 1012.728 0M12 3v9"}
         ) 
       ]
     )
@@ -9766,7 +10694,7 @@ export let HPresentationChartBar24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-presentation-chart-bar"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9786,7 +10714,7 @@ export let HPresentationChartLine24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-presentation-chart-line"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9806,7 +10734,7 @@ export let HPrinter24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-printer"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9826,7 +10754,7 @@ export let HPuzzlePiece24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-puzzle-piece"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9846,7 +10774,7 @@ export let HQrCode24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-qr-code"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9870,7 +10798,7 @@ export let HQuestionMarkCircle24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-question-mark-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9890,7 +10818,7 @@ export let HQueueList24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-queue-list"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9910,7 +10838,7 @@ export let HRadio24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-radio"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9930,7 +10858,7 @@ export let HReceiptPercent24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-receipt-percent"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9950,7 +10878,7 @@ export let HReceiptRefund24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-receipt-refund"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9970,7 +10898,7 @@ export let HRectangleGroup24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-rectangle-group"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9990,11 +10918,31 @@ export let HRectangleStack24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-rectangle-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"stroke-linecap":"round","stroke-linejoin":"round","d":"M6 6.878V6a2.25 2.25 0 012.25-2.25h7.5A2.25 2.25 0 0118 6v.878m-12 0c.235-.083.487-.128.75-.128h10.5c.263 0 .515.045.75.128m-12 0A2.25 2.25 0 004.5 9v.878m13.5-3A2.25 2.25 0 0119.5 9v.878m0 0a2.246 2.246 0 00-.75-.128H5.25c-.263 0-.515.045-.75.128m15 0A2.25 2.25 0 0121 12v6a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 18v-6c0-.98.626-1.813 1.5-2.122"}
+        ) 
+      ]
+    )
+  }
+}
+export let HRocketLaunch24Outline = {
+  $_icon: {
+    name: "RocketLaunch",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["rocket","launch"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"}
         ) 
       ]
     )
@@ -10010,7 +10958,7 @@ export let HRss24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-rss"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10030,7 +10978,7 @@ export let HScale24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-scale"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10050,7 +10998,7 @@ export let HScissors24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-scissors"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10070,7 +11018,7 @@ export let HServerStack24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-server-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10090,7 +11038,7 @@ export let HServer24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-server"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10110,7 +11058,7 @@ export let HShare24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-share"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10130,7 +11078,7 @@ export let HShieldCheck24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-shield-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10150,7 +11098,7 @@ export let HShieldExclamation24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-shield-exclamation"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10170,7 +11118,7 @@ export let HShoppingBag24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-shopping-bag"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10190,7 +11138,7 @@ export let HShoppingCart24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-shopping-cart"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10210,7 +11158,7 @@ export let HSignalSlash24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-signal-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10230,7 +11178,7 @@ export let HSignal24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-signal"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10250,7 +11198,7 @@ export let HSparkles24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-sparkles"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10270,7 +11218,7 @@ export let HSpeakerWave24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-speaker-wave"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10290,7 +11238,7 @@ export let HSpeakerXMark24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-speaker-x-mark"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10310,11 +11258,31 @@ export let HSquare2Stack24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-square-2-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"stroke-linecap":"round","stroke-linejoin":"round","d":"M16.5 8.25V6a2.25 2.25 0 00-2.25-2.25H6A2.25 2.25 0 003.75 6v8.25A2.25 2.25 0 006 16.5h2.25m8.25-8.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-7.5A2.25 2.25 0 018.25 18v-1.5m8.25-8.25h-6a2.25 2.25 0 00-2.25 2.25v6"}
+        ) 
+      ]
+    )
+  }
+}
+export let HSquare3Stack3d24Outline = {
+  $_icon: {
+    name: "Square3Stack3d",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["square","3","stack","3d"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M6.429 9.75L2.25 12l4.179 2.25m0-4.5l5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0l4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0l-5.571 3-5.571-3"}
         ) 
       ]
     )
@@ -10330,7 +11298,7 @@ export let HSquares2x224Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-squares-2x2"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10350,7 +11318,7 @@ export let HSquaresPlus24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-squares-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10370,11 +11338,35 @@ export let HStar24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-star"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"stroke-linecap":"round","stroke-linejoin":"round","d":"M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HStopCircle24Outline = {
+  $_icon: {
+    name: "StopCircle",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["stop","circle"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M21 12a9 9 0 11-18 0 9 9 0 0118 0z"}
+        ),
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M9 9.563C9 9.252 9.252 9 9.563 9h4.874c.311 0 .563.252.563.563v4.874c0 .311-.252.563-.563.563H9.564A.562.562 0 019 14.437V9.564z"}
         ) 
       ]
     )
@@ -10390,7 +11382,7 @@ export let HStop24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-stop"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10410,7 +11402,7 @@ export let HSun24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-sun"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10430,7 +11422,7 @@ export let HSwatch24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-swatch"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10450,7 +11442,7 @@ export let HTableCells24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-table-cells"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10470,7 +11462,7 @@ export let HTag24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-tag"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10494,7 +11486,7 @@ export let HTicket24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-ticket"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10514,11 +11506,31 @@ export let HTrash24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-trash"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"stroke-linecap":"round","stroke-linejoin":"round","d":"M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0"}
+        ) 
+      ]
+    )
+  }
+}
+export let HTrophy24Outline = {
+  $_icon: {
+    name: "Trophy",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["trophy"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 002.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 012.916.52 6.003 6.003 0 01-5.395 4.972m0 0a6.726 6.726 0 01-2.749 1.35m0 0a6.772 6.772 0 01-3.044 0"}
         ) 
       ]
     )
@@ -10534,11 +11546,31 @@ export let HTruck24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-truck"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"stroke-linecap":"round","stroke-linejoin":"round","d":"M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"}
+        ) 
+      ]
+    )
+  }
+}
+export let HTv24Outline = {
+  $_icon: {
+    name: "Tv",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["tv"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125z"}
         ) 
       ]
     )
@@ -10554,7 +11586,7 @@ export let HUserCircle24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-user-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10574,7 +11606,7 @@ export let HUserGroup24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-user-group"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10594,7 +11626,7 @@ export let HUserMinus24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-user-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10614,7 +11646,7 @@ export let HUserPlus24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-user-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10634,7 +11666,7 @@ export let HUser24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-user"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10654,11 +11686,31 @@ export let HUsers24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-users"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"stroke-linecap":"round","stroke-linejoin":"round","d":"M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HVariable24Outline = {
+  $_icon: {
+    name: "Variable",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["variable"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M4.745 3A23.933 23.933 0 003 12c0 3.183.62 6.22 1.745 9M19.5 3c.967 2.78 1.5 5.817 1.5 9s-.533 6.22-1.5 9M8.25 8.885l1.444-.89a.75.75 0 011.105.402l2.402 7.206a.75.75 0 001.104.401l1.445-.889m-8.25.75l.213.09a1.687 1.687 0 002.062-.617l4.45-6.676a1.688 1.688 0 012.062-.618l.213.09"}
         ) 
       ]
     )
@@ -10674,7 +11726,7 @@ export let HVideoCameraSlash24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-video-camera-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10694,7 +11746,7 @@ export let HVideoCamera24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-video-camera"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10714,11 +11766,51 @@ export let HViewColumns24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-view-columns"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"stroke-linecap":"round","stroke-linejoin":"round","d":"M9 4.5v15m6-15v15m-10.875 0h15.75c.621 0 1.125-.504 1.125-1.125V5.625c0-.621-.504-1.125-1.125-1.125H4.125C3.504 4.5 3 5.004 3 5.625v12.75c0 .621.504 1.125 1.125 1.125z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HViewfinderCircle24Outline = {
+  $_icon: {
+    name: "ViewfinderCircle",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["viewfinder","circle"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M7.5 3.75H6A2.25 2.25 0 003.75 6v1.5M16.5 3.75H18A2.25 2.25 0 0120.25 6v1.5m0 9V18A2.25 2.25 0 0118 20.25h-1.5m-9 0H6A2.25 2.25 0 013.75 18v-1.5M15 12a3 3 0 11-6 0 3 3 0 016 0z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HWallet24Outline = {
+  $_icon: {
+    name: "Wallet",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["wallet"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M21 12a2.25 2.25 0 00-2.25-2.25H15a3 3 0 11-6 0H5.25A2.25 2.25 0 003 12m18 0v6a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 18v-6m18 0V9M3 12V9m18 0a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 9m18 0V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v3"}
         ) 
       ]
     )
@@ -10734,11 +11826,31 @@ export let HWifi24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-wifi"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"stroke-linecap":"round","stroke-linejoin":"round","d":"M8.288 15.038a5.25 5.25 0 017.424 0M5.106 11.856c3.807-3.808 9.98-3.808 13.788 0M1.924 8.674c5.565-5.565 14.587-5.565 20.152 0M12.53 18.22l-.53.53-.53-.53a.75.75 0 011.06 0z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HWindow24Outline = {
+  $_icon: {
+    name: "Window",
+    vendor: "H",
+    type: ["24","outline"],
+    tags: ["window"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M3 8.25V18a2.25 2.25 0 002.25 2.25h13.5A2.25 2.25 0 0021 18V8.25m-18 0V6a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 6v2.25m-18 0h18M5.25 6h.008v.008H5.25V6zM7.5 6h.008v.008H7.5V6zm2.25 0h.008v.008H9.75V6z"}
         ) 
       ]
     )
@@ -10754,7 +11866,7 @@ export let HWrenchScrewdriver24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-wrench-screwdriver"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10774,7 +11886,7 @@ export let HWrench24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-wrench"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10798,7 +11910,7 @@ export let HXCircle24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-x-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10818,7 +11930,7 @@ export let HXMark24Outline = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true","data-name":"h-x-mark"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10838,7 +11950,7 @@ export let HAcademicCap24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-academic-cap"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10866,7 +11978,7 @@ export let HAdjustmentsHorizontal24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-adjustments-horizontal"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10886,7 +11998,7 @@ export let HAdjustmentsVertical24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-adjustments-vertical"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10906,7 +12018,7 @@ export let HArchiveBoxArrowDown24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-archive-box-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10930,7 +12042,7 @@ export let HArchiveBoxXMark24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-archive-box-x-mark"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10954,7 +12066,7 @@ export let HArchiveBox24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-archive-box"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10978,7 +12090,7 @@ export let HArrowDownCircle24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-down-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10998,7 +12110,7 @@ export let HArrowDownLeft24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-down-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11018,7 +12130,7 @@ export let HArrowDownOnSquareStack24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-down-on-square-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11042,7 +12154,7 @@ export let HArrowDownOnSquare24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-down-on-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11062,7 +12174,7 @@ export let HArrowDownRight24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-down-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11082,7 +12194,7 @@ export let HArrowDownTray24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-down-tray"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11102,7 +12214,7 @@ export let HArrowDown24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11122,7 +12234,7 @@ export let HArrowLeftCircle24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-left-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11142,7 +12254,7 @@ export let HArrowLeftOnRectangle24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-left-on-rectangle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11162,7 +12274,7 @@ export let HArrowLeft24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11182,7 +12294,7 @@ export let HArrowLongDown24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-long-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11202,7 +12314,7 @@ export let HArrowLongLeft24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-long-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11222,7 +12334,7 @@ export let HArrowLongRight24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-long-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11242,11 +12354,31 @@ export let HArrowLongUp24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-long-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M11.47 2.47a.75.75 0 011.06 0l3.75 3.75a.75.75 0 01-1.06 1.06l-2.47-2.47V21a.75.75 0 01-1.5 0V4.81L8.78 7.28a.75.75 0 01-1.06-1.06l3.75-3.75z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HArrowPathRoundedSquare24Solid = {
+  $_icon: {
+    name: "ArrowPathRoundedSquare",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["arrow","path","rounded","square"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M12 5.25c1.213 0 2.415.046 3.605.135a3.256 3.256 0 013.01 3.01c.044.583.077 1.17.1 1.759L17.03 8.47a.75.75 0 10-1.06 1.06l3 3a.75.75 0 001.06 0l3-3a.75.75 0 00-1.06-1.06l-1.752 1.751c-.023-.65-.06-1.296-.108-1.939a4.756 4.756 0 00-4.392-4.392 49.422 49.422 0 00-7.436 0A4.756 4.756 0 003.89 8.282c-.017.224-.033.447-.046.672a.75.75 0 101.497.092c.013-.217.028-.434.044-.651a3.256 3.256 0 013.01-3.01c1.19-.09 2.392-.135 3.605-.135zm-6.97 6.22a.75.75 0 00-1.06 0l-3 3a.75.75 0 101.06 1.06l1.752-1.751c.023.65.06 1.296.108 1.939a4.756 4.756 0 004.392 4.392 49.413 49.413 0 007.436 0 4.756 4.756 0 004.392-4.392c.017-.223.032-.447.046-.672a.75.75 0 00-1.497-.092c-.013.217-.028.434-.044.651a3.256 3.256 0 01-3.01 3.01 47.953 47.953 0 01-7.21 0 3.256 3.256 0 01-3.01-3.01 47.759 47.759 0 01-.1-1.759L6.97 15.53a.75.75 0 001.06-1.06l-3-3z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -11262,11 +12394,11 @@ export let HArrowPath24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-path"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M12 5.25c-1.213 0-2.415.046-3.605.135a3.256 3.256 0 00-3.01 3.01c-.044.583-.077 1.17-.1 1.759L6.97 8.47a.75.75 0 011.06 1.06l-3 3a.75.75 0 01-1.06 0l-3-3a.75.75 0 011.06-1.06l1.752 1.751c.023-.65.06-1.296.108-1.939A4.756 4.756 0 018.282 3.89a49.423 49.423 0 017.436 0 4.756 4.756 0 014.392 4.392c.017.224.032.447.046.672a.75.75 0 01-1.497.092 48.187 48.187 0 00-.044-.651 3.256 3.256 0 00-3.01-3.01A47.926 47.926 0 0012 5.25zm6.97 6.22a.75.75 0 011.06 0l3 3a.75.75 0 11-1.06 1.06l-1.752-1.751a49.25 49.25 0 01-.108 1.939 4.756 4.756 0 01-4.392 4.392 49.412 49.412 0 01-7.436 0 4.756 4.756 0 01-4.392-4.392 49.112 49.112 0 01-.046-.672.75.75 0 111.497-.092c.013.217.028.434.044.651a3.256 3.256 0 003.01 3.01 47.951 47.951 0 007.21 0 3.256 3.256 0 003.01-3.01c.044-.583.077-1.17.1-1.759L17.03 15.53a.75.75 0 11-1.06-1.06l3-3z","clip-rule":"evenodd"}
+          {"fill-rule":"evenodd","d":"M4.755 10.059a7.5 7.5 0 0112.548-3.364l1.903 1.903h-3.183a.75.75 0 100 1.5h4.992a.75.75 0 00.75-.75V4.356a.75.75 0 00-1.5 0v3.18l-1.9-1.9A9 9 0 003.306 9.67a.75.75 0 101.45.388zm15.408 3.352a.75.75 0 00-.919.53 7.5 7.5 0 01-12.548 3.364l-1.902-1.903h3.183a.75.75 0 000-1.5H2.984a.75.75 0 00-.75.75v4.992a.75.75 0 001.5 0v-3.18l1.9 1.9a9 9 0 0015.059-4.035.75.75 0 00-.53-.918z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -11282,7 +12414,7 @@ export let HArrowRightCircle24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-right-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11302,7 +12434,7 @@ export let HArrowRightOnRectangle24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-right-on-rectangle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11322,11 +12454,91 @@ export let HArrowRight24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HArrowSmallDown24Solid = {
+  $_icon: {
+    name: "ArrowSmallDown",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["arrow","small","down"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M12 3.75a.75.75 0 01.75.75v13.19l5.47-5.47a.75.75 0 111.06 1.06l-6.75 6.75a.75.75 0 01-1.06 0l-6.75-6.75a.75.75 0 111.06-1.06l5.47 5.47V4.5a.75.75 0 01.75-.75z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HArrowSmallLeft24Solid = {
+  $_icon: {
+    name: "ArrowSmallLeft",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["arrow","small","left"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M20.25 12a.75.75 0 01-.75.75H6.31l5.47 5.47a.75.75 0 11-1.06 1.06l-6.75-6.75a.75.75 0 010-1.06l6.75-6.75a.75.75 0 111.06 1.06l-5.47 5.47H19.5a.75.75 0 01.75.75z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HArrowSmallRight24Solid = {
+  $_icon: {
+    name: "ArrowSmallRight",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["arrow","small","right"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M3.75 12a.75.75 0 01.75-.75h13.19l-5.47-5.47a.75.75 0 011.06-1.06l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 01-.75-.75z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HArrowSmallUp24Solid = {
+  $_icon: {
+    name: "ArrowSmallUp",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["arrow","small","up"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M12 20.25a.75.75 0 01-.75-.75V6.31l-5.47 5.47a.75.75 0 01-1.06-1.06l6.75-6.75a.75.75 0 011.06 0l6.75 6.75a.75.75 0 11-1.06 1.06l-5.47-5.47V19.5a.75.75 0 01-.75.75z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -11342,7 +12554,7 @@ export let HArrowTopRightOnSquare24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-top-right-on-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11362,7 +12574,7 @@ export let HArrowTrendingDown24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-trending-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11382,7 +12594,7 @@ export let HArrowTrendingUp24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-trending-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11402,7 +12614,7 @@ export let HArrowUpCircle24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-up-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11422,7 +12634,7 @@ export let HArrowUpLeft24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-up-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11442,7 +12654,7 @@ export let HArrowUpOnSquareStack24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-up-on-square-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11466,7 +12678,7 @@ export let HArrowUpOnSquare24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-up-on-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11486,7 +12698,7 @@ export let HArrowUpRight24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-up-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11506,7 +12718,7 @@ export let HArrowUpTray24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-up-tray"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11526,7 +12738,7 @@ export let HArrowUp24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11546,7 +12758,7 @@ export let HArrowUturnDown24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-uturn-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11566,7 +12778,7 @@ export let HArrowUturnLeft24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-uturn-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11586,7 +12798,7 @@ export let HArrowUturnRight24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-uturn-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11606,7 +12818,7 @@ export let HArrowUturnUp24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrow-uturn-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11626,7 +12838,7 @@ export let HArrowsPointingIn24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrows-pointing-in"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11646,7 +12858,7 @@ export let HArrowsPointingOut24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrows-pointing-out"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11666,7 +12878,7 @@ export let HArrowsRightLeft24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrows-right-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11686,7 +12898,7 @@ export let HArrowsUpDown24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-arrows-up-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11706,7 +12918,7 @@ export let HAtSymbol24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-at-symbol"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11726,7 +12938,7 @@ export let HBackspace24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-backspace"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11746,7 +12958,7 @@ export let HBackward24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-backward"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11766,7 +12978,7 @@ export let HBanknotes24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-banknotes"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11794,7 +13006,7 @@ export let HBars224Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-bars-2"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11814,7 +13026,7 @@ export let HBars3BottomLeft24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-bars-3-bottom-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11834,7 +13046,7 @@ export let HBars3BottomRight24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-bars-3-bottom-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11854,7 +13066,7 @@ export let HBars3CenterLeft24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-bars-3-center-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11874,7 +13086,7 @@ export let HBars324Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-bars-3"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11894,7 +13106,7 @@ export let HBars424Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-bars-4"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11914,7 +13126,7 @@ export let HBarsArrowDown24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-bars-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11934,11 +13146,75 @@ export let HBarsArrowUp24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-bars-arrow-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M2.25 4.5A.75.75 0 013 3.75h14.25a.75.75 0 010 1.5H3a.75.75 0 01-.75-.75zm14.47 3.97a.75.75 0 011.06 0l3.75 3.75a.75.75 0 11-1.06 1.06L18 10.81V21a.75.75 0 01-1.5 0V10.81l-2.47 2.47a.75.75 0 11-1.06-1.06l3.75-3.75zM2.25 9A.75.75 0 013 8.25h9.75a.75.75 0 010 1.5H3A.75.75 0 012.25 9zm0 4.5a.75.75 0 01.75-.75h5.25a.75.75 0 010 1.5H3a.75.75 0 01-.75-.75z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HBattery024Solid = {
+  $_icon: {
+    name: "Battery0",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["battery","0"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M.75 9.75a3 3 0 013-3h15a3 3 0 013 3v.038c.856.173 1.5.93 1.5 1.837v2.25c0 .907-.644 1.664-1.5 1.838v.037a3 3 0 01-3 3h-15a3 3 0 01-3-3v-6zm19.5 0a1.5 1.5 0 00-1.5-1.5h-15a1.5 1.5 0 00-1.5 1.5v6a1.5 1.5 0 001.5 1.5h15a1.5 1.5 0 001.5-1.5v-6z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HBattery10024Solid = {
+  $_icon: {
+    name: "Battery100",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["battery","100"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M3.75 6.75a3 3 0 00-3 3v6a3 3 0 003 3h15a3 3 0 003-3v-.037c.856-.174 1.5-.93 1.5-1.838v-2.25c0-.907-.644-1.664-1.5-1.837V9.75a3 3 0 00-3-3h-15zm15 1.5a1.5 1.5 0 011.5 1.5v6a1.5 1.5 0 01-1.5 1.5h-15a1.5 1.5 0 01-1.5-1.5v-6a1.5 1.5 0 011.5-1.5h15zM4.5 9.75a.75.75 0 00-.75.75V15c0 .414.336.75.75.75H18a.75.75 0 00.75-.75v-4.5a.75.75 0 00-.75-.75H4.5z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HBattery5024Solid = {
+  $_icon: {
+    name: "Battery50",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["battery","50"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"d":"M4.5 9.75a.75.75 0 00-.75.75V15c0 .414.336.75.75.75h6.75A.75.75 0 0012 15v-4.5a.75.75 0 00-.75-.75H4.5z"}
+        ),
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M3.75 6.75a3 3 0 00-3 3v6a3 3 0 003 3h15a3 3 0 003-3v-.037c.856-.174 1.5-.93 1.5-1.838v-2.25c0-.907-.644-1.664-1.5-1.837V9.75a3 3 0 00-3-3h-15zm15 1.5a1.5 1.5 0 011.5 1.5v6a1.5 1.5 0 01-1.5 1.5h-15a1.5 1.5 0 01-1.5-1.5v-6a1.5 1.5 0 011.5-1.5h15z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -11954,7 +13230,7 @@ export let HBeaker24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-beaker"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11974,7 +13250,7 @@ export let HBellAlert24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-bell-alert"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11998,7 +13274,7 @@ export let HBellSlash24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-bell-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12022,7 +13298,7 @@ export let HBellSnooze24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-bell-snooze"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12042,7 +13318,7 @@ export let HBell24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-bell"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12062,7 +13338,7 @@ export let HBoltSlash24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-bolt-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12082,7 +13358,7 @@ export let HBolt24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-bolt"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12102,7 +13378,7 @@ export let HBookOpen24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-book-open"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12122,7 +13398,7 @@ export let HBookmarkSlash24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-bookmark-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12142,7 +13418,7 @@ export let HBookmarkSquare24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-bookmark-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12162,7 +13438,7 @@ export let HBookmark24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-bookmark"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12182,7 +13458,7 @@ export let HBriefcase24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-briefcase"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12191,6 +13467,26 @@ export let HBriefcase24Solid = {
         h(
           "path",
           {"d":"M3 18.4v-2.796a4.3 4.3 0 00.713.31A26.226 26.226 0 0012 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 01-6.477-.427C4.047 21.128 3 19.852 3 18.4z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HBugAnt24Solid = {
+  $_icon: {
+    name: "BugAnt",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["bug","ant"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M8.478 1.6a.75.75 0 01.273 1.025 3.72 3.72 0 00-.425 1.122c.058.057.118.114.18.168A4.491 4.491 0 0112 2.25c1.413 0 2.673.651 3.497 1.668.06-.054.12-.11.178-.167a3.717 3.717 0 00-.426-1.126.75.75 0 111.298-.75 5.22 5.22 0 01.671 2.045.75.75 0 01-.187.582c-.241.27-.505.52-.787.749a4.495 4.495 0 01.216 2.1c-.106.792-.753 1.295-1.417 1.403-.182.03-.364.057-.547.081.152.227.273.476.359.741a23.122 23.122 0 003.832-.802 23.241 23.241 0 00-.345-2.634.75.75 0 011.474-.28c.21 1.115.348 2.256.404 3.418a.75.75 0 01-.516.749c-1.527.5-3.119.855-4.76 1.05-.074.38-.22.735-.423 1.05a24.61 24.61 0 015.943 1.358.75.75 0 01.492.75 24.665 24.665 0 01-1.189 6.25.75.75 0 01-1.425-.47 23.141 23.141 0 001.077-5.307c-.5-.168-1.009-.32-1.524-.454.068.234.104.484.104.746 0 3.956-2.521 7.5-6 7.5-3.478 0-6-3.544-6-7.5 0-.262.037-.511.104-.746-.514.134-1.022.286-1.522.454a23.14 23.14 0 001.077 5.308.75.75 0 01-1.425.468 24.663 24.663 0 01-1.19-6.25.75.75 0 01.493-.749 24.593 24.593 0 014.964-1.24h.01c.321-.046.644-.085.969-.118a2.982 2.982 0 01-.424-1.05 24.614 24.614 0 01-4.76-1.05.75.75 0 01-.516-.75c.057-1.161.194-2.302.405-3.417a.75.75 0 011.474.28c-.164.862-.28 1.74-.345 2.634 1.237.37 2.517.641 3.832.802.085-.265.207-.514.359-.74a18.732 18.732 0 01-.547-.082c-.664-.108-1.311-.611-1.417-1.403a4.535 4.535 0 01.217-2.103 6.788 6.788 0 01-.788-.751.75.75 0 01-.187-.583 5.22 5.22 0 01.67-2.04.75.75 0 011.026-.273z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -12206,7 +13502,7 @@ export let HBuildingLibrary24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-building-library"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12234,7 +13530,7 @@ export let HBuildingOffice224Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-building-office-2"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12254,7 +13550,7 @@ export let HBuildingOffice24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-building-office"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12274,7 +13570,7 @@ export let HBuildingStorefront24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-building-storefront"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12298,7 +13594,7 @@ export let HCake24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-cake"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12318,7 +13614,7 @@ export let HCalculator24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-calculator"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12338,7 +13634,7 @@ export let HCalendarDays24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-calendar-days"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12362,7 +13658,7 @@ export let HCalendar24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-calendar"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12382,7 +13678,7 @@ export let HCamera24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-camera"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12406,7 +13702,7 @@ export let HChartBarSquare24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-chart-bar-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12426,7 +13722,7 @@ export let HChartBar24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-chart-bar"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12446,7 +13742,7 @@ export let HChartPie24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-chart-pie"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12470,7 +13766,7 @@ export let HChatBubbleBottomCenterText24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-chat-bubble-bottom-center-text"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12490,7 +13786,7 @@ export let HChatBubbleBottomCenter24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-chat-bubble-bottom-center"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12510,7 +13806,7 @@ export let HChatBubbleLeftEllipsis24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-chat-bubble-left-ellipsis"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12530,7 +13826,7 @@ export let HChatBubbleLeftRight24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-chat-bubble-left-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12554,7 +13850,7 @@ export let HChatBubbleLeft24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-chat-bubble-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12574,7 +13870,7 @@ export let HChatBubbleOvalLeftEllipsis24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-chat-bubble-oval-left-ellipsis"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12594,7 +13890,7 @@ export let HChatBubbleOvalLeft24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-chat-bubble-oval-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12614,7 +13910,7 @@ export let HCheckBadge24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-check-badge"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12634,7 +13930,7 @@ export let HCheckCircle24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-check-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12654,7 +13950,7 @@ export let HCheck24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12674,7 +13970,7 @@ export let HChevronDoubleDown24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-chevron-double-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12694,7 +13990,7 @@ export let HChevronDoubleLeft24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-chevron-double-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12714,7 +14010,7 @@ export let HChevronDoubleRight24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-chevron-double-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12734,7 +14030,7 @@ export let HChevronDoubleUp24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-chevron-double-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12754,7 +14050,7 @@ export let HChevronDown24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-chevron-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12774,7 +14070,7 @@ export let HChevronLeft24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-chevron-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12794,7 +14090,7 @@ export let HChevronRight24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-chevron-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12814,7 +14110,7 @@ export let HChevronUpDown24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-chevron-up-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12834,7 +14130,7 @@ export let HChevronUp24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-chevron-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12854,7 +14150,7 @@ export let HCircleStack24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-circle-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12886,7 +14182,7 @@ export let HClipboardDocumentCheck24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-clipboard-document-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12910,7 +14206,7 @@ export let HClipboardDocumentList24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-clipboard-document-list"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12934,7 +14230,7 @@ export let HClipboardDocument24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-clipboard-document"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12962,7 +14258,7 @@ export let HClipboard24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-clipboard"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -12982,7 +14278,7 @@ export let HClock24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-clock"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13002,7 +14298,7 @@ export let HCloudArrowDown24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-cloud-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13022,7 +14318,7 @@ export let HCloudArrowUp24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-cloud-arrow-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13042,7 +14338,7 @@ export let HCloud24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-cloud"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13062,7 +14358,7 @@ export let HCodeBracketSquare24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-code-bracket-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13082,7 +14378,7 @@ export let HCodeBracket24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-code-bracket"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13102,7 +14398,7 @@ export let HCog6Tooth24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-cog-6-tooth"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13122,7 +14418,7 @@ export let HCog8Tooth24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-cog-8-tooth"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13142,7 +14438,7 @@ export let HCog24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-cog"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13166,7 +14462,7 @@ export let HCommandLine24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-command-line"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13186,7 +14482,7 @@ export let HComputerDesktop24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-computer-desktop"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13206,7 +14502,7 @@ export let HCpuChip24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-cpu-chip"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13230,7 +14526,7 @@ export let HCreditCard24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-credit-card"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13239,6 +14535,26 @@ export let HCreditCard24Solid = {
         h(
           "path",
           {"fill-rule":"evenodd","d":"M22.5 9.75h-21v7.5a3 3 0 003 3h15a3 3 0 003-3v-7.5zm-18 3.75a.75.75 0 01.75-.75h6a.75.75 0 010 1.5h-6a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5h3a.75.75 0 000-1.5h-3z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HCubeTransparent24Solid = {
+  $_icon: {
+    name: "CubeTransparent",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["cube","transparent"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M11.622 1.602a.75.75 0 01.756 0l2.25 1.313a.75.75 0 01-.756 1.295L12 3.118 10.128 4.21a.75.75 0 11-.756-1.295l2.25-1.313zM5.898 5.81a.75.75 0 01-.27 1.025l-1.14.665 1.14.665a.75.75 0 11-.756 1.295L3.75 8.806v.944a.75.75 0 01-1.5 0V7.5a.75.75 0 01.372-.648l2.25-1.312a.75.75 0 011.026.27zm12.204 0a.75.75 0 011.026-.27l2.25 1.312a.75.75 0 01.372.648v2.25a.75.75 0 01-1.5 0v-.944l-1.122.654a.75.75 0 11-.756-1.295l1.14-.665-1.14-.665a.75.75 0 01-.27-1.025zm-9 5.25a.75.75 0 011.026-.27L12 11.882l1.872-1.092a.75.75 0 11.756 1.295l-1.878 1.096V15a.75.75 0 01-1.5 0v-1.82l-1.878-1.095a.75.75 0 01-.27-1.025zM3 13.5a.75.75 0 01.75.75v1.82l1.878 1.095a.75.75 0 11-.756 1.295l-2.25-1.312a.75.75 0 01-.372-.648v-2.25A.75.75 0 013 13.5zm18 0a.75.75 0 01.75.75v2.25a.75.75 0 01-.372.648l-2.25 1.312a.75.75 0 11-.756-1.295l1.878-1.096V14.25a.75.75 0 01.75-.75zm-9 5.25a.75.75 0 01.75.75v.944l1.122-.654a.75.75 0 11.756 1.295l-2.25 1.313a.75.75 0 01-.756 0l-2.25-1.313a.75.75 0 11.756-1.295l1.122.654V19.5a.75.75 0 01.75-.75z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -13254,11 +14570,31 @@ export let HCube24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-cube"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"d":"M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HCurrencyBangladeshi24Solid = {
+  $_icon: {
+    name: "CurrencyBangladeshi",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["currency","bangladeshi"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M12 21.75c5.385 0 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25 2.25 6.615 2.25 12s4.365 9.75 9.75 9.75zM10.5 7.963a1.5 1.5 0 00-2.17-1.341l-.415.207a.75.75 0 00.67 1.342L9 7.963V9.75h-.75a.75.75 0 100 1.5H9v4.688c0 .563.26 1.198.867 1.525A4.501 4.501 0 0016.41 14.4c.199-.977-.636-1.649-1.415-1.649h-.745a.75.75 0 100 1.5h.656a3.002 3.002 0 01-4.327 1.893.113.113 0 01-.045-.051.336.336 0 01-.034-.154V11.25h5.25a.75.75 0 000-1.5H10.5V7.963z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -13274,7 +14610,7 @@ export let HCurrencyDollar24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-currency-dollar"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13298,7 +14634,7 @@ export let HCurrencyEuro24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-currency-euro"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13318,7 +14654,7 @@ export let HCurrencyPound24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-currency-pound"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13338,7 +14674,7 @@ export let HCurrencyRupee24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-currency-rupee"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13358,7 +14694,7 @@ export let HCurrencyYen24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-currency-yen"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13378,7 +14714,7 @@ export let HCursorArrowRays24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-cursor-arrow-rays"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13398,7 +14734,7 @@ export let HCursorArrowRipple24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-cursor-arrow-ripple"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13418,7 +14754,7 @@ export let HDevicePhoneMobile24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-device-phone-mobile"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13442,7 +14778,7 @@ export let HDeviceTablet24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-device-tablet"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13466,7 +14802,7 @@ export let HDocumentArrowDown24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-document-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13490,7 +14826,7 @@ export let HDocumentArrowUp24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-document-arrow-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13514,7 +14850,7 @@ export let HDocumentChartBar24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-document-chart-bar"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13538,7 +14874,7 @@ export let HDocumentCheck24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-document-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13562,7 +14898,7 @@ export let HDocumentDuplicate24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-document-duplicate"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13586,7 +14922,7 @@ export let HDocumentMagnifyingGlass24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-document-magnifying-glass"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13614,7 +14950,7 @@ export let HDocumentMinus24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-document-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13638,7 +14974,7 @@ export let HDocumentPlus24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-document-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13662,7 +14998,7 @@ export let HDocumentText24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-document-text"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13686,7 +15022,7 @@ export let HDocument24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-document"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13710,7 +15046,7 @@ export let HEllipsisHorizontalCircle24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-ellipsis-horizontal-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13730,7 +15066,7 @@ export let HEllipsisHorizontal24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-ellipsis-horizontal"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13750,7 +15086,7 @@ export let HEllipsisVertical24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-ellipsis-vertical"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13770,7 +15106,7 @@ export let HEnvelopeOpen24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-envelope-open"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13794,7 +15130,7 @@ export let HEnvelope24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-envelope"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13818,7 +15154,7 @@ export let HExclamationCircle24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-exclamation-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13838,11 +15174,31 @@ export let HExclamationTriangle24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-exclamation-triangle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
-          {"fill-rule":"evenodd","d":"M9.401 4.504c1.155-2.001 4.043-2.001 5.197 0l7.355 12.747c1.154 2-.29 4.5-2.599 4.5H4.645c-2.309 0-3.752-2.5-2.598-4.5L9.4 4.504zM12 9.75a.75.75 0 01.75.75v3.75a.75.75 0 01-1.5 0V10.5a.75.75 0 01.75-.75zM12 18a.75.75 0 100-1.5.75.75 0 000 1.5z","clip-rule":"evenodd"}
+          {"fill-rule":"evenodd","d":"M9.401 3.003c1.155-2 4.043-2 5.197 0l7.355 12.748c1.154 2-.29 4.5-2.599 4.5H4.645c-2.309 0-3.752-2.5-2.598-4.5L9.4 3.003zM12 8.25a.75.75 0 01.75.75v3.75a.75.75 0 01-1.5 0V9a.75.75 0 01.75-.75zm0 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HEyeDropper24Solid = {
+  $_icon: {
+    name: "EyeDropper",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["eye","dropper"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M16.098 2.598a3.75 3.75 0 113.622 6.275l-1.72.46V12a.75.75 0 01-.22.53l-.75.75a.75.75 0 01-1.06 0l-.97-.97-7.94 7.94a2.56 2.56 0 01-1.81.75 1.06 1.06 0 00-.75.31l-.97.97a.75.75 0 01-1.06 0l-.75-.75a.75.75 0 010-1.06l.97-.97a1.06 1.06 0 00.31-.75c0-.68.27-1.33.75-1.81L11.69 9l-.97-.97a.75.75 0 010-1.06l.75-.75A.75.75 0 0112 6h2.666l.461-1.72c.165-.617.49-1.2.971-1.682zm-3.348 7.463L4.81 18a1.06 1.06 0 00-.31.75c0 .318-.06.63-.172.922a2.56 2.56 0 01.922-.172c.281 0 .551-.112.75-.31l7.94-7.94-1.19-1.19z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -13858,7 +15214,7 @@ export let HEyeSlash24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-eye-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13886,7 +15242,7 @@ export let HEye24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-eye"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13910,7 +15266,7 @@ export let HFaceFrown24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-face-frown"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13930,7 +15286,7 @@ export let HFaceSmile24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-face-smile"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13950,7 +15306,7 @@ export let HFilm24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-film"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13970,7 +15326,7 @@ export let HFingerPrint24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-finger-print"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -13990,7 +15346,7 @@ export let HFire24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-fire"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14010,7 +15366,7 @@ export let HFlag24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-flag"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14030,7 +15386,7 @@ export let HFolderArrowDown24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-folder-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14050,7 +15406,7 @@ export let HFolderMinus24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-folder-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14070,7 +15426,7 @@ export let HFolderOpen24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-folder-open"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14090,7 +15446,7 @@ export let HFolderPlus24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-folder-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14110,7 +15466,7 @@ export let HFolder24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-folder"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14130,7 +15486,7 @@ export let HForward24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-forward"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14150,7 +15506,7 @@ export let HFunnel24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-funnel"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14170,7 +15526,7 @@ export let HGif24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-gif"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14190,7 +15546,7 @@ export let HGiftTop24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-gift-top"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14214,7 +15570,7 @@ export let HGift24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-gift"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14234,7 +15590,7 @@ export let HGlobeAlt24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-globe-alt"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14254,7 +15610,7 @@ export let HGlobeAmericas24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-globe-americas"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14274,7 +15630,7 @@ export let HGlobeAsiaAustralia24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-globe-asia-australia"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14298,7 +15654,7 @@ export let HGlobeEuropeAfrica24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-globe-europe-africa"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14318,7 +15674,7 @@ export let HHandRaised24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-hand-raised"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14338,7 +15694,7 @@ export let HHandThumbDown24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-hand-thumb-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14358,7 +15714,7 @@ export let HHandThumbUp24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-hand-thumb-up"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14378,7 +15734,7 @@ export let HHashtag24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-hashtag"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14398,7 +15754,7 @@ export let HHeart24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-heart"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14418,7 +15774,7 @@ export let HHomeModern24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-home-modern"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14442,7 +15798,7 @@ export let HHome24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-home"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14466,7 +15822,7 @@ export let HIdentification24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-identification"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14486,7 +15842,7 @@ export let HInboxArrowDown24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-inbox-arrow-down"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14510,7 +15866,7 @@ export let HInboxStack24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-inbox-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14534,7 +15890,7 @@ export let HInbox24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-inbox"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14554,7 +15910,7 @@ export let HInformationCircle24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-information-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14574,7 +15930,7 @@ export let HKey24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-key"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14594,7 +15950,7 @@ export let HLanguage24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-language"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14614,7 +15970,7 @@ export let HLifebuoy24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-lifebuoy"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14634,7 +15990,7 @@ export let HLightBulb24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-light-bulb"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14658,7 +16014,7 @@ export let HLink24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-link"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14678,7 +16034,7 @@ export let HListBullet24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-list-bullet"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14698,7 +16054,7 @@ export let HLockClosed24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-lock-closed"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14718,7 +16074,7 @@ export let HLockOpen24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-lock-open"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14738,7 +16094,7 @@ export let HMagnifyingGlassCircle24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-magnifying-glass-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14762,7 +16118,7 @@ export let HMagnifyingGlassMinus24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-magnifying-glass-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14782,7 +16138,7 @@ export let HMagnifyingGlassPlus24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-magnifying-glass-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14802,7 +16158,7 @@ export let HMagnifyingGlass24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-magnifying-glass"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14822,7 +16178,7 @@ export let HMapPin24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-map-pin"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14842,7 +16198,7 @@ export let HMap24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-map"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14862,7 +16218,7 @@ export let HMegaphone24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-megaphone"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14882,7 +16238,7 @@ export let HMicrophone24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-microphone"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14906,11 +16262,31 @@ export let HMinusCircle24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-minus-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm3 10.5a.75.75 0 000-1.5H9a.75.75 0 000 1.5h6z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HMinusSmall24Solid = {
+  $_icon: {
+    name: "MinusSmall",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["minus","small"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M5.25 12a.75.75 0 01.75-.75h12a.75.75 0 010 1.5H6a.75.75 0 01-.75-.75z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -14926,7 +16302,7 @@ export let HMinus24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14946,7 +16322,7 @@ export let HMoon24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-moon"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14966,7 +16342,7 @@ export let HMusicalNote24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-musical-note"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -14986,7 +16362,7 @@ export let HNewspaper24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-newspaper"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15010,11 +16386,31 @@ export let HNoSymbol24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-no-symbol"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M6.72 5.66l11.62 11.62A8.25 8.25 0 006.72 5.66zm10.56 12.68L5.66 6.72a8.25 8.25 0 0011.62 11.62zM5.105 5.106c3.807-3.808 9.98-3.808 13.788 0 3.808 3.807 3.808 9.98 0 13.788-3.807 3.808-9.98 3.808-13.788 0-3.808-3.807-3.808-9.98 0-13.788z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HPaintBrush24Solid = {
+  $_icon: {
+    name: "PaintBrush",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["paint","brush"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M20.599 1.5c-.376 0-.743.111-1.055.32l-5.08 3.385a18.747 18.747 0 00-3.471 2.987 10.04 10.04 0 014.815 4.815 18.748 18.748 0 002.987-3.472l3.386-5.079A1.902 1.902 0 0020.599 1.5zm-8.3 14.025a18.76 18.76 0 001.896-1.207 8.026 8.026 0 00-4.513-4.513A18.75 18.75 0 008.475 11.7l-.278.5a5.26 5.26 0 013.601 3.602l.502-.278zM6.75 13.5A3.75 3.75 0 003 17.25a1.5 1.5 0 01-1.601 1.497.75.75 0 00-.7 1.123 5.25 5.25 0 009.8-2.62 3.75 3.75 0 00-3.75-3.75z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -15030,7 +16426,7 @@ export let HPaperAirplane24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-paper-airplane"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15050,11 +16446,31 @@ export let HPaperClip24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-paper-clip"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M18.97 3.659a2.25 2.25 0 00-3.182 0l-10.94 10.94a3.75 3.75 0 105.304 5.303l7.693-7.693a.75.75 0 011.06 1.06l-7.693 7.693a5.25 5.25 0 11-7.424-7.424l10.939-10.94a3.75 3.75 0 115.303 5.304L9.097 18.835l-.008.008-.007.007-.002.002-.003.002A2.25 2.25 0 015.91 15.66l7.81-7.81a.75.75 0 011.061 1.06l-7.81 7.81a.75.75 0 001.054 1.068L18.97 6.84a2.25 2.25 0 000-3.182z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HPauseCircle24Solid = {
+  $_icon: {
+    name: "PauseCircle",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["pause","circle"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zM9 8.25a.75.75 0 00-.75.75v6c0 .414.336.75.75.75h.75a.75.75 0 00.75-.75V9a.75.75 0 00-.75-.75H9zm5.25 0a.75.75 0 00-.75.75v6c0 .414.336.75.75.75H15a.75.75 0 00.75-.75V9a.75.75 0 00-.75-.75h-.75z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -15070,7 +16486,7 @@ export let HPause24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-pause"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15090,7 +16506,7 @@ export let HPencilSquare24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-pencil-square"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15114,7 +16530,7 @@ export let HPencil24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-pencil"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15134,7 +16550,7 @@ export let HPhoneArrowDownLeft24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-phone-arrow-down-left"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15158,7 +16574,7 @@ export let HPhoneArrowUpRight24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-phone-arrow-up-right"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15182,7 +16598,7 @@ export let HPhoneXMark24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-phone-x-mark"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15202,7 +16618,7 @@ export let HPhone24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-phone"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15222,11 +16638,31 @@ export let HPhoto24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-photo"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M1.5 6a2.25 2.25 0 012.25-2.25h16.5A2.25 2.25 0 0122.5 6v12a2.25 2.25 0 01-2.25 2.25H3.75A2.25 2.25 0 011.5 18V6zM3 16.06V18c0 .414.336.75.75.75h16.5A.75.75 0 0021 18v-1.94l-2.69-2.689a1.5 1.5 0 00-2.12 0l-.88.879.97.97a.75.75 0 11-1.06 1.06l-5.16-5.159a1.5 1.5 0 00-2.12 0L3 16.061zm10.125-7.81a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HPlayCircle24Solid = {
+  $_icon: {
+    name: "PlayCircle",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["play","circle"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm14.024-.983a1.125 1.125 0 010 1.966l-5.603 3.113A1.125 1.125 0 019 15.113V8.887c0-.857.921-1.4 1.671-.983l5.603 3.113z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -15242,7 +16678,7 @@ export let HPlayPause24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-play-pause"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15262,7 +16698,7 @@ export let HPlay24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-play"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15282,11 +16718,31 @@ export let HPlusCircle24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-plus-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 9a.75.75 0 00-1.5 0v2.25H9a.75.75 0 000 1.5h2.25V15a.75.75 0 001.5 0v-2.25H15a.75.75 0 000-1.5h-2.25V9z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HPlusSmall24Solid = {
+  $_icon: {
+    name: "PlusSmall",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["plus","small"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M12 5.25a.75.75 0 01.75.75v5.25H18a.75.75 0 010 1.5h-5.25V18a.75.75 0 01-1.5 0v-5.25H6a.75.75 0 010-1.5h5.25V6a.75.75 0 01.75-.75z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -15302,11 +16758,31 @@ export let HPlus24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HPower24Solid = {
+  $_icon: {
+    name: "Power",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["power"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M12 2.25a.75.75 0 01.75.75v9a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM6.166 5.106a.75.75 0 010 1.06 8.25 8.25 0 1011.668 0 .75.75 0 111.06-1.06c3.808 3.807 3.808 9.98 0 13.788-3.807 3.808-9.98 3.808-13.788 0-3.808-3.807-3.808-9.98 0-13.788a.75.75 0 011.06 0z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -15322,7 +16798,7 @@ export let HPresentationChartBar24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-presentation-chart-bar"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15342,7 +16818,7 @@ export let HPresentationChartLine24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-presentation-chart-line"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15362,7 +16838,7 @@ export let HPrinter24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-printer"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15382,7 +16858,7 @@ export let HPuzzlePiece24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-puzzle-piece"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15402,7 +16878,7 @@ export let HQrCode24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-qr-code"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15422,7 +16898,7 @@ export let HQuestionMarkCircle24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-question-mark-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15442,7 +16918,7 @@ export let HQueueList24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-queue-list"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15462,7 +16938,7 @@ export let HRadio24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-radio"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15482,7 +16958,7 @@ export let HReceiptPercent24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-receipt-percent"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15502,7 +16978,7 @@ export let HReceiptRefund24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-receipt-refund"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15522,7 +16998,7 @@ export let HRectangleGroup24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-rectangle-group"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15542,11 +17018,35 @@ export let HRectangleStack24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-rectangle-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"d":"M5.566 4.657A4.505 4.505 0 016.75 4.5h10.5c.41 0 .806.055 1.183.157A3 3 0 0015.75 3h-7.5a3 3 0 00-2.684 1.657zM2.25 12a3 3 0 013-3h13.5a3 3 0 013 3v6a3 3 0 01-3 3H5.25a3 3 0 01-3-3v-6zM5.25 7.5c-.41 0-.806.055-1.184.157A3 3 0 016.75 6h10.5a3 3 0 012.683 1.657A4.505 4.505 0 0018.75 7.5H5.25z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HRocketLaunch24Solid = {
+  $_icon: {
+    name: "RocketLaunch",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["rocket","launch"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 01.75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 019.75 22.5a.75.75 0 01-.75-.75v-4.131A15.838 15.838 0 016.382 15H2.25a.75.75 0 01-.75-.75 6.75 6.75 0 017.815-6.666zM15 6.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z","clip-rule":"evenodd"}
+        ),
+        h(
+          "path",
+          {"d":"M5.26 17.242a.75.75 0 10-.897-1.203 5.243 5.243 0 00-2.05 5.022.75.75 0 00.625.627 5.243 5.243 0 005.022-2.051.75.75 0 10-1.202-.897 3.744 3.744 0 01-3.008 1.51c0-1.23.592-2.323 1.51-3.008z"}
         ) 
       ]
     )
@@ -15562,7 +17062,7 @@ export let HRss24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-rss"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15582,7 +17082,7 @@ export let HScale24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-scale"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15602,7 +17102,7 @@ export let HScissors24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-scissors"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15626,7 +17126,7 @@ export let HServerStack24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-server-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15650,7 +17150,7 @@ export let HServer24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-server"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15674,7 +17174,7 @@ export let HShare24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-share"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15694,7 +17194,7 @@ export let HShieldCheck24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-shield-check"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15714,7 +17214,7 @@ export let HShieldExclamation24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-shield-exclamation"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15734,7 +17234,7 @@ export let HShoppingBag24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-shopping-bag"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15754,7 +17254,7 @@ export let HShoppingCart24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-shopping-cart"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15774,7 +17274,7 @@ export let HSignalSlash24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-signal-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15794,7 +17294,7 @@ export let HSignal24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-signal"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15814,7 +17314,7 @@ export let HSparkles24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-sparkles"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15834,7 +17334,7 @@ export let HSpeakerWave24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-speaker-wave"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15858,7 +17358,7 @@ export let HSpeakerXMark24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-speaker-x-mark"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15878,7 +17378,7 @@ export let HSquare2Stack24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-square-2-stack"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15887,6 +17387,34 @@ export let HSquare2Stack24Solid = {
         h(
           "path",
           {"d":"M18 7.5a3 3 0 013 3V18a3 3 0 01-3 3h-7.5a3 3 0 01-3-3v-7.5a3 3 0 013-3H18z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HSquare3Stack3d24Solid = {
+  $_icon: {
+    name: "Square3Stack3d",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["square","3","stack","3d"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"d":"M11.644 1.59a.75.75 0 01.712 0l9.75 5.25a.75.75 0 010 1.32l-9.75 5.25a.75.75 0 01-.712 0l-9.75-5.25a.75.75 0 010-1.32l9.75-5.25z"}
+        ),
+        h(
+          "path",
+          {"d":"M3.265 10.602l7.668 4.129a2.25 2.25 0 002.134 0l7.668-4.13 1.37.739a.75.75 0 010 1.32l-9.75 5.25a.75.75 0 01-.71 0l-9.75-5.25a.75.75 0 010-1.32l1.37-.738z"}
+        ),
+        h(
+          "path",
+          {"d":"M10.933 19.231l-7.668-4.13-1.37.739a.75.75 0 000 1.32l9.75 5.25c.221.12.489.12.71 0l9.75-5.25a.75.75 0 000-1.32l-1.37-.738-7.668 4.13a2.25 2.25 0 01-2.134-.001z"}
         ) 
       ]
     )
@@ -15902,7 +17430,7 @@ export let HSquares2x224Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-squares-2x2"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15922,7 +17450,7 @@ export let HSquaresPlus24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-squares-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15942,11 +17470,31 @@ export let HStar24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-star"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HStopCircle24Solid = {
+  $_icon: {
+    name: "StopCircle",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["stop","circle"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm6-2.438c0-.724.588-1.312 1.313-1.312h4.874c.725 0 1.313.588 1.313 1.313v4.874c0 .725-.588 1.313-1.313 1.313H9.564a1.312 1.312 0 01-1.313-1.313V9.564z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -15962,7 +17510,7 @@ export let HStop24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-stop"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -15982,7 +17530,7 @@ export let HSun24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-sun"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -16002,7 +17550,7 @@ export let HSwatch24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-swatch"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -16026,7 +17574,7 @@ export let HTableCells24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-table-cells"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -16046,7 +17594,7 @@ export let HTag24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-tag"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -16066,7 +17614,7 @@ export let HTicket24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-ticket"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -16086,11 +17634,31 @@ export let HTrash24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-trash"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M16.5 4.478v.227a48.816 48.816 0 013.878.512.75.75 0 11-.256 1.478l-.209-.035-1.005 13.07a3 3 0 01-2.991 2.77H8.084a3 3 0 01-2.991-2.77L4.087 6.66l-.209.035a.75.75 0 01-.256-1.478A48.567 48.567 0 017.5 4.705v-.227c0-1.564 1.213-2.9 2.816-2.951a52.662 52.662 0 013.369 0c1.603.051 2.815 1.387 2.815 2.951zm-6.136-1.452a51.196 51.196 0 013.273 0C14.39 3.05 15 3.684 15 4.478v.113a49.488 49.488 0 00-6 0v-.113c0-.794.609-1.428 1.364-1.452zm-.355 5.945a.75.75 0 10-1.5.058l.347 9a.75.75 0 101.499-.058l-.346-9zm5.48.058a.75.75 0 10-1.498-.058l-.347 9a.75.75 0 001.5.058l.345-9z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HTrophy24Solid = {
+  $_icon: {
+    name: "Trophy",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["trophy"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M5.166 2.621v.858c-1.035.148-2.059.33-3.071.543a.75.75 0 00-.584.859 6.753 6.753 0 006.138 5.6 6.73 6.73 0 002.743 1.346A6.707 6.707 0 019.279 15H8.54c-1.036 0-1.875.84-1.875 1.875V19.5h-.75a2.25 2.25 0 00-2.25 2.25c0 .414.336.75.75.75h15a.75.75 0 00.75-.75 2.25 2.25 0 00-2.25-2.25h-.75v-2.625c0-1.036-.84-1.875-1.875-1.875h-.739a6.706 6.706 0 01-1.112-3.173 6.73 6.73 0 002.743-1.347 6.753 6.753 0 006.139-5.6.75.75 0 00-.585-.858 47.077 47.077 0 00-3.07-.543V2.62a.75.75 0 00-.658-.744 49.22 49.22 0 00-6.093-.377c-2.063 0-4.096.128-6.093.377a.75.75 0 00-.657.744zm0 2.629c0 1.196.312 2.32.857 3.294A5.266 5.266 0 013.16 5.337a45.6 45.6 0 012.006-.343v.256zm13.5 0v-.256c.674.1 1.343.214 2.006.343a5.265 5.265 0 01-2.863 3.207 6.72 6.72 0 00.857-3.294z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -16106,7 +17674,7 @@ export let HTruck24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-truck"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -16124,6 +17692,30 @@ export let HTruck24Solid = {
     )
   }
 }
+export let HTv24Solid = {
+  $_icon: {
+    name: "Tv",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["tv"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"d":"M19.5 6h-15v9h15V6z"}
+        ),
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M3.375 3C2.339 3 1.5 3.84 1.5 4.875v11.25C1.5 17.16 2.34 18 3.375 18H9.75v1.5H6A.75.75 0 006 21h12a.75.75 0 000-1.5h-3.75V18h6.375c1.035 0 1.875-.84 1.875-1.875V4.875C22.5 3.839 21.66 3 20.625 3H3.375zm0 13.5h17.25a.375.375 0 00.375-.375V4.875a.375.375 0 00-.375-.375H3.375A.375.375 0 003 4.875v11.25c0 .207.168.375.375.375z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
 export let HUserCircle24Solid = {
   $_icon: {
     name: "UserCircle",
@@ -16134,7 +17726,7 @@ export let HUserCircle24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-user-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -16154,7 +17746,7 @@ export let HUserGroup24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-user-group"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -16178,7 +17770,7 @@ export let HUserMinus24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-user-minus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -16198,7 +17790,7 @@ export let HUserPlus24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-user-plus"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -16218,7 +17810,7 @@ export let HUser24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-user"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -16238,11 +17830,31 @@ export let HUsers24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-users"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"d":"M4.5 6.375a4.125 4.125 0 118.25 0 4.125 4.125 0 01-8.25 0zM14.25 8.625a3.375 3.375 0 116.75 0 3.375 3.375 0 01-6.75 0zM1.5 19.125a7.125 7.125 0 0114.25 0v.003l-.001.119a.75.75 0 01-.363.63 13.067 13.067 0 01-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 01-.364-.63l-.001-.122zM17.25 19.128l-.001.144a2.25 2.25 0 01-.233.96 10.088 10.088 0 005.06-1.01.75.75 0 00.42-.643 4.875 4.875 0 00-6.957-4.611 8.586 8.586 0 011.71 5.157v.003z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HVariable24Solid = {
+  $_icon: {
+    name: "Variable",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["variable"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M19.253 2.292a.75.75 0 01.955.461A28.123 28.123 0 0121.75 12c0 3.266-.547 6.388-1.542 9.247a.75.75 0 11-1.416-.494c.94-2.7 1.458-5.654 1.458-8.753s-.519-6.054-1.458-8.754a.75.75 0 01.461-.954zm-14.227.013a.75.75 0 01.414.976A23.183 23.183 0 003.75 12c0 3.085.6 6.027 1.69 8.718a.75.75 0 01-1.39.563c-1.161-2.867-1.8-6-1.8-9.281 0-3.28.639-6.414 1.8-9.281a.75.75 0 01.976-.414zm4.275 5.052a1.5 1.5 0 012.21.803l.716 2.148L13.6 8.246a2.438 2.438 0 012.978-.892l.213.09a.75.75 0 11-.584 1.381l-.214-.09a.937.937 0 00-1.145.343l-2.021 3.033 1.084 3.255 1.445-.89a.75.75 0 11.786 1.278l-1.444.889a1.5 1.5 0 01-2.21-.803l-.716-2.148-1.374 2.062a2.437 2.437 0 01-2.978.892l-.213-.09a.75.75 0 01.584-1.381l.214.09a.938.938 0 001.145-.344l2.021-3.032-1.084-3.255-1.445.89a.75.75 0 11-.786-1.278l1.444-.89z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -16258,7 +17870,7 @@ export let HVideoCameraSlash24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-video-camera-slash"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -16278,7 +17890,7 @@ export let HVideoCamera24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-video-camera"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -16298,11 +17910,51 @@ export let HViewColumns24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-view-columns"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"d":"M15 3.75H9v16.5h6V3.75zM16.5 20.25h3.375c1.035 0 1.875-.84 1.875-1.875V5.625c0-1.036-.84-1.875-1.875-1.875H16.5v16.5zM4.125 3.75H7.5v16.5H4.125a1.875 1.875 0 01-1.875-1.875V5.625c0-1.036.84-1.875 1.875-1.875z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HViewfinderCircle24Solid = {
+  $_icon: {
+    name: "ViewfinderCircle",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["viewfinder","circle"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"d":"M6 3a3 3 0 00-3 3v1.5a.75.75 0 001.5 0V6A1.5 1.5 0 016 4.5h1.5a.75.75 0 000-1.5H6zM16.5 3a.75.75 0 000 1.5H18A1.5 1.5 0 0119.5 6v1.5a.75.75 0 001.5 0V6a3 3 0 00-3-3h-1.5zM12 8.25a3.75 3.75 0 100 7.5 3.75 3.75 0 000-7.5zM4.5 16.5a.75.75 0 00-1.5 0V18a3 3 0 003 3h1.5a.75.75 0 000-1.5H6A1.5 1.5 0 014.5 18v-1.5zM21 16.5a.75.75 0 00-1.5 0V18a1.5 1.5 0 01-1.5 1.5h-1.5a.75.75 0 000 1.5H18a3 3 0 003-3v-1.5z"}
+        ) 
+      ]
+    )
+  }
+}
+export let HWallet24Solid = {
+  $_icon: {
+    name: "Wallet",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["wallet"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"d":"M2.273 5.625A4.483 4.483 0 015.25 4.5h13.5c1.141 0 2.183.425 2.977 1.125A3 3 0 0018.75 3H5.25a3 3 0 00-2.977 2.625zM2.273 8.625A4.483 4.483 0 015.25 7.5h13.5c1.141 0 2.183.425 2.977 1.125A3 3 0 0018.75 6H5.25a3 3 0 00-2.977 2.625zM5.25 9a3 3 0 00-3 3v6a3 3 0 003 3h13.5a3 3 0 003-3v-6a3 3 0 00-3-3H15a.75.75 0 00-.75.75 2.25 2.25 0 01-4.5 0A.75.75 0 009 9H5.25z"}
         ) 
       ]
     )
@@ -16318,11 +17970,31 @@ export let HWifi24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-wifi"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
           {"fill-rule":"evenodd","d":"M1.371 8.143c5.858-5.857 15.356-5.857 21.213 0a.75.75 0 010 1.061l-.53.53a.75.75 0 01-1.06 0c-4.98-4.979-13.053-4.979-18.032 0a.75.75 0 01-1.06 0l-.53-.53a.75.75 0 010-1.06zm3.182 3.182c4.1-4.1 10.749-4.1 14.85 0a.75.75 0 010 1.061l-.53.53a.75.75 0 01-1.062 0 8.25 8.25 0 00-11.667 0 .75.75 0 01-1.06 0l-.53-.53a.75.75 0 010-1.06zm3.204 3.182a6 6 0 018.486 0 .75.75 0 010 1.061l-.53.53a.75.75 0 01-1.061 0 3.75 3.75 0 00-5.304 0 .75.75 0 01-1.06 0l-.53-.53a.75.75 0 010-1.06zm3.182 3.182a1.5 1.5 0 012.122 0 .75.75 0 010 1.061l-.53.53a.75.75 0 01-1.061 0l-.53-.53a.75.75 0 010-1.06z","clip-rule":"evenodd"}
+        ) 
+      ]
+    )
+  }
+}
+export let HWindow24Solid = {
+  $_icon: {
+    name: "Window",
+    vendor: "H",
+    type: ["24","solid"],
+    tags: ["window"],
+  },
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
+      [ 
+        h(
+          "path",
+          {"fill-rule":"evenodd","d":"M2.25 6a3 3 0 013-3h13.5a3 3 0 013 3v12a3 3 0 01-3 3H5.25a3 3 0 01-3-3V6zm18 3H3.75v9a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V9zm-15-3.75A.75.75 0 004.5 6v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V6a.75.75 0 00-.75-.75H5.25zm1.5.75a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H7.5a.75.75 0 01-.75-.75V6zm3-.75A.75.75 0 009 6v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V6a.75.75 0 00-.75-.75H9.75z","clip-rule":"evenodd"}
         ) 
       ]
     )
@@ -16338,7 +18010,7 @@ export let HWrenchScrewdriver24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-wrench-screwdriver"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -16366,7 +18038,7 @@ export let HWrench24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-wrench"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -16386,7 +18058,7 @@ export let HXCircle24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-x-circle"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -16406,7 +18078,7 @@ export let HXMark24Solid = {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-name":"h-x-mark"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
