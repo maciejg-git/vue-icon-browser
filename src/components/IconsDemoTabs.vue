@@ -1,6 +1,6 @@
 <template>
   <v-tabs base="rounded">
-    <v-tab :name="nativeTabName" v-if="hasNativeTab()">
+    <v-tab :name="nativeTabName">
       <div class="py-1">
         <icons-code
           v-for="usage in usageStrings.native"
@@ -79,18 +79,13 @@ export default {
       B: "Bootstrap",
       Mdi: "Material Design Icons",
       Fa: "Font Awesome",
+      H: "Heroicons"
     };
 
     let nativeTabName = computed(() => {
       let { vendor } = store.currentIconDemo.$_icon;
       return tabNames[vendor];
     });
-
-    let hasNativeTab = () => {
-      let { vendor } = store.currentIconDemo.$_icon;
-
-      return !(vendor == 'H') 
-    }
 
     // url
 
@@ -200,7 +195,6 @@ export default {
 
     return {
       usageStrings,
-      hasNativeTab,
       SVGstring,
       openVueComponentGithub,
       downloadVueComponent,
