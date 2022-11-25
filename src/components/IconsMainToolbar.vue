@@ -71,12 +71,12 @@
           >
             Download all as SVG
           </v-dropdown-menu-item>
-          <v-dropdown-menu-item
-            tag="button"
-            :disabled="!store.selectedIcons.length"
-          >
-            Sort
-          </v-dropdown-menu-item>
+          <!-- <v-dropdown-menu-item -->
+          <!--   tag="button" -->
+          <!--   :disabled="!store.selectedIcons.length" -->
+          <!-- > -->
+          <!--   Sort -->
+          <!-- </v-dropdown-menu-item> -->
         </v-card>
       </v-dropdown>
     </div>

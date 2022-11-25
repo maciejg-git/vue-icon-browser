@@ -41,6 +41,7 @@
       overflow-ellipsis
       transition-all
       duration-200
+      font-semibold
       p-2
       px-4
       mr-4
@@ -57,6 +58,7 @@
       &--active-state {
         @apply
           shadow-none
+          font-semibold
           text-white
           bg-primary-400
           hover:bg-primary-300
