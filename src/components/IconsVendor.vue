@@ -16,7 +16,7 @@
     >
       <template v-if="store.groupBy">
         <div v-if="icon.newLine" class="w-full my-4">
-          <span class="text-text-600 dark:text-text-00 font-semibold">
+          <span class="text-text-600 dark:text-text-400 font-semibold">
             {{ icon.$_icon.tags[0].toUpperCase() }}
           </span>
         </div>
