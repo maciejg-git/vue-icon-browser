@@ -86,6 +86,7 @@
         base="button-link"
         @click="handleToolbarClick('settings')"
         v-tooltip.bottom.oY6="'Settings'"
+        disabled
       >
         <v-icon
           name="b-gear"
