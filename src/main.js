@@ -28,7 +28,7 @@ import {
 import { registerIcon } from "./vue";
 import "tailwindcss/tailwind.css";
 import "./styles-form/form-reset.css";
-import "vue-component-tailwind/dist/style.css";
+import "../node_modules/vue-component-tailwind/dist/style.css";
 import "./styles/icon.css";
 import "./styles/shared.css";
 import "./styles/components.css";
