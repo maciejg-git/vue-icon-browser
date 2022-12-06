@@ -1,7 +1,7 @@
 <template>
   <div
     v-if="!iconsFiltered.length"
-    class="font-bold text-lg text-gray-400 dark:text-gray-400 py-6"
+    class="font-bold text-lg text-gray-400 dark:text-gray-400 py-6 "
   >
     Nothing found.
   </div>
@@ -59,8 +59,8 @@ export default {
 
     let iconSizeClasses = {
       sm: "h-6 w-6 m-2",
-      md: "h-8 w-8 m-2",
-      lg: "h-12 w-12 m-3",
+      md: "h-7 w-7 m-2",
+      lg: "h-10 w-10 m-3",
     };
 
     let isReady = ref(false)
@@ -97,19 +97,23 @@ export default {
           ? props.icons
           : props.icons.slice(0, store.loadedIconsCount);
 
-        return store.groupBy ? groupBy(icons) : icons;
+        if (store.groupBy) {
+          return groupBy(icons)
+        } else {
+          return icons
+        }
       }
 
-      let res = {};
+      let res = new Map();
       for (let t of tags) {
         if (t[0].includes(filter)) {
           for (let i of t[1]) {
-            res[i.$_icon.name] = i;
+            res.set(i.$_icon.name, i)
           }
         }
       }
 
-      icons = Object.values(res);
+      icons = Array.from(res.values())
 
       return store.groupBy ? groupBy(icons) : icons;
     });

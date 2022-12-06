@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-end justify-center mt-8">
+  <div class="flex flex-1 items-end justify-center">
     <v-input
       type="search"
       v-model="filter"

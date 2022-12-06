@@ -15,49 +15,60 @@
     </div>
   </v-navbar>
 
-  <div class="flex mx-16 dark:bg-neutral-800">
+  <div class="flex dark:bg-neutral-800">
     <div class="flex-1">
+      <div class="flex justify-between items-center mt-8">
+        <!-- filter -->
+
+        <div class="flex flex-1 mx-10">
+          <icons-main-filter />
+        </div>
+
+        <!-- toolbar -->
+
+        <div class="flex mr-10">
+          <icons-main-toolbar />
+        </div>
+      </div>
+
+      <v-divider class="my-8 dark:border-neutral-700" />
+
       <div class="mx-auto">
-
-        <icons-main-filter />
-
-        <v-divider class="my-6 dark:border-neutral-700" />
-
-        <icons-main-toolbar />
-
         <!-- icons -->
 
         <div class="flex mt-4 justify-between">
-
           <!-- icons -->
 
-          <div>
+          <div class="w-full">
             <!-- selected icons -->
 
-            <div class="px-2" v-show="store.selectedIcons.length">
+            <div
+              class="w-10/12 mx-auto my-10"
+              v-show="store.selectedIcons.length"
+            >
               <icons-main-selected />
             </div>
 
-            <div v-if="store.bootstrap.active" class="px-2">
+            <div v-if="store.bootstrap.active" class="w-10/12 mx-auto">
               <icons-vendor-header vendor="bootstrap" />
               <icons-vendor-bootstrap
                 @bootstrap-loaded="handleVendorLoaded('bootstrap')"
               />
             </div>
 
-            <div v-if="store.mdi.active" class="px-2">
+            <div v-if="store.mdi.active" class="w-10/12 mx-auto">
               <icons-vendor-header vendor="mdi" />
               <icons-vendor-mdi @mdi-loaded="handleVendorLoaded('mdi')" />
             </div>
 
-            <div v-if="store.fontawesome.active" class="px-2">
+            <div v-if="store.fontawesome.active" class="w-10/12 mx-auto">
               <icons-vendor-header vendor="fontawesome" />
               <icons-vendor-fontawesome
                 @fontawesome-loaded="handleVendorLoaded('fontawesome')"
               />
             </div>
 
-            <div v-if="store.heroicons.active" class="px-2">
+            <div v-if="store.heroicons.active" class="w-10/12 mx-auto">
               <icons-vendor-header vendor="heroicons" />
               <icons-vendor-heroicons
                 @heroicons-loaded="handleVendorLoaded('heroicons')"
