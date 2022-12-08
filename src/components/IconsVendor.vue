@@ -1,7 +1,7 @@
 <template>
   <div
     v-if="!iconsFiltered.length"
-    class="font-bold text-lg text-gray-400 dark:text-gray-400 py-6 "
+    class="font-bold text-lg text-gray-400 dark:text-gray-400 py-6"
   >
     Nothing found.
   </div>
@@ -39,7 +39,7 @@
       class="ml-2"
       @click="handleClickLoadAllButton"
     >
-      Load All
+      Load All ({{ store[vendor].loadedCount }})
     </v-button>
   </div>
 </template>
@@ -63,13 +63,13 @@ export default {
       lg: "h-10 w-10 m-3",
     };
 
-    let isReady = ref(false)
+    let isReady = ref(false);
 
-    let tags = null
+    let tags = null;
 
     generateTags(props.icons, props.vendor).then((res) => {
-      tags = res
-      isReady.value = true
+      tags = res;
+      isReady.value = true;
     });
 
     let groupBy = (icons) => {
@@ -87,7 +87,7 @@ export default {
     };
 
     let iconsFiltered = computed(() => {
-      if (!isReady.value) return []
+      if (!isReady.value) return [];
 
       let filter = store.filter;
       let icons = null;
@@ -98,22 +98,23 @@ export default {
           : props.icons.slice(0, store.loadedIconsCount);
 
         if (store.groupBy) {
-          return groupBy(icons)
+          return groupBy(icons);
         } else {
-          return icons
+          return icons;
         }
       }
 
       let res = new Map();
+
       for (let t of tags) {
         if (t[0].includes(filter)) {
           for (let i of t[1]) {
-            res.set(i.$_icon.name, i)
+            res.set(i.$_icon.name, i);
           }
         }
       }
 
-      icons = Array.from(res.values())
+      icons = Array.from(res.values());
 
       return store.groupBy ? groupBy(icons) : icons;
     });

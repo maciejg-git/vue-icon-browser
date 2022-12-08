@@ -15,92 +15,75 @@
     </div>
   </v-navbar>
 
-  <div class="flex dark:bg-neutral-800">
-    <div class="flex-1">
-      <div class="flex justify-between items-center mt-8">
-        <!-- filter -->
+  <div class="flex justify-between items-center mt-8">
+    <!-- filter -->
 
-        <div class="flex flex-1 mx-10">
-          <icons-main-filter />
-        </div>
+    <div class="flex flex-1 mx-10">
+      <icons-main-filter />
+    </div>
 
-        <!-- toolbar -->
+    <!-- toolbar -->
 
-        <div class="flex mr-10">
-          <icons-main-toolbar />
-        </div>
+    <div class="flex mr-10">
+      <icons-main-toolbar />
+    </div>
+  </div>
+
+  <v-divider class="my-8 dark:border-neutral-700" />
+
+  <div class="flex mt-4 justify-between">
+    <!-- icons -->
+
+    <div class="w-full">
+      <!-- selected icons -->
+
+      <div class="w-10/12 mx-auto my-10" v-show="store.selectedIcons.length">
+        <icons-main-selected />
       </div>
 
-      <v-divider class="my-8 dark:border-neutral-700" />
+      <div v-if="store.bootstrap.active" class="w-10/12 mx-auto">
+        <icons-vendor-header vendor="bootstrap" />
+        <icons-vendor-bootstrap @vendor-loaded="handleVendorLoaded" />
+      </div>
 
-      <div class="mx-auto">
-        <!-- icons -->
+      <div v-if="store.mdi.active" class="w-10/12 mx-auto">
+        <icons-vendor-header vendor="mdi" />
+        <icons-vendor-mdi @vendor-loaded="handleVendorLoaded" />
+      </div>
 
-        <div class="flex mt-4 justify-between">
-          <!-- icons -->
+      <div v-if="store.fontawesome.active" class="w-10/12 mx-auto">
+        <icons-vendor-header vendor="fontawesome" />
+        <icons-vendor-fontawesome @vendor-loaded="handleVendorLoaded" />
+      </div>
 
-          <div class="w-full">
-            <!-- selected icons -->
-
-            <div
-              class="w-10/12 mx-auto my-10"
-              v-show="store.selectedIcons.length"
-            >
-              <icons-main-selected />
-            </div>
-
-            <div v-if="store.bootstrap.active" class="w-10/12 mx-auto">
-              <icons-vendor-header vendor="bootstrap" />
-              <icons-vendor-bootstrap
-                @bootstrap-loaded="handleVendorLoaded('bootstrap')"
-              />
-            </div>
-
-            <div v-if="store.mdi.active" class="w-10/12 mx-auto">
-              <icons-vendor-header vendor="mdi" />
-              <icons-vendor-mdi @mdi-loaded="handleVendorLoaded('mdi')" />
-            </div>
-
-            <div v-if="store.fontawesome.active" class="w-10/12 mx-auto">
-              <icons-vendor-header vendor="fontawesome" />
-              <icons-vendor-fontawesome
-                @fontawesome-loaded="handleVendorLoaded('fontawesome')"
-              />
-            </div>
-
-            <div v-if="store.heroicons.active" class="w-10/12 mx-auto">
-              <icons-vendor-header vendor="heroicons" />
-              <icons-vendor-heroicons
-                @heroicons-loaded="handleVendorLoaded('heroicons')"
-              />
-            </div>
-          </div>
-
-          <!-- icons demo -->
-
-          <transition name="fade">
-            <div
-              v-if="isDemoVisible"
-              class="mx-2 relative border-l dark:border-dark-700"
-            >
-              <div class="sticky top-20">
-                <icons-demo />
-              </div>
-            </div>
-          </transition>
-        </div>
+      <div v-if="store.heroicons.active" class="w-10/12 mx-auto">
+        <icons-vendor-header vendor="heroicons" />
+        <icons-vendor-heroicons @vendor-loaded="handleVendorLoaded" />
       </div>
     </div>
 
-    <!-- sidepanel -->
+    <!-- icons demo -->
 
-    <v-sidepanel v-model="store.isSidepanelActive" width="420px">
-      <template #header>
-        <span class="font-semibold dark:text-gray-300">Settings</span>
-      </template>
-      <icons-settings />
-    </v-sidepanel>
+    <transition name="fade">
+      <div
+        v-if="isDemoVisible"
+        class="mx-2 relative border-l dark:border-dark-700"
+      >
+        <div class="sticky top-20">
+          <icons-demo />
+        </div>
+      </div>
+    </transition>
   </div>
+
+  <!-- sidepanel -->
+
+  <v-sidepanel v-model="store.isSidepanelActive" width="420px">
+    <template #header>
+      <span class="font-semibold dark:text-gray-300">Settings</span>
+    </template>
+    <icons-settings />
+  </v-sidepanel>
 
   <icons-main-footer />
 </template>
@@ -153,7 +136,9 @@ export default {
       );
     });
 
-    let handleVendorLoaded = (vendor) => store.loadVendorComplete(vendor);
+    let handleVendorLoaded = (vendor) => {
+      store.loadVendorComplete(vendor);
+    };
 
     return {
       store,

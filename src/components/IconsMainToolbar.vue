@@ -77,6 +77,12 @@
           <!-- > -->
           <!--   Sort -->
           <!-- </v-dropdown-menu-item> -->
+          <v-dropdown-menu-item
+            :disabled="!store.selectedIcons.length"
+            tag="button"
+          >
+            Copy all as list
+          </v-dropdown-menu-item>
         </v-card>
       </v-dropdown>
     </div>

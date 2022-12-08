@@ -7,16 +7,20 @@ import { onMounted } from "vue";
 import IconsVendor from "./IconsVendor.vue";
 import { loadIcons } from "../icons";
 import * as iconsData from "../icons/heroicons";
-// import tags from "../icons/dist-bootstrap/tags.json";
+import { useStore } from "../composition/useStore";
 
 export default {
   components: {
     IconsVendor,
   },
   setup(props, { emit }) {
+    let store = useStore();
+
     let icons = loadIcons(iconsData);
 
-    onMounted(() => emit("heroicons-loaded"));
+    store.heroicons.loadedCount = icons.length
+
+    onMounted(() => emit("vendor-loaded", 'heroicons'));
 
     return {
       icons,

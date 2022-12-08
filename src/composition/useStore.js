@@ -17,6 +17,7 @@ export const useStore = defineStore('main', {
         loading: false,
         loaded: false,
         loadedAll: false,
+        loadedCount: 0,
         name: "Bootstrap",
         icon: "b-bootstrap-fill",
       },
@@ -49,7 +50,7 @@ export const useStore = defineStore('main', {
       isSidepanelActive: false,
       selectedIcons: [],
       lastSelectedIcon: {},
-      loadedIconsCount: 500,
+      loadedIconsCount: 400,
     }
   },
   getters: {
