@@ -8,11 +8,12 @@ export let loadIcons = (icons) => {
   for (let icon in icons) {
     markRaw(icons[icon]);
 
-    icons[icon].selected = ref(false);
-    icons[icon].getIconName = getIconName;
-    icons[icon].getUniqueIconName = getUniqueIconName;
+    let i = icons[icon]
 
-    // if (tags[icon].length) icons[icon].$_icon.tagsExtra = tags[icon];
+    i.selected = ref(false);
+    i.getIconName = getIconName;
+    i.getUniqueIconName = getUniqueIconName;
+    i.$_icon.uid = i.$_icon.vendor + i.$_icon.name + i.$_icon.type.join("")
   }
 
   return Object.values(icons).sort((a, b) => {

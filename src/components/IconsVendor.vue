@@ -10,10 +10,7 @@
     class="flex flex-wrap items-center"
     @click="handleClickIcon($event)"
   >
-    <template
-      v-for="(icon, index) in iconsFiltered"
-      :key="icon.$_icon.vendor + icon.$_icon.name + icon.$_icon.type"
-    >
+    <template v-for="(icon, index) in iconsFiltered" :key="icon.$_icon.uid">
       <template v-if="store.groupBy">
         <div v-if="icon.newLine" class="w-full my-4">
           <span class="text-text-600 dark:text-text-400 font-semibold">
@@ -25,10 +22,10 @@
         <component
           :is="icon"
           class="text-gray-600 dark:text-gray-400"
-          :class="[
-            iconSizeClasses[store.size],
-            { 'icon--selected': icon.selected.value },
-          ]"
+          :class="{
+            ...iconSizeClasses,
+            'icon--selected': icon.selected.value,
+          }"
         ></component>
       </div>
     </template>
@@ -57,11 +54,13 @@ export default {
   setup(props, { emit }) {
     let store = useStore();
 
-    let iconSizeClasses = {
-      sm: "h-6 w-6 m-2",
-      md: "h-7 w-7 m-2",
-      lg: "h-10 w-10 m-3",
-    };
+    let iconSizeClasses = computed(() => {
+      return {
+        "h-6 w-6 m-2": store.size === "sm",
+        "h-7 w-7 m-2": store.size === "md",
+        "h-10 w-10 m-3": store.size === "lg",
+      };
+    });
 
     let isReady = ref(false);
 
