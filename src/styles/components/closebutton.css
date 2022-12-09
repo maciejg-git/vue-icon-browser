@@ -2,7 +2,7 @@
   @apply
     w-5
     h-5
-    text-text-800
+    text-text-200
     dark:text-text-300;
 
     &--small {
