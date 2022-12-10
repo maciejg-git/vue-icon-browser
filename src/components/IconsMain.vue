@@ -88,7 +88,7 @@
   <icons-main-footer />
 </template>
 
-<script>
+<script setup>
 import { computed, defineAsyncComponent } from "vue";
 import { useStore } from "../composition/useStore";
 import LoadingProgress from "./LoadingProgress.vue";
@@ -100,52 +100,33 @@ import IconsMainFooter from "./IconsMainFooter.vue";
 import IconsMainFilter from "./IconsMainFilter.vue";
 import IconsVendorHeader from "./IconsVendorHeader.vue";
 
-export default {
-  components: {
-    IconsVendorBootstrap: defineAsyncComponent({
-      loader: () => import("./IconsVendorBootstrap.vue"),
-      loadingComponent: LoadingProgress,
-    }),
-    IconsVendorMdi: defineAsyncComponent({
-      loader: () => import("./IconsVendorMdi.vue"),
-      loadingComponent: LoadingProgress,
-    }),
-    IconsVendorFontawesome: defineAsyncComponent({
-      loader: () => import("./IconsVendorFontawesome.vue"),
-      loadingComponent: LoadingProgress,
-    }),
-    IconsVendorHeroicons: defineAsyncComponent({
-      loader: () => import("./IconsVendorHeroicons.vue"),
-      loadingComponent: LoadingProgress,
-    }),
-    IconsMainToolbar,
-    IconsDemo,
-    IconsMainSelected,
-    IconsSettings,
-    IconsMainFooter,
-    IconsMainFilter,
-    IconsVendorHeader,
-  },
-  setup() {
-    let store = useStore();
+let IconsVendorBootstrap = defineAsyncComponent({
+  loader: () => import("./IconsVendorBootstrap.vue"),
+  loadingComponent: LoadingProgress,
+});
+let IconsVendorMdi = defineAsyncComponent({
+  loader: () => import("./IconsVendorMdi.vue"),
+  loadingComponent: LoadingProgress,
+});
+let IconsVendorFontawesome = defineAsyncComponent({
+  loader: () => import("./IconsVendorFontawesome.vue"),
+  loadingComponent: LoadingProgress,
+});
+let IconsVendorHeroicons = defineAsyncComponent({
+  loader: () => import("./IconsVendorHeroicons.vue"),
+  loadingComponent: LoadingProgress,
+});
+let store = useStore();
 
-    let isDemoVisible = computed(() => {
-      return (
-        store.currentIconDemo &&
-        (store.isAnyVendorLoaded || store.selectedIcons.length)
-      );
-    });
+let isDemoVisible = computed(() => {
+  return (
+    store.currentIconDemo &&
+    (store.isAnyVendorLoaded || store.selectedIcons.length)
+  );
+});
 
-    let handleVendorLoaded = (vendor) => {
-      store.loadVendorComplete(vendor);
-    };
-
-    return {
-      store,
-      isDemoVisible,
-      handleVendorLoaded,
-    };
-  },
+let handleVendorLoaded = (vendor) => {
+  store.loadVendorComplete(vendor);
 };
 </script>
 

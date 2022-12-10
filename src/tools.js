@@ -35,6 +35,7 @@ export let scheduleRefUpdate = (ref, prop, t) => {
 export let copyTextToClipboard = (text, ref) => {
   navigator.clipboard.writeText(text).then(
     function () {
+      if (!ref) return
       ref.value = true;
       scheduleRefUpdate(ref, "value", 1000);
     },

@@ -10,7 +10,9 @@
         :name="store.currentIconDemo"
         class="h-16 w-16 text-gray-600 dark:text-gray-400"
       ></v-icon>
-      <div class="overflow-hidden text-ellipsis leading-10 text-3xl text-gray-600 dark:text-gray-400">
+      <div
+        class="overflow-hidden text-ellipsis leading-10 text-3xl text-gray-600 dark:text-gray-400"
+      >
         {{ store.currentIconDemo.getIconName() }}
       </div>
     </div>
@@ -87,7 +89,7 @@
         <h2
           class="flex items-center text-xl text-gray-600 dark:text-gray-400 gap-x-2 my-1"
         >
-          <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
+          <v-icon name="store.currentIconDemo" class="h-6 w-6"></v-icon>
           Heading 2
         </h2>
       </div>

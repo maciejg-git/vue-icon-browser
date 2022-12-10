@@ -59,148 +59,132 @@
   </v-tabs>
 </template>
 
-<script>
+<script setup>
 import { ref, computed, watch } from "vue";
 import { useStore } from "../composition/useStore";
 import { toKebab, cloneObject, download } from "../tools";
 import { templates, urls } from "../const";
 import IconsCode from "./IconsCode.vue";
 
-export default {
-  components: {
-    IconsCode,
-  },
-  setup() {
-    let store = useStore();
+let store = useStore();
 
-    // tab name
+// tab name
 
-    let tabNames = {
-      B: "Bootstrap",
-      Mdi: "Material Design Icons",
-      Fa: "Font Awesome",
-      H: "Heroicons"
-    };
-
-    let nativeTabName = computed(() => {
-      let { vendor } = store.currentIconDemo.$_icon;
-      return tabNames[vendor];
-    });
-
-    // url
-
-    let makeUrl = (path) => path.filter(Boolean).join("/");
-
-    // svg
-
-    let SVGstring = ref("");
-
-    let getSVGurl = () => {
-      let { tags, vendor, type } = store.currentIconDemo.$_icon;
-
-      let file = tags.join("-") + ".svg"
-
-      let url = makeUrl([urls[vendor].SVG, ...type, file]);
-
-      return {
-        file,
-        url,
-      };
-    };
-
-    watch(
-      () => store.currentIconDemo,
-      async (value) => {
-        if (!value) return
-
-        let { url } = getSVGurl();
-
-        let res = await fetch(url);
-        res = await res.text();
-
-        SVGstring.value = res;
-      },
-      { immediate: true }
-    );
-
-    let downloadSVG = async () => {
-      let { url, file } = getSVGurl();
-
-      let res = await fetch(url);
-      res = await res.text();
-
-      download(file, res);
-    };
-
-    // vue component
-
-    let downloadVueComponent = async () => {
-      let { vendor, type, tags } = store.currentIconDemo.$_icon;
-
-      let name = tags.join("-")
-      type = type.join("-")
-
-      let file = name + (type ? "-" + type : "") + ".js";
-
-      let url = makeUrl([urls[vendor].download.vue, file]);
-
-      let res = await fetch(url);
-      res = await res.text();
-
-      download(file, res);
-    };
-
-    let openVueComponentGithub = () => {
-      let { vendor, type, tags } = store.currentIconDemo.$_icon;
-
-      let name = tags.join("-")
-      type = type.join("-")
-
-      let file = name + (type ? "-" + type : "") + ".js";
-
-      let url = makeUrl([urls[vendor].github.vue, file]);
-
-      window.open(url)
-    }
-
-    // usage strings
-
-    let getStringFromTemplate = (tab, usage) => {
-      let { name, vendor, type, tags } = store.currentIconDemo.$_icon;
-
-      type = type.join("")
-
-      return templates[vendor][tab][usage].s
-        .replace(/%v/g, vendor)
-        .replace(/%kv/g, toKebab(vendor))
-        .replace(/%n/g, name)
-        .replace(/%kn/g, tags.join("-"))
-        .replace(/%t/g, type)
-        .replace(/%kt/g, toKebab(type));
-    };
-
-    let usageStrings = computed(() => {
-      let { vendor } = store.currentIconDemo.$_icon;
-
-      let template = cloneObject(templates[vendor]);
-
-      for (let tab in template) {
-        for (let type in template[tab]) {
-          template[tab][type].s = getStringFromTemplate(tab, type);
-        }
-      }
-
-      return template;
-    });
-
-    return {
-      usageStrings,
-      SVGstring,
-      openVueComponentGithub,
-      downloadVueComponent,
-      downloadSVG,
-      nativeTabName,
-    };
-  },
+let tabNames = {
+  B: "Bootstrap",
+  Mdi: "Material Design Icons",
+  Fa: "Font Awesome",
+  H: "Heroicons",
 };
+
+let nativeTabName = computed(() => {
+  let { vendor } = store.currentIconDemo.$_icon;
+  return tabNames[vendor];
+});
+
+// url
+
+let makeUrl = (path) => path.filter(Boolean).join("/");
+
+// svg
+
+let SVGstring = ref("");
+
+let getSVGurl = () => {
+  let { tags, vendor, type } = store.currentIconDemo.$_icon;
+
+  let file = tags.join("-") + ".svg";
+
+  let url = makeUrl([urls[vendor].SVG, ...type, file]);
+
+  return {
+    file,
+    url,
+  };
+};
+
+watch(
+  () => store.currentIconDemo,
+  async (value) => {
+    if (!value) return;
+
+    let { url } = getSVGurl();
+
+    let res = await fetch(url);
+    res = await res.text();
+
+    SVGstring.value = res;
+  },
+  { immediate: true }
+);
+
+let downloadSVG = async () => {
+  let { url, file } = getSVGurl();
+
+  let res = await fetch(url);
+  res = await res.text();
+
+  download(file, res);
+};
+
+// vue component
+
+let downloadVueComponent = async () => {
+  let { vendor, type, tags } = store.currentIconDemo.$_icon;
+
+  let name = tags.join("-");
+  type = type.join("-");
+
+  let file = name + (type ? "-" + type : "") + ".js";
+
+  let url = makeUrl([urls[vendor].download.vue, file]);
+
+  let res = await fetch(url);
+  res = await res.text();
+
+  download(file, res);
+};
+
+let openVueComponentGithub = () => {
+  let { vendor, type, tags } = store.currentIconDemo.$_icon;
+
+  let name = tags.join("-");
+  type = type.join("-");
+
+  let file = name + (type ? "-" + type : "") + ".js";
+
+  let url = makeUrl([urls[vendor].github.vue, file]);
+
+  window.open(url);
+};
+
+// usage strings
+
+let getStringFromTemplate = (tab, usage) => {
+  let { name, vendor, type, tags } = store.currentIconDemo.$_icon;
+
+  type = type.join("");
+
+  return templates[vendor][tab][usage].s
+    .replace(/%v/g, vendor)
+    .replace(/%kv/g, toKebab(vendor))
+    .replace(/%n/g, name)
+    .replace(/%kn/g, tags.join("-"))
+    .replace(/%t/g, type)
+    .replace(/%kt/g, toKebab(type));
+};
+
+let usageStrings = computed(() => {
+  let { vendor } = store.currentIconDemo.$_icon;
+
+  let template = cloneObject(templates[vendor]);
+
+  for (let tab in template) {
+    for (let type in template[tab]) {
+      template[tab][type].s = getStringFromTemplate(tab, type);
+    }
+  }
+
+  return template;
+});
 </script>

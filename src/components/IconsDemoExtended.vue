@@ -87,20 +87,11 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import { ref } from "vue";
 import { useStore } from "../composition/useStore";
 
-export default {
-  setup() {
-    let store = useStore();
+let store = useStore();
 
-    let alertModel = ref(true);
-
-    return {
-      store,
-      alertModel,
-    };
-  },
-};
+let alertModel = ref(true);
 </script>
