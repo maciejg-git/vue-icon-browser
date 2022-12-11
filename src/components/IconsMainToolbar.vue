@@ -161,27 +161,30 @@ let buttons = {
 };
 
 let handleToolbarClick = (option) => {
-  if (option === "sm") store.size = "sm";
-  else if (option === "md") store.size = "md";
-  else if (option === "lg") store.size = "lg";
-  else if (option === "settings") {
+  if (option === "sm") {
+    store.size = "sm";
+  } else if (option === "md") {
+    store.size = "md";
+  } else if (option === "lg") {
+    store.size = "lg";
+  } else if (option === "settings") {
     store.isSidepanelActive = !store.isSidepanelActive;
   } else if (option === "layout") {
     store.groupBy = !store.groupBy;
   }
 };
 
-let joinUrl = (path) => path.filter(Boolean).join("/");
+let makeUrl = (path) => path.filter(Boolean).join("/");
 
 let downloadVueComponent = async (icon) => {
-  if (!icon) return;
+  let { vendor, type, tags } = icon.$_icon;
 
-  let { vendor, tags, type } = icon.$_icon;
-  type = toKebab(type);
-  let file = tags.join("-") + (type ? "-" + type : "") + ".js";
-  if (type === "brand") type = "brands";
+  let name = tags.join("-");
+  type = type.join("-");
 
-  let url = joinUrl([urls[vendor].download.vue, type, file]);
+  let file = name + (type ? "-" + type : "") + ".js";
+
+  let url = makeUrl([urls[vendor].download.vue, file]);
 
   let res = await fetch(url);
   res = await res.text();
@@ -205,7 +208,7 @@ let handleCopyAll = () => {
   let list = [];
 
   for (let icon of store.selectedIcons) {
-    list.push(icon.getUniqueIconName());
+    list.push(icon.getIconName());
   }
 
   copyTextToClipboard(list.join(",\n"), null);

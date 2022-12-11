@@ -4,21 +4,14 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import IconsMain from "./components/IconsMain.vue";
 import { useStore } from "./composition/useStore";
 
-export default {
-  components: {
-    IconsMain,
-  },
-  setup() {
-    let store = useStore();
-    store.initDarkMode();
+let store = useStore();
+store.initDarkMode();
 
-    document.title = "Vue Icon Browser";
-  }
-};
+document.title = "Vue Icon Browser";
 </script>
 
 <style>
@@ -39,8 +32,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .icon-tile {
-  @apply 
-    inline-block
+  @apply inline-block
     cursor-pointer
     rounded-md 
     p-2 

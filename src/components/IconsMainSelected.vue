@@ -22,7 +22,7 @@
             <component
               :is="icon"
               class="text-gray-600 dark:text-gray-400"
-              :class="[iconSizeClasses[store.size]]"
+              :class="iconSizeClasses[store.size]"
             ></component>
           </div>
         </template>
@@ -31,48 +31,34 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import { ref, watch } from "vue";
 import { useStore } from "../composition/useStore";
 
-export default {
-  setup(props) {
-    let store = useStore();
+let store = useStore();
 
-    let hoveredIcon = ref(null);
+let hoveredIcon = ref(null);
 
-    let iconSizeClasses = {
-      sm: "h-6 w-6 m-2",
-      md: "h-10 w-10 m-2",
-      lg: "h-14 w-14 m-3",
-    };
-
-    watch(store.selectedIcons, () => {
-      if (!store.selectedIcons.length) store.currentIconDemo = null;
-    });
-
-    let handleClickIcon = (ev) => {
-      let index = ev.target.dataset.index;
-      if (index) store.currentIconDemo = store.selectedIcons[index];
-    };
-
-    let handleMouseenterIcon = (icon) => hoveredIcon.value = icon;
-
-    let handleMouseleaveIcon = () => hoveredIcon.value = null;
-
-    let handleClickUnselect = (icon) => store.unselectIcon(icon);
-
-    return {
-      store,
-      hoveredIcon,
-      iconSizeClasses,
-      handleClickIcon,
-      handleMouseenterIcon,
-      handleMouseleaveIcon,
-      handleClickUnselect,
-    };
-  },
+let iconSizeClasses = {
+  sm: "h-6 w-6 m-2",
+  md: "h-7 w-7 m-2",
+  lg: "h-10 w-10 m-3",
 };
+
+watch(store.selectedIcons, () => {
+  if (!store.selectedIcons.length) store.currentIconDemo = null;
+});
+
+let handleClickIcon = (ev) => {
+  let index = ev.target.dataset.index;
+  if (index) store.currentIconDemo = store.selectedIcons[index];
+};
+
+let handleMouseenterIcon = (icon) => (hoveredIcon.value = icon);
+
+let handleMouseleaveIcon = () => (hoveredIcon.value = null);
+
+let handleClickUnselect = (icon) => store.unselectIcon(icon);
 </script>
 
 <style scoped>

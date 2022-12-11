@@ -124,28 +124,15 @@
   </v-modal>
 </template>
 
-<script>
+<script setup>
 import { ref } from "vue";
 import IconsDemoExtended from "./IconsDemoExtended.vue";
 import IconsDemoTabs from "./IconsDemoTabs.vue";
 import { useStore } from "../composition/useStore";
 
-export default {
-  components: {
-    IconsDemoExtended,
-    IconsDemoTabs,
-  },
-  setup() {
-    let store = useStore();
+let store = useStore();
 
-    let isExtendedDemoActive = ref(false);
-
-    return {
-      store,
-      isExtendedDemoActive,
-    };
-  },
-};
+let isExtendedDemoActive = ref(false);
 </script>
 
 <style scoped>

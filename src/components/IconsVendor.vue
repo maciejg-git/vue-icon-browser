@@ -41,123 +41,110 @@
   </div>
 </template>
 
-<script>
-import { ref, computed } from "vue";
+<script setup>
+import { ref, computed, defineProps } from "vue";
 import { useStore } from "../composition/useStore";
 import { generateTags } from "../icons.js";
 
-export default {
-  props: {
-    icons: { type: Object, default: undefined },
-    vendor: { type: String, default: "" },
-  },
-  setup(props, { emit }) {
-    let store = useStore();
+let props = defineProps({
+  icons: { type: Object, default: undefined },
+  vendor: { type: String, default: "" },
+});
 
-    let iconSizeClasses = computed(() => {
-      return {
-        "h-6 w-6 m-2": store.size === "sm",
-        "h-7 w-7 m-2": store.size === "md",
-        "h-10 w-10 m-3": store.size === "lg",
-      };
-    });
+let store = useStore();
 
-    let isReady = ref(false);
+let iconSizeClasses = computed(() => {
+  return {
+    "h-6 w-6 m-2": store.size === "sm",
+    "h-7 w-7 m-2": store.size === "md",
+    "h-10 w-10 m-3": store.size === "lg",
+  };
+});
 
-    let tags = null;
+let isReady = ref(false);
 
-    generateTags(props.icons, props.vendor).then((res) => {
-      tags = res;
-      isReady.value = true;
-    });
+let tags = null;
 
-    let groupBy = (icons) => {
-      let lastTag = "";
+generateTags(props.icons, props.vendor).then((res) => {
+  tags = res;
+  isReady.value = true;
+});
 
-      return icons.map((i) => {
-        if (i.$_icon.tags[0] !== lastTag) {
-          i.newLine = true;
-        } else {
-          i.newLine = false;
-        }
-        lastTag = i.$_icon.tags[0];
-        return i;
-      });
-    };
+let groupBy = (icons) => {
+  let lastTag = "";
 
-    let iconsFiltered = computed(() => {
-      if (!isReady.value) return [];
+  return icons.map((i) => {
+    if (i.$_icon.tags[0] !== lastTag) {
+      i.newLine = true;
+    } else {
+      i.newLine = false;
+    }
+    lastTag = i.$_icon.tags[0];
+    return i;
+  });
+};
 
-      let filter = store.filter;
-      let icons = null;
+let iconsFiltered = computed(() => {
+  if (!isReady.value) return [];
 
-      if (!filter) {
-        icons = store[props.vendor].loadedAll
-          ? props.icons
-          : props.icons.slice(0, store.loadedIconsCount);
+  let filter = store.filter;
+  let icons = null;
 
-        if (store.groupBy) {
-          return groupBy(icons);
-        } else {
-          return icons;
-        }
+  if (!filter) {
+    icons = store[props.vendor].loadedAll
+      ? props.icons
+      : props.icons.slice(0, store.loadedIconsCount);
+
+    if (store.groupBy) {
+      return groupBy(icons);
+    } else {
+      return icons;
+    }
+  }
+
+  let res = new Map();
+
+  for (let t of tags) {
+    if (t[0].includes(filter)) {
+      for (let i of t[1]) {
+        res.set(i.$_icon.name, i);
       }
+    }
+  }
 
-      let res = new Map();
+  icons = Array.from(res.values());
 
-      for (let t of tags) {
-        if (t[0].includes(filter)) {
-          for (let i of t[1]) {
-            res.set(i.$_icon.name, i);
-          }
-        }
-      }
+  return store.groupBy ? groupBy(icons) : icons;
+});
 
-      icons = Array.from(res.values());
+let selectIcon = (ev, icon) => {
+  let selectedIcons = icon;
+  if (
+    ev.shiftKey &&
+    store.lastSelectedIcon &&
+    store.lastSelectedIcon.vendor == icon.vendor
+  ) {
+    if (store.lastSelectedIcon) {
+      let from = iconsFiltered.value.indexOf(store.lastSelectedIcon);
+      let to = iconsFiltered.value.indexOf(icon);
+      if (to < from) [from, to] = [to, from];
+      selectedIcons = iconsFiltered.value.slice(from, to + 1);
+    }
+  }
 
-      return store.groupBy ? groupBy(icons) : icons;
-    });
+  store.selectIcons(selectedIcons);
+};
 
-    let selectIcon = (ev, icon) => {
-      let selectedIcons = icon;
-      if (
-        ev.shiftKey &&
-        store.lastSelectedIcon &&
-        store.lastSelectedIcon.vendor == icon.vendor
-      ) {
-        if (store.lastSelectedIcon) {
-          let from = iconsFiltered.value.indexOf(store.lastSelectedIcon);
-          let to = iconsFiltered.value.indexOf(icon);
-          if (to < from) [from, to] = [to, from];
-          selectedIcons = iconsFiltered.value.slice(from, to + 1);
-        }
-      }
+// handle template events
 
-      store.selectIcons(selectedIcons);
-    };
+let handleClickIcon = (ev) => {
+  let targetData = ev.target.dataset;
+  let index = targetData.index;
+  if (index) selectIcon(ev, iconsFiltered.value[index]);
+};
 
-    // handle template events
-
-    let handleClickIcon = (ev) => {
-      let targetData = ev.target.dataset;
-      let index = targetData.index;
-      if (index) selectIcon(ev, iconsFiltered.value[index]);
-    };
-
-    let handleClickLoadAllButton = () => {
-      store[props.vendor].loadedAll = true;
-    };
-
-    return {
-      store,
-      emit,
-      iconsFiltered,
-      selectIcon,
-      iconSizeClasses,
-      handleClickIcon,
-      handleClickLoadAllButton,
-    };
-  },
+let handleClickLoadAllButton = () => {
+  store[props.vendor].loadedAll = true;
 };
 </script>
 

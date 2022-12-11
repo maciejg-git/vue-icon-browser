@@ -4,6 +4,7 @@ export let B0CircleFill = {
   $_icon: {
     name: "0CircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["0","circle","fill"],
   },
@@ -28,6 +29,7 @@ export let B0Circle = {
   $_icon: {
     name: "0Circle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["0","circle"],
   },
@@ -52,6 +54,7 @@ export let B0SquareFill = {
   $_icon: {
     name: "0SquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["0","square","fill"],
   },
@@ -76,6 +79,7 @@ export let B0Square = {
   $_icon: {
     name: "0Square",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["0","square"],
   },
@@ -100,6 +104,7 @@ export let B1CircleFill = {
   $_icon: {
     name: "1CircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["1","circle","fill"],
   },
@@ -120,6 +125,7 @@ export let B1Circle = {
   $_icon: {
     name: "1Circle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["1","circle"],
   },
@@ -140,6 +146,7 @@ export let B1SquareFill = {
   $_icon: {
     name: "1SquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["1","square","fill"],
   },
@@ -160,6 +167,7 @@ export let B1Square = {
   $_icon: {
     name: "1Square",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["1","square"],
   },
@@ -184,6 +192,7 @@ export let B123 = {
   $_icon: {
     name: "123",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["123"],
   },
@@ -204,6 +213,7 @@ export let B2CircleFill = {
   $_icon: {
     name: "2CircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["2","circle","fill"],
   },
@@ -224,6 +234,7 @@ export let B2Circle = {
   $_icon: {
     name: "2Circle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["2","circle"],
   },
@@ -244,6 +255,7 @@ export let B2SquareFill = {
   $_icon: {
     name: "2SquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["2","square","fill"],
   },
@@ -264,6 +276,7 @@ export let B2Square = {
   $_icon: {
     name: "2Square",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["2","square"],
   },
@@ -288,6 +301,7 @@ export let B3CircleFill = {
   $_icon: {
     name: "3CircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["3","circle","fill"],
   },
@@ -308,6 +322,7 @@ export let B3Circle = {
   $_icon: {
     name: "3Circle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["3","circle"],
   },
@@ -332,6 +347,7 @@ export let B3SquareFill = {
   $_icon: {
     name: "3SquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["3","square","fill"],
   },
@@ -352,6 +368,7 @@ export let B3Square = {
   $_icon: {
     name: "3Square",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["3","square"],
   },
@@ -376,6 +393,7 @@ export let B4CircleFill = {
   $_icon: {
     name: "4CircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["4","circle","fill"],
   },
@@ -396,6 +414,7 @@ export let B4Circle = {
   $_icon: {
     name: "4Circle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["4","circle"],
   },
@@ -420,6 +439,7 @@ export let B4SquareFill = {
   $_icon: {
     name: "4SquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["4","square","fill"],
   },
@@ -444,6 +464,7 @@ export let B4Square = {
   $_icon: {
     name: "4Square",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["4","square"],
   },
@@ -468,6 +489,7 @@ export let B5CircleFill = {
   $_icon: {
     name: "5CircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["5","circle","fill"],
   },
@@ -488,6 +510,7 @@ export let B5Circle = {
   $_icon: {
     name: "5Circle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["5","circle"],
   },
@@ -508,6 +531,7 @@ export let B5SquareFill = {
   $_icon: {
     name: "5SquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["5","square","fill"],
   },
@@ -528,6 +552,7 @@ export let B5Square = {
   $_icon: {
     name: "5Square",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["5","square"],
   },
@@ -552,6 +577,7 @@ export let B6CircleFill = {
   $_icon: {
     name: "6CircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["6","circle","fill"],
   },
@@ -572,6 +598,7 @@ export let B6Circle = {
   $_icon: {
     name: "6Circle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["6","circle"],
   },
@@ -592,6 +619,7 @@ export let B6SquareFill = {
   $_icon: {
     name: "6SquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["6","square","fill"],
   },
@@ -616,6 +644,7 @@ export let B6Square = {
   $_icon: {
     name: "6Square",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["6","square"],
   },
@@ -640,6 +669,7 @@ export let B7CircleFill = {
   $_icon: {
     name: "7CircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["7","circle","fill"],
   },
@@ -660,6 +690,7 @@ export let B7Circle = {
   $_icon: {
     name: "7Circle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["7","circle"],
   },
@@ -680,6 +711,7 @@ export let B7SquareFill = {
   $_icon: {
     name: "7SquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["7","square","fill"],
   },
@@ -700,6 +732,7 @@ export let B7Square = {
   $_icon: {
     name: "7Square",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["7","square"],
   },
@@ -724,6 +757,7 @@ export let B8CircleFill = {
   $_icon: {
     name: "8CircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["8","circle","fill"],
   },
@@ -744,6 +778,7 @@ export let B8Circle = {
   $_icon: {
     name: "8Circle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["8","circle"],
   },
@@ -764,6 +799,7 @@ export let B8SquareFill = {
   $_icon: {
     name: "8SquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["8","square","fill"],
   },
@@ -788,6 +824,7 @@ export let B8Square = {
   $_icon: {
     name: "8Square",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["8","square"],
   },
@@ -812,6 +849,7 @@ export let B9CircleFill = {
   $_icon: {
     name: "9CircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["9","circle","fill"],
   },
@@ -832,6 +870,7 @@ export let B9Circle = {
   $_icon: {
     name: "9Circle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["9","circle"],
   },
@@ -852,6 +891,7 @@ export let B9SquareFill = {
   $_icon: {
     name: "9SquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["9","square","fill"],
   },
@@ -876,6 +916,7 @@ export let B9Square = {
   $_icon: {
     name: "9Square",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["9","square"],
   },
@@ -900,6 +941,7 @@ export let BActivity = {
   $_icon: {
     name: "Activity",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["activity"],
   },
@@ -920,6 +962,7 @@ export let BAirplaneEnginesFill = {
   $_icon: {
     name: "AirplaneEnginesFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["airplane","engines","fill"],
   },
@@ -940,6 +983,7 @@ export let BAirplaneEngines = {
   $_icon: {
     name: "AirplaneEngines",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["airplane","engines"],
   },
@@ -960,6 +1004,7 @@ export let BAirplaneFill = {
   $_icon: {
     name: "AirplaneFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["airplane","fill"],
   },
@@ -980,6 +1025,7 @@ export let BAirplane = {
   $_icon: {
     name: "Airplane",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["airplane"],
   },
@@ -1000,6 +1046,7 @@ export let BAlarmFill = {
   $_icon: {
     name: "AlarmFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["alarm","fill"],
   },
@@ -1020,6 +1067,7 @@ export let BAlarm = {
   $_icon: {
     name: "Alarm",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["alarm"],
   },
@@ -1044,6 +1092,7 @@ export let BAlexa = {
   $_icon: {
     name: "Alexa",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["alexa"],
   },
@@ -1064,6 +1113,7 @@ export let BAlignBottom = {
   $_icon: {
     name: "AlignBottom",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["align","bottom"],
   },
@@ -1088,6 +1138,7 @@ export let BAlignCenter = {
   $_icon: {
     name: "AlignCenter",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["align","center"],
   },
@@ -1108,6 +1159,7 @@ export let BAlignEnd = {
   $_icon: {
     name: "AlignEnd",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["align","end"],
   },
@@ -1132,6 +1184,7 @@ export let BAlignMiddle = {
   $_icon: {
     name: "AlignMiddle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["align","middle"],
   },
@@ -1152,6 +1205,7 @@ export let BAlignStart = {
   $_icon: {
     name: "AlignStart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["align","start"],
   },
@@ -1176,6 +1230,7 @@ export let BAlignTop = {
   $_icon: {
     name: "AlignTop",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["align","top"],
   },
@@ -1200,6 +1255,7 @@ export let BAlipay = {
   $_icon: {
     name: "Alipay",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["alipay"],
   },
@@ -1224,6 +1280,7 @@ export let BAlt = {
   $_icon: {
     name: "Alt",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["alt"],
   },
@@ -1244,6 +1301,7 @@ export let BAmd = {
   $_icon: {
     name: "Amd",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["amd"],
   },
@@ -1264,6 +1322,7 @@ export let BAndroid = {
   $_icon: {
     name: "Android",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["android"],
   },
@@ -1284,6 +1343,7 @@ export let BAndroid2 = {
   $_icon: {
     name: "Android2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["android2"],
   },
@@ -1304,6 +1364,7 @@ export let BAppIndicator = {
   $_icon: {
     name: "AppIndicator",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["app","indicator"],
   },
@@ -1328,6 +1389,7 @@ export let BApp = {
   $_icon: {
     name: "App",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["app"],
   },
@@ -1348,6 +1410,7 @@ export let BApple = {
   $_icon: {
     name: "Apple",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["apple"],
   },
@@ -1372,6 +1435,7 @@ export let BArchiveFill = {
   $_icon: {
     name: "ArchiveFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["archive","fill"],
   },
@@ -1392,6 +1456,7 @@ export let BArchive = {
   $_icon: {
     name: "Archive",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["archive"],
   },
@@ -1412,6 +1477,7 @@ export let BArrow90degDown = {
   $_icon: {
     name: "Arrow90degDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","90deg","down"],
   },
@@ -1432,6 +1498,7 @@ export let BArrow90degLeft = {
   $_icon: {
     name: "Arrow90degLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","90deg","left"],
   },
@@ -1452,6 +1519,7 @@ export let BArrow90degRight = {
   $_icon: {
     name: "Arrow90degRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","90deg","right"],
   },
@@ -1472,6 +1540,7 @@ export let BArrow90degUp = {
   $_icon: {
     name: "Arrow90degUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","90deg","up"],
   },
@@ -1492,6 +1561,7 @@ export let BArrowBarDown = {
   $_icon: {
     name: "ArrowBarDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","bar","down"],
   },
@@ -1512,6 +1582,7 @@ export let BArrowBarLeft = {
   $_icon: {
     name: "ArrowBarLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","bar","left"],
   },
@@ -1532,6 +1603,7 @@ export let BArrowBarRight = {
   $_icon: {
     name: "ArrowBarRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","bar","right"],
   },
@@ -1552,6 +1624,7 @@ export let BArrowBarUp = {
   $_icon: {
     name: "ArrowBarUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","bar","up"],
   },
@@ -1572,6 +1645,7 @@ export let BArrowClockwise = {
   $_icon: {
     name: "ArrowClockwise",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","clockwise"],
   },
@@ -1596,6 +1670,7 @@ export let BArrowCounterclockwise = {
   $_icon: {
     name: "ArrowCounterclockwise",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","counterclockwise"],
   },
@@ -1620,6 +1695,7 @@ export let BArrowDownCircleFill = {
   $_icon: {
     name: "ArrowDownCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","down","circle","fill"],
   },
@@ -1640,6 +1716,7 @@ export let BArrowDownCircle = {
   $_icon: {
     name: "ArrowDownCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","down","circle"],
   },
@@ -1660,6 +1737,7 @@ export let BArrowDownLeftCircleFill = {
   $_icon: {
     name: "ArrowDownLeftCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","down","left","circle","fill"],
   },
@@ -1680,6 +1758,7 @@ export let BArrowDownLeftCircle = {
   $_icon: {
     name: "ArrowDownLeftCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","down","left","circle"],
   },
@@ -1700,6 +1779,7 @@ export let BArrowDownLeftSquareFill = {
   $_icon: {
     name: "ArrowDownLeftSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","down","left","square","fill"],
   },
@@ -1720,6 +1800,7 @@ export let BArrowDownLeftSquare = {
   $_icon: {
     name: "ArrowDownLeftSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","down","left","square"],
   },
@@ -1740,6 +1821,7 @@ export let BArrowDownLeft = {
   $_icon: {
     name: "ArrowDownLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","down","left"],
   },
@@ -1760,6 +1842,7 @@ export let BArrowDownRightCircleFill = {
   $_icon: {
     name: "ArrowDownRightCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","down","right","circle","fill"],
   },
@@ -1780,6 +1863,7 @@ export let BArrowDownRightCircle = {
   $_icon: {
     name: "ArrowDownRightCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","down","right","circle"],
   },
@@ -1800,6 +1884,7 @@ export let BArrowDownRightSquareFill = {
   $_icon: {
     name: "ArrowDownRightSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","down","right","square","fill"],
   },
@@ -1820,6 +1905,7 @@ export let BArrowDownRightSquare = {
   $_icon: {
     name: "ArrowDownRightSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","down","right","square"],
   },
@@ -1840,6 +1926,7 @@ export let BArrowDownRight = {
   $_icon: {
     name: "ArrowDownRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","down","right"],
   },
@@ -1860,6 +1947,7 @@ export let BArrowDownShort = {
   $_icon: {
     name: "ArrowDownShort",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","down","short"],
   },
@@ -1880,6 +1968,7 @@ export let BArrowDownSquareFill = {
   $_icon: {
     name: "ArrowDownSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","down","square","fill"],
   },
@@ -1900,6 +1989,7 @@ export let BArrowDownSquare = {
   $_icon: {
     name: "ArrowDownSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","down","square"],
   },
@@ -1920,6 +2010,7 @@ export let BArrowDownUp = {
   $_icon: {
     name: "ArrowDownUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","down","up"],
   },
@@ -1940,6 +2031,7 @@ export let BArrowDown = {
   $_icon: {
     name: "ArrowDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","down"],
   },
@@ -1960,6 +2052,7 @@ export let BArrowLeftCircleFill = {
   $_icon: {
     name: "ArrowLeftCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","left","circle","fill"],
   },
@@ -1980,6 +2073,7 @@ export let BArrowLeftCircle = {
   $_icon: {
     name: "ArrowLeftCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","left","circle"],
   },
@@ -2000,6 +2094,7 @@ export let BArrowLeftRight = {
   $_icon: {
     name: "ArrowLeftRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","left","right"],
   },
@@ -2020,6 +2115,7 @@ export let BArrowLeftShort = {
   $_icon: {
     name: "ArrowLeftShort",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","left","short"],
   },
@@ -2040,6 +2136,7 @@ export let BArrowLeftSquareFill = {
   $_icon: {
     name: "ArrowLeftSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","left","square","fill"],
   },
@@ -2060,6 +2157,7 @@ export let BArrowLeftSquare = {
   $_icon: {
     name: "ArrowLeftSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","left","square"],
   },
@@ -2080,6 +2178,7 @@ export let BArrowLeft = {
   $_icon: {
     name: "ArrowLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","left"],
   },
@@ -2100,6 +2199,7 @@ export let BArrowRepeat = {
   $_icon: {
     name: "ArrowRepeat",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","repeat"],
   },
@@ -2124,6 +2224,7 @@ export let BArrowReturnLeft = {
   $_icon: {
     name: "ArrowReturnLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","return","left"],
   },
@@ -2144,6 +2245,7 @@ export let BArrowReturnRight = {
   $_icon: {
     name: "ArrowReturnRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","return","right"],
   },
@@ -2164,6 +2266,7 @@ export let BArrowRightCircleFill = {
   $_icon: {
     name: "ArrowRightCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","right","circle","fill"],
   },
@@ -2184,6 +2287,7 @@ export let BArrowRightCircle = {
   $_icon: {
     name: "ArrowRightCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","right","circle"],
   },
@@ -2204,6 +2308,7 @@ export let BArrowRightShort = {
   $_icon: {
     name: "ArrowRightShort",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","right","short"],
   },
@@ -2224,6 +2329,7 @@ export let BArrowRightSquareFill = {
   $_icon: {
     name: "ArrowRightSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","right","square","fill"],
   },
@@ -2244,6 +2350,7 @@ export let BArrowRightSquare = {
   $_icon: {
     name: "ArrowRightSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","right","square"],
   },
@@ -2264,6 +2371,7 @@ export let BArrowRight = {
   $_icon: {
     name: "ArrowRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","right"],
   },
@@ -2284,6 +2392,7 @@ export let BArrowThroughHeartFill = {
   $_icon: {
     name: "ArrowThroughHeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","through","heart","fill"],
   },
@@ -2304,6 +2413,7 @@ export let BArrowThroughHeart = {
   $_icon: {
     name: "ArrowThroughHeart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","through","heart"],
   },
@@ -2324,6 +2434,7 @@ export let BArrowUpCircleFill = {
   $_icon: {
     name: "ArrowUpCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","up","circle","fill"],
   },
@@ -2344,6 +2455,7 @@ export let BArrowUpCircle = {
   $_icon: {
     name: "ArrowUpCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","up","circle"],
   },
@@ -2364,6 +2476,7 @@ export let BArrowUpLeftCircleFill = {
   $_icon: {
     name: "ArrowUpLeftCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","up","left","circle","fill"],
   },
@@ -2384,6 +2497,7 @@ export let BArrowUpLeftCircle = {
   $_icon: {
     name: "ArrowUpLeftCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","up","left","circle"],
   },
@@ -2404,6 +2518,7 @@ export let BArrowUpLeftSquareFill = {
   $_icon: {
     name: "ArrowUpLeftSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","up","left","square","fill"],
   },
@@ -2424,6 +2539,7 @@ export let BArrowUpLeftSquare = {
   $_icon: {
     name: "ArrowUpLeftSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","up","left","square"],
   },
@@ -2444,6 +2560,7 @@ export let BArrowUpLeft = {
   $_icon: {
     name: "ArrowUpLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","up","left"],
   },
@@ -2464,6 +2581,7 @@ export let BArrowUpRightCircleFill = {
   $_icon: {
     name: "ArrowUpRightCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","up","right","circle","fill"],
   },
@@ -2484,6 +2602,7 @@ export let BArrowUpRightCircle = {
   $_icon: {
     name: "ArrowUpRightCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","up","right","circle"],
   },
@@ -2504,6 +2623,7 @@ export let BArrowUpRightSquareFill = {
   $_icon: {
     name: "ArrowUpRightSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","up","right","square","fill"],
   },
@@ -2524,6 +2644,7 @@ export let BArrowUpRightSquare = {
   $_icon: {
     name: "ArrowUpRightSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","up","right","square"],
   },
@@ -2544,6 +2665,7 @@ export let BArrowUpRight = {
   $_icon: {
     name: "ArrowUpRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","up","right"],
   },
@@ -2564,6 +2686,7 @@ export let BArrowUpShort = {
   $_icon: {
     name: "ArrowUpShort",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","up","short"],
   },
@@ -2584,6 +2707,7 @@ export let BArrowUpSquareFill = {
   $_icon: {
     name: "ArrowUpSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","up","square","fill"],
   },
@@ -2604,6 +2728,7 @@ export let BArrowUpSquare = {
   $_icon: {
     name: "ArrowUpSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","up","square"],
   },
@@ -2624,6 +2749,7 @@ export let BArrowUp = {
   $_icon: {
     name: "ArrowUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrow","up"],
   },
@@ -2644,6 +2770,7 @@ export let BArrowsAngleContract = {
   $_icon: {
     name: "ArrowsAngleContract",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrows","angle","contract"],
   },
@@ -2664,6 +2791,7 @@ export let BArrowsAngleExpand = {
   $_icon: {
     name: "ArrowsAngleExpand",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrows","angle","expand"],
   },
@@ -2684,6 +2812,7 @@ export let BArrowsCollapse = {
   $_icon: {
     name: "ArrowsCollapse",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrows","collapse"],
   },
@@ -2704,6 +2833,7 @@ export let BArrowsExpand = {
   $_icon: {
     name: "ArrowsExpand",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrows","expand"],
   },
@@ -2724,6 +2854,7 @@ export let BArrowsFullscreen = {
   $_icon: {
     name: "ArrowsFullscreen",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrows","fullscreen"],
   },
@@ -2744,6 +2875,7 @@ export let BArrowsMove = {
   $_icon: {
     name: "ArrowsMove",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrows","move"],
   },
@@ -2764,6 +2896,7 @@ export let BAspectRatioFill = {
   $_icon: {
     name: "AspectRatioFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["aspect","ratio","fill"],
   },
@@ -2784,6 +2917,7 @@ export let BAspectRatio = {
   $_icon: {
     name: "AspectRatio",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["aspect","ratio"],
   },
@@ -2808,6 +2942,7 @@ export let BAsterisk = {
   $_icon: {
     name: "Asterisk",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["asterisk"],
   },
@@ -2828,6 +2963,7 @@ export let BAt = {
   $_icon: {
     name: "At",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["at"],
   },
@@ -2848,6 +2984,7 @@ export let BAwardFill = {
   $_icon: {
     name: "AwardFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["award","fill"],
   },
@@ -2872,6 +3009,7 @@ export let BAward = {
   $_icon: {
     name: "Award",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["award"],
   },
@@ -2896,6 +3034,7 @@ export let BBack = {
   $_icon: {
     name: "Back",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["back"],
   },
@@ -2916,6 +3055,7 @@ export let BBackspaceFill = {
   $_icon: {
     name: "BackspaceFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["backspace","fill"],
   },
@@ -2936,6 +3076,7 @@ export let BBackspaceReverseFill = {
   $_icon: {
     name: "BackspaceReverseFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["backspace","reverse","fill"],
   },
@@ -2956,6 +3097,7 @@ export let BBackspaceReverse = {
   $_icon: {
     name: "BackspaceReverse",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["backspace","reverse"],
   },
@@ -2980,6 +3122,7 @@ export let BBackspace = {
   $_icon: {
     name: "Backspace",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["backspace"],
   },
@@ -3004,6 +3147,7 @@ export let BBadge3dFill = {
   $_icon: {
     name: "Badge3dFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","3d","fill"],
   },
@@ -3028,6 +3172,7 @@ export let BBadge3d = {
   $_icon: {
     name: "Badge3d",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","3d"],
   },
@@ -3052,6 +3197,7 @@ export let BBadge4kFill = {
   $_icon: {
     name: "Badge4kFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","4k","fill"],
   },
@@ -3076,6 +3222,7 @@ export let BBadge4k = {
   $_icon: {
     name: "Badge4k",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","4k"],
   },
@@ -3100,6 +3247,7 @@ export let BBadge8kFill = {
   $_icon: {
     name: "Badge8kFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","8k","fill"],
   },
@@ -3124,6 +3272,7 @@ export let BBadge8k = {
   $_icon: {
     name: "Badge8k",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","8k"],
   },
@@ -3148,6 +3297,7 @@ export let BBadgeAdFill = {
   $_icon: {
     name: "BadgeAdFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","ad","fill"],
   },
@@ -3172,6 +3322,7 @@ export let BBadgeAd = {
   $_icon: {
     name: "BadgeAd",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","ad"],
   },
@@ -3196,6 +3347,7 @@ export let BBadgeArFill = {
   $_icon: {
     name: "BadgeArFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","ar","fill"],
   },
@@ -3220,6 +3372,7 @@ export let BBadgeAr = {
   $_icon: {
     name: "BadgeAr",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","ar"],
   },
@@ -3244,6 +3397,7 @@ export let BBadgeCcFill = {
   $_icon: {
     name: "BadgeCcFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","cc","fill"],
   },
@@ -3264,6 +3418,7 @@ export let BBadgeCc = {
   $_icon: {
     name: "BadgeCc",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","cc"],
   },
@@ -3288,6 +3443,7 @@ export let BBadgeHdFill = {
   $_icon: {
     name: "BadgeHdFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","hd","fill"],
   },
@@ -3312,6 +3468,7 @@ export let BBadgeHd = {
   $_icon: {
     name: "BadgeHd",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","hd"],
   },
@@ -3336,6 +3493,7 @@ export let BBadgeSdFill = {
   $_icon: {
     name: "BadgeSdFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","sd","fill"],
   },
@@ -3360,6 +3518,7 @@ export let BBadgeSd = {
   $_icon: {
     name: "BadgeSd",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","sd"],
   },
@@ -3380,6 +3539,7 @@ export let BBadgeTmFill = {
   $_icon: {
     name: "BadgeTmFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","tm","fill"],
   },
@@ -3400,6 +3560,7 @@ export let BBadgeTm = {
   $_icon: {
     name: "BadgeTm",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","tm"],
   },
@@ -3424,6 +3585,7 @@ export let BBadgeVoFill = {
   $_icon: {
     name: "BadgeVoFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","vo","fill"],
   },
@@ -3448,6 +3610,7 @@ export let BBadgeVo = {
   $_icon: {
     name: "BadgeVo",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","vo"],
   },
@@ -3472,6 +3635,7 @@ export let BBadgeVrFill = {
   $_icon: {
     name: "BadgeVrFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","vr","fill"],
   },
@@ -3496,6 +3660,7 @@ export let BBadgeVr = {
   $_icon: {
     name: "BadgeVr",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","vr"],
   },
@@ -3520,6 +3685,7 @@ export let BBadgeWcFill = {
   $_icon: {
     name: "BadgeWcFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","wc","fill"],
   },
@@ -3540,6 +3706,7 @@ export let BBadgeWc = {
   $_icon: {
     name: "BadgeWc",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","wc"],
   },
@@ -3564,6 +3731,7 @@ export let BBagCheckFill = {
   $_icon: {
     name: "BagCheckFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bag","check","fill"],
   },
@@ -3584,6 +3752,7 @@ export let BBagCheck = {
   $_icon: {
     name: "BagCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bag","check"],
   },
@@ -3608,6 +3777,7 @@ export let BBagDashFill = {
   $_icon: {
     name: "BagDashFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bag","dash","fill"],
   },
@@ -3628,6 +3798,7 @@ export let BBagDash = {
   $_icon: {
     name: "BagDash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bag","dash"],
   },
@@ -3652,6 +3823,7 @@ export let BBagFill = {
   $_icon: {
     name: "BagFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bag","fill"],
   },
@@ -3672,6 +3844,7 @@ export let BBagHeartFill = {
   $_icon: {
     name: "BagHeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bag","heart","fill"],
   },
@@ -3692,6 +3865,7 @@ export let BBagHeart = {
   $_icon: {
     name: "BagHeart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bag","heart"],
   },
@@ -3712,6 +3886,7 @@ export let BBagPlusFill = {
   $_icon: {
     name: "BagPlusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bag","plus","fill"],
   },
@@ -3732,6 +3907,7 @@ export let BBagPlus = {
   $_icon: {
     name: "BagPlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bag","plus"],
   },
@@ -3756,6 +3932,7 @@ export let BBagXFill = {
   $_icon: {
     name: "BagXFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bag","x","fill"],
   },
@@ -3776,6 +3953,7 @@ export let BBagX = {
   $_icon: {
     name: "BagX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bag","x"],
   },
@@ -3800,6 +3978,7 @@ export let BBag = {
   $_icon: {
     name: "Bag",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bag"],
   },
@@ -3820,6 +3999,7 @@ export let BBalloonFill = {
   $_icon: {
     name: "BalloonFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["balloon","fill"],
   },
@@ -3840,6 +4020,7 @@ export let BBalloonHeartFill = {
   $_icon: {
     name: "BalloonHeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["balloon","heart","fill"],
   },
@@ -3860,6 +4041,7 @@ export let BBalloonHeart = {
   $_icon: {
     name: "BalloonHeart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["balloon","heart"],
   },
@@ -3880,6 +4062,7 @@ export let BBalloon = {
   $_icon: {
     name: "Balloon",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["balloon"],
   },
@@ -3900,6 +4083,7 @@ export let BBandaidFill = {
   $_icon: {
     name: "BandaidFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bandaid","fill"],
   },
@@ -3920,6 +4104,7 @@ export let BBandaid = {
   $_icon: {
     name: "Bandaid",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bandaid"],
   },
@@ -3944,6 +4129,7 @@ export let BBank = {
   $_icon: {
     name: "Bank",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bank"],
   },
@@ -3964,6 +4150,7 @@ export let BBank2 = {
   $_icon: {
     name: "Bank2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bank2"],
   },
@@ -3984,6 +4171,7 @@ export let BBarChartFill = {
   $_icon: {
     name: "BarChartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bar","chart","fill"],
   },
@@ -4004,6 +4192,7 @@ export let BBarChartLineFill = {
   $_icon: {
     name: "BarChartLineFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bar","chart","line","fill"],
   },
@@ -4024,6 +4213,7 @@ export let BBarChartLine = {
   $_icon: {
     name: "BarChartLine",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bar","chart","line"],
   },
@@ -4044,6 +4234,7 @@ export let BBarChartSteps = {
   $_icon: {
     name: "BarChartSteps",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bar","chart","steps"],
   },
@@ -4064,6 +4255,7 @@ export let BBarChart = {
   $_icon: {
     name: "BarChart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bar","chart"],
   },
@@ -4084,6 +4276,7 @@ export let BBasketFill = {
   $_icon: {
     name: "BasketFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["basket","fill"],
   },
@@ -4104,6 +4297,7 @@ export let BBasket = {
   $_icon: {
     name: "Basket",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["basket"],
   },
@@ -4124,6 +4318,7 @@ export let BBasket2Fill = {
   $_icon: {
     name: "Basket2Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["basket2","fill"],
   },
@@ -4144,6 +4339,7 @@ export let BBasket2 = {
   $_icon: {
     name: "Basket2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["basket2"],
   },
@@ -4168,6 +4364,7 @@ export let BBasket3Fill = {
   $_icon: {
     name: "Basket3Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["basket3","fill"],
   },
@@ -4188,6 +4385,7 @@ export let BBasket3 = {
   $_icon: {
     name: "Basket3",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["basket3"],
   },
@@ -4208,6 +4406,7 @@ export let BBatteryCharging = {
   $_icon: {
     name: "BatteryCharging",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["battery","charging"],
   },
@@ -4240,6 +4439,7 @@ export let BBatteryFull = {
   $_icon: {
     name: "BatteryFull",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["battery","full"],
   },
@@ -4264,6 +4464,7 @@ export let BBatteryHalf = {
   $_icon: {
     name: "BatteryHalf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["battery","half"],
   },
@@ -4288,6 +4489,7 @@ export let BBattery = {
   $_icon: {
     name: "Battery",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["battery"],
   },
@@ -4308,6 +4510,7 @@ export let BBehance = {
   $_icon: {
     name: "Behance",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["behance"],
   },
@@ -4328,6 +4531,7 @@ export let BBellFill = {
   $_icon: {
     name: "BellFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bell","fill"],
   },
@@ -4348,6 +4552,7 @@ export let BBellSlashFill = {
   $_icon: {
     name: "BellSlashFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bell","slash","fill"],
   },
@@ -4368,6 +4573,7 @@ export let BBellSlash = {
   $_icon: {
     name: "BellSlash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bell","slash"],
   },
@@ -4388,6 +4594,7 @@ export let BBell = {
   $_icon: {
     name: "Bell",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bell"],
   },
@@ -4408,6 +4615,7 @@ export let BBezier = {
   $_icon: {
     name: "Bezier",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bezier"],
   },
@@ -4432,6 +4640,7 @@ export let BBezier2 = {
   $_icon: {
     name: "Bezier2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bezier2"],
   },
@@ -4452,6 +4661,7 @@ export let BBicycle = {
   $_icon: {
     name: "Bicycle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bicycle"],
   },
@@ -4472,6 +4682,7 @@ export let BBinocularsFill = {
   $_icon: {
     name: "BinocularsFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["binoculars","fill"],
   },
@@ -4492,6 +4703,7 @@ export let BBinoculars = {
   $_icon: {
     name: "Binoculars",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["binoculars"],
   },
@@ -4512,6 +4724,7 @@ export let BBlockquoteLeft = {
   $_icon: {
     name: "BlockquoteLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["blockquote","left"],
   },
@@ -4532,6 +4745,7 @@ export let BBlockquoteRight = {
   $_icon: {
     name: "BlockquoteRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["blockquote","right"],
   },
@@ -4552,6 +4766,7 @@ export let BBluetooth = {
   $_icon: {
     name: "Bluetooth",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bluetooth"],
   },
@@ -4572,6 +4787,7 @@ export let BBodyText = {
   $_icon: {
     name: "BodyText",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["body","text"],
   },
@@ -4592,6 +4808,7 @@ export let BBookFill = {
   $_icon: {
     name: "BookFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["book","fill"],
   },
@@ -4612,6 +4829,7 @@ export let BBookHalf = {
   $_icon: {
     name: "BookHalf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["book","half"],
   },
@@ -4632,6 +4850,7 @@ export let BBook = {
   $_icon: {
     name: "Book",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["book"],
   },
@@ -4652,6 +4871,7 @@ export let BBookmarkCheckFill = {
   $_icon: {
     name: "BookmarkCheckFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bookmark","check","fill"],
   },
@@ -4672,6 +4892,7 @@ export let BBookmarkCheck = {
   $_icon: {
     name: "BookmarkCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bookmark","check"],
   },
@@ -4696,6 +4917,7 @@ export let BBookmarkDashFill = {
   $_icon: {
     name: "BookmarkDashFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bookmark","dash","fill"],
   },
@@ -4716,6 +4938,7 @@ export let BBookmarkDash = {
   $_icon: {
     name: "BookmarkDash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bookmark","dash"],
   },
@@ -4740,6 +4963,7 @@ export let BBookmarkFill = {
   $_icon: {
     name: "BookmarkFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bookmark","fill"],
   },
@@ -4760,6 +4984,7 @@ export let BBookmarkHeartFill = {
   $_icon: {
     name: "BookmarkHeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bookmark","heart","fill"],
   },
@@ -4780,6 +5005,7 @@ export let BBookmarkHeart = {
   $_icon: {
     name: "BookmarkHeart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bookmark","heart"],
   },
@@ -4804,6 +5030,7 @@ export let BBookmarkPlusFill = {
   $_icon: {
     name: "BookmarkPlusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bookmark","plus","fill"],
   },
@@ -4824,6 +5051,7 @@ export let BBookmarkPlus = {
   $_icon: {
     name: "BookmarkPlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bookmark","plus"],
   },
@@ -4848,6 +5076,7 @@ export let BBookmarkStarFill = {
   $_icon: {
     name: "BookmarkStarFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bookmark","star","fill"],
   },
@@ -4868,6 +5097,7 @@ export let BBookmarkStar = {
   $_icon: {
     name: "BookmarkStar",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bookmark","star"],
   },
@@ -4892,6 +5122,7 @@ export let BBookmarkXFill = {
   $_icon: {
     name: "BookmarkXFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bookmark","x","fill"],
   },
@@ -4912,6 +5143,7 @@ export let BBookmarkX = {
   $_icon: {
     name: "BookmarkX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bookmark","x"],
   },
@@ -4936,6 +5168,7 @@ export let BBookmark = {
   $_icon: {
     name: "Bookmark",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bookmark"],
   },
@@ -4956,6 +5189,7 @@ export let BBookmarksFill = {
   $_icon: {
     name: "BookmarksFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bookmarks","fill"],
   },
@@ -4980,6 +5214,7 @@ export let BBookmarks = {
   $_icon: {
     name: "Bookmarks",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bookmarks"],
   },
@@ -5004,6 +5239,7 @@ export let BBookshelf = {
   $_icon: {
     name: "Bookshelf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bookshelf"],
   },
@@ -5024,6 +5260,7 @@ export let BBoomboxFill = {
   $_icon: {
     name: "BoomboxFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["boombox","fill"],
   },
@@ -5048,6 +5285,7 @@ export let BBoombox = {
   $_icon: {
     name: "Boombox",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["boombox"],
   },
@@ -5080,6 +5318,7 @@ export let BBootstrapFill = {
   $_icon: {
     name: "BootstrapFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bootstrap","fill"],
   },
@@ -5104,6 +5343,7 @@ export let BBootstrapReboot = {
   $_icon: {
     name: "BootstrapReboot",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bootstrap","reboot"],
   },
@@ -5128,6 +5368,7 @@ export let BBootstrap = {
   $_icon: {
     name: "Bootstrap",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bootstrap"],
   },
@@ -5152,6 +5393,7 @@ export let BBorderAll = {
   $_icon: {
     name: "BorderAll",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["border","all"],
   },
@@ -5172,6 +5414,7 @@ export let BBorderBottom = {
   $_icon: {
     name: "BorderBottom",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["border","bottom"],
   },
@@ -5192,6 +5435,7 @@ export let BBorderCenter = {
   $_icon: {
     name: "BorderCenter",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["border","center"],
   },
@@ -5212,6 +5456,7 @@ export let BBorderInner = {
   $_icon: {
     name: "BorderInner",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["border","inner"],
   },
@@ -5240,6 +5485,7 @@ export let BBorderLeft = {
   $_icon: {
     name: "BorderLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["border","left"],
   },
@@ -5260,6 +5506,7 @@ export let BBorderMiddle = {
   $_icon: {
     name: "BorderMiddle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["border","middle"],
   },
@@ -5280,6 +5527,7 @@ export let BBorderOuter = {
   $_icon: {
     name: "BorderOuter",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["border","outer"],
   },
@@ -5304,6 +5552,7 @@ export let BBorderRight = {
   $_icon: {
     name: "BorderRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["border","right"],
   },
@@ -5324,6 +5573,7 @@ export let BBorderStyle = {
   $_icon: {
     name: "BorderStyle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["border","style"],
   },
@@ -5344,6 +5594,7 @@ export let BBorderTop = {
   $_icon: {
     name: "BorderTop",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["border","top"],
   },
@@ -5364,6 +5615,7 @@ export let BBorderWidth = {
   $_icon: {
     name: "BorderWidth",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["border","width"],
   },
@@ -5384,6 +5636,7 @@ export let BBorder = {
   $_icon: {
     name: "Border",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["border"],
   },
@@ -5404,6 +5657,7 @@ export let BBoundingBoxCircles = {
   $_icon: {
     name: "BoundingBoxCircles",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bounding","box","circles"],
   },
@@ -5424,6 +5678,7 @@ export let BBoundingBox = {
   $_icon: {
     name: "BoundingBox",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bounding","box"],
   },
@@ -5444,6 +5699,7 @@ export let BBoxArrowDownLeft = {
   $_icon: {
     name: "BoxArrowDownLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box","arrow","down","left"],
   },
@@ -5468,6 +5724,7 @@ export let BBoxArrowDownRight = {
   $_icon: {
     name: "BoxArrowDownRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box","arrow","down","right"],
   },
@@ -5492,6 +5749,7 @@ export let BBoxArrowDown = {
   $_icon: {
     name: "BoxArrowDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box","arrow","down"],
   },
@@ -5516,6 +5774,7 @@ export let BBoxArrowInDownLeft = {
   $_icon: {
     name: "BoxArrowInDownLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box","arrow","in","down","left"],
   },
@@ -5540,6 +5799,7 @@ export let BBoxArrowInDownRight = {
   $_icon: {
     name: "BoxArrowInDownRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box","arrow","in","down","right"],
   },
@@ -5564,6 +5824,7 @@ export let BBoxArrowInDown = {
   $_icon: {
     name: "BoxArrowInDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box","arrow","in","down"],
   },
@@ -5588,6 +5849,7 @@ export let BBoxArrowInLeft = {
   $_icon: {
     name: "BoxArrowInLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box","arrow","in","left"],
   },
@@ -5612,6 +5874,7 @@ export let BBoxArrowInRight = {
   $_icon: {
     name: "BoxArrowInRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box","arrow","in","right"],
   },
@@ -5636,6 +5899,7 @@ export let BBoxArrowInUpLeft = {
   $_icon: {
     name: "BoxArrowInUpLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box","arrow","in","up","left"],
   },
@@ -5660,6 +5924,7 @@ export let BBoxArrowInUpRight = {
   $_icon: {
     name: "BoxArrowInUpRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box","arrow","in","up","right"],
   },
@@ -5684,6 +5949,7 @@ export let BBoxArrowInUp = {
   $_icon: {
     name: "BoxArrowInUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box","arrow","in","up"],
   },
@@ -5708,6 +5974,7 @@ export let BBoxArrowLeft = {
   $_icon: {
     name: "BoxArrowLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box","arrow","left"],
   },
@@ -5732,6 +5999,7 @@ export let BBoxArrowRight = {
   $_icon: {
     name: "BoxArrowRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box","arrow","right"],
   },
@@ -5756,6 +6024,7 @@ export let BBoxArrowUpLeft = {
   $_icon: {
     name: "BoxArrowUpLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box","arrow","up","left"],
   },
@@ -5780,6 +6049,7 @@ export let BBoxArrowUpRight = {
   $_icon: {
     name: "BoxArrowUpRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box","arrow","up","right"],
   },
@@ -5804,6 +6074,7 @@ export let BBoxArrowUp = {
   $_icon: {
     name: "BoxArrowUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box","arrow","up"],
   },
@@ -5828,6 +6099,7 @@ export let BBoxFill = {
   $_icon: {
     name: "BoxFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box","fill"],
   },
@@ -5848,6 +6120,7 @@ export let BBoxSeamFill = {
   $_icon: {
     name: "BoxSeamFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box","seam","fill"],
   },
@@ -5868,6 +6141,7 @@ export let BBoxSeam = {
   $_icon: {
     name: "BoxSeam",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box","seam"],
   },
@@ -5888,6 +6162,7 @@ export let BBox = {
   $_icon: {
     name: "Box",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box"],
   },
@@ -5908,6 +6183,7 @@ export let BBox2Fill = {
   $_icon: {
     name: "Box2Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box2","fill"],
   },
@@ -5928,6 +6204,7 @@ export let BBox2HeartFill = {
   $_icon: {
     name: "Box2HeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box2","heart","fill"],
   },
@@ -5948,6 +6225,7 @@ export let BBox2Heart = {
   $_icon: {
     name: "Box2Heart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box2","heart"],
   },
@@ -5972,6 +6250,7 @@ export let BBox2 = {
   $_icon: {
     name: "Box2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box2"],
   },
@@ -5992,6 +6271,7 @@ export let BBoxes = {
   $_icon: {
     name: "Boxes",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["boxes"],
   },
@@ -6012,6 +6292,7 @@ export let BBracesAsterisk = {
   $_icon: {
     name: "BracesAsterisk",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["braces","asterisk"],
   },
@@ -6032,6 +6313,7 @@ export let BBraces = {
   $_icon: {
     name: "Braces",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["braces"],
   },
@@ -6052,6 +6334,7 @@ export let BBricks = {
   $_icon: {
     name: "Bricks",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bricks"],
   },
@@ -6072,6 +6355,7 @@ export let BBriefcaseFill = {
   $_icon: {
     name: "BriefcaseFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["briefcase","fill"],
   },
@@ -6096,6 +6380,7 @@ export let BBriefcase = {
   $_icon: {
     name: "Briefcase",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["briefcase"],
   },
@@ -6116,6 +6401,7 @@ export let BBrightnessAltHighFill = {
   $_icon: {
     name: "BrightnessAltHighFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["brightness","alt","high","fill"],
   },
@@ -6136,6 +6422,7 @@ export let BBrightnessAltHigh = {
   $_icon: {
     name: "BrightnessAltHigh",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["brightness","alt","high"],
   },
@@ -6156,6 +6443,7 @@ export let BBrightnessAltLowFill = {
   $_icon: {
     name: "BrightnessAltLowFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["brightness","alt","low","fill"],
   },
@@ -6176,6 +6464,7 @@ export let BBrightnessAltLow = {
   $_icon: {
     name: "BrightnessAltLow",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["brightness","alt","low"],
   },
@@ -6196,6 +6485,7 @@ export let BBrightnessHighFill = {
   $_icon: {
     name: "BrightnessHighFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["brightness","high","fill"],
   },
@@ -6216,6 +6506,7 @@ export let BBrightnessHigh = {
   $_icon: {
     name: "BrightnessHigh",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["brightness","high"],
   },
@@ -6236,6 +6527,7 @@ export let BBrightnessLowFill = {
   $_icon: {
     name: "BrightnessLowFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["brightness","low","fill"],
   },
@@ -6256,6 +6548,7 @@ export let BBrightnessLow = {
   $_icon: {
     name: "BrightnessLow",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["brightness","low"],
   },
@@ -6276,6 +6569,7 @@ export let BBroadcastPin = {
   $_icon: {
     name: "BroadcastPin",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["broadcast","pin"],
   },
@@ -6296,6 +6590,7 @@ export let BBroadcast = {
   $_icon: {
     name: "Broadcast",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["broadcast"],
   },
@@ -6316,6 +6611,7 @@ export let BBrowserChrome = {
   $_icon: {
     name: "BrowserChrome",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["browser","chrome"],
   },
@@ -6336,6 +6632,7 @@ export let BBrowserEdge = {
   $_icon: {
     name: "BrowserEdge",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["browser","edge"],
   },
@@ -6364,6 +6661,7 @@ export let BBrowserFirefox = {
   $_icon: {
     name: "BrowserFirefox",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["browser","firefox"],
   },
@@ -6384,6 +6682,7 @@ export let BBrowserSafari = {
   $_icon: {
     name: "BrowserSafari",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["browser","safari"],
   },
@@ -6404,6 +6703,7 @@ export let BBrushFill = {
   $_icon: {
     name: "BrushFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["brush","fill"],
   },
@@ -6424,6 +6724,7 @@ export let BBrush = {
   $_icon: {
     name: "Brush",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["brush"],
   },
@@ -6444,6 +6745,7 @@ export let BBucketFill = {
   $_icon: {
     name: "BucketFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bucket","fill"],
   },
@@ -6464,6 +6766,7 @@ export let BBucket = {
   $_icon: {
     name: "Bucket",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bucket"],
   },
@@ -6484,6 +6787,7 @@ export let BBugFill = {
   $_icon: {
     name: "BugFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bug","fill"],
   },
@@ -6508,6 +6812,7 @@ export let BBug = {
   $_icon: {
     name: "Bug",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bug"],
   },
@@ -6528,6 +6833,7 @@ export let BBuildingAdd = {
   $_icon: {
     name: "BuildingAdd",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building","add"],
   },
@@ -6556,6 +6862,7 @@ export let BBuildingCheck = {
   $_icon: {
     name: "BuildingCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building","check"],
   },
@@ -6584,6 +6891,7 @@ export let BBuildingDash = {
   $_icon: {
     name: "BuildingDash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building","dash"],
   },
@@ -6612,6 +6920,7 @@ export let BBuildingDown = {
   $_icon: {
     name: "BuildingDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building","down"],
   },
@@ -6640,6 +6949,7 @@ export let BBuildingExclamation = {
   $_icon: {
     name: "BuildingExclamation",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building","exclamation"],
   },
@@ -6664,6 +6974,7 @@ export let BBuildingFillAdd = {
   $_icon: {
     name: "BuildingFillAdd",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building","fill","add"],
   },
@@ -6688,6 +6999,7 @@ export let BBuildingFillCheck = {
   $_icon: {
     name: "BuildingFillCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building","fill","check"],
   },
@@ -6712,6 +7024,7 @@ export let BBuildingFillDash = {
   $_icon: {
     name: "BuildingFillDash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building","fill","dash"],
   },
@@ -6736,6 +7049,7 @@ export let BBuildingFillDown = {
   $_icon: {
     name: "BuildingFillDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building","fill","down"],
   },
@@ -6760,6 +7074,7 @@ export let BBuildingFillExclamation = {
   $_icon: {
     name: "BuildingFillExclamation",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building","fill","exclamation"],
   },
@@ -6784,6 +7099,7 @@ export let BBuildingFillGear = {
   $_icon: {
     name: "BuildingFillGear",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building","fill","gear"],
   },
@@ -6808,6 +7124,7 @@ export let BBuildingFillLock = {
   $_icon: {
     name: "BuildingFillLock",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building","fill","lock"],
   },
@@ -6832,6 +7149,7 @@ export let BBuildingFillSlash = {
   $_icon: {
     name: "BuildingFillSlash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building","fill","slash"],
   },
@@ -6856,6 +7174,7 @@ export let BBuildingFillUp = {
   $_icon: {
     name: "BuildingFillUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building","fill","up"],
   },
@@ -6880,6 +7199,7 @@ export let BBuildingFillX = {
   $_icon: {
     name: "BuildingFillX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building","fill","x"],
   },
@@ -6904,6 +7224,7 @@ export let BBuildingFill = {
   $_icon: {
     name: "BuildingFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building","fill"],
   },
@@ -6924,6 +7245,7 @@ export let BBuildingGear = {
   $_icon: {
     name: "BuildingGear",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building","gear"],
   },
@@ -6948,6 +7270,7 @@ export let BBuildingLock = {
   $_icon: {
     name: "BuildingLock",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building","lock"],
   },
@@ -6972,6 +7295,7 @@ export let BBuildingSlash = {
   $_icon: {
     name: "BuildingSlash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building","slash"],
   },
@@ -7000,6 +7324,7 @@ export let BBuildingUp = {
   $_icon: {
     name: "BuildingUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building","up"],
   },
@@ -7028,6 +7353,7 @@ export let BBuildingX = {
   $_icon: {
     name: "BuildingX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building","x"],
   },
@@ -7052,6 +7378,7 @@ export let BBuilding = {
   $_icon: {
     name: "Building",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["building"],
   },
@@ -7076,6 +7403,7 @@ export let BBuildingsFill = {
   $_icon: {
     name: "BuildingsFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["buildings","fill"],
   },
@@ -7096,6 +7424,7 @@ export let BBuildings = {
   $_icon: {
     name: "Buildings",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["buildings"],
   },
@@ -7120,6 +7449,7 @@ export let BBullseye = {
   $_icon: {
     name: "Bullseye",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bullseye"],
   },
@@ -7152,6 +7482,7 @@ export let BBusFrontFill = {
   $_icon: {
     name: "BusFrontFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bus","front","fill"],
   },
@@ -7172,6 +7503,7 @@ export let BBusFront = {
   $_icon: {
     name: "BusFront",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bus","front"],
   },
@@ -7196,6 +7528,7 @@ export let BCCircleFill = {
   $_icon: {
     name: "CCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["c","circle","fill"],
   },
@@ -7216,6 +7549,7 @@ export let BCCircle = {
   $_icon: {
     name: "CCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["c","circle"],
   },
@@ -7236,6 +7570,7 @@ export let BCSquareFill = {
   $_icon: {
     name: "CSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["c","square","fill"],
   },
@@ -7256,6 +7591,7 @@ export let BCSquare = {
   $_icon: {
     name: "CSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["c","square"],
   },
@@ -7280,6 +7616,7 @@ export let BCalculatorFill = {
   $_icon: {
     name: "CalculatorFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calculator","fill"],
   },
@@ -7300,6 +7637,7 @@ export let BCalculator = {
   $_icon: {
     name: "Calculator",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calculator"],
   },
@@ -7324,6 +7662,7 @@ export let BCalendarCheckFill = {
   $_icon: {
     name: "CalendarCheckFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","check","fill"],
   },
@@ -7344,6 +7683,7 @@ export let BCalendarCheck = {
   $_icon: {
     name: "CalendarCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","check"],
   },
@@ -7368,6 +7708,7 @@ export let BCalendarDateFill = {
   $_icon: {
     name: "CalendarDateFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","date","fill"],
   },
@@ -7392,6 +7733,7 @@ export let BCalendarDate = {
   $_icon: {
     name: "CalendarDate",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","date"],
   },
@@ -7416,6 +7758,7 @@ export let BCalendarDayFill = {
   $_icon: {
     name: "CalendarDayFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","day","fill"],
   },
@@ -7436,6 +7779,7 @@ export let BCalendarDay = {
   $_icon: {
     name: "CalendarDay",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","day"],
   },
@@ -7460,6 +7804,7 @@ export let BCalendarEventFill = {
   $_icon: {
     name: "CalendarEventFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","event","fill"],
   },
@@ -7480,6 +7825,7 @@ export let BCalendarEvent = {
   $_icon: {
     name: "CalendarEvent",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","event"],
   },
@@ -7504,6 +7850,7 @@ export let BCalendarFill = {
   $_icon: {
     name: "CalendarFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","fill"],
   },
@@ -7524,6 +7871,7 @@ export let BCalendarHeartFill = {
   $_icon: {
     name: "CalendarHeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","heart","fill"],
   },
@@ -7544,6 +7892,7 @@ export let BCalendarHeart = {
   $_icon: {
     name: "CalendarHeart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","heart"],
   },
@@ -7564,6 +7913,7 @@ export let BCalendarMinusFill = {
   $_icon: {
     name: "CalendarMinusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","minus","fill"],
   },
@@ -7584,6 +7934,7 @@ export let BCalendarMinus = {
   $_icon: {
     name: "CalendarMinus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","minus"],
   },
@@ -7608,6 +7959,7 @@ export let BCalendarMonthFill = {
   $_icon: {
     name: "CalendarMonthFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","month","fill"],
   },
@@ -7632,6 +7984,7 @@ export let BCalendarMonth = {
   $_icon: {
     name: "CalendarMonth",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","month"],
   },
@@ -7656,6 +8009,7 @@ export let BCalendarPlusFill = {
   $_icon: {
     name: "CalendarPlusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","plus","fill"],
   },
@@ -7676,6 +8030,7 @@ export let BCalendarPlus = {
   $_icon: {
     name: "CalendarPlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","plus"],
   },
@@ -7700,6 +8055,7 @@ export let BCalendarRangeFill = {
   $_icon: {
     name: "CalendarRangeFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","range","fill"],
   },
@@ -7720,6 +8076,7 @@ export let BCalendarRange = {
   $_icon: {
     name: "CalendarRange",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","range"],
   },
@@ -7744,6 +8101,7 @@ export let BCalendarWeekFill = {
   $_icon: {
     name: "CalendarWeekFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","week","fill"],
   },
@@ -7764,6 +8122,7 @@ export let BCalendarWeek = {
   $_icon: {
     name: "CalendarWeek",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","week"],
   },
@@ -7788,6 +8147,7 @@ export let BCalendarXFill = {
   $_icon: {
     name: "CalendarXFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","x","fill"],
   },
@@ -7808,6 +8168,7 @@ export let BCalendarX = {
   $_icon: {
     name: "CalendarX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","x"],
   },
@@ -7832,6 +8193,7 @@ export let BCalendar = {
   $_icon: {
     name: "Calendar",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar"],
   },
@@ -7852,6 +8214,7 @@ export let BCalendar2CheckFill = {
   $_icon: {
     name: "Calendar2CheckFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","check","fill"],
   },
@@ -7872,6 +8235,7 @@ export let BCalendar2Check = {
   $_icon: {
     name: "Calendar2Check",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","check"],
   },
@@ -7900,6 +8264,7 @@ export let BCalendar2DateFill = {
   $_icon: {
     name: "Calendar2DateFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","date","fill"],
   },
@@ -7924,6 +8289,7 @@ export let BCalendar2Date = {
   $_icon: {
     name: "Calendar2Date",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","date"],
   },
@@ -7952,6 +8318,7 @@ export let BCalendar2DayFill = {
   $_icon: {
     name: "Calendar2DayFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","day","fill"],
   },
@@ -7972,6 +8339,7 @@ export let BCalendar2Day = {
   $_icon: {
     name: "Calendar2Day",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","day"],
   },
@@ -8000,6 +8368,7 @@ export let BCalendar2EventFill = {
   $_icon: {
     name: "Calendar2EventFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","event","fill"],
   },
@@ -8020,6 +8389,7 @@ export let BCalendar2Event = {
   $_icon: {
     name: "Calendar2Event",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","event"],
   },
@@ -8048,6 +8418,7 @@ export let BCalendar2Fill = {
   $_icon: {
     name: "Calendar2Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","fill"],
   },
@@ -8068,6 +8439,7 @@ export let BCalendar2HeartFill = {
   $_icon: {
     name: "Calendar2HeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","heart","fill"],
   },
@@ -8088,6 +8460,7 @@ export let BCalendar2Heart = {
   $_icon: {
     name: "Calendar2Heart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","heart"],
   },
@@ -8108,6 +8481,7 @@ export let BCalendar2MinusFill = {
   $_icon: {
     name: "Calendar2MinusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","minus","fill"],
   },
@@ -8128,6 +8502,7 @@ export let BCalendar2Minus = {
   $_icon: {
     name: "Calendar2Minus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","minus"],
   },
@@ -8156,6 +8531,7 @@ export let BCalendar2MonthFill = {
   $_icon: {
     name: "Calendar2MonthFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","month","fill"],
   },
@@ -8180,6 +8556,7 @@ export let BCalendar2Month = {
   $_icon: {
     name: "Calendar2Month",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","month"],
   },
@@ -8208,6 +8585,7 @@ export let BCalendar2PlusFill = {
   $_icon: {
     name: "Calendar2PlusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","plus","fill"],
   },
@@ -8228,6 +8606,7 @@ export let BCalendar2Plus = {
   $_icon: {
     name: "Calendar2Plus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","plus"],
   },
@@ -8252,6 +8631,7 @@ export let BCalendar2RangeFill = {
   $_icon: {
     name: "Calendar2RangeFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","range","fill"],
   },
@@ -8272,6 +8652,7 @@ export let BCalendar2Range = {
   $_icon: {
     name: "Calendar2Range",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","range"],
   },
@@ -8296,6 +8677,7 @@ export let BCalendar2WeekFill = {
   $_icon: {
     name: "Calendar2WeekFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","week","fill"],
   },
@@ -8316,6 +8698,7 @@ export let BCalendar2Week = {
   $_icon: {
     name: "Calendar2Week",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","week"],
   },
@@ -8340,6 +8723,7 @@ export let BCalendar2XFill = {
   $_icon: {
     name: "Calendar2XFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","x","fill"],
   },
@@ -8360,6 +8744,7 @@ export let BCalendar2X = {
   $_icon: {
     name: "Calendar2X",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2","x"],
   },
@@ -8388,6 +8773,7 @@ export let BCalendar2 = {
   $_icon: {
     name: "Calendar2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar2"],
   },
@@ -8412,6 +8798,7 @@ export let BCalendar3EventFill = {
   $_icon: {
     name: "Calendar3EventFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar3","event","fill"],
   },
@@ -8432,6 +8819,7 @@ export let BCalendar3Event = {
   $_icon: {
     name: "Calendar3Event",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar3","event"],
   },
@@ -8456,6 +8844,7 @@ export let BCalendar3Fill = {
   $_icon: {
     name: "Calendar3Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar3","fill"],
   },
@@ -8476,6 +8865,7 @@ export let BCalendar3RangeFill = {
   $_icon: {
     name: "Calendar3RangeFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar3","range","fill"],
   },
@@ -8496,6 +8886,7 @@ export let BCalendar3Range = {
   $_icon: {
     name: "Calendar3Range",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar3","range"],
   },
@@ -8520,6 +8911,7 @@ export let BCalendar3WeekFill = {
   $_icon: {
     name: "Calendar3WeekFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar3","week","fill"],
   },
@@ -8540,6 +8932,7 @@ export let BCalendar3Week = {
   $_icon: {
     name: "Calendar3Week",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar3","week"],
   },
@@ -8564,6 +8957,7 @@ export let BCalendar3 = {
   $_icon: {
     name: "Calendar3",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar3"],
   },
@@ -8588,6 +8982,7 @@ export let BCalendar4Event = {
   $_icon: {
     name: "Calendar4Event",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar4","event"],
   },
@@ -8612,6 +9007,7 @@ export let BCalendar4Range = {
   $_icon: {
     name: "Calendar4Range",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar4","range"],
   },
@@ -8636,6 +9032,7 @@ export let BCalendar4Week = {
   $_icon: {
     name: "Calendar4Week",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar4","week"],
   },
@@ -8660,6 +9057,7 @@ export let BCalendar4 = {
   $_icon: {
     name: "Calendar4",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar4"],
   },
@@ -8680,6 +9078,7 @@ export let BCameraFill = {
   $_icon: {
     name: "CameraFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["camera","fill"],
   },
@@ -8704,6 +9103,7 @@ export let BCameraReelsFill = {
   $_icon: {
     name: "CameraReelsFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["camera","reels","fill"],
   },
@@ -8732,6 +9132,7 @@ export let BCameraReels = {
   $_icon: {
     name: "CameraReels",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["camera","reels"],
   },
@@ -8760,6 +9161,7 @@ export let BCameraVideoFill = {
   $_icon: {
     name: "CameraVideoFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["camera","video","fill"],
   },
@@ -8780,6 +9182,7 @@ export let BCameraVideoOffFill = {
   $_icon: {
     name: "CameraVideoOffFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["camera","video","off","fill"],
   },
@@ -8800,6 +9203,7 @@ export let BCameraVideoOff = {
   $_icon: {
     name: "CameraVideoOff",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["camera","video","off"],
   },
@@ -8820,6 +9224,7 @@ export let BCameraVideo = {
   $_icon: {
     name: "CameraVideo",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["camera","video"],
   },
@@ -8840,6 +9245,7 @@ export let BCamera = {
   $_icon: {
     name: "Camera",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["camera"],
   },
@@ -8864,6 +9270,7 @@ export let BCamera2 = {
   $_icon: {
     name: "Camera2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["camera2"],
   },
@@ -8888,6 +9295,7 @@ export let BCapslockFill = {
   $_icon: {
     name: "CapslockFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["capslock","fill"],
   },
@@ -8908,6 +9316,7 @@ export let BCapslock = {
   $_icon: {
     name: "Capslock",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["capslock"],
   },
@@ -8928,6 +9337,7 @@ export let BCapsulePill = {
   $_icon: {
     name: "CapsulePill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["capsule","pill"],
   },
@@ -8948,6 +9358,7 @@ export let BCapsule = {
   $_icon: {
     name: "Capsule",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["capsule"],
   },
@@ -8968,6 +9379,7 @@ export let BCarFrontFill = {
   $_icon: {
     name: "CarFrontFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["car","front","fill"],
   },
@@ -8988,6 +9400,7 @@ export let BCarFront = {
   $_icon: {
     name: "CarFront",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["car","front"],
   },
@@ -9012,6 +9425,7 @@ export let BCardChecklist = {
   $_icon: {
     name: "CardChecklist",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["card","checklist"],
   },
@@ -9036,6 +9450,7 @@ export let BCardHeading = {
   $_icon: {
     name: "CardHeading",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["card","heading"],
   },
@@ -9060,6 +9475,7 @@ export let BCardImage = {
   $_icon: {
     name: "CardImage",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["card","image"],
   },
@@ -9084,6 +9500,7 @@ export let BCardList = {
   $_icon: {
     name: "CardList",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["card","list"],
   },
@@ -9108,6 +9525,7 @@ export let BCardText = {
   $_icon: {
     name: "CardText",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["card","text"],
   },
@@ -9132,6 +9550,7 @@ export let BCaretDownFill = {
   $_icon: {
     name: "CaretDownFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["caret","down","fill"],
   },
@@ -9152,6 +9571,7 @@ export let BCaretDownSquareFill = {
   $_icon: {
     name: "CaretDownSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["caret","down","square","fill"],
   },
@@ -9172,6 +9592,7 @@ export let BCaretDownSquare = {
   $_icon: {
     name: "CaretDownSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["caret","down","square"],
   },
@@ -9196,6 +9617,7 @@ export let BCaretDown = {
   $_icon: {
     name: "CaretDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["caret","down"],
   },
@@ -9216,6 +9638,7 @@ export let BCaretLeftFill = {
   $_icon: {
     name: "CaretLeftFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["caret","left","fill"],
   },
@@ -9236,6 +9659,7 @@ export let BCaretLeftSquareFill = {
   $_icon: {
     name: "CaretLeftSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["caret","left","square","fill"],
   },
@@ -9256,6 +9680,7 @@ export let BCaretLeftSquare = {
   $_icon: {
     name: "CaretLeftSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["caret","left","square"],
   },
@@ -9280,6 +9705,7 @@ export let BCaretLeft = {
   $_icon: {
     name: "CaretLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["caret","left"],
   },
@@ -9300,6 +9726,7 @@ export let BCaretRightFill = {
   $_icon: {
     name: "CaretRightFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["caret","right","fill"],
   },
@@ -9320,6 +9747,7 @@ export let BCaretRightSquareFill = {
   $_icon: {
     name: "CaretRightSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["caret","right","square","fill"],
   },
@@ -9340,6 +9768,7 @@ export let BCaretRightSquare = {
   $_icon: {
     name: "CaretRightSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["caret","right","square"],
   },
@@ -9364,6 +9793,7 @@ export let BCaretRight = {
   $_icon: {
     name: "CaretRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["caret","right"],
   },
@@ -9384,6 +9814,7 @@ export let BCaretUpFill = {
   $_icon: {
     name: "CaretUpFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["caret","up","fill"],
   },
@@ -9404,6 +9835,7 @@ export let BCaretUpSquareFill = {
   $_icon: {
     name: "CaretUpSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["caret","up","square","fill"],
   },
@@ -9424,6 +9856,7 @@ export let BCaretUpSquare = {
   $_icon: {
     name: "CaretUpSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["caret","up","square"],
   },
@@ -9448,6 +9881,7 @@ export let BCaretUp = {
   $_icon: {
     name: "CaretUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["caret","up"],
   },
@@ -9468,6 +9902,7 @@ export let BCartCheckFill = {
   $_icon: {
     name: "CartCheckFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cart","check","fill"],
   },
@@ -9488,6 +9923,7 @@ export let BCartCheck = {
   $_icon: {
     name: "CartCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cart","check"],
   },
@@ -9512,6 +9948,7 @@ export let BCartDashFill = {
   $_icon: {
     name: "CartDashFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cart","dash","fill"],
   },
@@ -9532,6 +9969,7 @@ export let BCartDash = {
   $_icon: {
     name: "CartDash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cart","dash"],
   },
@@ -9556,6 +9994,7 @@ export let BCartFill = {
   $_icon: {
     name: "CartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cart","fill"],
   },
@@ -9576,6 +10015,7 @@ export let BCartPlusFill = {
   $_icon: {
     name: "CartPlusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cart","plus","fill"],
   },
@@ -9596,6 +10036,7 @@ export let BCartPlus = {
   $_icon: {
     name: "CartPlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cart","plus"],
   },
@@ -9620,6 +10061,7 @@ export let BCartXFill = {
   $_icon: {
     name: "CartXFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cart","x","fill"],
   },
@@ -9640,6 +10082,7 @@ export let BCartX = {
   $_icon: {
     name: "CartX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cart","x"],
   },
@@ -9664,6 +10107,7 @@ export let BCart = {
   $_icon: {
     name: "Cart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cart"],
   },
@@ -9684,6 +10128,7 @@ export let BCart2 = {
   $_icon: {
     name: "Cart2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cart2"],
   },
@@ -9704,6 +10149,7 @@ export let BCart3 = {
   $_icon: {
     name: "Cart3",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cart3"],
   },
@@ -9724,6 +10170,7 @@ export let BCart4 = {
   $_icon: {
     name: "Cart4",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cart4"],
   },
@@ -9744,6 +10191,7 @@ export let BCashCoin = {
   $_icon: {
     name: "CashCoin",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cash","coin"],
   },
@@ -9776,6 +10224,7 @@ export let BCashStack = {
   $_icon: {
     name: "CashStack",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cash","stack"],
   },
@@ -9800,6 +10249,7 @@ export let BCash = {
   $_icon: {
     name: "Cash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cash"],
   },
@@ -9824,6 +10274,7 @@ export let BCassetteFill = {
   $_icon: {
     name: "CassetteFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cassette","fill"],
   },
@@ -9848,6 +10299,7 @@ export let BCassette = {
   $_icon: {
     name: "Cassette",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cassette"],
   },
@@ -9872,6 +10324,7 @@ export let BCast = {
   $_icon: {
     name: "Cast",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cast"],
   },
@@ -9896,6 +10349,7 @@ export let BCcCircleFill = {
   $_icon: {
     name: "CcCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cc","circle","fill"],
   },
@@ -9916,6 +10370,7 @@ export let BCcCircle = {
   $_icon: {
     name: "CcCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cc","circle"],
   },
@@ -9936,6 +10391,7 @@ export let BCcSquareFill = {
   $_icon: {
     name: "CcSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cc","square","fill"],
   },
@@ -9956,6 +10412,7 @@ export let BCcSquare = {
   $_icon: {
     name: "CcSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cc","square"],
   },
@@ -9980,6 +10437,7 @@ export let BChatDotsFill = {
   $_icon: {
     name: "ChatDotsFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","dots","fill"],
   },
@@ -10000,6 +10458,7 @@ export let BChatDots = {
   $_icon: {
     name: "ChatDots",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","dots"],
   },
@@ -10024,6 +10483,7 @@ export let BChatFill = {
   $_icon: {
     name: "ChatFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","fill"],
   },
@@ -10044,6 +10504,7 @@ export let BChatHeartFill = {
   $_icon: {
     name: "ChatHeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","heart","fill"],
   },
@@ -10064,6 +10525,7 @@ export let BChatHeart = {
   $_icon: {
     name: "ChatHeart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","heart"],
   },
@@ -10084,6 +10546,7 @@ export let BChatLeftDotsFill = {
   $_icon: {
     name: "ChatLeftDotsFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","left","dots","fill"],
   },
@@ -10104,6 +10567,7 @@ export let BChatLeftDots = {
   $_icon: {
     name: "ChatLeftDots",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","left","dots"],
   },
@@ -10128,6 +10592,7 @@ export let BChatLeftFill = {
   $_icon: {
     name: "ChatLeftFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","left","fill"],
   },
@@ -10148,6 +10613,7 @@ export let BChatLeftHeartFill = {
   $_icon: {
     name: "ChatLeftHeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","left","heart","fill"],
   },
@@ -10168,6 +10634,7 @@ export let BChatLeftHeart = {
   $_icon: {
     name: "ChatLeftHeart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","left","heart"],
   },
@@ -10192,6 +10659,7 @@ export let BChatLeftQuoteFill = {
   $_icon: {
     name: "ChatLeftQuoteFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","left","quote","fill"],
   },
@@ -10212,6 +10680,7 @@ export let BChatLeftQuote = {
   $_icon: {
     name: "ChatLeftQuote",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","left","quote"],
   },
@@ -10236,6 +10705,7 @@ export let BChatLeftTextFill = {
   $_icon: {
     name: "ChatLeftTextFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","left","text","fill"],
   },
@@ -10256,6 +10726,7 @@ export let BChatLeftText = {
   $_icon: {
     name: "ChatLeftText",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","left","text"],
   },
@@ -10280,6 +10751,7 @@ export let BChatLeft = {
   $_icon: {
     name: "ChatLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","left"],
   },
@@ -10300,6 +10772,7 @@ export let BChatQuoteFill = {
   $_icon: {
     name: "ChatQuoteFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","quote","fill"],
   },
@@ -10320,6 +10793,7 @@ export let BChatQuote = {
   $_icon: {
     name: "ChatQuote",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","quote"],
   },
@@ -10344,6 +10818,7 @@ export let BChatRightDotsFill = {
   $_icon: {
     name: "ChatRightDotsFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","right","dots","fill"],
   },
@@ -10364,6 +10839,7 @@ export let BChatRightDots = {
   $_icon: {
     name: "ChatRightDots",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","right","dots"],
   },
@@ -10388,6 +10864,7 @@ export let BChatRightFill = {
   $_icon: {
     name: "ChatRightFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","right","fill"],
   },
@@ -10408,6 +10885,7 @@ export let BChatRightHeartFill = {
   $_icon: {
     name: "ChatRightHeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","right","heart","fill"],
   },
@@ -10428,6 +10906,7 @@ export let BChatRightHeart = {
   $_icon: {
     name: "ChatRightHeart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","right","heart"],
   },
@@ -10452,6 +10931,7 @@ export let BChatRightQuoteFill = {
   $_icon: {
     name: "ChatRightQuoteFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","right","quote","fill"],
   },
@@ -10472,6 +10952,7 @@ export let BChatRightQuote = {
   $_icon: {
     name: "ChatRightQuote",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","right","quote"],
   },
@@ -10496,6 +10977,7 @@ export let BChatRightTextFill = {
   $_icon: {
     name: "ChatRightTextFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","right","text","fill"],
   },
@@ -10516,6 +10998,7 @@ export let BChatRightText = {
   $_icon: {
     name: "ChatRightText",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","right","text"],
   },
@@ -10540,6 +11023,7 @@ export let BChatRight = {
   $_icon: {
     name: "ChatRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","right"],
   },
@@ -10560,6 +11044,7 @@ export let BChatSquareDotsFill = {
   $_icon: {
     name: "ChatSquareDotsFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","square","dots","fill"],
   },
@@ -10580,6 +11065,7 @@ export let BChatSquareDots = {
   $_icon: {
     name: "ChatSquareDots",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","square","dots"],
   },
@@ -10604,6 +11090,7 @@ export let BChatSquareFill = {
   $_icon: {
     name: "ChatSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","square","fill"],
   },
@@ -10624,6 +11111,7 @@ export let BChatSquareHeartFill = {
   $_icon: {
     name: "ChatSquareHeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","square","heart","fill"],
   },
@@ -10644,6 +11132,7 @@ export let BChatSquareHeart = {
   $_icon: {
     name: "ChatSquareHeart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","square","heart"],
   },
@@ -10668,6 +11157,7 @@ export let BChatSquareQuoteFill = {
   $_icon: {
     name: "ChatSquareQuoteFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","square","quote","fill"],
   },
@@ -10688,6 +11178,7 @@ export let BChatSquareQuote = {
   $_icon: {
     name: "ChatSquareQuote",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","square","quote"],
   },
@@ -10712,6 +11203,7 @@ export let BChatSquareTextFill = {
   $_icon: {
     name: "ChatSquareTextFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","square","text","fill"],
   },
@@ -10732,6 +11224,7 @@ export let BChatSquareText = {
   $_icon: {
     name: "ChatSquareText",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","square","text"],
   },
@@ -10756,6 +11249,7 @@ export let BChatSquare = {
   $_icon: {
     name: "ChatSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","square"],
   },
@@ -10776,6 +11270,7 @@ export let BChatTextFill = {
   $_icon: {
     name: "ChatTextFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","text","fill"],
   },
@@ -10796,6 +11291,7 @@ export let BChatText = {
   $_icon: {
     name: "ChatText",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","text"],
   },
@@ -10820,6 +11316,7 @@ export let BChat = {
   $_icon: {
     name: "Chat",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat"],
   },
@@ -10840,6 +11337,7 @@ export let BCheckAll = {
   $_icon: {
     name: "CheckAll",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["check","all"],
   },
@@ -10860,6 +11358,7 @@ export let BCheckCircleFill = {
   $_icon: {
     name: "CheckCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["check","circle","fill"],
   },
@@ -10880,6 +11379,7 @@ export let BCheckCircle = {
   $_icon: {
     name: "CheckCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["check","circle"],
   },
@@ -10904,6 +11404,7 @@ export let BCheckLg = {
   $_icon: {
     name: "CheckLg",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["check","lg"],
   },
@@ -10924,6 +11425,7 @@ export let BCheckSquareFill = {
   $_icon: {
     name: "CheckSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["check","square","fill"],
   },
@@ -10944,6 +11446,7 @@ export let BCheckSquare = {
   $_icon: {
     name: "CheckSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["check","square"],
   },
@@ -10968,6 +11471,7 @@ export let BCheck = {
   $_icon: {
     name: "Check",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["check"],
   },
@@ -10988,6 +11492,7 @@ export let BCheck2All = {
   $_icon: {
     name: "Check2All",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["check2","all"],
   },
@@ -11012,6 +11517,7 @@ export let BCheck2Circle = {
   $_icon: {
     name: "Check2Circle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["check2","circle"],
   },
@@ -11036,6 +11542,7 @@ export let BCheck2Square = {
   $_icon: {
     name: "Check2Square",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["check2","square"],
   },
@@ -11060,6 +11567,7 @@ export let BCheck2 = {
   $_icon: {
     name: "Check2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["check2"],
   },
@@ -11080,6 +11588,7 @@ export let BChevronBarContract = {
   $_icon: {
     name: "ChevronBarContract",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chevron","bar","contract"],
   },
@@ -11100,6 +11609,7 @@ export let BChevronBarDown = {
   $_icon: {
     name: "ChevronBarDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chevron","bar","down"],
   },
@@ -11120,6 +11630,7 @@ export let BChevronBarExpand = {
   $_icon: {
     name: "ChevronBarExpand",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chevron","bar","expand"],
   },
@@ -11140,6 +11651,7 @@ export let BChevronBarLeft = {
   $_icon: {
     name: "ChevronBarLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chevron","bar","left"],
   },
@@ -11160,6 +11672,7 @@ export let BChevronBarRight = {
   $_icon: {
     name: "ChevronBarRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chevron","bar","right"],
   },
@@ -11180,6 +11693,7 @@ export let BChevronBarUp = {
   $_icon: {
     name: "ChevronBarUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chevron","bar","up"],
   },
@@ -11200,6 +11714,7 @@ export let BChevronCompactDown = {
   $_icon: {
     name: "ChevronCompactDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chevron","compact","down"],
   },
@@ -11220,6 +11735,7 @@ export let BChevronCompactLeft = {
   $_icon: {
     name: "ChevronCompactLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chevron","compact","left"],
   },
@@ -11240,6 +11756,7 @@ export let BChevronCompactRight = {
   $_icon: {
     name: "ChevronCompactRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chevron","compact","right"],
   },
@@ -11260,6 +11777,7 @@ export let BChevronCompactUp = {
   $_icon: {
     name: "ChevronCompactUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chevron","compact","up"],
   },
@@ -11280,6 +11798,7 @@ export let BChevronContract = {
   $_icon: {
     name: "ChevronContract",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chevron","contract"],
   },
@@ -11300,6 +11819,7 @@ export let BChevronDoubleDown = {
   $_icon: {
     name: "ChevronDoubleDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chevron","double","down"],
   },
@@ -11324,6 +11844,7 @@ export let BChevronDoubleLeft = {
   $_icon: {
     name: "ChevronDoubleLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chevron","double","left"],
   },
@@ -11348,6 +11869,7 @@ export let BChevronDoubleRight = {
   $_icon: {
     name: "ChevronDoubleRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chevron","double","right"],
   },
@@ -11372,6 +11894,7 @@ export let BChevronDoubleUp = {
   $_icon: {
     name: "ChevronDoubleUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chevron","double","up"],
   },
@@ -11396,6 +11919,7 @@ export let BChevronDown = {
   $_icon: {
     name: "ChevronDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chevron","down"],
   },
@@ -11416,6 +11940,7 @@ export let BChevronExpand = {
   $_icon: {
     name: "ChevronExpand",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chevron","expand"],
   },
@@ -11436,6 +11961,7 @@ export let BChevronLeft = {
   $_icon: {
     name: "ChevronLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chevron","left"],
   },
@@ -11456,6 +11982,7 @@ export let BChevronRight = {
   $_icon: {
     name: "ChevronRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chevron","right"],
   },
@@ -11476,6 +12003,7 @@ export let BChevronUp = {
   $_icon: {
     name: "ChevronUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chevron","up"],
   },
@@ -11496,6 +12024,7 @@ export let BCircleFill = {
   $_icon: {
     name: "CircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["circle","fill"],
   },
@@ -11516,6 +12045,7 @@ export let BCircleHalf = {
   $_icon: {
     name: "CircleHalf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["circle","half"],
   },
@@ -11536,6 +12066,7 @@ export let BCircleSquare = {
   $_icon: {
     name: "CircleSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["circle","square"],
   },
@@ -11560,6 +12091,7 @@ export let BCircle = {
   $_icon: {
     name: "Circle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["circle"],
   },
@@ -11580,6 +12112,7 @@ export let BClipboardCheckFill = {
   $_icon: {
     name: "ClipboardCheckFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard","check","fill"],
   },
@@ -11604,6 +12137,7 @@ export let BClipboardCheck = {
   $_icon: {
     name: "ClipboardCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard","check"],
   },
@@ -11632,6 +12166,7 @@ export let BClipboardDataFill = {
   $_icon: {
     name: "ClipboardDataFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard","data","fill"],
   },
@@ -11656,6 +12191,7 @@ export let BClipboardData = {
   $_icon: {
     name: "ClipboardData",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard","data"],
   },
@@ -11684,6 +12220,7 @@ export let BClipboardFill = {
   $_icon: {
     name: "ClipboardFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard","fill"],
   },
@@ -11704,6 +12241,7 @@ export let BClipboardHeartFill = {
   $_icon: {
     name: "ClipboardHeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard","heart","fill"],
   },
@@ -11728,6 +12266,7 @@ export let BClipboardHeart = {
   $_icon: {
     name: "ClipboardHeart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard","heart"],
   },
@@ -11756,6 +12295,7 @@ export let BClipboardMinusFill = {
   $_icon: {
     name: "ClipboardMinusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard","minus","fill"],
   },
@@ -11780,6 +12320,7 @@ export let BClipboardMinus = {
   $_icon: {
     name: "ClipboardMinus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard","minus"],
   },
@@ -11808,6 +12349,7 @@ export let BClipboardPlusFill = {
   $_icon: {
     name: "ClipboardPlusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard","plus","fill"],
   },
@@ -11832,6 +12374,7 @@ export let BClipboardPlus = {
   $_icon: {
     name: "ClipboardPlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard","plus"],
   },
@@ -11860,6 +12403,7 @@ export let BClipboardPulse = {
   $_icon: {
     name: "ClipboardPulse",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard","pulse"],
   },
@@ -11880,6 +12424,7 @@ export let BClipboardXFill = {
   $_icon: {
     name: "ClipboardXFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard","x","fill"],
   },
@@ -11904,6 +12449,7 @@ export let BClipboardX = {
   $_icon: {
     name: "ClipboardX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard","x"],
   },
@@ -11932,6 +12478,7 @@ export let BClipboard = {
   $_icon: {
     name: "Clipboard",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard"],
   },
@@ -11956,6 +12503,7 @@ export let BClipboard2CheckFill = {
   $_icon: {
     name: "Clipboard2CheckFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard2","check","fill"],
   },
@@ -11980,6 +12528,7 @@ export let BClipboard2Check = {
   $_icon: {
     name: "Clipboard2Check",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard2","check"],
   },
@@ -12008,6 +12557,7 @@ export let BClipboard2DataFill = {
   $_icon: {
     name: "Clipboard2DataFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard2","data","fill"],
   },
@@ -12032,6 +12582,7 @@ export let BClipboard2Data = {
   $_icon: {
     name: "Clipboard2Data",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard2","data"],
   },
@@ -12060,6 +12611,7 @@ export let BClipboard2Fill = {
   $_icon: {
     name: "Clipboard2Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard2","fill"],
   },
@@ -12084,6 +12636,7 @@ export let BClipboard2HeartFill = {
   $_icon: {
     name: "Clipboard2HeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard2","heart","fill"],
   },
@@ -12108,6 +12661,7 @@ export let BClipboard2Heart = {
   $_icon: {
     name: "Clipboard2Heart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard2","heart"],
   },
@@ -12136,6 +12690,7 @@ export let BClipboard2MinusFill = {
   $_icon: {
     name: "Clipboard2MinusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard2","minus","fill"],
   },
@@ -12160,6 +12715,7 @@ export let BClipboard2Minus = {
   $_icon: {
     name: "Clipboard2Minus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard2","minus"],
   },
@@ -12188,6 +12744,7 @@ export let BClipboard2PlusFill = {
   $_icon: {
     name: "Clipboard2PlusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard2","plus","fill"],
   },
@@ -12212,6 +12769,7 @@ export let BClipboard2Plus = {
   $_icon: {
     name: "Clipboard2Plus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard2","plus"],
   },
@@ -12240,6 +12798,7 @@ export let BClipboard2PulseFill = {
   $_icon: {
     name: "Clipboard2PulseFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard2","pulse","fill"],
   },
@@ -12264,6 +12823,7 @@ export let BClipboard2Pulse = {
   $_icon: {
     name: "Clipboard2Pulse",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard2","pulse"],
   },
@@ -12292,6 +12852,7 @@ export let BClipboard2XFill = {
   $_icon: {
     name: "Clipboard2XFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard2","x","fill"],
   },
@@ -12316,6 +12877,7 @@ export let BClipboard2X = {
   $_icon: {
     name: "Clipboard2X",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard2","x"],
   },
@@ -12344,6 +12906,7 @@ export let BClipboard2 = {
   $_icon: {
     name: "Clipboard2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clipboard2"],
   },
@@ -12368,6 +12931,7 @@ export let BClockFill = {
   $_icon: {
     name: "ClockFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clock","fill"],
   },
@@ -12388,6 +12952,7 @@ export let BClockHistory = {
   $_icon: {
     name: "ClockHistory",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clock","history"],
   },
@@ -12416,6 +12981,7 @@ export let BClock = {
   $_icon: {
     name: "Clock",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clock"],
   },
@@ -12440,6 +13006,7 @@ export let BCloudArrowDownFill = {
   $_icon: {
     name: "CloudArrowDownFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","arrow","down","fill"],
   },
@@ -12460,6 +13027,7 @@ export let BCloudArrowDown = {
   $_icon: {
     name: "CloudArrowDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","arrow","down"],
   },
@@ -12484,6 +13052,7 @@ export let BCloudArrowUpFill = {
   $_icon: {
     name: "CloudArrowUpFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","arrow","up","fill"],
   },
@@ -12504,6 +13073,7 @@ export let BCloudArrowUp = {
   $_icon: {
     name: "CloudArrowUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","arrow","up"],
   },
@@ -12528,6 +13098,7 @@ export let BCloudCheckFill = {
   $_icon: {
     name: "CloudCheckFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","check","fill"],
   },
@@ -12548,6 +13119,7 @@ export let BCloudCheck = {
   $_icon: {
     name: "CloudCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","check"],
   },
@@ -12572,6 +13144,7 @@ export let BCloudDownloadFill = {
   $_icon: {
     name: "CloudDownloadFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","download","fill"],
   },
@@ -12592,6 +13165,7 @@ export let BCloudDownload = {
   $_icon: {
     name: "CloudDownload",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","download"],
   },
@@ -12616,6 +13190,7 @@ export let BCloudDrizzleFill = {
   $_icon: {
     name: "CloudDrizzleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","drizzle","fill"],
   },
@@ -12636,6 +13211,7 @@ export let BCloudDrizzle = {
   $_icon: {
     name: "CloudDrizzle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","drizzle"],
   },
@@ -12656,6 +13232,7 @@ export let BCloudFill = {
   $_icon: {
     name: "CloudFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","fill"],
   },
@@ -12676,6 +13253,7 @@ export let BCloudFogFill = {
   $_icon: {
     name: "CloudFogFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","fog","fill"],
   },
@@ -12696,6 +13274,7 @@ export let BCloudFog = {
   $_icon: {
     name: "CloudFog",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","fog"],
   },
@@ -12716,6 +13295,7 @@ export let BCloudFog2Fill = {
   $_icon: {
     name: "CloudFog2Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","fog2","fill"],
   },
@@ -12736,6 +13316,7 @@ export let BCloudFog2 = {
   $_icon: {
     name: "CloudFog2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","fog2"],
   },
@@ -12756,6 +13337,7 @@ export let BCloudHailFill = {
   $_icon: {
     name: "CloudHailFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","hail","fill"],
   },
@@ -12776,6 +13358,7 @@ export let BCloudHail = {
   $_icon: {
     name: "CloudHail",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","hail"],
   },
@@ -12796,6 +13379,7 @@ export let BCloudHazeFill = {
   $_icon: {
     name: "CloudHazeFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","haze","fill"],
   },
@@ -12816,6 +13400,7 @@ export let BCloudHaze = {
   $_icon: {
     name: "CloudHaze",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","haze"],
   },
@@ -12836,6 +13421,7 @@ export let BCloudHaze2Fill = {
   $_icon: {
     name: "CloudHaze2Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","haze2","fill"],
   },
@@ -12856,6 +13442,7 @@ export let BCloudHaze2 = {
   $_icon: {
     name: "CloudHaze2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","haze2"],
   },
@@ -12876,6 +13463,7 @@ export let BCloudLightningFill = {
   $_icon: {
     name: "CloudLightningFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","lightning","fill"],
   },
@@ -12896,6 +13484,7 @@ export let BCloudLightningRainFill = {
   $_icon: {
     name: "CloudLightningRainFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","lightning","rain","fill"],
   },
@@ -12916,6 +13505,7 @@ export let BCloudLightningRain = {
   $_icon: {
     name: "CloudLightningRain",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","lightning","rain"],
   },
@@ -12936,6 +13526,7 @@ export let BCloudLightning = {
   $_icon: {
     name: "CloudLightning",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","lightning"],
   },
@@ -12956,6 +13547,7 @@ export let BCloudMinusFill = {
   $_icon: {
     name: "CloudMinusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","minus","fill"],
   },
@@ -12976,6 +13568,7 @@ export let BCloudMinus = {
   $_icon: {
     name: "CloudMinus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","minus"],
   },
@@ -13000,6 +13593,7 @@ export let BCloudMoonFill = {
   $_icon: {
     name: "CloudMoonFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","moon","fill"],
   },
@@ -13024,6 +13618,7 @@ export let BCloudMoon = {
   $_icon: {
     name: "CloudMoon",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","moon"],
   },
@@ -13048,6 +13643,7 @@ export let BCloudPlusFill = {
   $_icon: {
     name: "CloudPlusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","plus","fill"],
   },
@@ -13068,6 +13664,7 @@ export let BCloudPlus = {
   $_icon: {
     name: "CloudPlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","plus"],
   },
@@ -13092,6 +13689,7 @@ export let BCloudRainFill = {
   $_icon: {
     name: "CloudRainFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","rain","fill"],
   },
@@ -13112,6 +13710,7 @@ export let BCloudRainHeavyFill = {
   $_icon: {
     name: "CloudRainHeavyFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","rain","heavy","fill"],
   },
@@ -13132,6 +13731,7 @@ export let BCloudRainHeavy = {
   $_icon: {
     name: "CloudRainHeavy",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","rain","heavy"],
   },
@@ -13152,6 +13752,7 @@ export let BCloudRain = {
   $_icon: {
     name: "CloudRain",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","rain"],
   },
@@ -13172,6 +13773,7 @@ export let BCloudSlashFill = {
   $_icon: {
     name: "CloudSlashFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","slash","fill"],
   },
@@ -13192,6 +13794,7 @@ export let BCloudSlash = {
   $_icon: {
     name: "CloudSlash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","slash"],
   },
@@ -13216,6 +13819,7 @@ export let BCloudSleetFill = {
   $_icon: {
     name: "CloudSleetFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","sleet","fill"],
   },
@@ -13236,6 +13840,7 @@ export let BCloudSleet = {
   $_icon: {
     name: "CloudSleet",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","sleet"],
   },
@@ -13256,6 +13861,7 @@ export let BCloudSnowFill = {
   $_icon: {
     name: "CloudSnowFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","snow","fill"],
   },
@@ -13276,6 +13882,7 @@ export let BCloudSnow = {
   $_icon: {
     name: "CloudSnow",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","snow"],
   },
@@ -13296,6 +13903,7 @@ export let BCloudSunFill = {
   $_icon: {
     name: "CloudSunFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","sun","fill"],
   },
@@ -13320,6 +13928,7 @@ export let BCloudSun = {
   $_icon: {
     name: "CloudSun",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","sun"],
   },
@@ -13344,6 +13953,7 @@ export let BCloudUploadFill = {
   $_icon: {
     name: "CloudUploadFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","upload","fill"],
   },
@@ -13364,6 +13974,7 @@ export let BCloudUpload = {
   $_icon: {
     name: "CloudUpload",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","upload"],
   },
@@ -13388,6 +13999,7 @@ export let BCloud = {
   $_icon: {
     name: "Cloud",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud"],
   },
@@ -13408,6 +14020,7 @@ export let BCloudsFill = {
   $_icon: {
     name: "CloudsFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clouds","fill"],
   },
@@ -13432,6 +14045,7 @@ export let BClouds = {
   $_icon: {
     name: "Clouds",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clouds"],
   },
@@ -13456,6 +14070,7 @@ export let BCloudyFill = {
   $_icon: {
     name: "CloudyFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloudy","fill"],
   },
@@ -13476,6 +14091,7 @@ export let BCloudy = {
   $_icon: {
     name: "Cloudy",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloudy"],
   },
@@ -13496,6 +14112,7 @@ export let BCodeSlash = {
   $_icon: {
     name: "CodeSlash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["code","slash"],
   },
@@ -13516,6 +14133,7 @@ export let BCodeSquare = {
   $_icon: {
     name: "CodeSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["code","square"],
   },
@@ -13540,6 +14158,7 @@ export let BCode = {
   $_icon: {
     name: "Code",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["code"],
   },
@@ -13560,6 +14179,7 @@ export let BCoin = {
   $_icon: {
     name: "Coin",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["coin"],
   },
@@ -13588,6 +14208,7 @@ export let BCollectionFill = {
   $_icon: {
     name: "CollectionFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["collection","fill"],
   },
@@ -13608,6 +14229,7 @@ export let BCollectionPlayFill = {
   $_icon: {
     name: "CollectionPlayFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["collection","play","fill"],
   },
@@ -13628,6 +14250,7 @@ export let BCollectionPlay = {
   $_icon: {
     name: "CollectionPlay",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["collection","play"],
   },
@@ -13652,6 +14275,7 @@ export let BCollection = {
   $_icon: {
     name: "Collection",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["collection"],
   },
@@ -13672,6 +14296,7 @@ export let BColumnsGap = {
   $_icon: {
     name: "ColumnsGap",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["columns","gap"],
   },
@@ -13692,6 +14317,7 @@ export let BColumns = {
   $_icon: {
     name: "Columns",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["columns"],
   },
@@ -13712,6 +14338,7 @@ export let BCommand = {
   $_icon: {
     name: "Command",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["command"],
   },
@@ -13732,6 +14359,7 @@ export let BCompassFill = {
   $_icon: {
     name: "CompassFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["compass","fill"],
   },
@@ -13752,6 +14380,7 @@ export let BCompass = {
   $_icon: {
     name: "Compass",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["compass"],
   },
@@ -13776,6 +14405,7 @@ export let BConeStriped = {
   $_icon: {
     name: "ConeStriped",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cone","striped"],
   },
@@ -13796,6 +14426,7 @@ export let BCone = {
   $_icon: {
     name: "Cone",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cone"],
   },
@@ -13816,6 +14447,7 @@ export let BController = {
   $_icon: {
     name: "Controller",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["controller"],
   },
@@ -13840,6 +14472,7 @@ export let BCpuFill = {
   $_icon: {
     name: "CpuFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cpu","fill"],
   },
@@ -13864,6 +14497,7 @@ export let BCpu = {
   $_icon: {
     name: "Cpu",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cpu"],
   },
@@ -13884,6 +14518,7 @@ export let BCreditCard2BackFill = {
   $_icon: {
     name: "CreditCard2BackFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["credit","card","2","back","fill"],
   },
@@ -13904,6 +14539,7 @@ export let BCreditCard2Back = {
   $_icon: {
     name: "CreditCard2Back",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["credit","card","2","back"],
   },
@@ -13928,6 +14564,7 @@ export let BCreditCard2FrontFill = {
   $_icon: {
     name: "CreditCard2FrontFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["credit","card","2","front","fill"],
   },
@@ -13948,6 +14585,7 @@ export let BCreditCard2Front = {
   $_icon: {
     name: "CreditCard2Front",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["credit","card","2","front"],
   },
@@ -13972,6 +14610,7 @@ export let BCreditCardFill = {
   $_icon: {
     name: "CreditCardFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["credit","card","fill"],
   },
@@ -13992,6 +14631,7 @@ export let BCreditCard = {
   $_icon: {
     name: "CreditCard",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["credit","card"],
   },
@@ -14016,6 +14656,7 @@ export let BCrop = {
   $_icon: {
     name: "Crop",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["crop"],
   },
@@ -14036,6 +14677,7 @@ export let BCupFill = {
   $_icon: {
     name: "CupFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cup","fill"],
   },
@@ -14056,6 +14698,7 @@ export let BCupHotFill = {
   $_icon: {
     name: "CupHotFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cup","hot","fill"],
   },
@@ -14080,6 +14723,7 @@ export let BCupHot = {
   $_icon: {
     name: "CupHot",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cup","hot"],
   },
@@ -14104,6 +14748,7 @@ export let BCupStraw = {
   $_icon: {
     name: "CupStraw",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cup","straw"],
   },
@@ -14124,6 +14769,7 @@ export let BCup = {
   $_icon: {
     name: "Cup",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cup"],
   },
@@ -14144,6 +14790,7 @@ export let BCurrencyBitcoin = {
   $_icon: {
     name: "CurrencyBitcoin",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["currency","bitcoin"],
   },
@@ -14164,6 +14811,7 @@ export let BCurrencyDollar = {
   $_icon: {
     name: "CurrencyDollar",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["currency","dollar"],
   },
@@ -14184,6 +14832,7 @@ export let BCurrencyEuro = {
   $_icon: {
     name: "CurrencyEuro",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["currency","euro"],
   },
@@ -14204,6 +14853,7 @@ export let BCurrencyExchange = {
   $_icon: {
     name: "CurrencyExchange",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["currency","exchange"],
   },
@@ -14224,6 +14874,7 @@ export let BCurrencyPound = {
   $_icon: {
     name: "CurrencyPound",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["currency","pound"],
   },
@@ -14244,6 +14895,7 @@ export let BCurrencyRupee = {
   $_icon: {
     name: "CurrencyRupee",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["currency","rupee"],
   },
@@ -14264,6 +14916,7 @@ export let BCurrencyYen = {
   $_icon: {
     name: "CurrencyYen",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["currency","yen"],
   },
@@ -14284,6 +14937,7 @@ export let BCursorFill = {
   $_icon: {
     name: "CursorFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cursor","fill"],
   },
@@ -14304,6 +14958,7 @@ export let BCursorText = {
   $_icon: {
     name: "CursorText",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cursor","text"],
   },
@@ -14324,6 +14979,7 @@ export let BCursor = {
   $_icon: {
     name: "Cursor",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cursor"],
   },
@@ -14344,6 +15000,7 @@ export let BDashCircleDotted = {
   $_icon: {
     name: "DashCircleDotted",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dash","circle","dotted"],
   },
@@ -14364,6 +15021,7 @@ export let BDashCircleFill = {
   $_icon: {
     name: "DashCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dash","circle","fill"],
   },
@@ -14384,6 +15042,7 @@ export let BDashCircle = {
   $_icon: {
     name: "DashCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dash","circle"],
   },
@@ -14408,6 +15067,7 @@ export let BDashLg = {
   $_icon: {
     name: "DashLg",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dash","lg"],
   },
@@ -14428,6 +15088,7 @@ export let BDashSquareDotted = {
   $_icon: {
     name: "DashSquareDotted",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dash","square","dotted"],
   },
@@ -14448,6 +15109,7 @@ export let BDashSquareFill = {
   $_icon: {
     name: "DashSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dash","square","fill"],
   },
@@ -14468,6 +15130,7 @@ export let BDashSquare = {
   $_icon: {
     name: "DashSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dash","square"],
   },
@@ -14492,6 +15155,7 @@ export let BDash = {
   $_icon: {
     name: "Dash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dash"],
   },
@@ -14512,6 +15176,7 @@ export let BDatabaseAdd = {
   $_icon: {
     name: "DatabaseAdd",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database","add"],
   },
@@ -14536,6 +15201,7 @@ export let BDatabaseCheck = {
   $_icon: {
     name: "DatabaseCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database","check"],
   },
@@ -14560,6 +15226,7 @@ export let BDatabaseDash = {
   $_icon: {
     name: "DatabaseDash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database","dash"],
   },
@@ -14584,6 +15251,7 @@ export let BDatabaseDown = {
   $_icon: {
     name: "DatabaseDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database","down"],
   },
@@ -14608,6 +15276,7 @@ export let BDatabaseExclamation = {
   $_icon: {
     name: "DatabaseExclamation",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database","exclamation"],
   },
@@ -14632,6 +15301,7 @@ export let BDatabaseFillAdd = {
   $_icon: {
     name: "DatabaseFillAdd",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database","fill","add"],
   },
@@ -14656,6 +15326,7 @@ export let BDatabaseFillCheck = {
   $_icon: {
     name: "DatabaseFillCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database","fill","check"],
   },
@@ -14680,6 +15351,7 @@ export let BDatabaseFillDash = {
   $_icon: {
     name: "DatabaseFillDash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database","fill","dash"],
   },
@@ -14704,6 +15376,7 @@ export let BDatabaseFillDown = {
   $_icon: {
     name: "DatabaseFillDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database","fill","down"],
   },
@@ -14728,6 +15401,7 @@ export let BDatabaseFillExclamation = {
   $_icon: {
     name: "DatabaseFillExclamation",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database","fill","exclamation"],
   },
@@ -14756,6 +15430,7 @@ export let BDatabaseFillGear = {
   $_icon: {
     name: "DatabaseFillGear",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database","fill","gear"],
   },
@@ -14780,6 +15455,7 @@ export let BDatabaseFillLock = {
   $_icon: {
     name: "DatabaseFillLock",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database","fill","lock"],
   },
@@ -14808,6 +15484,7 @@ export let BDatabaseFillSlash = {
   $_icon: {
     name: "DatabaseFillSlash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database","fill","slash"],
   },
@@ -14832,6 +15509,7 @@ export let BDatabaseFillUp = {
   $_icon: {
     name: "DatabaseFillUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database","fill","up"],
   },
@@ -14856,6 +15534,7 @@ export let BDatabaseFillX = {
   $_icon: {
     name: "DatabaseFillX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database","fill","x"],
   },
@@ -14884,6 +15563,7 @@ export let BDatabaseFill = {
   $_icon: {
     name: "DatabaseFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database","fill"],
   },
@@ -14916,6 +15596,7 @@ export let BDatabaseGear = {
   $_icon: {
     name: "DatabaseGear",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database","gear"],
   },
@@ -14940,6 +15621,7 @@ export let BDatabaseLock = {
   $_icon: {
     name: "DatabaseLock",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database","lock"],
   },
@@ -14964,6 +15646,7 @@ export let BDatabaseSlash = {
   $_icon: {
     name: "DatabaseSlash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database","slash"],
   },
@@ -14988,6 +15671,7 @@ export let BDatabaseUp = {
   $_icon: {
     name: "DatabaseUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database","up"],
   },
@@ -15012,6 +15696,7 @@ export let BDatabaseX = {
   $_icon: {
     name: "DatabaseX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database","x"],
   },
@@ -15036,6 +15721,7 @@ export let BDatabase = {
   $_icon: {
     name: "Database",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["database"],
   },
@@ -15056,6 +15742,7 @@ export let BDeviceHddFill = {
   $_icon: {
     name: "DeviceHddFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["device","hdd","fill"],
   },
@@ -15080,6 +15767,7 @@ export let BDeviceHdd = {
   $_icon: {
     name: "DeviceHdd",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["device","hdd"],
   },
@@ -15108,6 +15796,7 @@ export let BDeviceSsdFill = {
   $_icon: {
     name: "DeviceSsdFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["device","ssd","fill"],
   },
@@ -15132,6 +15821,7 @@ export let BDeviceSsd = {
   $_icon: {
     name: "DeviceSsd",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["device","ssd"],
   },
@@ -15156,6 +15846,7 @@ export let BDiagram2Fill = {
   $_icon: {
     name: "Diagram2Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["diagram","2","fill"],
   },
@@ -15176,6 +15867,7 @@ export let BDiagram2 = {
   $_icon: {
     name: "Diagram2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["diagram","2"],
   },
@@ -15196,6 +15888,7 @@ export let BDiagram3Fill = {
   $_icon: {
     name: "Diagram3Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["diagram","3","fill"],
   },
@@ -15216,6 +15909,7 @@ export let BDiagram3 = {
   $_icon: {
     name: "Diagram3",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["diagram","3"],
   },
@@ -15236,6 +15930,7 @@ export let BDiamondFill = {
   $_icon: {
     name: "DiamondFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["diamond","fill"],
   },
@@ -15256,6 +15951,7 @@ export let BDiamondHalf = {
   $_icon: {
     name: "DiamondHalf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["diamond","half"],
   },
@@ -15276,6 +15972,7 @@ export let BDiamond = {
   $_icon: {
     name: "Diamond",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["diamond"],
   },
@@ -15296,6 +15993,7 @@ export let BDice1Fill = {
   $_icon: {
     name: "Dice1Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dice","1","fill"],
   },
@@ -15316,6 +16014,7 @@ export let BDice1 = {
   $_icon: {
     name: "Dice1",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dice","1"],
   },
@@ -15340,6 +16039,7 @@ export let BDice2Fill = {
   $_icon: {
     name: "Dice2Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dice","2","fill"],
   },
@@ -15360,6 +16060,7 @@ export let BDice2 = {
   $_icon: {
     name: "Dice2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dice","2"],
   },
@@ -15384,6 +16085,7 @@ export let BDice3Fill = {
   $_icon: {
     name: "Dice3Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dice","3","fill"],
   },
@@ -15404,6 +16106,7 @@ export let BDice3 = {
   $_icon: {
     name: "Dice3",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dice","3"],
   },
@@ -15428,6 +16131,7 @@ export let BDice4Fill = {
   $_icon: {
     name: "Dice4Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dice","4","fill"],
   },
@@ -15448,6 +16152,7 @@ export let BDice4 = {
   $_icon: {
     name: "Dice4",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dice","4"],
   },
@@ -15472,6 +16177,7 @@ export let BDice5Fill = {
   $_icon: {
     name: "Dice5Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dice","5","fill"],
   },
@@ -15492,6 +16198,7 @@ export let BDice5 = {
   $_icon: {
     name: "Dice5",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dice","5"],
   },
@@ -15516,6 +16223,7 @@ export let BDice6Fill = {
   $_icon: {
     name: "Dice6Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dice","6","fill"],
   },
@@ -15536,6 +16244,7 @@ export let BDice6 = {
   $_icon: {
     name: "Dice6",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dice","6"],
   },
@@ -15560,6 +16269,7 @@ export let BDiscFill = {
   $_icon: {
     name: "DiscFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["disc","fill"],
   },
@@ -15580,6 +16290,7 @@ export let BDisc = {
   $_icon: {
     name: "Disc",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["disc"],
   },
@@ -15604,6 +16315,7 @@ export let BDiscord = {
   $_icon: {
     name: "Discord",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["discord"],
   },
@@ -15624,6 +16336,7 @@ export let BDisplayFill = {
   $_icon: {
     name: "DisplayFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["display","fill"],
   },
@@ -15644,6 +16357,7 @@ export let BDisplay = {
   $_icon: {
     name: "Display",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["display"],
   },
@@ -15664,6 +16378,7 @@ export let BDisplayportFill = {
   $_icon: {
     name: "DisplayportFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["displayport","fill"],
   },
@@ -15684,6 +16399,7 @@ export let BDisplayport = {
   $_icon: {
     name: "Displayport",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["displayport"],
   },
@@ -15708,6 +16424,7 @@ export let BDistributeHorizontal = {
   $_icon: {
     name: "DistributeHorizontal",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["distribute","horizontal"],
   },
@@ -15732,6 +16449,7 @@ export let BDistributeVertical = {
   $_icon: {
     name: "DistributeVertical",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["distribute","vertical"],
   },
@@ -15756,6 +16474,7 @@ export let BDoorClosedFill = {
   $_icon: {
     name: "DoorClosedFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["door","closed","fill"],
   },
@@ -15776,6 +16495,7 @@ export let BDoorClosed = {
   $_icon: {
     name: "DoorClosed",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["door","closed"],
   },
@@ -15800,6 +16520,7 @@ export let BDoorOpenFill = {
   $_icon: {
     name: "DoorOpenFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["door","open","fill"],
   },
@@ -15820,6 +16541,7 @@ export let BDoorOpen = {
   $_icon: {
     name: "DoorOpen",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["door","open"],
   },
@@ -15844,6 +16566,7 @@ export let BDot = {
   $_icon: {
     name: "Dot",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dot"],
   },
@@ -15864,6 +16587,7 @@ export let BDownload = {
   $_icon: {
     name: "Download",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["download"],
   },
@@ -15888,6 +16612,7 @@ export let BDpadFill = {
   $_icon: {
     name: "DpadFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dpad","fill"],
   },
@@ -15908,6 +16633,7 @@ export let BDpad = {
   $_icon: {
     name: "Dpad",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dpad"],
   },
@@ -15932,6 +16658,7 @@ export let BDribbble = {
   $_icon: {
     name: "Dribbble",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dribbble"],
   },
@@ -15952,6 +16679,7 @@ export let BDropbox = {
   $_icon: {
     name: "Dropbox",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dropbox"],
   },
@@ -15972,6 +16700,7 @@ export let BDropletFill = {
   $_icon: {
     name: "DropletFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["droplet","fill"],
   },
@@ -15992,6 +16721,7 @@ export let BDropletHalf = {
   $_icon: {
     name: "DropletHalf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["droplet","half"],
   },
@@ -16016,6 +16746,7 @@ export let BDroplet = {
   $_icon: {
     name: "Droplet",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["droplet"],
   },
@@ -16040,6 +16771,7 @@ export let BEarFill = {
   $_icon: {
     name: "EarFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ear","fill"],
   },
@@ -16060,6 +16792,7 @@ export let BEar = {
   $_icon: {
     name: "Ear",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ear"],
   },
@@ -16080,6 +16813,7 @@ export let BEarbuds = {
   $_icon: {
     name: "Earbuds",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["earbuds"],
   },
@@ -16100,6 +16834,7 @@ export let BEaselFill = {
   $_icon: {
     name: "EaselFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["easel","fill"],
   },
@@ -16120,6 +16855,7 @@ export let BEasel = {
   $_icon: {
     name: "Easel",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["easel"],
   },
@@ -16140,6 +16876,7 @@ export let BEasel2Fill = {
   $_icon: {
     name: "Easel2Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["easel2","fill"],
   },
@@ -16164,6 +16901,7 @@ export let BEasel2 = {
   $_icon: {
     name: "Easel2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["easel2"],
   },
@@ -16184,6 +16922,7 @@ export let BEasel3Fill = {
   $_icon: {
     name: "Easel3Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["easel3","fill"],
   },
@@ -16204,6 +16943,7 @@ export let BEasel3 = {
   $_icon: {
     name: "Easel3",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["easel3"],
   },
@@ -16224,6 +16964,7 @@ export let BEggFill = {
   $_icon: {
     name: "EggFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["egg","fill"],
   },
@@ -16244,6 +16985,7 @@ export let BEggFried = {
   $_icon: {
     name: "EggFried",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["egg","fried"],
   },
@@ -16268,6 +17010,7 @@ export let BEgg = {
   $_icon: {
     name: "Egg",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["egg"],
   },
@@ -16288,6 +17031,7 @@ export let BEjectFill = {
   $_icon: {
     name: "EjectFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["eject","fill"],
   },
@@ -16308,6 +17052,7 @@ export let BEject = {
   $_icon: {
     name: "Eject",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["eject"],
   },
@@ -16328,6 +17073,7 @@ export let BEmojiAngryFill = {
   $_icon: {
     name: "EmojiAngryFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","angry","fill"],
   },
@@ -16348,6 +17094,7 @@ export let BEmojiAngry = {
   $_icon: {
     name: "EmojiAngry",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","angry"],
   },
@@ -16372,6 +17119,7 @@ export let BEmojiDizzyFill = {
   $_icon: {
     name: "EmojiDizzyFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","dizzy","fill"],
   },
@@ -16392,6 +17140,7 @@ export let BEmojiDizzy = {
   $_icon: {
     name: "EmojiDizzy",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","dizzy"],
   },
@@ -16416,6 +17165,7 @@ export let BEmojiExpressionlessFill = {
   $_icon: {
     name: "EmojiExpressionlessFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","expressionless","fill"],
   },
@@ -16436,6 +17186,7 @@ export let BEmojiExpressionless = {
   $_icon: {
     name: "EmojiExpressionless",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","expressionless"],
   },
@@ -16460,6 +17211,7 @@ export let BEmojiFrownFill = {
   $_icon: {
     name: "EmojiFrownFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","frown","fill"],
   },
@@ -16480,6 +17232,7 @@ export let BEmojiFrown = {
   $_icon: {
     name: "EmojiFrown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","frown"],
   },
@@ -16504,6 +17257,7 @@ export let BEmojiHeartEyesFill = {
   $_icon: {
     name: "EmojiHeartEyesFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","heart","eyes","fill"],
   },
@@ -16524,6 +17278,7 @@ export let BEmojiHeartEyes = {
   $_icon: {
     name: "EmojiHeartEyes",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","heart","eyes"],
   },
@@ -16548,6 +17303,7 @@ export let BEmojiKissFill = {
   $_icon: {
     name: "EmojiKissFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","kiss","fill"],
   },
@@ -16568,6 +17324,7 @@ export let BEmojiKiss = {
   $_icon: {
     name: "EmojiKiss",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","kiss"],
   },
@@ -16588,6 +17345,7 @@ export let BEmojiLaughingFill = {
   $_icon: {
     name: "EmojiLaughingFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","laughing","fill"],
   },
@@ -16608,6 +17366,7 @@ export let BEmojiLaughing = {
   $_icon: {
     name: "EmojiLaughing",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","laughing"],
   },
@@ -16632,6 +17391,7 @@ export let BEmojiNeutralFill = {
   $_icon: {
     name: "EmojiNeutralFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","neutral","fill"],
   },
@@ -16652,6 +17412,7 @@ export let BEmojiNeutral = {
   $_icon: {
     name: "EmojiNeutral",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","neutral"],
   },
@@ -16676,6 +17437,7 @@ export let BEmojiSmileFill = {
   $_icon: {
     name: "EmojiSmileFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","smile","fill"],
   },
@@ -16696,6 +17458,7 @@ export let BEmojiSmileUpsideDownFill = {
   $_icon: {
     name: "EmojiSmileUpsideDownFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","smile","upside","down","fill"],
   },
@@ -16716,6 +17479,7 @@ export let BEmojiSmileUpsideDown = {
   $_icon: {
     name: "EmojiSmileUpsideDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","smile","upside","down"],
   },
@@ -16740,6 +17504,7 @@ export let BEmojiSmile = {
   $_icon: {
     name: "EmojiSmile",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","smile"],
   },
@@ -16764,6 +17529,7 @@ export let BEmojiSunglassesFill = {
   $_icon: {
     name: "EmojiSunglassesFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","sunglasses","fill"],
   },
@@ -16784,6 +17550,7 @@ export let BEmojiSunglasses = {
   $_icon: {
     name: "EmojiSunglasses",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","sunglasses"],
   },
@@ -16808,6 +17575,7 @@ export let BEmojiWinkFill = {
   $_icon: {
     name: "EmojiWinkFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","wink","fill"],
   },
@@ -16828,6 +17596,7 @@ export let BEmojiWink = {
   $_icon: {
     name: "EmojiWink",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","wink"],
   },
@@ -16852,6 +17621,7 @@ export let BEnvelopeAtFill = {
   $_icon: {
     name: "EnvelopeAtFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","at","fill"],
   },
@@ -16876,6 +17646,7 @@ export let BEnvelopeAt = {
   $_icon: {
     name: "EnvelopeAt",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","at"],
   },
@@ -16900,6 +17671,7 @@ export let BEnvelopeCheckFill = {
   $_icon: {
     name: "EnvelopeCheckFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","check","fill"],
   },
@@ -16924,6 +17696,7 @@ export let BEnvelopeCheck = {
   $_icon: {
     name: "EnvelopeCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","check"],
   },
@@ -16948,6 +17721,7 @@ export let BEnvelopeDashFill = {
   $_icon: {
     name: "EnvelopeDashFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","dash","fill"],
   },
@@ -16972,6 +17746,7 @@ export let BEnvelopeDash = {
   $_icon: {
     name: "EnvelopeDash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","dash"],
   },
@@ -16996,6 +17771,7 @@ export let BEnvelopeExclamationFill = {
   $_icon: {
     name: "EnvelopeExclamationFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","exclamation","fill"],
   },
@@ -17020,6 +17796,7 @@ export let BEnvelopeExclamation = {
   $_icon: {
     name: "EnvelopeExclamation",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","exclamation"],
   },
@@ -17044,6 +17821,7 @@ export let BEnvelopeFill = {
   $_icon: {
     name: "EnvelopeFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","fill"],
   },
@@ -17064,6 +17842,7 @@ export let BEnvelopeHeartFill = {
   $_icon: {
     name: "EnvelopeHeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","heart","fill"],
   },
@@ -17088,6 +17867,7 @@ export let BEnvelopeHeart = {
   $_icon: {
     name: "EnvelopeHeart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","heart"],
   },
@@ -17108,6 +17888,7 @@ export let BEnvelopeOpenFill = {
   $_icon: {
     name: "EnvelopeOpenFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","open","fill"],
   },
@@ -17128,6 +17909,7 @@ export let BEnvelopeOpenHeartFill = {
   $_icon: {
     name: "EnvelopeOpenHeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","open","heart","fill"],
   },
@@ -17152,6 +17934,7 @@ export let BEnvelopeOpenHeart = {
   $_icon: {
     name: "EnvelopeOpenHeart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","open","heart"],
   },
@@ -17172,6 +17955,7 @@ export let BEnvelopeOpen = {
   $_icon: {
     name: "EnvelopeOpen",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","open"],
   },
@@ -17192,6 +17976,7 @@ export let BEnvelopePaperFill = {
   $_icon: {
     name: "EnvelopePaperFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","paper","fill"],
   },
@@ -17212,6 +17997,7 @@ export let BEnvelopePaperHeartFill = {
   $_icon: {
     name: "EnvelopePaperHeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","paper","heart","fill"],
   },
@@ -17232,6 +18018,7 @@ export let BEnvelopePaperHeart = {
   $_icon: {
     name: "EnvelopePaperHeart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","paper","heart"],
   },
@@ -17252,6 +18039,7 @@ export let BEnvelopePaper = {
   $_icon: {
     name: "EnvelopePaper",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","paper"],
   },
@@ -17272,6 +18060,7 @@ export let BEnvelopePlusFill = {
   $_icon: {
     name: "EnvelopePlusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","plus","fill"],
   },
@@ -17296,6 +18085,7 @@ export let BEnvelopePlus = {
   $_icon: {
     name: "EnvelopePlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","plus"],
   },
@@ -17320,6 +18110,7 @@ export let BEnvelopeSlashFill = {
   $_icon: {
     name: "EnvelopeSlashFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","slash","fill"],
   },
@@ -17344,6 +18135,7 @@ export let BEnvelopeSlash = {
   $_icon: {
     name: "EnvelopeSlash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","slash"],
   },
@@ -17368,6 +18160,7 @@ export let BEnvelopeXFill = {
   $_icon: {
     name: "EnvelopeXFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","x","fill"],
   },
@@ -17392,6 +18185,7 @@ export let BEnvelopeX = {
   $_icon: {
     name: "EnvelopeX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope","x"],
   },
@@ -17416,6 +18210,7 @@ export let BEnvelope = {
   $_icon: {
     name: "Envelope",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["envelope"],
   },
@@ -17436,6 +18231,7 @@ export let BEraserFill = {
   $_icon: {
     name: "EraserFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["eraser","fill"],
   },
@@ -17456,6 +18252,7 @@ export let BEraser = {
   $_icon: {
     name: "Eraser",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["eraser"],
   },
@@ -17476,6 +18273,7 @@ export let BEscape = {
   $_icon: {
     name: "Escape",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["escape"],
   },
@@ -17500,6 +18298,7 @@ export let BEthernet = {
   $_icon: {
     name: "Ethernet",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ethernet"],
   },
@@ -17524,6 +18323,7 @@ export let BEvFrontFill = {
   $_icon: {
     name: "EvFrontFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ev","front","fill"],
   },
@@ -17544,6 +18344,7 @@ export let BEvFront = {
   $_icon: {
     name: "EvFront",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ev","front"],
   },
@@ -17568,6 +18369,7 @@ export let BEvStationFill = {
   $_icon: {
     name: "EvStationFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ev","station","fill"],
   },
@@ -17588,6 +18390,7 @@ export let BEvStation = {
   $_icon: {
     name: "EvStation",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ev","station"],
   },
@@ -17612,6 +18415,7 @@ export let BExclamationCircleFill = {
   $_icon: {
     name: "ExclamationCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["exclamation","circle","fill"],
   },
@@ -17632,6 +18436,7 @@ export let BExclamationCircle = {
   $_icon: {
     name: "ExclamationCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["exclamation","circle"],
   },
@@ -17656,6 +18461,7 @@ export let BExclamationDiamondFill = {
   $_icon: {
     name: "ExclamationDiamondFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["exclamation","diamond","fill"],
   },
@@ -17676,6 +18482,7 @@ export let BExclamationDiamond = {
   $_icon: {
     name: "ExclamationDiamond",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["exclamation","diamond"],
   },
@@ -17700,6 +18507,7 @@ export let BExclamationLg = {
   $_icon: {
     name: "ExclamationLg",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["exclamation","lg"],
   },
@@ -17720,6 +18528,7 @@ export let BExclamationOctagonFill = {
   $_icon: {
     name: "ExclamationOctagonFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["exclamation","octagon","fill"],
   },
@@ -17740,6 +18549,7 @@ export let BExclamationOctagon = {
   $_icon: {
     name: "ExclamationOctagon",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["exclamation","octagon"],
   },
@@ -17764,6 +18574,7 @@ export let BExclamationSquareFill = {
   $_icon: {
     name: "ExclamationSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["exclamation","square","fill"],
   },
@@ -17784,6 +18595,7 @@ export let BExclamationSquare = {
   $_icon: {
     name: "ExclamationSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["exclamation","square"],
   },
@@ -17808,6 +18620,7 @@ export let BExclamationTriangleFill = {
   $_icon: {
     name: "ExclamationTriangleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["exclamation","triangle","fill"],
   },
@@ -17828,6 +18641,7 @@ export let BExclamationTriangle = {
   $_icon: {
     name: "ExclamationTriangle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["exclamation","triangle"],
   },
@@ -17852,6 +18666,7 @@ export let BExclamation = {
   $_icon: {
     name: "Exclamation",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["exclamation"],
   },
@@ -17872,6 +18687,7 @@ export let BExclude = {
   $_icon: {
     name: "Exclude",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["exclude"],
   },
@@ -17892,6 +18708,7 @@ export let BExplicitFill = {
   $_icon: {
     name: "ExplicitFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["explicit","fill"],
   },
@@ -17912,6 +18729,7 @@ export let BExplicit = {
   $_icon: {
     name: "Explicit",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["explicit"],
   },
@@ -17936,6 +18754,7 @@ export let BEyeFill = {
   $_icon: {
     name: "EyeFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["eye","fill"],
   },
@@ -17960,6 +18779,7 @@ export let BEyeSlashFill = {
   $_icon: {
     name: "EyeSlashFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["eye","slash","fill"],
   },
@@ -17984,6 +18804,7 @@ export let BEyeSlash = {
   $_icon: {
     name: "EyeSlash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["eye","slash"],
   },
@@ -18012,6 +18833,7 @@ export let BEye = {
   $_icon: {
     name: "Eye",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["eye"],
   },
@@ -18036,6 +18858,7 @@ export let BEyedropper = {
   $_icon: {
     name: "Eyedropper",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["eyedropper"],
   },
@@ -18056,6 +18879,7 @@ export let BEyeglasses = {
   $_icon: {
     name: "Eyeglasses",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["eyeglasses"],
   },
@@ -18076,6 +18900,7 @@ export let BFacebook = {
   $_icon: {
     name: "Facebook",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["facebook"],
   },
@@ -18096,6 +18921,7 @@ export let BFan = {
   $_icon: {
     name: "Fan",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["fan"],
   },
@@ -18120,6 +18946,7 @@ export let BFastForwardBtnFill = {
   $_icon: {
     name: "FastForwardBtnFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["fast","forward","btn","fill"],
   },
@@ -18140,6 +18967,7 @@ export let BFastForwardBtn = {
   $_icon: {
     name: "FastForwardBtn",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["fast","forward","btn"],
   },
@@ -18164,6 +18992,7 @@ export let BFastForwardCircleFill = {
   $_icon: {
     name: "FastForwardCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["fast","forward","circle","fill"],
   },
@@ -18184,6 +19013,7 @@ export let BFastForwardCircle = {
   $_icon: {
     name: "FastForwardCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["fast","forward","circle"],
   },
@@ -18208,6 +19038,7 @@ export let BFastForwardFill = {
   $_icon: {
     name: "FastForwardFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["fast","forward","fill"],
   },
@@ -18232,6 +19063,7 @@ export let BFastForward = {
   $_icon: {
     name: "FastForward",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["fast","forward"],
   },
@@ -18256,6 +19088,7 @@ export let BFileArrowDownFill = {
   $_icon: {
     name: "FileArrowDownFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","arrow","down","fill"],
   },
@@ -18276,6 +19109,7 @@ export let BFileArrowDown = {
   $_icon: {
     name: "FileArrowDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","arrow","down"],
   },
@@ -18300,6 +19134,7 @@ export let BFileArrowUpFill = {
   $_icon: {
     name: "FileArrowUpFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","arrow","up","fill"],
   },
@@ -18320,6 +19155,7 @@ export let BFileArrowUp = {
   $_icon: {
     name: "FileArrowUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","arrow","up"],
   },
@@ -18344,6 +19180,7 @@ export let BFileBarGraphFill = {
   $_icon: {
     name: "FileBarGraphFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","bar","graph","fill"],
   },
@@ -18364,6 +19201,7 @@ export let BFileBarGraph = {
   $_icon: {
     name: "FileBarGraph",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","bar","graph"],
   },
@@ -18388,6 +19226,7 @@ export let BFileBinaryFill = {
   $_icon: {
     name: "FileBinaryFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","binary","fill"],
   },
@@ -18412,6 +19251,7 @@ export let BFileBinary = {
   $_icon: {
     name: "FileBinary",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","binary"],
   },
@@ -18436,6 +19276,7 @@ export let BFileBreakFill = {
   $_icon: {
     name: "FileBreakFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","break","fill"],
   },
@@ -18456,6 +19297,7 @@ export let BFileBreak = {
   $_icon: {
     name: "FileBreak",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","break"],
   },
@@ -18476,6 +19318,7 @@ export let BFileCheckFill = {
   $_icon: {
     name: "FileCheckFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","check","fill"],
   },
@@ -18496,6 +19339,7 @@ export let BFileCheck = {
   $_icon: {
     name: "FileCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","check"],
   },
@@ -18520,6 +19364,7 @@ export let BFileCodeFill = {
   $_icon: {
     name: "FileCodeFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","code","fill"],
   },
@@ -18540,6 +19385,7 @@ export let BFileCode = {
   $_icon: {
     name: "FileCode",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","code"],
   },
@@ -18564,6 +19410,7 @@ export let BFileDiffFill = {
   $_icon: {
     name: "FileDiffFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","diff","fill"],
   },
@@ -18584,6 +19431,7 @@ export let BFileDiff = {
   $_icon: {
     name: "FileDiff",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","diff"],
   },
@@ -18608,6 +19456,7 @@ export let BFileEarmarkArrowDownFill = {
   $_icon: {
     name: "FileEarmarkArrowDownFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","arrow","down","fill"],
   },
@@ -18628,6 +19477,7 @@ export let BFileEarmarkArrowDown = {
   $_icon: {
     name: "FileEarmarkArrowDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","arrow","down"],
   },
@@ -18652,6 +19502,7 @@ export let BFileEarmarkArrowUpFill = {
   $_icon: {
     name: "FileEarmarkArrowUpFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","arrow","up","fill"],
   },
@@ -18672,6 +19523,7 @@ export let BFileEarmarkArrowUp = {
   $_icon: {
     name: "FileEarmarkArrowUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","arrow","up"],
   },
@@ -18696,6 +19548,7 @@ export let BFileEarmarkBarGraphFill = {
   $_icon: {
     name: "FileEarmarkBarGraphFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","bar","graph","fill"],
   },
@@ -18716,6 +19569,7 @@ export let BFileEarmarkBarGraph = {
   $_icon: {
     name: "FileEarmarkBarGraph",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","bar","graph"],
   },
@@ -18740,6 +19594,7 @@ export let BFileEarmarkBinaryFill = {
   $_icon: {
     name: "FileEarmarkBinaryFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","binary","fill"],
   },
@@ -18764,6 +19619,7 @@ export let BFileEarmarkBinary = {
   $_icon: {
     name: "FileEarmarkBinary",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","binary"],
   },
@@ -18788,6 +19644,7 @@ export let BFileEarmarkBreakFill = {
   $_icon: {
     name: "FileEarmarkBreakFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","break","fill"],
   },
@@ -18808,6 +19665,7 @@ export let BFileEarmarkBreak = {
   $_icon: {
     name: "FileEarmarkBreak",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","break"],
   },
@@ -18828,6 +19686,7 @@ export let BFileEarmarkCheckFill = {
   $_icon: {
     name: "FileEarmarkCheckFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","check","fill"],
   },
@@ -18848,6 +19707,7 @@ export let BFileEarmarkCheck = {
   $_icon: {
     name: "FileEarmarkCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","check"],
   },
@@ -18872,6 +19732,7 @@ export let BFileEarmarkCodeFill = {
   $_icon: {
     name: "FileEarmarkCodeFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","code","fill"],
   },
@@ -18892,6 +19753,7 @@ export let BFileEarmarkCode = {
   $_icon: {
     name: "FileEarmarkCode",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","code"],
   },
@@ -18916,6 +19778,7 @@ export let BFileEarmarkDiffFill = {
   $_icon: {
     name: "FileEarmarkDiffFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","diff","fill"],
   },
@@ -18936,6 +19799,7 @@ export let BFileEarmarkDiff = {
   $_icon: {
     name: "FileEarmarkDiff",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","diff"],
   },
@@ -18960,6 +19824,7 @@ export let BFileEarmarkEaselFill = {
   $_icon: {
     name: "FileEarmarkEaselFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","easel","fill"],
   },
@@ -18984,6 +19849,7 @@ export let BFileEarmarkEasel = {
   $_icon: {
     name: "FileEarmarkEasel",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","easel"],
   },
@@ -19008,6 +19874,7 @@ export let BFileEarmarkExcelFill = {
   $_icon: {
     name: "FileEarmarkExcelFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","excel","fill"],
   },
@@ -19028,6 +19895,7 @@ export let BFileEarmarkExcel = {
   $_icon: {
     name: "FileEarmarkExcel",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","excel"],
   },
@@ -19052,6 +19920,7 @@ export let BFileEarmarkFill = {
   $_icon: {
     name: "FileEarmarkFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","fill"],
   },
@@ -19072,6 +19941,7 @@ export let BFileEarmarkFontFill = {
   $_icon: {
     name: "FileEarmarkFontFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","font","fill"],
   },
@@ -19092,6 +19962,7 @@ export let BFileEarmarkFont = {
   $_icon: {
     name: "FileEarmarkFont",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","font"],
   },
@@ -19116,6 +19987,7 @@ export let BFileEarmarkImageFill = {
   $_icon: {
     name: "FileEarmarkImageFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","image","fill"],
   },
@@ -19140,6 +20012,7 @@ export let BFileEarmarkImage = {
   $_icon: {
     name: "FileEarmarkImage",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","image"],
   },
@@ -19164,6 +20037,7 @@ export let BFileEarmarkLockFill = {
   $_icon: {
     name: "FileEarmarkLockFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","lock","fill"],
   },
@@ -19188,6 +20062,7 @@ export let BFileEarmarkLock = {
   $_icon: {
     name: "FileEarmarkLock",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","lock"],
   },
@@ -19212,6 +20087,7 @@ export let BFileEarmarkLock2Fill = {
   $_icon: {
     name: "FileEarmarkLock2Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","lock2","fill"],
   },
@@ -19236,6 +20112,7 @@ export let BFileEarmarkLock2 = {
   $_icon: {
     name: "FileEarmarkLock2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","lock2"],
   },
@@ -19260,6 +20137,7 @@ export let BFileEarmarkMedicalFill = {
   $_icon: {
     name: "FileEarmarkMedicalFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","medical","fill"],
   },
@@ -19280,6 +20158,7 @@ export let BFileEarmarkMedical = {
   $_icon: {
     name: "FileEarmarkMedical",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","medical"],
   },
@@ -19304,6 +20183,7 @@ export let BFileEarmarkMinusFill = {
   $_icon: {
     name: "FileEarmarkMinusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","minus","fill"],
   },
@@ -19324,6 +20204,7 @@ export let BFileEarmarkMinus = {
   $_icon: {
     name: "FileEarmarkMinus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","minus"],
   },
@@ -19348,6 +20229,7 @@ export let BFileEarmarkMusicFill = {
   $_icon: {
     name: "FileEarmarkMusicFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","music","fill"],
   },
@@ -19368,6 +20250,7 @@ export let BFileEarmarkMusic = {
   $_icon: {
     name: "FileEarmarkMusic",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","music"],
   },
@@ -19392,6 +20275,7 @@ export let BFileEarmarkPdfFill = {
   $_icon: {
     name: "FileEarmarkPdfFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","pdf","fill"],
   },
@@ -19416,6 +20300,7 @@ export let BFileEarmarkPdf = {
   $_icon: {
     name: "FileEarmarkPdf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","pdf"],
   },
@@ -19440,6 +20325,7 @@ export let BFileEarmarkPersonFill = {
   $_icon: {
     name: "FileEarmarkPersonFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","person","fill"],
   },
@@ -19460,6 +20346,7 @@ export let BFileEarmarkPerson = {
   $_icon: {
     name: "FileEarmarkPerson",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","person"],
   },
@@ -19484,6 +20371,7 @@ export let BFileEarmarkPlayFill = {
   $_icon: {
     name: "FileEarmarkPlayFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","play","fill"],
   },
@@ -19504,6 +20392,7 @@ export let BFileEarmarkPlay = {
   $_icon: {
     name: "FileEarmarkPlay",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","play"],
   },
@@ -19528,6 +20417,7 @@ export let BFileEarmarkPlusFill = {
   $_icon: {
     name: "FileEarmarkPlusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","plus","fill"],
   },
@@ -19548,6 +20438,7 @@ export let BFileEarmarkPlus = {
   $_icon: {
     name: "FileEarmarkPlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","plus"],
   },
@@ -19572,6 +20463,7 @@ export let BFileEarmarkPostFill = {
   $_icon: {
     name: "FileEarmarkPostFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","post","fill"],
   },
@@ -19592,6 +20484,7 @@ export let BFileEarmarkPost = {
   $_icon: {
     name: "FileEarmarkPost",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","post"],
   },
@@ -19616,6 +20509,7 @@ export let BFileEarmarkPptFill = {
   $_icon: {
     name: "FileEarmarkPptFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","ppt","fill"],
   },
@@ -19640,6 +20534,7 @@ export let BFileEarmarkPpt = {
   $_icon: {
     name: "FileEarmarkPpt",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","ppt"],
   },
@@ -19664,6 +20559,7 @@ export let BFileEarmarkRichtextFill = {
   $_icon: {
     name: "FileEarmarkRichtextFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","richtext","fill"],
   },
@@ -19684,6 +20580,7 @@ export let BFileEarmarkRichtext = {
   $_icon: {
     name: "FileEarmarkRichtext",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","richtext"],
   },
@@ -19708,6 +20605,7 @@ export let BFileEarmarkRuledFill = {
   $_icon: {
     name: "FileEarmarkRuledFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","ruled","fill"],
   },
@@ -19728,6 +20626,7 @@ export let BFileEarmarkRuled = {
   $_icon: {
     name: "FileEarmarkRuled",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","ruled"],
   },
@@ -19748,6 +20647,7 @@ export let BFileEarmarkSlidesFill = {
   $_icon: {
     name: "FileEarmarkSlidesFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","slides","fill"],
   },
@@ -19772,6 +20672,7 @@ export let BFileEarmarkSlides = {
   $_icon: {
     name: "FileEarmarkSlides",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","slides"],
   },
@@ -19796,6 +20697,7 @@ export let BFileEarmarkSpreadsheetFill = {
   $_icon: {
     name: "FileEarmarkSpreadsheetFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","spreadsheet","fill"],
   },
@@ -19820,6 +20722,7 @@ export let BFileEarmarkSpreadsheet = {
   $_icon: {
     name: "FileEarmarkSpreadsheet",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","spreadsheet"],
   },
@@ -19840,6 +20743,7 @@ export let BFileEarmarkTextFill = {
   $_icon: {
     name: "FileEarmarkTextFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","text","fill"],
   },
@@ -19860,6 +20764,7 @@ export let BFileEarmarkText = {
   $_icon: {
     name: "FileEarmarkText",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","text"],
   },
@@ -19884,6 +20789,7 @@ export let BFileEarmarkWordFill = {
   $_icon: {
     name: "FileEarmarkWordFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","word","fill"],
   },
@@ -19904,6 +20810,7 @@ export let BFileEarmarkWord = {
   $_icon: {
     name: "FileEarmarkWord",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","word"],
   },
@@ -19928,6 +20835,7 @@ export let BFileEarmarkXFill = {
   $_icon: {
     name: "FileEarmarkXFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","x","fill"],
   },
@@ -19948,6 +20856,7 @@ export let BFileEarmarkX = {
   $_icon: {
     name: "FileEarmarkX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","x"],
   },
@@ -19972,6 +20881,7 @@ export let BFileEarmarkZipFill = {
   $_icon: {
     name: "FileEarmarkZipFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","zip","fill"],
   },
@@ -19996,6 +20906,7 @@ export let BFileEarmarkZip = {
   $_icon: {
     name: "FileEarmarkZip",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","zip"],
   },
@@ -20020,6 +20931,7 @@ export let BFileEarmark = {
   $_icon: {
     name: "FileEarmark",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark"],
   },
@@ -20040,6 +20952,7 @@ export let BFileEaselFill = {
   $_icon: {
     name: "FileEaselFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","easel","fill"],
   },
@@ -20064,6 +20977,7 @@ export let BFileEasel = {
   $_icon: {
     name: "FileEasel",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","easel"],
   },
@@ -20088,6 +21002,7 @@ export let BFileExcelFill = {
   $_icon: {
     name: "FileExcelFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","excel","fill"],
   },
@@ -20108,6 +21023,7 @@ export let BFileExcel = {
   $_icon: {
     name: "FileExcel",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","excel"],
   },
@@ -20132,6 +21048,7 @@ export let BFileFill = {
   $_icon: {
     name: "FileFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","fill"],
   },
@@ -20152,6 +21069,7 @@ export let BFileFontFill = {
   $_icon: {
     name: "FileFontFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","font","fill"],
   },
@@ -20172,6 +21090,7 @@ export let BFileFont = {
   $_icon: {
     name: "FileFont",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","font"],
   },
@@ -20196,6 +21115,7 @@ export let BFileImageFill = {
   $_icon: {
     name: "FileImageFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","image","fill"],
   },
@@ -20220,6 +21140,7 @@ export let BFileImage = {
   $_icon: {
     name: "FileImage",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","image"],
   },
@@ -20244,6 +21165,7 @@ export let BFileLockFill = {
   $_icon: {
     name: "FileLockFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","lock","fill"],
   },
@@ -20268,6 +21190,7 @@ export let BFileLock = {
   $_icon: {
     name: "FileLock",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","lock"],
   },
@@ -20292,6 +21215,7 @@ export let BFileLock2Fill = {
   $_icon: {
     name: "FileLock2Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","lock2","fill"],
   },
@@ -20316,6 +21240,7 @@ export let BFileLock2 = {
   $_icon: {
     name: "FileLock2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","lock2"],
   },
@@ -20340,6 +21265,7 @@ export let BFileMedicalFill = {
   $_icon: {
     name: "FileMedicalFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","medical","fill"],
   },
@@ -20360,6 +21286,7 @@ export let BFileMedical = {
   $_icon: {
     name: "FileMedical",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","medical"],
   },
@@ -20384,6 +21311,7 @@ export let BFileMinusFill = {
   $_icon: {
     name: "FileMinusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","minus","fill"],
   },
@@ -20404,6 +21332,7 @@ export let BFileMinus = {
   $_icon: {
     name: "FileMinus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","minus"],
   },
@@ -20428,6 +21357,7 @@ export let BFileMusicFill = {
   $_icon: {
     name: "FileMusicFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","music","fill"],
   },
@@ -20448,6 +21378,7 @@ export let BFileMusic = {
   $_icon: {
     name: "FileMusic",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","music"],
   },
@@ -20472,6 +21403,7 @@ export let BFilePdfFill = {
   $_icon: {
     name: "FilePdfFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","pdf","fill"],
   },
@@ -20496,6 +21428,7 @@ export let BFilePdf = {
   $_icon: {
     name: "FilePdf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","pdf"],
   },
@@ -20520,6 +21453,7 @@ export let BFilePersonFill = {
   $_icon: {
     name: "FilePersonFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","person","fill"],
   },
@@ -20540,6 +21474,7 @@ export let BFilePerson = {
   $_icon: {
     name: "FilePerson",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","person"],
   },
@@ -20564,6 +21499,7 @@ export let BFilePlayFill = {
   $_icon: {
     name: "FilePlayFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","play","fill"],
   },
@@ -20584,6 +21520,7 @@ export let BFilePlay = {
   $_icon: {
     name: "FilePlay",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","play"],
   },
@@ -20608,6 +21545,7 @@ export let BFilePlusFill = {
   $_icon: {
     name: "FilePlusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","plus","fill"],
   },
@@ -20628,6 +21566,7 @@ export let BFilePlus = {
   $_icon: {
     name: "FilePlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","plus"],
   },
@@ -20652,6 +21591,7 @@ export let BFilePostFill = {
   $_icon: {
     name: "FilePostFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","post","fill"],
   },
@@ -20672,6 +21612,7 @@ export let BFilePost = {
   $_icon: {
     name: "FilePost",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","post"],
   },
@@ -20696,6 +21637,7 @@ export let BFilePptFill = {
   $_icon: {
     name: "FilePptFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","ppt","fill"],
   },
@@ -20720,6 +21662,7 @@ export let BFilePpt = {
   $_icon: {
     name: "FilePpt",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","ppt"],
   },
@@ -20744,6 +21687,7 @@ export let BFileRichtextFill = {
   $_icon: {
     name: "FileRichtextFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","richtext","fill"],
   },
@@ -20764,6 +21708,7 @@ export let BFileRichtext = {
   $_icon: {
     name: "FileRichtext",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","richtext"],
   },
@@ -20788,6 +21733,7 @@ export let BFileRuledFill = {
   $_icon: {
     name: "FileRuledFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","ruled","fill"],
   },
@@ -20808,6 +21754,7 @@ export let BFileRuled = {
   $_icon: {
     name: "FileRuled",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","ruled"],
   },
@@ -20828,6 +21775,7 @@ export let BFileSlidesFill = {
   $_icon: {
     name: "FileSlidesFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","slides","fill"],
   },
@@ -20852,6 +21800,7 @@ export let BFileSlides = {
   $_icon: {
     name: "FileSlides",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","slides"],
   },
@@ -20876,6 +21825,7 @@ export let BFileSpreadsheetFill = {
   $_icon: {
     name: "FileSpreadsheetFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","spreadsheet","fill"],
   },
@@ -20896,6 +21846,7 @@ export let BFileSpreadsheet = {
   $_icon: {
     name: "FileSpreadsheet",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","spreadsheet"],
   },
@@ -20916,6 +21867,7 @@ export let BFileTextFill = {
   $_icon: {
     name: "FileTextFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","text","fill"],
   },
@@ -20936,6 +21888,7 @@ export let BFileText = {
   $_icon: {
     name: "FileText",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","text"],
   },
@@ -20960,6 +21913,7 @@ export let BFileWordFill = {
   $_icon: {
     name: "FileWordFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","word","fill"],
   },
@@ -20980,6 +21934,7 @@ export let BFileWord = {
   $_icon: {
     name: "FileWord",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","word"],
   },
@@ -21004,6 +21959,7 @@ export let BFileXFill = {
   $_icon: {
     name: "FileXFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","x","fill"],
   },
@@ -21024,6 +21980,7 @@ export let BFileX = {
   $_icon: {
     name: "FileX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","x"],
   },
@@ -21048,6 +22005,7 @@ export let BFileZipFill = {
   $_icon: {
     name: "FileZipFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","zip","fill"],
   },
@@ -21072,6 +22030,7 @@ export let BFileZip = {
   $_icon: {
     name: "FileZip",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","zip"],
   },
@@ -21096,6 +22055,7 @@ export let BFile = {
   $_icon: {
     name: "File",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file"],
   },
@@ -21116,6 +22076,7 @@ export let BFilesAlt = {
   $_icon: {
     name: "FilesAlt",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["files","alt"],
   },
@@ -21136,6 +22097,7 @@ export let BFiles = {
   $_icon: {
     name: "Files",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["files"],
   },
@@ -21156,6 +22118,7 @@ export let BFiletypeAac = {
   $_icon: {
     name: "FiletypeAac",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","aac"],
   },
@@ -21176,6 +22139,7 @@ export let BFiletypeAi = {
   $_icon: {
     name: "FiletypeAi",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","ai"],
   },
@@ -21196,6 +22160,7 @@ export let BFiletypeBmp = {
   $_icon: {
     name: "FiletypeBmp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","bmp"],
   },
@@ -21216,6 +22181,7 @@ export let BFiletypeCs = {
   $_icon: {
     name: "FiletypeCs",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","cs"],
   },
@@ -21236,6 +22202,7 @@ export let BFiletypeCss = {
   $_icon: {
     name: "FiletypeCss",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","css"],
   },
@@ -21256,6 +22223,7 @@ export let BFiletypeCsv = {
   $_icon: {
     name: "FiletypeCsv",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","csv"],
   },
@@ -21276,6 +22244,7 @@ export let BFiletypeDoc = {
   $_icon: {
     name: "FiletypeDoc",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","doc"],
   },
@@ -21296,6 +22265,7 @@ export let BFiletypeDocx = {
   $_icon: {
     name: "FiletypeDocx",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","docx"],
   },
@@ -21316,6 +22286,7 @@ export let BFiletypeExe = {
   $_icon: {
     name: "FiletypeExe",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","exe"],
   },
@@ -21336,6 +22307,7 @@ export let BFiletypeGif = {
   $_icon: {
     name: "FiletypeGif",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","gif"],
   },
@@ -21356,6 +22328,7 @@ export let BFiletypeHeic = {
   $_icon: {
     name: "FiletypeHeic",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","heic"],
   },
@@ -21376,6 +22349,7 @@ export let BFiletypeHtml = {
   $_icon: {
     name: "FiletypeHtml",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","html"],
   },
@@ -21396,6 +22370,7 @@ export let BFiletypeJava = {
   $_icon: {
     name: "FiletypeJava",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","java"],
   },
@@ -21416,6 +22391,7 @@ export let BFiletypeJpg = {
   $_icon: {
     name: "FiletypeJpg",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","jpg"],
   },
@@ -21436,6 +22412,7 @@ export let BFiletypeJs = {
   $_icon: {
     name: "FiletypeJs",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","js"],
   },
@@ -21456,6 +22433,7 @@ export let BFiletypeJson = {
   $_icon: {
     name: "FiletypeJson",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","json"],
   },
@@ -21476,6 +22454,7 @@ export let BFiletypeJsx = {
   $_icon: {
     name: "FiletypeJsx",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","jsx"],
   },
@@ -21496,6 +22475,7 @@ export let BFiletypeKey = {
   $_icon: {
     name: "FiletypeKey",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","key"],
   },
@@ -21516,6 +22496,7 @@ export let BFiletypeM4p = {
   $_icon: {
     name: "FiletypeM4p",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","m4p"],
   },
@@ -21536,6 +22517,7 @@ export let BFiletypeMd = {
   $_icon: {
     name: "FiletypeMd",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","md"],
   },
@@ -21556,6 +22538,7 @@ export let BFiletypeMdx = {
   $_icon: {
     name: "FiletypeMdx",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","mdx"],
   },
@@ -21576,6 +22559,7 @@ export let BFiletypeMov = {
   $_icon: {
     name: "FiletypeMov",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","mov"],
   },
@@ -21596,6 +22580,7 @@ export let BFiletypeMp3 = {
   $_icon: {
     name: "FiletypeMp3",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","mp3"],
   },
@@ -21616,6 +22601,7 @@ export let BFiletypeMp4 = {
   $_icon: {
     name: "FiletypeMp4",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","mp4"],
   },
@@ -21636,6 +22622,7 @@ export let BFiletypeOtf = {
   $_icon: {
     name: "FiletypeOtf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","otf"],
   },
@@ -21656,6 +22643,7 @@ export let BFiletypePdf = {
   $_icon: {
     name: "FiletypePdf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","pdf"],
   },
@@ -21676,6 +22664,7 @@ export let BFiletypePhp = {
   $_icon: {
     name: "FiletypePhp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","php"],
   },
@@ -21696,6 +22685,7 @@ export let BFiletypePng = {
   $_icon: {
     name: "FiletypePng",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","png"],
   },
@@ -21716,6 +22706,7 @@ export let BFiletypePpt = {
   $_icon: {
     name: "FiletypePpt",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","ppt"],
   },
@@ -21736,6 +22727,7 @@ export let BFiletypePptx = {
   $_icon: {
     name: "FiletypePptx",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","pptx"],
   },
@@ -21756,6 +22748,7 @@ export let BFiletypePsd = {
   $_icon: {
     name: "FiletypePsd",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","psd"],
   },
@@ -21776,6 +22769,7 @@ export let BFiletypePy = {
   $_icon: {
     name: "FiletypePy",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","py"],
   },
@@ -21796,6 +22790,7 @@ export let BFiletypeRaw = {
   $_icon: {
     name: "FiletypeRaw",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","raw"],
   },
@@ -21816,6 +22811,7 @@ export let BFiletypeRb = {
   $_icon: {
     name: "FiletypeRb",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","rb"],
   },
@@ -21836,6 +22832,7 @@ export let BFiletypeSass = {
   $_icon: {
     name: "FiletypeSass",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","sass"],
   },
@@ -21856,6 +22853,7 @@ export let BFiletypeScss = {
   $_icon: {
     name: "FiletypeScss",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","scss"],
   },
@@ -21876,6 +22874,7 @@ export let BFiletypeSh = {
   $_icon: {
     name: "FiletypeSh",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","sh"],
   },
@@ -21896,6 +22895,7 @@ export let BFiletypeSql = {
   $_icon: {
     name: "FiletypeSql",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","sql"],
   },
@@ -21916,6 +22916,7 @@ export let BFiletypeSvg = {
   $_icon: {
     name: "FiletypeSvg",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","svg"],
   },
@@ -21936,6 +22937,7 @@ export let BFiletypeTiff = {
   $_icon: {
     name: "FiletypeTiff",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","tiff"],
   },
@@ -21956,6 +22958,7 @@ export let BFiletypeTsx = {
   $_icon: {
     name: "FiletypeTsx",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","tsx"],
   },
@@ -21976,6 +22979,7 @@ export let BFiletypeTtf = {
   $_icon: {
     name: "FiletypeTtf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","ttf"],
   },
@@ -21996,6 +23000,7 @@ export let BFiletypeTxt = {
   $_icon: {
     name: "FiletypeTxt",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","txt"],
   },
@@ -22016,6 +23021,7 @@ export let BFiletypeWav = {
   $_icon: {
     name: "FiletypeWav",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","wav"],
   },
@@ -22036,6 +23042,7 @@ export let BFiletypeWoff = {
   $_icon: {
     name: "FiletypeWoff",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","woff"],
   },
@@ -22056,6 +23063,7 @@ export let BFiletypeXls = {
   $_icon: {
     name: "FiletypeXls",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","xls"],
   },
@@ -22076,6 +23084,7 @@ export let BFiletypeXlsx = {
   $_icon: {
     name: "FiletypeXlsx",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","xlsx"],
   },
@@ -22096,6 +23105,7 @@ export let BFiletypeXml = {
   $_icon: {
     name: "FiletypeXml",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","xml"],
   },
@@ -22116,6 +23126,7 @@ export let BFiletypeYml = {
   $_icon: {
     name: "FiletypeYml",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","yml"],
   },
@@ -22136,6 +23147,7 @@ export let BFilm = {
   $_icon: {
     name: "Film",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["film"],
   },
@@ -22156,6 +23168,7 @@ export let BFilterCircleFill = {
   $_icon: {
     name: "FilterCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filter","circle","fill"],
   },
@@ -22176,6 +23189,7 @@ export let BFilterCircle = {
   $_icon: {
     name: "FilterCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filter","circle"],
   },
@@ -22200,6 +23214,7 @@ export let BFilterLeft = {
   $_icon: {
     name: "FilterLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filter","left"],
   },
@@ -22220,6 +23235,7 @@ export let BFilterRight = {
   $_icon: {
     name: "FilterRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filter","right"],
   },
@@ -22240,6 +23256,7 @@ export let BFilterSquareFill = {
   $_icon: {
     name: "FilterSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filter","square","fill"],
   },
@@ -22260,6 +23277,7 @@ export let BFilterSquare = {
   $_icon: {
     name: "FilterSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filter","square"],
   },
@@ -22284,6 +23302,7 @@ export let BFilter = {
   $_icon: {
     name: "Filter",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filter"],
   },
@@ -22304,6 +23323,7 @@ export let BFingerprint = {
   $_icon: {
     name: "Fingerprint",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["fingerprint"],
   },
@@ -22340,6 +23360,7 @@ export let BFire = {
   $_icon: {
     name: "Fire",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["fire"],
   },
@@ -22360,6 +23381,7 @@ export let BFlagFill = {
   $_icon: {
     name: "FlagFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["flag","fill"],
   },
@@ -22380,6 +23402,7 @@ export let BFlag = {
   $_icon: {
     name: "Flag",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["flag"],
   },
@@ -22400,6 +23423,7 @@ export let BFlower1 = {
   $_icon: {
     name: "Flower1",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["flower1"],
   },
@@ -22420,6 +23444,7 @@ export let BFlower2 = {
   $_icon: {
     name: "Flower2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["flower2"],
   },
@@ -22440,6 +23465,7 @@ export let BFlower3 = {
   $_icon: {
     name: "Flower3",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["flower3"],
   },
@@ -22460,6 +23486,7 @@ export let BFolderCheck = {
   $_icon: {
     name: "FolderCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["folder","check"],
   },
@@ -22484,6 +23511,7 @@ export let BFolderFill = {
   $_icon: {
     name: "FolderFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["folder","fill"],
   },
@@ -22504,6 +23532,7 @@ export let BFolderMinus = {
   $_icon: {
     name: "FolderMinus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["folder","minus"],
   },
@@ -22528,6 +23557,7 @@ export let BFolderPlus = {
   $_icon: {
     name: "FolderPlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["folder","plus"],
   },
@@ -22552,6 +23582,7 @@ export let BFolderSymlinkFill = {
   $_icon: {
     name: "FolderSymlinkFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["folder","symlink","fill"],
   },
@@ -22572,6 +23603,7 @@ export let BFolderSymlink = {
   $_icon: {
     name: "FolderSymlink",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["folder","symlink"],
   },
@@ -22596,6 +23628,7 @@ export let BFolderX = {
   $_icon: {
     name: "FolderX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["folder","x"],
   },
@@ -22620,6 +23653,7 @@ export let BFolder = {
   $_icon: {
     name: "Folder",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["folder"],
   },
@@ -22640,6 +23674,7 @@ export let BFolder2Open = {
   $_icon: {
     name: "Folder2Open",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["folder2","open"],
   },
@@ -22660,6 +23695,7 @@ export let BFolder2 = {
   $_icon: {
     name: "Folder2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["folder2"],
   },
@@ -22680,6 +23716,7 @@ export let BFonts = {
   $_icon: {
     name: "Fonts",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["fonts"],
   },
@@ -22700,6 +23737,7 @@ export let BForwardFill = {
   $_icon: {
     name: "ForwardFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["forward","fill"],
   },
@@ -22720,6 +23758,7 @@ export let BForward = {
   $_icon: {
     name: "Forward",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["forward"],
   },
@@ -22740,6 +23779,7 @@ export let BFront = {
   $_icon: {
     name: "Front",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["front"],
   },
@@ -22760,6 +23800,7 @@ export let BFuelPumpDieselFill = {
   $_icon: {
     name: "FuelPumpDieselFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["fuel","pump","diesel","fill"],
   },
@@ -22784,6 +23825,7 @@ export let BFuelPumpDiesel = {
   $_icon: {
     name: "FuelPumpDiesel",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["fuel","pump","diesel"],
   },
@@ -22808,6 +23850,7 @@ export let BFuelPumpFill = {
   $_icon: {
     name: "FuelPumpFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["fuel","pump","fill"],
   },
@@ -22828,6 +23871,7 @@ export let BFuelPump = {
   $_icon: {
     name: "FuelPump",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["fuel","pump"],
   },
@@ -22852,6 +23896,7 @@ export let BFullscreenExit = {
   $_icon: {
     name: "FullscreenExit",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["fullscreen","exit"],
   },
@@ -22872,6 +23917,7 @@ export let BFullscreen = {
   $_icon: {
     name: "Fullscreen",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["fullscreen"],
   },
@@ -22892,6 +23938,7 @@ export let BFunnelFill = {
   $_icon: {
     name: "FunnelFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["funnel","fill"],
   },
@@ -22912,6 +23959,7 @@ export let BFunnel = {
   $_icon: {
     name: "Funnel",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["funnel"],
   },
@@ -22932,6 +23980,7 @@ export let BGearFill = {
   $_icon: {
     name: "GearFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["gear","fill"],
   },
@@ -22952,6 +24001,7 @@ export let BGearWideConnected = {
   $_icon: {
     name: "GearWideConnected",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["gear","wide","connected"],
   },
@@ -22972,6 +24022,7 @@ export let BGearWide = {
   $_icon: {
     name: "GearWide",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["gear","wide"],
   },
@@ -22992,6 +24043,7 @@ export let BGear = {
   $_icon: {
     name: "Gear",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["gear"],
   },
@@ -23016,6 +24068,7 @@ export let BGem = {
   $_icon: {
     name: "Gem",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["gem"],
   },
@@ -23036,6 +24089,7 @@ export let BGenderAmbiguous = {
   $_icon: {
     name: "GenderAmbiguous",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["gender","ambiguous"],
   },
@@ -23056,6 +24110,7 @@ export let BGenderFemale = {
   $_icon: {
     name: "GenderFemale",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["gender","female"],
   },
@@ -23076,6 +24131,7 @@ export let BGenderMale = {
   $_icon: {
     name: "GenderMale",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["gender","male"],
   },
@@ -23096,6 +24152,7 @@ export let BGenderTrans = {
   $_icon: {
     name: "GenderTrans",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["gender","trans"],
   },
@@ -23116,6 +24173,7 @@ export let BGeoAltFill = {
   $_icon: {
     name: "GeoAltFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["geo","alt","fill"],
   },
@@ -23136,6 +24194,7 @@ export let BGeoAlt = {
   $_icon: {
     name: "GeoAlt",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["geo","alt"],
   },
@@ -23160,6 +24219,7 @@ export let BGeoFill = {
   $_icon: {
     name: "GeoFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["geo","fill"],
   },
@@ -23180,6 +24240,7 @@ export let BGeo = {
   $_icon: {
     name: "Geo",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["geo"],
   },
@@ -23200,6 +24261,7 @@ export let BGiftFill = {
   $_icon: {
     name: "GiftFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["gift","fill"],
   },
@@ -23220,6 +24282,7 @@ export let BGift = {
   $_icon: {
     name: "Gift",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["gift"],
   },
@@ -23240,6 +24303,7 @@ export let BGit = {
   $_icon: {
     name: "Git",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["git"],
   },
@@ -23260,6 +24324,7 @@ export let BGithub = {
   $_icon: {
     name: "Github",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["github"],
   },
@@ -23280,6 +24345,7 @@ export let BGlobeAmericas = {
   $_icon: {
     name: "GlobeAmericas",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["globe","americas"],
   },
@@ -23300,6 +24366,7 @@ export let BGlobeAsiaAustralia = {
   $_icon: {
     name: "GlobeAsiaAustralia",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["globe","asia","australia"],
   },
@@ -23324,6 +24391,7 @@ export let BGlobeCentralSouthAsia = {
   $_icon: {
     name: "GlobeCentralSouthAsia",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["globe","central","south","asia"],
   },
@@ -23344,6 +24412,7 @@ export let BGlobeEuropeAfrica = {
   $_icon: {
     name: "GlobeEuropeAfrica",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["globe","europe","africa"],
   },
@@ -23364,6 +24433,7 @@ export let BGlobe = {
   $_icon: {
     name: "Globe",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["globe"],
   },
@@ -23384,6 +24454,7 @@ export let BGlobe2 = {
   $_icon: {
     name: "Globe2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["globe2"],
   },
@@ -23404,6 +24475,7 @@ export let BGooglePlay = {
   $_icon: {
     name: "GooglePlay",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["google","play"],
   },
@@ -23424,6 +24496,7 @@ export let BGoogle = {
   $_icon: {
     name: "Google",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["google"],
   },
@@ -23444,6 +24517,7 @@ export let BGpuCard = {
   $_icon: {
     name: "GpuCard",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["gpu","card"],
   },
@@ -23472,6 +24546,7 @@ export let BGraphDownArrow = {
   $_icon: {
     name: "GraphDownArrow",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["graph","down","arrow"],
   },
@@ -23492,6 +24567,7 @@ export let BGraphDown = {
   $_icon: {
     name: "GraphDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["graph","down"],
   },
@@ -23512,6 +24588,7 @@ export let BGraphUpArrow = {
   $_icon: {
     name: "GraphUpArrow",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["graph","up","arrow"],
   },
@@ -23532,6 +24609,7 @@ export let BGraphUp = {
   $_icon: {
     name: "GraphUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["graph","up"],
   },
@@ -23552,6 +24630,7 @@ export let BGrid1x2Fill = {
   $_icon: {
     name: "Grid1x2Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["grid","1x2","fill"],
   },
@@ -23572,6 +24651,7 @@ export let BGrid1x2 = {
   $_icon: {
     name: "Grid1x2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["grid","1x2"],
   },
@@ -23592,6 +24672,7 @@ export let BGrid3x2GapFill = {
   $_icon: {
     name: "Grid3x2GapFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["grid","3x2","gap","fill"],
   },
@@ -23612,6 +24693,7 @@ export let BGrid3x2Gap = {
   $_icon: {
     name: "Grid3x2Gap",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["grid","3x2","gap"],
   },
@@ -23632,6 +24714,7 @@ export let BGrid3x2 = {
   $_icon: {
     name: "Grid3x2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["grid","3x2"],
   },
@@ -23652,6 +24735,7 @@ export let BGrid3x3GapFill = {
   $_icon: {
     name: "Grid3x3GapFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["grid","3x3","gap","fill"],
   },
@@ -23672,6 +24756,7 @@ export let BGrid3x3Gap = {
   $_icon: {
     name: "Grid3x3Gap",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["grid","3x3","gap"],
   },
@@ -23692,6 +24777,7 @@ export let BGrid3x3 = {
   $_icon: {
     name: "Grid3x3",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["grid","3x3"],
   },
@@ -23712,6 +24798,7 @@ export let BGridFill = {
   $_icon: {
     name: "GridFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["grid","fill"],
   },
@@ -23732,6 +24819,7 @@ export let BGrid = {
   $_icon: {
     name: "Grid",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["grid"],
   },
@@ -23752,6 +24840,7 @@ export let BGripHorizontal = {
   $_icon: {
     name: "GripHorizontal",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["grip","horizontal"],
   },
@@ -23772,6 +24861,7 @@ export let BGripVertical = {
   $_icon: {
     name: "GripVertical",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["grip","vertical"],
   },
@@ -23792,6 +24882,7 @@ export let BHCircleFill = {
   $_icon: {
     name: "HCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["h","circle","fill"],
   },
@@ -23812,6 +24903,7 @@ export let BHCircle = {
   $_icon: {
     name: "HCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["h","circle"],
   },
@@ -23832,6 +24924,7 @@ export let BHSquareFill = {
   $_icon: {
     name: "HSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["h","square","fill"],
   },
@@ -23852,6 +24945,7 @@ export let BHSquare = {
   $_icon: {
     name: "HSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["h","square"],
   },
@@ -23876,6 +24970,7 @@ export let BHammer = {
   $_icon: {
     name: "Hammer",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hammer"],
   },
@@ -23896,6 +24991,7 @@ export let BHandIndexFill = {
   $_icon: {
     name: "HandIndexFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hand","index","fill"],
   },
@@ -23916,6 +25012,7 @@ export let BHandIndexThumbFill = {
   $_icon: {
     name: "HandIndexThumbFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hand","index","thumb","fill"],
   },
@@ -23936,6 +25033,7 @@ export let BHandIndexThumb = {
   $_icon: {
     name: "HandIndexThumb",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hand","index","thumb"],
   },
@@ -23956,6 +25054,7 @@ export let BHandIndex = {
   $_icon: {
     name: "HandIndex",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hand","index"],
   },
@@ -23976,6 +25075,7 @@ export let BHandThumbsDownFill = {
   $_icon: {
     name: "HandThumbsDownFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hand","thumbs","down","fill"],
   },
@@ -23996,6 +25096,7 @@ export let BHandThumbsDown = {
   $_icon: {
     name: "HandThumbsDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hand","thumbs","down"],
   },
@@ -24016,6 +25117,7 @@ export let BHandThumbsUpFill = {
   $_icon: {
     name: "HandThumbsUpFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hand","thumbs","up","fill"],
   },
@@ -24036,6 +25138,7 @@ export let BHandThumbsUp = {
   $_icon: {
     name: "HandThumbsUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hand","thumbs","up"],
   },
@@ -24056,6 +25159,7 @@ export let BHandbagFill = {
   $_icon: {
     name: "HandbagFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["handbag","fill"],
   },
@@ -24076,6 +25180,7 @@ export let BHandbag = {
   $_icon: {
     name: "Handbag",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["handbag"],
   },
@@ -24096,6 +25201,7 @@ export let BHash = {
   $_icon: {
     name: "Hash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hash"],
   },
@@ -24116,6 +25222,7 @@ export let BHddFill = {
   $_icon: {
     name: "HddFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hdd","fill"],
   },
@@ -24136,6 +25243,7 @@ export let BHddNetworkFill = {
   $_icon: {
     name: "HddNetworkFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hdd","network","fill"],
   },
@@ -24156,6 +25264,7 @@ export let BHddNetwork = {
   $_icon: {
     name: "HddNetwork",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hdd","network"],
   },
@@ -24180,6 +25289,7 @@ export let BHddRackFill = {
   $_icon: {
     name: "HddRackFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hdd","rack","fill"],
   },
@@ -24200,6 +25310,7 @@ export let BHddRack = {
   $_icon: {
     name: "HddRack",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hdd","rack"],
   },
@@ -24224,6 +25335,7 @@ export let BHddStackFill = {
   $_icon: {
     name: "HddStackFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hdd","stack","fill"],
   },
@@ -24244,6 +25356,7 @@ export let BHddStack = {
   $_icon: {
     name: "HddStack",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hdd","stack"],
   },
@@ -24272,6 +25385,7 @@ export let BHdd = {
   $_icon: {
     name: "Hdd",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hdd"],
   },
@@ -24296,6 +25410,7 @@ export let BHdmiFill = {
   $_icon: {
     name: "HdmiFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hdmi","fill"],
   },
@@ -24316,6 +25431,7 @@ export let BHdmi = {
   $_icon: {
     name: "Hdmi",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hdmi"],
   },
@@ -24340,6 +25456,7 @@ export let BHeadphones = {
   $_icon: {
     name: "Headphones",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["headphones"],
   },
@@ -24360,6 +25477,7 @@ export let BHeadsetVr = {
   $_icon: {
     name: "HeadsetVr",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["headset","vr"],
   },
@@ -24384,6 +25502,7 @@ export let BHeadset = {
   $_icon: {
     name: "Headset",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["headset"],
   },
@@ -24404,6 +25523,7 @@ export let BHeartArrow = {
   $_icon: {
     name: "HeartArrow",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["heart","arrow"],
   },
@@ -24424,6 +25544,7 @@ export let BHeartFill = {
   $_icon: {
     name: "HeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["heart","fill"],
   },
@@ -24444,6 +25565,7 @@ export let BHeartHalf = {
   $_icon: {
     name: "HeartHalf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["heart","half"],
   },
@@ -24464,6 +25586,7 @@ export let BHeartPulseFill = {
   $_icon: {
     name: "HeartPulseFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["heart","pulse","fill"],
   },
@@ -24488,6 +25611,7 @@ export let BHeartPulse = {
   $_icon: {
     name: "HeartPulse",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["heart","pulse"],
   },
@@ -24512,6 +25636,7 @@ export let BHeart = {
   $_icon: {
     name: "Heart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["heart"],
   },
@@ -24532,6 +25657,7 @@ export let BHeartbreakFill = {
   $_icon: {
     name: "HeartbreakFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["heartbreak","fill"],
   },
@@ -24552,6 +25678,7 @@ export let BHeartbreak = {
   $_icon: {
     name: "Heartbreak",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["heartbreak"],
   },
@@ -24572,6 +25699,7 @@ export let BHearts = {
   $_icon: {
     name: "Hearts",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hearts"],
   },
@@ -24592,6 +25720,7 @@ export let BHeptagonFill = {
   $_icon: {
     name: "HeptagonFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["heptagon","fill"],
   },
@@ -24612,6 +25741,7 @@ export let BHeptagonHalf = {
   $_icon: {
     name: "HeptagonHalf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["heptagon","half"],
   },
@@ -24632,6 +25762,7 @@ export let BHeptagon = {
   $_icon: {
     name: "Heptagon",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["heptagon"],
   },
@@ -24652,6 +25783,7 @@ export let BHexagonFill = {
   $_icon: {
     name: "HexagonFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hexagon","fill"],
   },
@@ -24672,6 +25804,7 @@ export let BHexagonHalf = {
   $_icon: {
     name: "HexagonHalf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hexagon","half"],
   },
@@ -24692,6 +25825,7 @@ export let BHexagon = {
   $_icon: {
     name: "Hexagon",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hexagon"],
   },
@@ -24712,6 +25846,7 @@ export let BHospitalFill = {
   $_icon: {
     name: "HospitalFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hospital","fill"],
   },
@@ -24732,6 +25867,7 @@ export let BHospital = {
   $_icon: {
     name: "Hospital",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hospital"],
   },
@@ -24756,6 +25892,7 @@ export let BHourglassBottom = {
   $_icon: {
     name: "HourglassBottom",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hourglass","bottom"],
   },
@@ -24776,6 +25913,7 @@ export let BHourglassSplit = {
   $_icon: {
     name: "HourglassSplit",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hourglass","split"],
   },
@@ -24796,6 +25934,7 @@ export let BHourglassTop = {
   $_icon: {
     name: "HourglassTop",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hourglass","top"],
   },
@@ -24816,6 +25955,7 @@ export let BHourglass = {
   $_icon: {
     name: "Hourglass",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hourglass"],
   },
@@ -24836,6 +25976,7 @@ export let BHouseAddFill = {
   $_icon: {
     name: "HouseAddFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","add","fill"],
   },
@@ -24864,6 +26005,7 @@ export let BHouseAdd = {
   $_icon: {
     name: "HouseAdd",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","add"],
   },
@@ -24888,6 +26030,7 @@ export let BHouseCheckFill = {
   $_icon: {
     name: "HouseCheckFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","check","fill"],
   },
@@ -24916,6 +26059,7 @@ export let BHouseCheck = {
   $_icon: {
     name: "HouseCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","check"],
   },
@@ -24940,6 +26084,7 @@ export let BHouseDashFill = {
   $_icon: {
     name: "HouseDashFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","dash","fill"],
   },
@@ -24968,6 +26113,7 @@ export let BHouseDash = {
   $_icon: {
     name: "HouseDash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","dash"],
   },
@@ -24992,6 +26138,7 @@ export let BHouseDoorFill = {
   $_icon: {
     name: "HouseDoorFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","door","fill"],
   },
@@ -25012,6 +26159,7 @@ export let BHouseDoor = {
   $_icon: {
     name: "HouseDoor",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","door"],
   },
@@ -25032,6 +26180,7 @@ export let BHouseDownFill = {
   $_icon: {
     name: "HouseDownFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","down","fill"],
   },
@@ -25060,6 +26209,7 @@ export let BHouseDown = {
   $_icon: {
     name: "HouseDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","down"],
   },
@@ -25084,6 +26234,7 @@ export let BHouseExclamationFill = {
   $_icon: {
     name: "HouseExclamationFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","exclamation","fill"],
   },
@@ -25112,6 +26263,7 @@ export let BHouseExclamation = {
   $_icon: {
     name: "HouseExclamation",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","exclamation"],
   },
@@ -25136,6 +26288,7 @@ export let BHouseFill = {
   $_icon: {
     name: "HouseFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","fill"],
   },
@@ -25160,6 +26313,7 @@ export let BHouseGearFill = {
   $_icon: {
     name: "HouseGearFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","gear","fill"],
   },
@@ -25188,6 +26342,7 @@ export let BHouseGear = {
   $_icon: {
     name: "HouseGear",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","gear"],
   },
@@ -25212,6 +26367,7 @@ export let BHouseHeartFill = {
   $_icon: {
     name: "HouseHeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","heart","fill"],
   },
@@ -25236,6 +26392,7 @@ export let BHouseHeart = {
   $_icon: {
     name: "HouseHeart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","heart"],
   },
@@ -25260,6 +26417,7 @@ export let BHouseLockFill = {
   $_icon: {
     name: "HouseLockFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","lock","fill"],
   },
@@ -25288,6 +26446,7 @@ export let BHouseLock = {
   $_icon: {
     name: "HouseLock",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","lock"],
   },
@@ -25312,6 +26471,7 @@ export let BHouseSlashFill = {
   $_icon: {
     name: "HouseSlashFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","slash","fill"],
   },
@@ -25340,6 +26500,7 @@ export let BHouseSlash = {
   $_icon: {
     name: "HouseSlash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","slash"],
   },
@@ -25364,6 +26525,7 @@ export let BHouseUpFill = {
   $_icon: {
     name: "HouseUpFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","up","fill"],
   },
@@ -25392,6 +26554,7 @@ export let BHouseUp = {
   $_icon: {
     name: "HouseUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","up"],
   },
@@ -25416,6 +26579,7 @@ export let BHouseXFill = {
   $_icon: {
     name: "HouseXFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","x","fill"],
   },
@@ -25444,6 +26608,7 @@ export let BHouseX = {
   $_icon: {
     name: "HouseX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house","x"],
   },
@@ -25468,6 +26633,7 @@ export let BHouse = {
   $_icon: {
     name: "House",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["house"],
   },
@@ -25488,6 +26654,7 @@ export let BHousesFill = {
   $_icon: {
     name: "HousesFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["houses","fill"],
   },
@@ -25512,6 +26679,7 @@ export let BHouses = {
   $_icon: {
     name: "Houses",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["houses"],
   },
@@ -25532,6 +26700,7 @@ export let BHr = {
   $_icon: {
     name: "Hr",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hr"],
   },
@@ -25552,6 +26721,7 @@ export let BHurricane = {
   $_icon: {
     name: "Hurricane",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hurricane"],
   },
@@ -25572,6 +26742,7 @@ export let BHypnotize = {
   $_icon: {
     name: "Hypnotize",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hypnotize"],
   },
@@ -25596,6 +26767,7 @@ export let BImageAlt = {
   $_icon: {
     name: "ImageAlt",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["image","alt"],
   },
@@ -25616,6 +26788,7 @@ export let BImageFill = {
   $_icon: {
     name: "ImageFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["image","fill"],
   },
@@ -25636,6 +26809,7 @@ export let BImage = {
   $_icon: {
     name: "Image",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["image"],
   },
@@ -25660,6 +26834,7 @@ export let BImages = {
   $_icon: {
     name: "Images",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["images"],
   },
@@ -25684,6 +26859,7 @@ export let BInboxFill = {
   $_icon: {
     name: "InboxFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["inbox","fill"],
   },
@@ -25704,6 +26880,7 @@ export let BInbox = {
   $_icon: {
     name: "Inbox",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["inbox"],
   },
@@ -25724,6 +26901,7 @@ export let BInboxesFill = {
   $_icon: {
     name: "InboxesFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["inboxes","fill"],
   },
@@ -25744,6 +26922,7 @@ export let BInboxes = {
   $_icon: {
     name: "Inboxes",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["inboxes"],
   },
@@ -25764,6 +26943,7 @@ export let BIncognito = {
   $_icon: {
     name: "Incognito",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["incognito"],
   },
@@ -25784,6 +26964,7 @@ export let BIndent = {
   $_icon: {
     name: "Indent",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["indent"],
   },
@@ -25808,6 +26989,7 @@ export let BInfinity = {
   $_icon: {
     name: "Infinity",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["infinity"],
   },
@@ -25828,6 +27010,7 @@ export let BInfoCircleFill = {
   $_icon: {
     name: "InfoCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["info","circle","fill"],
   },
@@ -25848,6 +27031,7 @@ export let BInfoCircle = {
   $_icon: {
     name: "InfoCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["info","circle"],
   },
@@ -25872,6 +27056,7 @@ export let BInfoLg = {
   $_icon: {
     name: "InfoLg",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["info","lg"],
   },
@@ -25892,6 +27077,7 @@ export let BInfoSquareFill = {
   $_icon: {
     name: "InfoSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["info","square","fill"],
   },
@@ -25912,6 +27098,7 @@ export let BInfoSquare = {
   $_icon: {
     name: "InfoSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["info","square"],
   },
@@ -25936,6 +27123,7 @@ export let BInfo = {
   $_icon: {
     name: "Info",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["info"],
   },
@@ -25956,6 +27144,7 @@ export let BInputCursorText = {
   $_icon: {
     name: "InputCursorText",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["input","cursor","text"],
   },
@@ -25980,6 +27169,7 @@ export let BInputCursor = {
   $_icon: {
     name: "InputCursor",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["input","cursor"],
   },
@@ -26004,6 +27194,7 @@ export let BInstagram = {
   $_icon: {
     name: "Instagram",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["instagram"],
   },
@@ -26024,6 +27215,7 @@ export let BIntersect = {
   $_icon: {
     name: "Intersect",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["intersect"],
   },
@@ -26044,6 +27236,7 @@ export let BJournalAlbum = {
   $_icon: {
     name: "JournalAlbum",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["journal","album"],
   },
@@ -26072,6 +27265,7 @@ export let BJournalArrowDown = {
   $_icon: {
     name: "JournalArrowDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["journal","arrow","down"],
   },
@@ -26100,6 +27294,7 @@ export let BJournalArrowUp = {
   $_icon: {
     name: "JournalArrowUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["journal","arrow","up"],
   },
@@ -26128,6 +27323,7 @@ export let BJournalBookmarkFill = {
   $_icon: {
     name: "JournalBookmarkFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["journal","bookmark","fill"],
   },
@@ -26156,6 +27352,7 @@ export let BJournalBookmark = {
   $_icon: {
     name: "JournalBookmark",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["journal","bookmark"],
   },
@@ -26184,6 +27381,7 @@ export let BJournalCheck = {
   $_icon: {
     name: "JournalCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["journal","check"],
   },
@@ -26212,6 +27410,7 @@ export let BJournalCode = {
   $_icon: {
     name: "JournalCode",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["journal","code"],
   },
@@ -26240,6 +27439,7 @@ export let BJournalMedical = {
   $_icon: {
     name: "JournalMedical",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["journal","medical"],
   },
@@ -26268,6 +27468,7 @@ export let BJournalMinus = {
   $_icon: {
     name: "JournalMinus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["journal","minus"],
   },
@@ -26296,6 +27497,7 @@ export let BJournalPlus = {
   $_icon: {
     name: "JournalPlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["journal","plus"],
   },
@@ -26324,6 +27526,7 @@ export let BJournalRichtext = {
   $_icon: {
     name: "JournalRichtext",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["journal","richtext"],
   },
@@ -26352,6 +27555,7 @@ export let BJournalText = {
   $_icon: {
     name: "JournalText",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["journal","text"],
   },
@@ -26380,6 +27584,7 @@ export let BJournalX = {
   $_icon: {
     name: "JournalX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["journal","x"],
   },
@@ -26408,6 +27613,7 @@ export let BJournal = {
   $_icon: {
     name: "Journal",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["journal"],
   },
@@ -26432,6 +27638,7 @@ export let BJournals = {
   $_icon: {
     name: "Journals",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["journals"],
   },
@@ -26456,6 +27663,7 @@ export let BJoystick = {
   $_icon: {
     name: "Joystick",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["joystick"],
   },
@@ -26480,6 +27688,7 @@ export let BJustifyLeft = {
   $_icon: {
     name: "JustifyLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["justify","left"],
   },
@@ -26500,6 +27709,7 @@ export let BJustifyRight = {
   $_icon: {
     name: "JustifyRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["justify","right"],
   },
@@ -26520,6 +27730,7 @@ export let BJustify = {
   $_icon: {
     name: "Justify",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["justify"],
   },
@@ -26540,6 +27751,7 @@ export let BKanbanFill = {
   $_icon: {
     name: "KanbanFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["kanban","fill"],
   },
@@ -26560,6 +27772,7 @@ export let BKanban = {
   $_icon: {
     name: "Kanban",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["kanban"],
   },
@@ -26584,6 +27797,7 @@ export let BKeyFill = {
   $_icon: {
     name: "KeyFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["key","fill"],
   },
@@ -26604,6 +27818,7 @@ export let BKey = {
   $_icon: {
     name: "Key",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["key"],
   },
@@ -26628,6 +27843,7 @@ export let BKeyboardFill = {
   $_icon: {
     name: "KeyboardFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["keyboard","fill"],
   },
@@ -26648,6 +27864,7 @@ export let BKeyboard = {
   $_icon: {
     name: "Keyboard",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["keyboard"],
   },
@@ -26672,6 +27889,7 @@ export let BLadder = {
   $_icon: {
     name: "Ladder",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ladder"],
   },
@@ -26692,6 +27910,7 @@ export let BLampFill = {
   $_icon: {
     name: "LampFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["lamp","fill"],
   },
@@ -26716,6 +27935,7 @@ export let BLamp = {
   $_icon: {
     name: "Lamp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["lamp"],
   },
@@ -26740,6 +27960,7 @@ export let BLaptopFill = {
   $_icon: {
     name: "LaptopFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["laptop","fill"],
   },
@@ -26760,6 +27981,7 @@ export let BLaptop = {
   $_icon: {
     name: "Laptop",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["laptop"],
   },
@@ -26780,6 +28002,7 @@ export let BLayerBackward = {
   $_icon: {
     name: "LayerBackward",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layer","backward"],
   },
@@ -26804,6 +28027,7 @@ export let BLayerForward = {
   $_icon: {
     name: "LayerForward",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layer","forward"],
   },
@@ -26828,6 +28052,7 @@ export let BLayersFill = {
   $_icon: {
     name: "LayersFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layers","fill"],
   },
@@ -26852,6 +28077,7 @@ export let BLayersHalf = {
   $_icon: {
     name: "LayersHalf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layers","half"],
   },
@@ -26872,6 +28098,7 @@ export let BLayers = {
   $_icon: {
     name: "Layers",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layers"],
   },
@@ -26892,6 +28119,7 @@ export let BLayoutSidebarInsetReverse = {
   $_icon: {
     name: "LayoutSidebarInsetReverse",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layout","sidebar","inset","reverse"],
   },
@@ -26916,6 +28144,7 @@ export let BLayoutSidebarInset = {
   $_icon: {
     name: "LayoutSidebarInset",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layout","sidebar","inset"],
   },
@@ -26940,6 +28169,7 @@ export let BLayoutSidebarReverse = {
   $_icon: {
     name: "LayoutSidebarReverse",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layout","sidebar","reverse"],
   },
@@ -26960,6 +28190,7 @@ export let BLayoutSidebar = {
   $_icon: {
     name: "LayoutSidebar",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layout","sidebar"],
   },
@@ -26980,6 +28211,7 @@ export let BLayoutSplit = {
   $_icon: {
     name: "LayoutSplit",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layout","split"],
   },
@@ -27000,6 +28232,7 @@ export let BLayoutTextSidebarReverse = {
   $_icon: {
     name: "LayoutTextSidebarReverse",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layout","text","sidebar","reverse"],
   },
@@ -27024,6 +28257,7 @@ export let BLayoutTextSidebar = {
   $_icon: {
     name: "LayoutTextSidebar",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layout","text","sidebar"],
   },
@@ -27048,6 +28282,7 @@ export let BLayoutTextWindowReverse = {
   $_icon: {
     name: "LayoutTextWindowReverse",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layout","text","window","reverse"],
   },
@@ -27072,6 +28307,7 @@ export let BLayoutTextWindow = {
   $_icon: {
     name: "LayoutTextWindow",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layout","text","window"],
   },
@@ -27096,6 +28332,7 @@ export let BLayoutThreeColumns = {
   $_icon: {
     name: "LayoutThreeColumns",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layout","three","columns"],
   },
@@ -27116,6 +28353,7 @@ export let BLayoutWtf = {
   $_icon: {
     name: "LayoutWtf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layout","wtf"],
   },
@@ -27136,6 +28374,7 @@ export let BLifePreserver = {
   $_icon: {
     name: "LifePreserver",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["life","preserver"],
   },
@@ -27156,6 +28395,7 @@ export let BLightbulbFill = {
   $_icon: {
     name: "LightbulbFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["lightbulb","fill"],
   },
@@ -27176,6 +28416,7 @@ export let BLightbulbOffFill = {
   $_icon: {
     name: "LightbulbOffFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["lightbulb","off","fill"],
   },
@@ -27196,6 +28437,7 @@ export let BLightbulbOff = {
   $_icon: {
     name: "LightbulbOff",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["lightbulb","off"],
   },
@@ -27216,6 +28458,7 @@ export let BLightbulb = {
   $_icon: {
     name: "Lightbulb",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["lightbulb"],
   },
@@ -27236,6 +28479,7 @@ export let BLightningChargeFill = {
   $_icon: {
     name: "LightningChargeFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["lightning","charge","fill"],
   },
@@ -27256,6 +28500,7 @@ export let BLightningCharge = {
   $_icon: {
     name: "LightningCharge",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["lightning","charge"],
   },
@@ -27276,6 +28521,7 @@ export let BLightningFill = {
   $_icon: {
     name: "LightningFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["lightning","fill"],
   },
@@ -27296,6 +28542,7 @@ export let BLightning = {
   $_icon: {
     name: "Lightning",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["lightning"],
   },
@@ -27316,6 +28563,7 @@ export let BLine = {
   $_icon: {
     name: "Line",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["line"],
   },
@@ -27336,6 +28584,7 @@ export let BLink45deg = {
   $_icon: {
     name: "Link45deg",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["link","45deg"],
   },
@@ -27360,6 +28609,7 @@ export let BLink = {
   $_icon: {
     name: "Link",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["link"],
   },
@@ -27384,6 +28634,7 @@ export let BLinkedin = {
   $_icon: {
     name: "Linkedin",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["linkedin"],
   },
@@ -27404,6 +28655,7 @@ export let BListCheck = {
   $_icon: {
     name: "ListCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["list","check"],
   },
@@ -27424,6 +28676,7 @@ export let BListColumnsReverse = {
   $_icon: {
     name: "ListColumnsReverse",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["list","columns","reverse"],
   },
@@ -27444,6 +28697,7 @@ export let BListColumns = {
   $_icon: {
     name: "ListColumns",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["list","columns"],
   },
@@ -27464,6 +28718,7 @@ export let BListNested = {
   $_icon: {
     name: "ListNested",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["list","nested"],
   },
@@ -27484,6 +28739,7 @@ export let BListOl = {
   $_icon: {
     name: "ListOl",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["list","ol"],
   },
@@ -27508,6 +28764,7 @@ export let BListStars = {
   $_icon: {
     name: "ListStars",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["list","stars"],
   },
@@ -27532,6 +28789,7 @@ export let BListTask = {
   $_icon: {
     name: "ListTask",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["list","task"],
   },
@@ -27560,6 +28818,7 @@ export let BListUl = {
   $_icon: {
     name: "ListUl",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["list","ul"],
   },
@@ -27580,6 +28839,7 @@ export let BList = {
   $_icon: {
     name: "List",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["list"],
   },
@@ -27600,6 +28860,7 @@ export let BLockFill = {
   $_icon: {
     name: "LockFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["lock","fill"],
   },
@@ -27620,6 +28881,7 @@ export let BLock = {
   $_icon: {
     name: "Lock",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["lock"],
   },
@@ -27640,6 +28902,7 @@ export let BLungsFill = {
   $_icon: {
     name: "LungsFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["lungs","fill"],
   },
@@ -27660,6 +28923,7 @@ export let BLungs = {
   $_icon: {
     name: "Lungs",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["lungs"],
   },
@@ -27680,6 +28944,7 @@ export let BMagic = {
   $_icon: {
     name: "Magic",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["magic"],
   },
@@ -27700,6 +28965,7 @@ export let BMagnetFill = {
   $_icon: {
     name: "MagnetFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["magnet","fill"],
   },
@@ -27720,6 +28986,7 @@ export let BMagnet = {
   $_icon: {
     name: "Magnet",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["magnet"],
   },
@@ -27740,6 +29007,7 @@ export let BMailbox = {
   $_icon: {
     name: "Mailbox",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["mailbox"],
   },
@@ -27764,6 +29032,7 @@ export let BMailbox2 = {
   $_icon: {
     name: "Mailbox2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["mailbox2"],
   },
@@ -27788,6 +29057,7 @@ export let BMapFill = {
   $_icon: {
     name: "MapFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["map","fill"],
   },
@@ -27808,6 +29078,7 @@ export let BMap = {
   $_icon: {
     name: "Map",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["map"],
   },
@@ -27828,6 +29099,7 @@ export let BMarkdownFill = {
   $_icon: {
     name: "MarkdownFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["markdown","fill"],
   },
@@ -27848,6 +29120,7 @@ export let BMarkdown = {
   $_icon: {
     name: "Markdown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["markdown"],
   },
@@ -27880,6 +29153,7 @@ export let BMask = {
   $_icon: {
     name: "Mask",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["mask"],
   },
@@ -27900,6 +29174,7 @@ export let BMastodon = {
   $_icon: {
     name: "Mastodon",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["mastodon"],
   },
@@ -27920,6 +29195,7 @@ export let BMedium = {
   $_icon: {
     name: "Medium",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["medium"],
   },
@@ -27940,6 +29216,7 @@ export let BMegaphoneFill = {
   $_icon: {
     name: "MegaphoneFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["megaphone","fill"],
   },
@@ -27960,6 +29237,7 @@ export let BMegaphone = {
   $_icon: {
     name: "Megaphone",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["megaphone"],
   },
@@ -27980,6 +29258,7 @@ export let BMemory = {
   $_icon: {
     name: "Memory",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["memory"],
   },
@@ -28000,6 +29279,7 @@ export let BMenuAppFill = {
   $_icon: {
     name: "MenuAppFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["menu","app","fill"],
   },
@@ -28020,6 +29300,7 @@ export let BMenuApp = {
   $_icon: {
     name: "MenuApp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["menu","app"],
   },
@@ -28040,6 +29321,7 @@ export let BMenuButtonFill = {
   $_icon: {
     name: "MenuButtonFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["menu","button","fill"],
   },
@@ -28060,6 +29342,7 @@ export let BMenuButtonWideFill = {
   $_icon: {
     name: "MenuButtonWideFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["menu","button","wide","fill"],
   },
@@ -28080,6 +29363,7 @@ export let BMenuButtonWide = {
   $_icon: {
     name: "MenuButtonWide",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["menu","button","wide"],
   },
@@ -28104,6 +29388,7 @@ export let BMenuButton = {
   $_icon: {
     name: "MenuButton",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["menu","button"],
   },
@@ -28128,6 +29413,7 @@ export let BMenuDown = {
   $_icon: {
     name: "MenuDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["menu","down"],
   },
@@ -28148,6 +29434,7 @@ export let BMenuUp = {
   $_icon: {
     name: "MenuUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["menu","up"],
   },
@@ -28168,6 +29455,7 @@ export let BMessenger = {
   $_icon: {
     name: "Messenger",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["messenger"],
   },
@@ -28188,6 +29476,7 @@ export let BMeta = {
   $_icon: {
     name: "Meta",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["meta"],
   },
@@ -28208,6 +29497,7 @@ export let BMicFill = {
   $_icon: {
     name: "MicFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["mic","fill"],
   },
@@ -28232,6 +29522,7 @@ export let BMicMuteFill = {
   $_icon: {
     name: "MicMuteFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["mic","mute","fill"],
   },
@@ -28256,6 +29547,7 @@ export let BMicMute = {
   $_icon: {
     name: "MicMute",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["mic","mute"],
   },
@@ -28280,6 +29572,7 @@ export let BMic = {
   $_icon: {
     name: "Mic",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["mic"],
   },
@@ -28304,6 +29597,7 @@ export let BMicrosoftTeams = {
   $_icon: {
     name: "MicrosoftTeams",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["microsoft","teams"],
   },
@@ -28328,6 +29622,7 @@ export let BMicrosoft = {
   $_icon: {
     name: "Microsoft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["microsoft"],
   },
@@ -28348,6 +29643,7 @@ export let BMinecartLoaded = {
   $_icon: {
     name: "MinecartLoaded",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["minecart","loaded"],
   },
@@ -28372,6 +29668,7 @@ export let BMinecart = {
   $_icon: {
     name: "Minecart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["minecart"],
   },
@@ -28392,6 +29689,7 @@ export let BModemFill = {
   $_icon: {
     name: "ModemFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["modem","fill"],
   },
@@ -28412,6 +29710,7 @@ export let BModem = {
   $_icon: {
     name: "Modem",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["modem"],
   },
@@ -28436,6 +29735,7 @@ export let BMoisture = {
   $_icon: {
     name: "Moisture",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["moisture"],
   },
@@ -28456,6 +29756,7 @@ export let BMoonFill = {
   $_icon: {
     name: "MoonFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["moon","fill"],
   },
@@ -28476,6 +29777,7 @@ export let BMoonStarsFill = {
   $_icon: {
     name: "MoonStarsFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["moon","stars","fill"],
   },
@@ -28500,6 +29802,7 @@ export let BMoonStars = {
   $_icon: {
     name: "MoonStars",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["moon","stars"],
   },
@@ -28524,6 +29827,7 @@ export let BMoon = {
   $_icon: {
     name: "Moon",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["moon"],
   },
@@ -28544,6 +29848,7 @@ export let BMortarboardFill = {
   $_icon: {
     name: "MortarboardFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["mortarboard","fill"],
   },
@@ -28568,6 +29873,7 @@ export let BMortarboard = {
   $_icon: {
     name: "Mortarboard",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["mortarboard"],
   },
@@ -28592,6 +29898,7 @@ export let BMotherboardFill = {
   $_icon: {
     name: "MotherboardFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["motherboard","fill"],
   },
@@ -28616,6 +29923,7 @@ export let BMotherboard = {
   $_icon: {
     name: "Motherboard",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["motherboard"],
   },
@@ -28640,6 +29948,7 @@ export let BMouseFill = {
   $_icon: {
     name: "MouseFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["mouse","fill"],
   },
@@ -28660,6 +29969,7 @@ export let BMouse = {
   $_icon: {
     name: "Mouse",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["mouse"],
   },
@@ -28680,6 +29990,7 @@ export let BMouse2Fill = {
   $_icon: {
     name: "Mouse2Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["mouse2","fill"],
   },
@@ -28700,6 +30011,7 @@ export let BMouse2 = {
   $_icon: {
     name: "Mouse2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["mouse2"],
   },
@@ -28720,6 +30032,7 @@ export let BMouse3Fill = {
   $_icon: {
     name: "Mouse3Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["mouse3","fill"],
   },
@@ -28740,6 +30053,7 @@ export let BMouse3 = {
   $_icon: {
     name: "Mouse3",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["mouse3"],
   },
@@ -28760,6 +30074,7 @@ export let BMusicNoteBeamed = {
   $_icon: {
     name: "MusicNoteBeamed",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["music","note","beamed"],
   },
@@ -28788,6 +30103,7 @@ export let BMusicNoteList = {
   $_icon: {
     name: "MusicNoteList",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["music","note","list"],
   },
@@ -28820,6 +30136,7 @@ export let BMusicNote = {
   $_icon: {
     name: "MusicNote",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["music","note"],
   },
@@ -28848,6 +30165,7 @@ export let BMusicPlayerFill = {
   $_icon: {
     name: "MusicPlayerFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["music","player","fill"],
   },
@@ -28872,6 +30190,7 @@ export let BMusicPlayer = {
   $_icon: {
     name: "MusicPlayer",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["music","player"],
   },
@@ -28900,6 +30219,7 @@ export let BNewspaper = {
   $_icon: {
     name: "Newspaper",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["newspaper"],
   },
@@ -28924,6 +30244,7 @@ export let BNintendoSwitch = {
   $_icon: {
     name: "NintendoSwitch",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["nintendo","switch"],
   },
@@ -28948,6 +30269,7 @@ export let BNodeMinusFill = {
   $_icon: {
     name: "NodeMinusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["node","minus","fill"],
   },
@@ -28968,6 +30290,7 @@ export let BNodeMinus = {
   $_icon: {
     name: "NodeMinus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["node","minus"],
   },
@@ -28988,6 +30311,7 @@ export let BNodePlusFill = {
   $_icon: {
     name: "NodePlusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["node","plus","fill"],
   },
@@ -29008,6 +30332,7 @@ export let BNodePlus = {
   $_icon: {
     name: "NodePlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["node","plus"],
   },
@@ -29028,6 +30353,7 @@ export let BNutFill = {
   $_icon: {
     name: "NutFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["nut","fill"],
   },
@@ -29048,6 +30374,7 @@ export let BNut = {
   $_icon: {
     name: "Nut",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["nut"],
   },
@@ -29072,6 +30399,7 @@ export let BNvidia = {
   $_icon: {
     name: "Nvidia",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["nvidia"],
   },
@@ -29092,6 +30420,7 @@ export let BOctagonFill = {
   $_icon: {
     name: "OctagonFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["octagon","fill"],
   },
@@ -29112,6 +30441,7 @@ export let BOctagonHalf = {
   $_icon: {
     name: "OctagonHalf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["octagon","half"],
   },
@@ -29132,6 +30462,7 @@ export let BOctagon = {
   $_icon: {
     name: "Octagon",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["octagon"],
   },
@@ -29152,6 +30483,7 @@ export let BOpticalAudioFill = {
   $_icon: {
     name: "OpticalAudioFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["optical","audio","fill"],
   },
@@ -29176,6 +30508,7 @@ export let BOpticalAudio = {
   $_icon: {
     name: "OpticalAudio",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["optical","audio"],
   },
@@ -29204,6 +30537,7 @@ export let BOption = {
   $_icon: {
     name: "Option",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["option"],
   },
@@ -29224,6 +30558,7 @@ export let BOutlet = {
   $_icon: {
     name: "Outlet",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["outlet"],
   },
@@ -29248,6 +30583,7 @@ export let BPCircleFill = {
   $_icon: {
     name: "PCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["p","circle","fill"],
   },
@@ -29268,6 +30604,7 @@ export let BPCircle = {
   $_icon: {
     name: "PCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["p","circle"],
   },
@@ -29288,6 +30625,7 @@ export let BPSquareFill = {
   $_icon: {
     name: "PSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["p","square","fill"],
   },
@@ -29312,6 +30650,7 @@ export let BPSquare = {
   $_icon: {
     name: "PSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["p","square"],
   },
@@ -29336,6 +30675,7 @@ export let BPaintBucket = {
   $_icon: {
     name: "PaintBucket",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["paint","bucket"],
   },
@@ -29356,6 +30696,7 @@ export let BPaletteFill = {
   $_icon: {
     name: "PaletteFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["palette","fill"],
   },
@@ -29376,6 +30717,7 @@ export let BPalette = {
   $_icon: {
     name: "Palette",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["palette"],
   },
@@ -29400,6 +30742,7 @@ export let BPalette2 = {
   $_icon: {
     name: "Palette2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["palette2"],
   },
@@ -29424,6 +30767,7 @@ export let BPaperclip = {
   $_icon: {
     name: "Paperclip",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["paperclip"],
   },
@@ -29444,6 +30788,7 @@ export let BParagraph = {
   $_icon: {
     name: "Paragraph",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["paragraph"],
   },
@@ -29464,6 +30809,7 @@ export let BPassFill = {
   $_icon: {
     name: "PassFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pass","fill"],
   },
@@ -29484,6 +30830,7 @@ export let BPass = {
   $_icon: {
     name: "Pass",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pass"],
   },
@@ -29508,6 +30855,7 @@ export let BPatchCheckFill = {
   $_icon: {
     name: "PatchCheckFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["patch","check","fill"],
   },
@@ -29528,6 +30876,7 @@ export let BPatchCheck = {
   $_icon: {
     name: "PatchCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["patch","check"],
   },
@@ -29552,6 +30901,7 @@ export let BPatchExclamationFill = {
   $_icon: {
     name: "PatchExclamationFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["patch","exclamation","fill"],
   },
@@ -29572,6 +30922,7 @@ export let BPatchExclamation = {
   $_icon: {
     name: "PatchExclamation",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["patch","exclamation"],
   },
@@ -29596,6 +30947,7 @@ export let BPatchMinusFill = {
   $_icon: {
     name: "PatchMinusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["patch","minus","fill"],
   },
@@ -29616,6 +30968,7 @@ export let BPatchMinus = {
   $_icon: {
     name: "PatchMinus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["patch","minus"],
   },
@@ -29640,6 +30993,7 @@ export let BPatchPlusFill = {
   $_icon: {
     name: "PatchPlusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["patch","plus","fill"],
   },
@@ -29660,6 +31014,7 @@ export let BPatchPlus = {
   $_icon: {
     name: "PatchPlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["patch","plus"],
   },
@@ -29684,6 +31039,7 @@ export let BPatchQuestionFill = {
   $_icon: {
     name: "PatchQuestionFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["patch","question","fill"],
   },
@@ -29704,6 +31060,7 @@ export let BPatchQuestion = {
   $_icon: {
     name: "PatchQuestion",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["patch","question"],
   },
@@ -29732,6 +31089,7 @@ export let BPauseBtnFill = {
   $_icon: {
     name: "PauseBtnFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pause","btn","fill"],
   },
@@ -29752,6 +31110,7 @@ export let BPauseBtn = {
   $_icon: {
     name: "PauseBtn",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pause","btn"],
   },
@@ -29776,6 +31135,7 @@ export let BPauseCircleFill = {
   $_icon: {
     name: "PauseCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pause","circle","fill"],
   },
@@ -29796,6 +31156,7 @@ export let BPauseCircle = {
   $_icon: {
     name: "PauseCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pause","circle"],
   },
@@ -29820,6 +31181,7 @@ export let BPauseFill = {
   $_icon: {
     name: "PauseFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pause","fill"],
   },
@@ -29840,6 +31202,7 @@ export let BPause = {
   $_icon: {
     name: "Pause",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pause"],
   },
@@ -29860,6 +31223,7 @@ export let BPaypal = {
   $_icon: {
     name: "Paypal",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["paypal"],
   },
@@ -29880,6 +31244,7 @@ export let BPcDisplayHorizontal = {
   $_icon: {
     name: "PcDisplayHorizontal",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pc","display","horizontal"],
   },
@@ -29900,6 +31265,7 @@ export let BPcDisplay = {
   $_icon: {
     name: "PcDisplay",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pc","display"],
   },
@@ -29920,6 +31286,7 @@ export let BPcHorizontal = {
   $_icon: {
     name: "PcHorizontal",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pc","horizontal"],
   },
@@ -29940,6 +31307,7 @@ export let BPc = {
   $_icon: {
     name: "Pc",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pc"],
   },
@@ -29960,6 +31328,7 @@ export let BPciCard = {
   $_icon: {
     name: "PciCard",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pci","card"],
   },
@@ -29984,6 +31353,7 @@ export let BPeaceFill = {
   $_icon: {
     name: "PeaceFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["peace","fill"],
   },
@@ -30004,6 +31374,7 @@ export let BPeace = {
   $_icon: {
     name: "Peace",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["peace"],
   },
@@ -30024,6 +31395,7 @@ export let BPenFill = {
   $_icon: {
     name: "PenFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pen","fill"],
   },
@@ -30044,6 +31416,7 @@ export let BPen = {
   $_icon: {
     name: "Pen",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pen"],
   },
@@ -30064,6 +31437,7 @@ export let BPencilFill = {
   $_icon: {
     name: "PencilFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pencil","fill"],
   },
@@ -30084,6 +31458,7 @@ export let BPencilSquare = {
   $_icon: {
     name: "PencilSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pencil","square"],
   },
@@ -30108,6 +31483,7 @@ export let BPencil = {
   $_icon: {
     name: "Pencil",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pencil"],
   },
@@ -30128,6 +31504,7 @@ export let BPentagonFill = {
   $_icon: {
     name: "PentagonFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pentagon","fill"],
   },
@@ -30148,6 +31525,7 @@ export let BPentagonHalf = {
   $_icon: {
     name: "PentagonHalf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pentagon","half"],
   },
@@ -30168,6 +31546,7 @@ export let BPentagon = {
   $_icon: {
     name: "Pentagon",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pentagon"],
   },
@@ -30188,6 +31567,7 @@ export let BPeopleFill = {
   $_icon: {
     name: "PeopleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["people","fill"],
   },
@@ -30208,6 +31588,7 @@ export let BPeople = {
   $_icon: {
     name: "People",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["people"],
   },
@@ -30228,6 +31609,7 @@ export let BPercent = {
   $_icon: {
     name: "Percent",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["percent"],
   },
@@ -30248,6 +31630,7 @@ export let BPersonAdd = {
   $_icon: {
     name: "PersonAdd",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","add"],
   },
@@ -30272,6 +31655,7 @@ export let BPersonBadgeFill = {
   $_icon: {
     name: "PersonBadgeFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","badge","fill"],
   },
@@ -30292,6 +31676,7 @@ export let BPersonBadge = {
   $_icon: {
     name: "PersonBadge",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","badge"],
   },
@@ -30316,6 +31701,7 @@ export let BPersonBoundingBox = {
   $_icon: {
     name: "PersonBoundingBox",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","bounding","box"],
   },
@@ -30340,6 +31726,7 @@ export let BPersonCheckFill = {
   $_icon: {
     name: "PersonCheckFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","check","fill"],
   },
@@ -30364,6 +31751,7 @@ export let BPersonCheck = {
   $_icon: {
     name: "PersonCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","check"],
   },
@@ -30388,6 +31776,7 @@ export let BPersonCircle = {
   $_icon: {
     name: "PersonCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","circle"],
   },
@@ -30412,6 +31801,7 @@ export let BPersonDashFill = {
   $_icon: {
     name: "PersonDashFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","dash","fill"],
   },
@@ -30436,6 +31826,7 @@ export let BPersonDash = {
   $_icon: {
     name: "PersonDash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","dash"],
   },
@@ -30460,6 +31851,7 @@ export let BPersonDown = {
   $_icon: {
     name: "PersonDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","down"],
   },
@@ -30484,6 +31876,7 @@ export let BPersonExclamation = {
   $_icon: {
     name: "PersonExclamation",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","exclamation"],
   },
@@ -30508,6 +31901,7 @@ export let BPersonFillAdd = {
   $_icon: {
     name: "PersonFillAdd",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","fill","add"],
   },
@@ -30532,6 +31926,7 @@ export let BPersonFillCheck = {
   $_icon: {
     name: "PersonFillCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","fill","check"],
   },
@@ -30556,6 +31951,7 @@ export let BPersonFillDash = {
   $_icon: {
     name: "PersonFillDash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","fill","dash"],
   },
@@ -30580,6 +31976,7 @@ export let BPersonFillDown = {
   $_icon: {
     name: "PersonFillDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","fill","down"],
   },
@@ -30604,6 +32001,7 @@ export let BPersonFillExclamation = {
   $_icon: {
     name: "PersonFillExclamation",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","fill","exclamation"],
   },
@@ -30628,6 +32026,7 @@ export let BPersonFillGear = {
   $_icon: {
     name: "PersonFillGear",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","fill","gear"],
   },
@@ -30648,6 +32047,7 @@ export let BPersonFillLock = {
   $_icon: {
     name: "PersonFillLock",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","fill","lock"],
   },
@@ -30668,6 +32068,7 @@ export let BPersonFillSlash = {
   $_icon: {
     name: "PersonFillSlash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","fill","slash"],
   },
@@ -30688,6 +32089,7 @@ export let BPersonFillUp = {
   $_icon: {
     name: "PersonFillUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","fill","up"],
   },
@@ -30712,6 +32114,7 @@ export let BPersonFillX = {
   $_icon: {
     name: "PersonFillX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","fill","x"],
   },
@@ -30736,6 +32139,7 @@ export let BPersonFill = {
   $_icon: {
     name: "PersonFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","fill"],
   },
@@ -30756,6 +32160,7 @@ export let BPersonGear = {
   $_icon: {
     name: "PersonGear",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","gear"],
   },
@@ -30776,6 +32181,7 @@ export let BPersonHeart = {
   $_icon: {
     name: "PersonHeart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","heart"],
   },
@@ -30796,6 +32202,7 @@ export let BPersonHearts = {
   $_icon: {
     name: "PersonHearts",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","hearts"],
   },
@@ -30816,6 +32223,7 @@ export let BPersonLinesFill = {
   $_icon: {
     name: "PersonLinesFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","lines","fill"],
   },
@@ -30836,6 +32244,7 @@ export let BPersonLock = {
   $_icon: {
     name: "PersonLock",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","lock"],
   },
@@ -30856,6 +32265,7 @@ export let BPersonPlusFill = {
   $_icon: {
     name: "PersonPlusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","plus","fill"],
   },
@@ -30880,6 +32290,7 @@ export let BPersonPlus = {
   $_icon: {
     name: "PersonPlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","plus"],
   },
@@ -30904,6 +32315,7 @@ export let BPersonRolodex = {
   $_icon: {
     name: "PersonRolodex",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","rolodex"],
   },
@@ -30928,6 +32340,7 @@ export let BPersonSlash = {
   $_icon: {
     name: "PersonSlash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","slash"],
   },
@@ -30948,6 +32361,7 @@ export let BPersonSquare = {
   $_icon: {
     name: "PersonSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","square"],
   },
@@ -30972,6 +32386,7 @@ export let BPersonUp = {
   $_icon: {
     name: "PersonUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","up"],
   },
@@ -30996,6 +32411,7 @@ export let BPersonVcardFill = {
   $_icon: {
     name: "PersonVcardFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","vcard","fill"],
   },
@@ -31016,6 +32432,7 @@ export let BPersonVcard = {
   $_icon: {
     name: "PersonVcard",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","vcard"],
   },
@@ -31040,6 +32457,7 @@ export let BPersonVideo = {
   $_icon: {
     name: "PersonVideo",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","video"],
   },
@@ -31064,6 +32482,7 @@ export let BPersonVideo2 = {
   $_icon: {
     name: "PersonVideo2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","video2"],
   },
@@ -31088,6 +32507,7 @@ export let BPersonVideo3 = {
   $_icon: {
     name: "PersonVideo3",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","video3"],
   },
@@ -31112,6 +32532,7 @@ export let BPersonWorkspace = {
   $_icon: {
     name: "PersonWorkspace",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","workspace"],
   },
@@ -31136,6 +32557,7 @@ export let BPersonXFill = {
   $_icon: {
     name: "PersonXFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","x","fill"],
   },
@@ -31156,6 +32578,7 @@ export let BPersonX = {
   $_icon: {
     name: "PersonX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person","x"],
   },
@@ -31180,6 +32603,7 @@ export let BPerson = {
   $_icon: {
     name: "Person",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["person"],
   },
@@ -31200,6 +32624,7 @@ export let BPhoneFill = {
   $_icon: {
     name: "PhoneFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["phone","fill"],
   },
@@ -31220,6 +32645,7 @@ export let BPhoneFlip = {
   $_icon: {
     name: "PhoneFlip",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["phone","flip"],
   },
@@ -31240,6 +32666,7 @@ export let BPhoneLandscapeFill = {
   $_icon: {
     name: "PhoneLandscapeFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["phone","landscape","fill"],
   },
@@ -31260,6 +32687,7 @@ export let BPhoneLandscape = {
   $_icon: {
     name: "PhoneLandscape",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["phone","landscape"],
   },
@@ -31284,6 +32712,7 @@ export let BPhoneVibrateFill = {
   $_icon: {
     name: "PhoneVibrateFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["phone","vibrate","fill"],
   },
@@ -31304,6 +32733,7 @@ export let BPhoneVibrate = {
   $_icon: {
     name: "PhoneVibrate",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["phone","vibrate"],
   },
@@ -31328,6 +32758,7 @@ export let BPhone = {
   $_icon: {
     name: "Phone",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["phone"],
   },
@@ -31352,6 +32783,7 @@ export let BPieChartFill = {
   $_icon: {
     name: "PieChartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pie","chart","fill"],
   },
@@ -31372,6 +32804,7 @@ export let BPieChart = {
   $_icon: {
     name: "PieChart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pie","chart"],
   },
@@ -31392,6 +32825,7 @@ export let BPiggyBankFill = {
   $_icon: {
     name: "PiggyBankFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["piggy","bank","fill"],
   },
@@ -31412,6 +32846,7 @@ export let BPiggyBank = {
   $_icon: {
     name: "PiggyBank",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["piggy","bank"],
   },
@@ -31436,6 +32871,7 @@ export let BPinAngleFill = {
   $_icon: {
     name: "PinAngleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pin","angle","fill"],
   },
@@ -31456,6 +32892,7 @@ export let BPinAngle = {
   $_icon: {
     name: "PinAngle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pin","angle"],
   },
@@ -31476,6 +32913,7 @@ export let BPinFill = {
   $_icon: {
     name: "PinFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pin","fill"],
   },
@@ -31496,6 +32934,7 @@ export let BPinMapFill = {
   $_icon: {
     name: "PinMapFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pin","map","fill"],
   },
@@ -31520,6 +32959,7 @@ export let BPinMap = {
   $_icon: {
     name: "PinMap",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pin","map"],
   },
@@ -31544,6 +32984,7 @@ export let BPin = {
   $_icon: {
     name: "Pin",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pin"],
   },
@@ -31564,6 +33005,7 @@ export let BPinterest = {
   $_icon: {
     name: "Pinterest",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pinterest"],
   },
@@ -31584,6 +33026,7 @@ export let BPipFill = {
   $_icon: {
     name: "PipFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pip","fill"],
   },
@@ -31604,6 +33047,7 @@ export let BPip = {
   $_icon: {
     name: "Pip",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pip"],
   },
@@ -31628,6 +33072,7 @@ export let BPlayBtnFill = {
   $_icon: {
     name: "PlayBtnFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["play","btn","fill"],
   },
@@ -31648,6 +33093,7 @@ export let BPlayBtn = {
   $_icon: {
     name: "PlayBtn",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["play","btn"],
   },
@@ -31672,6 +33118,7 @@ export let BPlayCircleFill = {
   $_icon: {
     name: "PlayCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["play","circle","fill"],
   },
@@ -31692,6 +33139,7 @@ export let BPlayCircle = {
   $_icon: {
     name: "PlayCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["play","circle"],
   },
@@ -31716,6 +33164,7 @@ export let BPlayFill = {
   $_icon: {
     name: "PlayFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["play","fill"],
   },
@@ -31736,6 +33185,7 @@ export let BPlay = {
   $_icon: {
     name: "Play",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["play"],
   },
@@ -31756,6 +33206,7 @@ export let BPlaystation = {
   $_icon: {
     name: "Playstation",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["playstation"],
   },
@@ -31776,6 +33227,7 @@ export let BPlugFill = {
   $_icon: {
     name: "PlugFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["plug","fill"],
   },
@@ -31796,6 +33248,7 @@ export let BPlug = {
   $_icon: {
     name: "Plug",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["plug"],
   },
@@ -31816,6 +33269,7 @@ export let BPlugin = {
   $_icon: {
     name: "Plugin",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["plugin"],
   },
@@ -31836,6 +33290,7 @@ export let BPlusCircleDotted = {
   $_icon: {
     name: "PlusCircleDotted",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["plus","circle","dotted"],
   },
@@ -31856,6 +33311,7 @@ export let BPlusCircleFill = {
   $_icon: {
     name: "PlusCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["plus","circle","fill"],
   },
@@ -31876,6 +33332,7 @@ export let BPlusCircle = {
   $_icon: {
     name: "PlusCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["plus","circle"],
   },
@@ -31900,6 +33357,7 @@ export let BPlusLg = {
   $_icon: {
     name: "PlusLg",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["plus","lg"],
   },
@@ -31920,6 +33378,7 @@ export let BPlusSlashMinus = {
   $_icon: {
     name: "PlusSlashMinus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["plus","slash","minus"],
   },
@@ -31940,6 +33399,7 @@ export let BPlusSquareDotted = {
   $_icon: {
     name: "PlusSquareDotted",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["plus","square","dotted"],
   },
@@ -31960,6 +33420,7 @@ export let BPlusSquareFill = {
   $_icon: {
     name: "PlusSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["plus","square","fill"],
   },
@@ -31980,6 +33441,7 @@ export let BPlusSquare = {
   $_icon: {
     name: "PlusSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["plus","square"],
   },
@@ -32004,6 +33466,7 @@ export let BPlus = {
   $_icon: {
     name: "Plus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["plus"],
   },
@@ -32024,6 +33487,7 @@ export let BPostageFill = {
   $_icon: {
     name: "PostageFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["postage","fill"],
   },
@@ -32048,6 +33512,7 @@ export let BPostageHeartFill = {
   $_icon: {
     name: "PostageHeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["postage","heart","fill"],
   },
@@ -32072,6 +33537,7 @@ export let BPostageHeart = {
   $_icon: {
     name: "PostageHeart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["postage","heart"],
   },
@@ -32096,6 +33562,7 @@ export let BPostage = {
   $_icon: {
     name: "Postage",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["postage"],
   },
@@ -32120,6 +33587,7 @@ export let BPostcardFill = {
   $_icon: {
     name: "PostcardFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["postcard","fill"],
   },
@@ -32144,6 +33612,7 @@ export let BPostcardHeartFill = {
   $_icon: {
     name: "PostcardHeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["postcard","heart","fill"],
   },
@@ -32164,6 +33633,7 @@ export let BPostcardHeart = {
   $_icon: {
     name: "PostcardHeart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["postcard","heart"],
   },
@@ -32188,6 +33658,7 @@ export let BPostcard = {
   $_icon: {
     name: "Postcard",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["postcard"],
   },
@@ -32208,6 +33679,7 @@ export let BPower = {
   $_icon: {
     name: "Power",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["power"],
   },
@@ -32232,6 +33704,7 @@ export let BPrescription = {
   $_icon: {
     name: "Prescription",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["prescription"],
   },
@@ -32256,6 +33729,7 @@ export let BPrescription2 = {
   $_icon: {
     name: "Prescription2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["prescription2"],
   },
@@ -32280,6 +33754,7 @@ export let BPrinterFill = {
   $_icon: {
     name: "PrinterFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["printer","fill"],
   },
@@ -32304,6 +33779,7 @@ export let BPrinter = {
   $_icon: {
     name: "Printer",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["printer"],
   },
@@ -32328,6 +33804,7 @@ export let BProjectorFill = {
   $_icon: {
     name: "ProjectorFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["projector","fill"],
   },
@@ -32348,6 +33825,7 @@ export let BProjector = {
   $_icon: {
     name: "Projector",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["projector"],
   },
@@ -32372,6 +33850,7 @@ export let BPuzzleFill = {
   $_icon: {
     name: "PuzzleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["puzzle","fill"],
   },
@@ -32392,6 +33871,7 @@ export let BPuzzle = {
   $_icon: {
     name: "Puzzle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["puzzle"],
   },
@@ -32412,6 +33892,7 @@ export let BQrCodeScan = {
   $_icon: {
     name: "QrCodeScan",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["qr","code","scan"],
   },
@@ -32448,6 +33929,7 @@ export let BQrCode = {
   $_icon: {
     name: "QrCode",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["qr","code"],
   },
@@ -32484,6 +33966,7 @@ export let BQuestionCircleFill = {
   $_icon: {
     name: "QuestionCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["question","circle","fill"],
   },
@@ -32504,6 +33987,7 @@ export let BQuestionCircle = {
   $_icon: {
     name: "QuestionCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["question","circle"],
   },
@@ -32528,6 +34012,7 @@ export let BQuestionDiamondFill = {
   $_icon: {
     name: "QuestionDiamondFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["question","diamond","fill"],
   },
@@ -32548,6 +34033,7 @@ export let BQuestionDiamond = {
   $_icon: {
     name: "QuestionDiamond",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["question","diamond"],
   },
@@ -32572,6 +34058,7 @@ export let BQuestionLg = {
   $_icon: {
     name: "QuestionLg",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["question","lg"],
   },
@@ -32592,6 +34079,7 @@ export let BQuestionOctagonFill = {
   $_icon: {
     name: "QuestionOctagonFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["question","octagon","fill"],
   },
@@ -32612,6 +34100,7 @@ export let BQuestionOctagon = {
   $_icon: {
     name: "QuestionOctagon",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["question","octagon"],
   },
@@ -32636,6 +34125,7 @@ export let BQuestionSquareFill = {
   $_icon: {
     name: "QuestionSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["question","square","fill"],
   },
@@ -32656,6 +34146,7 @@ export let BQuestionSquare = {
   $_icon: {
     name: "QuestionSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["question","square"],
   },
@@ -32680,6 +34171,7 @@ export let BQuestion = {
   $_icon: {
     name: "Question",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["question"],
   },
@@ -32700,6 +34192,7 @@ export let BQuora = {
   $_icon: {
     name: "Quora",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["quora"],
   },
@@ -32720,6 +34213,7 @@ export let BQuote = {
   $_icon: {
     name: "Quote",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["quote"],
   },
@@ -32740,6 +34234,7 @@ export let BRCircleFill = {
   $_icon: {
     name: "RCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["r","circle","fill"],
   },
@@ -32760,6 +34255,7 @@ export let BRCircle = {
   $_icon: {
     name: "RCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["r","circle"],
   },
@@ -32780,6 +34276,7 @@ export let BRSquareFill = {
   $_icon: {
     name: "RSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["r","square","fill"],
   },
@@ -32804,6 +34301,7 @@ export let BRSquare = {
   $_icon: {
     name: "RSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["r","square"],
   },
@@ -32828,6 +34326,7 @@ export let BRadioactive = {
   $_icon: {
     name: "Radioactive",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["radioactive"],
   },
@@ -32852,6 +34351,7 @@ export let BRainbow = {
   $_icon: {
     name: "Rainbow",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["rainbow"],
   },
@@ -32872,6 +34372,7 @@ export let BReceiptCutoff = {
   $_icon: {
     name: "ReceiptCutoff",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["receipt","cutoff"],
   },
@@ -32896,6 +34397,7 @@ export let BReceipt = {
   $_icon: {
     name: "Receipt",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["receipt"],
   },
@@ -32920,6 +34422,7 @@ export let BReception0 = {
   $_icon: {
     name: "Reception0",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["reception","0"],
   },
@@ -32940,6 +34443,7 @@ export let BReception1 = {
   $_icon: {
     name: "Reception1",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["reception","1"],
   },
@@ -32960,6 +34464,7 @@ export let BReception2 = {
   $_icon: {
     name: "Reception2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["reception","2"],
   },
@@ -32980,6 +34485,7 @@ export let BReception3 = {
   $_icon: {
     name: "Reception3",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["reception","3"],
   },
@@ -33000,6 +34506,7 @@ export let BReception4 = {
   $_icon: {
     name: "Reception4",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["reception","4"],
   },
@@ -33020,6 +34527,7 @@ export let BRecordBtnFill = {
   $_icon: {
     name: "RecordBtnFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["record","btn","fill"],
   },
@@ -33040,6 +34548,7 @@ export let BRecordBtn = {
   $_icon: {
     name: "RecordBtn",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["record","btn"],
   },
@@ -33064,6 +34573,7 @@ export let BRecordCircleFill = {
   $_icon: {
     name: "RecordCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["record","circle","fill"],
   },
@@ -33084,6 +34594,7 @@ export let BRecordCircle = {
   $_icon: {
     name: "RecordCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["record","circle"],
   },
@@ -33108,6 +34619,7 @@ export let BRecordFill = {
   $_icon: {
     name: "RecordFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["record","fill"],
   },
@@ -33128,6 +34640,7 @@ export let BRecord = {
   $_icon: {
     name: "Record",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["record"],
   },
@@ -33148,6 +34661,7 @@ export let BRecord2Fill = {
   $_icon: {
     name: "Record2Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["record2","fill"],
   },
@@ -33172,6 +34686,7 @@ export let BRecord2 = {
   $_icon: {
     name: "Record2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["record2"],
   },
@@ -33196,6 +34711,7 @@ export let BRecycle = {
   $_icon: {
     name: "Recycle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["recycle"],
   },
@@ -33216,6 +34732,7 @@ export let BReddit = {
   $_icon: {
     name: "Reddit",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["reddit"],
   },
@@ -33240,6 +34757,7 @@ export let BRegex = {
   $_icon: {
     name: "Regex",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["regex"],
   },
@@ -33260,6 +34778,7 @@ export let BRepeat1 = {
   $_icon: {
     name: "Repeat1",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["repeat","1"],
   },
@@ -33284,6 +34803,7 @@ export let BRepeat = {
   $_icon: {
     name: "Repeat",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["repeat"],
   },
@@ -33304,6 +34824,7 @@ export let BReplyAllFill = {
   $_icon: {
     name: "ReplyAllFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["reply","all","fill"],
   },
@@ -33328,6 +34849,7 @@ export let BReplyAll = {
   $_icon: {
     name: "ReplyAll",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["reply","all"],
   },
@@ -33352,6 +34874,7 @@ export let BReplyFill = {
   $_icon: {
     name: "ReplyFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["reply","fill"],
   },
@@ -33372,6 +34895,7 @@ export let BReply = {
   $_icon: {
     name: "Reply",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["reply"],
   },
@@ -33392,6 +34916,7 @@ export let BRewindBtnFill = {
   $_icon: {
     name: "RewindBtnFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["rewind","btn","fill"],
   },
@@ -33412,6 +34937,7 @@ export let BRewindBtn = {
   $_icon: {
     name: "RewindBtn",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["rewind","btn"],
   },
@@ -33436,6 +34962,7 @@ export let BRewindCircleFill = {
   $_icon: {
     name: "RewindCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["rewind","circle","fill"],
   },
@@ -33456,6 +34983,7 @@ export let BRewindCircle = {
   $_icon: {
     name: "RewindCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["rewind","circle"],
   },
@@ -33480,6 +35008,7 @@ export let BRewindFill = {
   $_icon: {
     name: "RewindFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["rewind","fill"],
   },
@@ -33504,6 +35033,7 @@ export let BRewind = {
   $_icon: {
     name: "Rewind",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["rewind"],
   },
@@ -33528,6 +35058,7 @@ export let BRobot = {
   $_icon: {
     name: "Robot",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["robot"],
   },
@@ -33552,6 +35083,7 @@ export let BRocketFill = {
   $_icon: {
     name: "RocketFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["rocket","fill"],
   },
@@ -33576,6 +35108,7 @@ export let BRocketTakeoffFill = {
   $_icon: {
     name: "RocketTakeoffFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["rocket","takeoff","fill"],
   },
@@ -33600,6 +35133,7 @@ export let BRocketTakeoff = {
   $_icon: {
     name: "RocketTakeoff",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["rocket","takeoff"],
   },
@@ -33628,6 +35162,7 @@ export let BRocket = {
   $_icon: {
     name: "Rocket",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["rocket"],
   },
@@ -33656,6 +35191,7 @@ export let BRouterFill = {
   $_icon: {
     name: "RouterFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["router","fill"],
   },
@@ -33688,6 +35224,7 @@ export let BRouter = {
   $_icon: {
     name: "Router",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["router"],
   },
@@ -33720,6 +35257,7 @@ export let BRssFill = {
   $_icon: {
     name: "RssFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["rss","fill"],
   },
@@ -33740,6 +35278,7 @@ export let BRss = {
   $_icon: {
     name: "Rss",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["rss"],
   },
@@ -33764,6 +35303,7 @@ export let BRulers = {
   $_icon: {
     name: "Rulers",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["rulers"],
   },
@@ -33784,6 +35324,7 @@ export let BSafeFill = {
   $_icon: {
     name: "SafeFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["safe","fill"],
   },
@@ -33808,6 +35349,7 @@ export let BSafe = {
   $_icon: {
     name: "Safe",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["safe"],
   },
@@ -33832,6 +35374,7 @@ export let BSafe2Fill = {
   $_icon: {
     name: "Safe2Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["safe2","fill"],
   },
@@ -33856,6 +35399,7 @@ export let BSafe2 = {
   $_icon: {
     name: "Safe2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["safe2"],
   },
@@ -33880,6 +35424,7 @@ export let BSaveFill = {
   $_icon: {
     name: "SaveFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["save","fill"],
   },
@@ -33900,6 +35445,7 @@ export let BSave = {
   $_icon: {
     name: "Save",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["save"],
   },
@@ -33920,6 +35466,7 @@ export let BSave2Fill = {
   $_icon: {
     name: "Save2Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["save2","fill"],
   },
@@ -33940,6 +35487,7 @@ export let BSave2 = {
   $_icon: {
     name: "Save2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["save2"],
   },
@@ -33960,6 +35508,7 @@ export let BScissors = {
   $_icon: {
     name: "Scissors",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["scissors"],
   },
@@ -33980,6 +35529,7 @@ export let BScooter = {
   $_icon: {
     name: "Scooter",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["scooter"],
   },
@@ -34000,6 +35550,7 @@ export let BScrewdriver = {
   $_icon: {
     name: "Screwdriver",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["screwdriver"],
   },
@@ -34020,6 +35571,7 @@ export let BSdCardFill = {
   $_icon: {
     name: "SdCardFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sd","card","fill"],
   },
@@ -34040,6 +35592,7 @@ export let BSdCard = {
   $_icon: {
     name: "SdCard",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sd","card"],
   },
@@ -34064,6 +35617,7 @@ export let BSearchHeartFill = {
   $_icon: {
     name: "SearchHeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["search","heart","fill"],
   },
@@ -34084,6 +35638,7 @@ export let BSearchHeart = {
   $_icon: {
     name: "SearchHeart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["search","heart"],
   },
@@ -34108,6 +35663,7 @@ export let BSearch = {
   $_icon: {
     name: "Search",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["search"],
   },
@@ -34128,6 +35684,7 @@ export let BSegmentedNav = {
   $_icon: {
     name: "SegmentedNav",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["segmented","nav"],
   },
@@ -34148,6 +35705,7 @@ export let BSendCheckFill = {
   $_icon: {
     name: "SendCheckFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["send","check","fill"],
   },
@@ -34172,6 +35730,7 @@ export let BSendCheck = {
   $_icon: {
     name: "SendCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["send","check"],
   },
@@ -34196,6 +35755,7 @@ export let BSendDashFill = {
   $_icon: {
     name: "SendDashFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["send","dash","fill"],
   },
@@ -34220,6 +35780,7 @@ export let BSendDash = {
   $_icon: {
     name: "SendDash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["send","dash"],
   },
@@ -34244,6 +35805,7 @@ export let BSendExclamationFill = {
   $_icon: {
     name: "SendExclamationFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["send","exclamation","fill"],
   },
@@ -34268,6 +35830,7 @@ export let BSendExclamation = {
   $_icon: {
     name: "SendExclamation",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["send","exclamation"],
   },
@@ -34292,6 +35855,7 @@ export let BSendFill = {
   $_icon: {
     name: "SendFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["send","fill"],
   },
@@ -34312,6 +35876,7 @@ export let BSendPlusFill = {
   $_icon: {
     name: "SendPlusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["send","plus","fill"],
   },
@@ -34336,6 +35901,7 @@ export let BSendPlus = {
   $_icon: {
     name: "SendPlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["send","plus"],
   },
@@ -34360,6 +35926,7 @@ export let BSendSlashFill = {
   $_icon: {
     name: "SendSlashFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["send","slash","fill"],
   },
@@ -34384,6 +35951,7 @@ export let BSendSlash = {
   $_icon: {
     name: "SendSlash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["send","slash"],
   },
@@ -34408,6 +35976,7 @@ export let BSendXFill = {
   $_icon: {
     name: "SendXFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["send","x","fill"],
   },
@@ -34432,6 +36001,7 @@ export let BSendX = {
   $_icon: {
     name: "SendX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["send","x"],
   },
@@ -34456,6 +36026,7 @@ export let BSend = {
   $_icon: {
     name: "Send",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["send"],
   },
@@ -34476,6 +36047,7 @@ export let BServer = {
   $_icon: {
     name: "Server",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["server"],
   },
@@ -34504,6 +36076,7 @@ export let BShareFill = {
   $_icon: {
     name: "ShareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["share","fill"],
   },
@@ -34524,6 +36097,7 @@ export let BShare = {
   $_icon: {
     name: "Share",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["share"],
   },
@@ -34544,6 +36118,7 @@ export let BShieldCheck = {
   $_icon: {
     name: "ShieldCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shield","check"],
   },
@@ -34568,6 +36143,7 @@ export let BShieldExclamation = {
   $_icon: {
     name: "ShieldExclamation",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shield","exclamation"],
   },
@@ -34592,6 +36168,7 @@ export let BShieldFillCheck = {
   $_icon: {
     name: "ShieldFillCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shield","fill","check"],
   },
@@ -34612,6 +36189,7 @@ export let BShieldFillExclamation = {
   $_icon: {
     name: "ShieldFillExclamation",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shield","fill","exclamation"],
   },
@@ -34632,6 +36210,7 @@ export let BShieldFillMinus = {
   $_icon: {
     name: "ShieldFillMinus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shield","fill","minus"],
   },
@@ -34652,6 +36231,7 @@ export let BShieldFillPlus = {
   $_icon: {
     name: "ShieldFillPlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shield","fill","plus"],
   },
@@ -34672,6 +36252,7 @@ export let BShieldFillX = {
   $_icon: {
     name: "ShieldFillX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shield","fill","x"],
   },
@@ -34692,6 +36273,7 @@ export let BShieldFill = {
   $_icon: {
     name: "ShieldFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shield","fill"],
   },
@@ -34712,6 +36294,7 @@ export let BShieldLockFill = {
   $_icon: {
     name: "ShieldLockFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shield","lock","fill"],
   },
@@ -34732,6 +36315,7 @@ export let BShieldLock = {
   $_icon: {
     name: "ShieldLock",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shield","lock"],
   },
@@ -34756,6 +36340,7 @@ export let BShieldMinus = {
   $_icon: {
     name: "ShieldMinus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shield","minus"],
   },
@@ -34780,6 +36365,7 @@ export let BShieldPlus = {
   $_icon: {
     name: "ShieldPlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shield","plus"],
   },
@@ -34804,6 +36390,7 @@ export let BShieldShaded = {
   $_icon: {
     name: "ShieldShaded",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shield","shaded"],
   },
@@ -34824,6 +36411,7 @@ export let BShieldSlashFill = {
   $_icon: {
     name: "ShieldSlashFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shield","slash","fill"],
   },
@@ -34844,6 +36432,7 @@ export let BShieldSlash = {
   $_icon: {
     name: "ShieldSlash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shield","slash"],
   },
@@ -34864,6 +36453,7 @@ export let BShieldX = {
   $_icon: {
     name: "ShieldX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shield","x"],
   },
@@ -34888,6 +36478,7 @@ export let BShield = {
   $_icon: {
     name: "Shield",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shield"],
   },
@@ -34908,6 +36499,7 @@ export let BShiftFill = {
   $_icon: {
     name: "ShiftFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shift","fill"],
   },
@@ -34928,6 +36520,7 @@ export let BShift = {
   $_icon: {
     name: "Shift",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shift"],
   },
@@ -34948,6 +36541,7 @@ export let BShopWindow = {
   $_icon: {
     name: "ShopWindow",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shop","window"],
   },
@@ -34968,6 +36562,7 @@ export let BShop = {
   $_icon: {
     name: "Shop",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shop"],
   },
@@ -34988,6 +36583,7 @@ export let BShuffle = {
   $_icon: {
     name: "Shuffle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["shuffle"],
   },
@@ -35012,6 +36608,7 @@ export let BSignDeadEndFill = {
   $_icon: {
     name: "SignDeadEndFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","dead","end","fill"],
   },
@@ -35036,6 +36633,7 @@ export let BSignDeadEnd = {
   $_icon: {
     name: "SignDeadEnd",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","dead","end"],
   },
@@ -35060,6 +36658,7 @@ export let BSignDoNotEnterFill = {
   $_icon: {
     name: "SignDoNotEnterFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","do","not","enter","fill"],
   },
@@ -35084,6 +36683,7 @@ export let BSignDoNotEnter = {
   $_icon: {
     name: "SignDoNotEnter",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","do","not","enter"],
   },
@@ -35108,6 +36708,7 @@ export let BSignIntersectionFill = {
   $_icon: {
     name: "SignIntersectionFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","intersection","fill"],
   },
@@ -35128,6 +36729,7 @@ export let BSignIntersectionSideFill = {
   $_icon: {
     name: "SignIntersectionSideFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","intersection","side","fill"],
   },
@@ -35148,6 +36750,7 @@ export let BSignIntersectionSide = {
   $_icon: {
     name: "SignIntersectionSide",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","intersection","side"],
   },
@@ -35172,6 +36775,7 @@ export let BSignIntersectionTFill = {
   $_icon: {
     name: "SignIntersectionTFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","intersection","t","fill"],
   },
@@ -35192,6 +36796,7 @@ export let BSignIntersectionT = {
   $_icon: {
     name: "SignIntersectionT",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","intersection","t"],
   },
@@ -35216,6 +36821,7 @@ export let BSignIntersectionYFill = {
   $_icon: {
     name: "SignIntersectionYFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","intersection","y","fill"],
   },
@@ -35236,6 +36842,7 @@ export let BSignIntersectionY = {
   $_icon: {
     name: "SignIntersectionY",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","intersection","y"],
   },
@@ -35260,6 +36867,7 @@ export let BSignIntersection = {
   $_icon: {
     name: "SignIntersection",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","intersection"],
   },
@@ -35284,6 +36892,7 @@ export let BSignMergeLeftFill = {
   $_icon: {
     name: "SignMergeLeftFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","merge","left","fill"],
   },
@@ -35304,6 +36913,7 @@ export let BSignMergeLeft = {
   $_icon: {
     name: "SignMergeLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","merge","left"],
   },
@@ -35328,6 +36938,7 @@ export let BSignMergeRightFill = {
   $_icon: {
     name: "SignMergeRightFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","merge","right","fill"],
   },
@@ -35348,6 +36959,7 @@ export let BSignMergeRight = {
   $_icon: {
     name: "SignMergeRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","merge","right"],
   },
@@ -35372,6 +36984,7 @@ export let BSignNoLeftTurnFill = {
   $_icon: {
     name: "SignNoLeftTurnFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","no","left","turn","fill"],
   },
@@ -35396,6 +37009,7 @@ export let BSignNoLeftTurn = {
   $_icon: {
     name: "SignNoLeftTurn",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","no","left","turn"],
   },
@@ -35416,6 +37030,7 @@ export let BSignNoParkingFill = {
   $_icon: {
     name: "SignNoParkingFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","no","parking","fill"],
   },
@@ -35440,6 +37055,7 @@ export let BSignNoParking = {
   $_icon: {
     name: "SignNoParking",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","no","parking"],
   },
@@ -35460,6 +37076,7 @@ export let BSignNoRightTurnFill = {
   $_icon: {
     name: "SignNoRightTurnFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","no","right","turn","fill"],
   },
@@ -35484,6 +37101,7 @@ export let BSignNoRightTurn = {
   $_icon: {
     name: "SignNoRightTurn",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","no","right","turn"],
   },
@@ -35504,6 +37122,7 @@ export let BSignRailroadFill = {
   $_icon: {
     name: "SignRailroadFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","railroad","fill"],
   },
@@ -35532,6 +37151,7 @@ export let BSignRailroad = {
   $_icon: {
     name: "SignRailroad",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","railroad"],
   },
@@ -35556,6 +37176,7 @@ export let BSignStopFill = {
   $_icon: {
     name: "SignStopFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","stop","fill"],
   },
@@ -35580,6 +37201,7 @@ export let BSignStopLightsFill = {
   $_icon: {
     name: "SignStopLightsFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","stop","lights","fill"],
   },
@@ -35604,6 +37226,7 @@ export let BSignStopLights = {
   $_icon: {
     name: "SignStopLights",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","stop","lights"],
   },
@@ -35628,6 +37251,7 @@ export let BSignStop = {
   $_icon: {
     name: "SignStop",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","stop"],
   },
@@ -35656,6 +37280,7 @@ export let BSignTurnLeftFill = {
   $_icon: {
     name: "SignTurnLeftFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","turn","left","fill"],
   },
@@ -35676,6 +37301,7 @@ export let BSignTurnLeft = {
   $_icon: {
     name: "SignTurnLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","turn","left"],
   },
@@ -35700,6 +37326,7 @@ export let BSignTurnRightFill = {
   $_icon: {
     name: "SignTurnRightFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","turn","right","fill"],
   },
@@ -35720,6 +37347,7 @@ export let BSignTurnRight = {
   $_icon: {
     name: "SignTurnRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","turn","right"],
   },
@@ -35744,6 +37372,7 @@ export let BSignTurnSlightLeftFill = {
   $_icon: {
     name: "SignTurnSlightLeftFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","turn","slight","left","fill"],
   },
@@ -35764,6 +37393,7 @@ export let BSignTurnSlightLeft = {
   $_icon: {
     name: "SignTurnSlightLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","turn","slight","left"],
   },
@@ -35788,6 +37418,7 @@ export let BSignTurnSlightRightFill = {
   $_icon: {
     name: "SignTurnSlightRightFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","turn","slight","right","fill"],
   },
@@ -35808,6 +37439,7 @@ export let BSignTurnSlightRight = {
   $_icon: {
     name: "SignTurnSlightRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","turn","slight","right"],
   },
@@ -35832,6 +37464,7 @@ export let BSignYieldFill = {
   $_icon: {
     name: "SignYieldFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","yield","fill"],
   },
@@ -35856,6 +37489,7 @@ export let BSignYield = {
   $_icon: {
     name: "SignYield",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","yield"],
   },
@@ -35884,6 +37518,7 @@ export let BSignal = {
   $_icon: {
     name: "Signal",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["signal"],
   },
@@ -35904,6 +37539,7 @@ export let BSignpost2Fill = {
   $_icon: {
     name: "Signpost2Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["signpost","2","fill"],
   },
@@ -35924,6 +37560,7 @@ export let BSignpost2 = {
   $_icon: {
     name: "Signpost2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["signpost","2"],
   },
@@ -35944,6 +37581,7 @@ export let BSignpostFill = {
   $_icon: {
     name: "SignpostFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["signpost","fill"],
   },
@@ -35964,6 +37602,7 @@ export let BSignpostSplitFill = {
   $_icon: {
     name: "SignpostSplitFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["signpost","split","fill"],
   },
@@ -35984,6 +37623,7 @@ export let BSignpostSplit = {
   $_icon: {
     name: "SignpostSplit",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["signpost","split"],
   },
@@ -36004,6 +37644,7 @@ export let BSignpost = {
   $_icon: {
     name: "Signpost",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["signpost"],
   },
@@ -36024,6 +37665,7 @@ export let BSimFill = {
   $_icon: {
     name: "SimFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sim","fill"],
   },
@@ -36048,6 +37690,7 @@ export let BSim = {
   $_icon: {
     name: "Sim",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sim"],
   },
@@ -36072,6 +37715,7 @@ export let BSinaWeibo = {
   $_icon: {
     name: "SinaWeibo",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sina","weibo"],
   },
@@ -36096,6 +37740,7 @@ export let BSkipBackwardBtnFill = {
   $_icon: {
     name: "SkipBackwardBtnFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","backward","btn","fill"],
   },
@@ -36116,6 +37761,7 @@ export let BSkipBackwardBtn = {
   $_icon: {
     name: "SkipBackwardBtn",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","backward","btn"],
   },
@@ -36140,6 +37786,7 @@ export let BSkipBackwardCircleFill = {
   $_icon: {
     name: "SkipBackwardCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","backward","circle","fill"],
   },
@@ -36160,6 +37807,7 @@ export let BSkipBackwardCircle = {
   $_icon: {
     name: "SkipBackwardCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","backward","circle"],
   },
@@ -36184,6 +37832,7 @@ export let BSkipBackwardFill = {
   $_icon: {
     name: "SkipBackwardFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","backward","fill"],
   },
@@ -36204,6 +37853,7 @@ export let BSkipBackward = {
   $_icon: {
     name: "SkipBackward",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","backward"],
   },
@@ -36224,6 +37874,7 @@ export let BSkipEndBtnFill = {
   $_icon: {
     name: "SkipEndBtnFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","end","btn","fill"],
   },
@@ -36244,6 +37895,7 @@ export let BSkipEndBtn = {
   $_icon: {
     name: "SkipEndBtn",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","end","btn"],
   },
@@ -36268,6 +37920,7 @@ export let BSkipEndCircleFill = {
   $_icon: {
     name: "SkipEndCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","end","circle","fill"],
   },
@@ -36288,6 +37941,7 @@ export let BSkipEndCircle = {
   $_icon: {
     name: "SkipEndCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","end","circle"],
   },
@@ -36312,6 +37966,7 @@ export let BSkipEndFill = {
   $_icon: {
     name: "SkipEndFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","end","fill"],
   },
@@ -36332,6 +37987,7 @@ export let BSkipEnd = {
   $_icon: {
     name: "SkipEnd",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","end"],
   },
@@ -36352,6 +38008,7 @@ export let BSkipForwardBtnFill = {
   $_icon: {
     name: "SkipForwardBtnFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","forward","btn","fill"],
   },
@@ -36372,6 +38029,7 @@ export let BSkipForwardBtn = {
   $_icon: {
     name: "SkipForwardBtn",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","forward","btn"],
   },
@@ -36396,6 +38054,7 @@ export let BSkipForwardCircleFill = {
   $_icon: {
     name: "SkipForwardCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","forward","circle","fill"],
   },
@@ -36416,6 +38075,7 @@ export let BSkipForwardCircle = {
   $_icon: {
     name: "SkipForwardCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","forward","circle"],
   },
@@ -36440,6 +38100,7 @@ export let BSkipForwardFill = {
   $_icon: {
     name: "SkipForwardFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","forward","fill"],
   },
@@ -36460,6 +38121,7 @@ export let BSkipForward = {
   $_icon: {
     name: "SkipForward",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","forward"],
   },
@@ -36480,6 +38142,7 @@ export let BSkipStartBtnFill = {
   $_icon: {
     name: "SkipStartBtnFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","start","btn","fill"],
   },
@@ -36500,6 +38163,7 @@ export let BSkipStartBtn = {
   $_icon: {
     name: "SkipStartBtn",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","start","btn"],
   },
@@ -36524,6 +38188,7 @@ export let BSkipStartCircleFill = {
   $_icon: {
     name: "SkipStartCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","start","circle","fill"],
   },
@@ -36544,6 +38209,7 @@ export let BSkipStartCircle = {
   $_icon: {
     name: "SkipStartCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","start","circle"],
   },
@@ -36568,6 +38234,7 @@ export let BSkipStartFill = {
   $_icon: {
     name: "SkipStartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","start","fill"],
   },
@@ -36588,6 +38255,7 @@ export let BSkipStart = {
   $_icon: {
     name: "SkipStart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","start"],
   },
@@ -36608,6 +38276,7 @@ export let BSkype = {
   $_icon: {
     name: "Skype",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skype"],
   },
@@ -36628,6 +38297,7 @@ export let BSlack = {
   $_icon: {
     name: "Slack",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["slack"],
   },
@@ -36648,6 +38318,7 @@ export let BSlashCircleFill = {
   $_icon: {
     name: "SlashCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["slash","circle","fill"],
   },
@@ -36668,6 +38339,7 @@ export let BSlashCircle = {
   $_icon: {
     name: "SlashCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["slash","circle"],
   },
@@ -36692,6 +38364,7 @@ export let BSlashLg = {
   $_icon: {
     name: "SlashLg",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["slash","lg"],
   },
@@ -36712,6 +38385,7 @@ export let BSlashSquareFill = {
   $_icon: {
     name: "SlashSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["slash","square","fill"],
   },
@@ -36732,6 +38406,7 @@ export let BSlashSquare = {
   $_icon: {
     name: "SlashSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["slash","square"],
   },
@@ -36756,6 +38431,7 @@ export let BSlash = {
   $_icon: {
     name: "Slash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["slash"],
   },
@@ -36776,6 +38452,7 @@ export let BSliders = {
   $_icon: {
     name: "Sliders",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sliders"],
   },
@@ -36796,6 +38473,7 @@ export let BSliders2Vertical = {
   $_icon: {
     name: "Sliders2Vertical",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sliders2","vertical"],
   },
@@ -36816,6 +38494,7 @@ export let BSliders2 = {
   $_icon: {
     name: "Sliders2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sliders2"],
   },
@@ -36836,6 +38515,7 @@ export let BSmartwatch = {
   $_icon: {
     name: "Smartwatch",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["smartwatch"],
   },
@@ -36860,6 +38540,7 @@ export let BSnapchat = {
   $_icon: {
     name: "Snapchat",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["snapchat"],
   },
@@ -36880,6 +38561,7 @@ export let BSnow = {
   $_icon: {
     name: "Snow",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["snow"],
   },
@@ -36900,6 +38582,7 @@ export let BSnow2 = {
   $_icon: {
     name: "Snow2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["snow2"],
   },
@@ -36920,6 +38603,7 @@ export let BSnow3 = {
   $_icon: {
     name: "Snow3",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["snow3"],
   },
@@ -36944,6 +38628,7 @@ export let BSortAlphaDownAlt = {
   $_icon: {
     name: "SortAlphaDownAlt",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sort","alpha","down","alt"],
   },
@@ -36972,6 +38657,7 @@ export let BSortAlphaDown = {
   $_icon: {
     name: "SortAlphaDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sort","alpha","down"],
   },
@@ -36996,6 +38682,7 @@ export let BSortAlphaUpAlt = {
   $_icon: {
     name: "SortAlphaUpAlt",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sort","alpha","up","alt"],
   },
@@ -37024,6 +38711,7 @@ export let BSortAlphaUp = {
   $_icon: {
     name: "SortAlphaUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sort","alpha","up"],
   },
@@ -37048,6 +38736,7 @@ export let BSortDownAlt = {
   $_icon: {
     name: "SortDownAlt",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sort","down","alt"],
   },
@@ -37068,6 +38757,7 @@ export let BSortDown = {
   $_icon: {
     name: "SortDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sort","down"],
   },
@@ -37088,6 +38778,7 @@ export let BSortNumericDownAlt = {
   $_icon: {
     name: "SortNumericDownAlt",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sort","numeric","down","alt"],
   },
@@ -37112,6 +38803,7 @@ export let BSortNumericDown = {
   $_icon: {
     name: "SortNumericDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sort","numeric","down"],
   },
@@ -37140,6 +38832,7 @@ export let BSortNumericUpAlt = {
   $_icon: {
     name: "SortNumericUpAlt",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sort","numeric","up","alt"],
   },
@@ -37164,6 +38857,7 @@ export let BSortNumericUp = {
   $_icon: {
     name: "SortNumericUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sort","numeric","up"],
   },
@@ -37192,6 +38886,7 @@ export let BSortUpAlt = {
   $_icon: {
     name: "SortUpAlt",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sort","up","alt"],
   },
@@ -37212,6 +38907,7 @@ export let BSortUp = {
   $_icon: {
     name: "SortUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sort","up"],
   },
@@ -37232,6 +38928,7 @@ export let BSoundwave = {
   $_icon: {
     name: "Soundwave",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["soundwave"],
   },
@@ -37252,6 +38949,7 @@ export let BSpeakerFill = {
   $_icon: {
     name: "SpeakerFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["speaker","fill"],
   },
@@ -37276,6 +38974,7 @@ export let BSpeaker = {
   $_icon: {
     name: "Speaker",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["speaker"],
   },
@@ -37300,6 +38999,7 @@ export let BSpeedometer = {
   $_icon: {
     name: "Speedometer",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["speedometer"],
   },
@@ -37324,6 +39024,7 @@ export let BSpeedometer2 = {
   $_icon: {
     name: "Speedometer2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["speedometer2"],
   },
@@ -37348,6 +39049,7 @@ export let BSpellcheck = {
   $_icon: {
     name: "Spellcheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["spellcheck"],
   },
@@ -37372,6 +39074,7 @@ export let BSpotify = {
   $_icon: {
     name: "Spotify",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["spotify"],
   },
@@ -37392,6 +39095,7 @@ export let BSquareFill = {
   $_icon: {
     name: "SquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["square","fill"],
   },
@@ -37412,6 +39116,7 @@ export let BSquareHalf = {
   $_icon: {
     name: "SquareHalf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["square","half"],
   },
@@ -37432,6 +39137,7 @@ export let BSquare = {
   $_icon: {
     name: "Square",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["square"],
   },
@@ -37452,6 +39158,7 @@ export let BStackOverflow = {
   $_icon: {
     name: "StackOverflow",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["stack","overflow"],
   },
@@ -37476,6 +39183,7 @@ export let BStack = {
   $_icon: {
     name: "Stack",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["stack"],
   },
@@ -37500,6 +39208,7 @@ export let BStarFill = {
   $_icon: {
     name: "StarFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["star","fill"],
   },
@@ -37520,6 +39229,7 @@ export let BStarHalf = {
   $_icon: {
     name: "StarHalf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["star","half"],
   },
@@ -37540,6 +39250,7 @@ export let BStar = {
   $_icon: {
     name: "Star",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["star"],
   },
@@ -37560,6 +39271,7 @@ export let BStars = {
   $_icon: {
     name: "Stars",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["stars"],
   },
@@ -37580,6 +39292,7 @@ export let BSteam = {
   $_icon: {
     name: "Steam",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["steam"],
   },
@@ -37604,6 +39317,7 @@ export let BStickiesFill = {
   $_icon: {
     name: "StickiesFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["stickies","fill"],
   },
@@ -37628,6 +39342,7 @@ export let BStickies = {
   $_icon: {
     name: "Stickies",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["stickies"],
   },
@@ -37652,6 +39367,7 @@ export let BStickyFill = {
   $_icon: {
     name: "StickyFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sticky","fill"],
   },
@@ -37672,6 +39388,7 @@ export let BSticky = {
   $_icon: {
     name: "Sticky",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sticky"],
   },
@@ -37692,6 +39409,7 @@ export let BStopBtnFill = {
   $_icon: {
     name: "StopBtnFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["stop","btn","fill"],
   },
@@ -37712,6 +39430,7 @@ export let BStopBtn = {
   $_icon: {
     name: "StopBtn",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["stop","btn"],
   },
@@ -37736,6 +39455,7 @@ export let BStopCircleFill = {
   $_icon: {
     name: "StopCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["stop","circle","fill"],
   },
@@ -37756,6 +39476,7 @@ export let BStopCircle = {
   $_icon: {
     name: "StopCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["stop","circle"],
   },
@@ -37780,6 +39501,7 @@ export let BStopFill = {
   $_icon: {
     name: "StopFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["stop","fill"],
   },
@@ -37800,6 +39522,7 @@ export let BStop = {
   $_icon: {
     name: "Stop",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["stop"],
   },
@@ -37820,6 +39543,7 @@ export let BStoplightsFill = {
   $_icon: {
     name: "StoplightsFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["stoplights","fill"],
   },
@@ -37840,6 +39564,7 @@ export let BStoplights = {
   $_icon: {
     name: "Stoplights",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["stoplights"],
   },
@@ -37864,6 +39589,7 @@ export let BStopwatchFill = {
   $_icon: {
     name: "StopwatchFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["stopwatch","fill"],
   },
@@ -37884,6 +39610,7 @@ export let BStopwatch = {
   $_icon: {
     name: "Stopwatch",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["stopwatch"],
   },
@@ -37908,6 +39635,7 @@ export let BStrava = {
   $_icon: {
     name: "Strava",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["strava"],
   },
@@ -37928,6 +39656,7 @@ export let BStripe = {
   $_icon: {
     name: "Stripe",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["stripe"],
   },
@@ -37948,6 +39677,7 @@ export let BSubscript = {
   $_icon: {
     name: "Subscript",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["subscript"],
   },
@@ -37968,6 +39698,7 @@ export let BSubtract = {
   $_icon: {
     name: "Subtract",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["subtract"],
   },
@@ -37988,6 +39719,7 @@ export let BSuitClubFill = {
   $_icon: {
     name: "SuitClubFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["suit","club","fill"],
   },
@@ -38008,6 +39740,7 @@ export let BSuitClub = {
   $_icon: {
     name: "SuitClub",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["suit","club"],
   },
@@ -38028,6 +39761,7 @@ export let BSuitDiamondFill = {
   $_icon: {
     name: "SuitDiamondFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["suit","diamond","fill"],
   },
@@ -38048,6 +39782,7 @@ export let BSuitDiamond = {
   $_icon: {
     name: "SuitDiamond",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["suit","diamond"],
   },
@@ -38068,6 +39803,7 @@ export let BSuitHeartFill = {
   $_icon: {
     name: "SuitHeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["suit","heart","fill"],
   },
@@ -38088,6 +39824,7 @@ export let BSuitHeart = {
   $_icon: {
     name: "SuitHeart",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["suit","heart"],
   },
@@ -38108,6 +39845,7 @@ export let BSuitSpadeFill = {
   $_icon: {
     name: "SuitSpadeFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["suit","spade","fill"],
   },
@@ -38128,6 +39866,7 @@ export let BSuitSpade = {
   $_icon: {
     name: "SuitSpade",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["suit","spade"],
   },
@@ -38148,6 +39887,7 @@ export let BSunFill = {
   $_icon: {
     name: "SunFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sun","fill"],
   },
@@ -38168,6 +39908,7 @@ export let BSun = {
   $_icon: {
     name: "Sun",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sun"],
   },
@@ -38188,6 +39929,7 @@ export let BSunglasses = {
   $_icon: {
     name: "Sunglasses",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sunglasses"],
   },
@@ -38208,6 +39950,7 @@ export let BSunriseFill = {
   $_icon: {
     name: "SunriseFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sunrise","fill"],
   },
@@ -38228,6 +39971,7 @@ export let BSunrise = {
   $_icon: {
     name: "Sunrise",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sunrise"],
   },
@@ -38248,6 +39992,7 @@ export let BSunsetFill = {
   $_icon: {
     name: "SunsetFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sunset","fill"],
   },
@@ -38268,6 +40013,7 @@ export let BSunset = {
   $_icon: {
     name: "Sunset",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sunset"],
   },
@@ -38288,6 +40034,7 @@ export let BSuperscript = {
   $_icon: {
     name: "Superscript",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["superscript"],
   },
@@ -38308,6 +40055,7 @@ export let BSymmetryHorizontal = {
   $_icon: {
     name: "SymmetryHorizontal",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["symmetry","horizontal"],
   },
@@ -38328,6 +40076,7 @@ export let BSymmetryVertical = {
   $_icon: {
     name: "SymmetryVertical",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["symmetry","vertical"],
   },
@@ -38348,6 +40097,7 @@ export let BTable = {
   $_icon: {
     name: "Table",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["table"],
   },
@@ -38368,6 +40118,7 @@ export let BTabletFill = {
   $_icon: {
     name: "TabletFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["tablet","fill"],
   },
@@ -38388,6 +40139,7 @@ export let BTabletLandscapeFill = {
   $_icon: {
     name: "TabletLandscapeFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["tablet","landscape","fill"],
   },
@@ -38408,6 +40160,7 @@ export let BTabletLandscape = {
   $_icon: {
     name: "TabletLandscape",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["tablet","landscape"],
   },
@@ -38432,6 +40185,7 @@ export let BTablet = {
   $_icon: {
     name: "Tablet",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["tablet"],
   },
@@ -38456,6 +40210,7 @@ export let BTagFill = {
   $_icon: {
     name: "TagFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["tag","fill"],
   },
@@ -38476,6 +40231,7 @@ export let BTag = {
   $_icon: {
     name: "Tag",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["tag"],
   },
@@ -38500,6 +40256,7 @@ export let BTagsFill = {
   $_icon: {
     name: "TagsFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["tags","fill"],
   },
@@ -38524,6 +40281,7 @@ export let BTags = {
   $_icon: {
     name: "Tags",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["tags"],
   },
@@ -38548,6 +40306,7 @@ export let BTaxiFrontFill = {
   $_icon: {
     name: "TaxiFrontFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["taxi","front","fill"],
   },
@@ -38568,6 +40327,7 @@ export let BTaxiFront = {
   $_icon: {
     name: "TaxiFront",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["taxi","front"],
   },
@@ -38592,6 +40352,7 @@ export let BTelegram = {
   $_icon: {
     name: "Telegram",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["telegram"],
   },
@@ -38612,6 +40373,7 @@ export let BTelephoneFill = {
   $_icon: {
     name: "TelephoneFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["telephone","fill"],
   },
@@ -38632,6 +40394,7 @@ export let BTelephoneForwardFill = {
   $_icon: {
     name: "TelephoneForwardFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["telephone","forward","fill"],
   },
@@ -38652,6 +40415,7 @@ export let BTelephoneForward = {
   $_icon: {
     name: "TelephoneForward",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["telephone","forward"],
   },
@@ -38672,6 +40436,7 @@ export let BTelephoneInboundFill = {
   $_icon: {
     name: "TelephoneInboundFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["telephone","inbound","fill"],
   },
@@ -38692,6 +40457,7 @@ export let BTelephoneInbound = {
   $_icon: {
     name: "TelephoneInbound",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["telephone","inbound"],
   },
@@ -38712,6 +40478,7 @@ export let BTelephoneMinusFill = {
   $_icon: {
     name: "TelephoneMinusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["telephone","minus","fill"],
   },
@@ -38732,6 +40499,7 @@ export let BTelephoneMinus = {
   $_icon: {
     name: "TelephoneMinus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["telephone","minus"],
   },
@@ -38756,6 +40524,7 @@ export let BTelephoneOutboundFill = {
   $_icon: {
     name: "TelephoneOutboundFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["telephone","outbound","fill"],
   },
@@ -38776,6 +40545,7 @@ export let BTelephoneOutbound = {
   $_icon: {
     name: "TelephoneOutbound",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["telephone","outbound"],
   },
@@ -38796,6 +40566,7 @@ export let BTelephonePlusFill = {
   $_icon: {
     name: "TelephonePlusFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["telephone","plus","fill"],
   },
@@ -38816,6 +40587,7 @@ export let BTelephonePlus = {
   $_icon: {
     name: "TelephonePlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["telephone","plus"],
   },
@@ -38840,6 +40612,7 @@ export let BTelephoneXFill = {
   $_icon: {
     name: "TelephoneXFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["telephone","x","fill"],
   },
@@ -38860,6 +40633,7 @@ export let BTelephoneX = {
   $_icon: {
     name: "TelephoneX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["telephone","x"],
   },
@@ -38884,6 +40658,7 @@ export let BTelephone = {
   $_icon: {
     name: "Telephone",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["telephone"],
   },
@@ -38904,6 +40679,7 @@ export let BTencentQq = {
   $_icon: {
     name: "TencentQq",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["tencent","qq"],
   },
@@ -38928,6 +40704,7 @@ export let BTerminalDash = {
   $_icon: {
     name: "TerminalDash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["terminal","dash"],
   },
@@ -38952,6 +40729,7 @@ export let BTerminalFill = {
   $_icon: {
     name: "TerminalFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["terminal","fill"],
   },
@@ -38972,6 +40750,7 @@ export let BTerminalPlus = {
   $_icon: {
     name: "TerminalPlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["terminal","plus"],
   },
@@ -38996,6 +40775,7 @@ export let BTerminalSplit = {
   $_icon: {
     name: "TerminalSplit",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["terminal","split"],
   },
@@ -39020,6 +40800,7 @@ export let BTerminalX = {
   $_icon: {
     name: "TerminalX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["terminal","x"],
   },
@@ -39044,6 +40825,7 @@ export let BTerminal = {
   $_icon: {
     name: "Terminal",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["terminal"],
   },
@@ -39068,6 +40850,7 @@ export let BTextCenter = {
   $_icon: {
     name: "TextCenter",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["text","center"],
   },
@@ -39088,6 +40871,7 @@ export let BTextIndentLeft = {
   $_icon: {
     name: "TextIndentLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["text","indent","left"],
   },
@@ -39108,6 +40892,7 @@ export let BTextIndentRight = {
   $_icon: {
     name: "TextIndentRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["text","indent","right"],
   },
@@ -39128,6 +40913,7 @@ export let BTextLeft = {
   $_icon: {
     name: "TextLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["text","left"],
   },
@@ -39148,6 +40934,7 @@ export let BTextParagraph = {
   $_icon: {
     name: "TextParagraph",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["text","paragraph"],
   },
@@ -39168,6 +40955,7 @@ export let BTextRight = {
   $_icon: {
     name: "TextRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["text","right"],
   },
@@ -39188,6 +40976,7 @@ export let BTextWrap = {
   $_icon: {
     name: "TextWrap",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["text","wrap"],
   },
@@ -39208,6 +40997,7 @@ export let BTextareaResize = {
   $_icon: {
     name: "TextareaResize",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["textarea","resize"],
   },
@@ -39228,6 +41018,7 @@ export let BTextareaT = {
   $_icon: {
     name: "TextareaT",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["textarea","t"],
   },
@@ -39252,6 +41043,7 @@ export let BTextarea = {
   $_icon: {
     name: "Textarea",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["textarea"],
   },
@@ -39272,6 +41064,7 @@ export let BThermometerHalf = {
   $_icon: {
     name: "ThermometerHalf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["thermometer","half"],
   },
@@ -39296,6 +41089,7 @@ export let BThermometerHigh = {
   $_icon: {
     name: "ThermometerHigh",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["thermometer","high"],
   },
@@ -39320,6 +41114,7 @@ export let BThermometerLow = {
   $_icon: {
     name: "ThermometerLow",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["thermometer","low"],
   },
@@ -39344,6 +41139,7 @@ export let BThermometerSnow = {
   $_icon: {
     name: "ThermometerSnow",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["thermometer","snow"],
   },
@@ -39368,6 +41164,7 @@ export let BThermometerSun = {
   $_icon: {
     name: "ThermometerSun",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["thermometer","sun"],
   },
@@ -39392,6 +41189,7 @@ export let BThermometer = {
   $_icon: {
     name: "Thermometer",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["thermometer"],
   },
@@ -39416,6 +41214,7 @@ export let BThreeDotsVertical = {
   $_icon: {
     name: "ThreeDotsVertical",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["three","dots","vertical"],
   },
@@ -39436,6 +41235,7 @@ export let BThreeDots = {
   $_icon: {
     name: "ThreeDots",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["three","dots"],
   },
@@ -39456,6 +41256,7 @@ export let BThunderboltFill = {
   $_icon: {
     name: "ThunderboltFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["thunderbolt","fill"],
   },
@@ -39476,6 +41277,7 @@ export let BThunderbolt = {
   $_icon: {
     name: "Thunderbolt",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["thunderbolt"],
   },
@@ -39500,6 +41302,7 @@ export let BTicketDetailedFill = {
   $_icon: {
     name: "TicketDetailedFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ticket","detailed","fill"],
   },
@@ -39520,6 +41323,7 @@ export let BTicketDetailed = {
   $_icon: {
     name: "TicketDetailed",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ticket","detailed"],
   },
@@ -39544,6 +41348,7 @@ export let BTicketFill = {
   $_icon: {
     name: "TicketFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ticket","fill"],
   },
@@ -39564,6 +41369,7 @@ export let BTicketPerforatedFill = {
   $_icon: {
     name: "TicketPerforatedFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ticket","perforated","fill"],
   },
@@ -39584,6 +41390,7 @@ export let BTicketPerforated = {
   $_icon: {
     name: "TicketPerforated",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ticket","perforated"],
   },
@@ -39608,6 +41415,7 @@ export let BTicket = {
   $_icon: {
     name: "Ticket",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ticket"],
   },
@@ -39628,6 +41436,7 @@ export let BTiktok = {
   $_icon: {
     name: "Tiktok",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["tiktok"],
   },
@@ -39648,6 +41457,7 @@ export let BToggleOff = {
   $_icon: {
     name: "ToggleOff",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["toggle","off"],
   },
@@ -39668,6 +41478,7 @@ export let BToggleOn = {
   $_icon: {
     name: "ToggleOn",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["toggle","on"],
   },
@@ -39688,6 +41499,7 @@ export let BToggle2Off = {
   $_icon: {
     name: "Toggle2Off",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["toggle2","off"],
   },
@@ -39712,6 +41524,7 @@ export let BToggle2On = {
   $_icon: {
     name: "Toggle2On",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["toggle2","on"],
   },
@@ -39736,6 +41549,7 @@ export let BToggles = {
   $_icon: {
     name: "Toggles",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["toggles"],
   },
@@ -39756,6 +41570,7 @@ export let BToggles2 = {
   $_icon: {
     name: "Toggles2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["toggles2"],
   },
@@ -39784,6 +41599,7 @@ export let BTools = {
   $_icon: {
     name: "Tools",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["tools"],
   },
@@ -39804,6 +41620,7 @@ export let BTornado = {
   $_icon: {
     name: "Tornado",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["tornado"],
   },
@@ -39824,6 +41641,7 @@ export let BTrainFreightFrontFill = {
   $_icon: {
     name: "TrainFreightFrontFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["train","freight","front","fill"],
   },
@@ -39844,6 +41662,7 @@ export let BTrainFreightFront = {
   $_icon: {
     name: "TrainFreightFront",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["train","freight","front"],
   },
@@ -39864,6 +41683,7 @@ export let BTrainFrontFill = {
   $_icon: {
     name: "TrainFrontFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["train","front","fill"],
   },
@@ -39884,6 +41704,7 @@ export let BTrainFront = {
   $_icon: {
     name: "TrainFront",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["train","front"],
   },
@@ -39904,6 +41725,7 @@ export let BTrainLightrailFrontFill = {
   $_icon: {
     name: "TrainLightrailFrontFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["train","lightrail","front","fill"],
   },
@@ -39924,6 +41746,7 @@ export let BTrainLightrailFront = {
   $_icon: {
     name: "TrainLightrailFront",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["train","lightrail","front"],
   },
@@ -39944,6 +41767,7 @@ export let BTranslate = {
   $_icon: {
     name: "Translate",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["translate"],
   },
@@ -39968,6 +41792,7 @@ export let BTrashFill = {
   $_icon: {
     name: "TrashFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["trash","fill"],
   },
@@ -39988,6 +41813,7 @@ export let BTrash = {
   $_icon: {
     name: "Trash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["trash"],
   },
@@ -40012,6 +41838,7 @@ export let BTrash2Fill = {
   $_icon: {
     name: "Trash2Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["trash2","fill"],
   },
@@ -40032,6 +41859,7 @@ export let BTrash2 = {
   $_icon: {
     name: "Trash2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["trash2"],
   },
@@ -40052,6 +41880,7 @@ export let BTrash3Fill = {
   $_icon: {
     name: "Trash3Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["trash3","fill"],
   },
@@ -40072,6 +41901,7 @@ export let BTrash3 = {
   $_icon: {
     name: "Trash3",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["trash3"],
   },
@@ -40092,6 +41922,7 @@ export let BTreeFill = {
   $_icon: {
     name: "TreeFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["tree","fill"],
   },
@@ -40112,6 +41943,7 @@ export let BTree = {
   $_icon: {
     name: "Tree",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["tree"],
   },
@@ -40132,6 +41964,7 @@ export let BTrello = {
   $_icon: {
     name: "Trello",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["trello"],
   },
@@ -40152,6 +41985,7 @@ export let BTriangleFill = {
   $_icon: {
     name: "TriangleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["triangle","fill"],
   },
@@ -40172,6 +42006,7 @@ export let BTriangleHalf = {
   $_icon: {
     name: "TriangleHalf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["triangle","half"],
   },
@@ -40192,6 +42027,7 @@ export let BTriangle = {
   $_icon: {
     name: "Triangle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["triangle"],
   },
@@ -40212,6 +42048,7 @@ export let BTrophyFill = {
   $_icon: {
     name: "TrophyFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["trophy","fill"],
   },
@@ -40232,6 +42069,7 @@ export let BTrophy = {
   $_icon: {
     name: "Trophy",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["trophy"],
   },
@@ -40252,6 +42090,7 @@ export let BTropicalStorm = {
   $_icon: {
     name: "TropicalStorm",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["tropical","storm"],
   },
@@ -40276,6 +42115,7 @@ export let BTruckFlatbed = {
   $_icon: {
     name: "TruckFlatbed",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["truck","flatbed"],
   },
@@ -40296,6 +42136,7 @@ export let BTruckFrontFill = {
   $_icon: {
     name: "TruckFrontFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["truck","front","fill"],
   },
@@ -40316,6 +42157,7 @@ export let BTruckFront = {
   $_icon: {
     name: "TruckFront",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["truck","front"],
   },
@@ -40340,6 +42182,7 @@ export let BTruck = {
   $_icon: {
     name: "Truck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["truck"],
   },
@@ -40360,6 +42203,7 @@ export let BTsunami = {
   $_icon: {
     name: "Tsunami",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["tsunami"],
   },
@@ -40380,6 +42224,7 @@ export let BTvFill = {
   $_icon: {
     name: "TvFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["tv","fill"],
   },
@@ -40400,6 +42245,7 @@ export let BTv = {
   $_icon: {
     name: "Tv",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["tv"],
   },
@@ -40420,6 +42266,7 @@ export let BTwitch = {
   $_icon: {
     name: "Twitch",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["twitch"],
   },
@@ -40444,6 +42291,7 @@ export let BTwitter = {
   $_icon: {
     name: "Twitter",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["twitter"],
   },
@@ -40464,6 +42312,7 @@ export let BTypeBold = {
   $_icon: {
     name: "TypeBold",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["type","bold"],
   },
@@ -40484,6 +42333,7 @@ export let BTypeH1 = {
   $_icon: {
     name: "TypeH1",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["type","h1"],
   },
@@ -40504,6 +42354,7 @@ export let BTypeH2 = {
   $_icon: {
     name: "TypeH2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["type","h2"],
   },
@@ -40524,6 +42375,7 @@ export let BTypeH3 = {
   $_icon: {
     name: "TypeH3",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["type","h3"],
   },
@@ -40544,6 +42396,7 @@ export let BTypeItalic = {
   $_icon: {
     name: "TypeItalic",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["type","italic"],
   },
@@ -40564,6 +42417,7 @@ export let BTypeStrikethrough = {
   $_icon: {
     name: "TypeStrikethrough",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["type","strikethrough"],
   },
@@ -40584,6 +42438,7 @@ export let BTypeUnderline = {
   $_icon: {
     name: "TypeUnderline",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["type","underline"],
   },
@@ -40604,6 +42459,7 @@ export let BType = {
   $_icon: {
     name: "Type",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["type"],
   },
@@ -40624,6 +42480,7 @@ export let BUbuntu = {
   $_icon: {
     name: "Ubuntu",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ubuntu"],
   },
@@ -40644,6 +42501,7 @@ export let BUiChecksGrid = {
   $_icon: {
     name: "UiChecksGrid",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ui","checks","grid"],
   },
@@ -40664,6 +42522,7 @@ export let BUiChecks = {
   $_icon: {
     name: "UiChecks",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ui","checks"],
   },
@@ -40684,6 +42543,7 @@ export let BUiRadiosGrid = {
   $_icon: {
     name: "UiRadiosGrid",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ui","radios","grid"],
   },
@@ -40704,6 +42564,7 @@ export let BUiRadios = {
   $_icon: {
     name: "UiRadios",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ui","radios"],
   },
@@ -40724,6 +42585,7 @@ export let BUmbrellaFill = {
   $_icon: {
     name: "UmbrellaFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["umbrella","fill"],
   },
@@ -40744,6 +42606,7 @@ export let BUmbrella = {
   $_icon: {
     name: "Umbrella",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["umbrella"],
   },
@@ -40764,6 +42627,7 @@ export let BUnindent = {
   $_icon: {
     name: "Unindent",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["unindent"],
   },
@@ -40788,6 +42652,7 @@ export let BUnion = {
   $_icon: {
     name: "Union",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["union"],
   },
@@ -40808,6 +42673,7 @@ export let BUnity = {
   $_icon: {
     name: "Unity",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["unity"],
   },
@@ -40828,6 +42694,7 @@ export let BUniversalAccessCircle = {
   $_icon: {
     name: "UniversalAccessCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["universal","access","circle"],
   },
@@ -40852,6 +42719,7 @@ export let BUniversalAccess = {
   $_icon: {
     name: "UniversalAccess",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["universal","access"],
   },
@@ -40872,6 +42740,7 @@ export let BUnlockFill = {
   $_icon: {
     name: "UnlockFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["unlock","fill"],
   },
@@ -40892,6 +42761,7 @@ export let BUnlock = {
   $_icon: {
     name: "Unlock",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["unlock"],
   },
@@ -40912,6 +42782,7 @@ export let BUpcScan = {
   $_icon: {
     name: "UpcScan",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["upc","scan"],
   },
@@ -40932,6 +42803,7 @@ export let BUpc = {
   $_icon: {
     name: "Upc",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["upc"],
   },
@@ -40952,6 +42824,7 @@ export let BUpload = {
   $_icon: {
     name: "Upload",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["upload"],
   },
@@ -40976,6 +42849,7 @@ export let BUsbCFill = {
   $_icon: {
     name: "UsbCFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["usb","c","fill"],
   },
@@ -40996,6 +42870,7 @@ export let BUsbC = {
   $_icon: {
     name: "UsbC",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["usb","c"],
   },
@@ -41020,6 +42895,7 @@ export let BUsbDriveFill = {
   $_icon: {
     name: "UsbDriveFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["usb","drive","fill"],
   },
@@ -41040,6 +42916,7 @@ export let BUsbDrive = {
   $_icon: {
     name: "UsbDrive",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["usb","drive"],
   },
@@ -41060,6 +42937,7 @@ export let BUsbFill = {
   $_icon: {
     name: "UsbFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["usb","fill"],
   },
@@ -41080,6 +42958,7 @@ export let BUsbMicroFill = {
   $_icon: {
     name: "UsbMicroFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["usb","micro","fill"],
   },
@@ -41100,6 +42979,7 @@ export let BUsbMicro = {
   $_icon: {
     name: "UsbMicro",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["usb","micro"],
   },
@@ -41124,6 +43004,7 @@ export let BUsbMiniFill = {
   $_icon: {
     name: "UsbMiniFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["usb","mini","fill"],
   },
@@ -41144,6 +43025,7 @@ export let BUsbMini = {
   $_icon: {
     name: "UsbMini",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["usb","mini"],
   },
@@ -41168,6 +43050,7 @@ export let BUsbPlugFill = {
   $_icon: {
     name: "UsbPlugFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["usb","plug","fill"],
   },
@@ -41188,6 +43071,7 @@ export let BUsbPlug = {
   $_icon: {
     name: "UsbPlug",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["usb","plug"],
   },
@@ -41208,6 +43092,7 @@ export let BUsbSymbol = {
   $_icon: {
     name: "UsbSymbol",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["usb","symbol"],
   },
@@ -41228,6 +43113,7 @@ export let BUsb = {
   $_icon: {
     name: "Usb",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["usb"],
   },
@@ -41252,6 +43138,7 @@ export let BValentine = {
   $_icon: {
     name: "Valentine",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["valentine"],
   },
@@ -41276,6 +43163,7 @@ export let BValentine2 = {
   $_icon: {
     name: "Valentine2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["valentine2"],
   },
@@ -41300,6 +43188,7 @@ export let BVectorPen = {
   $_icon: {
     name: "VectorPen",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["vector","pen"],
   },
@@ -41324,6 +43213,7 @@ export let BViewList = {
   $_icon: {
     name: "ViewList",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["view","list"],
   },
@@ -41344,6 +43234,7 @@ export let BViewStacked = {
   $_icon: {
     name: "ViewStacked",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["view","stacked"],
   },
@@ -41364,6 +43255,7 @@ export let BVimeo = {
   $_icon: {
     name: "Vimeo",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["vimeo"],
   },
@@ -41384,6 +43276,7 @@ export let BVinylFill = {
   $_icon: {
     name: "VinylFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["vinyl","fill"],
   },
@@ -41408,6 +43301,7 @@ export let BVinyl = {
   $_icon: {
     name: "Vinyl",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["vinyl"],
   },
@@ -41436,6 +43330,7 @@ export let BVirus = {
   $_icon: {
     name: "Virus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["virus"],
   },
@@ -41456,6 +43351,7 @@ export let BVirus2 = {
   $_icon: {
     name: "Virus2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["virus2"],
   },
@@ -41476,6 +43372,7 @@ export let BVoicemail = {
   $_icon: {
     name: "Voicemail",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["voicemail"],
   },
@@ -41496,6 +43393,7 @@ export let BVolumeDownFill = {
   $_icon: {
     name: "VolumeDownFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["volume","down","fill"],
   },
@@ -41516,6 +43414,7 @@ export let BVolumeDown = {
   $_icon: {
     name: "VolumeDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["volume","down"],
   },
@@ -41536,6 +43435,7 @@ export let BVolumeMuteFill = {
   $_icon: {
     name: "VolumeMuteFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["volume","mute","fill"],
   },
@@ -41556,6 +43456,7 @@ export let BVolumeMute = {
   $_icon: {
     name: "VolumeMute",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["volume","mute"],
   },
@@ -41576,6 +43477,7 @@ export let BVolumeOffFill = {
   $_icon: {
     name: "VolumeOffFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["volume","off","fill"],
   },
@@ -41596,6 +43498,7 @@ export let BVolumeOff = {
   $_icon: {
     name: "VolumeOff",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["volume","off"],
   },
@@ -41616,6 +43519,7 @@ export let BVolumeUpFill = {
   $_icon: {
     name: "VolumeUpFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["volume","up","fill"],
   },
@@ -41644,6 +43548,7 @@ export let BVolumeUp = {
   $_icon: {
     name: "VolumeUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["volume","up"],
   },
@@ -41672,6 +43577,7 @@ export let BVr = {
   $_icon: {
     name: "Vr",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["vr"],
   },
@@ -41692,6 +43598,7 @@ export let BWalletFill = {
   $_icon: {
     name: "WalletFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["wallet","fill"],
   },
@@ -41716,6 +43623,7 @@ export let BWallet = {
   $_icon: {
     name: "Wallet",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["wallet"],
   },
@@ -41736,6 +43644,7 @@ export let BWallet2 = {
   $_icon: {
     name: "Wallet2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["wallet2"],
   },
@@ -41756,6 +43665,7 @@ export let BWatch = {
   $_icon: {
     name: "Watch",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["watch"],
   },
@@ -41780,6 +43690,7 @@ export let BWater = {
   $_icon: {
     name: "Water",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["water"],
   },
@@ -41800,6 +43711,7 @@ export let BWebcamFill = {
   $_icon: {
     name: "WebcamFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["webcam","fill"],
   },
@@ -41824,6 +43736,7 @@ export let BWebcam = {
   $_icon: {
     name: "Webcam",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["webcam"],
   },
@@ -41848,6 +43761,7 @@ export let BWechat = {
   $_icon: {
     name: "Wechat",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["wechat"],
   },
@@ -41872,6 +43786,7 @@ export let BWhatsapp = {
   $_icon: {
     name: "Whatsapp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["whatsapp"],
   },
@@ -41892,6 +43807,7 @@ export let BWifi1 = {
   $_icon: {
     name: "Wifi1",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["wifi","1"],
   },
@@ -41912,6 +43828,7 @@ export let BWifi2 = {
   $_icon: {
     name: "Wifi2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["wifi","2"],
   },
@@ -41932,6 +43849,7 @@ export let BWifiOff = {
   $_icon: {
     name: "WifiOff",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["wifi","off"],
   },
@@ -41952,6 +43870,7 @@ export let BWifi = {
   $_icon: {
     name: "Wifi",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["wifi"],
   },
@@ -41976,6 +43895,7 @@ export let BWikipedia = {
   $_icon: {
     name: "Wikipedia",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["wikipedia"],
   },
@@ -41996,6 +43916,7 @@ export let BWind = {
   $_icon: {
     name: "Wind",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["wind"],
   },
@@ -42016,6 +43937,7 @@ export let BWindowDash = {
   $_icon: {
     name: "WindowDash",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["window","dash"],
   },
@@ -42044,6 +43966,7 @@ export let BWindowDesktop = {
   $_icon: {
     name: "WindowDesktop",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["window","desktop"],
   },
@@ -42068,6 +43991,7 @@ export let BWindowDock = {
   $_icon: {
     name: "WindowDock",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["window","dock"],
   },
@@ -42092,6 +44016,7 @@ export let BWindowFullscreen = {
   $_icon: {
     name: "WindowFullscreen",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["window","fullscreen"],
   },
@@ -42116,6 +44041,7 @@ export let BWindowPlus = {
   $_icon: {
     name: "WindowPlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["window","plus"],
   },
@@ -42144,6 +44070,7 @@ export let BWindowSidebar = {
   $_icon: {
     name: "WindowSidebar",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["window","sidebar"],
   },
@@ -42168,6 +44095,7 @@ export let BWindowSplit = {
   $_icon: {
     name: "WindowSplit",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["window","split"],
   },
@@ -42192,6 +44120,7 @@ export let BWindowStack = {
   $_icon: {
     name: "WindowStack",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["window","stack"],
   },
@@ -42216,6 +44145,7 @@ export let BWindowX = {
   $_icon: {
     name: "WindowX",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["window","x"],
   },
@@ -42244,6 +44174,7 @@ export let BWindow = {
   $_icon: {
     name: "Window",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["window"],
   },
@@ -42268,6 +44199,7 @@ export let BWindows = {
   $_icon: {
     name: "Windows",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["windows"],
   },
@@ -42288,6 +44220,7 @@ export let BWordpress = {
   $_icon: {
     name: "Wordpress",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["wordpress"],
   },
@@ -42316,6 +44249,7 @@ export let BWrenchAdjustableCircleFill = {
   $_icon: {
     name: "WrenchAdjustableCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["wrench","adjustable","circle","fill"],
   },
@@ -42340,6 +44274,7 @@ export let BWrenchAdjustableCircle = {
   $_icon: {
     name: "WrenchAdjustableCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["wrench","adjustable","circle"],
   },
@@ -42364,6 +44299,7 @@ export let BWrenchAdjustable = {
   $_icon: {
     name: "WrenchAdjustable",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["wrench","adjustable"],
   },
@@ -42388,6 +44324,7 @@ export let BWrench = {
   $_icon: {
     name: "Wrench",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["wrench"],
   },
@@ -42408,6 +44345,7 @@ export let BXCircleFill = {
   $_icon: {
     name: "XCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["x","circle","fill"],
   },
@@ -42428,6 +44366,7 @@ export let BXCircle = {
   $_icon: {
     name: "XCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["x","circle"],
   },
@@ -42452,6 +44391,7 @@ export let BXDiamondFill = {
   $_icon: {
     name: "XDiamondFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["x","diamond","fill"],
   },
@@ -42472,6 +44412,7 @@ export let BXDiamond = {
   $_icon: {
     name: "XDiamond",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["x","diamond"],
   },
@@ -42492,6 +44433,7 @@ export let BXLg = {
   $_icon: {
     name: "XLg",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["x","lg"],
   },
@@ -42512,6 +44454,7 @@ export let BXOctagonFill = {
   $_icon: {
     name: "XOctagonFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["x","octagon","fill"],
   },
@@ -42532,6 +44475,7 @@ export let BXOctagon = {
   $_icon: {
     name: "XOctagon",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["x","octagon"],
   },
@@ -42556,6 +44500,7 @@ export let BXSquareFill = {
   $_icon: {
     name: "XSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["x","square","fill"],
   },
@@ -42576,6 +44521,7 @@ export let BXSquare = {
   $_icon: {
     name: "XSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["x","square"],
   },
@@ -42600,6 +44546,7 @@ export let BX = {
   $_icon: {
     name: "X",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["x"],
   },
@@ -42620,6 +44567,7 @@ export let BXbox = {
   $_icon: {
     name: "Xbox",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["xbox"],
   },
@@ -42640,6 +44588,7 @@ export let BYelp = {
   $_icon: {
     name: "Yelp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["yelp"],
   },
@@ -42660,6 +44609,7 @@ export let BYinYang = {
   $_icon: {
     name: "YinYang",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["yin","yang"],
   },
@@ -42684,6 +44634,7 @@ export let BYoutube = {
   $_icon: {
     name: "Youtube",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["youtube"],
   },
@@ -42704,6 +44655,7 @@ export let BZoomIn = {
   $_icon: {
     name: "ZoomIn",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["zoom","in"],
   },
@@ -42732,6 +44684,7 @@ export let BZoomOut = {
   $_icon: {
     name: "ZoomOut",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["zoom","out"],
   },

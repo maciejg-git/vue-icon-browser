@@ -4,7 +4,8 @@ export let HAcademicCap20Solid = {
   $_icon: {
     name: "AcademicCap",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["academic","cap"],
   },
   render() {
@@ -24,7 +25,8 @@ export let HAdjustmentsHorizontal20Solid = {
   $_icon: {
     name: "AdjustmentsHorizontal",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["adjustments","horizontal"],
   },
   render() {
@@ -44,7 +46,8 @@ export let HAdjustmentsVertical20Solid = {
   $_icon: {
     name: "AdjustmentsVertical",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["adjustments","vertical"],
   },
   render() {
@@ -64,7 +67,8 @@ export let HArchiveBoxArrowDown20Solid = {
   $_icon: {
     name: "ArchiveBoxArrowDown",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["archive","box","arrow","down"],
   },
   render() {
@@ -84,7 +88,8 @@ export let HArchiveBoxXMark20Solid = {
   $_icon: {
     name: "ArchiveBoxXMark",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["archive","box","x","mark"],
   },
   render() {
@@ -108,7 +113,8 @@ export let HArchiveBox20Solid = {
   $_icon: {
     name: "ArchiveBox",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["archive","box"],
   },
   render() {
@@ -132,7 +138,8 @@ export let HArrowDownCircle20Solid = {
   $_icon: {
     name: "ArrowDownCircle",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","down","circle"],
   },
   render() {
@@ -152,7 +159,8 @@ export let HArrowDownLeft20Solid = {
   $_icon: {
     name: "ArrowDownLeft",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","down","left"],
   },
   render() {
@@ -172,7 +180,8 @@ export let HArrowDownOnSquareStack20Solid = {
   $_icon: {
     name: "ArrowDownOnSquareStack",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","down","on","square","stack"],
   },
   render() {
@@ -192,7 +201,8 @@ export let HArrowDownOnSquare20Solid = {
   $_icon: {
     name: "ArrowDownOnSquare",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","down","on","square"],
   },
   render() {
@@ -212,7 +222,8 @@ export let HArrowDownRight20Solid = {
   $_icon: {
     name: "ArrowDownRight",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","down","right"],
   },
   render() {
@@ -232,7 +243,8 @@ export let HArrowDownTray20Solid = {
   $_icon: {
     name: "ArrowDownTray",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","down","tray"],
   },
   render() {
@@ -256,7 +268,8 @@ export let HArrowDown20Solid = {
   $_icon: {
     name: "ArrowDown",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","down"],
   },
   render() {
@@ -276,7 +289,8 @@ export let HArrowLeftCircle20Solid = {
   $_icon: {
     name: "ArrowLeftCircle",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","left","circle"],
   },
   render() {
@@ -300,7 +314,8 @@ export let HArrowLeftOnRectangle20Solid = {
   $_icon: {
     name: "ArrowLeftOnRectangle",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","left","on","rectangle"],
   },
   render() {
@@ -324,7 +339,8 @@ export let HArrowLeft20Solid = {
   $_icon: {
     name: "ArrowLeft",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","left"],
   },
   render() {
@@ -344,7 +360,8 @@ export let HArrowLongDown20Solid = {
   $_icon: {
     name: "ArrowLongDown",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","long","down"],
   },
   render() {
@@ -364,7 +381,8 @@ export let HArrowLongLeft20Solid = {
   $_icon: {
     name: "ArrowLongLeft",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","long","left"],
   },
   render() {
@@ -384,7 +402,8 @@ export let HArrowLongRight20Solid = {
   $_icon: {
     name: "ArrowLongRight",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","long","right"],
   },
   render() {
@@ -404,7 +423,8 @@ export let HArrowLongUp20Solid = {
   $_icon: {
     name: "ArrowLongUp",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","long","up"],
   },
   render() {
@@ -424,7 +444,8 @@ export let HArrowPathRoundedSquare20Solid = {
   $_icon: {
     name: "ArrowPathRoundedSquare",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","path","rounded","square"],
   },
   render() {
@@ -444,7 +465,8 @@ export let HArrowPath20Solid = {
   $_icon: {
     name: "ArrowPath",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","path"],
   },
   render() {
@@ -464,7 +486,8 @@ export let HArrowRightCircle20Solid = {
   $_icon: {
     name: "ArrowRightCircle",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","right","circle"],
   },
   render() {
@@ -484,7 +507,8 @@ export let HArrowRightOnRectangle20Solid = {
   $_icon: {
     name: "ArrowRightOnRectangle",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","right","on","rectangle"],
   },
   render() {
@@ -508,7 +532,8 @@ export let HArrowRight20Solid = {
   $_icon: {
     name: "ArrowRight",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","right"],
   },
   render() {
@@ -528,7 +553,8 @@ export let HArrowSmallDown20Solid = {
   $_icon: {
     name: "ArrowSmallDown",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","small","down"],
   },
   render() {
@@ -548,7 +574,8 @@ export let HArrowSmallLeft20Solid = {
   $_icon: {
     name: "ArrowSmallLeft",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","small","left"],
   },
   render() {
@@ -568,7 +595,8 @@ export let HArrowSmallRight20Solid = {
   $_icon: {
     name: "ArrowSmallRight",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","small","right"],
   },
   render() {
@@ -588,7 +616,8 @@ export let HArrowSmallUp20Solid = {
   $_icon: {
     name: "ArrowSmallUp",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","small","up"],
   },
   render() {
@@ -608,7 +637,8 @@ export let HArrowTopRightOnSquare20Solid = {
   $_icon: {
     name: "ArrowTopRightOnSquare",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","top","right","on","square"],
   },
   render() {
@@ -632,7 +662,8 @@ export let HArrowTrendingDown20Solid = {
   $_icon: {
     name: "ArrowTrendingDown",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","trending","down"],
   },
   render() {
@@ -652,7 +683,8 @@ export let HArrowTrendingUp20Solid = {
   $_icon: {
     name: "ArrowTrendingUp",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","trending","up"],
   },
   render() {
@@ -672,7 +704,8 @@ export let HArrowUpCircle20Solid = {
   $_icon: {
     name: "ArrowUpCircle",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","up","circle"],
   },
   render() {
@@ -692,7 +725,8 @@ export let HArrowUpLeft20Solid = {
   $_icon: {
     name: "ArrowUpLeft",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","up","left"],
   },
   render() {
@@ -712,7 +746,8 @@ export let HArrowUpOnSquareStack20Solid = {
   $_icon: {
     name: "ArrowUpOnSquareStack",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","up","on","square","stack"],
   },
   render() {
@@ -732,7 +767,8 @@ export let HArrowUpOnSquare20Solid = {
   $_icon: {
     name: "ArrowUpOnSquare",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","up","on","square"],
   },
   render() {
@@ -752,7 +788,8 @@ export let HArrowUpRight20Solid = {
   $_icon: {
     name: "ArrowUpRight",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","up","right"],
   },
   render() {
@@ -772,7 +809,8 @@ export let HArrowUpTray20Solid = {
   $_icon: {
     name: "ArrowUpTray",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","up","tray"],
   },
   render() {
@@ -796,7 +834,8 @@ export let HArrowUp20Solid = {
   $_icon: {
     name: "ArrowUp",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","up"],
   },
   render() {
@@ -816,7 +855,8 @@ export let HArrowUturnDown20Solid = {
   $_icon: {
     name: "ArrowUturnDown",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","uturn","down"],
   },
   render() {
@@ -836,7 +876,8 @@ export let HArrowUturnLeft20Solid = {
   $_icon: {
     name: "ArrowUturnLeft",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","uturn","left"],
   },
   render() {
@@ -856,7 +897,8 @@ export let HArrowUturnRight20Solid = {
   $_icon: {
     name: "ArrowUturnRight",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","uturn","right"],
   },
   render() {
@@ -876,7 +918,8 @@ export let HArrowUturnUp20Solid = {
   $_icon: {
     name: "ArrowUturnUp",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrow","uturn","up"],
   },
   render() {
@@ -896,7 +939,8 @@ export let HArrowsPointingIn20Solid = {
   $_icon: {
     name: "ArrowsPointingIn",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrows","pointing","in"],
   },
   render() {
@@ -916,7 +960,8 @@ export let HArrowsPointingOut20Solid = {
   $_icon: {
     name: "ArrowsPointingOut",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrows","pointing","out"],
   },
   render() {
@@ -936,7 +981,8 @@ export let HArrowsRightLeft20Solid = {
   $_icon: {
     name: "ArrowsRightLeft",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrows","right","left"],
   },
   render() {
@@ -956,7 +1002,8 @@ export let HArrowsUpDown20Solid = {
   $_icon: {
     name: "ArrowsUpDown",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["arrows","up","down"],
   },
   render() {
@@ -976,7 +1023,8 @@ export let HAtSymbol20Solid = {
   $_icon: {
     name: "AtSymbol",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["at","symbol"],
   },
   render() {
@@ -996,7 +1044,8 @@ export let HBackspace20Solid = {
   $_icon: {
     name: "Backspace",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["backspace"],
   },
   render() {
@@ -1016,7 +1065,8 @@ export let HBackward20Solid = {
   $_icon: {
     name: "Backward",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["backward"],
   },
   render() {
@@ -1036,7 +1086,8 @@ export let HBanknotes20Solid = {
   $_icon: {
     name: "Banknotes",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["banknotes"],
   },
   render() {
@@ -1056,7 +1107,8 @@ export let HBars220Solid = {
   $_icon: {
     name: "Bars2",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["bars","2"],
   },
   render() {
@@ -1076,7 +1128,8 @@ export let HBars3BottomLeft20Solid = {
   $_icon: {
     name: "Bars3BottomLeft",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["bars","3","bottom","left"],
   },
   render() {
@@ -1096,7 +1149,8 @@ export let HBars3BottomRight20Solid = {
   $_icon: {
     name: "Bars3BottomRight",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["bars","3","bottom","right"],
   },
   render() {
@@ -1116,7 +1170,8 @@ export let HBars3CenterLeft20Solid = {
   $_icon: {
     name: "Bars3CenterLeft",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["bars","3","center","left"],
   },
   render() {
@@ -1136,7 +1191,8 @@ export let HBars320Solid = {
   $_icon: {
     name: "Bars3",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["bars","3"],
   },
   render() {
@@ -1156,7 +1212,8 @@ export let HBars420Solid = {
   $_icon: {
     name: "Bars4",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["bars","4"],
   },
   render() {
@@ -1176,7 +1233,8 @@ export let HBarsArrowDown20Solid = {
   $_icon: {
     name: "BarsArrowDown",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["bars","arrow","down"],
   },
   render() {
@@ -1196,7 +1254,8 @@ export let HBarsArrowUp20Solid = {
   $_icon: {
     name: "BarsArrowUp",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["bars","arrow","up"],
   },
   render() {
@@ -1216,7 +1275,8 @@ export let HBattery020Solid = {
   $_icon: {
     name: "Battery0",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["battery","0"],
   },
   render() {
@@ -1236,7 +1296,8 @@ export let HBattery10020Solid = {
   $_icon: {
     name: "Battery100",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["battery","100"],
   },
   render() {
@@ -1260,7 +1321,8 @@ export let HBattery5020Solid = {
   $_icon: {
     name: "Battery50",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["battery","50"],
   },
   render() {
@@ -1284,7 +1346,8 @@ export let HBeaker20Solid = {
   $_icon: {
     name: "Beaker",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["beaker"],
   },
   render() {
@@ -1304,7 +1367,8 @@ export let HBellAlert20Solid = {
   $_icon: {
     name: "BellAlert",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["bell","alert"],
   },
   render() {
@@ -1328,7 +1392,8 @@ export let HBellSlash20Solid = {
   $_icon: {
     name: "BellSlash",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["bell","slash"],
   },
   render() {
@@ -1348,7 +1413,8 @@ export let HBellSnooze20Solid = {
   $_icon: {
     name: "BellSnooze",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["bell","snooze"],
   },
   render() {
@@ -1368,7 +1434,8 @@ export let HBell20Solid = {
   $_icon: {
     name: "Bell",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["bell"],
   },
   render() {
@@ -1388,7 +1455,8 @@ export let HBoltSlash20Solid = {
   $_icon: {
     name: "BoltSlash",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["bolt","slash"],
   },
   render() {
@@ -1412,7 +1480,8 @@ export let HBolt20Solid = {
   $_icon: {
     name: "Bolt",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["bolt"],
   },
   render() {
@@ -1432,7 +1501,8 @@ export let HBookOpen20Solid = {
   $_icon: {
     name: "BookOpen",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["book","open"],
   },
   render() {
@@ -1452,7 +1522,8 @@ export let HBookmarkSlash20Solid = {
   $_icon: {
     name: "BookmarkSlash",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["bookmark","slash"],
   },
   render() {
@@ -1472,7 +1543,8 @@ export let HBookmarkSquare20Solid = {
   $_icon: {
     name: "BookmarkSquare",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["bookmark","square"],
   },
   render() {
@@ -1492,7 +1564,8 @@ export let HBookmark20Solid = {
   $_icon: {
     name: "Bookmark",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["bookmark"],
   },
   render() {
@@ -1512,7 +1585,8 @@ export let HBriefcase20Solid = {
   $_icon: {
     name: "Briefcase",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["briefcase"],
   },
   render() {
@@ -1536,7 +1610,8 @@ export let HBugAnt20Solid = {
   $_icon: {
     name: "BugAnt",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["bug","ant"],
   },
   render() {
@@ -1556,7 +1631,8 @@ export let HBuildingLibrary20Solid = {
   $_icon: {
     name: "BuildingLibrary",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["building","library"],
   },
   render() {
@@ -1576,7 +1652,8 @@ export let HBuildingOffice220Solid = {
   $_icon: {
     name: "BuildingOffice2",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["building","office","2"],
   },
   render() {
@@ -1596,7 +1673,8 @@ export let HBuildingOffice20Solid = {
   $_icon: {
     name: "BuildingOffice",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["building","office"],
   },
   render() {
@@ -1616,7 +1694,8 @@ export let HBuildingStorefront20Solid = {
   $_icon: {
     name: "BuildingStorefront",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["building","storefront"],
   },
   render() {
@@ -1636,7 +1715,8 @@ export let HCake20Solid = {
   $_icon: {
     name: "Cake",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["cake"],
   },
   render() {
@@ -1656,7 +1736,8 @@ export let HCalculator20Solid = {
   $_icon: {
     name: "Calculator",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["calculator"],
   },
   render() {
@@ -1676,7 +1757,8 @@ export let HCalendarDays20Solid = {
   $_icon: {
     name: "CalendarDays",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["calendar","days"],
   },
   render() {
@@ -1700,7 +1782,8 @@ export let HCalendar20Solid = {
   $_icon: {
     name: "Calendar",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["calendar"],
   },
   render() {
@@ -1720,7 +1803,8 @@ export let HCamera20Solid = {
   $_icon: {
     name: "Camera",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["camera"],
   },
   render() {
@@ -1740,7 +1824,8 @@ export let HChartBarSquare20Solid = {
   $_icon: {
     name: "ChartBarSquare",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["chart","bar","square"],
   },
   render() {
@@ -1760,7 +1845,8 @@ export let HChartBar20Solid = {
   $_icon: {
     name: "ChartBar",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["chart","bar"],
   },
   render() {
@@ -1780,7 +1866,8 @@ export let HChartPie20Solid = {
   $_icon: {
     name: "ChartPie",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["chart","pie"],
   },
   render() {
@@ -1804,7 +1891,8 @@ export let HChatBubbleBottomCenterText20Solid = {
   $_icon: {
     name: "ChatBubbleBottomCenterText",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["chat","bubble","bottom","center","text"],
   },
   render() {
@@ -1824,7 +1912,8 @@ export let HChatBubbleBottomCenter20Solid = {
   $_icon: {
     name: "ChatBubbleBottomCenter",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["chat","bubble","bottom","center"],
   },
   render() {
@@ -1844,7 +1933,8 @@ export let HChatBubbleLeftEllipsis20Solid = {
   $_icon: {
     name: "ChatBubbleLeftEllipsis",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["chat","bubble","left","ellipsis"],
   },
   render() {
@@ -1864,7 +1954,8 @@ export let HChatBubbleLeftRight20Solid = {
   $_icon: {
     name: "ChatBubbleLeftRight",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["chat","bubble","left","right"],
   },
   render() {
@@ -1888,7 +1979,8 @@ export let HChatBubbleLeft20Solid = {
   $_icon: {
     name: "ChatBubbleLeft",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["chat","bubble","left"],
   },
   render() {
@@ -1908,7 +2000,8 @@ export let HChatBubbleOvalLeftEllipsis20Solid = {
   $_icon: {
     name: "ChatBubbleOvalLeftEllipsis",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["chat","bubble","oval","left","ellipsis"],
   },
   render() {
@@ -1928,7 +2021,8 @@ export let HChatBubbleOvalLeft20Solid = {
   $_icon: {
     name: "ChatBubbleOvalLeft",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["chat","bubble","oval","left"],
   },
   render() {
@@ -1948,7 +2042,8 @@ export let HCheckBadge20Solid = {
   $_icon: {
     name: "CheckBadge",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["check","badge"],
   },
   render() {
@@ -1968,7 +2063,8 @@ export let HCheckCircle20Solid = {
   $_icon: {
     name: "CheckCircle",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["check","circle"],
   },
   render() {
@@ -1988,7 +2084,8 @@ export let HCheck20Solid = {
   $_icon: {
     name: "Check",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["check"],
   },
   render() {
@@ -2008,7 +2105,8 @@ export let HChevronDoubleDown20Solid = {
   $_icon: {
     name: "ChevronDoubleDown",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["chevron","double","down"],
   },
   render() {
@@ -2028,7 +2126,8 @@ export let HChevronDoubleLeft20Solid = {
   $_icon: {
     name: "ChevronDoubleLeft",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["chevron","double","left"],
   },
   render() {
@@ -2048,7 +2147,8 @@ export let HChevronDoubleRight20Solid = {
   $_icon: {
     name: "ChevronDoubleRight",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["chevron","double","right"],
   },
   render() {
@@ -2072,7 +2172,8 @@ export let HChevronDoubleUp20Solid = {
   $_icon: {
     name: "ChevronDoubleUp",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["chevron","double","up"],
   },
   render() {
@@ -2092,7 +2193,8 @@ export let HChevronDown20Solid = {
   $_icon: {
     name: "ChevronDown",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["chevron","down"],
   },
   render() {
@@ -2112,7 +2214,8 @@ export let HChevronLeft20Solid = {
   $_icon: {
     name: "ChevronLeft",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["chevron","left"],
   },
   render() {
@@ -2132,7 +2235,8 @@ export let HChevronRight20Solid = {
   $_icon: {
     name: "ChevronRight",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["chevron","right"],
   },
   render() {
@@ -2152,7 +2256,8 @@ export let HChevronUpDown20Solid = {
   $_icon: {
     name: "ChevronUpDown",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["chevron","up","down"],
   },
   render() {
@@ -2172,7 +2277,8 @@ export let HChevronUp20Solid = {
   $_icon: {
     name: "ChevronUp",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["chevron","up"],
   },
   render() {
@@ -2192,7 +2298,8 @@ export let HCircleStack20Solid = {
   $_icon: {
     name: "CircleStack",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["circle","stack"],
   },
   render() {
@@ -2212,7 +2319,8 @@ export let HClipboardDocumentCheck20Solid = {
   $_icon: {
     name: "ClipboardDocumentCheck",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["clipboard","document","check"],
   },
   render() {
@@ -2236,7 +2344,8 @@ export let HClipboardDocumentList20Solid = {
   $_icon: {
     name: "ClipboardDocumentList",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["clipboard","document","list"],
   },
   render() {
@@ -2260,7 +2369,8 @@ export let HClipboardDocument20Solid = {
   $_icon: {
     name: "ClipboardDocument",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["clipboard","document"],
   },
   render() {
@@ -2284,7 +2394,8 @@ export let HClipboard20Solid = {
   $_icon: {
     name: "Clipboard",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["clipboard"],
   },
   render() {
@@ -2304,7 +2415,8 @@ export let HClock20Solid = {
   $_icon: {
     name: "Clock",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["clock"],
   },
   render() {
@@ -2324,7 +2436,8 @@ export let HCloudArrowDown20Solid = {
   $_icon: {
     name: "CloudArrowDown",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["cloud","arrow","down"],
   },
   render() {
@@ -2344,7 +2457,8 @@ export let HCloudArrowUp20Solid = {
   $_icon: {
     name: "CloudArrowUp",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["cloud","arrow","up"],
   },
   render() {
@@ -2364,7 +2478,8 @@ export let HCloud20Solid = {
   $_icon: {
     name: "Cloud",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["cloud"],
   },
   render() {
@@ -2384,7 +2499,8 @@ export let HCodeBracketSquare20Solid = {
   $_icon: {
     name: "CodeBracketSquare",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["code","bracket","square"],
   },
   render() {
@@ -2404,7 +2520,8 @@ export let HCodeBracket20Solid = {
   $_icon: {
     name: "CodeBracket",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["code","bracket"],
   },
   render() {
@@ -2424,7 +2541,8 @@ export let HCog6Tooth20Solid = {
   $_icon: {
     name: "Cog6Tooth",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["cog","6","tooth"],
   },
   render() {
@@ -2444,7 +2562,8 @@ export let HCog8Tooth20Solid = {
   $_icon: {
     name: "Cog8Tooth",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["cog","8","tooth"],
   },
   render() {
@@ -2464,7 +2583,8 @@ export let HCog20Solid = {
   $_icon: {
     name: "Cog",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["cog"],
   },
   render() {
@@ -2488,7 +2608,8 @@ export let HCommandLine20Solid = {
   $_icon: {
     name: "CommandLine",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["command","line"],
   },
   render() {
@@ -2508,7 +2629,8 @@ export let HComputerDesktop20Solid = {
   $_icon: {
     name: "ComputerDesktop",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["computer","desktop"],
   },
   render() {
@@ -2528,7 +2650,8 @@ export let HCpuChip20Solid = {
   $_icon: {
     name: "CpuChip",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["cpu","chip"],
   },
   render() {
@@ -2552,7 +2675,8 @@ export let HCreditCard20Solid = {
   $_icon: {
     name: "CreditCard",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["credit","card"],
   },
   render() {
@@ -2572,7 +2696,8 @@ export let HCubeTransparent20Solid = {
   $_icon: {
     name: "CubeTransparent",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["cube","transparent"],
   },
   render() {
@@ -2592,7 +2717,8 @@ export let HCube20Solid = {
   $_icon: {
     name: "Cube",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["cube"],
   },
   render() {
@@ -2612,7 +2738,8 @@ export let HCurrencyBangladeshi20Solid = {
   $_icon: {
     name: "CurrencyBangladeshi",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["currency","bangladeshi"],
   },
   render() {
@@ -2632,7 +2759,8 @@ export let HCurrencyDollar20Solid = {
   $_icon: {
     name: "CurrencyDollar",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["currency","dollar"],
   },
   render() {
@@ -2656,7 +2784,8 @@ export let HCurrencyEuro20Solid = {
   $_icon: {
     name: "CurrencyEuro",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["currency","euro"],
   },
   render() {
@@ -2676,7 +2805,8 @@ export let HCurrencyPound20Solid = {
   $_icon: {
     name: "CurrencyPound",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["currency","pound"],
   },
   render() {
@@ -2696,7 +2826,8 @@ export let HCurrencyRupee20Solid = {
   $_icon: {
     name: "CurrencyRupee",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["currency","rupee"],
   },
   render() {
@@ -2716,7 +2847,8 @@ export let HCurrencyYen20Solid = {
   $_icon: {
     name: "CurrencyYen",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["currency","yen"],
   },
   render() {
@@ -2736,7 +2868,8 @@ export let HCursorArrowRays20Solid = {
   $_icon: {
     name: "CursorArrowRays",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["cursor","arrow","rays"],
   },
   render() {
@@ -2756,7 +2889,8 @@ export let HCursorArrowRipple20Solid = {
   $_icon: {
     name: "CursorArrowRipple",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["cursor","arrow","ripple"],
   },
   render() {
@@ -2776,7 +2910,8 @@ export let HDevicePhoneMobile20Solid = {
   $_icon: {
     name: "DevicePhoneMobile",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["device","phone","mobile"],
   },
   render() {
@@ -2800,7 +2935,8 @@ export let HDeviceTablet20Solid = {
   $_icon: {
     name: "DeviceTablet",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["device","tablet"],
   },
   render() {
@@ -2820,7 +2956,8 @@ export let HDocumentArrowDown20Solid = {
   $_icon: {
     name: "DocumentArrowDown",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["document","arrow","down"],
   },
   render() {
@@ -2840,7 +2977,8 @@ export let HDocumentArrowUp20Solid = {
   $_icon: {
     name: "DocumentArrowUp",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["document","arrow","up"],
   },
   render() {
@@ -2860,7 +2998,8 @@ export let HDocumentChartBar20Solid = {
   $_icon: {
     name: "DocumentChartBar",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["document","chart","bar"],
   },
   render() {
@@ -2880,7 +3019,8 @@ export let HDocumentCheck20Solid = {
   $_icon: {
     name: "DocumentCheck",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["document","check"],
   },
   render() {
@@ -2900,7 +3040,8 @@ export let HDocumentDuplicate20Solid = {
   $_icon: {
     name: "DocumentDuplicate",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["document","duplicate"],
   },
   render() {
@@ -2924,7 +3065,8 @@ export let HDocumentMagnifyingGlass20Solid = {
   $_icon: {
     name: "DocumentMagnifyingGlass",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["document","magnifying","glass"],
   },
   render() {
@@ -2948,7 +3090,8 @@ export let HDocumentMinus20Solid = {
   $_icon: {
     name: "DocumentMinus",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["document","minus"],
   },
   render() {
@@ -2968,7 +3111,8 @@ export let HDocumentPlus20Solid = {
   $_icon: {
     name: "DocumentPlus",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["document","plus"],
   },
   render() {
@@ -2988,7 +3132,8 @@ export let HDocumentText20Solid = {
   $_icon: {
     name: "DocumentText",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["document","text"],
   },
   render() {
@@ -3008,7 +3153,8 @@ export let HDocument20Solid = {
   $_icon: {
     name: "Document",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["document"],
   },
   render() {
@@ -3028,7 +3174,8 @@ export let HEllipsisHorizontalCircle20Solid = {
   $_icon: {
     name: "EllipsisHorizontalCircle",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["ellipsis","horizontal","circle"],
   },
   render() {
@@ -3048,7 +3195,8 @@ export let HEllipsisHorizontal20Solid = {
   $_icon: {
     name: "EllipsisHorizontal",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["ellipsis","horizontal"],
   },
   render() {
@@ -3068,7 +3216,8 @@ export let HEllipsisVertical20Solid = {
   $_icon: {
     name: "EllipsisVertical",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["ellipsis","vertical"],
   },
   render() {
@@ -3088,7 +3237,8 @@ export let HEnvelopeOpen20Solid = {
   $_icon: {
     name: "EnvelopeOpen",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["envelope","open"],
   },
   render() {
@@ -3108,7 +3258,8 @@ export let HEnvelope20Solid = {
   $_icon: {
     name: "Envelope",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["envelope"],
   },
   render() {
@@ -3132,7 +3283,8 @@ export let HExclamationCircle20Solid = {
   $_icon: {
     name: "ExclamationCircle",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["exclamation","circle"],
   },
   render() {
@@ -3152,7 +3304,8 @@ export let HExclamationTriangle20Solid = {
   $_icon: {
     name: "ExclamationTriangle",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["exclamation","triangle"],
   },
   render() {
@@ -3172,7 +3325,8 @@ export let HEyeDropper20Solid = {
   $_icon: {
     name: "EyeDropper",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["eye","dropper"],
   },
   render() {
@@ -3192,7 +3346,8 @@ export let HEyeSlash20Solid = {
   $_icon: {
     name: "EyeSlash",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["eye","slash"],
   },
   render() {
@@ -3216,7 +3371,8 @@ export let HEye20Solid = {
   $_icon: {
     name: "Eye",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["eye"],
   },
   render() {
@@ -3240,7 +3396,8 @@ export let HFaceFrown20Solid = {
   $_icon: {
     name: "FaceFrown",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["face","frown"],
   },
   render() {
@@ -3260,7 +3417,8 @@ export let HFaceSmile20Solid = {
   $_icon: {
     name: "FaceSmile",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["face","smile"],
   },
   render() {
@@ -3280,7 +3438,8 @@ export let HFilm20Solid = {
   $_icon: {
     name: "Film",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["film"],
   },
   render() {
@@ -3300,7 +3459,8 @@ export let HFingerPrint20Solid = {
   $_icon: {
     name: "FingerPrint",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["finger","print"],
   },
   render() {
@@ -3320,7 +3480,8 @@ export let HFire20Solid = {
   $_icon: {
     name: "Fire",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["fire"],
   },
   render() {
@@ -3340,7 +3501,8 @@ export let HFlag20Solid = {
   $_icon: {
     name: "Flag",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["flag"],
   },
   render() {
@@ -3360,7 +3522,8 @@ export let HFolderArrowDown20Solid = {
   $_icon: {
     name: "FolderArrowDown",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["folder","arrow","down"],
   },
   render() {
@@ -3380,7 +3543,8 @@ export let HFolderMinus20Solid = {
   $_icon: {
     name: "FolderMinus",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["folder","minus"],
   },
   render() {
@@ -3400,7 +3564,8 @@ export let HFolderOpen20Solid = {
   $_icon: {
     name: "FolderOpen",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["folder","open"],
   },
   render() {
@@ -3420,7 +3585,8 @@ export let HFolderPlus20Solid = {
   $_icon: {
     name: "FolderPlus",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["folder","plus"],
   },
   render() {
@@ -3440,7 +3606,8 @@ export let HFolder20Solid = {
   $_icon: {
     name: "Folder",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["folder"],
   },
   render() {
@@ -3460,7 +3627,8 @@ export let HForward20Solid = {
   $_icon: {
     name: "Forward",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["forward"],
   },
   render() {
@@ -3480,7 +3648,8 @@ export let HFunnel20Solid = {
   $_icon: {
     name: "Funnel",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["funnel"],
   },
   render() {
@@ -3500,7 +3669,8 @@ export let HGif20Solid = {
   $_icon: {
     name: "Gif",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["gif"],
   },
   render() {
@@ -3520,7 +3690,8 @@ export let HGiftTop20Solid = {
   $_icon: {
     name: "GiftTop",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["gift","top"],
   },
   render() {
@@ -3540,7 +3711,8 @@ export let HGift20Solid = {
   $_icon: {
     name: "Gift",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["gift"],
   },
   render() {
@@ -3564,7 +3736,8 @@ export let HGlobeAlt20Solid = {
   $_icon: {
     name: "GlobeAlt",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["globe","alt"],
   },
   render() {
@@ -3584,7 +3757,8 @@ export let HGlobeAmericas20Solid = {
   $_icon: {
     name: "GlobeAmericas",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["globe","americas"],
   },
   render() {
@@ -3604,7 +3778,8 @@ export let HGlobeAsiaAustralia20Solid = {
   $_icon: {
     name: "GlobeAsiaAustralia",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["globe","asia","australia"],
   },
   render() {
@@ -3624,7 +3799,8 @@ export let HGlobeEuropeAfrica20Solid = {
   $_icon: {
     name: "GlobeEuropeAfrica",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["globe","europe","africa"],
   },
   render() {
@@ -3644,7 +3820,8 @@ export let HHandRaised20Solid = {
   $_icon: {
     name: "HandRaised",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["hand","raised"],
   },
   render() {
@@ -3664,7 +3841,8 @@ export let HHandThumbDown20Solid = {
   $_icon: {
     name: "HandThumbDown",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["hand","thumb","down"],
   },
   render() {
@@ -3684,7 +3862,8 @@ export let HHandThumbUp20Solid = {
   $_icon: {
     name: "HandThumbUp",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["hand","thumb","up"],
   },
   render() {
@@ -3704,7 +3883,8 @@ export let HHashtag20Solid = {
   $_icon: {
     name: "Hashtag",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["hashtag"],
   },
   render() {
@@ -3724,7 +3904,8 @@ export let HHeart20Solid = {
   $_icon: {
     name: "Heart",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["heart"],
   },
   render() {
@@ -3744,7 +3925,8 @@ export let HHomeModern20Solid = {
   $_icon: {
     name: "HomeModern",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["home","modern"],
   },
   render() {
@@ -3764,7 +3946,8 @@ export let HHome20Solid = {
   $_icon: {
     name: "Home",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["home"],
   },
   render() {
@@ -3784,7 +3967,8 @@ export let HIdentification20Solid = {
   $_icon: {
     name: "Identification",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["identification"],
   },
   render() {
@@ -3804,7 +3988,8 @@ export let HInboxArrowDown20Solid = {
   $_icon: {
     name: "InboxArrowDown",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["inbox","arrow","down"],
   },
   render() {
@@ -3828,7 +4013,8 @@ export let HInboxStack20Solid = {
   $_icon: {
     name: "InboxStack",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["inbox","stack"],
   },
   render() {
@@ -3852,7 +4038,8 @@ export let HInbox20Solid = {
   $_icon: {
     name: "Inbox",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["inbox"],
   },
   render() {
@@ -3872,7 +4059,8 @@ export let HInformationCircle20Solid = {
   $_icon: {
     name: "InformationCircle",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["information","circle"],
   },
   render() {
@@ -3892,7 +4080,8 @@ export let HKey20Solid = {
   $_icon: {
     name: "Key",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["key"],
   },
   render() {
@@ -3912,7 +4101,8 @@ export let HLanguage20Solid = {
   $_icon: {
     name: "Language",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["language"],
   },
   render() {
@@ -3936,7 +4126,8 @@ export let HLifebuoy20Solid = {
   $_icon: {
     name: "Lifebuoy",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["lifebuoy"],
   },
   render() {
@@ -3956,7 +4147,8 @@ export let HLightBulb20Solid = {
   $_icon: {
     name: "LightBulb",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["light","bulb"],
   },
   render() {
@@ -3976,7 +4168,8 @@ export let HLink20Solid = {
   $_icon: {
     name: "Link",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["link"],
   },
   render() {
@@ -4000,7 +4193,8 @@ export let HListBullet20Solid = {
   $_icon: {
     name: "ListBullet",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["list","bullet"],
   },
   render() {
@@ -4020,7 +4214,8 @@ export let HLockClosed20Solid = {
   $_icon: {
     name: "LockClosed",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["lock","closed"],
   },
   render() {
@@ -4040,7 +4235,8 @@ export let HLockOpen20Solid = {
   $_icon: {
     name: "LockOpen",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["lock","open"],
   },
   render() {
@@ -4060,7 +4256,8 @@ export let HMagnifyingGlassCircle20Solid = {
   $_icon: {
     name: "MagnifyingGlassCircle",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["magnifying","glass","circle"],
   },
   render() {
@@ -4084,7 +4281,8 @@ export let HMagnifyingGlassMinus20Solid = {
   $_icon: {
     name: "MagnifyingGlassMinus",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["magnifying","glass","minus"],
   },
   render() {
@@ -4108,7 +4306,8 @@ export let HMagnifyingGlassPlus20Solid = {
   $_icon: {
     name: "MagnifyingGlassPlus",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["magnifying","glass","plus"],
   },
   render() {
@@ -4132,7 +4331,8 @@ export let HMagnifyingGlass20Solid = {
   $_icon: {
     name: "MagnifyingGlass",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["magnifying","glass"],
   },
   render() {
@@ -4152,7 +4352,8 @@ export let HMapPin20Solid = {
   $_icon: {
     name: "MapPin",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["map","pin"],
   },
   render() {
@@ -4172,7 +4373,8 @@ export let HMap20Solid = {
   $_icon: {
     name: "Map",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["map"],
   },
   render() {
@@ -4192,7 +4394,8 @@ export let HMegaphone20Solid = {
   $_icon: {
     name: "Megaphone",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["megaphone"],
   },
   render() {
@@ -4212,7 +4415,8 @@ export let HMicrophone20Solid = {
   $_icon: {
     name: "Microphone",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["microphone"],
   },
   render() {
@@ -4236,7 +4440,8 @@ export let HMinusCircle20Solid = {
   $_icon: {
     name: "MinusCircle",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["minus","circle"],
   },
   render() {
@@ -4256,7 +4461,8 @@ export let HMinusSmall20Solid = {
   $_icon: {
     name: "MinusSmall",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["minus","small"],
   },
   render() {
@@ -4276,7 +4482,8 @@ export let HMinus20Solid = {
   $_icon: {
     name: "Minus",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["minus"],
   },
   render() {
@@ -4296,7 +4503,8 @@ export let HMoon20Solid = {
   $_icon: {
     name: "Moon",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["moon"],
   },
   render() {
@@ -4316,7 +4524,8 @@ export let HMusicalNote20Solid = {
   $_icon: {
     name: "MusicalNote",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["musical","note"],
   },
   render() {
@@ -4336,7 +4545,8 @@ export let HNewspaper20Solid = {
   $_icon: {
     name: "Newspaper",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["newspaper"],
   },
   render() {
@@ -4360,7 +4570,8 @@ export let HNoSymbol20Solid = {
   $_icon: {
     name: "NoSymbol",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["no","symbol"],
   },
   render() {
@@ -4380,7 +4591,8 @@ export let HPaintBrush20Solid = {
   $_icon: {
     name: "PaintBrush",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["paint","brush"],
   },
   render() {
@@ -4400,7 +4612,8 @@ export let HPaperAirplane20Solid = {
   $_icon: {
     name: "PaperAirplane",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["paper","airplane"],
   },
   render() {
@@ -4420,7 +4633,8 @@ export let HPaperClip20Solid = {
   $_icon: {
     name: "PaperClip",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["paper","clip"],
   },
   render() {
@@ -4440,7 +4654,8 @@ export let HPauseCircle20Solid = {
   $_icon: {
     name: "PauseCircle",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["pause","circle"],
   },
   render() {
@@ -4460,7 +4675,8 @@ export let HPause20Solid = {
   $_icon: {
     name: "Pause",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["pause"],
   },
   render() {
@@ -4480,7 +4696,8 @@ export let HPencilSquare20Solid = {
   $_icon: {
     name: "PencilSquare",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["pencil","square"],
   },
   render() {
@@ -4504,7 +4721,8 @@ export let HPencil20Solid = {
   $_icon: {
     name: "Pencil",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["pencil"],
   },
   render() {
@@ -4524,7 +4742,8 @@ export let HPhoneArrowDownLeft20Solid = {
   $_icon: {
     name: "PhoneArrowDownLeft",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["phone","arrow","down","left"],
   },
   render() {
@@ -4544,7 +4763,8 @@ export let HPhoneArrowUpRight20Solid = {
   $_icon: {
     name: "PhoneArrowUpRight",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["phone","arrow","up","right"],
   },
   render() {
@@ -4564,7 +4784,8 @@ export let HPhoneXMark20Solid = {
   $_icon: {
     name: "PhoneXMark",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["phone","x","mark"],
   },
   render() {
@@ -4584,7 +4805,8 @@ export let HPhone20Solid = {
   $_icon: {
     name: "Phone",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["phone"],
   },
   render() {
@@ -4604,7 +4826,8 @@ export let HPhoto20Solid = {
   $_icon: {
     name: "Photo",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["photo"],
   },
   render() {
@@ -4624,7 +4847,8 @@ export let HPlayCircle20Solid = {
   $_icon: {
     name: "PlayCircle",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["play","circle"],
   },
   render() {
@@ -4644,7 +4868,8 @@ export let HPlayPause20Solid = {
   $_icon: {
     name: "PlayPause",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["play","pause"],
   },
   render() {
@@ -4664,7 +4889,8 @@ export let HPlay20Solid = {
   $_icon: {
     name: "Play",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["play"],
   },
   render() {
@@ -4684,7 +4910,8 @@ export let HPlusCircle20Solid = {
   $_icon: {
     name: "PlusCircle",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["plus","circle"],
   },
   render() {
@@ -4704,7 +4931,8 @@ export let HPlusSmall20Solid = {
   $_icon: {
     name: "PlusSmall",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["plus","small"],
   },
   render() {
@@ -4724,7 +4952,8 @@ export let HPlus20Solid = {
   $_icon: {
     name: "Plus",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["plus"],
   },
   render() {
@@ -4744,7 +4973,8 @@ export let HPower20Solid = {
   $_icon: {
     name: "Power",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["power"],
   },
   render() {
@@ -4764,7 +4994,8 @@ export let HPresentationChartBar20Solid = {
   $_icon: {
     name: "PresentationChartBar",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["presentation","chart","bar"],
   },
   render() {
@@ -4784,7 +5015,8 @@ export let HPresentationChartLine20Solid = {
   $_icon: {
     name: "PresentationChartLine",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["presentation","chart","line"],
   },
   render() {
@@ -4804,7 +5036,8 @@ export let HPrinter20Solid = {
   $_icon: {
     name: "Printer",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["printer"],
   },
   render() {
@@ -4824,7 +5057,8 @@ export let HPuzzlePiece20Solid = {
   $_icon: {
     name: "PuzzlePiece",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["puzzle","piece"],
   },
   render() {
@@ -4844,7 +5078,8 @@ export let HQrCode20Solid = {
   $_icon: {
     name: "QrCode",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["qr","code"],
   },
   render() {
@@ -4864,7 +5099,8 @@ export let HQuestionMarkCircle20Solid = {
   $_icon: {
     name: "QuestionMarkCircle",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["question","mark","circle"],
   },
   render() {
@@ -4884,7 +5120,8 @@ export let HQueueList20Solid = {
   $_icon: {
     name: "QueueList",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["queue","list"],
   },
   render() {
@@ -4904,7 +5141,8 @@ export let HRadio20Solid = {
   $_icon: {
     name: "Radio",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["radio"],
   },
   render() {
@@ -4924,7 +5162,8 @@ export let HReceiptPercent20Solid = {
   $_icon: {
     name: "ReceiptPercent",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["receipt","percent"],
   },
   render() {
@@ -4944,7 +5183,8 @@ export let HReceiptRefund20Solid = {
   $_icon: {
     name: "ReceiptRefund",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["receipt","refund"],
   },
   render() {
@@ -4964,7 +5204,8 @@ export let HRectangleGroup20Solid = {
   $_icon: {
     name: "RectangleGroup",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["rectangle","group"],
   },
   render() {
@@ -4984,7 +5225,8 @@ export let HRectangleStack20Solid = {
   $_icon: {
     name: "RectangleStack",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["rectangle","stack"],
   },
   render() {
@@ -5004,7 +5246,8 @@ export let HRocketLaunch20Solid = {
   $_icon: {
     name: "RocketLaunch",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["rocket","launch"],
   },
   render() {
@@ -5028,7 +5271,8 @@ export let HRss20Solid = {
   $_icon: {
     name: "Rss",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["rss"],
   },
   render() {
@@ -5052,7 +5296,8 @@ export let HScale20Solid = {
   $_icon: {
     name: "Scale",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["scale"],
   },
   render() {
@@ -5072,7 +5317,8 @@ export let HScissors20Solid = {
   $_icon: {
     name: "Scissors",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["scissors"],
   },
   render() {
@@ -5096,7 +5342,8 @@ export let HServerStack20Solid = {
   $_icon: {
     name: "ServerStack",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["server","stack"],
   },
   render() {
@@ -5120,7 +5367,8 @@ export let HServer20Solid = {
   $_icon: {
     name: "Server",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["server"],
   },
   render() {
@@ -5144,7 +5392,8 @@ export let HShare20Solid = {
   $_icon: {
     name: "Share",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["share"],
   },
   render() {
@@ -5164,7 +5413,8 @@ export let HShieldCheck20Solid = {
   $_icon: {
     name: "ShieldCheck",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["shield","check"],
   },
   render() {
@@ -5184,7 +5434,8 @@ export let HShieldExclamation20Solid = {
   $_icon: {
     name: "ShieldExclamation",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["shield","exclamation"],
   },
   render() {
@@ -5204,7 +5455,8 @@ export let HShoppingBag20Solid = {
   $_icon: {
     name: "ShoppingBag",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["shopping","bag"],
   },
   render() {
@@ -5224,7 +5476,8 @@ export let HShoppingCart20Solid = {
   $_icon: {
     name: "ShoppingCart",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["shopping","cart"],
   },
   render() {
@@ -5244,7 +5497,8 @@ export let HSignalSlash20Solid = {
   $_icon: {
     name: "SignalSlash",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["signal","slash"],
   },
   render() {
@@ -5264,7 +5518,8 @@ export let HSignal20Solid = {
   $_icon: {
     name: "Signal",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["signal"],
   },
   render() {
@@ -5288,7 +5543,8 @@ export let HSparkles20Solid = {
   $_icon: {
     name: "Sparkles",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["sparkles"],
   },
   render() {
@@ -5308,7 +5564,8 @@ export let HSpeakerWave20Solid = {
   $_icon: {
     name: "SpeakerWave",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["speaker","wave"],
   },
   render() {
@@ -5332,7 +5589,8 @@ export let HSpeakerXMark20Solid = {
   $_icon: {
     name: "SpeakerXMark",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["speaker","x","mark"],
   },
   render() {
@@ -5352,7 +5610,8 @@ export let HSquare2Stack20Solid = {
   $_icon: {
     name: "Square2Stack",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["square","2","stack"],
   },
   render() {
@@ -5376,7 +5635,8 @@ export let HSquare3Stack3d20Solid = {
   $_icon: {
     name: "Square3Stack3d",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["square","3","stack","3d"],
   },
   render() {
@@ -5404,7 +5664,8 @@ export let HSquares2x220Solid = {
   $_icon: {
     name: "Squares2x2",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["squares","2x2"],
   },
   render() {
@@ -5424,7 +5685,8 @@ export let HSquaresPlus20Solid = {
   $_icon: {
     name: "SquaresPlus",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["squares","plus"],
   },
   render() {
@@ -5444,7 +5706,8 @@ export let HStar20Solid = {
   $_icon: {
     name: "Star",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["star"],
   },
   render() {
@@ -5464,7 +5727,8 @@ export let HStopCircle20Solid = {
   $_icon: {
     name: "StopCircle",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["stop","circle"],
   },
   render() {
@@ -5484,7 +5748,8 @@ export let HStop20Solid = {
   $_icon: {
     name: "Stop",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["stop"],
   },
   render() {
@@ -5504,7 +5769,8 @@ export let HSun20Solid = {
   $_icon: {
     name: "Sun",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["sun"],
   },
   render() {
@@ -5524,7 +5790,8 @@ export let HSwatch20Solid = {
   $_icon: {
     name: "Swatch",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["swatch"],
   },
   render() {
@@ -5544,7 +5811,8 @@ export let HTableCells20Solid = {
   $_icon: {
     name: "TableCells",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["table","cells"],
   },
   render() {
@@ -5564,7 +5832,8 @@ export let HTag20Solid = {
   $_icon: {
     name: "Tag",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["tag"],
   },
   render() {
@@ -5584,7 +5853,8 @@ export let HTicket20Solid = {
   $_icon: {
     name: "Ticket",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["ticket"],
   },
   render() {
@@ -5604,7 +5874,8 @@ export let HTrash20Solid = {
   $_icon: {
     name: "Trash",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["trash"],
   },
   render() {
@@ -5624,7 +5895,8 @@ export let HTrophy20Solid = {
   $_icon: {
     name: "Trophy",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["trophy"],
   },
   render() {
@@ -5644,7 +5916,8 @@ export let HTruck20Solid = {
   $_icon: {
     name: "Truck",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["truck"],
   },
   render() {
@@ -5668,7 +5941,8 @@ export let HTv20Solid = {
   $_icon: {
     name: "Tv",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["tv"],
   },
   render() {
@@ -5692,7 +5966,8 @@ export let HUserCircle20Solid = {
   $_icon: {
     name: "UserCircle",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["user","circle"],
   },
   render() {
@@ -5712,7 +5987,8 @@ export let HUserGroup20Solid = {
   $_icon: {
     name: "UserGroup",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["user","group"],
   },
   render() {
@@ -5732,7 +6008,8 @@ export let HUserMinus20Solid = {
   $_icon: {
     name: "UserMinus",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["user","minus"],
   },
   render() {
@@ -5752,7 +6029,8 @@ export let HUserPlus20Solid = {
   $_icon: {
     name: "UserPlus",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["user","plus"],
   },
   render() {
@@ -5772,7 +6050,8 @@ export let HUser20Solid = {
   $_icon: {
     name: "User",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["user"],
   },
   render() {
@@ -5792,7 +6071,8 @@ export let HUsers20Solid = {
   $_icon: {
     name: "Users",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["users"],
   },
   render() {
@@ -5812,7 +6092,8 @@ export let HVariable20Solid = {
   $_icon: {
     name: "Variable",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["variable"],
   },
   render() {
@@ -5832,7 +6113,8 @@ export let HVideoCameraSlash20Solid = {
   $_icon: {
     name: "VideoCameraSlash",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["video","camera","slash"],
   },
   render() {
@@ -5852,7 +6134,8 @@ export let HVideoCamera20Solid = {
   $_icon: {
     name: "VideoCamera",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["video","camera"],
   },
   render() {
@@ -5872,7 +6155,8 @@ export let HViewColumns20Solid = {
   $_icon: {
     name: "ViewColumns",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["view","columns"],
   },
   render() {
@@ -5892,7 +6176,8 @@ export let HViewfinderCircle20Solid = {
   $_icon: {
     name: "ViewfinderCircle",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["viewfinder","circle"],
   },
   render() {
@@ -5912,7 +6197,8 @@ export let HWallet20Solid = {
   $_icon: {
     name: "Wallet",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["wallet"],
   },
   render() {
@@ -5932,7 +6218,8 @@ export let HWifi20Solid = {
   $_icon: {
     name: "Wifi",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["wifi"],
   },
   render() {
@@ -5952,7 +6239,8 @@ export let HWindow20Solid = {
   $_icon: {
     name: "Window",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["window"],
   },
   render() {
@@ -5972,7 +6260,8 @@ export let HWrenchScrewdriver20Solid = {
   $_icon: {
     name: "WrenchScrewdriver",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["wrench","screwdriver"],
   },
   render() {
@@ -5996,7 +6285,8 @@ export let HWrench20Solid = {
   $_icon: {
     name: "Wrench",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["wrench"],
   },
   render() {
@@ -6016,7 +6306,8 @@ export let HXCircle20Solid = {
   $_icon: {
     name: "XCircle",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["x","circle"],
   },
   render() {
@@ -6036,7 +6327,8 @@ export let HXMark20Solid = {
   $_icon: {
     name: "XMark",
     vendor: "H",
-    type: ["20","solid"],
+    license: "MIT",
+    type: ["20","Solid"],
     tags: ["x","mark"],
   },
   render() {
@@ -6056,13 +6348,14 @@ export let HAcademicCap24Outline = {
   $_icon: {
     name: "AcademicCap",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["academic","cap"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6076,13 +6369,14 @@ export let HAdjustmentsHorizontal24Outline = {
   $_icon: {
     name: "AdjustmentsHorizontal",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["adjustments","horizontal"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6096,13 +6390,14 @@ export let HAdjustmentsVertical24Outline = {
   $_icon: {
     name: "AdjustmentsVertical",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["adjustments","vertical"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6116,13 +6411,14 @@ export let HArchiveBoxArrowDown24Outline = {
   $_icon: {
     name: "ArchiveBoxArrowDown",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["archive","box","arrow","down"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6136,13 +6432,14 @@ export let HArchiveBoxXMark24Outline = {
   $_icon: {
     name: "ArchiveBoxXMark",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["archive","box","x","mark"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6156,13 +6453,14 @@ export let HArchiveBox24Outline = {
   $_icon: {
     name: "ArchiveBox",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["archive","box"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6176,13 +6474,14 @@ export let HArrowDownCircle24Outline = {
   $_icon: {
     name: "ArrowDownCircle",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","down","circle"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6196,13 +6495,14 @@ export let HArrowDownLeft24Outline = {
   $_icon: {
     name: "ArrowDownLeft",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","down","left"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6216,13 +6516,14 @@ export let HArrowDownOnSquareStack24Outline = {
   $_icon: {
     name: "ArrowDownOnSquareStack",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","down","on","square","stack"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6236,13 +6537,14 @@ export let HArrowDownOnSquare24Outline = {
   $_icon: {
     name: "ArrowDownOnSquare",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","down","on","square"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6256,13 +6558,14 @@ export let HArrowDownRight24Outline = {
   $_icon: {
     name: "ArrowDownRight",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","down","right"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6276,13 +6579,14 @@ export let HArrowDownTray24Outline = {
   $_icon: {
     name: "ArrowDownTray",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","down","tray"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6296,13 +6600,14 @@ export let HArrowDown24Outline = {
   $_icon: {
     name: "ArrowDown",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","down"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6316,13 +6621,14 @@ export let HArrowLeftCircle24Outline = {
   $_icon: {
     name: "ArrowLeftCircle",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","left","circle"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6336,13 +6642,14 @@ export let HArrowLeftOnRectangle24Outline = {
   $_icon: {
     name: "ArrowLeftOnRectangle",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","left","on","rectangle"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6356,13 +6663,14 @@ export let HArrowLeft24Outline = {
   $_icon: {
     name: "ArrowLeft",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","left"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6376,13 +6684,14 @@ export let HArrowLongDown24Outline = {
   $_icon: {
     name: "ArrowLongDown",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","long","down"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6396,13 +6705,14 @@ export let HArrowLongLeft24Outline = {
   $_icon: {
     name: "ArrowLongLeft",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","long","left"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6416,13 +6726,14 @@ export let HArrowLongRight24Outline = {
   $_icon: {
     name: "ArrowLongRight",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","long","right"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6436,13 +6747,14 @@ export let HArrowLongUp24Outline = {
   $_icon: {
     name: "ArrowLongUp",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","long","up"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6456,13 +6768,14 @@ export let HArrowPathRoundedSquare24Outline = {
   $_icon: {
     name: "ArrowPathRoundedSquare",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","path","rounded","square"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6476,13 +6789,14 @@ export let HArrowPath24Outline = {
   $_icon: {
     name: "ArrowPath",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","path"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6496,13 +6810,14 @@ export let HArrowRightCircle24Outline = {
   $_icon: {
     name: "ArrowRightCircle",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","right","circle"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6516,13 +6831,14 @@ export let HArrowRightOnRectangle24Outline = {
   $_icon: {
     name: "ArrowRightOnRectangle",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","right","on","rectangle"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6536,13 +6852,14 @@ export let HArrowRight24Outline = {
   $_icon: {
     name: "ArrowRight",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","right"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6556,13 +6873,14 @@ export let HArrowSmallDown24Outline = {
   $_icon: {
     name: "ArrowSmallDown",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","small","down"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6576,13 +6894,14 @@ export let HArrowSmallLeft24Outline = {
   $_icon: {
     name: "ArrowSmallLeft",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","small","left"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6596,13 +6915,14 @@ export let HArrowSmallRight24Outline = {
   $_icon: {
     name: "ArrowSmallRight",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","small","right"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6616,13 +6936,14 @@ export let HArrowSmallUp24Outline = {
   $_icon: {
     name: "ArrowSmallUp",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","small","up"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6636,13 +6957,14 @@ export let HArrowTopRightOnSquare24Outline = {
   $_icon: {
     name: "ArrowTopRightOnSquare",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","top","right","on","square"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6656,13 +6978,14 @@ export let HArrowTrendingDown24Outline = {
   $_icon: {
     name: "ArrowTrendingDown",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","trending","down"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6676,13 +6999,14 @@ export let HArrowTrendingUp24Outline = {
   $_icon: {
     name: "ArrowTrendingUp",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","trending","up"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6696,13 +7020,14 @@ export let HArrowUpCircle24Outline = {
   $_icon: {
     name: "ArrowUpCircle",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","up","circle"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6716,13 +7041,14 @@ export let HArrowUpLeft24Outline = {
   $_icon: {
     name: "ArrowUpLeft",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","up","left"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6736,13 +7062,14 @@ export let HArrowUpOnSquareStack24Outline = {
   $_icon: {
     name: "ArrowUpOnSquareStack",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","up","on","square","stack"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6756,13 +7083,14 @@ export let HArrowUpOnSquare24Outline = {
   $_icon: {
     name: "ArrowUpOnSquare",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","up","on","square"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6776,13 +7104,14 @@ export let HArrowUpRight24Outline = {
   $_icon: {
     name: "ArrowUpRight",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","up","right"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6796,13 +7125,14 @@ export let HArrowUpTray24Outline = {
   $_icon: {
     name: "ArrowUpTray",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","up","tray"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6816,13 +7146,14 @@ export let HArrowUp24Outline = {
   $_icon: {
     name: "ArrowUp",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","up"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6836,13 +7167,14 @@ export let HArrowUturnDown24Outline = {
   $_icon: {
     name: "ArrowUturnDown",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","uturn","down"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6856,13 +7188,14 @@ export let HArrowUturnLeft24Outline = {
   $_icon: {
     name: "ArrowUturnLeft",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","uturn","left"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6876,13 +7209,14 @@ export let HArrowUturnRight24Outline = {
   $_icon: {
     name: "ArrowUturnRight",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","uturn","right"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6896,13 +7230,14 @@ export let HArrowUturnUp24Outline = {
   $_icon: {
     name: "ArrowUturnUp",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrow","uturn","up"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6916,13 +7251,14 @@ export let HArrowsPointingIn24Outline = {
   $_icon: {
     name: "ArrowsPointingIn",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrows","pointing","in"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6936,13 +7272,14 @@ export let HArrowsPointingOut24Outline = {
   $_icon: {
     name: "ArrowsPointingOut",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrows","pointing","out"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6956,13 +7293,14 @@ export let HArrowsRightLeft24Outline = {
   $_icon: {
     name: "ArrowsRightLeft",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrows","right","left"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6976,13 +7314,14 @@ export let HArrowsUpDown24Outline = {
   $_icon: {
     name: "ArrowsUpDown",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["arrows","up","down"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -6996,13 +7335,14 @@ export let HAtSymbol24Outline = {
   $_icon: {
     name: "AtSymbol",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["at","symbol"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7016,13 +7356,14 @@ export let HBackspace24Outline = {
   $_icon: {
     name: "Backspace",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["backspace"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7036,13 +7377,14 @@ export let HBackward24Outline = {
   $_icon: {
     name: "Backward",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["backward"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7056,13 +7398,14 @@ export let HBanknotes24Outline = {
   $_icon: {
     name: "Banknotes",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["banknotes"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7076,13 +7419,14 @@ export let HBars224Outline = {
   $_icon: {
     name: "Bars2",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["bars","2"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7096,13 +7440,14 @@ export let HBars3BottomLeft24Outline = {
   $_icon: {
     name: "Bars3BottomLeft",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["bars","3","bottom","left"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7116,13 +7461,14 @@ export let HBars3BottomRight24Outline = {
   $_icon: {
     name: "Bars3BottomRight",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["bars","3","bottom","right"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7136,13 +7482,14 @@ export let HBars3CenterLeft24Outline = {
   $_icon: {
     name: "Bars3CenterLeft",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["bars","3","center","left"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7156,13 +7503,14 @@ export let HBars324Outline = {
   $_icon: {
     name: "Bars3",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["bars","3"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7176,13 +7524,14 @@ export let HBars424Outline = {
   $_icon: {
     name: "Bars4",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["bars","4"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7196,13 +7545,14 @@ export let HBarsArrowDown24Outline = {
   $_icon: {
     name: "BarsArrowDown",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["bars","arrow","down"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7216,13 +7566,14 @@ export let HBarsArrowUp24Outline = {
   $_icon: {
     name: "BarsArrowUp",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["bars","arrow","up"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7236,13 +7587,14 @@ export let HBattery024Outline = {
   $_icon: {
     name: "Battery0",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["battery","0"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7256,13 +7608,14 @@ export let HBattery10024Outline = {
   $_icon: {
     name: "Battery100",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["battery","100"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7276,13 +7629,14 @@ export let HBattery5024Outline = {
   $_icon: {
     name: "Battery50",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["battery","50"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7296,13 +7650,14 @@ export let HBeaker24Outline = {
   $_icon: {
     name: "Beaker",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["beaker"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7316,13 +7671,14 @@ export let HBellAlert24Outline = {
   $_icon: {
     name: "BellAlert",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["bell","alert"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7336,13 +7692,14 @@ export let HBellSlash24Outline = {
   $_icon: {
     name: "BellSlash",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["bell","slash"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7356,13 +7713,14 @@ export let HBellSnooze24Outline = {
   $_icon: {
     name: "BellSnooze",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["bell","snooze"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7376,13 +7734,14 @@ export let HBell24Outline = {
   $_icon: {
     name: "Bell",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["bell"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7396,13 +7755,14 @@ export let HBoltSlash24Outline = {
   $_icon: {
     name: "BoltSlash",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["bolt","slash"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7416,13 +7776,14 @@ export let HBolt24Outline = {
   $_icon: {
     name: "Bolt",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["bolt"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7436,13 +7797,14 @@ export let HBookOpen24Outline = {
   $_icon: {
     name: "BookOpen",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["book","open"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7456,13 +7818,14 @@ export let HBookmarkSlash24Outline = {
   $_icon: {
     name: "BookmarkSlash",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["bookmark","slash"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7476,13 +7839,14 @@ export let HBookmarkSquare24Outline = {
   $_icon: {
     name: "BookmarkSquare",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["bookmark","square"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7496,13 +7860,14 @@ export let HBookmark24Outline = {
   $_icon: {
     name: "Bookmark",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["bookmark"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7516,13 +7881,14 @@ export let HBriefcase24Outline = {
   $_icon: {
     name: "Briefcase",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["briefcase"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7536,13 +7902,14 @@ export let HBugAnt24Outline = {
   $_icon: {
     name: "BugAnt",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["bug","ant"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7556,13 +7923,14 @@ export let HBuildingLibrary24Outline = {
   $_icon: {
     name: "BuildingLibrary",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["building","library"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7576,13 +7944,14 @@ export let HBuildingOffice224Outline = {
   $_icon: {
     name: "BuildingOffice2",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["building","office","2"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7596,13 +7965,14 @@ export let HBuildingOffice24Outline = {
   $_icon: {
     name: "BuildingOffice",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["building","office"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7616,13 +7986,14 @@ export let HBuildingStorefront24Outline = {
   $_icon: {
     name: "BuildingStorefront",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["building","storefront"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7636,13 +8007,14 @@ export let HCake24Outline = {
   $_icon: {
     name: "Cake",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["cake"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7656,13 +8028,14 @@ export let HCalculator24Outline = {
   $_icon: {
     name: "Calculator",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["calculator"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7676,13 +8049,14 @@ export let HCalendarDays24Outline = {
   $_icon: {
     name: "CalendarDays",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["calendar","days"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7696,13 +8070,14 @@ export let HCalendar24Outline = {
   $_icon: {
     name: "Calendar",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["calendar"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7716,13 +8091,14 @@ export let HCamera24Outline = {
   $_icon: {
     name: "Camera",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["camera"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7740,13 +8116,14 @@ export let HChartBarSquare24Outline = {
   $_icon: {
     name: "ChartBarSquare",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["chart","bar","square"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7760,13 +8137,14 @@ export let HChartBar24Outline = {
   $_icon: {
     name: "ChartBar",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["chart","bar"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7780,13 +8158,14 @@ export let HChartPie24Outline = {
   $_icon: {
     name: "ChartPie",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["chart","pie"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7804,13 +8183,14 @@ export let HChatBubbleBottomCenterText24Outline = {
   $_icon: {
     name: "ChatBubbleBottomCenterText",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["chat","bubble","bottom","center","text"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7824,13 +8204,14 @@ export let HChatBubbleBottomCenter24Outline = {
   $_icon: {
     name: "ChatBubbleBottomCenter",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["chat","bubble","bottom","center"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7844,13 +8225,14 @@ export let HChatBubbleLeftEllipsis24Outline = {
   $_icon: {
     name: "ChatBubbleLeftEllipsis",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["chat","bubble","left","ellipsis"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7864,13 +8246,14 @@ export let HChatBubbleLeftRight24Outline = {
   $_icon: {
     name: "ChatBubbleLeftRight",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["chat","bubble","left","right"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7884,13 +8267,14 @@ export let HChatBubbleLeft24Outline = {
   $_icon: {
     name: "ChatBubbleLeft",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["chat","bubble","left"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7904,13 +8288,14 @@ export let HChatBubbleOvalLeftEllipsis24Outline = {
   $_icon: {
     name: "ChatBubbleOvalLeftEllipsis",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["chat","bubble","oval","left","ellipsis"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7924,13 +8309,14 @@ export let HChatBubbleOvalLeft24Outline = {
   $_icon: {
     name: "ChatBubbleOvalLeft",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["chat","bubble","oval","left"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7944,13 +8330,14 @@ export let HCheckBadge24Outline = {
   $_icon: {
     name: "CheckBadge",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["check","badge"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7964,13 +8351,14 @@ export let HCheckCircle24Outline = {
   $_icon: {
     name: "CheckCircle",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["check","circle"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -7984,13 +8372,14 @@ export let HCheck24Outline = {
   $_icon: {
     name: "Check",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["check"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8004,13 +8393,14 @@ export let HChevronDoubleDown24Outline = {
   $_icon: {
     name: "ChevronDoubleDown",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["chevron","double","down"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8024,13 +8414,14 @@ export let HChevronDoubleLeft24Outline = {
   $_icon: {
     name: "ChevronDoubleLeft",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["chevron","double","left"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8044,13 +8435,14 @@ export let HChevronDoubleRight24Outline = {
   $_icon: {
     name: "ChevronDoubleRight",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["chevron","double","right"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8064,13 +8456,14 @@ export let HChevronDoubleUp24Outline = {
   $_icon: {
     name: "ChevronDoubleUp",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["chevron","double","up"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8084,13 +8477,14 @@ export let HChevronDown24Outline = {
   $_icon: {
     name: "ChevronDown",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["chevron","down"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8104,13 +8498,14 @@ export let HChevronLeft24Outline = {
   $_icon: {
     name: "ChevronLeft",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["chevron","left"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8124,13 +8519,14 @@ export let HChevronRight24Outline = {
   $_icon: {
     name: "ChevronRight",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["chevron","right"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8144,13 +8540,14 @@ export let HChevronUpDown24Outline = {
   $_icon: {
     name: "ChevronUpDown",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["chevron","up","down"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8164,13 +8561,14 @@ export let HChevronUp24Outline = {
   $_icon: {
     name: "ChevronUp",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["chevron","up"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8184,13 +8582,14 @@ export let HCircleStack24Outline = {
   $_icon: {
     name: "CircleStack",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["circle","stack"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8204,13 +8603,14 @@ export let HClipboardDocumentCheck24Outline = {
   $_icon: {
     name: "ClipboardDocumentCheck",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["clipboard","document","check"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8224,13 +8624,14 @@ export let HClipboardDocumentList24Outline = {
   $_icon: {
     name: "ClipboardDocumentList",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["clipboard","document","list"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8244,13 +8645,14 @@ export let HClipboardDocument24Outline = {
   $_icon: {
     name: "ClipboardDocument",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["clipboard","document"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8264,13 +8666,14 @@ export let HClipboard24Outline = {
   $_icon: {
     name: "Clipboard",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["clipboard"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8284,13 +8687,14 @@ export let HClock24Outline = {
   $_icon: {
     name: "Clock",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["clock"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8304,13 +8708,14 @@ export let HCloudArrowDown24Outline = {
   $_icon: {
     name: "CloudArrowDown",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["cloud","arrow","down"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8324,13 +8729,14 @@ export let HCloudArrowUp24Outline = {
   $_icon: {
     name: "CloudArrowUp",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["cloud","arrow","up"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8344,13 +8750,14 @@ export let HCloud24Outline = {
   $_icon: {
     name: "Cloud",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["cloud"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8364,13 +8771,14 @@ export let HCodeBracketSquare24Outline = {
   $_icon: {
     name: "CodeBracketSquare",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["code","bracket","square"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8384,13 +8792,14 @@ export let HCodeBracket24Outline = {
   $_icon: {
     name: "CodeBracket",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["code","bracket"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8404,13 +8813,14 @@ export let HCog6Tooth24Outline = {
   $_icon: {
     name: "Cog6Tooth",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["cog","6","tooth"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8428,13 +8838,14 @@ export let HCog8Tooth24Outline = {
   $_icon: {
     name: "Cog8Tooth",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["cog","8","tooth"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8452,13 +8863,14 @@ export let HCog24Outline = {
   $_icon: {
     name: "Cog",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["cog"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8472,13 +8884,14 @@ export let HCommandLine24Outline = {
   $_icon: {
     name: "CommandLine",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["command","line"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8492,13 +8905,14 @@ export let HComputerDesktop24Outline = {
   $_icon: {
     name: "ComputerDesktop",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["computer","desktop"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8512,13 +8926,14 @@ export let HCpuChip24Outline = {
   $_icon: {
     name: "CpuChip",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["cpu","chip"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8532,13 +8947,14 @@ export let HCreditCard24Outline = {
   $_icon: {
     name: "CreditCard",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["credit","card"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8552,13 +8968,14 @@ export let HCubeTransparent24Outline = {
   $_icon: {
     name: "CubeTransparent",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["cube","transparent"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8572,13 +8989,14 @@ export let HCube24Outline = {
   $_icon: {
     name: "Cube",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["cube"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8592,13 +9010,14 @@ export let HCurrencyBangladeshi24Outline = {
   $_icon: {
     name: "CurrencyBangladeshi",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["currency","bangladeshi"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8612,13 +9031,14 @@ export let HCurrencyDollar24Outline = {
   $_icon: {
     name: "CurrencyDollar",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["currency","dollar"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8632,13 +9052,14 @@ export let HCurrencyEuro24Outline = {
   $_icon: {
     name: "CurrencyEuro",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["currency","euro"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8652,13 +9073,14 @@ export let HCurrencyPound24Outline = {
   $_icon: {
     name: "CurrencyPound",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["currency","pound"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8672,13 +9094,14 @@ export let HCurrencyRupee24Outline = {
   $_icon: {
     name: "CurrencyRupee",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["currency","rupee"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8692,13 +9115,14 @@ export let HCurrencyYen24Outline = {
   $_icon: {
     name: "CurrencyYen",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["currency","yen"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8712,13 +9136,14 @@ export let HCursorArrowRays24Outline = {
   $_icon: {
     name: "CursorArrowRays",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["cursor","arrow","rays"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8732,13 +9157,14 @@ export let HCursorArrowRipple24Outline = {
   $_icon: {
     name: "CursorArrowRipple",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["cursor","arrow","ripple"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8752,13 +9178,14 @@ export let HDevicePhoneMobile24Outline = {
   $_icon: {
     name: "DevicePhoneMobile",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["device","phone","mobile"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8772,13 +9199,14 @@ export let HDeviceTablet24Outline = {
   $_icon: {
     name: "DeviceTablet",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["device","tablet"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8792,13 +9220,14 @@ export let HDocumentArrowDown24Outline = {
   $_icon: {
     name: "DocumentArrowDown",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["document","arrow","down"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8812,13 +9241,14 @@ export let HDocumentArrowUp24Outline = {
   $_icon: {
     name: "DocumentArrowUp",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["document","arrow","up"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8832,13 +9262,14 @@ export let HDocumentChartBar24Outline = {
   $_icon: {
     name: "DocumentChartBar",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["document","chart","bar"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8852,13 +9283,14 @@ export let HDocumentCheck24Outline = {
   $_icon: {
     name: "DocumentCheck",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["document","check"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8872,13 +9304,14 @@ export let HDocumentDuplicate24Outline = {
   $_icon: {
     name: "DocumentDuplicate",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["document","duplicate"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8892,13 +9325,14 @@ export let HDocumentMagnifyingGlass24Outline = {
   $_icon: {
     name: "DocumentMagnifyingGlass",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["document","magnifying","glass"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8912,13 +9346,14 @@ export let HDocumentMinus24Outline = {
   $_icon: {
     name: "DocumentMinus",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["document","minus"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8932,13 +9367,14 @@ export let HDocumentPlus24Outline = {
   $_icon: {
     name: "DocumentPlus",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["document","plus"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8952,13 +9388,14 @@ export let HDocumentText24Outline = {
   $_icon: {
     name: "DocumentText",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["document","text"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8972,13 +9409,14 @@ export let HDocument24Outline = {
   $_icon: {
     name: "Document",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["document"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -8992,13 +9430,14 @@ export let HEllipsisHorizontalCircle24Outline = {
   $_icon: {
     name: "EllipsisHorizontalCircle",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["ellipsis","horizontal","circle"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9012,13 +9451,14 @@ export let HEllipsisHorizontal24Outline = {
   $_icon: {
     name: "EllipsisHorizontal",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["ellipsis","horizontal"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9032,13 +9472,14 @@ export let HEllipsisVertical24Outline = {
   $_icon: {
     name: "EllipsisVertical",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["ellipsis","vertical"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9052,13 +9493,14 @@ export let HEnvelopeOpen24Outline = {
   $_icon: {
     name: "EnvelopeOpen",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["envelope","open"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9072,13 +9514,14 @@ export let HEnvelope24Outline = {
   $_icon: {
     name: "Envelope",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["envelope"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9092,13 +9535,14 @@ export let HExclamationCircle24Outline = {
   $_icon: {
     name: "ExclamationCircle",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["exclamation","circle"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9112,13 +9556,14 @@ export let HExclamationTriangle24Outline = {
   $_icon: {
     name: "ExclamationTriangle",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["exclamation","triangle"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9132,13 +9577,14 @@ export let HEyeDropper24Outline = {
   $_icon: {
     name: "EyeDropper",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["eye","dropper"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9152,13 +9598,14 @@ export let HEyeSlash24Outline = {
   $_icon: {
     name: "EyeSlash",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["eye","slash"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9172,13 +9619,14 @@ export let HEye24Outline = {
   $_icon: {
     name: "Eye",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["eye"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9196,13 +9644,14 @@ export let HFaceFrown24Outline = {
   $_icon: {
     name: "FaceFrown",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["face","frown"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9216,13 +9665,14 @@ export let HFaceSmile24Outline = {
   $_icon: {
     name: "FaceSmile",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["face","smile"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9236,13 +9686,14 @@ export let HFilm24Outline = {
   $_icon: {
     name: "Film",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["film"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9256,13 +9707,14 @@ export let HFingerPrint24Outline = {
   $_icon: {
     name: "FingerPrint",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["finger","print"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9276,13 +9728,14 @@ export let HFire24Outline = {
   $_icon: {
     name: "Fire",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["fire"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9300,13 +9753,14 @@ export let HFlag24Outline = {
   $_icon: {
     name: "Flag",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["flag"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9320,13 +9774,14 @@ export let HFolderArrowDown24Outline = {
   $_icon: {
     name: "FolderArrowDown",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["folder","arrow","down"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9340,13 +9795,14 @@ export let HFolderMinus24Outline = {
   $_icon: {
     name: "FolderMinus",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["folder","minus"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9360,13 +9816,14 @@ export let HFolderOpen24Outline = {
   $_icon: {
     name: "FolderOpen",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["folder","open"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9380,13 +9837,14 @@ export let HFolderPlus24Outline = {
   $_icon: {
     name: "FolderPlus",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["folder","plus"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9400,13 +9858,14 @@ export let HFolder24Outline = {
   $_icon: {
     name: "Folder",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["folder"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9420,13 +9879,14 @@ export let HForward24Outline = {
   $_icon: {
     name: "Forward",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["forward"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9440,13 +9900,14 @@ export let HFunnel24Outline = {
   $_icon: {
     name: "Funnel",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["funnel"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9460,13 +9921,14 @@ export let HGif24Outline = {
   $_icon: {
     name: "Gif",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["gif"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9480,13 +9942,14 @@ export let HGiftTop24Outline = {
   $_icon: {
     name: "GiftTop",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["gift","top"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9500,13 +9963,14 @@ export let HGift24Outline = {
   $_icon: {
     name: "Gift",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["gift"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9520,13 +9984,14 @@ export let HGlobeAlt24Outline = {
   $_icon: {
     name: "GlobeAlt",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["globe","alt"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9540,13 +10005,14 @@ export let HGlobeAmericas24Outline = {
   $_icon: {
     name: "GlobeAmericas",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["globe","americas"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9560,13 +10026,14 @@ export let HGlobeAsiaAustralia24Outline = {
   $_icon: {
     name: "GlobeAsiaAustralia",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["globe","asia","australia"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9580,13 +10047,14 @@ export let HGlobeEuropeAfrica24Outline = {
   $_icon: {
     name: "GlobeEuropeAfrica",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["globe","europe","africa"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9600,13 +10068,14 @@ export let HHandRaised24Outline = {
   $_icon: {
     name: "HandRaised",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["hand","raised"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9620,13 +10089,14 @@ export let HHandThumbDown24Outline = {
   $_icon: {
     name: "HandThumbDown",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["hand","thumb","down"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9640,13 +10110,14 @@ export let HHandThumbUp24Outline = {
   $_icon: {
     name: "HandThumbUp",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["hand","thumb","up"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9660,13 +10131,14 @@ export let HHashtag24Outline = {
   $_icon: {
     name: "Hashtag",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["hashtag"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9680,13 +10152,14 @@ export let HHeart24Outline = {
   $_icon: {
     name: "Heart",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["heart"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9700,13 +10173,14 @@ export let HHomeModern24Outline = {
   $_icon: {
     name: "HomeModern",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["home","modern"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9720,13 +10194,14 @@ export let HHome24Outline = {
   $_icon: {
     name: "Home",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["home"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9740,13 +10215,14 @@ export let HIdentification24Outline = {
   $_icon: {
     name: "Identification",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["identification"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9760,13 +10236,14 @@ export let HInboxArrowDown24Outline = {
   $_icon: {
     name: "InboxArrowDown",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["inbox","arrow","down"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9780,13 +10257,14 @@ export let HInboxStack24Outline = {
   $_icon: {
     name: "InboxStack",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["inbox","stack"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9800,13 +10278,14 @@ export let HInbox24Outline = {
   $_icon: {
     name: "Inbox",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["inbox"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9820,13 +10299,14 @@ export let HInformationCircle24Outline = {
   $_icon: {
     name: "InformationCircle",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["information","circle"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9840,13 +10320,14 @@ export let HKey24Outline = {
   $_icon: {
     name: "Key",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["key"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9860,13 +10341,14 @@ export let HLanguage24Outline = {
   $_icon: {
     name: "Language",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["language"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9880,13 +10362,14 @@ export let HLifebuoy24Outline = {
   $_icon: {
     name: "Lifebuoy",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["lifebuoy"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9900,13 +10383,14 @@ export let HLightBulb24Outline = {
   $_icon: {
     name: "LightBulb",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["light","bulb"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9920,13 +10404,14 @@ export let HLink24Outline = {
   $_icon: {
     name: "Link",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["link"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9940,13 +10425,14 @@ export let HListBullet24Outline = {
   $_icon: {
     name: "ListBullet",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["list","bullet"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9960,13 +10446,14 @@ export let HLockClosed24Outline = {
   $_icon: {
     name: "LockClosed",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["lock","closed"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -9980,13 +10467,14 @@ export let HLockOpen24Outline = {
   $_icon: {
     name: "LockOpen",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["lock","open"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10000,13 +10488,14 @@ export let HMagnifyingGlassCircle24Outline = {
   $_icon: {
     name: "MagnifyingGlassCircle",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["magnifying","glass","circle"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10020,13 +10509,14 @@ export let HMagnifyingGlassMinus24Outline = {
   $_icon: {
     name: "MagnifyingGlassMinus",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["magnifying","glass","minus"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10040,13 +10530,14 @@ export let HMagnifyingGlassPlus24Outline = {
   $_icon: {
     name: "MagnifyingGlassPlus",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["magnifying","glass","plus"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10060,13 +10551,14 @@ export let HMagnifyingGlass24Outline = {
   $_icon: {
     name: "MagnifyingGlass",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["magnifying","glass"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10080,13 +10572,14 @@ export let HMapPin24Outline = {
   $_icon: {
     name: "MapPin",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["map","pin"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10104,13 +10597,14 @@ export let HMap24Outline = {
   $_icon: {
     name: "Map",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["map"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10124,13 +10618,14 @@ export let HMegaphone24Outline = {
   $_icon: {
     name: "Megaphone",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["megaphone"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10144,13 +10639,14 @@ export let HMicrophone24Outline = {
   $_icon: {
     name: "Microphone",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["microphone"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10164,13 +10660,14 @@ export let HMinusCircle24Outline = {
   $_icon: {
     name: "MinusCircle",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["minus","circle"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10184,13 +10681,14 @@ export let HMinusSmall24Outline = {
   $_icon: {
     name: "MinusSmall",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["minus","small"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10204,13 +10702,14 @@ export let HMinus24Outline = {
   $_icon: {
     name: "Minus",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["minus"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10224,13 +10723,14 @@ export let HMoon24Outline = {
   $_icon: {
     name: "Moon",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["moon"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10244,13 +10744,14 @@ export let HMusicalNote24Outline = {
   $_icon: {
     name: "MusicalNote",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["musical","note"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10264,13 +10765,14 @@ export let HNewspaper24Outline = {
   $_icon: {
     name: "Newspaper",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["newspaper"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10284,13 +10786,14 @@ export let HNoSymbol24Outline = {
   $_icon: {
     name: "NoSymbol",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["no","symbol"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10304,13 +10807,14 @@ export let HPaintBrush24Outline = {
   $_icon: {
     name: "PaintBrush",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["paint","brush"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10324,13 +10828,14 @@ export let HPaperAirplane24Outline = {
   $_icon: {
     name: "PaperAirplane",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["paper","airplane"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10344,13 +10849,14 @@ export let HPaperClip24Outline = {
   $_icon: {
     name: "PaperClip",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["paper","clip"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10364,13 +10870,14 @@ export let HPauseCircle24Outline = {
   $_icon: {
     name: "PauseCircle",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["pause","circle"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10384,13 +10891,14 @@ export let HPause24Outline = {
   $_icon: {
     name: "Pause",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["pause"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10404,13 +10912,14 @@ export let HPencilSquare24Outline = {
   $_icon: {
     name: "PencilSquare",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["pencil","square"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10424,13 +10933,14 @@ export let HPencil24Outline = {
   $_icon: {
     name: "Pencil",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["pencil"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10444,13 +10954,14 @@ export let HPhoneArrowDownLeft24Outline = {
   $_icon: {
     name: "PhoneArrowDownLeft",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["phone","arrow","down","left"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10464,13 +10975,14 @@ export let HPhoneArrowUpRight24Outline = {
   $_icon: {
     name: "PhoneArrowUpRight",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["phone","arrow","up","right"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10484,13 +10996,14 @@ export let HPhoneXMark24Outline = {
   $_icon: {
     name: "PhoneXMark",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["phone","x","mark"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10504,13 +11017,14 @@ export let HPhone24Outline = {
   $_icon: {
     name: "Phone",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["phone"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10524,13 +11038,14 @@ export let HPhoto24Outline = {
   $_icon: {
     name: "Photo",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["photo"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10544,13 +11059,14 @@ export let HPlayCircle24Outline = {
   $_icon: {
     name: "PlayCircle",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["play","circle"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10568,13 +11084,14 @@ export let HPlayPause24Outline = {
   $_icon: {
     name: "PlayPause",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["play","pause"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10588,13 +11105,14 @@ export let HPlay24Outline = {
   $_icon: {
     name: "Play",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["play"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10608,13 +11126,14 @@ export let HPlusCircle24Outline = {
   $_icon: {
     name: "PlusCircle",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["plus","circle"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10628,13 +11147,14 @@ export let HPlusSmall24Outline = {
   $_icon: {
     name: "PlusSmall",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["plus","small"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10648,13 +11168,14 @@ export let HPlus24Outline = {
   $_icon: {
     name: "Plus",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["plus"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10668,13 +11189,14 @@ export let HPower24Outline = {
   $_icon: {
     name: "Power",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["power"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10688,13 +11210,14 @@ export let HPresentationChartBar24Outline = {
   $_icon: {
     name: "PresentationChartBar",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["presentation","chart","bar"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10708,13 +11231,14 @@ export let HPresentationChartLine24Outline = {
   $_icon: {
     name: "PresentationChartLine",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["presentation","chart","line"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10728,13 +11252,14 @@ export let HPrinter24Outline = {
   $_icon: {
     name: "Printer",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["printer"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10748,13 +11273,14 @@ export let HPuzzlePiece24Outline = {
   $_icon: {
     name: "PuzzlePiece",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["puzzle","piece"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10768,13 +11294,14 @@ export let HQrCode24Outline = {
   $_icon: {
     name: "QrCode",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["qr","code"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10792,13 +11319,14 @@ export let HQuestionMarkCircle24Outline = {
   $_icon: {
     name: "QuestionMarkCircle",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["question","mark","circle"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10812,13 +11340,14 @@ export let HQueueList24Outline = {
   $_icon: {
     name: "QueueList",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["queue","list"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10832,13 +11361,14 @@ export let HRadio24Outline = {
   $_icon: {
     name: "Radio",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["radio"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10852,13 +11382,14 @@ export let HReceiptPercent24Outline = {
   $_icon: {
     name: "ReceiptPercent",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["receipt","percent"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10872,13 +11403,14 @@ export let HReceiptRefund24Outline = {
   $_icon: {
     name: "ReceiptRefund",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["receipt","refund"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10892,13 +11424,14 @@ export let HRectangleGroup24Outline = {
   $_icon: {
     name: "RectangleGroup",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["rectangle","group"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10912,13 +11445,14 @@ export let HRectangleStack24Outline = {
   $_icon: {
     name: "RectangleStack",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["rectangle","stack"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10932,13 +11466,14 @@ export let HRocketLaunch24Outline = {
   $_icon: {
     name: "RocketLaunch",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["rocket","launch"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10952,13 +11487,14 @@ export let HRss24Outline = {
   $_icon: {
     name: "Rss",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["rss"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10972,13 +11508,14 @@ export let HScale24Outline = {
   $_icon: {
     name: "Scale",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["scale"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -10992,13 +11529,14 @@ export let HScissors24Outline = {
   $_icon: {
     name: "Scissors",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["scissors"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11012,13 +11550,14 @@ export let HServerStack24Outline = {
   $_icon: {
     name: "ServerStack",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["server","stack"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11032,13 +11571,14 @@ export let HServer24Outline = {
   $_icon: {
     name: "Server",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["server"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11052,13 +11592,14 @@ export let HShare24Outline = {
   $_icon: {
     name: "Share",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["share"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11072,13 +11613,14 @@ export let HShieldCheck24Outline = {
   $_icon: {
     name: "ShieldCheck",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["shield","check"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11092,13 +11634,14 @@ export let HShieldExclamation24Outline = {
   $_icon: {
     name: "ShieldExclamation",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["shield","exclamation"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11112,13 +11655,14 @@ export let HShoppingBag24Outline = {
   $_icon: {
     name: "ShoppingBag",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["shopping","bag"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11132,13 +11676,14 @@ export let HShoppingCart24Outline = {
   $_icon: {
     name: "ShoppingCart",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["shopping","cart"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11152,13 +11697,14 @@ export let HSignalSlash24Outline = {
   $_icon: {
     name: "SignalSlash",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["signal","slash"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11172,13 +11718,14 @@ export let HSignal24Outline = {
   $_icon: {
     name: "Signal",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["signal"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11192,13 +11739,14 @@ export let HSparkles24Outline = {
   $_icon: {
     name: "Sparkles",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["sparkles"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11212,13 +11760,14 @@ export let HSpeakerWave24Outline = {
   $_icon: {
     name: "SpeakerWave",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["speaker","wave"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11232,13 +11781,14 @@ export let HSpeakerXMark24Outline = {
   $_icon: {
     name: "SpeakerXMark",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["speaker","x","mark"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11252,13 +11802,14 @@ export let HSquare2Stack24Outline = {
   $_icon: {
     name: "Square2Stack",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["square","2","stack"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11272,13 +11823,14 @@ export let HSquare3Stack3d24Outline = {
   $_icon: {
     name: "Square3Stack3d",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["square","3","stack","3d"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11292,13 +11844,14 @@ export let HSquares2x224Outline = {
   $_icon: {
     name: "Squares2x2",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["squares","2x2"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11312,13 +11865,14 @@ export let HSquaresPlus24Outline = {
   $_icon: {
     name: "SquaresPlus",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["squares","plus"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11332,13 +11886,14 @@ export let HStar24Outline = {
   $_icon: {
     name: "Star",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["star"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11352,13 +11907,14 @@ export let HStopCircle24Outline = {
   $_icon: {
     name: "StopCircle",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["stop","circle"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11376,13 +11932,14 @@ export let HStop24Outline = {
   $_icon: {
     name: "Stop",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["stop"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11396,13 +11953,14 @@ export let HSun24Outline = {
   $_icon: {
     name: "Sun",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["sun"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11416,13 +11974,14 @@ export let HSwatch24Outline = {
   $_icon: {
     name: "Swatch",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["swatch"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11436,13 +11995,14 @@ export let HTableCells24Outline = {
   $_icon: {
     name: "TableCells",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["table","cells"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11456,13 +12016,14 @@ export let HTag24Outline = {
   $_icon: {
     name: "Tag",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["tag"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11480,13 +12041,14 @@ export let HTicket24Outline = {
   $_icon: {
     name: "Ticket",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["ticket"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11500,13 +12062,14 @@ export let HTrash24Outline = {
   $_icon: {
     name: "Trash",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["trash"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11520,13 +12083,14 @@ export let HTrophy24Outline = {
   $_icon: {
     name: "Trophy",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["trophy"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11540,13 +12104,14 @@ export let HTruck24Outline = {
   $_icon: {
     name: "Truck",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["truck"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11560,13 +12125,14 @@ export let HTv24Outline = {
   $_icon: {
     name: "Tv",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["tv"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11580,13 +12146,14 @@ export let HUserCircle24Outline = {
   $_icon: {
     name: "UserCircle",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["user","circle"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11600,13 +12167,14 @@ export let HUserGroup24Outline = {
   $_icon: {
     name: "UserGroup",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["user","group"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11620,13 +12188,14 @@ export let HUserMinus24Outline = {
   $_icon: {
     name: "UserMinus",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["user","minus"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11640,13 +12209,14 @@ export let HUserPlus24Outline = {
   $_icon: {
     name: "UserPlus",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["user","plus"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11660,13 +12230,14 @@ export let HUser24Outline = {
   $_icon: {
     name: "User",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["user"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11680,13 +12251,14 @@ export let HUsers24Outline = {
   $_icon: {
     name: "Users",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["users"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11700,13 +12272,14 @@ export let HVariable24Outline = {
   $_icon: {
     name: "Variable",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["variable"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11720,13 +12293,14 @@ export let HVideoCameraSlash24Outline = {
   $_icon: {
     name: "VideoCameraSlash",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["video","camera","slash"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11740,13 +12314,14 @@ export let HVideoCamera24Outline = {
   $_icon: {
     name: "VideoCamera",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["video","camera"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11760,13 +12335,14 @@ export let HViewColumns24Outline = {
   $_icon: {
     name: "ViewColumns",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["view","columns"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11780,13 +12356,14 @@ export let HViewfinderCircle24Outline = {
   $_icon: {
     name: "ViewfinderCircle",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["viewfinder","circle"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11800,13 +12377,14 @@ export let HWallet24Outline = {
   $_icon: {
     name: "Wallet",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["wallet"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11820,13 +12398,14 @@ export let HWifi24Outline = {
   $_icon: {
     name: "Wifi",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["wifi"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11840,13 +12419,14 @@ export let HWindow24Outline = {
   $_icon: {
     name: "Window",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["window"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11860,13 +12440,14 @@ export let HWrenchScrewdriver24Outline = {
   $_icon: {
     name: "WrenchScrewdriver",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["wrench","screwdriver"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11880,13 +12461,14 @@ export let HWrench24Outline = {
   $_icon: {
     name: "Wrench",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["wrench"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11904,13 +12486,14 @@ export let HXCircle24Outline = {
   $_icon: {
     name: "XCircle",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["x","circle"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11924,13 +12507,14 @@ export let HXMark24Outline = {
   $_icon: {
     name: "XMark",
     vendor: "H",
-    type: ["24","outline"],
+    license: "MIT",
+    type: ["24","Outline"],
     tags: ["x","mark"],
   },
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
@@ -11944,7 +12528,8 @@ export let HAcademicCap24Solid = {
   $_icon: {
     name: "AcademicCap",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["academic","cap"],
   },
   render() {
@@ -11972,7 +12557,8 @@ export let HAdjustmentsHorizontal24Solid = {
   $_icon: {
     name: "AdjustmentsHorizontal",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["adjustments","horizontal"],
   },
   render() {
@@ -11992,7 +12578,8 @@ export let HAdjustmentsVertical24Solid = {
   $_icon: {
     name: "AdjustmentsVertical",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["adjustments","vertical"],
   },
   render() {
@@ -12012,7 +12599,8 @@ export let HArchiveBoxArrowDown24Solid = {
   $_icon: {
     name: "ArchiveBoxArrowDown",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["archive","box","arrow","down"],
   },
   render() {
@@ -12036,7 +12624,8 @@ export let HArchiveBoxXMark24Solid = {
   $_icon: {
     name: "ArchiveBoxXMark",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["archive","box","x","mark"],
   },
   render() {
@@ -12060,7 +12649,8 @@ export let HArchiveBox24Solid = {
   $_icon: {
     name: "ArchiveBox",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["archive","box"],
   },
   render() {
@@ -12084,7 +12674,8 @@ export let HArrowDownCircle24Solid = {
   $_icon: {
     name: "ArrowDownCircle",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","down","circle"],
   },
   render() {
@@ -12104,7 +12695,8 @@ export let HArrowDownLeft24Solid = {
   $_icon: {
     name: "ArrowDownLeft",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","down","left"],
   },
   render() {
@@ -12124,7 +12716,8 @@ export let HArrowDownOnSquareStack24Solid = {
   $_icon: {
     name: "ArrowDownOnSquareStack",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","down","on","square","stack"],
   },
   render() {
@@ -12148,7 +12741,8 @@ export let HArrowDownOnSquare24Solid = {
   $_icon: {
     name: "ArrowDownOnSquare",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","down","on","square"],
   },
   render() {
@@ -12168,7 +12762,8 @@ export let HArrowDownRight24Solid = {
   $_icon: {
     name: "ArrowDownRight",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","down","right"],
   },
   render() {
@@ -12188,7 +12783,8 @@ export let HArrowDownTray24Solid = {
   $_icon: {
     name: "ArrowDownTray",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","down","tray"],
   },
   render() {
@@ -12208,7 +12804,8 @@ export let HArrowDown24Solid = {
   $_icon: {
     name: "ArrowDown",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","down"],
   },
   render() {
@@ -12228,7 +12825,8 @@ export let HArrowLeftCircle24Solid = {
   $_icon: {
     name: "ArrowLeftCircle",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","left","circle"],
   },
   render() {
@@ -12248,7 +12846,8 @@ export let HArrowLeftOnRectangle24Solid = {
   $_icon: {
     name: "ArrowLeftOnRectangle",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","left","on","rectangle"],
   },
   render() {
@@ -12268,7 +12867,8 @@ export let HArrowLeft24Solid = {
   $_icon: {
     name: "ArrowLeft",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","left"],
   },
   render() {
@@ -12288,7 +12888,8 @@ export let HArrowLongDown24Solid = {
   $_icon: {
     name: "ArrowLongDown",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","long","down"],
   },
   render() {
@@ -12308,7 +12909,8 @@ export let HArrowLongLeft24Solid = {
   $_icon: {
     name: "ArrowLongLeft",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","long","left"],
   },
   render() {
@@ -12328,7 +12930,8 @@ export let HArrowLongRight24Solid = {
   $_icon: {
     name: "ArrowLongRight",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","long","right"],
   },
   render() {
@@ -12348,7 +12951,8 @@ export let HArrowLongUp24Solid = {
   $_icon: {
     name: "ArrowLongUp",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","long","up"],
   },
   render() {
@@ -12368,7 +12972,8 @@ export let HArrowPathRoundedSquare24Solid = {
   $_icon: {
     name: "ArrowPathRoundedSquare",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","path","rounded","square"],
   },
   render() {
@@ -12388,7 +12993,8 @@ export let HArrowPath24Solid = {
   $_icon: {
     name: "ArrowPath",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","path"],
   },
   render() {
@@ -12408,7 +13014,8 @@ export let HArrowRightCircle24Solid = {
   $_icon: {
     name: "ArrowRightCircle",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","right","circle"],
   },
   render() {
@@ -12428,7 +13035,8 @@ export let HArrowRightOnRectangle24Solid = {
   $_icon: {
     name: "ArrowRightOnRectangle",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","right","on","rectangle"],
   },
   render() {
@@ -12448,7 +13056,8 @@ export let HArrowRight24Solid = {
   $_icon: {
     name: "ArrowRight",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","right"],
   },
   render() {
@@ -12468,7 +13077,8 @@ export let HArrowSmallDown24Solid = {
   $_icon: {
     name: "ArrowSmallDown",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","small","down"],
   },
   render() {
@@ -12488,7 +13098,8 @@ export let HArrowSmallLeft24Solid = {
   $_icon: {
     name: "ArrowSmallLeft",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","small","left"],
   },
   render() {
@@ -12508,7 +13119,8 @@ export let HArrowSmallRight24Solid = {
   $_icon: {
     name: "ArrowSmallRight",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","small","right"],
   },
   render() {
@@ -12528,7 +13140,8 @@ export let HArrowSmallUp24Solid = {
   $_icon: {
     name: "ArrowSmallUp",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","small","up"],
   },
   render() {
@@ -12548,7 +13161,8 @@ export let HArrowTopRightOnSquare24Solid = {
   $_icon: {
     name: "ArrowTopRightOnSquare",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","top","right","on","square"],
   },
   render() {
@@ -12568,7 +13182,8 @@ export let HArrowTrendingDown24Solid = {
   $_icon: {
     name: "ArrowTrendingDown",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","trending","down"],
   },
   render() {
@@ -12588,7 +13203,8 @@ export let HArrowTrendingUp24Solid = {
   $_icon: {
     name: "ArrowTrendingUp",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","trending","up"],
   },
   render() {
@@ -12608,7 +13224,8 @@ export let HArrowUpCircle24Solid = {
   $_icon: {
     name: "ArrowUpCircle",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","up","circle"],
   },
   render() {
@@ -12628,7 +13245,8 @@ export let HArrowUpLeft24Solid = {
   $_icon: {
     name: "ArrowUpLeft",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","up","left"],
   },
   render() {
@@ -12648,7 +13266,8 @@ export let HArrowUpOnSquareStack24Solid = {
   $_icon: {
     name: "ArrowUpOnSquareStack",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","up","on","square","stack"],
   },
   render() {
@@ -12672,7 +13291,8 @@ export let HArrowUpOnSquare24Solid = {
   $_icon: {
     name: "ArrowUpOnSquare",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","up","on","square"],
   },
   render() {
@@ -12692,7 +13312,8 @@ export let HArrowUpRight24Solid = {
   $_icon: {
     name: "ArrowUpRight",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","up","right"],
   },
   render() {
@@ -12712,7 +13333,8 @@ export let HArrowUpTray24Solid = {
   $_icon: {
     name: "ArrowUpTray",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","up","tray"],
   },
   render() {
@@ -12732,7 +13354,8 @@ export let HArrowUp24Solid = {
   $_icon: {
     name: "ArrowUp",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","up"],
   },
   render() {
@@ -12752,7 +13375,8 @@ export let HArrowUturnDown24Solid = {
   $_icon: {
     name: "ArrowUturnDown",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","uturn","down"],
   },
   render() {
@@ -12772,7 +13396,8 @@ export let HArrowUturnLeft24Solid = {
   $_icon: {
     name: "ArrowUturnLeft",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","uturn","left"],
   },
   render() {
@@ -12792,7 +13417,8 @@ export let HArrowUturnRight24Solid = {
   $_icon: {
     name: "ArrowUturnRight",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","uturn","right"],
   },
   render() {
@@ -12812,7 +13438,8 @@ export let HArrowUturnUp24Solid = {
   $_icon: {
     name: "ArrowUturnUp",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrow","uturn","up"],
   },
   render() {
@@ -12832,7 +13459,8 @@ export let HArrowsPointingIn24Solid = {
   $_icon: {
     name: "ArrowsPointingIn",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrows","pointing","in"],
   },
   render() {
@@ -12852,7 +13480,8 @@ export let HArrowsPointingOut24Solid = {
   $_icon: {
     name: "ArrowsPointingOut",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrows","pointing","out"],
   },
   render() {
@@ -12872,7 +13501,8 @@ export let HArrowsRightLeft24Solid = {
   $_icon: {
     name: "ArrowsRightLeft",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrows","right","left"],
   },
   render() {
@@ -12892,7 +13522,8 @@ export let HArrowsUpDown24Solid = {
   $_icon: {
     name: "ArrowsUpDown",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["arrows","up","down"],
   },
   render() {
@@ -12912,7 +13543,8 @@ export let HAtSymbol24Solid = {
   $_icon: {
     name: "AtSymbol",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["at","symbol"],
   },
   render() {
@@ -12932,7 +13564,8 @@ export let HBackspace24Solid = {
   $_icon: {
     name: "Backspace",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["backspace"],
   },
   render() {
@@ -12952,7 +13585,8 @@ export let HBackward24Solid = {
   $_icon: {
     name: "Backward",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["backward"],
   },
   render() {
@@ -12972,7 +13606,8 @@ export let HBanknotes24Solid = {
   $_icon: {
     name: "Banknotes",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["banknotes"],
   },
   render() {
@@ -13000,7 +13635,8 @@ export let HBars224Solid = {
   $_icon: {
     name: "Bars2",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["bars","2"],
   },
   render() {
@@ -13020,7 +13656,8 @@ export let HBars3BottomLeft24Solid = {
   $_icon: {
     name: "Bars3BottomLeft",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["bars","3","bottom","left"],
   },
   render() {
@@ -13040,7 +13677,8 @@ export let HBars3BottomRight24Solid = {
   $_icon: {
     name: "Bars3BottomRight",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["bars","3","bottom","right"],
   },
   render() {
@@ -13060,7 +13698,8 @@ export let HBars3CenterLeft24Solid = {
   $_icon: {
     name: "Bars3CenterLeft",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["bars","3","center","left"],
   },
   render() {
@@ -13080,7 +13719,8 @@ export let HBars324Solid = {
   $_icon: {
     name: "Bars3",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["bars","3"],
   },
   render() {
@@ -13100,7 +13740,8 @@ export let HBars424Solid = {
   $_icon: {
     name: "Bars4",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["bars","4"],
   },
   render() {
@@ -13120,7 +13761,8 @@ export let HBarsArrowDown24Solid = {
   $_icon: {
     name: "BarsArrowDown",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["bars","arrow","down"],
   },
   render() {
@@ -13140,7 +13782,8 @@ export let HBarsArrowUp24Solid = {
   $_icon: {
     name: "BarsArrowUp",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["bars","arrow","up"],
   },
   render() {
@@ -13160,7 +13803,8 @@ export let HBattery024Solid = {
   $_icon: {
     name: "Battery0",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["battery","0"],
   },
   render() {
@@ -13180,7 +13824,8 @@ export let HBattery10024Solid = {
   $_icon: {
     name: "Battery100",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["battery","100"],
   },
   render() {
@@ -13200,7 +13845,8 @@ export let HBattery5024Solid = {
   $_icon: {
     name: "Battery50",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["battery","50"],
   },
   render() {
@@ -13224,7 +13870,8 @@ export let HBeaker24Solid = {
   $_icon: {
     name: "Beaker",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["beaker"],
   },
   render() {
@@ -13244,7 +13891,8 @@ export let HBellAlert24Solid = {
   $_icon: {
     name: "BellAlert",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["bell","alert"],
   },
   render() {
@@ -13268,7 +13916,8 @@ export let HBellSlash24Solid = {
   $_icon: {
     name: "BellSlash",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["bell","slash"],
   },
   render() {
@@ -13292,7 +13941,8 @@ export let HBellSnooze24Solid = {
   $_icon: {
     name: "BellSnooze",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["bell","snooze"],
   },
   render() {
@@ -13312,7 +13962,8 @@ export let HBell24Solid = {
   $_icon: {
     name: "Bell",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["bell"],
   },
   render() {
@@ -13332,7 +13983,8 @@ export let HBoltSlash24Solid = {
   $_icon: {
     name: "BoltSlash",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["bolt","slash"],
   },
   render() {
@@ -13352,7 +14004,8 @@ export let HBolt24Solid = {
   $_icon: {
     name: "Bolt",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["bolt"],
   },
   render() {
@@ -13372,7 +14025,8 @@ export let HBookOpen24Solid = {
   $_icon: {
     name: "BookOpen",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["book","open"],
   },
   render() {
@@ -13392,7 +14046,8 @@ export let HBookmarkSlash24Solid = {
   $_icon: {
     name: "BookmarkSlash",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["bookmark","slash"],
   },
   render() {
@@ -13412,7 +14067,8 @@ export let HBookmarkSquare24Solid = {
   $_icon: {
     name: "BookmarkSquare",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["bookmark","square"],
   },
   render() {
@@ -13432,7 +14088,8 @@ export let HBookmark24Solid = {
   $_icon: {
     name: "Bookmark",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["bookmark"],
   },
   render() {
@@ -13452,7 +14109,8 @@ export let HBriefcase24Solid = {
   $_icon: {
     name: "Briefcase",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["briefcase"],
   },
   render() {
@@ -13476,7 +14134,8 @@ export let HBugAnt24Solid = {
   $_icon: {
     name: "BugAnt",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["bug","ant"],
   },
   render() {
@@ -13496,7 +14155,8 @@ export let HBuildingLibrary24Solid = {
   $_icon: {
     name: "BuildingLibrary",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["building","library"],
   },
   render() {
@@ -13524,7 +14184,8 @@ export let HBuildingOffice224Solid = {
   $_icon: {
     name: "BuildingOffice2",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["building","office","2"],
   },
   render() {
@@ -13544,7 +14205,8 @@ export let HBuildingOffice24Solid = {
   $_icon: {
     name: "BuildingOffice",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["building","office"],
   },
   render() {
@@ -13564,7 +14226,8 @@ export let HBuildingStorefront24Solid = {
   $_icon: {
     name: "BuildingStorefront",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["building","storefront"],
   },
   render() {
@@ -13588,7 +14251,8 @@ export let HCake24Solid = {
   $_icon: {
     name: "Cake",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["cake"],
   },
   render() {
@@ -13608,7 +14272,8 @@ export let HCalculator24Solid = {
   $_icon: {
     name: "Calculator",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["calculator"],
   },
   render() {
@@ -13628,7 +14293,8 @@ export let HCalendarDays24Solid = {
   $_icon: {
     name: "CalendarDays",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["calendar","days"],
   },
   render() {
@@ -13652,7 +14318,8 @@ export let HCalendar24Solid = {
   $_icon: {
     name: "Calendar",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["calendar"],
   },
   render() {
@@ -13672,7 +14339,8 @@ export let HCamera24Solid = {
   $_icon: {
     name: "Camera",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["camera"],
   },
   render() {
@@ -13696,7 +14364,8 @@ export let HChartBarSquare24Solid = {
   $_icon: {
     name: "ChartBarSquare",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["chart","bar","square"],
   },
   render() {
@@ -13716,7 +14385,8 @@ export let HChartBar24Solid = {
   $_icon: {
     name: "ChartBar",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["chart","bar"],
   },
   render() {
@@ -13736,7 +14406,8 @@ export let HChartPie24Solid = {
   $_icon: {
     name: "ChartPie",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["chart","pie"],
   },
   render() {
@@ -13760,7 +14431,8 @@ export let HChatBubbleBottomCenterText24Solid = {
   $_icon: {
     name: "ChatBubbleBottomCenterText",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["chat","bubble","bottom","center","text"],
   },
   render() {
@@ -13780,7 +14452,8 @@ export let HChatBubbleBottomCenter24Solid = {
   $_icon: {
     name: "ChatBubbleBottomCenter",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["chat","bubble","bottom","center"],
   },
   render() {
@@ -13800,7 +14473,8 @@ export let HChatBubbleLeftEllipsis24Solid = {
   $_icon: {
     name: "ChatBubbleLeftEllipsis",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["chat","bubble","left","ellipsis"],
   },
   render() {
@@ -13820,7 +14494,8 @@ export let HChatBubbleLeftRight24Solid = {
   $_icon: {
     name: "ChatBubbleLeftRight",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["chat","bubble","left","right"],
   },
   render() {
@@ -13844,7 +14519,8 @@ export let HChatBubbleLeft24Solid = {
   $_icon: {
     name: "ChatBubbleLeft",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["chat","bubble","left"],
   },
   render() {
@@ -13864,7 +14540,8 @@ export let HChatBubbleOvalLeftEllipsis24Solid = {
   $_icon: {
     name: "ChatBubbleOvalLeftEllipsis",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["chat","bubble","oval","left","ellipsis"],
   },
   render() {
@@ -13884,7 +14561,8 @@ export let HChatBubbleOvalLeft24Solid = {
   $_icon: {
     name: "ChatBubbleOvalLeft",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["chat","bubble","oval","left"],
   },
   render() {
@@ -13904,7 +14582,8 @@ export let HCheckBadge24Solid = {
   $_icon: {
     name: "CheckBadge",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["check","badge"],
   },
   render() {
@@ -13924,7 +14603,8 @@ export let HCheckCircle24Solid = {
   $_icon: {
     name: "CheckCircle",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["check","circle"],
   },
   render() {
@@ -13944,7 +14624,8 @@ export let HCheck24Solid = {
   $_icon: {
     name: "Check",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["check"],
   },
   render() {
@@ -13964,7 +14645,8 @@ export let HChevronDoubleDown24Solid = {
   $_icon: {
     name: "ChevronDoubleDown",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["chevron","double","down"],
   },
   render() {
@@ -13984,7 +14666,8 @@ export let HChevronDoubleLeft24Solid = {
   $_icon: {
     name: "ChevronDoubleLeft",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["chevron","double","left"],
   },
   render() {
@@ -14004,7 +14687,8 @@ export let HChevronDoubleRight24Solid = {
   $_icon: {
     name: "ChevronDoubleRight",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["chevron","double","right"],
   },
   render() {
@@ -14024,7 +14708,8 @@ export let HChevronDoubleUp24Solid = {
   $_icon: {
     name: "ChevronDoubleUp",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["chevron","double","up"],
   },
   render() {
@@ -14044,7 +14729,8 @@ export let HChevronDown24Solid = {
   $_icon: {
     name: "ChevronDown",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["chevron","down"],
   },
   render() {
@@ -14064,7 +14750,8 @@ export let HChevronLeft24Solid = {
   $_icon: {
     name: "ChevronLeft",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["chevron","left"],
   },
   render() {
@@ -14084,7 +14771,8 @@ export let HChevronRight24Solid = {
   $_icon: {
     name: "ChevronRight",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["chevron","right"],
   },
   render() {
@@ -14104,7 +14792,8 @@ export let HChevronUpDown24Solid = {
   $_icon: {
     name: "ChevronUpDown",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["chevron","up","down"],
   },
   render() {
@@ -14124,7 +14813,8 @@ export let HChevronUp24Solid = {
   $_icon: {
     name: "ChevronUp",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["chevron","up"],
   },
   render() {
@@ -14144,7 +14834,8 @@ export let HCircleStack24Solid = {
   $_icon: {
     name: "CircleStack",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["circle","stack"],
   },
   render() {
@@ -14176,7 +14867,8 @@ export let HClipboardDocumentCheck24Solid = {
   $_icon: {
     name: "ClipboardDocumentCheck",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["clipboard","document","check"],
   },
   render() {
@@ -14200,7 +14892,8 @@ export let HClipboardDocumentList24Solid = {
   $_icon: {
     name: "ClipboardDocumentList",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["clipboard","document","list"],
   },
   render() {
@@ -14224,7 +14917,8 @@ export let HClipboardDocument24Solid = {
   $_icon: {
     name: "ClipboardDocument",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["clipboard","document"],
   },
   render() {
@@ -14252,7 +14946,8 @@ export let HClipboard24Solid = {
   $_icon: {
     name: "Clipboard",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["clipboard"],
   },
   render() {
@@ -14272,7 +14967,8 @@ export let HClock24Solid = {
   $_icon: {
     name: "Clock",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["clock"],
   },
   render() {
@@ -14292,7 +14988,8 @@ export let HCloudArrowDown24Solid = {
   $_icon: {
     name: "CloudArrowDown",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["cloud","arrow","down"],
   },
   render() {
@@ -14312,7 +15009,8 @@ export let HCloudArrowUp24Solid = {
   $_icon: {
     name: "CloudArrowUp",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["cloud","arrow","up"],
   },
   render() {
@@ -14332,7 +15030,8 @@ export let HCloud24Solid = {
   $_icon: {
     name: "Cloud",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["cloud"],
   },
   render() {
@@ -14352,7 +15051,8 @@ export let HCodeBracketSquare24Solid = {
   $_icon: {
     name: "CodeBracketSquare",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["code","bracket","square"],
   },
   render() {
@@ -14372,7 +15072,8 @@ export let HCodeBracket24Solid = {
   $_icon: {
     name: "CodeBracket",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["code","bracket"],
   },
   render() {
@@ -14392,7 +15093,8 @@ export let HCog6Tooth24Solid = {
   $_icon: {
     name: "Cog6Tooth",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["cog","6","tooth"],
   },
   render() {
@@ -14412,7 +15114,8 @@ export let HCog8Tooth24Solid = {
   $_icon: {
     name: "Cog8Tooth",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["cog","8","tooth"],
   },
   render() {
@@ -14432,7 +15135,8 @@ export let HCog24Solid = {
   $_icon: {
     name: "Cog",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["cog"],
   },
   render() {
@@ -14456,7 +15160,8 @@ export let HCommandLine24Solid = {
   $_icon: {
     name: "CommandLine",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["command","line"],
   },
   render() {
@@ -14476,7 +15181,8 @@ export let HComputerDesktop24Solid = {
   $_icon: {
     name: "ComputerDesktop",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["computer","desktop"],
   },
   render() {
@@ -14496,7 +15202,8 @@ export let HCpuChip24Solid = {
   $_icon: {
     name: "CpuChip",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["cpu","chip"],
   },
   render() {
@@ -14520,7 +15227,8 @@ export let HCreditCard24Solid = {
   $_icon: {
     name: "CreditCard",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["credit","card"],
   },
   render() {
@@ -14544,7 +15252,8 @@ export let HCubeTransparent24Solid = {
   $_icon: {
     name: "CubeTransparent",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["cube","transparent"],
   },
   render() {
@@ -14564,7 +15273,8 @@ export let HCube24Solid = {
   $_icon: {
     name: "Cube",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["cube"],
   },
   render() {
@@ -14584,7 +15294,8 @@ export let HCurrencyBangladeshi24Solid = {
   $_icon: {
     name: "CurrencyBangladeshi",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["currency","bangladeshi"],
   },
   render() {
@@ -14604,7 +15315,8 @@ export let HCurrencyDollar24Solid = {
   $_icon: {
     name: "CurrencyDollar",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["currency","dollar"],
   },
   render() {
@@ -14628,7 +15340,8 @@ export let HCurrencyEuro24Solid = {
   $_icon: {
     name: "CurrencyEuro",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["currency","euro"],
   },
   render() {
@@ -14648,7 +15361,8 @@ export let HCurrencyPound24Solid = {
   $_icon: {
     name: "CurrencyPound",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["currency","pound"],
   },
   render() {
@@ -14668,7 +15382,8 @@ export let HCurrencyRupee24Solid = {
   $_icon: {
     name: "CurrencyRupee",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["currency","rupee"],
   },
   render() {
@@ -14688,7 +15403,8 @@ export let HCurrencyYen24Solid = {
   $_icon: {
     name: "CurrencyYen",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["currency","yen"],
   },
   render() {
@@ -14708,7 +15424,8 @@ export let HCursorArrowRays24Solid = {
   $_icon: {
     name: "CursorArrowRays",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["cursor","arrow","rays"],
   },
   render() {
@@ -14728,7 +15445,8 @@ export let HCursorArrowRipple24Solid = {
   $_icon: {
     name: "CursorArrowRipple",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["cursor","arrow","ripple"],
   },
   render() {
@@ -14748,7 +15466,8 @@ export let HDevicePhoneMobile24Solid = {
   $_icon: {
     name: "DevicePhoneMobile",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["device","phone","mobile"],
   },
   render() {
@@ -14772,7 +15491,8 @@ export let HDeviceTablet24Solid = {
   $_icon: {
     name: "DeviceTablet",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["device","tablet"],
   },
   render() {
@@ -14796,7 +15516,8 @@ export let HDocumentArrowDown24Solid = {
   $_icon: {
     name: "DocumentArrowDown",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["document","arrow","down"],
   },
   render() {
@@ -14820,7 +15541,8 @@ export let HDocumentArrowUp24Solid = {
   $_icon: {
     name: "DocumentArrowUp",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["document","arrow","up"],
   },
   render() {
@@ -14844,7 +15566,8 @@ export let HDocumentChartBar24Solid = {
   $_icon: {
     name: "DocumentChartBar",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["document","chart","bar"],
   },
   render() {
@@ -14868,7 +15591,8 @@ export let HDocumentCheck24Solid = {
   $_icon: {
     name: "DocumentCheck",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["document","check"],
   },
   render() {
@@ -14892,7 +15616,8 @@ export let HDocumentDuplicate24Solid = {
   $_icon: {
     name: "DocumentDuplicate",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["document","duplicate"],
   },
   render() {
@@ -14916,7 +15641,8 @@ export let HDocumentMagnifyingGlass24Solid = {
   $_icon: {
     name: "DocumentMagnifyingGlass",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["document","magnifying","glass"],
   },
   render() {
@@ -14944,7 +15670,8 @@ export let HDocumentMinus24Solid = {
   $_icon: {
     name: "DocumentMinus",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["document","minus"],
   },
   render() {
@@ -14968,7 +15695,8 @@ export let HDocumentPlus24Solid = {
   $_icon: {
     name: "DocumentPlus",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["document","plus"],
   },
   render() {
@@ -14992,7 +15720,8 @@ export let HDocumentText24Solid = {
   $_icon: {
     name: "DocumentText",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["document","text"],
   },
   render() {
@@ -15016,7 +15745,8 @@ export let HDocument24Solid = {
   $_icon: {
     name: "Document",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["document"],
   },
   render() {
@@ -15040,7 +15770,8 @@ export let HEllipsisHorizontalCircle24Solid = {
   $_icon: {
     name: "EllipsisHorizontalCircle",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["ellipsis","horizontal","circle"],
   },
   render() {
@@ -15060,7 +15791,8 @@ export let HEllipsisHorizontal24Solid = {
   $_icon: {
     name: "EllipsisHorizontal",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["ellipsis","horizontal"],
   },
   render() {
@@ -15080,7 +15812,8 @@ export let HEllipsisVertical24Solid = {
   $_icon: {
     name: "EllipsisVertical",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["ellipsis","vertical"],
   },
   render() {
@@ -15100,7 +15833,8 @@ export let HEnvelopeOpen24Solid = {
   $_icon: {
     name: "EnvelopeOpen",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["envelope","open"],
   },
   render() {
@@ -15124,7 +15858,8 @@ export let HEnvelope24Solid = {
   $_icon: {
     name: "Envelope",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["envelope"],
   },
   render() {
@@ -15148,7 +15883,8 @@ export let HExclamationCircle24Solid = {
   $_icon: {
     name: "ExclamationCircle",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["exclamation","circle"],
   },
   render() {
@@ -15168,7 +15904,8 @@ export let HExclamationTriangle24Solid = {
   $_icon: {
     name: "ExclamationTriangle",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["exclamation","triangle"],
   },
   render() {
@@ -15188,7 +15925,8 @@ export let HEyeDropper24Solid = {
   $_icon: {
     name: "EyeDropper",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["eye","dropper"],
   },
   render() {
@@ -15208,7 +15946,8 @@ export let HEyeSlash24Solid = {
   $_icon: {
     name: "EyeSlash",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["eye","slash"],
   },
   render() {
@@ -15236,7 +15975,8 @@ export let HEye24Solid = {
   $_icon: {
     name: "Eye",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["eye"],
   },
   render() {
@@ -15260,7 +16000,8 @@ export let HFaceFrown24Solid = {
   $_icon: {
     name: "FaceFrown",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["face","frown"],
   },
   render() {
@@ -15280,7 +16021,8 @@ export let HFaceSmile24Solid = {
   $_icon: {
     name: "FaceSmile",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["face","smile"],
   },
   render() {
@@ -15300,7 +16042,8 @@ export let HFilm24Solid = {
   $_icon: {
     name: "Film",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["film"],
   },
   render() {
@@ -15320,7 +16063,8 @@ export let HFingerPrint24Solid = {
   $_icon: {
     name: "FingerPrint",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["finger","print"],
   },
   render() {
@@ -15340,7 +16084,8 @@ export let HFire24Solid = {
   $_icon: {
     name: "Fire",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["fire"],
   },
   render() {
@@ -15360,7 +16105,8 @@ export let HFlag24Solid = {
   $_icon: {
     name: "Flag",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["flag"],
   },
   render() {
@@ -15380,7 +16126,8 @@ export let HFolderArrowDown24Solid = {
   $_icon: {
     name: "FolderArrowDown",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["folder","arrow","down"],
   },
   render() {
@@ -15400,7 +16147,8 @@ export let HFolderMinus24Solid = {
   $_icon: {
     name: "FolderMinus",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["folder","minus"],
   },
   render() {
@@ -15420,7 +16168,8 @@ export let HFolderOpen24Solid = {
   $_icon: {
     name: "FolderOpen",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["folder","open"],
   },
   render() {
@@ -15440,7 +16189,8 @@ export let HFolderPlus24Solid = {
   $_icon: {
     name: "FolderPlus",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["folder","plus"],
   },
   render() {
@@ -15460,7 +16210,8 @@ export let HFolder24Solid = {
   $_icon: {
     name: "Folder",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["folder"],
   },
   render() {
@@ -15480,7 +16231,8 @@ export let HForward24Solid = {
   $_icon: {
     name: "Forward",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["forward"],
   },
   render() {
@@ -15500,7 +16252,8 @@ export let HFunnel24Solid = {
   $_icon: {
     name: "Funnel",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["funnel"],
   },
   render() {
@@ -15520,7 +16273,8 @@ export let HGif24Solid = {
   $_icon: {
     name: "Gif",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["gif"],
   },
   render() {
@@ -15540,7 +16294,8 @@ export let HGiftTop24Solid = {
   $_icon: {
     name: "GiftTop",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["gift","top"],
   },
   render() {
@@ -15564,7 +16319,8 @@ export let HGift24Solid = {
   $_icon: {
     name: "Gift",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["gift"],
   },
   render() {
@@ -15584,7 +16340,8 @@ export let HGlobeAlt24Solid = {
   $_icon: {
     name: "GlobeAlt",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["globe","alt"],
   },
   render() {
@@ -15604,7 +16361,8 @@ export let HGlobeAmericas24Solid = {
   $_icon: {
     name: "GlobeAmericas",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["globe","americas"],
   },
   render() {
@@ -15624,7 +16382,8 @@ export let HGlobeAsiaAustralia24Solid = {
   $_icon: {
     name: "GlobeAsiaAustralia",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["globe","asia","australia"],
   },
   render() {
@@ -15648,7 +16407,8 @@ export let HGlobeEuropeAfrica24Solid = {
   $_icon: {
     name: "GlobeEuropeAfrica",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["globe","europe","africa"],
   },
   render() {
@@ -15668,7 +16428,8 @@ export let HHandRaised24Solid = {
   $_icon: {
     name: "HandRaised",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["hand","raised"],
   },
   render() {
@@ -15688,7 +16449,8 @@ export let HHandThumbDown24Solid = {
   $_icon: {
     name: "HandThumbDown",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["hand","thumb","down"],
   },
   render() {
@@ -15708,7 +16470,8 @@ export let HHandThumbUp24Solid = {
   $_icon: {
     name: "HandThumbUp",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["hand","thumb","up"],
   },
   render() {
@@ -15728,7 +16491,8 @@ export let HHashtag24Solid = {
   $_icon: {
     name: "Hashtag",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["hashtag"],
   },
   render() {
@@ -15748,7 +16512,8 @@ export let HHeart24Solid = {
   $_icon: {
     name: "Heart",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["heart"],
   },
   render() {
@@ -15768,7 +16533,8 @@ export let HHomeModern24Solid = {
   $_icon: {
     name: "HomeModern",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["home","modern"],
   },
   render() {
@@ -15792,7 +16558,8 @@ export let HHome24Solid = {
   $_icon: {
     name: "Home",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["home"],
   },
   render() {
@@ -15816,7 +16583,8 @@ export let HIdentification24Solid = {
   $_icon: {
     name: "Identification",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["identification"],
   },
   render() {
@@ -15836,7 +16604,8 @@ export let HInboxArrowDown24Solid = {
   $_icon: {
     name: "InboxArrowDown",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["inbox","arrow","down"],
   },
   render() {
@@ -15860,7 +16629,8 @@ export let HInboxStack24Solid = {
   $_icon: {
     name: "InboxStack",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["inbox","stack"],
   },
   render() {
@@ -15884,7 +16654,8 @@ export let HInbox24Solid = {
   $_icon: {
     name: "Inbox",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["inbox"],
   },
   render() {
@@ -15904,7 +16675,8 @@ export let HInformationCircle24Solid = {
   $_icon: {
     name: "InformationCircle",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["information","circle"],
   },
   render() {
@@ -15924,7 +16696,8 @@ export let HKey24Solid = {
   $_icon: {
     name: "Key",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["key"],
   },
   render() {
@@ -15944,7 +16717,8 @@ export let HLanguage24Solid = {
   $_icon: {
     name: "Language",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["language"],
   },
   render() {
@@ -15964,7 +16738,8 @@ export let HLifebuoy24Solid = {
   $_icon: {
     name: "Lifebuoy",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["lifebuoy"],
   },
   render() {
@@ -15984,7 +16759,8 @@ export let HLightBulb24Solid = {
   $_icon: {
     name: "LightBulb",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["light","bulb"],
   },
   render() {
@@ -16008,7 +16784,8 @@ export let HLink24Solid = {
   $_icon: {
     name: "Link",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["link"],
   },
   render() {
@@ -16028,7 +16805,8 @@ export let HListBullet24Solid = {
   $_icon: {
     name: "ListBullet",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["list","bullet"],
   },
   render() {
@@ -16048,7 +16826,8 @@ export let HLockClosed24Solid = {
   $_icon: {
     name: "LockClosed",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["lock","closed"],
   },
   render() {
@@ -16068,7 +16847,8 @@ export let HLockOpen24Solid = {
   $_icon: {
     name: "LockOpen",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["lock","open"],
   },
   render() {
@@ -16088,7 +16868,8 @@ export let HMagnifyingGlassCircle24Solid = {
   $_icon: {
     name: "MagnifyingGlassCircle",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["magnifying","glass","circle"],
   },
   render() {
@@ -16112,7 +16893,8 @@ export let HMagnifyingGlassMinus24Solid = {
   $_icon: {
     name: "MagnifyingGlassMinus",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["magnifying","glass","minus"],
   },
   render() {
@@ -16132,7 +16914,8 @@ export let HMagnifyingGlassPlus24Solid = {
   $_icon: {
     name: "MagnifyingGlassPlus",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["magnifying","glass","plus"],
   },
   render() {
@@ -16152,7 +16935,8 @@ export let HMagnifyingGlass24Solid = {
   $_icon: {
     name: "MagnifyingGlass",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["magnifying","glass"],
   },
   render() {
@@ -16172,7 +16956,8 @@ export let HMapPin24Solid = {
   $_icon: {
     name: "MapPin",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["map","pin"],
   },
   render() {
@@ -16192,7 +16977,8 @@ export let HMap24Solid = {
   $_icon: {
     name: "Map",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["map"],
   },
   render() {
@@ -16212,7 +16998,8 @@ export let HMegaphone24Solid = {
   $_icon: {
     name: "Megaphone",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["megaphone"],
   },
   render() {
@@ -16232,7 +17019,8 @@ export let HMicrophone24Solid = {
   $_icon: {
     name: "Microphone",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["microphone"],
   },
   render() {
@@ -16256,7 +17044,8 @@ export let HMinusCircle24Solid = {
   $_icon: {
     name: "MinusCircle",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["minus","circle"],
   },
   render() {
@@ -16276,7 +17065,8 @@ export let HMinusSmall24Solid = {
   $_icon: {
     name: "MinusSmall",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["minus","small"],
   },
   render() {
@@ -16296,7 +17086,8 @@ export let HMinus24Solid = {
   $_icon: {
     name: "Minus",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["minus"],
   },
   render() {
@@ -16316,7 +17107,8 @@ export let HMoon24Solid = {
   $_icon: {
     name: "Moon",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["moon"],
   },
   render() {
@@ -16336,7 +17128,8 @@ export let HMusicalNote24Solid = {
   $_icon: {
     name: "MusicalNote",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["musical","note"],
   },
   render() {
@@ -16356,7 +17149,8 @@ export let HNewspaper24Solid = {
   $_icon: {
     name: "Newspaper",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["newspaper"],
   },
   render() {
@@ -16380,7 +17174,8 @@ export let HNoSymbol24Solid = {
   $_icon: {
     name: "NoSymbol",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["no","symbol"],
   },
   render() {
@@ -16400,7 +17195,8 @@ export let HPaintBrush24Solid = {
   $_icon: {
     name: "PaintBrush",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["paint","brush"],
   },
   render() {
@@ -16420,7 +17216,8 @@ export let HPaperAirplane24Solid = {
   $_icon: {
     name: "PaperAirplane",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["paper","airplane"],
   },
   render() {
@@ -16440,7 +17237,8 @@ export let HPaperClip24Solid = {
   $_icon: {
     name: "PaperClip",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["paper","clip"],
   },
   render() {
@@ -16460,7 +17258,8 @@ export let HPauseCircle24Solid = {
   $_icon: {
     name: "PauseCircle",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["pause","circle"],
   },
   render() {
@@ -16480,7 +17279,8 @@ export let HPause24Solid = {
   $_icon: {
     name: "Pause",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["pause"],
   },
   render() {
@@ -16500,7 +17300,8 @@ export let HPencilSquare24Solid = {
   $_icon: {
     name: "PencilSquare",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["pencil","square"],
   },
   render() {
@@ -16524,7 +17325,8 @@ export let HPencil24Solid = {
   $_icon: {
     name: "Pencil",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["pencil"],
   },
   render() {
@@ -16544,7 +17346,8 @@ export let HPhoneArrowDownLeft24Solid = {
   $_icon: {
     name: "PhoneArrowDownLeft",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["phone","arrow","down","left"],
   },
   render() {
@@ -16568,7 +17371,8 @@ export let HPhoneArrowUpRight24Solid = {
   $_icon: {
     name: "PhoneArrowUpRight",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["phone","arrow","up","right"],
   },
   render() {
@@ -16592,7 +17396,8 @@ export let HPhoneXMark24Solid = {
   $_icon: {
     name: "PhoneXMark",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["phone","x","mark"],
   },
   render() {
@@ -16612,7 +17417,8 @@ export let HPhone24Solid = {
   $_icon: {
     name: "Phone",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["phone"],
   },
   render() {
@@ -16632,7 +17438,8 @@ export let HPhoto24Solid = {
   $_icon: {
     name: "Photo",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["photo"],
   },
   render() {
@@ -16652,7 +17459,8 @@ export let HPlayCircle24Solid = {
   $_icon: {
     name: "PlayCircle",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["play","circle"],
   },
   render() {
@@ -16672,7 +17480,8 @@ export let HPlayPause24Solid = {
   $_icon: {
     name: "PlayPause",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["play","pause"],
   },
   render() {
@@ -16692,7 +17501,8 @@ export let HPlay24Solid = {
   $_icon: {
     name: "Play",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["play"],
   },
   render() {
@@ -16712,7 +17522,8 @@ export let HPlusCircle24Solid = {
   $_icon: {
     name: "PlusCircle",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["plus","circle"],
   },
   render() {
@@ -16732,7 +17543,8 @@ export let HPlusSmall24Solid = {
   $_icon: {
     name: "PlusSmall",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["plus","small"],
   },
   render() {
@@ -16752,7 +17564,8 @@ export let HPlus24Solid = {
   $_icon: {
     name: "Plus",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["plus"],
   },
   render() {
@@ -16772,7 +17585,8 @@ export let HPower24Solid = {
   $_icon: {
     name: "Power",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["power"],
   },
   render() {
@@ -16792,7 +17606,8 @@ export let HPresentationChartBar24Solid = {
   $_icon: {
     name: "PresentationChartBar",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["presentation","chart","bar"],
   },
   render() {
@@ -16812,7 +17627,8 @@ export let HPresentationChartLine24Solid = {
   $_icon: {
     name: "PresentationChartLine",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["presentation","chart","line"],
   },
   render() {
@@ -16832,7 +17648,8 @@ export let HPrinter24Solid = {
   $_icon: {
     name: "Printer",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["printer"],
   },
   render() {
@@ -16852,7 +17669,8 @@ export let HPuzzlePiece24Solid = {
   $_icon: {
     name: "PuzzlePiece",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["puzzle","piece"],
   },
   render() {
@@ -16872,7 +17690,8 @@ export let HQrCode24Solid = {
   $_icon: {
     name: "QrCode",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["qr","code"],
   },
   render() {
@@ -16892,7 +17711,8 @@ export let HQuestionMarkCircle24Solid = {
   $_icon: {
     name: "QuestionMarkCircle",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["question","mark","circle"],
   },
   render() {
@@ -16912,7 +17732,8 @@ export let HQueueList24Solid = {
   $_icon: {
     name: "QueueList",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["queue","list"],
   },
   render() {
@@ -16932,7 +17753,8 @@ export let HRadio24Solid = {
   $_icon: {
     name: "Radio",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["radio"],
   },
   render() {
@@ -16952,7 +17774,8 @@ export let HReceiptPercent24Solid = {
   $_icon: {
     name: "ReceiptPercent",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["receipt","percent"],
   },
   render() {
@@ -16972,7 +17795,8 @@ export let HReceiptRefund24Solid = {
   $_icon: {
     name: "ReceiptRefund",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["receipt","refund"],
   },
   render() {
@@ -16992,7 +17816,8 @@ export let HRectangleGroup24Solid = {
   $_icon: {
     name: "RectangleGroup",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["rectangle","group"],
   },
   render() {
@@ -17012,7 +17837,8 @@ export let HRectangleStack24Solid = {
   $_icon: {
     name: "RectangleStack",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["rectangle","stack"],
   },
   render() {
@@ -17032,7 +17858,8 @@ export let HRocketLaunch24Solid = {
   $_icon: {
     name: "RocketLaunch",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["rocket","launch"],
   },
   render() {
@@ -17056,7 +17883,8 @@ export let HRss24Solid = {
   $_icon: {
     name: "Rss",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["rss"],
   },
   render() {
@@ -17076,7 +17904,8 @@ export let HScale24Solid = {
   $_icon: {
     name: "Scale",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["scale"],
   },
   render() {
@@ -17096,7 +17925,8 @@ export let HScissors24Solid = {
   $_icon: {
     name: "Scissors",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["scissors"],
   },
   render() {
@@ -17120,7 +17950,8 @@ export let HServerStack24Solid = {
   $_icon: {
     name: "ServerStack",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["server","stack"],
   },
   render() {
@@ -17144,7 +17975,8 @@ export let HServer24Solid = {
   $_icon: {
     name: "Server",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["server"],
   },
   render() {
@@ -17168,7 +18000,8 @@ export let HShare24Solid = {
   $_icon: {
     name: "Share",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["share"],
   },
   render() {
@@ -17188,7 +18021,8 @@ export let HShieldCheck24Solid = {
   $_icon: {
     name: "ShieldCheck",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["shield","check"],
   },
   render() {
@@ -17208,7 +18042,8 @@ export let HShieldExclamation24Solid = {
   $_icon: {
     name: "ShieldExclamation",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["shield","exclamation"],
   },
   render() {
@@ -17228,7 +18063,8 @@ export let HShoppingBag24Solid = {
   $_icon: {
     name: "ShoppingBag",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["shopping","bag"],
   },
   render() {
@@ -17248,7 +18084,8 @@ export let HShoppingCart24Solid = {
   $_icon: {
     name: "ShoppingCart",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["shopping","cart"],
   },
   render() {
@@ -17268,7 +18105,8 @@ export let HSignalSlash24Solid = {
   $_icon: {
     name: "SignalSlash",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["signal","slash"],
   },
   render() {
@@ -17288,7 +18126,8 @@ export let HSignal24Solid = {
   $_icon: {
     name: "Signal",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["signal"],
   },
   render() {
@@ -17308,7 +18147,8 @@ export let HSparkles24Solid = {
   $_icon: {
     name: "Sparkles",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["sparkles"],
   },
   render() {
@@ -17328,7 +18168,8 @@ export let HSpeakerWave24Solid = {
   $_icon: {
     name: "SpeakerWave",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["speaker","wave"],
   },
   render() {
@@ -17352,7 +18193,8 @@ export let HSpeakerXMark24Solid = {
   $_icon: {
     name: "SpeakerXMark",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["speaker","x","mark"],
   },
   render() {
@@ -17372,7 +18214,8 @@ export let HSquare2Stack24Solid = {
   $_icon: {
     name: "Square2Stack",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["square","2","stack"],
   },
   render() {
@@ -17396,7 +18239,8 @@ export let HSquare3Stack3d24Solid = {
   $_icon: {
     name: "Square3Stack3d",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["square","3","stack","3d"],
   },
   render() {
@@ -17424,7 +18268,8 @@ export let HSquares2x224Solid = {
   $_icon: {
     name: "Squares2x2",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["squares","2x2"],
   },
   render() {
@@ -17444,7 +18289,8 @@ export let HSquaresPlus24Solid = {
   $_icon: {
     name: "SquaresPlus",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["squares","plus"],
   },
   render() {
@@ -17464,7 +18310,8 @@ export let HStar24Solid = {
   $_icon: {
     name: "Star",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["star"],
   },
   render() {
@@ -17484,7 +18331,8 @@ export let HStopCircle24Solid = {
   $_icon: {
     name: "StopCircle",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["stop","circle"],
   },
   render() {
@@ -17504,7 +18352,8 @@ export let HStop24Solid = {
   $_icon: {
     name: "Stop",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["stop"],
   },
   render() {
@@ -17524,7 +18373,8 @@ export let HSun24Solid = {
   $_icon: {
     name: "Sun",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["sun"],
   },
   render() {
@@ -17544,7 +18394,8 @@ export let HSwatch24Solid = {
   $_icon: {
     name: "Swatch",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["swatch"],
   },
   render() {
@@ -17568,7 +18419,8 @@ export let HTableCells24Solid = {
   $_icon: {
     name: "TableCells",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["table","cells"],
   },
   render() {
@@ -17588,7 +18440,8 @@ export let HTag24Solid = {
   $_icon: {
     name: "Tag",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["tag"],
   },
   render() {
@@ -17608,7 +18461,8 @@ export let HTicket24Solid = {
   $_icon: {
     name: "Ticket",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["ticket"],
   },
   render() {
@@ -17628,7 +18482,8 @@ export let HTrash24Solid = {
   $_icon: {
     name: "Trash",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["trash"],
   },
   render() {
@@ -17648,7 +18503,8 @@ export let HTrophy24Solid = {
   $_icon: {
     name: "Trophy",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["trophy"],
   },
   render() {
@@ -17668,7 +18524,8 @@ export let HTruck24Solid = {
   $_icon: {
     name: "Truck",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["truck"],
   },
   render() {
@@ -17696,7 +18553,8 @@ export let HTv24Solid = {
   $_icon: {
     name: "Tv",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["tv"],
   },
   render() {
@@ -17720,7 +18578,8 @@ export let HUserCircle24Solid = {
   $_icon: {
     name: "UserCircle",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["user","circle"],
   },
   render() {
@@ -17740,7 +18599,8 @@ export let HUserGroup24Solid = {
   $_icon: {
     name: "UserGroup",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["user","group"],
   },
   render() {
@@ -17764,7 +18624,8 @@ export let HUserMinus24Solid = {
   $_icon: {
     name: "UserMinus",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["user","minus"],
   },
   render() {
@@ -17784,7 +18645,8 @@ export let HUserPlus24Solid = {
   $_icon: {
     name: "UserPlus",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["user","plus"],
   },
   render() {
@@ -17804,7 +18666,8 @@ export let HUser24Solid = {
   $_icon: {
     name: "User",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["user"],
   },
   render() {
@@ -17824,7 +18687,8 @@ export let HUsers24Solid = {
   $_icon: {
     name: "Users",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["users"],
   },
   render() {
@@ -17844,7 +18708,8 @@ export let HVariable24Solid = {
   $_icon: {
     name: "Variable",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["variable"],
   },
   render() {
@@ -17864,7 +18729,8 @@ export let HVideoCameraSlash24Solid = {
   $_icon: {
     name: "VideoCameraSlash",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["video","camera","slash"],
   },
   render() {
@@ -17884,7 +18750,8 @@ export let HVideoCamera24Solid = {
   $_icon: {
     name: "VideoCamera",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["video","camera"],
   },
   render() {
@@ -17904,7 +18771,8 @@ export let HViewColumns24Solid = {
   $_icon: {
     name: "ViewColumns",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["view","columns"],
   },
   render() {
@@ -17924,7 +18792,8 @@ export let HViewfinderCircle24Solid = {
   $_icon: {
     name: "ViewfinderCircle",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["viewfinder","circle"],
   },
   render() {
@@ -17944,7 +18813,8 @@ export let HWallet24Solid = {
   $_icon: {
     name: "Wallet",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["wallet"],
   },
   render() {
@@ -17964,7 +18834,8 @@ export let HWifi24Solid = {
   $_icon: {
     name: "Wifi",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["wifi"],
   },
   render() {
@@ -17984,7 +18855,8 @@ export let HWindow24Solid = {
   $_icon: {
     name: "Window",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["window"],
   },
   render() {
@@ -18004,7 +18876,8 @@ export let HWrenchScrewdriver24Solid = {
   $_icon: {
     name: "WrenchScrewdriver",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["wrench","screwdriver"],
   },
   render() {
@@ -18032,7 +18905,8 @@ export let HWrench24Solid = {
   $_icon: {
     name: "Wrench",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["wrench"],
   },
   render() {
@@ -18052,7 +18926,8 @@ export let HXCircle24Solid = {
   $_icon: {
     name: "XCircle",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["x","circle"],
   },
   render() {
@@ -18072,7 +18947,8 @@ export let HXMark24Solid = {
   $_icon: {
     name: "XMark",
     vendor: "H",
-    type: ["24","solid"],
+    license: "MIT",
+    type: ["24","Solid"],
     tags: ["x","mark"],
   },
   render() {

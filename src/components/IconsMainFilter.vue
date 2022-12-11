@@ -11,22 +11,14 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import { ref } from "vue";
 import { useStore } from "../composition/useStore";
 import { useDebounce } from "@vueuse/core";
 
-export default {
-  setup() {
-    let store = useStore();
+let store = useStore();
 
-    let filter = ref("");
+let filter = ref("");
 
-    store.filter = useDebounce(filter, 200);
-
-    return {
-      filter,
-    };
-  },
-};
+store.filter = useDebounce(filter, 200);
 </script>
