@@ -25,19 +25,10 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import { useStore } from "../composition/useStore";
 
-export default {
-  props: {},
-  setup() {
-    let store = useStore();
-
-    return {
-      store,
-    };
-  },
-};
+let store = useStore();
 </script>
 
 <style scoped></style>

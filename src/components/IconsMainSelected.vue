@@ -22,7 +22,7 @@
             <component
               :is="icon"
               class="text-gray-600 dark:text-gray-400"
-              :class="iconSizeClasses[store.size]"
+              :class="iconSizeClasses"
             ></component>
           </div>
         </template>
@@ -32,18 +32,20 @@
 </template>
 
 <script setup>
-import { ref, watch } from "vue";
+import { ref, computed, watch } from "vue";
 import { useStore } from "../composition/useStore";
 
 let store = useStore();
 
 let hoveredIcon = ref(null);
 
-let iconSizeClasses = {
-  sm: "h-6 w-6 m-2",
-  md: "h-7 w-7 m-2",
-  lg: "h-10 w-10 m-3",
-};
+let iconSizeClasses = computed(() => {
+  return {
+    "h-6 w-6 m-2": store.size === "sm",
+    "h-7 w-7 m-2": store.size === "md",
+    "h-10 w-10 m-3": store.size === "lg",
+  };
+});
 
 watch(store.selectedIcons, () => {
   if (!store.selectedIcons.length) store.currentIconDemo = null;

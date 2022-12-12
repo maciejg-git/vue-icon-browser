@@ -4,7 +4,6 @@ export let Fa42GroupBrands = {
   $_icon: {
     name: "42Group",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["42","group"],
   },
@@ -25,7 +24,6 @@ export let Fa500pxBrands = {
   $_icon: {
     name: "500px",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["500px"],
   },
@@ -46,7 +44,6 @@ export let FaAccessibleIconBrands = {
   $_icon: {
     name: "AccessibleIcon",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["accessible","icon"],
   },
@@ -67,7 +64,6 @@ export let FaAccusoftBrands = {
   $_icon: {
     name: "Accusoft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["accusoft"],
   },
@@ -88,7 +84,6 @@ export let FaAdnBrands = {
   $_icon: {
     name: "Adn",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["adn"],
   },
@@ -109,7 +104,6 @@ export let FaAdversalBrands = {
   $_icon: {
     name: "Adversal",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["adversal"],
   },
@@ -130,7 +124,6 @@ export let FaAffiliatethemeBrands = {
   $_icon: {
     name: "Affiliatetheme",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["affiliatetheme"],
   },
@@ -151,7 +144,6 @@ export let FaAirbnbBrands = {
   $_icon: {
     name: "Airbnb",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["airbnb"],
   },
@@ -172,7 +164,6 @@ export let FaAlgoliaBrands = {
   $_icon: {
     name: "Algolia",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["algolia"],
   },
@@ -193,7 +184,6 @@ export let FaAlipayBrands = {
   $_icon: {
     name: "Alipay",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["alipay"],
   },
@@ -214,7 +204,6 @@ export let FaAmazonPayBrands = {
   $_icon: {
     name: "AmazonPay",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["amazon","pay"],
   },
@@ -235,7 +224,6 @@ export let FaAmazonBrands = {
   $_icon: {
     name: "Amazon",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["amazon"],
   },
@@ -256,7 +244,6 @@ export let FaAmiliaBrands = {
   $_icon: {
     name: "Amilia",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["amilia"],
   },
@@ -277,7 +264,6 @@ export let FaAndroidBrands = {
   $_icon: {
     name: "Android",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["android"],
   },
@@ -298,7 +284,6 @@ export let FaAngellistBrands = {
   $_icon: {
     name: "Angellist",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["angellist"],
   },
@@ -319,7 +304,6 @@ export let FaAngrycreativeBrands = {
   $_icon: {
     name: "Angrycreative",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["angrycreative"],
   },
@@ -340,7 +324,6 @@ export let FaAngularBrands = {
   $_icon: {
     name: "Angular",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["angular"],
   },
@@ -361,7 +344,6 @@ export let FaAppStoreIosBrands = {
   $_icon: {
     name: "AppStoreIos",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["app","store","ios"],
   },
@@ -382,7 +364,6 @@ export let FaAppStoreBrands = {
   $_icon: {
     name: "AppStore",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["app","store"],
   },
@@ -403,7 +384,6 @@ export let FaApperBrands = {
   $_icon: {
     name: "Apper",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["apper"],
   },
@@ -424,7 +404,6 @@ export let FaApplePayBrands = {
   $_icon: {
     name: "ApplePay",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["apple","pay"],
   },
@@ -445,7 +424,6 @@ export let FaAppleBrands = {
   $_icon: {
     name: "Apple",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["apple"],
   },
@@ -466,7 +444,6 @@ export let FaArtstationBrands = {
   $_icon: {
     name: "Artstation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["artstation"],
   },
@@ -487,7 +464,6 @@ export let FaAsymmetrikBrands = {
   $_icon: {
     name: "Asymmetrik",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["asymmetrik"],
   },
@@ -508,7 +484,6 @@ export let FaAtlassianBrands = {
   $_icon: {
     name: "Atlassian",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["atlassian"],
   },
@@ -529,7 +504,6 @@ export let FaAudibleBrands = {
   $_icon: {
     name: "Audible",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["audible"],
   },
@@ -550,7 +524,6 @@ export let FaAutoprefixerBrands = {
   $_icon: {
     name: "Autoprefixer",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["autoprefixer"],
   },
@@ -571,7 +544,6 @@ export let FaAvianexBrands = {
   $_icon: {
     name: "Avianex",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["avianex"],
   },
@@ -592,7 +564,6 @@ export let FaAviatoBrands = {
   $_icon: {
     name: "Aviato",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["aviato"],
   },
@@ -613,7 +584,6 @@ export let FaAwsBrands = {
   $_icon: {
     name: "Aws",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["aws"],
   },
@@ -634,7 +604,6 @@ export let FaBandcampBrands = {
   $_icon: {
     name: "Bandcamp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["bandcamp"],
   },
@@ -655,7 +624,6 @@ export let FaBattleNetBrands = {
   $_icon: {
     name: "BattleNet",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["battle","net"],
   },
@@ -676,7 +644,6 @@ export let FaBehanceBrands = {
   $_icon: {
     name: "Behance",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["behance"],
   },
@@ -697,7 +664,6 @@ export let FaBilibiliBrands = {
   $_icon: {
     name: "Bilibili",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["bilibili"],
   },
@@ -718,7 +684,6 @@ export let FaBimobjectBrands = {
   $_icon: {
     name: "Bimobject",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["bimobject"],
   },
@@ -739,7 +704,6 @@ export let FaBitbucketBrands = {
   $_icon: {
     name: "Bitbucket",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["bitbucket"],
   },
@@ -760,7 +724,6 @@ export let FaBitcoinBrands = {
   $_icon: {
     name: "Bitcoin",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["bitcoin"],
   },
@@ -781,7 +744,6 @@ export let FaBityBrands = {
   $_icon: {
     name: "Bity",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["bity"],
   },
@@ -802,7 +764,6 @@ export let FaBlackTieBrands = {
   $_icon: {
     name: "BlackTie",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["black","tie"],
   },
@@ -823,7 +784,6 @@ export let FaBlackberryBrands = {
   $_icon: {
     name: "Blackberry",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["blackberry"],
   },
@@ -844,7 +804,6 @@ export let FaBloggerBBrands = {
   $_icon: {
     name: "BloggerB",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["blogger","b"],
   },
@@ -865,7 +824,6 @@ export let FaBloggerBrands = {
   $_icon: {
     name: "Blogger",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["blogger"],
   },
@@ -886,7 +844,6 @@ export let FaBluetoothBBrands = {
   $_icon: {
     name: "BluetoothB",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["bluetooth","b"],
   },
@@ -907,7 +864,6 @@ export let FaBluetoothBrands = {
   $_icon: {
     name: "Bluetooth",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["bluetooth"],
   },
@@ -928,7 +884,6 @@ export let FaBootstrapBrands = {
   $_icon: {
     name: "Bootstrap",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["bootstrap"],
   },
@@ -949,7 +904,6 @@ export let FaBotsBrands = {
   $_icon: {
     name: "Bots",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["bots"],
   },
@@ -970,7 +924,6 @@ export let FaBtcBrands = {
   $_icon: {
     name: "Btc",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["btc"],
   },
@@ -991,7 +944,6 @@ export let FaBufferBrands = {
   $_icon: {
     name: "Buffer",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["buffer"],
   },
@@ -1012,7 +964,6 @@ export let FaBuromobelexperteBrands = {
   $_icon: {
     name: "Buromobelexperte",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["buromobelexperte"],
   },
@@ -1033,7 +984,6 @@ export let FaBuyNLargeBrands = {
   $_icon: {
     name: "BuyNLarge",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["buy","n","large"],
   },
@@ -1054,7 +1004,6 @@ export let FaBuyselladsBrands = {
   $_icon: {
     name: "Buysellads",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["buysellads"],
   },
@@ -1075,7 +1024,6 @@ export let FaCanadianMapleLeafBrands = {
   $_icon: {
     name: "CanadianMapleLeaf",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["canadian","maple","leaf"],
   },
@@ -1096,7 +1044,6 @@ export let FaCcAmazonPayBrands = {
   $_icon: {
     name: "CcAmazonPay",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["cc","amazon","pay"],
   },
@@ -1117,7 +1064,6 @@ export let FaCcAmexBrands = {
   $_icon: {
     name: "CcAmex",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["cc","amex"],
   },
@@ -1138,7 +1084,6 @@ export let FaCcApplePayBrands = {
   $_icon: {
     name: "CcApplePay",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["cc","apple","pay"],
   },
@@ -1159,7 +1104,6 @@ export let FaCcDinersClubBrands = {
   $_icon: {
     name: "CcDinersClub",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["cc","diners","club"],
   },
@@ -1180,7 +1124,6 @@ export let FaCcDiscoverBrands = {
   $_icon: {
     name: "CcDiscover",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["cc","discover"],
   },
@@ -1201,7 +1144,6 @@ export let FaCcJcbBrands = {
   $_icon: {
     name: "CcJcb",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["cc","jcb"],
   },
@@ -1222,7 +1164,6 @@ export let FaCcMastercardBrands = {
   $_icon: {
     name: "CcMastercard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["cc","mastercard"],
   },
@@ -1243,7 +1184,6 @@ export let FaCcPaypalBrands = {
   $_icon: {
     name: "CcPaypal",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["cc","paypal"],
   },
@@ -1264,7 +1204,6 @@ export let FaCcStripeBrands = {
   $_icon: {
     name: "CcStripe",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["cc","stripe"],
   },
@@ -1285,7 +1224,6 @@ export let FaCcVisaBrands = {
   $_icon: {
     name: "CcVisa",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["cc","visa"],
   },
@@ -1306,7 +1244,6 @@ export let FaCentercodeBrands = {
   $_icon: {
     name: "Centercode",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["centercode"],
   },
@@ -1327,7 +1264,6 @@ export let FaCentosBrands = {
   $_icon: {
     name: "Centos",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["centos"],
   },
@@ -1348,7 +1284,6 @@ export let FaChromeBrands = {
   $_icon: {
     name: "Chrome",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["chrome"],
   },
@@ -1369,7 +1304,6 @@ export let FaChromecastBrands = {
   $_icon: {
     name: "Chromecast",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["chromecast"],
   },
@@ -1390,7 +1324,6 @@ export let FaCloudflareBrands = {
   $_icon: {
     name: "Cloudflare",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["cloudflare"],
   },
@@ -1411,7 +1344,6 @@ export let FaCloudscaleBrands = {
   $_icon: {
     name: "Cloudscale",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["cloudscale"],
   },
@@ -1432,7 +1364,6 @@ export let FaCloudsmithBrands = {
   $_icon: {
     name: "Cloudsmith",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["cloudsmith"],
   },
@@ -1453,7 +1384,6 @@ export let FaCloudversifyBrands = {
   $_icon: {
     name: "Cloudversify",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["cloudversify"],
   },
@@ -1474,7 +1404,6 @@ export let FaCmplidBrands = {
   $_icon: {
     name: "Cmplid",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["cmplid"],
   },
@@ -1495,7 +1424,6 @@ export let FaCodepenBrands = {
   $_icon: {
     name: "Codepen",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["codepen"],
   },
@@ -1516,7 +1444,6 @@ export let FaCodiepieBrands = {
   $_icon: {
     name: "Codiepie",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["codiepie"],
   },
@@ -1537,7 +1464,6 @@ export let FaConfluenceBrands = {
   $_icon: {
     name: "Confluence",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["confluence"],
   },
@@ -1558,7 +1484,6 @@ export let FaConnectdevelopBrands = {
   $_icon: {
     name: "Connectdevelop",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["connectdevelop"],
   },
@@ -1579,7 +1504,6 @@ export let FaContaoBrands = {
   $_icon: {
     name: "Contao",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["contao"],
   },
@@ -1600,7 +1524,6 @@ export let FaCottonBureauBrands = {
   $_icon: {
     name: "CottonBureau",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["cotton","bureau"],
   },
@@ -1621,7 +1544,6 @@ export let FaCpanelBrands = {
   $_icon: {
     name: "Cpanel",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["cpanel"],
   },
@@ -1642,7 +1564,6 @@ export let FaCreativeCommonsByBrands = {
   $_icon: {
     name: "CreativeCommonsBy",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["creative","commons","by"],
   },
@@ -1663,7 +1584,6 @@ export let FaCreativeCommonsNcEuBrands = {
   $_icon: {
     name: "CreativeCommonsNcEu",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["creative","commons","nc","eu"],
   },
@@ -1684,7 +1604,6 @@ export let FaCreativeCommonsNcJpBrands = {
   $_icon: {
     name: "CreativeCommonsNcJp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["creative","commons","nc","jp"],
   },
@@ -1705,7 +1624,6 @@ export let FaCreativeCommonsNcBrands = {
   $_icon: {
     name: "CreativeCommonsNc",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["creative","commons","nc"],
   },
@@ -1726,7 +1644,6 @@ export let FaCreativeCommonsNdBrands = {
   $_icon: {
     name: "CreativeCommonsNd",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["creative","commons","nd"],
   },
@@ -1747,7 +1664,6 @@ export let FaCreativeCommonsPdAltBrands = {
   $_icon: {
     name: "CreativeCommonsPdAlt",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["creative","commons","pd","alt"],
   },
@@ -1768,7 +1684,6 @@ export let FaCreativeCommonsPdBrands = {
   $_icon: {
     name: "CreativeCommonsPd",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["creative","commons","pd"],
   },
@@ -1789,7 +1704,6 @@ export let FaCreativeCommonsRemixBrands = {
   $_icon: {
     name: "CreativeCommonsRemix",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["creative","commons","remix"],
   },
@@ -1810,7 +1724,6 @@ export let FaCreativeCommonsSaBrands = {
   $_icon: {
     name: "CreativeCommonsSa",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["creative","commons","sa"],
   },
@@ -1831,7 +1744,6 @@ export let FaCreativeCommonsSamplingPlusBrands = {
   $_icon: {
     name: "CreativeCommonsSamplingPlus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["creative","commons","sampling","plus"],
   },
@@ -1852,7 +1764,6 @@ export let FaCreativeCommonsSamplingBrands = {
   $_icon: {
     name: "CreativeCommonsSampling",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["creative","commons","sampling"],
   },
@@ -1873,7 +1784,6 @@ export let FaCreativeCommonsShareBrands = {
   $_icon: {
     name: "CreativeCommonsShare",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["creative","commons","share"],
   },
@@ -1894,7 +1804,6 @@ export let FaCreativeCommonsZeroBrands = {
   $_icon: {
     name: "CreativeCommonsZero",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["creative","commons","zero"],
   },
@@ -1915,7 +1824,6 @@ export let FaCreativeCommonsBrands = {
   $_icon: {
     name: "CreativeCommons",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["creative","commons"],
   },
@@ -1936,7 +1844,6 @@ export let FaCriticalRoleBrands = {
   $_icon: {
     name: "CriticalRole",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["critical","role"],
   },
@@ -1957,7 +1864,6 @@ export let FaCss3AltBrands = {
   $_icon: {
     name: "Css3Alt",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["css3","alt"],
   },
@@ -1978,7 +1884,6 @@ export let FaCss3Brands = {
   $_icon: {
     name: "Css3",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["css3"],
   },
@@ -1999,7 +1904,6 @@ export let FaCuttlefishBrands = {
   $_icon: {
     name: "Cuttlefish",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["cuttlefish"],
   },
@@ -2020,7 +1924,6 @@ export let FaDAndDBeyondBrands = {
   $_icon: {
     name: "DAndDBeyond",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["d","and","d","beyond"],
   },
@@ -2041,7 +1944,6 @@ export let FaDAndDBrands = {
   $_icon: {
     name: "DAndD",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["d","and","d"],
   },
@@ -2062,7 +1964,6 @@ export let FaDailymotionBrands = {
   $_icon: {
     name: "Dailymotion",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["dailymotion"],
   },
@@ -2083,7 +1984,6 @@ export let FaDashcubeBrands = {
   $_icon: {
     name: "Dashcube",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["dashcube"],
   },
@@ -2104,7 +2004,6 @@ export let FaDeezerBrands = {
   $_icon: {
     name: "Deezer",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["deezer"],
   },
@@ -2125,7 +2024,6 @@ export let FaDeliciousBrands = {
   $_icon: {
     name: "Delicious",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["delicious"],
   },
@@ -2146,7 +2044,6 @@ export let FaDeploydogBrands = {
   $_icon: {
     name: "Deploydog",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["deploydog"],
   },
@@ -2167,7 +2064,6 @@ export let FaDeskproBrands = {
   $_icon: {
     name: "Deskpro",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["deskpro"],
   },
@@ -2188,7 +2084,6 @@ export let FaDevBrands = {
   $_icon: {
     name: "Dev",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["dev"],
   },
@@ -2209,7 +2104,6 @@ export let FaDeviantartBrands = {
   $_icon: {
     name: "Deviantart",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["deviantart"],
   },
@@ -2230,7 +2124,6 @@ export let FaDhlBrands = {
   $_icon: {
     name: "Dhl",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["dhl"],
   },
@@ -2251,7 +2144,6 @@ export let FaDiasporaBrands = {
   $_icon: {
     name: "Diaspora",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["diaspora"],
   },
@@ -2272,7 +2164,6 @@ export let FaDiggBrands = {
   $_icon: {
     name: "Digg",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["digg"],
   },
@@ -2293,7 +2184,6 @@ export let FaDigitalOceanBrands = {
   $_icon: {
     name: "DigitalOcean",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["digital","ocean"],
   },
@@ -2314,7 +2204,6 @@ export let FaDiscordBrands = {
   $_icon: {
     name: "Discord",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["discord"],
   },
@@ -2335,7 +2224,6 @@ export let FaDiscourseBrands = {
   $_icon: {
     name: "Discourse",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["discourse"],
   },
@@ -2356,7 +2244,6 @@ export let FaDochubBrands = {
   $_icon: {
     name: "Dochub",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["dochub"],
   },
@@ -2377,7 +2264,6 @@ export let FaDockerBrands = {
   $_icon: {
     name: "Docker",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["docker"],
   },
@@ -2398,7 +2284,6 @@ export let FaDraft2digitalBrands = {
   $_icon: {
     name: "Draft2digital",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["draft2digital"],
   },
@@ -2419,7 +2304,6 @@ export let FaDribbbleBrands = {
   $_icon: {
     name: "Dribbble",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["dribbble"],
   },
@@ -2440,7 +2324,6 @@ export let FaDropboxBrands = {
   $_icon: {
     name: "Dropbox",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["dropbox"],
   },
@@ -2461,7 +2344,6 @@ export let FaDrupalBrands = {
   $_icon: {
     name: "Drupal",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["drupal"],
   },
@@ -2482,7 +2364,6 @@ export let FaDyalogBrands = {
   $_icon: {
     name: "Dyalog",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["dyalog"],
   },
@@ -2503,7 +2384,6 @@ export let FaEarlybirdsBrands = {
   $_icon: {
     name: "Earlybirds",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["earlybirds"],
   },
@@ -2524,7 +2404,6 @@ export let FaEbayBrands = {
   $_icon: {
     name: "Ebay",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["ebay"],
   },
@@ -2545,7 +2424,6 @@ export let FaEdgeLegacyBrands = {
   $_icon: {
     name: "EdgeLegacy",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["edge","legacy"],
   },
@@ -2566,7 +2444,6 @@ export let FaEdgeBrands = {
   $_icon: {
     name: "Edge",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["edge"],
   },
@@ -2587,7 +2464,6 @@ export let FaElementorBrands = {
   $_icon: {
     name: "Elementor",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["elementor"],
   },
@@ -2608,7 +2484,6 @@ export let FaElloBrands = {
   $_icon: {
     name: "Ello",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["ello"],
   },
@@ -2629,7 +2504,6 @@ export let FaEmberBrands = {
   $_icon: {
     name: "Ember",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["ember"],
   },
@@ -2650,7 +2524,6 @@ export let FaEmpireBrands = {
   $_icon: {
     name: "Empire",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["empire"],
   },
@@ -2671,7 +2544,6 @@ export let FaEnviraBrands = {
   $_icon: {
     name: "Envira",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["envira"],
   },
@@ -2692,7 +2564,6 @@ export let FaErlangBrands = {
   $_icon: {
     name: "Erlang",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["erlang"],
   },
@@ -2713,7 +2584,6 @@ export let FaEthereumBrands = {
   $_icon: {
     name: "Ethereum",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["ethereum"],
   },
@@ -2734,7 +2604,6 @@ export let FaEtsyBrands = {
   $_icon: {
     name: "Etsy",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["etsy"],
   },
@@ -2755,7 +2624,6 @@ export let FaEvernoteBrands = {
   $_icon: {
     name: "Evernote",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["evernote"],
   },
@@ -2776,7 +2644,6 @@ export let FaExpeditedsslBrands = {
   $_icon: {
     name: "Expeditedssl",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["expeditedssl"],
   },
@@ -2797,7 +2664,6 @@ export let FaFacebookFBrands = {
   $_icon: {
     name: "FacebookF",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["facebook","f"],
   },
@@ -2818,7 +2684,6 @@ export let FaFacebookMessengerBrands = {
   $_icon: {
     name: "FacebookMessenger",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["facebook","messenger"],
   },
@@ -2839,7 +2704,6 @@ export let FaFacebookBrands = {
   $_icon: {
     name: "Facebook",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["facebook"],
   },
@@ -2860,7 +2724,6 @@ export let FaFantasyFlightGamesBrands = {
   $_icon: {
     name: "FantasyFlightGames",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["fantasy","flight","games"],
   },
@@ -2881,7 +2744,6 @@ export let FaFedexBrands = {
   $_icon: {
     name: "Fedex",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["fedex"],
   },
@@ -2902,7 +2764,6 @@ export let FaFedoraBrands = {
   $_icon: {
     name: "Fedora",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["fedora"],
   },
@@ -2923,7 +2784,6 @@ export let FaFigmaBrands = {
   $_icon: {
     name: "Figma",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["figma"],
   },
@@ -2944,7 +2804,6 @@ export let FaFirefoxBrowserBrands = {
   $_icon: {
     name: "FirefoxBrowser",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["firefox","browser"],
   },
@@ -2965,7 +2824,6 @@ export let FaFirefoxBrands = {
   $_icon: {
     name: "Firefox",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["firefox"],
   },
@@ -2986,7 +2844,6 @@ export let FaFirstOrderAltBrands = {
   $_icon: {
     name: "FirstOrderAlt",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["first","order","alt"],
   },
@@ -3007,7 +2864,6 @@ export let FaFirstOrderBrands = {
   $_icon: {
     name: "FirstOrder",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["first","order"],
   },
@@ -3028,7 +2884,6 @@ export let FaFirstdraftBrands = {
   $_icon: {
     name: "Firstdraft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["firstdraft"],
   },
@@ -3049,7 +2904,6 @@ export let FaFlickrBrands = {
   $_icon: {
     name: "Flickr",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["flickr"],
   },
@@ -3070,7 +2924,6 @@ export let FaFlipboardBrands = {
   $_icon: {
     name: "Flipboard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["flipboard"],
   },
@@ -3091,7 +2944,6 @@ export let FaFlyBrands = {
   $_icon: {
     name: "Fly",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["fly"],
   },
@@ -3112,7 +2964,6 @@ export let FaFontAwesomeBrands = {
   $_icon: {
     name: "FontAwesome",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["font","awesome"],
   },
@@ -3133,7 +2984,6 @@ export let FaFonticonsFiBrands = {
   $_icon: {
     name: "FonticonsFi",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["fonticons","fi"],
   },
@@ -3154,7 +3004,6 @@ export let FaFonticonsBrands = {
   $_icon: {
     name: "Fonticons",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["fonticons"],
   },
@@ -3175,7 +3024,6 @@ export let FaFortAwesomeAltBrands = {
   $_icon: {
     name: "FortAwesomeAlt",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["fort","awesome","alt"],
   },
@@ -3196,7 +3044,6 @@ export let FaFortAwesomeBrands = {
   $_icon: {
     name: "FortAwesome",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["fort","awesome"],
   },
@@ -3217,7 +3064,6 @@ export let FaForumbeeBrands = {
   $_icon: {
     name: "Forumbee",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["forumbee"],
   },
@@ -3238,7 +3084,6 @@ export let FaFoursquareBrands = {
   $_icon: {
     name: "Foursquare",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["foursquare"],
   },
@@ -3259,7 +3104,6 @@ export let FaFreeCodeCampBrands = {
   $_icon: {
     name: "FreeCodeCamp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["free","code","camp"],
   },
@@ -3280,7 +3124,6 @@ export let FaFreebsdBrands = {
   $_icon: {
     name: "Freebsd",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["freebsd"],
   },
@@ -3301,7 +3144,6 @@ export let FaFulcrumBrands = {
   $_icon: {
     name: "Fulcrum",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["fulcrum"],
   },
@@ -3322,7 +3164,6 @@ export let FaGalacticRepublicBrands = {
   $_icon: {
     name: "GalacticRepublic",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["galactic","republic"],
   },
@@ -3343,7 +3184,6 @@ export let FaGalacticSenateBrands = {
   $_icon: {
     name: "GalacticSenate",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["galactic","senate"],
   },
@@ -3364,7 +3204,6 @@ export let FaGetPocketBrands = {
   $_icon: {
     name: "GetPocket",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["get","pocket"],
   },
@@ -3385,7 +3224,6 @@ export let FaGgCircleBrands = {
   $_icon: {
     name: "GgCircle",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["gg","circle"],
   },
@@ -3406,7 +3244,6 @@ export let FaGgBrands = {
   $_icon: {
     name: "Gg",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["gg"],
   },
@@ -3427,7 +3264,6 @@ export let FaGitAltBrands = {
   $_icon: {
     name: "GitAlt",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["git","alt"],
   },
@@ -3448,7 +3284,6 @@ export let FaGitBrands = {
   $_icon: {
     name: "Git",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["git"],
   },
@@ -3469,7 +3304,6 @@ export let FaGithubAltBrands = {
   $_icon: {
     name: "GithubAlt",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["github","alt"],
   },
@@ -3490,7 +3324,6 @@ export let FaGithubBrands = {
   $_icon: {
     name: "Github",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["github"],
   },
@@ -3511,7 +3344,6 @@ export let FaGitkrakenBrands = {
   $_icon: {
     name: "Gitkraken",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["gitkraken"],
   },
@@ -3532,7 +3364,6 @@ export let FaGitlabBrands = {
   $_icon: {
     name: "Gitlab",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["gitlab"],
   },
@@ -3553,7 +3384,6 @@ export let FaGitterBrands = {
   $_icon: {
     name: "Gitter",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["gitter"],
   },
@@ -3574,7 +3404,6 @@ export let FaGlideGBrands = {
   $_icon: {
     name: "GlideG",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["glide","g"],
   },
@@ -3595,7 +3424,6 @@ export let FaGlideBrands = {
   $_icon: {
     name: "Glide",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["glide"],
   },
@@ -3616,7 +3444,6 @@ export let FaGoforeBrands = {
   $_icon: {
     name: "Gofore",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["gofore"],
   },
@@ -3637,7 +3464,6 @@ export let FaGolangBrands = {
   $_icon: {
     name: "Golang",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["golang"],
   },
@@ -3658,7 +3484,6 @@ export let FaGoodreadsGBrands = {
   $_icon: {
     name: "GoodreadsG",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["goodreads","g"],
   },
@@ -3679,7 +3504,6 @@ export let FaGoodreadsBrands = {
   $_icon: {
     name: "Goodreads",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["goodreads"],
   },
@@ -3700,7 +3524,6 @@ export let FaGoogleDriveBrands = {
   $_icon: {
     name: "GoogleDrive",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["google","drive"],
   },
@@ -3721,7 +3544,6 @@ export let FaGooglePayBrands = {
   $_icon: {
     name: "GooglePay",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["google","pay"],
   },
@@ -3742,7 +3564,6 @@ export let FaGooglePlayBrands = {
   $_icon: {
     name: "GooglePlay",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["google","play"],
   },
@@ -3763,7 +3584,6 @@ export let FaGooglePlusGBrands = {
   $_icon: {
     name: "GooglePlusG",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["google","plus","g"],
   },
@@ -3784,7 +3604,6 @@ export let FaGooglePlusBrands = {
   $_icon: {
     name: "GooglePlus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["google","plus"],
   },
@@ -3805,7 +3624,6 @@ export let FaGoogleWalletBrands = {
   $_icon: {
     name: "GoogleWallet",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["google","wallet"],
   },
@@ -3826,7 +3644,6 @@ export let FaGoogleBrands = {
   $_icon: {
     name: "Google",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["google"],
   },
@@ -3847,7 +3664,6 @@ export let FaGratipayBrands = {
   $_icon: {
     name: "Gratipay",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["gratipay"],
   },
@@ -3868,7 +3684,6 @@ export let FaGravBrands = {
   $_icon: {
     name: "Grav",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["grav"],
   },
@@ -3889,7 +3704,6 @@ export let FaGripfireBrands = {
   $_icon: {
     name: "Gripfire",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["gripfire"],
   },
@@ -3910,7 +3724,6 @@ export let FaGruntBrands = {
   $_icon: {
     name: "Grunt",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["grunt"],
   },
@@ -3931,7 +3744,6 @@ export let FaGuildedBrands = {
   $_icon: {
     name: "Guilded",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["guilded"],
   },
@@ -3952,7 +3764,6 @@ export let FaGulpBrands = {
   $_icon: {
     name: "Gulp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["gulp"],
   },
@@ -3973,7 +3784,6 @@ export let FaHackerNewsBrands = {
   $_icon: {
     name: "HackerNews",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["hacker","news"],
   },
@@ -3994,7 +3804,6 @@ export let FaHackerrankBrands = {
   $_icon: {
     name: "Hackerrank",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["hackerrank"],
   },
@@ -4015,7 +3824,6 @@ export let FaHashnodeBrands = {
   $_icon: {
     name: "Hashnode",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["hashnode"],
   },
@@ -4036,7 +3844,6 @@ export let FaHipsBrands = {
   $_icon: {
     name: "Hips",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["hips"],
   },
@@ -4057,7 +3864,6 @@ export let FaHireAHelperBrands = {
   $_icon: {
     name: "HireAHelper",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["hire","a","helper"],
   },
@@ -4078,7 +3884,6 @@ export let FaHiveBrands = {
   $_icon: {
     name: "Hive",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["hive"],
   },
@@ -4099,7 +3904,6 @@ export let FaHooliBrands = {
   $_icon: {
     name: "Hooli",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["hooli"],
   },
@@ -4120,7 +3924,6 @@ export let FaHornbillBrands = {
   $_icon: {
     name: "Hornbill",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["hornbill"],
   },
@@ -4141,7 +3944,6 @@ export let FaHotjarBrands = {
   $_icon: {
     name: "Hotjar",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["hotjar"],
   },
@@ -4162,7 +3964,6 @@ export let FaHouzzBrands = {
   $_icon: {
     name: "Houzz",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["houzz"],
   },
@@ -4183,7 +3984,6 @@ export let FaHtml5Brands = {
   $_icon: {
     name: "Html5",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["html5"],
   },
@@ -4204,7 +4004,6 @@ export let FaHubspotBrands = {
   $_icon: {
     name: "Hubspot",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["hubspot"],
   },
@@ -4225,7 +4024,6 @@ export let FaIdealBrands = {
   $_icon: {
     name: "Ideal",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["ideal"],
   },
@@ -4246,7 +4044,6 @@ export let FaImdbBrands = {
   $_icon: {
     name: "Imdb",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["imdb"],
   },
@@ -4267,7 +4064,6 @@ export let FaInstagramBrands = {
   $_icon: {
     name: "Instagram",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["instagram"],
   },
@@ -4288,7 +4084,6 @@ export let FaInstalodBrands = {
   $_icon: {
     name: "Instalod",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["instalod"],
   },
@@ -4309,7 +4104,6 @@ export let FaIntercomBrands = {
   $_icon: {
     name: "Intercom",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["intercom"],
   },
@@ -4330,7 +4124,6 @@ export let FaInternetExplorerBrands = {
   $_icon: {
     name: "InternetExplorer",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["internet","explorer"],
   },
@@ -4351,7 +4144,6 @@ export let FaInvisionBrands = {
   $_icon: {
     name: "Invision",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["invision"],
   },
@@ -4372,7 +4164,6 @@ export let FaIoxhostBrands = {
   $_icon: {
     name: "Ioxhost",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["ioxhost"],
   },
@@ -4393,7 +4184,6 @@ export let FaItchIoBrands = {
   $_icon: {
     name: "ItchIo",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["itch","io"],
   },
@@ -4414,7 +4204,6 @@ export let FaItunesNoteBrands = {
   $_icon: {
     name: "ItunesNote",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["itunes","note"],
   },
@@ -4435,7 +4224,6 @@ export let FaItunesBrands = {
   $_icon: {
     name: "Itunes",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["itunes"],
   },
@@ -4456,7 +4244,6 @@ export let FaJavaBrands = {
   $_icon: {
     name: "Java",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["java"],
   },
@@ -4477,7 +4264,6 @@ export let FaJediOrderBrands = {
   $_icon: {
     name: "JediOrder",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["jedi","order"],
   },
@@ -4498,7 +4284,6 @@ export let FaJenkinsBrands = {
   $_icon: {
     name: "Jenkins",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["jenkins"],
   },
@@ -4519,7 +4304,6 @@ export let FaJiraBrands = {
   $_icon: {
     name: "Jira",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["jira"],
   },
@@ -4540,7 +4324,6 @@ export let FaJogetBrands = {
   $_icon: {
     name: "Joget",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["joget"],
   },
@@ -4561,7 +4344,6 @@ export let FaJoomlaBrands = {
   $_icon: {
     name: "Joomla",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["joomla"],
   },
@@ -4582,7 +4364,6 @@ export let FaJsBrands = {
   $_icon: {
     name: "Js",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["js"],
   },
@@ -4603,7 +4384,6 @@ export let FaJsfiddleBrands = {
   $_icon: {
     name: "Jsfiddle",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["jsfiddle"],
   },
@@ -4624,7 +4404,6 @@ export let FaKaggleBrands = {
   $_icon: {
     name: "Kaggle",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["kaggle"],
   },
@@ -4645,7 +4424,6 @@ export let FaKeybaseBrands = {
   $_icon: {
     name: "Keybase",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["keybase"],
   },
@@ -4666,7 +4444,6 @@ export let FaKeycdnBrands = {
   $_icon: {
     name: "Keycdn",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["keycdn"],
   },
@@ -4687,7 +4464,6 @@ export let FaKickstarterKBrands = {
   $_icon: {
     name: "KickstarterK",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["kickstarter","k"],
   },
@@ -4708,7 +4484,6 @@ export let FaKickstarterBrands = {
   $_icon: {
     name: "Kickstarter",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["kickstarter"],
   },
@@ -4729,7 +4504,6 @@ export let FaKorvueBrands = {
   $_icon: {
     name: "Korvue",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["korvue"],
   },
@@ -4750,7 +4524,6 @@ export let FaLaravelBrands = {
   $_icon: {
     name: "Laravel",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["laravel"],
   },
@@ -4771,7 +4544,6 @@ export let FaLastfmBrands = {
   $_icon: {
     name: "Lastfm",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["lastfm"],
   },
@@ -4792,7 +4564,6 @@ export let FaLeanpubBrands = {
   $_icon: {
     name: "Leanpub",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["leanpub"],
   },
@@ -4813,7 +4584,6 @@ export let FaLessBrands = {
   $_icon: {
     name: "Less",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["less"],
   },
@@ -4834,7 +4604,6 @@ export let FaLineBrands = {
   $_icon: {
     name: "Line",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["line"],
   },
@@ -4855,7 +4624,6 @@ export let FaLinkedinInBrands = {
   $_icon: {
     name: "LinkedinIn",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["linkedin","in"],
   },
@@ -4876,7 +4644,6 @@ export let FaLinkedinBrands = {
   $_icon: {
     name: "Linkedin",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["linkedin"],
   },
@@ -4897,7 +4664,6 @@ export let FaLinodeBrands = {
   $_icon: {
     name: "Linode",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["linode"],
   },
@@ -4918,7 +4684,6 @@ export let FaLinuxBrands = {
   $_icon: {
     name: "Linux",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["linux"],
   },
@@ -4939,7 +4704,6 @@ export let FaLyftBrands = {
   $_icon: {
     name: "Lyft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["lyft"],
   },
@@ -4960,7 +4724,6 @@ export let FaMagentoBrands = {
   $_icon: {
     name: "Magento",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["magento"],
   },
@@ -4981,7 +4744,6 @@ export let FaMailchimpBrands = {
   $_icon: {
     name: "Mailchimp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["mailchimp"],
   },
@@ -5002,7 +4764,6 @@ export let FaMandalorianBrands = {
   $_icon: {
     name: "Mandalorian",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["mandalorian"],
   },
@@ -5023,7 +4784,6 @@ export let FaMarkdownBrands = {
   $_icon: {
     name: "Markdown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["markdown"],
   },
@@ -5044,7 +4804,6 @@ export let FaMastodonBrands = {
   $_icon: {
     name: "Mastodon",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["mastodon"],
   },
@@ -5065,7 +4824,6 @@ export let FaMaxcdnBrands = {
   $_icon: {
     name: "Maxcdn",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["maxcdn"],
   },
@@ -5086,7 +4844,6 @@ export let FaMdbBrands = {
   $_icon: {
     name: "Mdb",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["mdb"],
   },
@@ -5107,7 +4864,6 @@ export let FaMedappsBrands = {
   $_icon: {
     name: "Medapps",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["medapps"],
   },
@@ -5128,7 +4884,6 @@ export let FaMediumBrands = {
   $_icon: {
     name: "Medium",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["medium"],
   },
@@ -5149,7 +4904,6 @@ export let FaMedrtBrands = {
   $_icon: {
     name: "Medrt",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["medrt"],
   },
@@ -5170,7 +4924,6 @@ export let FaMeetupBrands = {
   $_icon: {
     name: "Meetup",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["meetup"],
   },
@@ -5191,7 +4944,6 @@ export let FaMegaportBrands = {
   $_icon: {
     name: "Megaport",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["megaport"],
   },
@@ -5212,7 +4964,6 @@ export let FaMendeleyBrands = {
   $_icon: {
     name: "Mendeley",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["mendeley"],
   },
@@ -5233,7 +4984,6 @@ export let FaMetaBrands = {
   $_icon: {
     name: "Meta",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["meta"],
   },
@@ -5254,7 +5004,6 @@ export let FaMicroblogBrands = {
   $_icon: {
     name: "Microblog",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["microblog"],
   },
@@ -5275,7 +5024,6 @@ export let FaMicrosoftBrands = {
   $_icon: {
     name: "Microsoft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["microsoft"],
   },
@@ -5296,7 +5044,6 @@ export let FaMixBrands = {
   $_icon: {
     name: "Mix",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["mix"],
   },
@@ -5317,7 +5064,6 @@ export let FaMixcloudBrands = {
   $_icon: {
     name: "Mixcloud",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["mixcloud"],
   },
@@ -5338,7 +5084,6 @@ export let FaMixerBrands = {
   $_icon: {
     name: "Mixer",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["mixer"],
   },
@@ -5359,7 +5104,6 @@ export let FaMizuniBrands = {
   $_icon: {
     name: "Mizuni",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["mizuni"],
   },
@@ -5380,7 +5124,6 @@ export let FaModxBrands = {
   $_icon: {
     name: "Modx",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["modx"],
   },
@@ -5401,7 +5144,6 @@ export let FaMoneroBrands = {
   $_icon: {
     name: "Monero",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["monero"],
   },
@@ -5422,7 +5164,6 @@ export let FaNapsterBrands = {
   $_icon: {
     name: "Napster",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["napster"],
   },
@@ -5443,7 +5184,6 @@ export let FaNeosBrands = {
   $_icon: {
     name: "Neos",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["neos"],
   },
@@ -5464,7 +5204,6 @@ export let FaNfcDirectionalBrands = {
   $_icon: {
     name: "NfcDirectional",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["nfc","directional"],
   },
@@ -5485,7 +5224,6 @@ export let FaNfcSymbolBrands = {
   $_icon: {
     name: "NfcSymbol",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["nfc","symbol"],
   },
@@ -5506,7 +5244,6 @@ export let FaNimblrBrands = {
   $_icon: {
     name: "Nimblr",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["nimblr"],
   },
@@ -5527,7 +5264,6 @@ export let FaNodeJsBrands = {
   $_icon: {
     name: "NodeJs",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["node","js"],
   },
@@ -5548,7 +5284,6 @@ export let FaNodeBrands = {
   $_icon: {
     name: "Node",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["node"],
   },
@@ -5569,7 +5304,6 @@ export let FaNpmBrands = {
   $_icon: {
     name: "Npm",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["npm"],
   },
@@ -5590,7 +5324,6 @@ export let FaNs8Brands = {
   $_icon: {
     name: "Ns8",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["ns8"],
   },
@@ -5611,7 +5344,6 @@ export let FaNutritionixBrands = {
   $_icon: {
     name: "Nutritionix",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["nutritionix"],
   },
@@ -5632,7 +5364,6 @@ export let FaOctopusDeployBrands = {
   $_icon: {
     name: "OctopusDeploy",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["octopus","deploy"],
   },
@@ -5653,7 +5384,6 @@ export let FaOdnoklassnikiBrands = {
   $_icon: {
     name: "Odnoklassniki",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["odnoklassniki"],
   },
@@ -5674,7 +5404,6 @@ export let FaOldRepublicBrands = {
   $_icon: {
     name: "OldRepublic",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["old","republic"],
   },
@@ -5695,7 +5424,6 @@ export let FaOpencartBrands = {
   $_icon: {
     name: "Opencart",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["opencart"],
   },
@@ -5716,7 +5444,6 @@ export let FaOpenidBrands = {
   $_icon: {
     name: "Openid",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["openid"],
   },
@@ -5737,7 +5464,6 @@ export let FaOperaBrands = {
   $_icon: {
     name: "Opera",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["opera"],
   },
@@ -5758,7 +5484,6 @@ export let FaOptinMonsterBrands = {
   $_icon: {
     name: "OptinMonster",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["optin","monster"],
   },
@@ -5779,7 +5504,6 @@ export let FaOrcidBrands = {
   $_icon: {
     name: "Orcid",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["orcid"],
   },
@@ -5800,7 +5524,6 @@ export let FaOsiBrands = {
   $_icon: {
     name: "Osi",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["osi"],
   },
@@ -5821,7 +5544,6 @@ export let FaPadletBrands = {
   $_icon: {
     name: "Padlet",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["padlet"],
   },
@@ -5842,7 +5564,6 @@ export let FaPage4Brands = {
   $_icon: {
     name: "Page4",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["page4"],
   },
@@ -5863,7 +5584,6 @@ export let FaPagelinesBrands = {
   $_icon: {
     name: "Pagelines",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["pagelines"],
   },
@@ -5884,7 +5604,6 @@ export let FaPalfedBrands = {
   $_icon: {
     name: "Palfed",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["palfed"],
   },
@@ -5905,7 +5624,6 @@ export let FaPatreonBrands = {
   $_icon: {
     name: "Patreon",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["patreon"],
   },
@@ -5926,7 +5644,6 @@ export let FaPaypalBrands = {
   $_icon: {
     name: "Paypal",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["paypal"],
   },
@@ -5947,7 +5664,6 @@ export let FaPerbyteBrands = {
   $_icon: {
     name: "Perbyte",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["perbyte"],
   },
@@ -5968,7 +5684,6 @@ export let FaPeriscopeBrands = {
   $_icon: {
     name: "Periscope",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["periscope"],
   },
@@ -5989,7 +5704,6 @@ export let FaPhabricatorBrands = {
   $_icon: {
     name: "Phabricator",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["phabricator"],
   },
@@ -6010,7 +5724,6 @@ export let FaPhoenixFrameworkBrands = {
   $_icon: {
     name: "PhoenixFramework",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["phoenix","framework"],
   },
@@ -6031,7 +5744,6 @@ export let FaPhoenixSquadronBrands = {
   $_icon: {
     name: "PhoenixSquadron",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["phoenix","squadron"],
   },
@@ -6052,7 +5764,6 @@ export let FaPhpBrands = {
   $_icon: {
     name: "Php",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["php"],
   },
@@ -6073,7 +5784,6 @@ export let FaPiedPiperAltBrands = {
   $_icon: {
     name: "PiedPiperAlt",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["pied","piper","alt"],
   },
@@ -6094,7 +5804,6 @@ export let FaPiedPiperHatBrands = {
   $_icon: {
     name: "PiedPiperHat",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["pied","piper","hat"],
   },
@@ -6115,7 +5824,6 @@ export let FaPiedPiperPpBrands = {
   $_icon: {
     name: "PiedPiperPp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["pied","piper","pp"],
   },
@@ -6136,7 +5844,6 @@ export let FaPiedPiperBrands = {
   $_icon: {
     name: "PiedPiper",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["pied","piper"],
   },
@@ -6157,7 +5864,6 @@ export let FaPinterestPBrands = {
   $_icon: {
     name: "PinterestP",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["pinterest","p"],
   },
@@ -6178,7 +5884,6 @@ export let FaPinterestBrands = {
   $_icon: {
     name: "Pinterest",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["pinterest"],
   },
@@ -6199,7 +5904,6 @@ export let FaPixBrands = {
   $_icon: {
     name: "Pix",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["pix"],
   },
@@ -6220,7 +5924,6 @@ export let FaPlaystationBrands = {
   $_icon: {
     name: "Playstation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["playstation"],
   },
@@ -6241,7 +5944,6 @@ export let FaProductHuntBrands = {
   $_icon: {
     name: "ProductHunt",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["product","hunt"],
   },
@@ -6262,7 +5964,6 @@ export let FaPushedBrands = {
   $_icon: {
     name: "Pushed",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["pushed"],
   },
@@ -6283,7 +5984,6 @@ export let FaPythonBrands = {
   $_icon: {
     name: "Python",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["python"],
   },
@@ -6304,7 +6004,6 @@ export let FaQqBrands = {
   $_icon: {
     name: "Qq",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["qq"],
   },
@@ -6325,7 +6024,6 @@ export let FaQuinscapeBrands = {
   $_icon: {
     name: "Quinscape",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["quinscape"],
   },
@@ -6346,7 +6044,6 @@ export let FaQuoraBrands = {
   $_icon: {
     name: "Quora",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["quora"],
   },
@@ -6367,7 +6064,6 @@ export let FaRProjectBrands = {
   $_icon: {
     name: "RProject",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["r","project"],
   },
@@ -6388,7 +6084,6 @@ export let FaRaspberryPiBrands = {
   $_icon: {
     name: "RaspberryPi",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["raspberry","pi"],
   },
@@ -6409,7 +6104,6 @@ export let FaRavelryBrands = {
   $_icon: {
     name: "Ravelry",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["ravelry"],
   },
@@ -6430,7 +6124,6 @@ export let FaReactBrands = {
   $_icon: {
     name: "React",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["react"],
   },
@@ -6451,7 +6144,6 @@ export let FaReacteuropeBrands = {
   $_icon: {
     name: "Reacteurope",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["reacteurope"],
   },
@@ -6472,7 +6164,6 @@ export let FaReadmeBrands = {
   $_icon: {
     name: "Readme",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["readme"],
   },
@@ -6493,7 +6184,6 @@ export let FaRebelBrands = {
   $_icon: {
     name: "Rebel",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["rebel"],
   },
@@ -6514,7 +6204,6 @@ export let FaRedRiverBrands = {
   $_icon: {
     name: "RedRiver",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["red","river"],
   },
@@ -6535,7 +6224,6 @@ export let FaRedditAlienBrands = {
   $_icon: {
     name: "RedditAlien",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["reddit","alien"],
   },
@@ -6556,7 +6244,6 @@ export let FaRedditBrands = {
   $_icon: {
     name: "Reddit",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["reddit"],
   },
@@ -6577,7 +6264,6 @@ export let FaRedhatBrands = {
   $_icon: {
     name: "Redhat",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["redhat"],
   },
@@ -6598,7 +6284,6 @@ export let FaRenrenBrands = {
   $_icon: {
     name: "Renren",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["renren"],
   },
@@ -6619,7 +6304,6 @@ export let FaReplydBrands = {
   $_icon: {
     name: "Replyd",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["replyd"],
   },
@@ -6640,7 +6324,6 @@ export let FaResearchgateBrands = {
   $_icon: {
     name: "Researchgate",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["researchgate"],
   },
@@ -6661,7 +6344,6 @@ export let FaResolvingBrands = {
   $_icon: {
     name: "Resolving",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["resolving"],
   },
@@ -6682,7 +6364,6 @@ export let FaRevBrands = {
   $_icon: {
     name: "Rev",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["rev"],
   },
@@ -6703,7 +6384,6 @@ export let FaRocketchatBrands = {
   $_icon: {
     name: "Rocketchat",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["rocketchat"],
   },
@@ -6724,7 +6404,6 @@ export let FaRockrmsBrands = {
   $_icon: {
     name: "Rockrms",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["rockrms"],
   },
@@ -6745,7 +6424,6 @@ export let FaRustBrands = {
   $_icon: {
     name: "Rust",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["rust"],
   },
@@ -6766,7 +6444,6 @@ export let FaSafariBrands = {
   $_icon: {
     name: "Safari",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["safari"],
   },
@@ -6787,7 +6464,6 @@ export let FaSalesforceBrands = {
   $_icon: {
     name: "Salesforce",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["salesforce"],
   },
@@ -6808,7 +6484,6 @@ export let FaSassBrands = {
   $_icon: {
     name: "Sass",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["sass"],
   },
@@ -6829,7 +6504,6 @@ export let FaSchlixBrands = {
   $_icon: {
     name: "Schlix",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["schlix"],
   },
@@ -6850,7 +6524,6 @@ export let FaScreenpalBrands = {
   $_icon: {
     name: "Screenpal",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["screenpal"],
   },
@@ -6871,7 +6544,6 @@ export let FaScribdBrands = {
   $_icon: {
     name: "Scribd",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["scribd"],
   },
@@ -6892,7 +6564,6 @@ export let FaSearchenginBrands = {
   $_icon: {
     name: "Searchengin",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["searchengin"],
   },
@@ -6913,7 +6584,6 @@ export let FaSellcastBrands = {
   $_icon: {
     name: "Sellcast",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["sellcast"],
   },
@@ -6934,7 +6604,6 @@ export let FaSellsyBrands = {
   $_icon: {
     name: "Sellsy",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["sellsy"],
   },
@@ -6955,7 +6624,6 @@ export let FaServicestackBrands = {
   $_icon: {
     name: "Servicestack",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["servicestack"],
   },
@@ -6976,7 +6644,6 @@ export let FaShirtsinbulkBrands = {
   $_icon: {
     name: "Shirtsinbulk",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["shirtsinbulk"],
   },
@@ -6997,7 +6664,6 @@ export let FaShopifyBrands = {
   $_icon: {
     name: "Shopify",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["shopify"],
   },
@@ -7018,7 +6684,6 @@ export let FaShopwareBrands = {
   $_icon: {
     name: "Shopware",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["shopware"],
   },
@@ -7039,7 +6704,6 @@ export let FaSimplybuiltBrands = {
   $_icon: {
     name: "Simplybuilt",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["simplybuilt"],
   },
@@ -7060,7 +6724,6 @@ export let FaSistrixBrands = {
   $_icon: {
     name: "Sistrix",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["sistrix"],
   },
@@ -7081,7 +6744,6 @@ export let FaSithBrands = {
   $_icon: {
     name: "Sith",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["sith"],
   },
@@ -7102,7 +6764,6 @@ export let FaSitroxBrands = {
   $_icon: {
     name: "Sitrox",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["sitrox"],
   },
@@ -7123,7 +6784,6 @@ export let FaSketchBrands = {
   $_icon: {
     name: "Sketch",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["sketch"],
   },
@@ -7144,7 +6804,6 @@ export let FaSkyatlasBrands = {
   $_icon: {
     name: "Skyatlas",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["skyatlas"],
   },
@@ -7165,7 +6824,6 @@ export let FaSkypeBrands = {
   $_icon: {
     name: "Skype",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["skype"],
   },
@@ -7186,7 +6844,6 @@ export let FaSlackBrands = {
   $_icon: {
     name: "Slack",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["slack"],
   },
@@ -7207,7 +6864,6 @@ export let FaSlideshareBrands = {
   $_icon: {
     name: "Slideshare",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["slideshare"],
   },
@@ -7228,7 +6884,6 @@ export let FaSnapchatBrands = {
   $_icon: {
     name: "Snapchat",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["snapchat"],
   },
@@ -7249,7 +6904,6 @@ export let FaSoundcloudBrands = {
   $_icon: {
     name: "Soundcloud",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["soundcloud"],
   },
@@ -7270,7 +6924,6 @@ export let FaSourcetreeBrands = {
   $_icon: {
     name: "Sourcetree",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["sourcetree"],
   },
@@ -7291,7 +6944,6 @@ export let FaSpaceAwesomeBrands = {
   $_icon: {
     name: "SpaceAwesome",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["space","awesome"],
   },
@@ -7312,7 +6964,6 @@ export let FaSpeakapBrands = {
   $_icon: {
     name: "Speakap",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["speakap"],
   },
@@ -7333,7 +6984,6 @@ export let FaSpeakerDeckBrands = {
   $_icon: {
     name: "SpeakerDeck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["speaker","deck"],
   },
@@ -7354,7 +7004,6 @@ export let FaSpotifyBrands = {
   $_icon: {
     name: "Spotify",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["spotify"],
   },
@@ -7375,7 +7024,6 @@ export let FaSquareBehanceBrands = {
   $_icon: {
     name: "SquareBehance",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","behance"],
   },
@@ -7396,7 +7044,6 @@ export let FaSquareDribbbleBrands = {
   $_icon: {
     name: "SquareDribbble",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","dribbble"],
   },
@@ -7417,7 +7064,6 @@ export let FaSquareFacebookBrands = {
   $_icon: {
     name: "SquareFacebook",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","facebook"],
   },
@@ -7438,7 +7084,6 @@ export let FaSquareFontAwesomeStrokeBrands = {
   $_icon: {
     name: "SquareFontAwesomeStroke",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","font","awesome","stroke"],
   },
@@ -7459,7 +7104,6 @@ export let FaSquareFontAwesomeBrands = {
   $_icon: {
     name: "SquareFontAwesome",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","font","awesome"],
   },
@@ -7480,7 +7124,6 @@ export let FaSquareGitBrands = {
   $_icon: {
     name: "SquareGit",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","git"],
   },
@@ -7501,7 +7144,6 @@ export let FaSquareGithubBrands = {
   $_icon: {
     name: "SquareGithub",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","github"],
   },
@@ -7522,7 +7164,6 @@ export let FaSquareGitlabBrands = {
   $_icon: {
     name: "SquareGitlab",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","gitlab"],
   },
@@ -7543,7 +7184,6 @@ export let FaSquareGooglePlusBrands = {
   $_icon: {
     name: "SquareGooglePlus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","google","plus"],
   },
@@ -7564,7 +7204,6 @@ export let FaSquareHackerNewsBrands = {
   $_icon: {
     name: "SquareHackerNews",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","hacker","news"],
   },
@@ -7585,7 +7224,6 @@ export let FaSquareInstagramBrands = {
   $_icon: {
     name: "SquareInstagram",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","instagram"],
   },
@@ -7606,7 +7244,6 @@ export let FaSquareJsBrands = {
   $_icon: {
     name: "SquareJs",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","js"],
   },
@@ -7627,7 +7264,6 @@ export let FaSquareLastfmBrands = {
   $_icon: {
     name: "SquareLastfm",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","lastfm"],
   },
@@ -7648,7 +7284,6 @@ export let FaSquareOdnoklassnikiBrands = {
   $_icon: {
     name: "SquareOdnoklassniki",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","odnoklassniki"],
   },
@@ -7669,7 +7304,6 @@ export let FaSquarePiedPiperBrands = {
   $_icon: {
     name: "SquarePiedPiper",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","pied","piper"],
   },
@@ -7690,7 +7324,6 @@ export let FaSquarePinterestBrands = {
   $_icon: {
     name: "SquarePinterest",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","pinterest"],
   },
@@ -7711,7 +7344,6 @@ export let FaSquareRedditBrands = {
   $_icon: {
     name: "SquareReddit",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","reddit"],
   },
@@ -7732,7 +7364,6 @@ export let FaSquareSnapchatBrands = {
   $_icon: {
     name: "SquareSnapchat",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","snapchat"],
   },
@@ -7753,7 +7384,6 @@ export let FaSquareSteamBrands = {
   $_icon: {
     name: "SquareSteam",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","steam"],
   },
@@ -7774,7 +7404,6 @@ export let FaSquareTumblrBrands = {
   $_icon: {
     name: "SquareTumblr",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","tumblr"],
   },
@@ -7795,7 +7424,6 @@ export let FaSquareTwitterBrands = {
   $_icon: {
     name: "SquareTwitter",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","twitter"],
   },
@@ -7816,7 +7444,6 @@ export let FaSquareViadeoBrands = {
   $_icon: {
     name: "SquareViadeo",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","viadeo"],
   },
@@ -7837,7 +7464,6 @@ export let FaSquareVimeoBrands = {
   $_icon: {
     name: "SquareVimeo",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","vimeo"],
   },
@@ -7858,7 +7484,6 @@ export let FaSquareWhatsappBrands = {
   $_icon: {
     name: "SquareWhatsapp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","whatsapp"],
   },
@@ -7879,7 +7504,6 @@ export let FaSquareXingBrands = {
   $_icon: {
     name: "SquareXing",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","xing"],
   },
@@ -7900,7 +7524,6 @@ export let FaSquareYoutubeBrands = {
   $_icon: {
     name: "SquareYoutube",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["square","youtube"],
   },
@@ -7921,7 +7544,6 @@ export let FaSquarespaceBrands = {
   $_icon: {
     name: "Squarespace",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["squarespace"],
   },
@@ -7942,7 +7564,6 @@ export let FaStackExchangeBrands = {
   $_icon: {
     name: "StackExchange",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["stack","exchange"],
   },
@@ -7963,7 +7584,6 @@ export let FaStackOverflowBrands = {
   $_icon: {
     name: "StackOverflow",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["stack","overflow"],
   },
@@ -7984,7 +7604,6 @@ export let FaStackpathBrands = {
   $_icon: {
     name: "Stackpath",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["stackpath"],
   },
@@ -8005,7 +7624,6 @@ export let FaStaylinkedBrands = {
   $_icon: {
     name: "Staylinked",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["staylinked"],
   },
@@ -8026,7 +7644,6 @@ export let FaSteamSymbolBrands = {
   $_icon: {
     name: "SteamSymbol",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["steam","symbol"],
   },
@@ -8047,7 +7664,6 @@ export let FaSteamBrands = {
   $_icon: {
     name: "Steam",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["steam"],
   },
@@ -8068,7 +7684,6 @@ export let FaStickerMuleBrands = {
   $_icon: {
     name: "StickerMule",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["sticker","mule"],
   },
@@ -8089,7 +7704,6 @@ export let FaStravaBrands = {
   $_icon: {
     name: "Strava",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["strava"],
   },
@@ -8110,7 +7724,6 @@ export let FaStripeSBrands = {
   $_icon: {
     name: "StripeS",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["stripe","s"],
   },
@@ -8131,7 +7744,6 @@ export let FaStripeBrands = {
   $_icon: {
     name: "Stripe",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["stripe"],
   },
@@ -8152,7 +7764,6 @@ export let FaStudiovinariBrands = {
   $_icon: {
     name: "Studiovinari",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["studiovinari"],
   },
@@ -8173,7 +7784,6 @@ export let FaStumbleuponCircleBrands = {
   $_icon: {
     name: "StumbleuponCircle",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["stumbleupon","circle"],
   },
@@ -8194,7 +7804,6 @@ export let FaStumbleuponBrands = {
   $_icon: {
     name: "Stumbleupon",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["stumbleupon"],
   },
@@ -8215,7 +7824,6 @@ export let FaSuperpowersBrands = {
   $_icon: {
     name: "Superpowers",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["superpowers"],
   },
@@ -8236,7 +7844,6 @@ export let FaSuppleBrands = {
   $_icon: {
     name: "Supple",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["supple"],
   },
@@ -8257,7 +7864,6 @@ export let FaSuseBrands = {
   $_icon: {
     name: "Suse",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["suse"],
   },
@@ -8278,7 +7884,6 @@ export let FaSwiftBrands = {
   $_icon: {
     name: "Swift",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["swift"],
   },
@@ -8299,7 +7904,6 @@ export let FaSymfonyBrands = {
   $_icon: {
     name: "Symfony",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["symfony"],
   },
@@ -8320,7 +7924,6 @@ export let FaTeamspeakBrands = {
   $_icon: {
     name: "Teamspeak",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["teamspeak"],
   },
@@ -8341,7 +7944,6 @@ export let FaTelegramBrands = {
   $_icon: {
     name: "Telegram",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["telegram"],
   },
@@ -8362,7 +7964,6 @@ export let FaTencentWeiboBrands = {
   $_icon: {
     name: "TencentWeibo",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["tencent","weibo"],
   },
@@ -8383,7 +7984,6 @@ export let FaTheRedYetiBrands = {
   $_icon: {
     name: "TheRedYeti",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["the","red","yeti"],
   },
@@ -8404,7 +8004,6 @@ export let FaThemecoBrands = {
   $_icon: {
     name: "Themeco",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["themeco"],
   },
@@ -8425,7 +8024,6 @@ export let FaThemeisleBrands = {
   $_icon: {
     name: "Themeisle",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["themeisle"],
   },
@@ -8446,7 +8044,6 @@ export let FaThinkPeaksBrands = {
   $_icon: {
     name: "ThinkPeaks",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["think","peaks"],
   },
@@ -8467,7 +8064,6 @@ export let FaTiktokBrands = {
   $_icon: {
     name: "Tiktok",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["tiktok"],
   },
@@ -8488,7 +8084,6 @@ export let FaTradeFederationBrands = {
   $_icon: {
     name: "TradeFederation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["trade","federation"],
   },
@@ -8509,7 +8104,6 @@ export let FaTrelloBrands = {
   $_icon: {
     name: "Trello",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["trello"],
   },
@@ -8530,7 +8124,6 @@ export let FaTumblrBrands = {
   $_icon: {
     name: "Tumblr",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["tumblr"],
   },
@@ -8551,7 +8144,6 @@ export let FaTwitchBrands = {
   $_icon: {
     name: "Twitch",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["twitch"],
   },
@@ -8572,7 +8164,6 @@ export let FaTwitterBrands = {
   $_icon: {
     name: "Twitter",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["twitter"],
   },
@@ -8593,7 +8184,6 @@ export let FaTypo3Brands = {
   $_icon: {
     name: "Typo3",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["typo3"],
   },
@@ -8614,7 +8204,6 @@ export let FaUberBrands = {
   $_icon: {
     name: "Uber",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["uber"],
   },
@@ -8635,7 +8224,6 @@ export let FaUbuntuBrands = {
   $_icon: {
     name: "Ubuntu",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["ubuntu"],
   },
@@ -8656,7 +8244,6 @@ export let FaUikitBrands = {
   $_icon: {
     name: "Uikit",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["uikit"],
   },
@@ -8677,7 +8264,6 @@ export let FaUmbracoBrands = {
   $_icon: {
     name: "Umbraco",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["umbraco"],
   },
@@ -8698,7 +8284,6 @@ export let FaUnchartedBrands = {
   $_icon: {
     name: "Uncharted",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["uncharted"],
   },
@@ -8719,7 +8304,6 @@ export let FaUniregistryBrands = {
   $_icon: {
     name: "Uniregistry",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["uniregistry"],
   },
@@ -8740,7 +8324,6 @@ export let FaUnityBrands = {
   $_icon: {
     name: "Unity",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["unity"],
   },
@@ -8761,7 +8344,6 @@ export let FaUnsplashBrands = {
   $_icon: {
     name: "Unsplash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["unsplash"],
   },
@@ -8782,7 +8364,6 @@ export let FaUntappdBrands = {
   $_icon: {
     name: "Untappd",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["untappd"],
   },
@@ -8803,7 +8384,6 @@ export let FaUpsBrands = {
   $_icon: {
     name: "Ups",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["ups"],
   },
@@ -8824,7 +8404,6 @@ export let FaUsbBrands = {
   $_icon: {
     name: "Usb",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["usb"],
   },
@@ -8845,7 +8424,6 @@ export let FaUspsBrands = {
   $_icon: {
     name: "Usps",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["usps"],
   },
@@ -8866,7 +8444,6 @@ export let FaUssunnahBrands = {
   $_icon: {
     name: "Ussunnah",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["ussunnah"],
   },
@@ -8887,7 +8464,6 @@ export let FaVaadinBrands = {
   $_icon: {
     name: "Vaadin",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["vaadin"],
   },
@@ -8908,7 +8484,6 @@ export let FaViacoinBrands = {
   $_icon: {
     name: "Viacoin",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["viacoin"],
   },
@@ -8929,7 +8504,6 @@ export let FaViadeoBrands = {
   $_icon: {
     name: "Viadeo",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["viadeo"],
   },
@@ -8950,7 +8524,6 @@ export let FaViberBrands = {
   $_icon: {
     name: "Viber",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["viber"],
   },
@@ -8971,7 +8544,6 @@ export let FaVimeoVBrands = {
   $_icon: {
     name: "VimeoV",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["vimeo","v"],
   },
@@ -8992,7 +8564,6 @@ export let FaVimeoBrands = {
   $_icon: {
     name: "Vimeo",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["vimeo"],
   },
@@ -9013,7 +8584,6 @@ export let FaVineBrands = {
   $_icon: {
     name: "Vine",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["vine"],
   },
@@ -9034,7 +8604,6 @@ export let FaVkBrands = {
   $_icon: {
     name: "Vk",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["vk"],
   },
@@ -9055,7 +8624,6 @@ export let FaVnvBrands = {
   $_icon: {
     name: "Vnv",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["vnv"],
   },
@@ -9076,7 +8644,6 @@ export let FaVuejsBrands = {
   $_icon: {
     name: "Vuejs",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["vuejs"],
   },
@@ -9097,7 +8664,6 @@ export let FaWatchmanMonitoringBrands = {
   $_icon: {
     name: "WatchmanMonitoring",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["watchman","monitoring"],
   },
@@ -9118,7 +8684,6 @@ export let FaWazeBrands = {
   $_icon: {
     name: "Waze",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["waze"],
   },
@@ -9139,7 +8704,6 @@ export let FaWeeblyBrands = {
   $_icon: {
     name: "Weebly",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["weebly"],
   },
@@ -9160,7 +8724,6 @@ export let FaWeiboBrands = {
   $_icon: {
     name: "Weibo",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["weibo"],
   },
@@ -9181,7 +8744,6 @@ export let FaWeixinBrands = {
   $_icon: {
     name: "Weixin",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["weixin"],
   },
@@ -9202,7 +8764,6 @@ export let FaWhatsappBrands = {
   $_icon: {
     name: "Whatsapp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["whatsapp"],
   },
@@ -9223,7 +8784,6 @@ export let FaWhmcsBrands = {
   $_icon: {
     name: "Whmcs",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["whmcs"],
   },
@@ -9244,7 +8804,6 @@ export let FaWikipediaWBrands = {
   $_icon: {
     name: "WikipediaW",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["wikipedia","w"],
   },
@@ -9265,7 +8824,6 @@ export let FaWindowsBrands = {
   $_icon: {
     name: "Windows",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["windows"],
   },
@@ -9286,7 +8844,6 @@ export let FaWirsindhandwerkBrands = {
   $_icon: {
     name: "Wirsindhandwerk",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["wirsindhandwerk"],
   },
@@ -9307,7 +8864,6 @@ export let FaWixBrands = {
   $_icon: {
     name: "Wix",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["wix"],
   },
@@ -9328,7 +8884,6 @@ export let FaWizardsOfTheCoastBrands = {
   $_icon: {
     name: "WizardsOfTheCoast",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["wizards","of","the","coast"],
   },
@@ -9349,7 +8904,6 @@ export let FaWoduBrands = {
   $_icon: {
     name: "Wodu",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["wodu"],
   },
@@ -9370,7 +8924,6 @@ export let FaWolfPackBattalionBrands = {
   $_icon: {
     name: "WolfPackBattalion",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["wolf","pack","battalion"],
   },
@@ -9391,7 +8944,6 @@ export let FaWordpressSimpleBrands = {
   $_icon: {
     name: "WordpressSimple",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["wordpress","simple"],
   },
@@ -9412,7 +8964,6 @@ export let FaWordpressBrands = {
   $_icon: {
     name: "Wordpress",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["wordpress"],
   },
@@ -9433,7 +8984,6 @@ export let FaWpbeginnerBrands = {
   $_icon: {
     name: "Wpbeginner",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["wpbeginner"],
   },
@@ -9454,7 +9004,6 @@ export let FaWpexplorerBrands = {
   $_icon: {
     name: "Wpexplorer",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["wpexplorer"],
   },
@@ -9475,7 +9024,6 @@ export let FaWpformsBrands = {
   $_icon: {
     name: "Wpforms",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["wpforms"],
   },
@@ -9496,7 +9044,6 @@ export let FaWpressrBrands = {
   $_icon: {
     name: "Wpressr",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["wpressr"],
   },
@@ -9517,7 +9064,6 @@ export let FaXboxBrands = {
   $_icon: {
     name: "Xbox",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["xbox"],
   },
@@ -9538,7 +9084,6 @@ export let FaXingBrands = {
   $_icon: {
     name: "Xing",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["xing"],
   },
@@ -9559,7 +9104,6 @@ export let FaYCombinatorBrands = {
   $_icon: {
     name: "YCombinator",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["y","combinator"],
   },
@@ -9580,7 +9124,6 @@ export let FaYahooBrands = {
   $_icon: {
     name: "Yahoo",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["yahoo"],
   },
@@ -9601,7 +9144,6 @@ export let FaYammerBrands = {
   $_icon: {
     name: "Yammer",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["yammer"],
   },
@@ -9622,7 +9164,6 @@ export let FaYandexInternationalBrands = {
   $_icon: {
     name: "YandexInternational",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["yandex","international"],
   },
@@ -9643,7 +9184,6 @@ export let FaYandexBrands = {
   $_icon: {
     name: "Yandex",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["yandex"],
   },
@@ -9664,7 +9204,6 @@ export let FaYarnBrands = {
   $_icon: {
     name: "Yarn",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["yarn"],
   },
@@ -9685,7 +9224,6 @@ export let FaYelpBrands = {
   $_icon: {
     name: "Yelp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["yelp"],
   },
@@ -9706,7 +9244,6 @@ export let FaYoastBrands = {
   $_icon: {
     name: "Yoast",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["yoast"],
   },
@@ -9727,7 +9264,6 @@ export let FaYoutubeBrands = {
   $_icon: {
     name: "Youtube",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["youtube"],
   },
@@ -9748,7 +9284,6 @@ export let FaZhihuBrands = {
   $_icon: {
     name: "Zhihu",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Brands"],
     tags: ["zhihu"],
   },
@@ -9769,7 +9304,6 @@ export let FaAddressBookRegular = {
   $_icon: {
     name: "AddressBook",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["address","book"],
   },
@@ -9790,7 +9324,6 @@ export let FaAddressCardRegular = {
   $_icon: {
     name: "AddressCard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["address","card"],
   },
@@ -9811,7 +9344,6 @@ export let FaBellSlashRegular = {
   $_icon: {
     name: "BellSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["bell","slash"],
   },
@@ -9832,7 +9364,6 @@ export let FaBellRegular = {
   $_icon: {
     name: "Bell",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["bell"],
   },
@@ -9853,7 +9384,6 @@ export let FaBookmarkRegular = {
   $_icon: {
     name: "Bookmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["bookmark"],
   },
@@ -9874,7 +9404,6 @@ export let FaBuildingRegular = {
   $_icon: {
     name: "Building",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["building"],
   },
@@ -9895,7 +9424,6 @@ export let FaCalendarCheckRegular = {
   $_icon: {
     name: "CalendarCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["calendar","check"],
   },
@@ -9916,7 +9444,6 @@ export let FaCalendarDaysRegular = {
   $_icon: {
     name: "CalendarDays",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["calendar","days"],
   },
@@ -9937,7 +9464,6 @@ export let FaCalendarMinusRegular = {
   $_icon: {
     name: "CalendarMinus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["calendar","minus"],
   },
@@ -9958,7 +9484,6 @@ export let FaCalendarPlusRegular = {
   $_icon: {
     name: "CalendarPlus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["calendar","plus"],
   },
@@ -9979,7 +9504,6 @@ export let FaCalendarXmarkRegular = {
   $_icon: {
     name: "CalendarXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["calendar","xmark"],
   },
@@ -10000,7 +9524,6 @@ export let FaCalendarRegular = {
   $_icon: {
     name: "Calendar",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["calendar"],
   },
@@ -10021,7 +9544,6 @@ export let FaChartBarRegular = {
   $_icon: {
     name: "ChartBar",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["chart","bar"],
   },
@@ -10042,7 +9564,6 @@ export let FaChessBishopRegular = {
   $_icon: {
     name: "ChessBishop",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["chess","bishop"],
   },
@@ -10063,7 +9584,6 @@ export let FaChessKingRegular = {
   $_icon: {
     name: "ChessKing",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["chess","king"],
   },
@@ -10084,7 +9604,6 @@ export let FaChessKnightRegular = {
   $_icon: {
     name: "ChessKnight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["chess","knight"],
   },
@@ -10105,7 +9624,6 @@ export let FaChessPawnRegular = {
   $_icon: {
     name: "ChessPawn",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["chess","pawn"],
   },
@@ -10126,7 +9644,6 @@ export let FaChessQueenRegular = {
   $_icon: {
     name: "ChessQueen",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["chess","queen"],
   },
@@ -10147,7 +9664,6 @@ export let FaChessRookRegular = {
   $_icon: {
     name: "ChessRook",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["chess","rook"],
   },
@@ -10168,7 +9684,6 @@ export let FaCircleCheckRegular = {
   $_icon: {
     name: "CircleCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["circle","check"],
   },
@@ -10189,7 +9704,6 @@ export let FaCircleDotRegular = {
   $_icon: {
     name: "CircleDot",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["circle","dot"],
   },
@@ -10210,7 +9724,6 @@ export let FaCircleDownRegular = {
   $_icon: {
     name: "CircleDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["circle","down"],
   },
@@ -10231,7 +9744,6 @@ export let FaCircleLeftRegular = {
   $_icon: {
     name: "CircleLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["circle","left"],
   },
@@ -10252,7 +9764,6 @@ export let FaCirclePauseRegular = {
   $_icon: {
     name: "CirclePause",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["circle","pause"],
   },
@@ -10273,7 +9784,6 @@ export let FaCirclePlayRegular = {
   $_icon: {
     name: "CirclePlay",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["circle","play"],
   },
@@ -10294,7 +9804,6 @@ export let FaCircleQuestionRegular = {
   $_icon: {
     name: "CircleQuestion",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["circle","question"],
   },
@@ -10315,7 +9824,6 @@ export let FaCircleRightRegular = {
   $_icon: {
     name: "CircleRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["circle","right"],
   },
@@ -10336,7 +9844,6 @@ export let FaCircleStopRegular = {
   $_icon: {
     name: "CircleStop",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["circle","stop"],
   },
@@ -10357,7 +9864,6 @@ export let FaCircleUpRegular = {
   $_icon: {
     name: "CircleUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["circle","up"],
   },
@@ -10378,7 +9884,6 @@ export let FaCircleUserRegular = {
   $_icon: {
     name: "CircleUser",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["circle","user"],
   },
@@ -10399,7 +9904,6 @@ export let FaCircleXmarkRegular = {
   $_icon: {
     name: "CircleXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["circle","xmark"],
   },
@@ -10420,7 +9924,6 @@ export let FaCircleRegular = {
   $_icon: {
     name: "Circle",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["circle"],
   },
@@ -10441,7 +9944,6 @@ export let FaClipboardRegular = {
   $_icon: {
     name: "Clipboard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["clipboard"],
   },
@@ -10462,7 +9964,6 @@ export let FaClockRegular = {
   $_icon: {
     name: "Clock",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["clock"],
   },
@@ -10483,7 +9984,6 @@ export let FaCloneRegular = {
   $_icon: {
     name: "Clone",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["clone"],
   },
@@ -10504,7 +10004,6 @@ export let FaClosedCaptioningRegular = {
   $_icon: {
     name: "ClosedCaptioning",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["closed","captioning"],
   },
@@ -10525,7 +10024,6 @@ export let FaCommentDotsRegular = {
   $_icon: {
     name: "CommentDots",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["comment","dots"],
   },
@@ -10546,7 +10044,6 @@ export let FaCommentRegular = {
   $_icon: {
     name: "Comment",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["comment"],
   },
@@ -10567,7 +10064,6 @@ export let FaCommentsRegular = {
   $_icon: {
     name: "Comments",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["comments"],
   },
@@ -10588,7 +10084,6 @@ export let FaCompassRegular = {
   $_icon: {
     name: "Compass",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["compass"],
   },
@@ -10609,7 +10104,6 @@ export let FaCopyRegular = {
   $_icon: {
     name: "Copy",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["copy"],
   },
@@ -10630,7 +10124,6 @@ export let FaCopyrightRegular = {
   $_icon: {
     name: "Copyright",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["copyright"],
   },
@@ -10651,7 +10144,6 @@ export let FaCreditCardRegular = {
   $_icon: {
     name: "CreditCard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["credit","card"],
   },
@@ -10672,7 +10164,6 @@ export let FaEnvelopeOpenRegular = {
   $_icon: {
     name: "EnvelopeOpen",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["envelope","open"],
   },
@@ -10693,7 +10184,6 @@ export let FaEnvelopeRegular = {
   $_icon: {
     name: "Envelope",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["envelope"],
   },
@@ -10714,7 +10204,6 @@ export let FaEyeSlashRegular = {
   $_icon: {
     name: "EyeSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["eye","slash"],
   },
@@ -10735,7 +10224,6 @@ export let FaEyeRegular = {
   $_icon: {
     name: "Eye",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["eye"],
   },
@@ -10756,7 +10244,6 @@ export let FaFaceAngryRegular = {
   $_icon: {
     name: "FaceAngry",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","angry"],
   },
@@ -10777,7 +10264,6 @@ export let FaFaceDizzyRegular = {
   $_icon: {
     name: "FaceDizzy",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","dizzy"],
   },
@@ -10798,7 +10284,6 @@ export let FaFaceFlushedRegular = {
   $_icon: {
     name: "FaceFlushed",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","flushed"],
   },
@@ -10819,7 +10304,6 @@ export let FaFaceFrownOpenRegular = {
   $_icon: {
     name: "FaceFrownOpen",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","frown","open"],
   },
@@ -10840,7 +10324,6 @@ export let FaFaceFrownRegular = {
   $_icon: {
     name: "FaceFrown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","frown"],
   },
@@ -10861,7 +10344,6 @@ export let FaFaceGrimaceRegular = {
   $_icon: {
     name: "FaceGrimace",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","grimace"],
   },
@@ -10882,7 +10364,6 @@ export let FaFaceGrinBeamSweatRegular = {
   $_icon: {
     name: "FaceGrinBeamSweat",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","grin","beam","sweat"],
   },
@@ -10903,7 +10384,6 @@ export let FaFaceGrinBeamRegular = {
   $_icon: {
     name: "FaceGrinBeam",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","grin","beam"],
   },
@@ -10924,7 +10404,6 @@ export let FaFaceGrinHeartsRegular = {
   $_icon: {
     name: "FaceGrinHearts",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","grin","hearts"],
   },
@@ -10945,7 +10424,6 @@ export let FaFaceGrinSquintTearsRegular = {
   $_icon: {
     name: "FaceGrinSquintTears",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","grin","squint","tears"],
   },
@@ -10966,7 +10444,6 @@ export let FaFaceGrinSquintRegular = {
   $_icon: {
     name: "FaceGrinSquint",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","grin","squint"],
   },
@@ -10987,7 +10464,6 @@ export let FaFaceGrinStarsRegular = {
   $_icon: {
     name: "FaceGrinStars",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","grin","stars"],
   },
@@ -11008,7 +10484,6 @@ export let FaFaceGrinTearsRegular = {
   $_icon: {
     name: "FaceGrinTears",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","grin","tears"],
   },
@@ -11029,7 +10504,6 @@ export let FaFaceGrinTongueSquintRegular = {
   $_icon: {
     name: "FaceGrinTongueSquint",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","grin","tongue","squint"],
   },
@@ -11050,7 +10524,6 @@ export let FaFaceGrinTongueWinkRegular = {
   $_icon: {
     name: "FaceGrinTongueWink",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","grin","tongue","wink"],
   },
@@ -11071,7 +10544,6 @@ export let FaFaceGrinTongueRegular = {
   $_icon: {
     name: "FaceGrinTongue",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","grin","tongue"],
   },
@@ -11092,7 +10564,6 @@ export let FaFaceGrinWideRegular = {
   $_icon: {
     name: "FaceGrinWide",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","grin","wide"],
   },
@@ -11113,7 +10584,6 @@ export let FaFaceGrinWinkRegular = {
   $_icon: {
     name: "FaceGrinWink",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","grin","wink"],
   },
@@ -11134,7 +10604,6 @@ export let FaFaceGrinRegular = {
   $_icon: {
     name: "FaceGrin",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","grin"],
   },
@@ -11155,7 +10624,6 @@ export let FaFaceKissBeamRegular = {
   $_icon: {
     name: "FaceKissBeam",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","kiss","beam"],
   },
@@ -11176,7 +10644,6 @@ export let FaFaceKissWinkHeartRegular = {
   $_icon: {
     name: "FaceKissWinkHeart",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","kiss","wink","heart"],
   },
@@ -11197,7 +10664,6 @@ export let FaFaceKissRegular = {
   $_icon: {
     name: "FaceKiss",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","kiss"],
   },
@@ -11218,7 +10684,6 @@ export let FaFaceLaughBeamRegular = {
   $_icon: {
     name: "FaceLaughBeam",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","laugh","beam"],
   },
@@ -11239,7 +10704,6 @@ export let FaFaceLaughSquintRegular = {
   $_icon: {
     name: "FaceLaughSquint",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","laugh","squint"],
   },
@@ -11260,7 +10724,6 @@ export let FaFaceLaughWinkRegular = {
   $_icon: {
     name: "FaceLaughWink",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","laugh","wink"],
   },
@@ -11281,7 +10744,6 @@ export let FaFaceLaughRegular = {
   $_icon: {
     name: "FaceLaugh",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","laugh"],
   },
@@ -11302,7 +10764,6 @@ export let FaFaceMehBlankRegular = {
   $_icon: {
     name: "FaceMehBlank",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","meh","blank"],
   },
@@ -11323,7 +10784,6 @@ export let FaFaceMehRegular = {
   $_icon: {
     name: "FaceMeh",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","meh"],
   },
@@ -11344,7 +10804,6 @@ export let FaFaceRollingEyesRegular = {
   $_icon: {
     name: "FaceRollingEyes",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","rolling","eyes"],
   },
@@ -11365,7 +10824,6 @@ export let FaFaceSadCryRegular = {
   $_icon: {
     name: "FaceSadCry",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","sad","cry"],
   },
@@ -11386,7 +10844,6 @@ export let FaFaceSadTearRegular = {
   $_icon: {
     name: "FaceSadTear",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","sad","tear"],
   },
@@ -11407,7 +10864,6 @@ export let FaFaceSmileBeamRegular = {
   $_icon: {
     name: "FaceSmileBeam",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","smile","beam"],
   },
@@ -11428,7 +10884,6 @@ export let FaFaceSmileWinkRegular = {
   $_icon: {
     name: "FaceSmileWink",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","smile","wink"],
   },
@@ -11449,7 +10904,6 @@ export let FaFaceSmileRegular = {
   $_icon: {
     name: "FaceSmile",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","smile"],
   },
@@ -11470,7 +10924,6 @@ export let FaFaceSurpriseRegular = {
   $_icon: {
     name: "FaceSurprise",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","surprise"],
   },
@@ -11491,7 +10944,6 @@ export let FaFaceTiredRegular = {
   $_icon: {
     name: "FaceTired",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["face","tired"],
   },
@@ -11512,7 +10964,6 @@ export let FaFileAudioRegular = {
   $_icon: {
     name: "FileAudio",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["file","audio"],
   },
@@ -11533,7 +10984,6 @@ export let FaFileCodeRegular = {
   $_icon: {
     name: "FileCode",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["file","code"],
   },
@@ -11554,7 +11004,6 @@ export let FaFileExcelRegular = {
   $_icon: {
     name: "FileExcel",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["file","excel"],
   },
@@ -11575,7 +11024,6 @@ export let FaFileImageRegular = {
   $_icon: {
     name: "FileImage",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["file","image"],
   },
@@ -11596,7 +11044,6 @@ export let FaFileLinesRegular = {
   $_icon: {
     name: "FileLines",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["file","lines"],
   },
@@ -11617,7 +11064,6 @@ export let FaFilePdfRegular = {
   $_icon: {
     name: "FilePdf",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["file","pdf"],
   },
@@ -11638,7 +11084,6 @@ export let FaFilePowerpointRegular = {
   $_icon: {
     name: "FilePowerpoint",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["file","powerpoint"],
   },
@@ -11659,7 +11104,6 @@ export let FaFileVideoRegular = {
   $_icon: {
     name: "FileVideo",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["file","video"],
   },
@@ -11680,7 +11124,6 @@ export let FaFileWordRegular = {
   $_icon: {
     name: "FileWord",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["file","word"],
   },
@@ -11701,7 +11144,6 @@ export let FaFileZipperRegular = {
   $_icon: {
     name: "FileZipper",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["file","zipper"],
   },
@@ -11722,7 +11164,6 @@ export let FaFileRegular = {
   $_icon: {
     name: "File",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["file"],
   },
@@ -11743,7 +11184,6 @@ export let FaFlagRegular = {
   $_icon: {
     name: "Flag",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["flag"],
   },
@@ -11764,7 +11204,6 @@ export let FaFloppyDiskRegular = {
   $_icon: {
     name: "FloppyDisk",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["floppy","disk"],
   },
@@ -11785,7 +11224,6 @@ export let FaFolderClosedRegular = {
   $_icon: {
     name: "FolderClosed",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["folder","closed"],
   },
@@ -11806,7 +11244,6 @@ export let FaFolderOpenRegular = {
   $_icon: {
     name: "FolderOpen",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["folder","open"],
   },
@@ -11827,7 +11264,6 @@ export let FaFolderRegular = {
   $_icon: {
     name: "Folder",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["folder"],
   },
@@ -11848,7 +11284,6 @@ export let FaFontAwesomeRegular = {
   $_icon: {
     name: "FontAwesome",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["font","awesome"],
   },
@@ -11869,7 +11304,6 @@ export let FaFutbolRegular = {
   $_icon: {
     name: "Futbol",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["futbol"],
   },
@@ -11890,7 +11324,6 @@ export let FaGemRegular = {
   $_icon: {
     name: "Gem",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["gem"],
   },
@@ -11911,7 +11344,6 @@ export let FaHandBackFistRegular = {
   $_icon: {
     name: "HandBackFist",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["hand","back","fist"],
   },
@@ -11932,7 +11364,6 @@ export let FaHandLizardRegular = {
   $_icon: {
     name: "HandLizard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["hand","lizard"],
   },
@@ -11953,7 +11384,6 @@ export let FaHandPeaceRegular = {
   $_icon: {
     name: "HandPeace",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["hand","peace"],
   },
@@ -11974,7 +11404,6 @@ export let FaHandPointDownRegular = {
   $_icon: {
     name: "HandPointDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["hand","point","down"],
   },
@@ -11995,7 +11424,6 @@ export let FaHandPointLeftRegular = {
   $_icon: {
     name: "HandPointLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["hand","point","left"],
   },
@@ -12016,7 +11444,6 @@ export let FaHandPointRightRegular = {
   $_icon: {
     name: "HandPointRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["hand","point","right"],
   },
@@ -12037,7 +11464,6 @@ export let FaHandPointUpRegular = {
   $_icon: {
     name: "HandPointUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["hand","point","up"],
   },
@@ -12058,7 +11484,6 @@ export let FaHandPointerRegular = {
   $_icon: {
     name: "HandPointer",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["hand","pointer"],
   },
@@ -12079,7 +11504,6 @@ export let FaHandScissorsRegular = {
   $_icon: {
     name: "HandScissors",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["hand","scissors"],
   },
@@ -12100,7 +11524,6 @@ export let FaHandSpockRegular = {
   $_icon: {
     name: "HandSpock",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["hand","spock"],
   },
@@ -12121,7 +11544,6 @@ export let FaHandRegular = {
   $_icon: {
     name: "Hand",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["hand"],
   },
@@ -12142,7 +11564,6 @@ export let FaHandshakeRegular = {
   $_icon: {
     name: "Handshake",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["handshake"],
   },
@@ -12163,7 +11584,6 @@ export let FaHardDriveRegular = {
   $_icon: {
     name: "HardDrive",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["hard","drive"],
   },
@@ -12184,7 +11604,6 @@ export let FaHeartRegular = {
   $_icon: {
     name: "Heart",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["heart"],
   },
@@ -12205,7 +11624,6 @@ export let FaHospitalRegular = {
   $_icon: {
     name: "Hospital",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["hospital"],
   },
@@ -12226,7 +11644,6 @@ export let FaHourglassHalfRegular = {
   $_icon: {
     name: "HourglassHalf",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["hourglass","half"],
   },
@@ -12247,7 +11664,6 @@ export let FaHourglassRegular = {
   $_icon: {
     name: "Hourglass",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["hourglass"],
   },
@@ -12268,7 +11684,6 @@ export let FaIdBadgeRegular = {
   $_icon: {
     name: "IdBadge",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["id","badge"],
   },
@@ -12289,7 +11704,6 @@ export let FaIdCardRegular = {
   $_icon: {
     name: "IdCard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["id","card"],
   },
@@ -12310,7 +11724,6 @@ export let FaImageRegular = {
   $_icon: {
     name: "Image",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["image"],
   },
@@ -12331,7 +11744,6 @@ export let FaImagesRegular = {
   $_icon: {
     name: "Images",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["images"],
   },
@@ -12352,7 +11764,6 @@ export let FaKeyboardRegular = {
   $_icon: {
     name: "Keyboard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["keyboard"],
   },
@@ -12373,7 +11784,6 @@ export let FaLemonRegular = {
   $_icon: {
     name: "Lemon",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["lemon"],
   },
@@ -12394,7 +11804,6 @@ export let FaLifeRingRegular = {
   $_icon: {
     name: "LifeRing",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["life","ring"],
   },
@@ -12415,7 +11824,6 @@ export let FaLightbulbRegular = {
   $_icon: {
     name: "Lightbulb",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["lightbulb"],
   },
@@ -12436,7 +11844,6 @@ export let FaMapRegular = {
   $_icon: {
     name: "Map",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["map"],
   },
@@ -12457,7 +11864,6 @@ export let FaMessageRegular = {
   $_icon: {
     name: "Message",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["message"],
   },
@@ -12478,7 +11884,6 @@ export let FaMoneyBill1Regular = {
   $_icon: {
     name: "MoneyBill1",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["money","bill","1"],
   },
@@ -12499,7 +11904,6 @@ export let FaMoonRegular = {
   $_icon: {
     name: "Moon",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["moon"],
   },
@@ -12520,7 +11924,6 @@ export let FaNewspaperRegular = {
   $_icon: {
     name: "Newspaper",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["newspaper"],
   },
@@ -12541,7 +11944,6 @@ export let FaNoteStickyRegular = {
   $_icon: {
     name: "NoteSticky",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["note","sticky"],
   },
@@ -12562,7 +11964,6 @@ export let FaObjectGroupRegular = {
   $_icon: {
     name: "ObjectGroup",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["object","group"],
   },
@@ -12583,7 +11984,6 @@ export let FaObjectUngroupRegular = {
   $_icon: {
     name: "ObjectUngroup",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["object","ungroup"],
   },
@@ -12604,7 +12004,6 @@ export let FaPaperPlaneRegular = {
   $_icon: {
     name: "PaperPlane",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["paper","plane"],
   },
@@ -12625,7 +12024,6 @@ export let FaPasteRegular = {
   $_icon: {
     name: "Paste",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["paste"],
   },
@@ -12646,7 +12044,6 @@ export let FaPenToSquareRegular = {
   $_icon: {
     name: "PenToSquare",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["pen","to","square"],
   },
@@ -12667,7 +12064,6 @@ export let FaRectangleListRegular = {
   $_icon: {
     name: "RectangleList",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["rectangle","list"],
   },
@@ -12688,7 +12084,6 @@ export let FaRectangleXmarkRegular = {
   $_icon: {
     name: "RectangleXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["rectangle","xmark"],
   },
@@ -12709,7 +12104,6 @@ export let FaRegisteredRegular = {
   $_icon: {
     name: "Registered",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["registered"],
   },
@@ -12730,7 +12124,6 @@ export let FaShareFromSquareRegular = {
   $_icon: {
     name: "ShareFromSquare",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["share","from","square"],
   },
@@ -12751,7 +12144,6 @@ export let FaSnowflakeRegular = {
   $_icon: {
     name: "Snowflake",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["snowflake"],
   },
@@ -12772,7 +12164,6 @@ export let FaSquareCaretDownRegular = {
   $_icon: {
     name: "SquareCaretDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["square","caret","down"],
   },
@@ -12793,7 +12184,6 @@ export let FaSquareCaretLeftRegular = {
   $_icon: {
     name: "SquareCaretLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["square","caret","left"],
   },
@@ -12814,7 +12204,6 @@ export let FaSquareCaretRightRegular = {
   $_icon: {
     name: "SquareCaretRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["square","caret","right"],
   },
@@ -12835,7 +12224,6 @@ export let FaSquareCaretUpRegular = {
   $_icon: {
     name: "SquareCaretUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["square","caret","up"],
   },
@@ -12856,7 +12244,6 @@ export let FaSquareCheckRegular = {
   $_icon: {
     name: "SquareCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["square","check"],
   },
@@ -12877,7 +12264,6 @@ export let FaSquareFullRegular = {
   $_icon: {
     name: "SquareFull",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["square","full"],
   },
@@ -12898,7 +12284,6 @@ export let FaSquareMinusRegular = {
   $_icon: {
     name: "SquareMinus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["square","minus"],
   },
@@ -12919,7 +12304,6 @@ export let FaSquarePlusRegular = {
   $_icon: {
     name: "SquarePlus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["square","plus"],
   },
@@ -12940,7 +12324,6 @@ export let FaSquareRegular = {
   $_icon: {
     name: "Square",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["square"],
   },
@@ -12961,7 +12344,6 @@ export let FaStarHalfStrokeRegular = {
   $_icon: {
     name: "StarHalfStroke",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["star","half","stroke"],
   },
@@ -12982,7 +12364,6 @@ export let FaStarHalfRegular = {
   $_icon: {
     name: "StarHalf",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["star","half"],
   },
@@ -13003,7 +12384,6 @@ export let FaStarRegular = {
   $_icon: {
     name: "Star",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["star"],
   },
@@ -13024,7 +12404,6 @@ export let FaSunRegular = {
   $_icon: {
     name: "Sun",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["sun"],
   },
@@ -13045,7 +12424,6 @@ export let FaThumbsDownRegular = {
   $_icon: {
     name: "ThumbsDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["thumbs","down"],
   },
@@ -13066,7 +12444,6 @@ export let FaThumbsUpRegular = {
   $_icon: {
     name: "ThumbsUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["thumbs","up"],
   },
@@ -13087,7 +12464,6 @@ export let FaTrashCanRegular = {
   $_icon: {
     name: "TrashCan",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["trash","can"],
   },
@@ -13108,7 +12484,6 @@ export let FaUserRegular = {
   $_icon: {
     name: "User",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["user"],
   },
@@ -13129,7 +12504,6 @@ export let FaWindowMaximizeRegular = {
   $_icon: {
     name: "WindowMaximize",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["window","maximize"],
   },
@@ -13150,7 +12524,6 @@ export let FaWindowMinimizeRegular = {
   $_icon: {
     name: "WindowMinimize",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["window","minimize"],
   },
@@ -13171,7 +12544,6 @@ export let FaWindowRestoreRegular = {
   $_icon: {
     name: "WindowRestore",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Regular"],
     tags: ["window","restore"],
   },
@@ -13192,7 +12564,6 @@ export let Fa0Solid = {
   $_icon: {
     name: "0",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["0"],
   },
@@ -13213,7 +12584,6 @@ export let Fa1Solid = {
   $_icon: {
     name: "1",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["1"],
   },
@@ -13234,7 +12604,6 @@ export let Fa2Solid = {
   $_icon: {
     name: "2",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["2"],
   },
@@ -13255,7 +12624,6 @@ export let Fa3Solid = {
   $_icon: {
     name: "3",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["3"],
   },
@@ -13276,7 +12644,6 @@ export let Fa4Solid = {
   $_icon: {
     name: "4",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["4"],
   },
@@ -13297,7 +12664,6 @@ export let Fa5Solid = {
   $_icon: {
     name: "5",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["5"],
   },
@@ -13318,7 +12684,6 @@ export let Fa6Solid = {
   $_icon: {
     name: "6",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["6"],
   },
@@ -13339,7 +12704,6 @@ export let Fa7Solid = {
   $_icon: {
     name: "7",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["7"],
   },
@@ -13360,7 +12724,6 @@ export let Fa8Solid = {
   $_icon: {
     name: "8",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["8"],
   },
@@ -13381,7 +12744,6 @@ export let Fa9Solid = {
   $_icon: {
     name: "9",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["9"],
   },
@@ -13402,7 +12764,6 @@ export let FaASolid = {
   $_icon: {
     name: "A",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["a"],
   },
@@ -13423,7 +12784,6 @@ export let FaAddressBookSolid = {
   $_icon: {
     name: "AddressBook",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["address","book"],
   },
@@ -13444,7 +12804,6 @@ export let FaAddressCardSolid = {
   $_icon: {
     name: "AddressCard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["address","card"],
   },
@@ -13465,7 +12824,6 @@ export let FaAlignCenterSolid = {
   $_icon: {
     name: "AlignCenter",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["align","center"],
   },
@@ -13486,7 +12844,6 @@ export let FaAlignJustifySolid = {
   $_icon: {
     name: "AlignJustify",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["align","justify"],
   },
@@ -13507,7 +12864,6 @@ export let FaAlignLeftSolid = {
   $_icon: {
     name: "AlignLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["align","left"],
   },
@@ -13528,7 +12884,6 @@ export let FaAlignRightSolid = {
   $_icon: {
     name: "AlignRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["align","right"],
   },
@@ -13549,7 +12904,6 @@ export let FaAnchorCircleCheckSolid = {
   $_icon: {
     name: "AnchorCircleCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["anchor","circle","check"],
   },
@@ -13570,7 +12924,6 @@ export let FaAnchorCircleExclamationSolid = {
   $_icon: {
     name: "AnchorCircleExclamation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["anchor","circle","exclamation"],
   },
@@ -13591,7 +12944,6 @@ export let FaAnchorCircleXmarkSolid = {
   $_icon: {
     name: "AnchorCircleXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["anchor","circle","xmark"],
   },
@@ -13612,7 +12964,6 @@ export let FaAnchorLockSolid = {
   $_icon: {
     name: "AnchorLock",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["anchor","lock"],
   },
@@ -13633,7 +12984,6 @@ export let FaAnchorSolid = {
   $_icon: {
     name: "Anchor",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["anchor"],
   },
@@ -13654,7 +13004,6 @@ export let FaAngleDownSolid = {
   $_icon: {
     name: "AngleDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["angle","down"],
   },
@@ -13675,7 +13024,6 @@ export let FaAngleLeftSolid = {
   $_icon: {
     name: "AngleLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["angle","left"],
   },
@@ -13696,7 +13044,6 @@ export let FaAngleRightSolid = {
   $_icon: {
     name: "AngleRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["angle","right"],
   },
@@ -13717,7 +13064,6 @@ export let FaAngleUpSolid = {
   $_icon: {
     name: "AngleUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["angle","up"],
   },
@@ -13738,7 +13084,6 @@ export let FaAnglesDownSolid = {
   $_icon: {
     name: "AnglesDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["angles","down"],
   },
@@ -13759,7 +13104,6 @@ export let FaAnglesLeftSolid = {
   $_icon: {
     name: "AnglesLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["angles","left"],
   },
@@ -13780,7 +13124,6 @@ export let FaAnglesRightSolid = {
   $_icon: {
     name: "AnglesRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["angles","right"],
   },
@@ -13801,7 +13144,6 @@ export let FaAnglesUpSolid = {
   $_icon: {
     name: "AnglesUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["angles","up"],
   },
@@ -13822,7 +13164,6 @@ export let FaAnkhSolid = {
   $_icon: {
     name: "Ankh",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ankh"],
   },
@@ -13843,7 +13184,6 @@ export let FaAppleWholeSolid = {
   $_icon: {
     name: "AppleWhole",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["apple","whole"],
   },
@@ -13864,7 +13204,6 @@ export let FaArchwaySolid = {
   $_icon: {
     name: "Archway",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["archway"],
   },
@@ -13885,7 +13224,6 @@ export let FaArrowDown19Solid = {
   $_icon: {
     name: "ArrowDown19",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","down","1","9"],
   },
@@ -13906,7 +13244,6 @@ export let FaArrowDown91Solid = {
   $_icon: {
     name: "ArrowDown91",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","down","9","1"],
   },
@@ -13927,7 +13264,6 @@ export let FaArrowDownAZSolid = {
   $_icon: {
     name: "ArrowDownAZ",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","down","a","z"],
   },
@@ -13948,7 +13284,6 @@ export let FaArrowDownLongSolid = {
   $_icon: {
     name: "ArrowDownLong",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","down","long"],
   },
@@ -13969,7 +13304,6 @@ export let FaArrowDownShortWideSolid = {
   $_icon: {
     name: "ArrowDownShortWide",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","down","short","wide"],
   },
@@ -13990,7 +13324,6 @@ export let FaArrowDownUpAcrossLineSolid = {
   $_icon: {
     name: "ArrowDownUpAcrossLine",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","down","up","across","line"],
   },
@@ -14011,7 +13344,6 @@ export let FaArrowDownUpLockSolid = {
   $_icon: {
     name: "ArrowDownUpLock",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","down","up","lock"],
   },
@@ -14032,7 +13364,6 @@ export let FaArrowDownWideShortSolid = {
   $_icon: {
     name: "ArrowDownWideShort",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","down","wide","short"],
   },
@@ -14053,7 +13384,6 @@ export let FaArrowDownZASolid = {
   $_icon: {
     name: "ArrowDownZA",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","down","z","a"],
   },
@@ -14074,7 +13404,6 @@ export let FaArrowDownSolid = {
   $_icon: {
     name: "ArrowDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","down"],
   },
@@ -14095,7 +13424,6 @@ export let FaArrowLeftLongSolid = {
   $_icon: {
     name: "ArrowLeftLong",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","left","long"],
   },
@@ -14116,7 +13444,6 @@ export let FaArrowLeftSolid = {
   $_icon: {
     name: "ArrowLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","left"],
   },
@@ -14137,7 +13464,6 @@ export let FaArrowPointerSolid = {
   $_icon: {
     name: "ArrowPointer",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","pointer"],
   },
@@ -14158,7 +13484,6 @@ export let FaArrowRightArrowLeftSolid = {
   $_icon: {
     name: "ArrowRightArrowLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","right","arrow","left"],
   },
@@ -14179,7 +13504,6 @@ export let FaArrowRightFromBracketSolid = {
   $_icon: {
     name: "ArrowRightFromBracket",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","right","from","bracket"],
   },
@@ -14200,7 +13524,6 @@ export let FaArrowRightLongSolid = {
   $_icon: {
     name: "ArrowRightLong",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","right","long"],
   },
@@ -14221,7 +13544,6 @@ export let FaArrowRightToBracketSolid = {
   $_icon: {
     name: "ArrowRightToBracket",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","right","to","bracket"],
   },
@@ -14242,7 +13564,6 @@ export let FaArrowRightToCitySolid = {
   $_icon: {
     name: "ArrowRightToCity",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","right","to","city"],
   },
@@ -14263,7 +13584,6 @@ export let FaArrowRightSolid = {
   $_icon: {
     name: "ArrowRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","right"],
   },
@@ -14284,7 +13604,6 @@ export let FaArrowRotateLeftSolid = {
   $_icon: {
     name: "ArrowRotateLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","rotate","left"],
   },
@@ -14305,7 +13624,6 @@ export let FaArrowRotateRightSolid = {
   $_icon: {
     name: "ArrowRotateRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","rotate","right"],
   },
@@ -14326,7 +13644,6 @@ export let FaArrowTrendDownSolid = {
   $_icon: {
     name: "ArrowTrendDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","trend","down"],
   },
@@ -14347,7 +13664,6 @@ export let FaArrowTrendUpSolid = {
   $_icon: {
     name: "ArrowTrendUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","trend","up"],
   },
@@ -14368,7 +13684,6 @@ export let FaArrowTurnDownSolid = {
   $_icon: {
     name: "ArrowTurnDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","turn","down"],
   },
@@ -14389,7 +13704,6 @@ export let FaArrowTurnUpSolid = {
   $_icon: {
     name: "ArrowTurnUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","turn","up"],
   },
@@ -14410,7 +13724,6 @@ export let FaArrowUp19Solid = {
   $_icon: {
     name: "ArrowUp19",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","up","1","9"],
   },
@@ -14431,7 +13744,6 @@ export let FaArrowUp91Solid = {
   $_icon: {
     name: "ArrowUp91",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","up","9","1"],
   },
@@ -14452,7 +13764,6 @@ export let FaArrowUpAZSolid = {
   $_icon: {
     name: "ArrowUpAZ",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","up","a","z"],
   },
@@ -14473,7 +13784,6 @@ export let FaArrowUpFromBracketSolid = {
   $_icon: {
     name: "ArrowUpFromBracket",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","up","from","bracket"],
   },
@@ -14494,7 +13804,6 @@ export let FaArrowUpFromGroundWaterSolid = {
   $_icon: {
     name: "ArrowUpFromGroundWater",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","up","from","ground","water"],
   },
@@ -14515,7 +13824,6 @@ export let FaArrowUpFromWaterPumpSolid = {
   $_icon: {
     name: "ArrowUpFromWaterPump",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","up","from","water","pump"],
   },
@@ -14536,7 +13844,6 @@ export let FaArrowUpLongSolid = {
   $_icon: {
     name: "ArrowUpLong",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","up","long"],
   },
@@ -14557,7 +13864,6 @@ export let FaArrowUpRightDotsSolid = {
   $_icon: {
     name: "ArrowUpRightDots",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","up","right","dots"],
   },
@@ -14578,7 +13884,6 @@ export let FaArrowUpRightFromSquareSolid = {
   $_icon: {
     name: "ArrowUpRightFromSquare",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","up","right","from","square"],
   },
@@ -14599,7 +13904,6 @@ export let FaArrowUpShortWideSolid = {
   $_icon: {
     name: "ArrowUpShortWide",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","up","short","wide"],
   },
@@ -14620,7 +13924,6 @@ export let FaArrowUpWideShortSolid = {
   $_icon: {
     name: "ArrowUpWideShort",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","up","wide","short"],
   },
@@ -14641,7 +13944,6 @@ export let FaArrowUpZASolid = {
   $_icon: {
     name: "ArrowUpZA",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","up","z","a"],
   },
@@ -14662,7 +13964,6 @@ export let FaArrowUpSolid = {
   $_icon: {
     name: "ArrowUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrow","up"],
   },
@@ -14683,7 +13984,6 @@ export let FaArrowsDownToLineSolid = {
   $_icon: {
     name: "ArrowsDownToLine",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrows","down","to","line"],
   },
@@ -14704,7 +14004,6 @@ export let FaArrowsDownToPeopleSolid = {
   $_icon: {
     name: "ArrowsDownToPeople",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrows","down","to","people"],
   },
@@ -14725,7 +14024,6 @@ export let FaArrowsLeftRightToLineSolid = {
   $_icon: {
     name: "ArrowsLeftRightToLine",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrows","left","right","to","line"],
   },
@@ -14746,7 +14044,6 @@ export let FaArrowsLeftRightSolid = {
   $_icon: {
     name: "ArrowsLeftRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrows","left","right"],
   },
@@ -14767,7 +14064,6 @@ export let FaArrowsRotateSolid = {
   $_icon: {
     name: "ArrowsRotate",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrows","rotate"],
   },
@@ -14788,7 +14084,6 @@ export let FaArrowsSpinSolid = {
   $_icon: {
     name: "ArrowsSpin",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrows","spin"],
   },
@@ -14809,7 +14104,6 @@ export let FaArrowsSplitUpAndLeftSolid = {
   $_icon: {
     name: "ArrowsSplitUpAndLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrows","split","up","and","left"],
   },
@@ -14830,7 +14124,6 @@ export let FaArrowsToCircleSolid = {
   $_icon: {
     name: "ArrowsToCircle",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrows","to","circle"],
   },
@@ -14851,7 +14144,6 @@ export let FaArrowsToDotSolid = {
   $_icon: {
     name: "ArrowsToDot",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrows","to","dot"],
   },
@@ -14872,7 +14164,6 @@ export let FaArrowsToEyeSolid = {
   $_icon: {
     name: "ArrowsToEye",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrows","to","eye"],
   },
@@ -14893,7 +14184,6 @@ export let FaArrowsTurnRightSolid = {
   $_icon: {
     name: "ArrowsTurnRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrows","turn","right"],
   },
@@ -14914,7 +14204,6 @@ export let FaArrowsTurnToDotsSolid = {
   $_icon: {
     name: "ArrowsTurnToDots",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrows","turn","to","dots"],
   },
@@ -14935,7 +14224,6 @@ export let FaArrowsUpDownLeftRightSolid = {
   $_icon: {
     name: "ArrowsUpDownLeftRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrows","up","down","left","right"],
   },
@@ -14956,7 +14244,6 @@ export let FaArrowsUpDownSolid = {
   $_icon: {
     name: "ArrowsUpDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrows","up","down"],
   },
@@ -14977,7 +14264,6 @@ export let FaArrowsUpToLineSolid = {
   $_icon: {
     name: "ArrowsUpToLine",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["arrows","up","to","line"],
   },
@@ -14998,7 +14284,6 @@ export let FaAsteriskSolid = {
   $_icon: {
     name: "Asterisk",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["asterisk"],
   },
@@ -15019,7 +14304,6 @@ export let FaAtSolid = {
   $_icon: {
     name: "At",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["at"],
   },
@@ -15040,7 +14324,6 @@ export let FaAtomSolid = {
   $_icon: {
     name: "Atom",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["atom"],
   },
@@ -15061,7 +14344,6 @@ export let FaAudioDescriptionSolid = {
   $_icon: {
     name: "AudioDescription",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["audio","description"],
   },
@@ -15082,7 +14364,6 @@ export let FaAustralSignSolid = {
   $_icon: {
     name: "AustralSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["austral","sign"],
   },
@@ -15103,7 +14384,6 @@ export let FaAwardSolid = {
   $_icon: {
     name: "Award",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["award"],
   },
@@ -15124,7 +14404,6 @@ export let FaBSolid = {
   $_icon: {
     name: "B",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["b"],
   },
@@ -15145,7 +14424,6 @@ export let FaBabyCarriageSolid = {
   $_icon: {
     name: "BabyCarriage",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["baby","carriage"],
   },
@@ -15166,7 +14444,6 @@ export let FaBabySolid = {
   $_icon: {
     name: "Baby",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["baby"],
   },
@@ -15187,7 +14464,6 @@ export let FaBackwardFastSolid = {
   $_icon: {
     name: "BackwardFast",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["backward","fast"],
   },
@@ -15208,7 +14484,6 @@ export let FaBackwardStepSolid = {
   $_icon: {
     name: "BackwardStep",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["backward","step"],
   },
@@ -15229,7 +14504,6 @@ export let FaBackwardSolid = {
   $_icon: {
     name: "Backward",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["backward"],
   },
@@ -15250,7 +14524,6 @@ export let FaBaconSolid = {
   $_icon: {
     name: "Bacon",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bacon"],
   },
@@ -15271,7 +14544,6 @@ export let FaBacteriaSolid = {
   $_icon: {
     name: "Bacteria",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bacteria"],
   },
@@ -15292,7 +14564,6 @@ export let FaBacteriumSolid = {
   $_icon: {
     name: "Bacterium",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bacterium"],
   },
@@ -15313,7 +14584,6 @@ export let FaBagShoppingSolid = {
   $_icon: {
     name: "BagShopping",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bag","shopping"],
   },
@@ -15334,7 +14604,6 @@ export let FaBahaiSolid = {
   $_icon: {
     name: "Bahai",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bahai"],
   },
@@ -15355,7 +14624,6 @@ export let FaBahtSignSolid = {
   $_icon: {
     name: "BahtSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["baht","sign"],
   },
@@ -15376,7 +14644,6 @@ export let FaBanSmokingSolid = {
   $_icon: {
     name: "BanSmoking",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ban","smoking"],
   },
@@ -15397,7 +14664,6 @@ export let FaBanSolid = {
   $_icon: {
     name: "Ban",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ban"],
   },
@@ -15418,7 +14684,6 @@ export let FaBandageSolid = {
   $_icon: {
     name: "Bandage",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bandage"],
   },
@@ -15439,7 +14704,6 @@ export let FaBangladeshiTakaSignSolid = {
   $_icon: {
     name: "BangladeshiTakaSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bangladeshi","taka","sign"],
   },
@@ -15460,7 +14724,6 @@ export let FaBarcodeSolid = {
   $_icon: {
     name: "Barcode",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["barcode"],
   },
@@ -15481,7 +14744,6 @@ export let FaBarsProgressSolid = {
   $_icon: {
     name: "BarsProgress",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bars","progress"],
   },
@@ -15502,7 +14764,6 @@ export let FaBarsStaggeredSolid = {
   $_icon: {
     name: "BarsStaggered",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bars","staggered"],
   },
@@ -15523,7 +14784,6 @@ export let FaBarsSolid = {
   $_icon: {
     name: "Bars",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bars"],
   },
@@ -15544,7 +14804,6 @@ export let FaBaseballBatBallSolid = {
   $_icon: {
     name: "BaseballBatBall",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["baseball","bat","ball"],
   },
@@ -15565,7 +14824,6 @@ export let FaBaseballSolid = {
   $_icon: {
     name: "Baseball",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["baseball"],
   },
@@ -15586,7 +14844,6 @@ export let FaBasketShoppingSolid = {
   $_icon: {
     name: "BasketShopping",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["basket","shopping"],
   },
@@ -15607,7 +14864,6 @@ export let FaBasketballSolid = {
   $_icon: {
     name: "Basketball",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["basketball"],
   },
@@ -15628,7 +14884,6 @@ export let FaBathSolid = {
   $_icon: {
     name: "Bath",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bath"],
   },
@@ -15649,7 +14904,6 @@ export let FaBatteryEmptySolid = {
   $_icon: {
     name: "BatteryEmpty",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["battery","empty"],
   },
@@ -15670,7 +14924,6 @@ export let FaBatteryFullSolid = {
   $_icon: {
     name: "BatteryFull",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["battery","full"],
   },
@@ -15691,7 +14944,6 @@ export let FaBatteryHalfSolid = {
   $_icon: {
     name: "BatteryHalf",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["battery","half"],
   },
@@ -15712,7 +14964,6 @@ export let FaBatteryQuarterSolid = {
   $_icon: {
     name: "BatteryQuarter",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["battery","quarter"],
   },
@@ -15733,7 +14984,6 @@ export let FaBatteryThreeQuartersSolid = {
   $_icon: {
     name: "BatteryThreeQuarters",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["battery","three","quarters"],
   },
@@ -15754,7 +15004,6 @@ export let FaBedPulseSolid = {
   $_icon: {
     name: "BedPulse",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bed","pulse"],
   },
@@ -15775,7 +15024,6 @@ export let FaBedSolid = {
   $_icon: {
     name: "Bed",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bed"],
   },
@@ -15796,7 +15044,6 @@ export let FaBeerMugEmptySolid = {
   $_icon: {
     name: "BeerMugEmpty",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["beer","mug","empty"],
   },
@@ -15817,7 +15064,6 @@ export let FaBellConciergeSolid = {
   $_icon: {
     name: "BellConcierge",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bell","concierge"],
   },
@@ -15838,7 +15084,6 @@ export let FaBellSlashSolid = {
   $_icon: {
     name: "BellSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bell","slash"],
   },
@@ -15859,7 +15104,6 @@ export let FaBellSolid = {
   $_icon: {
     name: "Bell",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bell"],
   },
@@ -15880,7 +15124,6 @@ export let FaBezierCurveSolid = {
   $_icon: {
     name: "BezierCurve",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bezier","curve"],
   },
@@ -15901,7 +15144,6 @@ export let FaBicycleSolid = {
   $_icon: {
     name: "Bicycle",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bicycle"],
   },
@@ -15922,7 +15164,6 @@ export let FaBinocularsSolid = {
   $_icon: {
     name: "Binoculars",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["binoculars"],
   },
@@ -15943,7 +15184,6 @@ export let FaBiohazardSolid = {
   $_icon: {
     name: "Biohazard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["biohazard"],
   },
@@ -15964,7 +15204,6 @@ export let FaBitcoinSignSolid = {
   $_icon: {
     name: "BitcoinSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bitcoin","sign"],
   },
@@ -15985,7 +15224,6 @@ export let FaBlenderPhoneSolid = {
   $_icon: {
     name: "BlenderPhone",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["blender","phone"],
   },
@@ -16006,7 +15244,6 @@ export let FaBlenderSolid = {
   $_icon: {
     name: "Blender",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["blender"],
   },
@@ -16027,7 +15264,6 @@ export let FaBlogSolid = {
   $_icon: {
     name: "Blog",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["blog"],
   },
@@ -16048,7 +15284,6 @@ export let FaBoldSolid = {
   $_icon: {
     name: "Bold",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bold"],
   },
@@ -16069,7 +15304,6 @@ export let FaBoltLightningSolid = {
   $_icon: {
     name: "BoltLightning",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bolt","lightning"],
   },
@@ -16090,7 +15324,6 @@ export let FaBoltSolid = {
   $_icon: {
     name: "Bolt",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bolt"],
   },
@@ -16111,7 +15344,6 @@ export let FaBombSolid = {
   $_icon: {
     name: "Bomb",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bomb"],
   },
@@ -16132,7 +15364,6 @@ export let FaBoneSolid = {
   $_icon: {
     name: "Bone",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bone"],
   },
@@ -16153,7 +15384,6 @@ export let FaBongSolid = {
   $_icon: {
     name: "Bong",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bong"],
   },
@@ -16174,7 +15404,6 @@ export let FaBookAtlasSolid = {
   $_icon: {
     name: "BookAtlas",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["book","atlas"],
   },
@@ -16195,7 +15424,6 @@ export let FaBookBibleSolid = {
   $_icon: {
     name: "BookBible",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["book","bible"],
   },
@@ -16216,7 +15444,6 @@ export let FaBookBookmarkSolid = {
   $_icon: {
     name: "BookBookmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["book","bookmark"],
   },
@@ -16237,7 +15464,6 @@ export let FaBookJournalWhillsSolid = {
   $_icon: {
     name: "BookJournalWhills",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["book","journal","whills"],
   },
@@ -16258,7 +15484,6 @@ export let FaBookMedicalSolid = {
   $_icon: {
     name: "BookMedical",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["book","medical"],
   },
@@ -16279,7 +15504,6 @@ export let FaBookOpenReaderSolid = {
   $_icon: {
     name: "BookOpenReader",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["book","open","reader"],
   },
@@ -16300,7 +15524,6 @@ export let FaBookOpenSolid = {
   $_icon: {
     name: "BookOpen",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["book","open"],
   },
@@ -16321,7 +15544,6 @@ export let FaBookQuranSolid = {
   $_icon: {
     name: "BookQuran",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["book","quran"],
   },
@@ -16342,7 +15564,6 @@ export let FaBookSkullSolid = {
   $_icon: {
     name: "BookSkull",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["book","skull"],
   },
@@ -16363,7 +15584,6 @@ export let FaBookTanakhSolid = {
   $_icon: {
     name: "BookTanakh",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["book","tanakh"],
   },
@@ -16384,7 +15604,6 @@ export let FaBookSolid = {
   $_icon: {
     name: "Book",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["book"],
   },
@@ -16405,7 +15624,6 @@ export let FaBookmarkSolid = {
   $_icon: {
     name: "Bookmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bookmark"],
   },
@@ -16426,7 +15644,6 @@ export let FaBorderAllSolid = {
   $_icon: {
     name: "BorderAll",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["border","all"],
   },
@@ -16447,7 +15664,6 @@ export let FaBorderNoneSolid = {
   $_icon: {
     name: "BorderNone",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["border","none"],
   },
@@ -16468,7 +15684,6 @@ export let FaBorderTopLeftSolid = {
   $_icon: {
     name: "BorderTopLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["border","top","left"],
   },
@@ -16489,7 +15704,6 @@ export let FaBoreHoleSolid = {
   $_icon: {
     name: "BoreHole",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bore","hole"],
   },
@@ -16510,7 +15724,6 @@ export let FaBottleDropletSolid = {
   $_icon: {
     name: "BottleDroplet",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bottle","droplet"],
   },
@@ -16531,7 +15744,6 @@ export let FaBottleWaterSolid = {
   $_icon: {
     name: "BottleWater",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bottle","water"],
   },
@@ -16552,7 +15764,6 @@ export let FaBowlFoodSolid = {
   $_icon: {
     name: "BowlFood",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bowl","food"],
   },
@@ -16573,7 +15784,6 @@ export let FaBowlRiceSolid = {
   $_icon: {
     name: "BowlRice",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bowl","rice"],
   },
@@ -16594,7 +15804,6 @@ export let FaBowlingBallSolid = {
   $_icon: {
     name: "BowlingBall",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bowling","ball"],
   },
@@ -16615,7 +15824,6 @@ export let FaBoxArchiveSolid = {
   $_icon: {
     name: "BoxArchive",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["box","archive"],
   },
@@ -16636,7 +15844,6 @@ export let FaBoxOpenSolid = {
   $_icon: {
     name: "BoxOpen",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["box","open"],
   },
@@ -16657,7 +15864,6 @@ export let FaBoxTissueSolid = {
   $_icon: {
     name: "BoxTissue",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["box","tissue"],
   },
@@ -16678,7 +15884,6 @@ export let FaBoxSolid = {
   $_icon: {
     name: "Box",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["box"],
   },
@@ -16699,7 +15904,6 @@ export let FaBoxesPackingSolid = {
   $_icon: {
     name: "BoxesPacking",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["boxes","packing"],
   },
@@ -16720,7 +15924,6 @@ export let FaBoxesStackedSolid = {
   $_icon: {
     name: "BoxesStacked",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["boxes","stacked"],
   },
@@ -16741,7 +15944,6 @@ export let FaBrailleSolid = {
   $_icon: {
     name: "Braille",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["braille"],
   },
@@ -16762,7 +15964,6 @@ export let FaBrainSolid = {
   $_icon: {
     name: "Brain",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["brain"],
   },
@@ -16783,7 +15984,6 @@ export let FaBrazilianRealSignSolid = {
   $_icon: {
     name: "BrazilianRealSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["brazilian","real","sign"],
   },
@@ -16804,7 +16004,6 @@ export let FaBreadSliceSolid = {
   $_icon: {
     name: "BreadSlice",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bread","slice"],
   },
@@ -16825,7 +16024,6 @@ export let FaBridgeCircleCheckSolid = {
   $_icon: {
     name: "BridgeCircleCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bridge","circle","check"],
   },
@@ -16846,7 +16044,6 @@ export let FaBridgeCircleExclamationSolid = {
   $_icon: {
     name: "BridgeCircleExclamation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bridge","circle","exclamation"],
   },
@@ -16867,7 +16064,6 @@ export let FaBridgeCircleXmarkSolid = {
   $_icon: {
     name: "BridgeCircleXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bridge","circle","xmark"],
   },
@@ -16888,7 +16084,6 @@ export let FaBridgeLockSolid = {
   $_icon: {
     name: "BridgeLock",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bridge","lock"],
   },
@@ -16909,7 +16104,6 @@ export let FaBridgeWaterSolid = {
   $_icon: {
     name: "BridgeWater",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bridge","water"],
   },
@@ -16930,7 +16124,6 @@ export let FaBridgeSolid = {
   $_icon: {
     name: "Bridge",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bridge"],
   },
@@ -16951,7 +16144,6 @@ export let FaBriefcaseMedicalSolid = {
   $_icon: {
     name: "BriefcaseMedical",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["briefcase","medical"],
   },
@@ -16972,7 +16164,6 @@ export let FaBriefcaseSolid = {
   $_icon: {
     name: "Briefcase",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["briefcase"],
   },
@@ -16993,7 +16184,6 @@ export let FaBroomBallSolid = {
   $_icon: {
     name: "BroomBall",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["broom","ball"],
   },
@@ -17014,7 +16204,6 @@ export let FaBroomSolid = {
   $_icon: {
     name: "Broom",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["broom"],
   },
@@ -17035,7 +16224,6 @@ export let FaBrushSolid = {
   $_icon: {
     name: "Brush",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["brush"],
   },
@@ -17056,7 +16244,6 @@ export let FaBucketSolid = {
   $_icon: {
     name: "Bucket",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bucket"],
   },
@@ -17077,7 +16264,6 @@ export let FaBugSlashSolid = {
   $_icon: {
     name: "BugSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bug","slash"],
   },
@@ -17098,7 +16284,6 @@ export let FaBugSolid = {
   $_icon: {
     name: "Bug",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bug"],
   },
@@ -17119,7 +16304,6 @@ export let FaBugsSolid = {
   $_icon: {
     name: "Bugs",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bugs"],
   },
@@ -17140,7 +16324,6 @@ export let FaBuildingCircleArrowRightSolid = {
   $_icon: {
     name: "BuildingCircleArrowRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["building","circle","arrow","right"],
   },
@@ -17161,7 +16344,6 @@ export let FaBuildingCircleCheckSolid = {
   $_icon: {
     name: "BuildingCircleCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["building","circle","check"],
   },
@@ -17182,7 +16364,6 @@ export let FaBuildingCircleExclamationSolid = {
   $_icon: {
     name: "BuildingCircleExclamation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["building","circle","exclamation"],
   },
@@ -17203,7 +16384,6 @@ export let FaBuildingCircleXmarkSolid = {
   $_icon: {
     name: "BuildingCircleXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["building","circle","xmark"],
   },
@@ -17224,7 +16404,6 @@ export let FaBuildingColumnsSolid = {
   $_icon: {
     name: "BuildingColumns",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["building","columns"],
   },
@@ -17245,7 +16424,6 @@ export let FaBuildingFlagSolid = {
   $_icon: {
     name: "BuildingFlag",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["building","flag"],
   },
@@ -17266,7 +16444,6 @@ export let FaBuildingLockSolid = {
   $_icon: {
     name: "BuildingLock",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["building","lock"],
   },
@@ -17287,7 +16464,6 @@ export let FaBuildingNgoSolid = {
   $_icon: {
     name: "BuildingNgo",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["building","ngo"],
   },
@@ -17308,7 +16484,6 @@ export let FaBuildingShieldSolid = {
   $_icon: {
     name: "BuildingShield",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["building","shield"],
   },
@@ -17329,7 +16504,6 @@ export let FaBuildingUnSolid = {
   $_icon: {
     name: "BuildingUn",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["building","un"],
   },
@@ -17350,7 +16524,6 @@ export let FaBuildingUserSolid = {
   $_icon: {
     name: "BuildingUser",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["building","user"],
   },
@@ -17371,7 +16544,6 @@ export let FaBuildingWheatSolid = {
   $_icon: {
     name: "BuildingWheat",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["building","wheat"],
   },
@@ -17392,7 +16564,6 @@ export let FaBuildingSolid = {
   $_icon: {
     name: "Building",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["building"],
   },
@@ -17413,7 +16584,6 @@ export let FaBullhornSolid = {
   $_icon: {
     name: "Bullhorn",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bullhorn"],
   },
@@ -17434,7 +16604,6 @@ export let FaBullseyeSolid = {
   $_icon: {
     name: "Bullseye",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bullseye"],
   },
@@ -17455,7 +16624,6 @@ export let FaBurgerSolid = {
   $_icon: {
     name: "Burger",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["burger"],
   },
@@ -17476,7 +16644,6 @@ export let FaBurstSolid = {
   $_icon: {
     name: "Burst",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["burst"],
   },
@@ -17497,7 +16664,6 @@ export let FaBusSimpleSolid = {
   $_icon: {
     name: "BusSimple",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bus","simple"],
   },
@@ -17518,7 +16684,6 @@ export let FaBusSolid = {
   $_icon: {
     name: "Bus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["bus"],
   },
@@ -17539,7 +16704,6 @@ export let FaBusinessTimeSolid = {
   $_icon: {
     name: "BusinessTime",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["business","time"],
   },
@@ -17560,7 +16724,6 @@ export let FaCSolid = {
   $_icon: {
     name: "C",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["c"],
   },
@@ -17581,7 +16744,6 @@ export let FaCableCarSolid = {
   $_icon: {
     name: "CableCar",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cable","car"],
   },
@@ -17602,7 +16764,6 @@ export let FaCakeCandlesSolid = {
   $_icon: {
     name: "CakeCandles",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cake","candles"],
   },
@@ -17623,7 +16784,6 @@ export let FaCalculatorSolid = {
   $_icon: {
     name: "Calculator",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["calculator"],
   },
@@ -17644,7 +16804,6 @@ export let FaCalendarCheckSolid = {
   $_icon: {
     name: "CalendarCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["calendar","check"],
   },
@@ -17665,7 +16824,6 @@ export let FaCalendarDaySolid = {
   $_icon: {
     name: "CalendarDay",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["calendar","day"],
   },
@@ -17686,7 +16844,6 @@ export let FaCalendarDaysSolid = {
   $_icon: {
     name: "CalendarDays",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["calendar","days"],
   },
@@ -17707,7 +16864,6 @@ export let FaCalendarMinusSolid = {
   $_icon: {
     name: "CalendarMinus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["calendar","minus"],
   },
@@ -17728,7 +16884,6 @@ export let FaCalendarPlusSolid = {
   $_icon: {
     name: "CalendarPlus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["calendar","plus"],
   },
@@ -17749,7 +16904,6 @@ export let FaCalendarWeekSolid = {
   $_icon: {
     name: "CalendarWeek",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["calendar","week"],
   },
@@ -17770,7 +16924,6 @@ export let FaCalendarXmarkSolid = {
   $_icon: {
     name: "CalendarXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["calendar","xmark"],
   },
@@ -17791,7 +16944,6 @@ export let FaCalendarSolid = {
   $_icon: {
     name: "Calendar",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["calendar"],
   },
@@ -17812,7 +16964,6 @@ export let FaCameraRetroSolid = {
   $_icon: {
     name: "CameraRetro",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["camera","retro"],
   },
@@ -17833,7 +16984,6 @@ export let FaCameraRotateSolid = {
   $_icon: {
     name: "CameraRotate",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["camera","rotate"],
   },
@@ -17854,7 +17004,6 @@ export let FaCameraSolid = {
   $_icon: {
     name: "Camera",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["camera"],
   },
@@ -17875,7 +17024,6 @@ export let FaCampgroundSolid = {
   $_icon: {
     name: "Campground",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["campground"],
   },
@@ -17896,7 +17044,6 @@ export let FaCandyCaneSolid = {
   $_icon: {
     name: "CandyCane",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["candy","cane"],
   },
@@ -17917,7 +17064,6 @@ export let FaCannabisSolid = {
   $_icon: {
     name: "Cannabis",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cannabis"],
   },
@@ -17938,7 +17084,6 @@ export let FaCapsulesSolid = {
   $_icon: {
     name: "Capsules",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["capsules"],
   },
@@ -17959,7 +17104,6 @@ export let FaCarBatterySolid = {
   $_icon: {
     name: "CarBattery",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["car","battery"],
   },
@@ -17980,7 +17124,6 @@ export let FaCarBurstSolid = {
   $_icon: {
     name: "CarBurst",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["car","burst"],
   },
@@ -18001,7 +17144,6 @@ export let FaCarOnSolid = {
   $_icon: {
     name: "CarOn",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["car","on"],
   },
@@ -18022,7 +17164,6 @@ export let FaCarRearSolid = {
   $_icon: {
     name: "CarRear",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["car","rear"],
   },
@@ -18043,7 +17184,6 @@ export let FaCarSideSolid = {
   $_icon: {
     name: "CarSide",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["car","side"],
   },
@@ -18064,7 +17204,6 @@ export let FaCarTunnelSolid = {
   $_icon: {
     name: "CarTunnel",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["car","tunnel"],
   },
@@ -18085,7 +17224,6 @@ export let FaCarSolid = {
   $_icon: {
     name: "Car",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["car"],
   },
@@ -18106,7 +17244,6 @@ export let FaCaravanSolid = {
   $_icon: {
     name: "Caravan",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["caravan"],
   },
@@ -18127,7 +17264,6 @@ export let FaCaretDownSolid = {
   $_icon: {
     name: "CaretDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["caret","down"],
   },
@@ -18148,7 +17284,6 @@ export let FaCaretLeftSolid = {
   $_icon: {
     name: "CaretLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["caret","left"],
   },
@@ -18169,7 +17304,6 @@ export let FaCaretRightSolid = {
   $_icon: {
     name: "CaretRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["caret","right"],
   },
@@ -18190,7 +17324,6 @@ export let FaCaretUpSolid = {
   $_icon: {
     name: "CaretUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["caret","up"],
   },
@@ -18211,7 +17344,6 @@ export let FaCarrotSolid = {
   $_icon: {
     name: "Carrot",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["carrot"],
   },
@@ -18232,7 +17364,6 @@ export let FaCartArrowDownSolid = {
   $_icon: {
     name: "CartArrowDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cart","arrow","down"],
   },
@@ -18253,7 +17384,6 @@ export let FaCartFlatbedSuitcaseSolid = {
   $_icon: {
     name: "CartFlatbedSuitcase",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cart","flatbed","suitcase"],
   },
@@ -18274,7 +17404,6 @@ export let FaCartFlatbedSolid = {
   $_icon: {
     name: "CartFlatbed",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cart","flatbed"],
   },
@@ -18295,7 +17424,6 @@ export let FaCartPlusSolid = {
   $_icon: {
     name: "CartPlus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cart","plus"],
   },
@@ -18316,7 +17444,6 @@ export let FaCartShoppingSolid = {
   $_icon: {
     name: "CartShopping",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cart","shopping"],
   },
@@ -18337,7 +17464,6 @@ export let FaCashRegisterSolid = {
   $_icon: {
     name: "CashRegister",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cash","register"],
   },
@@ -18358,7 +17484,6 @@ export let FaCatSolid = {
   $_icon: {
     name: "Cat",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cat"],
   },
@@ -18379,7 +17504,6 @@ export let FaCediSignSolid = {
   $_icon: {
     name: "CediSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cedi","sign"],
   },
@@ -18400,7 +17524,6 @@ export let FaCentSignSolid = {
   $_icon: {
     name: "CentSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cent","sign"],
   },
@@ -18421,7 +17544,6 @@ export let FaCertificateSolid = {
   $_icon: {
     name: "Certificate",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["certificate"],
   },
@@ -18442,7 +17564,6 @@ export let FaChairSolid = {
   $_icon: {
     name: "Chair",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chair"],
   },
@@ -18463,7 +17584,6 @@ export let FaChalkboardUserSolid = {
   $_icon: {
     name: "ChalkboardUser",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chalkboard","user"],
   },
@@ -18484,7 +17604,6 @@ export let FaChalkboardSolid = {
   $_icon: {
     name: "Chalkboard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chalkboard"],
   },
@@ -18505,7 +17624,6 @@ export let FaChampagneGlassesSolid = {
   $_icon: {
     name: "ChampagneGlasses",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["champagne","glasses"],
   },
@@ -18526,7 +17644,6 @@ export let FaChargingStationSolid = {
   $_icon: {
     name: "ChargingStation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["charging","station"],
   },
@@ -18547,7 +17664,6 @@ export let FaChartAreaSolid = {
   $_icon: {
     name: "ChartArea",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chart","area"],
   },
@@ -18568,7 +17684,6 @@ export let FaChartBarSolid = {
   $_icon: {
     name: "ChartBar",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chart","bar"],
   },
@@ -18589,7 +17704,6 @@ export let FaChartColumnSolid = {
   $_icon: {
     name: "ChartColumn",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chart","column"],
   },
@@ -18610,7 +17724,6 @@ export let FaChartGanttSolid = {
   $_icon: {
     name: "ChartGantt",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chart","gantt"],
   },
@@ -18631,7 +17744,6 @@ export let FaChartLineSolid = {
   $_icon: {
     name: "ChartLine",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chart","line"],
   },
@@ -18652,7 +17764,6 @@ export let FaChartPieSolid = {
   $_icon: {
     name: "ChartPie",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chart","pie"],
   },
@@ -18673,7 +17784,6 @@ export let FaChartSimpleSolid = {
   $_icon: {
     name: "ChartSimple",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chart","simple"],
   },
@@ -18694,7 +17804,6 @@ export let FaCheckDoubleSolid = {
   $_icon: {
     name: "CheckDouble",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["check","double"],
   },
@@ -18715,7 +17824,6 @@ export let FaCheckToSlotSolid = {
   $_icon: {
     name: "CheckToSlot",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["check","to","slot"],
   },
@@ -18736,7 +17844,6 @@ export let FaCheckSolid = {
   $_icon: {
     name: "Check",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["check"],
   },
@@ -18757,7 +17864,6 @@ export let FaCheeseSolid = {
   $_icon: {
     name: "Cheese",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cheese"],
   },
@@ -18778,7 +17884,6 @@ export let FaChessBishopSolid = {
   $_icon: {
     name: "ChessBishop",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chess","bishop"],
   },
@@ -18799,7 +17904,6 @@ export let FaChessBoardSolid = {
   $_icon: {
     name: "ChessBoard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chess","board"],
   },
@@ -18820,7 +17924,6 @@ export let FaChessKingSolid = {
   $_icon: {
     name: "ChessKing",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chess","king"],
   },
@@ -18841,7 +17944,6 @@ export let FaChessKnightSolid = {
   $_icon: {
     name: "ChessKnight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chess","knight"],
   },
@@ -18862,7 +17964,6 @@ export let FaChessPawnSolid = {
   $_icon: {
     name: "ChessPawn",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chess","pawn"],
   },
@@ -18883,7 +17984,6 @@ export let FaChessQueenSolid = {
   $_icon: {
     name: "ChessQueen",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chess","queen"],
   },
@@ -18904,7 +18004,6 @@ export let FaChessRookSolid = {
   $_icon: {
     name: "ChessRook",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chess","rook"],
   },
@@ -18925,7 +18024,6 @@ export let FaChessSolid = {
   $_icon: {
     name: "Chess",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chess"],
   },
@@ -18946,7 +18044,6 @@ export let FaChevronDownSolid = {
   $_icon: {
     name: "ChevronDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chevron","down"],
   },
@@ -18967,7 +18064,6 @@ export let FaChevronLeftSolid = {
   $_icon: {
     name: "ChevronLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chevron","left"],
   },
@@ -18988,7 +18084,6 @@ export let FaChevronRightSolid = {
   $_icon: {
     name: "ChevronRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chevron","right"],
   },
@@ -19009,7 +18104,6 @@ export let FaChevronUpSolid = {
   $_icon: {
     name: "ChevronUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["chevron","up"],
   },
@@ -19030,7 +18124,6 @@ export let FaChildCombatantSolid = {
   $_icon: {
     name: "ChildCombatant",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["child","combatant"],
   },
@@ -19051,7 +18144,6 @@ export let FaChildDressSolid = {
   $_icon: {
     name: "ChildDress",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["child","dress"],
   },
@@ -19072,7 +18164,6 @@ export let FaChildReachingSolid = {
   $_icon: {
     name: "ChildReaching",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["child","reaching"],
   },
@@ -19093,7 +18184,6 @@ export let FaChildSolid = {
   $_icon: {
     name: "Child",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["child"],
   },
@@ -19114,7 +18204,6 @@ export let FaChildrenSolid = {
   $_icon: {
     name: "Children",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["children"],
   },
@@ -19135,7 +18224,6 @@ export let FaChurchSolid = {
   $_icon: {
     name: "Church",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["church"],
   },
@@ -19156,7 +18244,6 @@ export let FaCircleArrowDownSolid = {
   $_icon: {
     name: "CircleArrowDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","arrow","down"],
   },
@@ -19177,7 +18264,6 @@ export let FaCircleArrowLeftSolid = {
   $_icon: {
     name: "CircleArrowLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","arrow","left"],
   },
@@ -19198,7 +18284,6 @@ export let FaCircleArrowRightSolid = {
   $_icon: {
     name: "CircleArrowRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","arrow","right"],
   },
@@ -19219,7 +18304,6 @@ export let FaCircleArrowUpSolid = {
   $_icon: {
     name: "CircleArrowUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","arrow","up"],
   },
@@ -19240,7 +18324,6 @@ export let FaCircleCheckSolid = {
   $_icon: {
     name: "CircleCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","check"],
   },
@@ -19261,7 +18344,6 @@ export let FaCircleChevronDownSolid = {
   $_icon: {
     name: "CircleChevronDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","chevron","down"],
   },
@@ -19282,7 +18364,6 @@ export let FaCircleChevronLeftSolid = {
   $_icon: {
     name: "CircleChevronLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","chevron","left"],
   },
@@ -19303,7 +18384,6 @@ export let FaCircleChevronRightSolid = {
   $_icon: {
     name: "CircleChevronRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","chevron","right"],
   },
@@ -19324,7 +18404,6 @@ export let FaCircleChevronUpSolid = {
   $_icon: {
     name: "CircleChevronUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","chevron","up"],
   },
@@ -19345,7 +18424,6 @@ export let FaCircleDollarToSlotSolid = {
   $_icon: {
     name: "CircleDollarToSlot",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","dollar","to","slot"],
   },
@@ -19366,7 +18444,6 @@ export let FaCircleDotSolid = {
   $_icon: {
     name: "CircleDot",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","dot"],
   },
@@ -19387,7 +18464,6 @@ export let FaCircleDownSolid = {
   $_icon: {
     name: "CircleDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","down"],
   },
@@ -19408,7 +18484,6 @@ export let FaCircleExclamationSolid = {
   $_icon: {
     name: "CircleExclamation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","exclamation"],
   },
@@ -19429,7 +18504,6 @@ export let FaCircleHSolid = {
   $_icon: {
     name: "CircleH",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","h"],
   },
@@ -19450,7 +18524,6 @@ export let FaCircleHalfStrokeSolid = {
   $_icon: {
     name: "CircleHalfStroke",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","half","stroke"],
   },
@@ -19471,7 +18544,6 @@ export let FaCircleInfoSolid = {
   $_icon: {
     name: "CircleInfo",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","info"],
   },
@@ -19492,7 +18564,6 @@ export let FaCircleLeftSolid = {
   $_icon: {
     name: "CircleLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","left"],
   },
@@ -19513,7 +18584,6 @@ export let FaCircleMinusSolid = {
   $_icon: {
     name: "CircleMinus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","minus"],
   },
@@ -19534,7 +18604,6 @@ export let FaCircleNodesSolid = {
   $_icon: {
     name: "CircleNodes",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","nodes"],
   },
@@ -19555,7 +18624,6 @@ export let FaCircleNotchSolid = {
   $_icon: {
     name: "CircleNotch",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","notch"],
   },
@@ -19576,7 +18644,6 @@ export let FaCirclePauseSolid = {
   $_icon: {
     name: "CirclePause",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","pause"],
   },
@@ -19597,7 +18664,6 @@ export let FaCirclePlaySolid = {
   $_icon: {
     name: "CirclePlay",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","play"],
   },
@@ -19618,7 +18684,6 @@ export let FaCirclePlusSolid = {
   $_icon: {
     name: "CirclePlus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","plus"],
   },
@@ -19639,7 +18704,6 @@ export let FaCircleQuestionSolid = {
   $_icon: {
     name: "CircleQuestion",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","question"],
   },
@@ -19660,7 +18724,6 @@ export let FaCircleRadiationSolid = {
   $_icon: {
     name: "CircleRadiation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","radiation"],
   },
@@ -19681,7 +18744,6 @@ export let FaCircleRightSolid = {
   $_icon: {
     name: "CircleRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","right"],
   },
@@ -19702,7 +18764,6 @@ export let FaCircleStopSolid = {
   $_icon: {
     name: "CircleStop",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","stop"],
   },
@@ -19723,7 +18784,6 @@ export let FaCircleUpSolid = {
   $_icon: {
     name: "CircleUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","up"],
   },
@@ -19744,7 +18804,6 @@ export let FaCircleUserSolid = {
   $_icon: {
     name: "CircleUser",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","user"],
   },
@@ -19765,7 +18824,6 @@ export let FaCircleXmarkSolid = {
   $_icon: {
     name: "CircleXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle","xmark"],
   },
@@ -19786,7 +18844,6 @@ export let FaCircleSolid = {
   $_icon: {
     name: "Circle",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["circle"],
   },
@@ -19807,7 +18864,6 @@ export let FaCitySolid = {
   $_icon: {
     name: "City",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["city"],
   },
@@ -19828,7 +18884,6 @@ export let FaClapperboardSolid = {
   $_icon: {
     name: "Clapperboard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["clapperboard"],
   },
@@ -19849,7 +18904,6 @@ export let FaClipboardCheckSolid = {
   $_icon: {
     name: "ClipboardCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["clipboard","check"],
   },
@@ -19870,7 +18924,6 @@ export let FaClipboardListSolid = {
   $_icon: {
     name: "ClipboardList",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["clipboard","list"],
   },
@@ -19891,7 +18944,6 @@ export let FaClipboardQuestionSolid = {
   $_icon: {
     name: "ClipboardQuestion",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["clipboard","question"],
   },
@@ -19912,7 +18964,6 @@ export let FaClipboardUserSolid = {
   $_icon: {
     name: "ClipboardUser",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["clipboard","user"],
   },
@@ -19933,7 +18984,6 @@ export let FaClipboardSolid = {
   $_icon: {
     name: "Clipboard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["clipboard"],
   },
@@ -19954,7 +19004,6 @@ export let FaClockRotateLeftSolid = {
   $_icon: {
     name: "ClockRotateLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["clock","rotate","left"],
   },
@@ -19975,7 +19024,6 @@ export let FaClockSolid = {
   $_icon: {
     name: "Clock",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["clock"],
   },
@@ -19996,7 +19044,6 @@ export let FaCloneSolid = {
   $_icon: {
     name: "Clone",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["clone"],
   },
@@ -20017,7 +19064,6 @@ export let FaClosedCaptioningSolid = {
   $_icon: {
     name: "ClosedCaptioning",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["closed","captioning"],
   },
@@ -20038,7 +19084,6 @@ export let FaCloudArrowDownSolid = {
   $_icon: {
     name: "CloudArrowDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cloud","arrow","down"],
   },
@@ -20059,7 +19104,6 @@ export let FaCloudArrowUpSolid = {
   $_icon: {
     name: "CloudArrowUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cloud","arrow","up"],
   },
@@ -20080,7 +19124,6 @@ export let FaCloudBoltSolid = {
   $_icon: {
     name: "CloudBolt",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cloud","bolt"],
   },
@@ -20101,7 +19144,6 @@ export let FaCloudMeatballSolid = {
   $_icon: {
     name: "CloudMeatball",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cloud","meatball"],
   },
@@ -20122,7 +19164,6 @@ export let FaCloudMoonRainSolid = {
   $_icon: {
     name: "CloudMoonRain",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cloud","moon","rain"],
   },
@@ -20143,7 +19184,6 @@ export let FaCloudMoonSolid = {
   $_icon: {
     name: "CloudMoon",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cloud","moon"],
   },
@@ -20164,7 +19204,6 @@ export let FaCloudRainSolid = {
   $_icon: {
     name: "CloudRain",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cloud","rain"],
   },
@@ -20185,7 +19224,6 @@ export let FaCloudShowersHeavySolid = {
   $_icon: {
     name: "CloudShowersHeavy",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cloud","showers","heavy"],
   },
@@ -20206,7 +19244,6 @@ export let FaCloudShowersWaterSolid = {
   $_icon: {
     name: "CloudShowersWater",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cloud","showers","water"],
   },
@@ -20227,7 +19264,6 @@ export let FaCloudSunRainSolid = {
   $_icon: {
     name: "CloudSunRain",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cloud","sun","rain"],
   },
@@ -20248,7 +19284,6 @@ export let FaCloudSunSolid = {
   $_icon: {
     name: "CloudSun",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cloud","sun"],
   },
@@ -20269,7 +19304,6 @@ export let FaCloudSolid = {
   $_icon: {
     name: "Cloud",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cloud"],
   },
@@ -20290,7 +19324,6 @@ export let FaCloverSolid = {
   $_icon: {
     name: "Clover",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["clover"],
   },
@@ -20311,7 +19344,6 @@ export let FaCodeBranchSolid = {
   $_icon: {
     name: "CodeBranch",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["code","branch"],
   },
@@ -20332,7 +19364,6 @@ export let FaCodeCommitSolid = {
   $_icon: {
     name: "CodeCommit",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["code","commit"],
   },
@@ -20353,7 +19384,6 @@ export let FaCodeCompareSolid = {
   $_icon: {
     name: "CodeCompare",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["code","compare"],
   },
@@ -20374,7 +19404,6 @@ export let FaCodeForkSolid = {
   $_icon: {
     name: "CodeFork",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["code","fork"],
   },
@@ -20395,7 +19424,6 @@ export let FaCodeMergeSolid = {
   $_icon: {
     name: "CodeMerge",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["code","merge"],
   },
@@ -20416,7 +19444,6 @@ export let FaCodePullRequestSolid = {
   $_icon: {
     name: "CodePullRequest",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["code","pull","request"],
   },
@@ -20437,7 +19464,6 @@ export let FaCodeSolid = {
   $_icon: {
     name: "Code",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["code"],
   },
@@ -20458,7 +19484,6 @@ export let FaCoinsSolid = {
   $_icon: {
     name: "Coins",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["coins"],
   },
@@ -20479,7 +19504,6 @@ export let FaColonSignSolid = {
   $_icon: {
     name: "ColonSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["colon","sign"],
   },
@@ -20500,7 +19524,6 @@ export let FaCommentDollarSolid = {
   $_icon: {
     name: "CommentDollar",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["comment","dollar"],
   },
@@ -20521,7 +19544,6 @@ export let FaCommentDotsSolid = {
   $_icon: {
     name: "CommentDots",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["comment","dots"],
   },
@@ -20542,7 +19564,6 @@ export let FaCommentMedicalSolid = {
   $_icon: {
     name: "CommentMedical",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["comment","medical"],
   },
@@ -20563,7 +19584,6 @@ export let FaCommentSlashSolid = {
   $_icon: {
     name: "CommentSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["comment","slash"],
   },
@@ -20584,7 +19604,6 @@ export let FaCommentSmsSolid = {
   $_icon: {
     name: "CommentSms",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["comment","sms"],
   },
@@ -20605,7 +19624,6 @@ export let FaCommentSolid = {
   $_icon: {
     name: "Comment",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["comment"],
   },
@@ -20626,7 +19644,6 @@ export let FaCommentsDollarSolid = {
   $_icon: {
     name: "CommentsDollar",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["comments","dollar"],
   },
@@ -20647,7 +19664,6 @@ export let FaCommentsSolid = {
   $_icon: {
     name: "Comments",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["comments"],
   },
@@ -20668,7 +19684,6 @@ export let FaCompactDiscSolid = {
   $_icon: {
     name: "CompactDisc",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["compact","disc"],
   },
@@ -20689,7 +19704,6 @@ export let FaCompassDraftingSolid = {
   $_icon: {
     name: "CompassDrafting",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["compass","drafting"],
   },
@@ -20710,7 +19724,6 @@ export let FaCompassSolid = {
   $_icon: {
     name: "Compass",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["compass"],
   },
@@ -20731,7 +19744,6 @@ export let FaCompressSolid = {
   $_icon: {
     name: "Compress",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["compress"],
   },
@@ -20752,7 +19764,6 @@ export let FaComputerMouseSolid = {
   $_icon: {
     name: "ComputerMouse",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["computer","mouse"],
   },
@@ -20773,7 +19784,6 @@ export let FaComputerSolid = {
   $_icon: {
     name: "Computer",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["computer"],
   },
@@ -20794,7 +19804,6 @@ export let FaCookieBiteSolid = {
   $_icon: {
     name: "CookieBite",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cookie","bite"],
   },
@@ -20815,7 +19824,6 @@ export let FaCookieSolid = {
   $_icon: {
     name: "Cookie",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cookie"],
   },
@@ -20836,7 +19844,6 @@ export let FaCopySolid = {
   $_icon: {
     name: "Copy",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["copy"],
   },
@@ -20857,7 +19864,6 @@ export let FaCopyrightSolid = {
   $_icon: {
     name: "Copyright",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["copyright"],
   },
@@ -20878,7 +19884,6 @@ export let FaCouchSolid = {
   $_icon: {
     name: "Couch",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["couch"],
   },
@@ -20899,7 +19904,6 @@ export let FaCowSolid = {
   $_icon: {
     name: "Cow",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cow"],
   },
@@ -20920,7 +19924,6 @@ export let FaCreditCardSolid = {
   $_icon: {
     name: "CreditCard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["credit","card"],
   },
@@ -20941,7 +19944,6 @@ export let FaCropSimpleSolid = {
   $_icon: {
     name: "CropSimple",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["crop","simple"],
   },
@@ -20962,7 +19964,6 @@ export let FaCropSolid = {
   $_icon: {
     name: "Crop",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["crop"],
   },
@@ -20983,7 +19984,6 @@ export let FaCrossSolid = {
   $_icon: {
     name: "Cross",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cross"],
   },
@@ -21004,7 +20004,6 @@ export let FaCrosshairsSolid = {
   $_icon: {
     name: "Crosshairs",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["crosshairs"],
   },
@@ -21025,7 +20024,6 @@ export let FaCrowSolid = {
   $_icon: {
     name: "Crow",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["crow"],
   },
@@ -21046,7 +20044,6 @@ export let FaCrownSolid = {
   $_icon: {
     name: "Crown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["crown"],
   },
@@ -21067,7 +20064,6 @@ export let FaCrutchSolid = {
   $_icon: {
     name: "Crutch",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["crutch"],
   },
@@ -21088,7 +20084,6 @@ export let FaCruzeiroSignSolid = {
   $_icon: {
     name: "CruzeiroSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cruzeiro","sign"],
   },
@@ -21109,7 +20104,6 @@ export let FaCubeSolid = {
   $_icon: {
     name: "Cube",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cube"],
   },
@@ -21130,7 +20124,6 @@ export let FaCubesStackedSolid = {
   $_icon: {
     name: "CubesStacked",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cubes","stacked"],
   },
@@ -21151,7 +20144,6 @@ export let FaCubesSolid = {
   $_icon: {
     name: "Cubes",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["cubes"],
   },
@@ -21172,7 +20164,6 @@ export let FaDSolid = {
   $_icon: {
     name: "D",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["d"],
   },
@@ -21193,7 +20184,6 @@ export let FaDatabaseSolid = {
   $_icon: {
     name: "Database",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["database"],
   },
@@ -21214,7 +20204,6 @@ export let FaDeleteLeftSolid = {
   $_icon: {
     name: "DeleteLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["delete","left"],
   },
@@ -21235,7 +20224,6 @@ export let FaDemocratSolid = {
   $_icon: {
     name: "Democrat",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["democrat"],
   },
@@ -21256,7 +20244,6 @@ export let FaDesktopSolid = {
   $_icon: {
     name: "Desktop",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["desktop"],
   },
@@ -21277,7 +20264,6 @@ export let FaDharmachakraSolid = {
   $_icon: {
     name: "Dharmachakra",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["dharmachakra"],
   },
@@ -21298,7 +20284,6 @@ export let FaDiagramNextSolid = {
   $_icon: {
     name: "DiagramNext",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["diagram","next"],
   },
@@ -21319,7 +20304,6 @@ export let FaDiagramPredecessorSolid = {
   $_icon: {
     name: "DiagramPredecessor",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["diagram","predecessor"],
   },
@@ -21340,7 +20324,6 @@ export let FaDiagramProjectSolid = {
   $_icon: {
     name: "DiagramProject",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["diagram","project"],
   },
@@ -21361,7 +20344,6 @@ export let FaDiagramSuccessorSolid = {
   $_icon: {
     name: "DiagramSuccessor",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["diagram","successor"],
   },
@@ -21382,7 +20364,6 @@ export let FaDiamondTurnRightSolid = {
   $_icon: {
     name: "DiamondTurnRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["diamond","turn","right"],
   },
@@ -21403,7 +20384,6 @@ export let FaDiamondSolid = {
   $_icon: {
     name: "Diamond",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["diamond"],
   },
@@ -21424,7 +20404,6 @@ export let FaDiceD20Solid = {
   $_icon: {
     name: "DiceD20",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["dice","d20"],
   },
@@ -21445,7 +20424,6 @@ export let FaDiceD6Solid = {
   $_icon: {
     name: "DiceD6",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["dice","d6"],
   },
@@ -21466,7 +20444,6 @@ export let FaDiceFiveSolid = {
   $_icon: {
     name: "DiceFive",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["dice","five"],
   },
@@ -21487,7 +20464,6 @@ export let FaDiceFourSolid = {
   $_icon: {
     name: "DiceFour",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["dice","four"],
   },
@@ -21508,7 +20484,6 @@ export let FaDiceOneSolid = {
   $_icon: {
     name: "DiceOne",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["dice","one"],
   },
@@ -21529,7 +20504,6 @@ export let FaDiceSixSolid = {
   $_icon: {
     name: "DiceSix",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["dice","six"],
   },
@@ -21550,7 +20524,6 @@ export let FaDiceThreeSolid = {
   $_icon: {
     name: "DiceThree",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["dice","three"],
   },
@@ -21571,7 +20544,6 @@ export let FaDiceTwoSolid = {
   $_icon: {
     name: "DiceTwo",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["dice","two"],
   },
@@ -21592,7 +20564,6 @@ export let FaDiceSolid = {
   $_icon: {
     name: "Dice",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["dice"],
   },
@@ -21613,7 +20584,6 @@ export let FaDiseaseSolid = {
   $_icon: {
     name: "Disease",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["disease"],
   },
@@ -21634,7 +20604,6 @@ export let FaDisplaySolid = {
   $_icon: {
     name: "Display",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["display"],
   },
@@ -21655,7 +20624,6 @@ export let FaDivideSolid = {
   $_icon: {
     name: "Divide",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["divide"],
   },
@@ -21676,7 +20644,6 @@ export let FaDnaSolid = {
   $_icon: {
     name: "Dna",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["dna"],
   },
@@ -21697,7 +20664,6 @@ export let FaDogSolid = {
   $_icon: {
     name: "Dog",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["dog"],
   },
@@ -21718,7 +20684,6 @@ export let FaDollarSignSolid = {
   $_icon: {
     name: "DollarSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["dollar","sign"],
   },
@@ -21739,7 +20704,6 @@ export let FaDollySolid = {
   $_icon: {
     name: "Dolly",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["dolly"],
   },
@@ -21760,7 +20724,6 @@ export let FaDongSignSolid = {
   $_icon: {
     name: "DongSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["dong","sign"],
   },
@@ -21781,7 +20744,6 @@ export let FaDoorClosedSolid = {
   $_icon: {
     name: "DoorClosed",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["door","closed"],
   },
@@ -21802,7 +20764,6 @@ export let FaDoorOpenSolid = {
   $_icon: {
     name: "DoorOpen",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["door","open"],
   },
@@ -21823,7 +20784,6 @@ export let FaDoveSolid = {
   $_icon: {
     name: "Dove",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["dove"],
   },
@@ -21844,7 +20804,6 @@ export let FaDownLeftAndUpRightToCenterSolid = {
   $_icon: {
     name: "DownLeftAndUpRightToCenter",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["down","left","and","up","right","to","center"],
   },
@@ -21865,7 +20824,6 @@ export let FaDownLongSolid = {
   $_icon: {
     name: "DownLong",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["down","long"],
   },
@@ -21886,7 +20844,6 @@ export let FaDownloadSolid = {
   $_icon: {
     name: "Download",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["download"],
   },
@@ -21907,7 +20864,6 @@ export let FaDragonSolid = {
   $_icon: {
     name: "Dragon",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["dragon"],
   },
@@ -21928,7 +20884,6 @@ export let FaDrawPolygonSolid = {
   $_icon: {
     name: "DrawPolygon",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["draw","polygon"],
   },
@@ -21949,7 +20904,6 @@ export let FaDropletSlashSolid = {
   $_icon: {
     name: "DropletSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["droplet","slash"],
   },
@@ -21970,7 +20924,6 @@ export let FaDropletSolid = {
   $_icon: {
     name: "Droplet",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["droplet"],
   },
@@ -21991,7 +20944,6 @@ export let FaDrumSteelpanSolid = {
   $_icon: {
     name: "DrumSteelpan",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["drum","steelpan"],
   },
@@ -22012,7 +20964,6 @@ export let FaDrumSolid = {
   $_icon: {
     name: "Drum",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["drum"],
   },
@@ -22033,7 +20984,6 @@ export let FaDrumstickBiteSolid = {
   $_icon: {
     name: "DrumstickBite",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["drumstick","bite"],
   },
@@ -22054,7 +21004,6 @@ export let FaDumbbellSolid = {
   $_icon: {
     name: "Dumbbell",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["dumbbell"],
   },
@@ -22075,7 +21024,6 @@ export let FaDumpsterFireSolid = {
   $_icon: {
     name: "DumpsterFire",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["dumpster","fire"],
   },
@@ -22096,7 +21044,6 @@ export let FaDumpsterSolid = {
   $_icon: {
     name: "Dumpster",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["dumpster"],
   },
@@ -22117,7 +21064,6 @@ export let FaDungeonSolid = {
   $_icon: {
     name: "Dungeon",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["dungeon"],
   },
@@ -22138,7 +21084,6 @@ export let FaESolid = {
   $_icon: {
     name: "E",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["e"],
   },
@@ -22159,7 +21104,6 @@ export let FaEarDeafSolid = {
   $_icon: {
     name: "EarDeaf",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ear","deaf"],
   },
@@ -22180,7 +21124,6 @@ export let FaEarListenSolid = {
   $_icon: {
     name: "EarListen",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ear","listen"],
   },
@@ -22201,7 +21144,6 @@ export let FaEarthAfricaSolid = {
   $_icon: {
     name: "EarthAfrica",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["earth","africa"],
   },
@@ -22222,7 +21164,6 @@ export let FaEarthAmericasSolid = {
   $_icon: {
     name: "EarthAmericas",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["earth","americas"],
   },
@@ -22243,7 +21184,6 @@ export let FaEarthAsiaSolid = {
   $_icon: {
     name: "EarthAsia",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["earth","asia"],
   },
@@ -22264,7 +21204,6 @@ export let FaEarthEuropeSolid = {
   $_icon: {
     name: "EarthEurope",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["earth","europe"],
   },
@@ -22285,7 +21224,6 @@ export let FaEarthOceaniaSolid = {
   $_icon: {
     name: "EarthOceania",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["earth","oceania"],
   },
@@ -22306,7 +21244,6 @@ export let FaEggSolid = {
   $_icon: {
     name: "Egg",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["egg"],
   },
@@ -22327,7 +21264,6 @@ export let FaEjectSolid = {
   $_icon: {
     name: "Eject",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["eject"],
   },
@@ -22348,7 +21284,6 @@ export let FaElevatorSolid = {
   $_icon: {
     name: "Elevator",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["elevator"],
   },
@@ -22369,7 +21304,6 @@ export let FaEllipsisVerticalSolid = {
   $_icon: {
     name: "EllipsisVertical",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ellipsis","vertical"],
   },
@@ -22390,7 +21324,6 @@ export let FaEllipsisSolid = {
   $_icon: {
     name: "Ellipsis",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ellipsis"],
   },
@@ -22411,7 +21344,6 @@ export let FaEnvelopeCircleCheckSolid = {
   $_icon: {
     name: "EnvelopeCircleCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["envelope","circle","check"],
   },
@@ -22432,7 +21364,6 @@ export let FaEnvelopeOpenTextSolid = {
   $_icon: {
     name: "EnvelopeOpenText",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["envelope","open","text"],
   },
@@ -22453,7 +21384,6 @@ export let FaEnvelopeOpenSolid = {
   $_icon: {
     name: "EnvelopeOpen",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["envelope","open"],
   },
@@ -22474,7 +21404,6 @@ export let FaEnvelopeSolid = {
   $_icon: {
     name: "Envelope",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["envelope"],
   },
@@ -22495,7 +21424,6 @@ export let FaEnvelopesBulkSolid = {
   $_icon: {
     name: "EnvelopesBulk",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["envelopes","bulk"],
   },
@@ -22516,7 +21444,6 @@ export let FaEqualsSolid = {
   $_icon: {
     name: "Equals",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["equals"],
   },
@@ -22537,7 +21464,6 @@ export let FaEraserSolid = {
   $_icon: {
     name: "Eraser",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["eraser"],
   },
@@ -22558,7 +21484,6 @@ export let FaEthernetSolid = {
   $_icon: {
     name: "Ethernet",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ethernet"],
   },
@@ -22579,7 +21504,6 @@ export let FaEuroSignSolid = {
   $_icon: {
     name: "EuroSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["euro","sign"],
   },
@@ -22600,7 +21524,6 @@ export let FaExclamationSolid = {
   $_icon: {
     name: "Exclamation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["exclamation"],
   },
@@ -22621,7 +21544,6 @@ export let FaExpandSolid = {
   $_icon: {
     name: "Expand",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["expand"],
   },
@@ -22642,7 +21564,6 @@ export let FaExplosionSolid = {
   $_icon: {
     name: "Explosion",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["explosion"],
   },
@@ -22663,7 +21584,6 @@ export let FaEyeDropperSolid = {
   $_icon: {
     name: "EyeDropper",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["eye","dropper"],
   },
@@ -22684,7 +21604,6 @@ export let FaEyeLowVisionSolid = {
   $_icon: {
     name: "EyeLowVision",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["eye","low","vision"],
   },
@@ -22705,7 +21624,6 @@ export let FaEyeSlashSolid = {
   $_icon: {
     name: "EyeSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["eye","slash"],
   },
@@ -22726,7 +21644,6 @@ export let FaEyeSolid = {
   $_icon: {
     name: "Eye",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["eye"],
   },
@@ -22747,7 +21664,6 @@ export let FaFSolid = {
   $_icon: {
     name: "F",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["f"],
   },
@@ -22768,7 +21684,6 @@ export let FaFaceAngrySolid = {
   $_icon: {
     name: "FaceAngry",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","angry"],
   },
@@ -22789,7 +21704,6 @@ export let FaFaceDizzySolid = {
   $_icon: {
     name: "FaceDizzy",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","dizzy"],
   },
@@ -22810,7 +21724,6 @@ export let FaFaceFlushedSolid = {
   $_icon: {
     name: "FaceFlushed",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","flushed"],
   },
@@ -22831,7 +21744,6 @@ export let FaFaceFrownOpenSolid = {
   $_icon: {
     name: "FaceFrownOpen",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","frown","open"],
   },
@@ -22852,7 +21764,6 @@ export let FaFaceFrownSolid = {
   $_icon: {
     name: "FaceFrown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","frown"],
   },
@@ -22873,7 +21784,6 @@ export let FaFaceGrimaceSolid = {
   $_icon: {
     name: "FaceGrimace",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","grimace"],
   },
@@ -22894,7 +21804,6 @@ export let FaFaceGrinBeamSweatSolid = {
   $_icon: {
     name: "FaceGrinBeamSweat",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","grin","beam","sweat"],
   },
@@ -22915,7 +21824,6 @@ export let FaFaceGrinBeamSolid = {
   $_icon: {
     name: "FaceGrinBeam",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","grin","beam"],
   },
@@ -22936,7 +21844,6 @@ export let FaFaceGrinHeartsSolid = {
   $_icon: {
     name: "FaceGrinHearts",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","grin","hearts"],
   },
@@ -22957,7 +21864,6 @@ export let FaFaceGrinSquintTearsSolid = {
   $_icon: {
     name: "FaceGrinSquintTears",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","grin","squint","tears"],
   },
@@ -22978,7 +21884,6 @@ export let FaFaceGrinSquintSolid = {
   $_icon: {
     name: "FaceGrinSquint",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","grin","squint"],
   },
@@ -22999,7 +21904,6 @@ export let FaFaceGrinStarsSolid = {
   $_icon: {
     name: "FaceGrinStars",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","grin","stars"],
   },
@@ -23020,7 +21924,6 @@ export let FaFaceGrinTearsSolid = {
   $_icon: {
     name: "FaceGrinTears",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","grin","tears"],
   },
@@ -23041,7 +21944,6 @@ export let FaFaceGrinTongueSquintSolid = {
   $_icon: {
     name: "FaceGrinTongueSquint",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","grin","tongue","squint"],
   },
@@ -23062,7 +21964,6 @@ export let FaFaceGrinTongueWinkSolid = {
   $_icon: {
     name: "FaceGrinTongueWink",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","grin","tongue","wink"],
   },
@@ -23083,7 +21984,6 @@ export let FaFaceGrinTongueSolid = {
   $_icon: {
     name: "FaceGrinTongue",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","grin","tongue"],
   },
@@ -23104,7 +22004,6 @@ export let FaFaceGrinWideSolid = {
   $_icon: {
     name: "FaceGrinWide",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","grin","wide"],
   },
@@ -23125,7 +22024,6 @@ export let FaFaceGrinWinkSolid = {
   $_icon: {
     name: "FaceGrinWink",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","grin","wink"],
   },
@@ -23146,7 +22044,6 @@ export let FaFaceGrinSolid = {
   $_icon: {
     name: "FaceGrin",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","grin"],
   },
@@ -23167,7 +22064,6 @@ export let FaFaceKissBeamSolid = {
   $_icon: {
     name: "FaceKissBeam",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","kiss","beam"],
   },
@@ -23188,7 +22084,6 @@ export let FaFaceKissWinkHeartSolid = {
   $_icon: {
     name: "FaceKissWinkHeart",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","kiss","wink","heart"],
   },
@@ -23209,7 +22104,6 @@ export let FaFaceKissSolid = {
   $_icon: {
     name: "FaceKiss",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","kiss"],
   },
@@ -23230,7 +22124,6 @@ export let FaFaceLaughBeamSolid = {
   $_icon: {
     name: "FaceLaughBeam",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","laugh","beam"],
   },
@@ -23251,7 +22144,6 @@ export let FaFaceLaughSquintSolid = {
   $_icon: {
     name: "FaceLaughSquint",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","laugh","squint"],
   },
@@ -23272,7 +22164,6 @@ export let FaFaceLaughWinkSolid = {
   $_icon: {
     name: "FaceLaughWink",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","laugh","wink"],
   },
@@ -23293,7 +22184,6 @@ export let FaFaceLaughSolid = {
   $_icon: {
     name: "FaceLaugh",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","laugh"],
   },
@@ -23314,7 +22204,6 @@ export let FaFaceMehBlankSolid = {
   $_icon: {
     name: "FaceMehBlank",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","meh","blank"],
   },
@@ -23335,7 +22224,6 @@ export let FaFaceMehSolid = {
   $_icon: {
     name: "FaceMeh",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","meh"],
   },
@@ -23356,7 +22244,6 @@ export let FaFaceRollingEyesSolid = {
   $_icon: {
     name: "FaceRollingEyes",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","rolling","eyes"],
   },
@@ -23377,7 +22264,6 @@ export let FaFaceSadCrySolid = {
   $_icon: {
     name: "FaceSadCry",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","sad","cry"],
   },
@@ -23398,7 +22284,6 @@ export let FaFaceSadTearSolid = {
   $_icon: {
     name: "FaceSadTear",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","sad","tear"],
   },
@@ -23419,7 +22304,6 @@ export let FaFaceSmileBeamSolid = {
   $_icon: {
     name: "FaceSmileBeam",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","smile","beam"],
   },
@@ -23440,7 +22324,6 @@ export let FaFaceSmileWinkSolid = {
   $_icon: {
     name: "FaceSmileWink",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","smile","wink"],
   },
@@ -23461,7 +22344,6 @@ export let FaFaceSmileSolid = {
   $_icon: {
     name: "FaceSmile",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","smile"],
   },
@@ -23482,7 +22364,6 @@ export let FaFaceSurpriseSolid = {
   $_icon: {
     name: "FaceSurprise",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","surprise"],
   },
@@ -23503,7 +22384,6 @@ export let FaFaceTiredSolid = {
   $_icon: {
     name: "FaceTired",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["face","tired"],
   },
@@ -23524,7 +22404,6 @@ export let FaFanSolid = {
   $_icon: {
     name: "Fan",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["fan"],
   },
@@ -23545,7 +22424,6 @@ export let FaFaucetDripSolid = {
   $_icon: {
     name: "FaucetDrip",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["faucet","drip"],
   },
@@ -23566,7 +22444,6 @@ export let FaFaucetSolid = {
   $_icon: {
     name: "Faucet",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["faucet"],
   },
@@ -23587,7 +22464,6 @@ export let FaFaxSolid = {
   $_icon: {
     name: "Fax",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["fax"],
   },
@@ -23608,7 +22484,6 @@ export let FaFeatherPointedSolid = {
   $_icon: {
     name: "FeatherPointed",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["feather","pointed"],
   },
@@ -23629,7 +22504,6 @@ export let FaFeatherSolid = {
   $_icon: {
     name: "Feather",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["feather"],
   },
@@ -23650,7 +22524,6 @@ export let FaFerrySolid = {
   $_icon: {
     name: "Ferry",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ferry"],
   },
@@ -23671,7 +22544,6 @@ export let FaFileArrowDownSolid = {
   $_icon: {
     name: "FileArrowDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","arrow","down"],
   },
@@ -23692,7 +22564,6 @@ export let FaFileArrowUpSolid = {
   $_icon: {
     name: "FileArrowUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","arrow","up"],
   },
@@ -23713,7 +22584,6 @@ export let FaFileAudioSolid = {
   $_icon: {
     name: "FileAudio",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","audio"],
   },
@@ -23734,7 +22604,6 @@ export let FaFileCircleCheckSolid = {
   $_icon: {
     name: "FileCircleCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","circle","check"],
   },
@@ -23755,7 +22624,6 @@ export let FaFileCircleExclamationSolid = {
   $_icon: {
     name: "FileCircleExclamation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","circle","exclamation"],
   },
@@ -23776,7 +22644,6 @@ export let FaFileCircleMinusSolid = {
   $_icon: {
     name: "FileCircleMinus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","circle","minus"],
   },
@@ -23797,7 +22664,6 @@ export let FaFileCirclePlusSolid = {
   $_icon: {
     name: "FileCirclePlus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","circle","plus"],
   },
@@ -23818,7 +22684,6 @@ export let FaFileCircleQuestionSolid = {
   $_icon: {
     name: "FileCircleQuestion",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","circle","question"],
   },
@@ -23839,7 +22704,6 @@ export let FaFileCircleXmarkSolid = {
   $_icon: {
     name: "FileCircleXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","circle","xmark"],
   },
@@ -23860,7 +22724,6 @@ export let FaFileCodeSolid = {
   $_icon: {
     name: "FileCode",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","code"],
   },
@@ -23881,7 +22744,6 @@ export let FaFileContractSolid = {
   $_icon: {
     name: "FileContract",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","contract"],
   },
@@ -23902,7 +22764,6 @@ export let FaFileCsvSolid = {
   $_icon: {
     name: "FileCsv",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","csv"],
   },
@@ -23923,7 +22784,6 @@ export let FaFileExcelSolid = {
   $_icon: {
     name: "FileExcel",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","excel"],
   },
@@ -23944,7 +22804,6 @@ export let FaFileExportSolid = {
   $_icon: {
     name: "FileExport",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","export"],
   },
@@ -23965,7 +22824,6 @@ export let FaFileImageSolid = {
   $_icon: {
     name: "FileImage",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","image"],
   },
@@ -23986,7 +22844,6 @@ export let FaFileImportSolid = {
   $_icon: {
     name: "FileImport",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","import"],
   },
@@ -24007,7 +22864,6 @@ export let FaFileInvoiceDollarSolid = {
   $_icon: {
     name: "FileInvoiceDollar",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","invoice","dollar"],
   },
@@ -24028,7 +22884,6 @@ export let FaFileInvoiceSolid = {
   $_icon: {
     name: "FileInvoice",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","invoice"],
   },
@@ -24049,7 +22904,6 @@ export let FaFileLinesSolid = {
   $_icon: {
     name: "FileLines",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","lines"],
   },
@@ -24070,7 +22924,6 @@ export let FaFileMedicalSolid = {
   $_icon: {
     name: "FileMedical",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","medical"],
   },
@@ -24091,7 +22944,6 @@ export let FaFilePdfSolid = {
   $_icon: {
     name: "FilePdf",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","pdf"],
   },
@@ -24112,7 +22964,6 @@ export let FaFilePenSolid = {
   $_icon: {
     name: "FilePen",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","pen"],
   },
@@ -24133,7 +22984,6 @@ export let FaFilePowerpointSolid = {
   $_icon: {
     name: "FilePowerpoint",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","powerpoint"],
   },
@@ -24154,7 +23004,6 @@ export let FaFilePrescriptionSolid = {
   $_icon: {
     name: "FilePrescription",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","prescription"],
   },
@@ -24175,7 +23024,6 @@ export let FaFileShieldSolid = {
   $_icon: {
     name: "FileShield",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","shield"],
   },
@@ -24196,7 +23044,6 @@ export let FaFileSignatureSolid = {
   $_icon: {
     name: "FileSignature",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","signature"],
   },
@@ -24217,7 +23064,6 @@ export let FaFileVideoSolid = {
   $_icon: {
     name: "FileVideo",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","video"],
   },
@@ -24238,7 +23084,6 @@ export let FaFileWaveformSolid = {
   $_icon: {
     name: "FileWaveform",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","waveform"],
   },
@@ -24259,7 +23104,6 @@ export let FaFileWordSolid = {
   $_icon: {
     name: "FileWord",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","word"],
   },
@@ -24280,7 +23124,6 @@ export let FaFileZipperSolid = {
   $_icon: {
     name: "FileZipper",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file","zipper"],
   },
@@ -24301,7 +23144,6 @@ export let FaFileSolid = {
   $_icon: {
     name: "File",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["file"],
   },
@@ -24322,7 +23164,6 @@ export let FaFillDripSolid = {
   $_icon: {
     name: "FillDrip",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["fill","drip"],
   },
@@ -24343,7 +23184,6 @@ export let FaFillSolid = {
   $_icon: {
     name: "Fill",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["fill"],
   },
@@ -24364,7 +23204,6 @@ export let FaFilmSolid = {
   $_icon: {
     name: "Film",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["film"],
   },
@@ -24385,7 +23224,6 @@ export let FaFilterCircleDollarSolid = {
   $_icon: {
     name: "FilterCircleDollar",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["filter","circle","dollar"],
   },
@@ -24406,7 +23244,6 @@ export let FaFilterCircleXmarkSolid = {
   $_icon: {
     name: "FilterCircleXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["filter","circle","xmark"],
   },
@@ -24427,7 +23264,6 @@ export let FaFilterSolid = {
   $_icon: {
     name: "Filter",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["filter"],
   },
@@ -24448,7 +23284,6 @@ export let FaFingerprintSolid = {
   $_icon: {
     name: "Fingerprint",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["fingerprint"],
   },
@@ -24469,7 +23304,6 @@ export let FaFireBurnerSolid = {
   $_icon: {
     name: "FireBurner",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["fire","burner"],
   },
@@ -24490,7 +23324,6 @@ export let FaFireExtinguisherSolid = {
   $_icon: {
     name: "FireExtinguisher",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["fire","extinguisher"],
   },
@@ -24511,7 +23344,6 @@ export let FaFireFlameCurvedSolid = {
   $_icon: {
     name: "FireFlameCurved",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["fire","flame","curved"],
   },
@@ -24532,7 +23364,6 @@ export let FaFireFlameSimpleSolid = {
   $_icon: {
     name: "FireFlameSimple",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["fire","flame","simple"],
   },
@@ -24553,7 +23384,6 @@ export let FaFireSolid = {
   $_icon: {
     name: "Fire",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["fire"],
   },
@@ -24574,7 +23404,6 @@ export let FaFishFinsSolid = {
   $_icon: {
     name: "FishFins",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["fish","fins"],
   },
@@ -24595,7 +23424,6 @@ export let FaFishSolid = {
   $_icon: {
     name: "Fish",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["fish"],
   },
@@ -24616,7 +23444,6 @@ export let FaFlagCheckeredSolid = {
   $_icon: {
     name: "FlagCheckered",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["flag","checkered"],
   },
@@ -24637,7 +23464,6 @@ export let FaFlagUsaSolid = {
   $_icon: {
     name: "FlagUsa",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["flag","usa"],
   },
@@ -24658,7 +23484,6 @@ export let FaFlagSolid = {
   $_icon: {
     name: "Flag",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["flag"],
   },
@@ -24679,7 +23504,6 @@ export let FaFlaskVialSolid = {
   $_icon: {
     name: "FlaskVial",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["flask","vial"],
   },
@@ -24700,7 +23524,6 @@ export let FaFlaskSolid = {
   $_icon: {
     name: "Flask",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["flask"],
   },
@@ -24721,7 +23544,6 @@ export let FaFloppyDiskSolid = {
   $_icon: {
     name: "FloppyDisk",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["floppy","disk"],
   },
@@ -24742,7 +23564,6 @@ export let FaFlorinSignSolid = {
   $_icon: {
     name: "FlorinSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["florin","sign"],
   },
@@ -24763,7 +23584,6 @@ export let FaFolderClosedSolid = {
   $_icon: {
     name: "FolderClosed",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["folder","closed"],
   },
@@ -24784,7 +23604,6 @@ export let FaFolderMinusSolid = {
   $_icon: {
     name: "FolderMinus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["folder","minus"],
   },
@@ -24805,7 +23624,6 @@ export let FaFolderOpenSolid = {
   $_icon: {
     name: "FolderOpen",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["folder","open"],
   },
@@ -24826,7 +23644,6 @@ export let FaFolderPlusSolid = {
   $_icon: {
     name: "FolderPlus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["folder","plus"],
   },
@@ -24847,7 +23664,6 @@ export let FaFolderTreeSolid = {
   $_icon: {
     name: "FolderTree",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["folder","tree"],
   },
@@ -24868,7 +23684,6 @@ export let FaFolderSolid = {
   $_icon: {
     name: "Folder",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["folder"],
   },
@@ -24889,7 +23704,6 @@ export let FaFontAwesomeSolid = {
   $_icon: {
     name: "FontAwesome",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["font","awesome"],
   },
@@ -24910,7 +23724,6 @@ export let FaFontSolid = {
   $_icon: {
     name: "Font",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["font"],
   },
@@ -24931,7 +23744,6 @@ export let FaFootballSolid = {
   $_icon: {
     name: "Football",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["football"],
   },
@@ -24952,7 +23764,6 @@ export let FaForwardFastSolid = {
   $_icon: {
     name: "ForwardFast",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["forward","fast"],
   },
@@ -24973,7 +23784,6 @@ export let FaForwardStepSolid = {
   $_icon: {
     name: "ForwardStep",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["forward","step"],
   },
@@ -24994,7 +23804,6 @@ export let FaForwardSolid = {
   $_icon: {
     name: "Forward",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["forward"],
   },
@@ -25015,7 +23824,6 @@ export let FaFrancSignSolid = {
   $_icon: {
     name: "FrancSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["franc","sign"],
   },
@@ -25036,7 +23844,6 @@ export let FaFrogSolid = {
   $_icon: {
     name: "Frog",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["frog"],
   },
@@ -25057,7 +23864,6 @@ export let FaFutbolSolid = {
   $_icon: {
     name: "Futbol",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["futbol"],
   },
@@ -25078,7 +23884,6 @@ export let FaGSolid = {
   $_icon: {
     name: "G",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["g"],
   },
@@ -25099,7 +23904,6 @@ export let FaGamepadSolid = {
   $_icon: {
     name: "Gamepad",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["gamepad"],
   },
@@ -25120,7 +23924,6 @@ export let FaGasPumpSolid = {
   $_icon: {
     name: "GasPump",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["gas","pump"],
   },
@@ -25141,7 +23944,6 @@ export let FaGaugeHighSolid = {
   $_icon: {
     name: "GaugeHigh",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["gauge","high"],
   },
@@ -25162,7 +23964,6 @@ export let FaGaugeSimpleHighSolid = {
   $_icon: {
     name: "GaugeSimpleHigh",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["gauge","simple","high"],
   },
@@ -25183,7 +23984,6 @@ export let FaGaugeSimpleSolid = {
   $_icon: {
     name: "GaugeSimple",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["gauge","simple"],
   },
@@ -25204,7 +24004,6 @@ export let FaGaugeSolid = {
   $_icon: {
     name: "Gauge",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["gauge"],
   },
@@ -25225,7 +24024,6 @@ export let FaGavelSolid = {
   $_icon: {
     name: "Gavel",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["gavel"],
   },
@@ -25246,7 +24044,6 @@ export let FaGearSolid = {
   $_icon: {
     name: "Gear",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["gear"],
   },
@@ -25267,7 +24064,6 @@ export let FaGearsSolid = {
   $_icon: {
     name: "Gears",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["gears"],
   },
@@ -25288,7 +24084,6 @@ export let FaGemSolid = {
   $_icon: {
     name: "Gem",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["gem"],
   },
@@ -25309,7 +24104,6 @@ export let FaGenderlessSolid = {
   $_icon: {
     name: "Genderless",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["genderless"],
   },
@@ -25330,7 +24124,6 @@ export let FaGhostSolid = {
   $_icon: {
     name: "Ghost",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ghost"],
   },
@@ -25351,7 +24144,6 @@ export let FaGiftSolid = {
   $_icon: {
     name: "Gift",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["gift"],
   },
@@ -25372,7 +24164,6 @@ export let FaGiftsSolid = {
   $_icon: {
     name: "Gifts",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["gifts"],
   },
@@ -25393,7 +24184,6 @@ export let FaGlassWaterDropletSolid = {
   $_icon: {
     name: "GlassWaterDroplet",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["glass","water","droplet"],
   },
@@ -25414,7 +24204,6 @@ export let FaGlassWaterSolid = {
   $_icon: {
     name: "GlassWater",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["glass","water"],
   },
@@ -25435,7 +24224,6 @@ export let FaGlassesSolid = {
   $_icon: {
     name: "Glasses",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["glasses"],
   },
@@ -25456,7 +24244,6 @@ export let FaGlobeSolid = {
   $_icon: {
     name: "Globe",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["globe"],
   },
@@ -25477,7 +24264,6 @@ export let FaGolfBallTeeSolid = {
   $_icon: {
     name: "GolfBallTee",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["golf","ball","tee"],
   },
@@ -25498,7 +24284,6 @@ export let FaGopuramSolid = {
   $_icon: {
     name: "Gopuram",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["gopuram"],
   },
@@ -25519,7 +24304,6 @@ export let FaGraduationCapSolid = {
   $_icon: {
     name: "GraduationCap",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["graduation","cap"],
   },
@@ -25540,7 +24324,6 @@ export let FaGreaterThanEqualSolid = {
   $_icon: {
     name: "GreaterThanEqual",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["greater","than","equal"],
   },
@@ -25561,7 +24344,6 @@ export let FaGreaterThanSolid = {
   $_icon: {
     name: "GreaterThan",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["greater","than"],
   },
@@ -25582,7 +24364,6 @@ export let FaGripLinesVerticalSolid = {
   $_icon: {
     name: "GripLinesVertical",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["grip","lines","vertical"],
   },
@@ -25603,7 +24384,6 @@ export let FaGripLinesSolid = {
   $_icon: {
     name: "GripLines",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["grip","lines"],
   },
@@ -25624,7 +24404,6 @@ export let FaGripVerticalSolid = {
   $_icon: {
     name: "GripVertical",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["grip","vertical"],
   },
@@ -25645,7 +24424,6 @@ export let FaGripSolid = {
   $_icon: {
     name: "Grip",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["grip"],
   },
@@ -25666,7 +24444,6 @@ export let FaGroupArrowsRotateSolid = {
   $_icon: {
     name: "GroupArrowsRotate",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["group","arrows","rotate"],
   },
@@ -25687,7 +24464,6 @@ export let FaGuaraniSignSolid = {
   $_icon: {
     name: "GuaraniSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["guarani","sign"],
   },
@@ -25708,7 +24484,6 @@ export let FaGuitarSolid = {
   $_icon: {
     name: "Guitar",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["guitar"],
   },
@@ -25729,7 +24504,6 @@ export let FaGunSolid = {
   $_icon: {
     name: "Gun",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["gun"],
   },
@@ -25750,7 +24524,6 @@ export let FaHSolid = {
   $_icon: {
     name: "H",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["h"],
   },
@@ -25771,7 +24544,6 @@ export let FaHammerSolid = {
   $_icon: {
     name: "Hammer",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hammer"],
   },
@@ -25792,7 +24564,6 @@ export let FaHamsaSolid = {
   $_icon: {
     name: "Hamsa",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hamsa"],
   },
@@ -25813,7 +24584,6 @@ export let FaHandBackFistSolid = {
   $_icon: {
     name: "HandBackFist",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hand","back","fist"],
   },
@@ -25834,7 +24604,6 @@ export let FaHandDotsSolid = {
   $_icon: {
     name: "HandDots",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hand","dots"],
   },
@@ -25855,7 +24624,6 @@ export let FaHandFistSolid = {
   $_icon: {
     name: "HandFist",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hand","fist"],
   },
@@ -25876,7 +24644,6 @@ export let FaHandHoldingDollarSolid = {
   $_icon: {
     name: "HandHoldingDollar",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hand","holding","dollar"],
   },
@@ -25897,7 +24664,6 @@ export let FaHandHoldingDropletSolid = {
   $_icon: {
     name: "HandHoldingDroplet",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hand","holding","droplet"],
   },
@@ -25918,7 +24684,6 @@ export let FaHandHoldingHandSolid = {
   $_icon: {
     name: "HandHoldingHand",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hand","holding","hand"],
   },
@@ -25939,7 +24704,6 @@ export let FaHandHoldingHeartSolid = {
   $_icon: {
     name: "HandHoldingHeart",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hand","holding","heart"],
   },
@@ -25960,7 +24724,6 @@ export let FaHandHoldingMedicalSolid = {
   $_icon: {
     name: "HandHoldingMedical",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hand","holding","medical"],
   },
@@ -25981,7 +24744,6 @@ export let FaHandHoldingSolid = {
   $_icon: {
     name: "HandHolding",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hand","holding"],
   },
@@ -26002,7 +24764,6 @@ export let FaHandLizardSolid = {
   $_icon: {
     name: "HandLizard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hand","lizard"],
   },
@@ -26023,7 +24784,6 @@ export let FaHandMiddleFingerSolid = {
   $_icon: {
     name: "HandMiddleFinger",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hand","middle","finger"],
   },
@@ -26044,7 +24804,6 @@ export let FaHandPeaceSolid = {
   $_icon: {
     name: "HandPeace",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hand","peace"],
   },
@@ -26065,7 +24824,6 @@ export let FaHandPointDownSolid = {
   $_icon: {
     name: "HandPointDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hand","point","down"],
   },
@@ -26086,7 +24844,6 @@ export let FaHandPointLeftSolid = {
   $_icon: {
     name: "HandPointLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hand","point","left"],
   },
@@ -26107,7 +24864,6 @@ export let FaHandPointRightSolid = {
   $_icon: {
     name: "HandPointRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hand","point","right"],
   },
@@ -26128,7 +24884,6 @@ export let FaHandPointUpSolid = {
   $_icon: {
     name: "HandPointUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hand","point","up"],
   },
@@ -26149,7 +24904,6 @@ export let FaHandPointerSolid = {
   $_icon: {
     name: "HandPointer",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hand","pointer"],
   },
@@ -26170,7 +24924,6 @@ export let FaHandScissorsSolid = {
   $_icon: {
     name: "HandScissors",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hand","scissors"],
   },
@@ -26191,7 +24944,6 @@ export let FaHandSparklesSolid = {
   $_icon: {
     name: "HandSparkles",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hand","sparkles"],
   },
@@ -26212,7 +24964,6 @@ export let FaHandSpockSolid = {
   $_icon: {
     name: "HandSpock",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hand","spock"],
   },
@@ -26233,7 +24984,6 @@ export let FaHandSolid = {
   $_icon: {
     name: "Hand",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hand"],
   },
@@ -26254,7 +25004,6 @@ export let FaHandcuffsSolid = {
   $_icon: {
     name: "Handcuffs",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["handcuffs"],
   },
@@ -26275,7 +25024,6 @@ export let FaHandsAslInterpretingSolid = {
   $_icon: {
     name: "HandsAslInterpreting",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hands","asl","interpreting"],
   },
@@ -26296,7 +25044,6 @@ export let FaHandsBoundSolid = {
   $_icon: {
     name: "HandsBound",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hands","bound"],
   },
@@ -26317,7 +25064,6 @@ export let FaHandsBubblesSolid = {
   $_icon: {
     name: "HandsBubbles",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hands","bubbles"],
   },
@@ -26338,7 +25084,6 @@ export let FaHandsClappingSolid = {
   $_icon: {
     name: "HandsClapping",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hands","clapping"],
   },
@@ -26359,7 +25104,6 @@ export let FaHandsHoldingChildSolid = {
   $_icon: {
     name: "HandsHoldingChild",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hands","holding","child"],
   },
@@ -26380,7 +25124,6 @@ export let FaHandsHoldingCircleSolid = {
   $_icon: {
     name: "HandsHoldingCircle",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hands","holding","circle"],
   },
@@ -26401,7 +25144,6 @@ export let FaHandsHoldingSolid = {
   $_icon: {
     name: "HandsHolding",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hands","holding"],
   },
@@ -26422,7 +25164,6 @@ export let FaHandsPrayingSolid = {
   $_icon: {
     name: "HandsPraying",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hands","praying"],
   },
@@ -26443,7 +25184,6 @@ export let FaHandsSolid = {
   $_icon: {
     name: "Hands",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hands"],
   },
@@ -26464,7 +25204,6 @@ export let FaHandshakeAngleSolid = {
   $_icon: {
     name: "HandshakeAngle",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["handshake","angle"],
   },
@@ -26485,7 +25224,6 @@ export let FaHandshakeSimpleSlashSolid = {
   $_icon: {
     name: "HandshakeSimpleSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["handshake","simple","slash"],
   },
@@ -26506,7 +25244,6 @@ export let FaHandshakeSimpleSolid = {
   $_icon: {
     name: "HandshakeSimple",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["handshake","simple"],
   },
@@ -26527,7 +25264,6 @@ export let FaHandshakeSlashSolid = {
   $_icon: {
     name: "HandshakeSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["handshake","slash"],
   },
@@ -26548,7 +25284,6 @@ export let FaHandshakeSolid = {
   $_icon: {
     name: "Handshake",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["handshake"],
   },
@@ -26569,7 +25304,6 @@ export let FaHanukiahSolid = {
   $_icon: {
     name: "Hanukiah",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hanukiah"],
   },
@@ -26590,7 +25324,6 @@ export let FaHardDriveSolid = {
   $_icon: {
     name: "HardDrive",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hard","drive"],
   },
@@ -26611,7 +25344,6 @@ export let FaHashtagSolid = {
   $_icon: {
     name: "Hashtag",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hashtag"],
   },
@@ -26632,7 +25364,6 @@ export let FaHatCowboySideSolid = {
   $_icon: {
     name: "HatCowboySide",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hat","cowboy","side"],
   },
@@ -26653,7 +25384,6 @@ export let FaHatCowboySolid = {
   $_icon: {
     name: "HatCowboy",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hat","cowboy"],
   },
@@ -26674,7 +25404,6 @@ export let FaHatWizardSolid = {
   $_icon: {
     name: "HatWizard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hat","wizard"],
   },
@@ -26695,7 +25424,6 @@ export let FaHeadSideCoughSlashSolid = {
   $_icon: {
     name: "HeadSideCoughSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["head","side","cough","slash"],
   },
@@ -26716,7 +25444,6 @@ export let FaHeadSideCoughSolid = {
   $_icon: {
     name: "HeadSideCough",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["head","side","cough"],
   },
@@ -26737,7 +25464,6 @@ export let FaHeadSideMaskSolid = {
   $_icon: {
     name: "HeadSideMask",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["head","side","mask"],
   },
@@ -26758,7 +25484,6 @@ export let FaHeadSideVirusSolid = {
   $_icon: {
     name: "HeadSideVirus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["head","side","virus"],
   },
@@ -26779,7 +25504,6 @@ export let FaHeadingSolid = {
   $_icon: {
     name: "Heading",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["heading"],
   },
@@ -26800,7 +25524,6 @@ export let FaHeadphonesSimpleSolid = {
   $_icon: {
     name: "HeadphonesSimple",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["headphones","simple"],
   },
@@ -26821,7 +25544,6 @@ export let FaHeadphonesSolid = {
   $_icon: {
     name: "Headphones",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["headphones"],
   },
@@ -26842,7 +25564,6 @@ export let FaHeadsetSolid = {
   $_icon: {
     name: "Headset",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["headset"],
   },
@@ -26863,7 +25584,6 @@ export let FaHeartCircleBoltSolid = {
   $_icon: {
     name: "HeartCircleBolt",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["heart","circle","bolt"],
   },
@@ -26884,7 +25604,6 @@ export let FaHeartCircleCheckSolid = {
   $_icon: {
     name: "HeartCircleCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["heart","circle","check"],
   },
@@ -26905,7 +25624,6 @@ export let FaHeartCircleExclamationSolid = {
   $_icon: {
     name: "HeartCircleExclamation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["heart","circle","exclamation"],
   },
@@ -26926,7 +25644,6 @@ export let FaHeartCircleMinusSolid = {
   $_icon: {
     name: "HeartCircleMinus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["heart","circle","minus"],
   },
@@ -26947,7 +25664,6 @@ export let FaHeartCirclePlusSolid = {
   $_icon: {
     name: "HeartCirclePlus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["heart","circle","plus"],
   },
@@ -26968,7 +25684,6 @@ export let FaHeartCircleXmarkSolid = {
   $_icon: {
     name: "HeartCircleXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["heart","circle","xmark"],
   },
@@ -26989,7 +25704,6 @@ export let FaHeartCrackSolid = {
   $_icon: {
     name: "HeartCrack",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["heart","crack"],
   },
@@ -27010,7 +25724,6 @@ export let FaHeartPulseSolid = {
   $_icon: {
     name: "HeartPulse",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["heart","pulse"],
   },
@@ -27031,7 +25744,6 @@ export let FaHeartSolid = {
   $_icon: {
     name: "Heart",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["heart"],
   },
@@ -27052,7 +25764,6 @@ export let FaHelicopterSymbolSolid = {
   $_icon: {
     name: "HelicopterSymbol",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["helicopter","symbol"],
   },
@@ -27073,7 +25784,6 @@ export let FaHelicopterSolid = {
   $_icon: {
     name: "Helicopter",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["helicopter"],
   },
@@ -27094,7 +25804,6 @@ export let FaHelmetSafetySolid = {
   $_icon: {
     name: "HelmetSafety",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["helmet","safety"],
   },
@@ -27115,7 +25824,6 @@ export let FaHelmetUnSolid = {
   $_icon: {
     name: "HelmetUn",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["helmet","un"],
   },
@@ -27136,7 +25844,6 @@ export let FaHighlighterSolid = {
   $_icon: {
     name: "Highlighter",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["highlighter"],
   },
@@ -27157,7 +25864,6 @@ export let FaHillAvalancheSolid = {
   $_icon: {
     name: "HillAvalanche",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hill","avalanche"],
   },
@@ -27178,7 +25884,6 @@ export let FaHillRockslideSolid = {
   $_icon: {
     name: "HillRockslide",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hill","rockslide"],
   },
@@ -27199,7 +25904,6 @@ export let FaHippoSolid = {
   $_icon: {
     name: "Hippo",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hippo"],
   },
@@ -27220,7 +25924,6 @@ export let FaHockeyPuckSolid = {
   $_icon: {
     name: "HockeyPuck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hockey","puck"],
   },
@@ -27241,7 +25944,6 @@ export let FaHollyBerrySolid = {
   $_icon: {
     name: "HollyBerry",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["holly","berry"],
   },
@@ -27262,7 +25964,6 @@ export let FaHorseHeadSolid = {
   $_icon: {
     name: "HorseHead",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["horse","head"],
   },
@@ -27283,7 +25984,6 @@ export let FaHorseSolid = {
   $_icon: {
     name: "Horse",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["horse"],
   },
@@ -27304,7 +26004,6 @@ export let FaHospitalUserSolid = {
   $_icon: {
     name: "HospitalUser",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hospital","user"],
   },
@@ -27325,7 +26024,6 @@ export let FaHospitalSolid = {
   $_icon: {
     name: "Hospital",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hospital"],
   },
@@ -27346,7 +26044,6 @@ export let FaHotTubPersonSolid = {
   $_icon: {
     name: "HotTubPerson",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hot","tub","person"],
   },
@@ -27367,7 +26064,6 @@ export let FaHotdogSolid = {
   $_icon: {
     name: "Hotdog",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hotdog"],
   },
@@ -27388,7 +26084,6 @@ export let FaHotelSolid = {
   $_icon: {
     name: "Hotel",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hotel"],
   },
@@ -27409,7 +26104,6 @@ export let FaHourglassEndSolid = {
   $_icon: {
     name: "HourglassEnd",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hourglass","end"],
   },
@@ -27430,7 +26124,6 @@ export let FaHourglassHalfSolid = {
   $_icon: {
     name: "HourglassHalf",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hourglass","half"],
   },
@@ -27451,7 +26144,6 @@ export let FaHourglassStartSolid = {
   $_icon: {
     name: "HourglassStart",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hourglass","start"],
   },
@@ -27472,7 +26164,6 @@ export let FaHourglassSolid = {
   $_icon: {
     name: "Hourglass",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hourglass"],
   },
@@ -27493,7 +26184,6 @@ export let FaHouseChimneyCrackSolid = {
   $_icon: {
     name: "HouseChimneyCrack",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","chimney","crack"],
   },
@@ -27514,7 +26204,6 @@ export let FaHouseChimneyMedicalSolid = {
   $_icon: {
     name: "HouseChimneyMedical",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","chimney","medical"],
   },
@@ -27535,7 +26224,6 @@ export let FaHouseChimneyUserSolid = {
   $_icon: {
     name: "HouseChimneyUser",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","chimney","user"],
   },
@@ -27556,7 +26244,6 @@ export let FaHouseChimneyWindowSolid = {
   $_icon: {
     name: "HouseChimneyWindow",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","chimney","window"],
   },
@@ -27577,7 +26264,6 @@ export let FaHouseChimneySolid = {
   $_icon: {
     name: "HouseChimney",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","chimney"],
   },
@@ -27598,7 +26284,6 @@ export let FaHouseCircleCheckSolid = {
   $_icon: {
     name: "HouseCircleCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","circle","check"],
   },
@@ -27619,7 +26304,6 @@ export let FaHouseCircleExclamationSolid = {
   $_icon: {
     name: "HouseCircleExclamation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","circle","exclamation"],
   },
@@ -27640,7 +26324,6 @@ export let FaHouseCircleXmarkSolid = {
   $_icon: {
     name: "HouseCircleXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","circle","xmark"],
   },
@@ -27661,7 +26344,6 @@ export let FaHouseCrackSolid = {
   $_icon: {
     name: "HouseCrack",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","crack"],
   },
@@ -27682,7 +26364,6 @@ export let FaHouseFireSolid = {
   $_icon: {
     name: "HouseFire",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","fire"],
   },
@@ -27703,7 +26384,6 @@ export let FaHouseFlagSolid = {
   $_icon: {
     name: "HouseFlag",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","flag"],
   },
@@ -27724,7 +26404,6 @@ export let FaHouseFloodWaterCircleArrowRightSolid = {
   $_icon: {
     name: "HouseFloodWaterCircleArrowRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","flood","water","circle","arrow","right"],
   },
@@ -27745,7 +26424,6 @@ export let FaHouseFloodWaterSolid = {
   $_icon: {
     name: "HouseFloodWater",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","flood","water"],
   },
@@ -27766,7 +26444,6 @@ export let FaHouseLaptopSolid = {
   $_icon: {
     name: "HouseLaptop",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","laptop"],
   },
@@ -27787,7 +26464,6 @@ export let FaHouseLockSolid = {
   $_icon: {
     name: "HouseLock",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","lock"],
   },
@@ -27808,7 +26484,6 @@ export let FaHouseMedicalCircleCheckSolid = {
   $_icon: {
     name: "HouseMedicalCircleCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","medical","circle","check"],
   },
@@ -27829,7 +26504,6 @@ export let FaHouseMedicalCircleExclamationSolid = {
   $_icon: {
     name: "HouseMedicalCircleExclamation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","medical","circle","exclamation"],
   },
@@ -27850,7 +26524,6 @@ export let FaHouseMedicalCircleXmarkSolid = {
   $_icon: {
     name: "HouseMedicalCircleXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","medical","circle","xmark"],
   },
@@ -27871,7 +26544,6 @@ export let FaHouseMedicalFlagSolid = {
   $_icon: {
     name: "HouseMedicalFlag",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","medical","flag"],
   },
@@ -27892,7 +26564,6 @@ export let FaHouseMedicalSolid = {
   $_icon: {
     name: "HouseMedical",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","medical"],
   },
@@ -27913,7 +26584,6 @@ export let FaHouseSignalSolid = {
   $_icon: {
     name: "HouseSignal",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","signal"],
   },
@@ -27934,7 +26604,6 @@ export let FaHouseTsunamiSolid = {
   $_icon: {
     name: "HouseTsunami",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","tsunami"],
   },
@@ -27955,7 +26624,6 @@ export let FaHouseUserSolid = {
   $_icon: {
     name: "HouseUser",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house","user"],
   },
@@ -27976,7 +26644,6 @@ export let FaHouseSolid = {
   $_icon: {
     name: "House",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["house"],
   },
@@ -27997,7 +26664,6 @@ export let FaHryvniaSignSolid = {
   $_icon: {
     name: "HryvniaSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hryvnia","sign"],
   },
@@ -28018,7 +26684,6 @@ export let FaHurricaneSolid = {
   $_icon: {
     name: "Hurricane",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["hurricane"],
   },
@@ -28039,7 +26704,6 @@ export let FaICursorSolid = {
   $_icon: {
     name: "ICursor",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["i","cursor"],
   },
@@ -28060,7 +26724,6 @@ export let FaISolid = {
   $_icon: {
     name: "I",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["i"],
   },
@@ -28081,7 +26744,6 @@ export let FaIceCreamSolid = {
   $_icon: {
     name: "IceCream",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ice","cream"],
   },
@@ -28102,7 +26764,6 @@ export let FaIciclesSolid = {
   $_icon: {
     name: "Icicles",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["icicles"],
   },
@@ -28123,7 +26784,6 @@ export let FaIconsSolid = {
   $_icon: {
     name: "Icons",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["icons"],
   },
@@ -28144,7 +26804,6 @@ export let FaIdBadgeSolid = {
   $_icon: {
     name: "IdBadge",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["id","badge"],
   },
@@ -28165,7 +26824,6 @@ export let FaIdCardClipSolid = {
   $_icon: {
     name: "IdCardClip",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["id","card","clip"],
   },
@@ -28186,7 +26844,6 @@ export let FaIdCardSolid = {
   $_icon: {
     name: "IdCard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["id","card"],
   },
@@ -28207,7 +26864,6 @@ export let FaIglooSolid = {
   $_icon: {
     name: "Igloo",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["igloo"],
   },
@@ -28228,7 +26884,6 @@ export let FaImagePortraitSolid = {
   $_icon: {
     name: "ImagePortrait",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["image","portrait"],
   },
@@ -28249,7 +26904,6 @@ export let FaImageSolid = {
   $_icon: {
     name: "Image",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["image"],
   },
@@ -28270,7 +26924,6 @@ export let FaImagesSolid = {
   $_icon: {
     name: "Images",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["images"],
   },
@@ -28291,7 +26944,6 @@ export let FaInboxSolid = {
   $_icon: {
     name: "Inbox",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["inbox"],
   },
@@ -28312,7 +26964,6 @@ export let FaIndentSolid = {
   $_icon: {
     name: "Indent",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["indent"],
   },
@@ -28333,7 +26984,6 @@ export let FaIndianRupeeSignSolid = {
   $_icon: {
     name: "IndianRupeeSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["indian","rupee","sign"],
   },
@@ -28354,7 +27004,6 @@ export let FaIndustrySolid = {
   $_icon: {
     name: "Industry",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["industry"],
   },
@@ -28375,7 +27024,6 @@ export let FaInfinitySolid = {
   $_icon: {
     name: "Infinity",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["infinity"],
   },
@@ -28396,7 +27044,6 @@ export let FaInfoSolid = {
   $_icon: {
     name: "Info",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["info"],
   },
@@ -28417,7 +27064,6 @@ export let FaItalicSolid = {
   $_icon: {
     name: "Italic",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["italic"],
   },
@@ -28438,7 +27084,6 @@ export let FaJSolid = {
   $_icon: {
     name: "J",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["j"],
   },
@@ -28459,7 +27104,6 @@ export let FaJarWheatSolid = {
   $_icon: {
     name: "JarWheat",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["jar","wheat"],
   },
@@ -28480,7 +27124,6 @@ export let FaJarSolid = {
   $_icon: {
     name: "Jar",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["jar"],
   },
@@ -28501,7 +27144,6 @@ export let FaJediSolid = {
   $_icon: {
     name: "Jedi",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["jedi"],
   },
@@ -28522,7 +27164,6 @@ export let FaJetFighterUpSolid = {
   $_icon: {
     name: "JetFighterUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["jet","fighter","up"],
   },
@@ -28543,7 +27184,6 @@ export let FaJetFighterSolid = {
   $_icon: {
     name: "JetFighter",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["jet","fighter"],
   },
@@ -28564,7 +27204,6 @@ export let FaJointSolid = {
   $_icon: {
     name: "Joint",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["joint"],
   },
@@ -28585,7 +27224,6 @@ export let FaJugDetergentSolid = {
   $_icon: {
     name: "JugDetergent",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["jug","detergent"],
   },
@@ -28606,7 +27244,6 @@ export let FaKSolid = {
   $_icon: {
     name: "K",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["k"],
   },
@@ -28627,7 +27264,6 @@ export let FaKaabaSolid = {
   $_icon: {
     name: "Kaaba",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["kaaba"],
   },
@@ -28648,7 +27284,6 @@ export let FaKeySolid = {
   $_icon: {
     name: "Key",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["key"],
   },
@@ -28669,7 +27304,6 @@ export let FaKeyboardSolid = {
   $_icon: {
     name: "Keyboard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["keyboard"],
   },
@@ -28690,7 +27324,6 @@ export let FaKhandaSolid = {
   $_icon: {
     name: "Khanda",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["khanda"],
   },
@@ -28711,7 +27344,6 @@ export let FaKipSignSolid = {
   $_icon: {
     name: "KipSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["kip","sign"],
   },
@@ -28732,7 +27364,6 @@ export let FaKitMedicalSolid = {
   $_icon: {
     name: "KitMedical",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["kit","medical"],
   },
@@ -28753,7 +27384,6 @@ export let FaKitchenSetSolid = {
   $_icon: {
     name: "KitchenSet",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["kitchen","set"],
   },
@@ -28774,7 +27404,6 @@ export let FaKiwiBirdSolid = {
   $_icon: {
     name: "KiwiBird",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["kiwi","bird"],
   },
@@ -28795,7 +27424,6 @@ export let FaLSolid = {
   $_icon: {
     name: "L",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["l"],
   },
@@ -28816,7 +27444,6 @@ export let FaLandMineOnSolid = {
   $_icon: {
     name: "LandMineOn",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["land","mine","on"],
   },
@@ -28837,7 +27464,6 @@ export let FaLandmarkDomeSolid = {
   $_icon: {
     name: "LandmarkDome",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["landmark","dome"],
   },
@@ -28858,7 +27484,6 @@ export let FaLandmarkFlagSolid = {
   $_icon: {
     name: "LandmarkFlag",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["landmark","flag"],
   },
@@ -28879,7 +27504,6 @@ export let FaLandmarkSolid = {
   $_icon: {
     name: "Landmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["landmark"],
   },
@@ -28900,7 +27524,6 @@ export let FaLanguageSolid = {
   $_icon: {
     name: "Language",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["language"],
   },
@@ -28921,7 +27544,6 @@ export let FaLaptopCodeSolid = {
   $_icon: {
     name: "LaptopCode",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["laptop","code"],
   },
@@ -28942,7 +27564,6 @@ export let FaLaptopFileSolid = {
   $_icon: {
     name: "LaptopFile",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["laptop","file"],
   },
@@ -28963,7 +27584,6 @@ export let FaLaptopMedicalSolid = {
   $_icon: {
     name: "LaptopMedical",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["laptop","medical"],
   },
@@ -28984,7 +27604,6 @@ export let FaLaptopSolid = {
   $_icon: {
     name: "Laptop",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["laptop"],
   },
@@ -29005,7 +27624,6 @@ export let FaLariSignSolid = {
   $_icon: {
     name: "LariSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["lari","sign"],
   },
@@ -29026,7 +27644,6 @@ export let FaLayerGroupSolid = {
   $_icon: {
     name: "LayerGroup",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["layer","group"],
   },
@@ -29047,7 +27664,6 @@ export let FaLeafSolid = {
   $_icon: {
     name: "Leaf",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["leaf"],
   },
@@ -29068,7 +27684,6 @@ export let FaLeftLongSolid = {
   $_icon: {
     name: "LeftLong",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["left","long"],
   },
@@ -29089,7 +27704,6 @@ export let FaLeftRightSolid = {
   $_icon: {
     name: "LeftRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["left","right"],
   },
@@ -29110,7 +27724,6 @@ export let FaLemonSolid = {
   $_icon: {
     name: "Lemon",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["lemon"],
   },
@@ -29131,7 +27744,6 @@ export let FaLessThanEqualSolid = {
   $_icon: {
     name: "LessThanEqual",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["less","than","equal"],
   },
@@ -29152,7 +27764,6 @@ export let FaLessThanSolid = {
   $_icon: {
     name: "LessThan",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["less","than"],
   },
@@ -29173,7 +27784,6 @@ export let FaLifeRingSolid = {
   $_icon: {
     name: "LifeRing",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["life","ring"],
   },
@@ -29194,7 +27804,6 @@ export let FaLightbulbSolid = {
   $_icon: {
     name: "Lightbulb",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["lightbulb"],
   },
@@ -29215,7 +27824,6 @@ export let FaLinesLeaningSolid = {
   $_icon: {
     name: "LinesLeaning",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["lines","leaning"],
   },
@@ -29236,7 +27844,6 @@ export let FaLinkSlashSolid = {
   $_icon: {
     name: "LinkSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["link","slash"],
   },
@@ -29257,7 +27864,6 @@ export let FaLinkSolid = {
   $_icon: {
     name: "Link",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["link"],
   },
@@ -29278,7 +27884,6 @@ export let FaLiraSignSolid = {
   $_icon: {
     name: "LiraSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["lira","sign"],
   },
@@ -29299,7 +27904,6 @@ export let FaListCheckSolid = {
   $_icon: {
     name: "ListCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["list","check"],
   },
@@ -29320,7 +27924,6 @@ export let FaListOlSolid = {
   $_icon: {
     name: "ListOl",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["list","ol"],
   },
@@ -29341,7 +27944,6 @@ export let FaListUlSolid = {
   $_icon: {
     name: "ListUl",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["list","ul"],
   },
@@ -29362,7 +27964,6 @@ export let FaListSolid = {
   $_icon: {
     name: "List",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["list"],
   },
@@ -29383,7 +27984,6 @@ export let FaLitecoinSignSolid = {
   $_icon: {
     name: "LitecoinSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["litecoin","sign"],
   },
@@ -29404,7 +28004,6 @@ export let FaLocationArrowSolid = {
   $_icon: {
     name: "LocationArrow",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["location","arrow"],
   },
@@ -29425,7 +28024,6 @@ export let FaLocationCrosshairsSolid = {
   $_icon: {
     name: "LocationCrosshairs",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["location","crosshairs"],
   },
@@ -29446,7 +28044,6 @@ export let FaLocationDotSolid = {
   $_icon: {
     name: "LocationDot",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["location","dot"],
   },
@@ -29467,7 +28064,6 @@ export let FaLocationPinLockSolid = {
   $_icon: {
     name: "LocationPinLock",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["location","pin","lock"],
   },
@@ -29488,7 +28084,6 @@ export let FaLocationPinSolid = {
   $_icon: {
     name: "LocationPin",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["location","pin"],
   },
@@ -29509,7 +28104,6 @@ export let FaLockOpenSolid = {
   $_icon: {
     name: "LockOpen",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["lock","open"],
   },
@@ -29530,7 +28124,6 @@ export let FaLockSolid = {
   $_icon: {
     name: "Lock",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["lock"],
   },
@@ -29551,7 +28144,6 @@ export let FaLocustSolid = {
   $_icon: {
     name: "Locust",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["locust"],
   },
@@ -29572,7 +28164,6 @@ export let FaLungsVirusSolid = {
   $_icon: {
     name: "LungsVirus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["lungs","virus"],
   },
@@ -29593,7 +28184,6 @@ export let FaLungsSolid = {
   $_icon: {
     name: "Lungs",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["lungs"],
   },
@@ -29614,7 +28204,6 @@ export let FaMSolid = {
   $_icon: {
     name: "M",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["m"],
   },
@@ -29635,7 +28224,6 @@ export let FaMagnetSolid = {
   $_icon: {
     name: "Magnet",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["magnet"],
   },
@@ -29656,7 +28244,6 @@ export let FaMagnifyingGlassArrowRightSolid = {
   $_icon: {
     name: "MagnifyingGlassArrowRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["magnifying","glass","arrow","right"],
   },
@@ -29677,7 +28264,6 @@ export let FaMagnifyingGlassChartSolid = {
   $_icon: {
     name: "MagnifyingGlassChart",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["magnifying","glass","chart"],
   },
@@ -29698,7 +28284,6 @@ export let FaMagnifyingGlassDollarSolid = {
   $_icon: {
     name: "MagnifyingGlassDollar",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["magnifying","glass","dollar"],
   },
@@ -29719,7 +28304,6 @@ export let FaMagnifyingGlassLocationSolid = {
   $_icon: {
     name: "MagnifyingGlassLocation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["magnifying","glass","location"],
   },
@@ -29740,7 +28324,6 @@ export let FaMagnifyingGlassMinusSolid = {
   $_icon: {
     name: "MagnifyingGlassMinus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["magnifying","glass","minus"],
   },
@@ -29761,7 +28344,6 @@ export let FaMagnifyingGlassPlusSolid = {
   $_icon: {
     name: "MagnifyingGlassPlus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["magnifying","glass","plus"],
   },
@@ -29782,7 +28364,6 @@ export let FaMagnifyingGlassSolid = {
   $_icon: {
     name: "MagnifyingGlass",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["magnifying","glass"],
   },
@@ -29803,7 +28384,6 @@ export let FaManatSignSolid = {
   $_icon: {
     name: "ManatSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["manat","sign"],
   },
@@ -29824,7 +28404,6 @@ export let FaMapLocationDotSolid = {
   $_icon: {
     name: "MapLocationDot",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["map","location","dot"],
   },
@@ -29845,7 +28424,6 @@ export let FaMapLocationSolid = {
   $_icon: {
     name: "MapLocation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["map","location"],
   },
@@ -29866,7 +28444,6 @@ export let FaMapPinSolid = {
   $_icon: {
     name: "MapPin",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["map","pin"],
   },
@@ -29887,7 +28464,6 @@ export let FaMapSolid = {
   $_icon: {
     name: "Map",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["map"],
   },
@@ -29908,7 +28484,6 @@ export let FaMarkerSolid = {
   $_icon: {
     name: "Marker",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["marker"],
   },
@@ -29929,7 +28504,6 @@ export let FaMarsAndVenusBurstSolid = {
   $_icon: {
     name: "MarsAndVenusBurst",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mars","and","venus","burst"],
   },
@@ -29950,7 +28524,6 @@ export let FaMarsAndVenusSolid = {
   $_icon: {
     name: "MarsAndVenus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mars","and","venus"],
   },
@@ -29971,7 +28544,6 @@ export let FaMarsDoubleSolid = {
   $_icon: {
     name: "MarsDouble",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mars","double"],
   },
@@ -29992,7 +28564,6 @@ export let FaMarsStrokeRightSolid = {
   $_icon: {
     name: "MarsStrokeRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mars","stroke","right"],
   },
@@ -30013,7 +28584,6 @@ export let FaMarsStrokeUpSolid = {
   $_icon: {
     name: "MarsStrokeUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mars","stroke","up"],
   },
@@ -30034,7 +28604,6 @@ export let FaMarsStrokeSolid = {
   $_icon: {
     name: "MarsStroke",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mars","stroke"],
   },
@@ -30055,7 +28624,6 @@ export let FaMarsSolid = {
   $_icon: {
     name: "Mars",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mars"],
   },
@@ -30076,7 +28644,6 @@ export let FaMartiniGlassCitrusSolid = {
   $_icon: {
     name: "MartiniGlassCitrus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["martini","glass","citrus"],
   },
@@ -30097,7 +28664,6 @@ export let FaMartiniGlassEmptySolid = {
   $_icon: {
     name: "MartiniGlassEmpty",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["martini","glass","empty"],
   },
@@ -30118,7 +28684,6 @@ export let FaMartiniGlassSolid = {
   $_icon: {
     name: "MartiniGlass",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["martini","glass"],
   },
@@ -30139,7 +28704,6 @@ export let FaMaskFaceSolid = {
   $_icon: {
     name: "MaskFace",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mask","face"],
   },
@@ -30160,7 +28724,6 @@ export let FaMaskVentilatorSolid = {
   $_icon: {
     name: "MaskVentilator",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mask","ventilator"],
   },
@@ -30181,7 +28744,6 @@ export let FaMaskSolid = {
   $_icon: {
     name: "Mask",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mask"],
   },
@@ -30202,7 +28764,6 @@ export let FaMasksTheaterSolid = {
   $_icon: {
     name: "MasksTheater",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["masks","theater"],
   },
@@ -30223,7 +28784,6 @@ export let FaMattressPillowSolid = {
   $_icon: {
     name: "MattressPillow",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mattress","pillow"],
   },
@@ -30244,7 +28804,6 @@ export let FaMaximizeSolid = {
   $_icon: {
     name: "Maximize",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["maximize"],
   },
@@ -30265,7 +28824,6 @@ export let FaMedalSolid = {
   $_icon: {
     name: "Medal",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["medal"],
   },
@@ -30286,7 +28844,6 @@ export let FaMemorySolid = {
   $_icon: {
     name: "Memory",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["memory"],
   },
@@ -30307,7 +28864,6 @@ export let FaMenorahSolid = {
   $_icon: {
     name: "Menorah",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["menorah"],
   },
@@ -30328,7 +28884,6 @@ export let FaMercurySolid = {
   $_icon: {
     name: "Mercury",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mercury"],
   },
@@ -30349,7 +28904,6 @@ export let FaMessageSolid = {
   $_icon: {
     name: "Message",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["message"],
   },
@@ -30370,7 +28924,6 @@ export let FaMeteorSolid = {
   $_icon: {
     name: "Meteor",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["meteor"],
   },
@@ -30391,7 +28944,6 @@ export let FaMicrochipSolid = {
   $_icon: {
     name: "Microchip",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["microchip"],
   },
@@ -30412,7 +28964,6 @@ export let FaMicrophoneLinesSlashSolid = {
   $_icon: {
     name: "MicrophoneLinesSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["microphone","lines","slash"],
   },
@@ -30433,7 +28984,6 @@ export let FaMicrophoneLinesSolid = {
   $_icon: {
     name: "MicrophoneLines",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["microphone","lines"],
   },
@@ -30454,7 +29004,6 @@ export let FaMicrophoneSlashSolid = {
   $_icon: {
     name: "MicrophoneSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["microphone","slash"],
   },
@@ -30475,7 +29024,6 @@ export let FaMicrophoneSolid = {
   $_icon: {
     name: "Microphone",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["microphone"],
   },
@@ -30496,7 +29044,6 @@ export let FaMicroscopeSolid = {
   $_icon: {
     name: "Microscope",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["microscope"],
   },
@@ -30517,7 +29064,6 @@ export let FaMillSignSolid = {
   $_icon: {
     name: "MillSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mill","sign"],
   },
@@ -30538,7 +29084,6 @@ export let FaMinimizeSolid = {
   $_icon: {
     name: "Minimize",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["minimize"],
   },
@@ -30559,7 +29104,6 @@ export let FaMinusSolid = {
   $_icon: {
     name: "Minus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["minus"],
   },
@@ -30580,7 +29124,6 @@ export let FaMittenSolid = {
   $_icon: {
     name: "Mitten",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mitten"],
   },
@@ -30601,7 +29144,6 @@ export let FaMobileButtonSolid = {
   $_icon: {
     name: "MobileButton",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mobile","button"],
   },
@@ -30622,7 +29164,6 @@ export let FaMobileRetroSolid = {
   $_icon: {
     name: "MobileRetro",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mobile","retro"],
   },
@@ -30643,7 +29184,6 @@ export let FaMobileScreenButtonSolid = {
   $_icon: {
     name: "MobileScreenButton",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mobile","screen","button"],
   },
@@ -30664,7 +29204,6 @@ export let FaMobileScreenSolid = {
   $_icon: {
     name: "MobileScreen",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mobile","screen"],
   },
@@ -30685,7 +29224,6 @@ export let FaMobileSolid = {
   $_icon: {
     name: "Mobile",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mobile"],
   },
@@ -30706,7 +29244,6 @@ export let FaMoneyBill1WaveSolid = {
   $_icon: {
     name: "MoneyBill1Wave",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["money","bill","1","wave"],
   },
@@ -30727,7 +29264,6 @@ export let FaMoneyBill1Solid = {
   $_icon: {
     name: "MoneyBill1",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["money","bill","1"],
   },
@@ -30748,7 +29284,6 @@ export let FaMoneyBillTransferSolid = {
   $_icon: {
     name: "MoneyBillTransfer",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["money","bill","transfer"],
   },
@@ -30769,7 +29304,6 @@ export let FaMoneyBillTrendUpSolid = {
   $_icon: {
     name: "MoneyBillTrendUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["money","bill","trend","up"],
   },
@@ -30790,7 +29324,6 @@ export let FaMoneyBillWaveSolid = {
   $_icon: {
     name: "MoneyBillWave",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["money","bill","wave"],
   },
@@ -30811,7 +29344,6 @@ export let FaMoneyBillWheatSolid = {
   $_icon: {
     name: "MoneyBillWheat",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["money","bill","wheat"],
   },
@@ -30832,7 +29364,6 @@ export let FaMoneyBillSolid = {
   $_icon: {
     name: "MoneyBill",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["money","bill"],
   },
@@ -30853,7 +29384,6 @@ export let FaMoneyBillsSolid = {
   $_icon: {
     name: "MoneyBills",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["money","bills"],
   },
@@ -30874,7 +29404,6 @@ export let FaMoneyCheckDollarSolid = {
   $_icon: {
     name: "MoneyCheckDollar",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["money","check","dollar"],
   },
@@ -30895,7 +29424,6 @@ export let FaMoneyCheckSolid = {
   $_icon: {
     name: "MoneyCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["money","check"],
   },
@@ -30916,7 +29444,6 @@ export let FaMonumentSolid = {
   $_icon: {
     name: "Monument",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["monument"],
   },
@@ -30937,7 +29464,6 @@ export let FaMoonSolid = {
   $_icon: {
     name: "Moon",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["moon"],
   },
@@ -30958,7 +29484,6 @@ export let FaMortarPestleSolid = {
   $_icon: {
     name: "MortarPestle",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mortar","pestle"],
   },
@@ -30979,7 +29504,6 @@ export let FaMosqueSolid = {
   $_icon: {
     name: "Mosque",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mosque"],
   },
@@ -31000,7 +29524,6 @@ export let FaMosquitoNetSolid = {
   $_icon: {
     name: "MosquitoNet",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mosquito","net"],
   },
@@ -31021,7 +29544,6 @@ export let FaMosquitoSolid = {
   $_icon: {
     name: "Mosquito",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mosquito"],
   },
@@ -31042,7 +29564,6 @@ export let FaMotorcycleSolid = {
   $_icon: {
     name: "Motorcycle",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["motorcycle"],
   },
@@ -31063,7 +29584,6 @@ export let FaMoundSolid = {
   $_icon: {
     name: "Mound",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mound"],
   },
@@ -31084,7 +29604,6 @@ export let FaMountainCitySolid = {
   $_icon: {
     name: "MountainCity",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mountain","city"],
   },
@@ -31105,7 +29624,6 @@ export let FaMountainSunSolid = {
   $_icon: {
     name: "MountainSun",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mountain","sun"],
   },
@@ -31126,7 +29644,6 @@ export let FaMountainSolid = {
   $_icon: {
     name: "Mountain",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mountain"],
   },
@@ -31147,7 +29664,6 @@ export let FaMugHotSolid = {
   $_icon: {
     name: "MugHot",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mug","hot"],
   },
@@ -31168,7 +29684,6 @@ export let FaMugSaucerSolid = {
   $_icon: {
     name: "MugSaucer",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["mug","saucer"],
   },
@@ -31189,7 +29704,6 @@ export let FaMusicSolid = {
   $_icon: {
     name: "Music",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["music"],
   },
@@ -31210,7 +29724,6 @@ export let FaNSolid = {
   $_icon: {
     name: "N",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["n"],
   },
@@ -31231,7 +29744,6 @@ export let FaNairaSignSolid = {
   $_icon: {
     name: "NairaSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["naira","sign"],
   },
@@ -31252,7 +29764,6 @@ export let FaNetworkWiredSolid = {
   $_icon: {
     name: "NetworkWired",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["network","wired"],
   },
@@ -31273,7 +29784,6 @@ export let FaNeuterSolid = {
   $_icon: {
     name: "Neuter",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["neuter"],
   },
@@ -31294,7 +29804,6 @@ export let FaNewspaperSolid = {
   $_icon: {
     name: "Newspaper",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["newspaper"],
   },
@@ -31315,7 +29824,6 @@ export let FaNotEqualSolid = {
   $_icon: {
     name: "NotEqual",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["not","equal"],
   },
@@ -31336,7 +29844,6 @@ export let FaNotdefSolid = {
   $_icon: {
     name: "Notdef",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["notdef"],
   },
@@ -31357,7 +29864,6 @@ export let FaNoteStickySolid = {
   $_icon: {
     name: "NoteSticky",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["note","sticky"],
   },
@@ -31378,7 +29884,6 @@ export let FaNotesMedicalSolid = {
   $_icon: {
     name: "NotesMedical",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["notes","medical"],
   },
@@ -31399,7 +29904,6 @@ export let FaOSolid = {
   $_icon: {
     name: "O",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["o"],
   },
@@ -31420,7 +29924,6 @@ export let FaObjectGroupSolid = {
   $_icon: {
     name: "ObjectGroup",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["object","group"],
   },
@@ -31441,7 +29944,6 @@ export let FaObjectUngroupSolid = {
   $_icon: {
     name: "ObjectUngroup",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["object","ungroup"],
   },
@@ -31462,7 +29964,6 @@ export let FaOilCanSolid = {
   $_icon: {
     name: "OilCan",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["oil","can"],
   },
@@ -31483,7 +29984,6 @@ export let FaOilWellSolid = {
   $_icon: {
     name: "OilWell",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["oil","well"],
   },
@@ -31504,7 +30004,6 @@ export let FaOmSolid = {
   $_icon: {
     name: "Om",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["om"],
   },
@@ -31525,7 +30024,6 @@ export let FaOtterSolid = {
   $_icon: {
     name: "Otter",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["otter"],
   },
@@ -31546,7 +30044,6 @@ export let FaOutdentSolid = {
   $_icon: {
     name: "Outdent",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["outdent"],
   },
@@ -31567,7 +30064,6 @@ export let FaPSolid = {
   $_icon: {
     name: "P",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["p"],
   },
@@ -31588,7 +30084,6 @@ export let FaPagerSolid = {
   $_icon: {
     name: "Pager",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["pager"],
   },
@@ -31609,7 +30104,6 @@ export let FaPaintRollerSolid = {
   $_icon: {
     name: "PaintRoller",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["paint","roller"],
   },
@@ -31630,7 +30124,6 @@ export let FaPaintbrushSolid = {
   $_icon: {
     name: "Paintbrush",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["paintbrush"],
   },
@@ -31651,7 +30144,6 @@ export let FaPaletteSolid = {
   $_icon: {
     name: "Palette",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["palette"],
   },
@@ -31672,7 +30164,6 @@ export let FaPalletSolid = {
   $_icon: {
     name: "Pallet",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["pallet"],
   },
@@ -31693,7 +30184,6 @@ export let FaPanoramaSolid = {
   $_icon: {
     name: "Panorama",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["panorama"],
   },
@@ -31714,7 +30204,6 @@ export let FaPaperPlaneSolid = {
   $_icon: {
     name: "PaperPlane",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["paper","plane"],
   },
@@ -31735,7 +30224,6 @@ export let FaPaperclipSolid = {
   $_icon: {
     name: "Paperclip",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["paperclip"],
   },
@@ -31756,7 +30244,6 @@ export let FaParachuteBoxSolid = {
   $_icon: {
     name: "ParachuteBox",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["parachute","box"],
   },
@@ -31777,7 +30264,6 @@ export let FaParagraphSolid = {
   $_icon: {
     name: "Paragraph",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["paragraph"],
   },
@@ -31798,7 +30284,6 @@ export let FaPassportSolid = {
   $_icon: {
     name: "Passport",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["passport"],
   },
@@ -31819,7 +30304,6 @@ export let FaPasteSolid = {
   $_icon: {
     name: "Paste",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["paste"],
   },
@@ -31840,7 +30324,6 @@ export let FaPauseSolid = {
   $_icon: {
     name: "Pause",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["pause"],
   },
@@ -31861,7 +30344,6 @@ export let FaPawSolid = {
   $_icon: {
     name: "Paw",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["paw"],
   },
@@ -31882,7 +30364,6 @@ export let FaPeaceSolid = {
   $_icon: {
     name: "Peace",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["peace"],
   },
@@ -31903,7 +30384,6 @@ export let FaPenClipSolid = {
   $_icon: {
     name: "PenClip",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["pen","clip"],
   },
@@ -31924,7 +30404,6 @@ export let FaPenFancySolid = {
   $_icon: {
     name: "PenFancy",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["pen","fancy"],
   },
@@ -31945,7 +30424,6 @@ export let FaPenNibSolid = {
   $_icon: {
     name: "PenNib",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["pen","nib"],
   },
@@ -31966,7 +30444,6 @@ export let FaPenRulerSolid = {
   $_icon: {
     name: "PenRuler",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["pen","ruler"],
   },
@@ -31987,7 +30464,6 @@ export let FaPenToSquareSolid = {
   $_icon: {
     name: "PenToSquare",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["pen","to","square"],
   },
@@ -32008,7 +30484,6 @@ export let FaPenSolid = {
   $_icon: {
     name: "Pen",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["pen"],
   },
@@ -32029,7 +30504,6 @@ export let FaPencilSolid = {
   $_icon: {
     name: "Pencil",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["pencil"],
   },
@@ -32050,7 +30524,6 @@ export let FaPeopleArrowsSolid = {
   $_icon: {
     name: "PeopleArrows",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["people","arrows"],
   },
@@ -32071,7 +30544,6 @@ export let FaPeopleCarryBoxSolid = {
   $_icon: {
     name: "PeopleCarryBox",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["people","carry","box"],
   },
@@ -32092,7 +30564,6 @@ export let FaPeopleGroupSolid = {
   $_icon: {
     name: "PeopleGroup",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["people","group"],
   },
@@ -32113,7 +30584,6 @@ export let FaPeopleLineSolid = {
   $_icon: {
     name: "PeopleLine",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["people","line"],
   },
@@ -32134,7 +30604,6 @@ export let FaPeoplePullingSolid = {
   $_icon: {
     name: "PeoplePulling",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["people","pulling"],
   },
@@ -32155,7 +30624,6 @@ export let FaPeopleRobberySolid = {
   $_icon: {
     name: "PeopleRobbery",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["people","robbery"],
   },
@@ -32176,7 +30644,6 @@ export let FaPeopleRoofSolid = {
   $_icon: {
     name: "PeopleRoof",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["people","roof"],
   },
@@ -32197,7 +30664,6 @@ export let FaPepperHotSolid = {
   $_icon: {
     name: "PepperHot",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["pepper","hot"],
   },
@@ -32218,7 +30684,6 @@ export let FaPercentSolid = {
   $_icon: {
     name: "Percent",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["percent"],
   },
@@ -32239,7 +30704,6 @@ export let FaPersonArrowDownToLineSolid = {
   $_icon: {
     name: "PersonArrowDownToLine",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","arrow","down","to","line"],
   },
@@ -32260,7 +30724,6 @@ export let FaPersonArrowUpFromLineSolid = {
   $_icon: {
     name: "PersonArrowUpFromLine",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","arrow","up","from","line"],
   },
@@ -32281,7 +30744,6 @@ export let FaPersonBikingSolid = {
   $_icon: {
     name: "PersonBiking",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","biking"],
   },
@@ -32302,7 +30764,6 @@ export let FaPersonBoothSolid = {
   $_icon: {
     name: "PersonBooth",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","booth"],
   },
@@ -32323,7 +30784,6 @@ export let FaPersonBreastfeedingSolid = {
   $_icon: {
     name: "PersonBreastfeeding",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","breastfeeding"],
   },
@@ -32344,7 +30804,6 @@ export let FaPersonBurstSolid = {
   $_icon: {
     name: "PersonBurst",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","burst"],
   },
@@ -32365,7 +30824,6 @@ export let FaPersonCaneSolid = {
   $_icon: {
     name: "PersonCane",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","cane"],
   },
@@ -32386,7 +30844,6 @@ export let FaPersonChalkboardSolid = {
   $_icon: {
     name: "PersonChalkboard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","chalkboard"],
   },
@@ -32407,7 +30864,6 @@ export let FaPersonCircleCheckSolid = {
   $_icon: {
     name: "PersonCircleCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","circle","check"],
   },
@@ -32428,7 +30884,6 @@ export let FaPersonCircleExclamationSolid = {
   $_icon: {
     name: "PersonCircleExclamation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","circle","exclamation"],
   },
@@ -32449,7 +30904,6 @@ export let FaPersonCircleMinusSolid = {
   $_icon: {
     name: "PersonCircleMinus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","circle","minus"],
   },
@@ -32470,7 +30924,6 @@ export let FaPersonCirclePlusSolid = {
   $_icon: {
     name: "PersonCirclePlus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","circle","plus"],
   },
@@ -32491,7 +30944,6 @@ export let FaPersonCircleQuestionSolid = {
   $_icon: {
     name: "PersonCircleQuestion",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","circle","question"],
   },
@@ -32512,7 +30964,6 @@ export let FaPersonCircleXmarkSolid = {
   $_icon: {
     name: "PersonCircleXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","circle","xmark"],
   },
@@ -32533,7 +30984,6 @@ export let FaPersonDiggingSolid = {
   $_icon: {
     name: "PersonDigging",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","digging"],
   },
@@ -32554,7 +31004,6 @@ export let FaPersonDotsFromLineSolid = {
   $_icon: {
     name: "PersonDotsFromLine",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","dots","from","line"],
   },
@@ -32575,7 +31024,6 @@ export let FaPersonDressBurstSolid = {
   $_icon: {
     name: "PersonDressBurst",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","dress","burst"],
   },
@@ -32596,7 +31044,6 @@ export let FaPersonDressSolid = {
   $_icon: {
     name: "PersonDress",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","dress"],
   },
@@ -32617,7 +31064,6 @@ export let FaPersonDrowningSolid = {
   $_icon: {
     name: "PersonDrowning",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","drowning"],
   },
@@ -32638,7 +31084,6 @@ export let FaPersonFallingBurstSolid = {
   $_icon: {
     name: "PersonFallingBurst",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","falling","burst"],
   },
@@ -32659,7 +31104,6 @@ export let FaPersonFallingSolid = {
   $_icon: {
     name: "PersonFalling",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","falling"],
   },
@@ -32680,7 +31124,6 @@ export let FaPersonHalfDressSolid = {
   $_icon: {
     name: "PersonHalfDress",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","half","dress"],
   },
@@ -32701,7 +31144,6 @@ export let FaPersonHarassingSolid = {
   $_icon: {
     name: "PersonHarassing",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","harassing"],
   },
@@ -32722,7 +31164,6 @@ export let FaPersonHikingSolid = {
   $_icon: {
     name: "PersonHiking",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","hiking"],
   },
@@ -32743,7 +31184,6 @@ export let FaPersonMilitaryPointingSolid = {
   $_icon: {
     name: "PersonMilitaryPointing",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","military","pointing"],
   },
@@ -32764,7 +31204,6 @@ export let FaPersonMilitaryRifleSolid = {
   $_icon: {
     name: "PersonMilitaryRifle",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","military","rifle"],
   },
@@ -32785,7 +31224,6 @@ export let FaPersonMilitaryToPersonSolid = {
   $_icon: {
     name: "PersonMilitaryToPerson",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","military","to","person"],
   },
@@ -32806,7 +31244,6 @@ export let FaPersonPrayingSolid = {
   $_icon: {
     name: "PersonPraying",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","praying"],
   },
@@ -32827,7 +31264,6 @@ export let FaPersonPregnantSolid = {
   $_icon: {
     name: "PersonPregnant",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","pregnant"],
   },
@@ -32848,7 +31284,6 @@ export let FaPersonRaysSolid = {
   $_icon: {
     name: "PersonRays",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","rays"],
   },
@@ -32869,7 +31304,6 @@ export let FaPersonRifleSolid = {
   $_icon: {
     name: "PersonRifle",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","rifle"],
   },
@@ -32890,7 +31324,6 @@ export let FaPersonRunningSolid = {
   $_icon: {
     name: "PersonRunning",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","running"],
   },
@@ -32911,7 +31344,6 @@ export let FaPersonShelterSolid = {
   $_icon: {
     name: "PersonShelter",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","shelter"],
   },
@@ -32932,7 +31364,6 @@ export let FaPersonSkatingSolid = {
   $_icon: {
     name: "PersonSkating",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","skating"],
   },
@@ -32953,7 +31384,6 @@ export let FaPersonSkiingNordicSolid = {
   $_icon: {
     name: "PersonSkiingNordic",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","skiing","nordic"],
   },
@@ -32974,7 +31404,6 @@ export let FaPersonSkiingSolid = {
   $_icon: {
     name: "PersonSkiing",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","skiing"],
   },
@@ -32995,7 +31424,6 @@ export let FaPersonSnowboardingSolid = {
   $_icon: {
     name: "PersonSnowboarding",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","snowboarding"],
   },
@@ -33016,7 +31444,6 @@ export let FaPersonSwimmingSolid = {
   $_icon: {
     name: "PersonSwimming",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","swimming"],
   },
@@ -33037,7 +31464,6 @@ export let FaPersonThroughWindowSolid = {
   $_icon: {
     name: "PersonThroughWindow",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","through","window"],
   },
@@ -33058,7 +31484,6 @@ export let FaPersonWalkingArrowLoopLeftSolid = {
   $_icon: {
     name: "PersonWalkingArrowLoopLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","walking","arrow","loop","left"],
   },
@@ -33079,7 +31504,6 @@ export let FaPersonWalkingArrowRightSolid = {
   $_icon: {
     name: "PersonWalkingArrowRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","walking","arrow","right"],
   },
@@ -33100,7 +31524,6 @@ export let FaPersonWalkingDashedLineArrowRightSolid = {
   $_icon: {
     name: "PersonWalkingDashedLineArrowRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","walking","dashed","line","arrow","right"],
   },
@@ -33121,7 +31544,6 @@ export let FaPersonWalkingLuggageSolid = {
   $_icon: {
     name: "PersonWalkingLuggage",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","walking","luggage"],
   },
@@ -33142,7 +31564,6 @@ export let FaPersonWalkingWithCaneSolid = {
   $_icon: {
     name: "PersonWalkingWithCane",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","walking","with","cane"],
   },
@@ -33163,7 +31584,6 @@ export let FaPersonWalkingSolid = {
   $_icon: {
     name: "PersonWalking",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person","walking"],
   },
@@ -33184,7 +31604,6 @@ export let FaPersonSolid = {
   $_icon: {
     name: "Person",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["person"],
   },
@@ -33205,7 +31624,6 @@ export let FaPesetaSignSolid = {
   $_icon: {
     name: "PesetaSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["peseta","sign"],
   },
@@ -33226,7 +31644,6 @@ export let FaPesoSignSolid = {
   $_icon: {
     name: "PesoSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["peso","sign"],
   },
@@ -33247,7 +31664,6 @@ export let FaPhoneFlipSolid = {
   $_icon: {
     name: "PhoneFlip",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["phone","flip"],
   },
@@ -33268,7 +31684,6 @@ export let FaPhoneSlashSolid = {
   $_icon: {
     name: "PhoneSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["phone","slash"],
   },
@@ -33289,7 +31704,6 @@ export let FaPhoneVolumeSolid = {
   $_icon: {
     name: "PhoneVolume",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["phone","volume"],
   },
@@ -33310,7 +31724,6 @@ export let FaPhoneSolid = {
   $_icon: {
     name: "Phone",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["phone"],
   },
@@ -33331,7 +31744,6 @@ export let FaPhotoFilmSolid = {
   $_icon: {
     name: "PhotoFilm",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["photo","film"],
   },
@@ -33352,7 +31764,6 @@ export let FaPiggyBankSolid = {
   $_icon: {
     name: "PiggyBank",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["piggy","bank"],
   },
@@ -33373,7 +31784,6 @@ export let FaPillsSolid = {
   $_icon: {
     name: "Pills",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["pills"],
   },
@@ -33394,7 +31804,6 @@ export let FaPizzaSliceSolid = {
   $_icon: {
     name: "PizzaSlice",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["pizza","slice"],
   },
@@ -33415,7 +31824,6 @@ export let FaPlaceOfWorshipSolid = {
   $_icon: {
     name: "PlaceOfWorship",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["place","of","worship"],
   },
@@ -33436,7 +31844,6 @@ export let FaPlaneArrivalSolid = {
   $_icon: {
     name: "PlaneArrival",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["plane","arrival"],
   },
@@ -33457,7 +31864,6 @@ export let FaPlaneCircleCheckSolid = {
   $_icon: {
     name: "PlaneCircleCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["plane","circle","check"],
   },
@@ -33478,7 +31884,6 @@ export let FaPlaneCircleExclamationSolid = {
   $_icon: {
     name: "PlaneCircleExclamation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["plane","circle","exclamation"],
   },
@@ -33499,7 +31904,6 @@ export let FaPlaneCircleXmarkSolid = {
   $_icon: {
     name: "PlaneCircleXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["plane","circle","xmark"],
   },
@@ -33520,7 +31924,6 @@ export let FaPlaneDepartureSolid = {
   $_icon: {
     name: "PlaneDeparture",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["plane","departure"],
   },
@@ -33541,7 +31944,6 @@ export let FaPlaneLockSolid = {
   $_icon: {
     name: "PlaneLock",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["plane","lock"],
   },
@@ -33562,7 +31964,6 @@ export let FaPlaneSlashSolid = {
   $_icon: {
     name: "PlaneSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["plane","slash"],
   },
@@ -33583,7 +31984,6 @@ export let FaPlaneUpSolid = {
   $_icon: {
     name: "PlaneUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["plane","up"],
   },
@@ -33604,7 +32004,6 @@ export let FaPlaneSolid = {
   $_icon: {
     name: "Plane",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["plane"],
   },
@@ -33625,7 +32024,6 @@ export let FaPlantWiltSolid = {
   $_icon: {
     name: "PlantWilt",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["plant","wilt"],
   },
@@ -33646,7 +32044,6 @@ export let FaPlateWheatSolid = {
   $_icon: {
     name: "PlateWheat",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["plate","wheat"],
   },
@@ -33667,7 +32064,6 @@ export let FaPlaySolid = {
   $_icon: {
     name: "Play",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["play"],
   },
@@ -33688,7 +32084,6 @@ export let FaPlugCircleBoltSolid = {
   $_icon: {
     name: "PlugCircleBolt",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["plug","circle","bolt"],
   },
@@ -33709,7 +32104,6 @@ export let FaPlugCircleCheckSolid = {
   $_icon: {
     name: "PlugCircleCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["plug","circle","check"],
   },
@@ -33730,7 +32124,6 @@ export let FaPlugCircleExclamationSolid = {
   $_icon: {
     name: "PlugCircleExclamation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["plug","circle","exclamation"],
   },
@@ -33751,7 +32144,6 @@ export let FaPlugCircleMinusSolid = {
   $_icon: {
     name: "PlugCircleMinus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["plug","circle","minus"],
   },
@@ -33772,7 +32164,6 @@ export let FaPlugCirclePlusSolid = {
   $_icon: {
     name: "PlugCirclePlus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["plug","circle","plus"],
   },
@@ -33793,7 +32184,6 @@ export let FaPlugCircleXmarkSolid = {
   $_icon: {
     name: "PlugCircleXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["plug","circle","xmark"],
   },
@@ -33814,7 +32204,6 @@ export let FaPlugSolid = {
   $_icon: {
     name: "Plug",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["plug"],
   },
@@ -33835,7 +32224,6 @@ export let FaPlusMinusSolid = {
   $_icon: {
     name: "PlusMinus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["plus","minus"],
   },
@@ -33856,7 +32244,6 @@ export let FaPlusSolid = {
   $_icon: {
     name: "Plus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["plus"],
   },
@@ -33877,7 +32264,6 @@ export let FaPodcastSolid = {
   $_icon: {
     name: "Podcast",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["podcast"],
   },
@@ -33898,7 +32284,6 @@ export let FaPooStormSolid = {
   $_icon: {
     name: "PooStorm",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["poo","storm"],
   },
@@ -33919,7 +32304,6 @@ export let FaPooSolid = {
   $_icon: {
     name: "Poo",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["poo"],
   },
@@ -33940,7 +32324,6 @@ export let FaPoopSolid = {
   $_icon: {
     name: "Poop",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["poop"],
   },
@@ -33961,7 +32344,6 @@ export let FaPowerOffSolid = {
   $_icon: {
     name: "PowerOff",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["power","off"],
   },
@@ -33982,7 +32364,6 @@ export let FaPrescriptionBottleMedicalSolid = {
   $_icon: {
     name: "PrescriptionBottleMedical",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["prescription","bottle","medical"],
   },
@@ -34003,7 +32384,6 @@ export let FaPrescriptionBottleSolid = {
   $_icon: {
     name: "PrescriptionBottle",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["prescription","bottle"],
   },
@@ -34024,7 +32404,6 @@ export let FaPrescriptionSolid = {
   $_icon: {
     name: "Prescription",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["prescription"],
   },
@@ -34045,7 +32424,6 @@ export let FaPrintSolid = {
   $_icon: {
     name: "Print",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["print"],
   },
@@ -34066,7 +32444,6 @@ export let FaPumpMedicalSolid = {
   $_icon: {
     name: "PumpMedical",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["pump","medical"],
   },
@@ -34087,7 +32464,6 @@ export let FaPumpSoapSolid = {
   $_icon: {
     name: "PumpSoap",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["pump","soap"],
   },
@@ -34108,7 +32484,6 @@ export let FaPuzzlePieceSolid = {
   $_icon: {
     name: "PuzzlePiece",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["puzzle","piece"],
   },
@@ -34129,7 +32504,6 @@ export let FaQSolid = {
   $_icon: {
     name: "Q",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["q"],
   },
@@ -34150,7 +32524,6 @@ export let FaQrcodeSolid = {
   $_icon: {
     name: "Qrcode",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["qrcode"],
   },
@@ -34171,7 +32544,6 @@ export let FaQuestionSolid = {
   $_icon: {
     name: "Question",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["question"],
   },
@@ -34192,7 +32564,6 @@ export let FaQuoteLeftSolid = {
   $_icon: {
     name: "QuoteLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["quote","left"],
   },
@@ -34213,7 +32584,6 @@ export let FaQuoteRightSolid = {
   $_icon: {
     name: "QuoteRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["quote","right"],
   },
@@ -34234,7 +32604,6 @@ export let FaRSolid = {
   $_icon: {
     name: "R",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["r"],
   },
@@ -34255,7 +32624,6 @@ export let FaRadiationSolid = {
   $_icon: {
     name: "Radiation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["radiation"],
   },
@@ -34276,7 +32644,6 @@ export let FaRadioSolid = {
   $_icon: {
     name: "Radio",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["radio"],
   },
@@ -34297,7 +32664,6 @@ export let FaRainbowSolid = {
   $_icon: {
     name: "Rainbow",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["rainbow"],
   },
@@ -34318,7 +32684,6 @@ export let FaRankingStarSolid = {
   $_icon: {
     name: "RankingStar",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ranking","star"],
   },
@@ -34339,7 +32704,6 @@ export let FaReceiptSolid = {
   $_icon: {
     name: "Receipt",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["receipt"],
   },
@@ -34360,7 +32724,6 @@ export let FaRecordVinylSolid = {
   $_icon: {
     name: "RecordVinyl",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["record","vinyl"],
   },
@@ -34381,7 +32744,6 @@ export let FaRectangleAdSolid = {
   $_icon: {
     name: "RectangleAd",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["rectangle","ad"],
   },
@@ -34402,7 +32764,6 @@ export let FaRectangleListSolid = {
   $_icon: {
     name: "RectangleList",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["rectangle","list"],
   },
@@ -34423,7 +32784,6 @@ export let FaRectangleXmarkSolid = {
   $_icon: {
     name: "RectangleXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["rectangle","xmark"],
   },
@@ -34444,7 +32804,6 @@ export let FaRecycleSolid = {
   $_icon: {
     name: "Recycle",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["recycle"],
   },
@@ -34465,7 +32824,6 @@ export let FaRegisteredSolid = {
   $_icon: {
     name: "Registered",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["registered"],
   },
@@ -34486,7 +32844,6 @@ export let FaRepeatSolid = {
   $_icon: {
     name: "Repeat",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["repeat"],
   },
@@ -34507,7 +32864,6 @@ export let FaReplyAllSolid = {
   $_icon: {
     name: "ReplyAll",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["reply","all"],
   },
@@ -34528,7 +32884,6 @@ export let FaReplySolid = {
   $_icon: {
     name: "Reply",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["reply"],
   },
@@ -34549,7 +32904,6 @@ export let FaRepublicanSolid = {
   $_icon: {
     name: "Republican",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["republican"],
   },
@@ -34570,7 +32924,6 @@ export let FaRestroomSolid = {
   $_icon: {
     name: "Restroom",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["restroom"],
   },
@@ -34591,7 +32944,6 @@ export let FaRetweetSolid = {
   $_icon: {
     name: "Retweet",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["retweet"],
   },
@@ -34612,7 +32964,6 @@ export let FaRibbonSolid = {
   $_icon: {
     name: "Ribbon",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ribbon"],
   },
@@ -34633,7 +32984,6 @@ export let FaRightFromBracketSolid = {
   $_icon: {
     name: "RightFromBracket",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["right","from","bracket"],
   },
@@ -34654,7 +33004,6 @@ export let FaRightLeftSolid = {
   $_icon: {
     name: "RightLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["right","left"],
   },
@@ -34675,7 +33024,6 @@ export let FaRightLongSolid = {
   $_icon: {
     name: "RightLong",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["right","long"],
   },
@@ -34696,7 +33044,6 @@ export let FaRightToBracketSolid = {
   $_icon: {
     name: "RightToBracket",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["right","to","bracket"],
   },
@@ -34717,7 +33064,6 @@ export let FaRingSolid = {
   $_icon: {
     name: "Ring",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ring"],
   },
@@ -34738,7 +33084,6 @@ export let FaRoadBarrierSolid = {
   $_icon: {
     name: "RoadBarrier",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["road","barrier"],
   },
@@ -34759,7 +33104,6 @@ export let FaRoadBridgeSolid = {
   $_icon: {
     name: "RoadBridge",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["road","bridge"],
   },
@@ -34780,7 +33124,6 @@ export let FaRoadCircleCheckSolid = {
   $_icon: {
     name: "RoadCircleCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["road","circle","check"],
   },
@@ -34801,7 +33144,6 @@ export let FaRoadCircleExclamationSolid = {
   $_icon: {
     name: "RoadCircleExclamation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["road","circle","exclamation"],
   },
@@ -34822,7 +33164,6 @@ export let FaRoadCircleXmarkSolid = {
   $_icon: {
     name: "RoadCircleXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["road","circle","xmark"],
   },
@@ -34843,7 +33184,6 @@ export let FaRoadLockSolid = {
   $_icon: {
     name: "RoadLock",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["road","lock"],
   },
@@ -34864,7 +33204,6 @@ export let FaRoadSpikesSolid = {
   $_icon: {
     name: "RoadSpikes",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["road","spikes"],
   },
@@ -34885,7 +33224,6 @@ export let FaRoadSolid = {
   $_icon: {
     name: "Road",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["road"],
   },
@@ -34906,7 +33244,6 @@ export let FaRobotSolid = {
   $_icon: {
     name: "Robot",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["robot"],
   },
@@ -34927,7 +33264,6 @@ export let FaRocketSolid = {
   $_icon: {
     name: "Rocket",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["rocket"],
   },
@@ -34948,7 +33284,6 @@ export let FaRotateLeftSolid = {
   $_icon: {
     name: "RotateLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["rotate","left"],
   },
@@ -34969,7 +33304,6 @@ export let FaRotateRightSolid = {
   $_icon: {
     name: "RotateRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["rotate","right"],
   },
@@ -34990,7 +33324,6 @@ export let FaRotateSolid = {
   $_icon: {
     name: "Rotate",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["rotate"],
   },
@@ -35011,7 +33344,6 @@ export let FaRouteSolid = {
   $_icon: {
     name: "Route",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["route"],
   },
@@ -35032,7 +33364,6 @@ export let FaRssSolid = {
   $_icon: {
     name: "Rss",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["rss"],
   },
@@ -35053,7 +33384,6 @@ export let FaRubleSignSolid = {
   $_icon: {
     name: "RubleSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ruble","sign"],
   },
@@ -35074,7 +33404,6 @@ export let FaRugSolid = {
   $_icon: {
     name: "Rug",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["rug"],
   },
@@ -35095,7 +33424,6 @@ export let FaRulerCombinedSolid = {
   $_icon: {
     name: "RulerCombined",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ruler","combined"],
   },
@@ -35116,7 +33444,6 @@ export let FaRulerHorizontalSolid = {
   $_icon: {
     name: "RulerHorizontal",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ruler","horizontal"],
   },
@@ -35137,7 +33464,6 @@ export let FaRulerVerticalSolid = {
   $_icon: {
     name: "RulerVertical",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ruler","vertical"],
   },
@@ -35158,7 +33484,6 @@ export let FaRulerSolid = {
   $_icon: {
     name: "Ruler",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ruler"],
   },
@@ -35179,7 +33504,6 @@ export let FaRupeeSignSolid = {
   $_icon: {
     name: "RupeeSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["rupee","sign"],
   },
@@ -35200,7 +33524,6 @@ export let FaRupiahSignSolid = {
   $_icon: {
     name: "RupiahSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["rupiah","sign"],
   },
@@ -35221,7 +33544,6 @@ export let FaSSolid = {
   $_icon: {
     name: "S",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["s"],
   },
@@ -35242,7 +33564,6 @@ export let FaSackDollarSolid = {
   $_icon: {
     name: "SackDollar",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["sack","dollar"],
   },
@@ -35263,7 +33584,6 @@ export let FaSackXmarkSolid = {
   $_icon: {
     name: "SackXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["sack","xmark"],
   },
@@ -35284,7 +33604,6 @@ export let FaSailboatSolid = {
   $_icon: {
     name: "Sailboat",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["sailboat"],
   },
@@ -35305,7 +33624,6 @@ export let FaSatelliteDishSolid = {
   $_icon: {
     name: "SatelliteDish",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["satellite","dish"],
   },
@@ -35326,7 +33644,6 @@ export let FaSatelliteSolid = {
   $_icon: {
     name: "Satellite",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["satellite"],
   },
@@ -35347,7 +33664,6 @@ export let FaScaleBalancedSolid = {
   $_icon: {
     name: "ScaleBalanced",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["scale","balanced"],
   },
@@ -35368,7 +33684,6 @@ export let FaScaleUnbalancedFlipSolid = {
   $_icon: {
     name: "ScaleUnbalancedFlip",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["scale","unbalanced","flip"],
   },
@@ -35389,7 +33704,6 @@ export let FaScaleUnbalancedSolid = {
   $_icon: {
     name: "ScaleUnbalanced",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["scale","unbalanced"],
   },
@@ -35410,7 +33724,6 @@ export let FaSchoolCircleCheckSolid = {
   $_icon: {
     name: "SchoolCircleCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["school","circle","check"],
   },
@@ -35431,7 +33744,6 @@ export let FaSchoolCircleExclamationSolid = {
   $_icon: {
     name: "SchoolCircleExclamation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["school","circle","exclamation"],
   },
@@ -35452,7 +33764,6 @@ export let FaSchoolCircleXmarkSolid = {
   $_icon: {
     name: "SchoolCircleXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["school","circle","xmark"],
   },
@@ -35473,7 +33784,6 @@ export let FaSchoolFlagSolid = {
   $_icon: {
     name: "SchoolFlag",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["school","flag"],
   },
@@ -35494,7 +33804,6 @@ export let FaSchoolLockSolid = {
   $_icon: {
     name: "SchoolLock",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["school","lock"],
   },
@@ -35515,7 +33824,6 @@ export let FaSchoolSolid = {
   $_icon: {
     name: "School",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["school"],
   },
@@ -35536,7 +33844,6 @@ export let FaScissorsSolid = {
   $_icon: {
     name: "Scissors",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["scissors"],
   },
@@ -35557,7 +33864,6 @@ export let FaScrewdriverWrenchSolid = {
   $_icon: {
     name: "ScrewdriverWrench",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["screwdriver","wrench"],
   },
@@ -35578,7 +33884,6 @@ export let FaScrewdriverSolid = {
   $_icon: {
     name: "Screwdriver",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["screwdriver"],
   },
@@ -35599,7 +33904,6 @@ export let FaScrollTorahSolid = {
   $_icon: {
     name: "ScrollTorah",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["scroll","torah"],
   },
@@ -35620,7 +33924,6 @@ export let FaScrollSolid = {
   $_icon: {
     name: "Scroll",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["scroll"],
   },
@@ -35641,7 +33944,6 @@ export let FaSdCardSolid = {
   $_icon: {
     name: "SdCard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["sd","card"],
   },
@@ -35662,7 +33964,6 @@ export let FaSectionSolid = {
   $_icon: {
     name: "Section",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["section"],
   },
@@ -35683,7 +33984,6 @@ export let FaSeedlingSolid = {
   $_icon: {
     name: "Seedling",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["seedling"],
   },
@@ -35704,7 +34004,6 @@ export let FaServerSolid = {
   $_icon: {
     name: "Server",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["server"],
   },
@@ -35725,7 +34024,6 @@ export let FaShapesSolid = {
   $_icon: {
     name: "Shapes",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["shapes"],
   },
@@ -35746,7 +34044,6 @@ export let FaShareFromSquareSolid = {
   $_icon: {
     name: "ShareFromSquare",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["share","from","square"],
   },
@@ -35767,7 +34064,6 @@ export let FaShareNodesSolid = {
   $_icon: {
     name: "ShareNodes",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["share","nodes"],
   },
@@ -35788,7 +34084,6 @@ export let FaShareSolid = {
   $_icon: {
     name: "Share",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["share"],
   },
@@ -35809,7 +34104,6 @@ export let FaSheetPlasticSolid = {
   $_icon: {
     name: "SheetPlastic",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["sheet","plastic"],
   },
@@ -35830,7 +34124,6 @@ export let FaShekelSignSolid = {
   $_icon: {
     name: "ShekelSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["shekel","sign"],
   },
@@ -35851,7 +34144,6 @@ export let FaShieldCatSolid = {
   $_icon: {
     name: "ShieldCat",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["shield","cat"],
   },
@@ -35872,7 +34164,6 @@ export let FaShieldDogSolid = {
   $_icon: {
     name: "ShieldDog",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["shield","dog"],
   },
@@ -35893,7 +34184,6 @@ export let FaShieldHalvedSolid = {
   $_icon: {
     name: "ShieldHalved",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["shield","halved"],
   },
@@ -35914,7 +34204,6 @@ export let FaShieldHeartSolid = {
   $_icon: {
     name: "ShieldHeart",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["shield","heart"],
   },
@@ -35935,7 +34224,6 @@ export let FaShieldVirusSolid = {
   $_icon: {
     name: "ShieldVirus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["shield","virus"],
   },
@@ -35956,7 +34244,6 @@ export let FaShieldSolid = {
   $_icon: {
     name: "Shield",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["shield"],
   },
@@ -35977,7 +34264,6 @@ export let FaShipSolid = {
   $_icon: {
     name: "Ship",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ship"],
   },
@@ -35998,7 +34284,6 @@ export let FaShirtSolid = {
   $_icon: {
     name: "Shirt",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["shirt"],
   },
@@ -36019,7 +34304,6 @@ export let FaShoePrintsSolid = {
   $_icon: {
     name: "ShoePrints",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["shoe","prints"],
   },
@@ -36040,7 +34324,6 @@ export let FaShopLockSolid = {
   $_icon: {
     name: "ShopLock",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["shop","lock"],
   },
@@ -36061,7 +34344,6 @@ export let FaShopSlashSolid = {
   $_icon: {
     name: "ShopSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["shop","slash"],
   },
@@ -36082,7 +34364,6 @@ export let FaShopSolid = {
   $_icon: {
     name: "Shop",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["shop"],
   },
@@ -36103,7 +34384,6 @@ export let FaShowerSolid = {
   $_icon: {
     name: "Shower",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["shower"],
   },
@@ -36124,7 +34404,6 @@ export let FaShrimpSolid = {
   $_icon: {
     name: "Shrimp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["shrimp"],
   },
@@ -36145,7 +34424,6 @@ export let FaShuffleSolid = {
   $_icon: {
     name: "Shuffle",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["shuffle"],
   },
@@ -36166,7 +34444,6 @@ export let FaShuttleSpaceSolid = {
   $_icon: {
     name: "ShuttleSpace",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["shuttle","space"],
   },
@@ -36187,7 +34464,6 @@ export let FaSignHangingSolid = {
   $_icon: {
     name: "SignHanging",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["sign","hanging"],
   },
@@ -36208,7 +34484,6 @@ export let FaSignalSolid = {
   $_icon: {
     name: "Signal",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["signal"],
   },
@@ -36229,7 +34504,6 @@ export let FaSignatureSolid = {
   $_icon: {
     name: "Signature",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["signature"],
   },
@@ -36250,7 +34524,6 @@ export let FaSignsPostSolid = {
   $_icon: {
     name: "SignsPost",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["signs","post"],
   },
@@ -36271,7 +34544,6 @@ export let FaSimCardSolid = {
   $_icon: {
     name: "SimCard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["sim","card"],
   },
@@ -36292,7 +34564,6 @@ export let FaSinkSolid = {
   $_icon: {
     name: "Sink",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["sink"],
   },
@@ -36313,7 +34584,6 @@ export let FaSitemapSolid = {
   $_icon: {
     name: "Sitemap",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["sitemap"],
   },
@@ -36334,7 +34604,6 @@ export let FaSkullCrossbonesSolid = {
   $_icon: {
     name: "SkullCrossbones",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["skull","crossbones"],
   },
@@ -36355,7 +34624,6 @@ export let FaSkullSolid = {
   $_icon: {
     name: "Skull",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["skull"],
   },
@@ -36376,7 +34644,6 @@ export let FaSlashSolid = {
   $_icon: {
     name: "Slash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["slash"],
   },
@@ -36397,7 +34664,6 @@ export let FaSleighSolid = {
   $_icon: {
     name: "Sleigh",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["sleigh"],
   },
@@ -36418,7 +34684,6 @@ export let FaSlidersSolid = {
   $_icon: {
     name: "Sliders",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["sliders"],
   },
@@ -36439,7 +34704,6 @@ export let FaSmogSolid = {
   $_icon: {
     name: "Smog",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["smog"],
   },
@@ -36460,7 +34724,6 @@ export let FaSmokingSolid = {
   $_icon: {
     name: "Smoking",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["smoking"],
   },
@@ -36481,7 +34744,6 @@ export let FaSnowflakeSolid = {
   $_icon: {
     name: "Snowflake",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["snowflake"],
   },
@@ -36502,7 +34764,6 @@ export let FaSnowmanSolid = {
   $_icon: {
     name: "Snowman",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["snowman"],
   },
@@ -36523,7 +34784,6 @@ export let FaSnowplowSolid = {
   $_icon: {
     name: "Snowplow",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["snowplow"],
   },
@@ -36544,7 +34804,6 @@ export let FaSoapSolid = {
   $_icon: {
     name: "Soap",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["soap"],
   },
@@ -36565,7 +34824,6 @@ export let FaSocksSolid = {
   $_icon: {
     name: "Socks",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["socks"],
   },
@@ -36586,7 +34844,6 @@ export let FaSolarPanelSolid = {
   $_icon: {
     name: "SolarPanel",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["solar","panel"],
   },
@@ -36607,7 +34864,6 @@ export let FaSortDownSolid = {
   $_icon: {
     name: "SortDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["sort","down"],
   },
@@ -36628,7 +34884,6 @@ export let FaSortUpSolid = {
   $_icon: {
     name: "SortUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["sort","up"],
   },
@@ -36649,7 +34904,6 @@ export let FaSortSolid = {
   $_icon: {
     name: "Sort",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["sort"],
   },
@@ -36670,7 +34924,6 @@ export let FaSpaSolid = {
   $_icon: {
     name: "Spa",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["spa"],
   },
@@ -36691,7 +34944,6 @@ export let FaSpaghettiMonsterFlyingSolid = {
   $_icon: {
     name: "SpaghettiMonsterFlying",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["spaghetti","monster","flying"],
   },
@@ -36712,7 +34964,6 @@ export let FaSpellCheckSolid = {
   $_icon: {
     name: "SpellCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["spell","check"],
   },
@@ -36733,7 +34984,6 @@ export let FaSpiderSolid = {
   $_icon: {
     name: "Spider",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["spider"],
   },
@@ -36754,7 +35004,6 @@ export let FaSpinnerSolid = {
   $_icon: {
     name: "Spinner",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["spinner"],
   },
@@ -36775,7 +35024,6 @@ export let FaSplotchSolid = {
   $_icon: {
     name: "Splotch",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["splotch"],
   },
@@ -36796,7 +35044,6 @@ export let FaSpoonSolid = {
   $_icon: {
     name: "Spoon",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["spoon"],
   },
@@ -36817,7 +35064,6 @@ export let FaSprayCanSparklesSolid = {
   $_icon: {
     name: "SprayCanSparkles",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["spray","can","sparkles"],
   },
@@ -36838,7 +35084,6 @@ export let FaSprayCanSolid = {
   $_icon: {
     name: "SprayCan",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["spray","can"],
   },
@@ -36859,7 +35104,6 @@ export let FaSquareArrowUpRightSolid = {
   $_icon: {
     name: "SquareArrowUpRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","arrow","up","right"],
   },
@@ -36880,7 +35124,6 @@ export let FaSquareCaretDownSolid = {
   $_icon: {
     name: "SquareCaretDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","caret","down"],
   },
@@ -36901,7 +35144,6 @@ export let FaSquareCaretLeftSolid = {
   $_icon: {
     name: "SquareCaretLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","caret","left"],
   },
@@ -36922,7 +35164,6 @@ export let FaSquareCaretRightSolid = {
   $_icon: {
     name: "SquareCaretRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","caret","right"],
   },
@@ -36943,7 +35184,6 @@ export let FaSquareCaretUpSolid = {
   $_icon: {
     name: "SquareCaretUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","caret","up"],
   },
@@ -36964,7 +35204,6 @@ export let FaSquareCheckSolid = {
   $_icon: {
     name: "SquareCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","check"],
   },
@@ -36985,7 +35224,6 @@ export let FaSquareEnvelopeSolid = {
   $_icon: {
     name: "SquareEnvelope",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","envelope"],
   },
@@ -37006,7 +35244,6 @@ export let FaSquareFullSolid = {
   $_icon: {
     name: "SquareFull",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","full"],
   },
@@ -37027,7 +35264,6 @@ export let FaSquareHSolid = {
   $_icon: {
     name: "SquareH",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","h"],
   },
@@ -37048,7 +35284,6 @@ export let FaSquareMinusSolid = {
   $_icon: {
     name: "SquareMinus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","minus"],
   },
@@ -37069,7 +35304,6 @@ export let FaSquareNfiSolid = {
   $_icon: {
     name: "SquareNfi",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","nfi"],
   },
@@ -37090,7 +35324,6 @@ export let FaSquareParkingSolid = {
   $_icon: {
     name: "SquareParking",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","parking"],
   },
@@ -37111,7 +35344,6 @@ export let FaSquarePenSolid = {
   $_icon: {
     name: "SquarePen",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","pen"],
   },
@@ -37132,7 +35364,6 @@ export let FaSquarePersonConfinedSolid = {
   $_icon: {
     name: "SquarePersonConfined",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","person","confined"],
   },
@@ -37153,7 +35384,6 @@ export let FaSquarePhoneFlipSolid = {
   $_icon: {
     name: "SquarePhoneFlip",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","phone","flip"],
   },
@@ -37174,7 +35404,6 @@ export let FaSquarePhoneSolid = {
   $_icon: {
     name: "SquarePhone",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","phone"],
   },
@@ -37195,7 +35424,6 @@ export let FaSquarePlusSolid = {
   $_icon: {
     name: "SquarePlus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","plus"],
   },
@@ -37216,7 +35444,6 @@ export let FaSquarePollHorizontalSolid = {
   $_icon: {
     name: "SquarePollHorizontal",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","poll","horizontal"],
   },
@@ -37237,7 +35464,6 @@ export let FaSquarePollVerticalSolid = {
   $_icon: {
     name: "SquarePollVertical",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","poll","vertical"],
   },
@@ -37258,7 +35484,6 @@ export let FaSquareRootVariableSolid = {
   $_icon: {
     name: "SquareRootVariable",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","root","variable"],
   },
@@ -37279,7 +35504,6 @@ export let FaSquareRssSolid = {
   $_icon: {
     name: "SquareRss",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","rss"],
   },
@@ -37300,7 +35524,6 @@ export let FaSquareShareNodesSolid = {
   $_icon: {
     name: "SquareShareNodes",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","share","nodes"],
   },
@@ -37321,7 +35544,6 @@ export let FaSquareUpRightSolid = {
   $_icon: {
     name: "SquareUpRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","up","right"],
   },
@@ -37342,7 +35564,6 @@ export let FaSquareVirusSolid = {
   $_icon: {
     name: "SquareVirus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","virus"],
   },
@@ -37363,7 +35584,6 @@ export let FaSquareXmarkSolid = {
   $_icon: {
     name: "SquareXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square","xmark"],
   },
@@ -37384,7 +35604,6 @@ export let FaSquareSolid = {
   $_icon: {
     name: "Square",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["square"],
   },
@@ -37405,7 +35624,6 @@ export let FaStaffSnakeSolid = {
   $_icon: {
     name: "StaffSnake",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["staff","snake"],
   },
@@ -37426,7 +35644,6 @@ export let FaStairsSolid = {
   $_icon: {
     name: "Stairs",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["stairs"],
   },
@@ -37447,7 +35664,6 @@ export let FaStampSolid = {
   $_icon: {
     name: "Stamp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["stamp"],
   },
@@ -37468,7 +35684,6 @@ export let FaStaplerSolid = {
   $_icon: {
     name: "Stapler",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["stapler"],
   },
@@ -37489,7 +35704,6 @@ export let FaStarAndCrescentSolid = {
   $_icon: {
     name: "StarAndCrescent",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["star","and","crescent"],
   },
@@ -37510,7 +35724,6 @@ export let FaStarHalfStrokeSolid = {
   $_icon: {
     name: "StarHalfStroke",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["star","half","stroke"],
   },
@@ -37531,7 +35744,6 @@ export let FaStarHalfSolid = {
   $_icon: {
     name: "StarHalf",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["star","half"],
   },
@@ -37552,7 +35764,6 @@ export let FaStarOfDavidSolid = {
   $_icon: {
     name: "StarOfDavid",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["star","of","david"],
   },
@@ -37573,7 +35784,6 @@ export let FaStarOfLifeSolid = {
   $_icon: {
     name: "StarOfLife",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["star","of","life"],
   },
@@ -37594,7 +35804,6 @@ export let FaStarSolid = {
   $_icon: {
     name: "Star",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["star"],
   },
@@ -37615,7 +35824,6 @@ export let FaSterlingSignSolid = {
   $_icon: {
     name: "SterlingSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["sterling","sign"],
   },
@@ -37636,7 +35844,6 @@ export let FaStethoscopeSolid = {
   $_icon: {
     name: "Stethoscope",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["stethoscope"],
   },
@@ -37657,7 +35864,6 @@ export let FaStopSolid = {
   $_icon: {
     name: "Stop",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["stop"],
   },
@@ -37678,7 +35884,6 @@ export let FaStopwatch20Solid = {
   $_icon: {
     name: "Stopwatch20",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["stopwatch","20"],
   },
@@ -37699,7 +35904,6 @@ export let FaStopwatchSolid = {
   $_icon: {
     name: "Stopwatch",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["stopwatch"],
   },
@@ -37720,7 +35924,6 @@ export let FaStoreSlashSolid = {
   $_icon: {
     name: "StoreSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["store","slash"],
   },
@@ -37741,7 +35944,6 @@ export let FaStoreSolid = {
   $_icon: {
     name: "Store",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["store"],
   },
@@ -37762,7 +35964,6 @@ export let FaStreetViewSolid = {
   $_icon: {
     name: "StreetView",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["street","view"],
   },
@@ -37783,7 +35984,6 @@ export let FaStrikethroughSolid = {
   $_icon: {
     name: "Strikethrough",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["strikethrough"],
   },
@@ -37804,7 +36004,6 @@ export let FaStroopwafelSolid = {
   $_icon: {
     name: "Stroopwafel",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["stroopwafel"],
   },
@@ -37825,7 +36024,6 @@ export let FaSubscriptSolid = {
   $_icon: {
     name: "Subscript",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["subscript"],
   },
@@ -37846,7 +36044,6 @@ export let FaSuitcaseMedicalSolid = {
   $_icon: {
     name: "SuitcaseMedical",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["suitcase","medical"],
   },
@@ -37867,7 +36064,6 @@ export let FaSuitcaseRollingSolid = {
   $_icon: {
     name: "SuitcaseRolling",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["suitcase","rolling"],
   },
@@ -37888,7 +36084,6 @@ export let FaSuitcaseSolid = {
   $_icon: {
     name: "Suitcase",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["suitcase"],
   },
@@ -37909,7 +36104,6 @@ export let FaSunPlantWiltSolid = {
   $_icon: {
     name: "SunPlantWilt",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["sun","plant","wilt"],
   },
@@ -37930,7 +36124,6 @@ export let FaSunSolid = {
   $_icon: {
     name: "Sun",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["sun"],
   },
@@ -37951,7 +36144,6 @@ export let FaSuperscriptSolid = {
   $_icon: {
     name: "Superscript",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["superscript"],
   },
@@ -37972,7 +36164,6 @@ export let FaSwatchbookSolid = {
   $_icon: {
     name: "Swatchbook",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["swatchbook"],
   },
@@ -37993,7 +36184,6 @@ export let FaSynagogueSolid = {
   $_icon: {
     name: "Synagogue",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["synagogue"],
   },
@@ -38014,7 +36204,6 @@ export let FaSyringeSolid = {
   $_icon: {
     name: "Syringe",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["syringe"],
   },
@@ -38035,7 +36224,6 @@ export let FaTSolid = {
   $_icon: {
     name: "T",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["t"],
   },
@@ -38056,7 +36244,6 @@ export let FaTableCellsLargeSolid = {
   $_icon: {
     name: "TableCellsLarge",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["table","cells","large"],
   },
@@ -38077,7 +36264,6 @@ export let FaTableCellsSolid = {
   $_icon: {
     name: "TableCells",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["table","cells"],
   },
@@ -38098,7 +36284,6 @@ export let FaTableColumnsSolid = {
   $_icon: {
     name: "TableColumns",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["table","columns"],
   },
@@ -38119,7 +36304,6 @@ export let FaTableListSolid = {
   $_icon: {
     name: "TableList",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["table","list"],
   },
@@ -38140,7 +36324,6 @@ export let FaTableTennisPaddleBallSolid = {
   $_icon: {
     name: "TableTennisPaddleBall",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["table","tennis","paddle","ball"],
   },
@@ -38161,7 +36344,6 @@ export let FaTableSolid = {
   $_icon: {
     name: "Table",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["table"],
   },
@@ -38182,7 +36364,6 @@ export let FaTabletButtonSolid = {
   $_icon: {
     name: "TabletButton",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tablet","button"],
   },
@@ -38203,7 +36384,6 @@ export let FaTabletScreenButtonSolid = {
   $_icon: {
     name: "TabletScreenButton",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tablet","screen","button"],
   },
@@ -38224,7 +36404,6 @@ export let FaTabletSolid = {
   $_icon: {
     name: "Tablet",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tablet"],
   },
@@ -38245,7 +36424,6 @@ export let FaTabletsSolid = {
   $_icon: {
     name: "Tablets",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tablets"],
   },
@@ -38266,7 +36444,6 @@ export let FaTachographDigitalSolid = {
   $_icon: {
     name: "TachographDigital",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tachograph","digital"],
   },
@@ -38287,7 +36464,6 @@ export let FaTagSolid = {
   $_icon: {
     name: "Tag",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tag"],
   },
@@ -38308,7 +36484,6 @@ export let FaTagsSolid = {
   $_icon: {
     name: "Tags",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tags"],
   },
@@ -38329,7 +36504,6 @@ export let FaTapeSolid = {
   $_icon: {
     name: "Tape",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tape"],
   },
@@ -38350,7 +36524,6 @@ export let FaTarpDropletSolid = {
   $_icon: {
     name: "TarpDroplet",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tarp","droplet"],
   },
@@ -38371,7 +36544,6 @@ export let FaTarpSolid = {
   $_icon: {
     name: "Tarp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tarp"],
   },
@@ -38392,7 +36564,6 @@ export let FaTaxiSolid = {
   $_icon: {
     name: "Taxi",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["taxi"],
   },
@@ -38413,7 +36584,6 @@ export let FaTeethOpenSolid = {
   $_icon: {
     name: "TeethOpen",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["teeth","open"],
   },
@@ -38434,7 +36604,6 @@ export let FaTeethSolid = {
   $_icon: {
     name: "Teeth",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["teeth"],
   },
@@ -38455,7 +36624,6 @@ export let FaTemperatureArrowDownSolid = {
   $_icon: {
     name: "TemperatureArrowDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["temperature","arrow","down"],
   },
@@ -38476,7 +36644,6 @@ export let FaTemperatureArrowUpSolid = {
   $_icon: {
     name: "TemperatureArrowUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["temperature","arrow","up"],
   },
@@ -38497,7 +36664,6 @@ export let FaTemperatureEmptySolid = {
   $_icon: {
     name: "TemperatureEmpty",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["temperature","empty"],
   },
@@ -38518,7 +36684,6 @@ export let FaTemperatureFullSolid = {
   $_icon: {
     name: "TemperatureFull",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["temperature","full"],
   },
@@ -38539,7 +36704,6 @@ export let FaTemperatureHalfSolid = {
   $_icon: {
     name: "TemperatureHalf",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["temperature","half"],
   },
@@ -38560,7 +36724,6 @@ export let FaTemperatureHighSolid = {
   $_icon: {
     name: "TemperatureHigh",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["temperature","high"],
   },
@@ -38581,7 +36744,6 @@ export let FaTemperatureLowSolid = {
   $_icon: {
     name: "TemperatureLow",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["temperature","low"],
   },
@@ -38602,7 +36764,6 @@ export let FaTemperatureQuarterSolid = {
   $_icon: {
     name: "TemperatureQuarter",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["temperature","quarter"],
   },
@@ -38623,7 +36784,6 @@ export let FaTemperatureThreeQuartersSolid = {
   $_icon: {
     name: "TemperatureThreeQuarters",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["temperature","three","quarters"],
   },
@@ -38644,7 +36804,6 @@ export let FaTengeSignSolid = {
   $_icon: {
     name: "TengeSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tenge","sign"],
   },
@@ -38665,7 +36824,6 @@ export let FaTentArrowDownToLineSolid = {
   $_icon: {
     name: "TentArrowDownToLine",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tent","arrow","down","to","line"],
   },
@@ -38686,7 +36844,6 @@ export let FaTentArrowLeftRightSolid = {
   $_icon: {
     name: "TentArrowLeftRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tent","arrow","left","right"],
   },
@@ -38707,7 +36864,6 @@ export let FaTentArrowTurnLeftSolid = {
   $_icon: {
     name: "TentArrowTurnLeft",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tent","arrow","turn","left"],
   },
@@ -38728,7 +36884,6 @@ export let FaTentArrowsDownSolid = {
   $_icon: {
     name: "TentArrowsDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tent","arrows","down"],
   },
@@ -38749,7 +36904,6 @@ export let FaTentSolid = {
   $_icon: {
     name: "Tent",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tent"],
   },
@@ -38770,7 +36924,6 @@ export let FaTentsSolid = {
   $_icon: {
     name: "Tents",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tents"],
   },
@@ -38791,7 +36944,6 @@ export let FaTerminalSolid = {
   $_icon: {
     name: "Terminal",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["terminal"],
   },
@@ -38812,7 +36964,6 @@ export let FaTextHeightSolid = {
   $_icon: {
     name: "TextHeight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["text","height"],
   },
@@ -38833,7 +36984,6 @@ export let FaTextSlashSolid = {
   $_icon: {
     name: "TextSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["text","slash"],
   },
@@ -38854,7 +37004,6 @@ export let FaTextWidthSolid = {
   $_icon: {
     name: "TextWidth",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["text","width"],
   },
@@ -38875,7 +37024,6 @@ export let FaThermometerSolid = {
   $_icon: {
     name: "Thermometer",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["thermometer"],
   },
@@ -38896,7 +37044,6 @@ export let FaThumbsDownSolid = {
   $_icon: {
     name: "ThumbsDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["thumbs","down"],
   },
@@ -38917,7 +37064,6 @@ export let FaThumbsUpSolid = {
   $_icon: {
     name: "ThumbsUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["thumbs","up"],
   },
@@ -38938,7 +37084,6 @@ export let FaThumbtackSolid = {
   $_icon: {
     name: "Thumbtack",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["thumbtack"],
   },
@@ -38959,7 +37104,6 @@ export let FaTicketSimpleSolid = {
   $_icon: {
     name: "TicketSimple",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ticket","simple"],
   },
@@ -38980,7 +37124,6 @@ export let FaTicketSolid = {
   $_icon: {
     name: "Ticket",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["ticket"],
   },
@@ -39001,7 +37144,6 @@ export let FaTimelineSolid = {
   $_icon: {
     name: "Timeline",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["timeline"],
   },
@@ -39022,7 +37164,6 @@ export let FaToggleOffSolid = {
   $_icon: {
     name: "ToggleOff",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["toggle","off"],
   },
@@ -39043,7 +37184,6 @@ export let FaToggleOnSolid = {
   $_icon: {
     name: "ToggleOn",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["toggle","on"],
   },
@@ -39064,7 +37204,6 @@ export let FaToiletPaperSlashSolid = {
   $_icon: {
     name: "ToiletPaperSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["toilet","paper","slash"],
   },
@@ -39085,7 +37224,6 @@ export let FaToiletPaperSolid = {
   $_icon: {
     name: "ToiletPaper",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["toilet","paper"],
   },
@@ -39106,7 +37244,6 @@ export let FaToiletPortableSolid = {
   $_icon: {
     name: "ToiletPortable",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["toilet","portable"],
   },
@@ -39127,7 +37264,6 @@ export let FaToiletSolid = {
   $_icon: {
     name: "Toilet",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["toilet"],
   },
@@ -39148,7 +37284,6 @@ export let FaToiletsPortableSolid = {
   $_icon: {
     name: "ToiletsPortable",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["toilets","portable"],
   },
@@ -39169,7 +37304,6 @@ export let FaToolboxSolid = {
   $_icon: {
     name: "Toolbox",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["toolbox"],
   },
@@ -39190,7 +37324,6 @@ export let FaToothSolid = {
   $_icon: {
     name: "Tooth",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tooth"],
   },
@@ -39211,7 +37344,6 @@ export let FaToriiGateSolid = {
   $_icon: {
     name: "ToriiGate",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["torii","gate"],
   },
@@ -39232,7 +37364,6 @@ export let FaTornadoSolid = {
   $_icon: {
     name: "Tornado",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tornado"],
   },
@@ -39253,7 +37384,6 @@ export let FaTowerBroadcastSolid = {
   $_icon: {
     name: "TowerBroadcast",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tower","broadcast"],
   },
@@ -39274,7 +37404,6 @@ export let FaTowerCellSolid = {
   $_icon: {
     name: "TowerCell",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tower","cell"],
   },
@@ -39295,7 +37424,6 @@ export let FaTowerObservationSolid = {
   $_icon: {
     name: "TowerObservation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tower","observation"],
   },
@@ -39316,7 +37444,6 @@ export let FaTractorSolid = {
   $_icon: {
     name: "Tractor",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tractor"],
   },
@@ -39337,7 +37464,6 @@ export let FaTrademarkSolid = {
   $_icon: {
     name: "Trademark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["trademark"],
   },
@@ -39358,7 +37484,6 @@ export let FaTrafficLightSolid = {
   $_icon: {
     name: "TrafficLight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["traffic","light"],
   },
@@ -39379,7 +37504,6 @@ export let FaTrailerSolid = {
   $_icon: {
     name: "Trailer",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["trailer"],
   },
@@ -39400,7 +37524,6 @@ export let FaTrainSubwaySolid = {
   $_icon: {
     name: "TrainSubway",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["train","subway"],
   },
@@ -39421,7 +37544,6 @@ export let FaTrainTramSolid = {
   $_icon: {
     name: "TrainTram",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["train","tram"],
   },
@@ -39442,7 +37564,6 @@ export let FaTrainSolid = {
   $_icon: {
     name: "Train",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["train"],
   },
@@ -39463,7 +37584,6 @@ export let FaTransgenderSolid = {
   $_icon: {
     name: "Transgender",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["transgender"],
   },
@@ -39484,7 +37604,6 @@ export let FaTrashArrowUpSolid = {
   $_icon: {
     name: "TrashArrowUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["trash","arrow","up"],
   },
@@ -39505,7 +37624,6 @@ export let FaTrashCanArrowUpSolid = {
   $_icon: {
     name: "TrashCanArrowUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["trash","can","arrow","up"],
   },
@@ -39526,7 +37644,6 @@ export let FaTrashCanSolid = {
   $_icon: {
     name: "TrashCan",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["trash","can"],
   },
@@ -39547,7 +37664,6 @@ export let FaTrashSolid = {
   $_icon: {
     name: "Trash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["trash"],
   },
@@ -39568,7 +37684,6 @@ export let FaTreeCitySolid = {
   $_icon: {
     name: "TreeCity",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tree","city"],
   },
@@ -39589,7 +37704,6 @@ export let FaTreeSolid = {
   $_icon: {
     name: "Tree",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tree"],
   },
@@ -39610,7 +37724,6 @@ export let FaTriangleExclamationSolid = {
   $_icon: {
     name: "TriangleExclamation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["triangle","exclamation"],
   },
@@ -39631,7 +37744,6 @@ export let FaTrophySolid = {
   $_icon: {
     name: "Trophy",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["trophy"],
   },
@@ -39652,7 +37764,6 @@ export let FaTrowelBricksSolid = {
   $_icon: {
     name: "TrowelBricks",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["trowel","bricks"],
   },
@@ -39673,7 +37784,6 @@ export let FaTrowelSolid = {
   $_icon: {
     name: "Trowel",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["trowel"],
   },
@@ -39694,7 +37804,6 @@ export let FaTruckArrowRightSolid = {
   $_icon: {
     name: "TruckArrowRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["truck","arrow","right"],
   },
@@ -39715,7 +37824,6 @@ export let FaTruckDropletSolid = {
   $_icon: {
     name: "TruckDroplet",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["truck","droplet"],
   },
@@ -39736,7 +37844,6 @@ export let FaTruckFastSolid = {
   $_icon: {
     name: "TruckFast",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["truck","fast"],
   },
@@ -39757,7 +37864,6 @@ export let FaTruckFieldUnSolid = {
   $_icon: {
     name: "TruckFieldUn",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["truck","field","un"],
   },
@@ -39778,7 +37884,6 @@ export let FaTruckFieldSolid = {
   $_icon: {
     name: "TruckField",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["truck","field"],
   },
@@ -39799,7 +37904,6 @@ export let FaTruckFrontSolid = {
   $_icon: {
     name: "TruckFront",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["truck","front"],
   },
@@ -39820,7 +37924,6 @@ export let FaTruckMedicalSolid = {
   $_icon: {
     name: "TruckMedical",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["truck","medical"],
   },
@@ -39841,7 +37944,6 @@ export let FaTruckMonsterSolid = {
   $_icon: {
     name: "TruckMonster",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["truck","monster"],
   },
@@ -39862,7 +37964,6 @@ export let FaTruckMovingSolid = {
   $_icon: {
     name: "TruckMoving",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["truck","moving"],
   },
@@ -39883,7 +37984,6 @@ export let FaTruckPickupSolid = {
   $_icon: {
     name: "TruckPickup",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["truck","pickup"],
   },
@@ -39904,7 +38004,6 @@ export let FaTruckPlaneSolid = {
   $_icon: {
     name: "TruckPlane",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["truck","plane"],
   },
@@ -39925,7 +38024,6 @@ export let FaTruckRampBoxSolid = {
   $_icon: {
     name: "TruckRampBox",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["truck","ramp","box"],
   },
@@ -39946,7 +38044,6 @@ export let FaTruckSolid = {
   $_icon: {
     name: "Truck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["truck"],
   },
@@ -39967,7 +38064,6 @@ export let FaTtySolid = {
   $_icon: {
     name: "Tty",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tty"],
   },
@@ -39988,7 +38084,6 @@ export let FaTurkishLiraSignSolid = {
   $_icon: {
     name: "TurkishLiraSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["turkish","lira","sign"],
   },
@@ -40009,7 +38104,6 @@ export let FaTurnDownSolid = {
   $_icon: {
     name: "TurnDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["turn","down"],
   },
@@ -40030,7 +38124,6 @@ export let FaTurnUpSolid = {
   $_icon: {
     name: "TurnUp",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["turn","up"],
   },
@@ -40051,7 +38144,6 @@ export let FaTvSolid = {
   $_icon: {
     name: "Tv",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["tv"],
   },
@@ -40072,7 +38164,6 @@ export let FaUSolid = {
   $_icon: {
     name: "U",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["u"],
   },
@@ -40093,7 +38184,6 @@ export let FaUmbrellaBeachSolid = {
   $_icon: {
     name: "UmbrellaBeach",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["umbrella","beach"],
   },
@@ -40114,7 +38204,6 @@ export let FaUmbrellaSolid = {
   $_icon: {
     name: "Umbrella",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["umbrella"],
   },
@@ -40135,7 +38224,6 @@ export let FaUnderlineSolid = {
   $_icon: {
     name: "Underline",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["underline"],
   },
@@ -40156,7 +38244,6 @@ export let FaUniversalAccessSolid = {
   $_icon: {
     name: "UniversalAccess",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["universal","access"],
   },
@@ -40177,7 +38264,6 @@ export let FaUnlockKeyholeSolid = {
   $_icon: {
     name: "UnlockKeyhole",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["unlock","keyhole"],
   },
@@ -40198,7 +38284,6 @@ export let FaUnlockSolid = {
   $_icon: {
     name: "Unlock",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["unlock"],
   },
@@ -40219,7 +38304,6 @@ export let FaUpDownLeftRightSolid = {
   $_icon: {
     name: "UpDownLeftRight",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["up","down","left","right"],
   },
@@ -40240,7 +38324,6 @@ export let FaUpDownSolid = {
   $_icon: {
     name: "UpDown",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["up","down"],
   },
@@ -40261,7 +38344,6 @@ export let FaUpLongSolid = {
   $_icon: {
     name: "UpLong",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["up","long"],
   },
@@ -40282,7 +38364,6 @@ export let FaUpRightAndDownLeftFromCenterSolid = {
   $_icon: {
     name: "UpRightAndDownLeftFromCenter",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["up","right","and","down","left","from","center"],
   },
@@ -40303,7 +38384,6 @@ export let FaUpRightFromSquareSolid = {
   $_icon: {
     name: "UpRightFromSquare",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["up","right","from","square"],
   },
@@ -40324,7 +38404,6 @@ export let FaUploadSolid = {
   $_icon: {
     name: "Upload",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["upload"],
   },
@@ -40345,7 +38424,6 @@ export let FaUserAstronautSolid = {
   $_icon: {
     name: "UserAstronaut",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","astronaut"],
   },
@@ -40366,7 +38444,6 @@ export let FaUserCheckSolid = {
   $_icon: {
     name: "UserCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","check"],
   },
@@ -40387,7 +38464,6 @@ export let FaUserClockSolid = {
   $_icon: {
     name: "UserClock",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","clock"],
   },
@@ -40408,7 +38484,6 @@ export let FaUserDoctorSolid = {
   $_icon: {
     name: "UserDoctor",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","doctor"],
   },
@@ -40429,7 +38504,6 @@ export let FaUserGearSolid = {
   $_icon: {
     name: "UserGear",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","gear"],
   },
@@ -40450,7 +38524,6 @@ export let FaUserGraduateSolid = {
   $_icon: {
     name: "UserGraduate",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","graduate"],
   },
@@ -40471,7 +38544,6 @@ export let FaUserGroupSolid = {
   $_icon: {
     name: "UserGroup",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","group"],
   },
@@ -40492,7 +38564,6 @@ export let FaUserInjuredSolid = {
   $_icon: {
     name: "UserInjured",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","injured"],
   },
@@ -40513,7 +38584,6 @@ export let FaUserLargeSlashSolid = {
   $_icon: {
     name: "UserLargeSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","large","slash"],
   },
@@ -40534,7 +38604,6 @@ export let FaUserLargeSolid = {
   $_icon: {
     name: "UserLarge",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","large"],
   },
@@ -40555,7 +38624,6 @@ export let FaUserLockSolid = {
   $_icon: {
     name: "UserLock",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","lock"],
   },
@@ -40576,7 +38644,6 @@ export let FaUserMinusSolid = {
   $_icon: {
     name: "UserMinus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","minus"],
   },
@@ -40597,7 +38664,6 @@ export let FaUserNinjaSolid = {
   $_icon: {
     name: "UserNinja",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","ninja"],
   },
@@ -40618,7 +38684,6 @@ export let FaUserNurseSolid = {
   $_icon: {
     name: "UserNurse",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","nurse"],
   },
@@ -40639,7 +38704,6 @@ export let FaUserPenSolid = {
   $_icon: {
     name: "UserPen",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","pen"],
   },
@@ -40660,7 +38724,6 @@ export let FaUserPlusSolid = {
   $_icon: {
     name: "UserPlus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","plus"],
   },
@@ -40681,7 +38744,6 @@ export let FaUserSecretSolid = {
   $_icon: {
     name: "UserSecret",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","secret"],
   },
@@ -40702,7 +38764,6 @@ export let FaUserShieldSolid = {
   $_icon: {
     name: "UserShield",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","shield"],
   },
@@ -40723,7 +38784,6 @@ export let FaUserSlashSolid = {
   $_icon: {
     name: "UserSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","slash"],
   },
@@ -40744,7 +38804,6 @@ export let FaUserTagSolid = {
   $_icon: {
     name: "UserTag",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","tag"],
   },
@@ -40765,7 +38824,6 @@ export let FaUserTieSolid = {
   $_icon: {
     name: "UserTie",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","tie"],
   },
@@ -40786,7 +38844,6 @@ export let FaUserXmarkSolid = {
   $_icon: {
     name: "UserXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user","xmark"],
   },
@@ -40807,7 +38864,6 @@ export let FaUserSolid = {
   $_icon: {
     name: "User",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["user"],
   },
@@ -40828,7 +38884,6 @@ export let FaUsersBetweenLinesSolid = {
   $_icon: {
     name: "UsersBetweenLines",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["users","between","lines"],
   },
@@ -40849,7 +38904,6 @@ export let FaUsersGearSolid = {
   $_icon: {
     name: "UsersGear",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["users","gear"],
   },
@@ -40870,7 +38924,6 @@ export let FaUsersLineSolid = {
   $_icon: {
     name: "UsersLine",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["users","line"],
   },
@@ -40891,7 +38944,6 @@ export let FaUsersRaysSolid = {
   $_icon: {
     name: "UsersRays",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["users","rays"],
   },
@@ -40912,7 +38964,6 @@ export let FaUsersRectangleSolid = {
   $_icon: {
     name: "UsersRectangle",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["users","rectangle"],
   },
@@ -40933,7 +38984,6 @@ export let FaUsersSlashSolid = {
   $_icon: {
     name: "UsersSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["users","slash"],
   },
@@ -40954,7 +39004,6 @@ export let FaUsersViewfinderSolid = {
   $_icon: {
     name: "UsersViewfinder",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["users","viewfinder"],
   },
@@ -40975,7 +39024,6 @@ export let FaUsersSolid = {
   $_icon: {
     name: "Users",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["users"],
   },
@@ -40996,7 +39044,6 @@ export let FaUtensilsSolid = {
   $_icon: {
     name: "Utensils",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["utensils"],
   },
@@ -41017,7 +39064,6 @@ export let FaVSolid = {
   $_icon: {
     name: "V",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["v"],
   },
@@ -41038,7 +39084,6 @@ export let FaVanShuttleSolid = {
   $_icon: {
     name: "VanShuttle",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["van","shuttle"],
   },
@@ -41059,7 +39104,6 @@ export let FaVaultSolid = {
   $_icon: {
     name: "Vault",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["vault"],
   },
@@ -41080,7 +39124,6 @@ export let FaVectorSquareSolid = {
   $_icon: {
     name: "VectorSquare",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["vector","square"],
   },
@@ -41101,7 +39144,6 @@ export let FaVenusDoubleSolid = {
   $_icon: {
     name: "VenusDouble",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["venus","double"],
   },
@@ -41122,7 +39164,6 @@ export let FaVenusMarsSolid = {
   $_icon: {
     name: "VenusMars",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["venus","mars"],
   },
@@ -41143,7 +39184,6 @@ export let FaVenusSolid = {
   $_icon: {
     name: "Venus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["venus"],
   },
@@ -41164,7 +39204,6 @@ export let FaVestPatchesSolid = {
   $_icon: {
     name: "VestPatches",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["vest","patches"],
   },
@@ -41185,7 +39224,6 @@ export let FaVestSolid = {
   $_icon: {
     name: "Vest",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["vest"],
   },
@@ -41206,7 +39244,6 @@ export let FaVialCircleCheckSolid = {
   $_icon: {
     name: "VialCircleCheck",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["vial","circle","check"],
   },
@@ -41227,7 +39264,6 @@ export let FaVialVirusSolid = {
   $_icon: {
     name: "VialVirus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["vial","virus"],
   },
@@ -41248,7 +39284,6 @@ export let FaVialSolid = {
   $_icon: {
     name: "Vial",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["vial"],
   },
@@ -41269,7 +39304,6 @@ export let FaVialsSolid = {
   $_icon: {
     name: "Vials",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["vials"],
   },
@@ -41290,7 +39324,6 @@ export let FaVideoSlashSolid = {
   $_icon: {
     name: "VideoSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["video","slash"],
   },
@@ -41311,7 +39344,6 @@ export let FaVideoSolid = {
   $_icon: {
     name: "Video",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["video"],
   },
@@ -41332,7 +39364,6 @@ export let FaViharaSolid = {
   $_icon: {
     name: "Vihara",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["vihara"],
   },
@@ -41353,7 +39384,6 @@ export let FaVirusCovidSlashSolid = {
   $_icon: {
     name: "VirusCovidSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["virus","covid","slash"],
   },
@@ -41374,7 +39404,6 @@ export let FaVirusCovidSolid = {
   $_icon: {
     name: "VirusCovid",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["virus","covid"],
   },
@@ -41395,7 +39424,6 @@ export let FaVirusSlashSolid = {
   $_icon: {
     name: "VirusSlash",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["virus","slash"],
   },
@@ -41416,7 +39444,6 @@ export let FaVirusSolid = {
   $_icon: {
     name: "Virus",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["virus"],
   },
@@ -41437,7 +39464,6 @@ export let FaVirusesSolid = {
   $_icon: {
     name: "Viruses",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["viruses"],
   },
@@ -41458,7 +39484,6 @@ export let FaVoicemailSolid = {
   $_icon: {
     name: "Voicemail",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["voicemail"],
   },
@@ -41479,7 +39504,6 @@ export let FaVolcanoSolid = {
   $_icon: {
     name: "Volcano",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["volcano"],
   },
@@ -41500,7 +39524,6 @@ export let FaVolleyballSolid = {
   $_icon: {
     name: "Volleyball",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["volleyball"],
   },
@@ -41521,7 +39544,6 @@ export let FaVolumeHighSolid = {
   $_icon: {
     name: "VolumeHigh",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["volume","high"],
   },
@@ -41542,7 +39564,6 @@ export let FaVolumeLowSolid = {
   $_icon: {
     name: "VolumeLow",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["volume","low"],
   },
@@ -41563,7 +39584,6 @@ export let FaVolumeOffSolid = {
   $_icon: {
     name: "VolumeOff",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["volume","off"],
   },
@@ -41584,7 +39604,6 @@ export let FaVolumeXmarkSolid = {
   $_icon: {
     name: "VolumeXmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["volume","xmark"],
   },
@@ -41605,7 +39624,6 @@ export let FaVrCardboardSolid = {
   $_icon: {
     name: "VrCardboard",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["vr","cardboard"],
   },
@@ -41626,7 +39644,6 @@ export let FaWSolid = {
   $_icon: {
     name: "W",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["w"],
   },
@@ -41647,7 +39664,6 @@ export let FaWalkieTalkieSolid = {
   $_icon: {
     name: "WalkieTalkie",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["walkie","talkie"],
   },
@@ -41668,7 +39684,6 @@ export let FaWalletSolid = {
   $_icon: {
     name: "Wallet",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["wallet"],
   },
@@ -41689,7 +39704,6 @@ export let FaWandMagicSparklesSolid = {
   $_icon: {
     name: "WandMagicSparkles",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["wand","magic","sparkles"],
   },
@@ -41710,7 +39724,6 @@ export let FaWandMagicSolid = {
   $_icon: {
     name: "WandMagic",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["wand","magic"],
   },
@@ -41731,7 +39744,6 @@ export let FaWandSparklesSolid = {
   $_icon: {
     name: "WandSparkles",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["wand","sparkles"],
   },
@@ -41752,7 +39764,6 @@ export let FaWarehouseSolid = {
   $_icon: {
     name: "Warehouse",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["warehouse"],
   },
@@ -41773,7 +39784,6 @@ export let FaWaterLadderSolid = {
   $_icon: {
     name: "WaterLadder",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["water","ladder"],
   },
@@ -41794,7 +39804,6 @@ export let FaWaterSolid = {
   $_icon: {
     name: "Water",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["water"],
   },
@@ -41815,7 +39824,6 @@ export let FaWaveSquareSolid = {
   $_icon: {
     name: "WaveSquare",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["wave","square"],
   },
@@ -41836,7 +39844,6 @@ export let FaWeightHangingSolid = {
   $_icon: {
     name: "WeightHanging",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["weight","hanging"],
   },
@@ -41857,7 +39864,6 @@ export let FaWeightScaleSolid = {
   $_icon: {
     name: "WeightScale",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["weight","scale"],
   },
@@ -41878,7 +39884,6 @@ export let FaWheatAwnCircleExclamationSolid = {
   $_icon: {
     name: "WheatAwnCircleExclamation",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["wheat","awn","circle","exclamation"],
   },
@@ -41899,7 +39904,6 @@ export let FaWheatAwnSolid = {
   $_icon: {
     name: "WheatAwn",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["wheat","awn"],
   },
@@ -41920,7 +39924,6 @@ export let FaWheelchairMoveSolid = {
   $_icon: {
     name: "WheelchairMove",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["wheelchair","move"],
   },
@@ -41941,7 +39944,6 @@ export let FaWheelchairSolid = {
   $_icon: {
     name: "Wheelchair",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["wheelchair"],
   },
@@ -41962,7 +39964,6 @@ export let FaWhiskeyGlassSolid = {
   $_icon: {
     name: "WhiskeyGlass",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["whiskey","glass"],
   },
@@ -41983,7 +39984,6 @@ export let FaWifiSolid = {
   $_icon: {
     name: "Wifi",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["wifi"],
   },
@@ -42004,7 +40004,6 @@ export let FaWindSolid = {
   $_icon: {
     name: "Wind",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["wind"],
   },
@@ -42025,7 +40024,6 @@ export let FaWindowMaximizeSolid = {
   $_icon: {
     name: "WindowMaximize",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["window","maximize"],
   },
@@ -42046,7 +40044,6 @@ export let FaWindowMinimizeSolid = {
   $_icon: {
     name: "WindowMinimize",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["window","minimize"],
   },
@@ -42067,7 +40064,6 @@ export let FaWindowRestoreSolid = {
   $_icon: {
     name: "WindowRestore",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["window","restore"],
   },
@@ -42088,7 +40084,6 @@ export let FaWineBottleSolid = {
   $_icon: {
     name: "WineBottle",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["wine","bottle"],
   },
@@ -42109,7 +40104,6 @@ export let FaWineGlassEmptySolid = {
   $_icon: {
     name: "WineGlassEmpty",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["wine","glass","empty"],
   },
@@ -42130,7 +40124,6 @@ export let FaWineGlassSolid = {
   $_icon: {
     name: "WineGlass",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["wine","glass"],
   },
@@ -42151,7 +40144,6 @@ export let FaWonSignSolid = {
   $_icon: {
     name: "WonSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["won","sign"],
   },
@@ -42172,7 +40164,6 @@ export let FaWormSolid = {
   $_icon: {
     name: "Worm",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["worm"],
   },
@@ -42193,7 +40184,6 @@ export let FaWrenchSolid = {
   $_icon: {
     name: "Wrench",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["wrench"],
   },
@@ -42214,7 +40204,6 @@ export let FaXRaySolid = {
   $_icon: {
     name: "XRay",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["x","ray"],
   },
@@ -42235,7 +40224,6 @@ export let FaXSolid = {
   $_icon: {
     name: "X",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["x"],
   },
@@ -42256,7 +40244,6 @@ export let FaXmarkSolid = {
   $_icon: {
     name: "Xmark",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["xmark"],
   },
@@ -42277,7 +40264,6 @@ export let FaXmarksLinesSolid = {
   $_icon: {
     name: "XmarksLines",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["xmarks","lines"],
   },
@@ -42298,7 +40284,6 @@ export let FaYSolid = {
   $_icon: {
     name: "Y",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["y"],
   },
@@ -42319,7 +40304,6 @@ export let FaYenSignSolid = {
   $_icon: {
     name: "YenSign",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["yen","sign"],
   },
@@ -42340,7 +40324,6 @@ export let FaYinYangSolid = {
   $_icon: {
     name: "YinYang",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["yin","yang"],
   },
@@ -42361,7 +40344,6 @@ export let FaZSolid = {
   $_icon: {
     name: "Z",
     vendor: "Fa",
-    license: "CC BY 4.0",
     type: ["Solid"],
     tags: ["z"],
   },

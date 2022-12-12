@@ -46,15 +46,16 @@
             ></v-icon>
           </v-button>
         </template>
-        <v-card width="320px" style-card="menu shadow">
+        <v-card width="320px" style-card="menu shadow borderless">
           <v-dropdown-header> Selected icons... </v-dropdown-header>
           <v-dropdown-menu-item
-            tag="button"
             :disabled="!store.selectedIcons.length"
-            @click="handleRemoveAll"
+            tag="button"
+            @click="handleCopyAll"
           >
-            Remove all
+            Copy all as list
           </v-dropdown-menu-item>
+          <v-divider></v-divider>
           <v-dropdown-menu-item
             tag="button"
             :disabled="!store.selectedIcons.length"
@@ -74,12 +75,13 @@
           <!-- > -->
           <!--   Sort -->
           <!-- </v-dropdown-menu-item> -->
+          <v-divider></v-divider>
           <v-dropdown-menu-item
-            :disabled="!store.selectedIcons.length"
             tag="button"
-            @click="handleCopyAll"
+            :disabled="!store.selectedIcons.length"
+            @click="handleRemoveAll"
           >
-            Copy all as list
+            Remove all
           </v-dropdown-menu-item>
         </v-card>
       </v-dropdown>

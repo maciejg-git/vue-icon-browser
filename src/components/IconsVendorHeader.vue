@@ -10,19 +10,13 @@
   </header>
 </template>
 
-<script>
+<script setup>
+import { defineProps } from "vue";
 import { useStore } from "../composition/useStore";
 
-export default {
-  props: {
-    vendor: { type: String, default: "" },
-  },
-  setup() {
-    let store = useStore();
+let props = defineProps({
+  vendor: { type: String, default: "" },
+});
 
-    return {
-      store,
-    };
-  },
-};
+let store = useStore();
 </script>

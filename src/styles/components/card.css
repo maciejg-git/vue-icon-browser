@@ -20,7 +20,7 @@
         @apply
           shadow-md
           dark:shadow-lg
-          dark:shadow-black/30
+          dark:shadow-black/40
       }
       &--square {
         @apply
