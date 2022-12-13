@@ -12,7 +12,6 @@ export let loadIcons = (icons) => {
 
     i.selected = ref(false);
     i.getIconName = getIconName;
-    i.getUniqueIconName = getUniqueIconName;
     i.$_icon.uid = i.$_icon.vendor + i.$_icon.name + i.$_icon.type.join("")
   }
 
@@ -22,15 +21,15 @@ export let loadIcons = (icons) => {
 };
 
 export let generateTags = async (icons, vendor) => {
-  let extTags = await dbLoadVendor(vendor);
-
-  extTags = extTags.reduce((acc, i) => {
-    acc[i.icon] = i.tags;
-    return acc;
-  }, {});
+  // let extTags = await dbLoadVendor(vendor);
+  //
+  // extTags = extTags.reduce((acc, i) => {
+  //   acc[i.icon] = i.tags;
+  //   return acc;
+  // }, {});
 
   let tags = {};
-  let uniqueIconName = "";
+  // let uniqueIconName = "";
 
   for (let i of icons) {
     for (let tag of i.$_icon.tags) {
@@ -38,24 +37,16 @@ export let generateTags = async (icons, vendor) => {
       tags[tag].push(i);
     }
 
-    uniqueIconName = i.getUniqueIconName();
-
-    if (extTags[uniqueIconName]) {
-      for (let tag of extTags[uniqueIconName]) {
-        if (!tags[tag]) tags[tag] = [];
-        tags[tag].push(i);
-      }
-    }
+    // uniqueIconName = i.getUniqueIconName();
+    //
+    // if (extTags[uniqueIconName]) {
+    //   for (let tag of extTags[uniqueIconName]) {
+    //     if (!tags[tag]) tags[tag] = [];
+    //     tags[tag].push(i);
+    //   }
+    // }
   }
   return Object.entries(tags);
-};
-
-export let getUniqueIconName = function () {
-  let icon = this.$_icon;
-
-  return `${icon.vendor.toLowerCase()}-${icon.tags.join("-")}${
-    icon.type.length ? "-" : ""
-  }${icon.type.join("-")}`;
 };
 
 export let getIconName = function () {
