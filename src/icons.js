@@ -51,11 +51,8 @@ export let generateTags = async (icons, vendor) => {
 
 export let getIconName = function () {
   let vendor = store.settings.vendorPrefix ? this.$_icon.vendor : "";
-  let suffix = this.$_icon.type
-    .map((i) => {
-      return i.charAt(0).toUpperCase() + i.slice(1);
-    })
-    .join("");
+
+  let suffix = this.$_icon.type.join("");
 
   let i = `${vendor}${this.$_icon.name}${
     store.settings.originalNames ? "" : suffix

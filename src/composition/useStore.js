@@ -8,9 +8,9 @@ export const useStore = defineStore('main', {
         vendorPrefix: true,
         originalNames: false,
         kebabCase: false,
-        groupBy: false,
       },
       size: "sm",
+      groupBy: false,
       dark: true,
       bootstrap: {
         active: true,
@@ -57,6 +57,10 @@ export const useStore = defineStore('main', {
     isAnyVendorLoaded: (state) => {
       return state.bootstrap.active || state.mdi.active || state.fontawesome.active || state.heroicons.active
     },
+    B: (state) => state.bootstrap,
+    Fa: (state) => state.fontawesome,
+    H: (state) => state.heroicons,
+    Mdi: (state) => state.mdi,
   },
   actions: {
     clearSelected() {

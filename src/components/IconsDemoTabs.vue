@@ -70,16 +70,10 @@ let store = useStore();
 
 // tab name
 
-let tabNames = {
-  B: "Bootstrap",
-  Mdi: "Material Design Icons",
-  Fa: "Font Awesome",
-  H: "Heroicons",
-};
-
 let nativeTabName = computed(() => {
   let { vendor } = store.currentIconDemo.$_icon;
-  return tabNames[vendor];
+
+  return store[vendor].name;
 });
 
 // url
@@ -94,6 +88,10 @@ let getSVGurl = () => {
   let { tags, vendor, type } = store.currentIconDemo.$_icon;
 
   let file = tags.join("-") + ".svg";
+
+  type = type.map((i) => {
+    return i.toLowerCase()
+  })
 
   let url = makeUrl([urls[vendor].SVG, ...type, file]);
 
@@ -133,7 +131,8 @@ let downloadVueComponent = async () => {
   let { vendor, type, tags } = store.currentIconDemo.$_icon;
 
   let name = tags.join("-");
-  type = type.join("-");
+
+  type = type.map(i => i.toLowerCase()).join("-")
 
   let file = name + (type ? "-" + type : "") + ".js";
 
@@ -149,7 +148,8 @@ let openVueComponentGithub = () => {
   let { vendor, type, tags } = store.currentIconDemo.$_icon;
 
   let name = tags.join("-");
-  type = type.join("-");
+
+  type = type.map(i => i.toLowerCase()).join("-")
 
   let file = name + (type ? "-" + type : "") + ".js";
 
