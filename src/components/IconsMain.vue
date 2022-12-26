@@ -41,6 +41,12 @@
         <icons-main-selected />
       </div>
 
+      <div v-if="!store.isAnyVendorLoaded" class="w-10/12 mx-auto">
+        <span class="text-xl font-semibold dark:text-gray-300">
+          No icons loaded.
+        </span>
+      </div>
+
       <div v-if="store.bootstrap.active" class="w-10/12 mx-auto">
         <icons-vendor-header vendor="bootstrap" />
         <icons-vendor-bootstrap @vendor-loaded="handleVendorLoaded" />

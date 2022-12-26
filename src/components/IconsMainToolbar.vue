@@ -23,13 +23,13 @@
         <v-icon
           v-show="store.groupBy"
           name="b-grid"
-          class="h-7 w-7 mx-2 dark:text-neutral-300 opacity-30"
+          class="h-7 w-7 mx-2 dark:text-neutral-400"
           v-tooltip.bottom.oY6="'Grid layout'"
         ></v-icon>
         <v-icon
           v-show="!store.groupBy"
           name="mdi-format-align-left"
-          class="h-7 w-7 mx-2 dark:text-neutral-300 opacity-30"
+          class="h-7 w-7 mx-2 dark:text-neutral-400"
           v-tooltip.bottom.oY6="'List layout'"
         ></v-icon>
       </v-button>
@@ -41,7 +41,7 @@
           <v-button base="button-link" :ref="reference" v-on="onTrigger">
             <v-icon
               name="b-bag-check"
-              class="h-7 w-7 mx-2 dark:text-neutral-300"
+              class="h-7 w-7 mx-2 dark:text-neutral-400"
               :class="{ 'opacity-30': store.sidepanelState !== 'settings' }"
             ></v-icon>
           </v-button>
@@ -96,7 +96,7 @@
       >
         <v-icon
           name="b-gear"
-          class="h-7 w-7 mx-2 dark:text-neutral-300"
+          class="h-7 w-7 mx-2 dark:text-neutral-400"
           :class="{ 'opacity-30': store.sidepanelState !== 'settings' }"
         ></v-icon>
       </v-button>
@@ -216,3 +216,9 @@ let handleCopyAll = () => {
   copyTextToClipboard(list.join(",\n"), null);
 };
 </script>
+
+<style>
+.disabled-option {
+  @apply opacity-30
+}
+</style>
