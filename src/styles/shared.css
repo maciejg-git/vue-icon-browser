@@ -6,7 +6,7 @@ html {
 
 .disabled {
   @apply 
-    opacity-50
+    opacity-40
     pointer-events-none
 }
 

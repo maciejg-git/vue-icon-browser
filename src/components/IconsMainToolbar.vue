@@ -42,7 +42,6 @@
             <v-icon
               name="b-bag-check"
               class="h-7 w-7 mx-2 dark:text-neutral-400"
-              :class="{ 'opacity-30': store.sidepanelState !== 'settings' }"
             ></v-icon>
           </v-button>
         </template>
@@ -97,7 +96,6 @@
         <v-icon
           name="b-gear"
           class="h-7 w-7 mx-2 dark:text-neutral-400"
-          :class="{ 'opacity-30': store.sidepanelState !== 'settings' }"
         ></v-icon>
       </v-button>
     </div>
@@ -216,9 +214,3 @@ let handleCopyAll = () => {
   copyTextToClipboard(list.join(",\n"), null);
 };
 </script>
-
-<style>
-.disabled-option {
-  @apply opacity-30
-}
-</style>
