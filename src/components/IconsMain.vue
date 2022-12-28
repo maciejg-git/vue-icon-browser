@@ -1,97 +1,102 @@
 <template>
-  <v-navbar sticky class="flex items-center justify-between">
-    <span class="text-xl font-bold text-gray-700 dark:text-gray-200 ml-2">
-      Vue-icons
-    </span>
-    <div class="flex items-center px-2">
-      <v-button base="button-link" @click="store.toggleDarkMode()">
-        <transition name="fade-slow">
-          <v-icon
-            :name="store.dark ? 'b-Sun' : 'b-moon'"
-            class="h-7 w-7 text-neutral-700 dark:text-neutral-400 mx-2"
-          ></v-icon>
-        </transition>
-      </v-button>
-    </div>
-  </v-navbar>
+  <div class="min-h-screen flex flex-col">
 
-  <div class="flex justify-between items-center mt-8">
-    <!-- filter -->
-
-    <div class="flex flex-1 mx-10">
-      <icons-main-filter />
-    </div>
-
-    <!-- toolbar -->
-
-    <div class="flex mr-10">
-      <icons-main-toolbar />
-    </div>
-  </div>
-
-  <v-divider class="my-8 dark:border-neutral-700" />
-
-  <div class="flex mt-4 justify-between">
-    <!-- icons -->
-
-    <div class="w-full">
-      <!-- selected icons -->
-
-      <div class="w-10/12 mx-auto my-10" v-show="store.selectedIcons.length">
-        <icons-main-selected />
+    <v-navbar sticky class="flex items-center justify-between">
+      <span class="text-xl font-bold text-gray-700 dark:text-gray-200 ml-2">
+        Vue-icons
+      </span>
+      <div class="flex items-center px-2">
+        <v-button base="button-link" @click="store.toggleDarkMode()">
+          <transition name="fade-slow">
+            <v-icon
+              :name="store.dark ? 'b-Sun' : 'b-moon'"
+              class="h-7 w-7 text-neutral-700 dark:text-neutral-400 mx-2"
+            ></v-icon>
+          </transition>
+        </v-button>
       </div>
-
-      <div v-if="!store.isAnyVendorLoaded" class="w-10/12 mx-auto">
-        <span class="text-xl font-semibold dark:text-gray-300">
-          No icons loaded.
-        </span>
+    </v-navbar>
+    
+    <div class="flex justify-between items-center mt-8">
+      <!-- filter -->
+    
+      <div class="flex flex-1 mx-10">
+        <icons-main-filter />
       </div>
-
-      <div v-if="store.bootstrap.active" class="w-10/12 mx-auto">
-        <icons-vendor-header vendor="bootstrap" />
-        <icons-vendor-bootstrap @vendor-loaded="handleVendorLoaded" />
-      </div>
-
-      <div v-if="store.mdi.active" class="w-10/12 mx-auto">
-        <icons-vendor-header vendor="mdi" />
-        <icons-vendor-mdi @vendor-loaded="handleVendorLoaded" />
-      </div>
-
-      <div v-if="store.fontawesome.active" class="w-10/12 mx-auto">
-        <icons-vendor-header vendor="fontawesome" />
-        <icons-vendor-fontawesome @vendor-loaded="handleVendorLoaded" />
-      </div>
-
-      <div v-if="store.heroicons.active" class="w-10/12 mx-auto">
-        <icons-vendor-header vendor="heroicons" />
-        <icons-vendor-heroicons @vendor-loaded="handleVendorLoaded" />
+    
+      <!-- toolbar -->
+    
+      <div class="flex mr-10">
+        <icons-main-toolbar />
       </div>
     </div>
-
-    <!-- icons demo -->
-
-    <transition name="fade">
-      <div
-        v-if="isDemoVisible"
-        class="mx-2 relative border-l dark:border-dark-700"
-      >
-        <div class="sticky top-20">
-          <icons-demo />
+    
+    <v-divider class="my-8 dark:border-neutral-700" />
+    
+    <div class="flex justify-between">
+      <!-- icons -->
+    
+      <div class="w-full">
+        <!-- selected icons -->
+    
+        <div class="w-10/12 mx-auto my-10" v-show="store.selectedIcons.length">
+          <icons-main-selected />
+        </div>
+    
+        <div v-if="!store.isAnyVendorLoaded" class="w-10/12 mx-auto">
+          <span class="text-xl font-semibold dark:text-gray-300">
+            No icons loaded.
+          </span>
+        </div>
+    
+        <div v-if="store.bootstrap.active" class="w-10/12 mx-auto">
+          <icons-vendor-header vendor="bootstrap" />
+          <icons-vendor-bootstrap @vendor-loaded="handleVendorLoaded" />
+        </div>
+    
+        <div v-if="store.mdi.active" class="w-10/12 mx-auto">
+          <icons-vendor-header vendor="mdi" />
+          <icons-vendor-mdi @vendor-loaded="handleVendorLoaded" />
+        </div>
+    
+        <div v-if="store.fontawesome.active" class="w-10/12 mx-auto">
+          <icons-vendor-header vendor="fontawesome" />
+          <icons-vendor-fontawesome @vendor-loaded="handleVendorLoaded" />
+        </div>
+    
+        <div v-if="store.heroicons.active" class="w-10/12 mx-auto">
+          <icons-vendor-header vendor="heroicons" />
+          <icons-vendor-heroicons @vendor-loaded="handleVendorLoaded" />
         </div>
       </div>
-    </transition>
+    
+      <!-- icons demo -->
+    
+      <transition name="fade">
+        <div
+          v-if="isDemoVisible"
+          class="mx-2 relative border-l dark:border-dark-700"
+        >
+          <div class="sticky top-20">
+            <icons-demo />
+          </div>
+        </div>
+      </transition>
+    </div>
+    
+    <!-- sidepanel -->
+    
+    <v-sidepanel v-model="store.isSidepanelActive" width="420px">
+      <template #header>
+        <span class="font-semibold dark:text-gray-300">Settings</span>
+      </template>
+      <icons-settings />
+    </v-sidepanel>
+    
+    <div class="mt-auto">
+      <icons-main-footer />
+    </div>
   </div>
-
-  <!-- sidepanel -->
-
-  <v-sidepanel v-model="store.isSidepanelActive" width="420px">
-    <template #header>
-      <span class="font-semibold dark:text-gray-300">Settings</span>
-    </template>
-    <icons-settings />
-  </v-sidepanel>
-
-  <icons-main-footer />
 </template>
 
 <script setup>
