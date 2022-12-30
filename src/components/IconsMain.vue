@@ -33,17 +33,17 @@
     
     <v-divider class="my-8 dark:border-neutral-700" />
     
-    <div class="flex justify-between">
+    <div class="flex justify-between flex-1">
       <!-- icons -->
     
-      <div class="w-full">
+      <div class="w-full flex flex-col flex-1">
         <!-- selected icons -->
     
-        <div class="w-10/12 mx-auto my-10" v-show="store.selectedIcons.length">
+        <div class="w-10/12 mx-auto mt-10" v-show="store.selectedIcons.length">
           <icons-main-selected />
         </div>
     
-        <div v-if="!store.isAnyVendorLoaded" class="w-10/12 mx-auto">
+        <div v-if="!store.isAnyVendorLoaded" class="w-10/12 mx-auto my-auto">
           <span class="text-xl font-semibold dark:text-gray-300">
             No icons loaded.
           </span>

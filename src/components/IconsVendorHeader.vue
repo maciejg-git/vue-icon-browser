@@ -1,6 +1,6 @@
 <template>
   <header
-    class="text-xl flex items-center w-full my-10 mx-2 dark:text-neutral-300"
+    class="text-xl flex items-center w-full font-semibold my-10 mx-2 dark:text-neutral-300"
   >
     <v-icon
       :name="store[vendor].icon"
