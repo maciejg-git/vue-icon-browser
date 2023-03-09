@@ -74,7 +74,7 @@ pre code.hljs {
 }
 .code {
   @apply 
-  max-w-[450px]
+  max-w-full
   inline-grid 
   grid-flow-col 
   text-sm
