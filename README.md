@@ -9,8 +9,10 @@ Icon browser for:
 Features:
 - list/history of selected icons
 - list or grid view
+- filtering
 - download icons as components or SVG
-- demo of icons used in common UI components
+- download selected icons as components or SVG
+- preview icons used in common UI components
 - dark/light themes
 
 Build with: Vue 3, Pinia and Tailwind CSS
