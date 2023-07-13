@@ -12,8 +12,8 @@ Features:
 - list/history of selected icons
 - list or grid view
 - filtering
-- download icons as components or SVG
-- download selected icons as components or SVG
+- download icons as Vue components or SVG
+- download selected icons as Vue components or SVG
 - preview icons used in common UI components
 - dark/light themes
 
