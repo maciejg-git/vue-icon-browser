@@ -19,4 +19,4 @@ Features:
 
 Build with: Vue 3, Pinia and Tailwind CSS
 
-Uses icons converted to Vue components from this repo: [Vue-icons](https://github.com/maciejg-git/vue-bootstrap-icons)
+Icon source: [Vue-icons](https://github.com/maciejg-git/vue-icons)
