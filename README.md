@@ -4,7 +4,7 @@ Icon browser for:
 - Bootstrap Icons 
 - Material Design Icons
 - Font Awesome Icons 
-- Hero Icons
+- Heroicons
 
 Features:
 - list/history of selected icons
