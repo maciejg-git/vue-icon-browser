@@ -1,5 +1,7 @@
 # Vue Icon Browser
 
+[https://vue-icon-browser.netlify.app/](https://vue-icon-browser.netlify.app/)
+
 Icon browser for: 
 - Bootstrap Icons 
 - Material Design Icons
@@ -18,5 +20,3 @@ Features:
 Build with: Vue 3, Pinia and Tailwind CSS
 
 Uses icons converted to Vue components from this repo: [Vue-icons](https://github.com/maciejg-git/vue-bootstrap-icons)
-
-[https://vue-icon-browser.netlify.app/](https://vue-icon-browser.netlify.app/)
