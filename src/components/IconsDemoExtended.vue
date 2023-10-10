@@ -22,19 +22,19 @@
   </p>
 
   <div class="py-5">
-    <v-alert v-model="alertModel" style-alert="info" class="my-2">
+    <v-alert v-model="alertModel" mod-alert="variant:info" class="my-2">
       <template #icon>
         <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
       </template>
       Info alert
     </v-alert>
-    <v-alert v-model="alertModel" style-alert="warn" class="my-2">
+    <v-alert v-model="alertModel" mod-alert="variant:warn" class="my-2">
       <template #icon>
         <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
       </template>
       Warning alert
     </v-alert>
-    <v-alert v-model="alertModel" style-alert="danger" class="my-2">
+    <v-alert v-model="alertModel" mod-alert="variant:danger" class="my-2">
       <template #icon>
         <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
       </template>
@@ -58,7 +58,7 @@
   </div>
 
   <div class="py-5">
-    <v-tabs base="material">
+    <v-tabs base="materialTabs">
       <v-tab name="Item one"></v-tab>
       <v-tab>
         <template #name>
@@ -74,13 +74,13 @@
 
   <div class="flex items-center gap-6 my-6">
     <v-input
-      base="underlined"
+      base="underlinedInput"
       placeholder="Search"
       :icon="store.currentIconDemo"
     ></v-input>
 
     <v-input
-      base="round"
+      base="roundedInput"
       placeholder="Search"
       :icon="store.currentIconDemo"
     ></v-input>

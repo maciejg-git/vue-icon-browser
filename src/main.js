@@ -2,9 +2,9 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import { createPinia } from "pinia";
 
-import { componentPlugin } from "vue-component-tailwind";
-import { directives } from "vue-component-tailwind";
 import {
+  vueLitewind,
+  directives,
   vInput,
   vTabs,
   vTab,
@@ -23,16 +23,17 @@ import {
   vCloseButton,
   vBackdrop,
   vAlert,
-} from "vue-component-tailwind";
+} from "vue-litewind";
 
 import { registerIcon } from "./vue";
 import "tailwindcss/tailwind.css";
-import "./styles-form/form-reset.css";
-import "../node_modules/vue-component-tailwind/dist/style.css";
-import "./styles/icon.css";
-import "./styles/shared.css";
-import "./styles/components.css";
-import "./styles/icon.css";
+import "vue-litewind/vue-litewind.css"
+// import "./styles-form/form-reset.css";
+// import "../node_modules/vue-component-tailwind/dist/style.css";
+// import "./styles/icon.css";
+// import "./styles/shared.css";
+// import "./styles/components.css";
+// import "./styles/icon.css";
 
 import hljs from "highlight.js/lib/core";
 import javascript from "highlight.js/lib/languages/javascript";
@@ -52,7 +53,7 @@ Object.entries(icons).forEach(([path, definition]) => {
 
 app.provide("hljs", hljs);
 
-app.use(componentPlugin, {
+app.use(vueLitewind, {
   components: {
     vInput,
     vTabs,

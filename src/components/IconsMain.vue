@@ -1,11 +1,11 @@
 <template>
   <div class="flex min-h-screen flex-col">
-    <v-navbar sticky class="flex items-center justify-between">
+    <v-navbar position="sticky" class="flex items-center justify-between py-2 px-4">
       <span class="ml-2 text-xl font-bold text-gray-700 dark:text-gray-200">
-        Vue-icons
+        Vue-icon-browser
       </span>
       <div class="flex items-center px-2">
-        <v-button base="button-link" @click="store.toggleDarkMode()">
+        <v-button mod-button="preset:plain" @click="store.toggleDarkMode()">
           <transition name="fade-slow">
             <v-icon
               :name="store.dark ? 'b-Sun' : 'b-moon'"

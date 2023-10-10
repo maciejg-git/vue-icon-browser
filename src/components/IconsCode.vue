@@ -5,7 +5,7 @@
         <code ref="codeEl" :class="'language-' + language">{{ code }}</code>
       </pre>
       <div class="flex items-center">
-        <v-button base="button-link" class="px-3" @click="handleClickCopy(code)">
+        <v-button mod-button="preset:plain" class="px-3" @click="handleClickCopy(code)">
           <v-icon
             v-if="!copied"
             name="mdi-content-copy"

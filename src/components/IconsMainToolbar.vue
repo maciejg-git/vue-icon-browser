@@ -5,7 +5,7 @@
     <div class="flex items-center">
       <template v-for="b in buttons.size" :key="b.option">
         <v-button
-          base="button-link"
+          mod-button="preset:plain"
           @click="handleToolbarClick(b.option)"
           v-tooltip.bottom.oY6="b.tooltip"
         >
@@ -19,7 +19,7 @@
     </div>
 
     <div class="flex items-center border-l px-2 dark:border-neutral-700">
-      <v-button base="button-link" @click="handleToolbarClick('layout')">
+      <v-button mod-button="preset:plain" @click="handleToolbarClick('layout')">
         <v-icon
           v-show="store.groupBy"
           name="b-grid"
@@ -38,14 +38,14 @@
     <div class="flex items-center border-l px-2 dark:border-neutral-700">
       <v-dropdown auto-close-menu :offsetY="5" placement="bottom">
         <template #reference="{ reference, onTrigger }">
-          <v-button base="button-link" :ref="reference" v-on="onTrigger">
+          <v-button mod-button="preset:plain" :ref="reference" v-on="onTrigger">
             <v-icon
               name="b-bag-check"
               class="h-7 w-7 mx-2 dark:text-neutral-400"
             ></v-icon>
           </v-button>
         </template>
-        <v-card width="320px" style-card="menu shadow borderless">
+        <v-card width="320px" mod-card="border:borderless">
           <v-dropdown-header> Selected icons... </v-dropdown-header>
           <v-dropdown-menu-item
             :disabled="!store.selectedIcons.length"
@@ -88,7 +88,7 @@
 
     <div class="flex items-center border-l px-2 dark:border-neutral-700">
       <v-button
-        base="button-link"
+        mod-button="preset:plain"
         @click="handleToolbarClick('settings')"
         v-tooltip.bottom.oY6="'Settings'"
         disabled
@@ -104,14 +104,14 @@
       <template v-for="vendor in store.vendors" :key="vendor">
         <div class="flex items-center px-1 mx-0.5">
           <v-button
-            base="button-link"
+            mod-button="preset:plain"
             @click="handleToggleVendor(vendor)"
             v-tooltip.bottom.oY15="store[vendor].name"
           >
             <v-spinner
               v-if="store[vendor].loading"
               type="svg"
-              style-spinner="secondary small"
+              mod-spinner="variant:secondary size:small"
             />
             <v-icon
               v-if="!store[vendor].loading"

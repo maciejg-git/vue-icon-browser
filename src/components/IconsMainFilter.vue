@@ -5,7 +5,7 @@
       v-model="filter"
       placeholder="Start typing to filter..."
     />
-    <v-button style-button="primary-outline" class="ml-4" @click="filter = ''">
+    <v-button mod-button="variant:primaryOutline" class="ml-4" @click="filter = ''">
       Clear
     </v-button>
   </div>

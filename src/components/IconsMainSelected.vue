@@ -15,7 +15,7 @@
           >
             <v-close-button
               v-show="hoveredIcon === icon"
-              style-close-button="small light"
+              mod-close-button="size:small"
               class="absolute -top-2 -left-2 bg-neutral-600 p-0.5 rounded"
               @click="handleClickUnselect(icon)"
             ></v-close-button>

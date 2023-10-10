@@ -24,20 +24,20 @@
         <v-icon :name="store.currentIconDemo" class="h-5 w-5 mr-2"></v-icon>
         Button
       </v-button>
-      <v-button style-button="secondary">
+      <v-button mod-button="variant:secondary">
         Button
         <v-icon :name="store.currentIconDemo" class="h-5 w-5 ml-2"></v-icon>
       </v-button>
     </div>
 
     <div class="demo-section">
-      <v-button style-button="circle">
+      <v-button mod-button="special:circle">
         <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
       </v-button>
-      <v-button style-button="equal secondary">
+      <v-button mod-button="special:equal variant:secondary">
         <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
       </v-button>
-      <v-button style-button="pill danger">
+      <v-button mod-button="shape:circle variant:danger">
         <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
         Button
       </v-button>
@@ -46,7 +46,7 @@
     <!-- buttons second row -->
 
     <div class="demo-section">
-      <v-button base="plain" class="font-semibold text-lg">
+      <v-button mod-button="preset:plain" class="font-semibold text-lg">
         <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
         Button
       </v-button>
@@ -97,7 +97,7 @@
       <!-- show more button -->
 
       <v-button
-        style-button="primary-outline small"
+        mod-button="variant:primaryOutline size:small"
         @click="isExtendedDemoActive = true"
       >
         Show more

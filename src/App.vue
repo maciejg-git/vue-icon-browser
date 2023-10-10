@@ -5,8 +5,12 @@
 </template>
 
 <script setup>
+import { provide } from "vue"
 import IconsMain from "./components/IconsMain.vue";
 import { useStore } from "./composition/useStore";
+import * as styles from "./styles/components"
+
+provide("mods", styles)
 
 let store = useStore();
 store.initDarkMode();

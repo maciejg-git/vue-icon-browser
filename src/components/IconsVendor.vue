@@ -32,7 +32,7 @@
 
     <v-button
       v-if="!store.filter && !store[vendor].loadedAll"
-      style-button="primary-outline"
+      mod-button="variant:primaryOutline"
       class="ml-2"
       @click="handleClickLoadAllButton"
     >

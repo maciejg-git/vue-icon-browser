@@ -1,5 +1,5 @@
 <template>
-  <v-tabs base="rounded">
+  <v-tabs base="roundedTabs">
     <v-tab :name="nativeTabName">
       <div class="py-1">
         <icons-code
@@ -20,8 +20,7 @@
         <div class="flex gap-x-4">
           <v-button
             tag="a"
-            base="plain"
-            style-button="download"
+            mod-button="preset:download"
             @click.prevent="downloadVueComponent()"
           >
             <v-icon name="b-download" class="mr-2"></v-icon>
@@ -29,8 +28,7 @@
           </v-button>
           <v-button
             tag="a"
-            base="plain"
-            style-button="download"
+            mod-button="preset:download"
             @click.prevent="openVueComponentGithub()"
           >
             <v-icon name="b-github" class="mr-2"></v-icon>
@@ -46,8 +44,7 @@
         <div>
           <v-button
             tag="a"
-            base="plain"
-            style-button="download"
+            mod-button="preset:download"
             @click.prevent="downloadSVG()"
           >
             <v-icon name="b-download" class="mr-2"></v-icon>
