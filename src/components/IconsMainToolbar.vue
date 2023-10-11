@@ -7,7 +7,7 @@
         <v-button
           mod-button="preset:plain"
           @click="handleToolbarClick(b.option)"
-          v-tooltip.bottom.oY6="b.tooltip"
+          v-tooltip="{ text: b.tooltip, offsetY: 5 }"
         >
           <v-icon
             :name="b.icon"
@@ -24,13 +24,13 @@
           v-show="store.groupBy"
           name="b-grid"
           class="h-7 w-7 mx-2 dark:text-neutral-400"
-          v-tooltip.bottom.oY6="'Grid layout'"
+          v-tooltip="{ text: 'Grid layout', offsetY: 5 }"
         ></v-icon>
         <v-icon
           v-show="!store.groupBy"
           name="mdi-format-align-left"
           class="h-7 w-7 mx-2 dark:text-neutral-400"
-          v-tooltip.bottom.oY6="'List layout'"
+          v-tooltip="{ text: 'List layout', offsetY: 5 }"
         ></v-icon>
       </v-button>
     </div>
@@ -90,7 +90,7 @@
       <v-button
         mod-button="preset:plain"
         @click="handleToolbarClick('settings')"
-        v-tooltip.bottom.oY6="'Settings'"
+        v-tooltip="{ text: 'Settings', offsetY: 5 }"
         disabled
       >
         <v-icon
@@ -106,7 +106,7 @@
           <v-button
             mod-button="preset:plain"
             @click="handleToggleVendor(vendor)"
-            v-tooltip.bottom.oY15="store[vendor].name"
+            v-tooltip="{ text: store[vendor].name, offsetY: 5 }"
           >
             <v-spinner
               v-if="store[vendor].loading"
@@ -128,7 +128,7 @@
 
 <script setup>
 import { useStore } from "../composition/useStore";
-import { toKebab, download, copyTextToClipboard } from "../tools";
+import { download, copyTextToClipboard } from "../tools";
 import { urls } from "../const";
 
 let store = useStore();

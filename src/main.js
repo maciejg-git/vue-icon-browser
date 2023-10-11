@@ -28,12 +28,7 @@ import {
 import { registerIcon } from "./vue";
 import "tailwindcss/tailwind.css";
 import "vue-litewind/vue-litewind.css"
-// import "./styles-form/form-reset.css";
-// import "../node_modules/vue-component-tailwind/dist/style.css";
-// import "./styles/icon.css";
-// import "./styles/shared.css";
-// import "./styles/components.css";
-// import "./styles/icon.css";
+import "./styles/tooltip.css";
 
 import hljs from "highlight.js/lib/core";
 import javascript from "highlight.js/lib/languages/javascript";
