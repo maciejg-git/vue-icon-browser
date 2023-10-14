@@ -98,6 +98,7 @@ let roundedTabs = {
       transition-all
       duration-200
       mr-2
+      font-semibold
     `,
     size: {
       default: `
