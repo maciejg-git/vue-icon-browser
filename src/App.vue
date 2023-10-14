@@ -20,7 +20,9 @@ document.title = "Vue Icon Browser";
 
 <style>
 body {
-  @apply bg-white dark:bg-neutral-800;
+  @apply 
+    bg-white 
+    dark:bg-[#252525];
 }
 body::-webkit-scrollbar {
   width: 0.5em;
