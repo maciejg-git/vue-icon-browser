@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-1 items-end justify-center">
     <v-input
-      type="search"
+      type="text"
       v-model="filter"
       placeholder="Start typing to filter..."
     />
