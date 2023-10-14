@@ -53,29 +53,16 @@
           <icons-vendor-bootstrap @vendor-loaded="handleVendorLoaded" />
         </div>
 
-        <v-divider
-          v-if="store.filter.length"
-          class="mx-auto mt-10 w-10/12 dark:border-dark-700"
-        ></v-divider>
-
         <div v-if="store.mdi.active" class="mx-auto w-10/12">
           <icons-vendor-header vendor="mdi" />
           <icons-vendor-mdi @vendor-loaded="handleVendorLoaded" />
         </div>
 
-        <v-divider
-          v-if="store.filter"
-          class="mx-auto mt-10 w-10/12 dark:border-dark-700"
-        ></v-divider>
         <div v-if="store.fontawesome.active" class="mx-auto w-10/12">
           <icons-vendor-header vendor="fontawesome" />
           <icons-vendor-fontawesome @vendor-loaded="handleVendorLoaded" />
         </div>
 
-        <v-divider
-          v-if="store.filter"
-          class="mx-auto mt-10 w-10/12 dark:border-dark-700"
-        ></v-divider>
         <div v-if="store.heroicons.active" class="mx-auto w-10/12">
           <icons-vendor-header vendor="heroicons" />
           <icons-vendor-heroicons @vendor-loaded="handleVendorLoaded" />
