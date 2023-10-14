@@ -106,9 +106,9 @@
 
     <!-- usage tabs -->
 
-    <div class="mt-20">
-      <icons-demo-tabs />
-    </div>
+    <v-divider class="my-12"></v-divider>
+
+    <icons-demo-tabs />
   </div>
 
   <!-- extended demo -->
