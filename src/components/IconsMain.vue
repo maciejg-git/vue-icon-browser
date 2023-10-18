@@ -1,6 +1,9 @@
 <template>
   <div class="flex min-h-screen flex-col">
-    <v-navbar position="sticky" class="flex items-center justify-between py-2 px-4">
+    <v-navbar
+      position="sticky"
+      class="flex items-center justify-between py-2 px-4 shadow-lg"
+    >
       <span class="ml-2 text-xl font-bold text-gray-700 dark:text-gray-200">
         Vue-icon-browser
       </span>

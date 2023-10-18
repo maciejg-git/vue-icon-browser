@@ -19,7 +19,7 @@
       </ul>
     </div>
     <div class="flex flex-col items-end text-sm">
-      <div>Vue-icons, <span class="font-semibold">MIT</span></div>
+      <div>Vue-icons</div>
       <v-button
         tag="a"
         href="https://github.com/maciejg-git/vue-icons-browser"
