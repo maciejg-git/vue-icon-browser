@@ -6,15 +6,19 @@
       <ul class="text-sm">
         <li>
           Bootstrap Icons
-          <span class="font-semibold underline">v1.8.0</span>,
+          <span class="font-semibold underline">v1.11.3</span>,
           <span class="font-semibold">MIT</span>
         </li>
         <li>
           Material Design Icons, <span class="font-semibold">Apache 2.0</span>
         </li>
         <li>
-          Font Awesome <span class="font-semibold underline">v6.0.0</span>,
+          Font Awesome <span class="font-semibold underline">v6.5.2</span>,
           <span class="font-semibold">CC BY 4.0 License</span>
+        </li>
+        <li>
+          Heroicons <span class="font-semibold underline">v2.1.3</span>,
+          <span class="font-semibold">MIT</span>
         </li>
       </ul>
     </div>
