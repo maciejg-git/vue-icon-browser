@@ -49,6 +49,8 @@ body::-webkit-scrollbar-thumb {
     ring-indigo-300
     dark:bg-transparent 
     dark:border-neutral-600 
-    dark:ring-indigo-400;
+    dark:ring-indigo-400
+    bg-white 
+    dark:bg-[#252525];
 }
 </style>

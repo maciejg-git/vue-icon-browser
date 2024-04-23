@@ -18,7 +18,7 @@
           </span>
         </div>
       </template>
-      <div class="icon-tile" :data-index="index">
+      <div class="icon-tile" :class="{'hover:scale-[1.8]': store.settings.zoomOnHover}" :data-index="index">
         <component
           :is="icon"
           class="text-gray-600 dark:text-gray-400"

@@ -22,6 +22,15 @@
         >use kebab-case for icon names</label
       >
     </div>
+    <div class="flex items-center mt-2">
+      <v-checkbox
+        id="settings-zoom-on-hover"
+        v-model="store.settings.zoomOnHover"
+      ></v-checkbox>
+      <label for="settings-zoom-on-hover" class="ml-3 dark:text-gray-300"
+        >zoom icons on hover</label
+      >
+    </div>
   </div>
 </template>
 

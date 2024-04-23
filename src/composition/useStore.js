@@ -8,6 +8,7 @@ export const useStore = defineStore('main', {
         vendorPrefix: true,
         originalNames: false,
         kebabCase: false,
+        zoomOnHover: false,
       },
       size: "sm",
       groupBy: false,
