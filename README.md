@@ -13,7 +13,6 @@ Features:
 - list or grid view
 - filtering
 - download icons as Vue components or SVG
-- download selected icons as Vue components or SVG
 - preview icons used in common UI components
 - dark/light themes
 
