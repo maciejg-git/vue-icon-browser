@@ -33,7 +33,8 @@
       </div>
     </div>
 
-    <v-divider class="my-8 dark:border-neutral-700" />
+    <!-- <v-divider class="my-8 dark:border-neutral-700" /> -->
+    <div class="my-8"></div>
 
     <div class="flex flex-1 justify-between">
       <!-- icons -->
