@@ -1,8 +1,8 @@
 let navbar = {
   navbar: {
     classes: `
+      dark:bg-[#272726]
       bg-secondary-100
-      dark:bg-dark-800
       dark:border-dark-700
       border-b
     `,
