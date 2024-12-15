@@ -8,17 +8,16 @@ Vue Icon Browser is an icon browser for:
 - Font Awesome Icons 
 - Heroicons
 
-The icons comes from [Vue-icons](https://github.com/maciejg-git/vue-icons).
+The icons come from the [Vue-icons](https://github.com/maciejg-git/vue-icons) project.
 
 Browser features:
 
-- readabilty, simple UI, focus on the icons
+- simple UI, focus on the readabilty
 - limited to only four packs of the icons (constrains are good)
 - unified icons (same set of the attributes, extra vendor attributes removed, normalized naming for vendors with icon variants)
 - icon data (name, variant, vendor etc) included in the `$_icon` property
-- simplicity, icons are just Vue components
 - simple workflow with a list of recently viewed icons
-- npm packages or direct downloads for Vue components or SVG
+- direct downloads of Vue component icons or SVG
 - preview of the icon within many different contexts and UI widgets for easier initial selection
 - filtering by name
 - grid and list views
