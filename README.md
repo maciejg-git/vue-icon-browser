@@ -10,7 +10,9 @@ Vue Icon Browser is an icon browser for:
 
 The icons come from the [Vue-icons](https://github.com/maciejg-git/vue-icons) project.
 
-Browser features:
+Build with: Vue 3, Pinia, [Litewind-vue](https://github.com/maciejg-git/vue-litewind) and Tailwind CSS
+
+### Browser features
 
 - simple UI, focus on the readabilty
 - limited to only four packs of the icons (constrains are good)
@@ -20,7 +22,16 @@ Browser features:
 - direct downloads of Vue component icons or SVG
 - preview of the icon within many different contexts and UI widgets for easier initial selection
 - filtering by name
-- grid and list views
 - dark and light themes
 
-Build with: Vue 3, Pinia and Tailwind CSS
+---
+
+To do:
+
+- adding custom classes
+- remove vendor attributes from SVG
+- download SVG parsed to object
+- more settings
+- store settings in cookies
+- auto update icons
+- add backend with tags for common icons for better filtering
