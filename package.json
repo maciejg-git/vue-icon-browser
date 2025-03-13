@@ -1,6 +1,6 @@
 {
-  "name": "vue-icons",
-  "version": "0.0.0",
+  "name": "vue-icon-browser",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
