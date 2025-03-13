@@ -1,5 +1,9 @@
 # Vue Icon Browser
 
+![GitHub License](https://img.shields.io/github/license/maciejg-git/vue-icon-browser)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/maciejg-git/vue-icon-browser)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/30e6e4ff-00ec-43a3-b045-d375a9ccf3bb/deploy-status)](https://app.netlify.com/sites/vue-icon-browser/deploys)
+
 [https://vue-icon-browser.netlify.app/](https://vue-icon-browser.netlify.app/)
 
 Vue Icon Browser is an icon browser for: 
