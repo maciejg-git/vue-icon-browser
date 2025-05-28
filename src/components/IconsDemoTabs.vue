@@ -40,6 +40,20 @@
 
     <v-tab name="SVG">
       <div class="py-1">
+        <icons-code :code="normalizedSVGstring" language="xml" />
+        <div>
+          <v-button
+            tag="a"
+            mod-button="preset:download"
+            @click.prevent="downloadNormalizedSVG()"
+          >
+            <v-icon name="b-download" class="mr-2"></v-icon>
+            SVG
+          </v-button>
+        </div>
+        <div class="text-gray-600 dark:text-gray-400 my-4 font-semibold">
+          Original {{ store[store.currentIconDemo.$_icon.vendor].name }} SVG
+        </div>
         <icons-code :code="SVGstring" language="xml" />
         <div>
           <v-button
@@ -80,21 +94,26 @@ let makeUrl = (path) => path.filter(Boolean).join("/");
 // svg
 
 let SVGstring = ref("");
+let normalizedSVGstring = ref("");
 
 let getSVGurl = () => {
   let { tags, vendor, type } = store.currentIconDemo.$_icon;
-
-  let file = tags.join("-") + ".svg";
 
   type = type.map((i) => {
     return i.toLowerCase()
   })
 
+  let file = tags.join("-") + ".svg";
+  let normalizedFile = tags.join("-") + (type.length ? "-" : "") + type.join("-") + ".svg"
+
   let url = makeUrl([urls[vendor].SVG, ...type, file]);
+  let normalizedUrl = makeUrl([urls[vendor].normalizedSVG, normalizedFile]);
 
   return {
     file,
     url,
+    normalizedFile,
+    normalizedUrl,
   };
 };
 
@@ -103,17 +122,31 @@ watch(
   async (value) => {
     if (!value) return;
 
-    let { url } = getSVGurl();
+    let { url, normalizedUrl } = getSVGurl();
 
     let res = await fetch(url);
     res = await res.text();
 
     SVGstring.value = res;
+
+    res = await fetch(normalizedUrl)
+    res = await res.text()
+
+    normalizedSVGstring.value = res
   },
   { immediate: true }
 );
 
 let downloadSVG = async () => {
+  let { url, file } = getSVGurl();
+
+  let res = await fetch(url);
+  res = await res.text();
+
+  download(file, res);
+};
+
+let downloadNormalizedSVG = async () => {
   let { url, file } = getSVGurl();
 
   let res = await fetch(url);
