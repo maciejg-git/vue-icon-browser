@@ -79,6 +79,11 @@ let button = {
         hover:border-secondary-400
         hover:text-secondary-400
         focus:ring-secondary-300
+        dark:text-secondary-400
+        dark:border-secondary-400
+        dark:hover:border-secondary-300
+        dark:hover:text-secondary-300
+        dark:focus:ring-secondary-200
       `,
       warn: `
         text-text-800
@@ -171,9 +176,6 @@ let button = {
         inline-flex 
         border 
         rounded-md 
-        hover:bg-secondary-50
-        dark:border-neutral-700
-        dark:hover:bg-neutral-700
         py-2 
         px-4
         mt-2

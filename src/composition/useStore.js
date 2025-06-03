@@ -12,7 +12,7 @@ export const useStore = defineStore('main', {
       },
       size: "sm",
       groupBy: false,
-      dark: true,
+      dark: false,
       bootstrap: {
         active: true,
         loading: false,

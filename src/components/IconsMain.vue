@@ -1,5 +1,5 @@
 <template>
-  <div class="flex min-h-screen flex-col">
+  <div class="flex min-h-screen flex-col dark:[color-scheme:dark]">
     <v-navbar
       position="sticky"
       class="flex items-center justify-between py-2 px-4"
@@ -39,10 +39,10 @@
     <div class="flex flex-1 justify-between">
       <!-- icons -->
 
-      <div class="flex w-full flex-1 flex-col">
+      <div class="flex w-full flex-1 flex-col overflow-y-auto max-h-[calc(100vh_-_12rem)]">
         <!-- selected icons -->
 
-        <div class="mx-auto mt-10 w-10/12" v-show="store.selectedIcons.length">
+        <div class="mx-auto w-10/12" v-show="store.selectedIcons.length">
           <icons-main-selected />
         </div>
 
@@ -71,6 +71,10 @@
           <icons-vendor-header vendor="heroicons" />
           <icons-vendor-heroicons @vendor-loaded="handleVendorLoaded" />
         </div>
+
+        <div class="mt-auto">
+          <icons-main-footer />
+        </div>
       </div>
 
       <!-- icons demo -->
@@ -80,9 +84,7 @@
           v-if="isDemoVisible"
           class="relative mx-2 border-l dark:border-dark-700"
         >
-          <div class="sticky top-10">
-            <icons-demo />
-          </div>
+          <icons-demo />
         </div>
       </transition>
     </div>
@@ -95,10 +97,6 @@
       </template>
       <icons-settings />
     </v-sidepanel>
-
-    <div class="mt-auto">
-      <icons-main-footer />
-    </div>
   </div>
 </template>
 
