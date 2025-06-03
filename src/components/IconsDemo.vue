@@ -1,7 +1,7 @@
 <template>
   <div
     class="demo overflow-y-auto overflow-x-hidden mt-6 px-10 max-w-[470px] min-w-[470px]"
-    style="max-height: calc(100vh - 6em)"
+    style="max-height: calc(100vh - 14rem)"
   >
     <!-- demo header -->
 
