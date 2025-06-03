@@ -74,11 +74,11 @@ let button = {
       `,
       secondaryOutline: `
         border
-        text-secondary-400
-        border-secondary-400
-        hover:border-secondary-300
-        hover:text-secondary-300
-        focus:ring-secondary-200
+        text-secondary-500
+        border-secondary-500
+        hover:border-secondary-400
+        hover:text-secondary-400
+        focus:ring-secondary-300
       `,
       warn: `
         text-text-800

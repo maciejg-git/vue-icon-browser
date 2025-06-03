@@ -2,7 +2,7 @@
   <div class="flex min-h-screen flex-col">
     <v-navbar
       position="sticky"
-      class="flex items-center justify-between py-2 px-4 shadow-lg"
+      class="flex items-center justify-between py-2 px-4"
     >
       <span class="ml-2 text-xl font-bold text-gray-700 dark:text-gray-200">
         Vue-icon-browser
@@ -80,7 +80,7 @@
           v-if="isDemoVisible"
           class="relative mx-2 border-l dark:border-dark-700"
         >
-          <div class="sticky top-20">
+          <div class="sticky top-10">
             <icons-demo />
           </div>
         </div>
