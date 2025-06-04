@@ -34,10 +34,11 @@
       <v-button mod-button="special:circle">
         <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
       </v-button>
-      <v-button mod-button="special:equal variant:secondary">
-        <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
-      </v-button>
       <v-button mod-button="shape:circle variant:danger">
+        <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
+        Button
+      </v-button>
+      <v-button mod-button="preset:plain" class="font-semibold text-lg">
         <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
         Button
       </v-button>
@@ -46,10 +47,6 @@
     <!-- buttons second row -->
 
     <div class="demo-section">
-      <v-button mod-button="preset:plain" class="font-semibold text-lg">
-        <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
-        Button
-      </v-button>
       <v-icon
         :name="store.currentIconDemo"
         class="h-6 w-6 text-blue-400 dark:text-blue-400"
