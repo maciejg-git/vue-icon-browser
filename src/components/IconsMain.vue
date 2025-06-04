@@ -5,7 +5,7 @@
       class="flex items-center justify-between py-2 px-4"
     >
       <span class="ml-2 text-xl font-bold text-gray-700 dark:text-gray-200">
-        Vue-icon-browser
+        Icon Browser
       </span>
       <div class="flex items-center px-2">
         <v-button mod-button="preset:plain" @click="store.toggleDarkMode()">
@@ -48,7 +48,11 @@
 
         <div v-if="!store.isAnyVendorLoaded" class="mx-auto my-auto w-10/12">
           <span class="text-xl font-semibold dark:text-gray-300">
-            No icons loaded.
+            No icons loaded. Load icons from:
+            <span @click="store.toggleVendor('bootstrap')" class="text-blue-500 cursor-pointer">Bootstrap</span>,
+            <span @click="store.toggleVendor('mdi')" class="text-blue-500 cursor-pointer">Material Design Icons</span>,
+            <span @click="store.toggleVendor('fontawesome')" class="text-blue-500 cursor-pointer">Font Awesome</span> or
+            <span @click="store.toggleVendor('heroicons')" class="text-blue-500 cursor-pointer">Heroicons</span>.
           </span>
         </div>
 
