@@ -3,7 +3,7 @@ let closeButton = {
     classes: `
       opacity-90
       text-current
-      text-text-200
+      text-text-800
       dark:text-text-300
     `,
     size: {
@@ -51,7 +51,34 @@ let roundCloseButton = {
   }
 }
 
+let closeButtonIcon = {
+  closeButton: {
+    classes: `
+      opacity-90
+      text-current
+      text-text-200
+      dark:text-text-200
+    `,
+    size: {
+      default: `
+        w-5
+        h-5
+      `,
+      small: `
+        w-4
+        h-4
+      `
+    },
+  },
+  wrapper: {
+    classes: `
+      bg-neutral-500
+    `
+  }
+}
+
 export default {
   closeButton,
-  roundCloseButton
+  roundCloseButton,
+  closeButtonIcon,
 }

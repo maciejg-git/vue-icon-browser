@@ -1,7 +1,8 @@
 let divider = {
   divider: {
     classes: `
-      dark:border-dark-700
+      border-gray-200
+      dark:border-dark-600
     `
   }
 }
