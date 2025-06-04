@@ -1,5 +1,7 @@
 <template>
   <div class="px-5">
+    <div class="font-semibold">Icons</div>
+
     <div class="flex items-center my-2">
       <v-checkbox
         id="settings-vendor-prefix"
@@ -22,6 +24,11 @@
         >use kebab-case for icon names</label
       >
     </div>
+
+    <v-divider class="my-4"></v-divider>
+
+    <div class="font-semibold">UI</div>
+
     <div class="flex items-center mt-2">
       <v-checkbox
         id="settings-zoom-on-hover"
