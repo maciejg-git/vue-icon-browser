@@ -19,7 +19,7 @@
       </div>
     </v-navbar>
 
-    <div class="mt-8 flex items-center justify-between">
+    <div class="flex items-center justify-between bg-gradient-to-b from-gray-200 to-white py-8 dark:from-[#2e2e2d] dark:to-[#262625]">
       <!-- filter -->
 
       <div class="mx-10 flex flex-1">
@@ -34,7 +34,7 @@
     </div>
 
     <!-- <v-divider class="my-8 dark:border-neutral-700" /> -->
-    <div class="my-8"></div>
+    <div class="my-4"></div>
 
     <div class="flex flex-1 justify-between">
       <!-- icons -->

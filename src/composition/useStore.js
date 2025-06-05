@@ -1,18 +1,19 @@
 import { defineStore } from 'pinia'
+import Cookies from 'js-cookie'
 
 export const useStore = defineStore('main', {
  state: () => {
     return {
       vendors: ["bootstrap", "mdi", "fontawesome", "heroicons"],
       settings: {
-        vendorPrefix: true,
+        vendorPrefix: (Cookies.get("vendorPrefix") ?? "true") === "true",
         originalNames: false,
-        kebabCase: false,
-        zoomOnHover: false,
+        kebabCase: (Cookies.get("kebabCase") ?? "false") === "true",
+        zoomOnHover: (Cookies.get("zoomOnHover") ?? "false") === "true",
       },
       size: "sm",
       groupBy: false,
-      dark: false,
+      dark: (Cookies.get("dark") ?? "false") === "true",
       bootstrap: {
         active: true,
         loading: false,
@@ -132,6 +133,7 @@ export const useStore = defineStore('main', {
       if (!this.dark) document.documentElement.classList.add("dark");
       else document.documentElement.classList.remove("dark"); 
       this.dark = !this.dark;
+      Cookies.set("dark", this.dark)
     },
   }
 })
