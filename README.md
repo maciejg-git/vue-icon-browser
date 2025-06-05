@@ -33,9 +33,7 @@ Build with: Vue 3, Pinia, [Litewind-vue](https://github.com/maciejg-git/vue-lite
 To do:
 
 - adding custom classes
-- remove vendor attributes from SVG
 - download SVG parsed to object
 - more settings
-- store settings in cookies
 - auto update icons
 - add backend with tags for common icons for better filtering
