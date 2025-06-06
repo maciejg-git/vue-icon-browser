@@ -3,6 +3,7 @@
     class="demo overflow-y-auto overflow-x-hidden mt-6 px-10 max-w-[470px] min-w-[470px]"
     style="max-height: calc(100vh - 14rem)"
   >
+    <v-close-button class="absolute right-4" @click="store.currentIconDemo = null"></v-close-button>
     <!-- demo header -->
 
     <div class="flex items-end gap-x-5 mb-10">
