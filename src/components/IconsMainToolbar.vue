@@ -18,7 +18,7 @@
       </template>
     </div>
 
-    <div class="flex items-center border-l px-2 dark:border-neutral-700">
+    <div class="flex items-center border-l px-2 border-gray-300 dark:border-neutral-700">
       <v-button mod-button="preset:plain" @click="handleToolbarClick('layout')">
         <v-icon
           v-show="store.groupBy"
@@ -35,7 +35,7 @@
       </v-button>
     </div>
 
-    <div class="flex items-center border-l px-2 dark:border-neutral-700">
+    <div class="flex items-center border-l px-2 border-gray-300 dark:border-neutral-700">
       <v-dropdown auto-close-menu :offsetY="5" placement="bottom">
         <template #reference="{ reference, onTrigger }">
           <v-button mod-button="preset:plain" :ref="reference" v-on="onTrigger">
@@ -86,7 +86,7 @@
       </v-dropdown>
     </div>
 
-    <div class="flex items-center border-l px-2 dark:border-neutral-700">
+    <div class="flex items-center border-l px-2 border-gray-300 dark:border-neutral-700">
       <v-button
         mod-button="preset:plain"
         @click="handleToolbarClick('settings')"
@@ -100,7 +100,7 @@
       </v-button>
     </div>
 
-    <div class="flex items-center border-l px-2 dark:border-neutral-700">
+    <div class="flex items-center border-l px-2 border-gray-300 dark:border-neutral-700">
       <template v-for="vendor in store.vendors" :key="vendor">
         <div class="flex items-center px-1 mx-0.5">
           <v-button

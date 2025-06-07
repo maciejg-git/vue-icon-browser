@@ -22,7 +22,7 @@
       </ul>
     </div>
     <div class="flex flex-col items-end text-sm">
-      <div>Vue-icons</div>
+      <div>Icon Browser</div>
       <v-button
         tag="a"
         href="https://github.com/maciejg-git/vue-icons-browser"
