@@ -51,7 +51,7 @@
             SVG
           </v-button>
         </div>
-        <div class="text-gray-600 dark:text-gray-400 my-6 font-semibold">
+        <div class="text-gray-600 dark:text-gray-400 mt-6 mb-2 font-semibold">
           Original {{ store[store.currentIconDemo.$_icon.vendor].name }} SVG
         </div>
         <icons-code :code="SVGstring" language="xml" />
