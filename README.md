@@ -35,7 +35,7 @@ To do:
 - adding custom classes
 - download SVG parsed to object
 - reordering selected icons
-- multiple filter separated with space
+- filtering with multiple tags
 - more settings
 - auto update icons
 - add backend with tags for common icons for better filtering
