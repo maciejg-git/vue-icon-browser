@@ -47,16 +47,10 @@ import Cookies from 'js-cookie'
 
 let store = useStore();
 
-store.$subscribe((state) => {
-  if (state.events.key === "vendorPrefix") {
-    Cookies.set("vendorPrefix", state.events.newValue)
-  }
-  if (state.events.key === "kebabCase") {
-    Cookies.set("kebabCase", state.events.newValue)
-  }
-  if (state.events.key === "zoomOnHover") {
-    Cookies.set("zoomOnHover", state.events.newValue)
-  }
+store.$subscribe((mutation, state) => {
+  Cookies.set("vendorPrefix", state.settings.vendorPrefix)
+  Cookies.set("kebabCase", state.settings.kebabCase)
+  Cookies.set("zoomOnHover", state.settings.zoomOnHover)
 })
 </script>
 
