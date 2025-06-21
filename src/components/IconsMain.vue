@@ -19,7 +19,7 @@
       </div>
     </v-navbar>
 
-    <div class="flex items-center justify-between bg-gradient-to-b from-gray-200 to-white py-8 dark:from-[#2e2e2d] dark:to-[#262625]">
+    <div class="flex items-center justify-between bg-gradient-to-b from-gray-50 to-white py-8 dark:from-[#2e2e2d] dark:to-[#262625]">
       <!-- filter -->
 
       <div class="mx-10 flex flex-1">
