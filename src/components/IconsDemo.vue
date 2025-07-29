@@ -20,55 +20,39 @@
 
     <!-- buttons -->
 
-    <div class="demo-section">
-      <v-button>
-        <v-icon :name="store.currentIconDemo" class="h-5 w-5 mr-2"></v-icon>
-        Button
-      </v-button>
-      <v-button mod-button="variant:secondary">
-        Button
-        <v-icon :name="store.currentIconDemo" class="h-5 w-5 ml-2"></v-icon>
-      </v-button>
-    </div>
-
-    <div class="demo-section">
-      <v-button mod-button="special:circle">
-        <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
-      </v-button>
-      <v-button mod-button="shape:circle variant:danger">
-        <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
-        Button
-      </v-button>
-      <v-button mod-button="preset:plain" class="font-semibold text-lg">
-        <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
-        Button
-      </v-button>
-    </div>
-
-    <!-- buttons second row -->
-
-    <div class="demo-section">
-      <v-icon
-        :name="store.currentIconDemo"
-        class="h-6 w-6 text-blue-400 dark:text-blue-400"
-      ></v-icon>
-      <v-icon
-        :name="store.currentIconDemo"
-        class="h-6 w-6 text-green-400 dark:text-green-400"
-      ></v-icon>
-      <v-icon
-        :name="store.currentIconDemo"
-        class="h-6 w-6 text-red-400 dark:text-red-400"
-      ></v-icon>
-      <v-icon
-        :name="store.currentIconDemo"
-        class="h-6 w-6 text-gray-400 dark:text-gray-400"
-      ></v-icon>
+    <div class="flex flex-col gap-y-4">
+      <div class="flex items-center gap-x-4">
+        <v-button>
+          <v-icon :name="store.currentIconDemo" class="h-5 w-5 mr-2"></v-icon>
+          Button
+        </v-button>
+        <v-button mod-button="variant:secondary">
+          Button
+          <v-icon :name="store.currentIconDemo" class="h-5 w-5 ml-2"></v-icon>
+        </v-button>
+        <v-button mod-button="variant:secondaryOutline">
+          <v-icon :name="store.currentIconDemo" class="h-5 w-5 mr-2"></v-icon>
+          Button
+        </v-button>
+      </div>
+      <div class="flex items-center gap-x-4">
+        <v-button mod-button="special:circle">
+          <v-icon :name="store.currentIconDemo" class="h-6 w-6"></v-icon>
+        </v-button>
+        <v-button mod-button="shape:circle variant:danger">
+          <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
+          Button
+        </v-button>
+        <v-button mod-button="preset:plain" class="font-semibold text-lg">
+          <v-icon :name="store.currentIconDemo" class="h-6 w-6 mr-2"></v-icon>
+          Button
+        </v-button>
+      </div>
     </div>
 
     <!-- input -->
 
-    <div class="demo-section">
+    <div class="flex items-center gap-x-4 my-10">
       <div class="relative flex items-center">
         <v-input placeholder="Search" :icon="store.currentIconDemo"></v-input>
       </div>
