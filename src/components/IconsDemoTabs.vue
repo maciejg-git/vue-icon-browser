@@ -147,12 +147,12 @@ let downloadSVG = async () => {
 };
 
 let downloadNormalizedSVG = async () => {
-  let { url, file } = getSVGurl();
+  let { normalizedUrl, normalizedFile } = getSVGurl();
 
-  let res = await fetch(url);
+  let res = await fetch(normalizedUrl);
   res = await res.text();
 
-  download(file, res);
+  download(normalizedFile, res);
 };
 
 // vue component
